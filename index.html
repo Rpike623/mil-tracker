@@ -35,6 +35,16 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;backgrou
 .news-card.alert .nc-src{color:var(--red)}
 .news-card.alert{border-left:2px solid var(--red);padding-left:8px}
 
+/* X / OSINT feed */
+.x-tab{background:#111827;border:1px solid var(--border2);color:var(--muted);padding:2px 7px;border-radius:3px;cursor:pointer;font-size:10px;white-space:nowrap}
+.x-tab:hover{color:var(--text)}.x-tab.on{border-color:#1d9bf0;color:#1d9bf0}
+.x-post{padding:8px 10px;border-bottom:1px solid var(--border);font-size:11px;line-height:1.45;cursor:pointer;transition:background .15s}
+.x-post:hover{background:rgba(29,155,240,.05)}
+.x-post .xp-meta{font-size:10px;color:var(--muted);margin-bottom:3px;display:flex;gap:6px}
+.x-post .xp-handle{color:#1d9bf0;font-weight:600}
+.x-post .xp-text{color:var(--text)}
+.x-post .xp-img{max-width:100%;max-height:80px;border-radius:4px;margin-top:5px;object-fit:cover}
+
 /* Polymarket cards */
 .poly-card{min-width:175px;max-width:175px;padding:8px 10px;border-right:1px solid var(--border);flex-shrink:0;display:flex;flex-direction:column;gap:4px;cursor:pointer;transition:background .15s;text-decoration:none}
 .poly-card:hover{background:rgba(59,130,246,.06)}
@@ -273,6 +283,15 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;backgrou
   </div>
 
 </div>
+
+  <!-- X / OSINT ACCOUNTS WIDGET -->
+  <div style="width:420px;flex-shrink:0;border-right:1px solid var(--border);display:flex;flex-direction:column;overflow:hidden">
+    <div style="flex-shrink:0;padding:6px 10px;background:rgba(0,0,0,.3);border-bottom:1px solid var(--border);font-size:10px;font-weight:700;letter-spacing:.5px;color:#6b7a9e;text-transform:uppercase;display:flex;align-items:center;gap:6px">
+      𝕏 <span style="flex:1">OSINT Accounts</span>
+      <span id="x-account-tabs" style="display:flex;gap:4px"></span>
+    </div>
+    <div style="flex:1;overflow-y:auto;overflow-x:hidden" id="xFeed"></div>
+  </div>
 
   <!-- NEWS STRIP -->
   <div style="flex:1;display:flex;flex-direction:column;overflow:hidden">
@@ -993,12 +1012,93 @@ async function fetchPolymarket(){
 // ════════════════════════════════════════
 // INIT
 // ════════════════════════════════════════
+
+// ════════════════════════════════════════
+// X / OSINT ACCOUNTS FEED
+// ════════════════════════════════════════
+const OSINT_ACCOUNTS = [
+  { handle: 'Osint613',      label: '@Osint613',    desc: 'Open Source Intel' },
+  { handle: 'IntelCrab',     label: '@IntelCrab',   desc: 'Intel Crab' },
+  { handle: 'RALee85',       label: '@RALee85',     desc: 'Rob Lee (Defense)' },
+  { handle: 'WarMonitor3',   label: '@WarMonitor3', desc: 'War Monitor' },
+  { handle: 'GeoConfirmed',  label: '@GeoConf',     desc: 'GeoConfirmed' },
+  { handle: 'oryxspioenkop', label: '@Oryx',        desc: 'Equipment losses' },
+];
+
+let xCurrentHandle = OSINT_ACCOUNTS[0].handle;
+let xPostCache = {};
+
+function buildXTabs(){
+  const tabsEl = document.getElementById('x-account-tabs');
+  if(!tabsEl) return;
+  tabsEl.innerHTML = OSINT_ACCOUNTS.map(a =>
+    `<span class="x-tab${a.handle===xCurrentHandle?' on':''}" onclick="switchXAccount('${a.handle}')">${a.label}</span>`
+  ).join('');
+}
+
+function switchXAccount(handle){
+  xCurrentHandle = handle;
+  buildXTabs();
+  if(xPostCache[handle]) renderXFeed(handle, xPostCache[handle]);
+  else fetchXAccount(handle);
+}
+
+async function fetchXAccount(handle){
+  const feed = document.getElementById('xFeed');
+  if(!xPostCache[handle] && feed) feed.innerHTML = `<div style="padding:12px;color:#6b7a9e;font-size:11px">Loading @${handle}...</div>`;
+  try {
+    const rssUrl = 'https://nitter.net/' + handle + '/rss';
+    const proxied = 'https://api.allorigins.win/raw?url=' + encodeURIComponent(rssUrl);
+    const r = await fetch(proxied, { signal: AbortSignal.timeout(10000) });
+    if(!r.ok) throw new Error(r.status);
+    const txt = await r.text();
+    const doc = new DOMParser().parseFromString(txt, 'text/xml');
+    const posts = [...doc.querySelectorAll('item')].slice(0,20).map(i => ({
+      text: (i.querySelector('title')?.textContent || '').trim(),
+      link: (i.querySelector('link')?.textContent || '#').trim(),
+      date: new Date(i.querySelector('pubDate')?.textContent || Date.now()),
+    })).filter(p => p.text);
+    xPostCache[handle] = posts;
+    if(handle === xCurrentHandle) renderXFeed(handle, posts);
+  } catch(e) {
+    if(handle === xCurrentHandle && feed)
+      feed.innerHTML = `<div style="padding:12px;color:#6b7a9e;font-size:11px">Could not load @${handle}</div>`;
+  }
+}
+
+function renderXFeed(handle, posts){
+  if(handle !== xCurrentHandle) return;
+  const feed = document.getElementById('xFeed');
+  if(!feed) return;
+  if(!posts.length){ feed.innerHTML = '<div style="padding:12px;color:#6b7a9e;font-size:11px">No posts</div>'; return; }
+  const acct = OSINT_ACCOUNTS.find(a => a.handle === handle);
+  feed.innerHTML = posts.map(p => {
+    const ago = getTimeAgo(p.date);
+    const tw = p.link.replace('nitter.net','twitter.com').replace('#m','');
+    return `<div class="x-post" onclick="window.open('${tw}','_blank')">
+      <div class="xp-meta"><span class="xp-handle">@${handle}</span><span>${acct?.desc||''}</span><span style="margin-left:auto">${ago}</span></div>
+      <div class="xp-text">${p.text}</div>
+    </div>`;
+  }).join('');
+}
+
+function initXFeed(){
+  buildXTabs();
+  fetchXAccount(xCurrentHandle);
+  setTimeout(() => {
+    OSINT_ACCOUNTS.filter(a => a.handle !== xCurrentHandle).forEach((a,i) => {
+      setTimeout(() => fetchXAccount(a.handle), i * 1000);
+    });
+  }, 2000);
+}
 fetchData();
 fetchAllNews();
 fetchPolymarket();
+initXFeed();
 setInterval(fetchData, 30000);
 setInterval(fetchAllNews, 300000);
-setInterval(fetchPolymarket, 300000); // Polymarket every 5 min
+setInterval(fetchPolymarket, 300000);
+setInterval(() => { xPostCache={}; initXFeed(); }, 300000); // refresh X every 5 min
 
 switchTab('news');
 </script>
