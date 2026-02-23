@@ -25,12 +25,6 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;backgrou
 .w-stats{grid-column:3;grid-row:1}
 .w-activity{grid-column:2;grid-row:2}
 .w-log{grid-column:3;grid-row:2}
-/* Mobile: all widgets full width, stacked */
-@media(max-width:768px){
-  .w-map{grid-column:1;grid-row:auto}
-  .w-zones,.w-stats,.w-activity,.w-log{grid-column:1;grid-row:auto}
-  .dashboard{grid-template-columns:1fr;grid-template-rows:none;height:auto}
-}
 
 /* News + Poly cards */
 .news-card{min-width:220px;max-width:220px;padding:8px 10px;border-right:1px solid var(--border);cursor:pointer;transition:background .15s;flex-shrink:0;display:flex;flex-direction:column;justify-content:space-between}
@@ -182,24 +176,21 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;backgrou
 
 /* Responsive */
 @media(max-width:768px){
-  /* Stack everything vertically on mobile */
-  body{overflow-y:auto;overflow-x:hidden}
-  .dashboard{display:flex;flex-direction:column;height:auto;min-height:0}
-  .w-map{height:60vh;min-height:280px;position:relative;flex-shrink:0}
-  .w-zones,.w-stats,.w-activity,.w-log{height:220px;flex-shrink:0}
-  /* Bottom bar becomes vertical stack */
-  div[style*="height:175px"]{height:auto!important;flex-direction:column!important}
-  div[style*="width:380px"]{width:100%!important;height:200px;border-right:none!important;border-bottom:1px solid var(--border)}
-  div[style*="width:420px"]{width:100%!important;height:220px;border-right:none!important;border-bottom:1px solid var(--border)}
-  /* Topbar wraps nicely */
-  .topbar{padding:5px 8px}
+  body{overflow-y:auto;overflow-x:hidden;height:auto}
+  .dashboard{display:block;height:auto}
+  /* Map widget: explicit height so Leaflet can render */
+  .w-map{height:55vmax;min-height:300px;max-height:70vh;position:relative;display:block}
+  #map{position:absolute;top:0;left:0;right:0;bottom:0}
+  .w-zones,.w-stats,.w-activity,.w-log{height:220px;display:flex;flex-direction:column}
+  .topbar{padding:5px 8px;position:sticky;top:0;z-index:9999}
   .tb-btn{padding:4px 6px;font-size:10px}
   .tb-search{width:90px}
+  .tb-sep{display:none}
   .tb-label{display:none}
-  /* Info panel full width on mobile */
   .infopanel{left:8px!important;right:8px!important;width:auto!important;bottom:8px!important}
-  /* Region buttons smaller */
-  .region-btns button{font-size:9px;padding:3px 6px}
+  .region-btns{bottom:8px}
+  .region-btns button{font-size:9px;padding:3px 5px}
+  .map-legend{display:none}
 }
 </style>
 </head>
@@ -284,10 +275,10 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;backgrou
     <div class="widget-body" id="pane-activity"></div>
   </div>
 
-  <!-- EVENT LOG WIDGET -->
+  <!-- THREAT INDICATORS WIDGET -->
   <div class="widget w-log">
-    <div class="widget-header">📋 <span class="wh-title">Event Log</span><span class="wh-count" id="log-count">0</span></div>
-    <div class="widget-body" id="pane-log"></div>
+    <div class="widget-header">🎯 <span class="wh-title">Threat Indicators</span><span class="wh-count" id="threat-level" style="color:#22c55e">LOW</span></div>
+    <div class="widget-body" id="pane-threat"></div>
   </div>
 
 </div>
@@ -677,6 +668,7 @@ function render(){
   updateStatsPane(counts,typeCounts,total);
   updateAlertsPane(visible);
   updateActivityPane(visible);
+  renderThreat(visible);
 }
 
 // ════════════════════════════════════════
@@ -1113,14 +1105,147 @@ function initXFeed(){
     });
   }, 2000);
 }
+
+// ════════════════════════════════════════
+// THREAT INDICATOR ENGINE
+// ════════════════════════════════════════
+// Scores observable signals to estimate likelihood of imminent military action
+
+const THREAT_SIGNALS = [
+  // Aircraft-based signals
+  { id:'tanker_density',  label:'Aerial refueling activity',       weight:15, desc:'High tanker count = extended range ops being prepped' },
+  { id:'isr_density',     label:'ISR/Recon concentration',         weight:20, desc:'Surge in recon = active target acquisition' },
+  { id:'adversary_active',label:'Adversary aircraft airborne',     weight:25, desc:'Iran/Russia/China military flights visible' },
+  { id:'bomber_activity', label:'Strategic bomber flights',        weight:30, desc:'B-52/B-1/TU-95/H-6 airborne = escalation signal' },
+  { id:'zone_intrusion',  label:'Aircraft in alert zones',         weight:20, desc:'Flights in Hormuz/Taiwan Strait/etc.' },
+  { id:'transport_surge', label:'Airlift surge (C-17/C-130)',      weight:10, desc:'Rapid troop/equipment movement' },
+  { id:'electronic_ops',  label:'EA/EW aircraft active',           weight:15, desc:'Electronic attack = pre-strike jamming prep' },
+];
+
+let threatHistory = []; // rolling scores for trend
+
+function computeThreat(visible){
+  let score = 0;
+  const signals = [];
+  const adversary = ['iran','russia','china'];
+
+  const tankers    = visible.filter(ac => classifyType(ac) === 'tanker').length;
+  const isr        = visible.filter(ac => classifyType(ac) === 'recon').length;
+  const advActive  = visible.filter(ac => adversary.includes(getGroup(ac.hex))).length;
+  const bombers    = visible.filter(ac => classifyType(ac) === 'bomber').length;
+  const transports = visible.filter(ac => classifyType(ac) === 'transport').length;
+  const ea         = visible.filter(ac => (ac.t||'').toUpperCase().match(/^EA|^EC|^EF|^EP/)).length;
+  const inZones    = ZONES.reduce((sum, z) => sum + visible.filter(ac => inZone(ac, z)).length, 0);
+
+  const checks = [
+    { id:'tanker_density',   active: tankers >= 3,   value: Math.min(tankers, 10),   max: 10 },
+    { id:'isr_density',      active: isr >= 2,        value: Math.min(isr, 8),        max: 8  },
+    { id:'adversary_active', active: advActive >= 1,  value: Math.min(advActive, 6),  max: 6  },
+    { id:'bomber_activity',  active: bombers >= 1,    value: Math.min(bombers, 4),    max: 4  },
+    { id:'zone_intrusion',   active: inZones >= 1,    value: Math.min(inZones, 8),    max: 8  },
+    { id:'transport_surge',  active: transports >= 8, value: Math.min(transports,20), max: 20 },
+    { id:'electronic_ops',   active: ea >= 1,         value: Math.min(ea, 5),         max: 5  },
+  ];
+
+  checks.forEach(c => {
+    const sig = THREAT_SIGNALS.find(s => s.id === c.id);
+    if(!sig) return;
+    const contrib = c.active ? Math.round((c.value / c.max) * sig.weight) : 0;
+    score += contrib;
+    signals.push({ ...sig, active: c.active, contrib, raw: c.value });
+  });
+
+  // Normalize to 0-100
+  const maxPossible = THREAT_SIGNALS.reduce((s,sig) => s + sig.weight, 0);
+  const pct = Math.min(100, Math.round((score / maxPossible) * 100));
+
+  threatHistory.push({ t: Date.now(), pct });
+  if(threatHistory.length > 20) threatHistory.shift();
+
+  return { pct, signals, tankers, isr, advActive, bombers };
+}
+
+function threatColor(pct){
+  if(pct >= 70) return '#ef4444';
+  if(pct >= 45) return '#f97316';
+  if(pct >= 25) return '#eab308';
+  return '#22c55e';
+}
+function threatLabel(pct){
+  if(pct >= 70) return 'HIGH';
+  if(pct >= 45) return 'ELEVATED';
+  if(pct >= 25) return 'GUARDED';
+  return 'LOW';
+}
+
+function renderThreat(visible){
+  const { pct, signals, tankers, isr, advActive, bombers } = computeThreat(visible);
+  const col = threatColor(pct);
+  const lbl = threatLabel(pct);
+
+  // Update header badge
+  const badge = document.getElementById('threat-level');
+  if(badge){ badge.textContent = lbl; badge.style.color = col; badge.style.borderColor = col; }
+
+  // Trend arrow
+  const prev = threatHistory.length >= 2 ? threatHistory[threatHistory.length-2].pct : pct;
+  const trend = pct > prev + 3 ? '↑' : pct < prev - 3 ? '↓' : '→';
+  const trendCol = pct > prev + 3 ? '#ef4444' : pct < prev - 3 ? '#22c55e' : '#6b7a9e';
+
+  let h = `
+    <div style="padding:10px 12px;border-bottom:1px solid var(--border)">
+      <div style="display:flex;align-items:center;gap:8px;margin-bottom:6px">
+        <div style="font-size:28px;font-weight:800;color:${col}">${pct}<span style="font-size:14px">/100</span></div>
+        <div>
+          <div style="font-size:13px;font-weight:700;color:${col}">${lbl}</div>
+          <div style="font-size:11px;color:${trendCol}">${trend} Trend</div>
+        </div>
+        <div style="flex:1;height:8px;background:#111827;border-radius:4px;overflow:hidden;margin-left:8px">
+          <div style="height:100%;width:${pct}%;background:${col};border-radius:4px;transition:width .5s"></div>
+        </div>
+      </div>
+      <div style="font-size:10px;color:#6b7a9e">Based on ${acData.filter(ac=>ac.lat).length} tracked aircraft • ${new Date().toLocaleTimeString()}</div>
+    </div>`;
+
+  // Signal breakdown
+  h += `<div style="padding:6px 12px 4px;font-size:10px;color:#6b7a9e;text-transform:uppercase;letter-spacing:.5px">Signal Breakdown</div>`;
+  signals.sort((a,b) => b.contrib - a.contrib).forEach(s => {
+    const sigCol = s.active ? (s.contrib >= 15 ? '#ef4444' : s.contrib >= 8 ? '#f97316' : '#eab308') : '#3a4560';
+    const icon = s.active ? '🔴' : '⚪';
+    h += `<div style="padding:5px 12px;border-bottom:1px solid var(--border);display:flex;align-items:center;gap:6px">
+      <span style="font-size:11px">${icon}</span>
+      <div style="flex:1">
+        <div style="font-size:11px;color:${s.active ? '#e0e8ff' : '#4a5580'}">${s.label}</div>
+        <div style="font-size:10px;color:#6b7a9e">${s.desc}</div>
+      </div>
+      <span style="font-size:11px;font-weight:700;color:${sigCol}">${s.active ? '+'+s.contrib : '0'}</span>
+    </div>`;
+  });
+
+  // Quick stats
+  h += `<div style="padding:8px 12px;font-size:11px;display:flex;flex-wrap:wrap;gap:8px;border-top:1px solid var(--border)">
+    <span style="color:#c084fc">⛽ ${tankers} tankers</span>
+    <span style="color:#22d3ee">🔍 ${isr} ISR</span>
+    <span style="color:#ef4444">⚔️ ${advActive} adversary</span>
+    <span style="color:#f87171">💣 ${bombers} bombers</span>
+  </div>`;
+
+  const pane = document.getElementById('pane-threat');
+  if(pane) pane.innerHTML = h;
+}
 fetchData();
 fetchAllNews();
 fetchPolymarket();
 initXFeed();
+// Fix Leaflet map size on mobile after layout settles
+setTimeout(() => map.invalidateSize(), 300);
+setTimeout(() => map.invalidateSize(), 1000);
+window.addEventListener('resize', () => map.invalidateSize());
+
 setInterval(fetchData, 30000);
 setInterval(fetchAllNews, 300000);
 setInterval(fetchPolymarket, 300000);
-setInterval(() => { xPostCache={}; initXFeed(); }, 300000); // refresh X every 5 min
+setInterval(() => { xPostCache={}; initXFeed(); }, 300000);
 
 switchTab('news');
 </script>
