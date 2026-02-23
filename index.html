@@ -225,6 +225,9 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;backgrou
   <button class="tb-btn tile-btn" data-t="terrain" onclick="setTile('terrain')">🗺️ Terrain</button>
   <div class="tb-sep"></div>
   <button class="tb-btn" id="btn-bases" onclick="toggleBases()">📍 Bases</button>
+  <button class="tb-btn" id="btn-missiles" onclick="toggleMissiles()">🚀 Ranges</button>
+  <button class="tb-btn" id="btn-nuclear" onclick="toggleNuclear()">☢️ WMD Sites</button>
+  <button class="tb-btn" id="btn-airdef" onclick="toggleAirDef()">🛡️ Air Defense</button>
   <button class="tb-btn" id="btn-notif" onclick="toggleNotifications()">🔔 Alerts</button>
 </div>
 
@@ -1232,6 +1235,151 @@ function renderThreat(visible){
 
   const pane = document.getElementById('pane-threat');
   if(pane) pane.innerHTML = h;
+}
+
+// ════════════════════════════════════════
+// MISSILE RANGES
+// ════════════════════════════════════════
+const MISSILE_SYSTEMS = [
+  // Iran
+  { name:'Shahab-3 MRBM (Iran)', lat:35.7, lon:51.4, radiusKm:1300, color:'#ef4444', country:'iran' },
+  { name:'Khorramshahr IRBM (Iran)', lat:35.7, lon:51.4, radiusKm:2000, color:'#dc2626', country:'iran' },
+  { name:'Qadr ICBM-class (Iran)', lat:35.7, lon:51.4, radiusKm:3000, color:'#b91c1c', country:'iran' },
+  // Russia
+  { name:'RS-28 Sarmat ICBM (Russia)', lat:52.0, lon:37.0, radiusKm:18000, color:'#f97316', country:'russia' },
+  { name:'Iskander SRBM (Russia/Syria)', lat:35.4, lon:35.9, radiusKm:500, color:'#fb923c', country:'russia' },
+  { name:'Kinzhal hypersonic (Russia)', lat:52.0, lon:37.0, radiusKm:2000, color:'#f97316', country:'russia' },
+  // China
+  { name:'DF-41 ICBM (China)', lat:35.0, lon:104.0, radiusKm:14000, color:'#eab308', country:'china' },
+  { name:'DF-21D ASBM (China)', lat:35.0, lon:104.0, radiusKm:1800, color:'#ca8a04', country:'china' },
+  { name:'DF-17 Hypersonic (China)', lat:35.0, lon:104.0, radiusKm:2000, color:'#eab308', country:'china' },
+];
+
+let missileVisible = false;
+let missileLayers = [];
+
+function toggleMissiles(){
+  missileVisible = !missileVisible;
+  document.getElementById('btn-missiles').classList.toggle('on', missileVisible);
+  if(missileVisible){
+    MISSILE_SYSTEMS.forEach(m => {
+      // Convert km radius to meters for Leaflet circle
+      const circle = L.circle([m.lat, m.lon], {
+        radius: m.radiusKm * 1000,
+        color: m.color, weight: 1, fillColor: m.color, fillOpacity: 0.04, opacity: 0.5,
+        interactive: false, dashArray: '6 4'
+      }).addTo(map);
+      const label = L.marker([m.lat, m.lon], {
+        icon: L.divIcon({
+          html: `<div style="color:${m.color};font-size:13px;text-shadow:0 0 5px #000">🚀</div>`,
+          className:'', iconSize:[13,13], iconAnchor:[6,6]
+        })
+      }).bindTooltip(`${m.name}<br>${m.radiusKm.toLocaleString()} km range`, {className:'dark-tooltip', direction:'top'}).addTo(map);
+      missileLayers.push(circle, label);
+    });
+  } else {
+    missileLayers.forEach(l => map.removeLayer(l));
+    missileLayers = [];
+  }
+}
+
+// ════════════════════════════════════════
+// NUCLEAR / WMD SITES
+// ════════════════════════════════════════
+const NUCLEAR_SITES = [
+  // Iran
+  { name:'Fordow FEP (Enrichment)', lat:34.885, lon:50.996, country:'iran', type:'Enrichment', risk:'HIGH' },
+  { name:'Natanz FEP (Enrichment)', lat:33.725, lon:51.727, country:'iran', type:'Enrichment', risk:'HIGH' },
+  { name:'Isfahan UCF',             lat:32.625, lon:51.671, country:'iran', type:'Conversion',  risk:'MED'  },
+  { name:'Arak Heavy Water',        lat:34.144, lon:49.230, country:'iran', type:'Reactor',     risk:'MED'  },
+  { name:'Bushehr Nuclear Plant',   lat:28.829, lon:50.888, country:'iran', type:'Reactor',     risk:'LOW'  },
+  { name:'Parchin Military Complex',lat:35.522, lon:51.773, country:'iran', type:'Suspected WMD',risk:'HIGH'},
+  // Russia
+  { name:'Seversk (Tomsk-7)',       lat:56.585, lon:84.869, country:'russia', type:'Nuclear Facility', risk:'HIGH' },
+  { name:'Zheleznogorsk',           lat:56.249, lon:93.529, country:'russia', type:'Nuclear Facility', risk:'HIGH' },
+  { name:'Sarov (Arzamas-16)',      lat:54.931, lon:43.321, country:'russia', type:'Weapons Lab',      risk:'HIGH' },
+  { name:'Plesetsk Cosmodrome',     lat:62.925, lon:40.577, country:'russia', type:'ICBM Launch',      risk:'HIGH' },
+  { name:'Kapustin Yar',            lat:48.578, lon:45.790, country:'russia', type:'Missile Test',     risk:'MED'  },
+  // China
+  { name:'Lop Nor Test Site',       lat:40.710, lon:88.322, country:'china', type:'Nuclear Test',     risk:'HIGH' },
+  { name:'Jiuquan Launch Center',   lat:40.960, lon:100.288,country:'china', type:'ICBM Launch',      risk:'HIGH' },
+  { name:'Taiyuan Launch Center',   lat:38.849, lon:111.608,country:'china', type:'ICBM Launch',      risk:'HIGH' },
+  { name:'Xichang Launch Center',   lat:28.246, lon:102.027,country:'china', type:'ICBM Launch',      risk:'MED'  },
+];
+
+let nuclearVisible = false;
+let nuclearMarkers = [];
+const RISK_COL = { HIGH:'#ef4444', MED:'#f97316', LOW:'#eab308' };
+
+function toggleNuclear(){
+  nuclearVisible = !nuclearVisible;
+  document.getElementById('btn-nuclear').classList.toggle('on', nuclearVisible);
+  if(nuclearVisible){
+    NUCLEAR_SITES.forEach(s => {
+      const col = RISK_COL[s.risk] || '#64748b';
+      const flag = FLAGS[s.country] || '🌐';
+      const m = L.marker([s.lat, s.lon], {
+        icon: L.divIcon({
+          html: `<div style="color:${col};font-size:15px;text-shadow:0 0 6px ${col}80">☢️</div>`,
+          className:'', iconSize:[15,15], iconAnchor:[7,7]
+        })
+      }).bindTooltip(`${flag} ${s.name}<br>${s.type} — Risk: <b style="color:${col}">${s.risk}</b>`, {className:'dark-tooltip', direction:'top'}).addTo(map);
+      nuclearMarkers.push(m);
+    });
+  } else {
+    nuclearMarkers.forEach(m => map.removeLayer(m));
+    nuclearMarkers = [];
+  }
+}
+
+// ════════════════════════════════════════
+// AIR DEFENSE SYSTEMS
+// ════════════════════════════════════════
+const AIR_DEFENSE = [
+  // Iran
+  { name:'Bavar-373 (Tehran)',     lat:35.7,  lon:51.4,  country:'iran',   rangeKm:200 },
+  { name:'S-300PMU-2 (Khordad)',   lat:34.0,  lon:50.0,  country:'iran',   rangeKm:150 },
+  { name:'Bavar-373 (Natanz)',     lat:33.7,  lon:51.7,  country:'iran',   rangeKm:200 },
+  { name:'S-300 (Bushehr)',        lat:28.8,  lon:50.9,  country:'iran',   rangeKm:150 },
+  // Russia
+  { name:'S-400 (Moscow)',         lat:55.75, lon:37.6,  country:'russia', rangeKm:400 },
+  { name:'S-400 (Kaliningrad)',    lat:54.71, lon:20.51, country:'russia', rangeKm:400 },
+  { name:'S-500 (Central Russia)', lat:52.0,  lon:37.0,  country:'russia', rangeKm:600 },
+  { name:'S-400 (Hmeimim Syria)',  lat:35.4,  lon:35.9,  country:'russia', rangeKm:400 },
+  { name:'S-400 (Crimea)',         lat:44.95, lon:34.10, country:'russia', rangeKm:400 },
+  // China
+  { name:'HQ-9B (Beijing)',        lat:39.9,  lon:116.4, country:'china',  rangeKm:200 },
+  { name:'HQ-9B (Fiery Cross)',    lat:9.55,  lon:112.9, country:'china',  rangeKm:200 },
+  { name:'HQ-9B (Mischief Reef)',  lat:9.91,  lon:115.5, country:'china',  rangeKm:200 },
+  { name:'S-400 (Xinjiang)',       lat:43.0,  lon:87.0,  country:'china',  rangeKm:400 },
+];
+
+let airDefVisible = false;
+let airDefLayers = [];
+
+function toggleAirDef(){
+  airDefVisible = !airDefVisible;
+  document.getElementById('btn-airdef').classList.toggle('on', airDefVisible);
+  if(airDefVisible){
+    AIR_DEFENSE.forEach(s => {
+      const col = GCOL[s.country] || '#64748b';
+      const circle = L.circle([s.lat, s.lon], {
+        radius: s.rangeKm * 1000,
+        color: col, weight: 1, fillColor: col, fillOpacity: 0.08, opacity: 0.5,
+        interactive: false, dashArray: '3 5'
+      }).addTo(map);
+      const label = L.marker([s.lat, s.lon], {
+        icon: L.divIcon({
+          html: `<div style="color:${col};font-size:13px;text-shadow:0 0 5px #000">🛡️</div>`,
+          className:'', iconSize:[13,13], iconAnchor:[6,6]
+        })
+      }).bindTooltip(`${FLAGS[s.country]||'🌐'} ${s.name}<br>Range: ${s.rangeKm} km`, {className:'dark-tooltip',direction:'top'}).addTo(map);
+      airDefLayers.push(circle, label);
+    });
+  } else {
+    airDefLayers.forEach(l => map.removeLayer(l));
+    airDefLayers = [];
+  }
 }
 fetchData();
 fetchAllNews();
