@@ -3,478 +3,424 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Military Tracker — PikeClaw ⚡</title>
-<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+<title>OSINT Military Tracker — PikeClaw ⚡</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
 <style>
-  * { margin: 0; padding: 0; box-sizing: border-box; }
-  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #0a0e17; color: #e0e0e0; }
-  #map { width: 100%; height: 100vh; }
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;background:#0a0e17;color:#e0e0e0;overflow:hidden}
+#map{position:absolute;top:0;left:0;right:0;bottom:42px;z-index:1}
 
-  /* Controls overlay */
-  .controls {
-    position: absolute; top: 12px; left: 60px; z-index: 1000;
-    display: flex; gap: 6px; align-items: center; flex-wrap: wrap; max-width: calc(100% - 80px);
-  }
-  .controls button {
-    background: #1a1f2e; border: 1px solid #2a3045; color: #e0e0e0;
-    padding: 7px 12px; border-radius: 6px; cursor: pointer; font-size: 12px;
-    transition: all 0.2s; white-space: nowrap;
-  }
-  .controls button:hover { background: #2a3045; border-color: #4a5580; }
-  .controls button.active { background: #1e3a5f; border-color: #3b82f6; color: #60a5fa; }
-  .controls .separator { width: 1px; height: 24px; background: #2a3045; margin: 0 2px; }
+/* Top bar */
+.topbar{position:absolute;top:0;left:0;right:0;z-index:1000;background:rgba(10,14,23,0.95);border-bottom:1px solid #1a1f2e;padding:8px 12px;display:flex;gap:6px;align-items:center;flex-wrap:wrap;backdrop-filter:blur(8px)}
+.topbar .title{font-weight:700;font-size:14px;color:#60a5fa;margin-right:8px;white-space:nowrap}
+.topbar button{background:#1a1f2e;border:1px solid #2a3045;color:#e0e0e0;padding:5px 10px;border-radius:5px;cursor:pointer;font-size:11px;transition:all .2s;white-space:nowrap}
+.topbar button:hover{background:#2a3045;border-color:#4a5580}
+.topbar button.active{background:#1e3a5f;border-color:#3b82f6;color:#60a5fa}
+.topbar button.iran-active{background:#4a1e1e;border-color:#ef4444;color:#f87171}
+.topbar button.russia-active{background:#4a2a1e;border-color:#dc2626;color:#fca5a5}
+.topbar button.china-active{background:#4a3e1e;border-color:#eab308;color:#fde047}
+.topbar .sep{width:1px;height:20px;background:#2a3045;margin:0 2px}
+.topbar input{background:#111827;border:1px solid #2a3045;color:#e0e0e0;padding:5px 8px;border-radius:5px;font-size:11px;width:130px}
+.topbar input::placeholder{color:#555}
 
-  /* Country filter buttons */
-  .controls button.country-us.active { background: #1e3a5f; border-color: #3b82f6; color: #60a5fa; }
-  .controls button.country-iran.active { background: #4a1e1e; border-color: #ef4444; color: #f87171; }
+/* Stats bar */
+.statsbar{position:absolute;bottom:0;left:0;right:0;z-index:1000;height:42px;background:rgba(10,14,23,0.95);border-top:1px solid #1a1f2e;padding:0 16px;display:flex;gap:18px;align-items:center;font-size:12px;backdrop-filter:blur(8px)}
+.statsbar .st{display:flex;align-items:center;gap:5px}
+.statsbar .st .d{width:7px;height:7px;border-radius:50%}
+.statsbar .st .n{font-weight:600;color:#fff}
+.statsbar .st .l{color:#8892a8}
+.statsbar .upd{margin-left:auto;color:#555e73;font-size:11px}
 
-  /* Stats bar */
-  .stats {
-    position: absolute; bottom: 0; left: 0; right: 0; z-index: 1000;
-    background: rgba(10, 14, 23, 0.92); border-top: 1px solid #1a1f2e;
-    padding: 10px 20px; display: flex; gap: 20px; align-items: center;
-    font-size: 13px; backdrop-filter: blur(8px); flex-wrap: wrap;
-  }
-  .stats .stat { display: flex; align-items: center; gap: 6px; }
-  .stats .stat .dot { width: 8px; height: 8px; border-radius: 50%; }
-  .stats .stat .count { font-weight: 600; color: #fff; }
-  .stats .stat .label { color: #8892a8; }
-  .stats .update-time { margin-left: auto; color: #555e73; }
+/* Info panel */
+.infopanel{position:absolute;top:50px;right:12px;z-index:1001;background:rgba(16,20,32,0.96);border:1px solid #1a1f2e;border-radius:10px;padding:14px;width:290px;display:none;backdrop-filter:blur(8px);max-height:calc(100vh - 110px);overflow-y:auto}
+.infopanel.vis{display:block}
+.infopanel h3{font-size:14px;margin-bottom:6px;color:#fff}
+.infopanel .x{position:absolute;top:6px;right:10px;background:none;border:none;color:#666;cursor:pointer;font-size:18px}
+.infopanel .x:hover{color:#fff}
+.infopanel .f{margin-bottom:4px;font-size:12px}
+.infopanel .f .k{color:#8892a8}
+.infopanel .f .v{color:#e0e0e0;font-weight:500}
 
-  /* Info panel */
-  .info-panel {
-    position: absolute; top: 12px; right: 12px; z-index: 1000;
-    background: rgba(16, 20, 32, 0.95); border: 1px solid #1a1f2e;
-    border-radius: 10px; padding: 16px; min-width: 280px; max-width: 340px;
-    display: none; backdrop-filter: blur(8px);
-  }
-  .info-panel.visible { display: block; }
-  .info-panel h3 { font-size: 15px; margin-bottom: 8px; color: #fff; }
-  .info-panel .close-btn {
-    position: absolute; top: 8px; right: 12px; background: none;
-    border: none; color: #666; cursor: pointer; font-size: 18px;
-  }
-  .info-panel .close-btn:hover { color: #fff; }
-  .info-panel .field { margin-bottom: 6px; font-size: 13px; }
-  .info-panel .field .key { color: #8892a8; }
-  .info-panel .field .val { color: #e0e0e0; font-weight: 500; }
+/* Sidebar */
+.sidebar{position:absolute;top:50px;left:0;bottom:42px;z-index:1001;width:260px;background:rgba(10,14,23,0.96);border-right:1px solid #1a1f2e;backdrop-filter:blur(8px);overflow-y:auto;transform:translateX(-100%);transition:transform .3s}
+.sidebar.open{transform:translateX(0)}
+.sidebar h4{font-size:11px;text-transform:uppercase;color:#8892a8;padding:10px 12px 4px;letter-spacing:.5px}
+.sidebar .zone-item{padding:6px 12px;font-size:12px;display:flex;justify-content:space-between;border-bottom:1px solid #111827}
+.sidebar .zone-item .zn{color:#e0e0e0}
+.sidebar .zone-item .zc{font-weight:600;color:#60a5fa}
+.sidebar .feed-item{padding:5px 12px;font-size:11px;border-bottom:1px solid #111827;color:#ccc}
+.sidebar .feed-item .ff{color:#8892a8}
+.sidebar .bar-row{padding:3px 12px;font-size:11px;display:flex;align-items:center;gap:6px}
+.sidebar .bar-row .bar{height:8px;background:#3b82f6;border-radius:2px;min-width:2px}
+.sidebar .bar-row .bl{color:#8892a8;width:55px;text-align:right;flex-shrink:0}
+.sidebar .bar-row .bc{color:#e0e0e0;width:28px;flex-shrink:0}
+.toggle-sidebar{position:absolute;top:56px;left:4px;z-index:1002;background:#1a1f2e;border:1px solid #2a3045;color:#e0e0e0;width:28px;height:28px;border-radius:5px;cursor:pointer;font-size:14px;display:flex;align-items:center;justify-content:center;transition:left .3s}
+.toggle-sidebar.shifted{left:264px}
 
-  /* Leaflet popup override */
-  .leaflet-popup-content-wrapper { background: #1a1f2e; color: #e0e0e0; border-radius: 8px; }
-  .leaflet-popup-tip { background: #1a1f2e; }
-  .leaflet-popup-content { font-size: 13px; line-height: 1.5; }
+/* Region buttons */
+.region-btns{position:absolute;bottom:50px;left:12px;z-index:1000;display:flex;flex-direction:column;gap:4px}
+.region-btns button{background:rgba(26,31,46,0.9);border:1px solid #2a3045;color:#8892a8;padding:4px 8px;border-radius:4px;cursor:pointer;font-size:10px;text-align:left}
+.region-btns button:hover{color:#e0e0e0;border-color:#4a5580}
 
-  /* Aircraft icon */
-  .aircraft-icon { font-size: 20px; text-shadow: 0 0 6px rgba(0,0,0,0.8); transition: transform 0.3s; }
+/* Alert zone rectangles */
+.alert-zone{opacity:0.15;stroke-opacity:0.6}
 
-  /* Legend */
-  .legend {
-    position: absolute; bottom: 54px; right: 12px; z-index: 1000;
-    background: rgba(16, 20, 32, 0.92); border: 1px solid #1a1f2e;
-    border-radius: 8px; padding: 12px 16px; font-size: 12px;
-    backdrop-filter: blur(8px);
-  }
-  .legend-item { display: flex; align-items: center; gap: 8px; margin-bottom: 4px; }
-  .legend-item .swatch { width: 12px; height: 12px; border-radius: 2px; }
-  .legend-section { font-weight: 600; margin-top: 8px; margin-bottom: 4px; font-size: 11px; text-transform: uppercase; color: #8892a8; }
-  .legend-section:first-child { margin-top: 0; }
+/* Leaflet overrides */
+.leaflet-popup-content-wrapper{background:#1a1f2e;color:#e0e0e0;border-radius:8px}
+.leaflet-popup-tip{background:#1a1f2e}
+.dark-tooltip{background:rgba(16,20,32,0.92)!important;color:#e0e0e0!important;border:1px solid #2a3045!important;border-radius:6px!important;font-size:11px!important;padding:3px 7px!important}
 
-  .loading-overlay {
-    position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
-    z-index: 2000; background: rgba(10,14,23,0.9); padding: 24px 32px;
-    border-radius: 10px; border: 1px solid #2a3045; text-align: center;
-  }
-  .loading-overlay .spinner { font-size: 32px; animation: spin 1s linear infinite; display: inline-block; }
-  @keyframes spin { to { transform: rotate(360deg); } }
+/* Loading */
+.loading{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);z-index:2000;background:rgba(10,14,23,0.9);padding:20px 28px;border-radius:10px;border:1px solid #2a3045;text-align:center}
+.loading .sp{font-size:28px;animation:spin 1s linear infinite;display:inline-block}
+@keyframes spin{to{transform:rotate(360deg)}}
+
+@media(max-width:600px){
+  .topbar{font-size:10px;padding:6px 8px}
+  .topbar button{padding:4px 6px;font-size:10px}
+  .topbar input{width:80px}
+  .sidebar{width:220px}
+  .infopanel{width:240px;right:6px}
+}
 </style>
 </head>
 <body>
 
+<div class="topbar" id="topbar">
+  <span class="title">⚡ OSINT MIL-TRACKER</span>
+  <div class="sep"></div>
+  <button id="bc-all" class="active" onclick="setCF('all')">🌍 All</button>
+  <button id="bc-us" onclick="setCF('us')">🇺🇸</button>
+  <button id="bc-iran" onclick="setCF('iran')">🇮🇷</button>
+  <button id="bc-russia" onclick="setCF('russia')">🇷🇺</button>
+  <button id="bc-china" onclick="setCF('china')">🇨🇳</button>
+  <button id="bc-allied" onclick="setCF('allied')">🤝</button>
+  <div class="sep"></div>
+  <button id="bt-all" class="active" onclick="setTF('all')">All</button>
+  <button id="bt-fighter" onclick="setTF('fighter')">✈️Ftr</button>
+  <button id="bt-transport" onclick="setTF('transport')">🛩️Trn</button>
+  <button id="bt-tanker" onclick="setTF('tanker')">⛽Tnk</button>
+  <button id="bt-recon" onclick="setTF('recon')">🔍ISR</button>
+  <button id="bt-heli" onclick="setTF('heli')">🚁Hel</button>
+  <button id="bt-bomber" onclick="setTF('bomber')">💣Bmb</button>
+  <button id="bt-trainer" onclick="setTF('trainer')">🎓Trn</button>
+  <div class="sep"></div>
+  <input type="text" id="searchBox" placeholder="Search callsign/type..." oninput="doSearch()"/>
+  <button onclick="fetchData()" title="Refresh now">🔄</button>
+</div>
+
+<button class="toggle-sidebar" id="togSidebar" onclick="toggleSidebar()">☰</button>
+
+<div class="sidebar" id="sidebar">
+  <h4>⚠️ Alert Zones</h4>
+  <div id="zoneList"></div>
+  <h4>📊 Country Breakdown</h4>
+  <div id="countryBars"></div>
+  <h4>📈 Type Breakdown</h4>
+  <div id="typeBars"></div>
+  <h4>🔔 Recent Activity</h4>
+  <div id="actFeed"></div>
+</div>
+
 <div id="map"></div>
 
-<div class="controls">
-  <!-- Country filters -->
-  <button id="btn-country-all" class="active" onclick="setCountryFilter('all')">🌍 All</button>
-  <button id="btn-country-us" class="country-us" onclick="setCountryFilter('us')">🇺🇸 US</button>
-  <button id="btn-country-iran" class="country-iran" onclick="setCountryFilter('iran')">🇮🇷 Iran</button>
-  <button id="btn-country-allied" onclick="setCountryFilter('allied')">🤝 Allied</button>
-  <div class="separator"></div>
-  <!-- Type filters -->
-  <button id="btn-all" class="active" onclick="setTypeFilter('all')">All Types</button>
-  <button id="btn-fighter" onclick="setTypeFilter('fighter')">✈️ Fighter</button>
-  <button id="btn-transport" onclick="setTypeFilter('transport')">🛩️ Transport</button>
-  <button id="btn-tanker" onclick="setTypeFilter('tanker')">⛽ Tanker</button>
-  <button id="btn-recon" onclick="setTypeFilter('recon')">🔍 ISR</button>
-  <button id="btn-heli" onclick="setTypeFilter('heli')">🚁 Heli</button>
-  <button id="btn-bomber" onclick="setTypeFilter('bomber')">💣 Bomber</button>
-  <button id="btn-trainer" onclick="setTypeFilter('trainer')">🎓 Trainer</button>
+<div class="infopanel" id="infoP">
+  <button class="x" onclick="closeP()">&times;</button>
+  <h3 id="pTitle">—</h3>
+  <div id="pBody"></div>
 </div>
 
-<div class="info-panel" id="infoPanel">
-  <button class="close-btn" onclick="closePanel()">&times;</button>
-  <h3 id="panelTitle">—</h3>
-  <div id="panelBody"></div>
+<div class="region-btns">
+  <button onclick="goRegion(30,50,5)">🔥 Middle East</button>
+  <button onclick="goRegion(38,-97,4)">🇺🇸 CONUS</button>
+  <button onclick="goRegion(50,15,4)">🇪🇺 Europe</button>
+  <button onclick="goRegion(25,125,4)">🌏 Pacific</button>
+  <button onclick="goRegion(20,0,2)">🌍 Global</button>
 </div>
 
-<div class="legend">
-  <div class="legend-section">Country</div>
-  <div class="legend-item"><div class="swatch" style="background:#3b82f6"></div> 🇺🇸 United States</div>
-  <div class="legend-item"><div class="swatch" style="background:#ef4444"></div> 🇮🇷 Iran</div>
-  <div class="legend-item"><div class="swatch" style="background:#8b5cf6"></div> Allied / Other</div>
-  <div class="legend-section">Aircraft Type</div>
-  <div class="legend-item"><div class="swatch" style="background:#f97316"></div> Fighter/Attack</div>
-  <div class="legend-item"><div class="swatch" style="background:#38bdf8"></div> Transport</div>
-  <div class="legend-item"><div class="swatch" style="background:#c084fc"></div> Tanker</div>
-  <div class="legend-item"><div class="swatch" style="background:#22d3ee"></div> ISR/Patrol</div>
-  <div class="legend-item"><div class="swatch" style="background:#4ade80"></div> Helicopter</div>
-  <div class="legend-item"><div class="swatch" style="background:#f87171"></div> Bomber</div>
-  <div class="legend-item"><div class="swatch" style="background:#facc15"></div> Trainer</div>
-  <div class="legend-item"><div class="swatch" style="background:#64748b"></div> Other</div>
+<div class="statsbar">
+  <div class="st"><div class="d" style="background:#22c55e"></div><span class="n" id="sTotal">—</span><span class="l">total</span></div>
+  <div class="st"><div class="d" style="background:#3b82f6"></div><span class="n" id="sUS">—</span><span class="l">US</span></div>
+  <div class="st"><div class="d" style="background:#ef4444"></div><span class="n" id="sIran">—</span><span class="l">Iran</span></div>
+  <div class="st"><div class="d" style="background:#dc2626"></div><span class="n" id="sRussia">—</span><span class="l">Russia</span></div>
+  <div class="st"><div class="d" style="background:#eab308"></div><span class="n" id="sChina">—</span><span class="l">China</span></div>
+  <div class="st"><div class="d" style="background:#8b5cf6"></div><span class="n" id="sAllied">—</span><span class="l">allied</span></div>
+  <span class="upd" id="updTime">Loading...</span>
 </div>
 
-<div class="stats" id="statsBar">
-  <div class="stat"><div class="dot" style="background:#22c55e"></div><span class="count" id="totalCount">—</span><span class="label">total</span></div>
-  <div class="stat"><div class="dot" style="background:#3b82f6"></div><span class="count" id="usCount">—</span><span class="label">US</span></div>
-  <div class="stat"><div class="dot" style="background:#ef4444"></div><span class="count" id="iranCount">—</span><span class="label">Iran</span></div>
-  <div class="stat"><div class="dot" style="background:#8b5cf6"></div><span class="count" id="allyCount">—</span><span class="label">allied</span></div>
-  <span class="update-time" id="updateTime">Loading...</span>
-</div>
-
-<div class="loading-overlay" id="loadingOverlay">
-  <div class="spinner">✈️</div>
-  <div style="margin-top:8px; color:#8892a8;">Loading military aircraft...</div>
-</div>
+<div class="loading" id="loadOv"><div class="sp">✈️</div><div style="margin-top:6px;color:#8892a8;font-size:13px">Loading military aircraft...</div></div>
 
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <script>
-// ── Map setup ──
-const map = L.map('map', {
-  center: [32, 44], // Center between US and Middle East
-  zoom: 3,
-  zoomControl: true,
-  attributionControl: true,
+// === MAP ===
+const map=L.map('map',{center:[30,50],zoom:5,zoomControl:true});
+L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png',{attribution:'&copy; OSM &copy; CARTO | adsb.lol',subdomains:'abcd',maxZoom:19}).addTo(map);
+
+function goRegion(lat,lon,z){map.setView([lat,lon],z)}
+
+// === COUNTRY RANGES ===
+const CR={
+  us:[[0xA00000,0xAFFFFF]],
+  iran:[[0x730000,0x737FFF]],
+  russia:[[0x100000,0x13FFFF]],
+  china:[[0x780000,0x7BFFFF]],
+  uk:[[0x400000,0x43FFFF]],
+  france:[[0x380000,0x3BFFFF]],
+  germany:[[0x3C0000,0x3FFFFF]],
+  australia:[[0x7C0000,0x7FFFFF]],
+  japan:[[0x840000,0x87FFFF]],
+  korea:[[0x718000,0x71FFFF]],
+  israel:[[0x738000,0x73FFFF]],
+  saudi:[[0x710000,0x717FFF]],
+  turkey:[[0x4B0000,0x4B7FFF]],
+  india:[[0x800000,0x83FFFF]],
+  pakistan:[[0x760000,0x767FFF]],
+  canada:[[0xC00000,0xC3FFFF]],
+  italy:[[0x300000,0x33FFFF]],
+  nato:[[0x480000,0x480FFF]],
+  uae:[[0x896000,0x896FFF]],
+};
+const FLAGS={us:'🇺🇸',iran:'🇮🇷',russia:'🇷🇺',china:'🇨🇳',uk:'🇬🇧',france:'🇫🇷',germany:'🇩🇪',australia:'🇦🇺',japan:'🇯🇵',korea:'🇰🇷',israel:'🇮🇱',saudi:'🇸🇦',turkey:'🇹🇷',india:'🇮🇳',pakistan:'🇵🇰',canada:'🇨🇦',italy:'🇮🇹',nato:'🏛️',uae:'🇦🇪'};
+const CNAMES={us:'United States',iran:'Iran',russia:'Russia',china:'China',uk:'United Kingdom',france:'France',germany:'Germany',australia:'Australia',japan:'Japan',korea:'South Korea',israel:'Israel',saudi:'Saudi Arabia',turkey:'Turkey',india:'India',pakistan:'Pakistan',canada:'Canada',italy:'Italy',nato:'NATO',uae:'UAE'};
+const GCOL={us:'#3b82f6',iran:'#ef4444',russia:'#dc2626',china:'#eab308',allied:'#8b5cf6'};
+
+function getCountry(hex){const h=parseInt(hex,16);for(const[c,rs]of Object.entries(CR))for(const[lo,hi]of rs)if(h>=lo&&h<=hi)return c;return'unknown'}
+function getGroup(hex){const c=getCountry(hex);if(c==='us'||c==='iran'||c==='russia'||c==='china')return c;return'allied'}
+function getFlag(hex){return FLAGS[getCountry(hex)]||'🌐'}
+function getCName(hex){return CNAMES[getCountry(hex)]||'Unknown'}
+function getGCol(hex){return GCOL[getGroup(hex)]||'#64748b'}
+
+// === TYPE CLASSIFICATION ===
+const TYPES={
+  fighter:['F15','F16','F18','F22','F35','FA18','EUFI','A10','AV8B','EA18','F14','F5','SU27','SU30','SU35','MIG29','MIG31','J10','J11','J16','J20','RFAL','TOR'],
+  transport:['C17','C130','C30J','C5','C5M','C12','C40','C37','IL76','AN124','AN12','Y20','A400','C295','C27J','C160'],
+  tanker:['KC10','KC46','KC135','KC130','MRTT','IL78','KC30'],
+  recon:['P8','P3','EP3','RC135','E3','E6','E8','E2','U2','RQ4','MQ9','MQ1','MC12','AWACS','E737','WC135','WC130','OC135','MC130','EC130'],
+  heli:['UH60','AH64','CH47','CH53','MH60','V22','MV22','CV22','MI17','MI24','MI8','MI28','H60','HH60','SH60','AS65','NH90','H64','H47','H53','UH1','AH1'],
+  bomber:['B52','B1','B2','B21','TU95','TU160','H6'],
+  trainer:['T6','T38','T45','T1','BE20','PC12','C172','T7','T50','PC21','LJ35']
+};
+const TCOL={fighter:'#f97316',transport:'#38bdf8',tanker:'#c084fc',recon:'#22d3ee',heli:'#4ade80',bomber:'#f87171',trainer:'#facc15',other:'#64748b'};
+const TLAB={fighter:'Fighter/Attack',transport:'Transport',tanker:'Tanker',recon:'ISR/Patrol',heli:'Helicopter',bomber:'Bomber',trainer:'Trainer',other:'Other'};
+
+function classifyType(ac){
+  const t=(ac.t||'').toUpperCase().replace(/[^A-Z0-9]/g,'');
+  const fl=(ac.flight||'').trim().toUpperCase();
+  for(const[cat,pats]of Object.entries(TYPES))for(const p of pats){const pp=p.replace(/[^A-Z0-9]/g,'');if(t.includes(pp)||t.startsWith(pp))return cat}
+  if(/^VIPER|^RAGE|^COBRA|^HAWK/.test(fl))return'fighter';
+  if(/^RCH|^REACH/.test(fl))return'transport';
+  if(/^ETHYL|^TEXAC|^SHELL/.test(fl))return'tanker';
+  if(/^JAKE|^TOPCAT/.test(fl))return'recon';
+  if(/^DUST|^PEDRO/.test(fl))return'heli';
+  return'other';
+}
+
+// === ALERT ZONES ===
+const ZONES=[
+  {name:'Strait of Hormuz',bounds:[[25.5,55.5],[27.5,57.5]],color:'#ef4444'},
+  {name:'Persian Gulf',bounds:[[24,48],[30,56]],color:'#f97316'},
+  {name:'Taiwan Strait',bounds:[[22,117],[26,121]],color:'#eab308'},
+  {name:'South China Sea',bounds:[[5,108],[18,121]],color:'#eab308'},
+  {name:'Black Sea',bounds:[[41,27],[47,42]],color:'#dc2626'},
+  {name:'Baltic Sea',bounds:[[53,12],[60,30]],color:'#a855f7'},
+];
+const zoneRects=[];
+ZONES.forEach(z=>{
+  const r=L.rectangle(z.bounds,{color:z.color,weight:1,fillOpacity:0.1,opacity:0.4,interactive:false}).addTo(map);
+  zoneRects.push({...z,rect:r});
 });
 
-L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
-  attribution: '&copy; <a href="https://osm.org">OSM</a> &copy; <a href="https://carto.com">CARTO</a> | Data: <a href="https://adsb.lol">adsb.lol</a>',
-  subdomains: 'abcd', maxZoom: 19,
-}).addTo(map);
+// === STATE ===
+let mkrs={},acData=[],trails={},cFilt='all',tFilt='all',searchQ='',sidebarOpen=false;
 
-// ── Country identification by ICAO hex range ──
-// Reference: https://www.aerotransport.org/html/ICAO_hex.html
-const COUNTRY_RANGES = {
-  us: [
-    [0xA00000, 0xAFFFFF],  // US (includes military)
-  ],
-  iran: [
-    [0x730000, 0x737FFF],  // Iran
-  ],
-  // Key allied nations
-  uk:       [[0x400000, 0x43FFFF]],
-  canada:   [[0xC00000, 0xC3FFFF]],
-  australia:[[0x7C0000, 0x7FFFFF]],
-  france:   [[0x380000, 0x3BFFFF]],
-  germany:  [[0x3C0000, 0x3FFFFF]],
-  japan:    [[0x840000, 0x87FFFF]],
-  korea:    [[0x718000, 0x71FFFF]],
-  italy:    [[0x300000, 0x33FFFF]],
-  israel:   [[0x738000, 0x73FFFF]],
-  nato:     [[0x480000, 0x480FFF]],
-  saudi:    [[0x710000, 0x717FFF]],
-  turkey:   [[0x4B0000, 0x4B7FFF]],
-  india:    [[0x800000, 0x83FFFF]],
-  pakistan:  [[0x760000, 0x767FFF]],
-  uae:      [[0x896000, 0x896FFF]],
-};
-
-function getCountry(hex) {
-  const h = parseInt(hex, 16);
-  for (const [country, ranges] of Object.entries(COUNTRY_RANGES)) {
-    for (const [lo, hi] of ranges) {
-      if (h >= lo && h <= hi) return country;
-    }
-  }
-  return 'unknown';
+// === MARKERS ===
+function mkIcon(ac){
+  const rot=ac.track||0;
+  const tp=classifyType(ac);
+  const grp=getGroup(ac.hex);
+  const col=getGCol(ac.hex);
+  const isAdversary=grp==='iran'||grp==='russia'||grp==='china';
+  const sz=tp==='heli'?16:isAdversary?24:20;
+  const sym=tp==='heli'?'🚁':'✈';
+  const glow=isAdversary?`0 0 8px ${col}80`:'0 0 3px #000';
+  return L.divIcon({html:`<div style="color:${col};transform:rotate(${rot}deg);font-size:${sz}px;line-height:1;text-shadow:${glow}">${sym}</div>`,className:'',iconSize:[sz,sz],iconAnchor:[sz/2,sz/2]});
 }
 
-function getCountryGroup(hex) {
-  const country = getCountry(hex);
-  if (country === 'us') return 'us';
-  if (country === 'iran') return 'iran';
-  return 'allied';
+// === TRAILS ===
+function updateTrail(ac){
+  if(!ac.lat||!ac.lon)return;
+  if(!trails[ac.hex])trails[ac.hex]={pts:[],line:null};
+  const tr=trails[ac.hex];
+  const last=tr.pts[tr.pts.length-1];
+  if(!last||last[0]!==ac.lat||last[1]!==ac.lon)tr.pts.push([ac.lat,ac.lon]);
+  if(tr.pts.length>30)tr.pts.shift();
 }
-
-function getCountryFlag(hex) {
-  const country = getCountry(hex);
-  const flags = {
-    us: '🇺🇸', iran: '🇮🇷', uk: '🇬🇧', canada: '🇨🇦', australia: '🇦🇺',
-    france: '🇫🇷', germany: '🇩🇪', japan: '🇯🇵', korea: '🇰🇷', italy: '🇮🇹',
-    israel: '🇮🇱', nato: '🏛️', saudi: '🇸🇦', turkey: '🇹🇷', india: '🇮🇳',
-    pakistan: '🇵🇰', uae: '🇦🇪',
-  };
-  return flags[country] || '🌐';
+function showTrail(hex){
+  hideAllTrails();
+  const tr=trails[hex];
+  if(!tr||tr.pts.length<2)return;
+  const col=getGCol(hex);
+  tr.line=L.polyline(tr.pts,{color:col,weight:2,opacity:0.6,dashArray:'4 4'}).addTo(map);
 }
+function hideAllTrails(){Object.values(trails).forEach(t=>{if(t.line){map.removeLayer(t.line);t.line=null}})}
 
-function getCountryName(hex) {
-  const country = getCountry(hex);
-  const names = {
-    us: 'United States', iran: 'Iran', uk: 'United Kingdom', canada: 'Canada',
-    australia: 'Australia', france: 'France', germany: 'Germany', japan: 'Japan',
-    korea: 'South Korea', italy: 'Italy', israel: 'Israel', nato: 'NATO',
-    saudi: 'Saudi Arabia', turkey: 'Turkey', india: 'India', pakistan: 'Pakistan',
-    uae: 'UAE',
-  };
-  return names[country] || 'Unknown';
-}
-
-// ── Aircraft type classification ──
-const AIRCRAFT_TYPES = {
-  fighter: {
-    types: ['F15','F16','F18','F22','F35','FA18','EUFI','GR4','TOR','RFAL','JF17','SU27','SU30','SU35','MIG29','MIG31','J10','J11','J15','J16','J20','F2','F4','A10','AV8B','EA18','EF18','F14','F5','F7','MIR2','MIRA'],
-    label: 'Fighter/Attack'
-  },
-  transport: {
-    types: ['C17','C130','C30J','C5','C5M','C12','C40','C37','C20','C21','C26','C32','C38','C145','C146','C27J','A400','C160','C295','CN35','IL76','AN124','AN12','Y20','C2','B707','B703'],
-    label: 'Transport'
-  },
-  tanker: {
-    types: ['KC10','KC46','KC135','KC130','KC30','KC46A','A330','MRTT','IL78'],
-    label: 'Tanker'
-  },
-  recon: {
-    types: ['P8','P3','EP3','RC135','E3','E6','E8','E2','E737','E767','U2','RQ4','MQ4','MQ9','MQ1','RQ170','MC12','RC12','RC26','WC130','WC135','OC135','MC130','EC130','JSTAR','AWACS','SENT','R1','NIMR'],
-    label: 'ISR/Patrol'
-  },
-  heli: {
-    types: ['UH60','AH64','CH47','CH53','MH60','HH60','MH53','SH60','OH58','UH1','AH1','V22','MV22','CV22','H60','H47','H53','EC45','NH90','AS65','EH10','LYNX','MH65','HH65','AS32','H64','H1','B212','B412','AB21','AB41','MI17','MI24','MI8','MI28','S61','S70'],
-    label: 'Helicopter'
-  },
-  bomber: {
-    types: ['B52','B1','B2','B21','B1B','B52H','TU95','TU160','H6'],
-    label: 'Bomber'
-  },
-  trainer: {
-    types: ['T6','T38','T45','T1','T44','T7','T50','TH57','TH67','PC12','PC21','T346','AT38','BE20','C560','T37','T41','LJ35','LJ45','C172','PC9','PC7','T34','EMB3'],
-    label: 'Trainer'
-  }
-};
-
-// Type colors (used when in type-color mode)
-const TYPE_COLORS = {
-  fighter: '#f97316', transport: '#38bdf8', tanker: '#c084fc', recon: '#22d3ee',
-  heli: '#4ade80', bomber: '#f87171', trainer: '#facc15', other: '#64748b'
-};
-
-// Country group colors
-const COUNTRY_COLORS = {
-  us: '#3b82f6',
-  iran: '#ef4444',
-  allied: '#8b5cf6',
-};
-
-function classifyType(ac) {
-  const t = (ac.t || '').toUpperCase().replace(/[^A-Z0-9]/g, '');
-  const flight = (ac.flight || '').trim().toUpperCase();
-
-  for (const [cat, info] of Object.entries(AIRCRAFT_TYPES)) {
-    for (const pattern of info.types) {
-      const p = pattern.replace(/[^A-Z0-9]/g, '');
-      if (t.includes(p) || t.startsWith(p)) {
-        return { category: cat, label: info.label };
-      }
-    }
-  }
-  if (/^VIPER|^RAGE|^COBRA|^HAWK/.test(flight)) return { category: 'fighter', label: 'Fighter/Attack' };
-  if (/^RCH|^REACH/.test(flight)) return { category: 'transport', label: 'Transport' };
-  if (/^ETHYL|^TEXAC|^SHELL|^TEAL/.test(flight)) return { category: 'tanker', label: 'Tanker' };
-  if (/^JAKE|^TOPCAT|^TRIDENT/.test(flight)) return { category: 'recon', label: 'ISR/Patrol' };
-  if (/^DUST|^PEDRO|^RESCUE/.test(flight)) return { category: 'heli', label: 'Helicopter' };
-  if (/^BOMB|^DEATH|^DOOM/.test(flight)) return { category: 'bomber', label: 'Bomber' };
-
-  return { category: 'other', label: 'Other/Unknown' };
-}
-
-// Color: country group is primary, type is secondary info
-function getMarkerColor(ac) {
-  const group = getCountryGroup(ac.hex);
-  return COUNTRY_COLORS[group] || '#64748b';
-}
-
-// Iran gets a distinct glow
-function getMarkerGlow(ac) {
-  const group = getCountryGroup(ac.hex);
-  if (group === 'iran') return '0 0 8px rgba(239,68,68,0.6)';
-  return '0 0 4px rgba(0,0,0,0.9)';
-}
-
-// ── State ──
-let markers = {};
-let aircraftData = [];
-let currentTypeFilter = 'all';
-let currentCountryFilter = 'all';
-let refreshTimer;
-
-// ── Create rotated aircraft marker ──
-function createIcon(ac) {
-  const rotation = ac.track || 0;
-  const typeInfo = classifyType(ac);
-  const size = typeInfo.category === 'heli' ? 18 : 22;
-  const color = getMarkerColor(ac);
-  const glow = getMarkerGlow(ac);
-  const group = getCountryGroup(ac.hex);
-  // Iran aircraft are slightly larger for visibility
-  const finalSize = group === 'iran' ? size + 4 : size;
-  const symbol = typeInfo.category === 'heli' ? '🚁' : '✈';
-
-  return L.divIcon({
-    html: `<div style="color:${color}; transform:rotate(${rotation}deg); font-size:${finalSize}px; line-height:1; text-shadow: ${glow}; filter: ${group === 'iran' ? 'brightness(1.2)' : 'none'};">${symbol}</div>`,
-    className: 'aircraft-icon',
-    iconSize: [finalSize, finalSize],
-    iconAnchor: [finalSize/2, finalSize/2],
-  });
-}
-
-// ── Info panel ──
-function showPanel(ac) {
-  const panel = document.getElementById('infoPanel');
-  const flight = (ac.flight || '').trim();
-  const typeInfo = classifyType(ac);
-  const flag = getCountryFlag(ac.hex);
-  const countryName = getCountryName(ac.hex);
-
-  document.getElementById('panelTitle').textContent = `${flag} ${flight || ac.hex}`;
-
-  const alt = ac.alt_baro === 'ground' ? 'On Ground' : (ac.alt_baro ? ac.alt_baro.toLocaleString() + ' ft' : '—');
-  const speed = ac.gs ? Math.round(ac.gs) + ' kts' : '—';
-  const heading = ac.track ? Math.round(ac.track) + '°' : '—';
-  const vr = ac.baro_rate ? (ac.baro_rate > 0 ? '+' : '') + ac.baro_rate + ' ft/min' : '—';
-  const reg = ac.r || '—';
-  const type = ac.t || '—';
-  const squawk = ac.squawk || '—';
-  const groupColor = getMarkerColor(ac);
-
-  document.getElementById('panelBody').innerHTML = `
-    <div class="field"><span class="key">Country: </span><span class="val" style="color:${groupColor}">${flag} ${countryName}</span></div>
-    <div class="field"><span class="key">Category: </span><span class="val">${typeInfo.label}</span></div>
-    <div class="field"><span class="key">Type: </span><span class="val">${type}</span></div>
-    <div class="field"><span class="key">Registration: </span><span class="val">${reg}</span></div>
-    <div class="field"><span class="key">Callsign: </span><span class="val">${flight || '—'}</span></div>
-    <div class="field"><span class="key">Altitude: </span><span class="val">${alt}</span></div>
-    <div class="field"><span class="key">Speed: </span><span class="val">${speed}</span></div>
-    <div class="field"><span class="key">Heading: </span><span class="val">${heading}</span></div>
-    <div class="field"><span class="key">Vertical Rate: </span><span class="val">${vr}</span></div>
-    <div class="field"><span class="key">Squawk: </span><span class="val">${squawk}</span></div>
-    <div class="field"><span class="key">ICAO Hex: </span><span class="val">${ac.hex}</span></div>
-    <div class="field"><span class="key">Position: </span><span class="val">${ac.lat?.toFixed(4)}, ${ac.lon?.toFixed(4)}</span></div>
+// === INFO PANEL ===
+function showP(ac){
+  const p=document.getElementById('infoP');
+  const fl=(ac.flight||'').trim();
+  const tp=classifyType(ac);
+  const col=getGCol(ac.hex);
+  document.getElementById('pTitle').innerHTML=`${getFlag(ac.hex)} ${fl||ac.hex}`;
+  const alt=ac.alt_baro==='ground'?'On Ground':(ac.alt_baro?ac.alt_baro.toLocaleString()+' ft':'—');
+  const spd=ac.gs?Math.round(ac.gs)+' kts':'—';
+  const hdg=ac.track?Math.round(ac.track)+'°':'—';
+  const vr=ac.baro_rate?(ac.baro_rate>0?'+':'')+ac.baro_rate+' ft/min':'—';
+  document.getElementById('pBody').innerHTML=`
+    <div class="f"><span class="k">Country: </span><span class="v" style="color:${col}">${getFlag(ac.hex)} ${getCName(ac.hex)}</span></div>
+    <div class="f"><span class="k">Type: </span><span class="v">${ac.t||'—'} (${TLAB[tp]||tp})</span></div>
+    <div class="f"><span class="k">Reg: </span><span class="v">${ac.r||'—'}</span></div>
+    <div class="f"><span class="k">Callsign: </span><span class="v">${fl||'—'}</span></div>
+    <div class="f"><span class="k">Alt: </span><span class="v">${alt}</span></div>
+    <div class="f"><span class="k">Speed: </span><span class="v">${spd}</span></div>
+    <div class="f"><span class="k">Heading: </span><span class="v">${hdg}</span></div>
+    <div class="f"><span class="k">V/S: </span><span class="v">${vr}</span></div>
+    <div class="f"><span class="k">Squawk: </span><span class="v">${ac.squawk||'—'}</span></div>
+    <div class="f"><span class="k">ICAO: </span><span class="v">${ac.hex}</span></div>
+    <div class="f"><span class="k">Pos: </span><span class="v">${ac.lat?.toFixed(4)}, ${ac.lon?.toFixed(4)}</span></div>
   `;
-  panel.classList.add('visible');
+  p.classList.add('vis');
+  showTrail(ac.hex);
+}
+function closeP(){document.getElementById('infoP').classList.remove('vis');hideAllTrails()}
+
+// === SIDEBAR ===
+function toggleSidebar(){
+  sidebarOpen=!sidebarOpen;
+  document.getElementById('sidebar').classList.toggle('open',sidebarOpen);
+  document.getElementById('togSidebar').classList.toggle('shifted',sidebarOpen);
+}
+function updateSidebar(visible){
+  // Zone counts
+  let zh='';
+  ZONES.forEach(z=>{
+    const cnt=visible.filter(ac=>ac.lat>=z.bounds[0][0]&&ac.lat<=z.bounds[1][0]&&ac.lon>=z.bounds[0][1]&&ac.lon<=z.bounds[1][1]).length;
+    zh+=`<div class="zone-item"><span class="zn">${z.name}</span><span class="zc" style="color:${z.color}">${cnt}</span></div>`;
+  });
+  document.getElementById('zoneList').innerHTML=zh;
+
+  // Country bars
+  const cc={};
+  visible.forEach(ac=>{const g=getGroup(ac.hex);cc[g]=(cc[g]||0)+1});
+  const maxC=Math.max(...Object.values(cc),1);
+  let cb='';
+  for(const[g,n]of Object.entries(cc).sort((a,b)=>b[1]-a[1])){
+    const col=GCOL[g]||'#64748b';
+    const lbl=g==='us'?'🇺🇸 US':g==='iran'?'🇮🇷 Iran':g==='russia'?'🇷🇺 Russia':g==='china'?'🇨🇳 China':'🤝 Allied';
+    cb+=`<div class="bar-row"><span class="bl">${lbl}</span><div class="bar" style="width:${n/maxC*100}px;background:${col}"></div><span class="bc">${n}</span></div>`;
+  }
+  document.getElementById('countryBars').innerHTML=cb;
+
+  // Type bars
+  const tc={};
+  visible.forEach(ac=>{const t=classifyType(ac);tc[t]=(tc[t]||0)+1});
+  const maxT=Math.max(...Object.values(tc),1);
+  let tb='';
+  for(const[t,n]of Object.entries(tc).sort((a,b)=>b[1]-a[1])){
+    tb+=`<div class="bar-row"><span class="bl">${TLAB[t]||t}</span><div class="bar" style="width:${n/maxT*100}px;background:${TCOL[t]||'#64748b'}"></div><span class="bc">${n}</span></div>`;
+  }
+  document.getElementById('typeBars').innerHTML=tb;
+
+  // Activity feed (last 15 newest)
+  const sorted=[...visible].sort((a,b)=>(a.seen||999)-(b.seen||999)).slice(0,15);
+  let af='';
+  sorted.forEach(ac=>{
+    const fl=(ac.flight||'').trim()||ac.hex;
+    const t=ac.t||'?';
+    const alt=ac.alt_baro==='ground'?'GND':(ac.alt_baro?Math.round(ac.alt_baro/1000)+'k':'?');
+    af+=`<div class="feed-item">${getFlag(ac.hex)} <b>${fl}</b> ${t} ${alt}ft <span class="ff">${Math.round(ac.seen||0)}s ago</span></div>`;
+  });
+  document.getElementById('actFeed').innerHTML=af;
 }
 
-function closePanel() {
-  document.getElementById('infoPanel').classList.remove('visible');
+// === FILTERS ===
+function setCF(f){
+  cFilt=f;
+  document.querySelectorAll('[id^="bc-"]').forEach(b=>{b.classList.remove('active','iran-active','russia-active','china-active')});
+  const btn=document.getElementById('bc-'+f);
+  if(f==='iran')btn.classList.add('iran-active');
+  else if(f==='russia')btn.classList.add('russia-active');
+  else if(f==='china')btn.classList.add('china-active');
+  else btn.classList.add('active');
+  render();
 }
-
-// ── Filters ──
-function setCountryFilter(f) {
-  currentCountryFilter = f;
-  document.querySelectorAll('.controls button[id^="btn-country-"]').forEach(b => b.classList.remove('active'));
-  document.getElementById('btn-country-' + f).classList.add('active');
-  renderMarkers();
+function setTF(f){
+  tFilt=f;
+  document.querySelectorAll('[id^="bt-"]').forEach(b=>b.classList.remove('active'));
+  document.getElementById('bt-'+f).classList.add('active');
+  render();
 }
+function doSearch(){searchQ=document.getElementById('searchBox').value.toUpperCase();render()}
 
-function setTypeFilter(f) {
-  currentTypeFilter = f;
-  document.querySelectorAll('.controls button[id^="btn-"]:not([id^="btn-country-"])').forEach(b => b.classList.remove('active'));
-  document.getElementById('btn-' + f).classList.add('active');
-  renderMarkers();
-}
+// === RENDER ===
+function render(){
+  Object.values(mkrs).forEach(m=>map.removeLayer(m));
+  mkrs={};
+  let total=0,us=0,iran=0,russia=0,china=0,allied=0;
+  const visible=[];
 
-// ── Render ──
-function renderMarkers() {
-  Object.values(markers).forEach(m => map.removeLayer(m));
-  markers = {};
-
-  let total = 0, us = 0, iran = 0, ally = 0;
-
-  aircraftData.forEach(ac => {
-    if (!ac.lat || !ac.lon) return;
-
-    const typeInfo = classifyType(ac);
-    const group = getCountryGroup(ac.hex);
-
-    // Apply country filter
-    if (currentCountryFilter !== 'all' && group !== currentCountryFilter) return;
-    // Apply type filter
-    if (currentTypeFilter !== 'all' && typeInfo.category !== currentTypeFilter) return;
-
+  acData.forEach(ac=>{
+    if(!ac.lat||!ac.lon)return;
+    const grp=getGroup(ac.hex);
+    const tp=classifyType(ac);
+    if(cFilt!=='all'&&grp!==cFilt)return;
+    if(tFilt!=='all'&&tp!==tFilt)return;
+    if(searchQ){
+      const s=((ac.flight||'')+(ac.t||'')+(ac.hex||'')+(ac.r||'')).toUpperCase();
+      if(!s.includes(searchQ))return;
+    }
     total++;
-    if (group === 'us') us++;
-    else if (group === 'iran') iran++;
-    else ally++;
+    if(grp==='us')us++;else if(grp==='iran')iran++;else if(grp==='russia')russia++;else if(grp==='china')china++;else allied++;
+    visible.push(ac);
 
-    const marker = L.marker([ac.lat, ac.lon], { icon: createIcon(ac) })
-      .on('click', () => showPanel(ac))
-      .addTo(map);
-
-    const flight = (ac.flight || '').trim();
-    const alt = ac.alt_baro === 'ground' ? 'GND' : (ac.alt_baro ? ac.alt_baro.toLocaleString() + 'ft' : '?');
-    const flag = getCountryFlag(ac.hex);
-    marker.bindTooltip(`${flag} ${flight || ac.hex} · ${ac.t || '?'} · ${alt}`, {
-      className: 'dark-tooltip', direction: 'top', offset: [0, -12]
-    });
-
-    markers[ac.hex] = marker;
+    updateTrail(ac);
+    const m=L.marker([ac.lat,ac.lon],{icon:mkIcon(ac)}).on('click',()=>showP(ac)).addTo(map);
+    const fl=(ac.flight||'').trim();
+    const alt=ac.alt_baro==='ground'?'GND':(ac.alt_baro?ac.alt_baro.toLocaleString()+'ft':'?');
+    m.bindTooltip(`${getFlag(ac.hex)} ${fl||ac.hex} · ${ac.t||'?'} · ${alt}`,{className:'dark-tooltip',direction:'top',offset:[0,-10]});
+    mkrs[ac.hex]=m;
   });
 
-  document.getElementById('totalCount').textContent = total;
-  document.getElementById('usCount').textContent = us;
-  document.getElementById('iranCount').textContent = iran;
-  document.getElementById('allyCount').textContent = ally;
+  document.getElementById('sTotal').textContent=total;
+  document.getElementById('sUS').textContent=us;
+  document.getElementById('sIran').textContent=iran;
+  document.getElementById('sRussia').textContent=russia;
+  document.getElementById('sChina').textContent=china;
+  document.getElementById('sAllied').textContent=allied;
+  updateSidebar(visible);
 }
 
-// ── Fetch data with fallback ──
-const API_URLS = [
-  'https://api.adsb.lol/v2/mil',
-  'https://corsproxy.io/?url=https://api.adsb.lol/v2/mil',
-  'https://api.allorigins.win/raw?url=' + encodeURIComponent('https://api.adsb.lol/v2/mil'),
-];
+// === FETCH ===
+const URLS=['https://api.adsb.lol/v2/mil','https://corsproxy.io/?url=https://api.adsb.lol/v2/mil','https://api.allorigins.win/raw?url='+encodeURIComponent('https://api.adsb.lol/v2/mil')];
 
-async function fetchData() {
-  let lastErr;
-  for (const url of API_URLS) {
-    try {
-      const resp = await fetch(url);
-      if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
-      const data = await resp.json();
-      aircraftData = data.ac || [];
-      renderMarkers();
-
-      const now = new Date();
-      const iranActive = aircraftData.filter(ac => getCountryGroup(ac.hex) === 'iran' && ac.lat).length;
-      document.getElementById('updateTime').textContent =
-        `Last update: ${now.toLocaleTimeString()} · ${aircraftData.length} in feed` +
-        (iranActive > 0 ? ` · 🇮🇷 ${iranActive} Iranian active` : '');
-
-      document.getElementById('loadingOverlay').style.display = 'none';
+async function fetchData(){
+  for(const url of URLS){
+    try{
+      const r=await fetch(url);
+      if(!r.ok)throw new Error(r.status);
+      const d=await r.json();
+      acData=d.ac||[];
+      render();
+      document.getElementById('updTime').textContent=`Updated: ${new Date().toLocaleTimeString()} · ${acData.length} in feed`;
+      document.getElementById('loadOv').style.display='none';
       return;
-    } catch (err) {
-      lastErr = err;
-      console.warn('Fetch failed for', url, err.message);
-    }
+    }catch(e){console.warn('fail',url,e)}
   }
-  console.error('All endpoints failed:', lastErr);
-  document.getElementById('updateTime').textContent = 'Error fetching data — retrying in 30s...';
-  document.getElementById('loadingOverlay').style.display = 'none';
+  document.getElementById('updTime').textContent='Fetch error — retrying...';
+  document.getElementById('loadOv').style.display='none';
 }
 
-// ── Init ──
 fetchData();
-refreshTimer = setInterval(fetchData, 30000);
-
-// Tooltip style
-const tooltipStyle = document.createElement('style');
-tooltipStyle.textContent = `.dark-tooltip { background: rgba(16,20,32,0.92) !important; color: #e0e0e0 !important; border: 1px solid #2a3045 !important; border-radius: 6px !important; font-size: 12px !important; padding: 4px 8px !important; } .dark-tooltip::before { border-top-color: rgba(16,20,32,0.92) !important; }`;
-document.head.appendChild(tooltipStyle);
+setInterval(fetchData,30000);
 </script>
 </body>
 </html>
