@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>US Military Tracker — PikeClaw ⚡</title>
+<title>Military Tracker — PikeClaw ⚡</title>
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
 <style>
   * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -13,22 +13,27 @@
   /* Controls overlay */
   .controls {
     position: absolute; top: 12px; left: 60px; z-index: 1000;
-    display: flex; gap: 8px; align-items: center; flex-wrap: wrap;
+    display: flex; gap: 6px; align-items: center; flex-wrap: wrap; max-width: calc(100% - 80px);
   }
   .controls button {
     background: #1a1f2e; border: 1px solid #2a3045; color: #e0e0e0;
-    padding: 8px 14px; border-radius: 6px; cursor: pointer; font-size: 13px;
-    transition: all 0.2s;
+    padding: 7px 12px; border-radius: 6px; cursor: pointer; font-size: 12px;
+    transition: all 0.2s; white-space: nowrap;
   }
   .controls button:hover { background: #2a3045; border-color: #4a5580; }
   .controls button.active { background: #1e3a5f; border-color: #3b82f6; color: #60a5fa; }
+  .controls .separator { width: 1px; height: 24px; background: #2a3045; margin: 0 2px; }
+
+  /* Country filter buttons */
+  .controls button.country-us.active { background: #1e3a5f; border-color: #3b82f6; color: #60a5fa; }
+  .controls button.country-iran.active { background: #4a1e1e; border-color: #ef4444; color: #f87171; }
 
   /* Stats bar */
   .stats {
     position: absolute; bottom: 0; left: 0; right: 0; z-index: 1000;
     background: rgba(10, 14, 23, 0.92); border-top: 1px solid #1a1f2e;
-    padding: 10px 20px; display: flex; gap: 24px; align-items: center;
-    font-size: 13px; backdrop-filter: blur(8px);
+    padding: 10px 20px; display: flex; gap: 20px; align-items: center;
+    font-size: 13px; backdrop-filter: blur(8px); flex-wrap: wrap;
   }
   .stats .stat { display: flex; align-items: center; gap: 6px; }
   .stats .stat .dot { width: 8px; height: 8px; border-radius: 50%; }
@@ -60,10 +65,7 @@
   .leaflet-popup-content { font-size: 13px; line-height: 1.5; }
 
   /* Aircraft icon */
-  .aircraft-icon {
-    font-size: 20px; text-shadow: 0 0 6px rgba(0,0,0,0.8);
-    transition: transform 0.3s;
-  }
+  .aircraft-icon { font-size: 20px; text-shadow: 0 0 6px rgba(0,0,0,0.8); transition: transform 0.3s; }
 
   /* Legend */
   .legend {
@@ -74,6 +76,8 @@
   }
   .legend-item { display: flex; align-items: center; gap: 8px; margin-bottom: 4px; }
   .legend-item .swatch { width: 12px; height: 12px; border-radius: 2px; }
+  .legend-section { font-weight: 600; margin-top: 8px; margin-bottom: 4px; font-size: 11px; text-transform: uppercase; color: #8892a8; }
+  .legend-section:first-child { margin-top: 0; }
 
   .loading-overlay {
     position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
@@ -89,14 +93,21 @@
 <div id="map"></div>
 
 <div class="controls">
-  <button id="btn-all" class="active" onclick="setFilter('all')">All Military</button>
-  <button id="btn-fighter" onclick="setFilter('fighter')">✈️ Fighter/Attack</button>
-  <button id="btn-transport" onclick="setFilter('transport')">🛩️ Transport</button>
-  <button id="btn-tanker" onclick="setFilter('tanker')">⛽ Tanker</button>
-  <button id="btn-recon" onclick="setFilter('recon')">🔍 ISR/Patrol</button>
-  <button id="btn-heli" onclick="setFilter('heli')">🚁 Helicopter</button>
-  <button id="btn-bomber" onclick="setFilter('bomber')">💣 Bomber</button>
-  <button id="btn-trainer" onclick="setFilter('trainer')">🎓 Trainer</button>
+  <!-- Country filters -->
+  <button id="btn-country-all" class="active" onclick="setCountryFilter('all')">🌍 All</button>
+  <button id="btn-country-us" class="country-us" onclick="setCountryFilter('us')">🇺🇸 US</button>
+  <button id="btn-country-iran" class="country-iran" onclick="setCountryFilter('iran')">🇮🇷 Iran</button>
+  <button id="btn-country-allied" onclick="setCountryFilter('allied')">🤝 Allied</button>
+  <div class="separator"></div>
+  <!-- Type filters -->
+  <button id="btn-all" class="active" onclick="setTypeFilter('all')">All Types</button>
+  <button id="btn-fighter" onclick="setTypeFilter('fighter')">✈️ Fighter</button>
+  <button id="btn-transport" onclick="setTypeFilter('transport')">🛩️ Transport</button>
+  <button id="btn-tanker" onclick="setTypeFilter('tanker')">⛽ Tanker</button>
+  <button id="btn-recon" onclick="setTypeFilter('recon')">🔍 ISR</button>
+  <button id="btn-heli" onclick="setTypeFilter('heli')">🚁 Heli</button>
+  <button id="btn-bomber" onclick="setTypeFilter('bomber')">💣 Bomber</button>
+  <button id="btn-trainer" onclick="setTypeFilter('trainer')">🎓 Trainer</button>
 </div>
 
 <div class="info-panel" id="infoPanel">
@@ -106,20 +117,26 @@
 </div>
 
 <div class="legend">
+  <div class="legend-section">Country</div>
+  <div class="legend-item"><div class="swatch" style="background:#3b82f6"></div> 🇺🇸 United States</div>
+  <div class="legend-item"><div class="swatch" style="background:#ef4444"></div> 🇮🇷 Iran</div>
+  <div class="legend-item"><div class="swatch" style="background:#8b5cf6"></div> Allied / Other</div>
+  <div class="legend-section">Aircraft Type</div>
   <div class="legend-item"><div class="swatch" style="background:#f97316"></div> Fighter/Attack</div>
-  <div class="legend-item"><div class="swatch" style="background:#3b82f6"></div> Transport</div>
-  <div class="legend-item"><div class="swatch" style="background:#a855f7"></div> Tanker</div>
+  <div class="legend-item"><div class="swatch" style="background:#38bdf8"></div> Transport</div>
+  <div class="legend-item"><div class="swatch" style="background:#c084fc"></div> Tanker</div>
   <div class="legend-item"><div class="swatch" style="background:#22d3ee"></div> ISR/Patrol</div>
-  <div class="legend-item"><div class="swatch" style="background:#22c55e"></div> Helicopter</div>
-  <div class="legend-item"><div class="swatch" style="background:#ef4444"></div> Bomber</div>
-  <div class="legend-item"><div class="swatch" style="background:#eab308"></div> Trainer</div>
-  <div class="legend-item"><div class="swatch" style="background:#64748b"></div> Other/Unknown</div>
+  <div class="legend-item"><div class="swatch" style="background:#4ade80"></div> Helicopter</div>
+  <div class="legend-item"><div class="swatch" style="background:#f87171"></div> Bomber</div>
+  <div class="legend-item"><div class="swatch" style="background:#facc15"></div> Trainer</div>
+  <div class="legend-item"><div class="swatch" style="background:#64748b"></div> Other</div>
 </div>
 
 <div class="stats" id="statsBar">
-  <div class="stat"><div class="dot" style="background:#22c55e"></div><span class="count" id="totalCount">—</span><span class="label">tracked</span></div>
+  <div class="stat"><div class="dot" style="background:#22c55e"></div><span class="count" id="totalCount">—</span><span class="label">total</span></div>
   <div class="stat"><div class="dot" style="background:#3b82f6"></div><span class="count" id="usCount">—</span><span class="label">US</span></div>
-  <div class="stat"><div class="dot" style="background:#a855f7"></div><span class="count" id="allyCount">—</span><span class="label">allied</span></div>
+  <div class="stat"><div class="dot" style="background:#ef4444"></div><span class="count" id="iranCount">—</span><span class="label">Iran</span></div>
+  <div class="stat"><div class="dot" style="background:#8b5cf6"></div><span class="count" id="allyCount">—</span><span class="label">allied</span></div>
   <span class="update-time" id="updateTime">Loading...</span>
 </div>
 
@@ -132,101 +149,201 @@
 <script>
 // ── Map setup ──
 const map = L.map('map', {
-  center: [38, -97],
-  zoom: 5,
+  center: [32, 44], // Center between US and Middle East
+  zoom: 3,
   zoomControl: true,
   attributionControl: true,
-}).setView([38, -97], 5);
+});
 
 L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
   attribution: '&copy; <a href="https://osm.org">OSM</a> &copy; <a href="https://carto.com">CARTO</a> | Data: <a href="https://adsb.lol">adsb.lol</a>',
   subdomains: 'abcd', maxZoom: 19,
 }).addTo(map);
 
-// ── Aircraft classification ──
+// ── Country identification by ICAO hex range ──
+// Reference: https://www.aerotransport.org/html/ICAO_hex.html
+const COUNTRY_RANGES = {
+  us: [
+    [0xA00000, 0xAFFFFF],  // US (includes military)
+  ],
+  iran: [
+    [0x730000, 0x737FFF],  // Iran
+  ],
+  // Key allied nations
+  uk:       [[0x400000, 0x43FFFF]],
+  canada:   [[0xC00000, 0xC3FFFF]],
+  australia:[[0x7C0000, 0x7FFFFF]],
+  france:   [[0x380000, 0x3BFFFF]],
+  germany:  [[0x3C0000, 0x3FFFFF]],
+  japan:    [[0x840000, 0x87FFFF]],
+  korea:    [[0x718000, 0x71FFFF]],
+  italy:    [[0x300000, 0x33FFFF]],
+  israel:   [[0x738000, 0x73FFFF]],
+  nato:     [[0x480000, 0x480FFF]],
+  saudi:    [[0x710000, 0x717FFF]],
+  turkey:   [[0x4B0000, 0x4B7FFF]],
+  india:    [[0x800000, 0x83FFFF]],
+  pakistan:  [[0x760000, 0x767FFF]],
+  uae:      [[0x896000, 0x896FFF]],
+};
+
+function getCountry(hex) {
+  const h = parseInt(hex, 16);
+  for (const [country, ranges] of Object.entries(COUNTRY_RANGES)) {
+    for (const [lo, hi] of ranges) {
+      if (h >= lo && h <= hi) return country;
+    }
+  }
+  return 'unknown';
+}
+
+function getCountryGroup(hex) {
+  const country = getCountry(hex);
+  if (country === 'us') return 'us';
+  if (country === 'iran') return 'iran';
+  return 'allied';
+}
+
+function getCountryFlag(hex) {
+  const country = getCountry(hex);
+  const flags = {
+    us: '🇺🇸', iran: '🇮🇷', uk: '🇬🇧', canada: '🇨🇦', australia: '🇦🇺',
+    france: '🇫🇷', germany: '🇩🇪', japan: '🇯🇵', korea: '🇰🇷', italy: '🇮🇹',
+    israel: '🇮🇱', nato: '🏛️', saudi: '🇸🇦', turkey: '🇹🇷', india: '🇮🇳',
+    pakistan: '🇵🇰', uae: '🇦🇪',
+  };
+  return flags[country] || '🌐';
+}
+
+function getCountryName(hex) {
+  const country = getCountry(hex);
+  const names = {
+    us: 'United States', iran: 'Iran', uk: 'United Kingdom', canada: 'Canada',
+    australia: 'Australia', france: 'France', germany: 'Germany', japan: 'Japan',
+    korea: 'South Korea', italy: 'Italy', israel: 'Israel', nato: 'NATO',
+    saudi: 'Saudi Arabia', turkey: 'Turkey', india: 'India', pakistan: 'Pakistan',
+    uae: 'UAE',
+  };
+  return names[country] || 'Unknown';
+}
+
+// ── Aircraft type classification ──
 const AIRCRAFT_TYPES = {
   fighter: {
-    types: ['F15','F16','F18','F22','F35','FA18','F/A-18','EUFI','GR4','TOR','RFAL','JF17','SU27','SU30','SU35','MIG29','MIG31','J10','J11','J15','J16','J20','F2','F4','A10','AV8B','EA18','EF18'],
-    color: '#f97316', emoji: '✈️', label: 'Fighter/Attack'
+    types: ['F15','F16','F18','F22','F35','FA18','EUFI','GR4','TOR','RFAL','JF17','SU27','SU30','SU35','MIG29','MIG31','J10','J11','J15','J16','J20','F2','F4','A10','AV8B','EA18','EF18','F14','F5','F7','MIR2','MIRA'],
+    label: 'Fighter/Attack'
   },
   transport: {
-    types: ['C17','C130','C30J','C5','C5M','C12','C40','C37','C20','C21','C26','C32','C38','C145','C146','C27J','KC30','A400','C160','C295','CN35','IL76','AN124','AN12','Y20'],
-    color: '#3b82f6', emoji: '🛩️', label: 'Transport'
+    types: ['C17','C130','C30J','C5','C5M','C12','C40','C37','C20','C21','C26','C32','C38','C145','C146','C27J','A400','C160','C295','CN35','IL76','AN124','AN12','Y20','C2','B707','B703'],
+    label: 'Transport'
   },
   tanker: {
     types: ['KC10','KC46','KC135','KC130','KC30','KC46A','A330','MRTT','IL78'],
-    color: '#a855f7', emoji: '⛽', label: 'Tanker'
+    label: 'Tanker'
   },
   recon: {
-    types: ['P8','P3','EP3','RC135','E3','E6','E8','E2','E737','E767','U2','RQ4','MQ4','MQ9','MQ1','RQ170','MC12','RC12','RC26','WC130','WC135','OC135','MC130','EC130','EP3','RC135','JSTAR','AWACS','SENT','R1','NIMR'],
-    color: '#22d3ee', emoji: '🔍', label: 'ISR/Patrol'
+    types: ['P8','P3','EP3','RC135','E3','E6','E8','E2','E737','E767','U2','RQ4','MQ4','MQ9','MQ1','RQ170','MC12','RC12','RC26','WC130','WC135','OC135','MC130','EC130','JSTAR','AWACS','SENT','R1','NIMR'],
+    label: 'ISR/Patrol'
   },
   heli: {
-    types: ['UH60','AH64','CH47','CH53','MH60','HH60','MH53','SH60','OH58','UH1','AH1','V22','MV22','CV22','H60','H47','H53','EC45','NH90','AS65','EH10','LYNX','MH65','HH65','AS32','H64','H1'],
-    color: '#22c55e', emoji: '🚁', label: 'Helicopter'
+    types: ['UH60','AH64','CH47','CH53','MH60','HH60','MH53','SH60','OH58','UH1','AH1','V22','MV22','CV22','H60','H47','H53','EC45','NH90','AS65','EH10','LYNX','MH65','HH65','AS32','H64','H1','B212','B412','AB21','AB41','MI17','MI24','MI8','MI28','S61','S70'],
+    label: 'Helicopter'
   },
   bomber: {
     types: ['B52','B1','B2','B21','B1B','B52H','TU95','TU160','H6'],
-    color: '#ef4444', emoji: '💣', label: 'Bomber'
+    label: 'Bomber'
   },
   trainer: {
-    types: ['T6','T38','T45','T1','T44','T7','T50','TH57','TH67','PC12','PC21','T346','AT38','BE20','C560','T37','T41','LJ35','LJ45','C172'],
-    color: '#eab308', emoji: '🎓', label: 'Trainer'
+    types: ['T6','T38','T45','T1','T44','T7','T50','TH57','TH67','PC12','PC21','T346','AT38','BE20','C560','T37','T41','LJ35','LJ45','C172','PC9','PC7','T34','EMB3'],
+    label: 'Trainer'
   }
 };
 
-function classifyAircraft(ac) {
+// Type colors (used when in type-color mode)
+const TYPE_COLORS = {
+  fighter: '#f97316', transport: '#38bdf8', tanker: '#c084fc', recon: '#22d3ee',
+  heli: '#4ade80', bomber: '#f87171', trainer: '#facc15', other: '#64748b'
+};
+
+// Country group colors
+const COUNTRY_COLORS = {
+  us: '#3b82f6',
+  iran: '#ef4444',
+  allied: '#8b5cf6',
+};
+
+function classifyType(ac) {
   const t = (ac.t || '').toUpperCase().replace(/[^A-Z0-9]/g, '');
   const flight = (ac.flight || '').trim().toUpperCase();
 
   for (const [cat, info] of Object.entries(AIRCRAFT_TYPES)) {
     for (const pattern of info.types) {
-      if (t.includes(pattern.replace(/[^A-Z0-9]/g, '')) || t.startsWith(pattern.replace(/[^A-Z0-9]/g, ''))) {
-        return { category: cat, ...info };
+      const p = pattern.replace(/[^A-Z0-9]/g, '');
+      if (t.includes(p) || t.startsWith(p)) {
+        return { category: cat, label: info.label };
       }
     }
   }
-  // Callsign-based hints
-  if (/^VIPER|^RAGE|^COBRA|^HAWK/.test(flight)) return { category: 'fighter', ...AIRCRAFT_TYPES.fighter };
-  if (/^RCH|^REACH/.test(flight)) return { category: 'transport', ...AIRCRAFT_TYPES.transport };
-  if (/^ETHYL|^TEXAC|^SHELL|^TEAL/.test(flight)) return { category: 'tanker', ...AIRCRAFT_TYPES.tanker };
-  if (/^JAKE|^TOPCAT|^TRIDENT/.test(flight)) return { category: 'recon', ...AIRCRAFT_TYPES.recon };
-  if (/^DUST|^PEDRO|^RESCUE/.test(flight)) return { category: 'heli', ...AIRCRAFT_TYPES.heli };
-  if (/^BOMB|^DEATH|^DOOM/.test(flight)) return { category: 'bomber', ...AIRCRAFT_TYPES.bomber };
+  if (/^VIPER|^RAGE|^COBRA|^HAWK/.test(flight)) return { category: 'fighter', label: 'Fighter/Attack' };
+  if (/^RCH|^REACH/.test(flight)) return { category: 'transport', label: 'Transport' };
+  if (/^ETHYL|^TEXAC|^SHELL|^TEAL/.test(flight)) return { category: 'tanker', label: 'Tanker' };
+  if (/^JAKE|^TOPCAT|^TRIDENT/.test(flight)) return { category: 'recon', label: 'ISR/Patrol' };
+  if (/^DUST|^PEDRO|^RESCUE/.test(flight)) return { category: 'heli', label: 'Helicopter' };
+  if (/^BOMB|^DEATH|^DOOM/.test(flight)) return { category: 'bomber', label: 'Bomber' };
 
-  return { category: 'other', color: '#64748b', emoji: '◆', label: 'Other/Unknown' };
+  return { category: 'other', label: 'Other/Unknown' };
 }
 
-function isUSMilitary(hex) {
-  const h = parseInt(hex, 16);
-  // US military ICAO range: AE0000-AE FFFF + AF0000-AFFFFF
-  return (h >= 0xAE0000 && h <= 0xAFFFFF) || (h >= 0xA00000 && h <= 0xAFFFFF);
+// Color: country group is primary, type is secondary info
+function getMarkerColor(ac) {
+  const group = getCountryGroup(ac.hex);
+  return COUNTRY_COLORS[group] || '#64748b';
+}
+
+// Iran gets a distinct glow
+function getMarkerGlow(ac) {
+  const group = getCountryGroup(ac.hex);
+  if (group === 'iran') return '0 0 8px rgba(239,68,68,0.6)';
+  return '0 0 4px rgba(0,0,0,0.9)';
 }
 
 // ── State ──
 let markers = {};
 let aircraftData = [];
-let currentFilter = 'all';
+let currentTypeFilter = 'all';
+let currentCountryFilter = 'all';
 let refreshTimer;
 
 // ── Create rotated aircraft marker ──
-function createIcon(ac, info) {
+function createIcon(ac) {
   const rotation = ac.track || 0;
-  const size = info.category === 'heli' ? 18 : 22;
+  const typeInfo = classifyType(ac);
+  const size = typeInfo.category === 'heli' ? 18 : 22;
+  const color = getMarkerColor(ac);
+  const glow = getMarkerGlow(ac);
+  const group = getCountryGroup(ac.hex);
+  // Iran aircraft are slightly larger for visibility
+  const finalSize = group === 'iran' ? size + 4 : size;
+  const symbol = typeInfo.category === 'heli' ? '🚁' : '✈';
+
   return L.divIcon({
-    html: `<div style="color:${info.color}; transform:rotate(${rotation}deg); font-size:${size}px; line-height:1; text-shadow: 0 0 4px rgba(0,0,0,0.9);">✈</div>`,
+    html: `<div style="color:${color}; transform:rotate(${rotation}deg); font-size:${finalSize}px; line-height:1; text-shadow: ${glow}; filter: ${group === 'iran' ? 'brightness(1.2)' : 'none'};">${symbol}</div>`,
     className: 'aircraft-icon',
-    iconSize: [size, size],
-    iconAnchor: [size/2, size/2],
+    iconSize: [finalSize, finalSize],
+    iconAnchor: [finalSize/2, finalSize/2],
   });
 }
 
 // ── Info panel ──
-function showPanel(ac, info) {
+function showPanel(ac) {
   const panel = document.getElementById('infoPanel');
   const flight = (ac.flight || '').trim();
-  document.getElementById('panelTitle').textContent = flight || ac.hex;
-  
+  const typeInfo = classifyType(ac);
+  const flag = getCountryFlag(ac.hex);
+  const countryName = getCountryName(ac.hex);
+
+  document.getElementById('panelTitle').textContent = `${flag} ${flight || ac.hex}`;
+
   const alt = ac.alt_baro === 'ground' ? 'On Ground' : (ac.alt_baro ? ac.alt_baro.toLocaleString() + ' ft' : '—');
   const speed = ac.gs ? Math.round(ac.gs) + ' kts' : '—';
   const heading = ac.track ? Math.round(ac.track) + '°' : '—';
@@ -234,9 +351,11 @@ function showPanel(ac, info) {
   const reg = ac.r || '—';
   const type = ac.t || '—';
   const squawk = ac.squawk || '—';
+  const groupColor = getMarkerColor(ac);
 
   document.getElementById('panelBody').innerHTML = `
-    <div class="field"><span class="key">Category: </span><span class="val" style="color:${info.color}">${info.label}</span></div>
+    <div class="field"><span class="key">Country: </span><span class="val" style="color:${groupColor}">${flag} ${countryName}</span></div>
+    <div class="field"><span class="key">Category: </span><span class="val">${typeInfo.label}</span></div>
     <div class="field"><span class="key">Type: </span><span class="val">${type}</span></div>
     <div class="field"><span class="key">Registration: </span><span class="val">${reg}</span></div>
     <div class="field"><span class="key">Callsign: </span><span class="val">${flight || '—'}</span></div>
@@ -255,38 +374,52 @@ function closePanel() {
   document.getElementById('infoPanel').classList.remove('visible');
 }
 
-// ── Filter ──
-function setFilter(f) {
-  currentFilter = f;
-  document.querySelectorAll('.controls button').forEach(b => b.classList.remove('active'));
+// ── Filters ──
+function setCountryFilter(f) {
+  currentCountryFilter = f;
+  document.querySelectorAll('.controls button[id^="btn-country-"]').forEach(b => b.classList.remove('active'));
+  document.getElementById('btn-country-' + f).classList.add('active');
+  renderMarkers();
+}
+
+function setTypeFilter(f) {
+  currentTypeFilter = f;
+  document.querySelectorAll('.controls button[id^="btn-"]:not([id^="btn-country-"])').forEach(b => b.classList.remove('active'));
   document.getElementById('btn-' + f).classList.add('active');
   renderMarkers();
 }
 
 // ── Render ──
 function renderMarkers() {
-  // Remove old markers
   Object.values(markers).forEach(m => map.removeLayer(m));
   markers = {};
 
-  let total = 0, us = 0, ally = 0;
+  let total = 0, us = 0, iran = 0, ally = 0;
 
   aircraftData.forEach(ac => {
     if (!ac.lat || !ac.lon) return;
-    const info = classifyAircraft(ac);
-    if (currentFilter !== 'all' && info.category !== currentFilter) return;
+
+    const typeInfo = classifyType(ac);
+    const group = getCountryGroup(ac.hex);
+
+    // Apply country filter
+    if (currentCountryFilter !== 'all' && group !== currentCountryFilter) return;
+    // Apply type filter
+    if (currentTypeFilter !== 'all' && typeInfo.category !== currentTypeFilter) return;
 
     total++;
-    if (isUSMilitary(ac.hex)) us++;
+    if (group === 'us') us++;
+    else if (group === 'iran') iran++;
     else ally++;
 
-    const marker = L.marker([ac.lat, ac.lon], { icon: createIcon(ac, info) })
-      .on('click', () => showPanel(ac, info))
+    const marker = L.marker([ac.lat, ac.lon], { icon: createIcon(ac) })
+      .on('click', () => showPanel(ac))
       .addTo(map);
 
     const flight = (ac.flight || '').trim();
     const alt = ac.alt_baro === 'ground' ? 'GND' : (ac.alt_baro ? ac.alt_baro.toLocaleString() + 'ft' : '?');
-    marker.bindTooltip(`${flight || ac.hex} · ${ac.t || '?'} · ${alt}`, {
+    const flag = getCountryFlag(ac.hex);
+    marker.bindTooltip(`${flag} ${flight || ac.hex} · ${ac.t || '?'} · ${alt}`, {
       className: 'dark-tooltip', direction: 'top', offset: [0, -12]
     });
 
@@ -295,6 +428,7 @@ function renderMarkers() {
 
   document.getElementById('totalCount').textContent = total;
   document.getElementById('usCount').textContent = us;
+  document.getElementById('iranCount').textContent = iran;
   document.getElementById('allyCount').textContent = ally;
 }
 
@@ -316,11 +450,13 @@ async function fetchData() {
       renderMarkers();
 
       const now = new Date();
-      document.getElementById('updateTime').textContent = 
-        `Last update: ${now.toLocaleTimeString()} · ${aircraftData.length} aircraft in feed`;
+      const iranActive = aircraftData.filter(ac => getCountryGroup(ac.hex) === 'iran' && ac.lat).length;
+      document.getElementById('updateTime').textContent =
+        `Last update: ${now.toLocaleTimeString()} · ${aircraftData.length} in feed` +
+        (iranActive > 0 ? ` · 🇮🇷 ${iranActive} Iranian active` : '');
 
       document.getElementById('loadingOverlay').style.display = 'none';
-      return; // success
+      return;
     } catch (err) {
       lastErr = err;
       console.warn('Fetch failed for', url, err.message);
@@ -333,9 +469,9 @@ async function fetchData() {
 
 // ── Init ──
 fetchData();
-refreshTimer = setInterval(fetchData, 30000); // refresh every 30s
+refreshTimer = setInterval(fetchData, 30000);
 
-// Tooltip style injection
+// Tooltip style
 const tooltipStyle = document.createElement('style');
 tooltipStyle.textContent = `.dark-tooltip { background: rgba(16,20,32,0.92) !important; color: #e0e0e0 !important; border: 1px solid #2a3045 !important; border-radius: 6px !important; font-size: 12px !important; padding: 4px 8px !important; } .dark-tooltip::before { border-top-color: rgba(16,20,32,0.92) !important; }`;
 document.head.appendChild(tooltipStyle);
