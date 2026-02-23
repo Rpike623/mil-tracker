@@ -624,8 +624,16 @@ body::after{
 
   <!-- ACTIVITY WIDGET -->
   <div class="widget w-activity">
-    <div class="widget-header">🔔 <span class="wh-title">Live Activity</span><span class="wh-count" id="ac-count">0</span></div>
-    <div class="widget-body" id="pane-activity"></div>
+    <div class="widget-header" style="padding:0;gap:0">
+      <div style="display:flex;flex:1">
+        <div id="act-tab-activity" onclick="switchActTab('activity')" style="flex:1;padding:7px 8px;text-align:center;font-size:9px;font-family:'Share Tech Mono',monospace;letter-spacing:.5px;text-transform:uppercase;cursor:pointer;color:rgba(0,212,255,.7);border-bottom:2px solid rgba(0,212,255,.6);border-right:1px solid var(--border)">🔔 ACTIVITY <span id="ac-count" style="opacity:.7">0</span></div>
+        <div id="act-tab-log"      onclick="switchActTab('log')"      style="flex:1;padding:7px 8px;text-align:center;font-size:9px;font-family:'Share Tech Mono',monospace;letter-spacing:.5px;text-transform:uppercase;cursor:pointer;color:var(--muted);border-bottom:2px solid transparent">📋 LOG <span id="log-count" style="opacity:.7">0</span></div>
+      </div>
+    </div>
+    <div class="widget-body">
+      <div id="pane-activity"></div>
+      <div id="pane-log" style="display:none"></div>
+    </div>
   </div>
 
   <!-- THREAT INDICATORS WIDGET -->
@@ -1207,10 +1215,7 @@ function getTimeAgo(date){
 // TICKER
 // ════════════════════════════════════════
 function updateTicker(news){
-  const items=[
-    ...news.slice(0,12).map(n=>`<span class="ticker-item"><span class="ti-src">${n.source}</span>${n.title}<span class="ti-sep">|</span></span>`),
-  ];
-  document.getElementById('tickerInner').innerHTML=items.join('')+items.join('');
+  // Ticker removed — news now in strip. No-op.
 }
 
 // ════════════════════════════════════════
@@ -1347,7 +1352,6 @@ function renderEventLog(){
 // ════════════════════════════════════════
 // PATCH RENDER TO INCLUDE NEW FEATURES
 // ════════════════════════════════════════
-const _origRender = render;
 // Override render to also run notifications + log
 const _render = render;
 render = function(){
@@ -1359,6 +1363,16 @@ render = function(){
 };
 
 // switchTab is now a no-op (widget grid replaces tabs)
+function switchActTab(t){
+  document.getElementById("pane-activity").style.display=t==="activity"?"block":"none";
+  document.getElementById("pane-log").style.display=t==="log"?"block":"none";
+  const aTab=document.getElementById("act-tab-activity");
+  const lTab=document.getElementById("act-tab-log");
+  aTab.style.color=t==="activity"?"rgba(0,212,255,.7)":"var(--muted)";
+  aTab.style.borderBottom=t==="activity"?"2px solid rgba(0,212,255,.6)":"2px solid transparent";
+  lTab.style.color=t==="log"?"rgba(0,212,255,.7)":"var(--muted)";
+  lTab.style.borderBottom=t==="log"?"2px solid rgba(0,212,255,.6)":"2px solid transparent";
+}
 
 // ════════════════════════════════════════
 // POLYMARKET
