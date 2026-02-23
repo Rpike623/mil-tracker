@@ -3,12 +3,338 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>OSINT Military Tracker — PikeClaw ⚡</title>
+<title>PIKECLAW // OSINT TRACKER</title>
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
 <style>
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Exo+2:wght@300;400;600;700;800&display=swap');
 *{margin:0;padding:0;box-sizing:border-box}
-:root{--bg:#0a0e17;--panel:rgba(13,17,28,0.97);--border:#1a2035;--border2:#232d45;--text:#e0e8ff;--muted:#6b7a9e;--accent:#3b82f6;--red:#ef4444;--orange:#f97316;--yellow:#eab308;--purple:#8b5cf6;--green:#22c55e;--cyan:#22d3ee}
-body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;background:var(--bg);color:var(--text);height:100vh;display:flex;flex-direction:column;overflow:hidden}
+:root{
+  --bg:#020810;
+  --bg2:#040d1a;
+  --panel:rgba(4,13,26,0.97);
+  --panel2:rgba(6,18,36,0.95);
+  --border:#0a2040;
+  --border2:#0d2d55;
+  --border-glow:#1a4a80;
+  --text:#c8e0ff;
+  --text-bright:#e8f4ff;
+  --muted:#3a5878;
+  --accent:#00d4ff;
+  --accent2:#0088cc;
+  --red:#ff3355;
+  --orange:#ff7730;
+  --yellow:#ffd200;
+  --purple:#aa66ff;
+  --green:#00ff88;
+  --cyan:#00ffdd;
+  --grid-line:rgba(0,180,255,0.06);
+}
+
+/* ── SCANLINE + GRID OVERLAY ── */
+body{
+  font-family:'Exo 2',sans-serif;
+  background:var(--bg);
+  color:var(--text);
+  height:100vh;
+  display:flex;
+  flex-direction:column;
+  overflow:hidden;
+}
+body::before{
+  content:'';
+  position:fixed;
+  inset:0;
+  background:
+    repeating-linear-gradient(0deg, transparent, transparent 2px, rgba(0,180,255,.015) 2px, rgba(0,180,255,.015) 4px),
+    repeating-linear-gradient(90deg, transparent, transparent 40px, rgba(0,180,255,.03) 40px, rgba(0,180,255,.03) 41px),
+    repeating-linear-gradient(0deg, transparent, transparent 40px, rgba(0,180,255,.03) 40px, rgba(0,180,255,.03) 41px);
+  pointer-events:none;
+  z-index:9998;
+}
+
+/* ── ANIMATED SCANLINE ── */
+body::after{
+  content:'';
+  position:fixed;
+  top:0;left:0;right:0;
+  height:3px;
+  background:linear-gradient(90deg,transparent,rgba(0,212,255,.4),transparent);
+  animation:scanline 6s linear infinite;
+  pointer-events:none;
+  z-index:9999;
+}
+@keyframes scanline{0%{top:-4px}100%{top:100vh}}
+
+/* ── TOPBAR ── */
+.topbar{
+  flex-shrink:0;
+  background:linear-gradient(180deg,rgba(0,30,60,0.98),rgba(2,15,30,0.98));
+  border-bottom:1px solid var(--border-glow);
+  box-shadow:0 1px 20px rgba(0,212,255,.15), inset 0 -1px 0 rgba(0,212,255,.1);
+  padding:6px 12px;
+  display:flex;gap:5px;align-items:center;flex-wrap:wrap;z-index:200;
+  position:relative;
+}
+.topbar::after{
+  content:'';position:absolute;bottom:0;left:0;right:0;height:1px;
+  background:linear-gradient(90deg,transparent,rgba(0,212,255,.5) 20%,rgba(0,212,255,.8) 50%,rgba(0,212,255,.5) 80%,transparent);
+}
+.topbar .logo{
+  font-family:'Share Tech Mono',monospace;
+  font-size:14px;
+  font-weight:400;
+  color:var(--accent);
+  margin-right:6px;
+  letter-spacing:2px;
+  text-shadow:0 0 12px rgba(0,212,255,.8),0 0 24px rgba(0,212,255,.4);
+  white-space:nowrap;
+}
+.topbar .logo span{color:rgba(0,212,255,.5)}
+.tb-sep{width:1px;height:18px;background:linear-gradient(180deg,transparent,var(--border-glow),transparent);margin:0 3px;flex-shrink:0}
+.tb-btn{
+  background:rgba(0,30,60,0.8);
+  border:1px solid var(--border2);
+  color:var(--muted);
+  padding:4px 9px;
+  border-radius:3px;
+  cursor:pointer;
+  font-size:10px;
+  font-family:'Share Tech Mono',monospace;
+  letter-spacing:.5px;
+  transition:all .15s;
+  white-space:nowrap;
+  text-transform:uppercase;
+  position:relative;
+  overflow:hidden;
+}
+.tb-btn::before{
+  content:'';position:absolute;inset:0;
+  background:linear-gradient(135deg,rgba(0,212,255,.05),transparent);
+  opacity:0;transition:opacity .15s;
+}
+.tb-btn:hover{background:rgba(0,60,120,0.8);border-color:var(--accent);color:var(--accent);box-shadow:0 0 10px rgba(0,212,255,.2),inset 0 0 8px rgba(0,212,255,.05);}
+.tb-btn:hover::before{opacity:1}
+.tb-btn.on{background:rgba(0,80,160,.4);border-color:var(--accent);color:var(--accent);box-shadow:0 0 14px rgba(0,212,255,.3),inset 0 0 10px rgba(0,212,255,.08);}
+.tb-btn.iran-on{background:rgba(255,51,85,.15);border-color:var(--red);color:var(--red);box-shadow:0 0 10px rgba(255,51,85,.3)}
+.tb-btn.russia-on{background:rgba(220,38,38,.15);border-color:#dc2626;color:#ff6666;box-shadow:0 0 10px rgba(220,38,38,.3)}
+.tb-btn.china-on{background:rgba(255,210,0,.1);border-color:var(--yellow);color:var(--yellow);box-shadow:0 0 10px rgba(255,210,0,.25)}
+.tb-search{
+  background:rgba(0,20,40,0.9);
+  border:1px solid var(--border2);
+  color:var(--text);
+  padding:4px 8px;
+  border-radius:3px;
+  font-size:10px;
+  font-family:'Share Tech Mono',monospace;
+  width:130px;
+  outline:none;
+  letter-spacing:.5px;
+}
+.tb-search:focus{border-color:var(--accent);box-shadow:0 0 8px rgba(0,212,255,.2)}
+.tb-search::placeholder{color:var(--border-glow)}
+.tb-label{font-size:9px;color:var(--muted);text-transform:uppercase;letter-spacing:1px;white-space:nowrap;font-family:'Share Tech Mono',monospace}
+
+/* ── WIDGET SYSTEM ── */
+.dashboard{flex:1;display:grid;grid-template-columns:1fr 270px 270px;grid-template-rows:1fr 1fr;min-height:0;gap:0}
+.widget{
+  background:var(--panel);
+  border:1px solid var(--border);
+  display:flex;flex-direction:column;overflow:hidden;min-height:0;
+  position:relative;
+}
+.widget::before{
+  content:'';
+  position:absolute;top:0;left:0;right:0;height:1px;
+  background:linear-gradient(90deg,transparent,rgba(0,180,255,.3),transparent);
+  pointer-events:none;
+}
+.widget-header{
+  flex-shrink:0;
+  padding:6px 10px;
+  background:linear-gradient(180deg,rgba(0,20,45,.95),rgba(0,12,28,.95));
+  border-bottom:1px solid var(--border);
+  font-size:10px;
+  font-weight:700;
+  letter-spacing:1px;
+  color:var(--muted);
+  text-transform:uppercase;
+  display:flex;align-items:center;gap:6px;
+  font-family:'Share Tech Mono',monospace;
+}
+.widget-header .wh-title{flex:1;color:rgba(0,212,255,.7)}
+.widget-header .wh-count{
+  background:rgba(0,212,255,.08);
+  border:1px solid var(--border2);
+  border-radius:2px;
+  padding:1px 7px;
+  font-size:9px;
+  color:var(--accent);
+  font-family:'Share Tech Mono',monospace;
+  box-shadow:0 0 6px rgba(0,212,255,.15);
+}
+.widget-body{flex:1;overflow-y:auto;overflow-x:hidden;min-height:0}
+.widget-body::-webkit-scrollbar{width:3px}
+.widget-body::-webkit-scrollbar-track{background:rgba(0,10,20,.5)}
+.widget-body::-webkit-scrollbar-thumb{background:var(--border2);border-radius:2px}
+.w-map{grid-column:1;grid-row:1/3;position:relative;border:0;min-height:300px}
+.w-zones{grid-column:2;grid-row:1}
+.w-stats{grid-column:3;grid-row:1}
+.w-activity{grid-column:2;grid-row:2}
+
+/* News + bottom bar */
+.news-card{min-width:220px;max-width:220px;padding:8px 10px;border-right:1px solid var(--border);cursor:pointer;transition:background .15s;flex-shrink:0;display:flex;flex-direction:column;justify-content:space-between}
+.news-card:hover{background:rgba(0,212,255,.04)}
+.news-card .nc-src{font-size:9px;color:var(--accent);font-weight:700;margin-bottom:3px;text-transform:uppercase;letter-spacing:.8px;font-family:'Share Tech Mono',monospace}
+.news-card .nc-title{font-size:11px;line-height:1.4;color:var(--text);flex:1;display:-webkit-box;-webkit-line-clamp:4;-webkit-box-orient:vertical;overflow:hidden}
+.news-card .nc-meta{font-size:9px;color:var(--muted);margin-top:4px;font-family:'Share Tech Mono',monospace}
+.news-card.alert .nc-src{color:var(--red);text-shadow:0 0 8px rgba(255,51,85,.5)}
+.news-card.alert{border-left:2px solid var(--red);box-shadow:inset 2px 0 10px rgba(255,51,85,.08)}
+
+/* Poly cards */
+.poly-card{min-width:175px;max-width:175px;padding:8px 10px;border-right:1px solid var(--border);flex-shrink:0;display:flex;flex-direction:column;gap:4px;cursor:pointer;transition:background .15s;text-decoration:none}
+.poly-card:hover{background:rgba(0,212,255,.04)}
+.poly-card .pc-q{font-size:10px;line-height:1.35;color:var(--text);display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;flex:1}
+.poly-card .pc-odds{display:flex;align-items:center;gap:4px;margin-top:4px}
+.poly-card .pc-yes{font-size:16px;font-weight:800;font-family:'Share Tech Mono',monospace}
+.poly-card .pc-label{font-size:9px;color:var(--muted);font-family:'Share Tech Mono',monospace}
+.poly-card .pc-bar{height:3px;background:rgba(0,212,255,.1);border-radius:2px;overflow:hidden;margin-top:2px}
+.poly-card .pc-fill{height:100%;border-radius:2px;transition:width .5s;box-shadow:0 0 6px currentColor}
+.poly-card .pc-vol{font-size:9px;color:var(--muted);font-family:'Share Tech Mono',monospace}
+
+/* X feed */
+.x-tab{background:rgba(0,20,40,.8);border:1px solid var(--border2);color:var(--muted);padding:2px 7px;border-radius:2px;cursor:pointer;font-size:9px;white-space:nowrap;font-family:'Share Tech Mono',monospace;letter-spacing:.5px;text-transform:uppercase}
+.x-tab:hover{color:var(--text)}.x-tab.on{border-color:#1d9bf0;color:#1d9bf0;box-shadow:0 0 8px rgba(29,155,240,.3)}
+.x-post{padding:8px 10px;border-bottom:1px solid var(--border);font-size:11px;line-height:1.45;cursor:pointer;transition:background .15s}
+.x-post:hover{background:rgba(29,155,240,.05)}
+.x-post .xp-meta{font-size:9px;color:var(--muted);margin-bottom:3px;display:flex;gap:6px;font-family:'Share Tech Mono',monospace}
+.x-post .xp-handle{color:#1d9bf0;font-weight:600}
+.x-post .xp-text{color:var(--text)}
+
+/* Info panel */
+.infopanel{position:absolute;bottom:50px;left:10px;z-index:500;
+  background:rgba(2,10,22,0.97);
+  border:1px solid var(--border-glow);
+  box-shadow:0 0 30px rgba(0,212,255,.15), inset 0 0 30px rgba(0,212,255,.02);
+  border-radius:4px;padding:12px;width:260px;display:none;backdrop-filter:blur(16px)}
+.infopanel::before{content:'';position:absolute;top:0;left:0;right:0;height:1px;background:linear-gradient(90deg,transparent,rgba(0,212,255,.6),transparent)}
+.infopanel.vis{display:block}
+.infopanel .ip-head{display:flex;justify-content:space-between;align-items:center;margin-bottom:8px}
+.infopanel h3{font-size:13px;color:var(--accent);font-family:'Share Tech Mono',monospace;letter-spacing:1px;text-shadow:0 0 10px rgba(0,212,255,.5)}
+.infopanel .x{background:none;border:none;color:var(--muted);cursor:pointer;font-size:16px;line-height:1}
+.infopanel .x:hover{color:var(--accent)}
+.infopanel .f{margin-bottom:3px;font-size:11px;display:flex;gap:4px}
+.infopanel .f .k{color:var(--muted);font-family:'Share Tech Mono',monospace;font-size:10px;white-space:nowrap;padding-top:1px}
+.infopanel .f .v{color:var(--text-bright);font-weight:500}
+
+/* Region buttons */
+.region-btns{position:absolute;bottom:10px;left:10px;z-index:400;display:flex;flex-direction:column;gap:3px}
+.region-btns button{
+  background:rgba(2,10,22,0.88);
+  border:1px solid var(--border2);
+  color:var(--muted);
+  padding:4px 8px;border-radius:2px;cursor:pointer;
+  font-size:9px;text-align:left;transition:all .15s;
+  font-family:'Share Tech Mono',monospace;letter-spacing:.5px;text-transform:uppercase;
+}
+.region-btns button:hover{color:var(--accent);border-color:var(--accent);box-shadow:0 0 8px rgba(0,212,255,.2)}
+
+/* Map legend */
+.map-legend{
+  background:rgba(2,10,22,0.9);
+  border:1px solid var(--border2);
+  box-shadow:0 0 15px rgba(0,212,255,.1);
+  border-radius:3px;padding:8px 10px;font-size:10px;font-family:'Share Tech Mono',monospace;letter-spacing:.3px;
+}
+.map-legend .ml-row{display:flex;align-items:center;gap:6px;margin-bottom:3px;color:var(--muted)}
+.map-legend .ml-row .ml-dot{width:7px;height:7px;border-radius:50%;flex-shrink:0;box-shadow:0 0 4px currentColor}
+
+/* Adversary tabs */
+.adv-tab{flex:1;padding:8px 6px;text-align:center;font-size:11px;font-weight:600;cursor:pointer;color:var(--muted);border-bottom:2px solid transparent;transition:all .15s;user-select:none;border-right:1px solid var(--border);font-family:'Share Tech Mono',monospace;letter-spacing:.5px;text-transform:uppercase}
+.adv-tab:last-child{border-right:0}
+.adv-tab:hover{color:var(--text)}
+.adv-tab.active{color:var(--accent);border-bottom-color:var(--accent);background:rgba(0,212,255,.05);text-shadow:0 0 10px rgba(0,212,255,.4)}
+.adv-tab[data-adv="iran"].active{border-bottom-color:var(--red);color:var(--red);text-shadow:0 0 10px rgba(255,51,85,.4)}
+.adv-tab[data-adv="russia"].active{border-bottom-color:#dc2626;color:#ff6666;text-shadow:0 0 10px rgba(220,38,38,.4)}
+.adv-tab[data-adv="china"].active{border-bottom-color:var(--yellow);color:var(--yellow);text-shadow:0 0 10px rgba(255,210,0,.4)}
+.adv-body{display:flex;height:100%;overflow:hidden}
+.adv-col{flex:1;border-right:1px solid var(--border);overflow-y:auto;padding:8px 10px;font-size:11px}
+.adv-col:last-child{border-right:0}
+.adv-col h5{font-size:9px;text-transform:uppercase;letter-spacing:1px;color:rgba(0,212,255,.5);margin-bottom:6px;padding-bottom:4px;border-bottom:1px solid var(--border);font-family:'Share Tech Mono',monospace}
+.adv-row{display:flex;justify-content:space-between;margin-bottom:4px;align-items:center;gap:8px}
+.adv-row .ar-label{color:var(--muted);font-size:10px}
+.adv-row .ar-val{font-weight:600;color:var(--text-bright);font-size:10px;text-align:right;font-family:'Share Tech Mono',monospace}
+.adv-status{padding:2px 6px;border-radius:2px;font-size:9px;font-weight:700;font-family:'Share Tech Mono',monospace;letter-spacing:.5px}
+.adv-status.hot{background:rgba(255,51,85,.15);color:var(--red);box-shadow:0 0 8px rgba(255,51,85,.2)}
+.adv-status.warn{background:rgba(255,119,48,.15);color:var(--orange)}
+.adv-status.calm{background:rgba(0,255,136,.1);color:var(--green)}
+
+/* Loading overlay */
+.loading-ov{position:absolute;inset:0;z-index:600;background:rgba(2,8,16,.9);display:flex;align-items:center;justify-content:center;flex-direction:column;gap:8px}
+.loading-ov .sp{font-size:32px;animation:spin 1s linear infinite;display:inline-block}
+.loading-ov .st{color:var(--muted);font-size:12px;font-family:'Share Tech Mono',monospace;letter-spacing:2px;text-transform:uppercase;animation:pulse 1.5s ease-in-out infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+@keyframes pulse{0%,100%{opacity:.5}50%{opacity:1}}
+
+/* Leaflet overrides */
+.leaflet-popup-content-wrapper{background:rgba(2,10,22,.98);color:var(--text);border-radius:3px;border:1px solid var(--border-glow);box-shadow:0 0 20px rgba(0,212,255,.2)}
+.leaflet-popup-tip{background:rgba(2,10,22,.98)}
+.dark-tooltip{background:rgba(2,10,22,.97)!important;color:var(--text)!important;border:1px solid var(--border-glow)!important;border-radius:3px!important;font-size:10px!important;padding:4px 8px!important;font-family:'Share Tech Mono',monospace!important;box-shadow:0 0 12px rgba(0,212,255,.2)!important;letter-spacing:.3px!important}
+.leaflet-control-zoom a{background:rgba(2,10,22,.9)!important;color:var(--accent)!important;border:1px solid var(--border2)!important}
+.leaflet-control-attribution{background:rgba(2,10,22,.7)!important;color:var(--muted)!important;font-size:9px!important}
+.leaflet-control-attribution a{color:var(--accent2)!important}
+
+/* Zone cards */
+.zone-card{padding:7px 12px;border-bottom:1px solid var(--border);display:flex;justify-content:space-between;align-items:center;transition:background .15s}
+.zone-card:hover{background:rgba(0,212,255,.03)}
+.zone-card .zc-name{font-size:11px;color:var(--text);font-family:'Share Tech Mono',monospace;font-size:10px;letter-spacing:.3px}
+.zone-card .zc-count{font-size:15px;font-weight:800;font-family:'Share Tech Mono',monospace}
+.zone-card.hot{border-left:2px solid var(--red);background:rgba(255,51,85,.04)}
+.zone-card.warm{border-left:2px solid var(--orange)}
+
+/* Country/type bars */
+.country-row{display:flex;align-items:center;gap:6px;margin-bottom:5px;font-size:11px}
+.country-row .cr-flag{width:18px;text-align:center}
+.country-row .cr-name{flex:1;color:var(--muted);font-size:10px;font-family:'Share Tech Mono',monospace;letter-spacing:.3px}
+.country-row .cr-bar-wrap{width:80px;height:4px;background:rgba(0,212,255,.08);border-radius:2px;overflow:hidden}
+.country-row .cr-bar{height:100%;border-radius:2px;transition:width .5s;box-shadow:0 0 4px currentColor}
+.country-row .cr-count{width:24px;text-align:right;font-weight:700;color:var(--text-bright);font-family:'Share Tech Mono',monospace;font-size:11px}
+.type-row{display:flex;align-items:center;gap:6px;margin-bottom:4px;font-size:11px}
+.type-row .tr-icon{width:16px;text-align:center}
+.type-row .tr-name{flex:1;color:var(--muted);font-size:10px;font-family:'Share Tech Mono',monospace}
+.type-row .tr-bar-wrap{width:70px;height:3px;background:rgba(0,212,255,.08);border-radius:2px;overflow:hidden}
+.type-row .tr-bar{height:100%;border-radius:2px;transition:width .5s;box-shadow:0 0 4px currentColor}
+.type-row .tr-count{width:24px;text-align:right;font-weight:700;color:var(--text-bright);font-family:'Share Tech Mono',monospace;font-size:11px}
+.stat-block{padding:10px 12px;border-bottom:1px solid var(--border)}
+.stat-block .sb-label{font-size:9px;color:rgba(0,212,255,.5);margin-bottom:6px;text-transform:uppercase;letter-spacing:1px;font-family:'Share Tech Mono',monospace}
+
+/* Activity feed */
+.feed-item{padding:6px 12px;border-bottom:1px solid var(--border);display:flex;align-items:center;gap:6px;font-size:11px;transition:background .15s;cursor:pointer}
+.feed-item:hover{background:rgba(0,212,255,.03)}
+.feed-item .fi-flag{flex-shrink:0}
+.feed-item .fi-call{font-weight:700;color:var(--text-bright);flex-shrink:0;font-family:'Share Tech Mono',monospace;font-size:10px;letter-spacing:.5px}
+.feed-item .fi-type{color:var(--muted);font-size:10px}
+.feed-item .fi-alt{margin-left:auto;color:var(--muted);flex-shrink:0;font-family:'Share Tech Mono',monospace;font-size:10px}
+
+/* Section headers in panels */
+.rp-section{padding:6px 12px 4px;font-size:9px;text-transform:uppercase;letter-spacing:1px;color:rgba(0,212,255,.4);border-bottom:1px solid var(--border);font-family:'Share Tech Mono',monospace}
+
+/* Mobile */
+@media(max-width:768px){
+  body{overflow-y:auto;overflow-x:hidden;height:auto}
+  .dashboard{display:block;height:auto}
+  .w-map{height:55vmax;min-height:300px;max-height:70vh;position:relative;display:block}
+  #map{position:absolute;top:0;left:0;right:0;bottom:0}
+  .w-zones,.w-stats,.w-activity,.w-log{height:220px;display:flex;flex-direction:column}
+  .topbar{padding:5px 8px;position:sticky;top:0;z-index:9999}
+  .tb-btn{padding:4px 6px;font-size:9px}
+  .tb-search{width:90px}
+  .tb-sep{display:none}
+  .tb-label{display:none}
+  .infopanel{left:8px!important;right:8px!important;width:auto!important;bottom:8px!important}
+  .region-btns{bottom:8px}
+  .region-btns button{font-size:9px;padding:3px 5px}
+  .map-legend{display:none}
+}
 
 /* ── WIDGET SYSTEM ── */
 .dashboard{flex:1;display:grid;grid-template-columns:1fr 270px 270px;grid-template-rows:1fr 1fr;min-height:0;gap:0}
@@ -222,7 +548,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;backgrou
 
 <!-- TOP BAR -->
 <div class="topbar">
-  <span class="logo">⚡ OSINT<span>TRACKER</span></span>
+  <span class="logo">⚡ PIKE<span>CLAW</span> // OSINT-MIL</span>
   <span class="tb-label">Country:</span>
   <button class="tb-btn on" id="bc-all" onclick="setCF('all')">🌍 All</button>
   <button class="tb-btn" id="bc-us" onclick="setCF('us')">🇺🇸 US</button>
@@ -362,12 +688,18 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;backgrou
 // ════════════════════════════════════════
 const map = L.map('map', { center:[30,50], zoom:5, zoomControl:true });
 const TILES = {
-  dark: L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {attribution:'&copy; OSM &copy; CARTO | adsb.lol',subdomains:'abcd',maxZoom:19}),
+  dark: L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_nolabels/{z}/{x}/{y}{r}.png', {attribution:'&copy; OSM &copy; CARTO | adsb.lol',subdomains:'abcd',maxZoom:19}),
+  labels: L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_only_labels/{z}/{x}/{y}{r}.png', {subdomains:'abcd',maxZoom:19,pane:'overlayPane'}),
   satellite: L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {attribution:'&copy; Esri',maxZoom:19}),
   terrain: L.tileLayer('https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png', {attribution:'&copy; OSM',subdomains:'abc',maxZoom:17}),
 };
 let currentTile = 'dark';
 TILES.dark.addTo(map);
+TILES.labels.addTo(map);
+// Tint the map blue
+const mapEl = document.getElementById('map');
+mapEl.style.filter = 'hue-rotate(185deg) saturate(0.7) brightness(0.85)';
+
 function setTile(t){
   map.removeLayer(TILES[currentTile]);
   currentTile=t;
