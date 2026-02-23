@@ -26,19 +26,25 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;backgrou
 .w-activity{grid-column:2;grid-row:2}
 .w-log{grid-column:3;grid-row:2}
 
-/* News strip */
-.news-strip{flex-shrink:0;height:170px;display:flex;gap:0;border-top:1px solid var(--border);background:var(--bg);overflow:hidden}
-.news-strip-inner{display:flex;gap:0;overflow-x:auto;flex:1}
-.news-strip-inner::-webkit-scrollbar{height:3px}
-.news-strip-inner::-webkit-scrollbar-thumb{background:#1e2a42}
-.news-card{min-width:240px;max-width:240px;padding:10px 12px;border-right:1px solid var(--border);cursor:pointer;transition:background .15s;flex-shrink:0}
+/* News + Poly cards */
+.news-card{min-width:220px;max-width:220px;padding:8px 10px;border-right:1px solid var(--border);cursor:pointer;transition:background .15s;flex-shrink:0;display:flex;flex-direction:column;justify-content:space-between}
 .news-card:hover{background:rgba(59,130,246,.06)}
 .news-card .nc-src{font-size:9px;color:var(--accent);font-weight:700;margin-bottom:3px;text-transform:uppercase;letter-spacing:.5px}
-.news-card .nc-title{font-size:11px;line-height:1.4;color:var(--text);display:-webkit-box;-webkit-line-clamp:4;-webkit-box-orient:vertical;overflow:hidden}
+.news-card .nc-title{font-size:11px;line-height:1.4;color:var(--text);flex:1;display:-webkit-box;-webkit-line-clamp:4;-webkit-box-orient:vertical;overflow:hidden}
 .news-card .nc-meta{font-size:9px;color:var(--muted);margin-top:4px}
 .news-card.alert .nc-src{color:var(--red)}
-.news-card.alert{border-left:2px solid var(--red);padding-left:10px}
-.news-strip-label{flex-shrink:0;width:80px;display:flex;align-items:center;justify-content:center;border-right:1px solid var(--border);writing-mode:vertical-rl;text-orientation:mixed;font-size:10px;font-weight:700;color:var(--muted);letter-spacing:.5px;text-transform:uppercase}
+.news-card.alert{border-left:2px solid var(--red);padding-left:8px}
+
+/* Polymarket cards */
+.poly-card{min-width:175px;max-width:175px;padding:8px 10px;border-right:1px solid var(--border);flex-shrink:0;display:flex;flex-direction:column;gap:4px;cursor:pointer;transition:background .15s;text-decoration:none}
+.poly-card:hover{background:rgba(59,130,246,.06)}
+.poly-card .pc-q{font-size:10px;line-height:1.35;color:var(--text);display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;flex:1}
+.poly-card .pc-odds{display:flex;align-items:center;gap:4px;margin-top:4px}
+.poly-card .pc-yes{font-size:16px;font-weight:800}
+.poly-card .pc-label{font-size:9px;color:var(--muted)}
+.poly-card .pc-bar{height:4px;background:#1e2a42;border-radius:2px;overflow:hidden;margin-top:2px}
+.poly-card .pc-fill{height:100%;border-radius:2px;transition:width .5s}
+.poly-card .pc-vol{font-size:9px;color:var(--muted)}
 
 /* ── TOP BAR ── */
 .topbar{flex-shrink:0;background:var(--panel);border-bottom:1px solid var(--border);padding:7px 12px;display:flex;gap:5px;align-items:center;flex-wrap:wrap;z-index:200}
@@ -254,10 +260,26 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;backgrou
 
 </div>
 
-<!-- NEWS STRIP -->
-<div class="news-strip">
-  <div class="news-strip-label">Intel Feed</div>
-  <div class="news-strip-inner" id="newsStrip"></div>
+<!-- POLYMARKET + NEWS ROW -->
+<div style="flex-shrink:0;height:175px;display:flex;border-top:1px solid var(--border);background:var(--bg)">
+
+  <!-- POLYMARKET WIDGET -->
+  <div style="width:380px;flex-shrink:0;border-right:1px solid var(--border);display:flex;flex-direction:column;overflow:hidden">
+    <div style="flex-shrink:0;padding:6px 10px;background:rgba(0,0,0,.3);border-bottom:1px solid var(--border);font-size:10px;font-weight:700;letter-spacing:.5px;color:#6b7a9e;text-transform:uppercase;display:flex;align-items:center;gap:6px">
+      🎲 <span style="flex:1">Polymarket — Military & Conflict Odds</span>
+      <span id="poly-updated" style="font-size:9px;color:#3a4560"></span>
+    </div>
+    <div style="flex:1;overflow-x:auto;overflow-y:hidden;display:flex;align-items:stretch" id="polyStrip"></div>
+  </div>
+
+</div>
+
+  <!-- NEWS STRIP -->
+  <div style="flex:1;display:flex;flex-direction:column;overflow:hidden">
+    <div style="flex-shrink:0;padding:6px 10px;background:rgba(0,0,0,.3);border-bottom:1px solid var(--border);font-size:10px;font-weight:700;letter-spacing:.5px;color:#6b7a9e;text-transform:uppercase">📰 Intel Feed</div>
+    <div style="flex:1;overflow-x:auto;overflow-y:hidden;display:flex;align-items:stretch" id="newsStrip"></div>
+  </div>
+
 </div>
 
 <!-- TICKER -->
@@ -934,12 +956,49 @@ render = function(){
 // switchTab is now a no-op (widget grid replaces tabs)
 
 // ════════════════════════════════════════
+// POLYMARKET
+// ════════════════════════════════════════
+async function fetchPolymarket(){
+  const strip = document.getElementById('polyStrip');
+  if(!strip) return;
+  const queries = ['war military strike','Iran nuclear attack','Russia China Taiwan conflict','missile nuclear weapon'];
+  const seen = new Set(); const allMarkets = [];
+  for(const q of queries){
+    try{
+      const url = 'https://gamma-api.polymarket.com/markets?limit=12&active=true&closed=false&order=volume24hr&ascending=false&q='+encodeURIComponent(q);
+      const proxied = 'https://corsproxy.io/?url='+encodeURIComponent(url);
+      const r = await fetch(proxied,{signal:AbortSignal.timeout(8000)});
+      if(!r.ok) continue;
+      const data = await r.json();
+      if(!Array.isArray(data)) continue;
+      data.forEach(m=>{if(!seen.has(m.id)&&!m.closed&&m.active){seen.add(m.id);allMarkets.push(m);}});
+    }catch(e){}
+  }
+  const KW=['strike','nuclear','war','attack','military','missile','iran','russia','china','conflict','invasion','ceasefire','troops','weapon','nato','ukraine','taiwan','bomb','coup','sanctions'];
+  const filtered=allMarkets.filter(m=>KW.some(k=>(m.question||'').toLowerCase().includes(k))).sort((a,b)=>(b.volumeNum||0)-(a.volumeNum||0)).slice(0,20);
+  if(!filtered.length){strip.innerHTML='<div style="padding:16px;color:#6b7a9e;font-size:11px;align-self:center">No active military markets found</div>';return;}
+  let h='';
+  filtered.forEach(m=>{
+    let pct=0;
+    try{const pr=JSON.parse(m.outcomePrices||'[]');const ou=JSON.parse(m.outcomes||'[]');const yi=ou.findIndex(o=>o.toLowerCase()==='yes');pct=Math.round(parseFloat(pr[yi>=0?yi:0]||0)*100);}catch(e){}
+    const col=pct>=60?'#ef4444':pct>=35?'#f97316':pct>=15?'#eab308':'#22c55e';
+    const vol=m.volumeNum>=1000000?'$'+(m.volumeNum/1000000).toFixed(1)+'M':m.volumeNum>=1000?'$'+(m.volumeNum/1000).toFixed(0)+'K':'$'+Math.round(m.volumeNum||0);
+    const url='https://polymarket.com/event/'+(m.slug||m.id);
+    h+='<a class="poly-card" href="'"+url+'" target="_blank" rel="noopener"><div class="pc-q">'"+m.question+'</div><div><div class="pc-odds"><span class="pc-yes" style="color:'"+col+'">'"+pct+'%</span><span class="pc-label">YES</span></div><div class="pc-bar"><div class="pc-fill" style="width:'"+pct+'%;background:'"+col+'"></div></div><div class="pc-vol" style="margin-top:3px">'"+vol+' vol</div></div></a>';
+  });
+  strip.innerHTML=h;
+  const el=document.getElementById('poly-updated');if(el)el.textContent='Updated '+new Date().toLocaleTimeString();
+}
+
+// ════════════════════════════════════════
 // INIT
 // ════════════════════════════════════════
 fetchData();
 fetchAllNews();
+fetchPolymarket();
 setInterval(fetchData, 30000);
-setInterval(fetchAllNews, 300000); // news every 5 min
+setInterval(fetchAllNews, 300000);
+setInterval(fetchPolymarket, 300000); // Polymarket every 5 min
 
 switchTab('news');
 </script>
