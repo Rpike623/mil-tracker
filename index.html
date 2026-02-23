@@ -35,6 +35,30 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;backgrou
 .news-card.alert .nc-src{color:var(--red)}
 .news-card.alert{border-left:2px solid var(--red);padding-left:8px}
 
+/* Adversary tabs */
+.adv-tab{flex:1;padding:8px 6px;text-align:center;font-size:12px;font-weight:600;cursor:pointer;color:var(--muted);border-bottom:2px solid transparent;transition:all .15s;user-select:none;border-right:1px solid var(--border)}
+.adv-tab:last-child{border-right:0}
+.adv-tab:hover{color:var(--text)}
+.adv-tab.active{color:#fff;border-bottom-color:var(--accent)}
+.adv-tab[data-adv="iran"].active{border-bottom-color:#ef4444;color:#fca5a5}
+.adv-tab[data-adv="russia"].active{border-bottom-color:#dc2626;color:#fca5a5}
+.adv-tab[data-adv="china"].active{border-bottom-color:#eab308;color:#fde047}
+/* Adversary intel layout */
+.adv-body{display:flex;height:100%;overflow:hidden}
+.adv-col{flex:1;border-right:1px solid var(--border);overflow-y:auto;padding:8px 10px;font-size:11px}
+.adv-col:last-child{border-right:0}
+.adv-col h5{font-size:10px;text-transform:uppercase;letter-spacing:.5px;color:var(--muted);margin-bottom:6px;padding-bottom:4px;border-bottom:1px solid var(--border)}
+.adv-row{display:flex;justify-content:space-between;margin-bottom:4px;align-items:center}
+.adv-row .ar-label{color:var(--muted)}
+.adv-row .ar-val{font-weight:600;color:var(--text)}
+.adv-kv{margin-bottom:5px}
+.adv-kv .ak{font-size:10px;color:var(--muted)}
+.adv-kv .av{font-size:11px;color:var(--text)}
+.adv-status{padding:3px 7px;border-radius:3px;font-size:10px;font-weight:700}
+.adv-status.hot{background:rgba(239,68,68,.2);color:#ef4444}
+.adv-status.warn{background:rgba(249,115,22,.2);color:#f97316}
+.adv-status.calm{background:rgba(34,197,94,.15);color:#22c55e}
+
 /* X / OSINT feed */
 .x-tab{background:#111827;border:1px solid var(--border2);color:var(--muted);padding:2px 7px;border-radius:3px;cursor:pointer;font-size:10px;white-space:nowrap}
 .x-tab:hover{color:var(--text)}.x-tab.on{border-color:#1d9bf0;color:#1d9bf0}
@@ -279,9 +303,21 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;backgrou
   </div>
 
   <!-- THREAT INDICATORS WIDGET -->
-  <div class="widget w-log">
+  <div class="widget w-log" style="grid-column:3;grid-row:1">
     <div class="widget-header">🎯 <span class="wh-title">Threat Indicators</span><span class="wh-count" id="threat-level" style="color:#22c55e">LOW</span></div>
     <div class="widget-body" id="pane-threat"></div>
+  </div>
+
+  <!-- ADVERSARY INTEL WIDGET -->
+  <div class="widget" style="grid-column:2/4;grid-row:2">
+    <div class="widget-header" style="padding:0">
+      <div id="adv-tabs" style="display:flex;width:100%">
+        <div class="adv-tab active" data-adv="iran"   onclick="switchAdv('iran')"  >🇮🇷 Iran</div>
+        <div class="adv-tab"        data-adv="russia" onclick="switchAdv('russia')">🇷🇺 Russia</div>
+        <div class="adv-tab"        data-adv="china"  onclick="switchAdv('china')" >🇨🇳 China</div>
+      </div>
+    </div>
+    <div class="widget-body" id="pane-adv" style="padding:0"></div>
   </div>
 
 </div>
@@ -672,6 +708,7 @@ function render(){
   updateAlertsPane(visible);
   updateActivityPane(visible);
   renderThreat(visible);
+  renderAdvPanel(currentAdv);
 }
 
 // ════════════════════════════════════════
@@ -1381,10 +1418,169 @@ function toggleAirDef(){
     airDefLayers = [];
   }
 }
+
+// ════════════════════════════════════════
+// ADVERSARY INTEL PANEL
+// ════════════════════════════════════════
+const ADV_INTEL = {
+  iran: {
+    name: 'Islamic Republic of Iran', flag: '🇮🇷', color: '#ef4444',
+    oob: [
+      { label:'Air Force Aircraft (est.)', val:'~330 fixed-wing' },
+      { label:'Key fighters', val:'F-14A Tomcat, F-4E, MiG-29, Su-24' },
+      { label:'Drones', val:'Shahed-136/131, Mohajer-6, Arash-2' },
+      { label:'Navy surface vessels', val:'~100 (IRIN + IRGCN)' },
+      { label:'Submarines', val:'3 Kilo-class + midget subs' },
+      { label:'Ballistic missiles', val:'Shahab-3, Khorramshahr, Qadr' },
+      { label:'Cruise missiles', val:'Soumar, Ya Ali, Hoveizeh' },
+      { label:'Active personnel', val:'~610,000 + 220,000 IRGC' },
+    ],
+    hotspots: [
+      { name:'Strait of Hormuz', status:'ACTIVE', note:'IRGCN patrols ongoing' },
+      { name:'Natanz Enrichment', status:'ACTIVE', note:'90% enrichment confirmed' },
+      { name:'Fordow Underground', status:'ACTIVE', note:'Deeply buried, air-strike resistant' },
+      { name:'Syria/Iraq proxies', status:'ACTIVE', note:'Hezbollah, PMF active' },
+    ],
+    intel: [
+      'Iran enriched uranium to near-weapons-grade (84%) at Fordow',
+      'IRGCN fast-boat harassment of US vessels in Arabian Gulf ongoing',
+      'Shahed drone exports to Russia confirm production scale-up',
+      'Parchin military site expansion detected via satellite imagery',
+      'Iran-Russia-China trilateral naval drills held in Indian Ocean',
+    ],
+    watchFor: [
+      'IRIAF tanker aircraft (707/747) suggest extended-range strike prep',
+      'Surge in IRGCN small boat activity near Hormuz = chokepoint threat',
+      'Iranian ISR drones over Iraq/Syria = target designation ops',
+      'Fordow or Natanz air defense activation = strike anticipation',
+    ],
+  },
+  russia: {
+    name: 'Russian Federation', flag: '🇷🇺', color: '#dc2626',
+    oob: [
+      { label:'Air Force Aircraft (est.)', val:'~4,000 total, ~1,500 active' },
+      { label:'Key fighters', val:'Su-57, Su-35S, Su-30SM, MiG-31BM' },
+      { label:'Bombers', val:'Tu-160M, Tu-95MS, Tu-22M3' },
+      { label:'Navy vessels (active)', val:'~350 ships, 1 carrier (laid up)' },
+      { label:'Submarines', val:'~60 (11 SSBN nuclear)' },
+      { label:'ICBMs deployed', val:'~1,600 strategic warheads' },
+      { label:'Hypersonic weapons', val:'Kinzhal, Avangard, Zircon' },
+      { label:'Active personnel', val:'~900,000 (est. wartime)' },
+    ],
+    hotspots: [
+      { name:'Ukraine frontline', status:'ACTIVE', note:'Ongoing combined arms offensive' },
+      { name:'Black Sea Fleet', status:'WARN',   note:'Fleet degraded by Ukrainian strikes' },
+      { name:'Kaliningrad',      status:'WARN',   note:'Iskander SRBM deployment confirmed' },
+      { name:'Syria (Hmeimim)', status:'ACTIVE', note:'Russian air operations ongoing' },
+    ],
+    intel: [
+      'Tu-160M strategic bombers conducted long-range patrols over Arctic',
+      'Black Sea Fleet relocated assets to Novorossiysk after Sevastopol losses',
+      'Kinzhal hypersonic missiles used in Ukraine — depleting stockpile',
+      'Russian EW aircraft (IL-22PP) active over eastern Ukraine',
+      'S-500 Prometheus system reached operational status',
+    ],
+    watchFor: [
+      'Tu-95MS/Tu-160 sorties from Engels AB = nuclear/cruise missile patrol',
+      'MiG-31BM with Kinzhal on hardpoints = hypersonic strike ready',
+      'IL-20M Coot ELINT surges = pre-strike reconnaissance',
+      'Su-34 strike jets + tankers = deep strike package being assembled',
+    ],
+  },
+  china: {
+    name: "People's Republic of China", flag: '🇨🇳', color: '#eab308',
+    oob: [
+      { label:'Air Force Aircraft (est.)', val:'~3,000 total combat' },
+      { label:'Key fighters', val:'J-20, J-16, J-10C, Su-35' },
+      { label:'Bombers', val:'H-6K/J/N (LACM capable)' },
+      { label:'Navy vessels', val:'~355 ships (largest fleet by count)' },
+      { label:'Aircraft carriers', val:'3 (Liaoning, Shandong, Fujian)' },
+      { label:'Submarines', val:'~60 (6 SSBN nuclear)' },
+      { label:'ICBMs deployed', val:'~500 warheads, expanding fast' },
+      { label:'Active personnel', val:'~2,000,000' },
+    ],
+    hotspots: [
+      { name:'Taiwan Strait',    status:'ACTIVE', note:'Near-daily PLA incursions into ADIZ' },
+      { name:'South China Sea',  status:'ACTIVE', note:'Artificial island militarization ongoing' },
+      { name:'Senkaku/Diaoyu',   status:'WARN',   note:'CCG vessels conducting regular patrols' },
+      { name:'India border (LAC)',status:'WARN',   note:'Infrastructure buildup at multiple points' },
+    ],
+    intel: [
+      'PLAAF J-20 stealth fighters now operational at multiple bases near Taiwan',
+      'PLA SSBN patrols in Pacific increasing — nuclear deterrent posture shift',
+      'DF-17 hypersonic glide vehicle entered full operational service',
+      'Fujian carrier completed sea trials — first electromagnetic catapult carrier',
+      'PLA established third overseas logistics base (Equatorial Guinea suspected)',
+    ],
+    watchFor: [
+      'H-6K/J bomber sorties with air-launched cruise missiles = strike posture',
+      'Multiple PLAN carrier strike groups leaving port simultaneously = major op',
+      'Y-20 transport surge toward Taiwan Strait area = amphibious prep signal',
+      'PLA EW aircraft (Y-8/Y-9) near Taiwan = electronic suppression prep',
+    ],
+  }
+};
+
+let currentAdv = 'iran';
+
+function switchAdv(adv){
+  currentAdv = adv;
+  document.querySelectorAll('.adv-tab').forEach(t => t.classList.toggle('active', t.dataset.adv === adv));
+  renderAdvPanel(adv);
+}
+
+function renderAdvPanel(adv){
+  const d = ADV_INTEL[adv];
+  if(!d) return;
+  const pane = document.getElementById('pane-adv');
+  if(!pane) return;
+
+  // Count live aircraft for this adversary
+  const live = acData.filter(ac => ac.lat && getGroup(ac.hex) === adv);
+  const liveTypes = {};
+  live.forEach(ac => { const t=classifyType(ac); liveTypes[t]=(liveTypes[t]||0)+1; });
+
+  let h = `<div class="adv-body">`;
+
+  // Col 1: Order of Battle
+  h += `<div class="adv-col">
+    <h5>⚔️ Order of Battle</h5>
+    ${d.oob.map(o=>`<div class="adv-row"><span class="ar-label">${o.label}</span><span class="ar-val">${o.val}</span></div>`).join('')}
+    <h5 style="margin-top:8px">✈️ Live Aircraft Now</h5>
+    ${live.length ? Object.entries(liveTypes).map(([t,n])=>`<div class="adv-row"><span class="ar-label">${TICO[t]||'◆'} ${TLAB[t]||t}</span><span class="ar-val" style="color:${d.color}">${n}</span></div>`).join('') : `<div style="color:#3a4560;font-size:11px">No ${d.name} aircraft currently tracked</div>`}
+  </div>`;
+
+  // Col 2: Hotspots + Intel
+  h += `<div class="adv-col">
+    <h5>🔥 Active Hotspots</h5>
+    ${d.hotspots.map(hs=>{
+      const scls = hs.status==='ACTIVE'?'hot':hs.status==='WARN'?'warn':'calm';
+      return `<div style="margin-bottom:7px">
+        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:2px">
+          <span style="font-weight:600;color:var(--text)">${hs.name}</span>
+          <span class="adv-status ${scls}">${hs.status}</span>
+        </div>
+        <div style="color:var(--muted);font-size:10px">${hs.note}</div>
+      </div>`;
+    }).join('')}
+    <h5 style="margin-top:8px">📡 Recent Intel</h5>
+    ${d.intel.map(i=>`<div style="margin-bottom:5px;color:var(--muted);font-size:10px;padding-left:6px;border-left:2px solid ${d.color}40">${i}</div>`).join('')}
+  </div>`;
+
+  // Col 3: Watch Signals
+  h += `<div class="adv-col">
+    <h5>👁️ Watch For These Signals</h5>
+    ${d.watchFor.map(w=>`<div style="margin-bottom:8px;padding:6px 8px;background:rgba(239,68,68,.06);border:1px solid ${d.color}30;border-radius:4px;font-size:11px;color:var(--text);line-height:1.4">${w}</div>`).join('')}
+  </div>`;
+
+  h += `</div>`;
+  pane.innerHTML = h;
+}
 fetchData();
 fetchAllNews();
 fetchPolymarket();
 initXFeed();
+renderAdvPanel('iran');
 // Fix Leaflet map size on mobile after layout settles
 setTimeout(() => map.invalidateSize(), 300);
 setTimeout(() => map.invalidateSize(), 1000);
