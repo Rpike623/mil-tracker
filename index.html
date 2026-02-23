@@ -7,159 +7,240 @@
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
-body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;background:#0a0e17;color:#e0e0e0;overflow:hidden}
-#map{position:absolute;top:0;left:0;right:0;bottom:42px;z-index:1}
+:root{--bg:#0a0e17;--panel:rgba(13,17,28,0.97);--border:#1a2035;--border2:#232d45;--text:#e0e8ff;--muted:#6b7a9e;--accent:#3b82f6;--red:#ef4444;--orange:#f97316;--yellow:#eab308;--purple:#8b5cf6;--green:#22c55e;--cyan:#22d3ee}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;background:var(--bg);color:var(--text);height:100vh;display:flex;flex-direction:column;overflow:hidden}
 
-/* Top bar */
-.topbar{position:absolute;top:0;left:0;right:0;z-index:1000;background:rgba(10,14,23,0.95);border-bottom:1px solid #1a1f2e;padding:8px 12px;display:flex;gap:6px;align-items:center;flex-wrap:wrap;backdrop-filter:blur(8px)}
-.topbar .title{font-weight:700;font-size:14px;color:#60a5fa;margin-right:8px;white-space:nowrap}
-.topbar button{background:#1a1f2e;border:1px solid #2a3045;color:#e0e0e0;padding:5px 10px;border-radius:5px;cursor:pointer;font-size:11px;transition:all .2s;white-space:nowrap}
-.topbar button:hover{background:#2a3045;border-color:#4a5580}
-.topbar button.active{background:#1e3a5f;border-color:#3b82f6;color:#60a5fa}
-.topbar button.iran-active{background:#4a1e1e;border-color:#ef4444;color:#f87171}
-.topbar button.russia-active{background:#4a2a1e;border-color:#dc2626;color:#fca5a5}
-.topbar button.china-active{background:#4a3e1e;border-color:#eab308;color:#fde047}
-.topbar .sep{width:1px;height:20px;background:#2a3045;margin:0 2px}
-.topbar input{background:#111827;border:1px solid #2a3045;color:#e0e0e0;padding:5px 8px;border-radius:5px;font-size:11px;width:130px}
-.topbar input::placeholder{color:#555}
+/* ── TOP BAR ── */
+.topbar{flex-shrink:0;background:var(--panel);border-bottom:1px solid var(--border);padding:7px 12px;display:flex;gap:5px;align-items:center;flex-wrap:wrap;z-index:200}
+.topbar .logo{font-weight:800;font-size:13px;color:var(--accent);margin-right:6px;letter-spacing:.5px;white-space:nowrap}
+.topbar .logo span{color:var(--text)}
+.tb-sep{width:1px;height:18px;background:var(--border2);margin:0 3px;flex-shrink:0}
+.tb-btn{background:#111827;border:1px solid var(--border2);color:var(--muted);padding:4px 9px;border-radius:4px;cursor:pointer;font-size:11px;transition:all .15s;white-space:nowrap}
+.tb-btn:hover,`.tb-btn.on{background:#1e2a42;border-color:var(--accent);color:var(--text)}
+.tb-btn.on{color:#93c5fd}
+.tb-btn.iran-on{background:#2d1515;border-color:var(--red);color:#fca5a5}
+.tb-btn.russia-on{background:#2d1a15;border-color:#dc2626;color:#fca5a5}
+.tb-btn.china-on{background:#2a2610;border-color:var(--yellow);color:#fde047}
+.tb-search{background:#111827;border:1px solid var(--border2);color:var(--text);padding:4px 8px;border-radius:4px;font-size:11px;width:120px;outline:none}
+.tb-search:focus{border-color:var(--accent)}
+.tb-search::placeholder{color:#3a4560}
+.tb-label{font-size:10px;color:var(--muted);text-transform:uppercase;letter-spacing:.5px;white-space:nowrap}
 
-/* Stats bar */
-.statsbar{position:absolute;bottom:0;left:0;right:0;z-index:1000;height:42px;background:rgba(10,14,23,0.95);border-top:1px solid #1a1f2e;padding:0 16px;display:flex;gap:18px;align-items:center;font-size:12px;backdrop-filter:blur(8px)}
-.statsbar .st{display:flex;align-items:center;gap:5px}
-.statsbar .st .d{width:7px;height:7px;border-radius:50%}
-.statsbar .st .n{font-weight:600;color:#fff}
-.statsbar .st .l{color:#8892a8}
-.statsbar .upd{margin-left:auto;color:#555e73;font-size:11px}
+/* ── MAIN BODY ── */
+.main{flex:1;display:flex;overflow:hidden;min-height:0}
 
-/* Info panel */
-.infopanel{position:absolute;top:50px;right:12px;z-index:1001;background:rgba(16,20,32,0.96);border:1px solid #1a1f2e;border-radius:10px;padding:14px;width:290px;display:none;backdrop-filter:blur(8px);max-height:calc(100vh - 110px);overflow-y:auto}
+/* ── MAP AREA ── */
+.map-wrap{flex:1;position:relative;min-width:0}
+#map{position:absolute;inset:0}
+
+/* ── RIGHT PANEL ── */
+.rpanel{width:320px;flex-shrink:0;background:var(--panel);border-left:1px solid var(--border);display:flex;flex-direction:column;overflow:hidden}
+.rpanel-tabs{display:flex;border-bottom:1px solid var(--border);flex-shrink:0}
+.rpanel-tabs .tab{flex:1;padding:8px 4px;text-align:center;font-size:11px;cursor:pointer;color:var(--muted);border-bottom:2px solid transparent;transition:all .15s;user-select:none}
+.rpanel-tabs .tab:hover{color:var(--text)}
+.rpanel-tabs .tab.active{color:var(--accent);border-bottom-color:var(--accent)}
+.rpanel-body{flex:1;overflow-y:auto;overflow-x:hidden}
+.rpanel-body::-webkit-scrollbar{width:4px}
+.rpanel-body::-webkit-scrollbar-track{background:#0d111c}
+.rpanel-body::-webkit-scrollbar-thumb{background:#1e2a42;border-radius:2px}
+
+/* Right panel sections */
+.rp-section{padding:10px 12px 4px;font-size:10px;text-transform:uppercase;letter-spacing:.6px;color:var(--muted);border-bottom:1px solid var(--border)}
+.rp-section.mt{margin-top:4px}
+
+/* News cards */
+.news-card{padding:10px 12px;border-bottom:1px solid var(--border);cursor:pointer;transition:background .15s}
+.news-card:hover{background:rgba(59,130,246,.06)}
+.news-card .nc-src{font-size:10px;color:var(--accent);font-weight:600;margin-bottom:3px;text-transform:uppercase;letter-spacing:.4px}
+.news-card .nc-title{font-size:12px;line-height:1.4;color:var(--text);margin-bottom:4px}
+.news-card .nc-meta{font-size:10px;color:var(--muted)}
+.news-card.alert .nc-src{color:var(--red)}
+.news-card.alert{border-left:2px solid var(--red)}
+
+/* Stats panel */
+.stat-block{padding:10px 12px;border-bottom:1px solid var(--border)}
+.stat-block .sb-label{font-size:10px;color:var(--muted);margin-bottom:6px;text-transform:uppercase;letter-spacing:.5px}
+.country-row{display:flex;align-items:center;gap:6px;margin-bottom:5px;font-size:12px}
+.country-row .cr-flag{width:18px;text-align:center}
+.country-row .cr-name{flex:1;color:var(--muted)}
+.country-row .cr-bar-wrap{width:80px;height:6px;background:#111827;border-radius:3px;overflow:hidden}
+.country-row .cr-bar{height:100%;border-radius:3px;transition:width .3s}
+.country-row .cr-count{width:24px;text-align:right;font-weight:600;color:var(--text)}
+.type-row{display:flex;align-items:center;gap:6px;margin-bottom:4px;font-size:11px}
+.type-row .tr-icon{width:16px;text-align:center}
+.type-row .tr-name{flex:1;color:var(--muted)}
+.type-row .tr-bar-wrap{width:70px;height:5px;background:#111827;border-radius:3px;overflow:hidden}
+.type-row .tr-bar{height:100%;border-radius:3px;transition:width .3s}
+.type-row .tr-count{width:24px;text-align:right;font-weight:600;color:var(--text)}
+
+/* Alerts panel */
+.zone-card{padding:8px 12px;border-bottom:1px solid var(--border);display:flex;justify-content:space-between;align-items:center}
+.zone-card .zc-name{font-size:12px;color:var(--text)}
+.zone-card .zc-count{font-size:14px;font-weight:700}
+.zone-card.hot{border-left:2px solid var(--red)}
+.zone-card.warm{border-left:2px solid var(--orange)}
+
+/* Activity feed */
+.feed-item{padding:6px 12px;border-bottom:1px solid var(--border);display:flex;align-items:center;gap:6px;font-size:11px}
+.feed-item .fi-flag{flex-shrink:0}
+.feed-item .fi-call{font-weight:600;color:var(--text);flex-shrink:0}
+.feed-item .fi-type{color:var(--muted)}
+.feed-item .fi-alt{margin-left:auto;color:var(--muted);flex-shrink:0}
+
+/* Info panel overlay */
+.infopanel{position:absolute;bottom:50px;left:10px;z-index:500;background:rgba(13,17,28,0.97);border:1px solid var(--border2);border-radius:8px;padding:12px;width:260px;display:none;backdrop-filter:blur(12px)}
 .infopanel.vis{display:block}
-.infopanel h3{font-size:14px;margin-bottom:6px;color:#fff}
-.infopanel .x{position:absolute;top:6px;right:10px;background:none;border:none;color:#666;cursor:pointer;font-size:18px}
+.infopanel .ip-head{display:flex;justify-content:space-between;align-items:center;margin-bottom:8px}
+.infopanel h3{font-size:13px;color:#fff}
+.infopanel .x{background:none;border:none;color:var(--muted);cursor:pointer;font-size:16px;line-height:1}
 .infopanel .x:hover{color:#fff}
-.infopanel .f{margin-bottom:4px;font-size:12px}
-.infopanel .f .k{color:#8892a8}
-.infopanel .f .v{color:#e0e0e0;font-weight:500}
+.infopanel .f{margin-bottom:3px;font-size:11px}
+.infopanel .f .k{color:var(--muted)}
+.infopanel .f .v{color:var(--text);font-weight:500}
 
-/* Sidebar */
-.sidebar{position:absolute;top:50px;left:0;bottom:42px;z-index:1001;width:260px;background:rgba(10,14,23,0.96);border-right:1px solid #1a1f2e;backdrop-filter:blur(8px);overflow-y:auto;transform:translateX(-100%);transition:transform .3s}
-.sidebar.open{transform:translateX(0)}
-.sidebar h4{font-size:11px;text-transform:uppercase;color:#8892a8;padding:10px 12px 4px;letter-spacing:.5px}
-.sidebar .zone-item{padding:6px 12px;font-size:12px;display:flex;justify-content:space-between;border-bottom:1px solid #111827}
-.sidebar .zone-item .zn{color:#e0e0e0}
-.sidebar .zone-item .zc{font-weight:600;color:#60a5fa}
-.sidebar .feed-item{padding:5px 12px;font-size:11px;border-bottom:1px solid #111827;color:#ccc}
-.sidebar .feed-item .ff{color:#8892a8}
-.sidebar .bar-row{padding:3px 12px;font-size:11px;display:flex;align-items:center;gap:6px}
-.sidebar .bar-row .bar{height:8px;background:#3b82f6;border-radius:2px;min-width:2px}
-.sidebar .bar-row .bl{color:#8892a8;width:55px;text-align:right;flex-shrink:0}
-.sidebar .bar-row .bc{color:#e0e0e0;width:28px;flex-shrink:0}
-.toggle-sidebar{position:absolute;top:56px;left:4px;z-index:1002;background:#1a1f2e;border:1px solid #2a3045;color:#e0e0e0;width:28px;height:28px;border-radius:5px;cursor:pointer;font-size:14px;display:flex;align-items:center;justify-content:center;transition:left .3s}
-.toggle-sidebar.shifted{left:264px}
+/* Region quick-jump */
+.region-btns{position:absolute;bottom:10px;left:10px;z-index:400;display:flex;flex-direction:column;gap:3px}
+.region-btns button{background:rgba(13,17,28,0.88);border:1px solid var(--border2);color:var(--muted);padding:4px 8px;border-radius:4px;cursor:pointer;font-size:10px;text-align:left;transition:all .15s}
+.region-btns button:hover{color:var(--text);border-color:var(--accent)}
 
-/* Region buttons */
-.region-btns{position:absolute;bottom:50px;left:12px;z-index:1000;display:flex;flex-direction:column;gap:4px}
-.region-btns button{background:rgba(26,31,46,0.9);border:1px solid #2a3045;color:#8892a8;padding:4px 8px;border-radius:4px;cursor:pointer;font-size:10px;text-align:left}
-.region-btns button:hover{color:#e0e0e0;border-color:#4a5580}
+/* Alert zones */
+.map-legend{position:absolute;top:10px;right:10px;z-index:400;background:rgba(13,17,28,0.88);border:1px solid var(--border2);border-radius:6px;padding:8px 10px;font-size:10px}
+.map-legend .ml-row{display:flex;align-items:center;gap:6px;margin-bottom:3px;color:var(--muted)}
+.map-legend .ml-row .ml-dot{width:8px;height:8px;border-radius:50%;flex-shrink:0}
 
-/* Alert zone rectangles */
-.alert-zone{opacity:0.15;stroke-opacity:0.6}
+/* ── TICKER ── */
+.ticker{flex-shrink:0;height:30px;background:rgba(0,0,0,.7);border-top:1px solid var(--border);overflow:hidden;position:relative}
+.ticker-inner{display:flex;align-items:center;height:100%;white-space:nowrap;animation:ticker-scroll 80s linear infinite}
+.ticker-inner:hover{animation-play-state:paused}
+.ticker-item{padding:0 32px;font-size:11px;color:var(--muted)}
+.ticker-item .ti-src{color:var(--accent);font-weight:700;margin-right:6px}
+.ticker-item .ti-sep{color:var(--border2);margin:0 8px}
+@keyframes ticker-scroll{0%{transform:translateX(100vw)}100%{transform:translateX(-100%)}}
 
 /* Leaflet overrides */
-.leaflet-popup-content-wrapper{background:#1a1f2e;color:#e0e0e0;border-radius:8px}
-.leaflet-popup-tip{background:#1a1f2e}
-.dark-tooltip{background:rgba(16,20,32,0.92)!important;color:#e0e0e0!important;border:1px solid #2a3045!important;border-radius:6px!important;font-size:11px!important;padding:3px 7px!important}
+.leaflet-popup-content-wrapper{background:#0d111c;color:var(--text);border-radius:8px;border:1px solid var(--border2)}
+.leaflet-popup-tip{background:#0d111c}
+.dark-tooltip{background:rgba(13,17,28,.95)!important;color:var(--text)!important;border:1px solid var(--border2)!important;border-radius:5px!important;font-size:11px!important;padding:3px 7px!important;box-shadow:0 2px 8px rgba(0,0,0,.5)!important}
 
 /* Loading */
-.loading{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);z-index:2000;background:rgba(10,14,23,0.9);padding:20px 28px;border-radius:10px;border:1px solid #2a3045;text-align:center}
-.loading .sp{font-size:28px;animation:spin 1s linear infinite;display:inline-block}
+.loading-ov{position:absolute;inset:0;z-index:600;background:rgba(10,14,23,.85);display:flex;align-items:center;justify-content:center;flex-direction:column;gap:8px}
+.loading-ov .sp{font-size:32px;animation:spin 1s linear infinite;display:inline-block}
+.loading-ov .st{color:var(--muted);font-size:13px}
 @keyframes spin{to{transform:rotate(360deg)}}
 
-@media(max-width:600px){
-  .topbar{font-size:10px;padding:6px 8px}
-  .topbar button{padding:4px 6px;font-size:10px}
-  .topbar input{width:80px}
-  .sidebar{width:220px}
-  .infopanel{width:240px;right:6px}
+/* Responsive */
+@media(max-width:700px){
+  .rpanel{display:none}
+  .tb-search{width:80px}
 }
 </style>
 </head>
 <body>
 
-<div class="topbar" id="topbar">
-  <span class="title">⚡ OSINT MIL-TRACKER</span>
-  <div class="sep"></div>
-  <button id="bc-all" class="active" onclick="setCF('all')">🌍 All</button>
-  <button id="bc-us" onclick="setCF('us')">🇺🇸</button>
-  <button id="bc-iran" onclick="setCF('iran')">🇮🇷</button>
-  <button id="bc-russia" onclick="setCF('russia')">🇷🇺</button>
-  <button id="bc-china" onclick="setCF('china')">🇨🇳</button>
-  <button id="bc-allied" onclick="setCF('allied')">🤝</button>
-  <div class="sep"></div>
-  <button id="bt-all" class="active" onclick="setTF('all')">All</button>
-  <button id="bt-fighter" onclick="setTF('fighter')">✈️Ftr</button>
-  <button id="bt-transport" onclick="setTF('transport')">🛩️Trn</button>
-  <button id="bt-tanker" onclick="setTF('tanker')">⛽Tnk</button>
-  <button id="bt-recon" onclick="setTF('recon')">🔍ISR</button>
-  <button id="bt-heli" onclick="setTF('heli')">🚁Hel</button>
-  <button id="bt-bomber" onclick="setTF('bomber')">💣Bmb</button>
-  <button id="bt-trainer" onclick="setTF('trainer')">🎓Trn</button>
-  <div class="sep"></div>
-  <input type="text" id="searchBox" placeholder="Search callsign/type..." oninput="doSearch()"/>
-  <button onclick="fetchData()" title="Refresh now">🔄</button>
+<!-- TOP BAR -->
+<div class="topbar">
+  <span class="logo">⚡ OSINT<span>TRACKER</span></span>
+  <span class="tb-label">Country:</span>
+  <button class="tb-btn on" id="bc-all" onclick="setCF('all')">🌍 All</button>
+  <button class="tb-btn" id="bc-us" onclick="setCF('us')">🇺🇸 US</button>
+  <button class="tb-btn" id="bc-iran" onclick="setCF('iran')">🇮🇷 Iran</button>
+  <button class="tb-btn" id="bc-russia" onclick="setCF('russia')">🇷🇺 Russia</button>
+  <button class="tb-btn" id="bc-china" onclick="setCF('china')">🇨🇳 China</button>
+  <button class="tb-btn" id="bc-allied" onclick="setCF('allied')">🤝 Allied</button>
+  <div class="tb-sep"></div>
+  <span class="tb-label">Type:</span>
+  <button class="tb-btn on" id="bt-all" onclick="setTF('all')">All</button>
+  <button class="tb-btn" id="bt-fighter" onclick="setTF('fighter')">✈️ Fighter</button>
+  <button class="tb-btn" id="bt-transport" onclick="setTF('transport')">🛩️ Transport</button>
+  <button class="tb-btn" id="bt-tanker" onclick="setTF('tanker')">⛽ Tanker</button>
+  <button class="tb-btn" id="bt-recon" onclick="setTF('recon')">🔍 ISR</button>
+  <button class="tb-btn" id="bt-heli" onclick="setTF('heli')">🚁 Heli</button>
+  <button class="tb-btn" id="bt-bomber" onclick="setTF('bomber')">💣 Bomber</button>
+  <div class="tb-sep"></div>
+  <input class="tb-search" id="searchBox" placeholder="Search callsign/hex..." oninput="doSearch()"/>
+  <button class="tb-btn" onclick="fetchData()" title="Refresh now">🔄 Refresh</button>
 </div>
 
-<button class="toggle-sidebar" id="togSidebar" onclick="toggleSidebar()">☰</button>
+<!-- MAIN -->
+<div class="main">
 
-<div class="sidebar" id="sidebar">
-  <h4>⚠️ Alert Zones</h4>
-  <div id="zoneList"></div>
-  <h4>📊 Country Breakdown</h4>
-  <div id="countryBars"></div>
-  <h4>📈 Type Breakdown</h4>
-  <div id="typeBars"></div>
-  <h4>🔔 Recent Activity</h4>
-  <div id="actFeed"></div>
+  <!-- MAP -->
+  <div class="map-wrap">
+    <div id="map"></div>
+
+    <!-- Map controls -->
+    <div class="map-legend">
+      <div class="ml-row"><div class="ml-dot" style="background:#3b82f6"></div>🇺🇸 United States</div>
+      <div class="ml-row"><div class="ml-dot" style="background:#ef4444"></div>🇮🇷 Iran</div>
+      <div class="ml-row"><div class="ml-dot" style="background:#dc2626"></div>🇷🇺 Russia</div>
+      <div class="ml-row"><div class="ml-dot" style="background:#eab308"></div>🇨🇳 China</div>
+      <div class="ml-row"><div class="ml-dot" style="background:#8b5cf6"></div>🤝 Allied</div>
+    </div>
+
+    <div class="region-btns">
+      <button onclick="goTo(30,50,5)">🔥 Middle East</button>
+      <button onclick="goTo(38,-97,4)">🇺🇸 CONUS</button>
+      <button onclick="goTo(50,15,4)">🇪🇺 Europe</button>
+      <button onclick="goTo(25,125,4)">🌏 Pacific</button>
+      <button onclick="goTo(20,0,2)">🌍 Global</button>
+    </div>
+
+    <!-- Aircraft info panel -->
+    <div class="infopanel" id="infoP">
+      <div class="ip-head">
+        <h3 id="pTitle">—</h3>
+        <button class="x" onclick="closeP()">&times;</button>
+      </div>
+      <div id="pBody"></div>
+    </div>
+
+    <!-- Loading overlay -->
+    <div class="loading-ov" id="loadOv">
+      <div class="sp">✈️</div>
+      <div class="st">Loading military aircraft...</div>
+    </div>
+  </div>
+
+  <!-- RIGHT PANEL -->
+  <div class="rpanel">
+    <div class="rpanel-tabs">
+      <div class="tab active" id="tab-news" onclick="switchTab('news')">📰 Intel Feed</div>
+      <div class="tab" id="tab-stats" onclick="switchTab('stats')">📊 Stats</div>
+      <div class="tab" id="tab-alerts" onclick="switchTab('alerts')">⚠️ Zones</div>
+      <div class="tab" id="tab-activity" onclick="switchTab('activity')">🔔 Activity</div>
+    </div>
+    <div class="rpanel-body">
+      <div id="pane-news"></div>
+      <div id="pane-stats" style="display:none"></div>
+      <div id="pane-alerts" style="display:none"></div>
+      <div id="pane-activity" style="display:none"></div>
+    </div>
+  </div>
+
 </div>
 
-<div id="map"></div>
-
-<div class="infopanel" id="infoP">
-  <button class="x" onclick="closeP()">&times;</button>
-  <h3 id="pTitle">—</h3>
-  <div id="pBody"></div>
+<!-- TICKER -->
+<div class="ticker">
+  <div class="ticker-inner" id="tickerInner">
+    <span class="ticker-item"><span class="ti-src">LOADING</span>Fetching live military flight data and news...</span>
+  </div>
 </div>
-
-<div class="region-btns">
-  <button onclick="goRegion(30,50,5)">🔥 Middle East</button>
-  <button onclick="goRegion(38,-97,4)">🇺🇸 CONUS</button>
-  <button onclick="goRegion(50,15,4)">🇪🇺 Europe</button>
-  <button onclick="goRegion(25,125,4)">🌏 Pacific</button>
-  <button onclick="goRegion(20,0,2)">🌍 Global</button>
-</div>
-
-<div class="statsbar">
-  <div class="st"><div class="d" style="background:#22c55e"></div><span class="n" id="sTotal">—</span><span class="l">total</span></div>
-  <div class="st"><div class="d" style="background:#3b82f6"></div><span class="n" id="sUS">—</span><span class="l">US</span></div>
-  <div class="st"><div class="d" style="background:#ef4444"></div><span class="n" id="sIran">—</span><span class="l">Iran</span></div>
-  <div class="st"><div class="d" style="background:#dc2626"></div><span class="n" id="sRussia">—</span><span class="l">Russia</span></div>
-  <div class="st"><div class="d" style="background:#eab308"></div><span class="n" id="sChina">—</span><span class="l">China</span></div>
-  <div class="st"><div class="d" style="background:#8b5cf6"></div><span class="n" id="sAllied">—</span><span class="l">allied</span></div>
-  <span class="upd" id="updTime">Loading...</span>
-</div>
-
-<div class="loading" id="loadOv"><div class="sp">✈️</div><div style="margin-top:6px;color:#8892a8;font-size:13px">Loading military aircraft...</div></div>
 
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <script>
-// === MAP ===
-const map=L.map('map',{center:[30,50],zoom:5,zoomControl:true});
-L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png',{attribution:'&copy; OSM &copy; CARTO | adsb.lol',subdomains:'abcd',maxZoom:19}).addTo(map);
+// ════════════════════════════════════════
+// MAP SETUP
+// ════════════════════════════════════════
+const map = L.map('map', { center:[30,50], zoom:5, zoomControl:true });
+L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
+  attribution:'&copy; OSM &copy; CARTO | Data: adsb.lol', subdomains:'abcd', maxZoom:19
+}).addTo(map);
+function goTo(lat,lon,z){ map.setView([lat,lon],z); }
 
-function goRegion(lat,lon,z){map.setView([lat,lon],z)}
-
-// === COUNTRY RANGES ===
-const CR={
+// ════════════════════════════════════════
+// COUNTRY DETECTION
+// ════════════════════════════════════════
+const CR = {
   us:[[0xA00000,0xAFFFFF]],
   iran:[[0x730000,0x737FFF]],
   russia:[[0x100000,0x13FFFF]],
@@ -182,94 +263,112 @@ const CR={
 };
 const FLAGS={us:'🇺🇸',iran:'🇮🇷',russia:'🇷🇺',china:'🇨🇳',uk:'🇬🇧',france:'🇫🇷',germany:'🇩🇪',australia:'🇦🇺',japan:'🇯🇵',korea:'🇰🇷',israel:'🇮🇱',saudi:'🇸🇦',turkey:'🇹🇷',india:'🇮🇳',pakistan:'🇵🇰',canada:'🇨🇦',italy:'🇮🇹',nato:'🏛️',uae:'🇦🇪'};
 const CNAMES={us:'United States',iran:'Iran',russia:'Russia',china:'China',uk:'United Kingdom',france:'France',germany:'Germany',australia:'Australia',japan:'Japan',korea:'South Korea',israel:'Israel',saudi:'Saudi Arabia',turkey:'Turkey',india:'India',pakistan:'Pakistan',canada:'Canada',italy:'Italy',nato:'NATO',uae:'UAE'};
-const GCOL={us:'#3b82f6',iran:'#ef4444',russia:'#dc2626',china:'#eab308',allied:'#8b5cf6'};
+const GCOL={us:'#3b82f6',iran:'#ef4444',russia:'#dc2626',china:'#eab308',allied:'#8b5cf6',unknown:'#64748b'};
 
-function getCountry(hex){const h=parseInt(hex,16);for(const[c,rs]of Object.entries(CR))for(const[lo,hi]of rs)if(h>=lo&&h<=hi)return c;return'unknown'}
-function getGroup(hex){const c=getCountry(hex);if(c==='us'||c==='iran'||c==='russia'||c==='china')return c;return'allied'}
-function getFlag(hex){return FLAGS[getCountry(hex)]||'🌐'}
-function getCName(hex){return CNAMES[getCountry(hex)]||'Unknown'}
-function getGCol(hex){return GCOL[getGroup(hex)]||'#64748b'}
+function getCountry(hex){
+  const h=parseInt(hex,16);
+  for(const[c,rs]of Object.entries(CR))for(const[lo,hi]of rs)if(h>=lo&&h<=hi)return c;
+  return'unknown';
+}
+function getGroup(hex){const c=getCountry(hex);return(['us','iran','russia','china'].includes(c))?c:'allied';}
+function getFlag(hex){return FLAGS[getCountry(hex)]||'🌐';}
+function getCName(hex){return CNAMES[getCountry(hex)]||'Unknown';}
+function getCol(hex){return GCOL[getGroup(hex)]||'#64748b';}
 
-// === TYPE CLASSIFICATION ===
-const TYPES={
-  fighter:['F15','F16','F18','F22','F35','FA18','EUFI','A10','AV8B','EA18','F14','F5','SU27','SU30','SU35','MIG29','MIG31','J10','J11','J16','J20','RFAL','TOR'],
-  transport:['C17','C130','C30J','C5','C5M','C12','C40','C37','IL76','AN124','AN12','Y20','A400','C295','C27J','C160'],
-  tanker:['KC10','KC46','KC135','KC130','MRTT','IL78','KC30'],
-  recon:['P8','P3','EP3','RC135','E3','E6','E8','E2','U2','RQ4','MQ9','MQ1','MC12','AWACS','E737','WC135','WC130','OC135','MC130','EC130'],
-  heli:['UH60','AH64','CH47','CH53','MH60','V22','MV22','CV22','MI17','MI24','MI8','MI28','H60','HH60','SH60','AS65','NH90','H64','H47','H53','UH1','AH1'],
-  bomber:['B52','B1','B2','B21','TU95','TU160','H6'],
-  trainer:['T6','T38','T45','T1','BE20','PC12','C172','T7','T50','PC21','LJ35']
+// ════════════════════════════════════════
+// AIRCRAFT TYPE CLASSIFICATION
+// ════════════════════════════════════════
+const TYPES = {
+  fighter: ['F15','F16','F18','F22','F35','FA18','EUFI','A10','AV8B','EA18','F14','F5','SU27','SU30','SU35','MIG29','MIG31','J10','J11','J16','J20','RFAL','TOR','F4','MIR'],
+  transport:['C17','C130','C30J','C5','C5M','C12','C40','C37','IL76','AN124','AN12','Y20','A400','C295','C27J','C160','C145','C146','C2'],
+  tanker:   ['KC10','KC46','KC135','KC130','MRTT','IL78','KC30'],
+  recon:    ['P8','P3','EP3','RC135','E3','E6','E8','E2','U2','RQ4','MQ9','MQ1','MC12','E737','WC135','WC130','MC130','EC130','RQ170'],
+  heli:     ['UH60','AH64','CH47','CH53','MH60','V22','MV22','CV22','MI17','MI24','MI8','MI28','HH60','SH60','AS65','NH90','UH1','AH1','H60','H47','H53'],
+  bomber:   ['B52','B1','B2','B21','TU95','TU160','H6','B1B','B52H'],
+  trainer:  ['T6','T38','T45','T1','BE20','PC12','C172','T7','T50','PC21','LJ35','T44','TH57']
 };
 const TCOL={fighter:'#f97316',transport:'#38bdf8',tanker:'#c084fc',recon:'#22d3ee',heli:'#4ade80',bomber:'#f87171',trainer:'#facc15',other:'#64748b'};
 const TLAB={fighter:'Fighter/Attack',transport:'Transport',tanker:'Tanker',recon:'ISR/Patrol',heli:'Helicopter',bomber:'Bomber',trainer:'Trainer',other:'Other'};
+const TICO={fighter:'✈️',transport:'🛩️',tanker:'⛽',recon:'🔍',heli:'🚁',bomber:'💣',trainer:'🎓',other:'◆'};
 
 function classifyType(ac){
   const t=(ac.t||'').toUpperCase().replace(/[^A-Z0-9]/g,'');
   const fl=(ac.flight||'').trim().toUpperCase();
-  for(const[cat,pats]of Object.entries(TYPES))for(const p of pats){const pp=p.replace(/[^A-Z0-9]/g,'');if(t.includes(pp)||t.startsWith(pp))return cat}
-  if(/^VIPER|^RAGE|^COBRA|^HAWK/.test(fl))return'fighter';
+  for(const[cat,pats]of Object.entries(TYPES)){
+    for(const p of pats){const pp=p.replace(/[^A-Z0-9]/g,'');if(t.includes(pp)||t.startsWith(pp))return cat;}
+  }
+  if(/^VIPER|^RAGE|^COBRA/.test(fl))return'fighter';
   if(/^RCH|^REACH/.test(fl))return'transport';
-  if(/^ETHYL|^TEXAC|^SHELL/.test(fl))return'tanker';
+  if(/^ETHYL|^TEXAC/.test(fl))return'tanker';
   if(/^JAKE|^TOPCAT/.test(fl))return'recon';
   if(/^DUST|^PEDRO/.test(fl))return'heli';
   return'other';
 }
 
-// === ALERT ZONES ===
+// ════════════════════════════════════════
+// ALERT ZONES
+// ════════════════════════════════════════
 const ZONES=[
-  {name:'Strait of Hormuz',bounds:[[25.5,55.5],[27.5,57.5]],color:'#ef4444'},
-  {name:'Persian Gulf',bounds:[[24,48],[30,56]],color:'#f97316'},
-  {name:'Taiwan Strait',bounds:[[22,117],[26,121]],color:'#eab308'},
-  {name:'South China Sea',bounds:[[5,108],[18,121]],color:'#eab308'},
-  {name:'Black Sea',bounds:[[41,27],[47,42]],color:'#dc2626'},
-  {name:'Baltic Sea',bounds:[[53,12],[60,30]],color:'#a855f7'},
+  {name:'Strait of Hormuz',   bounds:[[25.5,55.5],[27.5,57.5]], color:'#ef4444', icon:'🚨'},
+  {name:'Persian Gulf',       bounds:[[24,48],[30,56]],          color:'#f97316', icon:'⚠️'},
+  {name:'Taiwan Strait',      bounds:[[22,117],[26,121]],        color:'#eab308', icon:'⚠️'},
+  {name:'South China Sea',    bounds:[[5,108],[18,121]],         color:'#eab308', icon:'⚠️'},
+  {name:'Black Sea',          bounds:[[41,27],[47,42]],          color:'#dc2626', icon:'⚠️'},
+  {name:'Baltic Sea',         bounds:[[53,12],[60,30]],          color:'#8b5cf6', icon:'ℹ️'},
+  {name:'Mediterranean',      bounds:[[30,10],[46,36]],          color:'#8b5cf6', icon:'ℹ️'},
+  {name:'Arabian Sea',        bounds:[[10,55],[25,72]],          color:'#f97316', icon:'⚠️'},
 ];
-const zoneRects=[];
 ZONES.forEach(z=>{
-  const r=L.rectangle(z.bounds,{color:z.color,weight:1,fillOpacity:0.1,opacity:0.4,interactive:false}).addTo(map);
-  zoneRects.push({...z,rect:r});
+  L.rectangle(z.bounds,{color:z.color,weight:1,fillOpacity:0.07,opacity:0.35,interactive:false}).addTo(map);
+  L.marker([(z.bounds[0][0]+z.bounds[1][0])/2,(z.bounds[0][1]+z.bounds[1][1])/2],{
+    icon:L.divIcon({html:`<div style="font-size:9px;color:${z.color};white-space:nowrap;text-shadow:0 0 3px #000;font-weight:700;opacity:.7">${z.name}</div>`,className:'',iconAnchor:[0,0]})
+  }).addTo(map);
 });
 
-// === STATE ===
-let mkrs={},acData=[],trails={},cFilt='all',tFilt='all',searchQ='',sidebarOpen=false;
+// ════════════════════════════════════════
+// STATE
+// ════════════════════════════════════════
+let mkrs={}, acData=[], trails={}, cFilt='all', tFilt='all', searchQ='', curTab='news';
 
-// === MARKERS ===
+// ════════════════════════════════════════
+// MARKERS + TRAILS
+// ════════════════════════════════════════
 function mkIcon(ac){
-  const rot=ac.track||0;
   const tp=classifyType(ac);
-  const grp=getGroup(ac.hex);
-  const col=getGCol(ac.hex);
-  const isAdversary=grp==='iran'||grp==='russia'||grp==='china';
-  const sz=tp==='heli'?16:isAdversary?24:20;
+  const g=getGroup(ac.hex);
+  const col=getCol(ac.hex);
+  const adv=(g==='iran'||g==='russia'||g==='china');
+  const sz=tp==='heli'?16:adv?24:20;
   const sym=tp==='heli'?'🚁':'✈';
-  const glow=isAdversary?`0 0 8px ${col}80`:'0 0 3px #000';
-  return L.divIcon({html:`<div style="color:${col};transform:rotate(${rot}deg);font-size:${sz}px;line-height:1;text-shadow:${glow}">${sym}</div>`,className:'',iconSize:[sz,sz],iconAnchor:[sz/2,sz/2]});
+  const glow=adv?`0 0 8px ${col}`:' 0 0 3px #000a';
+  return L.divIcon({
+    html:`<div style="color:${col};transform:rotate(${ac.track||0}deg);font-size:${sz}px;line-height:1;text-shadow:${glow}">${sym}</div>`,
+    className:'',iconSize:[sz,sz],iconAnchor:[sz/2,sz/2]
+  });
 }
 
-// === TRAILS ===
 function updateTrail(ac){
   if(!ac.lat||!ac.lon)return;
   if(!trails[ac.hex])trails[ac.hex]={pts:[],line:null};
   const tr=trails[ac.hex];
   const last=tr.pts[tr.pts.length-1];
   if(!last||last[0]!==ac.lat||last[1]!==ac.lon)tr.pts.push([ac.lat,ac.lon]);
-  if(tr.pts.length>30)tr.pts.shift();
+  if(tr.pts.length>40)tr.pts.shift();
 }
 function showTrail(hex){
-  hideAllTrails();
-  const tr=trails[hex];
-  if(!tr||tr.pts.length<2)return;
-  const col=getGCol(hex);
-  tr.line=L.polyline(tr.pts,{color:col,weight:2,opacity:0.6,dashArray:'4 4'}).addTo(map);
+  hideTrails();
+  const tr=trails[hex];if(!tr||tr.pts.length<2)return;
+  tr.line=L.polyline(tr.pts,{color:getCol(hex),weight:2,opacity:0.55,dashArray:'5 4'}).addTo(map);
 }
-function hideAllTrails(){Object.values(trails).forEach(t=>{if(t.line){map.removeLayer(t.line);t.line=null}})}
+function hideTrails(){Object.values(trails).forEach(t=>{if(t.line){map.removeLayer(t.line);t.line=null;}})}
 
-// === INFO PANEL ===
+// ════════════════════════════════════════
+// INFO PANEL
+// ════════════════════════════════════════
 function showP(ac){
-  const p=document.getElementById('infoP');
   const fl=(ac.flight||'').trim();
   const tp=classifyType(ac);
-  const col=getGCol(ac.hex);
+  const col=getCol(ac.hex);
   document.getElementById('pTitle').innerHTML=`${getFlag(ac.hex)} ${fl||ac.hex}`;
   const alt=ac.alt_baro==='ground'?'On Ground':(ac.alt_baro?ac.alt_baro.toLocaleString()+' ft':'—');
   const spd=ac.gs?Math.round(ac.gs)+' kts':'—';
@@ -277,150 +376,311 @@ function showP(ac){
   const vr=ac.baro_rate?(ac.baro_rate>0?'+':'')+ac.baro_rate+' ft/min':'—';
   document.getElementById('pBody').innerHTML=`
     <div class="f"><span class="k">Country: </span><span class="v" style="color:${col}">${getFlag(ac.hex)} ${getCName(ac.hex)}</span></div>
-    <div class="f"><span class="k">Type: </span><span class="v">${ac.t||'—'} (${TLAB[tp]||tp})</span></div>
+    <div class="f"><span class="k">Category: </span><span class="v">${TICO[tp]} ${TLAB[tp]}</span></div>
+    <div class="f"><span class="k">Aircraft: </span><span class="v">${ac.t||'—'}</span></div>
     <div class="f"><span class="k">Reg: </span><span class="v">${ac.r||'—'}</span></div>
     <div class="f"><span class="k">Callsign: </span><span class="v">${fl||'—'}</span></div>
-    <div class="f"><span class="k">Alt: </span><span class="v">${alt}</span></div>
+    <div class="f"><span class="k">Altitude: </span><span class="v">${alt}</span></div>
     <div class="f"><span class="k">Speed: </span><span class="v">${spd}</span></div>
     <div class="f"><span class="k">Heading: </span><span class="v">${hdg}</span></div>
-    <div class="f"><span class="k">V/S: </span><span class="v">${vr}</span></div>
+    <div class="f"><span class="k">Vert Rate: </span><span class="v">${vr}</span></div>
     <div class="f"><span class="k">Squawk: </span><span class="v">${ac.squawk||'—'}</span></div>
-    <div class="f"><span class="k">ICAO: </span><span class="v">${ac.hex}</span></div>
-    <div class="f"><span class="k">Pos: </span><span class="v">${ac.lat?.toFixed(4)}, ${ac.lon?.toFixed(4)}</span></div>
+    <div class="f"><span class="k">ICAO Hex: </span><span class="v">${ac.hex}</span></div>
+    <div class="f"><span class="k">Position: </span><span class="v">${ac.lat?.toFixed(4)}, ${ac.lon?.toFixed(4)}</span></div>
+    <div class="f"><span class="k">Last Seen: </span><span class="v">${Math.round(ac.seen||0)}s ago</span></div>
   `;
-  p.classList.add('vis');
+  document.getElementById('infoP').classList.add('vis');
   showTrail(ac.hex);
 }
-function closeP(){document.getElementById('infoP').classList.remove('vis');hideAllTrails()}
+function closeP(){document.getElementById('infoP').classList.remove('vis');hideTrails();}
 
-// === SIDEBAR ===
-function toggleSidebar(){
-  sidebarOpen=!sidebarOpen;
-  document.getElementById('sidebar').classList.toggle('open',sidebarOpen);
-  document.getElementById('togSidebar').classList.toggle('shifted',sidebarOpen);
-}
-function updateSidebar(visible){
-  // Zone counts
-  let zh='';
-  ZONES.forEach(z=>{
-    const cnt=visible.filter(ac=>ac.lat>=z.bounds[0][0]&&ac.lat<=z.bounds[1][0]&&ac.lon>=z.bounds[0][1]&&ac.lon<=z.bounds[1][1]).length;
-    zh+=`<div class="zone-item"><span class="zn">${z.name}</span><span class="zc" style="color:${z.color}">${cnt}</span></div>`;
-  });
-  document.getElementById('zoneList').innerHTML=zh;
-
-  // Country bars
-  const cc={};
-  visible.forEach(ac=>{const g=getGroup(ac.hex);cc[g]=(cc[g]||0)+1});
-  const maxC=Math.max(...Object.values(cc),1);
-  let cb='';
-  for(const[g,n]of Object.entries(cc).sort((a,b)=>b[1]-a[1])){
-    const col=GCOL[g]||'#64748b';
-    const lbl=g==='us'?'🇺🇸 US':g==='iran'?'🇮🇷 Iran':g==='russia'?'🇷🇺 Russia':g==='china'?'🇨🇳 China':'🤝 Allied';
-    cb+=`<div class="bar-row"><span class="bl">${lbl}</span><div class="bar" style="width:${n/maxC*100}px;background:${col}"></div><span class="bc">${n}</span></div>`;
-  }
-  document.getElementById('countryBars').innerHTML=cb;
-
-  // Type bars
-  const tc={};
-  visible.forEach(ac=>{const t=classifyType(ac);tc[t]=(tc[t]||0)+1});
-  const maxT=Math.max(...Object.values(tc),1);
-  let tb='';
-  for(const[t,n]of Object.entries(tc).sort((a,b)=>b[1]-a[1])){
-    tb+=`<div class="bar-row"><span class="bl">${TLAB[t]||t}</span><div class="bar" style="width:${n/maxT*100}px;background:${TCOL[t]||'#64748b'}"></div><span class="bc">${n}</span></div>`;
-  }
-  document.getElementById('typeBars').innerHTML=tb;
-
-  // Activity feed (last 15 newest)
-  const sorted=[...visible].sort((a,b)=>(a.seen||999)-(b.seen||999)).slice(0,15);
-  let af='';
-  sorted.forEach(ac=>{
-    const fl=(ac.flight||'').trim()||ac.hex;
-    const t=ac.t||'?';
-    const alt=ac.alt_baro==='ground'?'GND':(ac.alt_baro?Math.round(ac.alt_baro/1000)+'k':'?');
-    af+=`<div class="feed-item">${getFlag(ac.hex)} <b>${fl}</b> ${t} ${alt}ft <span class="ff">${Math.round(ac.seen||0)}s ago</span></div>`;
-  });
-  document.getElementById('actFeed').innerHTML=af;
-}
-
-// === FILTERS ===
+// ════════════════════════════════════════
+// FILTERS & SEARCH
+// ════════════════════════════════════════
 function setCF(f){
   cFilt=f;
-  document.querySelectorAll('[id^="bc-"]').forEach(b=>{b.classList.remove('active','iran-active','russia-active','china-active')});
+  document.querySelectorAll('[id^="bc-"]').forEach(b=>{b.classList.remove('on','iran-on','russia-on','china-on');});
   const btn=document.getElementById('bc-'+f);
-  if(f==='iran')btn.classList.add('iran-active');
-  else if(f==='russia')btn.classList.add('russia-active');
-  else if(f==='china')btn.classList.add('china-active');
-  else btn.classList.add('active');
+  if(f==='iran')btn.classList.add('iran-on');
+  else if(f==='russia')btn.classList.add('russia-on');
+  else if(f==='china')btn.classList.add('china-on');
+  else btn.classList.add('on');
   render();
 }
 function setTF(f){
   tFilt=f;
-  document.querySelectorAll('[id^="bt-"]').forEach(b=>b.classList.remove('active'));
-  document.getElementById('bt-'+f).classList.add('active');
+  document.querySelectorAll('[id^="bt-"]').forEach(b=>b.classList.remove('on'));
+  document.getElementById('bt-'+f).classList.add('on');
   render();
 }
-function doSearch(){searchQ=document.getElementById('searchBox').value.toUpperCase();render()}
+function doSearch(){searchQ=document.getElementById('searchBox').value.toUpperCase();render();}
 
-// === RENDER ===
+// ════════════════════════════════════════
+// RENDER
+// ════════════════════════════════════════
+function passFilter(ac){
+  const g=getGroup(ac.hex);
+  const tp=classifyType(ac);
+  if(cFilt!=='all'&&g!==cFilt)return false;
+  if(tFilt!=='all'&&tp!==tFilt)return false;
+  if(searchQ){
+    const s=((ac.flight||'')+(ac.t||'')+(ac.hex||'')+(ac.r||'')).toUpperCase();
+    if(!s.includes(searchQ))return false;
+  }
+  return true;
+}
+
+function inZone(ac,z){
+  return ac.lat&&ac.lon&&
+    ac.lat>=z.bounds[0][0]&&ac.lat<=z.bounds[1][0]&&
+    ac.lon>=z.bounds[0][1]&&ac.lon<=z.bounds[1][1];
+}
+
 function render(){
   Object.values(mkrs).forEach(m=>map.removeLayer(m));
   mkrs={};
-  let total=0,us=0,iran=0,russia=0,china=0,allied=0;
+
+  const counts={us:0,iran:0,russia:0,china:0,allied:0};
+  const typeCounts={};
   const visible=[];
 
   acData.forEach(ac=>{
     if(!ac.lat||!ac.lon)return;
-    const grp=getGroup(ac.hex);
+    updateTrail(ac);
+    if(!passFilter(ac))return;
+
+    const g=getGroup(ac.hex);
+    counts[g]=(counts[g]||0)+1;
     const tp=classifyType(ac);
-    if(cFilt!=='all'&&grp!==cFilt)return;
-    if(tFilt!=='all'&&tp!==tFilt)return;
-    if(searchQ){
-      const s=((ac.flight||'')+(ac.t||'')+(ac.hex||'')+(ac.r||'')).toUpperCase();
-      if(!s.includes(searchQ))return;
-    }
-    total++;
-    if(grp==='us')us++;else if(grp==='iran')iran++;else if(grp==='russia')russia++;else if(grp==='china')china++;else allied++;
+    typeCounts[tp]=(typeCounts[tp]||0)+1;
     visible.push(ac);
 
-    updateTrail(ac);
-    const m=L.marker([ac.lat,ac.lon],{icon:mkIcon(ac)}).on('click',()=>showP(ac)).addTo(map);
+    const m=L.marker([ac.lat,ac.lon],{icon:mkIcon(ac)})
+      .on('click',()=>showP(ac)).addTo(map);
     const fl=(ac.flight||'').trim();
     const alt=ac.alt_baro==='ground'?'GND':(ac.alt_baro?ac.alt_baro.toLocaleString()+'ft':'?');
-    m.bindTooltip(`${getFlag(ac.hex)} ${fl||ac.hex} · ${ac.t||'?'} · ${alt}`,{className:'dark-tooltip',direction:'top',offset:[0,-10]});
+    m.bindTooltip(`${getFlag(ac.hex)} ${fl||ac.hex} · ${ac.t||'?'} · ${alt}`,
+      {className:'dark-tooltip',direction:'top',offset:[0,-10]});
     mkrs[ac.hex]=m;
   });
 
-  document.getElementById('sTotal').textContent=total;
-  document.getElementById('sUS').textContent=us;
-  document.getElementById('sIran').textContent=iran;
-  document.getElementById('sRussia').textContent=russia;
-  document.getElementById('sChina').textContent=china;
-  document.getElementById('sAllied').textContent=allied;
-  updateSidebar(visible);
+  // Update ticker counts
+  const total=visible.length;
+  document.title=`OSINT Tracker — ${total} aircraft`;
+
+  // Update panels
+  updateStatsPane(counts,typeCounts,total);
+  updateAlertsPane(visible);
+  updateActivityPane(visible);
 }
 
-// === FETCH ===
-const URLS=['https://api.adsb.lol/v2/mil','https://corsproxy.io/?url=https://api.adsb.lol/v2/mil','https://api.allorigins.win/raw?url='+encodeURIComponent('https://api.adsb.lol/v2/mil')];
+// ════════════════════════════════════════
+// STATS PANE
+// ════════════════════════════════════════
+function updateStatsPane(counts,typeCounts,total){
+  const countryData=[
+    {key:'us',   flag:'🇺🇸',name:'US',     col:'#3b82f6'},
+    {key:'iran', flag:'🇮🇷',name:'Iran',   col:'#ef4444'},
+    {key:'russia',flag:'🇷🇺',name:'Russia',col:'#dc2626'},
+    {key:'china',flag:'🇨🇳',name:'China',  col:'#eab308'},
+    {key:'allied',flag:'🤝',name:'Allied', col:'#8b5cf6'},
+  ];
+  const maxC=Math.max(...countryData.map(d=>counts[d.key]||0),1);
+  let ch='<div class="stat-block"><div class="sb-label">Country Breakdown</div>';
+  countryData.forEach(d=>{
+    const n=counts[d.key]||0;
+    const w=Math.round((n/maxC)*80);
+    ch+=`<div class="country-row"><div class="cr-flag">${d.flag}</div><div class="cr-name">${d.name}</div><div class="cr-bar-wrap"><div class="cr-bar" style="width:${w}px;background:${d.col}"></div></div><div class="cr-count">${n}</div></div>`;
+  });
+  ch+=`</div>`;
+
+  const typeData=Object.entries(typeCounts).sort((a,b)=>b[1]-a[1]);
+  const maxT=Math.max(...typeData.map(d=>d[1]),1);
+  ch+='<div class="stat-block"><div class="sb-label">Type Breakdown</div>';
+  typeData.forEach(([tp,n])=>{
+    const w=Math.round((n/maxT)*70);
+    ch+=`<div class="type-row"><div class="tr-icon">${TICO[tp]||'◆'}</div><div class="tr-name">${TLAB[tp]||tp}</div><div class="tr-bar-wrap"><div class="tr-bar" style="width:${w}px;background:${TCOL[tp]||'#64748b'}"></div></div><div class="tr-count">${n}</div></div>`;
+  });
+  ch+=`</div>`;
+
+  ch+=`<div class="stat-block"><div class="sb-label">Summary</div>
+    <div class="country-row"><div class="cr-flag">✈️</div><div class="cr-name">Total tracked</div><div class="cr-count" style="color:#fff;font-size:16px">${total}</div></div>
+    <div class="country-row"><div class="cr-flag">⏱️</div><div class="cr-name">Refresh interval</div><div class="cr-count" style="color:#8892a8">30s</div></div>
+  </div>`;
+
+  document.getElementById('pane-stats').innerHTML=ch;
+}
+
+// ════════════════════════════════════════
+// ALERTS PANE
+// ════════════════════════════════════════
+function updateAlertsPane(visible){
+  let h='<div style="padding:8px 12px 4px;font-size:10px;color:#6b7a9e;text-transform:uppercase;letter-spacing:.5px">Live aircraft in monitored zones</div>';
+  ZONES.forEach(z=>{
+    const ac_in=visible.filter(ac=>inZone(ac,z));
+    const hot=ac_in.length>0;
+    h+=`<div class="zone-card ${hot?'hot':''}">
+      <div>
+        <div class="zc-name">${z.icon} ${z.name}</div>
+        ${hot?ac_in.slice(0,3).map(ac=>`<div style="font-size:10px;color:#6b7a9e;margin-top:2px">${getFlag(ac.hex)} ${(ac.flight||'').trim()||ac.hex} · ${ac.t||'?'}</div>`).join(''):''}
+      </div>
+      <div class="zc-count" style="color:${hot?z.color:'#3a4560'}">${ac_in.length}</div>
+    </div>`;
+  });
+  document.getElementById('pane-alerts').innerHTML=h;
+}
+
+// ════════════════════════════════════════
+// ACTIVITY PANE
+// ════════════════════════════════════════
+function updateActivityPane(visible){
+  const sorted=[...visible].sort((a,b)=>(a.seen||999)-(b.seen||999)).slice(0,40);
+  let h='<div style="padding:8px 12px 4px;font-size:10px;color:#6b7a9e;text-transform:uppercase;letter-spacing:.5px">Most recently seen</div>';
+  sorted.forEach(ac=>{
+    const fl=(ac.flight||'').trim()||ac.hex;
+    const alt=ac.alt_baro==='ground'?'GND':(ac.alt_baro?Math.round(ac.alt_baro/100)/10+'kft':'?');
+    const spd=ac.gs?Math.round(ac.gs)+'kt':'—';
+    const col=getCol(ac.hex);
+    h+=`<div class="feed-item" onclick="map.setView([${ac.lat},${ac.lon}],9);showP(acData.find(a=>a.hex==='${ac.hex}'))" style="cursor:pointer">
+      <span class="fi-flag" style="color:${col}">${getFlag(ac.hex)}</span>
+      <span class="fi-call" style="color:${col}">${fl}</span>
+      <span class="fi-type">${ac.t||'?'}</span>
+      <span class="fi-alt">${alt} ${spd}</span>
+    </div>`;
+  });
+  document.getElementById('pane-activity').innerHTML=h;
+}
+
+// ════════════════════════════════════════
+// TABS
+// ════════════════════════════════════════
+function switchTab(t){
+  curTab=t;
+  ['news','stats','alerts','activity'].forEach(p=>{
+    document.getElementById('pane-'+p).style.display=p===t?'block':'none';
+    document.getElementById('tab-'+p).classList.toggle('active',p===t);
+  });
+}
+
+// ════════════════════════════════════════
+// NEWS / INTEL FEED
+// ════════════════════════════════════════
+const NEWS_SOURCES=[
+  {name:'Defense News',url:'https://www.defensenews.com/arc/outboundfeeds/rss/',label:'DEFNEWS'},
+  {name:'Reuters World',url:'https://feeds.reuters.com/Reuters/worldNews',label:'REUTERS'},
+  {name:'BBC Middle East',url:'https://feeds.bbci.co.uk/news/world/middle_east/rss.xml',label:'BBC ME'},
+  {name:'BBC World',url:'https://feeds.bbci.co.uk/news/world/rss.xml',label:'BBC'},
+  {name:'Al Jazeera',url:'https://www.aljazeera.com/xml/rss/all.xml',label:'AL JAZEERA'},
+  {name:'Breaking Defense',url:'https://breakingdefense.com/feed/',label:'BREAK DEF'},
+];
+
+let allNews=[];
+
+async function fetchRSS(src){
+  try{
+    const proxy='https://api.allorigins.win/raw?url='+encodeURIComponent(src.url);
+    const r=await fetch(proxy,{signal:AbortSignal.timeout(8000)});
+    const txt=await r.text();
+    const doc=new DOMParser().parseFromString(txt,'text/xml');
+    const items=[...doc.querySelectorAll('item')].slice(0,8);
+    return items.map(i=>({
+      source:src.label,
+      title:(i.querySelector('title')?.textContent||'').replace('<![CDATA[','').replace(']]>','').trim(),
+      link:i.querySelector('link')?.textContent?.trim()||'#',
+      date:new Date(i.querySelector('pubDate')?.textContent||Date.now()),
+    })).filter(n=>n.title);
+  }catch(e){return[];}
+}
+
+async function fetchAllNews(){
+  const results=await Promise.allSettled(NEWS_SOURCES.map(s=>fetchRSS(s)));
+  const items=results.flatMap(r=>r.status==='fulfilled'?r.value:[]);
+  items.sort((a,b)=>b.date-a.date);
+  allNews=items;
+  renderNews(items);
+  updateTicker(items);
+}
+
+// Military keywords for highlighting
+const MIL_KEYWORDS=['military','missile','strike','iran','russia','china','nato','navy','airforce','army','nuclear','drone','warship','attack','defense','conflict','troops','weapons','sanction','war','bomb','radar','satellite','intercept'];
+
+function isAlert(title){
+  const t=title.toLowerCase();
+  return MIL_KEYWORDS.some(k=>t.includes(k));
+}
+
+function renderNews(items){
+  if(!items.length){
+    document.getElementById('pane-news').innerHTML='<div style="padding:20px;color:#6b7a9e;font-size:12px;text-align:center">Loading intelligence feed...<br>This may take a moment.</div>';
+    return;
+  }
+  let h='';
+  items.forEach(n=>{
+    const alert=isAlert(n.title);
+    const ago=getTimeAgo(n.date);
+    h+=`<a href="${n.link}" target="_blank" rel="noopener" style="text-decoration:none">
+      <div class="news-card ${alert?'alert':''}">
+        <div class="nc-src">${alert?'🔴 ':''} ${n.source}</div>
+        <div class="nc-title">${n.title}</div>
+        <div class="nc-meta">${ago}</div>
+      </div>
+    </a>`;
+  });
+  document.getElementById('pane-news').innerHTML=h;
+}
+
+function getTimeAgo(date){
+  const mins=Math.round((Date.now()-date)/60000);
+  if(mins<60)return`${mins}m ago`;
+  const hrs=Math.round(mins/60);
+  if(hrs<24)return`${hrs}h ago`;
+  return`${Math.round(hrs/24)}d ago`;
+}
+
+// ════════════════════════════════════════
+// TICKER
+// ════════════════════════════════════════
+function updateTicker(news){
+  const items=[
+    ...news.slice(0,12).map(n=>`<span class="ticker-item"><span class="ti-src">${n.source}</span>${n.title}<span class="ti-sep">|</span></span>`),
+  ];
+  document.getElementById('tickerInner').innerHTML=items.join('')+items.join('');
+}
+
+// ════════════════════════════════════════
+// AIRCRAFT FETCH
+// ════════════════════════════════════════
+const AC_URLS=[
+  'https://api.adsb.lol/v2/mil',
+  'https://corsproxy.io/?url=https://api.adsb.lol/v2/mil',
+  'https://api.allorigins.win/raw?url='+encodeURIComponent('https://api.adsb.lol/v2/mil'),
+];
 
 async function fetchData(){
-  for(const url of URLS){
+  for(const url of AC_URLS){
     try{
-      const r=await fetch(url);
+      const r=await fetch(url,{signal:AbortSignal.timeout(10000)});
       if(!r.ok)throw new Error(r.status);
       const d=await r.json();
       acData=d.ac||[];
       render();
-      document.getElementById('updTime').textContent=`Updated: ${new Date().toLocaleTimeString()} · ${acData.length} in feed`;
       document.getElementById('loadOv').style.display='none';
       return;
-    }catch(e){console.warn('fail',url,e)}
+    }catch(e){console.warn('AC fetch fail',url,e.message);}
   }
-  document.getElementById('updTime').textContent='Fetch error — retrying...';
   document.getElementById('loadOv').style.display='none';
 }
 
+// ════════════════════════════════════════
+// INIT
+// ════════════════════════════════════════
 fetchData();
-setInterval(fetchData,30000);
+fetchAllNews();
+setInterval(fetchData, 30000);
+setInterval(fetchAllNews, 300000); // news every 5 min
+
+// Show all panes but hide non-active
+switchTab('news');
 </script>
 </body>
 </html>
