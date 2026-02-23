@@ -20,11 +20,17 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;backgrou
 .widget-body::-webkit-scrollbar{width:3px}
 .widget-body::-webkit-scrollbar-track{background:transparent}
 .widget-body::-webkit-scrollbar-thumb{background:#1e2a42;border-radius:2px}
-.w-map{grid-column:1;grid-row:1/3;position:relative;border:0}
+.w-map{grid-column:1;grid-row:1/3;position:relative;border:0;min-height:300px}
 .w-zones{grid-column:2;grid-row:1}
 .w-stats{grid-column:3;grid-row:1}
 .w-activity{grid-column:2;grid-row:2}
 .w-log{grid-column:3;grid-row:2}
+/* Mobile: all widgets full width, stacked */
+@media(max-width:768px){
+  .w-map{grid-column:1;grid-row:auto}
+  .w-zones,.w-stats,.w-activity,.w-log{grid-column:1;grid-row:auto}
+  .dashboard{grid-template-columns:1fr;grid-template-rows:none;height:auto}
+}
 
 /* News + Poly cards */
 .news-card{min-width:220px;max-width:220px;padding:8px 10px;border-right:1px solid var(--border);cursor:pointer;transition:background .15s;flex-shrink:0;display:flex;flex-direction:column;justify-content:space-between}
@@ -175,9 +181,25 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;backgrou
 @keyframes spin{to{transform:rotate(360deg)}}
 
 /* Responsive */
-@media(max-width:700px){
-  .rpanel{display:none}
-  .tb-search{width:80px}
+@media(max-width:768px){
+  /* Stack everything vertically on mobile */
+  body{overflow-y:auto;overflow-x:hidden}
+  .dashboard{display:flex;flex-direction:column;height:auto;min-height:0}
+  .w-map{height:60vh;min-height:280px;position:relative;flex-shrink:0}
+  .w-zones,.w-stats,.w-activity,.w-log{height:220px;flex-shrink:0}
+  /* Bottom bar becomes vertical stack */
+  div[style*="height:175px"]{height:auto!important;flex-direction:column!important}
+  div[style*="width:380px"]{width:100%!important;height:200px;border-right:none!important;border-bottom:1px solid var(--border)}
+  div[style*="width:420px"]{width:100%!important;height:220px;border-right:none!important;border-bottom:1px solid var(--border)}
+  /* Topbar wraps nicely */
+  .topbar{padding:5px 8px}
+  .tb-btn{padding:4px 6px;font-size:10px}
+  .tb-search{width:90px}
+  .tb-label{display:none}
+  /* Info panel full width on mobile */
+  .infopanel{left:8px!important;right:8px!important;width:auto!important;bottom:8px!important}
+  /* Region buttons smaller */
+  .region-btns button{font-size:9px;padding:3px 6px}
 }
 </style>
 </head>
