@@ -1,0 +1,30 @@
+{
+  "generated_utc": "2026-02-23T23:18:26Z",
+  "generated_ts": 1771888706,
+  "threat_level": "ELEVATED",
+  "summary": "THREAT ASSESSMENT: HIGH. Currently tracking 179 military aircraft globally across all monitored nations. US forces have 162 aircraft airborne. Allied partners account for 17 additional tracked assets.\n\nINTELLIGENCE COLLECTION: 5 ISR and reconnaissance aircraft are active. Elevated recon activity typically indicates active target acquisition or battle damage assessment operations.\n\nSTRATEGIC INDICATOR: 33 strategic bomber(s) currently tracked airborne. Bomber deployments are high-visibility signals and may indicate signaling, training, or pre-strike positioning.\n\nADVERSARY ACTIVITY: No Iranian, Russian, or Chinese military aircraft currently broadcasting ADS-B. This is normal \u2014 adversary forces frequently operate with transponders off, particularly during sensitive operations.\n\nWATCH: Monitor tanker and ISR aircraft positioning relative to adversary territory. Any increase in adversary aircraft broadcasting combined with tanker surges warrants elevated attention.",
+  "stats": {
+    "total": 179,
+    "counts": {
+      "us": 162,
+      "iran": 0,
+      "russia": 0,
+      "china": 0,
+      "allied": 17
+    },
+    "types": {
+      "fighter": 0,
+      "tanker": 0,
+      "recon": 5,
+      "bomber": 33,
+      "transport": 26,
+      "heli": 0,
+      "other": 115
+    },
+    "adversary_active": 0,
+    "zones_active": 1,
+    "zone_names": [
+      "South China Sea: 1 aircraft"
+    ]
+  }
+}
