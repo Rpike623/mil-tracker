@@ -10,6 +10,36 @@
 :root{--bg:#0a0e17;--panel:rgba(13,17,28,0.97);--border:#1a2035;--border2:#232d45;--text:#e0e8ff;--muted:#6b7a9e;--accent:#3b82f6;--red:#ef4444;--orange:#f97316;--yellow:#eab308;--purple:#8b5cf6;--green:#22c55e;--cyan:#22d3ee}
 body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;background:var(--bg);color:var(--text);height:100vh;display:flex;flex-direction:column;overflow:hidden}
 
+/* ── WIDGET SYSTEM ── */
+.dashboard{flex:1;display:grid;grid-template-columns:1fr 270px 270px;grid-template-rows:1fr 1fr;min-height:0;gap:0}
+.widget{background:var(--panel);border:1px solid var(--border);display:flex;flex-direction:column;overflow:hidden;min-height:0}
+.widget-header{flex-shrink:0;padding:7px 10px;background:rgba(0,0,0,.3);border-bottom:1px solid var(--border);font-size:11px;font-weight:700;letter-spacing:.5px;color:var(--muted);text-transform:uppercase;display:flex;align-items:center;gap:6px}
+.widget-header .wh-title{flex:1}
+.widget-header .wh-count{background:#111827;border:1px solid var(--border2);border-radius:10px;padding:1px 7px;font-size:10px;color:var(--text)}
+.widget-body{flex:1;overflow-y:auto;overflow-x:hidden;min-height:0}
+.widget-body::-webkit-scrollbar{width:3px}
+.widget-body::-webkit-scrollbar-track{background:transparent}
+.widget-body::-webkit-scrollbar-thumb{background:#1e2a42;border-radius:2px}
+.w-map{grid-column:1;grid-row:1/3;position:relative;border:0}
+.w-zones{grid-column:2;grid-row:1}
+.w-stats{grid-column:3;grid-row:1}
+.w-activity{grid-column:2;grid-row:2}
+.w-log{grid-column:3;grid-row:2}
+
+/* News strip */
+.news-strip{flex-shrink:0;height:170px;display:flex;gap:0;border-top:1px solid var(--border);background:var(--bg);overflow:hidden}
+.news-strip-inner{display:flex;gap:0;overflow-x:auto;flex:1}
+.news-strip-inner::-webkit-scrollbar{height:3px}
+.news-strip-inner::-webkit-scrollbar-thumb{background:#1e2a42}
+.news-card{min-width:240px;max-width:240px;padding:10px 12px;border-right:1px solid var(--border);cursor:pointer;transition:background .15s;flex-shrink:0}
+.news-card:hover{background:rgba(59,130,246,.06)}
+.news-card .nc-src{font-size:9px;color:var(--accent);font-weight:700;margin-bottom:3px;text-transform:uppercase;letter-spacing:.5px}
+.news-card .nc-title{font-size:11px;line-height:1.4;color:var(--text);display:-webkit-box;-webkit-line-clamp:4;-webkit-box-orient:vertical;overflow:hidden}
+.news-card .nc-meta{font-size:9px;color:var(--muted);margin-top:4px}
+.news-card.alert .nc-src{color:var(--red)}
+.news-card.alert{border-left:2px solid var(--red);padding-left:10px}
+.news-strip-label{flex-shrink:0;width:80px;display:flex;align-items:center;justify-content:center;border-right:1px solid var(--border);writing-mode:vertical-rl;text-orientation:mixed;font-size:10px;font-weight:700;color:var(--muted);letter-spacing:.5px;text-transform:uppercase}
+
 /* ── TOP BAR ── */
 .topbar{flex-shrink:0;background:var(--panel);border-bottom:1px solid var(--border);padding:7px 12px;display:flex;gap:5px;align-items:center;flex-wrap:wrap;z-index:200}
 .topbar .logo{font-weight:800;font-size:13px;color:var(--accent);margin-right:6px;letter-spacing:.5px;white-space:nowrap}
@@ -169,72 +199,68 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;backgrou
   <button class="tb-btn" id="btn-notif" onclick="toggleNotifications()">🔔 Alerts</button>
 </div>
 
-<!-- MAIN -->
-<div class="main">
+<!-- DASHBOARD GRID -->
+<div class="dashboard">
 
-  <!-- MAP -->
-  <div class="map-wrap">
-    <div id="map"></div>
-
-    <!-- Map controls -->
-    <div class="map-legend">
-      <div class="ml-row"><div class="ml-dot" style="background:#3b82f6"></div>🇺🇸 United States</div>
+  <!-- MAP WIDGET -->
+  <div class="widget w-map">
+    <div id="map" style="position:absolute;inset:0"></div>
+    <div class="map-legend" style="position:absolute;top:10px;right:10px;z-index:400">
+      <div class="ml-row"><div class="ml-dot" style="background:#3b82f6"></div>🇺🇸 US</div>
       <div class="ml-row"><div class="ml-dot" style="background:#ef4444"></div>🇮🇷 Iran</div>
       <div class="ml-row"><div class="ml-dot" style="background:#dc2626"></div>🇷🇺 Russia</div>
       <div class="ml-row"><div class="ml-dot" style="background:#eab308"></div>🇨🇳 China</div>
       <div class="ml-row"><div class="ml-dot" style="background:#8b5cf6"></div>🤝 Allied</div>
     </div>
-
-    <div class="region-btns">
-      <button onclick="goTo(30,50,5)">🔥 Middle East</button>
+    <div class="region-btns" style="position:absolute;bottom:10px;left:10px;z-index:400">
+      <button onclick="goTo(30,50,5)">🔥 Mid East</button>
       <button onclick="goTo(38,-97,4)">🇺🇸 CONUS</button>
       <button onclick="goTo(50,15,4)">🇪🇺 Europe</button>
       <button onclick="goTo(25,125,4)">🌏 Pacific</button>
       <button onclick="goTo(20,0,2)">🌍 Global</button>
     </div>
-
-    <!-- Aircraft info panel -->
-    <div class="infopanel" id="infoP">
-      <div class="ip-head">
-        <h3 id="pTitle">—</h3>
-        <button class="x" onclick="closeP()">&times;</button>
-      </div>
+    <div class="infopanel" id="infoP" style="position:absolute;bottom:50px;left:10px;z-index:500">
+      <div class="ip-head"><h3 id="pTitle">—</h3><button class="x" onclick="closeP()">&times;</button></div>
       <div id="pBody"></div>
     </div>
-
-    <!-- Loading overlay -->
-    <div class="loading-ov" id="loadOv">
-      <div class="sp">✈️</div>
-      <div class="st">Loading military aircraft...</div>
+    <div class="loading-ov" id="loadOv" style="position:absolute;inset:0;z-index:600">
+      <div class="sp">✈️</div><div class="st">Loading...</div>
     </div>
   </div>
 
-  <!-- RIGHT PANEL -->
-  <div class="rpanel">
-    <div class="rpanel-tabs">
-      <div class="tab active" id="tab-news" onclick="switchTab('news')">📰 Intel Feed</div>
-      <div class="tab" id="tab-stats" onclick="switchTab('stats')">📊 Stats</div>
-      <div class="tab" id="tab-alerts" onclick="switchTab('alerts')">⚠️ Zones</div>
-      <div class="tab" id="tab-activity" onclick="switchTab('activity')">🔔 Activity</div>
-      <div class="tab" id="tab-log" onclick="switchTab('log')">📋 Log</div>
-    </div>
-    <div class="rpanel-body">
-      <div id="pane-news"></div>
-      <div id="pane-stats" style="display:none"></div>
-      <div id="pane-alerts" style="display:none"></div>
-      <div id="pane-activity" style="display:none"></div>
-      <div id="pane-log" style="display:none"></div>
-    </div>
+  <!-- ZONES WIDGET -->
+  <div class="widget w-zones">
+    <div class="widget-header">⚠️ <span class="wh-title">Alert Zones</span><span class="wh-count" id="zone-hot">0 hot</span></div>
+    <div class="widget-body" id="pane-alerts"></div>
   </div>
 
+  <!-- STATS WIDGET -->
+  <div class="widget w-stats">
+    <div class="widget-header">📊 <span class="wh-title">Stats</span></div>
+    <div class="widget-body" id="pane-stats"></div>
+  </div>
+
+  <!-- ACTIVITY WIDGET -->
+  <div class="widget w-activity">
+    <div class="widget-header">🔔 <span class="wh-title">Live Activity</span><span class="wh-count" id="ac-count">0</span></div>
+    <div class="widget-body" id="pane-activity"></div>
+  </div>
+
+  <!-- EVENT LOG WIDGET -->
+  <div class="widget w-log">
+    <div class="widget-header">📋 <span class="wh-title">Event Log</span><span class="wh-count" id="log-count">0</span></div>
+    <div class="widget-body" id="pane-log"></div>
+  </div>
+
+</div>
+
+<!-- NEWS STRIP -->
+<div class="news-strip">
+  <div class="news-strip-label">Intel Feed</div>
+  <div class="news-strip-inner" id="newsStrip"></div>
 </div>
 
 <!-- TICKER -->
-<div class="ticker">
-  <div class="ticker-inner" id="tickerInner">
-    <span class="ticker-item"><span class="ti-src">LOADING</span>Fetching live military flight data and news...</span>
-  </div>
-</div>
 
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <script>
@@ -414,18 +440,45 @@ let mkrs={}, acData=[], trails={}, cFilt='all', tFilt='all', searchQ='', curTab=
 // ════════════════════════════════════════
 // MARKERS + TRAILS
 // ════════════════════════════════════════
+// SVG paths for each aircraft type (all pointing UP = 0°, rotated by heading)
+const SVG_ICONS = {
+  fighter: `<polygon points="8,0 10,14 8,11 6,14" fill="COLOR" stroke="COLOR" stroke-width=".5"/>
+    <polygon points="8,4 14,12 8,9 2,12" fill="COLOR" opacity=".85"/>
+    <polygon points="8,9 11,16 8,14 5,16" fill="COLOR" opacity=".7"/>`,
+  bomber: `<polygon points="8,0 11,10 8,8 5,10" fill="COLOR"/>
+    <polygon points="8,3 16,14 8,10 0,14" fill="COLOR" opacity=".9"/>
+    <polygon points="8,9 12,17 8,15 4,17" fill="COLOR" opacity=".7"/>`,
+  transport: `<rect x="6" y="0" width="4" height="14" rx="2" fill="COLOR"/>
+    <polygon points="8,3 16,10 8,8 0,10" fill="COLOR" opacity=".85"/>
+    <polygon points="8,10 11,16 8,14 5,16" fill="COLOR" opacity=".7"/>`,
+  tanker: `<rect x="6.5" y="0" width="3" height="14" rx="1.5" fill="COLOR"/>
+    <polygon points="8,2 15,9 8,7 1,9" fill="COLOR" opacity=".85"/>
+    <polygon points="8,9 11,15 8,13 5,15" fill="COLOR" opacity=".7"/>
+    <circle cx="8" cy="0" r="1.5" fill="COLOR"/>`,
+  recon: `<ellipse cx="8" cy="7" rx="3" ry="7" fill="COLOR"/>
+    <polygon points="8,2 15,8 8,6 1,8" fill="COLOR" opacity=".8"/>
+    <line x1="8" y1="14" x2="8" y2="17" stroke="COLOR" stroke-width="1.5"/>`,
+  heli: `<ellipse cx="8" cy="9" rx="3" ry="4" fill="COLOR"/>
+    <line x1="1" y1="7" x2="15" y2="7" stroke="COLOR" stroke-width="2" stroke-linecap="round"/>
+    <line x1="6" y1="14" x2="12" y2="14" stroke="COLOR" stroke-width="1.5" stroke-linecap="round"/>
+    <line x1="8" y1="7" x2="8" y2="14" stroke="COLOR" stroke-width="1"/>`,
+  trainer: `<polygon points="8,1 10,12 8,10 6,12" fill="COLOR"/>
+    <polygon points="8,4 13,10 8,8 3,10" fill="COLOR" opacity=".85"/>`,
+  other: `<polygon points="8,0 10,12 8,10 6,12" fill="COLOR"/>
+    <polygon points="8,3 14,11 8,8 2,11" fill="COLOR" opacity=".8"/>`,
+};
+
 function mkIcon(ac){
   const tp=classifyType(ac);
   const g=getGroup(ac.hex);
   const col=getCol(ac.hex);
   const adv=(g==='iran'||g==='russia'||g==='china');
-  const sz=tp==='heli'?16:adv?24:20;
-  const sym=tp==='heli'?'🚁':'✈';
-  const glow=adv?`0 0 8px ${col}`:' 0 0 3px #000a';
-  return L.divIcon({
-    html:`<div style="color:${col};transform:rotate(${ac.track||0}deg);font-size:${sz}px;line-height:1;text-shadow:${glow}">${sym}</div>`,
-    className:'',iconSize:[sz,sz],iconAnchor:[sz/2,sz/2]
-  });
+  const rot=ac.track||0;
+  const sz=adv?22:18;
+  const svgPath=(SVG_ICONS[tp]||SVG_ICONS.other).replace(/COLOR/g,col);
+  const glow=adv?`drop-shadow(0 0 3px ${col})`:'drop-shadow(0 0 1px #000)';
+  const html=`<svg width="${sz}" height="${sz}" viewBox="0 0 16 18" style="transform:rotate(${rot}deg);filter:${glow};overflow:visible">${svgPath}</svg>`;
+  return L.divIcon({html,className:'',iconSize:[sz,sz],iconAnchor:[sz/2,sz/2]});
 }
 
 function updateTrail(ac){
@@ -554,6 +607,9 @@ function render(){
   const total=visible.length;
   document.title=`OSINT Tracker — ${total} aircraft`;
 
+  // Update widget counts
+  document.getElementById('ac-count').textContent=total;
+
   // Update panels
   updateStatsPane(counts,typeCounts,total);
   updateAlertsPane(visible);
@@ -605,7 +661,8 @@ function updateAlertsPane(visible){
   ZONES.forEach(z=>{
     const ac_in=visible.filter(ac=>inZone(ac,z));
     const hot=ac_in.length>0;
-    h+=`<div class="zone-card ${hot?'hot':''}">
+    const warm=ac_in.length===0&&visible.filter(ac=>inZone(ac,z)).length>0;
+    h+=`<div class="zone-card ${hot?'hot':warm?'warm':''}">
       <div>
         <div class="zc-name">${z.icon} ${z.name}</div>
         ${hot?ac_in.slice(0,3).map(ac=>`<div style="font-size:10px;color:#6b7a9e;margin-top:2px">${getFlag(ac.hex)} ${(ac.flight||'').trim()||ac.hex} · ${ac.t||'?'}</div>`).join(''):''}
@@ -614,6 +671,9 @@ function updateAlertsPane(visible){
     </div>`;
   });
   document.getElementById('pane-alerts').innerHTML=h;
+  const hotCount=ZONES.filter(z=>visible.filter(ac=>['iran','russia','china'].includes(getGroup(ac.hex))&&inZone(ac,z)).length>0).length;
+  document.getElementById('zone-hot').textContent=hotCount+' hot';
+  document.getElementById('zone-hot').style.color=hotCount>0?'#ef4444':'';
 }
 
 // ════════════════════════════════════════
@@ -637,16 +697,8 @@ function updateActivityPane(visible){
   document.getElementById('pane-activity').innerHTML=h;
 }
 
-// ════════════════════════════════════════
-// TABS
-// ════════════════════════════════════════
-function switchTab(t){
-  curTab=t;
-  ['news','stats','alerts','activity'].forEach(p=>{
-    document.getElementById('pane-'+p).style.display=p===t?'block':'none';
-    document.getElementById('tab-'+p).classList.toggle('active',p===t);
-  });
-}
+// no-op: tabs replaced by widget grid
+function switchTab(t){ curTab=t; }
 
 // ════════════════════════════════════════
 // NEWS / INTEL FEED
@@ -696,8 +748,9 @@ function isAlert(title){
 }
 
 function renderNews(items){
+  const strip = document.getElementById('newsStrip');
   if(!items.length){
-    document.getElementById('pane-news').innerHTML='<div style="padding:20px;color:#6b7a9e;font-size:12px;text-align:center">Loading intelligence feed...<br>This may take a moment.</div>';
+    strip.innerHTML='<div style="padding:20px;color:#6b7a9e;font-size:12px">Loading intel feed...</div>';
     return;
   }
   let h='';
@@ -712,7 +765,7 @@ function renderNews(items){
       </div>
     </a>`;
   });
-  document.getElementById('pane-news').innerHTML=h;
+  strip.innerHTML=h;
 }
 
 function getTimeAgo(date){
@@ -845,6 +898,7 @@ function updateEventLog(visible){
   if(eventLog.length > 200) eventLog.splice(200);
   prevAcSet = currentSet;
   renderEventLog();
+  document.getElementById('log-count').textContent=eventLog.length;
 }
 
 function renderEventLog(){
@@ -877,17 +931,7 @@ render = function(){
   updateEventLog(visible);
 };
 
-// ════════════════════════════════════════
-// PATCH SWITCHTAB FOR LOG PANE
-// ════════════════════════════════════════
-const _switchTab = switchTab;
-switchTab = function(t){
-  ['news','stats','alerts','activity','log'].forEach(p=>{
-    document.getElementById('pane-'+p).style.display=p===t?'block':'none';
-    document.getElementById('tab-'+p).classList.toggle('active',p===t);
-  });
-  curTab=t;
-};
+// switchTab is now a no-op (widget grid replaces tabs)
 
 // ════════════════════════════════════════
 // INIT
