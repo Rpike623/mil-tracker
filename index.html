@@ -159,6 +159,14 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;backgrou
   <div class="tb-sep"></div>
   <input class="tb-search" id="searchBox" placeholder="Search callsign/hex..." oninput="doSearch()"/>
   <button class="tb-btn" onclick="fetchData()" title="Refresh now">🔄 Refresh</button>
+  <div class="tb-sep"></div>
+  <span class="tb-label">Map:</span>
+  <button class="tb-btn tile-btn on" data-t="dark" onclick="setTile('dark')">🌑 Dark</button>
+  <button class="tb-btn tile-btn" data-t="satellite" onclick="setTile('satellite')">🛰️ Sat</button>
+  <button class="tb-btn tile-btn" data-t="terrain" onclick="setTile('terrain')">🗺️ Terrain</button>
+  <div class="tb-sep"></div>
+  <button class="tb-btn" id="btn-bases" onclick="toggleBases()">📍 Bases</button>
+  <button class="tb-btn" id="btn-notif" onclick="toggleNotifications()">🔔 Alerts</button>
 </div>
 
 <!-- MAIN -->
@@ -208,12 +216,14 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;backgrou
       <div class="tab" id="tab-stats" onclick="switchTab('stats')">📊 Stats</div>
       <div class="tab" id="tab-alerts" onclick="switchTab('alerts')">⚠️ Zones</div>
       <div class="tab" id="tab-activity" onclick="switchTab('activity')">🔔 Activity</div>
+      <div class="tab" id="tab-log" onclick="switchTab('log')">📋 Log</div>
     </div>
     <div class="rpanel-body">
       <div id="pane-news"></div>
       <div id="pane-stats" style="display:none"></div>
       <div id="pane-alerts" style="display:none"></div>
       <div id="pane-activity" style="display:none"></div>
+      <div id="pane-log" style="display:none"></div>
     </div>
   </div>
 
@@ -232,10 +242,81 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;backgrou
 // MAP SETUP
 // ════════════════════════════════════════
 const map = L.map('map', { center:[30,50], zoom:5, zoomControl:true });
-L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
-  attribution:'&copy; OSM &copy; CARTO | Data: adsb.lol', subdomains:'abcd', maxZoom:19
-}).addTo(map);
+const TILES = {
+  dark: L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {attribution:'&copy; OSM &copy; CARTO | adsb.lol',subdomains:'abcd',maxZoom:19}),
+  satellite: L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {attribution:'&copy; Esri',maxZoom:19}),
+  terrain: L.tileLayer('https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png', {attribution:'&copy; OSM',subdomains:'abc',maxZoom:17}),
+};
+let currentTile = 'dark';
+TILES.dark.addTo(map);
+function setTile(t){
+  map.removeLayer(TILES[currentTile]);
+  currentTile=t;
+  TILES[t].addTo(map);
+  document.querySelectorAll('.tile-btn').forEach(b=>b.classList.toggle('on',b.dataset.t===t));
+}
 function goTo(lat,lon,z){ map.setView([lat,lon],z); }
+
+// ════════════════════════════════════════
+// MILITARY BASES
+// ════════════════════════════════════════
+const BASES = [
+  // US
+  {name:'Al Udeid AB',lat:25.117,lon:51.315,country:'us',type:'Air Base'},
+  {name:'Ali Al Salem AB',lat:29.347,lon:47.521,country:'us',type:'Air Base'},
+  {name:'Al Dhafra AB',lat:24.248,lon:54.548,country:'us',type:'Air Base'},
+  {name:'Incirlik AB',lat:37.002,lon:35.426,country:'us',type:'Air Base'},
+  {name:'RAF Mildenhall',lat:52.362,lon:0.486,country:'us',type:'Air Base'},
+  {name:'Ramstein AB',lat:49.437,lon:7.600,country:'us',type:'Air Base'},
+  {name:'Kadena AB',lat:26.356,lon:127.768,country:'us',type:'Air Base'},
+  {name:'Yokota AB',lat:35.748,lon:139.348,country:'us',type:'Air Base'},
+  {name:'Diego Garcia',lat:-7.313,lon:72.423,country:'us',type:'Naval Base'},
+  {name:'Naval Base Bahrain',lat:26.218,lon:50.612,country:'us',type:'Naval Base'},
+  {name:'Camp Lemonnier',lat:11.553,lon:43.159,country:'us',type:'Base'},
+  {name:'Andersen AFB',lat:13.584,lon:144.930,country:'us',type:'Air Base'},
+  {name:'Osan AB',lat:37.090,lon:127.030,country:'us',type:'Air Base'},
+  {name:'Aviano AB',lat:46.032,lon:12.597,country:'us',type:'Air Base'},
+  // Iran
+  {name:'Mehrabad Air Base',lat:35.689,lon:51.314,country:'iran',type:'Air Base'},
+  {name:'Isfahan Air Base',lat:32.508,lon:51.694,country:'iran',type:'Air Base'},
+  {name:'Bandar Abbas Naval',lat:27.218,lon:56.362,country:'iran',type:'Naval Base'},
+  {name:'Bushehr Naval',lat:28.942,lon:50.835,country:'iran',type:'Naval Base'},
+  {name:'Tabriz Air Base',lat:38.133,lon:46.235,country:'iran',type:'Air Base'},
+  {name:'Omidiyeh Air Base',lat:30.835,lon:49.534,country:'iran',type:'Air Base'},
+  // Russia
+  {name:'Hmeimim AB (Syria)',lat:35.401,lon:35.948,country:'russia',type:'Air Base'},
+  {name:'Sevastopol Naval',lat:44.623,lon:33.523,country:'russia',type:'Naval Base'},
+  {name:'Engelss-2 AB',lat:51.428,lon:46.177,country:'russia',type:'Air Base'},
+  {name:'Kaliningrad Base',lat:54.710,lon:20.508,country:'russia',type:'Base'},
+  {name:'Tartus Naval (Syria)',lat:34.893,lon:35.887,country:'russia',type:'Naval Base'},
+  // China
+  {name:'Sanya Naval Base',lat:18.230,lon:109.572,country:'china',type:'Naval Base'},
+  {name:'Zhanjiang Naval',lat:21.182,lon:110.401,country:'china',type:'Naval Base'},
+  {name:'Lingshui AF',lat:18.492,lon:110.038,country:'china',type:'Air Base'},
+  {name:'Fiery Cross Reef',lat:9.549,lon:112.893,country:'china',type:'Island Base'},
+  {name:'Mischief Reef',lat:9.908,lon:115.534,country:'china',type:'Island Base'},
+];
+
+const baseCols={us:'#3b82f6',iran:'#ef4444',russia:'#dc2626',china:'#eab308'};
+let baseMarkers=[];
+let basesVisible=false;
+
+function toggleBases(){
+  basesVisible=!basesVisible;
+  document.getElementById('btn-bases').classList.toggle('on',basesVisible);
+  if(basesVisible){
+    BASES.forEach(b=>{
+      const col=baseCols[b.country]||'#64748b';
+      const m=L.marker([b.lat,b.lon],{
+        icon:L.divIcon({html:`<div style="color:${col};font-size:14px;text-shadow:0 0 6px ${col}80">⬟</div>`,className:'',iconSize:[14,14],iconAnchor:[7,7]})
+      }).bindTooltip(`${FLAGS[b.country]||'🌐'} ${b.name} (${b.type})`,{className:'dark-tooltip',direction:'top'}).addTo(map);
+      baseMarkers.push(m);
+    });
+  } else {
+    baseMarkers.forEach(m=>map.removeLayer(m));
+    baseMarkers=[];
+  }
+}
 
 // ════════════════════════════════════════
 // COUNTRY DETECTION
@@ -388,6 +469,11 @@ function showP(ac){
     <div class="f"><span class="k">ICAO Hex: </span><span class="v">${ac.hex}</span></div>
     <div class="f"><span class="k">Position: </span><span class="v">${ac.lat?.toFixed(4)}, ${ac.lon?.toFixed(4)}</span></div>
     <div class="f"><span class="k">Last Seen: </span><span class="v">${Math.round(ac.seen||0)}s ago</span></div>
+    <div style="margin-top:8px;display:flex;gap:6px;flex-wrap:wrap">
+      <a href="https://www.planespotters.net/hex/${ac.hex}" target="_blank" style="font-size:10px;color:#3b82f6;text-decoration:none;background:#111827;padding:3px 7px;border-radius:4px;border:1px solid #1e2a42">📷 Planespotters</a>
+      <a href="https://globe.adsbexchange.com/?icao=${ac.hex}" target="_blank" style="font-size:10px;color:#3b82f6;text-decoration:none;background:#111827;padding:3px 7px;border-radius:4px;border:1px solid #1e2a42">🌐 ADSBx</a>
+      <a href="https://flightaware.com/live/modes/${ac.hex}/ident/${(ac.flight||'').trim()}/redirect" target="_blank" style="font-size:10px;color:#3b82f6;text-decoration:none;background:#111827;padding:3px 7px;border-radius:4px;border:1px solid #1e2a42">✈ FlightAware</a>
+    </div>
   `;
   document.getElementById('infoP').classList.add('vis');
   showTrail(ac.hex);
@@ -672,6 +758,138 @@ async function fetchData(){
 }
 
 // ════════════════════════════════════════
+// NOTIFICATIONS
+// ════════════════════════════════════════
+let notifEnabled = false;
+let prevZoneSets = {}; // zone -> Set of hex ids
+
+function toggleNotifications(){
+  if(!notifEnabled){
+    Notification.requestPermission().then(p=>{
+      if(p==='granted'){
+        notifEnabled=true;
+        document.getElementById('btn-notif').classList.add('on');
+        document.getElementById('btn-notif').textContent='🔔 Alerts ON';
+        new Notification('OSINT Tracker', {body:'Zone alerts enabled. You\'ll be notified when adversary aircraft enter monitored zones.'});
+      }
+    });
+  } else {
+    notifEnabled=false;
+    document.getElementById('btn-notif').classList.remove('on');
+    document.getElementById('btn-notif').textContent='🔔 Alerts';
+  }
+}
+
+function checkZoneAlerts(visible){
+  if(!notifEnabled) return;
+  const adversary=['iran','russia','china'];
+  ZONES.forEach(z=>{
+    const key=z.name;
+    const current=new Set(
+      visible.filter(ac=>adversary.includes(getGroup(ac.hex))&&inZone(ac,z)).map(ac=>ac.hex)
+    );
+    const prev=prevZoneSets[key]||new Set();
+    current.forEach(hex=>{
+      if(!prev.has(hex)){
+        const ac=acData.find(a=>a.hex===hex);
+        const fl=(ac?.flight||'').trim()||hex;
+        new Notification(`⚠️ ${z.name}`, {
+          body:`${getFlag(hex)} ${fl} (${ac?.t||'?'}) entered ${z.name}`,
+          icon:'https://rpike623.github.io/mil-tracker/favicon.ico'
+        });
+      }
+    });
+    prevZoneSets[key]=current;
+  });
+}
+
+// ════════════════════════════════════════
+// EVENT LOG
+// ════════════════════════════════════════
+const eventLog = [];
+let prevAcSet = new Set();
+
+function updateEventLog(visible){
+  const currentSet = new Set(visible.map(ac=>ac.hex));
+  const adversary = ['iran','russia','china'];
+
+  // New adversary detections
+  visible.forEach(ac=>{
+    if(adversary.includes(getGroup(ac.hex)) && !prevAcSet.has(ac.hex)){
+      const fl=(ac.flight||'').trim()||ac.hex;
+      eventLog.unshift({
+        time: new Date(),
+        type: 'new',
+        msg: `${getFlag(ac.hex)} NEW: ${fl} (${ac.t||'?'}) detected`,
+        col: getCol(ac.hex),
+      });
+    }
+  });
+
+  // Zone entries
+  ZONES.forEach(z=>{
+    const inNow = visible.filter(ac=>adversary.includes(getGroup(ac.hex))&&inZone(ac,z));
+    inNow.forEach(ac=>{
+      if(!prevAcSet.has(ac.hex)){
+        const fl=(ac.flight||'').trim()||ac.hex;
+        eventLog.unshift({
+          time: new Date(),
+          type: 'zone',
+          msg: `${getFlag(ac.hex)} ZONE: ${fl} in ${z.name}`,
+          col: z.color,
+        });
+      }
+    });
+  });
+
+  if(eventLog.length > 200) eventLog.splice(200);
+  prevAcSet = currentSet;
+  renderEventLog();
+}
+
+function renderEventLog(){
+  if(!eventLog.length){
+    document.getElementById('pane-log').innerHTML='<div style="padding:20px;color:#6b7a9e;font-size:12px;text-align:center">No events yet.<br>Adversary aircraft detections and zone entries will appear here.</div>';
+    return;
+  }
+  let h='<div style="padding:8px 12px 4px;font-size:10px;color:#6b7a9e;text-transform:uppercase;letter-spacing:.5px">Adversary detection log</div>';
+  eventLog.slice(0,60).forEach(e=>{
+    const ts=e.time.toLocaleTimeString();
+    h+=`<div class="feed-item">
+      <span style="color:${e.col};font-size:10px;min-width:55px">${ts}</span>
+      <span style="font-size:11px;color:${e.col}">${e.msg}</span>
+    </div>`;
+  });
+  document.getElementById('pane-log').innerHTML=h;
+}
+
+// ════════════════════════════════════════
+// PATCH RENDER TO INCLUDE NEW FEATURES
+// ════════════════════════════════════════
+const _origRender = render;
+// Override render to also run notifications + log
+const _render = render;
+render = function(){
+  _render();
+  // Get visible aircraft for post-render hooks
+  const visible = acData.filter(ac=>ac.lat&&ac.lon&&passFilter(ac));
+  checkZoneAlerts(visible);
+  updateEventLog(visible);
+};
+
+// ════════════════════════════════════════
+// PATCH SWITCHTAB FOR LOG PANE
+// ════════════════════════════════════════
+const _switchTab = switchTab;
+switchTab = function(t){
+  ['news','stats','alerts','activity','log'].forEach(p=>{
+    document.getElementById('pane-'+p).style.display=p===t?'block':'none';
+    document.getElementById('tab-'+p).classList.toggle('active',p===t);
+  });
+  curTab=t;
+};
+
+// ════════════════════════════════════════
 // INIT
 // ════════════════════════════════════════
 fetchData();
@@ -679,7 +897,6 @@ fetchAllNews();
 setInterval(fetchData, 30000);
 setInterval(fetchAllNews, 300000); // news every 5 min
 
-// Show all panes but hide non-active
 switchTab('news');
 </script>
 </body>
