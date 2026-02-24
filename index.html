@@ -1444,7 +1444,7 @@ async function fetchOsintFeed(id){
   const feed = document.getElementById('xFeed');
   const src = OSINT_FEEDS.find(f=>f.id===id);
   if(!src) return;
-  if(!osintCache[id] && feed) feed.innerHTML = `<div style="padding:12px;color:var(--muted);font-size:11px">Loading ${src.label}...</div>`;
+  if(!osintCache[id] && id === osintCurrentFeed && feed) feed.innerHTML = `<div style="padding:12px;color:var(--muted);font-size:11px">Loading ${src.label}...</div>`;
 
   const proxies = [
     'https://api.codetabs.com/v1/proxy?quest='+encodeURIComponent(src.url),
