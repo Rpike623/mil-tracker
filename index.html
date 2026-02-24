@@ -418,6 +418,21 @@ body::after{
 .clock-cell.clock-date .clock-time{color:var(--text);text-shadow:none;font-size:11px}
 #clk-zulu{font-size:15px;color:#fff;text-shadow:0 0 12px rgba(0,255,65,.5)}
 
+/* DEFCON meter */
+.defcon-meter{display:flex;gap:2px;margin:8px 0}
+.defcon-level{flex:1;text-align:center;padding:6px 2px;font-size:10px;font-weight:700;font-family:'Orbitron','Share Tech Mono',monospace;letter-spacing:1px;border:1px solid rgba(0,255,65,.08);border-radius:2px;opacity:.3;transition:all .3s}
+.defcon-level.active{opacity:1;box-shadow:0 0 12px var(--defcon-color)}
+.defcon-5{--defcon-color:#00ff41;background:rgba(0,255,65,.08);color:#00ff41;border-color:rgba(0,255,65,.3)}
+.defcon-4{--defcon-color:#22d3ee;background:rgba(34,211,238,.08);color:#22d3ee;border-color:rgba(34,211,238,.3)}
+.defcon-3{--defcon-color:#eab308;background:rgba(234,179,8,.08);color:#eab308;border-color:rgba(234,179,8,.3)}
+.defcon-2{--defcon-color:#f97316;background:rgba(249,115,22,.08);color:#f97316;border-color:rgba(249,115,22,.3)}
+.defcon-1{--defcon-color:#ef4444;background:rgba(239,68,68,.08);color:#ef4444;border-color:rgba(239,68,68,.3)}
+.threat-row{display:flex;justify-content:space-between;align-items:center;padding:5px 0;border-bottom:1px solid rgba(0,255,65,.04);font-size:10px}
+.threat-row .tr-label{color:var(--muted);font-family:'Share Tech Mono',monospace}
+.threat-row .tr-value{font-weight:700;font-family:'Share Tech Mono',monospace;letter-spacing:.5px}
+.threat-bar{height:4px;background:rgba(0,255,65,.08);border-radius:2px;margin-top:3px;overflow:hidden}
+.threat-bar-fill{height:100%;border-radius:2px;transition:width .5s}
+
 .topbar{flex-shrink:0;background:var(--panel);border-bottom:1px solid var(--border);padding:7px 12px;display:flex;gap:5px;align-items:center;flex-wrap:wrap;z-index:200}
 .topbar .logo{font-weight:800;font-size:13px;color:var(--accent);margin-right:6px;letter-spacing:.5px;white-space:nowrap}
 .topbar .logo span{color:var(--text)}
@@ -659,9 +674,9 @@ body::after{
     </div>
   </div>
 
-  <!-- THREAT INDICATORS WIDGET -->
+  <!-- DEFCON / THREAT POSTURE WIDGET -->
   <div class="widget w-log" style="grid-column:3;grid-row:1">
-    <div class="widget-header">🎯 <span class="wh-title">Threat Indicators</span><span class="wh-count" id="threat-level" style="color:#22c55e">LOW</span></div>
+    <div class="widget-header">🚨 <span class="wh-title">Threat Posture</span><span class="wh-count" id="threat-level" style="color:#22c55e">NORMAL</span></div>
     <div class="widget-body" id="pane-threat"></div>
   </div>
 
@@ -1718,51 +1733,63 @@ function renderThreat(visible){
   const col = threatColor(pct);
   const lbl = threatLabel(pct);
 
+  // Map threat pct to DEFCON level (5=lowest, 1=highest)
+  const defcon = pct >= 80 ? 1 : pct >= 60 ? 2 : pct >= 40 ? 3 : pct >= 20 ? 4 : 5;
+  const defconLabels = {5:'NORMAL READINESS',4:'INCREASED INTEL',3:'ELEVATED FORCE POSTURE',2:'HIGH ALERT',1:'MAXIMUM READINESS'};
+
   // Update header badge
   const badge = document.getElementById('threat-level');
-  if(badge){ badge.textContent = lbl; badge.style.color = col; badge.style.borderColor = col; }
+  if(badge){ badge.textContent = `DEFCON ${defcon}`; badge.style.color = col; badge.style.borderColor = col; }
 
-  // Trend arrow
+  // Trend
   const prev = threatHistory.length >= 2 ? threatHistory[threatHistory.length-2].pct : pct;
-  const trend = pct > prev + 3 ? '↑' : pct < prev - 3 ? '↓' : '→';
-  const trendCol = pct > prev + 3 ? '#ef4444' : pct < prev - 3 ? '#22c55e' : '#6b7a9e';
+  const trend = pct > prev + 3 ? '▲ RISING' : pct < prev - 3 ? '▼ DECLINING' : '► STABLE';
+  const trendCol = pct > prev + 3 ? '#ef4444' : pct < prev - 3 ? '#22c55e' : 'var(--muted)';
 
-  let h = `
-    <div style="padding:10px 12px;border-bottom:1px solid var(--border)">
-      <div style="display:flex;align-items:center;gap:8px;margin-bottom:6px">
-        <div style="font-size:28px;font-weight:800;color:${col}">${pct}<span style="font-size:14px">/100</span></div>
-        <div>
-          <div style="font-size:13px;font-weight:700;color:${col}">${lbl}</div>
-          <div style="font-size:11px;color:${trendCol}">${trend} Trend</div>
-        </div>
-        <div style="flex:1;height:8px;background:#111827;border-radius:4px;overflow:hidden;margin-left:8px">
-          <div style="height:100%;width:${pct}%;background:${col};border-radius:4px;transition:width .5s"></div>
-        </div>
-      </div>
-      <div style="font-size:10px;color:#6b7a9e">Based on ${acData.filter(ac=>ac.lat).length} tracked aircraft • ${new Date().toLocaleTimeString()}</div>
-    </div>`;
+  let h = '';
+
+  // DEFCON meter
+  h += `<div style="padding:10px 12px 6px">
+    <div class="defcon-meter">
+      <div class="defcon-level defcon-5 ${defcon===5?'active':''}">5</div>
+      <div class="defcon-level defcon-4 ${defcon===4?'active':''}">4</div>
+      <div class="defcon-level defcon-3 ${defcon===3?'active':''}">3</div>
+      <div class="defcon-level defcon-2 ${defcon===2?'active':''}">2</div>
+      <div class="defcon-level defcon-1 ${defcon===1?'active':''}">1</div>
+    </div>
+    <div style="text-align:center;margin:4px 0">
+      <div style="font-size:11px;font-weight:700;color:${col};font-family:'Orbitron',monospace;letter-spacing:2px">${defconLabels[defcon]}</div>
+      <div style="font-size:10px;color:${trendCol};margin-top:2px;font-family:'Share Tech Mono',monospace">${trend}</div>
+    </div>
+    <div style="height:4px;background:rgba(0,255,65,.06);border-radius:2px;overflow:hidden;margin-top:6px">
+      <div style="height:100%;width:${pct}%;background:${col};border-radius:2px;transition:width .5s"></div>
+    </div>
+    <div style="display:flex;justify-content:space-between;margin-top:3px;font-size:9px;color:var(--muted);font-family:'Share Tech Mono',monospace">
+      <span>THREAT INDEX: ${pct}/100</span>
+      <span>${acData.filter(ac=>ac.lat).length} TRACKED</span>
+    </div>
+  </div>`;
 
   // Signal breakdown
-  h += `<div style="padding:6px 12px 4px;font-size:10px;color:#6b7a9e;text-transform:uppercase;letter-spacing:.5px">Signal Breakdown</div>`;
+  h += `<div class="rp-section">📡 SIGNAL BREAKDOWN</div>`;
   signals.sort((a,b) => b.contrib - a.contrib).forEach(s => {
-    const sigCol = s.active ? (s.contrib >= 15 ? '#ef4444' : s.contrib >= 8 ? '#f97316' : '#eab308') : '#3a4560';
-    const icon = s.active ? '🔴' : '⚪';
-    h += `<div style="padding:5px 12px;border-bottom:1px solid var(--border);display:flex;align-items:center;gap:6px">
-      <span style="font-size:11px">${icon}</span>
+    const sigCol = s.active ? (s.contrib >= 15 ? '#ef4444' : s.contrib >= 8 ? '#f97316' : '#eab308') : 'var(--muted)';
+    const barW = s.active ? Math.min(s.contrib * 5, 100) : 0;
+    h += `<div class="threat-row" style="padding:5px 12px">
       <div style="flex:1">
-        <div style="font-size:11px;color:${s.active ? '#e0e8ff' : '#4a5580'}">${s.label}</div>
-        <div style="font-size:10px;color:#6b7a9e">${s.desc}</div>
+        <span class="tr-label">${s.active?'🔴':'⚫'} ${s.label}</span>
+        <div class="threat-bar"><div class="threat-bar-fill" style="width:${barW}%;background:${sigCol}"></div></div>
       </div>
-      <span style="font-size:11px;font-weight:700;color:${sigCol}">${s.active ? '+'+s.contrib : '0'}</span>
+      <span class="tr-value" style="color:${sigCol};min-width:30px;text-align:right">${s.active ? '+'+s.contrib : '—'}</span>
     </div>`;
   });
 
   // Quick stats
-  h += `<div style="padding:8px 12px;font-size:11px;display:flex;flex-wrap:wrap;gap:8px;border-top:1px solid var(--border)">
-    <span style="color:#c084fc">⛽ ${tankers} tankers</span>
-    <span style="color:#22d3ee">🔍 ${isr} ISR</span>
-    <span style="color:#ef4444">⚔️ ${advActive} adversary</span>
-    <span style="color:#f87171">💣 ${bombers} bombers</span>
+  h += `<div style="padding:8px 12px;font-size:10px;display:grid;grid-template-columns:1fr 1fr;gap:4px;border-top:1px solid rgba(0,255,65,.06)">
+    <span style="color:var(--accent)">⛽ ${tankers} TANKERS</span>
+    <span style="color:var(--accent)">🔍 ${isr} ISR</span>
+    <span style="color:${advActive>0?'#ef4444':'var(--muted)'}">⚔️ ${advActive} ADVERSARY</span>
+    <span style="color:${bombers>0?'#f97316':'var(--muted)'}">💣 ${bombers} BOMBERS</span>
   </div>`;
 
   const pane = document.getElementById('pane-threat');
