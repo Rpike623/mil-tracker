@@ -409,6 +409,15 @@ body::after{
 .poly-card .pc-vol{font-size:9px;color:var(--muted)}
 
 /* ── TOP BAR ── */
+/* Clock bar */
+.clock-bar{flex-shrink:0;display:flex;justify-content:center;gap:0;background:#000;border-bottom:1px solid rgba(0,255,65,.15);padding:0;font-family:'Share Tech Mono',monospace;overflow-x:auto}
+.clock-cell{display:flex;flex-direction:column;align-items:center;padding:4px 14px;border-right:1px solid rgba(0,255,65,.06);min-width:80px}
+.clock-cell:last-child{border-right:none}
+.clock-label{font-size:8px;text-transform:uppercase;letter-spacing:1.5px;color:rgba(0,255,65,.35);margin-bottom:1px}
+.clock-time{font-size:13px;font-weight:700;color:var(--accent);letter-spacing:1px;text-shadow:0 0 8px rgba(0,255,65,.3)}
+.clock-cell.clock-date .clock-time{color:var(--text);text-shadow:none;font-size:11px}
+#clk-zulu{font-size:15px;color:#fff;text-shadow:0 0 12px rgba(0,255,65,.5)}
+
 .topbar{flex-shrink:0;background:var(--panel);border-bottom:1px solid var(--border);padding:7px 12px;display:flex;gap:5px;align-items:center;flex-wrap:wrap;z-index:200}
 .topbar .logo{font-weight:800;font-size:13px;color:var(--accent);margin-right:6px;letter-spacing:.5px;white-space:nowrap}
 .topbar .logo span{color:var(--text)}
@@ -582,6 +591,17 @@ body::after{
   <button class="tb-btn" id="btn-airdef" onclick="toggleAirDef()">🛡️ Air Defense</button>
   <button class="tb-btn on" id="btn-naval" onclick="toggleNavalLayer()">🚢 Naval</button>
   <button class="tb-btn" id="btn-notif" onclick="toggleNotifications()">🔔 Alerts</button>
+</div>
+
+<!-- ZULU CLOCK BAR -->
+<div class="clock-bar" id="clockBar">
+  <div class="clock-cell"><span class="clock-label">ZULU</span><span class="clock-time" id="clk-zulu">--:--:--Z</span></div>
+  <div class="clock-cell"><span class="clock-label">🇺🇸 DC</span><span class="clock-time" id="clk-dc">--:--</span></div>
+  <div class="clock-cell"><span class="clock-label">🇺🇦 KYIV</span><span class="clock-time" id="clk-kyiv">--:--</span></div>
+  <div class="clock-cell"><span class="clock-label">🇷🇺 MOSCOW</span><span class="clock-time" id="clk-moscow">--:--</span></div>
+  <div class="clock-cell"><span class="clock-label">🇮🇷 TEHRAN</span><span class="clock-time" id="clk-tehran">--:--</span></div>
+  <div class="clock-cell"><span class="clock-label">🇨🇳 BEIJING</span><span class="clock-time" id="clk-beijing">--:--</span></div>
+  <div class="clock-cell clock-date"><span class="clock-label">DATE</span><span class="clock-time" id="clk-date">--</span></div>
 </div>
 
 <!-- DASHBOARD GRID -->
@@ -2249,6 +2269,26 @@ function renderNaval(){
 
   pane.innerHTML = h;
 }
+
+// ════════════════════════════════════════
+// ZULU CLOCK BAR
+// ════════════════════════════════════════
+function updateClocks(){
+  const now = new Date();
+  const fmt = (tz, h24=true) => now.toLocaleTimeString('en-GB',{timeZone:tz,hour:'2-digit',minute:'2-digit',second:h24?'2-digit':undefined,hour12:false});
+  const fmtS = (tz) => now.toLocaleTimeString('en-GB',{timeZone:tz,hour:'2-digit',minute:'2-digit',hour12:false});
+  document.getElementById('clk-zulu').textContent = fmt('UTC') + 'Z';
+  document.getElementById('clk-dc').textContent = fmtS('America/New_York');
+  document.getElementById('clk-kyiv').textContent = fmtS('Europe/Kyiv');
+  document.getElementById('clk-moscow').textContent = fmtS('Europe/Moscow');
+  document.getElementById('clk-tehran').textContent = fmtS('Asia/Tehran');
+  document.getElementById('clk-beijing').textContent = fmtS('Asia/Shanghai');
+  const months = ['JAN','FEB','MAR','APR','MAY','JUN','JUL','AUG','SEP','OCT','NOV','DEC'];
+  const days = ['SUN','MON','TUE','WED','THU','FRI','SAT'];
+  document.getElementById('clk-date').textContent = `${days[now.getUTCDay()]} ${now.getUTCDate()} ${months[now.getUTCMonth()]} ${now.getUTCFullYear()}`;
+}
+updateClocks();
+setInterval(updateClocks, 1000);
 
 fetchData();
 fetchAllNews();
