@@ -618,16 +618,27 @@ body::after{
 .boot-screen::before{content:'';position:absolute;inset:0;background:repeating-linear-gradient(0deg,transparent,transparent 2px,rgba(0,255,65,.015) 2px,rgba(0,255,65,.015) 4px);pointer-events:none;z-index:1}
 .boot-screen::after{content:'';position:absolute;inset:0;background:linear-gradient(transparent 50%,rgba(0,0,0,.03) 50%);background-size:100% 4px;pointer-events:none;z-index:2;animation:boot-flicker 0.15s infinite}
 @keyframes boot-flicker{0%{opacity:0.97}50%{opacity:1}100%{opacity:0.97}}
-.boot-line{font-size:12px;color:var(--accent);line-height:1.8;opacity:0;white-space:pre;letter-spacing:.5px;z-index:3;position:relative}
-.boot-line.vis{opacity:1}
+.boot-line{font-size:12px;color:var(--accent);line-height:1.8;opacity:0;white-space:pre;letter-spacing:.5px;z-index:3;position:relative;transform:translateX(-4px);transition:opacity .15s,transform .15s}
+.boot-line.vis{opacity:1;transform:translateX(0)}
 .boot-line.sys{color:#00cc33}
 .boot-line.warn{color:#f97316}
+.boot-line.err{color:#ef4444;text-shadow:0 0 8px rgba(239,68,68,.4)}
 .boot-line.ok{color:#00ff41}
 .boot-line.head{color:#fff;font-size:14px;font-family:'Orbitron','Share Tech Mono',monospace;letter-spacing:3px;text-shadow:0 0 20px rgba(0,255,65,.6)}
+.boot-line.ascii{color:rgba(0,255,65,.25);font-size:10px;line-height:1.2;letter-spacing:0}
 .boot-line .cursor{display:inline-block;width:8px;height:14px;background:var(--accent);animation:blink-cursor .5s step-end infinite;vertical-align:text-bottom;margin-left:2px}
 @keyframes blink-cursor{50%{opacity:0}}
-.boot-progress{width:300px;height:4px;background:rgba(0,255,65,.1);border-radius:2px;margin-top:8px;overflow:hidden;z-index:3;position:relative}
-.boot-progress-fill{height:100%;background:var(--accent);width:0%;transition:width .3s;box-shadow:0 0 10px rgba(0,255,65,.5)}
+.boot-progress{width:400px;height:6px;background:rgba(0,255,65,.08);border-radius:2px;margin-top:10px;overflow:hidden;z-index:3;position:relative;border:1px solid rgba(0,255,65,.15)}
+.boot-progress-fill{height:100%;background:linear-gradient(90deg,#00ff41,#00cc33);width:0%;transition:width .3s;box-shadow:0 0 12px rgba(0,255,65,.6),inset 0 0 4px rgba(255,255,255,.15)}
+@keyframes boot-glitch{0%,100%{transform:translate(0)}10%{transform:translate(-2px,1px)}20%{transform:translate(2px,-1px)}30%{transform:translate(0)}90%{transform:translate(1px,0)}}
+.boot-glitch{animation:boot-glitch .15s linear}
+/* Ambient floating particles on map */
+@keyframes particle-float{0%{transform:translateY(0) translateX(0);opacity:0}10%{opacity:.6}90%{opacity:.6}100%{transform:translateY(-100vh) translateX(30px);opacity:0}}
+.map-particles{position:absolute;inset:0;z-index:1;pointer-events:none;overflow:hidden}
+.map-particle{position:absolute;width:2px;height:2px;background:#00ff41;border-radius:50%;box-shadow:0 0 4px #00ff41;animation:particle-float linear infinite;opacity:0}
+/* Heartbeat pulse for live status */
+@keyframes hb-pulse{0%,100%{opacity:1}50%{opacity:.3}}
+.hb-live{animation:hb-pulse 2s ease-in-out infinite;color:#00ff41;font-size:9px;font-family:'Share Tech Mono',monospace;letter-spacing:.5px}
 
 /* Responsive */
 @media(max-width:768px){
@@ -654,42 +665,52 @@ body::after{
 
 <!-- CRT BOOT SEQUENCE -->
 <div class="boot-screen" id="bootScreen">
-  <div class="boot-line head" id="boot-0">╔══════════════════════════════════════════════════════╗</div>
-  <div class="boot-line head" id="boot-1">║  PIKECLAW // MILITARY OSINT TERMINAL v3.2            ║</div>
-  <div class="boot-line head" id="boot-2">║  DEFENSE INTELLIGENCE MONITORING SYSTEM               ║</div>
-  <div class="boot-line head" id="boot-3">╚══════════════════════════════════════════════════════╝</div>
-  <div class="boot-line sys" id="boot-4">BIOS POST.......... OK</div>
-  <div class="boot-line sys" id="boot-5">CPU: QUANTUM-X86/NEURAL v4.2 ✓  |  CORES: 128 ACTIVE</div>
-  <div class="boot-line sys" id="boot-6">MEM CHECK: 131072K ████████████████████████████████ OK</div>
-  <div class="boot-line" id="boot-7">Initializing secure terminal session...</div>
-  <div class="boot-line" id="boot-8">Loading cryptographic modules........... AES-256-GCM ✓ RSA-4096 ✓ ECDSA ✓</div>
-  <div class="boot-line" id="boot-9">Verifying operator clearance............ LEVEL 5 — AUTHORIZED</div>
-  <div class="boot-line ok" id="boot-10">Establishing MILNET uplink.............</div>
-  <div class="boot-line ok" id="boot-11">  ╠══ SATCOM CH-1:  ACTIVE  [ENCRYPTED] ══╣</div>
-  <div class="boot-line ok" id="boot-12">  ╠══ SATCOM CH-2:  STANDBY [BACKUP]     ══╣</div>
-  <div class="boot-line ok" id="boot-13">  ╠══ MESH RELAY:   ACTIVE  [6 NODES]    ══╣</div>
-  <div class="boot-line" id="boot-14">Connecting data feeds:</div>
-  <div class="boot-line" id="boot-15">  ├─ ADS-B mil transponders.... api.adsb.lol ✓</div>
-  <div class="boot-line" id="boot-16">  ├─ OSINT news aggregator..... RSS x6 feeds ✓</div>
-  <div class="boot-line" id="boot-17">  ├─ Prediction markets........ Polymarket API ✓</div>
-  <div class="boot-line" id="boot-18">  ├─ Seismic monitoring........ USGS GeoJSON ✓</div>
-  <div class="boot-line" id="boot-19">  ├─ Space launch telemetry.... TheSpaceDevs ✓</div>
-  <div class="boot-line" id="boot-20">  ├─ FX/sanctions rates........ open.er-api ✓</div>
-  <div class="boot-line" id="boot-21">  ├─ ISS orbital position...... open-notify ✓</div>
-  <div class="boot-line" id="boot-22">  └─ Intel data pipeline....... GitHub CDN ✓</div>
-  <div class="boot-line" id="boot-23">Loading databases:</div>
-  <div class="boot-line" id="boot-24">  ├─ Aircraft type records........... 487 entries</div>
-  <div class="boot-line" id="boot-25">  ├─ Naval deployment assets......... 12 groups</div>
-  <div class="boot-line" id="boot-26">  ├─ Active conflict zones........... 8 regions</div>
-  <div class="boot-line" id="boot-27">  ├─ GPS interference zones.......... 11 zones</div>
-  <div class="boot-line" id="boot-28">  ├─ Military exercises.............. 8 tracked</div>
-  <div class="boot-line" id="boot-29">  ├─ NOTAM/TFR restrictions.......... 10 active</div>
-  <div class="boot-line" id="boot-30">  ├─ Nuclear/WMD sites............... 22 monitored</div>
-  <div class="boot-line" id="boot-31">  └─ Air defense networks............ 13 systems</div>
-  <div class="boot-line warn" id="boot-32">⚠ CLASSIFICATION: UNCLASSIFIED // OSINT ONLY</div>
-  <div class="boot-line warn" id="boot-33">⚠ DOOMSDAY CLOCK: 90 SECONDS TO MIDNIGHT</div>
-  <div class="boot-line ok" id="boot-34">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</div>
-  <div class="boot-line ok" id="boot-35">ALL SYSTEMS NOMINAL — LAUNCHING DASHBOARD<span class="cursor"></span></div>
+  <div class="boot-line ascii" id="boot-0">        ___  _ _        ___ _                </div>
+  <div class="boot-line ascii" id="boot-1">       / _ \(_) | ___  / __\ | __ ___      __</div>
+  <div class="boot-line ascii" id="boot-2">      / /_)/ | |/ / _ \/ /  | |/ _` \ \ /\ / /</div>
+  <div class="boot-line ascii" id="boot-3">     / ___/| |   &lt;  __/ /___| | (_| |\ V  V / </div>
+  <div class="boot-line ascii" id="boot-4">     \/    |_|_|\_\___\____/|_|\__,_| \_/\_/  </div>
+  <div class="boot-line" id="boot-5"></div>
+  <div class="boot-line head" id="boot-6">╔══════════════════════════════════════════════════════════╗</div>
+  <div class="boot-line head" id="boot-7">║   MILITARY OSINT TERMINAL v3.2 — SITUATION ROOM MODE    ║</div>
+  <div class="boot-line head" id="boot-8">║   DEFENSE INTELLIGENCE MONITORING SYSTEM                 ║</div>
+  <div class="boot-line head" id="boot-9">╚══════════════════════════════════════════════════════════╝</div>
+  <div class="boot-line sys" id="boot-10">BIOS POST.......... OK</div>
+  <div class="boot-line sys" id="boot-11">CPU: QUANTUM-X86/NEURAL v4.2 ✓  |  CORES: 128 ACTIVE</div>
+  <div class="boot-line sys" id="boot-12">MEM CHECK: 131072K ████████████████████████████████ OK</div>
+  <div class="boot-line sys" id="boot-13">GPU: TACTICAL-RENDER v2.1 ✓  |  VRAM: 32768K ALLOCATED</div>
+  <div class="boot-line" id="boot-14">Initializing secure terminal session...</div>
+  <div class="boot-line" id="boot-15">Loading cryptographic modules........... AES-256-GCM ✓ RSA-4096 ✓ ECDSA ✓</div>
+  <div class="boot-line" id="boot-16">Verifying operator clearance............ LEVEL 5 — AUTHORIZED</div>
+  <div class="boot-line err" id="boot-17">ERR: NSA BACKDOOR DETECTED ............. PATCHING ██████ NEUTRALIZED ✓</div>
+  <div class="boot-line ok" id="boot-18">Establishing MILNET uplink.............</div>
+  <div class="boot-line ok" id="boot-19">  ╠══ SATCOM CH-1:  ACTIVE  [ENCRYPTED]    ══╣</div>
+  <div class="boot-line ok" id="boot-20">  ╠══ SATCOM CH-2:  STANDBY [BACKUP]       ══╣</div>
+  <div class="boot-line ok" id="boot-21">  ╠══ MESH RELAY:   ACTIVE  [6 NODES]      ══╣</div>
+  <div class="boot-line ok" id="boot-22">  ╠══ TOR CIRCUIT:  ACTIVE  [3 HOPS]       ══╣</div>
+  <div class="boot-line" id="boot-23">Connecting data feeds:</div>
+  <div class="boot-line" id="boot-24">  ├─ ADS-B mil transponders...... api.adsb.lol ✓</div>
+  <div class="boot-line" id="boot-25">  ├─ OSINT news aggregator....... RSS x6 feeds ✓</div>
+  <div class="boot-line" id="boot-26">  ├─ Prediction markets.......... Polymarket API ✓</div>
+  <div class="boot-line" id="boot-27">  ├─ Seismic monitoring.......... USGS GeoJSON ✓</div>
+  <div class="boot-line" id="boot-28">  ├─ Space launch telemetry...... TheSpaceDevs ✓</div>
+  <div class="boot-line" id="boot-29">  ├─ FX/sanctions rates.......... open.er-api ✓</div>
+  <div class="boot-line" id="boot-30">  ├─ ISS orbital telemetry....... open-notify ✓</div>
+  <div class="boot-line" id="boot-31">  └─ Intel data pipeline......... GitHub CDN ✓</div>
+  <div class="boot-line" id="boot-32">Loading tactical databases:</div>
+  <div class="boot-line" id="boot-33">  ├─ Aircraft signatures.............. 487 type records</div>
+  <div class="boot-line" id="boot-34">  ├─ Naval deployment tracking........ 12 battle groups</div>
+  <div class="boot-line" id="boot-35">  ├─ Active conflict zones............ 8 theater regions</div>
+  <div class="boot-line" id="boot-36">  ├─ GPS/GNSS interference............ 11 EW zones</div>
+  <div class="boot-line" id="boot-37">  ├─ Military exercises............... 8 operations</div>
+  <div class="boot-line" id="boot-38">  ├─ NOTAM/TFR airspace............... 10 restrictions</div>
+  <div class="boot-line" id="boot-39">  ├─ Nuclear/WMD facilities........... 22 sites monitored</div>
+  <div class="boot-line" id="boot-40">  └─ Air defense networks............. 13 SAM systems</div>
+  <div class="boot-line" id="boot-41"></div>
+  <div class="boot-line warn" id="boot-42">⚠ CLASSIFICATION: UNCLASSIFIED // OSINT ONLY</div>
+  <div class="boot-line warn" id="boot-43">⚠ DOOMSDAY CLOCK: 90 SECONDS TO MIDNIGHT — CLOSEST EVER</div>
+  <div class="boot-line ok" id="boot-44">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</div>
+  <div class="boot-line ok" id="boot-45"><span id="boot-typed"></span><span class="cursor"></span></div>
   <div class="boot-progress" id="boot-bar"><div class="boot-progress-fill" id="boot-fill"></div></div>
 </div>
 
@@ -745,6 +766,9 @@ body::after{
   <button class="tb-btn" id="btn-brief" onclick="showBriefing()" style="background:rgba(0,255,65,.08);border-color:rgba(0,255,65,.3)">📋 Brief</button>
   <button class="tb-btn" id="btn-audio" onclick="toggleAudio()">🔇 Sound</button>
   <button class="tb-btn" id="btn-notif" onclick="toggleNotifications()">🔔 Alerts</button>
+  <div class="tb-sep"></div>
+  <span class="hb-live" id="hb-indicator">● LIVE</span>
+  <span style="font-size:9px;color:var(--muted);font-family:'Share Tech Mono',monospace" id="hb-time"></span>
 </div>
 
 <!-- ZULU CLOCK BAR -->
@@ -764,6 +788,7 @@ body::after{
   <!-- MAP WIDGET -->
   <div class="widget w-map">
     <div id="map" style="position:absolute;inset:0"></div>
+    <div class="map-particles" id="mapParticles"></div>
     <div class="map-legend" style="position:absolute;top:10px;right:10px;z-index:400">
       <div class="ml-row"><div class="ml-dot" style="background:#00ff41"></div>🇺🇸 US</div>
       <div class="ml-row"><div class="ml-dot" style="background:#ef4444"></div>🇮🇷 Iran</div>
@@ -916,31 +941,99 @@ body::after{
 (function bootSequence(){
   const screen = document.getElementById('bootScreen');
   if(!screen) return;
-  const totalLines = 36;
-  const lineDelay = 70;
+  const totalLines = 46;
   let i = 0;
+  let bootAudioCtx;
+  try { bootAudioCtx = new (window.AudioContext || window.webkitAudioContext)(); } catch(e){}
+
+  function bootBeep(freq, dur){
+    if(!bootAudioCtx) return;
+    try {
+      const o = bootAudioCtx.createOscillator();
+      const g = bootAudioCtx.createGain();
+      o.connect(g); g.connect(bootAudioCtx.destination);
+      o.type = 'sine'; o.frequency.value = freq;
+      g.gain.setValueAtTime(0.03, bootAudioCtx.currentTime);
+      g.gain.exponentialRampToValueAtTime(0.001, bootAudioCtx.currentTime + dur);
+      o.start(); o.stop(bootAudioCtx.currentTime + dur);
+    } catch(e){}
+  }
+
+  function typeText(el, text, cb){
+    let ci = 0;
+    function t(){
+      if(ci >= text.length){ if(cb) cb(); return; }
+      el.textContent += text[ci]; ci++;
+      bootBeep(600 + Math.random()*400, 0.03);
+      setTimeout(t, 35 + Math.random()*25);
+    }
+    t();
+  }
+
+  // Dramatic delays per section
+  function getDelay(idx){
+    if(idx <= 5) return 50 + Math.random()*30;           // ASCII art — fast
+    if(idx <= 9) return 140 + Math.random()*60;          // Header box — slow/dramatic
+    if(idx <= 13) return 100 + Math.random()*50;         // BIOS/CPU/MEM
+    if(idx === 14) return 200 + Math.random()*100;       // "Initializing..." — pause
+    if(idx <= 16) return 120 + Math.random()*60;         // Crypto/clearance
+    if(idx === 17) return 500;                           // ERR line — dramatic pause
+    if(idx === 18) return 300;                           // "Establishing..." — pause
+    if(idx <= 22) return 110 + Math.random()*40;         // SATCOM channels
+    if(idx === 23) return 180;                           // "Connecting data feeds:"
+    if(idx <= 31) return 80 + Math.random()*40;          // Feed connections — moderate
+    if(idx === 32) return 160;                           // "Loading databases:"
+    if(idx <= 40) return 60 + Math.random()*30;          // Database items — faster
+    if(idx === 41) return 100;                           // blank line
+    if(idx <= 43) return 300 + Math.random()*100;        // Warnings — slow
+    if(idx === 44) return 200;                           // separator
+    return 100;
+  }
 
   function showLine(){
     if(i >= totalLines){
-      const fill = document.getElementById('boot-fill');
-      if(fill) fill.style.width = '100%';
-      setTimeout(() => {
-        screen.style.transition = 'opacity 0.5s';
-        screen.style.opacity = '0';
-        setTimeout(() => screen.remove(), 500);
-      }, 700);
+      // Type the final line character by character
+      const typedEl = document.getElementById('boot-typed');
+      if(typedEl){
+        const el45 = document.getElementById('boot-45');
+        if(el45) el45.classList.add('vis');
+        typeText(typedEl, 'ALL SYSTEMS NOMINAL — LAUNCHING DASHBOARD', () => {
+          const fill = document.getElementById('boot-fill');
+          if(fill) fill.style.width = '100%';
+          bootBeep(1200, 0.2);
+          // Glitch effect before fade
+          setTimeout(() => {
+            screen.classList.add('boot-glitch');
+            setTimeout(() => screen.classList.remove('boot-glitch'), 150);
+          }, 400);
+          setTimeout(() => {
+            screen.style.transition = 'opacity 0.6s ease-out';
+            screen.style.opacity = '0';
+            setTimeout(() => { screen.remove(); if(bootAudioCtx) bootAudioCtx.close(); }, 600);
+          }, 900);
+        });
+      }
       return;
     }
     const el = document.getElementById('boot-'+i);
-    if(el) el.classList.add('vis');
+    if(el){
+      el.classList.add('vis');
+      // Glitch on the ERR line
+      if(i === 17){
+        screen.classList.add('boot-glitch');
+        bootBeep(200, 0.15);
+        setTimeout(() => screen.classList.remove('boot-glitch'), 150);
+      } else {
+        bootBeep(800 + i*15, 0.04);
+      }
+    }
     const fill = document.getElementById('boot-fill');
-    if(fill) fill.style.width = Math.round(((i+1)/totalLines)*100)+'%';
+    if(fill) fill.style.width = Math.round(((i+1)/totalLines)*95)+'%';
+    const delay = getDelay(i);
     i++;
-    // Vary timing: headers fast, uplink medium, data feeds medium, databases fast
-    const delay = i <= 4 ? 60 : i <= 13 ? lineDelay + Math.random()*60 : i <= 22 ? lineDelay + Math.random()*40 : 50 + Math.random()*30;
     setTimeout(showLine, delay);
   }
-  setTimeout(showLine, 400);
+  setTimeout(showLine, 600);
 })();
 
 // ════════════════════════════════════════
@@ -3573,6 +3666,42 @@ setInterval(() => { xPostCache={}; initXFeed(); }, 300000);
 setInterval(loadIntelData, 1800000); // Reload intel data every 30min
 
 switchTab('news');
+
+// ════════════════════════════════════════
+// AMBIENT MAP PARTICLES
+// ════════════════════════════════════════
+(function spawnParticles(){
+  const container = document.getElementById('mapParticles');
+  if(!container) return;
+  function spawn(){
+    const p = document.createElement('div');
+    p.className = 'map-particle';
+    p.style.left = Math.random()*100+'%';
+    p.style.bottom = '-4px';
+    p.style.animationDuration = (8 + Math.random()*12)+'s';
+    p.style.animationDelay = Math.random()*2+'s';
+    container.appendChild(p);
+    setTimeout(() => p.remove(), 22000);
+  }
+  setInterval(spawn, 800);
+  for(let j=0;j<6;j++) setTimeout(spawn, j*300);
+})();
+
+// ════════════════════════════════════════
+// LIVE HEARTBEAT INDICATOR
+// ════════════════════════════════════════
+let lastDataTime = Date.now();
+const origFetchData = fetchData;
+fetchData = async function(){
+  await origFetchData();
+  lastDataTime = Date.now();
+};
+setInterval(() => {
+  const el = document.getElementById('hb-time');
+  if(!el) return;
+  const ago = Math.round((Date.now()-lastDataTime)/1000);
+  el.textContent = ago < 5 ? 'just now' : ago+'s ago';
+}, 1000);
 </script>
 </body>
 </html>
