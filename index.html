@@ -433,6 +433,9 @@ body::after{
 .threat-bar{height:4px;background:rgba(0,255,65,.08);border-radius:2px;margin-top:3px;overflow:hidden}
 .threat-bar-fill{height:100%;border-radius:2px;transition:width .5s}
 
+/* Conflict pulse */
+@keyframes pulse-conflict{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.6;transform:scale(1.4)}}
+
 .topbar{flex-shrink:0;background:var(--panel);border-bottom:1px solid var(--border);padding:7px 12px;display:flex;gap:5px;align-items:center;flex-wrap:wrap;z-index:200}
 .topbar .logo{font-weight:800;font-size:13px;color:var(--accent);margin-right:6px;letter-spacing:.5px;white-space:nowrap}
 .topbar .logo span{color:var(--text)}
@@ -604,6 +607,7 @@ body::after{
   <button class="tb-btn" id="btn-missiles" onclick="toggleMissiles()">🚀 Ranges</button>
   <button class="tb-btn" id="btn-nuclear" onclick="toggleNuclear()">☢️ WMD Sites</button>
   <button class="tb-btn" id="btn-airdef" onclick="toggleAirDef()">🛡️ Air Defense</button>
+  <button class="tb-btn" id="btn-conflicts" onclick="toggleConflicts()">⚔️ Conflicts</button>
   <button class="tb-btn on" id="btn-naval" onclick="toggleNavalLayer()">🚢 Naval</button>
   <button class="tb-btn" id="btn-notif" onclick="toggleNotifications()">🔔 Alerts</button>
 </div>
@@ -2098,6 +2102,114 @@ function renderAdvPanel(adv){
   h += `</div>`;
   pane.innerHTML = h;
 }
+// ════════════════════════════════════════
+// ACTIVE CONFLICTS OVERLAY
+// ════════════════════════════════════════
+const CONFLICTS = [
+  {name:'Ukraine-Russia War', status:'ACTIVE COMBAT', intensity:'HIGH',
+   lat:48.5, lon:37.5, radiusKm:350, color:'#ef4444',
+   parties:'🇺🇦 Ukraine vs 🇷🇺 Russia', since:'Feb 2022',
+   summary:'Full-scale conventional war. Active frontline ~1,200km. Russian occupation of Crimea, parts of Donetsk, Luhansk, Zaporizhzhia, Kherson. Drone warfare, artillery, trench combat.',
+   hotspots:['Donetsk front','Zaporizhzhia sector','Kursk incursion','Black Sea drone ops']},
+  {name:'Gaza Conflict', status:'ACTIVE COMBAT', intensity:'HIGH',
+   lat:31.4, lon:34.4, radiusKm:40, color:'#ef4444',
+   parties:'🇮🇱 Israel vs Hamas/PIJ', since:'Oct 2023',
+   summary:'Intensive urban warfare following Oct 7 attack. IDF ground operations across Gaza. Massive humanitarian crisis. Regional escalation risk.',
+   hotspots:['Rafah','Khan Younis','Gaza City','Netzarim Corridor']},
+  {name:'Red Sea / Houthi Campaign', status:'ACTIVE', intensity:'MEDIUM',
+   lat:14.5, lon:42.5, radiusKm:250, color:'#f97316',
+   parties:'🇾🇪 Houthis vs 🇺🇸/🇬🇧 Coalition + Commercial Shipping', since:'Nov 2023',
+   summary:'Houthi anti-ship missile and drone attacks on Red Sea/Gulf of Aden commercial shipping. US/UK strikes on Houthi positions in Yemen. Major disruption to Suez Canal trade.',
+   hotspots:['Bab el-Mandeb strait','Gulf of Aden','Hudaydah port','Southern Red Sea']},
+  {name:'Israel-Hezbollah Border', status:'TENSE', intensity:'MEDIUM',
+   lat:33.2, lon:35.5, radiusKm:60, color:'#f97316',
+   parties:'🇮🇱 Israel vs 🇱🇧 Hezbollah', since:'Oct 2023',
+   summary:'Cross-border exchanges of fire. Israeli strikes on Hezbollah positions in Lebanon. Tens of thousands evacuated on both sides. Risk of full-scale war.',
+   hotspots:['Blue Line','South Lebanon','Golan Heights','Beirut suburbs']},
+  {name:'Syria Civil War (Frozen)', status:'LOW INTENSITY', intensity:'LOW',
+   lat:35.5, lon:38.5, radiusKm:200, color:'#eab308',
+   parties:'Multiple factions — Assad gov, SDF/Kurds, HTS, Turkish-backed forces', since:'2011',
+   summary:'Largely frozen conflict. US forces at al-Tanf & NE Syria with SDF. Turkish operations against Kurdish forces. Israeli strikes on Iranian assets. Russian air base at Khmeimim.',
+   hotspots:['Idlib province','NE Syria/SDF','al-Tanf garrison','Deir ez-Zor']},
+  {name:'Taiwan Strait Tensions', status:'WATCH', intensity:'LOW',
+   lat:24.0, lon:120.0, radiusKm:150, color:'#eab308',
+   parties:'🇨🇳 PRC vs 🇹🇼 Taiwan (🇺🇸 support)', since:'Ongoing',
+   summary:'Increased PLA military pressure. Regular PLAAF incursions into Taiwan ADIZ. PLA Navy exercises near Taiwan. US arms sales and naval transits continue.',
+   hotspots:['Taiwan Strait','Kinmen Islands','Bashi Channel','First Island Chain']},
+  {name:'South China Sea Disputes', status:'WATCH', intensity:'LOW',
+   lat:14.5, lon:115.0, radiusKm:400, color:'#eab308',
+   parties:'🇨🇳 China vs 🇵🇭🇻🇳🇲🇾🇧🇳🇹🇼 + 🇺🇸 FONOPs', since:'Ongoing',
+   summary:'Chinese maritime militia, coast guard harassment at Second Thomas Shoal. Philippine resupply missions contested. US freedom of navigation operations.',
+   hotspots:['Second Thomas Shoal','Scarborough Shoal','Spratly Islands','Paracel Islands']},
+  {name:'Iran-Israel Shadow War', status:'ELEVATED', intensity:'MEDIUM',
+   lat:33.0, lon:44.0, radiusKm:300, color:'#f97316',
+   parties:'🇮🇱 Israel vs 🇮🇷 Iran + proxies', since:'Ongoing',
+   summary:'Covert and overt strikes. Israeli attacks on Iranian nuclear/military facilities. Iranian proxy network (Hezbollah, Iraqi militias, Houthis). Direct missile exchanges in Apr 2024.',
+   hotspots:['Isfahan nuclear sites','Syrian T4 airbase','Iraqi militia bases','Strait of Hormuz']},
+];
+
+let conflictLayer = L.layerGroup();
+let conflictsVisible = false;
+
+function toggleConflicts(){
+  conflictsVisible = !conflictsVisible;
+  const btn = document.getElementById('btn-conflicts');
+  if(conflictsVisible){
+    conflictLayer.addTo(map);
+    btn.classList.add('on');
+    renderConflicts();
+  } else {
+    map.removeLayer(conflictLayer);
+    btn.classList.remove('on');
+  }
+}
+
+function renderConflicts(){
+  conflictLayer.clearLayers();
+  if(!conflictsVisible) return;
+  CONFLICTS.forEach(c => {
+    // Conflict zone circle
+    const circle = L.circle([c.lat, c.lon], {
+      radius: c.radiusKm * 1000,
+      fillColor: c.color,
+      fillOpacity: 0.08,
+      color: c.color,
+      weight: 2,
+      opacity: 0.4,
+      dashArray: c.intensity==='HIGH' ? '' : '8 4'
+    });
+
+    // Pulsing center marker
+    const pulseColor = c.intensity==='HIGH' ? '#ef4444' : c.intensity==='MEDIUM' ? '#f97316' : '#eab308';
+    const marker = L.marker([c.lat, c.lon], {
+      icon: L.divIcon({
+        html:`<div style="width:12px;height:12px;background:${pulseColor};border-radius:50%;box-shadow:0 0 12px ${pulseColor},0 0 24px ${pulseColor}40;animation:pulse-conflict 2s infinite"></div>`,
+        className:'', iconSize:[12,12], iconAnchor:[6,6]
+      })
+    });
+
+    marker.bindTooltip(`⚔️ ${c.name} — ${c.status}`, {className:'dark-tooltip', direction:'top', offset:[0,-8]});
+    marker.on('click', () => {
+      document.getElementById('pTitle').textContent = c.name;
+      document.getElementById('pBody').innerHTML = `
+        <div style="margin-bottom:6px"><span style="font-size:10px;padding:2px 8px;border-radius:2px;font-weight:700;font-family:'Share Tech Mono',monospace;background:${c.color}18;color:${c.color};border:1px solid ${c.color}40">${c.status}</span></div>
+        <div class="f"><span class="k">Parties: </span><span class="v">${c.parties}</span></div>
+        <div class="f"><span class="k">Since: </span><span class="v">${c.since}</span></div>
+        <div class="f"><span class="k">Intensity: </span><span class="v" style="color:${c.color}">${c.intensity}</span></div>
+        <div style="margin-top:6px;font-size:10px;color:var(--text);line-height:1.5">${c.summary}</div>
+        <div style="margin-top:8px">
+          <div style="font-size:9px;color:var(--muted);text-transform:uppercase;letter-spacing:1px;margin-bottom:4px">Hotspots</div>
+          ${c.hotspots.map(h=>`<span style="display:inline-block;font-size:10px;padding:2px 6px;margin:2px;background:rgba(0,255,65,.05);border:1px solid rgba(0,255,65,.12);border-radius:2px;color:var(--text)">${h}</span>`).join('')}
+        </div>
+      `;
+      document.getElementById('infoP').classList.add('vis');
+    });
+
+    conflictLayer.addLayer(circle);
+    conflictLayer.addLayer(marker);
+  });
+}
+
 // ════════════════════════════════════════
 // NAVAL DEPLOYMENTS
 // ════════════════════════════════════════
