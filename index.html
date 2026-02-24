@@ -1416,12 +1416,10 @@ async function fetchPolymarket(){
 // OSINT FEED (RSS-based — nitter/X RSS is dead)
 // ════════════════════════════════════════
 const OSINT_FEEDS = [
-  { id:'janes',     label:'Janes',           url:'https://www.janes.com/feeds/news' },
-  { id:'defnews',   label:'Defense News',    url:'https://www.defensenews.com/arc/outboundfeeds/rss/' },
   { id:'warzone',   label:'The War Zone',    url:'https://www.thedrive.com/the-war-zone/feed' },
+  { id:'defnews',   label:'Defense News',    url:'https://www.defensenews.com/arc/outboundfeeds/rss/' },
   { id:'breakdef',  label:'Breaking Defense', url:'https://breakingdefense.com/feed/' },
   { id:'naval',     label:'Naval News',      url:'https://www.navalnews.com/feed/' },
-  { id:'liveuamap', label:'Liveuamap',       url:'https://liveuamap.com/rss' },
 ];
 
 let osintCurrentFeed = OSINT_FEEDS[0].id;
