@@ -665,7 +665,7 @@ body::after{
   <!-- X / OSINT ACCOUNTS WIDGET -->
   <div style="width:420px;flex-shrink:0;border-right:1px solid var(--border);display:flex;flex-direction:column;overflow:hidden">
     <div style="flex-shrink:0;padding:6px 10px;background:rgba(0,0,0,.3);border-bottom:1px solid var(--border);font-size:10px;font-weight:700;letter-spacing:.5px;color:#6b7a9e;text-transform:uppercase;display:flex;align-items:center;gap:6px">
-      𝕏 <span style="flex:1">OSINT Accounts</span>
+      📡 <span style="flex:1">OSINT Feeds</span>
       <span id="x-account-tabs" style="display:flex;gap:4px"></span>
     </div>
     <div style="flex:1;overflow-y:auto;overflow-x:hidden" id="xFeed"></div>
@@ -1412,78 +1412,96 @@ async function fetchPolymarket(){
 // ════════════════════════════════════════
 // X / OSINT ACCOUNTS FEED
 // ════════════════════════════════════════
-const OSINT_ACCOUNTS = [
-  { handle: 'Osint613',      label: '@Osint613',    desc: 'Open Source Intel' },
-  { handle: 'IntelCrab',     label: '@IntelCrab',   desc: 'Intel Crab' },
-  { handle: 'RALee85',       label: '@RALee85',     desc: 'Rob Lee (Defense)' },
-  { handle: 'WarMonitor3',   label: '@WarMonitor3', desc: 'War Monitor' },
-  { handle: 'GeoConfirmed',  label: '@GeoConf',     desc: 'GeoConfirmed' },
-  { handle: 'oryxspioenkop', label: '@Oryx',        desc: 'Equipment losses' },
+// ════════════════════════════════════════
+// OSINT FEED (RSS-based — nitter/X RSS is dead)
+// ════════════════════════════════════════
+const OSINT_FEEDS = [
+  { id:'janes',     label:'Janes',           url:'https://www.janes.com/feeds/news' },
+  { id:'defnews',   label:'Defense News',    url:'https://www.defensenews.com/arc/outboundfeeds/rss/' },
+  { id:'warzone',   label:'The War Zone',    url:'https://www.thedrive.com/the-war-zone/feed' },
+  { id:'breakdef',  label:'Breaking Defense', url:'https://breakingdefense.com/feed/' },
+  { id:'naval',     label:'Naval News',      url:'https://www.navalnews.com/feed/' },
+  { id:'liveuamap', label:'Liveuamap',       url:'https://liveuamap.com/rss' },
 ];
 
-let xCurrentHandle = OSINT_ACCOUNTS[0].handle;
-let xPostCache = {};
+let osintCurrentFeed = OSINT_FEEDS[0].id;
+let osintCache = {};
 
 function buildXTabs(){
   const tabsEl = document.getElementById('x-account-tabs');
   if(!tabsEl) return;
-  tabsEl.innerHTML = OSINT_ACCOUNTS.map(a =>
-    `<span class="x-tab${a.handle===xCurrentHandle?' on':''}" onclick="switchXAccount('${a.handle}')">${a.label}</span>`
+  tabsEl.innerHTML = OSINT_FEEDS.map(a =>
+    `<span class="x-tab${a.id===osintCurrentFeed?' on':''}" onclick="switchXAccount('${a.id}')">${a.label}</span>`
   ).join('');
 }
 
-function switchXAccount(handle){
-  xCurrentHandle = handle;
+function switchXAccount(id){
+  osintCurrentFeed = id;
   buildXTabs();
-  if(xPostCache[handle]) renderXFeed(handle, xPostCache[handle]);
-  else fetchXAccount(handle);
+  if(osintCache[id]) renderXFeed(id, osintCache[id]);
+  else fetchOsintFeed(id);
 }
 
-async function fetchXAccount(handle){
+async function fetchOsintFeed(id){
   const feed = document.getElementById('xFeed');
-  if(!xPostCache[handle] && feed) feed.innerHTML = `<div style="padding:12px;color:#6b7a9e;font-size:11px">Loading @${handle}...</div>`;
-  try {
-    const rssUrl = 'https://nitter.net/' + handle + '/rss';
-    const proxied = 'https://api.allorigins.win/raw?url=' + encodeURIComponent(rssUrl);
-    const r = await fetch(proxied, { signal: AbortSignal.timeout(10000) });
-    if(!r.ok) throw new Error(r.status);
-    const txt = await r.text();
-    const doc = new DOMParser().parseFromString(txt, 'text/xml');
-    const posts = [...doc.querySelectorAll('item')].slice(0,20).map(i => ({
-      text: (i.querySelector('title')?.textContent || '').trim(),
-      link: (i.querySelector('link')?.textContent || '#').trim(),
-      date: new Date(i.querySelector('pubDate')?.textContent || Date.now()),
-    })).filter(p => p.text);
-    xPostCache[handle] = posts;
-    if(handle === xCurrentHandle) renderXFeed(handle, posts);
-  } catch(e) {
-    if(handle === xCurrentHandle && feed)
-      feed.innerHTML = `<div style="padding:12px;color:#6b7a9e;font-size:11px">Could not load @${handle}</div>`;
+  const src = OSINT_FEEDS.find(f=>f.id===id);
+  if(!src) return;
+  if(!osintCache[id] && feed) feed.innerHTML = `<div style="padding:12px;color:var(--muted);font-size:11px">Loading ${src.label}...</div>`;
+
+  const proxies = [
+    'https://api.codetabs.com/v1/proxy?quest='+encodeURIComponent(src.url),
+    'https://api.allorigins.win/raw?url='+encodeURIComponent(src.url),
+  ];
+
+  for(const proxied of proxies){
+    try {
+      const ac = new AbortController();
+      const tid = setTimeout(()=>ac.abort(), 10000);
+      const r = await fetch(proxied, { signal: ac.signal });
+      clearTimeout(tid);
+      if(!r.ok) continue;
+      const txt = await r.text();
+      const doc = new DOMParser().parseFromString(txt, 'text/xml');
+      const posts = [...doc.querySelectorAll('item')].slice(0,15).map(i => ({
+        text: (i.querySelector('title')?.textContent || '').replace(/<!\[CDATA\[|]]>/g,'').trim(),
+        link: (i.querySelector('link')?.textContent || '#').trim(),
+        date: new Date(i.querySelector('pubDate')?.textContent || Date.now()),
+        desc: (i.querySelector('description')?.textContent || '').replace(/<[^>]*>/g,'').slice(0,120).trim(),
+      })).filter(p => p.text);
+      if(posts.length){
+        osintCache[id] = posts;
+        if(id === osintCurrentFeed) renderXFeed(id, posts);
+        return;
+      }
+    } catch(e) { /* try next proxy */ }
   }
+
+  if(id === osintCurrentFeed && feed)
+    feed.innerHTML = `<div style="padding:12px;color:var(--muted);font-size:11px">Could not load ${src.label}</div>`;
 }
 
-function renderXFeed(handle, posts){
-  if(handle !== xCurrentHandle) return;
+function renderXFeed(id, posts){
+  if(id !== osintCurrentFeed) return;
   const feed = document.getElementById('xFeed');
   if(!feed) return;
-  if(!posts.length){ feed.innerHTML = '<div style="padding:12px;color:#6b7a9e;font-size:11px">No posts</div>'; return; }
-  const acct = OSINT_ACCOUNTS.find(a => a.handle === handle);
+  if(!posts.length){ feed.innerHTML = '<div style="padding:12px;color:var(--muted);font-size:11px">No posts</div>'; return; }
+  const src = OSINT_FEEDS.find(f=>f.id===id);
   feed.innerHTML = posts.map(p => {
     const ago = getTimeAgo(p.date);
-    const tw = p.link.replace('nitter.net','twitter.com').replace('#m','');
-    return `<div class="x-post" onclick="window.open('${tw}','_blank')">
-      <div class="xp-meta"><span class="xp-handle">@${handle}</span><span>${acct?.desc||''}</span><span style="margin-left:auto">${ago}</span></div>
+    return `<div class="x-post" onclick="window.open('${p.link}','_blank')">
+      <div class="xp-meta"><span class="xp-handle">${src?.label||id}</span><span style="margin-left:auto">${ago}</span></div>
       <div class="xp-text">${p.text}</div>
+      ${p.desc ? `<div style="color:var(--muted);font-size:10px;margin-top:3px;line-height:1.3">${p.desc}</div>` : ''}
     </div>`;
   }).join('');
 }
 
 function initXFeed(){
   buildXTabs();
-  fetchXAccount(xCurrentHandle);
+  fetchOsintFeed(osintCurrentFeed);
   setTimeout(() => {
-    OSINT_ACCOUNTS.filter(a => a.handle !== xCurrentHandle).forEach((a,i) => {
-      setTimeout(() => fetchXAccount(a.handle), i * 1000);
+    OSINT_FEEDS.filter(a => a.id !== osintCurrentFeed).forEach((a,i) => {
+      setTimeout(() => fetchOsintFeed(a.id), i * 1500);
     });
   }, 2000);
 }
