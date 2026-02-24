@@ -1776,12 +1776,13 @@ function switchTab(t){ curTab=t; }
 // NEWS / INTEL FEED
 // ════════════════════════════════════════
 const NEWS_SOURCES=[
-  {name:'Defense News',url:'https://www.defensenews.com/arc/outboundfeeds/rss/',label:'DEFNEWS'},
-  {name:'Reuters World',url:'https://feeds.reuters.com/Reuters/worldNews',label:'REUTERS'},
-  {name:'BBC Middle East',url:'https://feeds.bbci.co.uk/news/world/middle_east/rss.xml',label:'BBC ME'},
-  {name:'BBC World',url:'https://feeds.bbci.co.uk/news/world/rss.xml',label:'BBC'},
-  {name:'Al Jazeera',url:'https://www.aljazeera.com/xml/rss/all.xml',label:'AL JAZEERA'},
-  {name:'Breaking Defense',url:'https://breakingdefense.com/feed/',label:'BREAK DEF'},
+  {name:'Defense News',  url:'https://www.defensenews.com/arc/outboundfeeds/rss/',       label:'DEFNEWS'},
+  {name:'Military Times', url:'https://www.militarytimes.com/arc/outboundfeeds/rss/',    label:'MIL TIMES'},
+  {name:'BBC Middle East',url:'https://feeds.bbci.co.uk/news/world/middle_east/rss.xml', label:'BBC ME'},
+  {name:'BBC World',      url:'https://feeds.bbci.co.uk/news/world/rss.xml',             label:'BBC'},
+  {name:'C4ISRNET',       url:'https://www.c4isrnet.com/arc/outboundfeeds/rss/',         label:'C4ISR'},
+  {name:'Defense Daily',  url:'https://www.defensedaily.com/feed/',                      label:'DEF DAILY'},
+  {name:'Task & Purpose', url:'https://taskandpurpose.com/feed/',                        label:'T&PURPOSE'},
 ];
 
 let allNews=[];
@@ -1789,7 +1790,8 @@ let allNews=[];
 async function fetchRSS(src){
   try{
     // rss2json returns clean JSON — no XML parsing needed, no CORS issues
-    const api='https://api.rss2json.com/v1/api.json?rss_url='+encodeURIComponent(src.url)+'&count=8';
+    // Note: count param requires paid key — free tier returns ~10 items by default
+    const api='https://api.rss2json.com/v1/api.json?rss_url='+encodeURIComponent(src.url);
     const r=await fetch(api,{signal:AbortSignal.timeout(10000)});
     const d=await r.json();
     if(d.status!=='ok'||!d.items) return [];
