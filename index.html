@@ -479,6 +479,21 @@ body::after{
 .topbar .logo span{color:var(--text)}
 .topbar .logo::after{content:'';display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--accent);margin-left:6px;box-shadow:0 0 8px var(--accent),0 0 16px rgba(0,255,65,.3);animation:logo-pulse 3s ease-in-out infinite}
 @keyframes logo-pulse{0%,100%{opacity:1;box-shadow:0 0 8px var(--accent),0 0 16px rgba(0,255,65,.3)}50%{opacity:.4;box-shadow:0 0 4px var(--accent)}}
+@keyframes iss-orbit{0%{transform:rotate(0deg)}100%{transform:rotate(360deg)}}
+
+/* Data received flash on topbar */
+@keyframes data-flash{
+  0%{border-bottom-color:rgba(0,255,65,.8);box-shadow:0 2px 12px rgba(0,255,65,.3)}
+  100%{border-bottom-color:rgba(0,255,65,.08);box-shadow:none}
+}
+.topbar.data-flash{animation:data-flash .6s ease-out}
+
+/* Status indicator dot in topbar — breathing */
+@keyframes status-breathe{
+  0%,100%{box-shadow:0 0 4px #00ff41}
+  50%{box-shadow:0 0 12px #00ff41,0 0 20px rgba(0,255,65,.3)}
+}
+.status-dot{display:inline-block;width:6px;height:6px;border-radius:50%;background:#00ff41;animation:status-breathe 2s ease-in-out infinite;margin:0 4px}
 .tb-sep{width:1px;height:18px;background:var(--border2);margin:0 3px;flex-shrink:0}
 .tb-btn{background:#111827;border:1px solid var(--border2);color:var(--muted);padding:4px 9px;border-radius:4px;cursor:pointer;font-size:11px;transition:all .15s;white-space:nowrap}
 .tb-btn:hover,`.tb-btn.on{background:#1e2a42;border-color:var(--accent);color:var(--text)}
@@ -655,7 +670,7 @@ body::after{
 
 <!-- TOP BAR -->
 <div class="topbar">
-  <span class="logo">⚡ PIKE<span>CLAW</span> // OSINT-MIL</span>
+  <span class="logo">⚡ PIKE<span>CLAW</span> // OSINT-MIL <span class="status-dot" title="Live feeds active"></span></span>
   <span class="tb-label">Country:</span>
   <button class="tb-btn on" id="bc-all" onclick="setCF('all')">🌍 All</button>
   <button class="tb-btn" id="bc-us" onclick="setCF('us')">🇺🇸 US</button>
@@ -1518,6 +1533,9 @@ async function fetchData(){
       acData=d.ac||[];
       render();
       document.getElementById('loadOv').style.display='none';
+      // Flash topbar on new data
+      const tb=document.querySelector('.topbar');
+      if(tb){tb.classList.remove('data-flash');void tb.offsetWidth;tb.classList.add('data-flash');}
       return;
     }catch(e){console.warn('AC fetch fail',url,e.message);}
   }
@@ -2994,6 +3012,75 @@ function updateClocks(){
 }
 updateClocks();
 setInterval(updateClocks, 1000);
+
+// ════════════════════════════════════════
+// ISS + TIANGONG LIVE TRACKER
+// ════════════════════════════════════════
+let issMarker = null;
+let issTrail = [];
+const ISS_MAX_TRAIL = 80;
+
+async function fetchISS(){
+  try {
+    const res = await fetch('http://api.open-notify.org/iss-now.json');
+    if(!res.ok) throw new Error('HTTP '+res.status);
+    const d = await res.json();
+    const lat = parseFloat(d.iss_position.latitude);
+    const lon = parseFloat(d.iss_position.longitude);
+
+    if(!issMarker){
+      issMarker = L.marker([lat, lon], {
+        icon: L.divIcon({
+          html:`<div style="position:relative">
+            <div style="font-size:18px;filter:drop-shadow(0 0 8px rgba(0,200,255,.8))">🛰️</div>
+            <div style="position:absolute;top:-4px;left:-4px;width:26px;height:26px;border:1px solid rgba(0,200,255,.3);border-radius:50%;animation:iss-orbit 3s linear infinite"></div>
+          </div>`,
+          className:'', iconSize:[18,18], iconAnchor:[9,9]
+        }),
+        zIndexOffset: 10000
+      }).addTo(map);
+      issMarker.bindTooltip('🛰️ ISS — International Space Station', {className:'dark-tooltip', direction:'top', offset:[0,-12]});
+      issMarker.on('click', async () => {
+        document.getElementById('pTitle').textContent = '🛰️ International Space Station';
+        let crewHtml = '<span style="color:var(--muted)">Loading crew...</span>';
+        try {
+          const cr = await fetch('http://api.open-notify.org/astros.json');
+          const cd = await cr.json();
+          const issCrew = cd.people.filter(p=>p.craft==='ISS');
+          const tiangongCrew = cd.people.filter(p=>p.craft==='Tiangong');
+          crewHtml = `<div style="font-size:9px;color:var(--muted);text-transform:uppercase;letter-spacing:1px;margin-bottom:4px">ISS Crew (${issCrew.length})</div>` +
+            issCrew.map(p=>`<span style="display:inline-block;font-size:10px;padding:2px 6px;margin:2px;background:rgba(0,255,65,.05);border:1px solid rgba(0,255,65,.12);border-radius:2px;color:var(--text)">${p.name}</span>`).join('') +
+            (tiangongCrew.length ? `<div style="font-size:9px;color:var(--muted);text-transform:uppercase;letter-spacing:1px;margin:8px 0 4px">Tiangong Crew (${tiangongCrew.length})</div>` +
+            tiangongCrew.map(p=>`<span style="display:inline-block;font-size:10px;padding:2px 6px;margin:2px;background:rgba(229,255,0,.05);border:1px solid rgba(229,255,0,.12);border-radius:2px;color:var(--text)">${p.name}</span>`).join('') : '') +
+            `<div style="margin-top:6px;font-size:10px;color:var(--accent)">${cd.number} humans in space right now</div>`;
+        } catch(e){}
+        document.getElementById('pBody').innerHTML = `
+          <div class="f"><span class="k">Position: </span><span class="v">${lat.toFixed(4)}°, ${lon.toFixed(4)}°</span></div>
+          <div class="f"><span class="k">Altitude: </span><span class="v">~408 km (LEO)</span></div>
+          <div class="f"><span class="k">Speed: </span><span class="v">~27,600 km/h (7.66 km/s)</span></div>
+          <div class="f"><span class="k">Orbit Period: </span><span class="v">~92 minutes</span></div>
+          <div style="margin-top:8px">${crewHtml}</div>
+        `;
+        document.getElementById('infoP').classList.add('vis');
+      });
+    } else {
+      issMarker.setLatLng([lat, lon]);
+    }
+
+    // Trail
+    issTrail.push([lat, lon]);
+    if(issTrail.length > ISS_MAX_TRAIL) issTrail.shift();
+    if(window._issTrailLine) map.removeLayer(window._issTrailLine);
+    window._issTrailLine = L.polyline(issTrail, {color:'rgba(0,200,255,.3)', weight:1.5, dashArray:'4 6'}).addTo(map);
+
+  } catch(e){
+    console.warn('[ISS] Failed:', e.message);
+  }
+}
+
+// Update ISS every 5 seconds
+fetchISS();
+setInterval(fetchISS, 5000);
 
 // ════════════════════════════════════════
 // SPACE LAUNCH TRACKER (TheSpaceDevs API)
