@@ -410,7 +410,9 @@ body::after{
 
 /* ── TOP BAR ── */
 /* Clock bar */
-.clock-bar{flex-shrink:0;display:flex;justify-content:center;gap:0;background:#000;border-bottom:1px solid rgba(0,255,65,.15);padding:0;font-family:'Share Tech Mono',monospace;overflow-x:auto}
+.clock-bar{flex-shrink:0;display:flex;justify-content:center;gap:0;background:#000;border-bottom:1px solid rgba(0,255,65,.15);padding:0;font-family:'Share Tech Mono',monospace;overflow-x:auto;position:relative}
+.clock-bar::before{content:'01001101 01001001 01001100';position:absolute;left:0;top:50%;transform:translateY(-50%);font-size:7px;color:rgba(0,255,65,.06);letter-spacing:2px;white-space:nowrap;animation:datastream 20s linear infinite;pointer-events:none}
+@keyframes datastream{0%{transform:translateY(-50%) translateX(100%)}100%{transform:translateY(-50%) translateX(-100%)}}
 .clock-cell{display:flex;flex-direction:column;align-items:center;padding:4px 14px;border-right:1px solid rgba(0,255,65,.06);min-width:80px}
 .clock-cell:last-child{border-right:none}
 .clock-label{font-size:8px;text-transform:uppercase;letter-spacing:1.5px;color:rgba(0,255,65,.35);margin-bottom:1px}
@@ -473,8 +475,10 @@ body::after{
 }
 
 .topbar{flex-shrink:0;background:var(--panel);border-bottom:1px solid var(--border);padding:7px 12px;display:flex;gap:5px;align-items:center;flex-wrap:wrap;z-index:200}
-.topbar .logo{font-weight:800;font-size:13px;color:var(--accent);margin-right:6px;letter-spacing:.5px;white-space:nowrap}
+.topbar .logo{font-weight:800;font-size:13px;color:var(--accent);margin-right:6px;letter-spacing:.5px;white-space:nowrap;font-family:'Orbitron','Share Tech Mono',monospace;text-shadow:0 0 10px rgba(0,255,65,.4);position:relative}
 .topbar .logo span{color:var(--text)}
+.topbar .logo::after{content:'';display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--accent);margin-left:6px;box-shadow:0 0 8px var(--accent),0 0 16px rgba(0,255,65,.3);animation:logo-pulse 3s ease-in-out infinite}
+@keyframes logo-pulse{0%,100%{opacity:1;box-shadow:0 0 8px var(--accent),0 0 16px rgba(0,255,65,.3)}50%{opacity:.4;box-shadow:0 0 4px var(--accent)}}
 .tb-sep{width:1px;height:18px;background:var(--border2);margin:0 3px;flex-shrink:0}
 .tb-btn{background:#111827;border:1px solid var(--border2);color:var(--muted);padding:4px 9px;border-radius:4px;cursor:pointer;font-size:11px;transition:all .15s;white-space:nowrap}
 .tb-btn:hover,`.tb-btn.on{background:#1e2a42;border-color:var(--accent);color:var(--text)}
@@ -757,7 +761,7 @@ body::after{
   </div>
 
   <!-- DEFCON / THREAT POSTURE WIDGET -->
-  <div class="widget w-log" style="grid-column:3;grid-row:1">
+  <div class="widget w-log widget-scan-line" style="grid-column:3;grid-row:1;position:relative;overflow:hidden">
     <div class="widget-header">🚨 <span class="wh-title">Threat Posture</span><span class="wh-count" id="threat-level" style="color:#22c55e">NORMAL</span></div>
     <div class="widget-body" id="pane-threat"></div>
   </div>
@@ -775,29 +779,44 @@ body::after{
   </div>
 
   <!-- NAVAL ACTIVITY WIDGET -->
-  <div class="widget" style="grid-column:2/4;grid-row:3">
+  <div class="widget widget-scan-line" style="grid-column:2/4;grid-row:3;position:relative;overflow:hidden">
     <div class="widget-header">🚢 <span class="wh-title">Naval Deployments</span><span class="wh-count" id="naval-count">0 assets</span></div>
     <div class="widget-body" id="pane-naval" style="padding:0;display:flex;flex-direction:column"></div>
   </div>
 
 </div>
 
-<!-- POLYMARKET + NEWS ROW -->
+<!-- BOTTOM INFO BAR -->
 <div style="flex-shrink:0;height:175px;display:flex;border-top:1px solid rgba(0,255,65,.15);background:#000">
 
   <!-- POLYMARKET WIDGET -->
-  <div style="width:380px;flex-shrink:0;border-right:1px solid var(--border);display:flex;flex-direction:column;overflow:hidden">
+  <div style="width:300px;flex-shrink:0;border-right:1px solid var(--border);display:flex;flex-direction:column;overflow:hidden">
     <div style="flex-shrink:0;padding:6px 10px;background:rgba(0,4,0,.6);border-bottom:1px solid rgba(0,255,65,.1);font-size:10px;font-weight:700;letter-spacing:1px;color:rgba(0,255,65,.5);text-transform:uppercase;display:flex;align-items:center;gap:6px">
-      🎲 <span style="flex:1">Polymarket — Military & Conflict Odds</span>
+      🎲 <span style="flex:1">Polymarket Odds</span>
       <span id="poly-updated" style="font-size:9px;color:#3a4560"></span>
     </div>
     <div style="flex:1;overflow-x:auto;overflow-y:hidden;display:flex;align-items:stretch" id="polyStrip"></div>
   </div>
 
-</div>
+  <!-- SPACE LAUNCH TRACKER -->
+  <div style="width:280px;flex-shrink:0;border-right:1px solid var(--border);display:flex;flex-direction:column;overflow:hidden;position:relative" class="widget-scan-line">
+    <div style="flex-shrink:0;padding:6px 10px;background:rgba(0,4,0,.6);border-bottom:1px solid rgba(0,255,65,.1);font-size:10px;font-weight:700;letter-spacing:1px;color:rgba(0,255,65,.5);text-transform:uppercase;display:flex;align-items:center;gap:6px">
+      🚀 <span style="flex:1">Launch Schedule</span>
+      <span id="launch-count" style="font-size:9px;color:var(--muted)"></span>
+    </div>
+    <div style="flex:1;overflow-y:auto;overflow-x:hidden" id="launchStrip"></div>
+  </div>
+
+  <!-- CURRENCY / SANCTIONS WATCH -->
+  <div style="width:220px;flex-shrink:0;border-right:1px solid var(--border);display:flex;flex-direction:column;overflow:hidden">
+    <div style="flex-shrink:0;padding:6px 10px;background:rgba(0,4,0,.6);border-bottom:1px solid rgba(0,255,65,.1);font-size:10px;font-weight:700;letter-spacing:1px;color:rgba(0,255,65,.5);text-transform:uppercase;display:flex;align-items:center;gap:6px">
+      💱 <span style="flex:1">FX Watch</span>
+    </div>
+    <div style="flex:1;overflow-y:auto" id="currencyStrip"></div>
+  </div>
 
   <!-- X / OSINT ACCOUNTS WIDGET -->
-  <div style="width:420px;flex-shrink:0;border-right:1px solid var(--border);display:flex;flex-direction:column;overflow:hidden">
+  <div style="width:320px;flex-shrink:0;border-right:1px solid var(--border);display:flex;flex-direction:column;overflow:hidden">
     <div style="flex-shrink:0;padding:6px 10px;background:rgba(0,4,0,.6);border-bottom:1px solid rgba(0,255,65,.1);font-size:10px;font-weight:700;letter-spacing:1px;color:rgba(0,255,65,.5);text-transform:uppercase;display:flex;align-items:center;gap:6px">
       📡 <span style="flex:1">OSINT Feeds</span>
       <span id="x-account-tabs" style="display:flex;gap:4px"></span>
@@ -2977,6 +2996,150 @@ updateClocks();
 setInterval(updateClocks, 1000);
 
 // ════════════════════════════════════════
+// SPACE LAUNCH TRACKER (TheSpaceDevs API)
+// ════════════════════════════════════════
+let launchData = [];
+
+async function fetchLaunches(){
+  try {
+    const res = await fetch('https://ll.thespacedevs.com/2.2.0/launch/upcoming/?limit=8&format=json');
+    if(!res.ok) throw new Error('HTTP '+res.status);
+    const data = await res.json();
+    launchData = data.results || [];
+    renderLaunches();
+  } catch(e){
+    console.warn('[LAUNCH] Failed:', e.message);
+    // Fallback: try rocketlaunch.live
+    try {
+      const res2 = await fetch('https://fdo.rocketlaunch.live/json/launches/next/8');
+      if(!res2.ok) throw new Error('HTTP '+res2.status);
+      const data2 = await res2.json();
+      launchData = (data2.result||[]).map(r=>({
+        name: r.name,
+        net: r.sort_date ? new Date(r.sort_date*1000).toISOString() : null,
+        launch_service_provider: {name: r.provider?.name||'Unknown'},
+        pad: {location:{name: r.pad?.location?.name||'Unknown'}},
+        status: {abbrev: r.launch_description||'Go'},
+        mission: {description: r.missions?.[0]?.description||'', type: r.missions?.[0]?.name||''}
+      }));
+      renderLaunches();
+    } catch(e2){
+      console.warn('[LAUNCH] Fallback also failed:', e2.message);
+    }
+  }
+}
+
+function renderLaunches(){
+  const el = document.getElementById('launchStrip');
+  const countEl = document.getElementById('launch-count');
+  if(!el) return;
+  if(countEl) countEl.textContent = launchData.length + ' upcoming';
+
+  let h = '';
+  launchData.forEach(l => {
+    const net = l.net ? new Date(l.net) : null;
+    let countdown = '';
+    let countdownClass = '';
+    if(net){
+      const diff = net - Date.now();
+      if(diff > 0){
+        const hrs = Math.floor(diff/3600000);
+        const mins = Math.floor((diff%3600000)/60000);
+        if(hrs < 24){
+          countdown = `T-${hrs}h ${mins}m`;
+          countdownClass = 'launch-countdown';
+        } else {
+          const days = Math.floor(hrs/24);
+          countdown = `T-${days}d ${hrs%24}h`;
+        }
+      } else {
+        countdown = 'LAUNCHED';
+        countdownClass = '';
+      }
+    }
+
+    const provider = l.launch_service_provider?.name || '?';
+    const loc = l.pad?.location?.name || '?';
+    const status = l.status?.abbrev || 'Go';
+    const statusCol = status==='Go' || status==='TBD' ? 'var(--accent)' : status==='TBC' ? 'var(--yellow)' : '#ef4444';
+    const isMilitary = /military|classified|nrol|spy|recon|gps|sbirs|wgs|muos|defense/i.test(l.name + (l.mission?.description||''));
+
+    h += `<div style="padding:6px 10px;border-bottom:1px solid rgba(0,255,65,.06);cursor:pointer" onclick="this.querySelector('.launch-detail')?.classList.toggle('vis')">
+      <div style="display:flex;justify-content:space-between;align-items:center;gap:4px">
+        <span style="font-size:10px;color:${isMilitary?'#f97316':'var(--text)'};font-weight:700;flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">${isMilitary?'🎖️':'🚀'} ${l.name}</span>
+        <span class="${countdownClass}" style="font-size:10px;font-weight:700;color:var(--accent);font-family:'Orbitron',monospace;letter-spacing:1px;white-space:nowrap">${countdown}</span>
+      </div>
+      <div style="display:flex;justify-content:space-between;font-size:9px;color:var(--muted);margin-top:2px">
+        <span>${provider}</span>
+        <span style="color:${statusCol}">${status}</span>
+      </div>
+    </div>`;
+  });
+
+  el.innerHTML = h || '<div style="padding:12px;color:var(--muted);font-size:10px">No launches found</div>';
+}
+
+// Update countdowns every 30s
+setInterval(renderLaunches, 30000);
+
+// ════════════════════════════════════════
+// CURRENCY / SANCTIONS WATCH
+// ════════════════════════════════════════
+const FX_PAIRS = [
+  {code:'RUB', label:'🇷🇺 USD/RUB', name:'Russian Ruble', note:'Sanctions pressure indicator'},
+  {code:'CNY', label:'🇨🇳 USD/CNY', name:'Chinese Yuan', note:'Trade war barometer'},
+  {code:'IRR', label:'🇮🇷 USD/IRR', name:'Iranian Rial', note:'Sanctions impact gauge'},
+  {code:'EUR', label:'🇪🇺 USD/EUR', name:'Euro', note:'Western economic baseline'},
+  {code:'GBP', label:'🇬🇧 USD/GBP', name:'British Pound', note:'NATO ally benchmark'},
+  {code:'UAH', label:'🇺🇦 USD/UAH', name:'Ukrainian Hryvnia', note:'War economy indicator'},
+  {code:'KRW', label:'🇰🇷 USD/KRW', name:'S. Korean Won', note:'Peninsula stability gauge'},
+  {code:'TWD', label:'🇹🇼 USD/TWD', name:'Taiwan Dollar', note:'Strait tension proxy'},
+];
+
+let prevRates = {};
+
+async function fetchCurrency(){
+  try {
+    const res = await fetch('https://open.er-api.com/v6/latest/USD');
+    if(!res.ok) throw new Error('HTTP '+res.status);
+    const data = await res.json();
+    renderCurrency(data.rates || {});
+  } catch(e){
+    console.warn('[FX] Failed:', e.message);
+  }
+}
+
+function renderCurrency(rates){
+  const el = document.getElementById('currencyStrip');
+  if(!el) return;
+
+  let h = '';
+  FX_PAIRS.forEach(p => {
+    const rate = rates[p.code];
+    if(rate === undefined) return;
+    const prev = prevRates[p.code];
+    const change = prev ? ((rate - prev) / prev * 100) : 0;
+    const arrow = change > 0.01 ? '▲' : change < -0.01 ? '▼' : '►';
+    const changeCol = change > 0.01 ? '#ef4444' : change < -0.01 ? '#00ff41' : 'var(--muted)';
+    const flashClass = prev && Math.abs(change) > 0.01 ? 'currency-updated' : '';
+
+    h += `<div class="${flashClass}" style="padding:5px 10px;border-bottom:1px solid rgba(0,255,65,.06);display:flex;justify-content:space-between;align-items:center" title="${p.note}">
+      <div>
+        <div style="font-size:10px;color:var(--text);font-weight:700">${p.label}</div>
+        <div style="font-size:8px;color:var(--muted)">${p.note}</div>
+      </div>
+      <div style="text-align:right">
+        <div style="font-size:11px;font-weight:700;color:var(--accent);font-family:'Share Tech Mono',monospace">${rate < 100 ? rate.toFixed(4) : rate.toFixed(1)}</div>
+        <div style="font-size:9px;color:${changeCol};font-family:'Share Tech Mono',monospace">${arrow} ${Math.abs(change).toFixed(2)}%</div>
+      </div>
+    </div>`;
+  });
+
+  el.innerHTML = h || '<div style="padding:12px;color:var(--muted);font-size:10px">Loading rates...</div>';
+  prevRates = {...rates};
+}
+
+// ════════════════════════════════════════
 // INTEL DATA LOADER (from data/intel-data.json)
 // ════════════════════════════════════════
 async function loadIntelData(){
@@ -3006,6 +3169,8 @@ async function loadIntelData(){
 fetchData();
 fetchAllNews();
 fetchPolymarket();
+fetchLaunches();
+fetchCurrency();
 initXFeed();
 renderAdvPanel('iran');
 loadIntelData();
@@ -3017,6 +3182,8 @@ window.addEventListener('resize', () => map.invalidateSize());
 setInterval(fetchData, 30000);
 setInterval(fetchAllNews, 300000);
 setInterval(fetchPolymarket, 300000);
+setInterval(fetchLaunches, 600000);   // Launches every 10min
+setInterval(fetchCurrency, 900000);   // FX rates every 15min
 setInterval(() => { xPostCache={}; initXFeed(); }, 300000);
 setInterval(loadIntelData, 1800000); // Reload intel data every 30min
 
