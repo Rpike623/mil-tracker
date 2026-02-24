@@ -553,6 +553,22 @@ body::after{
 .loading-ov .st{color:var(--muted);font-size:13px}
 @keyframes spin{to{transform:rotate(360deg)}}
 
+/* CRT Boot Sequence */
+.boot-screen{position:fixed;inset:0;z-index:99999;background:#000;display:flex;flex-direction:column;justify-content:flex-start;padding:40px 30px;overflow:hidden;font-family:'Share Tech Mono',monospace}
+.boot-screen::before{content:'';position:absolute;inset:0;background:repeating-linear-gradient(0deg,transparent,transparent 2px,rgba(0,255,65,.015) 2px,rgba(0,255,65,.015) 4px);pointer-events:none;z-index:1}
+.boot-screen::after{content:'';position:absolute;inset:0;background:linear-gradient(transparent 50%,rgba(0,0,0,.03) 50%);background-size:100% 4px;pointer-events:none;z-index:2;animation:boot-flicker 0.15s infinite}
+@keyframes boot-flicker{0%{opacity:0.97}50%{opacity:1}100%{opacity:0.97}}
+.boot-line{font-size:12px;color:var(--accent);line-height:1.8;opacity:0;white-space:pre;letter-spacing:.5px;z-index:3;position:relative}
+.boot-line.vis{opacity:1}
+.boot-line.sys{color:#00cc33}
+.boot-line.warn{color:#f97316}
+.boot-line.ok{color:#00ff41}
+.boot-line.head{color:#fff;font-size:14px;font-family:'Orbitron','Share Tech Mono',monospace;letter-spacing:3px;text-shadow:0 0 20px rgba(0,255,65,.6)}
+.boot-line .cursor{display:inline-block;width:8px;height:14px;background:var(--accent);animation:blink-cursor .5s step-end infinite;vertical-align:text-bottom;margin-left:2px}
+@keyframes blink-cursor{50%{opacity:0}}
+.boot-progress{width:300px;height:4px;background:rgba(0,255,65,.1);border-radius:2px;margin-top:8px;overflow:hidden;z-index:3;position:relative}
+.boot-progress-fill{height:100%;background:var(--accent);width:0%;transition:width .3s;box-shadow:0 0 10px rgba(0,255,65,.5)}
+
 /* Responsive */
 @media(max-width:768px){
   body{overflow-y:auto;overflow-x:hidden;height:auto}
@@ -574,6 +590,28 @@ body::after{
 </style>
 </head>
 <body>
+
+<!-- CRT BOOT SEQUENCE -->
+<div class="boot-screen" id="bootScreen">
+  <div class="boot-line head" id="boot-0">PIKECLAW // MILITARY OSINT TERMINAL v3.1</div>
+  <div class="boot-line sys" id="boot-1">BIOS POST... OK</div>
+  <div class="boot-line sys" id="boot-2">MEM CHECK: 65536K ████████████████ OK</div>
+  <div class="boot-line" id="boot-3">Initializing secure terminal session...</div>
+  <div class="boot-line" id="boot-4">Loading cryptographic modules... AES-256-GCM ✓</div>
+  <div class="boot-line" id="boot-5">Establishing MILNET uplink...</div>
+  <div class="boot-line ok" id="boot-6">  ╠══ SATCOM LINK:  ACTIVE  ══╣</div>
+  <div class="boot-line" id="boot-7">Connecting to ADS-B feeds... api.adsb.lol ✓</div>
+  <div class="boot-line" id="boot-8">Connecting to OSINT feeds... RSS aggregator ✓</div>
+  <div class="boot-line" id="boot-9">Connecting to market intel... Polymarket API ✓</div>
+  <div class="boot-line" id="boot-10">Loading aircraft database... 487 type records</div>
+  <div class="boot-line" id="boot-11">Loading naval deployments... 12 tracked groups</div>
+  <div class="boot-line" id="boot-12">Loading conflict zones... 8 active regions</div>
+  <div class="boot-line" id="boot-13">Loading GPS interference map... 11 zones</div>
+  <div class="boot-line" id="boot-14">Loading NOTAM/TFR data... 10 restrictions</div>
+  <div class="boot-line warn" id="boot-15">⚠ CLASSIFICATION: UNCLASSIFIED // OSINT ONLY</div>
+  <div class="boot-line ok" id="boot-16">ALL SYSTEMS NOMINAL — LAUNCHING DASHBOARD<span class="cursor"></span></div>
+  <div class="boot-progress" id="boot-bar"><div class="boot-progress-fill" id="boot-fill"></div></div>
+</div>
 
 <!-- TOP BAR -->
 <div class="topbar">
@@ -742,6 +780,39 @@ body::after{
 
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <script>
+// ════════════════════════════════════════
+// CRT BOOT SEQUENCE
+// ════════════════════════════════════════
+(function bootSequence(){
+  const screen = document.getElementById('bootScreen');
+  if(!screen) return;
+  const totalLines = 17;
+  const lineDelay = 120;
+  let i = 0;
+
+  function showLine(){
+    if(i >= totalLines){
+      // Fill progress bar then fade out
+      const fill = document.getElementById('boot-fill');
+      if(fill) fill.style.width = '100%';
+      setTimeout(() => {
+        screen.style.transition = 'opacity 0.4s';
+        screen.style.opacity = '0';
+        setTimeout(() => screen.remove(), 400);
+      }, 600);
+      return;
+    }
+    const el = document.getElementById('boot-'+i);
+    if(el) el.classList.add('vis');
+    // Update progress
+    const fill = document.getElementById('boot-fill');
+    if(fill) fill.style.width = Math.round(((i+1)/totalLines)*100)+'%';
+    i++;
+    setTimeout(showLine, lineDelay + Math.random()*80);
+  }
+  setTimeout(showLine, 300);
+})();
+
 // ════════════════════════════════════════
 // MAP SETUP
 // ════════════════════════════════════════
