@@ -1989,23 +1989,55 @@ function toggleMissiles(){
 // ════════════════════════════════════════
 const NUCLEAR_SITES = [
   // Iran
-  { name:'Fordow FEP (Enrichment)', lat:34.885, lon:50.996, country:'iran', type:'Enrichment', risk:'HIGH' },
-  { name:'Natanz FEP (Enrichment)', lat:33.725, lon:51.727, country:'iran', type:'Enrichment', risk:'HIGH' },
-  { name:'Isfahan UCF',             lat:32.625, lon:51.671, country:'iran', type:'Conversion',  risk:'MED'  },
-  { name:'Arak Heavy Water',        lat:34.144, lon:49.230, country:'iran', type:'Reactor',     risk:'MED'  },
-  { name:'Bushehr Nuclear Plant',   lat:28.829, lon:50.888, country:'iran', type:'Reactor',     risk:'LOW'  },
-  { name:'Parchin Military Complex',lat:35.522, lon:51.773, country:'iran', type:'Suspected WMD',risk:'HIGH'},
+  { name:'Fordow FEP', lat:34.885, lon:50.996, country:'iran', type:'Enrichment', risk:'HIGH',
+    desc:'Underground enrichment facility near Qom. Buried in mountain for protection. Enriching up to 60% U-235. Under IAEA monitoring with gaps.'},
+  { name:'Natanz FEP', lat:33.725, lon:51.727, country:'iran', type:'Enrichment', risk:'HIGH',
+    desc:'Primary enrichment facility. Thousands of centrifuges. Target of Stuxnet cyberattack (2010) and Israeli sabotage (2021).'},
+  { name:'Isfahan UCF', lat:32.625, lon:51.671, country:'iran', type:'Conversion', risk:'MED',
+    desc:'Uranium conversion facility. Converts yellowcake to UF6 gas for centrifuge enrichment.'},
+  { name:'Arak IR-40', lat:34.144, lon:49.230, country:'iran', type:'Reactor', risk:'MED',
+    desc:'Heavy water reactor (redesigned under JCPOA). Original design could produce weapons-grade plutonium.'},
+  { name:'Bushehr NPP', lat:28.829, lon:50.888, country:'iran', type:'Reactor', risk:'LOW',
+    desc:'Russian-built civilian power reactor. 1GW output. Under IAEA safeguards. Low proliferation risk.'},
+  { name:'Parchin Military Complex', lat:35.522, lon:51.773, country:'iran', type:'Suspected WMD', risk:'HIGH',
+    desc:'Military site suspected of nuclear weapons development testing. IAEA has requested access multiple times.'},
+  // DPRK
+  { name:'Yongbyon Nuclear Complex', lat:39.800, lon:125.755, country:'china', type:'Weapons Production', risk:'HIGH',
+    desc:'North Korea\'s primary nuclear facility. 5MW reactor produces plutonium. Enrichment facility also on-site. Has produced material for 40-60 warheads.'},
+  { name:'Punggye-ri Test Site', lat:41.277, lon:129.087, country:'china', type:'Nuclear Test', risk:'HIGH',
+    desc:'North Korea\'s underground nuclear test site. 6 tests conducted (2006-2017). Tunnels reportedly collapsed/sealed but new excavation observed.'},
+  { name:'Sanum-dong', lat:39.040, lon:125.740, country:'china', type:'ICBM Assembly', risk:'HIGH',
+    desc:'Missile research and assembly facility near Pyongyang. Where Hwasong-17/18 ICBMs are assembled and tested.'},
   // Russia
-  { name:'Seversk (Tomsk-7)',       lat:56.585, lon:84.869, country:'russia', type:'Nuclear Facility', risk:'HIGH' },
-  { name:'Zheleznogorsk',           lat:56.249, lon:93.529, country:'russia', type:'Nuclear Facility', risk:'HIGH' },
-  { name:'Sarov (Arzamas-16)',      lat:54.931, lon:43.321, country:'russia', type:'Weapons Lab',      risk:'HIGH' },
-  { name:'Plesetsk Cosmodrome',     lat:62.925, lon:40.577, country:'russia', type:'ICBM Launch',      risk:'HIGH' },
-  { name:'Kapustin Yar',            lat:48.578, lon:45.790, country:'russia', type:'Missile Test',     risk:'MED'  },
+  { name:'Sarov (Arzamas-16)', lat:54.931, lon:43.321, country:'russia', type:'Weapons Lab', risk:'HIGH',
+    desc:'Russia\'s primary nuclear weapons design laboratory. Equivalent to US Los Alamos. Closed city.'},
+  { name:'Seversk (Tomsk-7)', lat:56.585, lon:84.869, country:'russia', type:'Enrichment/Production', risk:'HIGH',
+    desc:'Major enrichment and plutonium production complex. One of the largest nuclear facilities in Russia.'},
+  { name:'Zheleznogorsk (Krasnoyarsk-26)', lat:56.249, lon:93.529, country:'russia', type:'Plutonium Production', risk:'HIGH',
+    desc:'Underground plutonium production reactors and reprocessing plant built into mountain.'},
+  { name:'Novaya Zemlya', lat:73.370, lon:54.980, country:'russia', type:'Nuclear Test Site', risk:'HIGH',
+    desc:'Russia\'s nuclear weapons test archipelago. Tsar Bomba (50MT) detonated here. Monitoring continues for potential test readiness.'},
+  { name:'Plesetsk Cosmodrome', lat:62.925, lon:40.577, country:'russia', type:'ICBM Launch', risk:'HIGH',
+    desc:'Primary Russian ICBM test launch site. Tests RS-28 Sarmat and other strategic missiles.'},
   // China
-  { name:'Lop Nor Test Site',       lat:40.710, lon:88.322, country:'china', type:'Nuclear Test',     risk:'HIGH' },
-  { name:'Jiuquan Launch Center',   lat:40.960, lon:100.288,country:'china', type:'ICBM Launch',      risk:'HIGH' },
-  { name:'Taiyuan Launch Center',   lat:38.849, lon:111.608,country:'china', type:'ICBM Launch',      risk:'HIGH' },
-  { name:'Xichang Launch Center',   lat:28.246, lon:102.027,country:'china', type:'ICBM Launch',      risk:'MED'  },
+  { name:'Lop Nor', lat:40.710, lon:88.322, country:'china', type:'Nuclear Test Site', risk:'HIGH',
+    desc:'China\'s nuclear weapons test site. 45 tests conducted (1964-1996). Now used for subcritical experiments.'},
+  { name:'Jiuquan', lat:40.960, lon:100.288, country:'china', type:'Launch/Production', risk:'HIGH',
+    desc:'Satellite launch center and nearby nuclear fuel cycle facilities. DF-41 ICBM tested from this region.'},
+  { name:'China Academy of Engineering Physics', lat:31.489, lon:104.768, country:'china', type:'Weapons Lab', risk:'HIGH',
+    desc:'China\'s primary nuclear warhead design facility in Mianyang, Sichuan. Equivalent to US Los Alamos.'},
+  { name:'Lanzhou Gaseous Diffusion', lat:36.086, lon:103.830, country:'china', type:'Enrichment', risk:'MED',
+    desc:'Uranium enrichment plant. Part of China\'s expanding enrichment capacity for both civilian and military use.'},
+  // Ukraine (conflict relevant)
+  { name:'Zaporizhzhia NPP', lat:47.507, lon:34.585, country:'russia', type:'Reactor (Occupied)', risk:'HIGH',
+    desc:'Largest nuclear plant in Europe (6 reactors). Under Russian military occupation since Mar 2022. Ongoing shelling risks. IAEA monitoring present.'},
+  { name:'Chernobyl Exclusion Zone', lat:51.389, lon:30.099, country:'russia', type:'Former Disaster Site', risk:'MED',
+    desc:'Site of 1986 disaster. Briefly occupied by Russian forces Feb-Mar 2022. New Safe Confinement over Reactor 4.'},
+  // Pakistan/India (declared nuclear states)
+  { name:'Kahuta Research Labs', lat:33.590, lon:73.385, country:'allied', type:'Enrichment', risk:'HIGH',
+    desc:'Pakistan\'s primary uranium enrichment facility. A.Q. Khan network origin. Produces HEU for nuclear weapons.'},
+  { name:'Bhabha Atomic Research Centre', lat:19.010, lon:72.924, country:'allied', type:'Weapons Research', risk:'MED',
+    desc:'India\'s primary nuclear research center in Mumbai. Plutonium production and weapons design.'},
 ];
 
 let nuclearVisible = false;
@@ -2025,6 +2057,17 @@ function toggleNuclear(){
           className:'', iconSize:[15,15], iconAnchor:[7,7]
         })
       }).bindTooltip(`${flag} ${s.name}<br>${s.type} — Risk: <b style="color:${col}">${s.risk}</b>`, {className:'dark-tooltip', direction:'top'}).addTo(map);
+      m.on('click', () => {
+        document.getElementById('pTitle').textContent = `☢️ ${s.name}`;
+        document.getElementById('pBody').innerHTML = `
+          <div style="margin-bottom:6px">
+            <span style="font-size:10px;padding:2px 8px;border-radius:2px;font-weight:700;font-family:'Share Tech Mono',monospace;background:${col}18;color:${col};border:1px solid ${col}40">${s.type}</span>
+            <span style="font-size:10px;padding:2px 8px;border-radius:2px;font-weight:700;font-family:'Share Tech Mono',monospace;background:${col}18;color:${col};border:1px solid ${col}40;margin-left:4px">${s.risk} RISK</span>
+          </div>
+          <div style="font-size:10px;color:var(--text);line-height:1.5;margin-top:6px">${s.desc||''}</div>
+        `;
+        document.getElementById('infoP').classList.add('vis');
+      });
       nuclearMarkers.push(m);
     });
   } else {
