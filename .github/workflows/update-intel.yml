@@ -2,8 +2,8 @@ name: Update Intel Data
 
 on:
   schedule:
-    # Run every 6 hours
-    - cron: '0 */6 * * *'
+    # Every 4 hours at :00
+    - cron: '0 */4 * * *'
   workflow_dispatch: # Manual trigger
 
 permissions:
@@ -26,9 +26,16 @@ jobs:
       - name: Run intel update script
         run: python scripts/update_intel.py
 
+      - name: Bump cache-buster in index.html
+        run: |
+          # Update a timestamp comment in index.html so GitHub Pages redeploys
+          sed -i "s|<!-- LAST_UPDATE:.*-->|<!-- LAST_UPDATE: $(date -u '+%Y-%m-%dT%H:%M:%SZ') -->|g" index.html
+          # If the comment doesn't exist yet, append it before </head>
+          grep -q 'LAST_UPDATE:' index.html || sed -i 's|</head>|<!-- LAST_UPDATE: '"$(date -u '+%Y-%m-%dT%H:%M:%SZ')"' -->\n</head>|' index.html
+
       - name: Commit and push if changed
         run: |
           git config user.name 'PikeClaw Bot'
           git config user.email 'bot@pikeclaw.ai'
-          git add data/intel-data.json
-          git diff --staged --quiet || (git commit -m "🔄 Auto-update intel data $(date -u '+%Y-%m-%d %H:%M UTC')" && git push)
+          git add data/intel-data.json index.html
+          git diff --staged --quiet || (git commit -m "🔄 Auto-update $(date -u '+%Y-%m-%d %H:%M UTC')" && git push)
