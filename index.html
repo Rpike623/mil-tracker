@@ -221,7 +221,7 @@ body::after{
   background:rgba(0,4,0,0.96);
   border:1px solid rgba(0,255,65,.3);
   box-shadow:0 0 40px rgba(0,255,65,.12), inset 0 0 40px rgba(0,255,65,.03);
-  border-radius:2px;padding:12px;width:260px;display:none;backdrop-filter:blur(18px)}
+  border-radius:2px;padding:12px;width:300px;max-height:70vh;overflow-y:auto;display:none;backdrop-filter:blur(18px)}
 .infopanel::before{content:'';position:absolute;top:0;left:0;right:0;height:1px;background:linear-gradient(90deg,transparent,rgba(0,255,65,.7),transparent)}
 .infopanel.vis{display:block}
 .infopanel .ip-head{display:flex;justify-content:space-between;align-items:center;margin-bottom:8px}
@@ -941,6 +941,79 @@ function hideTrails(){Object.values(trails).forEach(t=>{if(t.line){map.removeLay
 // ════════════════════════════════════════
 // INFO PANEL
 // ════════════════════════════════════════
+// ════════════════════════════════════════
+// AIRCRAFT CAPABILITY DATABASE
+// ════════════════════════════════════════
+const AC_CAPS = {
+  // Fighters
+  'F15':  {name:'F-15 Eagle/Strike Eagle', role:'Air Superiority / Strike Fighter', crew:'1-2', range:'~1,200 nmi', ceiling:'65,000 ft', speed:'Mach 2.5', weapons:'AIM-120 AMRAAM, AIM-9X, JDAM, SDB, AGM-84 SLAM-ER', desc:'Twin-engine air superiority fighter. Strike Eagle variant adds precision ground attack. Backbone of USAF air dominance.'},
+  'F16':  {name:'F-16 Fighting Falcon', role:'Multirole Fighter', crew:'1', range:'~1,200 nmi', ceiling:'50,000 ft', speed:'Mach 2.0', weapons:'AIM-120, AIM-9X, JDAM, AGM-88 HARM, Mk-80 series bombs', desc:'Lightweight multirole fighter. High agility, large weapons load. Most widely used Western fighter.'},
+  'F18':  {name:'F/A-18 Hornet/Super Hornet', role:'Carrier-Based Multirole', crew:'1-2', range:'~1,275 nmi', ceiling:'50,000 ft', speed:'Mach 1.8', weapons:'AIM-120, AIM-9X, JDAM, JSOW, LRASM, AGM-88', desc:'Carrier-based strike fighter. Super Hornet (E/F) is primary US Navy combat aircraft. Growler (EA-18G) variant provides electronic warfare.'},
+  'F22':  {name:'F-22 Raptor', role:'5th Gen Air Superiority', crew:'1', range:'~1,600 nmi', ceiling:'65,000 ft', speed:'Mach 2.25 (supercruise Mach 1.8)', weapons:'AIM-120 AMRAAM, AIM-9X, JDAM, SDB (internal bays)', desc:'Stealth air dominance fighter. Supercruise capability. Most advanced air superiority platform in the world.'},
+  'F35':  {name:'F-35 Lightning II', role:'5th Gen Multirole Stealth', crew:'1', range:'~1,200 nmi', ceiling:'50,000 ft', speed:'Mach 1.6', weapons:'AIM-120, AIM-9X, JDAM, SDB, GBU-53 (internal + external)', desc:'Stealth multirole fighter. Advanced sensor fusion, EOTS, DAS. A/B/C variants for USAF/Marines/Navy.'},
+  // Bombers
+  'B52':  {name:'B-52H Stratofortress', role:'Strategic Bomber', crew:'5', range:'~8,800 nmi', ceiling:'50,000 ft', speed:'650 mph', weapons:'JASSM-ER, ALCM, JDAM, Mk-80 series, mines, Harpoon, nuclear (AGM-86B)', desc:'Long-range heavy bomber. Can carry 70,000 lbs of ordnance. Nuclear capable. In service since 1955, expected to fly until 2050s.'},
+  'B1':   {name:'B-1B Lancer', role:'Strategic/Conventional Bomber', crew:'4', range:'~5,100 nmi', ceiling:'60,000 ft', speed:'Mach 1.25', weapons:'JASSM-ER, JDAM, JSOW, Mk-84, CBU-87/97, LRASM', desc:'Supersonic variable-sweep wing bomber. Largest conventional payload in USAF. No longer nuclear-tasked.'},
+  'B2':   {name:'B-2 Spirit', role:'Stealth Strategic Bomber', crew:'2', range:'~6,000 nmi', ceiling:'50,000 ft', speed:'628 mph', weapons:'B61/B83 nuclear, JDAM, GBU-57 MOP, JSOW', desc:'Flying-wing stealth bomber. Penetrating strike — can hit any target on Earth. Nuclear capable. Only 20 built.'},
+  'B21':  {name:'B-21 Raider', role:'Next-Gen Stealth Bomber', crew:'2', range:'Classified (est. 5,000+ nmi)', ceiling:'Classified', speed:'Subsonic', weapons:'Nuclear & conventional (classified payload)', desc:'Next-generation stealth bomber. Designed to penetrate advanced air defenses. Nuclear capable. Replacing B-2.'},
+  // Tankers
+  'KC135':{name:'KC-135 Stratotanker', role:'Aerial Refueling', crew:'3', range:'~1,500 nmi (w/ cargo)', ceiling:'50,000 ft', speed:'530 mph', weapons:'None — unarmed', desc:'Primary USAF aerial refueling tanker. Can offload 200,000 lbs of fuel. Enables global power projection. Force multiplier.'},
+  'KC10': {name:'KC-10 Extender', role:'Aerial Refueling / Transport', crew:'4', range:'~4,400 nmi', ceiling:'42,000 ft', speed:'619 mph', weapons:'None — unarmed', desc:'Advanced tanker/cargo aircraft. Can refuel via boom and drogue simultaneously. Carries cargo + fuel.'},
+  'KC46': {name:'KC-46 Pegasus', role:'Next-Gen Aerial Refueling', crew:'3', range:'~6,385 nmi', ceiling:'43,000 ft', speed:'570 mph', weapons:'None — unarmed', desc:'Replacing KC-135. Boom + drogue. Can carry 65 passengers or 58,000 lbs cargo while tanking. Advanced vision system.'},
+  // ISR
+  'RC135':{name:'RC-135 Rivet Joint', role:'Signals Intelligence (SIGINT)', crew:'27-32', range:'~3,900 nmi', ceiling:'50,000 ft', speed:'500 mph', weapons:'None — unarmed', desc:'Real-time SIGINT collection. Detects, identifies, and geolocates electronic emissions. Critical in conflict zones.'},
+  'E3':   {name:'E-3 Sentry (AWACS)', role:'Airborne Early Warning & Control', crew:'19-34', range:'~4,600 nmi', ceiling:'41,000 ft', speed:'530 mph', weapons:'None — unarmed', desc:'Rotating radar dome provides 360° surveillance out to 250+ nmi. Controls air battle space. Command & control platform.'},
+  'E8':   {name:'E-8 JSTARS', role:'Ground Surveillance / Battle Mgmt', crew:'21-34', range:'~5,000 nmi', ceiling:'42,000 ft', speed:'587 mph', weapons:'None — unarmed', desc:'Joint Surveillance Target Attack Radar System. Tracks ground vehicles and low-flying aircraft over massive areas.'},
+  'RQ4':  {name:'RQ-4 Global Hawk', role:'High-Altitude ISR (UAV)', crew:'0 (remote)', range:'~12,300 nmi', ceiling:'60,000 ft', speed:'391 mph', weapons:'None — unarmed', desc:'Unmanned high-altitude ISR. Provides persistent surveillance over vast areas. 32+ hour endurance.'},
+  'MQ9':  {name:'MQ-9 Reaper', role:'Hunter-Killer UAV', crew:'0 (remote)', range:'~1,150 nmi', ceiling:'50,000 ft', speed:'300 mph', weapons:'AGM-114 Hellfire, GBU-38 JDAM, GBU-12 Paveway II', desc:'Armed remotely piloted aircraft. Persistent ISR + precision strike. Primary US drone for targeted operations.'},
+  'MQ4':  {name:'MQ-4C Triton', role:'Maritime ISR (UAV)', crew:'0 (remote)', range:'~8,200 nmi', ceiling:'56,500 ft', speed:'361 mph', weapons:'None — unarmed', desc:'Navy variant of Global Hawk. Maritime surveillance. Works with P-8 Poseidon for ocean domain awareness.'},
+  'P8':   {name:'P-8A Poseidon', role:'Maritime Patrol / ASW', crew:'9', range:'~1,200 nmi (patrol)', ceiling:'41,000 ft', speed:'564 mph', weapons:'Mk-54 torpedoes, Harpoon, sonobuoys, mines', desc:'Primary US Navy maritime patrol aircraft. Anti-submarine warfare, anti-surface warfare, ISR. Replaced P-3 Orion.'},
+  'P3':   {name:'P-3 Orion', role:'Maritime Patrol / ASW', crew:'11', range:'~2,380 nmi', ceiling:'28,300 ft', speed:'411 mph', weapons:'Mk-46/54 torpedoes, Harpoon, mines, sonobuoys', desc:'Legacy maritime patrol. Anti-submarine warfare specialist. Being replaced by P-8 Poseidon.'},
+  'EP3':  {name:'EP-3E Aries II', role:'Signals Intelligence (SIGINT)', crew:'24', range:'~2,380 nmi', ceiling:'28,300 ft', speed:'411 mph', weapons:'None — unarmed', desc:'Electronic reconnaissance aircraft. Collects signals intelligence from airborne platform. Navy SIGINT workhorse.'},
+  'U2':   {name:'U-2 Dragon Lady', role:'High-Altitude Reconnaissance', crew:'1', range:'~6,090 nmi', ceiling:'70,000+ ft', speed:'475 mph', weapons:'None — unarmed', desc:'Ultra-high altitude reconnaissance. Carries multiple sensor packages. Flies above most threats. In service since 1957.'},
+  'E6':   {name:'E-6B Mercury', role:'Nuclear Command & Control (TACAMO)', crew:'22', range:'~6,600 nmi', ceiling:'40,000 ft', speed:'522 mph', weapons:'None — unarmed (relays nuclear launch orders)', desc:'Airborne command post for nuclear forces. TACAMO — communications link to ballistic missile submarines. Doomsday plane.'},
+  'E4':   {name:'E-4B Nightwatch', role:'National Airborne Operations Center', crew:'48-112', range:'~6,325 nmi', ceiling:'45,000 ft', speed:'602 mph', weapons:'None — unarmed', desc:'\"Doomsday plane.\" National command authority airborne HQ during nuclear war. Hardened against EMP. Presidential succession platform.'},
+  // Transports
+  'C17':  {name:'C-17 Globemaster III', role:'Strategic/Tactical Airlift', crew:'3', range:'~2,400 nmi (full load)', ceiling:'45,000 ft', speed:'515 mph', weapons:'None — unarmed', desc:'Can carry 170,000 lbs — tanks, troops, helicopters. Lands on short/austere runways. Primary US strategic airlifter.'},
+  'C5':   {name:'C-5M Super Galaxy', role:'Strategic Airlift', crew:'7', range:'~5,524 nmi', ceiling:'35,700 ft', speed:'518 mph', weapons:'None — unarmed', desc:'Largest US military transport. Carries 280,000 lbs. Can load 2x M1 Abrams tanks. Outsize/oversize cargo specialist.'},
+  'C130':  {name:'C-130 Hercules/Super Herc', role:'Tactical Airlift', crew:'5', range:'~2,050 nmi', ceiling:'33,000 ft', speed:'366 mph', weapons:'None (AC-130 variant: 105mm howitzer, 40mm cannon, 25mm GAU)', desc:'Most versatile military transport ever built. Tactical airlift, spec ops, medevac, firefighting. 70+ nations operate it.'},
+  'C130J': {name:'C-130J Super Hercules', role:'Tactical Airlift', crew:'3', range:'~2,835 nmi', ceiling:'28,000 ft', speed:'417 mph', weapons:'None — unarmed', desc:'Modernized Hercules. Faster, higher, farther than legacy C-130. Glass cockpit, 6-blade props. Tactical workhorse.'},
+  'C40':  {name:'C-40 Clipper', role:'VIP / Fleet Logistics', crew:'4', range:'~5,200 nmi', ceiling:'41,000 ft', speed:'530 mph', weapons:'None — unarmed', desc:'Military 737 variant. Navy fleet logistics, VIP transport. Congressional delegations (CODEL).'},
+  'V22':  {name:'V-22 Osprey', role:'Tiltrotor Transport', crew:'4', range:'~879 nmi', ceiling:'25,000 ft', speed:'316 mph', weapons:'Ramp-mounted .50 cal or GAU-21', desc:'Tiltrotor — helicopter takeoff, airplane speed. Carries 24 combat troops or 20,000 lbs cargo. USMC/AFSOC primary.'},
+  // Helicopters
+  'H60':  {name:'H-60 Black Hawk / Seahawk', role:'Utility / ASW Helicopter', crew:'2-4', range:'~320 nmi', ceiling:'19,000 ft', speed:'183 mph', weapons:'M240 MG, Hellfire, Mk-54 torpedo (SH-60), mines', desc:'Most produced military helicopter family. Army (UH-60), Navy (MH-60R/S), AFSOC (HH-60). Multi-mission workhorse.'},
+  'H47':  {name:'CH-47 Chinook', role:'Heavy-Lift Helicopter', crew:'3', range:'~400 nmi', ceiling:'20,000 ft', speed:'196 mph', weapons:'M240 MG, M134 minigun', desc:'Tandem-rotor heavy lifter. Carries 33 troops or 28,000 lbs sling load. Mountain/high altitude specialist.'},
+  'AH64': {name:'AH-64 Apache', role:'Attack Helicopter', crew:'2', range:'~257 nmi', ceiling:'21,000 ft', speed:'182 mph', weapons:'M230 30mm chain gun, AGM-114 Hellfire, Hydra 70 rockets, AIM-92 Stinger', desc:'Primary US Army attack helicopter. Day/night, all-weather. Longbow radar for fire-and-forget anti-armor.'},
+  // Special
+  'AC130':{name:'AC-130J Ghostrider', role:'Gunship / Close Air Support', crew:'13', range:'~2,530 nmi', ceiling:'28,000 ft', speed:'300 mph', weapons:'105mm M102 howitzer, 30mm GAU-23, GBU-39 SDB, AGM-176 Griffin', desc:'Flying artillery. Loiters overhead providing devastating fire support. AFSOC special operations only.'},
+};
+
+// Match aircraft type code to capability key
+function getAcCap(typeCode){
+  if(!typeCode) return null;
+  const t = typeCode.toUpperCase();
+  // Direct match
+  if(AC_CAPS[t]) return AC_CAPS[t];
+  // Fuzzy match
+  const mappings = [
+    [/^F.?15/,'F15'],[/^F.?16/,'F16'],[/^F.?18|FA.?18|EA.?18/,'F18'],[/^F.?22/,'F22'],[/^F.?35/,'F35'],
+    [/^B.?52/,'B52'],[/^B.?1B|^B.?1L/,'B1'],[/^B.?2A|^B.?2S/,'B2'],[/^B.?21/,'B21'],
+    [/^KC.?135|^K35/,'KC135'],[/^KC.?10|^DC10/,'KC10'],[/^KC.?46|^K46/,'KC46'],
+    [/^RC.?135|^R135/,'RC135'],[/^E.?3[A-D]?$|AWACS/,'E3'],[/^E.?8[A-C]?$/,'E8'],
+    [/^RQ.?4|GLBHWK/,'RQ4'],[/^MQ.?9|REAPER/,'MQ9'],[/^MQ.?4|TRITN/,'MQ4'],
+    [/^P.?8/,'P8'],[/^P.?3/,'P3'],[/^EP.?3/,'EP3'],[/^U.?2[RS]?$/,'U2'],
+    [/^E.?6[AB]?$/,'E6'],[/^E.?4[AB]?$/,'E4'],
+    [/^C.?17/,'C17'],[/^C.?5[AM]?$/,'C5'],[/^C.?130|^C130|^L100|^C.?30J/,'C130'],[/^C130J|C.?30J/,'C130J'],
+    [/^C.?40/,'C40'],[/^V.?22|MV22|CV22/,'V22'],
+    [/^UH.?60|^HH.?60|^MH.?60|^SH.?60|^S70/,'H60'],[/^CH.?47|^H47/,'H47'],[/^AH.?64/,'AH64'],
+    [/^AC.?130/,'AC130'],
+  ];
+  for(const [rx, key] of mappings){
+    if(rx.test(t)) return AC_CAPS[key];
+  }
+  return null;
+}
+
 function showP(ac){
   const fl=(ac.flight||'').trim();
   const tp=classifyType(ac);
@@ -950,6 +1023,21 @@ function showP(ac){
   const spd=ac.gs?Math.round(ac.gs)+' kts':'—';
   const hdg=ac.track?Math.round(ac.track)+'°':'—';
   const vr=ac.baro_rate?(ac.baro_rate>0?'+':'')+ac.baro_rate+' ft/min':'—';
+  const cap = getAcCap(ac.t);
+  let capHtml = '';
+  if(cap){
+    capHtml = `
+    <div style="margin-top:8px;padding:8px;background:rgba(0,255,65,.04);border:1px solid rgba(0,255,65,.12);border-radius:2px">
+      <div style="font-size:11px;font-weight:700;color:var(--accent);font-family:'Share Tech Mono',monospace;margin-bottom:4px">${cap.name}</div>
+      <div style="font-size:10px;color:var(--text);margin-bottom:4px;line-height:1.4">${cap.desc}</div>
+      <div class="f"><span class="k">Role: </span><span class="v">${cap.role}</span></div>
+      <div class="f"><span class="k">Crew: </span><span class="v">${cap.crew}</span></div>
+      <div class="f"><span class="k">Range: </span><span class="v">${cap.range}</span></div>
+      <div class="f"><span class="k">Ceiling: </span><span class="v">${cap.ceiling}</span></div>
+      <div class="f"><span class="k">Speed: </span><span class="v">${cap.speed}</span></div>
+      <div class="f"><span class="k">Weapons: </span><span class="v" style="line-height:1.4">${cap.weapons}</span></div>
+    </div>`;
+  }
   document.getElementById('pBody').innerHTML=`
     <div class="f"><span class="k">Country: </span><span class="v" style="color:${col}">${getFlag(ac.hex)} ${getCName(ac.hex)}</span></div>
     <div class="f"><span class="k">Category: </span><span class="v">${TICO[tp]} ${TLAB[tp]}</span></div>
@@ -964,6 +1052,7 @@ function showP(ac){
     <div class="f"><span class="k">ICAO Hex: </span><span class="v">${ac.hex}</span></div>
     <div class="f"><span class="k">Position: </span><span class="v">${ac.lat?.toFixed(4)}, ${ac.lon?.toFixed(4)}</span></div>
     <div class="f"><span class="k">Last Seen: </span><span class="v">${Math.round(ac.seen||0)}s ago</span></div>
+    ${capHtml}
     <div style="margin-top:8px;display:flex;gap:6px;flex-wrap:wrap">
       <a href="https://www.planespotters.net/hex/${ac.hex}" target="_blank" style="font-size:10px;color:var(--accent);text-decoration:none;background:rgba(0,12,0,.8);padding:3px 7px;border-radius:2px;border:1px solid rgba(0,255,65,.2)">📷 Planespotters</a>
       <a href="https://globe.adsbexchange.com/?icao=${ac.hex}" target="_blank" style="font-size:10px;color:var(--accent);text-decoration:none;background:rgba(0,12,0,.8);padding:3px 7px;border-radius:2px;border:1px solid rgba(0,255,65,.2)">🌐 ADSBx</a>
@@ -1954,6 +2043,25 @@ function renderAdvPanel(adv){
 // ════════════════════════════════════════
 // NAVAL DEPLOYMENTS
 // ════════════════════════════════════════
+const NAVAL_CAPS = {
+  CSG: {name:'Carrier Strike Group', desc:'The most powerful conventional naval force projection unit. Centers on a nuclear-powered aircraft carrier with an embarked air wing, protected by cruisers, destroyers, and submarines.',
+    composition:'1x Aircraft Carrier (CVN), 1-2x Cruiser (CG), 2-3x Destroyer (DDG), 1-2x SSN Attack Sub, 1x Supply Ship',
+    airWing:'~75 aircraft: F/A-18E/F Super Hornets, EA-18G Growlers, E-2D Hawkeye, MH-60R/S Seahawks, CMV-22 Osprey',
+    capabilities:'Power projection (1,000+ nmi strike radius), air superiority, anti-submarine warfare, cruise missile strike (Tomahawk), ballistic missile defense (Aegis), ISR, humanitarian assistance'},
+  ARG: {name:'Amphibious Ready Group', desc:'Expeditionary force designed to project Marine combat power ashore. Carries a Marine Expeditionary Unit (MEU) with ~2,200 Marines.',
+    composition:'1x LHD/LHA Amphibious Assault Ship, 1x LPD San Antonio-class, 1x LSD Whidbey Island-class',
+    airWing:'AV-8B Harriers or F-35B, MV-22 Osprey, CH-53E Super Stallion, AH-1Z Viper, UH-1Y Venom',
+    capabilities:'Amphibious assault, vertical envelopment, special operations, non-combatant evacuation (NEO), humanitarian aid, crisis response'},
+  SSBN: {name:'Ballistic Missile Submarine (SSBN)', desc:'Strategic nuclear deterrent. Ohio-class SSBNs carry up to 20 Trident II D5 SLBMs. The most survivable leg of the nuclear triad.',
+    composition:'1x Ohio-class SSBN (14 active)',
+    airWing:'N/A — submarine',
+    capabilities:'Strategic nuclear deterrence (each sub carries ~90 nuclear warheads), virtually undetectable when submerged, 70+ day patrols'},
+  FLEET: {name:'Naval Fleet / Task Force', desc:'Major naval formation comprising multiple warship classes. Composition varies by nation and mission.',
+    composition:'Varies — carriers, cruisers, destroyers, frigates, submarines, support ships',
+    airWing:'Varies by fleet composition',
+    capabilities:'Sea control, power projection, anti-access/area denial, submarine warfare, mine warfare, amphibious operations'},
+};
+
 const NAVAL_DEPLOYMENTS = [
   // US Carrier Strike Groups
   {name:'CSG-3 — USS Abraham Lincoln (CVN-72)', type:'CSG', country:'us', status:'deployed',
@@ -2065,11 +2173,23 @@ function renderNaval(){
         .bindTooltip(d.name, {className:'dark-tooltip', direction:'top', offset:[0,-8]});
       m.on('click', () => {
         document.getElementById('pTitle').textContent = d.name;
+        const capInfo = NAVAL_CAPS[d.type] || null;
+        let capHtml = '';
+        if(capInfo){
+          capHtml = `<div style="margin-top:8px;padding:8px;background:rgba(0,255,65,.04);border:1px solid rgba(0,255,65,.12);border-radius:2px">
+            <div style="font-size:11px;font-weight:700;color:var(--accent);font-family:'Share Tech Mono',monospace;margin-bottom:4px">${capInfo.name}</div>
+            <div style="font-size:10px;color:var(--text);margin-bottom:4px;line-height:1.4">${capInfo.desc}</div>
+            <div class="f"><span class="k">Composition: </span><span class="v" style="line-height:1.4">${capInfo.composition}</span></div>
+            <div class="f"><span class="k">Air Wing: </span><span class="v" style="line-height:1.4">${capInfo.airWing||'N/A'}</span></div>
+            <div class="f"><span class="k">Capabilities: </span><span class="v" style="line-height:1.4">${capInfo.capabilities}</span></div>
+          </div>`;
+        }
         document.getElementById('pBody').innerHTML = `
           <div class="f"><span class="k">Type: </span><span class="v">${d.type}</span></div>
           <div class="f"><span class="k">Region: </span><span class="v">${d.region}</span></div>
-          <div class="f"><span class="k">Ships: </span><span class="v">${d.ships}</span></div>
+          <div class="f"><span class="k">Ships: </span><span class="v" style="line-height:1.4">${d.ships}</span></div>
           <div class="f"><span class="k">Notes: </span><span class="v">${d.notes}</span></div>
+          ${capHtml}
         `;
         document.getElementById('infoP').classList.add('vis');
       });
