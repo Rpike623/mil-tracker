@@ -607,6 +607,7 @@ body::after{
   <button class="tb-btn" id="btn-missiles" onclick="toggleMissiles()">🚀 Ranges</button>
   <button class="tb-btn" id="btn-nuclear" onclick="toggleNuclear()">☢️ WMD Sites</button>
   <button class="tb-btn" id="btn-airdef" onclick="toggleAirDef()">🛡️ Air Defense</button>
+  <button class="tb-btn" id="btn-gpsjam" onclick="toggleGPSJam()">📡 GPS Jam</button>
   <button class="tb-btn" id="btn-exercises" onclick="toggleExercises()">🎯 Exercises</button>
   <button class="tb-btn" id="btn-conflicts" onclick="toggleConflicts()">⚔️ Conflicts</button>
   <button class="tb-btn on" id="btn-naval" onclick="toggleNavalLayer()">🚢 Naval</button>
@@ -2103,6 +2104,120 @@ function renderAdvPanel(adv){
   h += `</div>`;
   pane.innerHTML = h;
 }
+// ════════════════════════════════════════
+// GPS JAMMING / SPOOFING ZONES
+// ════════════════════════════════════════
+const GPS_ZONES = [
+  {name:'Kaliningrad Jammer', type:'JAMMING', severity:'HIGH', source:'🇷🇺 Russia',
+   lat:54.7, lon:20.5, radiusKm:300, color:'#ef4444',
+   desc:'Persistent GPS jamming emanating from Russian Kaliningrad exclave. Affects Baltic states, Poland, Finland, Sweden. Disrupts civilian aviation and maritime navigation.',
+   affects:['Civil aviation GPS','Maritime navigation','Drone operations','Precision agriculture']},
+  {name:'St. Petersburg / NW Russia', type:'JAMMING', severity:'HIGH', source:'🇷🇺 Russia',
+   lat:59.9, lon:30.3, radiusKm:250, color:'#ef4444',
+   desc:'Major jamming complex protecting St. Petersburg metro area and military installations. Affects Finland, Estonia, and Baltic Sea traffic.',
+   affects:['Finnish airspace','Estonian border','Baltic Sea shipping','Civil GPS receivers']},
+  {name:'Moscow Kremlin GPS Spoofing', type:'SPOOFING', severity:'MEDIUM', source:'🇷🇺 Russia',
+   lat:55.75, lon:37.62, radiusKm:50, color:'#f97316',
+   desc:'GPS spoofing around Kremlin area. Devices show false position (typically Vnukovo airport). Protective measure against GPS-guided threats targeting Russian leadership.',
+   affects:['Ride-share apps','Personal navigation','Drone no-fly enforcement','Fitness trackers']},
+  {name:'Eastern Mediterranean', type:'SPOOFING', severity:'HIGH', source:'🇷🇺/🇸🇾 Khmeimim AB',
+   lat:35.4, lon:35.9, radiusKm:350, color:'#ef4444',
+   desc:'Massive GPS spoofing from Russian Khmeimim air base in Syria. Affects Cyprus, Lebanon, Turkey, and Eastern Med shipping. Aircraft report false positions.',
+   affects:['Beirut FIR flights','Cyprus airspace','Med shipping','Israeli airspace edge']},
+  {name:'Ukraine War Zone', type:'JAMMING', severity:'CRITICAL', source:'🇷🇺/🇺🇦 Both sides',
+   lat:48.5, lon:37.0, radiusKm:400, color:'#dc2626',
+   desc:'Extensive GPS/GNSS jamming and spoofing across entire Ukrainian front. Both sides deploy electronic warfare. Critical impact on drone operations, PGMs, and navigation.',
+   affects:['FPV drone guidance','Precision munitions','GLONASS/GPS receivers','HIMARS targeting']},
+  {name:'Northern Black Sea', type:'SPOOFING', severity:'MEDIUM', source:'🇷🇺 Russia',
+   lat:44.5, lon:34.0, radiusKm:200, color:'#f97316',
+   desc:'GPS spoofing over northern Black Sea and Crimea. Ships report false AIS positions. Affects maritime traffic and overflight navigation.',
+   affects:['Commercial shipping','Military navigation','Overflight GPS','Search and rescue']},
+  {name:'Iran Border Regions', type:'SPOOFING', severity:'MEDIUM', source:'🇮🇷 Iran',
+   lat:32.5, lon:53.0, radiusKm:400, color:'#f97316',
+   desc:'Iranian GPS spoofing capability. Used to capture US RQ-170 drone in 2011. Active near nuclear facilities and military installations.',
+   affects:['Drone operations','Overflight navigation','Gulf shipping','Military GPS']},
+  {name:'Strait of Hormuz', type:'SPOOFING', severity:'MEDIUM', source:'🇮🇷 IRGC Navy',
+   lat:26.5, lon:56.2, radiusKm:100, color:'#f97316',
+   desc:'Intermittent GPS interference in Strait of Hormuz. IRGC capability to spoof ship AIS and GPS. Used during tanker harassment incidents.',
+   affects:['Oil tanker navigation','Naval GPS','AIS positioning','Maritime safety']},
+  {name:'Northern Israel / Lebanon', type:'SPOOFING', severity:'HIGH', source:'🇮🇱 Israel',
+   lat:33.0, lon:35.2, radiusKm:100, color:'#eab308',
+   desc:'Israeli GPS spoofing along northern border. Defensive measure against Hezbollah GPS-guided rockets and drones. Ben Gurion airport occasionally affected.',
+   affects:['Hezbollah drone/rocket guidance','Civil aviation approaches','Lebanese airspace','Syrian border']},
+  {name:'South China Sea', type:'SPOOFING', severity:'LOW', source:'🇨🇳 China',
+   lat:16.0, lon:112.0, radiusKm:300, color:'#eab308',
+   desc:'Reports of GPS manipulation near Chinese-occupied features in Spratly/Paracel Islands. Ships report sudden position jumps. Part of broader A2/AD strategy.',
+   affects:['Naval navigation','Fishing fleet GPS','Commercial shipping','US FONOPs']},
+  {name:'North Korea', type:'JAMMING', severity:'MEDIUM', source:'🇰🇵 DPRK',
+   lat:38.0, lon:126.5, radiusKm:150, color:'#f97316',
+   desc:'North Korean GPS jammers along DMZ. Periodically activated to disrupt South Korean military and civilian navigation. Affects Incheon airport approaches.',
+   affects:['South Korean military','Incheon airport','Seoul metro area GPS','Maritime traffic']},
+];
+
+let gpsLayer = L.layerGroup();
+let gpsVisible = false;
+
+function toggleGPSJam(){
+  gpsVisible = !gpsVisible;
+  const btn = document.getElementById('btn-gpsjam');
+  if(gpsVisible){
+    gpsLayer.addTo(map);
+    btn.classList.add('on');
+    renderGPSJam();
+  } else {
+    map.removeLayer(gpsLayer);
+    btn.classList.remove('on');
+  }
+}
+
+function renderGPSJam(){
+  gpsLayer.clearLayers();
+  if(!gpsVisible) return;
+  GPS_ZONES.forEach(z => {
+    // Interference zone
+    const circle = L.circle([z.lat, z.lon], {
+      radius: z.radiusKm * 1000,
+      fillColor: z.color,
+      fillOpacity: 0.06,
+      color: z.color,
+      weight: 1.5,
+      opacity: 0.3,
+      dashArray: z.type==='SPOOFING' ? '4 8' : '12 4'
+    });
+
+    // Marker
+    const icon = z.type==='SPOOFING' ? '👻' : '📡';
+    const marker = L.marker([z.lat, z.lon], {
+      icon: L.divIcon({
+        html:`<div style="font-size:14px;text-shadow:0 0 6px ${z.color}80;cursor:pointer">${icon}</div>`,
+        className:'', iconSize:[14,14], iconAnchor:[7,7]
+      })
+    });
+
+    marker.bindTooltip(`${icon} ${z.name} — ${z.type}`, {className:'dark-tooltip', direction:'top', offset:[0,-8]});
+    marker.on('click', () => {
+      document.getElementById('pTitle').textContent = z.name;
+      document.getElementById('pBody').innerHTML = `
+        <div style="margin-bottom:6px">
+          <span style="font-size:10px;padding:2px 8px;border-radius:2px;font-weight:700;font-family:'Share Tech Mono',monospace;background:${z.color}18;color:${z.color};border:1px solid ${z.color}40">${z.type}</span>
+          <span style="font-size:10px;padding:2px 8px;border-radius:2px;font-weight:700;font-family:'Share Tech Mono',monospace;background:${z.color}18;color:${z.color};border:1px solid ${z.color}40;margin-left:4px">${z.severity}</span>
+        </div>
+        <div class="f"><span class="k">Source: </span><span class="v">${z.source}</span></div>
+        <div class="f"><span class="k">Radius: </span><span class="v">~${z.radiusKm} km</span></div>
+        <div style="margin-top:6px;font-size:10px;color:var(--text);line-height:1.5">${z.desc}</div>
+        <div style="margin-top:8px">
+          <div style="font-size:9px;color:var(--muted);text-transform:uppercase;letter-spacing:1px;margin-bottom:4px">Systems Affected</div>
+          ${z.affects.map(a=>`<span style="display:inline-block;font-size:10px;padding:2px 6px;margin:2px;background:${z.color}08;border:1px solid ${z.color}20;border-radius:2px;color:var(--text)">${a}</span>`).join('')}
+        </div>
+      `;
+      document.getElementById('infoP').classList.add('vis');
+    });
+
+    gpsLayer.addLayer(circle);
+    gpsLayer.addLayer(marker);
+  });
+}
+
 // ════════════════════════════════════════
 // MILITARY EXERCISES TRACKER
 // ════════════════════════════════════════
