@@ -1399,7 +1399,7 @@ async function fetchPolymarket(){
     const col=pct>=60?'#ef4444':pct>=35?'#f97316':pct>=15?'#eab308':'#22c55e';
     const vol=m.volumeNum>=1000000?'$'+(m.volumeNum/1000000).toFixed(1)+'M':m.volumeNum>=1000?'$'+(m.volumeNum/1000).toFixed(0)+'K':'$'+Math.round(m.volumeNum||0);
     const url='https://polymarket.com/event/'+(m.slug||m.id);
-    h+='<a class="poly-card" href="'"+url+'" target="_blank" rel="noopener"><div class="pc-q">'"+m.question+'</div><div><div class="pc-odds"><span class="pc-yes" style="color:'"+col+'">'"+pct+'%</span><span class="pc-label">YES</span></div><div class="pc-bar"><div class="pc-fill" style="width:'"+pct+'%;background:'"+col+'"></div></div><div class="pc-vol" style="margin-top:3px">'"+vol+' vol</div></div></a>';
+    h+=`<a class="poly-card" href="${url}" target="_blank" rel="noopener"><div class="pc-q">${m.question}</div><div><div class="pc-odds"><span class="pc-yes" style="color:${col}">${pct}%</span><span class="pc-label">YES</span></div><div class="pc-bar"><div class="pc-fill" style="width:${pct}%;background:${col}"></div></div><div class="pc-vol" style="margin-top:3px">${vol} vol</div></div></a>`;
   });
   strip.innerHTML=h;
   const el=document.getElementById('poly-updated');if(el)el.textContent='Updated '+new Date().toLocaleTimeString();
