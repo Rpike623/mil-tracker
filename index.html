@@ -140,7 +140,7 @@ body::after{
 .tb-label{font-size:9px;color:var(--muted);text-transform:uppercase;letter-spacing:1px;white-space:nowrap;font-family:'Share Tech Mono',monospace}
 
 /* ── WIDGET SYSTEM ── */
-.dashboard{flex:1;display:grid;grid-template-columns:1fr 270px 270px;grid-template-rows:1fr 1fr;min-height:0;gap:0}
+.dashboard{flex:1;display:grid;grid-template-columns:1fr 270px 270px;grid-template-rows:1fr 1fr 1fr;min-height:0;gap:0}
 .widget{
   background:rgba(0,4,0,0.92);
   border:1px solid rgba(0,255,65,.1);
@@ -182,7 +182,7 @@ body::after{
 .widget-body::-webkit-scrollbar{width:3px}
 .widget-body::-webkit-scrollbar-track{background:rgba(0,4,0,.5)}
 .widget-body::-webkit-scrollbar-thumb{background:rgba(0,255,65,.2);border-radius:2px}
-.w-map{grid-column:1;grid-row:1/3;position:relative;border:0;min-height:300px}
+.w-map{grid-column:1;grid-row:1/4;position:relative;border:0;min-height:300px}
 .w-zones{grid-column:2;grid-row:1}
 .w-stats{grid-column:3;grid-row:1}
 .w-activity{grid-column:2;grid-row:2}
@@ -324,13 +324,29 @@ body::after{
 /* Section headers in panels */
 .rp-section{padding:6px 12px 4px;font-size:9px;text-transform:uppercase;letter-spacing:1px;color:rgba(0,255,65,.4);border-bottom:1px solid rgba(0,255,65,.06);font-family:'Share Tech Mono',monospace}
 
+/* Naval widget */
+.naval-group{padding:8px 10px;border-bottom:1px solid rgba(0,255,65,.06);cursor:pointer;transition:background .15s}
+.naval-group:hover{background:rgba(0,255,65,.03)}
+.naval-group .ng-header{display:flex;align-items:center;gap:6px;margin-bottom:4px}
+.naval-group .ng-name{font-size:11px;font-weight:700;color:var(--accent);font-family:'Share Tech Mono',monospace;letter-spacing:.5px}
+.naval-group .ng-status{font-size:9px;padding:1px 6px;border-radius:2px;font-weight:700;font-family:'Share Tech Mono',monospace;letter-spacing:.5px}
+.naval-group .ng-status.deployed{background:rgba(0,255,65,.1);color:var(--accent);box-shadow:0 0 6px rgba(0,255,65,.15)}
+.naval-group .ng-status.combat{background:rgba(255,32,64,.12);color:var(--red);box-shadow:0 0 8px rgba(255,32,64,.2)}
+.naval-group .ng-status.port{background:rgba(76,107,58,.15);color:var(--muted)}
+.naval-group .ng-status.transit{background:rgba(229,255,0,.08);color:var(--yellow)}
+.naval-group .ng-region{font-size:9px;color:var(--muted);font-family:'Share Tech Mono',monospace;letter-spacing:.3px}
+.naval-group .ng-ships{font-size:10px;color:var(--text);margin-top:3px;line-height:1.4}
+.naval-chokepoint{padding:6px 10px;border-bottom:1px solid rgba(0,255,65,.06);display:flex;justify-content:space-between;align-items:center}
+.naval-chokepoint .nc-name{font-size:10px;color:var(--text);font-family:'Share Tech Mono',monospace}
+.naval-chokepoint .nc-status{font-size:9px;font-weight:700;font-family:'Share Tech Mono',monospace;letter-spacing:.5px}
+
 /* Mobile */
 @media(max-width:768px){
   body{overflow-y:auto;overflow-x:hidden;height:auto}
   .dashboard{display:block;height:auto}
   .w-map{height:55vmax;min-height:300px;max-height:70vh;position:relative;display:block}
   #map{position:absolute;top:0;left:0;right:0;bottom:0}
-  .w-zones,.w-stats,.w-activity,.w-log{height:220px;display:flex;flex-direction:column}
+  .w-zones,.w-stats,.w-activity,.w-log,.widget{height:250px;display:flex;flex-direction:column}
   .topbar{padding:5px 8px;position:sticky;top:0;z-index:9999}
   .tb-btn{padding:4px 6px;font-size:9px}
   .tb-search{width:90px}
@@ -564,6 +580,7 @@ body::after{
   <button class="tb-btn" id="btn-missiles" onclick="toggleMissiles()">🚀 Ranges</button>
   <button class="tb-btn" id="btn-nuclear" onclick="toggleNuclear()">☢️ WMD Sites</button>
   <button class="tb-btn" id="btn-airdef" onclick="toggleAirDef()">🛡️ Air Defense</button>
+  <button class="tb-btn on" id="btn-naval" onclick="toggleNavalLayer()">🚢 Naval</button>
   <button class="tb-btn" id="btn-notif" onclick="toggleNotifications()">🔔 Alerts</button>
 </div>
 
@@ -638,6 +655,12 @@ body::after{
       </div>
     </div>
     <div class="widget-body" id="pane-adv" style="padding:0"></div>
+  </div>
+
+  <!-- NAVAL ACTIVITY WIDGET -->
+  <div class="widget" style="grid-column:2/4;grid-row:3">
+    <div class="widget-header">🚢 <span class="wh-title">Naval Deployments</span><span class="wh-count" id="naval-count">0 assets</span></div>
+    <div class="widget-body" id="pane-naval" style="padding:0;display:flex;flex-direction:column"></div>
   </div>
 
 </div>
@@ -1928,11 +1951,180 @@ function renderAdvPanel(adv){
   h += `</div>`;
   pane.innerHTML = h;
 }
+// ════════════════════════════════════════
+// NAVAL DEPLOYMENTS
+// ════════════════════════════════════════
+const NAVAL_DEPLOYMENTS = [
+  // US Carrier Strike Groups
+  {name:'CSG-3 — USS Abraham Lincoln (CVN-72)', type:'CSG', country:'us', status:'deployed',
+   lat:25.5, lon:57.2, region:'PERSIAN GULF / ARABIAN SEA',
+   ships:'CVN-72 Lincoln, CG-52 Bunker Hill, DDG-92 Momsen, DDG-114 Ralph Johnson',
+   notes:'Forward deployed — 5th Fleet AOR'},
+  {name:'CSG-5 — USS Ronald Reagan (CVN-76)', type:'CSG', country:'us', status:'deployed',
+   lat:22.3, lon:131.5, region:'WESTERN PACIFIC',
+   ships:'CVN-76 Reagan, CG-54 Antietam, DDG-85 McCampbell, DDG-89 Mustin',
+   notes:'Forward deployed Yokosuka — 7th Fleet'},
+  {name:'CSG-12 — USS Gerald R. Ford (CVN-78)', type:'CSG', country:'us', status:'deployed',
+   lat:34.8, lon:28.5, region:'EASTERN MEDITERRANEAN',
+   ships:'CVN-78 Ford, CG-66 Hue City, DDG-104 Sterett, DDG-110 William P. Lawrence',
+   notes:'Eastern Med deterrence patrol'},
+  {name:'CSG-9 — USS Nimitz (CVN-68)', type:'CSG', country:'us', status:'transit',
+   lat:8.2, lon:73.5, region:'INDIAN OCEAN',
+   ships:'CVN-68 Nimitz, CG-57 Lake Champlain, DDG-76 Higgins',
+   notes:'Transit to CENTCOM AOR'},
+
+  // Amphibious Ready Groups
+  {name:'ARG — USS Bataan (LHD-5)', type:'ARG', country:'us', status:'deployed',
+   lat:12.5, lon:44.3, region:'RED SEA / GULF OF ADEN',
+   ships:'LHD-5 Bataan, LPD-23 Anchorage, LSD-50 Carter Hall + 26th MEU',
+   notes:'Houthi threat response — force protection'},
+  {name:'ARG — USS Boxer (LHD-4)', type:'ARG', country:'us', status:'port',
+   lat:32.7, lon:-117.2, region:'SAN DIEGO',
+   ships:'LHD-4 Boxer, LPD-27 Portland',
+   notes:'Maintenance period'},
+
+  // SSBNs (approximate patrol areas — not exact)
+  {name:'SSBN Patrol — Atlantic', type:'SSBN', country:'us', status:'deployed',
+   lat:45.0, lon:-30.0, region:'NORTH ATLANTIC',
+   ships:'Ohio-class SSBN (undisclosed)',
+   notes:'Strategic deterrence patrol'},
+  {name:'SSBN Patrol — Pacific', type:'SSBN', country:'us', status:'deployed',
+   lat:35.0, lon:170.0, region:'PACIFIC',
+   ships:'Ohio-class SSBN (undisclosed)',
+   notes:'Strategic deterrence patrol'},
+
+  // Adversary Naval
+  {name:'🇷🇺 Northern Fleet — Severomorsk', type:'FLEET', country:'russia', status:'combat',
+   lat:69.1, lon:33.4, region:'BARENTS SEA',
+   ships:'Adm. Kuznetsov (CV), Pyotr Velikiy (CGN), multiple SSNs',
+   notes:'Increased submarine activity — NATO monitoring'},
+  {name:'🇷🇺 Black Sea Fleet', type:'FLEET', country:'russia', status:'combat',
+   lat:44.6, lon:33.5, region:'BLACK SEA / SEVASTOPOL',
+   ships:'Reduced force — losses to Ukrainian strikes',
+   notes:'Severely degraded — limited ops capability'},
+  {name:'🇨🇳 PLA Navy — South Sea Fleet', type:'FLEET', country:'china', status:'deployed',
+   lat:18.2, lon:109.5, region:'SOUTH CHINA SEA',
+   ships:'Type 003 Fujian (CV), Type 055 destroyers, Type 093 SSN',
+   notes:'SCS patrol + Taiwan contingency readiness'},
+  {name:'🇮🇷 IRIN — Bandar Abbas', type:'FLEET', country:'iran', status:'deployed',
+   lat:27.2, lon:56.3, region:'STRAIT OF HORMUZ',
+   ships:'Frigates, fast attack craft, Ghadir-class submarines',
+   notes:'Strait of Hormuz area denial posture'},
+];
+
+const CHOKEPOINTS = [
+  {name:'Strait of Hormuz', status:'ELEVATED', color:'var(--red)', lat:26.6, lon:56.3,
+   note:'Iranian naval posturing — IRGCN fast boats active'},
+  {name:'Bab el-Mandeb', status:'HIGH RISK', color:'var(--red)', lat:12.6, lon:43.3,
+   note:'Houthi anti-ship missile/drone threat — coalition patrols active'},
+  {name:'Taiwan Strait', status:'WATCH', color:'var(--yellow)', lat:24.5, lon:119.5,
+   note:'PLA Navy exercises — US transits ongoing'},
+  {name:'Suez Canal', status:'NORMAL', color:'var(--accent)', lat:30.5, lon:32.3,
+   note:'Operating normally — traffic diversions from Red Sea'},
+  {name:'GIUK Gap', status:'WATCH', color:'var(--yellow)', lat:62.0, lon:-15.0,
+   note:'Russian submarine transit monitoring — P-8 patrols'},
+  {name:'Malacca Strait', status:'NORMAL', color:'var(--accent)', lat:2.5, lon:101.5,
+   note:'Normal commercial traffic'},
+];
+
+let navalLayer = L.layerGroup().addTo(map);
+let navalVisible = true;
+
+function toggleNavalLayer(){
+  navalVisible = !navalVisible;
+  const btn = document.getElementById('btn-naval');
+  if(navalVisible){
+    navalLayer.addTo(map);
+    btn.classList.add('on');
+    btn.textContent = '🚢 Naval';
+  } else {
+    map.removeLayer(navalLayer);
+    btn.classList.remove('on');
+    btn.textContent = '🚢 Naval';
+  }
+  renderNaval();
+}
+
+function renderNaval(){
+  navalLayer.clearLayers();
+  const pane = document.getElementById('pane-naval');
+  if(!pane) return;
+
+  // Map markers for deployments
+  const shipIcon = (country) => {
+    const col = country==='us' ? '#00ff41' : country==='russia' ? '#dc2626' : country==='china' ? '#e5ff00' : country==='iran' ? '#ff2040' : '#bf5fff';
+    return L.divIcon({
+      html:`<div style="color:${col};font-size:16px;text-shadow:0 0 8px ${col}80;cursor:pointer">⚓</div>`,
+      className:'', iconSize:[16,16], iconAnchor:[8,8]
+    });
+  };
+
+  if(navalVisible){
+    NAVAL_DEPLOYMENTS.forEach(d => {
+      const m = L.marker([d.lat, d.lon], {icon: shipIcon(d.country)})
+        .bindTooltip(d.name, {className:'dark-tooltip', direction:'top', offset:[0,-8]});
+      m.on('click', () => {
+        document.getElementById('pTitle').textContent = d.name;
+        document.getElementById('pBody').innerHTML = `
+          <div class="f"><span class="k">Type: </span><span class="v">${d.type}</span></div>
+          <div class="f"><span class="k">Region: </span><span class="v">${d.region}</span></div>
+          <div class="f"><span class="k">Ships: </span><span class="v">${d.ships}</span></div>
+          <div class="f"><span class="k">Notes: </span><span class="v">${d.notes}</span></div>
+        `;
+        document.getElementById('infoP').classList.add('vis');
+      });
+      navalLayer.addLayer(m);
+    });
+
+    // Chokepoint markers
+    CHOKEPOINTS.forEach(c => {
+      const m = L.circleMarker([c.lat, c.lon], {
+        radius: 8, fillColor: c.status==='HIGH RISK'||c.status==='ELEVATED' ? '#ff2040' : c.status==='WATCH' ? '#e5ff00' : '#00ff41',
+        fillOpacity: 0.3, color: c.status==='HIGH RISK'||c.status==='ELEVATED' ? '#ff2040' : c.status==='WATCH' ? '#e5ff00' : '#00ff41',
+        weight: 2, opacity: 0.6
+      }).bindTooltip(`⚠ ${c.name}: ${c.status}`, {className:'dark-tooltip', direction:'top'});
+      navalLayer.addLayer(m);
+    });
+  }
+
+  // Widget content
+  const countEl = document.getElementById('naval-count');
+  if(countEl) countEl.textContent = NAVAL_DEPLOYMENTS.length + ' assets';
+
+  let h = '';
+  // Chokepoints section
+  h += `<div class="rp-section">⚠️ CHOKEPOINTS</div>`;
+  CHOKEPOINTS.forEach(c => {
+    const scol = c.status==='HIGH RISK'||c.status==='ELEVATED' ? 'var(--red)' : c.status==='WATCH' ? 'var(--yellow)' : 'var(--accent)';
+    h += `<div class="naval-chokepoint" onclick="goTo(${c.lat},${c.lon},6)" style="cursor:pointer">
+      <span class="nc-name">${c.name}</span>
+      <span class="nc-status" style="color:${scol}">${c.status}</span>
+    </div>`;
+  });
+
+  // Deployments section
+  h += `<div class="rp-section">🚢 CARRIER STRIKE GROUPS & FLEETS</div>`;
+  NAVAL_DEPLOYMENTS.forEach(d => {
+    const scls = d.status==='combat' ? 'combat' : d.status==='deployed' ? 'deployed' : d.status==='transit' ? 'transit' : 'port';
+    h += `<div class="naval-group" onclick="map.setView([${d.lat},${d.lon}],6)">
+      <div class="ng-header">
+        <span class="ng-name">${d.name}</span>
+        <span class="ng-status ${scls}">${d.status.toUpperCase()}</span>
+      </div>
+      <div class="ng-region">📍 ${d.region}</div>
+      <div class="ng-ships">${d.ships}</div>
+    </div>`;
+  });
+
+  pane.innerHTML = h;
+}
+
 fetchData();
 fetchAllNews();
 fetchPolymarket();
 initXFeed();
 renderAdvPanel('iran');
+renderNaval();
 // Fix Leaflet map size on mobile after layout settles
 setTimeout(() => map.invalidateSize(), 300);
 setTimeout(() => map.invalidateSize(), 1000);
