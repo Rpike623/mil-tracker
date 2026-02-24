@@ -2179,7 +2179,7 @@ function renderAdvPanel(adv){
 // ════════════════════════════════════════
 // TFR / NOTAM OVERLAY
 // ════════════════════════════════════════
-const NOTAMS = [
+let NOTAMS = [
   // Active conflict TFRs
   {name:'Ukraine Conflict Zone TFR', type:'CONFLICT', severity:'PROHIBITED',
    lat:48.5, lon:36.0, radiusKm:500, color:'#ef4444',
@@ -2297,7 +2297,7 @@ function renderNOTAMs(){
 // ════════════════════════════════════════
 // GPS JAMMING / SPOOFING ZONES
 // ════════════════════════════════════════
-const GPS_ZONES = [
+let GPS_ZONES = [
   {name:'Kaliningrad Jammer', type:'JAMMING', severity:'HIGH', source:'🇷🇺 Russia',
    lat:54.7, lon:20.5, radiusKm:300, color:'#ef4444',
    desc:'Persistent GPS jamming emanating from Russian Kaliningrad exclave. Affects Baltic states, Poland, Finland, Sweden. Disrupts civilian aviation and maritime navigation.',
@@ -2411,7 +2411,7 @@ function renderGPSJam(){
 // ════════════════════════════════════════
 // MILITARY EXERCISES TRACKER
 // ════════════════════════════════════════
-const EXERCISES = [
+let EXERCISES = [
   {name:'DEFENDER EUROPE 2026', status:'PLANNED', type:'NATO',
    lat:54.0, lon:20.0, radiusKm:400, color:'#00ff41',
    nations:'🇺🇸🇬🇧🇩🇪🇫🇷🇵🇱🇪🇪🇱🇹🇱🇻 + 20 NATO allies',
@@ -2525,7 +2525,7 @@ function renderExercises(){
 // ════════════════════════════════════════
 // ACTIVE CONFLICTS OVERLAY
 // ════════════════════════════════════════
-const CONFLICTS = [
+let CONFLICTS = [
   {name:'Ukraine-Russia War', status:'ACTIVE COMBAT', intensity:'HIGH',
    lat:48.5, lon:37.5, radiusKm:350, color:'#ef4444',
    parties:'🇺🇦 Ukraine vs 🇷🇺 Russia', since:'Feb 2022',
@@ -2652,7 +2652,7 @@ const NAVAL_CAPS = {
     capabilities:'Sea control, power projection, anti-access/area denial, submarine warfare, mine warfare, amphibious operations'},
 };
 
-const NAVAL_DEPLOYMENTS = [
+let NAVAL_DEPLOYMENTS = [
   // US Carrier Strike Groups
   {name:'CSG-3 — USS Abraham Lincoln (CVN-72)', type:'CSG', country:'us', status:'deployed',
    lat:25.5, lon:57.2, region:'PERSIAN GULF / ARABIAN SEA',
@@ -2710,7 +2710,7 @@ const NAVAL_DEPLOYMENTS = [
    notes:'Strait of Hormuz area denial posture'},
 ];
 
-const CHOKEPOINTS = [
+let CHOKEPOINTS = [
   {name:'Strait of Hormuz', status:'ELEVATED', color:'var(--red)', lat:26.6, lon:56.3,
    note:'Iranian naval posturing — IRGCN fast boats active'},
   {name:'Bab el-Mandeb', status:'HIGH RISK', color:'var(--red)', lat:12.6, lon:43.3,
@@ -2849,12 +2849,39 @@ function updateClocks(){
 updateClocks();
 setInterval(updateClocks, 1000);
 
+// ════════════════════════════════════════
+// INTEL DATA LOADER (from data/intel-data.json)
+// ════════════════════════════════════════
+async function loadIntelData(){
+  try {
+    const res = await fetch('data/intel-data.json?t='+Date.now());
+    if(!res.ok) throw new Error('HTTP '+res.status);
+    const d = await res.json();
+    if(d.naval_deployments) NAVAL_DEPLOYMENTS = d.naval_deployments;
+    if(d.chokepoints) CHOKEPOINTS = d.chokepoints;
+    if(d.conflicts) CONFLICTS = d.conflicts;
+    if(d.exercises) EXERCISES = d.exercises;
+    if(d.gps_zones) GPS_ZONES = d.gps_zones;
+    if(d.notams) NOTAMS = d.notams;
+    // Re-render active overlays
+    renderNaval();
+    if(conflictsVisible) renderConflicts();
+    if(exercisesVisible) renderExercises();
+    if(gpsVisible) renderGPSJam();
+    if(notamsVisible) renderNOTAMs();
+    console.log('[INTEL] Loaded intel-data.json, generated:', d.generated_utc);
+  } catch(e){
+    console.warn('[INTEL] Failed to load intel-data.json, using inline defaults:', e.message);
+    renderNaval();
+  }
+}
+
 fetchData();
 fetchAllNews();
 fetchPolymarket();
 initXFeed();
 renderAdvPanel('iran');
-renderNaval();
+loadIntelData();
 // Fix Leaflet map size on mobile after layout settles
 setTimeout(() => map.invalidateSize(), 300);
 setTimeout(() => map.invalidateSize(), 1000);
@@ -2864,6 +2891,7 @@ setInterval(fetchData, 30000);
 setInterval(fetchAllNews, 300000);
 setInterval(fetchPolymarket, 300000);
 setInterval(() => { xPostCache={}; initXFeed(); }, 300000);
+setInterval(loadIntelData, 1800000); // Reload intel data every 30min
 
 switchTab('news');
 </script>

@@ -1,0 +1,766 @@
+{
+  "generated_utc": "2026-02-24T11:03:25Z",
+  "version": 2,
+  "naval_deployments": [
+    {
+      "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
+      "type": "CSG",
+      "country": "us",
+      "status": "deployed",
+      "lat": 25.5,
+      "lon": 57.2,
+      "region": "PERSIAN GULF / ARABIAN SEA",
+      "ships": "CVN-72 Lincoln, CG-52 Bunker Hill, DDG-92 Momsen, DDG-114 Ralph Johnson",
+      "notes": "Forward deployed — 5th Fleet AOR"
+    },
+    {
+      "name": "CSG-5 — USS Ronald Reagan (CVN-76)",
+      "type": "CSG",
+      "country": "us",
+      "status": "deployed",
+      "lat": 22.3,
+      "lon": 131.5,
+      "region": "WESTERN PACIFIC",
+      "ships": "CVN-76 Reagan, CG-54 Antietam, DDG-85 McCampbell, DDG-89 Mustin",
+      "notes": "Forward deployed Yokosuka — 7th Fleet"
+    },
+    {
+      "name": "CSG-12 — USS Gerald R. Ford (CVN-78)",
+      "type": "CSG",
+      "country": "us",
+      "status": "deployed",
+      "lat": 34.8,
+      "lon": 28.5,
+      "region": "EASTERN MEDITERRANEAN",
+      "ships": "CVN-78 Ford, CG-66 Hue City, DDG-104 Sterett, DDG-110 William P. Lawrence",
+      "notes": "Eastern Med deterrence patrol"
+    },
+    {
+      "name": "CSG-9 — USS Nimitz (CVN-68)",
+      "type": "CSG",
+      "country": "us",
+      "status": "transit",
+      "lat": 8.2,
+      "lon": 73.5,
+      "region": "INDIAN OCEAN",
+      "ships": "CVN-68 Nimitz, CG-57 Lake Champlain, DDG-76 Higgins",
+      "notes": "Transit to CENTCOM AOR"
+    },
+    {
+      "name": "ARG — USS Bataan (LHD-5)",
+      "type": "ARG",
+      "country": "us",
+      "status": "deployed",
+      "lat": 12.5,
+      "lon": 44.3,
+      "region": "RED SEA / GULF OF ADEN",
+      "ships": "LHD-5 Bataan, LPD-23 Anchorage, LSD-50 Carter Hall + 26th MEU",
+      "notes": "Houthi threat response — force protection"
+    },
+    {
+      "name": "ARG — USS Boxer (LHD-4)",
+      "type": "ARG",
+      "country": "us",
+      "status": "port",
+      "lat": 32.7,
+      "lon": -117.2,
+      "region": "SAN DIEGO",
+      "ships": "LHD-4 Boxer, LPD-27 Portland",
+      "notes": "Maintenance period"
+    },
+    {
+      "name": "SSBN Patrol — Atlantic",
+      "type": "SSBN",
+      "country": "us",
+      "status": "deployed",
+      "lat": 45.0,
+      "lon": -30.0,
+      "region": "NORTH ATLANTIC",
+      "ships": "Ohio-class SSBN (undisclosed)",
+      "notes": "Strategic deterrence patrol"
+    },
+    {
+      "name": "SSBN Patrol — Pacific",
+      "type": "SSBN",
+      "country": "us",
+      "status": "deployed",
+      "lat": 35.0,
+      "lon": 170.0,
+      "region": "PACIFIC",
+      "ships": "Ohio-class SSBN (undisclosed)",
+      "notes": "Strategic deterrence patrol"
+    },
+    {
+      "name": "🇷🇺 Northern Fleet — Severomorsk",
+      "type": "FLEET",
+      "country": "russia",
+      "status": "combat",
+      "lat": 69.1,
+      "lon": 33.4,
+      "region": "BARENTS SEA",
+      "ships": "Adm. Kuznetsov (CV), Pyotr Velikiy (CGN), multiple SSNs",
+      "notes": "Increased submarine activity — NATO monitoring"
+    },
+    {
+      "name": "🇷🇺 Black Sea Fleet",
+      "type": "FLEET",
+      "country": "russia",
+      "status": "combat",
+      "lat": 44.6,
+      "lon": 33.5,
+      "region": "BLACK SEA / SEVASTOPOL",
+      "ships": "Reduced force — losses to Ukrainian strikes",
+      "notes": "Severely degraded — limited ops capability"
+    },
+    {
+      "name": "🇨🇳 PLA Navy — South Sea Fleet",
+      "type": "FLEET",
+      "country": "china",
+      "status": "deployed",
+      "lat": 18.2,
+      "lon": 109.5,
+      "region": "SOUTH CHINA SEA",
+      "ships": "Type 003 Fujian (CV), Type 055 destroyers, Type 093 SSN",
+      "notes": "SCS patrol + Taiwan contingency readiness"
+    },
+    {
+      "name": "🇮🇷 IRIN — Bandar Abbas",
+      "type": "FLEET",
+      "country": "iran",
+      "status": "deployed",
+      "lat": 27.2,
+      "lon": 56.3,
+      "region": "STRAIT OF HORMUZ",
+      "ships": "Frigates, fast attack craft, Ghadir-class submarines",
+      "notes": "Strait of Hormuz area denial posture"
+    }
+  ],
+  "chokepoints": [
+    {
+      "name": "Strait of Hormuz",
+      "status": "ELEVATED",
+      "lat": 26.6,
+      "lon": 56.3,
+      "note": "Iranian naval posturing — IRGCN fast boats active"
+    },
+    {
+      "name": "Bab el-Mandeb",
+      "status": "HIGH RISK",
+      "lat": 12.6,
+      "lon": 43.3,
+      "note": "Houthi anti-ship missile/drone threat — coalition patrols active"
+    },
+    {
+      "name": "Taiwan Strait",
+      "status": "WATCH",
+      "lat": 24.5,
+      "lon": 119.5,
+      "note": "PLA Navy exercises — US transits ongoing"
+    },
+    {
+      "name": "Suez Canal",
+      "status": "NORMAL",
+      "lat": 30.5,
+      "lon": 32.3,
+      "note": "Operating normally — traffic diversions from Red Sea"
+    },
+    {
+      "name": "GIUK Gap",
+      "status": "WATCH",
+      "lat": 62.0,
+      "lon": -15.0,
+      "note": "Russian submarine transit monitoring — P-8 patrols"
+    },
+    {
+      "name": "Malacca Strait",
+      "status": "NORMAL",
+      "lat": 2.5,
+      "lon": 101.5,
+      "note": "Normal commercial traffic"
+    }
+  ],
+  "conflicts": [
+    {
+      "name": "Ukraine-Russia War",
+      "status": "ACTIVE COMBAT",
+      "intensity": "HIGH",
+      "lat": 48.5,
+      "lon": 37.5,
+      "radiusKm": 350,
+      "parties": "🇺🇦 Ukraine vs 🇷🇺 Russia",
+      "since": "Feb 2022",
+      "summary": "Full-scale conventional war. Active frontline ~1,200km. Russian occupation of Crimea, parts of Donetsk, Luhansk, Zaporizhzhia, Kherson. Drone warfare, artillery, trench combat.",
+      "hotspots": [
+        "Donetsk front",
+        "Zaporizhzhia sector",
+        "Kursk incursion",
+        "Black Sea drone ops"
+      ]
+    },
+    {
+      "name": "Gaza Conflict",
+      "status": "ACTIVE COMBAT",
+      "intensity": "HIGH",
+      "lat": 31.4,
+      "lon": 34.4,
+      "radiusKm": 40,
+      "parties": "🇮🇱 Israel vs Hamas/PIJ",
+      "since": "Oct 2023",
+      "summary": "Intensive urban warfare following Oct 7 attack. IDF ground operations across Gaza. Massive humanitarian crisis. Regional escalation risk.",
+      "hotspots": [
+        "Rafah",
+        "Khan Younis",
+        "Gaza City",
+        "Netzarim Corridor"
+      ]
+    },
+    {
+      "name": "Red Sea / Houthi Campaign",
+      "status": "ACTIVE",
+      "intensity": "MEDIUM",
+      "lat": 14.5,
+      "lon": 42.5,
+      "radiusKm": 250,
+      "parties": "🇾🇪 Houthis vs 🇺🇸/🇬🇧 Coalition + Commercial Shipping",
+      "since": "Nov 2023",
+      "summary": "Houthi anti-ship missile and drone attacks on Red Sea/Gulf of Aden commercial shipping. US/UK strikes on Houthi positions in Yemen. Major disruption to Suez Canal trade.",
+      "hotspots": [
+        "Bab el-Mandeb strait",
+        "Gulf of Aden",
+        "Hudaydah port",
+        "Southern Red Sea"
+      ]
+    },
+    {
+      "name": "Israel-Hezbollah Border",
+      "status": "TENSE",
+      "intensity": "MEDIUM",
+      "lat": 33.2,
+      "lon": 35.5,
+      "radiusKm": 60,
+      "parties": "🇮🇱 Israel vs 🇱🇧 Hezbollah",
+      "since": "Oct 2023",
+      "summary": "Cross-border exchanges of fire. Israeli strikes on Hezbollah positions in Lebanon. Tens of thousands evacuated on both sides. Risk of full-scale war.",
+      "hotspots": [
+        "Blue Line",
+        "South Lebanon",
+        "Golan Heights",
+        "Beirut suburbs"
+      ]
+    },
+    {
+      "name": "Syria Civil War (Frozen)",
+      "status": "LOW INTENSITY",
+      "intensity": "LOW",
+      "lat": 35.5,
+      "lon": 38.5,
+      "radiusKm": 200,
+      "parties": "Multiple factions — Assad gov, SDF/Kurds, HTS, Turkish-backed forces",
+      "since": "2011",
+      "summary": "Largely frozen conflict. US forces at al-Tanf & NE Syria with SDF. Turkish operations against Kurdish forces. Israeli strikes on Iranian assets. Russian air base at Khmeimim.",
+      "hotspots": [
+        "Idlib province",
+        "NE Syria/SDF",
+        "al-Tanf garrison",
+        "Deir ez-Zor"
+      ]
+    },
+    {
+      "name": "Taiwan Strait Tensions",
+      "status": "WATCH",
+      "intensity": "LOW",
+      "lat": 24.0,
+      "lon": 120.0,
+      "radiusKm": 150,
+      "parties": "🇨🇳 PRC vs 🇹🇼 Taiwan (🇺🇸 support)",
+      "since": "Ongoing",
+      "summary": "Increased PLA military pressure. Regular PLAAF incursions into Taiwan ADIZ. PLA Navy exercises near Taiwan. US arms sales and naval transits continue.",
+      "hotspots": [
+        "Taiwan Strait",
+        "Kinmen Islands",
+        "Bashi Channel",
+        "First Island Chain"
+      ]
+    },
+    {
+      "name": "South China Sea Disputes",
+      "status": "WATCH",
+      "intensity": "LOW",
+      "lat": 14.5,
+      "lon": 115.0,
+      "radiusKm": 400,
+      "parties": "🇨🇳 China vs 🇵🇭🇻🇳🇲🇾🇧🇳🇹🇼 + 🇺🇸 FONOPs",
+      "since": "Ongoing",
+      "summary": "Chinese maritime militia, coast guard harassment at Second Thomas Shoal. Philippine resupply missions contested. US freedom of navigation operations.",
+      "hotspots": [
+        "Second Thomas Shoal",
+        "Scarborough Shoal",
+        "Spratly Islands",
+        "Paracel Islands"
+      ]
+    },
+    {
+      "name": "Iran-Israel Shadow War",
+      "status": "ELEVATED",
+      "intensity": "MEDIUM",
+      "lat": 33.0,
+      "lon": 44.0,
+      "radiusKm": 300,
+      "parties": "🇮🇱 Israel vs 🇮🇷 Iran + proxies",
+      "since": "Ongoing",
+      "summary": "Covert and overt strikes. Israeli attacks on Iranian nuclear/military facilities. Iranian proxy network (Hezbollah, Iraqi militias, Houthis). Direct missile exchanges in Apr 2024.",
+      "hotspots": [
+        "Isfahan nuclear sites",
+        "Syrian T4 airbase",
+        "Iraqi militia bases",
+        "Strait of Hormuz"
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "name": "DEFENDER EUROPE 2026",
+      "status": "PLANNED",
+      "type": "NATO",
+      "lat": 54.0,
+      "lon": 20.0,
+      "radiusKm": 400,
+      "nations": "🇺🇸🇬🇧🇩🇪🇫🇷🇵🇱🇪🇪🇱🇹🇱🇻 + 20 NATO allies",
+      "period": "May-Jun 2026",
+      "personnel": "~30,000",
+      "summary": "Large-scale NATO deterrence exercise in Eastern Europe. Tests rapid deployment of US forces to European theater. Focus on Baltic and Polish corridors.",
+      "components": [
+        "Ground maneuver",
+        "Air defense integration",
+        "Logistics sustainment",
+        "Cyber defense"
+      ]
+    },
+    {
+      "name": "RIMPAC 2026",
+      "status": "PLANNED",
+      "type": "MULTINATIONAL",
+      "lat": 21.3,
+      "lon": -157.8,
+      "radiusKm": 500,
+      "nations": "🇺🇸🇯🇵🇦🇺🇰🇷🇨🇦🇬🇧🇮🇳 + 20 Pacific partners",
+      "period": "Jun-Aug 2026",
+      "personnel": "~25,000",
+      "summary": "World's largest international maritime exercise. Held biennially near Hawaii. Anti-submarine warfare, amphibious ops, live-fire exercises, HADR.",
+      "components": [
+        "Carrier ops",
+        "Submarine warfare",
+        "Amphibious assault",
+        "Live-fire sinking exercise"
+      ]
+    },
+    {
+      "name": "STEADFAST DEFENDER",
+      "status": "ONGOING",
+      "type": "NATO",
+      "lat": 58.0,
+      "lon": 15.0,
+      "radiusKm": 600,
+      "nations": "🇺🇸🇬🇧🇩🇪🇫🇷🇳🇴🇸🇪🇫🇮 + all 32 NATO members",
+      "period": "2024-2026 (rolling)",
+      "personnel": "~90,000",
+      "summary": "NATO's largest exercise since Cold War. Tests new defense plans against near-peer threat. Full-spectrum operations from Arctic to Mediterranean.",
+      "components": [
+        "Article 5 scenarios",
+        "Nuclear deterrence",
+        "Integrated air/missile defense",
+        "Maritime interdiction"
+      ]
+    },
+    {
+      "name": "COBRA GOLD",
+      "status": "ANNUAL",
+      "type": "MULTINATIONAL",
+      "lat": 14.5,
+      "lon": 101.0,
+      "radiusKm": 200,
+      "nations": "🇺🇸🇹🇭🇯🇵🇰🇷🇸🇬🇮🇩🇲🇾",
+      "period": "Feb-Mar 2026",
+      "personnel": "~10,000",
+      "summary": "Oldest and largest multinational exercise in Asia-Pacific. Hosted by Thailand. Focus on interoperability, humanitarian assistance, and jungle warfare.",
+      "components": [
+        "Jungle warfare",
+        "HADR",
+        "Amphibious landing",
+        "Command post exercise"
+      ]
+    },
+    {
+      "name": "KEEN SWORD",
+      "status": "ANNUAL",
+      "type": "US-JAPAN",
+      "lat": 35.5,
+      "lon": 139.7,
+      "radiusKm": 300,
+      "nations": "🇺🇸🇯🇵",
+      "period": "Oct-Nov (biennial)",
+      "personnel": "~15,000",
+      "summary": "Bilateral US-Japan exercise. Tests defense of Japanese home islands and surrounding seas. Integrates JSDF and USFJ forces.",
+      "components": [
+        "Island defense",
+        "Air superiority",
+        "Anti-ship warfare",
+        "BMD integration"
+      ]
+    },
+    {
+      "name": "VOSTOK (Russia)",
+      "status": "ANNUAL",
+      "type": "RUSSIAN",
+      "lat": 48.0,
+      "lon": 135.0,
+      "radiusKm": 500,
+      "nations": "🇷🇺🇨🇳🇮🇳🇲🇳 (reduced since 2022)",
+      "period": "Varies",
+      "personnel": "~50,000 (claimed)",
+      "summary": "Russia's large-scale strategic exercise in Eastern Military District. Scaled down since Ukraine invasion. Tests Pacific Fleet and Eastern theater readiness.",
+      "components": [
+        "Strategic bomber flights",
+        "Naval fleet ops",
+        "Ground maneuver",
+        "Nuclear readiness drills"
+      ]
+    },
+    {
+      "name": "JOINT SWORD (China)",
+      "status": "RECURRING",
+      "type": "PLA",
+      "lat": 25.0,
+      "lon": 121.0,
+      "radiusKm": 200,
+      "nations": "🇨🇳 PLA",
+      "period": "Triggered by political events",
+      "personnel": "Unknown",
+      "summary": "PLA exercises encircling Taiwan. Simulates blockade and invasion scenarios. Live-fire drills, missile launches into surrounding waters. Escalatory signaling.",
+      "components": [
+        "Naval blockade drill",
+        "Amphibious assault",
+        "Missile launches",
+        "Air superiority ops"
+      ]
+    },
+    {
+      "name": "RED FLAG",
+      "status": "RECURRING",
+      "type": "USAF",
+      "lat": 36.8,
+      "lon": -115.0,
+      "radiusKm": 100,
+      "nations": "🇺🇸 + allied air forces",
+      "period": "Multiple annually at Nellis AFB",
+      "personnel": "~4,000",
+      "summary": "Premier USAF air combat training exercise. Realistic adversary air (\"Red Air\") scenarios. Tests 5th-gen integration, electronic warfare, SEAD/DEAD.",
+      "components": [
+        "BVR air combat",
+        "SEAD/DEAD",
+        "CAS integration",
+        "5th/4th gen fusion"
+      ]
+    }
+  ],
+  "gps_zones": [
+    {
+      "name": "Kaliningrad Jammer",
+      "type": "JAMMING",
+      "severity": "HIGH",
+      "source": "🇷🇺 Russia",
+      "lat": 54.7,
+      "lon": 20.5,
+      "radiusKm": 300,
+      "desc": "Persistent GPS jamming emanating from Russian Kaliningrad exclave. Affects Baltic states, Poland, Finland, Sweden.",
+      "affects": [
+        "Civil aviation GPS",
+        "Maritime navigation",
+        "Drone operations",
+        "Precision agriculture"
+      ]
+    },
+    {
+      "name": "St. Petersburg / NW Russia",
+      "type": "JAMMING",
+      "severity": "HIGH",
+      "source": "🇷🇺 Russia",
+      "lat": 59.9,
+      "lon": 30.3,
+      "radiusKm": 250,
+      "desc": "Major jamming complex protecting St. Petersburg metro area and military installations.",
+      "affects": [
+        "Finnish airspace",
+        "Estonian border",
+        "Baltic Sea shipping",
+        "Civil GPS receivers"
+      ]
+    },
+    {
+      "name": "Moscow Kremlin GPS Spoofing",
+      "type": "SPOOFING",
+      "severity": "MEDIUM",
+      "source": "🇷🇺 Russia",
+      "lat": 55.75,
+      "lon": 37.62,
+      "radiusKm": 50,
+      "desc": "GPS spoofing around Kremlin area. Devices show false position (typically Vnukovo airport).",
+      "affects": [
+        "Ride-share apps",
+        "Personal navigation",
+        "Drone no-fly enforcement",
+        "Fitness trackers"
+      ]
+    },
+    {
+      "name": "Eastern Mediterranean",
+      "type": "SPOOFING",
+      "severity": "HIGH",
+      "source": "🇷🇺/🇸🇾 Khmeimim AB",
+      "lat": 35.4,
+      "lon": 35.9,
+      "radiusKm": 350,
+      "desc": "Massive GPS spoofing from Russian Khmeimim air base in Syria. Affects Cyprus, Lebanon, Turkey.",
+      "affects": [
+        "Beirut FIR flights",
+        "Cyprus airspace",
+        "Med shipping",
+        "Israeli airspace edge"
+      ]
+    },
+    {
+      "name": "Ukraine War Zone",
+      "type": "JAMMING",
+      "severity": "CRITICAL",
+      "source": "🇷🇺/🇺🇦 Both sides",
+      "lat": 48.5,
+      "lon": 37.0,
+      "radiusKm": 400,
+      "desc": "Extensive GPS/GNSS jamming and spoofing across entire Ukrainian front. Both sides deploy EW.",
+      "affects": [
+        "FPV drone guidance",
+        "Precision munitions",
+        "GLONASS/GPS receivers",
+        "HIMARS targeting"
+      ]
+    },
+    {
+      "name": "Northern Black Sea",
+      "type": "SPOOFING",
+      "severity": "MEDIUM",
+      "source": "🇷🇺 Russia",
+      "lat": 44.5,
+      "lon": 34.0,
+      "radiusKm": 200,
+      "desc": "GPS spoofing over northern Black Sea and Crimea. Ships report false AIS positions.",
+      "affects": [
+        "Commercial shipping",
+        "Military navigation",
+        "Overflight GPS",
+        "Search and rescue"
+      ]
+    },
+    {
+      "name": "Iran Border Regions",
+      "type": "SPOOFING",
+      "severity": "MEDIUM",
+      "source": "🇮🇷 Iran",
+      "lat": 32.5,
+      "lon": 53.0,
+      "radiusKm": 400,
+      "desc": "Iranian GPS spoofing capability. Active near nuclear facilities and military installations.",
+      "affects": [
+        "Drone operations",
+        "Overflight navigation",
+        "Gulf shipping",
+        "Military GPS"
+      ]
+    },
+    {
+      "name": "Strait of Hormuz",
+      "type": "SPOOFING",
+      "severity": "MEDIUM",
+      "source": "🇮🇷 IRGC Navy",
+      "lat": 26.5,
+      "lon": 56.2,
+      "radiusKm": 100,
+      "desc": "Intermittent GPS interference in Strait of Hormuz. IRGC capability to spoof ship AIS and GPS.",
+      "affects": [
+        "Oil tanker navigation",
+        "Naval GPS",
+        "AIS positioning",
+        "Maritime safety"
+      ]
+    },
+    {
+      "name": "Northern Israel / Lebanon",
+      "type": "SPOOFING",
+      "severity": "HIGH",
+      "source": "🇮🇱 Israel",
+      "lat": 33.0,
+      "lon": 35.2,
+      "radiusKm": 100,
+      "desc": "Israeli GPS spoofing along northern border. Defensive measure against Hezbollah GPS-guided rockets.",
+      "affects": [
+        "Hezbollah drone/rocket guidance",
+        "Civil aviation approaches",
+        "Lebanese airspace",
+        "Syrian border"
+      ]
+    },
+    {
+      "name": "South China Sea",
+      "type": "SPOOFING",
+      "severity": "LOW",
+      "source": "🇨🇳 China",
+      "lat": 16.0,
+      "lon": 112.0,
+      "radiusKm": 300,
+      "desc": "Reports of GPS manipulation near Chinese-occupied features in Spratly/Paracel Islands.",
+      "affects": [
+        "Naval navigation",
+        "Fishing fleet GPS",
+        "Commercial shipping",
+        "US FONOPs"
+      ]
+    },
+    {
+      "name": "North Korea",
+      "type": "JAMMING",
+      "severity": "MEDIUM",
+      "source": "🇰🇵 DPRK",
+      "lat": 38.0,
+      "lon": 126.5,
+      "radiusKm": 150,
+      "desc": "North Korean GPS jammers along DMZ. Periodically activated to disrupt South Korean navigation.",
+      "affects": [
+        "South Korean military",
+        "Incheon airport",
+        "Seoul metro area GPS",
+        "Maritime traffic"
+      ]
+    }
+  ],
+  "notams": [
+    {
+      "name": "Ukraine Conflict Zone TFR",
+      "type": "CONFLICT",
+      "severity": "PROHIBITED",
+      "lat": 48.5,
+      "lon": 36.0,
+      "radiusKm": 500,
+      "issued": "Feb 2022 — ONGOING",
+      "altitude": "ALL ALTITUDES (SFC-UNL)",
+      "desc": "Total airspace closure over Ukraine and surrounding areas. All civil overflights banned.",
+      "authority": "EUROCONTROL / Ukrainian ANSP"
+    },
+    {
+      "name": "Eastern Med TFR — Gaza",
+      "type": "CONFLICT",
+      "severity": "RESTRICTED",
+      "lat": 31.4,
+      "lon": 34.3,
+      "radiusKm": 60,
+      "issued": "Oct 2023 — ONGOING",
+      "altitude": "SFC-FL500",
+      "desc": "Airspace restrictions over Gaza and southern Israel. Active military operations.",
+      "authority": "Israeli CAA / IAF"
+    },
+    {
+      "name": "Red Sea Danger Area",
+      "type": "MILITARY",
+      "severity": "DANGER",
+      "lat": 14.0,
+      "lon": 42.5,
+      "radiusKm": 200,
+      "issued": "Nov 2023 — ONGOING",
+      "altitude": "SFC-UNL",
+      "desc": "Danger area over southern Red Sea and Gulf of Aden. Active Houthi threat.",
+      "authority": "US NAVCENT / CENTCOM"
+    },
+    {
+      "name": "Nevada Test & Training Range",
+      "type": "MOA",
+      "severity": "RESTRICTED",
+      "lat": 37.2,
+      "lon": -116.0,
+      "radiusKm": 120,
+      "issued": "PERMANENT",
+      "altitude": "SFC-FL600",
+      "desc": "Largest military airspace. Home to Nellis AFB, Area 51, Tonopah Test Range.",
+      "authority": "USAF / FAA"
+    },
+    {
+      "name": "White Sands Missile Range",
+      "type": "MOA",
+      "severity": "RESTRICTED",
+      "lat": 32.4,
+      "lon": -106.3,
+      "radiusKm": 80,
+      "issued": "PERMANENT",
+      "altitude": "SFC-UNL",
+      "desc": "Primary US missile testing facility. Hypersonic weapons, air defense, directed energy.",
+      "authority": "US Army / FAA"
+    },
+    {
+      "name": "Aegean Sea — Turkish/Greek Exercises",
+      "type": "MILITARY",
+      "severity": "DANGER",
+      "lat": 38.5,
+      "lon": 25.5,
+      "radiusKm": 150,
+      "issued": "RECURRING",
+      "altitude": "SFC-FL300",
+      "desc": "Frequent Turkish and Greek military exercise NOTAMs in the Aegean.",
+      "authority": "Turkish/Greek CAA"
+    },
+    {
+      "name": "Persian Gulf Naval Exercise Area",
+      "type": "MILITARY",
+      "severity": "DANGER",
+      "lat": 26.0,
+      "lon": 53.0,
+      "radiusKm": 200,
+      "issued": "RECURRING",
+      "altitude": "SFC-FL250",
+      "desc": "Iranian and US/coalition naval exercise areas.",
+      "authority": "Iran CAA / CENTCOM"
+    },
+    {
+      "name": "South China Sea ADIZ/TFR",
+      "type": "MILITARY",
+      "severity": "RESTRICTED",
+      "lat": 16.5,
+      "lon": 112.0,
+      "radiusKm": 350,
+      "issued": "RECURRING",
+      "altitude": "SFC-UNL",
+      "desc": "Chinese military NOTAMs for live-fire exercises, missile launches, and naval drills.",
+      "authority": "PLA / CAAC"
+    },
+    {
+      "name": "Barents Sea — Russian Missile Tests",
+      "type": "MILITARY",
+      "severity": "DANGER",
+      "lat": 72.0,
+      "lon": 40.0,
+      "radiusKm": 300,
+      "issued": "RECURRING",
+      "altitude": "SFC-UNL",
+      "desc": "Russian NOTAM area for ICBM/SLBM tests and Northern Fleet exercises.",
+      "authority": "Russian MoD"
+    },
+    {
+      "name": "Korean Peninsula ADIZ Overlap",
+      "type": "ADIZ",
+      "severity": "RESTRICTED",
+      "lat": 37.5,
+      "lon": 127.0,
+      "radiusKm": 150,
+      "issued": "PERMANENT",
+      "altitude": "SFC-UNL",
+      "desc": "Overlapping KADIZ/JADIZ/Chinese ADIZ. North Korean missile test NOTAMs.",
+      "authority": "ROK MND / USFK"
+    }
+  ]
+}
