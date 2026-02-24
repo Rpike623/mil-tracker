@@ -1788,16 +1788,16 @@ let allNews=[];
 
 async function fetchRSS(src){
   try{
-    const proxy='https://api.allorigins.win/raw?url='+encodeURIComponent(src.url);
-    const r=await fetch(proxy,{signal:AbortSignal.timeout(8000)});
-    const txt=await r.text();
-    const doc=new DOMParser().parseFromString(txt,'text/xml');
-    const items=[...doc.querySelectorAll('item')].slice(0,8);
-    return items.map(i=>({
+    // rss2json returns clean JSON — no XML parsing needed, no CORS issues
+    const api='https://api.rss2json.com/v1/api.json?rss_url='+encodeURIComponent(src.url)+'&count=8';
+    const r=await fetch(api,{signal:AbortSignal.timeout(10000)});
+    const d=await r.json();
+    if(d.status!=='ok'||!d.items) return [];
+    return d.items.map(i=>({
       source:src.label,
-      title:(i.querySelector('title')?.textContent||'').replace('<![CDATA[','').replace(']]>','').trim(),
-      link:i.querySelector('link')?.textContent?.trim()||'#',
-      date:new Date(i.querySelector('pubDate')?.textContent||Date.now()),
+      title:(i.title||'').replace(/<[^>]+>/g,'').trim(),
+      link:i.link||'#',
+      date:new Date(i.pubDate||Date.now()),
     })).filter(n=>n.title);
   }catch(e){return[];}
 }
