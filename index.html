@@ -341,23 +341,95 @@ body::after{
 .naval-chokepoint .nc-name{font-size:10px;color:var(--text);font-family:'Share Tech Mono',monospace}
 .naval-chokepoint .nc-status{font-size:9px;font-weight:700;font-family:'Share Tech Mono',monospace;letter-spacing:.5px}
 
+/* Mobile hamburger button */
+.mob-menu-btn{display:none;background:rgba(0,12,0,.85);border:1px solid rgba(0,255,65,.2);color:var(--accent);padding:5px 10px;border-radius:2px;cursor:pointer;font-size:16px;line-height:1;flex-shrink:0;-webkit-tap-highlight-color:transparent}
+.mob-menu-btn:active{background:rgba(0,30,0,.9)}
+.mob-drawer{display:none;position:fixed;top:0;left:0;right:0;bottom:0;z-index:9990;flex-direction:column;background:rgba(0,0,0,.97)}
+.mob-drawer.open{display:flex}
+.mob-drawer-head{flex-shrink:0;padding:10px 14px;border-bottom:1px solid rgba(0,255,65,.2);display:flex;align-items:center;justify-content:space-between;background:rgba(0,8,0,.98)}
+.mob-drawer-head .logo{font-family:'Orbitron',monospace;font-size:12px;font-weight:700;color:var(--accent);letter-spacing:2px}
+.mob-drawer-close{background:rgba(0,12,0,.85);border:1px solid rgba(0,255,65,.2);color:var(--accent);width:36px;height:36px;border-radius:2px;cursor:pointer;font-size:20px;display:flex;align-items:center;justify-content:center}
+.mob-drawer-body{flex:1;overflow-y:auto;padding:10px 12px;display:flex;flex-direction:column;gap:12px}
+.mob-section-label{font-size:9px;text-transform:uppercase;letter-spacing:1.5px;color:rgba(0,255,65,.4);font-family:'Share Tech Mono',monospace;margin-bottom:4px}
+.mob-btn-row{display:flex;flex-wrap:wrap;gap:6px}
+.mob-btn-row .tb-btn{font-size:11px;padding:7px 12px}
+
 /* Mobile */
 @media(max-width:768px){
   body{overflow-y:auto;overflow-x:hidden;height:auto}
   .dashboard{display:block;height:auto}
-  .w-map{height:55vmax;min-height:300px;max-height:70vh;position:relative;display:block}
+
+  /* Map widget: explicit height so Leaflet can render */
+  .w-map{height:60vw;min-height:260px;max-height:55vh;position:relative;display:block}
   #map{position:absolute;top:0;left:0;right:0;bottom:0}
-  .w-zones,.w-stats,.w-activity,.w-log,.widget{height:250px;display:flex;flex-direction:column}
-  .topbar{padding:5px 8px;position:sticky;top:0;z-index:9999}
-  .tb-btn{padding:4px 6px;font-size:9px}
-  .tb-search{width:90px}
-  .tb-sep{display:none}
-  .tb-label{display:none}
-  .infopanel{left:8px!important;right:8px!important;width:auto!important;bottom:50px!important;max-height:40vh!important}
+
+  /* Stack all widgets to full width with fixed heights */
+  .dashboard .widget{width:100%;display:flex;flex-direction:column}
+  .w-zones,.w-stats{height:230px}
+  .w-activity{height:250px}
+  .w-log{height:250px}
+  /* Adversary + naval span full width */
+  .dashboard .widget[style*="grid-column:2/4"]{height:260px;width:100%}
+
+  /* Topbar: collapse overflow, show only essentials + hamburger */
+  .topbar{padding:5px 8px;position:sticky;top:0;z-index:9999;flex-wrap:nowrap;overflow:hidden;justify-content:flex-start}
+  .topbar .logo{font-size:11px;letter-spacing:1px;margin-right:6px;white-space:nowrap;flex-shrink:0}
+  /* Show only country filter buttons + search + hamburger; hide the rest */
+  .topbar .tb-btn:not(.mob-always):not([id^="bc-"]):not([onclick="fetchData()"]):not(.tile-btn){display:none}
+  .topbar .tb-sep{display:none}
+  .topbar .tb-label{display:none}
+  .topbar .hb-live{display:none}
+  #hb-time{display:none}
+  .tb-search{width:80px;flex-shrink:0}
+  .mob-menu-btn{display:flex;align-items:center;margin-left:auto;flex-shrink:0}
+
+  /* Country buttons: compact */
+  #bc-all,#bc-us,#bc-iran,#bc-russia,#bc-china,#bc-allied{padding:4px 6px;font-size:10px}
+  /* Tile buttons stay hidden on mobile (moved to drawer) */
+  .topbar .tile-btn{display:none}
+  /* Refresh button stays */
+  .topbar button[onclick="fetchData()"]{display:inline-flex!important;padding:4px 7px;font-size:10px}
+
+  /* Clock bar: scroll horizontally */
+  .clock-bar{flex-wrap:nowrap;overflow-x:auto;-webkit-overflow-scrolling:touch}
+  .clock-cell{min-width:68px;padding:3px 8px}
+  .clock-label{font-size:7px}
+  .clock-time{font-size:11px}
+  #clk-zulu{font-size:13px}
+
+  /* Info panel: full-width near bottom */
+  .infopanel{left:8px!important;right:8px!important;width:auto!important;bottom:8px!important;max-height:45vh!important}
   .infopanel .x{width:36px;height:36px;font-size:22px}
-  .region-btns{bottom:8px}
-  .region-btns button{font-size:9px;padding:3px 5px}
+
+  /* Region buttons: horizontal row at bottom-left */
+  .region-btns{flex-direction:row;flex-wrap:wrap;bottom:8px;left:8px;gap:4px;max-width:calc(100% - 16px)}
+  .region-btns button{font-size:9px;padding:4px 7px}
+
+  /* Map legend: hidden on mobile (use drawer) */
   .map-legend{display:none}
+
+  /* Boot screen: scale to mobile */
+  .boot-screen{padding:20px 16px}
+  .boot-line{font-size:10px}
+  .boot-line.head{font-size:11px;letter-spacing:1px}
+  .boot-line.ascii{font-size:8px}
+  .boot-progress{width:100%}
+
+  /* Bottom info bar: stack vertically */
+  .bottom-bar{flex-direction:column!important;height:auto!important}
+  .bottom-bar > div{width:100%!important;min-width:0!important;max-width:none!important;border-right:none!important;border-bottom:1px solid rgba(0,255,65,.1)!important;height:160px!important;flex-shrink:0!important}
+  .bottom-bar > div:last-child{border-bottom:none!important}
+  /* News strip and polymarket: horizontal scroll within */
+  #polyStrip,#newsStrip{overflow-x:auto;overflow-y:hidden;display:flex;align-items:stretch}
+
+  /* Briefing modal: full screen */
+  .brief-modal{width:100%;max-width:none;max-height:90vh;border-radius:0;border-left:0;border-right:0}
+
+  /* Nuke panel: full width at bottom */
+  .nuke-panel{left:8px!important;right:8px!important;bottom:8px!important;width:auto!important}
+
+  /* Hide cinema label on mobile */
+  .cinema-label{display:none!important}
 }
 
 /* ── WIDGET SYSTEM (legacy removed) ── */
@@ -658,25 +730,7 @@ body::after{
 .nuke-panel select,.nuke-panel button{background:rgba(0,8,0,.9);border:1px solid rgba(0,255,65,.15);color:var(--accent);padding:4px 8px;font-family:'Share Tech Mono',monospace;font-size:10px;border-radius:2px;width:100%;cursor:pointer}
 .nuke-panel button:hover{border-color:var(--accent);box-shadow:0 0 8px rgba(0,255,65,.2)}
 
-/* Responsive */
-@media(max-width:768px){
-  body{overflow-y:auto;overflow-x:hidden;height:auto}
-  .dashboard{display:block;height:auto}
-  /* Map widget: explicit height so Leaflet can render */
-  .w-map{height:55vmax;min-height:300px;max-height:70vh;position:relative;display:block}
-  #map{position:absolute;top:0;left:0;right:0;bottom:0}
-  .w-zones,.w-stats,.w-activity,.w-log{height:220px;display:flex;flex-direction:column}
-  .topbar{padding:5px 8px;position:sticky;top:0;z-index:9999}
-  .tb-btn{padding:4px 6px;font-size:10px}
-  .tb-search{width:90px}
-  .tb-sep{display:none}
-  .tb-label{display:none}
-  .infopanel{left:8px!important;right:8px!important;width:auto!important;bottom:50px!important;max-height:40vh!important}
-  .infopanel .x{width:36px;height:36px;font-size:22px}
-  .region-btns{bottom:8px}
-  .region-btns button{font-size:9px;padding:3px 5px}
-  .map-legend{display:none}
-}
+/* (mobile styles consolidated above) */
 </style>
 </head>
 <body>
@@ -793,6 +847,75 @@ body::after{
   <div class="tb-sep"></div>
   <span class="hb-live" id="hb-indicator">● LIVE</span>
   <span style="font-size:9px;color:var(--muted);font-family:'Share Tech Mono',monospace" id="hb-time"></span>
+  <!-- MOBILE HAMBURGER BUTTON -->
+  <button class="mob-menu-btn" onclick="toggleMobDrawer()" aria-label="Menu">☰</button>
+</div>
+
+<!-- MOBILE DRAWER -->
+<div class="mob-drawer" id="mobDrawer">
+  <div class="mob-drawer-head">
+    <span class="logo">⚡ PIKECLAW // CONTROLS</span>
+    <button class="mob-drawer-close" onclick="toggleMobDrawer()">×</button>
+  </div>
+  <div class="mob-drawer-body">
+    <div>
+      <div class="mob-section-label">Aircraft Filter — Type</div>
+      <div class="mob-btn-row">
+        <button class="tb-btn on" id="mob-bt-all" onclick="setTF('all');updateMobTypeButtons('all')">All</button>
+        <button class="tb-btn" id="mob-bt-fighter" onclick="setTF('fighter');updateMobTypeButtons('fighter')">✈️ Fighter</button>
+        <button class="tb-btn" id="mob-bt-transport" onclick="setTF('transport');updateMobTypeButtons('transport')">🛩️ Transport</button>
+        <button class="tb-btn" id="mob-bt-tanker" onclick="setTF('tanker');updateMobTypeButtons('tanker')">⛽ Tanker</button>
+        <button class="tb-btn" id="mob-bt-recon" onclick="setTF('recon');updateMobTypeButtons('recon')">🔍 ISR</button>
+        <button class="tb-btn" id="mob-bt-heli" onclick="setTF('heli');updateMobTypeButtons('heli')">🚁 Heli</button>
+        <button class="tb-btn" id="mob-bt-bomber" onclick="setTF('bomber');updateMobTypeButtons('bomber')">💣 Bomber</button>
+      </div>
+    </div>
+    <div>
+      <div class="mob-section-label">Map Style</div>
+      <div class="mob-btn-row">
+        <button class="tb-btn tile-btn on" data-t="dark" onclick="setTile('dark')">🌑 Dark</button>
+        <button class="tb-btn tile-btn" data-t="satellite" onclick="setTile('satellite')">🛰️ Sat</button>
+        <button class="tb-btn tile-btn" data-t="terrain" onclick="setTile('terrain')">🗺️ Terrain</button>
+      </div>
+    </div>
+    <div>
+      <div class="mob-section-label">Map Overlays</div>
+      <div class="mob-btn-row">
+        <button class="tb-btn" id="mob-btn-bases" onclick="toggleBases()">📍 Bases</button>
+        <button class="tb-btn" id="mob-btn-missiles" onclick="toggleMissiles()">🚀 Ranges</button>
+        <button class="tb-btn" id="mob-btn-nuclear" onclick="toggleNuclear()">☢️ WMD</button>
+        <button class="tb-btn" id="mob-btn-airdef" onclick="toggleAirDef()">🛡️ Air Def</button>
+        <button class="tb-btn" id="mob-btn-quakes" onclick="toggleQuakes()">🌍 Quakes</button>
+        <button class="tb-btn" id="mob-btn-notams" onclick="toggleNOTAMs()">🔴 NOTAMs</button>
+        <button class="tb-btn" id="mob-btn-gpsjam" onclick="toggleGPSJam()">📡 GPS Jam</button>
+        <button class="tb-btn" id="mob-btn-exercises" onclick="toggleExercises()">🎯 Exercises</button>
+        <button class="tb-btn" id="mob-btn-conflicts" onclick="toggleConflicts()">⚔️ Conflicts</button>
+        <button class="tb-btn on" id="mob-btn-naval" onclick="toggleNavalLayer()">🚢 Naval</button>
+        <button class="tb-btn" id="mob-btn-terminator" onclick="toggleTerminator()">🌗 Day/Night</button>
+        <button class="tb-btn" id="mob-btn-paths" onclick="toggleFlightPaths()">➤ Paths</button>
+        <button class="tb-btn" id="mob-btn-nuke" onclick="toggleNukeMode()">☢️ Nuke Calc</button>
+      </div>
+    </div>
+    <div>
+      <div class="mob-section-label">Tools</div>
+      <div class="mob-btn-row">
+        <button class="tb-btn" onclick="showBriefing()" style="background:rgba(0,255,65,.08);border-color:rgba(0,255,65,.3)">📋 Brief</button>
+        <button class="tb-btn" onclick="toggleAudio()">🔇 Sound</button>
+        <button class="tb-btn" onclick="toggleNotifications()">🔔 Alerts</button>
+        <button class="tb-btn" onclick="fetchData()">🔄 Refresh</button>
+      </div>
+    </div>
+    <div style="border-top:1px solid rgba(0,255,65,.1);padding-top:10px">
+      <div class="mob-section-label">Region Jump</div>
+      <div class="mob-btn-row">
+        <button class="tb-btn" onclick="goTo(30,50,5);toggleMobDrawer()">🔥 Mid East</button>
+        <button class="tb-btn" onclick="goTo(38,-97,4);toggleMobDrawer()">🇺🇸 CONUS</button>
+        <button class="tb-btn" onclick="goTo(50,15,4);toggleMobDrawer()">🇪🇺 Europe</button>
+        <button class="tb-btn" onclick="goTo(25,125,4);toggleMobDrawer()">🌏 Pacific</button>
+        <button class="tb-btn" onclick="goTo(20,0,2);toggleMobDrawer()">🌍 Global</button>
+      </div>
+    </div>
+  </div>
 </div>
 
 <!-- ZULU CLOCK BAR -->
@@ -917,7 +1040,7 @@ body::after{
 </div>
 
 <!-- BOTTOM INFO BAR -->
-<div style="flex-shrink:0;height:175px;display:flex;border-top:1px solid rgba(0,255,65,.15);background:#000">
+<div class="bottom-bar" style="flex-shrink:0;height:175px;display:flex;border-top:1px solid rgba(0,255,65,.15);background:#000">
 
   <!-- POLYMARKET WIDGET -->
   <div style="width:300px;flex-shrink:0;border-right:1px solid var(--border);display:flex;flex-direction:column;overflow:hidden">
@@ -1167,6 +1290,24 @@ const BASES = [
 const baseCols={us:'#00ff41',iran:'#ff2040',russia:'#dc2626',china:'#e5ff00'};
 let baseMarkers=[];
 let basesVisible=false;
+
+// ════════════════════════════════════════
+// MOBILE DRAWER
+// ════════════════════════════════════════
+function toggleMobDrawer(){
+  const d=document.getElementById('mobDrawer');
+  if(!d) return;
+  d.classList.toggle('open');
+  // Sync overlay button states into drawer buttons
+  ['bases','missiles','nuclear','airdef','quakes','notams','gpsjam','exercises','conflicts','naval','terminator','paths','nuke'].forEach(id=>{
+    const src=document.getElementById('btn-'+id);
+    const dst=document.getElementById('mob-btn-'+id);
+    if(src&&dst) dst.className=src.className.replace('btn-'+id,'mob-btn-'+id);
+  });
+}
+function updateMobTypeButtons(active){
+  document.querySelectorAll('[id^="mob-bt-"]').forEach(b=>b.classList.toggle('on',b.id==='mob-bt-'+active));
+}
 
 function toggleBases(){
   basesVisible=!basesVisible;
@@ -1475,7 +1616,9 @@ function setCF(f){
 function setTF(f){
   tFilt=f;
   document.querySelectorAll('[id^="bt-"]').forEach(b=>b.classList.remove('on'));
-  document.getElementById('bt-'+f).classList.add('on');
+  const el=document.getElementById('bt-'+f);if(el)el.classList.add('on');
+  // Sync mobile drawer type buttons
+  document.querySelectorAll('[id^="mob-bt-"]').forEach(b=>b.classList.toggle('on',b.id==='mob-bt-'+f));
   render();
 }
 function doSearch(){searchQ=document.getElementById('searchBox').value.toUpperCase();render();}
