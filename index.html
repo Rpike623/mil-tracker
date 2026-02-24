@@ -607,6 +607,7 @@ body::after{
   <button class="tb-btn" id="btn-missiles" onclick="toggleMissiles()">🚀 Ranges</button>
   <button class="tb-btn" id="btn-nuclear" onclick="toggleNuclear()">☢️ WMD Sites</button>
   <button class="tb-btn" id="btn-airdef" onclick="toggleAirDef()">🛡️ Air Defense</button>
+  <button class="tb-btn" id="btn-notams" onclick="toggleNOTAMs()">🔴 NOTAMs</button>
   <button class="tb-btn" id="btn-gpsjam" onclick="toggleGPSJam()">📡 GPS Jam</button>
   <button class="tb-btn" id="btn-exercises" onclick="toggleExercises()">🎯 Exercises</button>
   <button class="tb-btn" id="btn-conflicts" onclick="toggleConflicts()">⚔️ Conflicts</button>
@@ -2104,6 +2105,124 @@ function renderAdvPanel(adv){
   h += `</div>`;
   pane.innerHTML = h;
 }
+// ════════════════════════════════════════
+// TFR / NOTAM OVERLAY
+// ════════════════════════════════════════
+const NOTAMS = [
+  // Active conflict TFRs
+  {name:'Ukraine Conflict Zone TFR', type:'CONFLICT', severity:'PROHIBITED',
+   lat:48.5, lon:36.0, radiusKm:500, color:'#ef4444',
+   issued:'Feb 2022 — ONGOING', altitude:'ALL ALTITUDES (SFC-UNL)',
+   desc:'Total airspace closure over Ukraine and surrounding areas. EUROCONTROL prohibited zone. All civil overflights banned since Russian invasion.',
+   authority:'EUROCONTROL / Ukrainian ANSP'},
+  {name:'Eastern Med TFR — Gaza', type:'CONFLICT', severity:'RESTRICTED',
+   lat:31.4, lon:34.3, radiusKm:60, color:'#ef4444',
+   issued:'Oct 2023 — ONGOING', altitude:'SFC-FL500',
+   desc:'Airspace restrictions over Gaza and southern Israel. Active military operations. Ben Gurion diversions during escalations.',
+   authority:'Israeli CAA / IAF'},
+  {name:'Red Sea Danger Area', type:'MILITARY', severity:'DANGER',
+   lat:14.0, lon:42.5, radiusKm:200, color:'#f97316',
+   issued:'Nov 2023 — ONGOING', altitude:'SFC-UNL',
+   desc:'Danger area over southern Red Sea and Gulf of Aden. Active Houthi anti-ship missile and drone threat. Military operations by US/UK forces.',
+   authority:'US NAVCENT / CENTCOM'},
+  // Military operating areas
+  {name:'Nevada Test & Training Range', type:'MOA', severity:'RESTRICTED',
+   lat:37.2, lon:-116.0, radiusKm:120, color:'#00ff41',
+   issued:'PERMANENT', altitude:'SFC-FL600',
+   desc:'Largest military airspace in the free world. Home to Nellis AFB, Area 51, Tonopah Test Range. Red Flag exercises, stealth testing, weapons development.',
+   authority:'USAF / FAA'},
+  {name:'White Sands Missile Range', type:'MOA', severity:'RESTRICTED',
+   lat:32.4, lon:-106.3, radiusKm:80, color:'#00ff41',
+   issued:'PERMANENT', altitude:'SFC-UNL',
+   desc:'Primary US missile testing facility. Hypersonic weapons testing, air defense systems, directed energy weapons. Periodic closures for live fire.',
+   authority:'US Army / FAA'},
+  {name:'Aegean Sea — Turkish/Greek Exercises', type:'MILITARY', severity:'DANGER',
+   lat:38.5, lon:25.5, radiusKm:150, color:'#eab308',
+   issued:'RECURRING', altitude:'SFC-FL300',
+   desc:'Frequent Turkish and Greek military exercise NOTAMs in the Aegean. Air and naval exercises. Overlapping FIR disputes. NATO deconfliction required.',
+   authority:'Turkish/Greek CAA'},
+  {name:'Persian Gulf Naval Exercise Area', type:'MILITARY', severity:'DANGER',
+   lat:26.0, lon:53.0, radiusKm:200, color:'#f97316',
+   issued:'RECURRING', altitude:'SFC-FL250',
+   desc:'Iranian and US/coalition naval exercise areas. IRGCN live-fire drills, US carrier ops. NOTAMs issued for missile tests and naval gunfire.',
+   authority:'Iran CAA / CENTCOM'},
+  {name:'South China Sea ADIZ/TFR', type:'MILITARY', severity:'RESTRICTED',
+   lat:16.5, lon:112.0, radiusKm:350, color:'#eab308',
+   issued:'RECURRING', altitude:'SFC-UNL',
+   desc:'Chinese military NOTAMs for live-fire exercises, missile launches, and naval drills. Periodic closures of large ocean areas. Affects international shipping lanes.',
+   authority:'PLA / CAAC'},
+  {name:'Barents Sea — Russian Missile Tests', type:'MILITARY', severity:'DANGER',
+   lat:72.0, lon:40.0, radiusKm:300, color:'#dc2626',
+   issued:'RECURRING', altitude:'SFC-UNL',
+   desc:'Russian NOTAM area for ICBM tests from Plesetsk, SLBM tests from Northern Fleet submarines, and Novaya Zemlya nuclear test site proximity.',
+   authority:'Russian MoD'},
+  {name:'Korean Peninsula ADIZ Overlap', type:'ADIZ', severity:'RESTRICTED',
+   lat:37.5, lon:127.0, radiusKm:150, color:'#eab308',
+   issued:'PERMANENT', altitude:'SFC-UNL',
+   desc:'Overlapping KADIZ/JADIZ/Chinese ADIZ. North Korean missile test NOTAMs. US-ROK exercise NOTAMs. One of the most contested airspaces globally.',
+   authority:'ROK MND / USFK'},
+];
+
+let notamLayer = L.layerGroup();
+let notamsVisible = false;
+
+function toggleNOTAMs(){
+  notamsVisible = !notamsVisible;
+  const btn = document.getElementById('btn-notams');
+  if(notamsVisible){
+    notamLayer.addTo(map);
+    btn.classList.add('on');
+    renderNOTAMs();
+  } else {
+    map.removeLayer(notamLayer);
+    btn.classList.remove('on');
+  }
+}
+
+function renderNOTAMs(){
+  notamLayer.clearLayers();
+  if(!notamsVisible) return;
+  NOTAMS.forEach(n => {
+    const dashMap = {PROHIBITED:'',RESTRICTED:'6 4',DANGER:'4 8',MOA:'10 6',ADIZ:'3 6'};
+    const circle = L.circle([n.lat, n.lon], {
+      radius: n.radiusKm * 1000,
+      fillColor: n.color,
+      fillOpacity: 0.05,
+      color: n.color,
+      weight: 2,
+      opacity: 0.35,
+      dashArray: dashMap[n.severity]||'6 4'
+    });
+
+    const icon = n.severity==='PROHIBITED'?'🚫':n.severity==='DANGER'?'⚠️':n.type==='MOA'?'✈️':'🔴';
+    const marker = L.marker([n.lat, n.lon], {
+      icon: L.divIcon({
+        html:`<div style="font-size:13px;text-shadow:0 0 6px ${n.color}80;cursor:pointer">${icon}</div>`,
+        className:'', iconSize:[13,13], iconAnchor:[7,7]
+      })
+    });
+
+    marker.bindTooltip(`${icon} ${n.name}`, {className:'dark-tooltip', direction:'top', offset:[0,-8]});
+    marker.on('click', () => {
+      document.getElementById('pTitle').textContent = n.name;
+      document.getElementById('pBody').innerHTML = `
+        <div style="margin-bottom:6px">
+          <span style="font-size:10px;padding:2px 8px;border-radius:2px;font-weight:700;font-family:'Share Tech Mono',monospace;background:${n.color}18;color:${n.color};border:1px solid ${n.color}40">${n.severity}</span>
+          <span style="font-size:10px;padding:2px 8px;border-radius:2px;font-family:'Share Tech Mono',monospace;background:rgba(0,255,65,.05);color:var(--muted);border:1px solid rgba(0,255,65,.1);margin-left:4px">${n.type}</span>
+        </div>
+        <div class="f"><span class="k">Issued: </span><span class="v">${n.issued}</span></div>
+        <div class="f"><span class="k">Altitude: </span><span class="v">${n.altitude}</span></div>
+        <div class="f"><span class="k">Authority: </span><span class="v">${n.authority}</span></div>
+        <div style="margin-top:6px;font-size:10px;color:var(--text);line-height:1.5">${n.desc}</div>
+      `;
+      document.getElementById('infoP').classList.add('vis');
+    });
+
+    notamLayer.addLayer(circle);
+    notamLayer.addLayer(marker);
+  });
+}
+
 // ════════════════════════════════════════
 // GPS JAMMING / SPOOFING ZONES
 // ════════════════════════════════════════
