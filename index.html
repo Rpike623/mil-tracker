@@ -707,18 +707,29 @@ const map = L.map('map', { center:[30,50], zoom:5, zoomControl:true });
 const TILES = {
   dark: L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_nolabels/{z}/{x}/{y}{r}.png', {attribution:'&copy; OSM &copy; CARTO | adsb.lol',subdomains:'abcd',maxZoom:19}),
   labels: L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_only_labels/{z}/{x}/{y}{r}.png', {subdomains:'abcd',maxZoom:19,pane:'overlayPane'}),
+  borders: L.tileLayer('https://stamen-tiles.a.ssl.fastly.net/toner-lines/{z}/{x}/{y}.png', {maxZoom:18,opacity:0.25,pane:'overlayPane'}),
   satellite: L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {attribution:'&copy; Esri',maxZoom:19}),
   terrain: L.tileLayer('https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png', {attribution:'&copy; OSM',subdomains:'abc',maxZoom:17}),
 };
 let currentTile = 'dark';
 TILES.dark.addTo(map);
 TILES.labels.addTo(map);
-// Tint the map blue
+TILES.borders.addTo(map);
+// Tint the map green for situation room aesthetic
 const mapEl = document.getElementById('map');
 mapEl.style.filter = 'hue-rotate(85deg) saturate(0.5) brightness(0.65) contrast(1.2)';
 
 function setTile(t){
   map.removeLayer(TILES[currentTile]);
+  if(t==='dark'){
+    // Re-add borders + labels for dark mode
+    if(!map.hasLayer(TILES.borders)) TILES.borders.addTo(map);
+    if(!map.hasLayer(TILES.labels)) TILES.labels.addTo(map);
+  } else {
+    // Remove extra layers for sat/terrain (they have their own features)
+    if(map.hasLayer(TILES.borders)) map.removeLayer(TILES.borders);
+    if(map.hasLayer(TILES.labels)) map.removeLayer(TILES.labels);
+  }
   currentTile=t;
   TILES[t].addTo(map);
   document.querySelectorAll('.tile-btn').forEach(b=>b.classList.toggle('on',b.dataset.t===t));
