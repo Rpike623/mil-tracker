@@ -140,7 +140,7 @@ body::after{
 .tb-label{font-size:9px;color:var(--muted);text-transform:uppercase;letter-spacing:1px;white-space:nowrap;font-family:'Share Tech Mono',monospace}
 
 /* ── WIDGET SYSTEM ── */
-.dashboard{flex:1;display:grid;grid-template-columns:1fr 270px 270px;grid-template-rows:1fr 1fr 1fr;min-height:0;gap:0}
+.dashboard{flex:1;display:grid;grid-template-columns:1fr 270px 270px;grid-template-rows:1fr 1fr 1fr 220px;min-height:0;gap:0}
 .widget{
   background:rgba(0,4,0,0.92);
   border:1px solid rgba(0,255,65,.1);
@@ -325,6 +325,25 @@ body::after{
 /* Section headers in panels */
 .rp-section{padding:6px 12px 4px;font-size:9px;text-transform:uppercase;letter-spacing:1px;color:rgba(0,255,65,.4);border-bottom:1px solid rgba(0,255,65,.06);font-family:'Share Tech Mono',monospace}
 
+/* CENTCOM Assets widget */
+.centcom-col{flex:1;border-right:1px solid rgba(0,255,65,.08);display:flex;flex-direction:column;overflow:hidden;min-width:0}
+.centcom-col:last-child{border-right:none}
+.centcom-col-head{flex-shrink:0;padding:5px 10px;background:rgba(0,255,65,.03);border-bottom:1px solid rgba(0,255,65,.08);font-size:9px;font-family:'Share Tech Mono',monospace;text-transform:uppercase;letter-spacing:1.2px;color:rgba(0,255,65,.5);display:flex;align-items:center;gap:5px}
+.centcom-col-body{flex:1;overflow-y:auto;overflow-x:hidden}
+.centcom-col-body::-webkit-scrollbar{width:3px}
+.centcom-col-body::-webkit-scrollbar-thumb{background:rgba(0,255,65,.15)}
+.ca-item{padding:6px 10px;border-bottom:1px solid rgba(0,255,65,.05);cursor:pointer;transition:background .15s}
+.ca-item:hover{background:rgba(0,255,65,.04)}
+.ca-item:last-child{border-bottom:none}
+.ca-name{font-size:11px;font-weight:700;color:var(--accent);font-family:'Share Tech Mono',monospace;letter-spacing:.4px;margin-bottom:2px}
+.ca-sub{font-size:10px;color:var(--text);line-height:1.35;margin-bottom:2px}
+.ca-meta{font-size:9px;color:var(--muted);font-family:'Share Tech Mono',monospace;display:flex;gap:8px;flex-wrap:wrap}
+.ca-badge{display:inline-block;padding:1px 5px;border-radius:2px;font-size:8px;font-weight:700;font-family:'Share Tech Mono',monospace;letter-spacing:.5px;background:rgba(0,255,65,.08);border:1px solid rgba(0,255,65,.2);color:var(--accent)}
+.ca-badge.air{background:rgba(34,211,238,.08);border-color:rgba(34,211,238,.3);color:#22d3ee}
+.ca-badge.ground{background:rgba(234,179,8,.08);border-color:rgba(234,179,8,.3);color:#eab308}
+.ca-badge.naval{background:rgba(0,255,65,.08);border-color:rgba(0,255,65,.3);color:#00ff41}
+.ca-pax{font-weight:700;color:var(--text-bright)}
+
 /* Naval widget */
 .naval-group{padding:8px 10px;border-bottom:1px solid rgba(0,255,65,.06);cursor:pointer;transition:background .15s}
 .naval-group:hover{background:rgba(0,255,65,.03)}
@@ -370,6 +389,11 @@ body::after{
   .w-log{height:250px}
   /* Adversary + naval span full width */
   .dashboard .widget[style*="grid-column:2/4"]{height:260px;width:100%}
+  /* CENTCOM widget: stack columns vertically on mobile */
+  .dashboard .widget[style*="grid-column:1/-1"]{height:auto!important;width:100%}
+  #pane-centcom{flex-direction:column!important}
+  .centcom-col{border-right:none!important;border-bottom:1px solid rgba(0,255,65,.08);min-height:160px}
+  .centcom-col:last-child{border-bottom:none}
 
   /* Topbar: collapse overflow, show only essentials + hamburger */
   .topbar{padding:5px 8px;position:sticky;top:0;z-index:9999;flex-wrap:nowrap;overflow:hidden;justify-content:flex-start}
@@ -1035,6 +1059,16 @@ body::after{
   <div class="widget widget-scan-line" style="grid-column:2/4;grid-row:3;position:relative;overflow:hidden">
     <div class="widget-header">🚢 <span class="wh-title">Naval Deployments</span><span class="wh-count" id="naval-count">0 assets</span></div>
     <div class="widget-body" id="pane-naval" style="padding:0;display:flex;flex-direction:column"></div>
+  </div>
+
+  <!-- CENTCOM ASSETS WIDGET -->
+  <div class="widget widget-scan-line" style="grid-column:1/-1;grid-row:4;position:relative;overflow:hidden;min-height:220px">
+    <div class="widget-header">
+      🇺🇸 <span class="wh-title">US CENTCOM Assets — Middle East Posture</span>
+      <span class="wh-count" id="centcom-troops" style="color:#00ff41">~40,000 troops</span>
+      <span style="font-size:9px;color:var(--muted);font-family:'Share Tech Mono',monospace;margin-left:6px" id="centcom-updated"></span>
+    </div>
+    <div class="widget-body" id="pane-centcom" style="padding:0;display:flex;flex-direction:row;overflow-x:hidden;overflow-y:hidden"></div>
   </div>
 
 </div>
@@ -3815,6 +3849,117 @@ function renderCurrency(rates){
 }
 
 // ════════════════════════════════════════
+// ════════════════════════════════════════
+// CENTCOM ASSETS WIDGET
+// ════════════════════════════════════════
+function renderCentcom(data){
+  const pane = document.getElementById('pane-centcom');
+  if(!pane || !data) return;
+
+  // Update header badges
+  const trEl = document.getElementById('centcom-troops');
+  if(trEl) trEl.textContent = (data.troops_total||'~40,000') + ' troops';
+  const upEl = document.getElementById('centcom-updated');
+  if(upEl) upEl.textContent = 'UPDATED ' + (data.updated||'');
+
+  // Build three columns: Naval | Air | Ground
+  const cols = [
+    { icon:'⚓', label:'NAVAL ASSETS', key:'naval', badge:'naval',
+      items: (data.naval||[]).map(a=>({
+        name: a.name,
+        sub: a.escorts ? `${a.type} — ${a.escorts}` : a.type,
+        detail: a.airwing || '',
+        meta: [a.location, a.personnel ? a.personnel+' pax' : ''].filter(Boolean),
+        notes: a.notes,
+        lat: a.lat, lon: a.lon,
+        status: a.status,
+        full: a
+      }))
+    },
+    { icon:'✈️', label:'AIR ASSETS', key:'air', badge:'air',
+      items: (data.air||[]).map(a=>({
+        name: a.name,
+        sub: a.aircraft,
+        detail: a.units || '',
+        meta: [a.country, a.personnel ? a.personnel+' pax' : ''].filter(Boolean),
+        notes: a.notes,
+        lat: a.lat, lon: a.lon,
+        status: 'deployed',
+        full: a
+      }))
+    },
+    { icon:'🪖', label:'GROUND FORCES', key:'ground', badge:'ground',
+      items: (data.ground||[]).map(a=>({
+        name: a.name,
+        sub: a.units,
+        detail: '',
+        meta: [a.country, a.personnel ? a.personnel+' pax' : ''].filter(Boolean),
+        notes: a.notes,
+        lat: a.lat, lon: a.lon,
+        status: 'deployed',
+        full: a
+      }))
+    }
+  ];
+
+  let html = '';
+  cols.forEach(col => {
+    html += `<div class="centcom-col">
+      <div class="centcom-col-head">${col.icon} ${col.label} <span class="ca-badge ${col.badge}">${col.items.length}</span></div>
+      <div class="centcom-col-body">`;
+    col.items.forEach((item, i) => {
+      const statusCol = item.status==='deployed' ? 'var(--accent)' : item.status==='combat' ? 'var(--red)' : 'var(--yellow)';
+      const metaStr = item.meta.join(' · ');
+      html += `<div class="ca-item" onclick="showCentcomDetail(${col.key === 'naval' ? i : -1},'${col.key}',${i})">
+        <div style="display:flex;align-items:center;gap:6px;margin-bottom:2px">
+          <div class="ca-name">${item.name}</div>
+          <div style="width:5px;height:5px;border-radius:50%;background:${statusCol};box-shadow:0 0 4px ${statusCol};flex-shrink:0"></div>
+        </div>
+        ${item.sub ? `<div class="ca-sub">${item.sub}</div>` : ''}
+        ${item.detail ? `<div class="ca-meta" style="color:rgba(0,255,65,.45);margin-bottom:2px">${item.detail}</div>` : ''}
+        <div class="ca-meta">
+          ${metaStr ? `<span>${metaStr}</span>` : ''}
+          ${item.notes ? `<span style="color:rgba(0,255,65,.35);font-style:italic">${item.notes}</span>` : ''}
+        </div>
+      </div>`;
+    });
+    html += `</div></div>`;
+  });
+
+  pane.innerHTML = html;
+
+  // Store data for click-to-map
+  pane._centcomData = data;
+}
+
+function showCentcomDetail(navalIdx, colKey, itemIdx){
+  // Try to find coordinates and show on map
+  const pane = document.getElementById('pane-centcom');
+  if(!pane || !pane._centcomData) return;
+  const data = pane._centcomData;
+  const cols = {naval: data.naval||[], air: data.air||[], ground: data.ground||[]};
+  const item = cols[colKey]?.[itemIdx];
+  if(!item) return;
+
+  if(item.lat && item.lon){
+    map.setView([item.lat, item.lon], 6);
+    document.getElementById('pTitle').textContent = item.name;
+    const rows = [
+      item.type       ? `<div class="f"><span class="k">Type: </span><span class="v">${item.type}</span></div>` : '',
+      item.units      ? `<div class="f"><span class="k">Units: </span><span class="v">${item.units}</span></div>` : '',
+      item.aircraft   ? `<div class="f"><span class="k">Aircraft: </span><span class="v">${item.aircraft}</span></div>` : '',
+      item.airwing    ? `<div class="f"><span class="k">Air Wing: </span><span class="v">${item.airwing}</span></div>` : '',
+      item.escorts    ? `<div class="f"><span class="k">Escorts: </span><span class="v">${item.escorts}</span></div>` : '',
+      item.personnel  ? `<div class="f"><span class="k">Personnel: </span><span class="v">${item.personnel}</span></div>` : '',
+      item.country    ? `<div class="f"><span class="k">Country: </span><span class="v">${item.country}</span></div>` : '',
+      item.location   ? `<div class="f"><span class="k">Location: </span><span class="v">${item.location}</span></div>` : '',
+      item.notes      ? `<div class="f"><span class="k">Notes: </span><span class="v">${item.notes}</span></div>` : '',
+    ].join('');
+    document.getElementById('pBody').innerHTML = rows;
+    document.getElementById('infoP').classList.add('vis');
+  }
+}
+
 // INTEL DATA LOADER (from data/intel-data.json)
 // ════════════════════════════════════════
 async function loadIntelData(){
@@ -3828,6 +3973,7 @@ async function loadIntelData(){
     if(d.exercises) EXERCISES = d.exercises;
     if(d.gps_zones) GPS_ZONES = d.gps_zones;
     if(d.notams) NOTAMS = d.notams;
+    if(d.centcom_assets) renderCentcom(d.centcom_assets);
     // Re-render active overlays
     renderNaval();
     if(conflictsVisible) renderConflicts();

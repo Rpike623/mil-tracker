@@ -3,7 +3,7 @@
   "version": 3,
   "naval_deployments": [
     {
-      "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
+      "name": "CSG-3 \u2014 USS Abraham Lincoln (CVN-72)",
       "type": "CSG",
       "country": "us",
       "status": "deployed",
@@ -11,10 +11,10 @@
       "lon": 57.2,
       "region": "PERSIAN GULF / ARABIAN SEA",
       "ships": "CVN-72 Lincoln, CG-52 Bunker Hill, DDG-92 Momsen, DDG-114 Ralph Johnson",
-      "notes": "Forward deployed — 5th Fleet AOR"
+      "notes": "Forward deployed \u2014 5th Fleet AOR"
     },
     {
-      "name": "CSG-5 — USS Ronald Reagan (CVN-76)",
+      "name": "CSG-5 \u2014 USS Ronald Reagan (CVN-76)",
       "type": "CSG",
       "country": "us",
       "status": "deployed",
@@ -22,10 +22,10 @@
       "lon": 131.5,
       "region": "WESTERN PACIFIC",
       "ships": "CVN-76 Reagan, CG-54 Antietam, DDG-85 McCampbell, DDG-89 Mustin",
-      "notes": "Forward deployed Yokosuka — 7th Fleet"
+      "notes": "Forward deployed Yokosuka \u2014 7th Fleet"
     },
     {
-      "name": "CSG-12 — USS Gerald R. Ford (CVN-78)",
+      "name": "CSG-12 \u2014 USS Gerald R. Ford (CVN-78)",
       "type": "CSG",
       "country": "us",
       "status": "deployed",
@@ -36,7 +36,7 @@
       "notes": "Eastern Med deterrence patrol"
     },
     {
-      "name": "CSG-9 — USS Nimitz (CVN-68)",
+      "name": "CSG-9 \u2014 USS Nimitz (CVN-68)",
       "type": "CSG",
       "country": "us",
       "status": "transit",
@@ -47,7 +47,7 @@
       "notes": "Transit to CENTCOM AOR"
     },
     {
-      "name": "ARG — USS Bataan (LHD-5)",
+      "name": "ARG \u2014 USS Bataan (LHD-5)",
       "type": "ARG",
       "country": "us",
       "status": "deployed",
@@ -55,10 +55,10 @@
       "lon": 44.3,
       "region": "RED SEA / GULF OF ADEN",
       "ships": "LHD-5 Bataan, LPD-23 Anchorage, LSD-50 Carter Hall + 26th MEU",
-      "notes": "Houthi threat response — force protection"
+      "notes": "Houthi threat response \u2014 force protection"
     },
     {
-      "name": "ARG — USS Boxer (LHD-4)",
+      "name": "ARG \u2014 USS Boxer (LHD-4)",
       "type": "ARG",
       "country": "us",
       "status": "port",
@@ -69,7 +69,7 @@
       "notes": "Maintenance period"
     },
     {
-      "name": "SSBN Patrol — Atlantic",
+      "name": "SSBN Patrol \u2014 Atlantic",
       "type": "SSBN",
       "country": "us",
       "status": "deployed",
@@ -80,7 +80,7 @@
       "notes": "Strategic deterrence patrol"
     },
     {
-      "name": "SSBN Patrol — Pacific",
+      "name": "SSBN Patrol \u2014 Pacific",
       "type": "SSBN",
       "country": "us",
       "status": "deployed",
@@ -91,7 +91,7 @@
       "notes": "Strategic deterrence patrol"
     },
     {
-      "name": "🇷🇺 Northern Fleet — Severomorsk",
+      "name": "\ud83c\uddf7\ud83c\uddfa Northern Fleet \u2014 Severomorsk",
       "type": "FLEET",
       "country": "russia",
       "status": "combat",
@@ -99,21 +99,21 @@
       "lon": 33.4,
       "region": "BARENTS SEA",
       "ships": "Adm. Kuznetsov (CV), Pyotr Velikiy (CGN), multiple SSNs",
-      "notes": "Increased submarine activity — NATO monitoring"
+      "notes": "Increased submarine activity \u2014 NATO monitoring"
     },
     {
-      "name": "🇷🇺 Black Sea Fleet",
+      "name": "\ud83c\uddf7\ud83c\uddfa Black Sea Fleet",
       "type": "FLEET",
       "country": "russia",
       "status": "combat",
       "lat": 44.6,
       "lon": 33.5,
       "region": "BLACK SEA / SEVASTOPOL",
-      "ships": "Reduced force — losses to Ukrainian strikes",
-      "notes": "Severely degraded — limited ops capability"
+      "ships": "Reduced force \u2014 losses to Ukrainian strikes",
+      "notes": "Severely degraded \u2014 limited ops capability"
     },
     {
-      "name": "🇨🇳 PLA Navy — South Sea Fleet",
+      "name": "\ud83c\udde8\ud83c\uddf3 PLA Navy \u2014 South Sea Fleet",
       "type": "FLEET",
       "country": "china",
       "status": "deployed",
@@ -124,7 +124,7 @@
       "notes": "SCS patrol + Taiwan contingency readiness"
     },
     {
-      "name": "🇮🇷 IRIN — Bandar Abbas",
+      "name": "\ud83c\uddee\ud83c\uddf7 IRIN \u2014 Bandar Abbas",
       "type": "FLEET",
       "country": "iran",
       "status": "deployed",
@@ -141,35 +141,35 @@
       "status": "ELEVATED",
       "lat": 26.6,
       "lon": 56.3,
-      "note": "Iranian naval posturing — IRGCN fast boats active"
+      "note": "Iranian naval posturing \u2014 IRGCN fast boats active"
     },
     {
       "name": "Bab el-Mandeb",
       "status": "HIGH RISK",
       "lat": 12.6,
       "lon": 43.3,
-      "note": "Houthi anti-ship missile/drone threat — coalition patrols active"
+      "note": "Houthi anti-ship missile/drone threat \u2014 coalition patrols active"
     },
     {
       "name": "Taiwan Strait",
       "status": "WATCH",
       "lat": 24.5,
       "lon": 119.5,
-      "note": "PLA Navy exercises — US transits ongoing"
+      "note": "PLA Navy exercises \u2014 US transits ongoing"
     },
     {
       "name": "Suez Canal",
       "status": "NORMAL",
       "lat": 30.5,
       "lon": 32.3,
-      "note": "Operating normally — traffic diversions from Red Sea"
+      "note": "Operating normally \u2014 traffic diversions from Red Sea"
     },
     {
       "name": "GIUK Gap",
       "status": "WATCH",
       "lat": 62.0,
       "lon": -15.0,
-      "note": "Russian submarine transit monitoring — P-8 patrols"
+      "note": "Russian submarine transit monitoring \u2014 P-8 patrols"
     },
     {
       "name": "Malacca Strait",
@@ -187,7 +187,7 @@
       "lat": 48.5,
       "lon": 37.5,
       "radiusKm": 350,
-      "parties": "🇺🇦 Ukraine vs 🇷🇺 Russia",
+      "parties": "\ud83c\uddfa\ud83c\udde6 Ukraine vs \ud83c\uddf7\ud83c\uddfa Russia",
       "since": "Feb 2022",
       "summary": "Full-scale conventional war. Active frontline ~1,200km. Russian occupation of Crimea, parts of Donetsk, Luhansk, Zaporizhzhia, Kherson. Drone warfare, artillery, trench combat.",
       "hotspots": [
@@ -204,7 +204,7 @@
       "lat": 31.4,
       "lon": 34.4,
       "radiusKm": 40,
-      "parties": "🇮🇱 Israel vs Hamas/PIJ",
+      "parties": "\ud83c\uddee\ud83c\uddf1 Israel vs Hamas/PIJ",
       "since": "Oct 2023",
       "summary": "Intensive urban warfare following Oct 7 attack. IDF ground operations across Gaza. Massive humanitarian crisis. Regional escalation risk.",
       "hotspots": [
@@ -221,7 +221,7 @@
       "lat": 14.5,
       "lon": 42.5,
       "radiusKm": 250,
-      "parties": "🇾🇪 Houthis vs 🇺🇸/🇬🇧 Coalition + Commercial Shipping",
+      "parties": "\ud83c\uddfe\ud83c\uddea Houthis vs \ud83c\uddfa\ud83c\uddf8/\ud83c\uddec\ud83c\udde7 Coalition + Commercial Shipping",
       "since": "Nov 2023",
       "summary": "Houthi anti-ship missile and drone attacks on Red Sea/Gulf of Aden commercial shipping. US/UK strikes on Houthi positions in Yemen. Major disruption to Suez Canal trade.",
       "hotspots": [
@@ -238,7 +238,7 @@
       "lat": 33.2,
       "lon": 35.5,
       "radiusKm": 60,
-      "parties": "🇮🇱 Israel vs 🇱🇧 Hezbollah",
+      "parties": "\ud83c\uddee\ud83c\uddf1 Israel vs \ud83c\uddf1\ud83c\udde7 Hezbollah",
       "since": "Oct 2023",
       "summary": "Cross-border exchanges of fire. Israeli strikes on Hezbollah positions in Lebanon. Tens of thousands evacuated on both sides. Risk of full-scale war.",
       "hotspots": [
@@ -255,7 +255,7 @@
       "lat": 35.5,
       "lon": 38.5,
       "radiusKm": 200,
-      "parties": "Multiple factions — Assad gov, SDF/Kurds, HTS, Turkish-backed forces",
+      "parties": "Multiple factions \u2014 Assad gov, SDF/Kurds, HTS, Turkish-backed forces",
       "since": "2011",
       "summary": "Largely frozen conflict. US forces at al-Tanf & NE Syria with SDF. Turkish operations against Kurdish forces. Israeli strikes on Iranian assets. Russian air base at Khmeimim.",
       "hotspots": [
@@ -272,7 +272,7 @@
       "lat": 24.0,
       "lon": 120.0,
       "radiusKm": 150,
-      "parties": "🇨🇳 PRC vs 🇹🇼 Taiwan (🇺🇸 support)",
+      "parties": "\ud83c\udde8\ud83c\uddf3 PRC vs \ud83c\uddf9\ud83c\uddfc Taiwan (\ud83c\uddfa\ud83c\uddf8 support)",
       "since": "Ongoing",
       "summary": "Increased PLA military pressure. Regular PLAAF incursions into Taiwan ADIZ. PLA Navy exercises near Taiwan. US arms sales and naval transits continue.",
       "hotspots": [
@@ -289,7 +289,7 @@
       "lat": 14.5,
       "lon": 115.0,
       "radiusKm": 400,
-      "parties": "🇨🇳 China vs 🇵🇭🇻🇳🇲🇾🇧🇳🇹🇼 + 🇺🇸 FONOPs",
+      "parties": "\ud83c\udde8\ud83c\uddf3 China vs \ud83c\uddf5\ud83c\udded\ud83c\uddfb\ud83c\uddf3\ud83c\uddf2\ud83c\uddfe\ud83c\udde7\ud83c\uddf3\ud83c\uddf9\ud83c\uddfc + \ud83c\uddfa\ud83c\uddf8 FONOPs",
       "since": "Ongoing",
       "summary": "Chinese maritime militia, coast guard harassment at Second Thomas Shoal. Philippine resupply missions contested. US freedom of navigation operations.",
       "hotspots": [
@@ -306,7 +306,7 @@
       "lat": 33.0,
       "lon": 44.0,
       "radiusKm": 300,
-      "parties": "🇮🇱 Israel vs 🇮🇷 Iran + proxies",
+      "parties": "\ud83c\uddee\ud83c\uddf1 Israel vs \ud83c\uddee\ud83c\uddf7 Iran + proxies",
       "since": "Ongoing",
       "summary": "Covert and overt strikes. Israeli attacks on Iranian nuclear/military facilities. Iranian proxy network (Hezbollah, Iraqi militias, Houthis). Direct missile exchanges in Apr 2024.",
       "hotspots": [
@@ -325,7 +325,7 @@
       "lat": 54.0,
       "lon": 20.0,
       "radiusKm": 400,
-      "nations": "🇺🇸🇬🇧🇩🇪🇫🇷🇵🇱🇪🇪🇱🇹🇱🇻 + 20 NATO allies",
+      "nations": "\ud83c\uddfa\ud83c\uddf8\ud83c\uddec\ud83c\udde7\ud83c\udde9\ud83c\uddea\ud83c\uddeb\ud83c\uddf7\ud83c\uddf5\ud83c\uddf1\ud83c\uddea\ud83c\uddea\ud83c\uddf1\ud83c\uddf9\ud83c\uddf1\ud83c\uddfb + 20 NATO allies",
       "period": "May-Jun 2026",
       "personnel": "~30,000",
       "summary": "Large-scale NATO deterrence exercise in Eastern Europe. Tests rapid deployment of US forces to European theater. Focus on Baltic and Polish corridors.",
@@ -343,7 +343,7 @@
       "lat": 21.3,
       "lon": -157.8,
       "radiusKm": 500,
-      "nations": "🇺🇸🇯🇵🇦🇺🇰🇷🇨🇦🇬🇧🇮🇳 + 20 Pacific partners",
+      "nations": "\ud83c\uddfa\ud83c\uddf8\ud83c\uddef\ud83c\uddf5\ud83c\udde6\ud83c\uddfa\ud83c\uddf0\ud83c\uddf7\ud83c\udde8\ud83c\udde6\ud83c\uddec\ud83c\udde7\ud83c\uddee\ud83c\uddf3 + 20 Pacific partners",
       "period": "Jun-Aug 2026",
       "personnel": "~25,000",
       "summary": "World's largest international maritime exercise. Held biennially near Hawaii. Anti-submarine warfare, amphibious ops, live-fire exercises, HADR.",
@@ -361,7 +361,7 @@
       "lat": 58.0,
       "lon": 15.0,
       "radiusKm": 600,
-      "nations": "🇺🇸🇬🇧🇩🇪🇫🇷🇳🇴🇸🇪🇫🇮 + all 32 NATO members",
+      "nations": "\ud83c\uddfa\ud83c\uddf8\ud83c\uddec\ud83c\udde7\ud83c\udde9\ud83c\uddea\ud83c\uddeb\ud83c\uddf7\ud83c\uddf3\ud83c\uddf4\ud83c\uddf8\ud83c\uddea\ud83c\uddeb\ud83c\uddee + all 32 NATO members",
       "period": "2024-2026 (rolling)",
       "personnel": "~90,000",
       "summary": "NATO's largest exercise since Cold War. Tests new defense plans against near-peer threat. Full-spectrum operations from Arctic to Mediterranean.",
@@ -379,7 +379,7 @@
       "lat": 14.5,
       "lon": 101.0,
       "radiusKm": 200,
-      "nations": "🇺🇸🇹🇭🇯🇵🇰🇷🇸🇬🇮🇩🇲🇾",
+      "nations": "\ud83c\uddfa\ud83c\uddf8\ud83c\uddf9\ud83c\udded\ud83c\uddef\ud83c\uddf5\ud83c\uddf0\ud83c\uddf7\ud83c\uddf8\ud83c\uddec\ud83c\uddee\ud83c\udde9\ud83c\uddf2\ud83c\uddfe",
       "period": "Feb-Mar 2026",
       "personnel": "~10,000",
       "summary": "Oldest and largest multinational exercise in Asia-Pacific. Hosted by Thailand. Focus on interoperability, humanitarian assistance, and jungle warfare.",
@@ -397,7 +397,7 @@
       "lat": 35.5,
       "lon": 139.7,
       "radiusKm": 300,
-      "nations": "🇺🇸🇯🇵",
+      "nations": "\ud83c\uddfa\ud83c\uddf8\ud83c\uddef\ud83c\uddf5",
       "period": "Oct-Nov (biennial)",
       "personnel": "~15,000",
       "summary": "Bilateral US-Japan exercise. Tests defense of Japanese home islands and surrounding seas. Integrates JSDF and USFJ forces.",
@@ -415,7 +415,7 @@
       "lat": 48.0,
       "lon": 135.0,
       "radiusKm": 500,
-      "nations": "🇷🇺🇨🇳🇮🇳🇲🇳 (reduced since 2022)",
+      "nations": "\ud83c\uddf7\ud83c\uddfa\ud83c\udde8\ud83c\uddf3\ud83c\uddee\ud83c\uddf3\ud83c\uddf2\ud83c\uddf3 (reduced since 2022)",
       "period": "Varies",
       "personnel": "~50,000 (claimed)",
       "summary": "Russia's large-scale strategic exercise in Eastern Military District. Scaled down since Ukraine invasion. Tests Pacific Fleet and Eastern theater readiness.",
@@ -433,7 +433,7 @@
       "lat": 25.0,
       "lon": 121.0,
       "radiusKm": 200,
-      "nations": "🇨🇳 PLA",
+      "nations": "\ud83c\udde8\ud83c\uddf3 PLA",
       "period": "Triggered by political events",
       "personnel": "Unknown",
       "summary": "PLA exercises encircling Taiwan. Simulates blockade and invasion scenarios. Live-fire drills, missile launches into surrounding waters. Escalatory signaling.",
@@ -451,7 +451,7 @@
       "lat": 36.8,
       "lon": -115.0,
       "radiusKm": 100,
-      "nations": "🇺🇸 + allied air forces",
+      "nations": "\ud83c\uddfa\ud83c\uddf8 + allied air forces",
       "period": "Multiple annually at Nellis AFB",
       "personnel": "~4,000",
       "summary": "Premier USAF air combat training exercise. Realistic adversary air (\"Red Air\") scenarios. Tests 5th-gen integration, electronic warfare, SEAD/DEAD.",
@@ -468,7 +468,7 @@
       "name": "Kaliningrad Jammer",
       "type": "JAMMING",
       "severity": "HIGH",
-      "source": "🇷🇺 Russia",
+      "source": "\ud83c\uddf7\ud83c\uddfa Russia",
       "lat": 54.7,
       "lon": 20.5,
       "radiusKm": 300,
@@ -484,7 +484,7 @@
       "name": "St. Petersburg / NW Russia",
       "type": "JAMMING",
       "severity": "HIGH",
-      "source": "🇷🇺 Russia",
+      "source": "\ud83c\uddf7\ud83c\uddfa Russia",
       "lat": 59.9,
       "lon": 30.3,
       "radiusKm": 250,
@@ -500,7 +500,7 @@
       "name": "Moscow Kremlin GPS Spoofing",
       "type": "SPOOFING",
       "severity": "MEDIUM",
-      "source": "🇷🇺 Russia",
+      "source": "\ud83c\uddf7\ud83c\uddfa Russia",
       "lat": 55.75,
       "lon": 37.62,
       "radiusKm": 50,
@@ -516,7 +516,7 @@
       "name": "Eastern Mediterranean",
       "type": "SPOOFING",
       "severity": "HIGH",
-      "source": "🇷🇺/🇸🇾 Khmeimim AB",
+      "source": "\ud83c\uddf7\ud83c\uddfa/\ud83c\uddf8\ud83c\uddfe Khmeimim AB",
       "lat": 35.4,
       "lon": 35.9,
       "radiusKm": 350,
@@ -532,7 +532,7 @@
       "name": "Ukraine War Zone",
       "type": "JAMMING",
       "severity": "CRITICAL",
-      "source": "🇷🇺/🇺🇦 Both sides",
+      "source": "\ud83c\uddf7\ud83c\uddfa/\ud83c\uddfa\ud83c\udde6 Both sides",
       "lat": 48.5,
       "lon": 37.0,
       "radiusKm": 400,
@@ -548,7 +548,7 @@
       "name": "Northern Black Sea",
       "type": "SPOOFING",
       "severity": "MEDIUM",
-      "source": "🇷🇺 Russia",
+      "source": "\ud83c\uddf7\ud83c\uddfa Russia",
       "lat": 44.5,
       "lon": 34.0,
       "radiusKm": 200,
@@ -564,7 +564,7 @@
       "name": "Iran Border Regions",
       "type": "SPOOFING",
       "severity": "MEDIUM",
-      "source": "🇮🇷 Iran",
+      "source": "\ud83c\uddee\ud83c\uddf7 Iran",
       "lat": 32.5,
       "lon": 53.0,
       "radiusKm": 400,
@@ -580,7 +580,7 @@
       "name": "Strait of Hormuz",
       "type": "SPOOFING",
       "severity": "MEDIUM",
-      "source": "🇮🇷 IRGC Navy",
+      "source": "\ud83c\uddee\ud83c\uddf7 IRGC Navy",
       "lat": 26.5,
       "lon": 56.2,
       "radiusKm": 100,
@@ -596,7 +596,7 @@
       "name": "Northern Israel / Lebanon",
       "type": "SPOOFING",
       "severity": "HIGH",
-      "source": "🇮🇱 Israel",
+      "source": "\ud83c\uddee\ud83c\uddf1 Israel",
       "lat": 33.0,
       "lon": 35.2,
       "radiusKm": 100,
@@ -612,7 +612,7 @@
       "name": "South China Sea",
       "type": "SPOOFING",
       "severity": "LOW",
-      "source": "🇨🇳 China",
+      "source": "\ud83c\udde8\ud83c\uddf3 China",
       "lat": 16.0,
       "lon": 112.0,
       "radiusKm": 300,
@@ -628,7 +628,7 @@
       "name": "North Korea",
       "type": "JAMMING",
       "severity": "MEDIUM",
-      "source": "🇰🇵 DPRK",
+      "source": "\ud83c\uddf0\ud83c\uddf5 DPRK",
       "lat": 38.0,
       "lon": 126.5,
       "radiusKm": 150,
@@ -649,19 +649,19 @@
       "lat": 48.5,
       "lon": 36.0,
       "radiusKm": 500,
-      "issued": "Feb 2022 — ONGOING",
+      "issued": "Feb 2022 \u2014 ONGOING",
       "altitude": "ALL ALTITUDES (SFC-UNL)",
       "desc": "Total airspace closure over Ukraine and surrounding areas. All civil overflights banned.",
       "authority": "EUROCONTROL / Ukrainian ANSP"
     },
     {
-      "name": "Eastern Med TFR — Gaza",
+      "name": "Eastern Med TFR \u2014 Gaza",
       "type": "CONFLICT",
       "severity": "RESTRICTED",
       "lat": 31.4,
       "lon": 34.3,
       "radiusKm": 60,
-      "issued": "Oct 2023 — ONGOING",
+      "issued": "Oct 2023 \u2014 ONGOING",
       "altitude": "SFC-FL500",
       "desc": "Airspace restrictions over Gaza and southern Israel. Active military operations.",
       "authority": "Israeli CAA / IAF"
@@ -673,7 +673,7 @@
       "lat": 14.0,
       "lon": 42.5,
       "radiusKm": 200,
-      "issued": "Nov 2023 — ONGOING",
+      "issued": "Nov 2023 \u2014 ONGOING",
       "altitude": "SFC-UNL",
       "desc": "Danger area over southern Red Sea and Gulf of Aden. Active Houthi threat.",
       "authority": "US NAVCENT / CENTCOM"
@@ -703,7 +703,7 @@
       "authority": "US Army / FAA"
     },
     {
-      "name": "Aegean Sea — Turkish/Greek Exercises",
+      "name": "Aegean Sea \u2014 Turkish/Greek Exercises",
       "type": "MILITARY",
       "severity": "DANGER",
       "lat": 38.5,
@@ -739,7 +739,7 @@
       "authority": "PLA / CAAC"
     },
     {
-      "name": "Barents Sea — Russian Missile Tests",
+      "name": "Barents Sea \u2014 Russian Missile Tests",
       "type": "MILITARY",
       "severity": "DANGER",
       "lat": 72.0,
@@ -771,7 +771,7 @@
       "source": "Naval News"
     },
     {
-      "title": "One hull for today’s crews and tomorrow’s unmanned missions: Cross Water positions modular aluminium RIB as a transition platform",
+      "title": "One hull for today\u2019s crews and tomorrow\u2019s unmanned missions: Cross Water positions modular aluminium RIB as a transition platform",
       "link": "https://www.navalnews.com/naval-news/2026/02/one-hull-for-todays-crews-and-tomorrows-unmanned-missions-cross-water-positions-modular-aluminium-rib-as-a-transition-platform/",
       "published": "Tue, 24 Feb 2026 09:29:00 +0000",
       "source": "Naval News"
@@ -788,5 +788,155 @@
       "published": "Mon, 23 Feb 2026 19:34:20 +0000",
       "source": "USNI News"
     }
-  ]
+  ],
+  "centcom_assets": {
+    "updated": "2025-02",
+    "summary": "Current US military posture in the CENTCOM AOR (Middle East / Central Asia)",
+    "troops_total": "~40,000",
+    "naval": [
+      {
+        "name": "USS Abraham Lincoln (CVN-72)",
+        "type": "Aircraft Carrier (CSG)",
+        "airwing": "CVW-9 (~90 aircraft)",
+        "escorts": "CG-52 Bunker Hill, DDG-92 Momsen, DDG-114 Ralph Johnson",
+        "location": "Persian Gulf / Arabian Sea",
+        "lat": 25.5,
+        "lon": 57.2,
+        "status": "deployed",
+        "notes": "5th Fleet AOR \u2014 forward deployed deterrence"
+      },
+      {
+        "name": "USS Bataan (LHD-5) ARG",
+        "type": "Amphibious Ready Group",
+        "airwing": "Marine F-35B, MV-22 Osprey, AH-1Z Viper",
+        "escorts": "USS Carter Hall (LSD-50), USS Mesa Verde (LPD-19)",
+        "location": "Red Sea / Gulf of Aden",
+        "lat": 13.5,
+        "lon": 43.5,
+        "status": "deployed",
+        "notes": "26th MEU embarked \u2014 Red Sea security operations"
+      },
+      {
+        "name": "USS Gerald R. Ford (CVN-78)",
+        "type": "Aircraft Carrier (CSG)",
+        "airwing": "CVW-8 (~90 aircraft)",
+        "escorts": "CG-66 Hue City, DDG-104 Sterett, DDG-110 William P. Lawrence",
+        "location": "Eastern Mediterranean",
+        "lat": 34.8,
+        "lon": 28.5,
+        "status": "deployed",
+        "notes": "Eastern Med deterrence \u2014 Israel/Lebanon theater"
+      },
+      {
+        "name": "Arleigh Burke DDGs (5th Fleet)",
+        "type": "Destroyers",
+        "airwing": "N/A",
+        "escorts": "Multiple DDGs rotating",
+        "location": "Red Sea / Arabian Sea",
+        "lat": 15.0,
+        "lon": 42.0,
+        "status": "deployed",
+        "notes": "OPERATION PROSPERITY GUARDIAN \u2014 Houthi intercept ops; Tomahawk / SM-6 equipped"
+      }
+    ],
+    "air": [
+      {
+        "name": "Al Udeid Air Base",
+        "country": "Qatar",
+        "units": "379th AEW, AFCENT HQ",
+        "aircraft": "B-52H Stratofortress, F-15E Strike Eagle, KC-135/KC-10 Tankers, E-3 AWACS, MQ-9 Reaper",
+        "personnel": "~10,000",
+        "lat": 25.117,
+        "lon": 51.315,
+        "notes": "Largest US air base in Middle East \u2014 AFCENT HQ"
+      },
+      {
+        "name": "Al Dhafra Air Base",
+        "country": "UAE",
+        "units": "380th AEW",
+        "aircraft": "F-22 Raptor, U-2 Dragon Lady, RQ-4 Global Hawk, KC-135 Stratotanker",
+        "personnel": "~3,500",
+        "lat": 24.248,
+        "lon": 54.548,
+        "notes": "ISR / stealth operations hub"
+      },
+      {
+        "name": "Ali Al Salem Air Base",
+        "country": "Kuwait",
+        "units": "Air expeditionary units",
+        "aircraft": "F/A-18, A-10 Warthog, C-130 Hercules",
+        "personnel": "~2,000",
+        "lat": 29.347,
+        "lon": 47.521,
+        "notes": "Northern Gulf air operations"
+      },
+      {
+        "name": "Incirlik Air Base",
+        "country": "Turkey",
+        "units": "39th Air Base Wing",
+        "aircraft": "F-16 Fighting Falcon, KC-135 Stratotanker",
+        "personnel": "~1,500",
+        "lat": 37.002,
+        "lon": 35.426,
+        "notes": "NATO base \u2014 Northern approach / ISR support. ~50 B61 nuclear gravity bombs"
+      },
+      {
+        "name": "Prince Sultan Air Base",
+        "country": "Saudi Arabia",
+        "units": "AEW rotational",
+        "aircraft": "F-35A Lightning II, F-15C/D Eagle, Patriot PAC-3",
+        "personnel": "~3,000",
+        "lat": 24.061,
+        "lon": 47.58,
+        "notes": "Reactivated 2019 \u2014 Arabian Peninsula air defense"
+      }
+    ],
+    "ground": [
+      {
+        "name": "Camp Buehring",
+        "country": "Kuwait",
+        "units": "ARCENT rotational forces",
+        "personnel": "~12,000",
+        "lat": 29.63,
+        "lon": 47.777,
+        "notes": "Primary Army staging hub for CENTCOM AOR"
+      },
+      {
+        "name": "Camp Lemonnier",
+        "country": "Djibouti",
+        "units": "CJTF-HOA",
+        "personnel": "~4,000",
+        "lat": 11.553,
+        "lon": 43.159,
+        "notes": "Horn of Africa ops, SOF staging, drone ops"
+      },
+      {
+        "name": "NSA Bahrain (5th Fleet HQ)",
+        "country": "Bahrain",
+        "units": "US Naval Forces Central Command",
+        "personnel": "~4,000",
+        "lat": 26.218,
+        "lon": 50.612,
+        "notes": "5th Fleet HQ \u2014 Gulf naval command"
+      },
+      {
+        "name": "Syria (Al-Tanf / NE Syria)",
+        "country": "Syria",
+        "units": "Inherent Resolve remnant forces",
+        "personnel": "~900",
+        "lat": 33.506,
+        "lon": 38.667,
+        "notes": "Counter-ISIS ops, Al-Tanf garrison + NE Syria SDF partnering"
+      },
+      {
+        "name": "Iraq (Ain al-Asad / Erbil)",
+        "country": "Iraq",
+        "units": "Combined Joint Task Force",
+        "personnel": "~2,500",
+        "lat": 33.376,
+        "lon": 42.447,
+        "notes": "Advise & assist mission \u2014 Iraqi Security Forces / ISOF"
+      }
+    ]
+  }
 }
