@@ -654,23 +654,42 @@ body::after{
 
 <!-- CRT BOOT SEQUENCE -->
 <div class="boot-screen" id="bootScreen">
-  <div class="boot-line head" id="boot-0">PIKECLAW // MILITARY OSINT TERMINAL v3.1</div>
-  <div class="boot-line sys" id="boot-1">BIOS POST... OK</div>
-  <div class="boot-line sys" id="boot-2">MEM CHECK: 65536K ████████████████ OK</div>
-  <div class="boot-line" id="boot-3">Initializing secure terminal session...</div>
-  <div class="boot-line" id="boot-4">Loading cryptographic modules... AES-256-GCM ✓</div>
-  <div class="boot-line" id="boot-5">Establishing MILNET uplink...</div>
-  <div class="boot-line ok" id="boot-6">  ╠══ SATCOM LINK:  ACTIVE  ══╣</div>
-  <div class="boot-line" id="boot-7">Connecting to ADS-B feeds... api.adsb.lol ✓</div>
-  <div class="boot-line" id="boot-8">Connecting to OSINT feeds... RSS aggregator ✓</div>
-  <div class="boot-line" id="boot-9">Connecting to market intel... Polymarket API ✓</div>
-  <div class="boot-line" id="boot-10">Loading aircraft database... 487 type records</div>
-  <div class="boot-line" id="boot-11">Loading naval deployments... 12 tracked groups</div>
-  <div class="boot-line" id="boot-12">Loading conflict zones... 8 active regions</div>
-  <div class="boot-line" id="boot-13">Loading GPS interference map... 11 zones</div>
-  <div class="boot-line" id="boot-14">Loading NOTAM/TFR data... 10 restrictions</div>
-  <div class="boot-line warn" id="boot-15">⚠ CLASSIFICATION: UNCLASSIFIED // OSINT ONLY</div>
-  <div class="boot-line ok" id="boot-16">ALL SYSTEMS NOMINAL — LAUNCHING DASHBOARD<span class="cursor"></span></div>
+  <div class="boot-line head" id="boot-0">╔══════════════════════════════════════════════════════╗</div>
+  <div class="boot-line head" id="boot-1">║  PIKECLAW // MILITARY OSINT TERMINAL v3.2            ║</div>
+  <div class="boot-line head" id="boot-2">║  DEFENSE INTELLIGENCE MONITORING SYSTEM               ║</div>
+  <div class="boot-line head" id="boot-3">╚══════════════════════════════════════════════════════╝</div>
+  <div class="boot-line sys" id="boot-4">BIOS POST.......... OK</div>
+  <div class="boot-line sys" id="boot-5">CPU: QUANTUM-X86/NEURAL v4.2 ✓  |  CORES: 128 ACTIVE</div>
+  <div class="boot-line sys" id="boot-6">MEM CHECK: 131072K ████████████████████████████████ OK</div>
+  <div class="boot-line" id="boot-7">Initializing secure terminal session...</div>
+  <div class="boot-line" id="boot-8">Loading cryptographic modules........... AES-256-GCM ✓ RSA-4096 ✓ ECDSA ✓</div>
+  <div class="boot-line" id="boot-9">Verifying operator clearance............ LEVEL 5 — AUTHORIZED</div>
+  <div class="boot-line ok" id="boot-10">Establishing MILNET uplink.............</div>
+  <div class="boot-line ok" id="boot-11">  ╠══ SATCOM CH-1:  ACTIVE  [ENCRYPTED] ══╣</div>
+  <div class="boot-line ok" id="boot-12">  ╠══ SATCOM CH-2:  STANDBY [BACKUP]     ══╣</div>
+  <div class="boot-line ok" id="boot-13">  ╠══ MESH RELAY:   ACTIVE  [6 NODES]    ══╣</div>
+  <div class="boot-line" id="boot-14">Connecting data feeds:</div>
+  <div class="boot-line" id="boot-15">  ├─ ADS-B mil transponders.... api.adsb.lol ✓</div>
+  <div class="boot-line" id="boot-16">  ├─ OSINT news aggregator..... RSS x6 feeds ✓</div>
+  <div class="boot-line" id="boot-17">  ├─ Prediction markets........ Polymarket API ✓</div>
+  <div class="boot-line" id="boot-18">  ├─ Seismic monitoring........ USGS GeoJSON ✓</div>
+  <div class="boot-line" id="boot-19">  ├─ Space launch telemetry.... TheSpaceDevs ✓</div>
+  <div class="boot-line" id="boot-20">  ├─ FX/sanctions rates........ open.er-api ✓</div>
+  <div class="boot-line" id="boot-21">  ├─ ISS orbital position...... open-notify ✓</div>
+  <div class="boot-line" id="boot-22">  └─ Intel data pipeline....... GitHub CDN ✓</div>
+  <div class="boot-line" id="boot-23">Loading databases:</div>
+  <div class="boot-line" id="boot-24">  ├─ Aircraft type records........... 487 entries</div>
+  <div class="boot-line" id="boot-25">  ├─ Naval deployment assets......... 12 groups</div>
+  <div class="boot-line" id="boot-26">  ├─ Active conflict zones........... 8 regions</div>
+  <div class="boot-line" id="boot-27">  ├─ GPS interference zones.......... 11 zones</div>
+  <div class="boot-line" id="boot-28">  ├─ Military exercises.............. 8 tracked</div>
+  <div class="boot-line" id="boot-29">  ├─ NOTAM/TFR restrictions.......... 10 active</div>
+  <div class="boot-line" id="boot-30">  ├─ Nuclear/WMD sites............... 22 monitored</div>
+  <div class="boot-line" id="boot-31">  └─ Air defense networks............ 13 systems</div>
+  <div class="boot-line warn" id="boot-32">⚠ CLASSIFICATION: UNCLASSIFIED // OSINT ONLY</div>
+  <div class="boot-line warn" id="boot-33">⚠ DOOMSDAY CLOCK: 90 SECONDS TO MIDNIGHT</div>
+  <div class="boot-line ok" id="boot-34">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</div>
+  <div class="boot-line ok" id="boot-35">ALL SYSTEMS NOMINAL — LAUNCHING DASHBOARD<span class="cursor"></span></div>
   <div class="boot-progress" id="boot-bar"><div class="boot-progress-fill" id="boot-fill"></div></div>
 </div>
 
@@ -849,8 +868,29 @@ body::after{
     <div style="flex:1;overflow-y:auto" id="currencyStrip"></div>
   </div>
 
+  <!-- DOOMSDAY CLOCK -->
+  <div style="width:140px;flex-shrink:0;border-right:1px solid var(--border);display:flex;flex-direction:column;overflow:hidden" id="doomsdayWidget">
+    <div style="flex-shrink:0;padding:6px 10px;background:rgba(0,4,0,.6);border-bottom:1px solid rgba(0,255,65,.1);font-size:10px;font-weight:700;letter-spacing:1px;color:rgba(0,255,65,.5);text-transform:uppercase;display:flex;align-items:center;gap:6px">
+      ⏰ <span style="flex:1">Doomsday</span>
+    </div>
+    <div style="flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:8px">
+      <div style="position:relative;width:80px;height:80px">
+        <svg width="80" height="80" viewBox="0 0 80 80" style="transform:rotate(-90deg)">
+          <circle cx="40" cy="40" r="36" fill="none" stroke="rgba(0,255,65,.08)" stroke-width="3"/>
+          <circle cx="40" cy="40" r="36" fill="none" stroke="#ef4444" stroke-width="3" stroke-dasharray="226.2" stroke-dashoffset="2.26" stroke-linecap="round" style="filter:drop-shadow(0 0 4px #ef4444)"/>
+        </svg>
+        <div style="position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center">
+          <div style="font-size:18px;font-weight:800;color:#ef4444;font-family:'Orbitron',monospace;text-shadow:0 0 12px rgba(239,68,68,.5);line-height:1">90</div>
+          <div style="font-size:7px;color:var(--muted);text-transform:uppercase;letter-spacing:1px;margin-top:2px">SECONDS</div>
+        </div>
+      </div>
+      <div style="font-size:8px;color:#ef4444;font-family:'Share Tech Mono',monospace;letter-spacing:1px;margin-top:6px;text-align:center;text-shadow:0 0 8px rgba(239,68,68,.3)">TO MIDNIGHT</div>
+      <div style="font-size:7px;color:var(--muted);margin-top:3px;text-align:center">Bulletin of Atomic<br>Scientists — Jan 2024</div>
+    </div>
+  </div>
+
   <!-- X / OSINT ACCOUNTS WIDGET -->
-  <div style="width:320px;flex-shrink:0;border-right:1px solid var(--border);display:flex;flex-direction:column;overflow:hidden">
+  <div style="width:280px;flex-shrink:0;border-right:1px solid var(--border);display:flex;flex-direction:column;overflow:hidden">
     <div style="flex-shrink:0;padding:6px 10px;background:rgba(0,4,0,.6);border-bottom:1px solid rgba(0,255,65,.1);font-size:10px;font-weight:700;letter-spacing:1px;color:rgba(0,255,65,.5);text-transform:uppercase;display:flex;align-items:center;gap:6px">
       📡 <span style="flex:1">OSINT Feeds</span>
       <span id="x-account-tabs" style="display:flex;gap:4px"></span>
@@ -876,31 +916,31 @@ body::after{
 (function bootSequence(){
   const screen = document.getElementById('bootScreen');
   if(!screen) return;
-  const totalLines = 17;
-  const lineDelay = 120;
+  const totalLines = 36;
+  const lineDelay = 70;
   let i = 0;
 
   function showLine(){
     if(i >= totalLines){
-      // Fill progress bar then fade out
       const fill = document.getElementById('boot-fill');
       if(fill) fill.style.width = '100%';
       setTimeout(() => {
-        screen.style.transition = 'opacity 0.4s';
+        screen.style.transition = 'opacity 0.5s';
         screen.style.opacity = '0';
-        setTimeout(() => screen.remove(), 400);
-      }, 600);
+        setTimeout(() => screen.remove(), 500);
+      }, 700);
       return;
     }
     const el = document.getElementById('boot-'+i);
     if(el) el.classList.add('vis');
-    // Update progress
     const fill = document.getElementById('boot-fill');
     if(fill) fill.style.width = Math.round(((i+1)/totalLines)*100)+'%';
     i++;
-    setTimeout(showLine, lineDelay + Math.random()*80);
+    // Vary timing: headers fast, uplink medium, data feeds medium, databases fast
+    const delay = i <= 4 ? 60 : i <= 13 ? lineDelay + Math.random()*60 : i <= 22 ? lineDelay + Math.random()*40 : 50 + Math.random()*30;
+    setTimeout(showLine, delay);
   }
-  setTimeout(showLine, 300);
+  setTimeout(showLine, 400);
 })();
 
 // ════════════════════════════════════════
