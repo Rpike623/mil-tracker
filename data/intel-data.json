@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-02-24T11:03:25Z",
-  "version": 2,
+  "generated_utc": "2026-02-24T13:24:13Z",
+  "version": 3,
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -761,6 +761,32 @@
       "altitude": "SFC-UNL",
       "desc": "Overlapping KADIZ/JADIZ/Chinese ADIZ. North Korean missile test NOTAMs.",
       "authority": "ROK MND / USFK"
+    }
+  ],
+  "_naval_news_refs": [
+    {
+      "title": "Philippine Navy commissions new patrol vessel, missile boat",
+      "link": "https://www.navalnews.com/naval-news/2026/02/philippine-navy-commissions-new-patrol-vessel-missile-boat/",
+      "published": "Tue, 24 Feb 2026 11:22:10 +0000",
+      "source": "Naval News"
+    },
+    {
+      "title": "One hull for today’s crews and tomorrow’s unmanned missions: Cross Water positions modular aluminium RIB as a transition platform",
+      "link": "https://www.navalnews.com/naval-news/2026/02/one-hull-for-todays-crews-and-tomorrows-unmanned-missions-cross-water-positions-modular-aluminium-rib-as-a-transition-platform/",
+      "published": "Tue, 24 Feb 2026 09:29:00 +0000",
+      "source": "Naval News"
+    },
+    {
+      "title": "French Carrier Strike Group Heading to North Atlantic, Baltic",
+      "link": "https://news.usni.org/2026/02/23/french-carrier-strike-group-heading-to-north-atlantic-baltic",
+      "published": "Mon, 23 Feb 2026 22:11:32 +0000",
+      "source": "USNI News"
+    },
+    {
+      "title": "USNI News Fleet and Marine Tracker: Feb. 23, 2026",
+      "link": "https://news.usni.org/2026/02/23/usni-news-fleet-and-marine-tracker-feb-23-2026",
+      "published": "Mon, 23 Feb 2026 19:34:20 +0000",
+      "source": "USNI News"
     }
   ]
 }
