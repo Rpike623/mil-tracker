@@ -569,7 +569,19 @@ body::after{
 .feed-item .fi-type{color:var(--muted)}
 .feed-item .fi-alt{margin-left:auto;color:var(--muted);flex-shrink:0}
 
-/* Info panel — see primary .infopanel block above */
+/* Briefing modal */
+.brief-overlay{position:fixed;inset:0;z-index:90000;background:rgba(0,0,0,.85);display:none;align-items:center;justify-content:center;backdrop-filter:blur(4px)}
+.brief-overlay.vis{display:flex}
+.brief-modal{background:#000;border:1px solid rgba(0,255,65,.3);border-radius:2px;width:90%;max-width:600px;max-height:85vh;overflow-y:auto;box-shadow:0 0 60px rgba(0,255,65,.15);position:relative}
+.brief-modal::before{content:'';position:absolute;top:0;left:0;right:0;height:1px;background:linear-gradient(90deg,transparent,rgba(0,255,65,.7),transparent)}
+.brief-head{padding:12px 16px;background:rgba(0,8,0,.8);border-bottom:1px solid rgba(0,255,65,.1);display:flex;justify-content:space-between;align-items:center;position:sticky;top:0;z-index:2}
+.brief-head h2{font-size:14px;color:var(--accent);font-family:'Orbitron','Share Tech Mono',monospace;letter-spacing:2px;margin:0}
+.brief-body{padding:16px}
+.brief-section{margin-bottom:16px}
+.brief-section h3{font-size:11px;color:var(--accent);font-family:'Share Tech Mono',monospace;letter-spacing:1.5px;text-transform:uppercase;margin-bottom:8px;padding-bottom:4px;border-bottom:1px solid rgba(0,255,65,.1)}
+.brief-stat{display:flex;justify-content:space-between;padding:4px 0;font-size:11px;border-bottom:1px solid rgba(0,255,65,.04)}
+.brief-stat .bs-label{color:var(--muted)}
+.brief-stat .bs-value{color:var(--text);font-weight:700;font-family:'Share Tech Mono',monospace}
 
 /* Region quick-jump */
 .region-btns{position:absolute;bottom:10px;left:10px;z-index:400;display:flex;flex-direction:column;gap:3px}
@@ -662,6 +674,17 @@ body::after{
   <div class="boot-progress" id="boot-bar"><div class="boot-progress-fill" id="boot-fill"></div></div>
 </div>
 
+<!-- BRIEFING MODAL -->
+<div class="brief-overlay" id="briefOverlay" onclick="if(event.target===this)closeBriefing()">
+  <div class="brief-modal">
+    <div class="brief-head">
+      <h2>📋 DAILY INTELLIGENCE BRIEFING</h2>
+      <button class="x" onclick="closeBriefing()" style="background:rgba(0,255,65,.08);border:1px solid rgba(0,255,65,.2);color:var(--accent);cursor:pointer;font-size:18px;width:28px;height:28px;display:flex;align-items:center;justify-content:center;border-radius:2px">&times;</button>
+    </div>
+    <div class="brief-body" id="briefBody"></div>
+  </div>
+</div>
+
 <!-- TOP BAR -->
 <div class="topbar">
   <span class="logo">⚡ PIKE<span>CLAW</span> // OSINT-MIL <span class="status-dot" title="Live feeds active"></span></span>
@@ -700,6 +723,7 @@ body::after{
   <button class="tb-btn" id="btn-exercises" onclick="toggleExercises()">🎯 Exercises</button>
   <button class="tb-btn" id="btn-conflicts" onclick="toggleConflicts()">⚔️ Conflicts</button>
   <button class="tb-btn on" id="btn-naval" onclick="toggleNavalLayer()">🚢 Naval</button>
+  <button class="tb-btn" id="btn-brief" onclick="showBriefing()" style="background:rgba(0,255,65,.08);border-color:rgba(0,255,65,.3)">📋 Brief</button>
   <button class="tb-btn" id="btn-notif" onclick="toggleNotifications()">🔔 Alerts</button>
 </div>
 
@@ -3045,6 +3069,115 @@ function updateClocks(){
 }
 updateClocks();
 setInterval(updateClocks, 1000);
+
+// ════════════════════════════════════════
+// DAILY BRIEFING MODE
+// ════════════════════════════════════════
+function showBriefing(){
+  const now = new Date();
+  const zuluStr = now.toUTCString();
+  const visible = acData.filter(a=>a.lat);
+  const usCount = visible.filter(a=>getGroup(a.hex)==='us').length;
+  const advCount = visible.filter(a=>['iran','russia','china'].includes(getGroup(a.hex))).length;
+  const alliedCount = visible.filter(a=>getGroup(a.hex)==='allied').length;
+  const { pct } = computeThreat(visible);
+  const defcon = pct >= 80 ? 1 : pct >= 60 ? 2 : pct >= 40 ? 3 : pct >= 20 ? 4 : 5;
+  const defconCol = defcon<=2?'#ef4444':defcon===3?'#f97316':defcon===4?'#eab308':'#00ff41';
+
+  // Count by type
+  const types = {};
+  visible.forEach(a => { const t = classifyType(a); types[t] = (types[t]||0)+1; });
+
+  // Active chokepoints
+  const hotChokepoints = CHOKEPOINTS.filter(c=>c.status!=='NORMAL');
+  const activeConflicts = CONFLICTS.filter(c=>c.intensity==='HIGH'||c.intensity==='MEDIUM');
+
+  let h = '';
+
+  // Header
+  h += `<div style="text-align:center;margin-bottom:16px">
+    <div style="font-size:10px;color:var(--muted);font-family:'Share Tech Mono',monospace;letter-spacing:2px">GENERATED ${zuluStr}</div>
+    <div style="font-size:24px;font-weight:800;color:${defconCol};font-family:'Orbitron',monospace;margin:8px 0;letter-spacing:3px;text-shadow:0 0 20px ${defconCol}60">DEFCON ${defcon}</div>
+    <div style="font-size:11px;color:var(--muted)">Threat Index: ${pct}/100</div>
+  </div>`;
+
+  // Force posture
+  h += `<div class="brief-section"><h3>🛩️ Force Posture</h3>
+    <div class="brief-stat"><span class="bs-label">Total Tracked Aircraft</span><span class="bs-value">${visible.length}</span></div>
+    <div class="brief-stat"><span class="bs-label">🇺🇸 US Military</span><span class="bs-value">${usCount}</span></div>
+    <div class="brief-stat"><span class="bs-label">🤝 Allied</span><span class="bs-value">${alliedCount}</span></div>
+    <div class="brief-stat"><span class="bs-label">⚔️ Adversary</span><span class="bs-value" style="color:${advCount>0?'#ef4444':'var(--accent)'}">${advCount}</span></div>
+    ${Object.entries(types).filter(([k])=>k!=='other').map(([k,v])=>`<div class="brief-stat"><span class="bs-label">${TICO[k]||''} ${TLAB[k]||k}</span><span class="bs-value">${v}</span></div>`).join('')}
+  </div>`;
+
+  // Active conflicts
+  h += `<div class="brief-section"><h3>⚔️ Active Conflicts (${activeConflicts.length})</h3>`;
+  activeConflicts.forEach(c => {
+    const col = c.intensity==='HIGH'?'#ef4444':'#f97316';
+    h += `<div style="padding:6px 0;border-bottom:1px solid rgba(0,255,65,.04)">
+      <div style="display:flex;justify-content:space-between;align-items:center">
+        <span style="font-size:11px;color:var(--text);font-weight:700">${c.name}</span>
+        <span style="font-size:9px;padding:1px 6px;border-radius:2px;background:${col}18;color:${col};border:1px solid ${col}40;font-weight:700">${c.status}</span>
+      </div>
+      <div style="font-size:10px;color:var(--muted);margin-top:2px">${c.parties}</div>
+    </div>`;
+  });
+  h += `</div>`;
+
+  // Chokepoints
+  h += `<div class="brief-section"><h3>🚢 Maritime Chokepoints</h3>`;
+  CHOKEPOINTS.forEach(c => {
+    const col = c.status==='HIGH RISK'||c.status==='ELEVATED'?'#ef4444':c.status==='WATCH'?'#eab308':'var(--accent)';
+    h += `<div class="brief-stat"><span class="bs-label">${c.name}</span><span class="bs-value" style="color:${col}">${c.status}</span></div>`;
+  });
+  h += `</div>`;
+
+  // Naval deployments summary
+  const deployedNaval = NAVAL_DEPLOYMENTS.filter(d=>d.status!=='port');
+  h += `<div class="brief-section"><h3>⚓ Naval Deployments (${deployedNaval.length} active)</h3>`;
+  deployedNaval.forEach(d => {
+    const scol = d.status==='combat'?'#ef4444':d.status==='deployed'?'var(--accent)':'#eab308';
+    h += `<div class="brief-stat"><span class="bs-label">${d.name.split('—')[0].trim()}</span><span class="bs-value" style="color:${scol}">${d.region}</span></div>`;
+  });
+  h += `</div>`;
+
+  // Upcoming launches
+  if(launchData.length){
+    h += `<div class="brief-section"><h3>🚀 Upcoming Launches</h3>`;
+    launchData.slice(0,4).forEach(l => {
+      const net = l.net ? new Date(l.net) : null;
+      const dateStr = net ? net.toISOString().slice(0,10) : '?';
+      const isMil = /military|classified|nrol|spy|recon|gps|sbirs|wgs|muos|defense/i.test(l.name+(l.mission?.description||''));
+      h += `<div class="brief-stat"><span class="bs-label">${isMil?'🎖️':'🚀'} ${l.name}</span><span class="bs-value">${dateStr}</span></div>`;
+    });
+    h += `</div>`;
+  }
+
+  // Earthquakes summary
+  if(quakeData.length){
+    const bigQuakes = quakeData.filter(q=>q.properties.mag>=5);
+    h += `<div class="brief-section"><h3>🌍 Seismic Activity (24h)</h3>
+      <div class="brief-stat"><span class="bs-label">Total Earthquakes (M2.5+)</span><span class="bs-value">${quakeData.length}</span></div>
+      <div class="brief-stat"><span class="bs-label">Significant (M5+)</span><span class="bs-value" style="color:${bigQuakes.length>0?'#f97316':'var(--accent)'}">${bigQuakes.length}</span></div>`;
+    bigQuakes.slice(0,3).forEach(q => {
+      h += `<div class="brief-stat"><span class="bs-label">M${q.properties.mag.toFixed(1)} — ${q.properties.place}</span><span class="bs-value">${new Date(q.properties.time).toISOString().slice(11,16)}Z</span></div>`;
+    });
+    h += `</div>`;
+  }
+
+  // Classification footer
+  h += `<div style="text-align:center;margin-top:16px;padding-top:12px;border-top:1px solid rgba(0,255,65,.1)">
+    <div style="font-size:9px;color:var(--muted);font-family:'Share Tech Mono',monospace;letter-spacing:2px">⚠️ UNCLASSIFIED // OSINT ONLY</div>
+    <div style="font-size:9px;color:var(--muted);margin-top:4px">PIKECLAW MILITARY OSINT TERMINAL v3.1</div>
+  </div>`;
+
+  document.getElementById('briefBody').innerHTML = h;
+  document.getElementById('briefOverlay').classList.add('vis');
+}
+
+function closeBriefing(){
+  document.getElementById('briefOverlay').classList.remove('vis');
+}
 
 // ════════════════════════════════════════
 // ISS + TIANGONG LIVE TRACKER
