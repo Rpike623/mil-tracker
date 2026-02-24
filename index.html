@@ -436,6 +436,42 @@ body::after{
 /* Conflict pulse */
 @keyframes pulse-conflict{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.6;transform:scale(1.4)}}
 
+/* Earthquake seismic ripple */
+@keyframes seismic-ripple{
+  0%{transform:scale(0.3);opacity:0.8}
+  100%{transform:scale(3);opacity:0}
+}
+.quake-marker{position:relative;cursor:pointer}
+.quake-dot{border-radius:50%;position:absolute;top:50%;left:50%;transform:translate(-50%,-50%)}
+.quake-ripple{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);border-radius:50%;border:2px solid;animation:seismic-ripple 2s ease-out infinite;pointer-events:none}
+.quake-ripple.r2{animation-delay:0.6s}
+.quake-ripple.r3{animation-delay:1.2s}
+
+/* Space launch countdown pulse */
+@keyframes launch-pulse{
+  0%,100%{text-shadow:0 0 4px rgba(0,255,65,.3)}
+  50%{text-shadow:0 0 16px rgba(0,255,65,.8),0 0 30px rgba(0,255,65,.3)}
+}
+.launch-countdown{animation:launch-pulse 2s ease-in-out infinite}
+
+/* Currency flash on change */
+@keyframes currency-flash{
+  0%{background:rgba(0,255,65,.15)}
+  100%{background:transparent}
+}
+.currency-updated{animation:currency-flash 1s ease-out}
+
+/* Scanning line effect for widgets */
+@keyframes widget-scan{
+  0%{top:-2px}
+  100%{top:100%}
+}
+.widget-scan-line::after{
+  content:'';position:absolute;left:0;right:0;height:2px;
+  background:linear-gradient(90deg,transparent,rgba(0,255,65,.15),rgba(0,255,65,.3),rgba(0,255,65,.15),transparent);
+  animation:widget-scan 4s linear infinite;pointer-events:none;z-index:1
+}
+
 .topbar{flex-shrink:0;background:var(--panel);border-bottom:1px solid var(--border);padding:7px 12px;display:flex;gap:5px;align-items:center;flex-wrap:wrap;z-index:200}
 .topbar .logo{font-weight:800;font-size:13px;color:var(--accent);margin-right:6px;letter-spacing:.5px;white-space:nowrap}
 .topbar .logo span{color:var(--text)}
@@ -645,6 +681,7 @@ body::after{
   <button class="tb-btn" id="btn-missiles" onclick="toggleMissiles()">🚀 Ranges</button>
   <button class="tb-btn" id="btn-nuclear" onclick="toggleNuclear()">☢️ WMD Sites</button>
   <button class="tb-btn" id="btn-airdef" onclick="toggleAirDef()">🛡️ Air Defense</button>
+  <button class="tb-btn" id="btn-quakes" onclick="toggleQuakes()">🌍 Quakes</button>
   <button class="tb-btn" id="btn-notams" onclick="toggleNOTAMs()">🔴 NOTAMs</button>
   <button class="tb-btn" id="btn-gpsjam" onclick="toggleGPSJam()">📡 GPS Jam</button>
   <button class="tb-btn" id="btn-exercises" onclick="toggleExercises()">🎯 Exercises</button>
@@ -2176,6 +2213,96 @@ function renderAdvPanel(adv){
   h += `</div>`;
   pane.innerHTML = h;
 }
+// ════════════════════════════════════════
+// EARTHQUAKE MONITOR (USGS API)
+// ════════════════════════════════════════
+let quakeLayer = L.layerGroup();
+let quakesVisible = false;
+let quakeData = [];
+
+function toggleQuakes(){
+  quakesVisible = !quakesVisible;
+  const btn = document.getElementById('btn-quakes');
+  if(quakesVisible){
+    quakeLayer.addTo(map);
+    btn.classList.add('on');
+    fetchQuakes();
+  } else {
+    map.removeLayer(quakeLayer);
+    btn.classList.remove('on');
+  }
+}
+
+async function fetchQuakes(){
+  try {
+    const res = await fetch('https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson');
+    if(!res.ok) throw new Error('HTTP '+res.status);
+    const data = await res.json();
+    quakeData = data.features || [];
+    renderQuakes();
+  } catch(e){
+    console.warn('[QUAKE] Failed to fetch:', e.message);
+  }
+}
+
+function renderQuakes(){
+  quakeLayer.clearLayers();
+  if(!quakesVisible || !quakeData.length) return;
+
+  quakeData.forEach(q => {
+    const p = q.properties;
+    const [lon, lat, depth] = q.geometry.coordinates;
+    const mag = p.mag || 0;
+    const dotSize = Math.max(6, Math.min(mag * 4, 30));
+    const rippleSize = dotSize * 2;
+
+    // Color by magnitude
+    const col = mag >= 7 ? '#ff0040' : mag >= 6 ? '#ef4444' : mag >= 5 ? '#f97316' : mag >= 4 ? '#eab308' : '#00ff41';
+    const time = new Date(p.time);
+    const ago = Math.round((Date.now() - time) / 60000);
+    const agoStr = ago < 60 ? `${ago}m ago` : `${Math.round(ago/60)}h ago`;
+
+    const marker = L.marker([lat, lon], {
+      icon: L.divIcon({
+        html:`<div class="quake-marker">
+          <div class="quake-dot" style="width:${dotSize}px;height:${dotSize}px;background:${col};box-shadow:0 0 ${dotSize}px ${col}80"></div>
+          ${mag >= 5 ? `<div class="quake-ripple" style="width:${rippleSize}px;height:${rippleSize}px;border-color:${col}"></div>
+          <div class="quake-ripple r2" style="width:${rippleSize}px;height:${rippleSize}px;border-color:${col}"></div>
+          <div class="quake-ripple r3" style="width:${rippleSize}px;height:${rippleSize}px;border-color:${col}"></div>` : ''}
+        </div>`,
+        className:'', iconSize:[dotSize, dotSize], iconAnchor:[dotSize/2, dotSize/2]
+      })
+    });
+
+    marker.bindTooltip(`🌍 M${mag.toFixed(1)} — ${p.place}`, {className:'dark-tooltip', direction:'top', offset:[0,-dotSize/2]});
+    marker.on('click', () => {
+      document.getElementById('pTitle').textContent = `M${mag.toFixed(1)} Earthquake`;
+      const tsunami = p.tsunami ? '<span style="color:#ef4444;font-weight:700">⚠️ TSUNAMI WARNING</span>' : '<span style="color:var(--accent)">No tsunami alert</span>';
+      document.getElementById('pBody').innerHTML = `
+        <div style="margin-bottom:6px">
+          <span style="font-size:18px;font-weight:800;color:${col};font-family:'Orbitron',monospace;text-shadow:0 0 12px ${col}60">${mag.toFixed(1)}</span>
+          <span style="font-size:10px;color:var(--muted);margin-left:6px">magnitude</span>
+        </div>
+        <div class="f"><span class="k">Location: </span><span class="v">${p.place || '—'}</span></div>
+        <div class="f"><span class="k">Depth: </span><span class="v">${depth.toFixed(1)} km</span></div>
+        <div class="f"><span class="k">Time: </span><span class="v">${time.toUTCString()} (${agoStr})</span></div>
+        <div class="f"><span class="k">Tsunami: </span><span class="v">${tsunami}</span></div>
+        <div class="f"><span class="k">Felt Reports: </span><span class="v">${p.felt || 'None'}</span></div>
+        <div class="f"><span class="k">Alert Level: </span><span class="v" style="color:${p.alert==='red'?'#ef4444':p.alert==='orange'?'#f97316':p.alert==='yellow'?'#eab308':'var(--accent)'}">${(p.alert||'green').toUpperCase()}</span></div>
+        <div style="margin-top:8px">
+          <a href="${p.url}" target="_blank" style="font-size:10px;color:var(--accent);text-decoration:none;background:rgba(0,12,0,.8);padding:3px 7px;border-radius:2px;border:1px solid rgba(0,255,65,.2)">🔗 USGS Details</a>
+        </div>
+      `;
+      document.getElementById('infoP').classList.add('vis');
+    });
+
+    quakeLayer.addLayer(marker);
+  });
+}
+
+// Auto-refresh quakes every 2 min if visible
+setInterval(() => { if(quakesVisible) fetchQuakes(); }, 120000);
+
 // ════════════════════════════════════════
 // TFR / NOTAM OVERLAY
 // ════════════════════════════════════════
