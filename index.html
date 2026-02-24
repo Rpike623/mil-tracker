@@ -724,6 +724,7 @@ body::after{
   <button class="tb-btn" id="btn-conflicts" onclick="toggleConflicts()">⚔️ Conflicts</button>
   <button class="tb-btn on" id="btn-naval" onclick="toggleNavalLayer()">🚢 Naval</button>
   <button class="tb-btn" id="btn-brief" onclick="showBriefing()" style="background:rgba(0,255,65,.08);border-color:rgba(0,255,65,.3)">📋 Brief</button>
+  <button class="tb-btn" id="btn-audio" onclick="toggleAudio()">🔇 Sound</button>
   <button class="tb-btn" id="btn-notif" onclick="toggleNotifications()">🔔 Alerts</button>
 </div>
 
@@ -1356,6 +1357,7 @@ function render(){
   updateActivityPane(visible);
   renderThreat(visible);
   renderAdvPanel(currentAdv);
+  checkAudioAlerts(visible);
 }
 
 // ════════════════════════════════════════
@@ -1550,6 +1552,7 @@ async function fetchData(){
       // Flash topbar on new data
       const tb=document.querySelector('.topbar');
       if(tb){tb.classList.remove('data-flash');void tb.offsetWidth;tb.classList.add('data-flash');}
+      playTone('data');
       return;
     }catch(e){console.warn('AC fetch fail',url,e.message);}
   }
@@ -3069,6 +3072,95 @@ function updateClocks(){
 }
 updateClocks();
 setInterval(updateClocks, 1000);
+
+// ════════════════════════════════════════
+// AUDIO ALERT SYSTEM
+// ════════════════════════════════════════
+let audioEnabled = false;
+let audioCtx = null;
+let prevAdvCount = 0;
+let prevThreatLevel = 5;
+
+function toggleAudio(){
+  audioEnabled = !audioEnabled;
+  const btn = document.getElementById('btn-audio');
+  if(audioEnabled){
+    btn.classList.add('on');
+    btn.textContent = '🔊 Sound';
+    // Init AudioContext on user gesture
+    if(!audioCtx) audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+    playTone('confirm');
+  } else {
+    btn.classList.remove('on');
+    btn.textContent = '🔇 Sound';
+  }
+}
+
+function playTone(type){
+  if(!audioEnabled || !audioCtx) return;
+  try {
+    const osc = audioCtx.createOscillator();
+    const gain = audioCtx.createGain();
+    osc.connect(gain);
+    gain.connect(audioCtx.destination);
+
+    switch(type){
+      case 'confirm': // Short blip — toggle confirmation
+        osc.type = 'sine';
+        osc.frequency.value = 800;
+        gain.gain.setValueAtTime(0.15, audioCtx.currentTime);
+        gain.gain.exponentialRampToValueAtTime(0.001, audioCtx.currentTime + 0.15);
+        osc.start(audioCtx.currentTime);
+        osc.stop(audioCtx.currentTime + 0.15);
+        break;
+      case 'adversary': // Two-tone alert — new adversary aircraft
+        osc.type = 'square';
+        osc.frequency.value = 600;
+        gain.gain.setValueAtTime(0.12, audioCtx.currentTime);
+        osc.frequency.setValueAtTime(800, audioCtx.currentTime + 0.15);
+        gain.gain.exponentialRampToValueAtTime(0.001, audioCtx.currentTime + 0.4);
+        osc.start(audioCtx.currentTime);
+        osc.stop(audioCtx.currentTime + 0.4);
+        break;
+      case 'threat-up': // Rising alarm — threat level increased
+        osc.type = 'sawtooth';
+        osc.frequency.setValueAtTime(300, audioCtx.currentTime);
+        osc.frequency.linearRampToValueAtTime(900, audioCtx.currentTime + 0.5);
+        gain.gain.setValueAtTime(0.1, audioCtx.currentTime);
+        gain.gain.exponentialRampToValueAtTime(0.001, audioCtx.currentTime + 0.6);
+        osc.start(audioCtx.currentTime);
+        osc.stop(audioCtx.currentTime + 0.6);
+        break;
+      case 'data': // Soft blip — new data received
+        osc.type = 'sine';
+        osc.frequency.value = 1200;
+        gain.gain.setValueAtTime(0.05, audioCtx.currentTime);
+        gain.gain.exponentialRampToValueAtTime(0.001, audioCtx.currentTime + 0.08);
+        osc.start(audioCtx.currentTime);
+        osc.stop(audioCtx.currentTime + 0.08);
+        break;
+    }
+  } catch(e){ console.warn('[AUDIO]', e.message); }
+}
+
+function checkAudioAlerts(visible){
+  if(!audioEnabled) return;
+  const advNow = visible.filter(a=>['iran','russia','china'].includes(getGroup(a.hex))).length;
+  const { pct } = computeThreat(visible);
+  const defconNow = pct >= 80 ? 1 : pct >= 60 ? 2 : pct >= 40 ? 3 : pct >= 20 ? 4 : 5;
+
+  // New adversary aircraft detected
+  if(advNow > prevAdvCount && prevAdvCount >= 0){
+    playTone('adversary');
+  }
+  // Threat level increased (lower DEFCON = higher threat)
+  if(defconNow < prevThreatLevel){
+    playTone('threat-up');
+  }
+
+  prevAdvCount = advNow;
+  prevThreatLevel = defconNow;
+}
 
 // ════════════════════════════════════════
 // DAILY BRIEFING MODE
