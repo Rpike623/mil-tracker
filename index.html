@@ -607,6 +607,7 @@ body::after{
   <button class="tb-btn" id="btn-missiles" onclick="toggleMissiles()">🚀 Ranges</button>
   <button class="tb-btn" id="btn-nuclear" onclick="toggleNuclear()">☢️ WMD Sites</button>
   <button class="tb-btn" id="btn-airdef" onclick="toggleAirDef()">🛡️ Air Defense</button>
+  <button class="tb-btn" id="btn-exercises" onclick="toggleExercises()">🎯 Exercises</button>
   <button class="tb-btn" id="btn-conflicts" onclick="toggleConflicts()">⚔️ Conflicts</button>
   <button class="tb-btn on" id="btn-naval" onclick="toggleNavalLayer()">🚢 Naval</button>
   <button class="tb-btn" id="btn-notif" onclick="toggleNotifications()">🔔 Alerts</button>
@@ -2102,6 +2103,120 @@ function renderAdvPanel(adv){
   h += `</div>`;
   pane.innerHTML = h;
 }
+// ════════════════════════════════════════
+// MILITARY EXERCISES TRACKER
+// ════════════════════════════════════════
+const EXERCISES = [
+  {name:'DEFENDER EUROPE 2026', status:'PLANNED', type:'NATO',
+   lat:54.0, lon:20.0, radiusKm:400, color:'#00ff41',
+   nations:'🇺🇸🇬🇧🇩🇪🇫🇷🇵🇱🇪🇪🇱🇹🇱🇻 + 20 NATO allies',
+   period:'May-Jun 2026', personnel:'~30,000',
+   summary:'Large-scale NATO deterrence exercise in Eastern Europe. Tests rapid deployment of US forces to European theater. Focus on Baltic and Polish corridors.',
+   components:['Ground maneuver','Air defense integration','Logistics sustainment','Cyber defense']},
+  {name:'RIMPAC 2026', status:'PLANNED', type:'MULTINATIONAL',
+   lat:21.3, lon:-157.8, radiusKm:500, color:'#22d3ee',
+   nations:'🇺🇸🇯🇵🇦🇺🇰🇷🇨🇦🇬🇧🇮🇳 + 20 Pacific partners',
+   period:'Jun-Aug 2026', personnel:'~25,000',
+   summary:'World\'s largest international maritime exercise. Held biennially near Hawaii. Anti-submarine warfare, amphibious ops, live-fire exercises, HADR.',
+   components:['Carrier ops','Submarine warfare','Amphibious assault','Live-fire sinking exercise']},
+  {name:'STEADFAST DEFENDER', status:'ONGOING', type:'NATO',
+   lat:58.0, lon:15.0, radiusKm:600, color:'#00ff41',
+   nations:'🇺🇸🇬🇧🇩🇪🇫🇷🇳🇴🇸🇪🇫🇮 + all 32 NATO members',
+   period:'2024-2026 (rolling)', personnel:'~90,000',
+   summary:'NATO\'s largest exercise since Cold War. Tests new defense plans against near-peer threat. Full-spectrum operations from Arctic to Mediterranean.',
+   components:['Article 5 scenarios','Nuclear deterrence','Integrated air/missile defense','Maritime interdiction']},
+  {name:'COBRA GOLD', status:'ANNUAL', type:'MULTINATIONAL',
+   lat:14.5, lon:101.0, radiusKm:200, color:'#22d3ee',
+   nations:'🇺🇸🇹🇭🇯🇵🇰🇷🇸🇬🇮🇩🇲🇾',
+   period:'Feb-Mar 2026', personnel:'~10,000',
+   summary:'Oldest and largest multinational exercise in Asia-Pacific. Hosted by Thailand. Focus on interoperability, humanitarian assistance, and jungle warfare.',
+   components:['Jungle warfare','HADR','Amphibious landing','Command post exercise']},
+  {name:'KEEN SWORD', status:'ANNUAL', type:'US-JAPAN',
+   lat:35.5, lon:139.7, radiusKm:300, color:'#22d3ee',
+   nations:'🇺🇸🇯🇵',
+   period:'Oct-Nov (biennial)', personnel:'~15,000',
+   summary:'Bilateral US-Japan exercise. Tests defense of Japanese home islands and surrounding seas. Integrates JSDF and USFJ forces.',
+   components:['Island defense','Air superiority','Anti-ship warfare','BMD integration']},
+  {name:'VOSTOK (Russia)', status:'ANNUAL', type:'RUSSIAN',
+   lat:48.0, lon:135.0, radiusKm:500, color:'#dc2626',
+   nations:'🇷🇺🇨🇳🇮🇳🇲🇳 (reduced since 2022)',
+   period:'Varies', personnel:'~50,000 (claimed)',
+   summary:'Russia\'s large-scale strategic exercise in Eastern Military District. Scaled down since Ukraine invasion. Tests Pacific Fleet and Eastern theater readiness.',
+   components:['Strategic bomber flights','Naval fleet ops','Ground maneuver','Nuclear readiness drills']},
+  {name:'JOINT SWORD (China)', status:'RECURRING', type:'PLA',
+   lat:25.0, lon:121.0, radiusKm:200, color:'#e5ff00',
+   nations:'🇨🇳 PLA',
+   period:'Triggered by political events', personnel:'Unknown',
+   summary:'PLA exercises encircling Taiwan. Simulates blockade and invasion scenarios. Live-fire drills, missile launches into surrounding waters. Escalatory signaling.',
+   components:['Naval blockade drill','Amphibious assault','Missile launches','Air superiority ops']},
+  {name:'RED FLAG', status:'RECURRING', type:'USAF',
+   lat:36.8, lon:-115.0, radiusKm:100, color:'#00ff41',
+   nations:'🇺🇸 + allied air forces',
+   period:'Multiple annually at Nellis AFB', personnel:'~4,000',
+   summary:'Premier USAF air combat training exercise. Realistic adversary air ("Red Air") scenarios. Tests 5th-gen integration, electronic warfare, SEAD/DEAD.',
+   components:['BVR air combat','SEAD/DEAD','CAS integration','5th/4th gen fusion']},
+];
+
+let exerciseLayer = L.layerGroup();
+let exercisesVisible = false;
+
+function toggleExercises(){
+  exercisesVisible = !exercisesVisible;
+  const btn = document.getElementById('btn-exercises');
+  if(exercisesVisible){
+    exerciseLayer.addTo(map);
+    btn.classList.add('on');
+    renderExercises();
+  } else {
+    map.removeLayer(exerciseLayer);
+    btn.classList.remove('on');
+  }
+}
+
+function renderExercises(){
+  exerciseLayer.clearLayers();
+  if(!exercisesVisible) return;
+  EXERCISES.forEach(ex => {
+    const circle = L.circle([ex.lat, ex.lon], {
+      radius: ex.radiusKm * 1000,
+      fillColor: ex.color,
+      fillOpacity: 0.05,
+      color: ex.color,
+      weight: 1.5,
+      opacity: 0.35,
+      dashArray: '6 6'
+    });
+
+    const marker = L.marker([ex.lat, ex.lon], {
+      icon: L.divIcon({
+        html:`<div style="font-size:14px;text-shadow:0 0 8px ${ex.color}80;cursor:pointer">🎯</div>`,
+        className:'', iconSize:[14,14], iconAnchor:[7,7]
+      })
+    });
+
+    marker.bindTooltip(`🎯 ${ex.name}`, {className:'dark-tooltip', direction:'top', offset:[0,-8]});
+    marker.on('click', () => {
+      document.getElementById('pTitle').textContent = ex.name;
+      document.getElementById('pBody').innerHTML = `
+        <div style="margin-bottom:6px"><span style="font-size:10px;padding:2px 8px;border-radius:2px;font-weight:700;font-family:'Share Tech Mono',monospace;background:${ex.color}18;color:${ex.color};border:1px solid ${ex.color}40">${ex.status}</span>
+        <span style="font-size:10px;padding:2px 8px;border-radius:2px;font-family:'Share Tech Mono',monospace;background:rgba(0,255,65,.05);color:var(--muted);border:1px solid rgba(0,255,65,.1);margin-left:4px">${ex.type}</span></div>
+        <div class="f"><span class="k">Nations: </span><span class="v">${ex.nations}</span></div>
+        <div class="f"><span class="k">Period: </span><span class="v">${ex.period}</span></div>
+        <div class="f"><span class="k">Personnel: </span><span class="v">${ex.personnel}</span></div>
+        <div style="margin-top:6px;font-size:10px;color:var(--text);line-height:1.5">${ex.summary}</div>
+        <div style="margin-top:8px">
+          <div style="font-size:9px;color:var(--muted);text-transform:uppercase;letter-spacing:1px;margin-bottom:4px">Components</div>
+          ${ex.components.map(c=>`<span style="display:inline-block;font-size:10px;padding:2px 6px;margin:2px;background:rgba(0,255,65,.05);border:1px solid rgba(0,255,65,.12);border-radius:2px;color:var(--text)">${c}</span>`).join('')}
+        </div>
+      `;
+      document.getElementById('infoP').classList.add('vis');
+    });
+
+    exerciseLayer.addLayer(circle);
+    exerciseLayer.addLayer(marker);
+  });
+}
+
 // ════════════════════════════════════════
 // ACTIVE CONFLICTS OVERLAY
 // ════════════════════════════════════════
