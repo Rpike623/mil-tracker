@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-02-26T00:26:33Z",
-  "version": 7,
+  "generated_utc": "2026-02-26T00:27:54Z",
+  "version": 37,
   "naval_deployments": [
     {
       "id": "csg3",
@@ -11,18 +11,18 @@
       "lat": 13.5,
       "lng": 145.0,
       "status": "deployed",
-      "notes": "Operating in Western Pacific, 7th Fleet. Conducting presence ops in SCS region."
+      "notes": "Operating in Western Pacific, 7th Fleet. Conducting presence ops near SCS."
     },
     {
       "id": "csg5",
       "name": "CSG-5 \u2014 USS Ronald Reagan (CVN-76)",
       "type": "CSG",
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "location": "Yokosuka, Japan (homeport \u2014 maintenance)",
+      "location": "Yokosuka, Japan (maintenance)",
       "lat": 35.3,
       "lng": 139.6,
       "status": "port",
-      "notes": "Homeported Yokosuka. Reagan transitioning \u2014 Lincoln took over 7th Fleet duties."
+      "notes": "Homeported Yokosuka. Lincoln took over 7th Fleet carrier duties."
     },
     {
       "id": "csg12",
@@ -33,7 +33,7 @@
       "lat": 34.5,
       "lng": 30.0,
       "status": "deployed",
-      "notes": "Operating in Eastern Med. Supporting regional deterrence amid Iran-Israel tensions."
+      "notes": "Eastern Med deterrence posture. Backdrop to US-Iran Geneva talks."
     },
     {
       "id": "csg9",
@@ -44,7 +44,7 @@
       "lat": 22.0,
       "lng": 62.0,
       "status": "deployed",
-      "notes": "5th Fleet AOR. Supporting Red Sea/Houthi ops and Iran deterrence."
+      "notes": "5th Fleet AOR. Supporting Red Sea ops and Iran deterrence."
     },
     {
       "id": "arg_bataan",
@@ -55,7 +55,7 @@
       "lat": 37.0,
       "lng": 15.0,
       "status": "deployed",
-      "notes": "MEU embarked. Operating in Med with NATO partners."
+      "notes": "MEU embarked. Operating with NATO partners in Med."
     },
     {
       "id": "arg_boxer",
@@ -66,7 +66,7 @@
       "lat": 32.7,
       "lng": -117.2,
       "status": "port",
-      "notes": "In port San Diego undergoing scheduled maintenance."
+      "notes": "Scheduled maintenance San Diego."
     },
     {
       "id": "ssbn_atl",
@@ -77,7 +77,7 @@
       "lat": 55.0,
       "lng": -35.0,
       "status": "deployed",
-      "notes": "Ohio-class SSBN on deterrent patrol. Location classified."
+      "notes": "Ohio-class on deterrent patrol."
     },
     {
       "id": "ssbn_pac",
@@ -88,51 +88,51 @@
       "lat": 40.0,
       "lng": -150.0,
       "status": "deployed",
-      "notes": "Ohio-class SSBN on deterrent patrol. Location classified."
+      "notes": "Ohio-class on deterrent patrol."
     },
     {
       "id": "ru_north",
-      "name": "\ud83c\uddf7\ud83c\uddfa Northern Fleet \u2014 Severomorsk",
+      "name": "\ud83c\uddf7\ud83c\uddfa Northern Fleet",
       "type": "Fleet",
       "flag": "\ud83c\uddf7\ud83c\uddfa",
       "location": "Severomorsk / Barents Sea",
       "lat": 69.1,
       "lng": 33.4,
       "status": "combat",
-      "notes": "Reduced activity. Several vessels undergoing repair after combat losses in Black Sea campaign."
+      "notes": "Reduced ops. Several vessels damaged in Black Sea campaign."
     },
     {
       "id": "ru_black",
-      "name": "\ud83c\uddf7\ud83c\uddfa Black Sea Fleet \u2014 Sevastopol",
+      "name": "\ud83c\uddf7\ud83c\uddfa Black Sea Fleet",
       "type": "Fleet",
       "flag": "\ud83c\uddf7\ud83c\uddfa",
-      "location": "Novorossiysk (relocated from Sevastopol)",
+      "location": "Novorossiysk (relocated)",
       "lat": 44.7,
       "lng": 37.8,
       "status": "combat",
-      "notes": "Fleet largely relocated to Novorossiysk after Ukrainian drone/missile strikes on Sevastopol. Significantly degraded."
+      "notes": "Relocated from Sevastopol to Novorossiysk after Ukrainian strikes. Significantly degraded."
     },
     {
       "id": "cn_south",
       "name": "\ud83c\udde8\ud83c\uddf3 PLA Navy \u2014 South Sea Fleet",
       "type": "Fleet",
       "flag": "\ud83c\udde8\ud83c\uddf3",
-      "location": "South China Sea / Sanya Naval Base",
+      "location": "South China Sea / Sanya",
       "lat": 18.2,
       "lng": 109.5,
       "status": "deployed",
-      "notes": "Carrier Fujian conducting training ops. Heightened activity near Taiwan Strait."
+      "notes": "Fujian carrier training ops near Taiwan Strait. Elevated activity."
     },
     {
       "id": "ir_irin",
-      "name": "\ud83c\uddee\ud83c\uddf7 IRIN \u2014 Bandar Abbas",
+      "name": "\ud83c\uddee\ud83c\uddf7 IRIN \u2014 Persian Gulf",
       "type": "Fleet",
       "flag": "\ud83c\uddee\ud83c\uddf7",
       "location": "Persian Gulf / Strait of Hormuz",
       "lat": 27.2,
       "lng": 56.3,
       "status": "elevated",
-      "notes": "IRGCN fast-boats active in Gulf. US-Iran nuclear talks ongoing in Geneva (Feb 26). Posture cautiously elevated."
+      "notes": "IRGCN fast-boats active. US-Iran talks in Geneva Feb 26 \u2014 cautiously elevated posture."
     }
   ],
   "chokepoints": [
@@ -187,7 +187,7 @@
       "lng": 32.0,
       "intensity": "HIGH",
       "status": "ACTIVE COMBAT",
-      "update": "Zelenskyy spoke with Trump Feb 25 re: peace talks. US-Ukraine envoys meeting Geneva Feb 26. Russia recruiting 1,700+ African mercenaries per Ukraine intel. Frontlines largely static in Donbas."
+      "update": "Zelenskyy-Trump call Feb 25 re: peace talks. US-Ukraine envoys meeting Geneva Feb 26. Russia recruiting 1,700+ African mercenaries. Frontlines static in Donbas."
     },
     {
       "id": "gaza",
@@ -196,7 +196,7 @@
       "lng": 34.5,
       "intensity": "HIGH",
       "status": "ACTIVE COMBAT",
-      "update": "Modi addressed Israeli Knesset Feb 25. Hostage negotiations ongoing. IDF continuing operations in Gaza. Modi: 'No cause justifies killing civilians.'"
+      "update": "Modi addressed Israeli Knesset Feb 25. Hostage negotiations ongoing. IDF operations continuing in Gaza."
     },
     {
       "id": "redsea",
@@ -205,7 +205,7 @@
       "lng": 42.5,
       "intensity": "MEDIUM",
       "status": "ACTIVE",
-      "update": "Houthi attacks on shipping continuing. US Navy (Nimitz CSG) maintaining presence in North Arabian Sea. Commercial traffic rerouting via Cape of Good Hope."
+      "update": "Houthi drone/missile attacks on shipping ongoing. Nimitz CSG in North Arabian Sea. Commercial vessels rerouting via Cape of Good Hope."
     },
     {
       "id": "lebanon",
@@ -214,7 +214,7 @@
       "lng": 35.5,
       "intensity": "LOW",
       "status": "CEASEFIRE HOLDING",
-      "update": "Ceasefire largely holding. IDF maintaining buffer zone in southern Lebanon. Sporadic incidents reported but no major escalation."
+      "update": "Ceasefire largely holding since Nov 2024. IDF buffer zone in southern Lebanon maintained. Sporadic incidents only."
     },
     {
       "id": "syria",
@@ -223,7 +223,7 @@
       "lng": 38.5,
       "intensity": "LOW",
       "status": "TRANSITIONAL",
-      "update": "HTS-led government consolidating control. Turkey, US, Israel all maintaining forces/influence. ISIS remnants active in eastern Syria."
+      "update": "HTS-led government consolidating control post-Assad fall. ISIS remnants active in east Syria. Turkey, US, Israel all maintaining presence."
     },
     {
       "id": "taiwan",
@@ -232,7 +232,7 @@
       "lng": 120.5,
       "intensity": "MEDIUM",
       "status": "ELEVATED",
-      "update": "PLA Fujian carrier conducting drills near strait. Philippines People Power anniversary protests. US maintaining freedom of navigation transits."
+      "update": "PLA Fujian carrier conducting drills near strait. Philippines People Power 40th anniversary protests. US FON transits maintained."
     },
     {
       "id": "scs",
@@ -241,7 +241,7 @@
       "lng": 114.0,
       "intensity": "MEDIUM",
       "status": "ELEVATED",
-      "update": "PLA Navy activity elevated near Spratly Islands. Philippines-China standoffs continuing at Second Thomas Shoal. US presence maintained."
+      "update": "PLA activity elevated near Spratlys. Philippines-China standoffs at Second Thomas Shoal continuing. Marcos Jr under pressure domestically."
     },
     {
       "id": "iran",
@@ -250,10 +250,19 @@
       "lng": 53.0,
       "intensity": "MEDIUM",
       "status": "NEGOTIATING",
-      "update": "US-Iran nuclear talks in Geneva Feb 26. Trump weighing options post-State of the Union. Next round could be decisive. Ford CSG in Eastern Med as deterrent backdrop."
+      "update": "US-Iran nuclear talks in Geneva Feb 26 \u2014 Trump weighing options post-SOTU. Ford CSG in Eastern Med as deterrent. Next round could be decisive."
     }
   ],
   "exercises": [
+    {
+      "id": "cobragold",
+      "name": "COBRA GOLD 2026",
+      "status": "ONGOING",
+      "dates": "Feb 25 \u2013 Mar 7, 2026",
+      "location": "Thailand",
+      "participants": "US, Thailand, Japan, Singapore, Indonesia, Malaysia, South Korea",
+      "notes": "Largest multilateral exercise in Indo-Pacific. Currently active."
+    },
     {
       "id": "defender26",
       "name": "DEFENDER EUROPE 2026",
@@ -261,7 +270,7 @@
       "dates": "May\u2013Jun 2026",
       "location": "Europe (multi-nation)",
       "participants": "NATO allies, ~20,000 US troops",
-      "notes": "Annual large-scale NATO exercise. Planning underway."
+      "notes": "Annual large-scale NATO ground exercise. Planning underway."
     },
     {
       "id": "rimpac26",
@@ -269,7 +278,7 @@
       "status": "PLANNED",
       "dates": "Jun\u2013Aug 2026",
       "location": "Hawaii / Pacific",
-      "participants": "~25 nations, 3+ carrier groups",
+      "participants": "~25 nations",
       "notes": "World's largest naval exercise. Biennial."
     },
     {
@@ -279,16 +288,7 @@
       "dates": "Early 2026",
       "location": "Eastern Europe / Baltics",
       "participants": "NATO",
-      "notes": "NATO's largest defensive exercise. Focus on eastern flank defense."
-    },
-    {
-      "id": "cobragold",
-      "name": "COBRA GOLD 2026",
-      "status": "ONGOING",
-      "dates": "Feb 25 \u2013 Mar 7, 2026",
-      "location": "Thailand",
-      "participants": "US, Thailand, Japan, Singapore, Indonesia, Malaysia, South Korea",
-      "notes": "Largest multilateral exercise in Indo-Pacific. Currently active as of Feb 25."
+      "notes": "NATO's largest defensive exercise. Focus on eastern flank."
     },
     {
       "id": "keensword",
@@ -297,16 +297,16 @@
       "dates": "Oct\u2013Nov 2025",
       "location": "Japan",
       "participants": "US, Japan",
-      "notes": "Completed. Biennial US-Japan bilateral. Next edition 2027."
+      "notes": "Completed. Next edition 2027."
     },
     {
       "id": "vostok",
-      "name": "VOSTOK (Russia)",
+      "name": "VOSTOK 2026 (Russia)",
       "status": "PLANNED",
       "dates": "Sep 2026 (est.)",
       "location": "Eastern Russia",
       "participants": "Russia, China, CSTO",
-      "notes": "Annual Russian strategic exercise in Eastern Military District."
+      "notes": "Annual Russian strategic exercise. China participation expected."
     },
     {
       "id": "jointsword",
@@ -315,16 +315,16 @@
       "dates": "On demand",
       "location": "Taiwan Strait region",
       "participants": "PLA (all services)",
-      "notes": "China conducts unannounced JOINT SWORD exercises in response to Taiwan events. Monitor for triggers."
+      "notes": "Unannounced China exercises triggered by Taiwan events. Monitor for JOINT SWORD triggers."
     },
     {
       "id": "redflag",
-      "name": "RED FLAG 26-1",
-      "status": "COMPLETED",
-      "dates": "Jan 2026",
+      "name": "RED FLAG 26-2",
+      "status": "PLANNED",
+      "dates": "Spring 2026",
       "location": "Nellis AFB, Nevada",
       "participants": "USAF, allied air forces",
-      "notes": "First RED FLAG of 2026 completed. RED FLAG 26-2 planned for spring."
+      "notes": "RED FLAG 26-1 completed Jan 2026. 26-2 planned for spring."
     }
   ],
   "gps_zones": [
@@ -335,16 +335,16 @@
       "lng": 37.5,
       "radius_km": 200,
       "active": true,
-      "notes": "Active Russian GPS jamming and spoofing. Affects both military and civil aviation."
+      "notes": "Active Russian GPS jamming and spoofing. Ongoing since 2022."
     },
     {
-      "id": "finland_nord",
+      "id": "finland",
       "name": "Northern Finland / Lapland",
       "lat": 68.0,
       "lng": 27.0,
       "radius_km": 150,
       "active": true,
-      "notes": "Russian jamming from Kola Peninsula affecting Finnish and Norwegian airspace. Ongoing."
+      "notes": "Russian jamming from Kola Peninsula. Affecting Finnish/Norwegian airspace."
     },
     {
       "id": "baltics",
@@ -353,7 +353,7 @@
       "lng": 24.0,
       "radius_km": 200,
       "active": true,
-      "notes": "Intermittent Russian jamming. Estonia, Latvia, Lithuania affected. NATO monitoring."
+      "notes": "Intermittent Russian jamming. NATO monitoring closely."
     },
     {
       "id": "blacksea",
@@ -362,25 +362,25 @@
       "lng": 30.0,
       "radius_km": 250,
       "active": true,
-      "notes": "Spoofing incidents reported over Black Sea. Vessels reporting false positions."
+      "notes": "Spoofing incidents ongoing. Vessels reporting false positions."
     },
     {
       "id": "israel",
-      "name": "Israel / Eastern Mediterranean",
+      "name": "Israel / Eastern Med",
       "lat": 32.5,
       "lng": 35.5,
       "radius_km": 200,
       "active": true,
-      "notes": "Active GPS jamming by IDF over Israel and Lebanon. Ongoing since Oct 2023 war."
+      "notes": "Active IDF jamming over Israel and Lebanon. Ongoing since Oct 2023."
     },
     {
       "id": "syria_iraq",
-      "name": "Syria / Iraq border",
+      "name": "Syria / Iraq Border",
       "lat": 34.5,
       "lng": 41.0,
       "radius_km": 200,
       "active": true,
-      "notes": "Multi-source jamming. US, Russian, Turkish forces all operating jamming systems."
+      "notes": "Multi-source jamming \u2014 US, Russian, Turkish forces all operating systems."
     },
     {
       "id": "red_sea",
@@ -389,10 +389,10 @@
       "lng": 43.0,
       "radius_km": 200,
       "active": true,
-      "notes": "Houthi spoofing affecting commercial shipping navigation. Incidents ongoing."
+      "notes": "Houthi spoofing affecting commercial shipping navigation."
     },
     {
-      "id": "taiwan_str",
+      "id": "taiwan",
       "name": "Taiwan Strait",
       "lat": 24.0,
       "lng": 120.0,
@@ -401,22 +401,22 @@
       "notes": "PLA jamming exercises. Intermittent disruption to civil aviation."
     },
     {
-      "id": "scs_spratlys",
-      "name": "South China Sea \u2014 Spratly Islands",
+      "id": "scs",
+      "name": "South China Sea \u2014 Spratlys",
       "lat": 10.0,
       "lng": 114.0,
       "radius_km": 200,
       "active": true,
-      "notes": "Chinese jamming operations around artificial islands. Reported by Philippine vessels."
+      "notes": "Chinese jamming around artificial islands. Philippine vessels reporting."
     },
     {
       "id": "kaliningrad",
-      "name": "Kaliningrad / Poland border",
+      "name": "Kaliningrad",
       "lat": 54.7,
       "lng": 20.5,
       "radius_km": 150,
       "active": true,
-      "notes": "Russian Kaliningrad exclave jamming affecting NE Poland and Lithuania airspace."
+      "notes": "Russian exclave jamming. Affecting NE Poland and Lithuania airspace."
     },
     {
       "id": "iran_gulf",
@@ -425,167 +425,112 @@
       "lng": 56.0,
       "radius_km": 150,
       "active": false,
-      "notes": "Intermittent Iranian GPS spoofing. Reduced since nuclear talks began but not eliminated."
+      "notes": "Reduced since nuclear talks began but not eliminated. Monitor."
     }
   ],
   "notams": [
     {
-      "id": "notam_ukraine",
+      "id": "ukraine",
       "name": "Ukraine Airspace NOTAM",
       "lat": 49.0,
       "lng": 32.0,
       "radius_km": 500,
       "active": true,
       "type": "warzone",
-      "notes": "Ukrainian airspace fully closed to civil aviation. Active conflict."
+      "notes": "Full airspace closure. Active conflict."
     },
     {
-      "id": "notam_israel",
+      "id": "israel",
       "name": "Israel / Gaza TFR",
       "lat": 31.8,
       "lng": 34.8,
       "radius_km": 150,
       "active": true,
       "type": "combat",
-      "notes": "TFR active over Gaza and southern Israel. Limited civil ops from TLV with restrictions."
+      "notes": "TFR active over Gaza. Ben Gurion operational with restrictions."
     },
     {
-      "id": "notam_redsea",
+      "id": "redsea",
       "name": "Red Sea NOTAM",
       "lat": 15.0,
       "lng": 42.0,
       "radius_km": 300,
       "active": true,
       "type": "maritime_threat",
-      "notes": "UKMTO and US Navy warnings active. Commercial vessels avoiding core Red Sea lanes."
+      "notes": "UKMTO/US Navy warnings. Commercial vessels avoiding core lanes."
     },
     {
-      "id": "notam_lebanon",
-      "name": "Lebanon Airspace Restrictions",
+      "id": "lebanon",
+      "name": "Lebanon Restrictions",
       "lat": 33.8,
       "lng": 35.5,
       "radius_km": 100,
       "active": true,
       "type": "conflict",
-      "notes": "Beirut airport operational but restrictions active in south Lebanon."
+      "notes": "Beirut airport operational. South Lebanon restricted."
     },
     {
-      "id": "notam_iran",
+      "id": "iran",
       "name": "Iran ADIZ Alert",
       "lat": 33.0,
       "lng": 53.0,
       "radius_km": 400,
       "active": true,
       "type": "adiz",
-      "notes": "Heightened Iranian air defense posture during Geneva talks. Monitor for changes."
+      "notes": "Heightened air defense during Geneva talks. Monitor for changes."
     },
     {
-      "id": "notam_taiwan",
+      "id": "taiwan",
       "name": "Taiwan Strait Notice",
       "lat": 24.0,
       "lng": 120.5,
       "radius_km": 200,
       "active": true,
       "type": "military_activity",
-      "notes": "PLA military activity in strait. Airlines rerouting. Monitor for JOINT SWORD trigger."
+      "notes": "PLA activity. Airlines rerouting. Monitor for JOINT SWORD trigger."
     },
     {
-      "id": "notam_baltics",
+      "id": "baltics",
       "name": "Baltic Air Policing",
       "lat": 57.0,
       "lng": 24.0,
       "radius_km": 200,
       "active": true,
       "type": "air_policing",
-      "notes": "NATO Enhanced Air Policing active. Increased intercept activity of Russian aircraft."
+      "notes": "NATO Enhanced Air Policing active. Russian intercepts ongoing."
     },
     {
-      "id": "notam_nevada",
-      "name": "Red Flag 26-1 TFR (expired)",
-      "lat": 37.2,
-      "lng": -115.8,
-      "radius_km": 100,
-      "active": false,
-      "type": "exercise",
-      "notes": "RED FLAG 26-1 completed Jan 2026. Next exercise TFR expected spring."
-    },
-    {
-      "id": "notam_nkorea",
-      "name": "North Korea ADIZ / Exclusion",
+      "id": "nkorea",
+      "name": "North Korea Exclusion Zone",
       "lat": 39.0,
       "lng": 127.5,
       "radius_km": 300,
       "active": true,
       "type": "exclusion",
-      "notes": "North Korean airspace fully restricted. Recent missile tests. ICAO warnings active."
+      "notes": "DPRK airspace fully restricted. ICAO warnings active."
     },
     {
-      "id": "notam_sudan",
+      "id": "sudan",
       "name": "Sudan Airspace NOTAM",
       "lat": 15.5,
       "lng": 32.0,
       "radius_km": 400,
       "active": true,
       "type": "conflict",
-      "notes": "RSF-SAF civil war ongoing. Khartoum area dangerous. Sporadic airspace closures."
+      "notes": "RSF-SAF civil war ongoing. Khartoum area dangerous."
+    },
+    {
+      "id": "myanmar",
+      "name": "Myanmar Conflict Zone",
+      "lat": 19.0,
+      "lng": 96.0,
+      "radius_km": 300,
+      "active": true,
+      "type": "conflict",
+      "notes": "Civil war continuing. Military junta vs resistance forces. Airspace hazardous."
     }
   ],
   "_naval_news_refs": [
-    {
-      "title": "As aging Air Force AWACS heads to Middle East, where is its replacement?",
-      "link": "https://taskandpurpose.com/news/air-force-awacs-replacement-video/",
-      "published": "Fri, 20 Feb 2026 14:05:36 -0500",
-      "source": "Task & Purpose",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "USS Gerald R. Ford Now in the Mediterranean Sea, More U.S. Forces Deploy to Middle East",
-      "link": "https://news.usni.org/2026/02/20/uss-gerald-r-ford-now-in-the-mediterranean-sea-2",
-      "published": "Fri, 20 Feb 2026 15:04:29 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "U.S., Philippines Commit to Increased Missile, Drone Deployments in First Island Chain",
-      "link": "https://news.usni.org/2026/02/20/u-s-philippines-commit-to-increased-missile-drone-deployments-in-first-island-chain",
-      "published": "Fri, 20 Feb 2026 21:02:01 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
-      "title": "Massive US Air Force warplane movements in Bulgaria raise stakes for Iran talks",
-      "link": "https://www.defensenews.com/global/europe/2026/02/23/massive-us-air-force-warplane-movements-in-bulgaria-raise-stakes-for-iran-talks/",
-      "published": "Mon, 23 Feb 2026 10:54:14 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "USNI News Fleet and Marine Tracker: Feb. 23, 2026",
-      "link": "https://news.usni.org/2026/02/23/usni-news-fleet-and-marine-tracker-feb-23-2026",
-      "published": "Mon, 23 Feb 2026 19:34:20 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "US pulls nonessential staff from Beirut embassy as tensions with Iran ratchet up",
-      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/02/23/us-pulls-nonessential-staff-from-beirut-embassy-as-tensions-with-iran-ratchet-up/",
-      "published": "Mon, 23 Feb 2026 21:20:08 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment"
-      ]
-    },
     {
       "title": "French Carrier Strike Group Heading to North Atlantic, Baltic",
       "link": "https://news.usni.org/2026/02/23/french-carrier-strike-group-heading-to-north-atlantic-baltic",
@@ -597,24 +542,6 @@
       ]
     },
     {
-      "title": "French aircraft carrier begins Baltic Sea and North Atlantic deployment",
-      "link": "https://www.navalnews.com/naval-news/2026/02/french-aircraft-carrier-begins-baltic-sea-and-north-atlantic-deployment/",
-      "published": "Sun, 22 Feb 2026 09:06:08 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Danish military evacuates US submariner who needed urgent medical care off Greenland",
-      "link": "https://www.defensenews.com/news/your-military/2026/02/22/danish-military-evacuates-us-submariner-who-needed-urgent-medical-care-off-greenland/",
-      "published": "Sun, 22 Feb 2026 14:08:24 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Navy relieves destroyer commander after Caribbean crash",
       "link": "https://taskandpurpose.com/news/navy-relieves-truxtun-james-koffi/",
       "published": "Sun, 22 Feb 2026 20:20:10 -0500",
@@ -622,36 +549,89 @@
       "categories": [
         "deployment"
       ]
+    },
+    {
+      "title": "One hull for today\u2019s crews and tomorrow\u2019s unmanned missions: Cross Water positions modular aluminium RIB as a transition platform",
+      "link": "https://www.navalnews.com/naval-news/2026/02/one-hull-for-todays-crews-and-tomorrows-unmanned-missions-cross-water-positions-modular-aluminium-rib-as-a-transition-platform/",
+      "published": "Tue, 24 Feb 2026 09:29:00 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Chinese Navy progresses development of new large calibre naval gun",
+      "link": "https://www.navalnews.com/naval-news/2026/02/chinese-navy-progresses-development-of-new-large-calibre-naval-gun/",
+      "published": "Tue, 24 Feb 2026 12:02:00 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "New Commander Takes Charge of Sub Forces Following Sub Czar Gaucher",
+      "link": "https://news.usni.org/2026/02/24/new-commander-takes-charge-of-sub-forces-following-sub-czar-gaucher",
+      "published": "Tue, 24 Feb 2026 18:02:31 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "U.S. Captures Third \u2018Shadow Fleet\u2019 Tanker in Indian Ocean",
+      "link": "https://news.usni.org/2026/02/24/u-s-captures-third-shadow-fleet-tanker-in-indian-ocean",
+      "published": "Tue, 24 Feb 2026 21:04:07 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Lockheed debuts AI on F-35 fighter jet to identify targets",
+      "link": "https://www.defensenews.com/industry/techwatch/2026/02/24/lockheed-debuts-ai-on-f-35-fighter-jet-to-identify-targets/",
+      "published": "Tue, 24 Feb 2026 21:29:03 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Report to Congress on Yemen and Red Sea Security",
+      "link": "https://news.usni.org/2026/02/25/report-to-congress-on-yemen-and-red-sea-security",
+      "published": "Wed, 25 Feb 2026 15:06:59 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "France\u2019s 4th Barracuda Type Submarine Begins Alpha Trials",
+      "link": "https://www.navalnews.com/naval-news/2026/02/frances-4th-barracuda-type-submarine-begins-alpha-trials/",
+      "published": "Wed, 25 Feb 2026 16:32:09 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "New commander of US Navy Submarine Force Atlantic takes over",
+      "link": "https://www.militarytimes.com/news/your-navy/2026/02/25/new-commander-of-us-navy-submarine-force-atlantic-takes-over/",
+      "published": "Wed, 25 Feb 2026 19:07:43 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment"
+      ]
     }
   ],
   "centcom_assets": {
-    "updated": "2026-02-26T00:26:33Z",
-    "summary": "Two carrier strike groups in CENTCOM/EUCOM AOR. Ford in Eastern Med, Nimitz in North Arabian Sea. US-Iran nuclear talks in Geneva Feb 26 \u2014 posture cautiously elevated. Houthi campaign ongoing in Red Sea.",
+    "updated": "2026-02-26T00:27:54Z",
+    "summary": "Two CSGs in theater: Ford (Eastern Med) + Nimitz (North Arabian Sea). US-Iran Geneva talks Feb 26. Red Sea Houthi campaign active. Zelenskyy-Trump peace diplomacy ongoing.",
     "troops_total": "~40,000",
-    "naval": "2 CSGs (Ford, Nimitz), multiple destroyers/cruisers",
-    "air": "F-22, F-35, B-52 forward deployed",
-    "ground": "Pre-positioned forces Kuwait, Qatar, UAE, Bahrain"
+    "naval": "2 CSGs (Ford, Nimitz), destroyers/cruisers in 5th/6th Fleet",
+    "air": "F-22, F-35, B-52 forward deployed across region",
+    "ground": "Pre-positioned Kuwait, Qatar, UAE, Bahrain, Jordan"
   },
   "_conflict_news_refs": [
-    {
-      "title": "U.S., Philippines Commit to Increased Missile, Drone Deployments in First Island Chain",
-      "link": "https://news.usni.org/2026/02/20/u-s-philippines-commit-to-increased-missile-drone-deployments-in-first-island-chain",
-      "published": "Fri, 20 Feb 2026 21:02:01 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
-      "title": "U.S. Conducts Strikes in Eastern Pacific, Caribbean, Killing 6",
-      "link": "https://news.usni.org/2026/02/23/u-s-conducts-strikes-in-eastern-pacific-caribbean-killing-6",
-      "published": "Mon, 23 Feb 2026 20:34:34 +0000",
-      "source": "USNI News",
-      "categories": [
-        "conflict"
-      ]
-    },
     {
       "title": "French Carrier Strike Group Heading to North Atlantic, Baltic",
       "link": "https://news.usni.org/2026/02/23/french-carrier-strike-group-heading-to-north-atlantic-baltic",
@@ -670,42 +650,61 @@
       "categories": [
         "conflict"
       ]
+    },
+    {
+      "title": "Putin has \u2018not broken\u2019 Ukraine in 4 years since Russian invasion, Zelenskyy says",
+      "link": "https://www.defensenews.com/global/europe/2026/02/24/putin-has-not-broken-ukraine-in-4-years-since-russian-invasion-zelenskyy-says/",
+      "published": "Tue, 24 Feb 2026 17:58:13 +0000",
+      "source": "Defense News",
+      "categories": [
+        "conflict"
+      ]
+    },
+    {
+      "title": "New hypersonic missiles unveiled for fighter planes, ground systems",
+      "link": "https://www.defensenews.com/air-warfare/2026/02/25/new-hypersonic-missiles-unveiled-for-fighter-planes-ground-systems/",
+      "published": "Wed, 25 Feb 2026 20:31:20 +0000",
+      "source": "Defense News",
+      "categories": [
+        "conflict"
+      ]
+    },
+    {
+      "title": "New hypersonic missiles unveiled for fighter planes, ground systems",
+      "link": "https://www.militarytimes.com/air-warfare/2026/02/25/new-hypersonic-missiles-unveiled-for-fighter-planes-ground-systems/",
+      "published": "Wed, 25 Feb 2026 20:31:20 +0000",
+      "source": "Military Times",
+      "categories": [
+        "conflict"
+      ]
     }
   ],
   "_exercise_news_refs": [
     {
-      "title": "U.S., Japan Air Forces Conduct Joint Drills with 4 American Bombers",
-      "link": "https://news.usni.org/2026/02/20/u-s-japan-air-forces-conduct-joint-drills-with-4-american-bombers",
-      "published": "Fri, 20 Feb 2026 19:31:47 +0000",
+      "title": "Task Force Ashland Marines, Sailors Arrive in Thailand for Exercise Cobra Gold",
+      "link": "https://news.usni.org/2026/02/24/task-force-ashland-marines-sailors-arrive-in-thailand-for-exercise-cobra-gold",
+      "published": "Tue, 24 Feb 2026 19:50:28 +0000",
       "source": "USNI News",
       "categories": [
         "exercise"
       ]
     },
     {
-      "title": "NATO is not ready for drone warfare in the Arctic",
-      "link": "https://www.defensenews.com/opinion/2026/02/23/nato-is-not-ready-for-drone-warfare-in-the-arctic/",
-      "published": "Mon, 23 Feb 2026 10:21:48 +0000",
+      "title": "US Navy, NATO explosive ordnance teams tackle High North during \u2018Arctic Sentry\u2019",
+      "link": "https://www.defensenews.com/news/your-military/2026/02/24/us-navy-nato-explosive-ordnance-teams-tackle-high-north-during-arctic-sentry/",
+      "published": "Tue, 24 Feb 2026 21:43:49 +0000",
       "source": "Defense News",
       "categories": [
         "exercise"
       ]
     },
     {
-      "title": "F-22 Raptor, MQ-20 drone complete manned-unmanned flight exercise",
-      "link": "https://www.defensenews.com/industry/techwatch/2026/02/23/f-22-raptor-mq-20-drone-complete-manned-unmanned-flight-exercise/",
-      "published": "Mon, 23 Feb 2026 19:35:55 +0000",
-      "source": "Defense News",
+      "title": "NATO Integrates Drones in Latest Major Exercises in the Baltic, Mediterranean Seas",
+      "link": "https://news.usni.org/2026/02/25/nato-integrates-drones-in-latest-major-exercises-in-the-baltic-mediterranean-seas",
+      "published": "Wed, 25 Feb 2026 21:09:29 +0000",
+      "source": "USNI News",
       "categories": [
-        "exercise"
-      ]
-    },
-    {
-      "title": "F-22 Raptor, MQ-20 drone complete manned-unmanned flight exercise",
-      "link": "https://www.militarytimes.com/industry/techwatch/2026/02/23/f-22-raptor-mq-20-drone-complete-manned-unmanned-flight-exercise/",
-      "published": "Mon, 23 Feb 2026 19:35:55 +0000",
-      "source": "Military Times",
-      "categories": [
+        "deployment",
         "exercise"
       ]
     }
@@ -715,14 +714,16 @@
     "conflict_articles": 12,
     "exercise_articles": 5,
     "total_articles": 50,
-    "computed_at": "2026-02-26T00:26:33Z",
+    "computed_at": "2026-02-26T00:27:54Z",
     "top_signals": [
-      "US-Iran Geneva talks (Feb 26) \u2014 decisive round",
-      "Zelenskyy-Trump peace diplomacy active",
-      "PLA Fujian carrier exercises near Taiwan Strait",
-      "Russia recruiting African mercenaries for Ukraine",
-      "Modi in Israel \u2014 India-Israel partnership deepening",
-      "COBRA GOLD 2026 ongoing in Thailand"
+      "US-Iran Geneva talks (Feb 26) \u2014 potentially decisive round",
+      "Zelenskyy-Trump peace diplomacy active \u2014 envoys meeting Geneva",
+      "Russia recruiting 1,700+ African mercenaries for Ukraine",
+      "PLA Fujian carrier drills near Taiwan Strait",
+      "COBRA GOLD 2026 multinational exercise ongoing in Thailand",
+      "Modi addressed Israeli Knesset \u2014 India-Israel partnership deepening",
+      "Russian Black Sea Fleet significantly degraded, relocated to Novorossiysk",
+      "USAF 'woefully behind' on C-5/C-17/KC-135 modernization per AMC commander"
     ]
   }
 }
