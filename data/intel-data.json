@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-02-26T12:34:18Z",
-  "version": 49,
+  "generated_utc": "2026-02-26T14:01:19Z",
+  "version": 50,
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -569,9 +569,9 @@
       ]
     },
     {
-      "title": "Chinese Navy progresses development of new large calibre naval gun",
-      "link": "https://www.navalnews.com/naval-news/2026/02/chinese-navy-progresses-development-of-new-large-calibre-naval-gun/",
-      "published": "Tue, 24 Feb 2026 12:02:00 +0000",
+      "title": "IAI and TKMS deliver BlueWhale Large AUV to German Navy",
+      "link": "https://www.navalnews.com/naval-news/2026/02/iai-and-tkms-deliver-bluewhale-large-auv-to-german-navy/",
+      "published": "Thu, 26 Feb 2026 13:04:36 +0000",
       "source": "Naval News",
       "categories": [
         "deployment"
@@ -785,15 +785,6 @@
       ]
     },
     {
-      "title": "Philippine Navy commissions new patrol vessel, missile boat",
-      "link": "https://www.navalnews.com/naval-news/2026/02/philippine-navy-commissions-new-patrol-vessel-missile-boat/",
-      "published": "Tue, 24 Feb 2026 11:22:10 +0000",
-      "source": "Naval News",
-      "categories": [
-        "conflict"
-      ]
-    },
-    {
       "title": "New hypersonic missiles unveiled for fighter planes, ground systems",
       "link": "https://www.defensenews.com/air-warfare/2026/02/25/new-hypersonic-missiles-unveiled-for-fighter-planes-ground-systems/",
       "published": "Wed, 25 Feb 2026 20:31:20 +0000",
@@ -853,9 +844,9 @@
   ],
   "_threat_indicators": {
     "deployment_articles": 12,
-    "conflict_articles": 4,
+    "conflict_articles": 3,
     "exercise_articles": 4,
     "total_articles": 50,
-    "computed_at": "2026-02-26T12:34:18.105583+00:00"
+    "computed_at": "2026-02-26T14:01:18.556055+00:00"
   }
 }
