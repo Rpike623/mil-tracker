@@ -1,9 +1,9 @@
 {
-  "generated_utc": "2026-02-26T00:39:22Z",
-  "version": 39,
+  "generated_utc": "2026-02-26T00:58:18Z",
+  "version": 40,
   "naval_deployments": [
     {
-      "name": "CSG-3 \u2014 USS Abraham Lincoln (CVN-72)",
+      "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
       "type": "CSG",
       "country": "us",
       "status": "deployed",
@@ -11,10 +11,10 @@
       "lon": 145.0,
       "region": "WESTERN PACIFIC / 7TH FLEET",
       "ships": "CVN-72 Abraham Lincoln, CG-52 Bunker Hill, DDG-92 Momsen, DDG-114 Ralph Johnson",
-      "notes": "7th Fleet AOR \u2014 presence ops near South China Sea"
+      "notes": "7th Fleet AOR — presence ops near South China Sea"
     },
     {
-      "name": "CSG-5 \u2014 USS Ronald Reagan (CVN-76)",
+      "name": "CSG-5 — USS Ronald Reagan (CVN-76)",
       "type": "CSG",
       "country": "us",
       "status": "port",
@@ -22,10 +22,10 @@
       "lon": 139.6,
       "region": "YOKOSUKA, JAPAN (MAINTENANCE)",
       "ships": "CVN-76 Ronald Reagan, CG-54 Antietam, DDG-85 McCampbell",
-      "notes": "Homeport maintenance \u2014 Lincoln assumed 7th Fleet carrier duties"
+      "notes": "Homeport maintenance — Lincoln assumed 7th Fleet carrier duties"
     },
     {
-      "name": "CSG-12 \u2014 USS Gerald R. Ford (CVN-78)",
+      "name": "CSG-12 — USS Gerald R. Ford (CVN-78)",
       "type": "CSG",
       "country": "us",
       "status": "deployed",
@@ -33,10 +33,10 @@
       "lon": 30.0,
       "region": "EASTERN MEDITERRANEAN",
       "ships": "CVN-78 Gerald R. Ford, CG-66 Hue City, DDG-104 Sterett, DDG-110 William P. Lawrence",
-      "notes": "Eastern Med deterrence \u2014 backdrop to US-Iran Geneva talks (Feb 26)"
+      "notes": "Eastern Med deterrence — backdrop to US-Iran Geneva talks (Feb 26)"
     },
     {
-      "name": "CSG-9 \u2014 USS Nimitz (CVN-68)",
+      "name": "CSG-9 — USS Nimitz (CVN-68)",
       "type": "CSG",
       "country": "us",
       "status": "deployed",
@@ -47,7 +47,7 @@
       "notes": "Red Sea/Houthi campaign support + Iran deterrence"
     },
     {
-      "name": "ARG \u2014 USS Bataan (LHD-5)",
+      "name": "ARG — USS Bataan (LHD-5)",
       "type": "ARG",
       "country": "us",
       "status": "deployed",
@@ -58,7 +58,7 @@
       "notes": "Operating with NATO partners in Mediterranean"
     },
     {
-      "name": "ARG \u2014 USS Boxer (LHD-4)",
+      "name": "ARG — USS Boxer (LHD-4)",
       "type": "ARG",
       "country": "us",
       "status": "port",
@@ -69,7 +69,7 @@
       "notes": "Scheduled maintenance period"
     },
     {
-      "name": "SSBN Patrol \u2014 Atlantic",
+      "name": "SSBN Patrol — Atlantic",
       "type": "SSBN",
       "country": "us",
       "status": "deployed",
@@ -80,7 +80,7 @@
       "notes": "Strategic nuclear deterrence patrol"
     },
     {
-      "name": "SSBN Patrol \u2014 Pacific",
+      "name": "SSBN Patrol — Pacific",
       "type": "SSBN",
       "country": "us",
       "status": "deployed",
@@ -91,40 +91,40 @@
       "notes": "Strategic nuclear deterrence patrol"
     },
     {
-      "name": "\ud83c\uddf7\ud83c\uddfa Northern Fleet \u2014 Severomorsk",
+      "name": "🇷🇺 Northern Fleet — Severomorsk",
       "type": "FLEET",
       "country": "russia",
       "status": "combat",
       "lat": 69.1,
       "lon": 33.4,
       "region": "BARENTS SEA",
-      "ships": "Adm. Kuznetsov (CV \u2014 refit), Pyotr Velikiy (CGN), multiple SSNs/SSBNs",
+      "ships": "Adm. Kuznetsov (CV — refit), Pyotr Velikiy (CGN), multiple SSNs/SSBNs",
       "notes": "Reduced surface ops. Submarine activity elevated. NATO P-8 patrols active."
     },
     {
-      "name": "\ud83c\uddf7\ud83c\uddfa Black Sea Fleet \u2014 Novorossiysk",
+      "name": "🇷🇺 Black Sea Fleet — Novorossiysk",
       "type": "FLEET",
       "country": "russia",
       "status": "combat",
       "lat": 44.7,
       "lon": 37.8,
       "region": "BLACK SEA (RELOCATED TO NOVOROSSIYSK)",
-      "ships": "Significantly degraded \u2014 losses to Ukrainian drone/missile strikes. Remaining frigates, landing ships.",
+      "ships": "Significantly degraded — losses to Ukrainian drone/missile strikes. Remaining frigates, landing ships.",
       "notes": "Fleet relocated from Sevastopol after repeated Ukrainian strikes. Severely diminished capability."
     },
     {
-      "name": "\ud83c\udde8\ud83c\uddf3 PLA Navy \u2014 South Sea Fleet",
+      "name": "🇨🇳 PLA Navy — South Sea Fleet",
       "type": "FLEET",
       "country": "china",
       "status": "deployed",
       "lat": 18.2,
       "lon": 109.5,
       "region": "SOUTH CHINA SEA / SANYA",
-      "ships": "Type 003 Fujian (CV) \u2014 drills near Taiwan Strait, Type 055 destroyers, Type 093 SSNs",
+      "ships": "Type 003 Fujian (CV) — drills near Taiwan Strait, Type 055 destroyers, Type 093 SSNs",
       "notes": "Fujian conducting training exercises near Taiwan Strait. Elevated regional posture."
     },
     {
-      "name": "\ud83c\uddee\ud83c\uddf7 IRIN \u2014 Persian Gulf",
+      "name": "🇮🇷 IRIN — Persian Gulf",
       "type": "FLEET",
       "country": "iran",
       "status": "elevated",
@@ -132,7 +132,7 @@
       "lon": 56.3,
       "region": "PERSIAN GULF / STRAIT OF HORMUZ",
       "ships": "Frigates, IRGCN fast attack craft, Ghadir-class midget submarines",
-      "notes": "US-Iran nuclear talks Geneva Feb 26. Posture cautiously elevated \u2014 IRGCN fast boats active in Gulf."
+      "notes": "US-Iran nuclear talks Geneva Feb 26. Posture cautiously elevated — IRGCN fast boats active in Gulf."
     }
   ],
   "chokepoints": [
@@ -218,7 +218,7 @@
     },
     {
       "id": "syria",
-      "name": "Syria \u2014 Post-Assad Transition",
+      "name": "Syria — Post-Assad Transition",
       "lat": 35.0,
       "lng": 38.5,
       "intensity": "LOW",
@@ -250,7 +250,7 @@
       "lng": 53.0,
       "intensity": "MEDIUM",
       "status": "NEGOTIATING",
-      "update": "US-Iran nuclear talks in Geneva Feb 26 \u2014 Trump weighing options post-SOTU. Ford CSG in Eastern Med as deterrent. Next round could be decisive."
+      "update": "US-Iran nuclear talks in Geneva Feb 26 — Trump weighing options post-SOTU. Ford CSG in Eastern Med as deterrent. Next round could be decisive."
     }
   ],
   "exercises": [
@@ -258,7 +258,7 @@
       "id": "cobragold",
       "name": "COBRA GOLD 2026",
       "status": "ONGOING",
-      "dates": "Feb 25 \u2013 Mar 7, 2026",
+      "dates": "Feb 25 – Mar 7, 2026",
       "location": "Thailand",
       "participants": "US, Thailand, Japan, Singapore, Indonesia, Malaysia, South Korea",
       "notes": "Largest multilateral exercise in Indo-Pacific. Currently active."
@@ -267,7 +267,7 @@
       "id": "defender26",
       "name": "DEFENDER EUROPE 2026",
       "status": "PLANNED",
-      "dates": "May\u2013Jun 2026",
+      "dates": "May–Jun 2026",
       "location": "Europe (multi-nation)",
       "participants": "NATO allies, ~20,000 US troops",
       "notes": "Annual large-scale NATO ground exercise. Planning underway."
@@ -276,7 +276,7 @@
       "id": "rimpac26",
       "name": "RIMPAC 2026",
       "status": "PLANNED",
-      "dates": "Jun\u2013Aug 2026",
+      "dates": "Jun–Aug 2026",
       "location": "Hawaii / Pacific",
       "participants": "~25 nations",
       "notes": "World's largest naval exercise. Biennial."
@@ -294,7 +294,7 @@
       "id": "keensword",
       "name": "KEEN SWORD 2026",
       "status": "COMPLETED",
-      "dates": "Oct\u2013Nov 2025",
+      "dates": "Oct–Nov 2025",
       "location": "Japan",
       "participants": "US, Japan",
       "notes": "Completed. Next edition 2027."
@@ -380,7 +380,7 @@
       "lng": 41.0,
       "radius_km": 200,
       "active": true,
-      "notes": "Multi-source jamming \u2014 US, Russian, Turkish forces all operating systems."
+      "notes": "Multi-source jamming — US, Russian, Turkish forces all operating systems."
     },
     {
       "id": "red_sea",
@@ -402,7 +402,7 @@
     },
     {
       "id": "scs",
-      "name": "South China Sea \u2014 Spratlys",
+      "name": "South China Sea — Spratlys",
       "lat": 10.0,
       "lng": 114.0,
       "radius_km": 200,
@@ -551,7 +551,7 @@
       ]
     },
     {
-      "title": "One hull for today\u2019s crews and tomorrow\u2019s unmanned missions: Cross Water positions modular aluminium RIB as a transition platform",
+      "title": "One hull for today’s crews and tomorrow’s unmanned missions: Cross Water positions modular aluminium RIB as a transition platform",
       "link": "https://www.navalnews.com/naval-news/2026/02/one-hull-for-todays-crews-and-tomorrows-unmanned-missions-cross-water-positions-modular-aluminium-rib-as-a-transition-platform/",
       "published": "Tue, 24 Feb 2026 09:29:00 +0000",
       "source": "Naval News",
@@ -578,7 +578,7 @@
       ]
     },
     {
-      "title": "U.S. Captures Third \u2018Shadow Fleet\u2019 Tanker in Indian Ocean",
+      "title": "U.S. Captures Third ‘Shadow Fleet’ Tanker in Indian Ocean",
       "link": "https://news.usni.org/2026/02/24/u-s-captures-third-shadow-fleet-tanker-in-indian-ocean",
       "published": "Tue, 24 Feb 2026 21:04:07 +0000",
       "source": "USNI News",
@@ -605,7 +605,7 @@
       ]
     },
     {
-      "title": "France\u2019s 4th Barracuda Type Submarine Begins Alpha Trials",
+      "title": "France’s 4th Barracuda Type Submarine Begins Alpha Trials",
       "link": "https://www.navalnews.com/naval-news/2026/02/frances-4th-barracuda-type-submarine-begins-alpha-trials/",
       "published": "Wed, 25 Feb 2026 16:32:09 +0000",
       "source": "Naval News",
@@ -629,7 +629,7 @@
     "troops_total": "~40,000",
     "naval": [
       {
-        "name": "CSG-12 \u2014 Gerald R. Ford (CVN-78)",
+        "name": "CSG-12 — Gerald R. Ford (CVN-78)",
         "type": "CSG",
         "location": "Eastern Mediterranean",
         "lat": 34.5,
@@ -640,7 +640,7 @@
         "notes": "Eastern Med deterrence"
       },
       {
-        "name": "CSG-9 \u2014 Nimitz (CVN-68)",
+        "name": "CSG-9 — Nimitz (CVN-68)",
         "type": "CSG",
         "location": "North Arabian Sea",
         "lat": 22.0,
@@ -651,7 +651,7 @@
         "notes": "Red Sea/Iran deterrence"
       },
       {
-        "name": "ARG \u2014 Bataan (LHD-5)",
+        "name": "ARG — Bataan (LHD-5)",
         "type": "ARG",
         "location": "Mediterranean",
         "lat": 37.0,
@@ -675,7 +675,7 @@
     ],
     "air": [
       {
-        "name": "F-35A/B \u2014 Aviano/Incirlik",
+        "name": "F-35A/B — Aviano/Incirlik",
         "aircraft": "F-35A/B Lightning II",
         "country": "US/NATO",
         "location": "Southern Europe",
@@ -684,40 +684,40 @@
         "notes": "NATO southern flank air superiority"
       },
       {
-        "name": "F-22 \u2014 Al Dhafra UAE",
+        "name": "F-22 — Al Dhafra UAE",
         "aircraft": "F-22 Raptor",
         "country": "US",
         "location": "Al Dhafra AB, UAE",
         "lat": 24.2,
         "lon": 54.5,
-        "notes": "5th gen deterrence \u2014 CENTCOM"
+        "notes": "5th gen deterrence — CENTCOM"
       },
       {
-        "name": "B-52H \u2014 Diego Garcia",
+        "name": "B-52H — Diego Garcia",
         "aircraft": "B-52H Stratofortress",
         "country": "US",
         "location": "Diego Garcia",
         "lat": -7.3,
         "lon": 72.4,
-        "notes": "Strategic bomber presence \u2014 INDOPACOM/CENTCOM"
+        "notes": "Strategic bomber presence — INDOPACOM/CENTCOM"
       },
       {
-        "name": "KC-46/KC-135 \u2014 Qatar",
+        "name": "KC-46/KC-135 — Qatar",
         "aircraft": "KC-46A Pegasus",
         "country": "US",
         "location": "Al Udeid AB, Qatar",
         "lat": 25.1,
         "lon": 51.3,
-        "notes": "Air refueling hub \u2014 largest USAF base in region"
+        "notes": "Air refueling hub — largest USAF base in region"
       },
       {
-        "name": "P-8A Poseidon \u2014 Sigonella",
+        "name": "P-8A Poseidon — Sigonella",
         "aircraft": "P-8A Poseidon",
         "country": "US",
         "location": "NAS Sigonella, Sicily",
         "lat": 37.4,
         "lon": 14.9,
-        "notes": "ASW patrol \u2014 Med + Russian sub tracking"
+        "notes": "ASW patrol — Med + Russian sub tracking"
       }
     ],
     "ground": [
@@ -794,7 +794,7 @@
       ]
     },
     {
-      "title": "Putin has \u2018not broken\u2019 Ukraine in 4 years since Russian invasion, Zelenskyy says",
+      "title": "Putin has ‘not broken’ Ukraine in 4 years since Russian invasion, Zelenskyy says",
       "link": "https://www.defensenews.com/global/europe/2026/02/24/putin-has-not-broken-ukraine-in-4-years-since-russian-invasion-zelenskyy-says/",
       "published": "Tue, 24 Feb 2026 17:58:13 +0000",
       "source": "Defense News",
@@ -832,7 +832,7 @@
       ]
     },
     {
-      "title": "US Navy, NATO explosive ordnance teams tackle High North during \u2018Arctic Sentry\u2019",
+      "title": "US Navy, NATO explosive ordnance teams tackle High North during ‘Arctic Sentry’",
       "link": "https://www.defensenews.com/news/your-military/2026/02/24/us-navy-nato-explosive-ordnance-teams-tackle-high-north-during-arctic-sentry/",
       "published": "Tue, 24 Feb 2026 21:43:49 +0000",
       "source": "Defense News",
@@ -852,20 +852,10 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 8,
-    "conflict_articles": 12,
-    "exercise_articles": 5,
+    "deployment_articles": 11,
+    "conflict_articles": 5,
+    "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-02-26T00:27:54Z",
-    "top_signals": [
-      "US-Iran Geneva talks (Feb 26) \u2014 potentially decisive round",
-      "Zelenskyy-Trump peace diplomacy active \u2014 envoys meeting Geneva",
-      "Russia recruiting 1,700+ African mercenaries for Ukraine",
-      "PLA Fujian carrier drills near Taiwan Strait",
-      "COBRA GOLD 2026 multinational exercise ongoing in Thailand",
-      "Modi addressed Israeli Knesset \u2014 India-Israel partnership deepening",
-      "Russian Black Sea Fleet significantly degraded, relocated to Novorossiysk",
-      "USAF 'woefully behind' on C-5/C-17/KC-135 modernization per AMC commander"
-    ]
+    "computed_at": "2026-02-26T00:58:18.031097+00:00"
   }
 }
