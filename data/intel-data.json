@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-02-26T08:31:52Z",
-  "version": 45,
+  "generated_utc": "2026-02-26T09:36:21Z",
+  "version": 46,
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -823,6 +823,15 @@
   ],
   "_exercise_news_refs": [
     {
+      "title": "Navantia and Fincantieri strengthen their cooperation to advance the European Patrol Corvette (EPC) programme",
+      "link": "https://www.navalnews.com/naval-news/2026/02/navantia-and-fincantieri-strengthen-their-cooperation-to-advance-the-european-patrol-corvette-epc-programme/",
+      "published": "Thu, 26 Feb 2026 09:12:09 +0000",
+      "source": "Naval News",
+      "categories": [
+        "exercise"
+      ]
+    },
+    {
       "title": "Task Force Ashland Marines, Sailors Arrive in Thailand for Exercise Cobra Gold",
       "link": "https://news.usni.org/2026/02/24/task-force-ashland-marines-sailors-arrive-in-thailand-for-exercise-cobra-gold",
       "published": "Tue, 24 Feb 2026 19:50:28 +0000",
@@ -854,8 +863,8 @@
   "_threat_indicators": {
     "deployment_articles": 12,
     "conflict_articles": 5,
-    "exercise_articles": 3,
+    "exercise_articles": 4,
     "total_articles": 50,
-    "computed_at": "2026-02-26T08:31:52.011842+00:00"
+    "computed_at": "2026-02-26T09:36:21.098020+00:00"
   }
 }
