@@ -2197,14 +2197,30 @@ function initXFeed(){
 
 const THREAT_SIGNALS = [
   // Aircraft-based signals
-  { id:'tanker_density',  label:'Aerial refueling activity',       weight:15, desc:'High tanker count = extended range ops being prepped' },
-  { id:'isr_density',     label:'ISR/Recon concentration',         weight:20, desc:'Surge in recon = active target acquisition' },
-  { id:'adversary_active',label:'Adversary aircraft airborne',     weight:25, desc:'Iran/Russia/China military flights visible' },
-  { id:'bomber_activity', label:'Strategic bomber flights',        weight:30, desc:'B-52/B-1/TU-95/H-6 airborne = escalation signal' },
-  { id:'zone_intrusion',  label:'Aircraft in alert zones',         weight:20, desc:'Flights in Hormuz/Taiwan Strait/etc.' },
-  { id:'transport_surge', label:'Airlift surge (C-17/C-130)',      weight:10, desc:'Rapid troop/equipment movement' },
-  { id:'electronic_ops',  label:'EA/EW aircraft active',           weight:15, desc:'Electronic attack = pre-strike jamming prep' },
+  { id:'tanker_density',       label:'Aerial refueling activity',      weight:15, desc:'High tanker count = extended range ops being prepped' },
+  { id:'isr_density',          label:'ISR/Recon concentration',        weight:20, desc:'Surge in recon = active target acquisition' },
+  { id:'adversary_active',     label:'Adversary aircraft airborne',    weight:25, desc:'Iran/Russia/China military flights visible' },
+  { id:'bomber_activity',      label:'Strategic bomber flights',       weight:30, desc:'B-52/B-1/TU-95/H-6 airborne = escalation signal' },
+  { id:'zone_intrusion',       label:'Aircraft in alert zones',        weight:20, desc:'Flights in Hormuz/Taiwan Strait/etc.' },
+  { id:'transport_surge',      label:'Airlift surge (C-17/C-130)',     weight:10, desc:'Rapid troop/equipment movement' },
+  { id:'electronic_ops',       label:'EA/EW aircraft active',          weight:15, desc:'Electronic attack = pre-strike jamming prep' },
+  // Ground/naval/intel-based signals (loaded from intel-data.json)
+  { id:'ground_buildup',       label:'Ground force buildup',           weight:25, desc:'Troop concentrations, forward deployments, mobilization near flashpoints' },
+  { id:'naval_concentration',  label:'Naval force concentration',      weight:20, desc:'Multiple CSGs/ARGs in same theater = power projection or strike prep' },
+  { id:'active_conflict_count',label:'Active conflict escalation',     weight:15, desc:'Number and intensity of active armed conflicts globally' },
+  { id:'nuclear_posture',      label:'Nuclear/WMD posture change',     weight:20, desc:'SSBN surges, missile dispersal, readiness changes at nuclear bases' },
+  { id:'diplomatic_breakdown', label:'Diplomatic breakdown indicator', weight:10, desc:'Failed talks, expulsions, ultimatums, sanctions triggers' },
 ];
+
+// Ground intel baseline — overwritten by intel-data.json on load
+// Scale: 0=none, 1=low, 2=guarded, 3=elevated, 4=high, 5=critical
+let GROUND_INTEL = {
+  ground_buildup:       3,  // US/NATO forward posture Europe, ~40k CENTCOM, Russia 600k+ Ukraine
+  naval_concentration:  3,  // Ford (Eastern Med) + Nimitz (Arabian Sea) + Bataan ARG (Med)
+  active_conflict_count:4,  // Ukraine, Gaza, Houthis, AfPak (new Feb 26), Taiwan, SCS
+  nuclear_posture:      1,  // SSBNs normal patrol, no unusual dispersal
+  diplomatic_breakdown: 2,  // US-Iran talks 'significant progress', Ukraine envoys Geneva
+};
 
 let threatHistory = []; // rolling scores for trend
 
@@ -2221,14 +2237,21 @@ function computeThreat(visible){
   const ea         = visible.filter(ac => (ac.t||'').toUpperCase().match(/^EA|^EC|^EF|^EP/)).length;
   const inZones    = ZONES.reduce((sum, z) => sum + visible.filter(ac => inZone(ac, z)).length, 0);
 
+  const gi = GROUND_INTEL;
   const checks = [
-    { id:'tanker_density',   active: tankers >= 3,   value: Math.min(tankers, 10),   max: 10 },
-    { id:'isr_density',      active: isr >= 2,        value: Math.min(isr, 8),        max: 8  },
-    { id:'adversary_active', active: advActive >= 1,  value: Math.min(advActive, 6),  max: 6  },
-    { id:'bomber_activity',  active: bombers >= 1,    value: Math.min(bombers, 4),    max: 4  },
-    { id:'zone_intrusion',   active: inZones >= 1,    value: Math.min(inZones, 8),    max: 8  },
-    { id:'transport_surge',  active: transports >= 8, value: Math.min(transports,20), max: 20 },
-    { id:'electronic_ops',   active: ea >= 1,         value: Math.min(ea, 5),         max: 5  },
+    { id:'tanker_density',       active: tankers >= 3,                   value: Math.min(tankers, 10),     max: 10 },
+    { id:'isr_density',          active: isr >= 2,                       value: Math.min(isr, 8),          max: 8  },
+    { id:'adversary_active',     active: advActive >= 1,                 value: Math.min(advActive, 6),    max: 6  },
+    { id:'bomber_activity',      active: bombers >= 1,                   value: Math.min(bombers, 4),      max: 4  },
+    { id:'zone_intrusion',       active: inZones >= 1,                   value: Math.min(inZones, 8),      max: 8  },
+    { id:'transport_surge',      active: transports >= 8,                value: Math.min(transports,20),   max: 20 },
+    { id:'electronic_ops',       active: ea >= 1,                        value: Math.min(ea, 5),           max: 5  },
+    // Ground/intel signals — always contribute when > 0, scaled 0-5
+    { id:'ground_buildup',       active: gi.ground_buildup > 0,       value: gi.ground_buildup,       max: 5 },
+    { id:'naval_concentration',  active: gi.naval_concentration > 0,  value: gi.naval_concentration,  max: 5 },
+    { id:'active_conflict_count',active: gi.active_conflict_count > 0,value: gi.active_conflict_count,max: 5 },
+    { id:'nuclear_posture',      active: gi.nuclear_posture > 0,      value: gi.nuclear_posture,      max: 5 },
+    { id:'diplomatic_breakdown', active: gi.diplomatic_breakdown > 0, value: gi.diplomatic_breakdown, max: 5 },
   ];
 
   checks.forEach(c => {
@@ -2304,21 +2327,49 @@ function renderThreat(visible){
     </div>
   </div>`;
 
-  // Signal breakdown
-  h += `<div class="rp-section">📡 SIGNAL BREAKDOWN</div>`;
-  signals.sort((a,b) => b.contrib - a.contrib).forEach(s => {
+  // Signal breakdown — split AIRSPACE vs GROUND/INTEL
+  const airIds   = new Set(['tanker_density','isr_density','adversary_active','bomber_activity','zone_intrusion','transport_surge','electronic_ops']);
+  const groundIds= new Set(['ground_buildup','naval_concentration','active_conflict_count','nuclear_posture','diplomatic_breakdown']);
+
+  const renderSig = s => {
     const sigCol = s.active ? (s.contrib >= 15 ? '#ef4444' : s.contrib >= 8 ? '#f97316' : '#eab308') : 'var(--muted)';
     const barW = s.active ? Math.min(s.contrib * 5, 100) : 0;
-    h += `<div class="threat-row" style="padding:5px 12px">
+    return `<div class="threat-row" style="padding:5px 12px">
       <div style="flex:1">
         <span class="tr-label">${s.active?'🔴':'⚫'} ${s.label}</span>
         <div class="threat-bar"><div class="threat-bar-fill" style="width:${barW}%;background:${sigCol}"></div></div>
       </div>
       <span class="tr-value" style="color:${sigCol};min-width:30px;text-align:right">${s.active ? '+'+s.contrib : '—'}</span>
     </div>`;
-  });
+  };
 
-  // Quick stats
+  h += `<div class="rp-section">✈️ AIRSPACE SIGNALS</div>`;
+  signals.filter(s=>airIds.has(s.id)).sort((a,b)=>b.contrib-a.contrib).forEach(s=>{ h+=renderSig(s); });
+
+  h += `<div class="rp-section">🌍 GROUND / INTEL SIGNALS</div>`;
+  signals.filter(s=>groundIds.has(s.id)).sort((a,b)=>b.contrib-a.contrib).forEach(s=>{ h+=renderSig(s); });
+
+  // Ground intel severity bars
+  const giLabels = {0:'—',1:'LOW',2:'GUARDED',3:'ELEVATED',4:'HIGH',5:'CRITICAL'};
+  const giColors = {0:'var(--muted)',1:'#22c55e',2:'#eab308',3:'#f97316',4:'#ef4444',5:'#dc2626'};
+  const gi = GROUND_INTEL;
+  h += `<div style="padding:8px 12px 4px;font-size:9px;border-top:1px solid rgba(0,255,65,.06)">`;
+  [
+    {k:'ground_buildup',icon:'🪖',lbl:'TROOPS'},
+    {k:'naval_concentration',icon:'⚓',lbl:'NAVAL'},
+    {k:'active_conflict_count',icon:'💥',lbl:'CONFLICTS'},
+    {k:'nuclear_posture',icon:'☢️',lbl:'NUCLEAR'},
+    {k:'diplomatic_breakdown',icon:'🚨',lbl:'DIPLO'},
+  ].forEach(item => {
+    const v = gi[item.k]||0;
+    h += `<div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:3px">
+      <span style="color:var(--muted)">${item.icon} ${item.lbl}</span>
+      <span style="color:${giColors[v]};font-weight:700;font-family:'Share Tech Mono',monospace">${'█'.repeat(v)}${'░'.repeat(5-v)} ${giLabels[v]}</span>
+    </div>`;
+  });
+  h += `</div>`;
+
+  // Quick aircraft stats
   h += `<div style="padding:8px 12px;font-size:10px;display:grid;grid-template-columns:1fr 1fr;gap:4px;border-top:1px solid rgba(0,255,65,.06)">
     <span style="color:var(--accent)">⛽ ${tankers} TANKERS</span>
     <span style="color:var(--accent)">🔍 ${isr} ISR</span>
@@ -3150,11 +3201,16 @@ let CONFLICTS = [
    parties:'🇨🇳 China vs 🇵🇭🇻🇳🇲🇾🇧🇳🇹🇼 + 🇺🇸 FONOPs', since:'Ongoing',
    summary:'Chinese maritime militia, coast guard harassment at Second Thomas Shoal. Philippine resupply missions contested. US freedom of navigation operations.',
    hotspots:['Second Thomas Shoal','Scarborough Shoal','Spratly Islands','Paracel Islands']},
-  {name:'Iran-Israel Shadow War', status:'ELEVATED', intensity:'MEDIUM',
+  {name:'Iran-Israel Shadow War', status:'NEGOTIATING', intensity:'MEDIUM',
    lat:33.0, lon:44.0, radiusKm:300, color:'#f97316',
-   parties:'🇮🇱 Israel vs 🇮🇷 Iran + proxies', since:'Ongoing',
-   summary:'Covert and overt strikes. Israeli attacks on Iranian nuclear/military facilities. Iranian proxy network (Hezbollah, Iraqi militias, Houthis). Direct missile exchanges in Apr 2024.',
+   parties:'🇮🇱 Israel vs 🇮🇷 Iran + proxies | 🇺🇸🇮🇷 Geneva talks', since:'Ongoing',
+   summary:'US-Iran nuclear talks in Geneva ended Feb 26 with "significant progress" per mediator. Ford CSG in Eastern Med as deterrent backdrop. Iranian proxy network active. No deal signed yet.',
    hotspots:['Isfahan nuclear sites','Syrian T4 airbase','Iraqi militia bases','Strait of Hormuz']},
+  {name:'Afghanistan-Pakistan Conflict', status:'ACTIVE COMBAT', intensity:'HIGH',
+   lat:33.5, lon:70.5, radiusKm:150, color:'#ef4444',
+   parties:'🇦🇫 Taliban/Afghanistan vs 🇵🇰 Pakistan', since:'Feb 2026',
+   summary:'Afghanistan launched retaliatory strikes on Pakistan Feb 26, 2026. Both sides claim casualties. Active exchange of fire along the Durand Line. Nuclear-armed Pakistan now in active armed conflict with Taliban-led Afghanistan. TTP involvement suspected.',
+   hotspots:['Durand Line','KPK province','Eastern Afghanistan','Waziristan']},
 ];
 
 let conflictLayer = L.layerGroup();
@@ -3975,6 +4031,11 @@ async function loadIntelData(){
     if(d.gps_zones) GPS_ZONES = d.gps_zones;
     if(d.notams) NOTAMS = d.notams;
     if(d.centcom_assets) renderCentcom(d.centcom_assets);
+    // Update ground intel threat factors from data file
+    if(d.ground_intel) {
+      GROUND_INTEL = { ...GROUND_INTEL, ...d.ground_intel };
+      console.log('[INTEL] Ground intel updated:', GROUND_INTEL);
+    }
     // Re-render active overlays
     renderNaval();
     if(conflictsVisible) renderConflicts();
