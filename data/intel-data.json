@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-02-26T20:23:15Z",
-  "version": 56,
+  "generated_utc": "2026-02-26T21:22:39Z",
+  "version": 57,
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -790,15 +790,6 @@
       "categories": [
         "conflict"
       ]
-    },
-    {
-      "title": "New hypersonic missiles unveiled for fighter planes, ground systems",
-      "link": "https://www.defensenews.com/air-warfare/2026/02/25/new-hypersonic-missiles-unveiled-for-fighter-planes-ground-systems/",
-      "published": "Wed, 25 Feb 2026 20:31:20 +0000",
-      "source": "Defense News",
-      "categories": [
-        "conflict"
-      ]
     }
   ],
   "_exercise_news_refs": [
@@ -832,10 +823,10 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 15,
-    "conflict_articles": 3,
+    "deployment_articles": 17,
+    "conflict_articles": 2,
     "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-02-26T20:23:14.918723+00:00"
+    "computed_at": "2026-02-26T21:22:39.058065+00:00"
   }
 }
