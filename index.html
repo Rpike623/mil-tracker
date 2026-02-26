@@ -709,25 +709,42 @@ body::after{
 .loading-ov .st{color:var(--muted);font-size:13px}
 @keyframes spin{to{transform:rotate(360deg)}}
 
-/* CRT Boot Sequence */
-.boot-screen{position:fixed;inset:0;z-index:99999;background:#000;display:flex;flex-direction:column;justify-content:flex-start;padding:40px 30px;overflow:hidden;font-family:'Share Tech Mono',monospace}
-.boot-screen::before{content:'';position:absolute;inset:0;background:repeating-linear-gradient(0deg,transparent,transparent 2px,rgba(0,255,65,.015) 2px,rgba(0,255,65,.015) 4px);pointer-events:none;z-index:1}
-.boot-screen::after{content:'';position:absolute;inset:0;background:linear-gradient(transparent 50%,rgba(0,0,0,.03) 50%);background-size:100% 4px;pointer-events:none;z-index:2;animation:boot-flicker 0.15s infinite}
-@keyframes boot-flicker{0%{opacity:0.97}50%{opacity:1}100%{opacity:0.97}}
-.boot-line{font-size:12px;color:var(--accent);line-height:1.8;opacity:0;white-space:pre;letter-spacing:.5px;z-index:3;position:relative;transform:translateX(-4px);transition:opacity .15s,transform .15s}
-.boot-line.vis{opacity:1;transform:translateX(0)}
-.boot-line.sys{color:#00cc33}
-.boot-line.warn{color:#f97316}
-.boot-line.err{color:#ef4444;text-shadow:0 0 8px rgba(239,68,68,.4)}
-.boot-line.ok{color:#00ff41}
-.boot-line.head{color:#fff;font-size:14px;font-family:'Orbitron','Share Tech Mono',monospace;letter-spacing:3px;text-shadow:0 0 20px rgba(0,255,65,.6)}
-.boot-line.ascii{color:rgba(0,255,65,.25);font-size:10px;line-height:1.2;letter-spacing:0}
-.boot-line .cursor{display:inline-block;width:8px;height:14px;background:var(--accent);animation:blink-cursor .5s step-end infinite;vertical-align:text-bottom;margin-left:2px}
+/* ═══ RADAR BOOT SEQUENCE ═══ */
+.boot-screen{position:fixed;inset:0;z-index:99999;background:#000510;display:flex;align-items:center;justify-content:center;overflow:hidden;font-family:'Share Tech Mono',monospace}
+.boot-screen::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse at center,rgba(0,20,40,.2) 0%,rgba(0,0,0,.92) 100%);pointer-events:none;z-index:1}
+.boot-screen::after{content:'';position:absolute;inset:0;background:repeating-linear-gradient(0deg,transparent,transparent 3px,rgba(0,5,16,.35) 3px,rgba(0,5,16,.35) 4px);pointer-events:none;z-index:5;animation:bs-scanroll 5s linear infinite}
+@keyframes bs-scanroll{from{background-position:0 0}to{background-position:0 400px}}
+.bs-inner{position:relative;display:flex;align-items:center;gap:0;z-index:4;width:860px;max-width:98vw}
+.bs-left{width:180px;flex-shrink:0;display:flex;flex-direction:column;gap:5px;padding:0 16px 0 0}
+.bs-right{flex:1;display:flex;flex-direction:column;gap:6px;padding:0 0 0 16px}
+.bs-radar-wrap{position:relative;width:300px;height:300px;flex-shrink:0}
+.bs-grid{position:absolute;inset:0;background-image:linear-gradient(rgba(0,255,65,.03) 1px,transparent 1px),linear-gradient(90deg,rgba(0,255,65,.03) 1px,transparent 1px);background-size:30px 30px;z-index:0;border-radius:50%}
+.bs-title{font-family:'Orbitron',monospace;font-size:11px;font-weight:700;letter-spacing:4px;color:#fff;text-shadow:0 0 20px rgba(0,255,65,.9);margin-bottom:2px}
+.bs-subtitle{font-size:8px;color:rgba(0,255,65,.45);letter-spacing:3px;margin-bottom:10px;line-height:1.5}
+.bs-item{font-size:9px;color:rgba(0,255,65,.3);letter-spacing:.5px;padding:3px 0;border-bottom:1px solid rgba(0,255,65,.04);display:flex;justify-content:space-between;align-items:center;transition:color .25s,border-color .25s}
+.bs-item.active{color:rgba(0,255,65,.8)}
+.bs-item .bs-val{font-size:8px;color:rgba(0,255,65,.2);transition:color .25s}
+.bs-item.active .bs-val{color:#00ff41;text-shadow:0 0 6px #00ff41}
+.bs-item.ok .bs-val{color:#00ff41}
+.bs-item.warn .bs-val{color:#f97316}
+.bs-item.err .bs-val{color:#ef4444}
+.bs-coord-item{font-size:8px;color:rgba(0,255,65,.3);letter-spacing:.5px;line-height:1.8;font-family:'Share Tech Mono',monospace;transition:color .3s}
+.bs-coord-item.active{color:rgba(0,255,65,.7)}
+.bs-coord-item span{color:rgba(0,255,65,.55)}
+.bs-bars{display:flex;gap:2px;align-items:flex-end;height:12px}
+.bs-bar{width:3px;background:rgba(0,255,65,.1);border-radius:1px;transition:background .3s,height .4s}
+.bs-bar.lit{background:#00ff41;box-shadow:0 0 4px #00ff41}
+.bs-progress-wrap{margin-top:10px}
+.bs-progress-label{font-size:8px;color:rgba(0,255,65,.4);letter-spacing:2px;margin-bottom:3px;display:flex;justify-content:space-between}
+.bs-progress-track{height:3px;background:rgba(0,255,65,.07);border-radius:1px;overflow:hidden;border:1px solid rgba(0,255,65,.08)}
+.bs-progress-fill{height:100%;width:0%;background:linear-gradient(90deg,#001a08,#00ff41);box-shadow:0 0 8px #00ff41;transition:width .35s;border-radius:1px}
+.bs-locktext{font-family:'Orbitron',monospace;font-size:13px;letter-spacing:5px;color:#00ff41;text-shadow:0 0 20px rgba(0,255,65,.9),0 0 50px rgba(0,255,65,.4);text-align:center;margin-top:14px;opacity:0;transition:opacity .5s;grid-column:1/-1}
+.bs-locktext.vis{opacity:1}
+@keyframes boot-glitch{0%,100%{transform:translate(0)}15%{transform:translate(-3px,1px)}30%{transform:translate(3px,-1px)}50%{transform:translate(0)}70%{transform:translate(-1px,2px)}85%{transform:translate(2px,-1px)}}
+.boot-glitch{animation:boot-glitch .18s linear}
+@keyframes ping-expand{0%{transform:scale(0);opacity:.9}100%{transform:scale(4);opacity:0}}
+.radar-ping::after{content:'';position:absolute;inset:-4px;border-radius:50%;border:1px solid currentColor;animation:ping-expand .9s ease-out forwards}
 @keyframes blink-cursor{50%{opacity:0}}
-.boot-progress{width:400px;height:6px;background:rgba(0,255,65,.08);border-radius:2px;margin-top:10px;overflow:hidden;z-index:3;position:relative;border:1px solid rgba(0,255,65,.15)}
-.boot-progress-fill{height:100%;background:linear-gradient(90deg,#00ff41,#00cc33);width:0%;transition:width .3s;box-shadow:0 0 12px rgba(0,255,65,.6),inset 0 0 4px rgba(255,255,255,.15)}
-@keyframes boot-glitch{0%,100%{transform:translate(0)}10%{transform:translate(-2px,1px)}20%{transform:translate(2px,-1px)}30%{transform:translate(0)}90%{transform:translate(1px,0)}}
-.boot-glitch{animation:boot-glitch .15s linear}
 /* Ambient floating particles on map */
 @keyframes particle-float{0%{transform:translateY(0) translateX(0);opacity:0}10%{opacity:.6}90%{opacity:.6}100%{transform:translateY(-100vh) translateX(30px);opacity:0}}
 .map-particles{position:absolute;inset:0;z-index:1;pointer-events:none;overflow:hidden}
@@ -760,55 +777,49 @@ body::after{
 </head>
 <body>
 
-<!-- CRT BOOT SEQUENCE -->
+<!-- RADAR BOOT SEQUENCE -->
 <div class="boot-screen" id="bootScreen">
-  <div class="boot-line ascii" id="boot-0">        ___  _ _        ___ _                </div>
-  <div class="boot-line ascii" id="boot-1">       / _ \(_) | ___  / __\ | __ ___      __</div>
-  <div class="boot-line ascii" id="boot-2">      / /_)/ | |/ / _ \/ /  | |/ _` \ \ /\ / /</div>
-  <div class="boot-line ascii" id="boot-3">     / ___/| |   &lt;  __/ /___| | (_| |\ V  V / </div>
-  <div class="boot-line ascii" id="boot-4">     \/    |_|_|\_\___\____/|_|\__,_| \_/\_/  </div>
-  <div class="boot-line" id="boot-5"></div>
-  <div class="boot-line head" id="boot-6">╔══════════════════════════════════════════════════════════╗</div>
-  <div class="boot-line head" id="boot-7">║   MILITARY OSINT TERMINAL v3.2 — SITUATION ROOM MODE    ║</div>
-  <div class="boot-line head" id="boot-8">║   DEFENSE INTELLIGENCE MONITORING SYSTEM                 ║</div>
-  <div class="boot-line head" id="boot-9">╚══════════════════════════════════════════════════════════╝</div>
-  <div class="boot-line sys" id="boot-10">BIOS POST.......... OK</div>
-  <div class="boot-line sys" id="boot-11">CPU: QUANTUM-X86/NEURAL v4.2 ✓  |  CORES: 128 ACTIVE</div>
-  <div class="boot-line sys" id="boot-12">MEM CHECK: 131072K ████████████████████████████████ OK</div>
-  <div class="boot-line sys" id="boot-13">GPU: TACTICAL-RENDER v2.1 ✓  |  VRAM: 32768K ALLOCATED</div>
-  <div class="boot-line" id="boot-14">Initializing secure terminal session...</div>
-  <div class="boot-line" id="boot-15">Loading cryptographic modules........... AES-256-GCM ✓ RSA-4096 ✓ ECDSA ✓</div>
-  <div class="boot-line" id="boot-16">Verifying operator clearance............ LEVEL 5 — AUTHORIZED</div>
-  <div class="boot-line err" id="boot-17">ERR: NSA BACKDOOR DETECTED ............. PATCHING ██████ NEUTRALIZED ✓</div>
-  <div class="boot-line ok" id="boot-18">Establishing MILNET uplink.............</div>
-  <div class="boot-line ok" id="boot-19">  ╠══ SATCOM CH-1:  ACTIVE  [ENCRYPTED]    ══╣</div>
-  <div class="boot-line ok" id="boot-20">  ╠══ SATCOM CH-2:  STANDBY [BACKUP]       ══╣</div>
-  <div class="boot-line ok" id="boot-21">  ╠══ MESH RELAY:   ACTIVE  [6 NODES]      ══╣</div>
-  <div class="boot-line ok" id="boot-22">  ╠══ TOR CIRCUIT:  ACTIVE  [3 HOPS]       ══╣</div>
-  <div class="boot-line" id="boot-23">Connecting data feeds:</div>
-  <div class="boot-line" id="boot-24">  ├─ ADS-B mil transponders...... api.adsb.lol ✓</div>
-  <div class="boot-line" id="boot-25">  ├─ OSINT news aggregator....... RSS x6 feeds ✓</div>
-  <div class="boot-line" id="boot-26">  ├─ Prediction markets.......... Polymarket API ✓</div>
-  <div class="boot-line" id="boot-27">  ├─ Seismic monitoring.......... USGS GeoJSON ✓</div>
-  <div class="boot-line" id="boot-28">  ├─ Space launch telemetry...... TheSpaceDevs ✓</div>
-  <div class="boot-line" id="boot-29">  ├─ FX/sanctions rates.......... open.er-api ✓</div>
-  <div class="boot-line" id="boot-30">  ├─ ISS orbital telemetry....... open-notify ✓</div>
-  <div class="boot-line" id="boot-31">  └─ Intel data pipeline......... GitHub CDN ✓</div>
-  <div class="boot-line" id="boot-32">Loading tactical databases:</div>
-  <div class="boot-line" id="boot-33">  ├─ Aircraft signatures.............. 487 type records</div>
-  <div class="boot-line" id="boot-34">  ├─ Naval deployment tracking........ 12 battle groups</div>
-  <div class="boot-line" id="boot-35">  ├─ Active conflict zones............ 8 theater regions</div>
-  <div class="boot-line" id="boot-36">  ├─ GPS/GNSS interference............ 11 EW zones</div>
-  <div class="boot-line" id="boot-37">  ├─ Military exercises............... 8 operations</div>
-  <div class="boot-line" id="boot-38">  ├─ NOTAM/TFR airspace............... 10 restrictions</div>
-  <div class="boot-line" id="boot-39">  ├─ Nuclear/WMD facilities........... 22 sites monitored</div>
-  <div class="boot-line" id="boot-40">  └─ Air defense networks............. 13 SAM systems</div>
-  <div class="boot-line" id="boot-41"></div>
-  <div class="boot-line warn" id="boot-42">⚠ CLASSIFICATION: UNCLASSIFIED // OSINT ONLY</div>
-  <div class="boot-line warn" id="boot-43">⚠ DOOMSDAY CLOCK: 90 SECONDS TO MIDNIGHT — CLOSEST EVER</div>
-  <div class="boot-line ok" id="boot-44">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</div>
-  <div class="boot-line ok" id="boot-45"><span id="boot-typed"></span><span class="cursor"></span></div>
-  <div class="boot-progress" id="boot-bar"><div class="boot-progress-fill" id="boot-fill"></div></div>
+  <div class="bs-inner">
+    <!-- Left: coordinate / signal data -->
+    <div class="bs-left" id="bs-left">
+      <div class="bs-coord-item" id="bsc-0"><span>LAT</span> ——.——°N</div>
+      <div class="bs-coord-item" id="bsc-1"><span>LON</span> ——.——°W</div>
+      <div class="bs-coord-item" id="bsc-2"><span>ALT</span> ——— km</div>
+      <div class="bs-coord-item" id="bsc-3"><span>UTC</span> ——:——:——</div>
+      <div class="bs-coord-item" id="bsc-4" style="margin-top:8px"><span>SIG</span> ░░░░░░░░</div>
+      <div class="bs-coord-item" id="bsc-5"><span>ENC</span> ——————</div>
+      <div class="bs-coord-item" id="bsc-6"><span>SAT</span> ——</div>
+      <div class="bs-coord-item" id="bsc-7" style="margin-top:8px"><span>THR</span> DEFCON —</div>
+      <div class="bs-coord-item" id="bsc-8"><span>TRK</span> 0 CONTACTS</div>
+      <div class="bs-coord-item" id="bsc-9"><span>FLT</span> ——</div>
+    </div>
+    <!-- Center: radar canvas -->
+    <div class="bs-radar-wrap">
+      <div class="bs-grid"></div>
+      <canvas id="radarCanvas" width="300" height="300" class="bs-radar-canvas" style="position:absolute;inset:0;z-index:2"></canvas>
+      <div id="radarPings" style="position:absolute;inset:0;z-index:3;pointer-events:none"></div>
+    </div>
+    <!-- Right: status checklist -->
+    <div class="bs-right">
+      <div class="bs-title">OSINT-MIL TERMINAL</div>
+      <div class="bs-subtitle">DEFENSE INTELLIGENCE MONITORING SYSTEM<br>GLOBAL SITUATIONAL AWARENESS v4.0</div>
+      <div class="bs-item" id="bsi-0"><span>SATCOM UPLINK</span><span class="bs-val" id="bsv-0">ACQUIRING…</span></div>
+      <div class="bs-item" id="bsi-1"><span>CRYPTO HANDSHAKE</span><span class="bs-val" id="bsv-1">PENDING</span></div>
+      <div class="bs-item" id="bsi-2"><span>CLEARANCE VERIFY</span><span class="bs-val" id="bsv-2">PENDING</span></div>
+      <div class="bs-item" id="bsi-3"><span>ADS-B FEED</span><span class="bs-val" id="bsv-3">PENDING</span></div>
+      <div class="bs-item" id="bsi-4"><span>OSINT AGGREGATOR</span><span class="bs-val" id="bsv-4">PENDING</span></div>
+      <div class="bs-item" id="bsi-5"><span>INTEL DATABASE</span><span class="bs-val" id="bsv-5">PENDING</span></div>
+      <div class="bs-item" id="bsi-6"><span>SEISMIC MONITOR</span><span class="bs-val" id="bsv-6">PENDING</span></div>
+      <div class="bs-item" id="bsi-7"><span>ORBITAL TELEMETRY</span><span class="bs-val" id="bsv-7">PENDING</span></div>
+      <div class="bs-item" id="bsi-8"><span>THREAT CALCULUS</span><span class="bs-val" id="bsv-8">PENDING</span></div>
+      <div class="bs-item" id="bsi-9"><span>TACTICAL OVERLAY</span><span class="bs-val" id="bsv-9">PENDING</span></div>
+      <div class="bs-progress-wrap">
+        <div class="bs-progress-label"><span>SYSTEM LOAD</span><span id="bs-pct">0%</span></div>
+        <div class="bs-progress-track"><div class="bs-progress-fill" id="bs-fill"></div></div>
+      </div>
+      <div class="bs-locktext" id="bs-locktext">TARGET LOCK — INITIALIZING</div>
+    </div>
+  </div>
 </div>
 
 <!-- BRIEFING MODAL -->
@@ -1151,99 +1162,253 @@ body::after{
 (function bootSequence(){
   const screen = document.getElementById('bootScreen');
   if(!screen) return;
-  const totalLines = 46;
-  let i = 0;
-  let bootAudioCtx;
-  try { bootAudioCtx = new (window.AudioContext || window.webkitAudioContext)(); } catch(e){}
 
-  function bootBeep(freq, dur){
-    if(!bootAudioCtx) return;
-    try {
-      const o = bootAudioCtx.createOscillator();
-      const g = bootAudioCtx.createGain();
-      o.connect(g); g.connect(bootAudioCtx.destination);
-      o.type = 'sine'; o.frequency.value = freq;
-      g.gain.setValueAtTime(0.03, bootAudioCtx.currentTime);
-      g.gain.exponentialRampToValueAtTime(0.001, bootAudioCtx.currentTime + dur);
-      o.start(); o.stop(bootAudioCtx.currentTime + dur);
-    } catch(e){}
+  // ── Audio ────────────────────────────────────────────────────────────────
+  let ctx;
+  try { ctx = new (window.AudioContext || window.webkitAudioContext)(); } catch(e){}
+  function tone(freq, dur, type='sine', vol=0.04){
+    if(!ctx) return;
+    try{
+      const o=ctx.createOscillator(), g=ctx.createGain();
+      o.connect(g); g.connect(ctx.destination);
+      o.type=type; o.frequency.value=freq;
+      g.gain.setValueAtTime(vol,ctx.currentTime);
+      g.gain.exponentialRampToValueAtTime(0.001,ctx.currentTime+dur);
+      o.start(); o.stop(ctx.currentTime+dur);
+    }catch(e){}
+  }
+  function beep(f){ tone(f,0.06,'sine',0.03); }
+  function lock(){ tone(1200,.12,'square',.05); setTimeout(()=>tone(1600,.2,'sine',.06),130); }
+  function sweep(){ tone(400,.4,'sawtooth',.02); }
+
+  // ── Radar canvas ─────────────────────────────────────────────────────────
+  const canvas = document.getElementById('radarCanvas');
+  const ping_wrap = document.getElementById('radarPings');
+  const R = 150; // radius
+  let sweepAngle = 0;
+  let rafId;
+  let trails = []; // [{angle, dist, intensity}]
+
+  function drawRadar(){
+    if(!canvas) return;
+    const ctx2 = canvas.getContext('2d');
+    const cx=R, cy=R;
+    ctx2.clearRect(0,0,300,300);
+
+    // Background disc
+    ctx2.beginPath();
+    ctx2.arc(cx,cy,R-1,0,Math.PI*2);
+    ctx2.fillStyle='rgba(0,10,5,0.85)';
+    ctx2.fill();
+
+    // Concentric rings
+    [0.25,0.5,0.75,1].forEach(f=>{
+      ctx2.beginPath();
+      ctx2.arc(cx,cy,(R-1)*f,0,Math.PI*2);
+      ctx2.strokeStyle=`rgba(0,255,65,${f===1?0.25:0.08})`;
+      ctx2.lineWidth=f===1?1.5:0.5;
+      ctx2.stroke();
+    });
+
+    // Cross hairs
+    ctx2.strokeStyle='rgba(0,255,65,0.08)';
+    ctx2.lineWidth=0.5;
+    [[cx,1,cx,299],[1,cy,299,cy]].forEach(([x1,y1,x2,y2])=>{
+      ctx2.beginPath(); ctx2.moveTo(x1,y1); ctx2.lineTo(x2,y2); ctx2.stroke();
+    });
+    // Diagonal
+    ctx2.strokeStyle='rgba(0,255,65,0.04)';
+    [[cx-R*.707,cy-R*.707,cx+R*.707,cy+R*.707],[cx+R*.707,cy-R*.707,cx-R*.707,cy+R*.707]].forEach(([x1,y1,x2,y2])=>{
+      ctx2.beginPath(); ctx2.moveTo(x1,y1); ctx2.lineTo(x2,y2); ctx2.stroke();
+    });
+
+    // Sweep trail (fade sectors behind sweep)
+    const trailSpan = Math.PI * 0.6;
+    const grad = ctx2.createConicalGradient ? null : null; // fallback
+    // Draw trail as arc fill
+    ctx2.save();
+    ctx2.beginPath();
+    ctx2.moveTo(cx,cy);
+    ctx2.arc(cx,cy,R-2,sweepAngle-trailSpan,sweepAngle,false);
+    ctx2.closePath();
+    const fillGrad = ctx2.createRadialGradient(cx,cy,0,cx,cy,R-2);
+    fillGrad.addColorStop(0,'rgba(0,255,65,0.0)');
+    fillGrad.addColorStop(1,'rgba(0,255,65,0.04)');
+    ctx2.fillStyle=fillGrad;
+    ctx2.fill();
+    ctx2.restore();
+
+    // Sweep line
+    ctx2.save();
+    ctx2.translate(cx,cy);
+    ctx2.rotate(sweepAngle);
+    const lineGrad=ctx2.createLinearGradient(0,0,R-2,0);
+    lineGrad.addColorStop(0,'rgba(0,255,65,0)');
+    lineGrad.addColorStop(0.6,'rgba(0,255,65,0.3)');
+    lineGrad.addColorStop(1,'rgba(0,255,65,0.9)');
+    ctx2.beginPath();
+    ctx2.moveTo(0,0);
+    ctx2.lineTo(R-2,0);
+    ctx2.strokeStyle=lineGrad;
+    ctx2.lineWidth=2;
+    ctx2.stroke();
+    // Bright tip
+    ctx2.beginPath();
+    ctx2.arc(R-3,0,2.5,0,Math.PI*2);
+    ctx2.fillStyle='rgba(0,255,65,0.9)';
+    ctx2.fill();
+    ctx2.restore();
+
+    // Center dot
+    ctx2.beginPath();
+    ctx2.arc(cx,cy,4,0,Math.PI*2);
+    ctx2.fillStyle='#00ff41';
+    ctx2.shadowColor='#00ff41';
+    ctx2.shadowBlur=10;
+    ctx2.fill();
+    ctx2.shadowBlur=0;
   }
 
-  function typeText(el, text, cb){
-    let ci = 0;
-    function t(){
-      if(ci >= text.length){ if(cb) cb(); return; }
-      el.textContent += text[ci]; ci++;
-      bootBeep(600 + Math.random()*400, 0.03);
-      setTimeout(t, 35 + Math.random()*25);
-    }
-    t();
+  let lastBeep=0;
+  function animateRadar(ts){
+    const speed = 0.035;
+    sweepAngle = (sweepAngle + speed) % (Math.PI*2);
+    drawRadar();
+    // Occasional beep on sweep
+    if(ts-lastBeep>800+Math.random()*400){ tone(900+Math.random()*200,.04,'sine',.015); lastBeep=ts; }
+    rafId = requestAnimationFrame(animateRadar);
+  }
+  requestAnimationFrame(animateRadar);
+
+  // ── Spawn radar pings ─────────────────────────────────────────────────────
+  const PING_LOCATIONS = [
+    // [%from center, angle from center in degrees, color]
+    [55, 30,  '#00ff41'], // NE
+    [70, 120, '#00ff41'], // SE
+    [40, 200, '#f97316'], // SW warm
+    [80, 270, '#ef4444'], // W hot
+    [60, 340, '#00ff41'], // NNW
+    [30, 80,  '#22d3ee'], // ENE blue
+    [75, 155, '#00ff41'], // SSE
+    [50, 245, '#f97316'], // WSW
+  ];
+  let pingIdx=0;
+  function spawnPing(i){
+    const [dist, ang, col] = PING_LOCATIONS[i % PING_LOCATIONS.length];
+    const rad = (ang * Math.PI/180);
+    const cx=150, cy=150, r=(dist/100)*(150-10);
+    const x = cx + r*Math.cos(rad);
+    const y = cy + r*Math.sin(rad);
+    const dot = document.createElement('div');
+    dot.style.cssText=`position:absolute;left:${x}px;top:${y}px;width:6px;height:6px;border-radius:50%;background:${col};box-shadow:0 0 6px ${col};transform:translate(-50%,-50%);`;
+    dot.className='radar-ping';
+    dot.style.color=col;
+    ping_wrap.appendChild(dot);
+    beep(700+i*80);
+    setTimeout(()=>{ try{ping_wrap.removeChild(dot)}catch(e){} }, 2000);
   }
 
-  // Dramatic delays per section
-  function getDelay(idx){
-    if(idx <= 5) return 50 + Math.random()*30;           // ASCII art — fast
-    if(idx <= 9) return 140 + Math.random()*60;          // Header box — slow/dramatic
-    if(idx <= 13) return 100 + Math.random()*50;         // BIOS/CPU/MEM
-    if(idx === 14) return 200 + Math.random()*100;       // "Initializing..." — pause
-    if(idx <= 16) return 120 + Math.random()*60;         // Crypto/clearance
-    if(idx === 17) return 500;                           // ERR line — dramatic pause
-    if(idx === 18) return 300;                           // "Establishing..." — pause
-    if(idx <= 22) return 110 + Math.random()*40;         // SATCOM channels
-    if(idx === 23) return 180;                           // "Connecting data feeds:"
-    if(idx <= 31) return 80 + Math.random()*40;          // Feed connections — moderate
-    if(idx === 32) return 160;                           // "Loading databases:"
-    if(idx <= 40) return 60 + Math.random()*30;          // Database items — faster
-    if(idx === 41) return 100;                           // blank line
-    if(idx <= 43) return 300 + Math.random()*100;        // Warnings — slow
-    if(idx === 44) return 200;                           // separator
-    return 100;
-  }
-
-  function showLine(){
-    if(i >= totalLines){
-      // Type the final line character by character
-      const typedEl = document.getElementById('boot-typed');
-      if(typedEl){
-        const el45 = document.getElementById('boot-45');
-        if(el45) el45.classList.add('vis');
-        typeText(typedEl, 'ALL SYSTEMS NOMINAL — LAUNCHING DASHBOARD', () => {
-          const fill = document.getElementById('boot-fill');
-          if(fill) fill.style.width = '100%';
-          bootBeep(1200, 0.2);
-          // Glitch effect before fade
-          setTimeout(() => {
-            screen.classList.add('boot-glitch');
-            setTimeout(() => screen.classList.remove('boot-glitch'), 150);
-          }, 400);
-          setTimeout(() => {
-            screen.style.transition = 'opacity 0.6s ease-out';
-            screen.style.opacity = '0';
-            setTimeout(() => { screen.remove(); if(bootAudioCtx) bootAudioCtx.close(); }, 600);
-          }, 900);
-        });
+  // ── Countdown number scramble ────────────────────────────────────────────
+  const CHARS='ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789@#$%^&*';
+  function scramble(el, finalTxt, duration, cb){
+    let t=0;
+    const frames = Math.round(duration/40);
+    const iv = setInterval(()=>{
+      const progress = t/frames;
+      let txt='';
+      for(let i=0;i<finalTxt.length;i++){
+        if(progress > i/finalTxt.length) txt+=finalTxt[i];
+        else txt+=CHARS[Math.floor(Math.random()*CHARS.length)];
       }
-      return;
-    }
-    const el = document.getElementById('boot-'+i);
-    if(el){
-      el.classList.add('vis');
-      // Glitch on the ERR line
-      if(i === 17){
+      el.textContent=txt;
+      t++;
+      if(t>=frames){ clearInterval(iv); el.textContent=finalTxt; if(cb)cb(); }
+    },40);
+  }
+
+  // ── Status items ─────────────────────────────────────────────────────────
+  const STATUS_ITEMS = [
+    { id:'bsi-0', val:'bsv-0', ok:'LOCKED',   warn:null,  delay:400  },
+    { id:'bsi-1', val:'bsv-1', ok:'AES-256',  warn:null,  delay:700  },
+    { id:'bsi-2', val:'bsv-2', ok:'LVL 5 ✓',  warn:null,  delay:1000 },
+    { id:'bsi-3', val:'bsv-3', ok:'ACTIVE',   warn:null,  delay:1350 },
+    { id:'bsi-4', val:'bsv-4', ok:'6 FEEDS',  warn:null,  delay:1650 },
+    { id:'bsi-5', val:'bsv-5', ok:'v40 ✓',    warn:null,  delay:1900 },
+    { id:'bsi-6', val:'bsv-6', ok:'USGS ✓',   warn:null,  delay:2150 },
+    { id:'bsi-7', val:'bsv-7', ok:'ISS ✓',    warn:null,  delay:2350 },
+    { id:'bsi-8', val:'bsv-8', ok:'NOMINAL',  warn:null,  delay:2600 },
+    { id:'bsi-9', val:'bsv-9', ok:'READY',    warn:null,  delay:2850 },
+  ];
+
+  // ── Coordinate scramble ──────────────────────────────────────────────────
+  const COORD_FINALS = [
+    ['bsc-0', 'LAT 32.7254°N'],
+    ['bsc-1', 'LON 97.3208°W'],
+    ['bsc-2', 'ALT  412  km'],
+    ['bsc-3', 'UTC '+new Date().toUTCString().slice(17,25)],
+    ['bsc-4', 'SIG ████████'],
+    ['bsc-5', 'ENC AES-256'],
+    ['bsc-6', 'SAT 14 FIXED'],
+    ['bsc-7', 'THR DEFCON 3'],
+    ['bsc-8', 'TRK SCANNING'],
+    ['bsc-9', 'FLT GLOBAL'],
+  ];
+
+  // Start coord scramble gradually
+  COORD_FINALS.forEach(([id, txt], i) => {
+    setTimeout(() => {
+      const el = document.getElementById(id);
+      if(!el) return;
+      el.classList.add('active');
+      scramble(el, txt, 500);
+    }, 300 + i*280);
+  });
+
+  // Activate status items
+  STATUS_ITEMS.forEach((item,i)=>{
+    setTimeout(()=>{
+      const row = document.getElementById(item.id);
+      const val = document.getElementById(item.val);
+      if(!row||!val) return;
+      row.classList.add('active');
+      scramble(val, item.ok, 300, ()=>{
+        row.classList.remove('active');
+        row.classList.add('ok');
+        beep(1000+i*50);
+        spawnPing(i);
+        // Update progress
+        const pct = Math.round(((i+1)/STATUS_ITEMS.length)*100);
+        const fill = document.getElementById('bs-fill');
+        const pctEl = document.getElementById('bs-pct');
+        if(fill) fill.style.width=pct+'%';
+        if(pctEl) pctEl.textContent=pct+'%';
+      });
+    }, item.delay);
+  });
+
+  // ── Lock-on finale ───────────────────────────────────────────────────────
+  const totalTime = STATUS_ITEMS[STATUS_ITEMS.length-1].delay + 800;
+  setTimeout(()=>{
+    lock();
+    const lockEl = document.getElementById('bs-locktext');
+    if(lockEl){
+      lockEl.classList.add('vis');
+      scramble(lockEl, 'SYSTEMS ONLINE — LAUNCHING DASHBOARD', 600, ()=>{
+        // Glitch flash
         screen.classList.add('boot-glitch');
-        bootBeep(200, 0.15);
-        setTimeout(() => screen.classList.remove('boot-glitch'), 150);
-      } else {
-        bootBeep(800 + i*15, 0.04);
-      }
+        tone(200,.08,'sawtooth',.08);
+        setTimeout(()=>screen.classList.remove('boot-glitch'),200);
+        // Fade out
+        setTimeout(()=>{
+          cancelAnimationFrame(rafId);
+          screen.style.transition='opacity 0.7s ease-out';
+          screen.style.opacity='0';
+          setTimeout(()=>{ screen.remove(); if(ctx)ctx.close(); }, 700);
+        }, 600);
+      });
     }
-    const fill = document.getElementById('boot-fill');
-    if(fill) fill.style.width = Math.round(((i+1)/totalLines)*95)+'%';
-    const delay = getDelay(i);
-    i++;
-    setTimeout(showLine, delay);
-  }
-  setTimeout(showLine, 600);
+  }, totalTime);
+
 })();
 
 // ════════════════════════════════════════
