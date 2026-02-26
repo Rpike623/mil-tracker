@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-02-26T17:50:12Z",
-  "version": 53,
+  "generated_utc": "2026-02-26T18:35:11Z",
+  "version": 54,
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -577,6 +577,33 @@
       ]
     },
     {
+      "title": "US soldiers earn French medal for 2023 Iraq rescue",
+      "link": "https://www.defensenews.com/news/your-military/2026/02/26/us-soldiers-earn-french-medal-for-2023-iraq-rescue/",
+      "published": "Thu, 26 Feb 2026 17:55:25 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "US soldiers earn French medal for 2023 Iraq rescue",
+      "link": "https://www.militarytimes.com/news/your-military/2026/02/26/us-soldiers-earn-french-medal-for-2023-iraq-rescue/",
+      "published": "Thu, 26 Feb 2026 17:55:25 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Former US Air Force pilot charged with unauthorized Chinese military training",
+      "link": "https://www.militarytimes.com/news/your-military/2026/02/26/former-us-air-force-pilot-charged-with-unauthorized-chinese-military-training/",
+      "published": "Thu, 26 Feb 2026 18:25:04 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "New Commander Takes Charge of Sub Forces Following Sub Czar Gaucher",
       "link": "https://news.usni.org/2026/02/24/new-commander-takes-charge-of-sub-forces-following-sub-czar-gaucher",
       "published": "Tue, 24 Feb 2026 18:02:31 +0000",
@@ -590,33 +617,6 @@
       "link": "https://news.usni.org/2026/02/24/u-s-captures-third-shadow-fleet-tanker-in-indian-ocean",
       "published": "Tue, 24 Feb 2026 21:04:07 +0000",
       "source": "USNI News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Lockheed debuts AI on F-35 fighter jet to identify targets",
-      "link": "https://www.defensenews.com/industry/techwatch/2026/02/24/lockheed-debuts-ai-on-f-35-fighter-jet-to-identify-targets/",
-      "published": "Tue, 24 Feb 2026 21:29:03 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Report to Congress on Yemen and Red Sea Security",
-      "link": "https://news.usni.org/2026/02/25/report-to-congress-on-yemen-and-red-sea-security",
-      "published": "Wed, 25 Feb 2026 15:06:59 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "France’s 4th Barracuda Type Submarine Begins Alpha Trials",
-      "link": "https://www.navalnews.com/naval-news/2026/02/frances-4th-barracuda-type-submarine-begins-alpha-trials/",
-      "published": "Wed, 25 Feb 2026 16:32:09 +0000",
-      "source": "Naval News",
       "categories": [
         "deployment"
       ]
@@ -841,10 +841,10 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 12,
+    "deployment_articles": 14,
     "conflict_articles": 3,
     "exercise_articles": 4,
     "total_articles": 50,
-    "computed_at": "2026-02-26T17:50:12.209012+00:00"
+    "computed_at": "2026-02-26T18:35:10.800304+00:00"
   }
 }
