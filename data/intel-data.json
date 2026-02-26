@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-02-26T18:35:11Z",
-  "version": 54,
+  "generated_utc": "2026-02-26T19:35:02Z",
+  "version": 55,
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -604,19 +604,19 @@
       ]
     },
     {
-      "title": "New Commander Takes Charge of Sub Forces Following Sub Czar Gaucher",
-      "link": "https://news.usni.org/2026/02/24/new-commander-takes-charge-of-sub-forces-following-sub-czar-gaucher",
-      "published": "Tue, 24 Feb 2026 18:02:31 +0000",
-      "source": "USNI News",
+      "title": "US military assembles largest force of warships, aircraft in Middle East in decades",
+      "link": "https://www.defensenews.com/news/your-military/2026/02/26/us-military-assembles-largest-force-of-warships-aircraft-in-middle-east-in-decades/",
+      "published": "Thu, 26 Feb 2026 19:20:45 +0000",
+      "source": "Defense News",
       "categories": [
         "deployment"
       ]
     },
     {
-      "title": "U.S. Captures Third ‘Shadow Fleet’ Tanker in Indian Ocean",
-      "link": "https://news.usni.org/2026/02/24/u-s-captures-third-shadow-fleet-tanker-in-indian-ocean",
-      "published": "Tue, 24 Feb 2026 21:04:07 +0000",
-      "source": "USNI News",
+      "title": "US military assembles largest force of warships, aircraft in Middle East in decades",
+      "link": "https://www.militarytimes.com/news/your-military/2026/02/26/us-military-assembles-largest-force-of-warships-aircraft-in-middle-east-in-decades/",
+      "published": "Thu, 26 Feb 2026 19:20:45 +0000",
+      "source": "Military Times",
       "categories": [
         "deployment"
       ]
@@ -783,9 +783,9 @@
       ]
     },
     {
-      "title": "New hypersonic missiles unveiled for fighter planes, ground systems",
-      "link": "https://www.defensenews.com/air-warfare/2026/02/25/new-hypersonic-missiles-unveiled-for-fighter-planes-ground-systems/",
-      "published": "Wed, 25 Feb 2026 20:31:20 +0000",
+      "title": "Ukraine says Russia launched a major aerial attack before Kyiv’s talks with US",
+      "link": "https://www.defensenews.com/global/europe/2026/02/26/ukraine-says-russia-launched-a-major-aerial-attack-before-kyivs-talks-with-us/",
+      "published": "Thu, 26 Feb 2026 18:42:34 +0000",
       "source": "Defense News",
       "categories": [
         "conflict"
@@ -793,9 +793,9 @@
     },
     {
       "title": "New hypersonic missiles unveiled for fighter planes, ground systems",
-      "link": "https://www.militarytimes.com/air-warfare/2026/02/25/new-hypersonic-missiles-unveiled-for-fighter-planes-ground-systems/",
+      "link": "https://www.defensenews.com/air-warfare/2026/02/25/new-hypersonic-missiles-unveiled-for-fighter-planes-ground-systems/",
       "published": "Wed, 25 Feb 2026 20:31:20 +0000",
-      "source": "Military Times",
+      "source": "Defense News",
       "categories": [
         "conflict"
       ]
@@ -821,15 +821,6 @@
       ]
     },
     {
-      "title": "US Navy, NATO explosive ordnance teams tackle High North during ‘Arctic Sentry’",
-      "link": "https://www.defensenews.com/news/your-military/2026/02/24/us-navy-nato-explosive-ordnance-teams-tackle-high-north-during-arctic-sentry/",
-      "published": "Tue, 24 Feb 2026 21:43:49 +0000",
-      "source": "Defense News",
-      "categories": [
-        "exercise"
-      ]
-    },
-    {
       "title": "NATO Integrates Drones in Latest Major Exercises in the Baltic, Mediterranean Seas",
       "link": "https://news.usni.org/2026/02/25/nato-integrates-drones-in-latest-major-exercises-in-the-baltic-mediterranean-seas",
       "published": "Wed, 25 Feb 2026 21:09:29 +0000",
@@ -841,10 +832,10 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 14,
+    "deployment_articles": 15,
     "conflict_articles": 3,
-    "exercise_articles": 4,
+    "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-02-26T18:35:10.800304+00:00"
+    "computed_at": "2026-02-26T19:35:01.996781+00:00"
   }
 }
