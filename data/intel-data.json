@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-02-26T14:01:19Z",
-  "version": 50,
+  "generated_utc": "2026-02-26T15:41:03Z",
+  "version": 51,
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -532,16 +532,6 @@
   ],
   "_naval_news_refs": [
     {
-      "title": "French Carrier Strike Group Heading to North Atlantic, Baltic",
-      "link": "https://news.usni.org/2026/02/23/french-carrier-strike-group-heading-to-north-atlantic-baltic",
-      "published": "Mon, 23 Feb 2026 22:11:32 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
       "title": "Navy relieves destroyer commander after Caribbean crash",
       "link": "https://taskandpurpose.com/news/navy-relieves-truxtun-james-koffi/",
       "published": "Sun, 22 Feb 2026 20:20:10 -0500",
@@ -572,6 +562,15 @@
       "title": "IAI and TKMS deliver BlueWhale Large AUV to German Navy",
       "link": "https://www.navalnews.com/naval-news/2026/02/iai-and-tkms-deliver-bluewhale-large-auv-to-german-navy/",
       "published": "Thu, 26 Feb 2026 13:04:36 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Historic first: French Aircraft Carrier ‘Shows the Flag’ in Sweden",
+      "link": "https://www.navalnews.com/naval-news/2026/02/historic-first-french-aircraft-carrier-shows-the-flag-in-sweden/",
+      "published": "Thu, 26 Feb 2026 14:17:42 +0000",
       "source": "Naval News",
       "categories": [
         "deployment"
@@ -775,16 +774,6 @@
   },
   "_conflict_news_refs": [
     {
-      "title": "French Carrier Strike Group Heading to North Atlantic, Baltic",
-      "link": "https://news.usni.org/2026/02/23/french-carrier-strike-group-heading-to-north-atlantic-baltic",
-      "published": "Mon, 23 Feb 2026 22:11:32 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
       "title": "New hypersonic missiles unveiled for fighter planes, ground systems",
       "link": "https://www.defensenews.com/air-warfare/2026/02/25/new-hypersonic-missiles-unveiled-for-fighter-planes-ground-systems/",
       "published": "Wed, 25 Feb 2026 20:31:20 +0000",
@@ -844,9 +833,9 @@
   ],
   "_threat_indicators": {
     "deployment_articles": 12,
-    "conflict_articles": 3,
+    "conflict_articles": 2,
     "exercise_articles": 4,
     "total_articles": 50,
-    "computed_at": "2026-02-26T14:01:18.556055+00:00"
+    "computed_at": "2026-02-26T15:41:03.134072+00:00"
   }
 }
