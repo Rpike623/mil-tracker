@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-02-27T09:29:04Z",
-  "version": 66,
+  "generated_utc": "2026-02-27T10:25:30Z",
+  "version": 67,
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -541,6 +541,15 @@
       ]
     },
     {
+      "title": "Italy moves to transfer Garibaldi aircraft carrier to Indonesia, looking to new programmes",
+      "link": "https://www.navalnews.com/naval-news/2026/02/italy-moves-to-transfer-garibaldi-aircraft-carrier-to-indonesia-looking-to-new-programmes/",
+      "published": "Fri, 27 Feb 2026 09:32:12 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "Navy relieves destroyer commander after Caribbean crash",
       "link": "https://taskandpurpose.com/news/navy-relieves-truxtun-james-koffi/",
       "published": "Sun, 22 Feb 2026 20:20:10 -0500",
@@ -608,15 +617,6 @@
       "link": "https://www.militarytimes.com/news/your-military/2026/02/26/former-us-air-force-pilot-charged-with-unauthorized-chinese-military-training/",
       "published": "Thu, 26 Feb 2026 18:25:04 +0000",
       "source": "Military Times",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "US military assembles largest force of warships, aircraft in Middle East in decades",
-      "link": "https://www.defensenews.com/news/your-military/2026/02/26/us-military-assembles-largest-force-of-warships-aircraft-in-middle-east-in-decades/",
-      "published": "Thu, 26 Feb 2026 19:20:45 +0000",
-      "source": "Defense News",
       "categories": [
         "deployment"
       ]
@@ -823,10 +823,10 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 18,
+    "deployment_articles": 19,
     "conflict_articles": 2,
     "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-02-27T09:29:03.493365+00:00"
+    "computed_at": "2026-02-27T10:25:29.472281+00:00"
   }
 }
