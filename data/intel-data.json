@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-02-27T14:30:39Z",
-  "version": 71,
+  "generated_utc": "2026-02-27T15:27:58Z",
+  "version": 72,
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -569,15 +569,6 @@
       ]
     },
     {
-      "title": "South Korea Rallies National Push to Support Canada’s Submarine Project",
-      "link": "https://www.navalnews.com/naval-news/2026/02/south-korea-rallies-national-push-to-support-canadas-submarine-project/",
-      "published": "Thu, 26 Feb 2026 08:18:12 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "IAI and TKMS deliver BlueWhale Large AUV to German Navy",
       "link": "https://www.navalnews.com/naval-news/2026/02/iai-and-tkms-deliver-bluewhale-large-auv-to-german-navy/",
       "published": "Thu, 26 Feb 2026 13:04:36 +0000",
@@ -618,6 +609,15 @@
       "link": "https://www.militarytimes.com/news/your-military/2026/02/26/former-us-air-force-pilot-charged-with-unauthorized-chinese-military-training/",
       "published": "Thu, 26 Feb 2026 18:25:04 +0000",
       "source": "Military Times",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "US military assembles largest force of warships, aircraft in Middle East in decades",
+      "link": "https://www.defensenews.com/news/your-military/2026/02/26/us-military-assembles-largest-force-of-warships-aircraft-in-middle-east-in-decades/",
+      "published": "Thu, 26 Feb 2026 19:20:45 +0000",
+      "source": "Defense News",
       "categories": [
         "deployment"
       ]
@@ -825,10 +825,10 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 18,
+    "deployment_articles": 17,
     "conflict_articles": 1,
     "exercise_articles": 4,
     "total_articles": 50,
-    "computed_at": "2026-02-27T14:30:38.675963+00:00"
+    "computed_at": "2026-02-27T15:27:58.068577+00:00"
   }
 }
