@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-02-27T12:29:39Z",
-  "version": 69,
+  "generated_utc": "2026-02-27T13:50:20Z",
+  "version": 70,
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -560,6 +560,15 @@
       ]
     },
     {
+      "title": "Canada Taps Safran for Victoria-class Submarine Modernization",
+      "link": "https://www.navalnews.com/naval-news/2026/02/canada-taps-safran-for-victoria-class-submarine-modernization/",
+      "published": "Fri, 27 Feb 2026 12:30:39 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "Navy relieves destroyer commander after Caribbean crash",
       "link": "https://taskandpurpose.com/news/navy-relieves-truxtun-james-koffi/",
       "published": "Sun, 22 Feb 2026 20:20:10 -0500",
@@ -573,15 +582,6 @@
       "link": "https://www.navalnews.com/naval-news/2026/02/south-korea-rallies-national-push-to-support-canadas-submarine-project/",
       "published": "Thu, 26 Feb 2026 08:18:12 +0000",
       "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Israel delivers first autonomous submarine to Germany",
-      "link": "https://www.defensenews.com/global/europe/2026/02/26/israel-delivers-first-autonomous-submarine-to-germany/",
-      "published": "Thu, 26 Feb 2026 11:47:08 +0000",
-      "source": "Defense News",
       "categories": [
         "deployment"
       ]
@@ -775,15 +775,6 @@
   },
   "_conflict_news_refs": [
     {
-      "title": "Once-reluctant Germany goes big on one-way attack drones",
-      "link": "https://www.defensenews.com/global/europe/2026/02/26/once-reluctant-germany-goes-big-on-one-way-attack-drones/",
-      "published": "Thu, 26 Feb 2026 16:47:00 +0000",
-      "source": "Defense News",
-      "categories": [
-        "conflict"
-      ]
-    },
-    {
       "title": "Ukraine says Russia launched a major aerial attack before Kyiv’s talks with US",
       "link": "https://www.defensenews.com/global/europe/2026/02/26/ukraine-says-russia-launched-a-major-aerial-attack-before-kyivs-talks-with-us/",
       "published": "Thu, 26 Feb 2026 18:42:34 +0000",
@@ -834,10 +825,10 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 20,
-    "conflict_articles": 2,
+    "deployment_articles": 19,
+    "conflict_articles": 1,
     "exercise_articles": 4,
     "total_articles": 50,
-    "computed_at": "2026-02-27T12:29:39.572383+00:00"
+    "computed_at": "2026-02-27T13:50:19.825709+00:00"
   }
 }
