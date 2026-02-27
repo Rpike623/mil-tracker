@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-02-27T17:24:39Z",
-  "version": 74,
+  "generated_utc": "2026-02-27T18:28:17Z",
+  "version": 75,
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -532,65 +532,10 @@
   ],
   "_naval_news_refs": [
     {
-      "title": "South Korea is already preparing for nuclear-powered submarines",
-      "link": "https://www.navalnews.com/naval-news/2026/02/south-korea-is-already-preparing-for-nuclear-powered-submarines/",
-      "published": "Fri, 27 Feb 2026 08:26:14 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Italy moves to transfer Garibaldi aircraft carrier to Indonesia, looking to new programmes",
-      "link": "https://www.navalnews.com/naval-news/2026/02/italy-moves-to-transfer-garibaldi-aircraft-carrier-to-indonesia-looking-to-new-programmes/",
-      "published": "Fri, 27 Feb 2026 09:32:12 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "NAVANTIA offers Denmark strategic cooperation to deliver its naval programmes",
-      "link": "https://www.navalnews.com/naval-news/2026/02/navantia-offers-denmark-strategic-cooperation-to-deliver-its-naval-programmes/",
-      "published": "Fri, 27 Feb 2026 11:56:14 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment",
-        "exercise"
-      ]
-    },
-    {
-      "title": "Canada Taps Safran for Victoria-class Submarine Modernization",
-      "link": "https://www.navalnews.com/naval-news/2026/02/canada-taps-safran-for-victoria-class-submarine-modernization/",
-      "published": "Fri, 27 Feb 2026 12:30:39 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Swedish Navy intercepts suspected Russian drone nearing French aircraft carrier",
       "link": "https://www.defensenews.com/global/europe/2026/02/27/swedish-navy-intercepts-suspected-russian-drone-nearing-french-aircraft-carrier/",
       "published": "Fri, 27 Feb 2026 15:24:56 +0000",
       "source": "Defense News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "IAI and TKMS deliver BlueWhale Large AUV to German Navy",
-      "link": "https://www.navalnews.com/naval-news/2026/02/iai-and-tkms-deliver-bluewhale-large-auv-to-german-navy/",
-      "published": "Thu, 26 Feb 2026 13:04:36 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Historic first: French Aircraft Carrier ‘Shows the Flag’ in Sweden",
-      "link": "https://www.navalnews.com/naval-news/2026/02/historic-first-french-aircraft-carrier-shows-the-flag-in-sweden/",
-      "published": "Thu, 26 Feb 2026 14:17:42 +0000",
-      "source": "Naval News",
       "categories": [
         "deployment"
       ]
@@ -620,6 +565,43 @@
       "source": "USNI News",
       "categories": [
         "deployment"
+      ]
+    },
+    {
+      "title": "Last-ditch effort in Geneva to avert war between US, Iran wraps with ‘significant progress,’ Omani official says",
+      "link": "https://www.defensenews.com/global/mideast-africa/2026/02/26/last-ditch-effort-in-geneva-to-avert-war-between-us-iran-wraps-with-significant-progress-omani-official-says/",
+      "published": "Thu, 26 Feb 2026 21:10:00 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "U.S. Captures Third ‘Shadow Fleet’ Tanker in Indian Ocean",
+      "link": "https://news.usni.org/2026/02/24/u-s-captures-third-shadow-fleet-tanker-in-indian-ocean",
+      "published": "Tue, 24 Feb 2026 21:04:07 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Report to Congress on Yemen and Red Sea Security",
+      "link": "https://news.usni.org/2026/02/25/report-to-congress-on-yemen-and-red-sea-security",
+      "published": "Wed, 25 Feb 2026 15:06:59 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "NATO Integrates Drones in Latest Major Exercises in the Baltic, Mediterranean Seas",
+      "link": "https://news.usni.org/2026/02/25/nato-integrates-drones-in-latest-major-exercises-in-the-baltic-mediterranean-seas",
+      "published": "Wed, 25 Feb 2026 21:09:29 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment",
+        "exercise"
       ]
     }
   ],
@@ -776,25 +758,6 @@
   "_conflict_news_refs": [],
   "_exercise_news_refs": [
     {
-      "title": "NAVANTIA offers Denmark strategic cooperation to deliver its naval programmes",
-      "link": "https://www.navalnews.com/naval-news/2026/02/navantia-offers-denmark-strategic-cooperation-to-deliver-its-naval-programmes/",
-      "published": "Fri, 27 Feb 2026 11:56:14 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment",
-        "exercise"
-      ]
-    },
-    {
-      "title": "Navantia and Fincantieri strengthen their cooperation to advance the European Patrol Corvette (EPC) programme",
-      "link": "https://www.navalnews.com/naval-news/2026/02/navantia-and-fincantieri-strengthen-their-cooperation-to-advance-the-european-patrol-corvette-epc-programme/",
-      "published": "Thu, 26 Feb 2026 09:12:09 +0000",
-      "source": "Naval News",
-      "categories": [
-        "exercise"
-      ]
-    },
-    {
       "title": "Task Force Ashland Marines, Sailors Arrive in Thailand for Exercise Cobra Gold",
       "link": "https://news.usni.org/2026/02/24/task-force-ashland-marines-sailors-arrive-in-thailand-for-exercise-cobra-gold",
       "published": "Tue, 24 Feb 2026 19:50:28 +0000",
@@ -815,10 +778,10 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 14,
+    "deployment_articles": 8,
     "conflict_articles": 0,
-    "exercise_articles": 4,
-    "total_articles": 50,
-    "computed_at": "2026-02-27T17:24:38.466605+00:00"
+    "exercise_articles": 2,
+    "total_articles": 40,
+    "computed_at": "2026-02-27T18:28:17.099341+00:00"
   }
 }
