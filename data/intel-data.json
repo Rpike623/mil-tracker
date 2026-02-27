@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-02-27T16:26:04Z",
-  "version": 73,
+  "generated_utc": "2026-02-27T17:24:39Z",
+  "version": 74,
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -773,17 +773,7 @@
       }
     ]
   },
-  "_conflict_news_refs": [
-    {
-      "title": "Ukraine says Russia launched a major aerial attack before Kyiv’s talks with US",
-      "link": "https://www.defensenews.com/global/europe/2026/02/26/ukraine-says-russia-launched-a-major-aerial-attack-before-kyivs-talks-with-us/",
-      "published": "Thu, 26 Feb 2026 18:42:34 +0000",
-      "source": "Defense News",
-      "categories": [
-        "conflict"
-      ]
-    }
-  ],
+  "_conflict_news_refs": [],
   "_exercise_news_refs": [
     {
       "title": "NAVANTIA offers Denmark strategic cooperation to deliver its naval programmes",
@@ -826,9 +816,9 @@
   ],
   "_threat_indicators": {
     "deployment_articles": 14,
-    "conflict_articles": 1,
+    "conflict_articles": 0,
     "exercise_articles": 4,
     "total_articles": 50,
-    "computed_at": "2026-02-27T16:26:04.323949+00:00"
+    "computed_at": "2026-02-27T17:24:38.466605+00:00"
   }
 }
