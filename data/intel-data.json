@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-02-27T08:27:49Z",
-  "version": 65,
+  "generated_utc": "2026-02-27T09:29:04Z",
+  "version": 66,
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -559,6 +559,15 @@
       ]
     },
     {
+      "title": "Israel delivers first autonomous submarine to Germany",
+      "link": "https://www.defensenews.com/global/europe/2026/02/26/israel-delivers-first-autonomous-submarine-to-germany/",
+      "published": "Thu, 26 Feb 2026 11:47:08 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "IAI and TKMS deliver BlueWhale Large AUV to German Navy",
       "link": "https://www.navalnews.com/naval-news/2026/02/iai-and-tkms-deliver-bluewhale-large-auv-to-german-navy/",
       "published": "Thu, 26 Feb 2026 13:04:36 +0000",
@@ -572,6 +581,15 @@
       "link": "https://www.navalnews.com/naval-news/2026/02/historic-first-french-aircraft-carrier-shows-the-flag-in-sweden/",
       "published": "Thu, 26 Feb 2026 14:17:42 +0000",
       "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "US soldiers earn French medal for 2023 Iraq rescue",
+      "link": "https://www.defensenews.com/news/your-military/2026/02/26/us-soldiers-earn-french-medal-for-2023-iraq-rescue/",
+      "published": "Thu, 26 Feb 2026 17:55:25 +0000",
+      "source": "Defense News",
       "categories": [
         "deployment"
       ]
@@ -596,27 +614,9 @@
     },
     {
       "title": "US military assembles largest force of warships, aircraft in Middle East in decades",
-      "link": "https://www.militarytimes.com/news/your-military/2026/02/26/us-military-assembles-largest-force-of-warships-aircraft-in-middle-east-in-decades/",
+      "link": "https://www.defensenews.com/news/your-military/2026/02/26/us-military-assembles-largest-force-of-warships-aircraft-in-middle-east-in-decades/",
       "published": "Thu, 26 Feb 2026 19:20:45 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "U.K. to Meet with Northern European Allies to Discuss Russian Arctic, Atlantic Threat",
-      "link": "https://news.usni.org/2026/02/26/u-k-to-meet-with-northern-european-allies-to-discuss-russian-arctic-atlantic-threat",
-      "published": "Thu, 26 Feb 2026 20:28:15 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "New Commander Takes Charge of Sub Forces Following Sub Czar Gaucher",
-      "link": "https://news.usni.org/2026/02/24/new-commander-takes-charge-of-sub-forces-following-sub-czar-gaucher",
-      "published": "Tue, 24 Feb 2026 18:02:31 +0000",
-      "source": "USNI News",
+      "source": "Defense News",
       "categories": [
         "deployment"
       ]
@@ -772,7 +772,26 @@
       }
     ]
   },
-  "_conflict_news_refs": [],
+  "_conflict_news_refs": [
+    {
+      "title": "Once-reluctant Germany goes big on one-way attack drones",
+      "link": "https://www.defensenews.com/global/europe/2026/02/26/once-reluctant-germany-goes-big-on-one-way-attack-drones/",
+      "published": "Thu, 26 Feb 2026 16:47:00 +0000",
+      "source": "Defense News",
+      "categories": [
+        "conflict"
+      ]
+    },
+    {
+      "title": "Ukraine says Russia launched a major aerial attack before Kyiv’s talks with US",
+      "link": "https://www.defensenews.com/global/europe/2026/02/26/ukraine-says-russia-launched-a-major-aerial-attack-before-kyivs-talks-with-us/",
+      "published": "Thu, 26 Feb 2026 18:42:34 +0000",
+      "source": "Defense News",
+      "categories": [
+        "conflict"
+      ]
+    }
+  ],
   "_exercise_news_refs": [
     {
       "title": "Navantia and Fincantieri strengthen their cooperation to advance the European Patrol Corvette (EPC) programme",
@@ -804,10 +823,10 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 14,
-    "conflict_articles": 0,
+    "deployment_articles": 18,
+    "conflict_articles": 2,
     "exercise_articles": 3,
-    "total_articles": 40,
-    "computed_at": "2026-02-27T08:27:49.433997+00:00"
+    "total_articles": 50,
+    "computed_at": "2026-02-27T09:29:03.493365+00:00"
   }
 }
