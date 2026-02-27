@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-02-27T20:16:34Z",
-  "version": 77,
+  "generated_utc": "2026-02-27T21:17:20Z",
+  "version": 78,
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -541,19 +541,28 @@
       ]
     },
     {
-      "title": "US military assembles largest force of warships, aircraft in Middle East in decades",
-      "link": "https://www.defensenews.com/news/your-military/2026/02/26/us-military-assembles-largest-force-of-warships-aircraft-in-middle-east-in-decades/",
-      "published": "Thu, 26 Feb 2026 19:20:45 +0000",
-      "source": "Defense News",
+      "title": "Swedish Forces Jam Suspected Russian Drone Near French Carrier Charles De Gaulle",
+      "link": "https://news.usni.org/2026/02/27/swedish-forces-jam-suspected-russian-drone-near-french-carrier-charles-de-gaulle",
+      "published": "Fri, 27 Feb 2026 20:48:29 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Transgender youths are targeted in Scouting America changes pushed by Pentagon",
+      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/02/27/transgender-youths-are-targeted-in-scouting-america-changes-pushed-by-pentagon/",
+      "published": "Fri, 27 Feb 2026 21:04:03 +0000",
+      "source": "Military Times",
       "categories": [
         "deployment"
       ]
     },
     {
       "title": "US military assembles largest force of warships, aircraft in Middle East in decades",
-      "link": "https://www.militarytimes.com/news/your-military/2026/02/26/us-military-assembles-largest-force-of-warships-aircraft-in-middle-east-in-decades/",
+      "link": "https://www.defensenews.com/news/your-military/2026/02/26/us-military-assembles-largest-force-of-warships-aircraft-in-middle-east-in-decades/",
       "published": "Thu, 26 Feb 2026 19:20:45 +0000",
-      "source": "Military Times",
+      "source": "Defense News",
       "categories": [
         "deployment"
       ]
@@ -572,15 +581,6 @@
       "link": "https://www.defensenews.com/global/mideast-africa/2026/02/26/last-ditch-effort-in-geneva-to-avert-war-between-us-iran-wraps-with-significant-progress-omani-official-says/",
       "published": "Thu, 26 Feb 2026 21:10:00 +0000",
       "source": "Defense News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "U.S. Captures Third ‘Shadow Fleet’ Tanker in Indian Ocean",
-      "link": "https://news.usni.org/2026/02/24/u-s-captures-third-shadow-fleet-tanker-in-indian-ocean",
-      "published": "Tue, 24 Feb 2026 21:04:07 +0000",
-      "source": "USNI News",
       "categories": [
         "deployment"
       ]
@@ -755,15 +755,27 @@
       }
     ]
   },
-  "_conflict_news_refs": [],
-  "_exercise_news_refs": [
+  "_conflict_news_refs": [
     {
-      "title": "Task Force Ashland Marines, Sailors Arrive in Thailand for Exercise Cobra Gold",
-      "link": "https://news.usni.org/2026/02/24/task-force-ashland-marines-sailors-arrive-in-thailand-for-exercise-cobra-gold",
-      "published": "Tue, 24 Feb 2026 19:50:28 +0000",
+      "title": "U.S. Army Attack Helicopters Hold Maritime Attack Drills in the Pacific",
+      "link": "https://news.usni.org/2026/02/27/u-s-army-attack-helicopters-hold-maritime-attack-drills-in-the-pacific",
+      "published": "Fri, 27 Feb 2026 20:57:08 +0000",
       "source": "USNI News",
       "categories": [
-        "exercise"
+        "exercise",
+        "conflict"
+      ]
+    }
+  ],
+  "_exercise_news_refs": [
+    {
+      "title": "U.S. Army Attack Helicopters Hold Maritime Attack Drills in the Pacific",
+      "link": "https://news.usni.org/2026/02/27/u-s-army-attack-helicopters-hold-maritime-attack-drills-in-the-pacific",
+      "published": "Fri, 27 Feb 2026 20:57:08 +0000",
+      "source": "USNI News",
+      "categories": [
+        "exercise",
+        "conflict"
       ]
     },
     {
@@ -779,9 +791,9 @@
   ],
   "_threat_indicators": {
     "deployment_articles": 8,
-    "conflict_articles": 0,
+    "conflict_articles": 1,
     "exercise_articles": 2,
     "total_articles": 40,
-    "computed_at": "2026-02-27T20:16:34.289890+00:00"
+    "computed_at": "2026-02-27T21:17:20.443906+00:00"
   }
 }
