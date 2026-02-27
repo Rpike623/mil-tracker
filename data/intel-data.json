@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-02-27T15:27:58Z",
-  "version": 72,
+  "generated_utc": "2026-02-27T16:26:04Z",
+  "version": 73,
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -569,6 +569,15 @@
       ]
     },
     {
+      "title": "Swedish Navy intercepts suspected Russian drone nearing French aircraft carrier",
+      "link": "https://www.defensenews.com/global/europe/2026/02/27/swedish-navy-intercepts-suspected-russian-drone-nearing-french-aircraft-carrier/",
+      "published": "Fri, 27 Feb 2026 15:24:56 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "IAI and TKMS deliver BlueWhale Large AUV to German Navy",
       "link": "https://www.navalnews.com/naval-news/2026/02/iai-and-tkms-deliver-bluewhale-large-auv-to-german-navy/",
       "published": "Thu, 26 Feb 2026 13:04:36 +0000",
@@ -587,37 +596,28 @@
       ]
     },
     {
-      "title": "US soldiers earn French medal for 2023 Iraq rescue",
-      "link": "https://www.defensenews.com/news/your-military/2026/02/26/us-soldiers-earn-french-medal-for-2023-iraq-rescue/",
-      "published": "Thu, 26 Feb 2026 17:55:25 +0000",
+      "title": "US military assembles largest force of warships, aircraft in Middle East in decades",
+      "link": "https://www.defensenews.com/news/your-military/2026/02/26/us-military-assembles-largest-force-of-warships-aircraft-in-middle-east-in-decades/",
+      "published": "Thu, 26 Feb 2026 19:20:45 +0000",
       "source": "Defense News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "US soldiers earn French medal for 2023 Iraq rescue",
-      "link": "https://www.militarytimes.com/news/your-military/2026/02/26/us-soldiers-earn-french-medal-for-2023-iraq-rescue/",
-      "published": "Thu, 26 Feb 2026 17:55:25 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Former US Air Force pilot charged with unauthorized Chinese military training",
-      "link": "https://www.militarytimes.com/news/your-military/2026/02/26/former-us-air-force-pilot-charged-with-unauthorized-chinese-military-training/",
-      "published": "Thu, 26 Feb 2026 18:25:04 +0000",
-      "source": "Military Times",
       "categories": [
         "deployment"
       ]
     },
     {
       "title": "US military assembles largest force of warships, aircraft in Middle East in decades",
-      "link": "https://www.defensenews.com/news/your-military/2026/02/26/us-military-assembles-largest-force-of-warships-aircraft-in-middle-east-in-decades/",
+      "link": "https://www.militarytimes.com/news/your-military/2026/02/26/us-military-assembles-largest-force-of-warships-aircraft-in-middle-east-in-decades/",
       "published": "Thu, 26 Feb 2026 19:20:45 +0000",
-      "source": "Defense News",
+      "source": "Military Times",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "U.K. to Meet with Northern European Allies to Discuss Russian Arctic, Atlantic Threat",
+      "link": "https://news.usni.org/2026/02/26/u-k-to-meet-with-northern-european-allies-to-discuss-russian-arctic-atlantic-threat",
+      "published": "Thu, 26 Feb 2026 20:28:15 +0000",
+      "source": "USNI News",
       "categories": [
         "deployment"
       ]
@@ -825,10 +825,10 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 17,
+    "deployment_articles": 14,
     "conflict_articles": 1,
     "exercise_articles": 4,
     "total_articles": 50,
-    "computed_at": "2026-02-27T15:27:58.068577+00:00"
+    "computed_at": "2026-02-27T16:26:04.323949+00:00"
   }
 }
