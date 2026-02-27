@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-02-27T13:50:20Z",
-  "version": 70,
+  "generated_utc": "2026-02-27T14:30:39Z",
+  "version": 71,
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -569,15 +569,6 @@
       ]
     },
     {
-      "title": "Navy relieves destroyer commander after Caribbean crash",
-      "link": "https://taskandpurpose.com/news/navy-relieves-truxtun-james-koffi/",
-      "published": "Sun, 22 Feb 2026 20:20:10 -0500",
-      "source": "Task & Purpose",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "South Korea Rallies National Push to Support Canada’s Submarine Project",
       "link": "https://www.navalnews.com/naval-news/2026/02/south-korea-rallies-national-push-to-support-canadas-submarine-project/",
       "published": "Thu, 26 Feb 2026 08:18:12 +0000",
@@ -617,6 +608,15 @@
       "title": "US soldiers earn French medal for 2023 Iraq rescue",
       "link": "https://www.militarytimes.com/news/your-military/2026/02/26/us-soldiers-earn-french-medal-for-2023-iraq-rescue/",
       "published": "Thu, 26 Feb 2026 17:55:25 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Former US Air Force pilot charged with unauthorized Chinese military training",
+      "link": "https://www.militarytimes.com/news/your-military/2026/02/26/former-us-air-force-pilot-charged-with-unauthorized-chinese-military-training/",
+      "published": "Thu, 26 Feb 2026 18:25:04 +0000",
       "source": "Military Times",
       "categories": [
         "deployment"
@@ -825,10 +825,10 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 19,
+    "deployment_articles": 18,
     "conflict_articles": 1,
     "exercise_articles": 4,
     "total_articles": 50,
-    "computed_at": "2026-02-27T13:50:19.825709+00:00"
+    "computed_at": "2026-02-27T14:30:38.675963+00:00"
   }
 }
