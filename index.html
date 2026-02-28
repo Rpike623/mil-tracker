@@ -9,34 +9,34 @@
 @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Exo+2:wght@300;400;600;700;800&family=Orbitron:wght@400;500;600;700;800;900&display=swap');
 *{margin:0;padding:0;box-sizing:border-box}
 :root{
-  --bg:#000000;
-  --bg2:#050a05;
-  --panel:rgba(2,8,2,0.94);
-  --panel2:rgba(4,12,4,0.92);
-  --border:#0a1f0a;
-  --border2:#0d2e0d;
-  --border-glow:#00ff41;
-  --text:#b8e6b8;
-  --text-bright:#e0ffe0;
-  --muted:#3a6b3a;
-  --accent:#00ff41;
-  --accent2:#00cc33;
-  --red:#ff2040;
-  --orange:#ff6b2b;
-  --yellow:#e5ff00;
-  --purple:#bf5fff;
-  --green:#00ff41;
-  --cyan:#00ffcc;
-  --grid-line:rgba(0,255,65,0.04);
+  --bg:#05080f;
+  --bg2:#080c14;
+  --panel:rgba(8,12,22,0.96);
+  --panel2:rgba(10,16,28,0.94);
+  --border:#141e30;
+  --border2:#1a2740;
+  --border-glow:#38bdf8;
+  --text:#c8d6e5;
+  --text-bright:#e8f0f8;
+  --muted:#4a6080;
+  --accent:#38bdf8;
+  --accent2:#0ea5e9;
+  --red:#ef4444;
+  --orange:#f97316;
+  --yellow:#eab308;
+  --purple:#a78bfa;
+  --green:#22c55e;
+  --cyan:#06b6d4;
+  --grid-line:rgba(56,189,248,0.03);
 }
 
 /* ── SCANLINE + GRID OVERLAY ── */
 body{
   font-family:'Exo 2',sans-serif;
-  background:radial-gradient(ellipse 1400px 700px at 15% -5%, rgba(0,255,65,.06), transparent 60%),
-             radial-gradient(ellipse 900px 500px at 85% 0%, rgba(0,255,65,.04), transparent 55%),
-             radial-gradient(ellipse 600px 600px at 50% 100%, rgba(0,255,65,.03), transparent 50%),
-             #000;
+  background:radial-gradient(ellipse 1400px 700px at 15% -5%, rgba(56,189,248,.04), transparent 60%),
+             radial-gradient(ellipse 900px 500px at 85% 0%, rgba(56,189,248,.03), transparent 55%),
+             radial-gradient(ellipse 600px 600px at 50% 100%, rgba(239,68,68,.02), transparent 50%),
+             #05080f;
   color:var(--text);
   height:100vh;
   display:flex;
@@ -48,9 +48,8 @@ body::before{
   position:fixed;
   inset:0;
   background:
-    repeating-linear-gradient(0deg, transparent, transparent 2px, rgba(0,255,65,.018) 2px, rgba(0,255,65,.018) 4px),
-    repeating-linear-gradient(90deg, transparent, transparent 60px, rgba(0,255,65,.035) 60px, rgba(0,255,65,.035) 61px),
-    repeating-linear-gradient(0deg, transparent, transparent 60px, rgba(0,255,65,.035) 60px, rgba(0,255,65,.035) 61px);
+    repeating-linear-gradient(90deg, transparent, transparent 80px, rgba(56,189,248,.02) 80px, rgba(56,189,248,.02) 81px),
+    repeating-linear-gradient(0deg, transparent, transparent 80px, rgba(56,189,248,.02) 80px, rgba(56,189,248,.02) 81px);
   pointer-events:none;
   z-index:9998;
 }
@@ -60,28 +59,29 @@ body::after{
   content:'';
   position:fixed;
   top:0;left:0;right:0;
-  height:2px;
-  background:linear-gradient(90deg,transparent,rgba(0,255,65,.5),transparent);
-  animation:scanline 8s linear infinite;
+  height:1px;
+  background:linear-gradient(90deg,transparent,rgba(56,189,248,.25),transparent);
+  animation:scanline 12s linear infinite;
   pointer-events:none;
   z-index:9999;
+  opacity:0.6;
 }
 @keyframes scanline{0%{top:-4px}100%{top:100vh}}
 
 /* ── TOPBAR ── */
 .topbar{
   flex-shrink:0;
-  background:linear-gradient(180deg,rgba(0,8,0,0.98),rgba(0,4,0,0.99));
-  border-bottom:1px solid rgba(0,255,65,.3);
-  box-shadow:0 4px 30px rgba(0,255,65,.08), inset 0 -1px 0 rgba(0,255,65,.1);
-  padding:7px 12px;
+  background:rgba(8,12,22,0.98);
+  border-bottom:1px solid rgba(56,189,248,.15);
+  box-shadow:0 4px 24px rgba(0,0,0,.5);
+  padding:6px 14px;
   display:flex;gap:6px;align-items:center;flex-wrap:wrap;z-index:200;
   position:relative;
-  backdrop-filter: blur(12px);
+  backdrop-filter:blur(16px);
 }
 .topbar::after{
   content:'';position:absolute;bottom:0;left:0;right:0;height:1px;
-  background:linear-gradient(90deg,transparent,rgba(0,255,65,.4) 20%,rgba(0,255,65,.8) 50%,rgba(0,255,65,.4) 80%,transparent);
+  background:linear-gradient(90deg,transparent,rgba(56,189,248,.3) 30%,rgba(56,189,248,.5) 50%,rgba(56,189,248,.3) 70%,transparent);
 }
 .topbar .logo{
   font-family:'Orbitron',sans-serif;
@@ -90,17 +90,17 @@ body::after{
   color:var(--accent);
   margin-right:8px;
   letter-spacing:3px;
-  text-shadow:0 0 15px rgba(0,255,65,.9),0 0 30px rgba(0,255,65,.4),0 0 60px rgba(0,255,65,.15);
+  text-shadow:0 0 12px rgba(56,189,248,.7),0 0 24px rgba(56,189,248,.3);
   white-space:nowrap;
 }
-.topbar .logo span{color:rgba(0,255,65,.45)}
-.tb-sep{width:1px;height:18px;background:linear-gradient(180deg,transparent,rgba(0,255,65,.4),transparent);margin:0 3px;flex-shrink:0}
+.topbar .logo span{color:rgba(56,189,248,.4)}
+.tb-sep{width:1px;height:18px;background:linear-gradient(180deg,transparent,rgba(56,189,248,.25),transparent);margin:0 4px;flex-shrink:0}
 .tb-btn{
-  background:rgba(0,12,0,.85);
-  border:1px solid rgba(0,255,65,.15);
+  background:rgba(14,20,35,.9);
+  border:1px solid rgba(56,189,248,.12);
   color:var(--muted);
   padding:4px 10px;
-  border-radius:2px;
+  border-radius:3px;
   cursor:pointer;
   font-size:10px;
   font-family:'Share Tech Mono',monospace;
@@ -110,55 +110,53 @@ body::after{
   text-transform:uppercase;
   position:relative;
   overflow:hidden;
-  box-shadow:0 2px 8px rgba(0,0,0,.4);
 }
 .tb-btn::before{
   content:'';position:absolute;inset:-1px;
-  background:linear-gradient(135deg,rgba(0,255,65,.1),transparent 60%);
+  background:linear-gradient(135deg,rgba(56,189,248,.08),transparent 60%);
   opacity:0;transition:opacity .15s;
 }
-.tb-btn:hover{background:rgba(0,30,0,.9);border-color:var(--accent);color:var(--accent);box-shadow:0 0 12px rgba(0,255,65,.25),inset 0 0 10px rgba(0,255,65,.06);}
+.tb-btn:hover{background:rgba(20,40,65,.9);border-color:var(--accent);color:var(--accent);box-shadow:0 0 10px rgba(56,189,248,.15);}
 .tb-btn:hover::before{opacity:1}
-.tb-btn.on{background:rgba(0,50,10,.5);border-color:var(--accent);color:var(--accent);box-shadow:0 0 18px rgba(0,255,65,.35),inset 0 0 12px rgba(0,255,65,.1);}
-.tb-btn.iran-on{background:rgba(255,32,64,.12);border-color:var(--red);color:var(--red);box-shadow:0 0 12px rgba(255,32,64,.3)}
-.tb-btn.russia-on{background:rgba(220,38,38,.12);border-color:#dc2626;color:#ff6666;box-shadow:0 0 12px rgba(220,38,38,.3)}
-.tb-btn.china-on{background:rgba(229,255,0,.08);border-color:var(--yellow);color:var(--yellow);box-shadow:0 0 12px rgba(229,255,0,.25)}
+.tb-btn.on{background:rgba(56,189,248,.1);border-color:var(--accent);color:var(--accent);box-shadow:0 0 12px rgba(56,189,248,.2);}
+.tb-btn.iran-on{background:rgba(239,68,68,.1);border-color:var(--red);color:var(--red);box-shadow:0 0 10px rgba(239,68,68,.2)}
+.tb-btn.russia-on{background:rgba(220,38,38,.1);border-color:#dc2626;color:#ff6666;box-shadow:0 0 10px rgba(220,38,38,.2)}
+.tb-btn.china-on{background:rgba(234,179,8,.08);border-color:var(--yellow);color:var(--yellow);box-shadow:0 0 10px rgba(234,179,8,.15)}
 .tb-search{
-  background:rgba(0,8,0,0.9);
-  border:1px solid rgba(0,255,65,.15);
+  background:rgba(8,16,30,0.9);
+  border:1px solid rgba(56,189,248,.12);
   color:var(--accent);
   padding:4px 8px;
-  border-radius:2px;
+  border-radius:3px;
   font-size:10px;
   font-family:'Share Tech Mono',monospace;
   width:130px;
   outline:none;
   letter-spacing:.5px;
 }
-.tb-search:focus{border-color:var(--accent);box-shadow:0 0 10px rgba(0,255,65,.25)}
-.tb-search::placeholder{color:rgba(0,255,65,.25)}
+.tb-search:focus{border-color:var(--accent);box-shadow:0 0 8px rgba(56,189,248,.2)}
+.tb-search::placeholder{color:rgba(56,189,248,.2)}
 .tb-label{font-size:9px;color:var(--muted);text-transform:uppercase;letter-spacing:1px;white-space:nowrap;font-family:'Share Tech Mono',monospace}
 
 /* ── WIDGET SYSTEM ── */
-.dashboard{flex:1;display:grid;grid-template-columns:1fr 270px 270px;grid-template-rows:1fr 1fr 1fr 220px;min-height:0;gap:0}
+.dashboard{flex:1;display:grid;grid-template-columns:1fr 280px 280px;grid-template-rows:1fr 1fr 1fr auto auto;min-height:0;gap:1px;background:rgba(56,189,248,.03)}
 .widget{
-  background:rgba(0,4,0,0.92);
-  border:1px solid rgba(0,255,65,.1);
+  background:rgba(8,12,22,0.95);
+  border:1px solid rgba(56,189,248,.08);
   display:flex;flex-direction:column;overflow:hidden;min-height:0;
   position:relative;
-  box-shadow:0 8px 24px rgba(0,0,0,.5), inset 0 0 50px rgba(0,255,65,.02);
 }
 .widget::before{
   content:'';
   position:absolute;top:0;left:0;right:0;height:1px;
-  background:linear-gradient(90deg,transparent,rgba(0,255,65,.4),transparent);
-  pointer-events:none;
+  background:linear-gradient(90deg,transparent,rgba(56,189,248,.2),transparent);
+  pointer-events:none;z-index:1;
 }
 .widget-header{
   flex-shrink:0;
-  padding:6px 10px;
-  background:linear-gradient(180deg,rgba(0,10,0,.95),rgba(0,6,0,.98));
-  border-bottom:1px solid rgba(0,255,65,.12);
+  padding:7px 12px;
+  background:rgba(10,16,28,0.98);
+  border-bottom:1px solid rgba(56,189,248,.08);
   font-size:10px;
   font-weight:700;
   letter-spacing:1px;
@@ -167,21 +165,20 @@ body::after{
   display:flex;align-items:center;gap:6px;
   font-family:'Share Tech Mono',monospace;
 }
-.widget-header .wh-title{flex:1;color:rgba(0,255,65,.8)}
+.widget-header .wh-title{flex:1;color:rgba(56,189,248,.8)}
 .widget-header .wh-count{
-  background:rgba(0,255,65,.06);
-  border:1px solid rgba(0,255,65,.2);
-  border-radius:2px;
-  padding:1px 7px;
+  background:rgba(56,189,248,.06);
+  border:1px solid rgba(56,189,248,.2);
+  border-radius:3px;
+  padding:2px 8px;
   font-size:9px;
   color:var(--accent);
   font-family:'Share Tech Mono',monospace;
-  box-shadow:0 0 10px rgba(0,255,65,.15);
 }
 .widget-body{flex:1;overflow-y:auto;overflow-x:hidden;min-height:0}
 .widget-body::-webkit-scrollbar{width:3px}
-.widget-body::-webkit-scrollbar-track{background:rgba(0,4,0,.5)}
-.widget-body::-webkit-scrollbar-thumb{background:rgba(0,255,65,.2);border-radius:2px}
+.widget-body::-webkit-scrollbar-track{background:rgba(8,12,22,.5)}
+.widget-body::-webkit-scrollbar-thumb{background:rgba(56,189,248,.2);border-radius:2px}
 .w-map{grid-column:1;grid-row:1/4;position:relative;border:0;min-height:300px}
 .w-zones{grid-column:2;grid-row:1}
 .w-stats{grid-column:3;grid-row:1}
@@ -208,26 +205,26 @@ body::after{
 .poly-card .pc-vol{font-size:9px;color:var(--muted);font-family:'Share Tech Mono',monospace}
 
 /* X feed */
-.x-tab{background:rgba(0,8,0,.8);border:1px solid rgba(0,255,65,.12);color:var(--muted);padding:2px 7px;border-radius:2px;cursor:pointer;font-size:9px;white-space:nowrap;font-family:'Share Tech Mono',monospace;letter-spacing:.5px;text-transform:uppercase}
-.x-tab:hover{color:var(--text)}.x-tab.on{border-color:var(--accent);color:var(--accent);box-shadow:0 0 10px rgba(0,255,65,.25)}
-.x-post{padding:8px 10px;border-bottom:1px solid rgba(0,255,65,.06);font-size:11px;line-height:1.45;cursor:pointer;transition:background .15s}
-.x-post:hover{background:rgba(0,255,65,.04)}
+.x-tab{background:rgba(0,8,0,.8);border:1px solid rgba(56,189,248,.12);color:var(--muted);padding:2px 7px;border-radius:2px;cursor:pointer;font-size:9px;white-space:nowrap;font-family:'Share Tech Mono',monospace;letter-spacing:.5px;text-transform:uppercase}
+.x-tab:hover{color:var(--text)}.x-tab.on{border-color:var(--accent);color:var(--accent);box-shadow:0 0 10px rgba(56,189,248,.25)}
+.x-post{padding:8px 10px;border-bottom:1px solid rgba(56,189,248,.06);font-size:11px;line-height:1.45;cursor:pointer;transition:background .15s}
+.x-post:hover{background:rgba(56,189,248,.04)}
 .x-post .xp-meta{font-size:9px;color:var(--muted);margin-bottom:3px;display:flex;gap:6px;font-family:'Share Tech Mono',monospace}
 .x-post .xp-handle{color:var(--accent);font-weight:600}
 .x-post .xp-text{color:var(--text)}
 
 /* Info panel */
 .infopanel{position:absolute;bottom:50px;left:10px;z-index:500;
-  background:rgba(0,4,0,0.96);
-  border:1px solid rgba(0,255,65,.3);
-  box-shadow:0 0 40px rgba(0,255,65,.12), inset 0 0 40px rgba(0,255,65,.03);
-  border-radius:2px;padding:0;width:260px;max-height:50vh;display:none;backdrop-filter:blur(18px);overflow:hidden}
-.infopanel::before{content:'';position:absolute;top:0;left:0;right:0;height:1px;background:linear-gradient(90deg,transparent,rgba(0,255,65,.7),transparent);z-index:2}
+  background:rgba(8,12,22,0.97);
+  border:1px solid rgba(56,189,248,.2);
+  box-shadow:0 8px 32px rgba(0,0,0,.6);
+  border-radius:4px;padding:0;width:280px;max-height:50vh;display:none;backdrop-filter:blur(20px);overflow:hidden}
+.infopanel::before{content:'';position:absolute;top:0;left:0;right:0;height:1px;background:linear-gradient(90deg,transparent,rgba(56,189,248,.5),transparent);z-index:2}
 .infopanel.vis{display:flex;flex-direction:column}
-.infopanel .ip-head{display:flex;justify-content:space-between;align-items:center;padding:8px 10px;flex-shrink:0;background:rgba(0,8,0,.8);border-bottom:1px solid rgba(0,255,65,.1);position:sticky;top:0;z-index:2}
-.infopanel h3{font-size:12px;color:var(--accent);font-family:'Share Tech Mono',monospace;letter-spacing:1px;text-shadow:0 0 14px rgba(0,255,65,.8);margin:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;flex:1}
-.infopanel .x{background:rgba(0,255,65,.08);border:1px solid rgba(0,255,65,.2);color:var(--accent);cursor:pointer;font-size:18px;line-height:1;width:28px;height:28px;display:flex;align-items:center;justify-content:center;border-radius:2px;flex-shrink:0;margin-left:6px;-webkit-tap-highlight-color:rgba(0,255,65,.2)}
-.infopanel .x:hover,.infopanel .x:active{background:rgba(0,255,65,.2);color:#fff}
+.infopanel .ip-head{display:flex;justify-content:space-between;align-items:center;padding:8px 12px;flex-shrink:0;background:rgba(10,16,28,.95);border-bottom:1px solid rgba(56,189,248,.1);position:sticky;top:0;z-index:2}
+.infopanel h3{font-size:12px;color:var(--accent);font-family:'Share Tech Mono',monospace;letter-spacing:1px;text-shadow:0 0 10px rgba(56,189,248,.5);margin:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;flex:1}
+.infopanel .x{background:rgba(56,189,248,.08);border:1px solid rgba(56,189,248,.2);color:var(--accent);cursor:pointer;font-size:18px;line-height:1;width:28px;height:28px;display:flex;align-items:center;justify-content:center;border-radius:3px;flex-shrink:0;margin-left:6px}
+.infopanel .x:hover,.infopanel .x:active{background:rgba(56,189,248,.2);color:#fff}
 .infopanel #pBody{overflow-y:auto;padding:10px;flex:1}
 .infopanel .f{margin-bottom:3px;font-size:11px;display:flex;gap:4px}
 .infopanel .f .k{color:var(--muted);font-family:'Share Tech Mono',monospace;font-size:10px;white-space:nowrap;padding-top:1px}
@@ -236,33 +233,35 @@ body::after{
 /* Region buttons */
 .region-btns{position:absolute;bottom:10px;left:10px;z-index:400;display:flex;flex-direction:column;gap:3px}
 .region-btns button{
-  background:rgba(0,4,0,0.88);
-  border:1px solid rgba(0,255,65,.15);
+  background:rgba(8,12,22,0.9);
+  border:1px solid rgba(56,189,248,.12);
   color:var(--muted);
-  padding:4px 8px;border-radius:2px;cursor:pointer;
+  padding:4px 8px;border-radius:3px;cursor:pointer;
   font-size:9px;text-align:left;transition:all .15s;
   font-family:'Share Tech Mono',monospace;letter-spacing:.5px;text-transform:uppercase;
+  backdrop-filter:blur(8px);
 }
-.region-btns button:hover{color:var(--accent);border-color:var(--accent);box-shadow:0 0 10px rgba(0,255,65,.25)}
+.region-btns button:hover{color:var(--accent);border-color:var(--accent);box-shadow:0 0 8px rgba(56,189,248,.2)}
 
 /* Map legend */
 .map-legend{
-  background:rgba(0,4,0,0.92);
-  border:1px solid rgba(0,255,65,.2);
-  box-shadow:0 0 20px rgba(0,255,65,.12);
-  border-radius:2px;padding:8px 10px;font-size:10px;font-family:'Share Tech Mono',monospace;letter-spacing:.3px;
+  background:rgba(8,12,22,0.92);
+  border:1px solid rgba(56,189,248,.15);
+  box-shadow:0 4px 16px rgba(0,0,0,.5);
+  border-radius:4px;padding:8px 10px;font-size:10px;font-family:'Share Tech Mono',monospace;letter-spacing:.3px;
+  backdrop-filter:blur(12px);
 }
 .map-legend .ml-row{display:flex;align-items:center;gap:6px;margin-bottom:3px;color:var(--muted)}
 .map-legend .ml-row .ml-dot{width:7px;height:7px;border-radius:50%;flex-shrink:0;box-shadow:0 0 4px currentColor}
 
 /* Adversary tabs */
-.adv-tab{flex:1;padding:8px 6px;text-align:center;font-size:11px;font-weight:600;cursor:pointer;color:var(--muted);border-bottom:2px solid transparent;transition:all .15s;user-select:none;border-right:1px solid rgba(0,255,65,.08);font-family:'Share Tech Mono',monospace;letter-spacing:.5px;text-transform:uppercase}
+.adv-tab{flex:1;padding:8px 6px;text-align:center;font-size:11px;font-weight:600;cursor:pointer;color:var(--muted);border-bottom:2px solid transparent;transition:all .15s;user-select:none;border-right:1px solid rgba(56,189,248,.06);font-family:'Share Tech Mono',monospace;letter-spacing:.5px;text-transform:uppercase}
 .adv-tab:last-child{border-right:0}
 .adv-tab:hover{color:var(--text)}
-.adv-tab.active{color:var(--accent);border-bottom-color:var(--accent);background:rgba(0,255,65,.04);text-shadow:0 0 12px rgba(0,255,65,.5)}
-.adv-tab[data-adv="iran"].active{border-bottom-color:var(--red);color:var(--red);text-shadow:0 0 12px rgba(255,32,64,.5)}
-.adv-tab[data-adv="russia"].active{border-bottom-color:#dc2626;color:#ff6666;text-shadow:0 0 12px rgba(220,38,38,.5)}
-.adv-tab[data-adv="china"].active{border-bottom-color:var(--yellow);color:var(--yellow);text-shadow:0 0 12px rgba(229,255,0,.4)}
+.adv-tab.active{color:var(--accent);border-bottom-color:var(--accent);background:rgba(56,189,248,.04)}
+.adv-tab[data-adv="iran"].active{border-bottom-color:var(--red);color:var(--red);background:rgba(239,68,68,.04)}
+.adv-tab[data-adv="russia"].active{border-bottom-color:#dc2626;color:#ff6666;background:rgba(220,38,38,.04)}
+.adv-tab[data-adv="china"].active{border-bottom-color:var(--yellow);color:var(--yellow);background:rgba(234,179,8,.04)}
 .adv-body{display:flex;height:100%;overflow:hidden}
 .adv-col{flex:1;border-right:1px solid var(--border);overflow-y:auto;padding:8px 10px;font-size:11px}
 .adv-col:last-child{border-right:0}
@@ -277,22 +276,22 @@ body::after{
 
 /* Loading overlay */
 .loading-ov{position:absolute;inset:0;z-index:600;background:rgba(0,0,0,.92);display:flex;align-items:center;justify-content:center;flex-direction:column;gap:8px}
-.loading-ov .sp{font-size:34px;animation:spin 1s linear infinite;display:inline-block;filter:drop-shadow(0 0 12px rgba(0,255,65,.8))}
+.loading-ov .sp{font-size:34px;animation:spin 1s linear infinite;display:inline-block;filter:drop-shadow(0 0 12px rgba(56,189,248,.8))}
 .loading-ov .st{color:var(--accent);font-size:12px;font-family:'Share Tech Mono',monospace;letter-spacing:3px;text-transform:uppercase;animation:pulse 1.5s ease-in-out infinite}
 @keyframes spin{to{transform:rotate(360deg)}}
 @keyframes pulse{0%,100%{opacity:.5}50%{opacity:1}}
 
 /* Leaflet overrides */
-.leaflet-popup-content-wrapper{background:rgba(0,4,0,.98);color:var(--text);border-radius:2px;border:1px solid rgba(0,255,65,.3);box-shadow:0 0 25px rgba(0,255,65,.15)}
-.leaflet-popup-tip{background:rgba(0,4,0,.98)}
-.dark-tooltip{background:rgba(0,4,0,.97)!important;color:var(--accent)!important;border:1px solid rgba(0,255,65,.3)!important;border-radius:2px!important;font-size:10px!important;padding:4px 8px!important;font-family:'Share Tech Mono',monospace!important;box-shadow:0 0 12px rgba(0,255,65,.15)!important;letter-spacing:.3px!important}
-.leaflet-control-zoom a{background:rgba(0,4,0,.9)!important;color:var(--accent)!important;border:1px solid rgba(0,255,65,.2)!important}
-.leaflet-control-attribution{background:rgba(0,0,0,.8)!important;color:var(--muted)!important;font-size:9px!important}
+.leaflet-popup-content-wrapper{background:rgba(8,12,22,.98);color:var(--text);border-radius:4px;border:1px solid rgba(56,189,248,.2);box-shadow:0 8px 24px rgba(0,0,0,.5)}
+.leaflet-popup-tip{background:rgba(8,12,22,.98)}
+.dark-tooltip{background:rgba(8,12,22,.97)!important;color:var(--accent)!important;border:1px solid rgba(56,189,248,.2)!important;border-radius:3px!important;font-size:10px!important;padding:5px 9px!important;font-family:'Share Tech Mono',monospace!important;box-shadow:0 4px 12px rgba(0,0,0,.5)!important;letter-spacing:.3px!important}
+.leaflet-control-zoom a{background:rgba(8,12,22,.92)!important;color:var(--accent)!important;border:1px solid rgba(56,189,248,.15)!important}
+.leaflet-control-attribution{background:rgba(5,8,15,.85)!important;color:var(--muted)!important;font-size:9px!important}
 .leaflet-control-attribution a{color:var(--accent2)!important}
 
 /* Zone cards */
-.zone-card{padding:7px 12px;border-bottom:1px solid rgba(0,255,65,.06);display:flex;justify-content:space-between;align-items:center;transition:background .15s}
-.zone-card:hover{background:rgba(0,255,65,.03)}
+.zone-card{padding:7px 12px;border-bottom:1px solid rgba(56,189,248,.05);display:flex;justify-content:space-between;align-items:center;transition:background .15s}
+.zone-card:hover{background:rgba(56,189,248,.03)}
 .zone-card .zc-name{font-size:11px;color:var(--text);font-family:'Share Tech Mono',monospace;font-size:10px;letter-spacing:.3px}
 .zone-card .zc-count{font-size:15px;font-weight:800;font-family:'Share Tech Mono',monospace}
 .zone-card.hot{border-left:2px solid var(--red);background:rgba(255,51,85,.04)}
@@ -311,65 +310,65 @@ body::after{
 .type-row .tr-bar-wrap{width:70px;height:3px;background:rgba(0,212,255,.08);border-radius:2px;overflow:hidden}
 .type-row .tr-bar{height:100%;border-radius:2px;transition:width .5s;box-shadow:0 0 4px currentColor}
 .type-row .tr-count{width:24px;text-align:right;font-weight:700;color:var(--text-bright);font-family:'Share Tech Mono',monospace;font-size:11px}
-.stat-block{padding:10px 12px;border-bottom:1px solid rgba(0,255,65,.06)}
-.stat-block .sb-label{font-size:9px;color:rgba(0,255,65,.5);margin-bottom:6px;text-transform:uppercase;letter-spacing:1px;font-family:'Share Tech Mono',monospace}
+.stat-block{padding:10px 12px;border-bottom:1px solid rgba(56,189,248,.06)}
+.stat-block .sb-label{font-size:9px;color:rgba(56,189,248,.5);margin-bottom:6px;text-transform:uppercase;letter-spacing:1px;font-family:'Share Tech Mono',monospace}
 
 /* Activity feed */
-.feed-item{padding:6px 12px;border-bottom:1px solid rgba(0,255,65,.06);display:flex;align-items:center;gap:6px;font-size:11px;transition:background .15s;cursor:pointer}
-.feed-item:hover{background:rgba(0,255,65,.03)}
+.feed-item{padding:6px 12px;border-bottom:1px solid rgba(56,189,248,.05);display:flex;align-items:center;gap:6px;font-size:11px;transition:background .15s;cursor:pointer}
+.feed-item:hover{background:rgba(56,189,248,.03)}
 .feed-item .fi-flag{flex-shrink:0}
 .feed-item .fi-call{font-weight:700;color:var(--text-bright);flex-shrink:0;font-family:'Share Tech Mono',monospace;font-size:10px;letter-spacing:.5px}
 .feed-item .fi-type{color:var(--muted);font-size:10px}
 .feed-item .fi-alt{margin-left:auto;color:var(--muted);flex-shrink:0;font-family:'Share Tech Mono',monospace;font-size:10px}
 
 /* Section headers in panels */
-.rp-section{padding:6px 12px 4px;font-size:9px;text-transform:uppercase;letter-spacing:1px;color:rgba(0,255,65,.4);border-bottom:1px solid rgba(0,255,65,.06);font-family:'Share Tech Mono',monospace}
+.rp-section{padding:6px 12px 4px;font-size:9px;text-transform:uppercase;letter-spacing:1px;color:rgba(56,189,248,.5);border-bottom:1px solid rgba(56,189,248,.06);font-family:'Share Tech Mono',monospace}
 
 /* CENTCOM Assets widget */
-.centcom-col{flex:1;border-right:1px solid rgba(0,255,65,.08);display:flex;flex-direction:column;overflow:hidden;min-width:0}
+.centcom-col{flex:1;border-right:1px solid rgba(56,189,248,.06);display:flex;flex-direction:column;overflow:hidden;min-width:0}
 .centcom-col:last-child{border-right:none}
-.centcom-col-head{flex-shrink:0;padding:5px 10px;background:rgba(0,255,65,.03);border-bottom:1px solid rgba(0,255,65,.08);font-size:9px;font-family:'Share Tech Mono',monospace;text-transform:uppercase;letter-spacing:1.2px;color:rgba(0,255,65,.5);display:flex;align-items:center;gap:5px}
+.centcom-col-head{flex-shrink:0;padding:5px 10px;background:rgba(56,189,248,.03);border-bottom:1px solid rgba(56,189,248,.06);font-size:9px;font-family:'Share Tech Mono',monospace;text-transform:uppercase;letter-spacing:1.2px;color:rgba(56,189,248,.5);display:flex;align-items:center;gap:5px}
 .centcom-col-body{flex:1;overflow-y:auto;overflow-x:hidden}
 .centcom-col-body::-webkit-scrollbar{width:3px}
-.centcom-col-body::-webkit-scrollbar-thumb{background:rgba(0,255,65,.15)}
-.ca-item{padding:6px 10px;border-bottom:1px solid rgba(0,255,65,.05);cursor:pointer;transition:background .15s}
-.ca-item:hover{background:rgba(0,255,65,.04)}
+.centcom-col-body::-webkit-scrollbar-thumb{background:rgba(56,189,248,.15)}
+.ca-item{padding:6px 10px;border-bottom:1px solid rgba(56,189,248,.05);cursor:pointer;transition:background .15s}
+.ca-item:hover{background:rgba(56,189,248,.04)}
 .ca-item:last-child{border-bottom:none}
 .ca-name{font-size:11px;font-weight:700;color:var(--accent);font-family:'Share Tech Mono',monospace;letter-spacing:.4px;margin-bottom:2px}
 .ca-sub{font-size:10px;color:var(--text);line-height:1.35;margin-bottom:2px}
 .ca-meta{font-size:9px;color:var(--muted);font-family:'Share Tech Mono',monospace;display:flex;gap:8px;flex-wrap:wrap}
-.ca-badge{display:inline-block;padding:1px 5px;border-radius:2px;font-size:8px;font-weight:700;font-family:'Share Tech Mono',monospace;letter-spacing:.5px;background:rgba(0,255,65,.08);border:1px solid rgba(0,255,65,.2);color:var(--accent)}
+.ca-badge{display:inline-block;padding:1px 5px;border-radius:2px;font-size:8px;font-weight:700;font-family:'Share Tech Mono',monospace;letter-spacing:.5px;background:rgba(56,189,248,.08);border:1px solid rgba(56,189,248,.2);color:var(--accent)}
 .ca-badge.air{background:rgba(34,211,238,.08);border-color:rgba(34,211,238,.3);color:#22d3ee}
 .ca-badge.ground{background:rgba(234,179,8,.08);border-color:rgba(234,179,8,.3);color:#eab308}
-.ca-badge.naval{background:rgba(0,255,65,.08);border-color:rgba(0,255,65,.3);color:#00ff41}
+.ca-badge.naval{background:rgba(56,189,248,.08);border-color:rgba(56,189,248,.3);color:#38bdf8}
 .ca-pax{font-weight:700;color:var(--text-bright)}
 
 /* Naval widget */
-.naval-group{padding:8px 10px;border-bottom:1px solid rgba(0,255,65,.06);cursor:pointer;transition:background .15s}
-.naval-group:hover{background:rgba(0,255,65,.03)}
+.naval-group{padding:8px 10px;border-bottom:1px solid rgba(56,189,248,.05);cursor:pointer;transition:background .15s}
+.naval-group:hover{background:rgba(56,189,248,.03)}
 .naval-group .ng-header{display:flex;align-items:center;gap:6px;margin-bottom:4px}
 .naval-group .ng-name{font-size:11px;font-weight:700;color:var(--accent);font-family:'Share Tech Mono',monospace;letter-spacing:.5px}
-.naval-group .ng-status{font-size:9px;padding:1px 6px;border-radius:2px;font-weight:700;font-family:'Share Tech Mono',monospace;letter-spacing:.5px}
-.naval-group .ng-status.deployed{background:rgba(0,255,65,.1);color:var(--accent);box-shadow:0 0 6px rgba(0,255,65,.15)}
-.naval-group .ng-status.combat{background:rgba(255,32,64,.12);color:var(--red);box-shadow:0 0 8px rgba(255,32,64,.2)}
-.naval-group .ng-status.port{background:rgba(76,107,58,.15);color:var(--muted)}
-.naval-group .ng-status.transit{background:rgba(229,255,0,.08);color:var(--yellow)}
+.naval-group .ng-status{font-size:9px;padding:2px 7px;border-radius:3px;font-weight:700;font-family:'Share Tech Mono',monospace;letter-spacing:.5px}
+.naval-group .ng-status.deployed{background:rgba(34,197,94,.1);color:var(--green)}
+.naval-group .ng-status.combat{background:rgba(239,68,68,.1);color:var(--red)}
+.naval-group .ng-status.port{background:rgba(74,96,128,.12);color:var(--muted)}
+.naval-group .ng-status.transit{background:rgba(234,179,8,.08);color:var(--yellow)}
 .naval-group .ng-region{font-size:9px;color:var(--muted);font-family:'Share Tech Mono',monospace;letter-spacing:.3px}
 .naval-group .ng-ships{font-size:10px;color:var(--text);margin-top:3px;line-height:1.4}
-.naval-chokepoint{padding:6px 10px;border-bottom:1px solid rgba(0,255,65,.06);display:flex;justify-content:space-between;align-items:center}
+.naval-chokepoint{padding:6px 10px;border-bottom:1px solid rgba(56,189,248,.05);display:flex;justify-content:space-between;align-items:center}
 .naval-chokepoint .nc-name{font-size:10px;color:var(--text);font-family:'Share Tech Mono',monospace}
 .naval-chokepoint .nc-status{font-size:9px;font-weight:700;font-family:'Share Tech Mono',monospace;letter-spacing:.5px}
 
 /* Mobile hamburger button */
-.mob-menu-btn{display:none;background:rgba(0,12,0,.85);border:1px solid rgba(0,255,65,.2);color:var(--accent);padding:5px 10px;border-radius:2px;cursor:pointer;font-size:16px;line-height:1;flex-shrink:0;-webkit-tap-highlight-color:transparent}
+.mob-menu-btn{display:none;background:rgba(0,12,0,.85);border:1px solid rgba(56,189,248,.2);color:var(--accent);padding:5px 10px;border-radius:2px;cursor:pointer;font-size:16px;line-height:1;flex-shrink:0;-webkit-tap-highlight-color:transparent}
 .mob-menu-btn:active{background:rgba(0,30,0,.9)}
 .mob-drawer{display:none;position:fixed;top:0;left:0;right:0;bottom:0;z-index:9990;flex-direction:column;background:rgba(0,0,0,.97)}
 .mob-drawer.open{display:flex}
-.mob-drawer-head{flex-shrink:0;padding:10px 14px;border-bottom:1px solid rgba(0,255,65,.2);display:flex;align-items:center;justify-content:space-between;background:rgba(0,8,0,.98)}
+.mob-drawer-head{flex-shrink:0;padding:10px 14px;border-bottom:1px solid rgba(56,189,248,.2);display:flex;align-items:center;justify-content:space-between;background:rgba(0,8,0,.98)}
 .mob-drawer-head .logo{font-family:'Orbitron',monospace;font-size:12px;font-weight:700;color:var(--accent);letter-spacing:2px}
-.mob-drawer-close{background:rgba(0,12,0,.85);border:1px solid rgba(0,255,65,.2);color:var(--accent);width:36px;height:36px;border-radius:2px;cursor:pointer;font-size:20px;display:flex;align-items:center;justify-content:center}
+.mob-drawer-close{background:rgba(0,12,0,.85);border:1px solid rgba(56,189,248,.2);color:var(--accent);width:36px;height:36px;border-radius:2px;cursor:pointer;font-size:20px;display:flex;align-items:center;justify-content:center}
 .mob-drawer-body{flex:1;overflow-y:auto;padding:10px 12px;display:flex;flex-direction:column;gap:12px}
-.mob-section-label{font-size:9px;text-transform:uppercase;letter-spacing:1.5px;color:rgba(0,255,65,.4);font-family:'Share Tech Mono',monospace;margin-bottom:4px}
+.mob-section-label{font-size:9px;text-transform:uppercase;letter-spacing:1.5px;color:rgba(56,189,248,.4);font-family:'Share Tech Mono',monospace;margin-bottom:4px}
 .mob-btn-row{display:flex;flex-wrap:wrap;gap:6px}
 .mob-btn-row .tb-btn{font-size:11px;padding:7px 12px}
 
@@ -392,7 +391,7 @@ body::after{
   /* CENTCOM widget: stack columns vertically on mobile */
   .dashboard .widget[style*="grid-column:1/-1"]{height:auto!important;width:100%}
   #pane-centcom{flex-direction:column!important}
-  .centcom-col{border-right:none!important;border-bottom:1px solid rgba(0,255,65,.08);min-height:160px}
+  .centcom-col{border-right:none!important;border-bottom:1px solid rgba(56,189,248,.08);min-height:160px}
   .centcom-col:last-child{border-bottom:none}
 
   /* Topbar: collapse overflow, show only essentials + hamburger */
@@ -441,7 +440,7 @@ body::after{
 
   /* Bottom info bar: stack vertically */
   .bottom-bar{flex-direction:column!important;height:auto!important}
-  .bottom-bar > div{width:100%!important;min-width:0!important;max-width:none!important;border-right:none!important;border-bottom:1px solid rgba(0,255,65,.1)!important;height:160px!important;flex-shrink:0!important}
+  .bottom-bar > div{width:100%!important;min-width:0!important;max-width:none!important;border-right:none!important;border-bottom:1px solid rgba(56,189,248,.1)!important;height:160px!important;flex-shrink:0!important}
   .bottom-bar > div:last-child{border-bottom:none!important}
   /* News strip and polymarket: horizontal scroll within */
   #polyStrip,#newsStrip{overflow-x:auto;overflow-y:hidden;display:flex;align-items:stretch}
@@ -460,8 +459,8 @@ body::after{
 /* duplicate block intentionally removed */
 
 /* News + Poly cards */
-.news-card{min-width:220px;max-width:220px;padding:8px 10px;border-right:1px solid rgba(0,255,65,.06);cursor:pointer;transition:background .15s;flex-shrink:0;display:flex;flex-direction:column;justify-content:space-between}
-.news-card:hover{background:rgba(0,255,65,.04)}
+.news-card{min-width:220px;max-width:220px;padding:8px 10px;border-right:1px solid rgba(56,189,248,.06);cursor:pointer;transition:background .15s;flex-shrink:0;display:flex;flex-direction:column;justify-content:space-between}
+.news-card:hover{background:rgba(56,189,248,.04)}
 .news-card .nc-src{font-size:9px;color:var(--accent);font-weight:700;margin-bottom:3px;text-transform:uppercase;letter-spacing:.5px;font-family:'Share Tech Mono',monospace}
 .news-card .nc-title{font-size:11px;line-height:1.4;color:var(--text);flex:1;display:-webkit-box;-webkit-line-clamp:4;-webkit-box-orient:vertical;overflow:hidden}
 .news-card .nc-meta{font-size:9px;color:var(--muted);margin-top:4px;font-family:'Share Tech Mono',monospace}
@@ -508,29 +507,29 @@ body::after{
 
 /* ── TOP BAR ── */
 /* Clock bar */
-.clock-bar{flex-shrink:0;display:flex;justify-content:center;gap:0;background:#000;border-bottom:1px solid rgba(0,255,65,.15);padding:0;font-family:'Share Tech Mono',monospace;overflow-x:auto;position:relative}
-.clock-bar::before{content:'01001101 01001001 01001100';position:absolute;left:0;top:50%;transform:translateY(-50%);font-size:7px;color:rgba(0,255,65,.06);letter-spacing:2px;white-space:nowrap;animation:datastream 20s linear infinite;pointer-events:none}
+.clock-bar{flex-shrink:0;display:flex;justify-content:center;gap:0;background:rgba(5,8,15,.98);border-bottom:1px solid rgba(56,189,248,.1);padding:0;font-family:'Share Tech Mono',monospace;overflow-x:auto;position:relative}
+.clock-bar::before{content:'01001101 01001001 01001100';position:absolute;left:0;top:50%;transform:translateY(-50%);font-size:7px;color:rgba(56,189,248,.04);letter-spacing:2px;white-space:nowrap;animation:datastream 20s linear infinite;pointer-events:none}
 @keyframes datastream{0%{transform:translateY(-50%) translateX(100%)}100%{transform:translateY(-50%) translateX(-100%)}}
-.clock-cell{display:flex;flex-direction:column;align-items:center;padding:4px 14px;border-right:1px solid rgba(0,255,65,.06);min-width:80px}
+.clock-cell{display:flex;flex-direction:column;align-items:center;padding:4px 14px;border-right:1px solid rgba(56,189,248,.05);min-width:80px}
 .clock-cell:last-child{border-right:none}
-.clock-label{font-size:8px;text-transform:uppercase;letter-spacing:1.5px;color:rgba(0,255,65,.35);margin-bottom:1px}
-.clock-time{font-size:13px;font-weight:700;color:var(--accent);letter-spacing:1px;text-shadow:0 0 8px rgba(0,255,65,.3)}
+.clock-label{font-size:8px;text-transform:uppercase;letter-spacing:1.5px;color:rgba(56,189,248,.3);margin-bottom:1px}
+.clock-time{font-size:13px;font-weight:700;color:var(--accent);letter-spacing:1px;text-shadow:0 0 6px rgba(56,189,248,.3)}
 .clock-cell.clock-date .clock-time{color:var(--text);text-shadow:none;font-size:11px}
-#clk-zulu{font-size:15px;color:#fff;text-shadow:0 0 12px rgba(0,255,65,.5)}
+#clk-zulu{font-size:15px;color:#fff;text-shadow:0 0 10px rgba(56,189,248,.5)}
 
 /* DEFCON meter */
-.defcon-meter{display:flex;gap:2px;margin:8px 0}
-.defcon-level{flex:1;text-align:center;padding:6px 2px;font-size:10px;font-weight:700;font-family:'Orbitron','Share Tech Mono',monospace;letter-spacing:1px;border:1px solid rgba(0,255,65,.08);border-radius:2px;opacity:.3;transition:all .3s}
-.defcon-level.active{opacity:1;box-shadow:0 0 12px var(--defcon-color)}
-.defcon-5{--defcon-color:#00ff41;background:rgba(0,255,65,.08);color:#00ff41;border-color:rgba(0,255,65,.3)}
-.defcon-4{--defcon-color:#22d3ee;background:rgba(34,211,238,.08);color:#22d3ee;border-color:rgba(34,211,238,.3)}
+.defcon-meter{display:flex;gap:3px;margin:8px 0}
+.defcon-level{flex:1;text-align:center;padding:6px 2px;font-size:10px;font-weight:700;font-family:'Orbitron','Share Tech Mono',monospace;letter-spacing:1px;border:1px solid rgba(56,189,248,.06);border-radius:3px;opacity:.25;transition:all .3s}
+.defcon-level.active{opacity:1;box-shadow:0 0 10px var(--defcon-color)}
+.defcon-5{--defcon-color:#22c55e;background:rgba(34,197,94,.08);color:#22c55e;border-color:rgba(34,197,94,.3)}
+.defcon-4{--defcon-color:#06b6d4;background:rgba(6,182,212,.08);color:#06b6d4;border-color:rgba(6,182,212,.3)}
 .defcon-3{--defcon-color:#eab308;background:rgba(234,179,8,.08);color:#eab308;border-color:rgba(234,179,8,.3)}
 .defcon-2{--defcon-color:#f97316;background:rgba(249,115,22,.08);color:#f97316;border-color:rgba(249,115,22,.3)}
 .defcon-1{--defcon-color:#ef4444;background:rgba(239,68,68,.08);color:#ef4444;border-color:rgba(239,68,68,.3)}
-.threat-row{display:flex;justify-content:space-between;align-items:center;padding:5px 0;border-bottom:1px solid rgba(0,255,65,.04);font-size:10px}
+.threat-row{display:flex;justify-content:space-between;align-items:center;padding:5px 0;border-bottom:1px solid rgba(56,189,248,.04);font-size:10px}
 .threat-row .tr-label{color:var(--muted);font-family:'Share Tech Mono',monospace}
 .threat-row .tr-value{font-weight:700;font-family:'Share Tech Mono',monospace;letter-spacing:.5px}
-.threat-bar{height:4px;background:rgba(0,255,65,.08);border-radius:2px;margin-top:3px;overflow:hidden}
+.threat-bar{height:4px;background:rgba(56,189,248,.06);border-radius:2px;margin-top:3px;overflow:hidden}
 .threat-bar-fill{height:100%;border-radius:2px;transition:width .5s}
 
 /* Conflict pulse */
@@ -549,14 +548,14 @@ body::after{
 
 /* Space launch countdown pulse */
 @keyframes launch-pulse{
-  0%,100%{text-shadow:0 0 4px rgba(0,255,65,.3)}
-  50%{text-shadow:0 0 16px rgba(0,255,65,.8),0 0 30px rgba(0,255,65,.3)}
+  0%,100%{text-shadow:0 0 4px rgba(56,189,248,.3)}
+  50%{text-shadow:0 0 16px rgba(56,189,248,.8),0 0 30px rgba(56,189,248,.3)}
 }
 .launch-countdown{animation:launch-pulse 2s ease-in-out infinite}
 
 /* Currency flash on change */
 @keyframes currency-flash{
-  0%{background:rgba(0,255,65,.15)}
+  0%{background:rgba(56,189,248,.15)}
   100%{background:transparent}
 }
 .currency-updated{animation:currency-flash 1s ease-out}
@@ -567,37 +566,29 @@ body::after{
   100%{top:100%}
 }
 .widget-scan-line::after{
-  content:'';position:absolute;left:0;right:0;height:2px;
-  background:linear-gradient(90deg,transparent,rgba(0,255,65,.15),rgba(0,255,65,.3),rgba(0,255,65,.15),transparent);
-  animation:widget-scan 4s linear infinite;pointer-events:none;z-index:1
+  content:'';position:absolute;left:0;right:0;height:1px;
+  background:linear-gradient(90deg,transparent,rgba(56,189,248,.1),rgba(56,189,248,.2),rgba(56,189,248,.1),transparent);
+  animation:widget-scan 5s linear infinite;pointer-events:none;z-index:1
 }
 
-.topbar{flex-shrink:0;background:var(--panel);border-bottom:1px solid var(--border);padding:7px 12px;display:flex;gap:5px;align-items:center;flex-wrap:wrap;z-index:200}
-.topbar .logo{font-weight:800;font-size:13px;color:var(--accent);margin-right:6px;letter-spacing:.5px;white-space:nowrap;font-family:'Orbitron','Share Tech Mono',monospace;text-shadow:0 0 10px rgba(0,255,65,.4);position:relative}
-.topbar .logo span{color:var(--text)}
-.topbar .logo::after{content:'';display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--accent);margin-left:6px;box-shadow:0 0 8px var(--accent),0 0 16px rgba(0,255,65,.3);animation:logo-pulse 3s ease-in-out infinite}
-@keyframes logo-pulse{0%,100%{opacity:1;box-shadow:0 0 8px var(--accent),0 0 16px rgba(0,255,65,.3)}50%{opacity:.4;box-shadow:0 0 4px var(--accent)}}
+/* Legacy topbar override removed — primary topbar block above */
+.topbar .logo::after{content:'';display:inline-block;width:7px;height:7px;border-radius:50%;background:var(--accent);margin-left:6px;box-shadow:0 0 6px var(--accent),0 0 12px rgba(56,189,248,.3);animation:logo-pulse 3s ease-in-out infinite}
+@keyframes logo-pulse{0%,100%{opacity:1;box-shadow:0 0 6px var(--accent),0 0 12px rgba(56,189,248,.3)}50%{opacity:.3;box-shadow:0 0 3px var(--accent)}}
 @keyframes iss-orbit{0%{transform:rotate(0deg)}100%{transform:rotate(360deg)}}
 
 /* Data received flash on topbar */
 @keyframes data-flash{
-  0%{border-bottom-color:rgba(0,255,65,.8);box-shadow:0 2px 12px rgba(0,255,65,.3)}
-  100%{border-bottom-color:rgba(0,255,65,.08);box-shadow:none}
+  0%{border-bottom-color:rgba(56,189,248,.5);box-shadow:0 2px 10px rgba(56,189,248,.2)}
+  100%{border-bottom-color:rgba(56,189,248,.15);box-shadow:none}
 }
 .topbar.data-flash{animation:data-flash .6s ease-out}
 
 /* Status indicator dot in topbar — breathing */
 @keyframes status-breathe{
-  0%,100%{box-shadow:0 0 4px #00ff41}
-  50%{box-shadow:0 0 12px #00ff41,0 0 20px rgba(0,255,65,.3)}
+  0%,100%{box-shadow:0 0 3px var(--accent)}
+  50%{box-shadow:0 0 8px var(--accent),0 0 16px rgba(56,189,248,.2)}
 }
-.status-dot{display:inline-block;width:6px;height:6px;border-radius:50%;background:#00ff41;animation:status-breathe 2s ease-in-out infinite;margin:0 4px}
-.tb-sep{width:1px;height:18px;background:var(--border2);margin:0 3px;flex-shrink:0}
-.tb-btn{background:#111827;border:1px solid var(--border2);color:var(--muted);padding:4px 9px;border-radius:4px;cursor:pointer;font-size:11px;transition:all .15s;white-space:nowrap}
-.tb-btn:hover,`.tb-btn.on{background:#1e2a42;border-color:var(--accent);color:var(--text)}
-.tb-btn.on{color:#93c5fd}
-.tb-btn.iran-on{background:#2d1515;border-color:var(--red);color:#fca5a5}
-.tb-btn.russia-on{background:#2d1a15;border-color:#dc2626;color:#fca5a5}
+.status-dot{display:inline-block;width:6px;height:6px;border-radius:50%;background:var(--accent);animation:status-breathe 2s ease-in-out infinite;margin:0 4px}
 .tb-btn.china-on{background:#2a2610;border-color:var(--yellow);color:#fde047}
 .tb-search{background:#111827;border:1px solid var(--border2);color:var(--text);padding:4px 8px;border-radius:4px;font-size:11px;width:120px;outline:none}
 .tb-search:focus{border-color:var(--accent)}
@@ -668,14 +659,14 @@ body::after{
 /* Briefing modal */
 .brief-overlay{position:fixed;inset:0;z-index:90000;background:rgba(0,0,0,.85);display:none;align-items:center;justify-content:center;backdrop-filter:blur(4px)}
 .brief-overlay.vis{display:flex}
-.brief-modal{background:#000;border:1px solid rgba(0,255,65,.3);border-radius:2px;width:90%;max-width:600px;max-height:85vh;overflow-y:auto;box-shadow:0 0 60px rgba(0,255,65,.15);position:relative}
-.brief-modal::before{content:'';position:absolute;top:0;left:0;right:0;height:1px;background:linear-gradient(90deg,transparent,rgba(0,255,65,.7),transparent)}
-.brief-head{padding:12px 16px;background:rgba(0,8,0,.8);border-bottom:1px solid rgba(0,255,65,.1);display:flex;justify-content:space-between;align-items:center;position:sticky;top:0;z-index:2}
+.brief-modal{background:#000;border:1px solid rgba(56,189,248,.3);border-radius:2px;width:90%;max-width:600px;max-height:85vh;overflow-y:auto;box-shadow:0 0 60px rgba(56,189,248,.15);position:relative}
+.brief-modal::before{content:'';position:absolute;top:0;left:0;right:0;height:1px;background:linear-gradient(90deg,transparent,rgba(56,189,248,.7),transparent)}
+.brief-head{padding:12px 16px;background:rgba(0,8,0,.8);border-bottom:1px solid rgba(56,189,248,.1);display:flex;justify-content:space-between;align-items:center;position:sticky;top:0;z-index:2}
 .brief-head h2{font-size:14px;color:var(--accent);font-family:'Orbitron','Share Tech Mono',monospace;letter-spacing:2px;margin:0}
 .brief-body{padding:16px}
 .brief-section{margin-bottom:16px}
-.brief-section h3{font-size:11px;color:var(--accent);font-family:'Share Tech Mono',monospace;letter-spacing:1.5px;text-transform:uppercase;margin-bottom:8px;padding-bottom:4px;border-bottom:1px solid rgba(0,255,65,.1)}
-.brief-stat{display:flex;justify-content:space-between;padding:4px 0;font-size:11px;border-bottom:1px solid rgba(0,255,65,.04)}
+.brief-section h3{font-size:11px;color:var(--accent);font-family:'Share Tech Mono',monospace;letter-spacing:1.5px;text-transform:uppercase;margin-bottom:8px;padding-bottom:4px;border-bottom:1px solid rgba(56,189,248,.1)}
+.brief-stat{display:flex;justify-content:space-between;padding:4px 0;font-size:11px;border-bottom:1px solid rgba(56,189,248,.04)}
 .brief-stat .bs-label{color:var(--muted)}
 .brief-stat .bs-value{color:var(--text);font-weight:700;font-family:'Share Tech Mono',monospace}
 
@@ -718,27 +709,27 @@ body::after{
 .bs-left{width:180px;flex-shrink:0;display:flex;flex-direction:column;gap:5px;padding:0 16px 0 0}
 .bs-right{flex:1;display:flex;flex-direction:column;gap:6px;padding:0 0 0 16px}
 .bs-radar-wrap{position:relative;width:300px;height:300px;flex-shrink:0}
-.bs-grid{position:absolute;inset:0;background-image:linear-gradient(rgba(0,255,65,.03) 1px,transparent 1px),linear-gradient(90deg,rgba(0,255,65,.03) 1px,transparent 1px);background-size:30px 30px;z-index:0;border-radius:50%}
-.bs-title{font-family:'Orbitron',monospace;font-size:11px;font-weight:700;letter-spacing:4px;color:#fff;text-shadow:0 0 20px rgba(0,255,65,.9);margin-bottom:2px}
-.bs-subtitle{font-size:8px;color:rgba(0,255,65,.45);letter-spacing:3px;margin-bottom:10px;line-height:1.5}
-.bs-item{font-size:9px;color:rgba(0,255,65,.3);letter-spacing:.5px;padding:3px 0;border-bottom:1px solid rgba(0,255,65,.04);display:flex;justify-content:space-between;align-items:center;transition:color .25s,border-color .25s}
-.bs-item.active{color:rgba(0,255,65,.8)}
-.bs-item .bs-val{font-size:8px;color:rgba(0,255,65,.2);transition:color .25s}
-.bs-item.active .bs-val{color:#00ff41;text-shadow:0 0 6px #00ff41}
-.bs-item.ok .bs-val{color:#00ff41}
+.bs-grid{position:absolute;inset:0;background-image:linear-gradient(rgba(56,189,248,.03) 1px,transparent 1px),linear-gradient(90deg,rgba(56,189,248,.03) 1px,transparent 1px);background-size:30px 30px;z-index:0;border-radius:50%}
+.bs-title{font-family:'Orbitron',monospace;font-size:11px;font-weight:700;letter-spacing:4px;color:#fff;text-shadow:0 0 20px rgba(56,189,248,.9);margin-bottom:2px}
+.bs-subtitle{font-size:8px;color:rgba(56,189,248,.45);letter-spacing:3px;margin-bottom:10px;line-height:1.5}
+.bs-item{font-size:9px;color:rgba(56,189,248,.3);letter-spacing:.5px;padding:3px 0;border-bottom:1px solid rgba(56,189,248,.04);display:flex;justify-content:space-between;align-items:center;transition:color .25s,border-color .25s}
+.bs-item.active{color:rgba(56,189,248,.8)}
+.bs-item .bs-val{font-size:8px;color:rgba(56,189,248,.2);transition:color .25s}
+.bs-item.active .bs-val{color:#38bdf8;text-shadow:0 0 6px #38bdf8}
+.bs-item.ok .bs-val{color:#38bdf8}
 .bs-item.warn .bs-val{color:#f97316}
 .bs-item.err .bs-val{color:#ef4444}
-.bs-coord-item{font-size:8px;color:rgba(0,255,65,.3);letter-spacing:.5px;line-height:1.8;font-family:'Share Tech Mono',monospace;transition:color .3s}
-.bs-coord-item.active{color:rgba(0,255,65,.7)}
-.bs-coord-item span{color:rgba(0,255,65,.55)}
+.bs-coord-item{font-size:8px;color:rgba(56,189,248,.3);letter-spacing:.5px;line-height:1.8;font-family:'Share Tech Mono',monospace;transition:color .3s}
+.bs-coord-item.active{color:rgba(56,189,248,.7)}
+.bs-coord-item span{color:rgba(56,189,248,.55)}
 .bs-bars{display:flex;gap:2px;align-items:flex-end;height:12px}
-.bs-bar{width:3px;background:rgba(0,255,65,.1);border-radius:1px;transition:background .3s,height .4s}
-.bs-bar.lit{background:#00ff41;box-shadow:0 0 4px #00ff41}
+.bs-bar{width:3px;background:rgba(56,189,248,.1);border-radius:1px;transition:background .3s,height .4s}
+.bs-bar.lit{background:#38bdf8;box-shadow:0 0 4px #38bdf8}
 .bs-progress-wrap{margin-top:10px}
-.bs-progress-label{font-size:8px;color:rgba(0,255,65,.4);letter-spacing:2px;margin-bottom:3px;display:flex;justify-content:space-between}
-.bs-progress-track{height:3px;background:rgba(0,255,65,.07);border-radius:1px;overflow:hidden;border:1px solid rgba(0,255,65,.08)}
-.bs-progress-fill{height:100%;width:0%;background:linear-gradient(90deg,#001a08,#00ff41);box-shadow:0 0 8px #00ff41;transition:width .35s;border-radius:1px}
-.bs-locktext{font-family:'Orbitron',monospace;font-size:13px;letter-spacing:5px;color:#00ff41;text-shadow:0 0 20px rgba(0,255,65,.9),0 0 50px rgba(0,255,65,.4);text-align:center;margin-top:14px;opacity:0;transition:opacity .5s;grid-column:1/-1}
+.bs-progress-label{font-size:8px;color:rgba(56,189,248,.4);letter-spacing:2px;margin-bottom:3px;display:flex;justify-content:space-between}
+.bs-progress-track{height:3px;background:rgba(56,189,248,.07);border-radius:1px;overflow:hidden;border:1px solid rgba(56,189,248,.08)}
+.bs-progress-fill{height:100%;width:0%;background:linear-gradient(90deg,#001a08,#38bdf8);box-shadow:0 0 8px #38bdf8;transition:width .35s;border-radius:1px}
+.bs-locktext{font-family:'Orbitron',monospace;font-size:13px;letter-spacing:5px;color:#38bdf8;text-shadow:0 0 20px rgba(56,189,248,.9),0 0 50px rgba(56,189,248,.4);text-align:center;margin-top:14px;opacity:0;transition:opacity .5s;grid-column:1/-1}
 .bs-locktext.vis{opacity:1}
 @keyframes boot-glitch{0%,100%{transform:translate(0)}15%{transform:translate(-3px,1px)}30%{transform:translate(3px,-1px)}50%{transform:translate(0)}70%{transform:translate(-1px,2px)}85%{transform:translate(2px,-1px)}}
 .boot-glitch{animation:boot-glitch .18s linear}
@@ -748,28 +739,28 @@ body::after{
 /* Ambient floating particles on map */
 @keyframes particle-float{0%{transform:translateY(0) translateX(0);opacity:0}10%{opacity:.6}90%{opacity:.6}100%{transform:translateY(-100vh) translateX(30px);opacity:0}}
 .map-particles{position:absolute;inset:0;z-index:1;pointer-events:none;overflow:hidden}
-.map-particle{position:absolute;width:2px;height:2px;background:#00ff41;border-radius:50%;box-shadow:0 0 4px #00ff41;animation:particle-float linear infinite;opacity:0}
+.map-particle{position:absolute;width:2px;height:2px;background:#38bdf8;border-radius:50%;box-shadow:0 0 4px #38bdf8;animation:particle-float linear infinite;opacity:0}
 /* Heartbeat pulse for live status */
 @keyframes hb-pulse{0%,100%{opacity:1}50%{opacity:.3}}
-.hb-live{animation:hb-pulse 2s ease-in-out infinite;color:#00ff41;font-size:9px;font-family:'Share Tech Mono',monospace;letter-spacing:.5px}
+.hb-live{animation:hb-pulse 2s ease-in-out infinite;color:#38bdf8;font-size:9px;font-family:'Share Tech Mono',monospace;letter-spacing:.5px}
 
 /* Radar sweep overlay */
 .radar-overlay{position:absolute;top:10px;left:10px;z-index:399;width:120px;height:120px;pointer-events:none;display:none}
 .radar-overlay.vis{display:block}
-.radar-ring{fill:none;stroke:rgba(0,255,65,.12);stroke-width:1}
-.radar-sweep{fill:conic-gradient(from 0deg,transparent,rgba(0,255,65,.25));transform-origin:50% 50%;animation:radar-rotate 3s linear infinite}
+.radar-ring{fill:none;stroke:rgba(56,189,248,.12);stroke-width:1}
+.radar-sweep{fill:conic-gradient(from 0deg,transparent,rgba(56,189,248,.25));transform-origin:50% 50%;animation:radar-rotate 3s linear infinite}
 @keyframes radar-rotate{from{transform:rotate(0deg)}to{transform:rotate(360deg)}}
 
 /* Cinema mode overlay */
-.cinema-label{position:fixed;bottom:30px;left:50%;transform:translateX(-50%);z-index:9000;font-family:'Orbitron',monospace;font-size:11px;letter-spacing:6px;color:rgba(0,255,65,.12);text-transform:uppercase;pointer-events:none;display:none}
+.cinema-label{position:fixed;bottom:30px;left:50%;transform:translateX(-50%);z-index:9000;font-family:'Orbitron',monospace;font-size:11px;letter-spacing:6px;color:rgba(56,189,248,.12);text-transform:uppercase;pointer-events:none;display:none}
 .cinema-label.vis{display:block}
 
 /* Nuke radius tool */
 .nuke-panel{position:absolute;bottom:50px;right:10px;z-index:500;background:rgba(0,4,0,.96);border:1px solid rgba(239,68,68,.3);border-radius:2px;padding:10px 12px;width:200px;display:none;font-family:'Share Tech Mono',monospace;font-size:10px;box-shadow:0 0 20px rgba(239,68,68,.1)}
 .nuke-panel.vis{display:block}
 .nuke-panel label{color:var(--muted);font-size:9px;text-transform:uppercase;letter-spacing:.5px;display:block;margin-bottom:3px;margin-top:6px}
-.nuke-panel select,.nuke-panel button{background:rgba(0,8,0,.9);border:1px solid rgba(0,255,65,.15);color:var(--accent);padding:4px 8px;font-family:'Share Tech Mono',monospace;font-size:10px;border-radius:2px;width:100%;cursor:pointer}
-.nuke-panel button:hover{border-color:var(--accent);box-shadow:0 0 8px rgba(0,255,65,.2)}
+.nuke-panel select,.nuke-panel button{background:rgba(0,8,0,.9);border:1px solid rgba(56,189,248,.15);color:var(--accent);padding:4px 8px;font-family:'Share Tech Mono',monospace;font-size:10px;border-radius:2px;width:100%;cursor:pointer}
+.nuke-panel button:hover{border-color:var(--accent);box-shadow:0 0 8px rgba(56,189,248,.2)}
 
 /* (mobile styles consolidated above) */
 </style>
@@ -827,7 +818,7 @@ body::after{
   <div class="brief-modal">
     <div class="brief-head">
       <h2>📋 DAILY INTELLIGENCE BRIEFING</h2>
-      <button class="x" onclick="closeBriefing()" style="background:rgba(0,255,65,.08);border:1px solid rgba(0,255,65,.2);color:var(--accent);cursor:pointer;font-size:18px;width:28px;height:28px;display:flex;align-items:center;justify-content:center;border-radius:2px">&times;</button>
+      <button class="x" onclick="closeBriefing()" style="background:rgba(56,189,248,.08);border:1px solid rgba(56,189,248,.2);color:var(--accent);cursor:pointer;font-size:18px;width:28px;height:28px;display:flex;align-items:center;justify-content:center;border-radius:2px">&times;</button>
     </div>
     <div class="brief-body" id="briefBody"></div>
   </div>
@@ -837,7 +828,7 @@ body::after{
 <div class="topbar">
   <span class="logo">⚡ PIKE<span>CLAW</span> // OSINT-MIL <span class="status-dot" title="Live feeds active"></span></span>
   <!-- Iran Status Ticker -->
-  <div id="iran-ticker" style="display:inline-flex;align-items:center;gap:6px;background:rgba(239,68,68,.15);border:1px solid rgba(239,68,68,.5);border-radius:3px;padding:3px 10px;margin-right:6px;flex-shrink:0;cursor:pointer;box-shadow:0 0 8px rgba(239,68,68,.2)" onclick="switchAdv('iran');document.getElementById('pane-adv').scrollIntoView({behavior:'smooth'})" title="Click for Iran intel">
+  <div id="iran-ticker" style="display:inline-flex;align-items:center;gap:6px;background:rgba(239,68,68,.1);border:1px solid rgba(239,68,68,.35);border-radius:4px;padding:3px 10px;margin-right:6px;flex-shrink:0;cursor:pointer;box-shadow:0 0 12px rgba(239,68,68,.15)" onclick="switchAdv('iran');document.getElementById('pane-adv').scrollIntoView({behavior:'smooth'})" title="Click for Iran intel">
     <span style="width:7px;height:7px;border-radius:50%;background:#ef4444;display:inline-block;animation:logo-pulse 1s ease-in-out infinite;box-shadow:0 0 6px #ef4444"></span>
     <span id="iran-ticker-text" style="font-family:'Orbitron',monospace;font-size:9px;font-weight:700;color:#ef4444;letter-spacing:1.5px;text-transform:uppercase;white-space:nowrap;transition:opacity .2s">US-ISRAEL STRIKES ACTIVE</span>
   </div>
@@ -875,12 +866,13 @@ body::after{
   <button class="tb-btn" id="btn-gpsjam" onclick="toggleGPSJam()">📡 GPS Jam</button>
   <button class="tb-btn" id="btn-exercises" onclick="toggleExercises()">🎯 Exercises</button>
   <button class="tb-btn" id="btn-conflicts" onclick="toggleConflicts()">⚔️ Conflicts</button>
+  <button class="tb-btn on" id="btn-strikes" onclick="toggleStrikes()" style="background:rgba(239,68,68,.1);border-color:rgba(239,68,68,.3);color:#ef4444">💥 Strikes</button>
   <button class="tb-btn on" id="btn-naval" onclick="toggleNavalLayer()">🚢 Naval</button>
   <button class="tb-btn" id="btn-terminator" onclick="toggleTerminator()">🌗 Day/Night</button>
   <button class="tb-btn" id="btn-paths" onclick="toggleFlightPaths()">➤ Paths</button>
   <button class="tb-btn" id="btn-nuke" onclick="toggleNukeMode()">☢️ Nuke Calc</button>
   <div class="tb-sep"></div>
-  <button class="tb-btn" id="btn-brief" onclick="showBriefing()" style="background:rgba(0,255,65,.08);border-color:rgba(0,255,65,.3)">📋 Brief</button>
+  <button class="tb-btn" id="btn-brief" onclick="showBriefing()" style="background:rgba(56,189,248,.08);border-color:rgba(56,189,248,.3)">📋 Brief</button>
   <button class="tb-btn" id="btn-cinema" onclick="toggleCinema()">🎬 Cinema</button>
   <button class="tb-btn" id="btn-audio" onclick="toggleAudio()">🔇 Sound</button>
   <button class="tb-btn" id="btn-voice" onclick="toggleVoice()">🗣️ Voice</button>
@@ -940,13 +932,13 @@ body::after{
     <div>
       <div class="mob-section-label">Tools</div>
       <div class="mob-btn-row">
-        <button class="tb-btn" onclick="showBriefing()" style="background:rgba(0,255,65,.08);border-color:rgba(0,255,65,.3)">📋 Brief</button>
+        <button class="tb-btn" onclick="showBriefing()" style="background:rgba(56,189,248,.08);border-color:rgba(56,189,248,.3)">📋 Brief</button>
         <button class="tb-btn" onclick="toggleAudio()">🔇 Sound</button>
         <button class="tb-btn" onclick="toggleNotifications()">🔔 Alerts</button>
         <button class="tb-btn" onclick="fetchData()">🔄 Refresh</button>
       </div>
     </div>
-    <div style="border-top:1px solid rgba(0,255,65,.1);padding-top:10px">
+    <div style="border-top:1px solid rgba(56,189,248,.1);padding-top:10px">
       <div class="mob-section-label">Region Jump</div>
       <div class="mob-btn-row">
         <button class="tb-btn" onclick="goTo(30,50,5);toggleMobDrawer()">🔥 Mid East</button>
@@ -980,10 +972,10 @@ body::after{
     <!-- Radar sweep -->
     <svg class="radar-overlay" id="radarOverlay" viewBox="0 0 120 120">
       <circle class="radar-ring" cx="60" cy="60" r="20"/><circle class="radar-ring" cx="60" cy="60" r="40"/><circle class="radar-ring" cx="60" cy="60" r="58"/>
-      <line x1="60" y1="2" x2="60" y2="118" stroke="rgba(0,255,65,.06)" stroke-width="0.5"/>
-      <line x1="2" y1="60" x2="118" y2="60" stroke="rgba(0,255,65,.06)" stroke-width="0.5"/>
-      <line x1="60" y1="60" x2="60" y2="2" stroke="rgba(0,255,65,.5)" stroke-width="1.5" stroke-linecap="round" style="transform-origin:60px 60px;animation:radar-rotate 3s linear infinite;filter:drop-shadow(0 0 4px #00ff41)"/>
-      <circle cx="60" cy="60" r="2" fill="#00ff41" style="filter:drop-shadow(0 0 4px #00ff41)"/>
+      <line x1="60" y1="2" x2="60" y2="118" stroke="rgba(56,189,248,.06)" stroke-width="0.5"/>
+      <line x1="2" y1="60" x2="118" y2="60" stroke="rgba(56,189,248,.06)" stroke-width="0.5"/>
+      <line x1="60" y1="60" x2="60" y2="2" stroke="rgba(56,189,248,.5)" stroke-width="1.5" stroke-linecap="round" style="transform-origin:60px 60px;animation:radar-rotate 3s linear infinite;filter:drop-shadow(0 0 4px #38bdf8)"/>
+      <circle cx="60" cy="60" r="2" fill="#38bdf8" style="filter:drop-shadow(0 0 4px #38bdf8)"/>
     </svg>
     <!-- Nuke calc panel -->
     <div class="nuke-panel" id="nukePanel">
@@ -1006,11 +998,13 @@ body::after{
     <!-- Cinema mode label -->
     <div class="cinema-label" id="cinemaLabel">⚡ SITUATION ROOM — LIVE MONITORING ⚡</div>
     <div class="map-legend" style="position:absolute;top:10px;right:10px;z-index:400">
-      <div class="ml-row"><div class="ml-dot" style="background:#00ff41"></div>🇺🇸 US</div>
+      <div class="ml-row"><div class="ml-dot" style="background:#38bdf8"></div>🇺🇸 US</div>
       <div class="ml-row"><div class="ml-dot" style="background:#ef4444"></div>🇮🇷 Iran</div>
       <div class="ml-row"><div class="ml-dot" style="background:#dc2626"></div>🇷🇺 Russia</div>
       <div class="ml-row"><div class="ml-dot" style="background:#eab308"></div>🇨🇳 China</div>
-      <div class="ml-row"><div class="ml-dot" style="background:#bf5fff"></div>🤝 Allied</div>
+      <div class="ml-row"><div class="ml-dot" style="background:#a78bfa"></div>🤝 Allied</div>
+      <div class="ml-row" style="margin-top:4px;border-top:1px solid rgba(56,189,248,.1);padding-top:4px"><div class="ml-dot" style="background:#ef4444;box-shadow:0 0 6px #ef4444;animation:logo-pulse 1s infinite"></div>💥 Strike</div>
+      <div class="ml-row"><div class="ml-dot" style="background:#f97316;box-shadow:0 0 6px #f97316;animation:logo-pulse 1.2s infinite"></div>🚀 Retaliation</div>
     </div>
     <div class="region-btns" style="position:absolute;bottom:10px;left:10px;z-index:400">
       <button onclick="goTo(30,50,5)">🔥 Mid East</button>
@@ -1044,7 +1038,7 @@ body::after{
   <div class="widget w-activity">
     <div class="widget-header" style="padding:0;gap:0">
       <div style="display:flex;flex:1">
-        <div id="act-tab-activity" onclick="switchActTab('activity')" style="flex:1;padding:7px 8px;text-align:center;font-size:9px;font-family:'Share Tech Mono',monospace;letter-spacing:.5px;text-transform:uppercase;cursor:pointer;color:rgba(0,255,65,.7);border-bottom:2px solid rgba(0,255,65,.6);border-right:1px solid rgba(0,255,65,.08)">🔔 ACTIVITY <span id="ac-count" style="opacity:.7">0</span></div>
+        <div id="act-tab-activity" onclick="switchActTab('activity')" style="flex:1;padding:7px 8px;text-align:center;font-size:9px;font-family:'Share Tech Mono',monospace;letter-spacing:.5px;text-transform:uppercase;cursor:pointer;color:rgba(56,189,248,.7);border-bottom:2px solid rgba(56,189,248,.6);border-right:1px solid rgba(56,189,248,.08)">🔔 ACTIVITY <span id="ac-count" style="opacity:.7">0</span></div>
         <div id="act-tab-log"      onclick="switchActTab('log')"      style="flex:1;padding:7px 8px;text-align:center;font-size:9px;font-family:'Share Tech Mono',monospace;letter-spacing:.5px;text-transform:uppercase;cursor:pointer;color:var(--muted);border-bottom:2px solid transparent">📋 LOG <span id="log-count" style="opacity:.7">0</span></div>
       </div>
     </div>
@@ -1079,7 +1073,7 @@ body::after{
   </div>
 
   <!-- ⚡ IRAN STRIKE TIMELINE WIDGET -->
-  <div class="widget widget-scan-line" id="w-iran-timeline" style="grid-column:1/-1;grid-row:4;position:relative;overflow:hidden;min-height:180px">
+  <div class="widget widget-scan-line" id="w-iran-timeline" style="grid-column:1/-1;grid-row:4;position:relative;overflow:hidden;min-height:140px;max-height:200px">
     <div class="widget-header" style="background:rgba(30,0,0,.7);border-bottom:1px solid rgba(239,68,68,.3)">
       ⚡ <span class="wh-title" style="color:#ef4444;text-shadow:0 0 10px rgba(239,68,68,.5)">IRAN STRIKE TIMELINE</span>
       <span id="iran-tl-updated" style="font-size:9px;color:#6b3a3a;font-family:'Share Tech Mono',monospace;margin-left:auto">28 FEB 2026 — LIVE CONFLICT</span>
@@ -1089,10 +1083,10 @@ body::after{
   </div>
 
   <!-- CENTCOM ASSETS WIDGET -->
-  <div class="widget widget-scan-line" style="grid-column:1/-1;grid-row:5;position:relative;overflow:hidden;min-height:220px">
+  <div class="widget widget-scan-line" style="grid-column:1/-1;grid-row:5;position:relative;overflow:hidden;min-height:180px;max-height:220px">
     <div class="widget-header">
       🇺🇸 <span class="wh-title">US CENTCOM Assets — Middle East Posture</span>
-      <span class="wh-count" id="centcom-troops" style="color:#00ff41">~40,000 troops</span>
+      <span class="wh-count" id="centcom-troops" style="color:#38bdf8">~40,000 troops</span>
       <span style="font-size:9px;color:var(--muted);font-family:'Share Tech Mono',monospace;margin-left:6px" id="centcom-updated"></span>
     </div>
     <div class="widget-body" id="pane-centcom" style="padding:0;display:flex;flex-direction:row;overflow-x:hidden;overflow-y:hidden"></div>
@@ -1101,11 +1095,11 @@ body::after{
 </div>
 
 <!-- BOTTOM INFO BAR -->
-<div class="bottom-bar" style="flex-shrink:0;height:175px;display:flex;border-top:1px solid rgba(0,255,65,.15);background:#000">
+<div class="bottom-bar" style="flex-shrink:0;height:175px;display:flex;border-top:1px solid rgba(56,189,248,.1);background:rgba(5,8,15,.98)">
 
   <!-- POLYMARKET WIDGET -->
   <div style="width:300px;flex-shrink:0;border-right:1px solid var(--border);display:flex;flex-direction:column;overflow:hidden">
-    <div style="flex-shrink:0;padding:6px 10px;background:rgba(0,4,0,.6);border-bottom:1px solid rgba(0,255,65,.1);font-size:10px;font-weight:700;letter-spacing:1px;color:rgba(0,255,65,.5);text-transform:uppercase;display:flex;align-items:center;gap:6px">
+    <div style="flex-shrink:0;padding:6px 10px;background:rgba(10,16,28,.8);border-bottom:1px solid rgba(56,189,248,.08);font-size:10px;font-weight:700;letter-spacing:1px;color:rgba(56,189,248,.5);text-transform:uppercase;display:flex;align-items:center;gap:6px">
       🎲 <span style="flex:1">Polymarket Odds</span>
       <span id="poly-updated" style="font-size:9px;color:#3a4560"></span>
     </div>
@@ -1114,7 +1108,7 @@ body::after{
 
   <!-- SPACE LAUNCH TRACKER -->
   <div style="width:280px;flex-shrink:0;border-right:1px solid var(--border);display:flex;flex-direction:column;overflow:hidden;position:relative" class="widget-scan-line">
-    <div style="flex-shrink:0;padding:6px 10px;background:rgba(0,4,0,.6);border-bottom:1px solid rgba(0,255,65,.1);font-size:10px;font-weight:700;letter-spacing:1px;color:rgba(0,255,65,.5);text-transform:uppercase;display:flex;align-items:center;gap:6px">
+    <div style="flex-shrink:0;padding:6px 10px;background:rgba(10,16,28,.8);border-bottom:1px solid rgba(56,189,248,.08);font-size:10px;font-weight:700;letter-spacing:1px;color:rgba(56,189,248,.5);text-transform:uppercase;display:flex;align-items:center;gap:6px">
       🚀 <span style="flex:1">Launch Schedule</span>
       <span id="launch-count" style="font-size:9px;color:var(--muted)"></span>
     </div>
@@ -1123,7 +1117,7 @@ body::after{
 
   <!-- CURRENCY / SANCTIONS WATCH -->
   <div style="width:220px;flex-shrink:0;border-right:1px solid var(--border);display:flex;flex-direction:column;overflow:hidden">
-    <div style="flex-shrink:0;padding:6px 10px;background:rgba(0,4,0,.6);border-bottom:1px solid rgba(0,255,65,.1);font-size:10px;font-weight:700;letter-spacing:1px;color:rgba(0,255,65,.5);text-transform:uppercase;display:flex;align-items:center;gap:6px">
+    <div style="flex-shrink:0;padding:6px 10px;background:rgba(10,16,28,.8);border-bottom:1px solid rgba(56,189,248,.08);font-size:10px;font-weight:700;letter-spacing:1px;color:rgba(56,189,248,.5);text-transform:uppercase;display:flex;align-items:center;gap:6px">
       💱 <span style="flex:1">FX Watch</span>
     </div>
     <div style="flex:1;overflow-y:auto" id="currencyStrip"></div>
@@ -1131,13 +1125,13 @@ body::after{
 
   <!-- DOOMSDAY CLOCK -->
   <div style="width:140px;flex-shrink:0;border-right:1px solid var(--border);display:flex;flex-direction:column;overflow:hidden" id="doomsdayWidget">
-    <div style="flex-shrink:0;padding:6px 10px;background:rgba(0,4,0,.6);border-bottom:1px solid rgba(0,255,65,.1);font-size:10px;font-weight:700;letter-spacing:1px;color:rgba(0,255,65,.5);text-transform:uppercase;display:flex;align-items:center;gap:6px">
+    <div style="flex-shrink:0;padding:6px 10px;background:rgba(10,16,28,.8);border-bottom:1px solid rgba(56,189,248,.08);font-size:10px;font-weight:700;letter-spacing:1px;color:rgba(56,189,248,.5);text-transform:uppercase;display:flex;align-items:center;gap:6px">
       ⏰ <span style="flex:1">Doomsday</span>
     </div>
     <div style="flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:8px">
       <div style="position:relative;width:80px;height:80px">
         <svg width="80" height="80" viewBox="0 0 80 80" style="transform:rotate(-90deg)">
-          <circle cx="40" cy="40" r="36" fill="none" stroke="rgba(0,255,65,.08)" stroke-width="3"/>
+          <circle cx="40" cy="40" r="36" fill="none" stroke="rgba(56,189,248,.08)" stroke-width="3"/>
           <circle cx="40" cy="40" r="36" fill="none" stroke="#ef4444" stroke-width="3" stroke-dasharray="226.2" stroke-dashoffset="2.49" stroke-linecap="round" style="filter:drop-shadow(0 0 4px #ef4444)"/>
         </svg>
         <div style="position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center">
@@ -1152,7 +1146,7 @@ body::after{
 
   <!-- X / OSINT ACCOUNTS WIDGET -->
   <div style="width:280px;flex-shrink:0;border-right:1px solid var(--border);display:flex;flex-direction:column;overflow:hidden">
-    <div style="flex-shrink:0;padding:6px 10px;background:rgba(0,4,0,.6);border-bottom:1px solid rgba(0,255,65,.1);font-size:10px;font-weight:700;letter-spacing:1px;color:rgba(0,255,65,.5);text-transform:uppercase;display:flex;align-items:center;gap:6px">
+    <div style="flex-shrink:0;padding:6px 10px;background:rgba(10,16,28,.8);border-bottom:1px solid rgba(56,189,248,.08);font-size:10px;font-weight:700;letter-spacing:1px;color:rgba(56,189,248,.5);text-transform:uppercase;display:flex;align-items:center;gap:6px">
       📡 <span style="flex:1">OSINT Feeds</span>
       <span id="x-account-tabs" style="display:flex;gap:4px"></span>
     </div>
@@ -1161,7 +1155,7 @@ body::after{
 
   <!-- SPACE WEATHER -->
   <div style="width:160px;flex-shrink:0;border-right:1px solid var(--border);display:flex;flex-direction:column;overflow:hidden" id="spaceWeatherWidget">
-    <div style="flex-shrink:0;padding:6px 10px;background:rgba(0,4,0,.6);border-bottom:1px solid rgba(0,255,65,.1);font-size:10px;font-weight:700;letter-spacing:1px;color:rgba(0,255,65,.5);text-transform:uppercase;display:flex;align-items:center;gap:6px">
+    <div style="flex-shrink:0;padding:6px 10px;background:rgba(10,16,28,.8);border-bottom:1px solid rgba(56,189,248,.08);font-size:10px;font-weight:700;letter-spacing:1px;color:rgba(56,189,248,.5);text-transform:uppercase;display:flex;align-items:center;gap:6px">
       ☀️ <span style="flex:1">Space Wx</span>
     </div>
     <div style="flex:1;display:flex;flex-direction:column;padding:6px 8px;gap:4px;overflow:hidden" id="spaceWeatherBody">
@@ -1171,7 +1165,7 @@ body::after{
 
   <!-- NEWS STRIP -->
   <div style="flex:1;display:flex;flex-direction:column;overflow:hidden">
-    <div style="flex-shrink:0;padding:6px 10px;background:rgba(0,4,0,.6);border-bottom:1px solid rgba(0,255,65,.1);font-size:10px;font-weight:700;letter-spacing:1px;color:rgba(0,255,65,.5);text-transform:uppercase">📰 Intel Feed</div>
+    <div style="flex-shrink:0;padding:6px 10px;background:rgba(10,16,28,.8);border-bottom:1px solid rgba(56,189,248,.08);font-size:10px;font-weight:700;letter-spacing:1px;color:rgba(56,189,248,.5);text-transform:uppercase">📰 Intel Feed</div>
     <div style="flex:1;overflow-x:auto;overflow-y:hidden;display:flex;align-items:stretch" id="newsStrip"></div>
   </div>
 
@@ -1230,19 +1224,19 @@ body::after{
     [0.25,0.5,0.75,1].forEach(f=>{
       ctx2.beginPath();
       ctx2.arc(cx,cy,(R-1)*f,0,Math.PI*2);
-      ctx2.strokeStyle=`rgba(0,255,65,${f===1?0.25:0.08})`;
+      ctx2.strokeStyle=`rgba(56,189,248,${f===1?0.25:0.08})`;
       ctx2.lineWidth=f===1?1.5:0.5;
       ctx2.stroke();
     });
 
     // Cross hairs
-    ctx2.strokeStyle='rgba(0,255,65,0.08)';
+    ctx2.strokeStyle='rgba(56,189,248,0.08)';
     ctx2.lineWidth=0.5;
     [[cx,1,cx,299],[1,cy,299,cy]].forEach(([x1,y1,x2,y2])=>{
       ctx2.beginPath(); ctx2.moveTo(x1,y1); ctx2.lineTo(x2,y2); ctx2.stroke();
     });
     // Diagonal
-    ctx2.strokeStyle='rgba(0,255,65,0.04)';
+    ctx2.strokeStyle='rgba(56,189,248,0.04)';
     [[cx-R*.707,cy-R*.707,cx+R*.707,cy+R*.707],[cx+R*.707,cy-R*.707,cx-R*.707,cy+R*.707]].forEach(([x1,y1,x2,y2])=>{
       ctx2.beginPath(); ctx2.moveTo(x1,y1); ctx2.lineTo(x2,y2); ctx2.stroke();
     });
@@ -1257,8 +1251,8 @@ body::after{
     ctx2.arc(cx,cy,R-2,sweepAngle-trailSpan,sweepAngle,false);
     ctx2.closePath();
     const fillGrad = ctx2.createRadialGradient(cx,cy,0,cx,cy,R-2);
-    fillGrad.addColorStop(0,'rgba(0,255,65,0.0)');
-    fillGrad.addColorStop(1,'rgba(0,255,65,0.04)');
+    fillGrad.addColorStop(0,'rgba(56,189,248,0.0)');
+    fillGrad.addColorStop(1,'rgba(56,189,248,0.04)');
     ctx2.fillStyle=fillGrad;
     ctx2.fill();
     ctx2.restore();
@@ -1268,9 +1262,9 @@ body::after{
     ctx2.translate(cx,cy);
     ctx2.rotate(sweepAngle);
     const lineGrad=ctx2.createLinearGradient(0,0,R-2,0);
-    lineGrad.addColorStop(0,'rgba(0,255,65,0)');
-    lineGrad.addColorStop(0.6,'rgba(0,255,65,0.3)');
-    lineGrad.addColorStop(1,'rgba(0,255,65,0.9)');
+    lineGrad.addColorStop(0,'rgba(56,189,248,0)');
+    lineGrad.addColorStop(0.6,'rgba(56,189,248,0.3)');
+    lineGrad.addColorStop(1,'rgba(56,189,248,0.9)');
     ctx2.beginPath();
     ctx2.moveTo(0,0);
     ctx2.lineTo(R-2,0);
@@ -1280,15 +1274,15 @@ body::after{
     // Bright tip
     ctx2.beginPath();
     ctx2.arc(R-3,0,2.5,0,Math.PI*2);
-    ctx2.fillStyle='rgba(0,255,65,0.9)';
+    ctx2.fillStyle='rgba(56,189,248,0.9)';
     ctx2.fill();
     ctx2.restore();
 
     // Center dot
     ctx2.beginPath();
     ctx2.arc(cx,cy,4,0,Math.PI*2);
-    ctx2.fillStyle='#00ff41';
-    ctx2.shadowColor='#00ff41';
+    ctx2.fillStyle='#38bdf8';
+    ctx2.shadowColor='#38bdf8';
     ctx2.shadowBlur=10;
     ctx2.fill();
     ctx2.shadowBlur=0;
@@ -1308,13 +1302,13 @@ body::after{
   // ── Spawn radar pings ─────────────────────────────────────────────────────
   const PING_LOCATIONS = [
     // [%from center, angle from center in degrees, color]
-    [55, 30,  '#00ff41'], // NE
-    [70, 120, '#00ff41'], // SE
+    [55, 30,  '#38bdf8'], // NE
+    [70, 120, '#38bdf8'], // SE
     [40, 200, '#f97316'], // SW warm
     [80, 270, '#ef4444'], // W hot
-    [60, 340, '#00ff41'], // NNW
+    [60, 340, '#38bdf8'], // NNW
     [30, 80,  '#22d3ee'], // ENE blue
-    [75, 155, '#00ff41'], // SSE
+    [75, 155, '#38bdf8'], // SSE
     [50, 245, '#f97316'], // WSW
   ];
   let pingIdx=0;
@@ -1453,7 +1447,7 @@ TILES.labels.addTo(map);
 TILES.borders.addTo(map);
 // Tint the map green for situation room aesthetic
 const mapEl = document.getElementById('map');
-mapEl.style.filter = 'hue-rotate(85deg) saturate(0.6) brightness(0.9) contrast(1.1)';
+mapEl.style.filter = 'hue-rotate(195deg) saturate(0.35) brightness(0.55) contrast(1.2)';
 
 function setTile(t){
   map.removeLayer(TILES[currentTile]);
@@ -1512,7 +1506,7 @@ const BASES = [
   {name:'Mischief Reef',lat:9.908,lon:115.534,country:'china',type:'Island Base'},
 ];
 
-const baseCols={us:'#00ff41',iran:'#ff2040',russia:'#dc2626',china:'#e5ff00'};
+const baseCols={us:'#38bdf8',iran:'#ef4444',russia:'#dc2626',china:'#eab308'};
 let baseMarkers=[];
 let basesVisible=false;
 
@@ -1577,7 +1571,7 @@ const CR = {
 };
 const FLAGS={us:'🇺🇸',iran:'🇮🇷',russia:'🇷🇺',china:'🇨🇳',uk:'🇬🇧',france:'🇫🇷',germany:'🇩🇪',australia:'🇦🇺',japan:'🇯🇵',korea:'🇰🇷',israel:'🇮🇱',saudi:'🇸🇦',turkey:'🇹🇷',india:'🇮🇳',pakistan:'🇵🇰',canada:'🇨🇦',italy:'🇮🇹',nato:'🏛️',uae:'🇦🇪'};
 const CNAMES={us:'United States',iran:'Iran',russia:'Russia',china:'China',uk:'United Kingdom',france:'France',germany:'Germany',australia:'Australia',japan:'Japan',korea:'South Korea',israel:'Israel',saudi:'Saudi Arabia',turkey:'Turkey',india:'India',pakistan:'Pakistan',canada:'Canada',italy:'Italy',nato:'NATO',uae:'UAE'};
-const GCOL={us:'#00ff41',iran:'#ff2040',russia:'#dc2626',china:'#e5ff00',allied:'#bf5fff',unknown:'#4a6a4a'};
+const GCOL={us:'#38bdf8',iran:'#ef4444',russia:'#dc2626',china:'#eab308',allied:'#a78bfa',unknown:'#64748b'};
 
 function getCountry(hex){
   const h=parseInt(hex,16);
@@ -1792,7 +1786,7 @@ function showP(ac){
   let capHtml = '';
   if(cap){
     capHtml = `
-    <div style="padding:8px;background:rgba(0,255,65,.04);border:1px solid rgba(0,255,65,.12);border-radius:2px;margin-bottom:8px">
+    <div style="padding:8px;background:rgba(56,189,248,.04);border:1px solid rgba(56,189,248,.12);border-radius:2px;margin-bottom:8px">
       <div style="font-size:11px;font-weight:700;color:var(--accent);font-family:'Share Tech Mono',monospace;margin-bottom:3px">${cap.role}</div>
       <div style="font-size:10px;color:var(--text);margin-bottom:6px;line-height:1.4">${cap.desc}</div>
       <div class="f"><span class="k">Crew: </span><span class="v">${cap.crew}</span></div>
@@ -1814,8 +1808,8 @@ function showP(ac){
     <div class="f"><span class="k">Altitude: </span><span class="v">${alt}</span></div>
     <div class="f"><span class="k">Speed: </span><span class="v">${spd}</span></div>
     <div style="margin-top:8px;display:flex;gap:6px;flex-wrap:wrap">
-      <a href="https://globe.adsbexchange.com/?icao=${ac.hex}" target="_blank" style="font-size:10px;color:var(--accent);text-decoration:none;background:rgba(0,12,0,.8);padding:3px 7px;border-radius:2px;border:1px solid rgba(0,255,65,.2)">🌐 Track</a>
-      <a href="https://www.planespotters.net/hex/${ac.hex}" target="_blank" style="font-size:10px;color:var(--accent);text-decoration:none;background:rgba(0,12,0,.8);padding:3px 7px;border-radius:2px;border:1px solid rgba(0,255,65,.2)">📷 Photos</a>
+      <a href="https://globe.adsbexchange.com/?icao=${ac.hex}" target="_blank" style="font-size:10px;color:var(--accent);text-decoration:none;background:rgba(0,12,0,.8);padding:3px 7px;border-radius:2px;border:1px solid rgba(56,189,248,.2)">🌐 Track</a>
+      <a href="https://www.planespotters.net/hex/${ac.hex}" target="_blank" style="font-size:10px;color:var(--accent);text-decoration:none;background:rgba(0,12,0,.8);padding:3px 7px;border-radius:2px;border:1px solid rgba(56,189,248,.2)">📷 Photos</a>
     </div>
   `;
   document.getElementById('infoP').classList.add('vis');
@@ -2526,7 +2520,7 @@ function renderThreat(visible){
       <div style="font-size:11px;font-weight:700;color:${col};font-family:'Orbitron',monospace;letter-spacing:2px">${defconLabels[defcon]}</div>
       <div style="font-size:10px;color:${trendCol};margin-top:2px;font-family:'Share Tech Mono',monospace">${trend}</div>
     </div>
-    <div style="height:4px;background:rgba(0,255,65,.06);border-radius:2px;overflow:hidden;margin-top:6px">
+    <div style="height:4px;background:rgba(56,189,248,.06);border-radius:2px;overflow:hidden;margin-top:6px">
       <div style="height:100%;width:${pct}%;background:${col};border-radius:2px;transition:width .5s"></div>
     </div>
     <div style="display:flex;justify-content:space-between;margin-top:3px;font-size:9px;color:var(--muted);font-family:'Share Tech Mono',monospace">
@@ -2561,7 +2555,7 @@ function renderThreat(visible){
   const giLabels = {0:'—',1:'LOW',2:'GUARDED',3:'ELEVATED',4:'HIGH',5:'CRITICAL'};
   const giColors = {0:'var(--muted)',1:'#22c55e',2:'#eab308',3:'#f97316',4:'#ef4444',5:'#dc2626'};
   const gi = GROUND_INTEL;
-  h += `<div style="padding:8px 12px 4px;font-size:9px;border-top:1px solid rgba(0,255,65,.06)">`;
+  h += `<div style="padding:8px 12px 4px;font-size:9px;border-top:1px solid rgba(56,189,248,.06)">`;
   [
     {k:'ground_buildup',icon:'🪖',lbl:'TROOPS'},
     {k:'naval_concentration',icon:'⚓',lbl:'NAVAL'},
@@ -2578,7 +2572,7 @@ function renderThreat(visible){
   h += `</div>`;
 
   // Quick aircraft stats
-  h += `<div style="padding:8px 12px;font-size:10px;display:grid;grid-template-columns:1fr 1fr;gap:4px;border-top:1px solid rgba(0,255,65,.06)">
+  h += `<div style="padding:8px 12px;font-size:10px;display:grid;grid-template-columns:1fr 1fr;gap:4px;border-top:1px solid rgba(56,189,248,.06)">
     <span style="color:var(--accent)">⛽ ${tankers} TANKERS</span>
     <span style="color:var(--accent)">🔍 ${isr} ISR</span>
     <span style="color:${advActive>0?'#ef4444':'var(--muted)'}">⚔️ ${advActive} ADVERSARY</span>
@@ -2992,7 +2986,7 @@ function renderQuakes(){
     const rippleSize = dotSize * 2;
 
     // Color by magnitude
-    const col = mag >= 7 ? '#ff0040' : mag >= 6 ? '#ef4444' : mag >= 5 ? '#f97316' : mag >= 4 ? '#eab308' : '#00ff41';
+    const col = mag >= 7 ? '#ff0040' : mag >= 6 ? '#ef4444' : mag >= 5 ? '#f97316' : mag >= 4 ? '#eab308' : '#38bdf8';
     const time = new Date(p.time);
     const ago = Math.round((Date.now() - time) / 60000);
     const agoStr = ago < 60 ? `${ago}m ago` : `${Math.round(ago/60)}h ago`;
@@ -3025,7 +3019,7 @@ function renderQuakes(){
         <div class="f"><span class="k">Felt Reports: </span><span class="v">${p.felt || 'None'}</span></div>
         <div class="f"><span class="k">Alert Level: </span><span class="v" style="color:${p.alert==='red'?'#ef4444':p.alert==='orange'?'#f97316':p.alert==='yellow'?'#eab308':'var(--accent)'}">${(p.alert||'green').toUpperCase()}</span></div>
         <div style="margin-top:8px">
-          <a href="${p.url}" target="_blank" style="font-size:10px;color:var(--accent);text-decoration:none;background:rgba(0,12,0,.8);padding:3px 7px;border-radius:2px;border:1px solid rgba(0,255,65,.2)">🔗 USGS Details</a>
+          <a href="${p.url}" target="_blank" style="font-size:10px;color:var(--accent);text-decoration:none;background:rgba(0,12,0,.8);padding:3px 7px;border-radius:2px;border:1px solid rgba(56,189,248,.2)">🔗 USGS Details</a>
         </div>
       `;
       document.getElementById('infoP').classList.add('vis');
@@ -3060,12 +3054,12 @@ let NOTAMS = [
    authority:'US NAVCENT / CENTCOM'},
   // Military operating areas
   {name:'Nevada Test & Training Range', type:'MOA', severity:'RESTRICTED',
-   lat:37.2, lon:-116.0, radiusKm:120, color:'#00ff41',
+   lat:37.2, lon:-116.0, radiusKm:120, color:'#38bdf8',
    issued:'PERMANENT', altitude:'SFC-FL600',
    desc:'Largest military airspace in the free world. Home to Nellis AFB, Area 51, Tonopah Test Range. Red Flag exercises, stealth testing, weapons development.',
    authority:'USAF / FAA'},
   {name:'White Sands Missile Range', type:'MOA', severity:'RESTRICTED',
-   lat:32.4, lon:-106.3, radiusKm:80, color:'#00ff41',
+   lat:32.4, lon:-106.3, radiusKm:80, color:'#38bdf8',
    issued:'PERMANENT', altitude:'SFC-UNL',
    desc:'Primary US missile testing facility. Hypersonic weapons testing, air defense systems, directed energy weapons. Periodic closures for live fire.',
    authority:'US Army / FAA'},
@@ -3141,7 +3135,7 @@ function renderNOTAMs(){
       document.getElementById('pBody').innerHTML = `
         <div style="margin-bottom:6px">
           <span style="font-size:10px;padding:2px 8px;border-radius:2px;font-weight:700;font-family:'Share Tech Mono',monospace;background:${n.color}18;color:${n.color};border:1px solid ${n.color}40">${n.severity}</span>
-          <span style="font-size:10px;padding:2px 8px;border-radius:2px;font-family:'Share Tech Mono',monospace;background:rgba(0,255,65,.05);color:var(--muted);border:1px solid rgba(0,255,65,.1);margin-left:4px">${n.type}</span>
+          <span style="font-size:10px;padding:2px 8px;border-radius:2px;font-family:'Share Tech Mono',monospace;background:rgba(56,189,248,.05);color:var(--muted);border:1px solid rgba(56,189,248,.1);margin-left:4px">${n.type}</span>
         </div>
         <div class="f"><span class="k">Issued: </span><span class="v">${n.issued}</span></div>
         <div class="f"><span class="k">Altitude: </span><span class="v">${n.altitude}</span></div>
@@ -3275,7 +3269,7 @@ function renderGPSJam(){
 // ════════════════════════════════════════
 let EXERCISES = [
   {name:'DEFENDER EUROPE 2026', status:'PLANNED', type:'NATO',
-   lat:54.0, lon:20.0, radiusKm:400, color:'#00ff41',
+   lat:54.0, lon:20.0, radiusKm:400, color:'#38bdf8',
    nations:'🇺🇸🇬🇧🇩🇪🇫🇷🇵🇱🇪🇪🇱🇹🇱🇻 + 20 NATO allies',
    period:'May-Jun 2026', personnel:'~30,000',
    summary:'Large-scale NATO deterrence exercise in Eastern Europe. Tests rapid deployment of US forces to European theater. Focus on Baltic and Polish corridors.',
@@ -3287,7 +3281,7 @@ let EXERCISES = [
    summary:'World\'s largest international maritime exercise. Held biennially near Hawaii. Anti-submarine warfare, amphibious ops, live-fire exercises, HADR.',
    components:['Carrier ops','Submarine warfare','Amphibious assault','Live-fire sinking exercise']},
   {name:'STEADFAST DEFENDER', status:'ONGOING', type:'NATO',
-   lat:58.0, lon:15.0, radiusKm:600, color:'#00ff41',
+   lat:58.0, lon:15.0, radiusKm:600, color:'#38bdf8',
    nations:'🇺🇸🇬🇧🇩🇪🇫🇷🇳🇴🇸🇪🇫🇮 + all 32 NATO members',
    period:'2024-2026 (rolling)', personnel:'~90,000',
    summary:'NATO\'s largest exercise since Cold War. Tests new defense plans against near-peer threat. Full-spectrum operations from Arctic to Mediterranean.',
@@ -3311,13 +3305,13 @@ let EXERCISES = [
    summary:'Russia\'s large-scale strategic exercise in Eastern Military District. Scaled down since Ukraine invasion. Tests Pacific Fleet and Eastern theater readiness.',
    components:['Strategic bomber flights','Naval fleet ops','Ground maneuver','Nuclear readiness drills']},
   {name:'JOINT SWORD (China)', status:'RECURRING', type:'PLA',
-   lat:25.0, lon:121.0, radiusKm:200, color:'#e5ff00',
+   lat:25.0, lon:121.0, radiusKm:200, color:'#eab308',
    nations:'🇨🇳 PLA',
    period:'Triggered by political events', personnel:'Unknown',
    summary:'PLA exercises encircling Taiwan. Simulates blockade and invasion scenarios. Live-fire drills, missile launches into surrounding waters. Escalatory signaling.',
    components:['Naval blockade drill','Amphibious assault','Missile launches','Air superiority ops']},
   {name:'RED FLAG', status:'RECURRING', type:'USAF',
-   lat:36.8, lon:-115.0, radiusKm:100, color:'#00ff41',
+   lat:36.8, lon:-115.0, radiusKm:100, color:'#38bdf8',
    nations:'🇺🇸 + allied air forces',
    period:'Multiple annually at Nellis AFB', personnel:'~4,000',
    summary:'Premier USAF air combat training exercise. Realistic adversary air ("Red Air") scenarios. Tests 5th-gen integration, electronic warfare, SEAD/DEAD.',
@@ -3366,14 +3360,14 @@ function renderExercises(){
       document.getElementById('pTitle').textContent = ex.name;
       document.getElementById('pBody').innerHTML = `
         <div style="margin-bottom:6px"><span style="font-size:10px;padding:2px 8px;border-radius:2px;font-weight:700;font-family:'Share Tech Mono',monospace;background:${ex.color}18;color:${ex.color};border:1px solid ${ex.color}40">${ex.status}</span>
-        <span style="font-size:10px;padding:2px 8px;border-radius:2px;font-family:'Share Tech Mono',monospace;background:rgba(0,255,65,.05);color:var(--muted);border:1px solid rgba(0,255,65,.1);margin-left:4px">${ex.type}</span></div>
+        <span style="font-size:10px;padding:2px 8px;border-radius:2px;font-family:'Share Tech Mono',monospace;background:rgba(56,189,248,.05);color:var(--muted);border:1px solid rgba(56,189,248,.1);margin-left:4px">${ex.type}</span></div>
         <div class="f"><span class="k">Nations: </span><span class="v">${ex.nations}</span></div>
         <div class="f"><span class="k">Period: </span><span class="v">${ex.period}</span></div>
         <div class="f"><span class="k">Personnel: </span><span class="v">${ex.personnel}</span></div>
         <div style="margin-top:6px;font-size:10px;color:var(--text);line-height:1.5">${ex.summary}</div>
         <div style="margin-top:8px">
           <div style="font-size:9px;color:var(--muted);text-transform:uppercase;letter-spacing:1px;margin-bottom:4px">Components</div>
-          ${ex.components.map(c=>`<span style="display:inline-block;font-size:10px;padding:2px 6px;margin:2px;background:rgba(0,255,65,.05);border:1px solid rgba(0,255,65,.12);border-radius:2px;color:var(--text)">${c}</span>`).join('')}
+          ${ex.components.map(c=>`<span style="display:inline-block;font-size:10px;padding:2px 6px;margin:2px;background:rgba(56,189,248,.05);border:1px solid rgba(56,189,248,.12);border-radius:2px;color:var(--text)">${c}</span>`).join('')}
         </div>
       `;
       document.getElementById('infoP').classList.add('vis');
@@ -3486,7 +3480,7 @@ function renderConflicts(){
         <div style="margin-top:6px;font-size:10px;color:var(--text);line-height:1.5">${c.summary}</div>
         <div style="margin-top:8px">
           <div style="font-size:9px;color:var(--muted);text-transform:uppercase;letter-spacing:1px;margin-bottom:4px">Hotspots</div>
-          ${c.hotspots.map(h=>`<span style="display:inline-block;font-size:10px;padding:2px 6px;margin:2px;background:rgba(0,255,65,.05);border:1px solid rgba(0,255,65,.12);border-radius:2px;color:var(--text)">${h}</span>`).join('')}
+          ${c.hotspots.map(h=>`<span style="display:inline-block;font-size:10px;padding:2px 6px;margin:2px;background:rgba(56,189,248,.05);border:1px solid rgba(56,189,248,.12);border-radius:2px;color:var(--text)">${h}</span>`).join('')}
         </div>
       `;
       document.getElementById('infoP').classList.add('vis');
@@ -3495,6 +3489,102 @@ function renderConflicts(){
     conflictLayer.addLayer(circle);
     conflictLayer.addLayer(marker);
   });
+}
+
+// ════════════════════════════════════════
+// STRIKE SITES OVERLAY (28 FEB 2026 — ON BY DEFAULT)
+// ════════════════════════════════════════
+const STRIKE_SITES = [
+  // US-Israel strikes on Iran
+  {name:'Tehran — Leadership House area', lat:35.6944, lon:51.4215, type:'us_strike', desc:'Smoke observed near Supreme Leader\'s office (Jomhouri Sq, Hassan Abad Sq). Multiple verified videos.', time:'09:30 UTC'},
+  {name:'Isfahan — Nuclear/UCF', lat:32.625, lon:51.671, type:'us_strike', desc:'Explosions reported in Isfahan. Uranium Conversion Facility nearby. Strike effectiveness unknown.', time:'09:30 UTC'},
+  {name:'Qom — near Fordow', lat:34.64, lon:50.88, type:'us_strike', desc:'Explosions reported near Qom. Fordow underground enrichment facility ~30km away.', time:'09:30 UTC'},
+  {name:'Karaj', lat:35.83, lon:51.01, type:'us_strike', desc:'Explosions reported. Karaj hosts nuclear centrifuge production facilities.', time:'09:30 UTC'},
+  {name:'Kermanshah', lat:34.32, lon:47.07, type:'us_strike', desc:'Explosions reported in Kermanshah (western Iran). Military bases in area.', time:'09:30 UTC'},
+  // Iranian retaliation
+  {name:'Haifa — Israel', lat:32.794, lon:34.99, type:'iran_retaliation', desc:'Explosions heard. Unclear if impacts or Iron Dome intercepts. IDF working to intercept.', time:'11:28 UTC'},
+  {name:'NSA Bahrain — US 5th Fleet HQ', lat:26.217, lon:50.607, type:'iran_retaliation', desc:'Iranian missile attack on US Navy 5th Fleet service center. Bahrain activated emergency sirens.', time:'11:00 UTC'},
+  {name:'Al Udeid AB — Qatar', lat:25.117, lon:51.315, type:'iran_retaliation', desc:'Largest US military facility in region (~10,000 troops). Qatar: "successfully countered a number of attacks."', time:'10:45 UTC'},
+  {name:'UAE — Al Dhafra AB area', lat:24.248, lon:54.547, type:'iran_retaliation', desc:'Iran struck UAE territory. 1 person killed by falling debris from air defense intercepts. Airspace partially closed.', time:'10:30 UTC'},
+];
+
+let strikeLayer = L.layerGroup();
+let strikesVisible = true; // ON by default
+
+function toggleStrikes(){
+  strikesVisible = !strikesVisible;
+  const btn = document.getElementById('btn-strikes');
+  if(strikesVisible){
+    strikeLayer.addTo(map);
+    btn.classList.add('on');
+    renderStrikes();
+  } else {
+    map.removeLayer(strikeLayer);
+    btn.classList.remove('on');
+  }
+}
+
+function renderStrikes(){
+  strikeLayer.clearLayers();
+  if(!strikesVisible) return;
+
+  STRIKE_SITES.forEach(s => {
+    const isUSStrike = s.type === 'us_strike';
+    const col = isUSStrike ? '#ef4444' : '#f97316';
+    const icon = isUSStrike ? '💥' : '🚀';
+    const label = isUSStrike ? 'US-ISRAEL STRIKE' : 'IRAN RETALIATION';
+    const ringSize = isUSStrike ? 25000 : 20000; // meters
+
+    // Expanding pulse ring
+    const ring = L.circle([s.lat, s.lon], {
+      radius: ringSize,
+      fillColor: col,
+      fillOpacity: 0.06,
+      color: col,
+      weight: 1.5,
+      opacity: 0.4,
+    });
+
+    // Animated center marker
+    const marker = L.marker([s.lat, s.lon], {
+      icon: L.divIcon({
+        html:`<div style="position:relative;cursor:pointer">
+          <div style="font-size:18px;text-shadow:0 0 12px ${col};position:relative;z-index:2">${icon}</div>
+          <div style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:24px;height:24px;border-radius:50%;background:${col};opacity:0.3;animation:strike-pulse 1.5s ease-out infinite"></div>
+          <div style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:40px;height:40px;border-radius:50%;border:2px solid ${col};opacity:0.2;animation:strike-ring 2s ease-out infinite"></div>
+        </div>`,
+        className:'', iconSize:[24,24], iconAnchor:[12,12]
+      })
+    });
+
+    marker.bindTooltip(`${icon} ${s.name}<br><b style="color:${col}">${label}</b> — ${s.time}`, {className:'dark-tooltip', direction:'top', offset:[0,-14]});
+    marker.on('click', () => {
+      document.getElementById('pTitle').textContent = `${icon} ${s.name}`;
+      document.getElementById('pBody').innerHTML = `
+        <div style="margin-bottom:8px;display:flex;gap:4px;flex-wrap:wrap">
+          <span style="font-size:10px;padding:2px 8px;border-radius:3px;font-weight:700;font-family:'Share Tech Mono',monospace;background:${col}15;color:${col};border:1px solid ${col}40">${label}</span>
+          <span style="font-size:10px;padding:2px 8px;border-radius:3px;font-weight:700;font-family:'Share Tech Mono',monospace;background:rgba(56,189,248,.06);color:var(--accent);border:1px solid rgba(56,189,248,.2)">${s.time}</span>
+        </div>
+        <div style="font-size:11px;color:var(--text);line-height:1.5;margin-top:6px">${s.desc}</div>
+        <div style="margin-top:8px;font-size:9px;color:var(--muted);font-family:'Share Tech Mono',monospace">28 FEB 2026 — SOURCE: BBC, VERIFIED OSINT</div>
+      `;
+      document.getElementById('infoP').classList.add('vis');
+    });
+
+    strikeLayer.addLayer(ring);
+    strikeLayer.addLayer(marker);
+  });
+}
+
+// Strike pulse animation (added via JS to avoid CSS duplication)
+if(!document.getElementById('strike-anim-style')){
+  const s = document.createElement('style');
+  s.id = 'strike-anim-style';
+  s.textContent = `
+    @keyframes strike-pulse{0%{transform:translate(-50%,-50%) scale(0.8);opacity:0.4}100%{transform:translate(-50%,-50%) scale(2);opacity:0}}
+    @keyframes strike-ring{0%{transform:translate(-50%,-50%) scale(0.5);opacity:0.3}100%{transform:translate(-50%,-50%) scale(3);opacity:0}}
+  `;
+  document.head.appendChild(s);
 }
 
 // ════════════════════════════════════════
@@ -3617,7 +3707,7 @@ function renderNaval(){
 
   // Map markers for deployments
   const shipIcon = (country) => {
-    const col = country==='us' ? '#00ff41' : country==='russia' ? '#dc2626' : country==='china' ? '#e5ff00' : country==='iran' ? '#ff2040' : '#bf5fff';
+    const col = country==='us' ? '#38bdf8' : country==='russia' ? '#dc2626' : country==='china' ? '#eab308' : country==='iran' ? '#ef4444' : '#a78bfa';
     return L.divIcon({
       html:`<div style="color:${col};font-size:16px;text-shadow:0 0 8px ${col}80;cursor:pointer">⚓</div>`,
       className:'', iconSize:[16,16], iconAnchor:[8,8]
@@ -3633,7 +3723,7 @@ function renderNaval(){
         const capInfo = NAVAL_CAPS[d.type] || null;
         let capHtml = '';
         if(capInfo){
-          capHtml = `<div style="margin-top:8px;padding:8px;background:rgba(0,255,65,.04);border:1px solid rgba(0,255,65,.12);border-radius:2px">
+          capHtml = `<div style="margin-top:8px;padding:8px;background:rgba(56,189,248,.04);border:1px solid rgba(56,189,248,.12);border-radius:2px">
             <div style="font-size:11px;font-weight:700;color:var(--accent);font-family:'Share Tech Mono',monospace;margin-bottom:4px">${capInfo.name}</div>
             <div style="font-size:10px;color:var(--text);margin-bottom:4px;line-height:1.4">${capInfo.desc}</div>
             <div class="f"><span class="k">Composition: </span><span class="v" style="line-height:1.4">${capInfo.composition}</span></div>
@@ -3656,8 +3746,8 @@ function renderNaval(){
     // Chokepoint markers
     CHOKEPOINTS.forEach(c => {
       const m = L.circleMarker([c.lat, c.lon], {
-        radius: 8, fillColor: c.status==='HIGH RISK'||c.status==='ELEVATED' ? '#ff2040' : c.status==='WATCH' ? '#e5ff00' : '#00ff41',
-        fillOpacity: 0.3, color: c.status==='HIGH RISK'||c.status==='ELEVATED' ? '#ff2040' : c.status==='WATCH' ? '#e5ff00' : '#00ff41',
+        radius: 8, fillColor: c.status==='HIGH RISK'||c.status==='ELEVATED' ? '#ef4444' : c.status==='WATCH' ? '#eab308' : '#38bdf8',
+        fillOpacity: 0.3, color: c.status==='HIGH RISK'||c.status==='ELEVATED' ? '#ef4444' : c.status==='WATCH' ? '#eab308' : '#38bdf8',
         weight: 2, opacity: 0.6
       }).bindTooltip(`⚠ ${c.name}: ${c.status}`, {className:'dark-tooltip', direction:'top'});
       navalLayer.addLayer(m);
@@ -3817,7 +3907,7 @@ function showBriefing(){
   const alliedCount = visible.filter(a=>getGroup(a.hex)==='allied').length;
   const { pct } = computeThreat(visible);
   const defcon = pct >= 80 ? 1 : pct >= 60 ? 2 : pct >= 40 ? 3 : pct >= 20 ? 4 : 5;
-  const defconCol = defcon<=2?'#ef4444':defcon===3?'#f97316':defcon===4?'#eab308':'#00ff41';
+  const defconCol = defcon<=2?'#ef4444':defcon===3?'#f97316':defcon===4?'#eab308':'#38bdf8';
 
   // Count by type
   const types = {};
@@ -3849,7 +3939,7 @@ function showBriefing(){
   h += `<div class="brief-section"><h3>⚔️ Active Conflicts (${activeConflicts.length})</h3>`;
   activeConflicts.forEach(c => {
     const col = c.intensity==='HIGH'?'#ef4444':'#f97316';
-    h += `<div style="padding:6px 0;border-bottom:1px solid rgba(0,255,65,.04)">
+    h += `<div style="padding:6px 0;border-bottom:1px solid rgba(56,189,248,.04)">
       <div style="display:flex;justify-content:space-between;align-items:center">
         <span style="font-size:11px;color:var(--text);font-weight:700">${c.name}</span>
         <span style="font-size:9px;padding:1px 6px;border-radius:2px;background:${col}18;color:${col};border:1px solid ${col}40;font-weight:700">${c.status}</span>
@@ -3901,7 +3991,7 @@ function showBriefing(){
   }
 
   // Classification footer
-  h += `<div style="text-align:center;margin-top:16px;padding-top:12px;border-top:1px solid rgba(0,255,65,.1)">
+  h += `<div style="text-align:center;margin-top:16px;padding-top:12px;border-top:1px solid rgba(56,189,248,.1)">
     <div style="font-size:9px;color:var(--muted);font-family:'Share Tech Mono',monospace;letter-spacing:2px">⚠️ UNCLASSIFIED // OSINT ONLY</div>
     <div style="font-size:9px;color:var(--muted);margin-top:4px">PIKECLAW MILITARY OSINT TERMINAL v3.1</div>
   </div>`;
@@ -3950,7 +4040,7 @@ async function fetchISS(){
           const issCrew = cd.people.filter(p=>p.craft==='ISS');
           const tiangongCrew = cd.people.filter(p=>p.craft==='Tiangong');
           crewHtml = `<div style="font-size:9px;color:var(--muted);text-transform:uppercase;letter-spacing:1px;margin-bottom:4px">ISS Crew (${issCrew.length})</div>` +
-            issCrew.map(p=>`<span style="display:inline-block;font-size:10px;padding:2px 6px;margin:2px;background:rgba(0,255,65,.05);border:1px solid rgba(0,255,65,.12);border-radius:2px;color:var(--text)">${p.name}</span>`).join('') +
+            issCrew.map(p=>`<span style="display:inline-block;font-size:10px;padding:2px 6px;margin:2px;background:rgba(56,189,248,.05);border:1px solid rgba(56,189,248,.12);border-radius:2px;color:var(--text)">${p.name}</span>`).join('') +
             (tiangongCrew.length ? `<div style="font-size:9px;color:var(--muted);text-transform:uppercase;letter-spacing:1px;margin:8px 0 4px">Tiangong Crew (${tiangongCrew.length})</div>` +
             tiangongCrew.map(p=>`<span style="display:inline-block;font-size:10px;padding:2px 6px;margin:2px;background:rgba(229,255,0,.05);border:1px solid rgba(229,255,0,.12);border-radius:2px;color:var(--text)">${p.name}</span>`).join('') : '') +
             `<div style="margin-top:6px;font-size:10px;color:var(--accent)">${cd.number} humans in space right now</div>`;
@@ -4052,7 +4142,7 @@ function renderLaunches(){
     const statusCol = status==='Go' || status==='TBD' ? 'var(--accent)' : status==='TBC' ? 'var(--yellow)' : '#ef4444';
     const isMilitary = /military|classified|nrol|spy|recon|gps|sbirs|wgs|muos|defense/i.test(l.name + (l.mission?.description||''));
 
-    h += `<div style="padding:6px 10px;border-bottom:1px solid rgba(0,255,65,.06);cursor:pointer" onclick="this.querySelector('.launch-detail')?.classList.toggle('vis')">
+    h += `<div style="padding:6px 10px;border-bottom:1px solid rgba(56,189,248,.06);cursor:pointer" onclick="this.querySelector('.launch-detail')?.classList.toggle('vis')">
       <div style="display:flex;justify-content:space-between;align-items:center;gap:4px">
         <span style="font-size:10px;color:${isMilitary?'#f97316':'var(--text)'};font-weight:700;flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">${isMilitary?'🎖️':'🚀'} ${l.name}</span>
         <span class="${countdownClass}" style="font-size:10px;font-weight:700;color:var(--accent);font-family:'Orbitron',monospace;letter-spacing:1px;white-space:nowrap">${countdown}</span>
@@ -4108,10 +4198,10 @@ function renderCurrency(rates){
     const prev = prevRates[p.code];
     const change = prev ? ((rate - prev) / prev * 100) : 0;
     const arrow = change > 0.01 ? '▲' : change < -0.01 ? '▼' : '►';
-    const changeCol = change > 0.01 ? '#ef4444' : change < -0.01 ? '#00ff41' : 'var(--muted)';
+    const changeCol = change > 0.01 ? '#ef4444' : change < -0.01 ? '#38bdf8' : 'var(--muted)';
     const flashClass = prev && Math.abs(change) > 0.01 ? 'currency-updated' : '';
 
-    h += `<div class="${flashClass}" style="padding:5px 10px;border-bottom:1px solid rgba(0,255,65,.06);display:flex;justify-content:space-between;align-items:center" title="${p.note}">
+    h += `<div class="${flashClass}" style="padding:5px 10px;border-bottom:1px solid rgba(56,189,248,.06);display:flex;justify-content:space-between;align-items:center" title="${p.note}">
       <div>
         <div style="font-size:10px;color:var(--text);font-weight:700">${p.label}</div>
         <div style="font-size:8px;color:var(--muted)">${p.note}</div>
@@ -4195,10 +4285,10 @@ function renderCentcom(data){
           <div style="width:5px;height:5px;border-radius:50%;background:${statusCol};box-shadow:0 0 4px ${statusCol};flex-shrink:0"></div>
         </div>
         ${item.sub ? `<div class="ca-sub">${item.sub}</div>` : ''}
-        ${item.detail ? `<div class="ca-meta" style="color:rgba(0,255,65,.45);margin-bottom:2px">${item.detail}</div>` : ''}
+        ${item.detail ? `<div class="ca-meta" style="color:rgba(56,189,248,.45);margin-bottom:2px">${item.detail}</div>` : ''}
         <div class="ca-meta">
           ${metaStr ? `<span>${metaStr}</span>` : ''}
-          ${item.notes ? `<span style="color:rgba(0,255,65,.35);font-style:italic">${item.notes}</span>` : ''}
+          ${item.notes ? `<span style="color:rgba(56,189,248,.35);font-style:italic">${item.notes}</span>` : ''}
         </div>
       </div>`;
     });
@@ -4430,6 +4520,9 @@ fetchSpaceWeather();
 initXFeed();
 renderAdvPanel('iran');
 renderIranTimeline();
+// Initialize strike layer ON by default
+strikeLayer.addTo(map);
+renderStrikes();
 loadIntelData();
 // Fix Leaflet map size on mobile after layout settles
 setTimeout(() => map.invalidateSize(), 300);
@@ -4489,7 +4582,7 @@ function updateTerminator(){
   if(terminatorLayer) map.removeLayer(terminatorLayer);
   terminatorLayer = L.polygon(poly, {
     fillColor: '#000', fillOpacity: 0.35, stroke: true,
-    color: 'rgba(0,255,65,.25)', weight: 1, dashArray: '4 4', interactive: false
+    color: 'rgba(56,189,248,.25)', weight: 1, dashArray: '4 4', interactive: false
   }).addTo(map);
 }
 
@@ -4641,7 +4734,7 @@ const NUKE_RADII = {
   50000: [3.5, 15.0, 35.0, 60.0, 6.5],
 };
 
-const NUKE_COLORS = ['#ff0000','#ff4400','#ff8800','#ffcc00','#00ff41'];
+const NUKE_COLORS = ['#ff0000','#ff4400','#ff8800','#ffcc00','#38bdf8'];
 const NUKE_LABELS = ['Fireball','Heavy blast (20psi)','Moderate blast (5psi)','Thermal radiation (3rd°)','Radiation (500rem)'];
 
 function toggleNukeMode(){
@@ -4802,7 +4895,7 @@ async function fetchSpaceWeather(){
     const latest = kpData[kpData.length - 1];
     const kp = parseFloat(latest[1]);
     const kpLabel = kp >= 7 ? 'SEVERE' : kp >= 5 ? 'STORM' : kp >= 4 ? 'ACTIVE' : kp >= 2 ? 'UNSETTLED' : 'QUIET';
-    const kpCol = kp >= 7 ? '#ef4444' : kp >= 5 ? '#f97316' : kp >= 4 ? '#f59e0b' : kp >= 2 ? '#eab308' : '#00ff41';
+    const kpCol = kp >= 7 ? '#ef4444' : kp >= 5 ? '#f97316' : kp >= 4 ? '#f59e0b' : kp >= 2 ? '#eab308' : '#38bdf8';
 
     // Solar wind speed (DSCOVR)
     let windSpeed = '—', windCol = 'var(--muted)';
@@ -4811,7 +4904,7 @@ async function fetchSpaceWeather(){
       const windData = await windRes.json();
       const lastWind = windData[windData.length - 1];
       windSpeed = Math.round(parseFloat(lastWind[2])) + ' km/s';
-      windCol = parseFloat(lastWind[2]) > 600 ? '#ef4444' : parseFloat(lastWind[2]) > 450 ? '#f59e0b' : '#00ff41';
+      windCol = parseFloat(lastWind[2]) > 600 ? '#ef4444' : parseFloat(lastWind[2]) > 450 ? '#f59e0b' : '#38bdf8';
     } catch(e){}
 
     // X-ray flux (solar flares)
@@ -4822,16 +4915,16 @@ async function fetchSpaceWeather(){
       if(flareData.length) {
         const flux = parseFloat(flareData[flareData.length-1].flux);
         flareClass = flux >= 1e-4 ? 'X-class' : flux >= 1e-5 ? 'M-class' : flux >= 1e-6 ? 'C-class' : flux >= 1e-7 ? 'B-class' : 'A-class';
-        flareCol = flux >= 1e-4 ? '#ef4444' : flux >= 1e-5 ? '#f97316' : flux >= 1e-6 ? '#f59e0b' : '#00ff41';
+        flareCol = flux >= 1e-4 ? '#ef4444' : flux >= 1e-5 ? '#f97316' : flux >= 1e-6 ? '#f59e0b' : '#38bdf8';
       }
     } catch(e){}
 
     // GPS degradation risk
     const gpsDeg = kp >= 6 ? 'HIGH' : kp >= 4 ? 'MODERATE' : 'LOW';
-    const gpsCol = kp >= 6 ? '#ef4444' : kp >= 4 ? '#f59e0b' : '#00ff41';
+    const gpsCol = kp >= 6 ? '#ef4444' : kp >= 4 ? '#f59e0b' : '#38bdf8';
     // HF Radio impact
     const hfImpact = kp >= 5 ? 'DEGRADED' : kp >= 3 ? 'MINOR' : 'NOMINAL';
-    const hfCol = kp >= 5 ? '#f97316' : kp >= 3 ? '#f59e0b' : '#00ff41';
+    const hfCol = kp >= 5 ? '#f97316' : kp >= 3 ? '#f59e0b' : '#38bdf8';
 
     el.innerHTML = `
       <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:3px">
@@ -4846,7 +4939,7 @@ async function fetchSpaceWeather(){
         <div style="font-size:9px;color:var(--muted)">X-RAY FLUX</div>
         <div style="font-size:10px;font-weight:700;color:${flareCol};font-family:'Share Tech Mono',monospace">${flareClass}</div>
       </div>
-      <div style="border-top:1px solid rgba(0,255,65,.08);margin:4px 0;padding-top:4px">
+      <div style="border-top:1px solid rgba(56,189,248,.08);margin:4px 0;padding-top:4px">
         <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:2px">
           <div style="font-size:8px;color:var(--muted)">GPS DEG</div>
           <div style="font-size:8px;font-weight:700;color:${gpsCol}">${gpsDeg}</div>
