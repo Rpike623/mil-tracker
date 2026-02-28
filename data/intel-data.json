@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-02-28T22:03:59Z",
-  "version": 100,
+  "generated_utc": "2026-02-28T22:10:51Z",
+  "version": 101,
   "breaking_alert": "⚡ IRAN \"TRUTHFUL PROMISE 4\" — INTERNET BLACKOUT — HORMUZ BAN — OP EPIC FURY ONGOING — UN SC 21:00 GMT",
   "naval_deployments": [
     {
@@ -667,13 +667,13 @@
       ]
     },
     {
-      "title": "US launches ‘major combat operations’ against Iran",
-      "link": "https://taskandpurpose.com/news/us-israel-combat-bomb-iran/",
-      "published": "Sat, 28 Feb 2026 13:56:00 -0500",
-      "source": "Task & Purpose",
+      "title": "World leaders fear broader escalation after major US and Israeli attack on Iran",
+      "link": "https://www.defensenews.com/global/mideast-africa/2026/02/28/world-leaders-fear-broader-escalation-after-major-us-and-israeli-attack-on-iran/",
+      "published": "Sat, 28 Feb 2026 13:56:26 +0000",
+      "source": "Defense News",
       "categories": [
         "deployment",
-        "exercise"
+        "conflict"
       ]
     }
   ],
@@ -923,7 +923,7 @@
     {
       "title": "US launches ‘major combat operations’ against Iran",
       "link": "https://taskandpurpose.com/news/us-israel-combat-bomb-iran/",
-      "published": "Sat, 28 Feb 2026 13:56:00 -0500",
+      "published": "Sat, 28 Feb 2026 17:10:36 -0500",
       "source": "Task & Purpose",
       "categories": [
         "deployment",
@@ -936,7 +936,7 @@
     "conflict_articles": 10,
     "exercise_articles": 7,
     "total_articles": 50,
-    "computed_at": "2026-02-28T22:03:58.917818+00:00",
+    "computed_at": "2026-02-28T22:10:51.175114+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "Iran IRGC retaliation op name: \"Operation Truthful Promise 4\"",
