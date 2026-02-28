@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-02-28T18:15:25Z",
-  "version": 96,
+  "generated_utc": "2026-02-28T19:11:57Z",
+  "version": 97,
   "breaking_alert": "⚡ IRAN \"TRUTHFUL PROMISE 4\" — INTERNET BLACKOUT — HORMUZ BAN — OP EPIC FURY ONGOING — UN SC 21:00 GMT",
   "naval_deployments": [
     {
@@ -647,16 +647,6 @@
       ]
     },
     {
-      "title": "US launches ‘major combat operations’ against Iran",
-      "link": "https://taskandpurpose.com/news/us-israel-combat-bomb-iran/",
-      "published": "Sat, 28 Feb 2026 03:56:10 -0500",
-      "source": "Task & Purpose",
-      "categories": [
-        "deployment",
-        "exercise"
-      ]
-    },
-    {
       "title": "US, Israel launch ‘major combat operations’ in Iran",
       "link": "https://www.defensenews.com/news/your-military/2026/02/28/us-israel-launch-major-combat-operations-in-iran/",
       "published": "Sat, 28 Feb 2026 12:51:48 +0000",
@@ -671,6 +661,16 @@
       "link": "https://www.militarytimes.com/news/your-military/2026/02/28/us-israel-launch-major-combat-operations-in-iran/",
       "published": "Sat, 28 Feb 2026 12:51:48 +0000",
       "source": "Military Times",
+      "categories": [
+        "deployment",
+        "exercise"
+      ]
+    },
+    {
+      "title": "US launches ‘major combat operations’ against Iran",
+      "link": "https://taskandpurpose.com/news/us-israel-combat-bomb-iran/",
+      "published": "Sat, 28 Feb 2026 13:56:00 -0500",
+      "source": "Task & Purpose",
       "categories": [
         "deployment",
         "exercise"
@@ -857,6 +857,26 @@
         "deployment",
         "conflict"
       ]
+    },
+    {
+      "title": "UPDATED: U.S., Israel Launch Strikes Against Iran, Tehran Retaliates Across Region",
+      "link": "https://news.usni.org/2026/02/28/u-s-israel-launch-operation-epic-fury-against-iran-tehran-retaliates-across-region",
+      "published": "Sat, 28 Feb 2026 16:37:44 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
+    },
+    {
+      "title": "US confirms first combat use of LUCAS one-way attack drone in Iran strikes",
+      "link": "https://www.defensenews.com/news/your-military/2026/02/28/us-confirms-first-combat-use-of-lucas-one-way-attack-drone-in-iran-strikes/",
+      "published": "Sat, 28 Feb 2026 18:41:36 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
     }
   ],
   "_exercise_news_refs": [
@@ -881,16 +901,6 @@
       ]
     },
     {
-      "title": "US launches ‘major combat operations’ against Iran",
-      "link": "https://taskandpurpose.com/news/us-israel-combat-bomb-iran/",
-      "published": "Sat, 28 Feb 2026 03:56:10 -0500",
-      "source": "Task & Purpose",
-      "categories": [
-        "deployment",
-        "exercise"
-      ]
-    },
-    {
       "title": "US, Israel launch ‘major combat operations’ in Iran",
       "link": "https://www.defensenews.com/news/your-military/2026/02/28/us-israel-launch-major-combat-operations-in-iran/",
       "published": "Sat, 28 Feb 2026 12:51:48 +0000",
@@ -909,14 +919,24 @@
         "deployment",
         "exercise"
       ]
+    },
+    {
+      "title": "US launches ‘major combat operations’ against Iran",
+      "link": "https://taskandpurpose.com/news/us-israel-combat-bomb-iran/",
+      "published": "Sat, 28 Feb 2026 13:56:00 -0500",
+      "source": "Task & Purpose",
+      "categories": [
+        "deployment",
+        "exercise"
+      ]
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 18,
-    "conflict_articles": 3,
-    "exercise_articles": 8,
+    "deployment_articles": 20,
+    "conflict_articles": 6,
+    "exercise_articles": 7,
     "total_articles": 50,
-    "computed_at": "2026-02-28T18:15:25.335737+00:00",
+    "computed_at": "2026-02-28T19:11:57.213763+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "Iran IRGC retaliation op name: \"Operation Truthful Promise 4\"",
