@@ -1123,15 +1123,15 @@ body::after{
       <div style="position:relative;width:80px;height:80px">
         <svg width="80" height="80" viewBox="0 0 80 80" style="transform:rotate(-90deg)">
           <circle cx="40" cy="40" r="36" fill="none" stroke="rgba(0,255,65,.08)" stroke-width="3"/>
-          <circle cx="40" cy="40" r="36" fill="none" stroke="#ef4444" stroke-width="3" stroke-dasharray="226.2" stroke-dashoffset="2.26" stroke-linecap="round" style="filter:drop-shadow(0 0 4px #ef4444)"/>
+          <circle cx="40" cy="40" r="36" fill="none" stroke="#ef4444" stroke-width="3" stroke-dasharray="226.2" stroke-dashoffset="2.49" stroke-linecap="round" style="filter:drop-shadow(0 0 4px #ef4444)"/>
         </svg>
         <div style="position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center">
-          <div style="font-size:18px;font-weight:800;color:#ef4444;font-family:'Orbitron',monospace;text-shadow:0 0 12px rgba(239,68,68,.5);line-height:1">90</div>
+          <div style="font-size:18px;font-weight:800;color:#ef4444;font-family:'Orbitron',monospace;text-shadow:0 0 12px rgba(239,68,68,.5);line-height:1">89</div>
           <div style="font-size:7px;color:var(--muted);text-transform:uppercase;letter-spacing:1px;margin-top:2px">SECONDS</div>
         </div>
       </div>
       <div style="font-size:8px;color:#ef4444;font-family:'Share Tech Mono',monospace;letter-spacing:1px;margin-top:6px;text-align:center;text-shadow:0 0 8px rgba(239,68,68,.3)">TO MIDNIGHT</div>
-      <div style="font-size:7px;color:var(--muted);margin-top:3px;text-align:center">Bulletin of Atomic<br>Scientists — Jan 2024</div>
+      <div style="font-size:7px;color:var(--muted);margin-top:3px;text-align:center">Bulletin of Atomic<br>Scientists — Jan 2025</div>
     </div>
   </div>
 
@@ -1142,6 +1142,16 @@ body::after{
       <span id="x-account-tabs" style="display:flex;gap:4px"></span>
     </div>
     <div style="flex:1;overflow-y:auto;overflow-x:hidden" id="xFeed"></div>
+  </div>
+
+  <!-- SPACE WEATHER -->
+  <div style="width:160px;flex-shrink:0;border-right:1px solid var(--border);display:flex;flex-direction:column;overflow:hidden" id="spaceWeatherWidget">
+    <div style="flex-shrink:0;padding:6px 10px;background:rgba(0,4,0,.6);border-bottom:1px solid rgba(0,255,65,.1);font-size:10px;font-weight:700;letter-spacing:1px;color:rgba(0,255,65,.5);text-transform:uppercase;display:flex;align-items:center;gap:6px">
+      ☀️ <span style="flex:1">Space Wx</span>
+    </div>
+    <div style="flex:1;display:flex;flex-direction:column;padding:6px 8px;gap:4px;overflow:hidden" id="spaceWeatherBody">
+      <div style="font-size:9px;color:var(--muted);text-align:center;padding-top:10px">Loading…</div>
+    </div>
   </div>
 
   <!-- NEWS STRIP -->
@@ -1917,8 +1927,18 @@ function updateStatsPane(counts,typeCounts,total){
   });
   ch+=`</div>`;
 
+  // ISR / SIGINT count
+  const ISR_TYPES = ['RC135','RC-135','U2','RQ4','RQ-4','EP3','EP-3','E8','E-8','P8','P-8','E3','E-3','E6','E-6','E4','E-4','AWACS'];
+  const isrCount = acData.filter(ac => {
+    const t = (ac.t||'').toUpperCase().replace('-','');
+    const f = (ac.flight||'').toUpperCase();
+    return ISR_TYPES.some(x => t.includes(x.replace('-','')) || f.includes(x.replace('-','')));
+  }).length;
+  const isrCol = isrCount > 3 ? '#ef4444' : isrCount > 0 ? '#f59e0b' : '#6b7a9e';
+
   ch+=`<div class="stat-block"><div class="sb-label">Summary</div>
     <div class="country-row"><div class="cr-flag">✈️</div><div class="cr-name">Total tracked</div><div class="cr-count" style="color:#fff;font-size:16px">${total}</div></div>
+    <div class="country-row"><div class="cr-flag">📡</div><div class="cr-name">ISR/SIGINT airborne</div><div class="cr-count" style="color:${isrCol};font-weight:700">${isrCount}</div></div>
     <div class="country-row"><div class="cr-flag">⏱️</div><div class="cr-name">Refresh interval</div><div class="cr-count" style="color:#8892a8">30s</div></div>
   </div>`;
 
@@ -1976,13 +1996,20 @@ function switchTab(t){ curTab=t; }
 // NEWS / INTEL FEED
 // ════════════════════════════════════════
 const NEWS_SOURCES=[
-  {name:'Defense News',  url:'https://www.defensenews.com/arc/outboundfeeds/rss/',       label:'DEFNEWS'},
-  {name:'Military Times', url:'https://www.militarytimes.com/arc/outboundfeeds/rss/',    label:'MIL TIMES'},
-  {name:'BBC Middle East',url:'https://feeds.bbci.co.uk/news/world/middle_east/rss.xml', label:'BBC ME'},
-  {name:'BBC World',      url:'https://feeds.bbci.co.uk/news/world/rss.xml',             label:'BBC'},
-  {name:'C4ISRNET',       url:'https://www.c4isrnet.com/arc/outboundfeeds/rss/',         label:'C4ISR'},
-  {name:'Defense Daily',  url:'https://www.defensedaily.com/feed/',                      label:'DEF DAILY'},
-  {name:'Task & Purpose', url:'https://taskandpurpose.com/feed/',                        label:'T&PURPOSE'},
+  {name:'Defense News',    url:'https://www.defensenews.com/arc/outboundfeeds/rss/',              label:'DEFNEWS'},
+  {name:'Military Times',  url:'https://www.militarytimes.com/arc/outboundfeeds/rss/',             label:'MIL TIMES'},
+  {name:'BBC Middle East', url:'https://feeds.bbci.co.uk/news/world/middle_east/rss.xml',          label:'BBC ME'},
+  {name:'BBC World',       url:'https://feeds.bbci.co.uk/news/world/rss.xml',                      label:'BBC'},
+  {name:'C4ISRNET',        url:'https://www.c4isrnet.com/arc/outboundfeeds/rss/',                  label:'C4ISR'},
+  {name:'Defense Daily',   url:'https://www.defensedaily.com/feed/',                               label:'DEF DAILY'},
+  {name:'Task & Purpose',  url:'https://taskandpurpose.com/feed/',                                 label:'T&PURPOSE'},
+  {name:'The War Zone',    url:'https://www.thedrive.com/the-war-zone/feed',                       label:'WAR ZONE'},
+  {name:'Breaking Defense', url:'https://breakingdefense.com/feed/',                               label:'BRKDEF'},
+  {name:'USNI News',       url:'https://news.usni.org/feed',                                       label:'USNI'},
+  {name:'Reuters World',   url:'https://feeds.reuters.com/reuters/worldNews',                      label:'REUTERS'},
+  {name:'Al Jazeera',      url:'https://www.aljazeera.com/xml/rss/all.xml',                        label:'AJ'},
+  {name:'Kyiv Independent',url:'https://kyivindependent.com/feed/',                                label:'KYIV'},
+  {name:'CSIS',            url:'https://www.csis.org/rss.xml',                                    label:'CSIS'},
 ];
 
 let allNews=[];
@@ -2014,7 +2041,7 @@ async function fetchAllNews(){
 }
 
 // Military keywords for highlighting
-const MIL_KEYWORDS=['military','missile','strike','iran','russia','china','nato','navy','airforce','army','nuclear','drone','warship','attack','defense','conflict','troops','weapons','sanction','war','bomb','radar','satellite','intercept'];
+const MIL_KEYWORDS=['military','missile','strike','iran','russia','china','nato','navy','airforce','army','nuclear','drone','warship','attack','defense','conflict','troops','weapons','sanction','war','bomb','radar','satellite','intercept','ceasefire','escalat','hypersonic','ballistic','carrier group','aircraft carrier','destroyer','submarine','special forces','airstrike','shelling','artillery','mobiliz','conscript','invasion','annexat','provocation','blockade','ultimatum','hostage','siege','evacuate','cyber attack','hacked','intelligence','cia','pentagon','kremlin','hezbollah','hamas','houthi','wagner','pla','prc','taiwan strait','south china sea','red sea'];
 
 function isAlert(title){
   const t=title.toLowerCase();
@@ -4219,6 +4246,7 @@ fetchAllNews();
 fetchPolymarket();
 fetchLaunches();
 fetchCurrency();
+fetchSpaceWeather();
 initXFeed();
 renderAdvPanel('iran');
 loadIntelData();
@@ -4230,10 +4258,11 @@ window.addEventListener('resize', () => map.invalidateSize());
 setInterval(fetchData, 30000);
 setInterval(fetchAllNews, 300000);
 setInterval(fetchPolymarket, 300000);
-setInterval(fetchLaunches, 600000);   // Launches every 10min
-setInterval(fetchCurrency, 900000);   // FX rates every 15min
+setInterval(fetchLaunches, 600000);    // Launches every 10min
+setInterval(fetchCurrency, 900000);    // FX rates every 15min
 setInterval(() => { xPostCache={}; initXFeed(); }, 300000);
-setInterval(loadIntelData, 1800000); // Reload intel data every 30min
+setInterval(loadIntelData, 1800000);   // Reload intel data every 30min
+setInterval(fetchSpaceWeather, 600000); // Space weather every 10min
 
 switchTab('news');
 
@@ -4300,15 +4329,20 @@ setInterval(updateTerminator, 60000);
 let cinemaActive = false;
 let cinemaTimer = null;
 const CINEMA_STOPS = [
-  {lat:26.5, lon:56, z:6, label:'STRAIT OF HORMUZ'},
-  {lat:48.5, lon:37.5, z:5, label:'UKRAINE THEATER'},
-  {lat:24, lon:120, z:6, label:'TAIWAN STRAIT'},
+  {lat:20,   lon:0,    z:2, label:'GLOBAL OVERVIEW'},
+  {lat:26.5, lon:56,   z:6, label:'STRAIT OF HORMUZ'},
+  {lat:48.5, lon:37.5, z:5, label:'UKRAINE FRONT LINES'},
+  {lat:24,   lon:120,  z:6, label:'TAIWAN STRAIT'},
   {lat:14.5, lon:42.5, z:6, label:'RED SEA / YEMEN'},
-  {lat:33, lon:44, z:5, label:'IRAN-ISRAEL THEATER'},
-  {lat:14.5, lon:115, z:5, label:'SOUTH CHINA SEA'},
-  {lat:55, lon:37, z:4, label:'RUSSIAN WESTERN MD'},
-  {lat:38, lon:127, z:6, label:'KOREAN PENINSULA'},
-  {lat:20, lon:0, z:2, label:'GLOBAL OVERVIEW'},
+  {lat:32,   lon:34.8, z:6, label:'IRAN-ISRAEL THEATER'},
+  {lat:12,   lon:115,  z:5, label:'SOUTH CHINA SEA'},
+  {lat:55,   lon:37,   z:4, label:'RUSSIAN WESTERN MD'},
+  {lat:38,   lon:127,  z:6, label:'KOREAN PENINSULA'},
+  {lat:1.3,  lon:103.8,z:7, label:'STRAIT OF MALACCA'},
+  {lat:30.5, lon:32.3, z:7, label:'SUEZ CANAL'},
+  {lat:51.5, lon:0.1,  z:5, label:'NATO NORTHERN FLANK'},
+  {lat:36,   lon:33,   z:6, label:'EASTERN MEDITERRANEAN'},
+  {lat:15.5, lon:32.5, z:5, label:'HORN OF AFRICA / DJIBOUTI'},
 ];
 let cinemaIdx = 0;
 
@@ -4321,7 +4355,7 @@ function toggleCinema(){
     btn.textContent = '🎬 LIVE';
     label.classList.add('vis');
     cinemaStep();
-    cinemaTimer = setInterval(cinemaStep, 15000);
+    cinemaTimer = setInterval(cinemaStep, 20000);
   } else {
     btn.textContent = '🎬 Cinema';
     label.classList.remove('vis');
@@ -4569,6 +4603,82 @@ render = function(){
   setInterval(spawn, 800);
   for(let j=0;j<6;j++) setTimeout(spawn, j*300);
 })();
+
+// ════════════════════════════════════════
+// SPACE WEATHER (NOAA DSCOVR / GOES)
+// Kp index, solar wind, X-ray flux
+// Affects: GPS accuracy, HF radio comms,
+//          satellite operations, polar ops
+// ════════════════════════════════════════
+async function fetchSpaceWeather(){
+  const el = document.getElementById('spaceWeatherBody');
+  if(!el) return;
+  try {
+    // NOAA SWPC — Kp index (3-day)
+    const kpRes = await fetch('https://services.swpc.noaa.gov/products/noaa-planetary-k-index.json', {signal: AbortSignal.timeout(8000)});
+    const kpData = await kpRes.json();
+    // Last entry: [datetime_tag, kp, a_running, station_count, kp_fraction]
+    const latest = kpData[kpData.length - 1];
+    const kp = parseFloat(latest[1]);
+    const kpLabel = kp >= 7 ? 'SEVERE' : kp >= 5 ? 'STORM' : kp >= 4 ? 'ACTIVE' : kp >= 2 ? 'UNSETTLED' : 'QUIET';
+    const kpCol = kp >= 7 ? '#ef4444' : kp >= 5 ? '#f97316' : kp >= 4 ? '#f59e0b' : kp >= 2 ? '#eab308' : '#00ff41';
+
+    // Solar wind speed (DSCOVR)
+    let windSpeed = '—', windCol = 'var(--muted)';
+    try {
+      const windRes = await fetch('https://services.swpc.noaa.gov/products/solar-wind/plasma-5-minute.json', {signal: AbortSignal.timeout(6000)});
+      const windData = await windRes.json();
+      const lastWind = windData[windData.length - 1];
+      windSpeed = Math.round(parseFloat(lastWind[2])) + ' km/s';
+      windCol = parseFloat(lastWind[2]) > 600 ? '#ef4444' : parseFloat(lastWind[2]) > 450 ? '#f59e0b' : '#00ff41';
+    } catch(e){}
+
+    // X-ray flux (solar flares)
+    let flareClass = '—', flareCol = 'var(--muted)';
+    try {
+      const flareRes = await fetch('https://services.swpc.noaa.gov/json/goes/primary/xrays-6-hour.json', {signal: AbortSignal.timeout(6000)});
+      const flareData = await flareRes.json();
+      if(flareData.length) {
+        const flux = parseFloat(flareData[flareData.length-1].flux);
+        flareClass = flux >= 1e-4 ? 'X-class' : flux >= 1e-5 ? 'M-class' : flux >= 1e-6 ? 'C-class' : flux >= 1e-7 ? 'B-class' : 'A-class';
+        flareCol = flux >= 1e-4 ? '#ef4444' : flux >= 1e-5 ? '#f97316' : flux >= 1e-6 ? '#f59e0b' : '#00ff41';
+      }
+    } catch(e){}
+
+    // GPS degradation risk
+    const gpsDeg = kp >= 6 ? 'HIGH' : kp >= 4 ? 'MODERATE' : 'LOW';
+    const gpsCol = kp >= 6 ? '#ef4444' : kp >= 4 ? '#f59e0b' : '#00ff41';
+    // HF Radio impact
+    const hfImpact = kp >= 5 ? 'DEGRADED' : kp >= 3 ? 'MINOR' : 'NOMINAL';
+    const hfCol = kp >= 5 ? '#f97316' : kp >= 3 ? '#f59e0b' : '#00ff41';
+
+    el.innerHTML = `
+      <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:3px">
+        <div style="font-size:9px;color:var(--muted)">Kp INDEX</div>
+        <div style="font-size:11px;font-weight:700;color:${kpCol};font-family:'Share Tech Mono',monospace">${kp.toFixed(1)} <span style="font-size:8px">${kpLabel}</span></div>
+      </div>
+      <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:3px">
+        <div style="font-size:9px;color:var(--muted)">SOLAR WIND</div>
+        <div style="font-size:10px;font-weight:700;color:${windCol};font-family:'Share Tech Mono',monospace">${windSpeed}</div>
+      </div>
+      <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:3px">
+        <div style="font-size:9px;color:var(--muted)">X-RAY FLUX</div>
+        <div style="font-size:10px;font-weight:700;color:${flareCol};font-family:'Share Tech Mono',monospace">${flareClass}</div>
+      </div>
+      <div style="border-top:1px solid rgba(0,255,65,.08);margin:4px 0;padding-top:4px">
+        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:2px">
+          <div style="font-size:8px;color:var(--muted)">GPS DEG</div>
+          <div style="font-size:8px;font-weight:700;color:${gpsCol}">${gpsDeg}</div>
+        </div>
+        <div style="display:flex;justify-content:space-between;align-items:center">
+          <div style="font-size:8px;color:var(--muted)">HF RADIO</div>
+          <div style="font-size:8px;font-weight:700;color:${hfCol}">${hfImpact}</div>
+        </div>
+      </div>`;
+  } catch(e) {
+    el.innerHTML = `<div style="font-size:9px;color:var(--muted);text-align:center;padding-top:10px">NOAA offline</div>`;
+  }
+}
 
 // ════════════════════════════════════════
 // LIVE HEARTBEAT INDICATOR
