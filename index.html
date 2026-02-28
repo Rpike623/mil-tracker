@@ -1284,408 +1284,599 @@ body::after{
 // CRT BOOT SEQUENCE
 // ════════════════════════════════════════
 (function bootSequence(){
+  'use strict';
   const screen = document.getElementById('bootScreen');
   if(!screen) return;
 
-  // ══════════════════════════════════════════════
-  // AUDIO ENGINE
-  // ══════════════════════════════════════════════
-  let ctx;
-  try { ctx = new (window.AudioContext || window.webkitAudioContext)(); } catch(e){}
-
-  function tone(freq, dur, type='sine', vol=0.04, slide=0){
-    if(!ctx) return;
-    try{
-      const o=ctx.createOscillator(), g=ctx.createGain();
-      o.connect(g); g.connect(ctx.destination);
-      o.type=type; o.frequency.setValueAtTime(freq, ctx.currentTime);
-      if(slide) o.frequency.linearRampToValueAtTime(freq+slide, ctx.currentTime+dur);
-      g.gain.setValueAtTime(vol, ctx.currentTime);
-      g.gain.exponentialRampToValueAtTime(0.0001, ctx.currentTime+dur);
-      o.start(); o.stop(ctx.currentTime+dur);
-    }catch(e){}
-  }
-  function beep(f=900){ tone(f,.05,'sine',.025); }
-  function lockSound(){
-    tone(800,.05,'square',.06); tone(1200,.08,'square',.05,400);
-    setTimeout(()=>{ tone(1800,.2,'sine',.07); },100);
-  }
-  // Explosion boom: layered noise + sub-bass thud
-  function boomSound(vol=0.12){
-    if(!ctx) return;
-    try{
-      // White noise burst
-      const buf=ctx.createBuffer(1,ctx.sampleRate*0.35,ctx.sampleRate);
-      const d=buf.getChannelData(0);
-      for(let i=0;i<d.length;i++) d[i]=(Math.random()*2-1)*Math.pow(1-i/d.length,2);
-      const s=ctx.createBufferSource(); s.buffer=buf;
-      const g=ctx.createGain(); g.gain.setValueAtTime(vol,ctx.currentTime); g.gain.exponentialRampToValueAtTime(0.0001,ctx.currentTime+0.35);
-      const f=ctx.createBiquadFilter(); f.type='lowpass'; f.frequency.value=600;
-      s.connect(f); f.connect(g); g.connect(ctx.destination); s.start();
-      // Sub thud
-      tone(60,.4,'sine',vol*1.2,-55);
-      tone(120,.2,'triangle',vol*.5);
-    }catch(e){}
-  }
-  function missileSound(){
-    tone(200,.6,'sawtooth',.03,1800); // rising freq
-    setTimeout(()=>tone(2400,.15,'square',.04,-1200),580);
-  }
-  function alarmSound(){
-    for(let i=0;i<3;i++) setTimeout(()=>{ tone(880+i*40,.12,'square',.04); },i*180);
-  }
-
-  // ══════════════════════════════════════════════
-  // FULLSCREEN CANVAS: EXPLOSIONS + MISSILES
-  // ══════════════════════════════════════════════
+  // ─────────────────────────────────────────────────────────────────────────
+  // FULLSCREEN CANVAS — lives behind everything, drawn first
+  // ─────────────────────────────────────────────────────────────────────────
   const fc = document.createElement('canvas');
-  fc.style.cssText='position:absolute;inset:0;width:100%;height:100%;z-index:3;pointer-events:none';
-  fc.width=window.innerWidth; fc.height=window.innerHeight;
-  screen.appendChild(fc);
-  const c=fc.getContext('2d');
+  fc.style.cssText = 'position:absolute;inset:0;z-index:2;pointer-events:none';
+  fc.width  = screen.offsetWidth  || window.innerWidth;
+  fc.height = screen.offsetHeight || window.innerHeight;
+  screen.insertBefore(fc, screen.firstChild);
+  const C = fc.getContext('2d');
+  const W = fc.width, H = fc.height;
 
-  // Particle system
-  const particles=[];
-  const shockwaves=[];
-  const missiles=[];
-  let frameId;
-
-  function spawnExplosion(x, y, scale=1, col='#ef4444'){
-    boomSound(0.06*scale);
-    // Flash
-    shockwaves.push({x,y,r:0,maxR:180*scale,col,alpha:0.9,speed:8*scale});
-    // Ring shockwave
-    shockwaves.push({x,y,r:0,maxR:260*scale,col:'#f97316',alpha:0.4,speed:5*scale,ring:true});
-    // Particles
-    const count=Math.floor(60*scale);
-    for(let i=0;i<count;i++){
-      const ang=Math.random()*Math.PI*2;
-      const spd=2+Math.random()*8*scale;
-      const cols=['#ef4444','#f97316','#fbbf24','#fff','#ef4444','#dc2626'];
-      particles.push({
-        x,y,
-        vx:Math.cos(ang)*spd, vy:Math.sin(ang)*spd,
-        life:1, decay:0.012+Math.random()*0.02,
-        size:1.5+Math.random()*4*scale,
-        col:cols[Math.floor(Math.random()*cols.length)],
-        glow:Math.random()>.5
-      });
-    }
-    // Debris streaks
-    for(let i=0;i<Math.floor(12*scale);i++){
-      const ang=Math.random()*Math.PI*2;
-      const spd=5+Math.random()*15*scale;
-      particles.push({x,y,vx:Math.cos(ang)*spd,vy:Math.sin(ang)*spd-3,life:1,decay:0.008,size:0.8,col:'#f97316',streak:true,len:12+Math.random()*20});
-    }
+  // Camera shake state
+  let shakeX = 0, shakeY = 0, shakeDecay = 0;
+  function shake(intensity, dur){
+    shakeDecay = dur;
+    const iv = setInterval(()=>{
+      shakeX = (Math.random()-0.5)*intensity;
+      shakeY = (Math.random()-0.5)*intensity;
+      intensity *= 0.85; shakeDecay--;
+      if(shakeDecay <= 0){ clearInterval(iv); shakeX=0; shakeY=0; }
+    }, 16);
   }
 
-  function spawnMissile(x0,y0,x1,y1,cb){
-    const dur=400+Math.random()*200;
-    missiles.push({x0,y0,x1,y1,t:0,dur,trail:[],cb,done:false});
-    missileSound();
+  // ─────────────────────────────────────────────────────────────────────────
+  // AUDIO ENGINE  (Web Audio — graceful fallback)
+  // ─────────────────────────────────────────────────────────────────────────
+  let AC;
+  try { AC = new (window.AudioContext||window.webkitAudioContext)(); } catch(e){}
+  const _t = () => AC ? AC.currentTime : 0;
+
+  function osc(freq, dur, type, vol, freqEnd){
+    if(!AC) return;
+    try{
+      const o = AC.createOscillator(), g = AC.createGain();
+      o.connect(g); g.connect(AC.destination);
+      o.type = type; o.frequency.setValueAtTime(freq, _t());
+      if(freqEnd != null) o.frequency.linearRampToValueAtTime(freqEnd, _t()+dur);
+      g.gain.setValueAtTime(vol, _t());
+      g.gain.exponentialRampToValueAtTime(0.0001, _t()+dur);
+      o.start(); o.stop(_t()+dur);
+    }catch(e){}
   }
 
-  function drawFrame(){
-    c.clearRect(0,0,fc.width,fc.height);
+  // Realistic explosion: layered noise + sub-bass + high crack
+  function sfxExplosion(power=1.0){
+    if(!AC) return;
+    try{
+      const len = AC.sampleRate * (0.6 + power*0.4);
+      const buf = AC.createBuffer(1, len, AC.sampleRate);
+      const d = buf.getChannelData(0);
+      // Shaped noise: sharp attack, exponential decay
+      for(let i=0;i<len;i++){
+        const env = Math.pow(1 - i/len, 1.8 + power);
+        d[i] = (Math.random()*2-1) * env;
+      }
+      const src = AC.createBufferSource(); src.buffer = buf;
+      const lp  = AC.createBiquadFilter(); lp.type='lowpass';  lp.frequency.value = 300 + power*200;
+      const hp  = AC.createBiquadFilter(); hp.type='highpass'; hp.frequency.value = 30;
+      const g   = AC.createGain(); g.gain.setValueAtTime(power*0.35, _t()); g.gain.exponentialRampToValueAtTime(0.0001, _t()+0.8);
+      src.connect(hp); hp.connect(lp); lp.connect(g); g.connect(AC.destination);
+      src.start();
+    }catch(e){}
+    // Sub-bass punch
+    osc(55, 0.5+power*0.2, 'sine', power*0.18, 25);
+    osc(120, 0.15, 'triangle', power*0.08);
+    // High transient crack
+    if(power > 0.6) osc(2000+Math.random()*1000, 0.04, 'sawtooth', 0.06, 800);
+  }
 
-    // Shockwaves
-    for(let i=shockwaves.length-1;i>=0;i--){
-      const s=shockwaves[i];
-      s.r+=s.speed; s.alpha*=0.88;
-      if(s.alpha<0.01||s.r>s.maxR){ shockwaves.splice(i,1); continue; }
-      if(s.ring){
-        c.beginPath(); c.arc(s.x,s.y,s.r,0,Math.PI*2);
-        c.strokeStyle=s.col.replace(')',`,${s.alpha})`).replace('rgb','rgba').replace('#','rgba(').replace('rgba(ef','rgba(239,68,68,').replace('rgba(f9','rgba(249,115,22,').replace('rgba(fb','rgba(251,191,36,');
-        c.strokeStyle=`rgba(249,115,22,${s.alpha})`;
-        c.lineWidth=3; c.stroke();
+  function sfxMissile(){ osc(180, 0.7, 'sawtooth', 0.03, 2800); osc(300, 0.5, 'square', 0.015, 1200); }
+  function sfxAlert(){ [0,180,360].forEach(d=>setTimeout(()=>{ osc(880,0.1,'square',0.04); osc(1100,0.1,'square',0.025); },d)); }
+  function sfxLock(){ osc(1600,0.08,'square',0.06); setTimeout(()=>{osc(2200,0.15,'sine',0.08);},90); setTimeout(()=>{osc(1800,0.3,'sine',0.05);},200); }
+  function sfxBeep(f=900){ osc(f,0.04,'sine',0.02); }
+
+  // ─────────────────────────────────────────────────────────────────────────
+  // PARTICLE SYSTEM  — fire, smoke, debris, embers, shockwaves
+  // ─────────────────────────────────────────────────────────────────────────
+  const parts = [];       // {x,y,vx,vy,life,decay,r,kind,col,colEnd,angle,len,rot,rotV}
+  const shocks = [];      // {x,y,rad,maxRad,speed,life,lw,col}
+  const lensFlares = [];  // {x,y,r,life,decay}
+
+  // Perlin-style pseudo noise for fire turbulence
+  function noise2(x,y){ return Math.sin(x*0.8+y*1.3+17)*Math.cos(y*0.9-x*0.7+5)*0.5+0.5; }
+
+  // Spawn a full photorealistic explosion at (x,y) with scale s
+  function explosion(x, y, s=1){
+    sfxExplosion(Math.min(s, 1.8));
+    shake(18*s, Math.round(20*s));
+
+    // Lens flare / overexposure bloom
+    lensFlares.push({x, y, r:0, maxR:200*s, life:1, decay:0.03});
+
+    // Shockwave ring — thin, fast, bright
+    shocks.push({x,y, rad:4, maxRad:300*s, speed:22*s, life:1, lw:3+s, col:'rgba(255,240,200,'});
+    // Pressure wave — slower, wider
+    shocks.push({x,y, rad:10, maxRad:180*s, speed:8*s, life:0.6, lw:1.5, col:'rgba(200,160,100,'});
+
+    const n = Math.round(220*s);
+    for(let i=0;i<n;i++){
+      const ang  = Math.random()*Math.PI*2;
+      const spd  = (1 + Math.random()*12) * (0.4 + s*0.6);
+      const kind = i < n*0.35 ? 'fire'
+                 : i < n*0.55 ? 'smoke'
+                 : i < n*0.75 ? 'ember'
+                 : 'debris';
+
+      if(kind==='fire'){
+        // Fire core: hot center, turbulent, additive blend
+        const r0 = 2 + Math.random()*8*s;
+        parts.push({
+          x, y, vx:Math.cos(ang)*spd*1.2, vy:Math.sin(ang)*spd*1.2 - 2,
+          life:1, decay:0.022+Math.random()*0.015, r:r0,
+          kind:'fire', hue:Math.random()*40, // 0=red, 40=yellow
+        });
+      } else if(kind==='smoke'){
+        // Smoke: dark, rises, expands, additive-off
+        const r0 = 6 + Math.random()*18*s;
+        parts.push({
+          x:x+(Math.random()-0.5)*30*s, y:y+(Math.random()-0.5)*20*s,
+          vx:Math.cos(ang)*spd*0.3, vy:Math.sin(ang)*spd*0.3 - 1.5 - Math.random()*2,
+          life:1, decay:0.006+Math.random()*0.006, r:r0,
+          kind:'smoke', col: Math.random()>.5 ? 60 : 40, // grey lightness
+        });
+      } else if(kind==='ember'){
+        // Embers: tiny bright points, long life, gravity
+        parts.push({
+          x, y, vx:Math.cos(ang)*spd*0.7, vy:Math.sin(ang)*spd*0.7 - Math.random()*3,
+          life:1, decay:0.008+Math.random()*0.01, r:1+Math.random()*2.5,
+          kind:'ember',
+        });
       } else {
-        const g=c.createRadialGradient(s.x,s.y,0,s.x,s.y,s.r);
-        g.addColorStop(0,`rgba(255,220,100,${s.alpha*0.9})`);
-        g.addColorStop(0.3,`rgba(239,68,68,${s.alpha*0.6})`);
-        g.addColorStop(1,'rgba(0,0,0,0)');
-        c.beginPath(); c.arc(s.x,s.y,s.r,0,Math.PI*2);
-        c.fillStyle=g; c.fill();
+        // Debris: dark solid chunks, tumble, strong gravity
+        const sz = 2 + Math.random()*5*s;
+        parts.push({
+          x, y, vx:Math.cos(ang)*spd*0.5*(0.3+Math.random()), vy:Math.sin(ang)*spd*0.5 - Math.random()*4,
+          life:1, decay:0.01+Math.random()*0.008, r:sz,
+          kind:'debris', rot:Math.random()*Math.PI*2, rotV:(Math.random()-0.5)*0.4,
+        });
+      }
+    }
+  }
+
+  // ─────────────────────────────────────────────────────────────────────────
+  // MISSILE OBJECTS
+  // ─────────────────────────────────────────────────────────────────────────
+  const missiles = [];
+  function fireMissile(x0, y0, x1, y1, cb, duration=700){
+    sfxMissile();
+    missiles.push({x0,y0,x1,y1,cb,t:0,dur:duration,trail:[],done:false,arcH:H*0.28});
+  }
+
+  // ─────────────────────────────────────────────────────────────────────────
+  // MAIN RENDER LOOP
+  // ─────────────────────────────────────────────────────────────────────────
+  let raf;
+  let lastTs = 0;
+  function render(ts){
+    const dt = Math.min(ts - lastTs, 50); lastTs = ts;
+    C.save();
+    C.translate(shakeX, shakeY);
+
+    // Persistent dark bg with slight motion blur (additive composite requires this)
+    C.globalCompositeOperation = 'source-over';
+    C.fillStyle = 'rgba(0,5,16,0.28)'; // trail fade — lower = more ghosting
+    C.fillRect(-10, -10, W+20, H+20);
+
+    // ── Shockwaves ──────────────────────────────────────────────────────────
+    C.globalCompositeOperation = 'lighter';
+    for(let i=shocks.length-1; i>=0; i--){
+      const s = shocks[i];
+      s.rad += s.speed; s.life -= 0.04;
+      if(s.life <= 0 || s.rad > s.maxRad){ shocks.splice(i,1); continue; }
+      C.beginPath(); C.arc(s.x, s.y, s.rad, 0, Math.PI*2);
+      C.strokeStyle = s.col + (s.life*0.9) + ')';
+      C.lineWidth = s.lw * s.life;
+      C.stroke();
+    }
+
+    // ── Lens flares ─────────────────────────────────────────────────────────
+    for(let i=lensFlares.length-1; i>=0; i--){
+      const f = lensFlares[i];
+      f.r = Math.min(f.r + f.maxR*0.12, f.maxR);
+      f.life -= f.decay;
+      if(f.life <= 0){ lensFlares.splice(i,1); continue; }
+      const g = C.createRadialGradient(f.x, f.y, 0, f.x, f.y, f.r);
+      g.addColorStop(0,   `rgba(255,255,255,${Math.min(f.life*1.2, 1)})`);
+      g.addColorStop(0.08,`rgba(255,240,180,${f.life*0.9})`);
+      g.addColorStop(0.25,`rgba(255,120,40,${f.life*0.5})`);
+      g.addColorStop(0.6, `rgba(120,40,10,${f.life*0.15})`);
+      g.addColorStop(1,   'rgba(0,0,0,0)');
+      C.beginPath(); C.arc(f.x, f.y, f.r, 0, Math.PI*2);
+      C.fillStyle = g; C.fill();
+    }
+
+    // ── Particles ────────────────────────────────────────────────────────────
+    for(let i=parts.length-1; i>=0; i--){
+      const p = parts[i];
+      // Physics
+      p.x  += p.vx; p.y += p.vy;
+      p.vx *= 0.978; p.vy *= 0.978;
+      if(p.kind==='smoke') { p.vy -= 0.06; p.r += 0.15; p.vx += (Math.random()-0.5)*0.08; }
+      else if(p.kind==='ember') p.vy += 0.06;
+      else if(p.kind==='debris') { p.vy += 0.22; p.rot += p.rotV; }
+      else if(p.kind==='fire')   { p.vy -= 0.08; p.r -= 0.04; }
+      p.life -= p.decay;
+      if(p.life <= 0 || p.r <= 0){ parts.splice(i,1); continue; }
+
+      const a = Math.max(p.life, 0);
+
+      if(p.kind==='fire'){
+        // Additive blend — fire glows
+        C.globalCompositeOperation = 'lighter';
+        const cx2 = p.x + noise2(p.x*0.02, p.y*0.02)*8;
+        const cy2 = p.y + noise2(p.y*0.02, p.x*0.02)*8;
+        const grad = C.createRadialGradient(cx2,cy2,0,cx2,cy2,p.r*2);
+        const h = p.hue + (1-a)*20; // shift toward red as it cools
+        grad.addColorStop(0,   `hsla(${60-h},100%,95%,${a*0.7})`);
+        grad.addColorStop(0.3, `hsla(${30-h},100%,65%,${a*0.5})`);
+        grad.addColorStop(0.7, `hsla(${10-h},90%,40%,${a*0.2})`);
+        grad.addColorStop(1,   'rgba(0,0,0,0)');
+        C.beginPath(); C.arc(cx2, cy2, p.r*2, 0, Math.PI*2);
+        C.fillStyle = grad; C.fill();
+
+      } else if(p.kind==='smoke'){
+        C.globalCompositeOperation = 'source-over';
+        const l = p.col;
+        const grad = C.createRadialGradient(p.x,p.y,0,p.x,p.y,p.r);
+        grad.addColorStop(0,   `rgba(${l},${l},${l},${a*0.18})`);
+        grad.addColorStop(0.5, `rgba(${l},${l},${l},${a*0.09})`);
+        grad.addColorStop(1,   'rgba(0,0,0,0)');
+        C.beginPath(); C.arc(p.x,p.y,p.r,0,Math.PI*2);
+        C.fillStyle = grad; C.fill();
+
+      } else if(p.kind==='ember'){
+        C.globalCompositeOperation = 'lighter';
+        C.beginPath(); C.arc(p.x,p.y,p.r,0,Math.PI*2);
+        C.fillStyle = `rgba(255,${Math.floor(160*a)},${Math.floor(30*a)},${a*0.9})`;
+        C.shadowColor = '#ff8800'; C.shadowBlur = p.r*4;
+        C.fill(); C.shadowBlur = 0;
+
+      } else if(p.kind==='debris'){
+        C.globalCompositeOperation = 'source-over';
+        C.save(); C.translate(p.x,p.y); C.rotate(p.rot);
+        C.fillStyle = `rgba(${80+Math.random()*30},${50+Math.random()*20},${20+Math.random()*10},${a*0.85})`;
+        C.fillRect(-p.r, -p.r*0.4, p.r*2, p.r*0.8);
+        C.restore();
       }
     }
 
-    // Missiles
-    for(let i=missiles.length-1;i>=0;i--){
-      const m=missiles[i];
-      m.t+=16/m.dur;
-      if(m.t>=1){ if(!m.done){ m.done=true; if(m.cb) m.cb(); } missiles.splice(i,1); continue; }
-      const t=m.t;
-      const ease=t<.5?2*t*t:1-Math.pow(-2*t+2,2)/2;
-      const x=m.x0+(m.x1-m.x0)*ease;
-      const y=m.y0+(m.y1-m.y0)*ease - Math.sin(t*Math.PI)*80; // arc
-      m.trail.push({x,y,a:1});
-      if(m.trail.length>25) m.trail.shift();
-      // Trail
+    // ── Missiles ─────────────────────────────────────────────────────────────
+    C.globalCompositeOperation = 'lighter';
+    for(let i=missiles.length-1; i>=0; i--){
+      const m = missiles[i];
+      m.t += dt / m.dur;
+      if(m.t >= 1){
+        if(!m.done){ m.done=true; if(m.cb) setTimeout(m.cb, 0); }
+        missiles.splice(i,1); continue;
+      }
+      const e = m.t < .5 ? 2*m.t*m.t : 1-Math.pow(-2*m.t+2,2)/2; // ease in-out
+      const mx = m.x0 + (m.x1-m.x0)*e;
+      const my = m.y0 + (m.y1-m.y0)*e - Math.sin(m.t*Math.PI)*m.arcH;
+
+      // Direction vector for elongated head
+      const nx = (m.x1-m.x0), ny = (m.y1-m.y0);
+      const d  = Math.hypot(nx,ny) || 1;
+      const ang = Math.atan2(m.y1-m.y0, m.x1-m.x0);
+
+      m.trail.push({x:mx,y:my});
+      if(m.trail.length > 40) m.trail.shift();
+
+      // Draw exhaust trail with fade + turbulence
       m.trail.forEach((pt,ti)=>{
-        const a=(ti/m.trail.length)*0.7;
-        const r=3*(ti/m.trail.length);
-        c.beginPath(); c.arc(pt.x,pt.y,r,0,Math.PI*2);
-        c.fillStyle=`rgba(249,115,22,${a})`; c.fill();
+        const a  = (ti/m.trail.length);
+        const r  = 1.5 + a*3;
+        const jx = (Math.random()-0.5)*3*(1-a);
+        const jy = (Math.random()-0.5)*3*(1-a);
+        // Core: bright hot exhaust
+        C.beginPath(); C.arc(pt.x+jx, pt.y+jy, r, 0, Math.PI*2);
+        C.fillStyle = `rgba(255,${Math.floor(220*a)},${Math.floor(60*a)},${a*0.6})`;
+        C.fill();
+        // Glow halo
+        if(ti > m.trail.length*0.6){
+          C.beginPath(); C.arc(pt.x, pt.y, r*2.5, 0, Math.PI*2);
+          C.fillStyle = `rgba(255,140,20,${a*0.12})`; C.fill();
+        }
       });
-      // Missile head glow
-      c.beginPath(); c.arc(x,y,5,0,Math.PI*2);
-      c.fillStyle='rgba(255,220,100,0.95)'; c.fill();
-      c.beginPath(); c.arc(x,y,9,0,Math.PI*2);
-      c.fillStyle='rgba(249,115,22,0.4)'; c.fill();
+
+      // Missile body — elongated glowing head
+      C.save(); C.translate(mx,my); C.rotate(ang);
+      const mg = C.createLinearGradient(-14,0,6,0);
+      mg.addColorStop(0, 'rgba(255,255,255,0)');
+      mg.addColorStop(0.4, 'rgba(255,240,180,0.9)');
+      mg.addColorStop(1,   'rgba(255,180,60,1)');
+      C.beginPath(); C.ellipse(0,0,14,3.5,0,0,Math.PI*2);
+      C.fillStyle = mg; C.fill();
+      // Bright tip
+      C.beginPath(); C.arc(6,0,4,0,Math.PI*2);
+      C.fillStyle = 'rgba(255,255,255,0.95)';
+      C.shadowColor='#fff'; C.shadowBlur=16; C.fill(); C.shadowBlur=0;
+      C.restore();
     }
 
-    // Particles
-    for(let i=particles.length-1;i>=0;i--){
-      const p=particles[i];
-      p.x+=p.vx; p.y+=p.vy; p.vy+=0.12; // gravity
-      p.vx*=0.97; p.vy*=0.97;
-      p.life-=p.decay;
-      if(p.life<=0){ particles.splice(i,1); continue; }
-      const a=p.life;
-      if(p.streak){
-        c.beginPath();
-        c.moveTo(p.x,p.y);
-        c.lineTo(p.x-p.vx*(p.len/Math.hypot(p.vx,p.vy)),p.y-p.vy*(p.len/Math.hypot(p.vx,p.vy)));
-        c.strokeStyle=`rgba(249,115,22,${a*0.8})`; c.lineWidth=p.size; c.stroke();
-      } else {
-        if(p.glow){ c.shadowColor=p.col; c.shadowBlur=8; }
-        c.beginPath(); c.arc(p.x,p.y,p.size*a,0,Math.PI*2);
-        c.fillStyle=p.col.startsWith('#')?p.col:`rgba(239,68,68,${a})`;
-        c.globalAlpha=a; c.fill(); c.globalAlpha=1; c.shadowBlur=0;
-      }
-    }
-
-    frameId=requestAnimationFrame(drawFrame);
+    C.globalCompositeOperation = 'source-over';
+    C.restore();
+    raf = requestAnimationFrame(render);
   }
-  requestAnimationFrame(drawFrame);
+  raf = requestAnimationFrame(render);
 
-  // ══════════════════════════════════════════════
-  // RADAR CANVAS
-  // ══════════════════════════════════════════════
-  const canvas=document.getElementById('radarCanvas');
-  const ping_wrap=document.getElementById('radarPings');
-  const R=150;
-  let sweepAngle=0, radarRafId;
+  // ─────────────────────────────────────────────────────────────────────────
+  // RADAR CANVAS  (unchanged logic, just copied clean)
+  // ─────────────────────────────────────────────────────────────────────────
+  const radarC = document.getElementById('radarCanvas');
+  const pingWrap = document.getElementById('radarPings');
+  const R = 150;
+  let sweepAng = 0, radarRaf;
 
   function drawRadar(){
-    if(!canvas) return;
-    const cx2=canvas.getContext('2d');
-    const cx=R,cy=R;
-    cx2.clearRect(0,0,300,300);
-    cx2.beginPath(); cx2.arc(cx,cy,R-1,0,Math.PI*2);
-    cx2.fillStyle='rgba(0,5,15,0.9)'; cx2.fill();
+    if(!radarC) return;
+    const cx = radarC.getContext('2d');
+    cx.clearRect(0,0,300,300);
+    cx.beginPath(); cx.arc(R,R,R-1,0,Math.PI*2);
+    cx.fillStyle='rgba(0,5,14,0.92)'; cx.fill();
     [0.25,0.5,0.75,1].forEach(f=>{
-      cx2.beginPath(); cx2.arc(cx,cy,(R-1)*f,0,Math.PI*2);
-      cx2.strokeStyle=`rgba(56,189,248,${f===1?.3:.07})`; cx2.lineWidth=f===1?1.5:.5; cx2.stroke();
+      cx.beginPath(); cx.arc(R,R,(R-1)*f,0,Math.PI*2);
+      cx.strokeStyle=`rgba(56,189,248,${f===1?.3:.06})`; cx.lineWidth=f===1?1.5:.5; cx.stroke();
     });
-    cx2.strokeStyle='rgba(56,189,248,.06)'; cx2.lineWidth=.5;
-    [[cx,1,cx,299],[1,cy,299,cy]].forEach(([x1,y1,x2,y2])=>{ cx2.beginPath(); cx2.moveTo(x1,y1); cx2.lineTo(x2,y2); cx2.stroke(); });
+    cx.strokeStyle='rgba(56,189,248,.05)'; cx.lineWidth=.5;
+    cx.beginPath(); cx.moveTo(R,1); cx.lineTo(R,299); cx.stroke();
+    cx.beginPath(); cx.moveTo(1,R); cx.lineTo(299,R); cx.stroke();
     // Sweep trail
-    cx2.save(); cx2.beginPath(); cx2.moveTo(cx,cy);
-    cx2.arc(cx,cy,R-2,sweepAngle-Math.PI*.55,sweepAngle); cx2.closePath();
-    const fg=cx2.createRadialGradient(cx,cy,0,cx,cy,R-2);
-    fg.addColorStop(0,'rgba(56,189,248,0)'); fg.addColorStop(1,'rgba(56,189,248,.06)');
-    cx2.fillStyle=fg; cx2.fill(); cx2.restore();
-    // Sweep arm
-    cx2.save(); cx2.translate(cx,cy); cx2.rotate(sweepAngle);
-    const lg=cx2.createLinearGradient(0,0,R-2,0);
-    lg.addColorStop(0,'rgba(56,189,248,0)'); lg.addColorStop(.5,'rgba(56,189,248,.3)'); lg.addColorStop(1,'rgba(56,189,248,1)');
-    cx2.beginPath(); cx2.moveTo(0,0); cx2.lineTo(R-2,0);
-    cx2.strokeStyle=lg; cx2.lineWidth=2.5; cx2.stroke();
-    cx2.beginPath(); cx2.arc(R-3,0,3,0,Math.PI*2);
-    cx2.fillStyle='#38bdf8'; cx2.shadowColor='#38bdf8'; cx2.shadowBlur=12; cx2.fill(); cx2.shadowBlur=0;
-    cx2.restore();
-    cx2.beginPath(); cx2.arc(cx,cy,5,0,Math.PI*2);
-    cx2.fillStyle='#38bdf8'; cx2.shadowColor='#38bdf8'; cx2.shadowBlur=14; cx2.fill(); cx2.shadowBlur=0;
+    cx.save(); cx.beginPath(); cx.moveTo(R,R);
+    cx.arc(R,R,R-2,sweepAng-Math.PI*.5,sweepAng); cx.closePath();
+    const sg=cx.createRadialGradient(R,R,0,R,R,R-2);
+    sg.addColorStop(0,'rgba(56,189,248,0)');
+    sg.addColorStop(1,'rgba(56,189,248,.07)');
+    cx.fillStyle=sg; cx.fill(); cx.restore();
+    // Arm
+    cx.save(); cx.translate(R,R); cx.rotate(sweepAng);
+    const lg=cx.createLinearGradient(0,0,R-2,0);
+    lg.addColorStop(0,'rgba(56,189,248,0)');
+    lg.addColorStop(.4,'rgba(56,189,248,.25)');
+    lg.addColorStop(1,'rgba(56,189,248,1)');
+    cx.beginPath(); cx.moveTo(0,0); cx.lineTo(R-2,0);
+    cx.strokeStyle=lg; cx.lineWidth=2.5; cx.stroke();
+    cx.beginPath(); cx.arc(R-3,0,3.5,0,Math.PI*2);
+    cx.fillStyle='rgba(56,189,248,0.95)';
+    cx.shadowColor='#38bdf8'; cx.shadowBlur=16; cx.fill(); cx.shadowBlur=0;
+    cx.restore();
+    cx.beginPath(); cx.arc(R,R,5,0,Math.PI*2);
+    cx.fillStyle='#38bdf8'; cx.shadowColor='#38bdf8'; cx.shadowBlur=20; cx.fill(); cx.shadowBlur=0;
   }
-
-  let lastBeep=0;
+  let lastBeepT=0;
   function animRadar(ts){
-    sweepAngle=(sweepAngle+0.04)%(Math.PI*2); drawRadar();
-    if(ts-lastBeep>600+Math.random()*400){ tone(800+Math.random()*300,.04,'sine',.012); lastBeep=ts; }
-    radarRafId=requestAnimationFrame(animRadar);
+    sweepAng=(sweepAng+0.035)%(Math.PI*2); drawRadar();
+    if(ts-lastBeepT > 700+Math.random()*400){ sfxBeep(750+Math.random()*350); lastBeepT=ts; }
+    radarRaf=requestAnimationFrame(animRadar);
   }
   requestAnimationFrame(animRadar);
 
-  // ══════════════════════════════════════════════
-  // RADAR PINGS
-  // ══════════════════════════════════════════════
-  const PING_LOC=[[55,30,'#38bdf8'],[70,120,'#ef4444'],[40,200,'#f97316'],[80,270,'#ef4444'],[60,340,'#38bdf8'],[30,80,'#22d3ee'],[75,155,'#ef4444'],[50,245,'#f97316']];
+  const PING_POS=[[55,30,'#38bdf8'],[70,115,'#ef4444'],[42,195,'#f97316'],[78,268,'#ef4444'],[58,338,'#38bdf8'],[32,78,'#22d3ee'],[72,152,'#ef4444'],[48,242,'#f97316']];
   function spawnPing(i){
-    const [dist,ang,col]=PING_LOC[i%PING_LOC.length];
-    const rad=ang*Math.PI/180, r=(dist/100)*140;
-    const x=150+r*Math.cos(rad), y=150+r*Math.sin(rad);
-    const dot=document.createElement('div');
-    dot.style.cssText=`position:absolute;left:${x}px;top:${y}px;width:7px;height:7px;border-radius:50%;background:${col};box-shadow:0 0 8px ${col},0 0 16px ${col};transform:translate(-50%,-50%);animation:seismic-ripple .8s ease-out`;
-    ping_wrap.appendChild(dot);
-    beep(700+i*90);
-    setTimeout(()=>{ try{ping_wrap.removeChild(dot)}catch(e){} },1200);
+    const [dist,ang,col]=PING_POS[i%PING_POS.length];
+    const rad=ang*Math.PI/180, r=(dist/100)*138;
+    const px=150+r*Math.cos(rad), py=150+r*Math.sin(rad);
+    const el=document.createElement('div');
+    el.style.cssText=`position:absolute;left:${px}px;top:${py}px;width:7px;height:7px;border-radius:50%;background:${col};box-shadow:0 0 8px ${col},0 0 20px ${col};transform:translate(-50%,-50%);transition:opacity .5s`;
+    pingWrap.appendChild(el);
+    sfxBeep(650+i*85);
+    setTimeout(()=>{ el.style.opacity='0'; setTimeout(()=>{ try{pingWrap.removeChild(el)}catch(_){} },500); },1000);
   }
 
-  // ══════════════════════════════════════════════
+  // ─────────────────────────────────────────────────────────────────────────
   // TEXT SCRAMBLER
-  // ══════════════════════════════════════════════
-  const CHARS='ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*<>?/';
-  function scramble(el,finalTxt,dur,cb){
+  // ─────────────────────────────────────────────────────────────────────────
+  const GLYPHS='ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%&*<>/\\|[]{}';
+  function scramble(el, final, ms, cb){
     if(!el) return;
-    let t=0; const frames=Math.round(dur/35);
+    let f=0; const frames=Math.round(ms/32);
     const iv=setInterval(()=>{
-      const prog=t/frames; let txt='';
-      for(let i=0;i<finalTxt.length;i++){
-        txt+=prog>i/finalTxt.length?finalTxt[i]:CHARS[Math.floor(Math.random()*CHARS.length)];
-      }
-      el.textContent=txt; t++;
-      if(t>=frames){ clearInterval(iv); el.textContent=finalTxt; if(cb)cb(); }
-    },35);
+      const p=f/frames; let t='';
+      for(let i=0;i<final.length;i++)
+        t += p>i/final.length ? final[i] : GLYPHS[Math.floor(Math.random()*GLYPHS.length)];
+      el.textContent=t; f++;
+      if(f>=frames){ clearInterval(iv); el.textContent=final; if(cb)cb(); }
+    },32);
   }
 
-  // ══════════════════════════════════════════════
-  // MISSILE STRIKE SEQUENCE — the cinematic bit
-  // ══════════════════════════════════════════════
-  const W=fc.width, H=fc.height;
+  // ─────────────────────────────────────────────────────────────────────────
+  // CINEMATIC SEQUENCE TIMELINE
+  // ─────────────────────────────────────────────────────────────────────────
+  // t=0   : Boot screen appears, radar starts
+  // t=300 : ALERT siren + red screen strobe
+  // t=800 : Missile 1 fires bottom-left → Tehran
+  // t=1000: Missile 2 fires bottom-right → Isfahan
+  // t=1200: Missile 3 fires center-bottom → Fordow
+  // t=1700: Missile 1 impact → explosion + shockwave
+  // t=1900: Missile 2 impact
+  // t=2100: Missile 3 impact
+  // t=2400: CHAIN REACTION — 3 simultaneous blasts, max shake
+  // t=2800: Smoke settles, status items complete
+  // t=3200: LOCK-ON — targeting reticle, system online
+  // t=3800: Final nuclear flash wipe to dashboard
 
-  // Phase 1 (t=200ms): warning siren + alert flash
-  setTimeout(()=>{
-    alarmSound();
-    screen.style.transition='background .05s';
-    let flashes=0;
-    const fi=setInterval(()=>{
-      screen.style.background=flashes%2===0?'#1a0000':'#000510';
-      flashes++;
-      if(flashes>=6){ clearInterval(fi); screen.style.background='#000510'; }
-    },80);
-    // Stamp red "WARNING" text overlay
-    const warn=document.createElement('div');
-    warn.style.cssText='position:absolute;inset:0;display:flex;align-items:center;justify-content:center;z-index:10;pointer-events:none';
-    warn.innerHTML='<div style="font-family:Orbitron,monospace;font-size:clamp(24px,5vw,72px);font-weight:900;color:#ef4444;letter-spacing:12px;text-shadow:0 0 40px #ef4444,0 0 80px rgba(239,68,68,.5);animation:logo-pulse .4s ease-in-out 3">⚠ ALERT ⚠</div>';
-    screen.appendChild(warn);
-    setTimeout(()=>warn.remove(),900);
-  }, 200);
-
-  // Phase 2 (t=1000ms): 3 missiles launch from bottom, arc toward targets
-  const targets=[
-    {x:W*.25, y:H*.28}, // upper left zone
-    {x:W*.62, y:H*.22}, // upper right
-    {x:W*.45, y:H*.35}, // center
-  ];
-  targets.forEach((tgt,i)=>{
-    setTimeout(()=>{
-      const sx=W*.1+Math.random()*W*.8, sy=H*.95;
-      spawnMissile(sx,sy,tgt.x,tgt.y,()=>{ spawnExplosion(tgt.x,tgt.y,0.7+Math.random()*.6); });
-    }, 1000+i*220);
-  });
-
-  // Phase 3 (t=2200ms): 2 more missiles + big central explosion
-  setTimeout(()=>{
-    spawnMissile(W*.05,H*.9,W*.5,H*.3,()=>{ spawnExplosion(W*.5,H*.3,1.4,'#f97316'); });
-    setTimeout(()=>{
-      spawnMissile(W*.95,H*.88,W*.35,H*.25,()=>{ spawnExplosion(W*.35,H*.25,1.0); });
-    },250);
-  },2200);
-
-  // Phase 4 (t=2800ms): shockwave flood — the big one
-  setTimeout(()=>{
-    boomSound(.18);
-    spawnExplosion(W*.5,H*.45,2.5,'#fff');
-    // Screen white flash
-    const flash=document.createElement('div');
-    flash.style.cssText='position:absolute;inset:0;background:#fff;opacity:.7;z-index:20;pointer-events:none;transition:opacity .5s';
-    screen.appendChild(flash);
-    requestAnimationFrame(()=>{ flash.style.opacity='0'; setTimeout(()=>flash.remove(),500); });
-    // Chromatic aberration effect
-    fc.style.transition='filter .05s';
-    fc.style.filter='hue-rotate(30deg) saturate(3)';
-    setTimeout(()=>{ fc.style.filter='none'; },150);
-  },2800);
-
-  // ══════════════════════════════════════════════
-  // COORDS + STATUS ITEMS (overlaid on the action)
-  // ══════════════════════════════════════════════
-  const COORD_FINALS=[
+  // COORD scramble (starts immediately)
+  const COORDS=[
     ['bsc-0','LAT 35.6944°N'],['bsc-1','LON 51.4215°E'],
-    ['bsc-2','ALT  410  km'],['bsc-3','UTC '+new Date().toUTCString().slice(17,25)],
-    ['bsc-4','SIG ████████'],['bsc-5','ENC AES-256'],
-    ['bsc-6','SAT 17 FIXED'],['bsc-7','THR DEFCON 2'],
-    ['bsc-8','TRK SCANNING'],['bsc-9','FLT OP EPIC FURY'],
+    ['bsc-2','ALT  412  km'], ['bsc-3','UTC '+new Date().toISOString().slice(11,19)+'Z'],
+    ['bsc-4','SIG ████████'],  ['bsc-5','ENC AES-256-GCM'],
+    ['bsc-6','SAT 17 LOCKED'], ['bsc-7','THR DEFCON 2'],
+    ['bsc-8','TRK 284 CONTACTS'],['bsc-9','FLT OP EPIC FURY'],
   ];
-  COORD_FINALS.forEach(([id,txt],i)=>{
-    setTimeout(()=>{ const el=document.getElementById(id); if(el){ el.classList.add('active'); scramble(el,txt,400); } },500+i*260);
+  COORDS.forEach(([id,txt],i)=>{
+    setTimeout(()=>{
+      const el=document.getElementById(id); if(!el) return;
+      el.classList.add('active'); scramble(el,txt,380);
+    },200+i*230);
   });
 
-  const STATUS_ITEMS=[
-    {id:'bsi-0',val:'bsv-0',ok:'LOCKED',   delay:600 },
-    {id:'bsi-1',val:'bsv-1',ok:'AES-256',  delay:900 },
-    {id:'bsi-2',val:'bsv-2',ok:'LVL 5 ✓',  delay:1200},
-    {id:'bsi-3',val:'bsv-3',ok:'ACTIVE',   delay:1500},
-    {id:'bsi-4',val:'bsv-4',ok:'6 FEEDS',  delay:1750},
-    {id:'bsi-5',val:'bsv-5',ok:'v94 ✓',    delay:2000},
-    {id:'bsi-6',val:'bsv-6',ok:'USGS ✓',   delay:2200},
-    {id:'bsi-7',val:'bsv-7',ok:'ISS ✓',    delay:2350},
-    {id:'bsi-8',val:'bsv-8',ok:'NOMINAL',  delay:2500},
-    {id:'bsi-9',val:'bsv-9',ok:'READY',    delay:2650},
+  // STATUS items
+  const STATUS=[
+    {id:'bsi-0',val:'bsv-0',txt:'LOCKED',   t:600 },
+    {id:'bsi-1',val:'bsv-1',txt:'AES-256',  t:850 },
+    {id:'bsi-2',val:'bsv-2',txt:'LVL 5 ✓',  t:1100},
+    {id:'bsi-3',val:'bsv-3',txt:'ACTIVE',   t:1400},
+    {id:'bsi-4',val:'bsv-4',txt:'6 FEEDS',  t:1650},
+    {id:'bsi-5',val:'bsv-5',txt:'v94 ✓',    t:1900},
+    {id:'bsi-6',val:'bsv-6',txt:'USGS ✓',   t:2100},
+    {id:'bsi-7',val:'bsv-7',txt:'ISS ✓',    t:2250},
+    {id:'bsi-8',val:'bsv-8',txt:'NOMINAL',  t:2400},
+    {id:'bsi-9',val:'bsv-9',txt:'READY',    t:2550},
   ];
-  STATUS_ITEMS.forEach((item,i)=>{
+  STATUS.forEach((s,i)=>{
     setTimeout(()=>{
-      const row=document.getElementById(item.id), val=document.getElementById(item.val);
+      const row=document.getElementById(s.id), val=document.getElementById(s.val);
       if(!row||!val) return;
       row.classList.add('active');
-      scramble(val,item.ok,250,()=>{
+      scramble(val,s.txt,220,()=>{
         row.classList.remove('active'); row.classList.add('ok');
-        beep(1000+i*40); spawnPing(i);
-        const pct=Math.round(((i+1)/STATUS_ITEMS.length)*100);
+        spawnPing(i);
+        const pct=Math.round(((i+1)/STATUS.length)*100);
         const fill=document.getElementById('bs-fill'), pctEl=document.getElementById('bs-pct');
         if(fill) fill.style.width=pct+'%'; if(pctEl) pctEl.textContent=pct+'%';
       });
-    },item.delay);
+    },s.t);
   });
 
-  // ══════════════════════════════════════════════
-  // LOCK-ON FINALE (t=3600ms)
-  // ══════════════════════════════════════════════
+  // ── t=300: ALERT ──────────────────────────────────────────────────────────
   setTimeout(()=>{
-    lockSound();
-    // Red targeting reticle animation
-    const reticle=document.createElement('div');
-    reticle.style.cssText=`position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);z-index:15;pointer-events:none;
-      width:120px;height:120px;border:2px solid #ef4444;border-radius:50%;
-      box-shadow:0 0 30px #ef4444,inset 0 0 30px rgba(239,68,68,.2);
-      animation:seismic-ripple .3s ease-out`;
-    const crossH=document.createElement('div');
-    crossH.style.cssText='position:absolute;top:50%;left:0;right:0;height:1px;background:#ef4444;transform:translateY(-50%)';
-    const crossV=document.createElement('div');
-    crossV.style.cssText='position:absolute;left:50%;top:0;bottom:0;width:1px;background:#ef4444;transform:translateX(-50%)';
-    reticle.appendChild(crossH); reticle.appendChild(crossV);
-    screen.appendChild(reticle);
-    setTimeout(()=>reticle.remove(),800);
+    sfxAlert();
+    shake(6, 15);
+    let n=0; const si=setInterval(()=>{
+      screen.style.background = n%2 ? '#000510' : '#1a0008';
+      if(++n >= 8){ clearInterval(si); screen.style.background='#000510'; }
+    },70);
+    // Red ALERT stamp
+    const stamp=document.createElement('div');
+    stamp.style.cssText='position:absolute;inset:0;display:flex;align-items:center;justify-content:center;z-index:30;pointer-events:none';
+    stamp.innerHTML=`<div style="font-family:Orbitron,monospace;font-size:clamp(20px,4vw,60px);font-weight:900;color:#ef4444;letter-spacing:10px;opacity:0;text-shadow:0 0 60px #ef4444,0 0 120px rgba(239,68,68,.3);transition:opacity .1s" id="alertStamp">◉ THREAT DETECTED ◉</div>`;
+    screen.appendChild(stamp);
+    requestAnimationFrame(()=>{ const el=document.getElementById('alertStamp'); if(el) el.style.opacity='1'; });
+    setTimeout(()=>stamp.remove(), 700);
+  },300);
 
+  // ── t=800–1400: MISSILES LAUNCH ───────────────────────────────────────────
+  // Fire toward upper portion of screen (where the "action" is happening)
+  const tgt1 = {x:W*0.32, y:H*0.22}; // Tehran
+  const tgt2 = {x:W*0.58, y:H*0.18}; // Isfahan
+  const tgt3 = {x:W*0.48, y:H*0.30}; // Fordow (center-high)
+  const tgt4 = {x:W*0.22, y:H*0.28}; // Parchin
+  const tgt5 = {x:W*0.70, y:H*0.14}; // Bandar Abbas
+
+  setTimeout(()=>fireMissile(W*0.08, H*0.92, tgt1.x, tgt1.y, ()=>explosion(tgt1.x,tgt1.y,1.1), 900), 800);
+  setTimeout(()=>fireMissile(W*0.92, H*0.88, tgt2.x, tgt2.y, ()=>explosion(tgt2.x,tgt2.y,1.0), 850), 1020);
+  setTimeout(()=>fireMissile(W*0.50, H*0.95, tgt3.x, tgt3.y, ()=>explosion(tgt3.x,tgt3.y,0.8), 750), 1240);
+
+  // Second wave
+  setTimeout(()=>fireMissile(W*0.15, H*0.90, tgt4.x, tgt4.y, ()=>explosion(tgt4.x,tgt4.y,0.9), 800), 1800);
+  setTimeout(()=>fireMissile(W*0.85, H*0.85, tgt5.x, tgt5.y, ()=>explosion(tgt5.x,tgt5.y,1.0), 900), 2050);
+
+  // ── t=2600: CHAIN REACTION ────────────────────────────────────────────────
+  setTimeout(()=>{
+    // Simultaneous triple detonation — the money shot
+    const cx=W*0.5, cy=H*0.3;
+    explosion(cx,        cy,       2.8);
+    setTimeout(()=>explosion(cx-W*0.15, cy+H*0.05, 1.6), 80);
+    setTimeout(()=>explosion(cx+W*0.18, cy-H*0.03, 1.4), 160);
+    shake(35, 35);
+
+    // Hard white screen flash — CINEMATIC
+    const flash=document.createElement('div');
+    flash.style.cssText='position:absolute;inset:0;z-index:50;pointer-events:none;background:#fff;opacity:0;transition:opacity 0.04s';
+    screen.appendChild(flash);
+    requestAnimationFrame(()=>{
+      flash.style.opacity='0.85';
+      setTimeout(()=>{ flash.style.transition='opacity 1.2s ease-out'; flash.style.opacity='0'; setTimeout(()=>flash.remove(),1250); },60);
+    });
+
+    // Chromatic aberration glitch on the canvas
+    fc.style.transition=''; fc.style.filter='saturate(3) hue-rotate(-20deg) contrast(1.5)';
+    setTimeout(()=>{ fc.style.transition='filter .4s'; fc.style.filter='none'; },120);
+
+  },2600);
+
+  // ── t=3400: LOCK-ON ───────────────────────────────────────────────────────
+  setTimeout(()=>{
+    sfxLock();
+    shake(8, 12);
+
+    // Red targeting reticle that converges
+    const ret=document.createElement('canvas');
+    ret.width=ret.height=200;
+    ret.style.cssText='position:absolute;top:50%;left:50%;transform:translate(-50%,-50%) scale(2);z-index:40;pointer-events:none;transition:transform .4s cubic-bezier(.2,1.6,.4,1)';
+    screen.appendChild(ret);
+    requestAnimationFrame(()=>{ ret.style.transform='translate(-50%,-50%) scale(1)'; });
+
+    const rCtx=ret.getContext('2d');
+    let rAngle=0, rRaf;
+    const drawReticle=(a)=>{
+      rCtx.clearRect(0,0,200,200);
+      const cx=100, cy=100, r=70;
+      // Outer rotating ring
+      rCtx.save(); rCtx.translate(cx,cy); rCtx.rotate(a);
+      for(let seg=0;seg<8;seg++){
+        rCtx.beginPath();
+        rCtx.arc(0,0,r, seg*Math.PI/4+.15, seg*Math.PI/4+Math.PI/4-.15);
+        rCtx.strokeStyle='rgba(239,68,68,0.8)'; rCtx.lineWidth=2.5; rCtx.stroke();
+      }
+      rCtx.restore();
+      // Inner solid ring
+      rCtx.beginPath(); rCtx.arc(cx,cy,r*.55,0,Math.PI*2);
+      rCtx.strokeStyle='rgba(239,68,68,0.5)'; rCtx.lineWidth=1; rCtx.stroke();
+      // Cross hairs
+      rCtx.strokeStyle='rgba(239,68,68,0.6)'; rCtx.lineWidth=1;
+      [[cx-r*.9,cy,cx-r*.4,cy],[cx+r*.4,cy,cx+r*.9,cy],[cx,cy-r*.9,cx,cy-r*.4],[cx,cy+r*.4,cx,cy+r*.9]].forEach(([x1,y1,x2,y2])=>{
+        rCtx.beginPath(); rCtx.moveTo(x1,y1); rCtx.lineTo(x2,y2); rCtx.stroke();
+      });
+      // Center dot pulse
+      rCtx.beginPath(); rCtx.arc(cx,cy,4+Math.sin(a*8)*2,0,Math.PI*2);
+      rCtx.fillStyle='#ef4444'; rCtx.shadowColor='#ef4444'; rCtx.shadowBlur=20; rCtx.fill(); rCtx.shadowBlur=0;
+      // Corner brackets
+      const b=15, off=r*.82;
+      [[-1,-1],[1,-1],[1,1],[-1,1]].forEach(([sx,sy])=>{
+        rCtx.strokeStyle='rgba(239,68,68,0.9)'; rCtx.lineWidth=2;
+        rCtx.beginPath(); rCtx.moveTo(cx+sx*off,cy+sy*(off-b)); rCtx.lineTo(cx+sx*off,cy+sy*off); rCtx.lineTo(cx+sx*(off-b),cy+sy*off); rCtx.stroke();
+      });
+    };
+    const spinReticle=()=>{ rAngle+=0.04; drawReticle(rAngle); rRaf=requestAnimationFrame(spinReticle); };
+    requestAnimationFrame(spinReticle);
+
+    // Lock text
     const lockEl=document.getElementById('bs-locktext');
     if(lockEl){
       lockEl.classList.add('vis');
       lockEl.style.color='#ef4444';
-      lockEl.style.textShadow='0 0 20px #ef4444, 0 0 40px rgba(239,68,68,.4)';
-      scramble(lockEl,'⚡ TARGET LOCK — SYSTEMS ONLINE ⚡',500,()=>{
+      lockEl.style.textShadow='0 0 20px #ef4444,0 0 60px rgba(239,68,68,.3)';
+      scramble(lockEl,'⚡  TARGET LOCK ACQUIRED  ⚡', 500, ()=>{
         setTimeout(()=>{
-          scramble(lockEl,'LAUNCHING OSINT DASHBOARD...',400,()=>{
-            // Final massive explosion flash
-            boomSound(.12);
-            spawnExplosion(W*.5,H*.5,3,'#38bdf8');
-            const finalFlash=document.createElement('div');
-            finalFlash.style.cssText='position:absolute;inset:0;background:radial-gradient(ellipse at center,rgba(56,189,248,.4),rgba(239,68,68,.2),#000);opacity:1;z-index:20;pointer-events:none;transition:opacity .8s';
-            screen.appendChild(finalFlash);
-            requestAnimationFrame(()=>{ finalFlash.style.opacity='0'; });
-            // Slide out
+          lockEl.style.color='#38bdf8';
+          lockEl.style.textShadow='0 0 20px #38bdf8,0 0 60px rgba(56,189,248,.3)';
+          scramble(lockEl,'SYSTEMS ONLINE — LAUNCHING DASHBOARD', 400, ()=>{
+
+            // ── FINAL WIPE ──────────────────────────────────────────────────
             setTimeout(()=>{
-              cancelAnimationFrame(frameId);
-              cancelAnimationFrame(radarRafId);
-              screen.style.transition='opacity 0.6s ease-out, transform 0.6s ease-in';
-              screen.style.opacity='0';
-              screen.style.transform='scale(1.04)';
-              setTimeout(()=>{ screen.remove(); if(ctx)ctx.close(); },650);
-            },500);
+              cancelAnimationFrame(rRaf);
+              sfxExplosion(0.4);
+              shake(20,20);
+
+              // Nuclear flash — white → electric blue → black
+              const wipe=document.createElement('div');
+              wipe.style.cssText='position:absolute;inset:0;z-index:60;pointer-events:none;background:radial-gradient(ellipse at 50% 40%,#fff 0%,rgba(56,189,248,.8) 25%,rgba(10,30,80,.9) 60%,#000 100%);opacity:0;transition:opacity .12s';
+              screen.appendChild(wipe);
+              requestAnimationFrame(()=>{
+                wipe.style.opacity='1';
+                setTimeout(()=>{
+                  cancelAnimationFrame(raf);
+                  cancelAnimationFrame(radarRaf);
+                  screen.style.transition='opacity .7s ease-in-out';
+                  screen.style.opacity='0';
+                  setTimeout(()=>{ screen.remove(); if(AC) try{AC.close()}catch(_){} },750);
+                },350);
+              });
+            },400);
+
           });
-        },300);
+        },500);
       });
     }
-  },3600);
+    setTimeout(()=>{ if(rRaf) cancelAnimationFrame(rRaf); if(ret.parentNode) ret.remove(); },3000);
+  },3400);
 
 })();
 
