@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-02-28T09:14:59Z",
-  "version": 88,
+  "generated_utc": "2026-02-28T10:11:13Z",
+  "version": 89,
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -842,6 +842,6 @@
     "conflict_articles": 1,
     "exercise_articles": 5,
     "total_articles": 50,
-    "computed_at": "2026-02-28T09:14:59.336756+00:00"
+    "computed_at": "2026-02-28T10:11:12.615627+00:00"
   }
 }
