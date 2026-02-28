@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-02-28T17:47:49Z",
+  "generated_utc": "2026-02-28T17:47:00Z",
   "version": 93,
-  "breaking_alert": "⚡ ESCALATION: KHAMENEI COMPOUND STRUCK — IRAN RETALIATES ACROSS 6 COUNTRIES — UN SECURITY COUNCIL EMERGENCY SESSION 21:00 GMT",
+  "breaking_alert": "⚡ OP EPIC FURY / OP RAGING LION ACTIVE — IRAN BANS HORMUZ TRAFFIC — SHAHED DRONE DESTROYS BAHRAIN RADOME — UN SC 21:00 GMT",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -139,10 +139,10 @@
   "chokepoints": [
     {
       "name": "Strait of Hormuz",
-      "status": "⚡ CRITICAL — ACTIVE WAR",
+      "status": "⚡ IRAN BAN DECLARED — TANKERS STILL MOVING",
       "lat": 26.6,
       "lon": 56.3,
-      "note": "WARTIME: US-Israel strikes active. Iran retaliating across 6 countries. Hormuz closure decision imminent. 20% global oil at risk."
+      "note": "WARTIME: Iran officially banned vessel traffic. Tankers still transiting as of 17:30 UTC (maritime expert). IRGCN in combat posture. 20% global oil at risk. Monitor for enforcement."
     },
     {
       "name": "Bab el-Mandeb",
@@ -246,12 +246,12 @@
     },
     {
       "id": "iran",
-      "name": "🔴 US-ISRAEL WAR ON IRAN — ESCALATING",
+      "name": "🔴 OP EPIC FURY + OP RAGING LION — US-ISRAEL vs IRAN",
       "lat": 35.7,
       "lng": 51.4,
       "intensity": "CRITICAL",
-      "status": "⚡ ACTIVE — KHAMENEI COMPOUND STRUCK",
-      "update": "UPDATED 16:49 UTC 28 FEB: BBC CONFIRMS satellite imagery shows Khamenei compound struck. Presidential office targeted. Local official: 53 killed at girls school in Minab (unverified). Iran retaliation in 6 countries: Israel (Haifa), Bahrain (5th Fleet HQ), Qatar (Al Udeid), UAE (1 KIA), Jordan (2 missiles intercepted), Kuwait (Ali Al-Salem AB). UN SC emergency meeting 21:00 GMT. UK/FR/DE: \"We did not participate.\" Saudi condemns Iran retaliation. Oman FM: \"I urge the US not to get sucked in — this is not your war.\" Anti-govt protests: 8+ university campuses Tehran/Mashhad/Isfahan. Students burning Islamic Republic flag."
+      "status": "⚡ ACTIVE COMBAT — MULTI-DAY CAMPAIGN",
+      "update": "UPDATED 17:43 UTC: Op Epic Fury (US) + Op Raging Lion (Israel) — strikes from carriers + land airbases. Trump: destroy missile industry, annihilate IRIN navy, prevent nuclear weapon. Warned US casualties possible. Shahed drone struck NSA Bahrain radome — video confirmed (USNI). Iran banned Hormuz vessel traffic — tankers still moving. IDF image of missile silo strike. Khamenei compound satellite-confirmed. 53 killed Minab school (unverified). 6 countries targeted: Israel/Bahrain/Qatar/UAE/Jordan/Kuwait. EU evacuating staff. France offering military aid. Russia: pre-planned unprovoked aggression. Spain rejected strikes. Norway FM: fears new extensive ME war. UN SC 21:00 GMT."
     }
   ],
   "exercises": [
@@ -678,8 +678,8 @@
     }
   ],
   "centcom_assets": {
-    "updated": "2026-02-28T16:52:00Z",
-    "summary": "⚡ WARTIME: Khamenei compound struck (satellite confirmed). Iran retaliating 6 countries. UN SC emergency 21:00 GMT. Ford CSG (E. Med) + Nimitz CSG (Arabian Sea) in strike posture. 5th Fleet HQ Bahrain struck. Kuwait/Jordan targeted.",
+    "updated": "2026-02-28T17:47:00Z",
+    "summary": "⚡ OP EPIC FURY + OP RAGING LION active. Ford (E.Med) + Nimitz (Arabian Sea) — sea + land strikes. NSA Bahrain: missile + Shahed drone struck, radome destroyed. Iran banned Hormuz — tankers still moving. UN SC 21:00 GMT.",
     "troops_total": "~40,000",
     "naval": [
       {
@@ -916,22 +916,25 @@
     "conflict_articles": 3,
     "exercise_articles": 8,
     "total_articles": 50,
-    "computed_at": "2026-02-28T17:47:49.531953+00:00",
+    "computed_at": "2026-02-28T17:47:00Z",
     "manual_override": "DEFCON_2",
     "breaking_events": [
-      "Khamenei compound struck — satellite imagery confirmed (BBC 15:49 UTC)",
-      "Presidential office of Iran also reportedly targeted",
-      "53 reported killed at girls primary school Minab — unverified",
-      "Iran retaliation across 6 countries: Israel, Bahrain, Qatar, UAE, Jordan, Kuwait",
-      "Jordan: 2 Iranian ballistic missiles intercepted",
-      "Kuwait: Ali Al-Salem AB (US Air Force) targeted — intercepted",
-      "UN Security Council emergency meeting called for 21:00 GMT",
-      "UK/France/Germany joint statement: \"We did not participate in these strikes\"",
-      "Saudi Arabia condemns Iran retaliation — full solidarity with Gulf states",
-      "Oman FM: \"I urge the US not to get sucked in — this is not your war\"",
-      "Anti-government protests: 8+ campuses Tehran, Mashhad, Isfahan",
-      "Students burning Islamic Republic flag, displaying pre-1979 Shah flag",
-      "Major airlines (BA, Emirates, Lufthansa, Turkish, Air India, Virgin) suspending ME flights"
+      "Op Epic Fury (US) + Op Raging Lion (Israel) — official operation names confirmed (USNI)",
+      "Strikes launched from carriers (Ford E.Med, Nimitz Arabian Sea) + land airbases simultaneously",
+      "Trump: destroy missile industry, annihilate IRIN navy, prevent nuclear. Warned US casualties possible.",
+      "Shahed-type drone struck NSA Bahrain — destroyed radome — video on social media (USNI)",
+      "Stars & Stripes: Iranian retaliation in Manama continued FOR HOURS",
+      "IRAN BANS STRAIT OF HORMUZ VESSEL TRAFFIC — tankers still transiting (maritime expert 17:30 UTC)",
+      "IDF releases image of strike on Iranian missile silo",
+      "Khamenei compound hit — satellite confirmed (BBC). Presidential office targeted.",
+      "53 killed at girls school Minab — unverified local official",
+      "Iran retaliated 6 countries: Israel, Bahrain, Qatar, UAE (1 KIA), Jordan, Kuwait",
+      "EU evacuating staff from region. France offering military aid to UAE/Qatar/Jordan.",
+      "Russia: strikes are pre-planned unprovoked aggression against a UN member state",
+      "Spain rejected strikes. Norway FM: fears new extensive war in Middle East.",
+      "ICAN: attacks risk nuclear proliferation and use of nuclear weapons",
+      "Anti-govt protests: 8+ Iranian university campuses, burning Islamic Republic flag",
+      "UN Security Council emergency meeting 21:00 GMT"
     ]
   }
 }
