@@ -1,6 +1,7 @@
 {
-  "generated_utc": "2026-02-28T11:09:04Z",
-  "version": 90,
+  "generated_utc": "2026-02-28T11:40:00Z",
+  "version": 82,
+  "breaking_alert": "⚡ BREAKING: US-ISRAEL JOINT STRIKES ON IRAN UNDERWAY — MAJOR COMBAT OPERATIONS ACTIVE — IRAN RETALIATING WITH MISSILES",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -124,24 +125,24 @@
       "notes": "Fujian conducting training exercises near Taiwan Strait. Elevated regional posture."
     },
     {
-      "name": "🇮🇷 IRIN — Persian Gulf",
+      "name": "🇮🇷 IRIN — Persian Gulf (COMBAT)",
       "type": "FLEET",
       "country": "iran",
-      "status": "elevated",
+      "status": "combat",
       "lat": 27.2,
       "lon": 56.3,
       "region": "PERSIAN GULF / STRAIT OF HORMUZ",
       "ships": "Frigates, IRGCN fast attack craft, Ghadir-class midget submarines",
-      "notes": "US-Iran nuclear talks Geneva Feb 26. Posture cautiously elevated — IRGCN fast boats active in Gulf."
+      "notes": "⚡ WARTIME POSTURE. US-Israel strikes on Iran active as of 28 Feb 2026. Iran retaliating with ballistic missiles. IRGCN all units combat status. Hormuz closure orders possible. 5th Fleet HQ in Bahrain struck by Iranian missiles."
     }
   ],
   "chokepoints": [
     {
       "name": "Strait of Hormuz",
-      "status": "ELEVATED",
+      "status": "⚡ CRITICAL — CLOSURE RISK",
       "lat": 26.6,
       "lon": 56.3,
-      "note": "Iranian naval posturing during Geneva talks. IRGCN fast boats active."
+      "note": "ACTIVE WAR STATE. Iran may attempt Hormuz closure. IRGCN fast attack craft on highest alert. 20% of global oil supply at risk. Monitor immediately."
     },
     {
       "name": "Bab el-Mandeb",
@@ -245,12 +246,12 @@
     },
     {
       "id": "iran",
-      "name": "Iran-Israel / US-Iran Tensions",
-      "lat": 32.0,
-      "lng": 53.0,
-      "intensity": "MEDIUM",
-      "status": "NEGOTIATING",
-      "update": "US-Iran nuclear talks in Geneva Feb 26 — Trump weighing options post-SOTU. Ford CSG in Eastern Med as deterrent. Next round could be decisive."
+      "name": "🔴 US-ISRAEL STRIKES ON IRAN — ACTIVE WAR",
+      "lat": 35.7,
+      "lng": 51.4,
+      "intensity": "CRITICAL",
+      "status": "⚡ ACTIVE STRIKES — IRAN RETALIATING",
+      "update": "BREAKING 28 FEB 2026: Joint US-Israel strikes began ~09:30 Tehran time. Explosions in Tehran (near Leadership House / Khamenei HQ), Isfahan, Qom, Karaj, Kermanshah. Trump: 'major combat operations in Iran — eliminate nuclear threat — seek regime change.' Iran retaliating: missiles fired toward Israel. Explosions in Haifa. Iran hit US Navy 5th Fleet HQ in Bahrain. Qatar (Al Udeid AB) attacked — 'successfully countered.' UAE attacked — 1 KIA from debris. Iran airspace closed. Israel airspace closed. Multiple Gulf airspaces shutting down. Lufthansa/Wizz Air/Virgin suspending regional flights to 7 Mar."
     }
   ],
   "exercises": [
@@ -420,12 +421,12 @@
     },
     {
       "id": "iran_gulf",
-      "name": "Persian Gulf / Hormuz",
+      "name": "⚡ Persian Gulf / Hormuz — WARTIME JAMMING",
       "lat": 26.5,
       "lng": 56.0,
-      "radius_km": 150,
-      "active": false,
-      "notes": "Reduced since nuclear talks began but not eliminated. Monitor."
+      "radius_km": 300,
+      "active": true,
+      "notes": "ACTIVE. Iran in combat state. Full-spectrum jamming and spoofing expected across Persian Gulf, Strait of Hormuz, and Gulf of Oman. All navigation caution."
     }
   ],
   "notams": [
@@ -441,13 +442,13 @@
     },
     {
       "id": "israel",
-      "name": "Israel / Gaza TFR",
+      "name": "🔴 Israel Airspace CLOSED — MISSILES INBOUND",
       "lat": 31.8,
       "lng": 34.8,
-      "radius_km": 150,
+      "radius_km": 300,
       "active": true,
-      "type": "combat",
-      "notes": "TFR active over Gaza. Ben Gurion operational with restrictions."
+      "type": "warzone",
+      "notes": "FULL CLOSURE. Iranian ballistic missiles inbound after US-Israel strikes on Iran. Explosions reported in Haifa. IDF intercepting. Citizens ordered to shelters until Mon 20:00. Ben Gurion closed."
     },
     {
       "id": "redsea",
@@ -471,13 +472,13 @@
     },
     {
       "id": "iran",
-      "name": "Iran ADIZ Alert",
+      "name": "🔴 Iran Airspace CLOSED — ACTIVE STRIKES",
       "lat": 33.0,
       "lng": 53.0,
-      "radius_km": 400,
+      "radius_km": 600,
       "active": true,
-      "type": "adiz",
-      "notes": "Heightened air defense during Geneva talks. Monitor for changes."
+      "type": "warzone",
+      "notes": "FULL CLOSURE. US-Israel joint strikes active as of 28 Feb 2026. Tehran, Isfahan, Qom, Karaj, Kermanshah targeted. Iran airspace closed by Tasnim News Agency. No civilian flights."
     },
     {
       "id": "taiwan",
@@ -508,6 +509,36 @@
       "active": true,
       "type": "exclusion",
       "notes": "DPRK airspace fully restricted. ICAO warnings active."
+    },
+    {
+      "id": "bahrain",
+      "name": "🔴 Bahrain — US 5th Fleet HQ STRUCK",
+      "lat": 26.2,
+      "lng": 50.6,
+      "radius_km": 150,
+      "active": true,
+      "type": "warzone",
+      "notes": "BREAKING: Iranian missiles struck NSA Bahrain (US Navy 5th Fleet HQ). Sirens activated. Residents ordered to shelter. Status of US personnel unknown."
+    },
+    {
+      "id": "qatar",
+      "name": "🔴 Qatar — Al Udeid AB Under Attack",
+      "lat": 25.1,
+      "lng": 51.3,
+      "radius_km": 200,
+      "active": true,
+      "type": "warzone",
+      "notes": "BREAKING: Qatar reported Iranian attacks on its territory. Al Udeid AB (largest US base in region, ~10,000 troops) targeted. Qatar: 'successfully countered a number of attacks.' CAOC operations status unknown."
+    },
+    {
+      "id": "uae",
+      "name": "🔴 UAE — Missile Attack, 1 KIA",
+      "lat": 24.2,
+      "lng": 54.5,
+      "radius_km": 200,
+      "active": true,
+      "type": "warzone",
+      "notes": "BREAKING: UAE confirmed Iranian missile attack on its territory. 1 killed by falling debris from air defense intercepts. Airspace 'partially and temporarily' closed. Al Dhafra AB (F-22s, tankers) on alert."
     },
     {
       "id": "sudan",
@@ -596,16 +627,6 @@
       ]
     },
     {
-      "title": "US launches ‘major combat operations’ against Iran",
-      "link": "https://taskandpurpose.com/news/us-israel-combat-bomb-iran/",
-      "published": "Sat, 28 Feb 2026 03:56:10 -0500",
-      "source": "Task & Purpose",
-      "categories": [
-        "deployment",
-        "exercise"
-      ]
-    },
-    {
       "title": "IAI and TKMS deliver BlueWhale Large AUV to German Navy",
       "link": "https://www.navalnews.com/naval-news/2026/02/iai-and-tkms-deliver-bluewhale-large-auv-to-german-navy/",
       "published": "Thu, 26 Feb 2026 13:04:36 +0000",
@@ -622,11 +643,20 @@
       "categories": [
         "deployment"
       ]
+    },
+    {
+      "title": "US military assembles largest force of warships, aircraft in Middle East in decades",
+      "link": "https://www.defensenews.com/news/your-military/2026/02/26/us-military-assembles-largest-force-of-warships-aircraft-in-middle-east-in-decades/",
+      "published": "Thu, 26 Feb 2026 19:20:45 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment"
+      ]
     }
   ],
   "centcom_assets": {
-    "updated": "2026-02-26T00:39:22Z",
-    "summary": "Two CSGs in theater: Ford (Eastern Med) + Nimitz (North Arabian Sea). US-Iran Geneva talks Feb 26. Red Sea Houthi campaign active. Zelenskyy-Trump peace diplomacy ongoing.",
+    "updated": "2026-02-28T11:40:00Z",
+    "summary": "⚡ WARTIME POSTURE: US-Israel joint strikes on Iran active. Ford CSG (Eastern Med) + Nimitz CSG (North Arabian Sea) in strike posture. 5th Fleet HQ Bahrain struck by Iranian missiles. Al Udeid (Qatar) attacked. UAE struck. Iran retaliating with ballistic missiles toward Israel.",
     "troops_total": "~40,000",
     "naval": [
       {
@@ -808,16 +838,6 @@
       ]
     },
     {
-      "title": "US launches ‘major combat operations’ against Iran",
-      "link": "https://taskandpurpose.com/news/us-israel-combat-bomb-iran/",
-      "published": "Sat, 28 Feb 2026 03:56:10 -0500",
-      "source": "Task & Purpose",
-      "categories": [
-        "deployment",
-        "exercise"
-      ]
-    },
-    {
       "title": "Navantia and Fincantieri strengthen their cooperation to advance the European Patrol Corvette (EPC) programme",
       "link": "https://www.navalnews.com/naval-news/2026/02/navantia-and-fincantieri-strengthen-their-cooperation-to-advance-the-european-patrol-corvette-epc-programme/",
       "published": "Thu, 26 Feb 2026 09:12:09 +0000",
@@ -838,10 +858,23 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 15,
-    "conflict_articles": 1,
-    "exercise_articles": 5,
+    "deployment_articles": 14,
+    "conflict_articles": 12,
+    "exercise_articles": 4,
     "total_articles": 50,
-    "computed_at": "2026-02-28T11:09:04.227678+00:00"
+    "computed_at": "2026-02-28T11:40:00.000000+00:00",
+    "manual_override": "DEFCON_ELEVATED",
+    "breaking_events": [
+      "US-Israel joint strikes on Iran active (28 Feb 2026 09:30 Tehran / 06:00 UTC)",
+      "Trump declares 'major combat operations' — regime change objective stated",
+      "Explosions: Tehran, Isfahan, Qom, Karaj, Kermanshah",
+      "Iran retaliating: ballistic missiles toward Israel — Haifa explosions reported",
+      "NSA Bahrain (US 5th Fleet HQ) struck by Iranian missiles",
+      "Al Udeid AB Qatar attacked — Qatar says countered",
+      "UAE struck by Iran — 1 KIA, airspace partially closed",
+      "Israel full airspace closure — shelter in place until Mon 20:00",
+      "Iran full airspace closure",
+      "Regional airlines suspending flights through 7 Mar"
+    ]
   }
 }
