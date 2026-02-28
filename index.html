@@ -867,6 +867,7 @@ body::after{
   <button class="tb-btn" id="btn-exercises" onclick="toggleExercises()">🎯 Exercises</button>
   <button class="tb-btn" id="btn-conflicts" onclick="toggleConflicts()">⚔️ Conflicts</button>
   <button class="tb-btn on" id="btn-strikes" onclick="toggleStrikes()" style="background:rgba(239,68,68,.1);border-color:rgba(239,68,68,.3);color:#ef4444">💥 Strikes</button>
+  <button class="tb-btn on" id="btn-protests" onclick="toggleProtests()" style="background:rgba(167,139,250,.1);border-color:rgba(167,139,250,.3);color:#a78bfa">✊ Protests</button>
   <button class="tb-btn on" id="btn-naval" onclick="toggleNavalLayer()">🚢 Naval</button>
   <button class="tb-btn" id="btn-terminator" onclick="toggleTerminator()">🌗 Day/Night</button>
   <button class="tb-btn" id="btn-paths" onclick="toggleFlightPaths()">➤ Paths</button>
@@ -1074,10 +1075,20 @@ body::after{
 
   <!-- ⚡ IRAN STRIKE TIMELINE WIDGET -->
   <div class="widget widget-scan-line" id="w-iran-timeline" style="grid-column:1/-1;grid-row:4;position:relative;overflow:hidden;min-height:140px;max-height:200px">
-    <div class="widget-header" style="background:rgba(30,0,0,.7);border-bottom:1px solid rgba(239,68,68,.3)">
-      ⚡ <span class="wh-title" style="color:#ef4444;text-shadow:0 0 10px rgba(239,68,68,.5)">IRAN STRIKE TIMELINE</span>
-      <span id="iran-tl-updated" style="font-size:9px;color:#6b3a3a;font-family:'Share Tech Mono',monospace;margin-left:auto">28 FEB 2026 — LIVE CONFLICT</span>
-      <span id="iran-tl-count" class="wh-count" style="color:#ef4444;border-color:#ef4444">0 events</span>
+    <div class="widget-header" style="background:rgba(20,5,5,.9);border-bottom:1px solid rgba(239,68,68,.25);gap:8px">
+      ⚡ <span class="wh-title" style="color:#ef4444">IRAN CONFLICT TIMELINE</span>
+      <span style="font-size:9px;color:rgba(239,68,68,.5);font-family:'Share Tech Mono',monospace">KHAMENEI COMPOUND STRUCK • RETALIATION IN 6 COUNTRIES</span>
+      <div style="display:flex;align-items:center;gap:6px;margin-left:auto;flex-shrink:0">
+        <div style="display:flex;align-items:center;gap:4px;background:rgba(239,68,68,.08);border:1px solid rgba(239,68,68,.2);border-radius:3px;padding:2px 8px">
+          <span style="font-size:9px;color:rgba(239,68,68,.6);font-family:'Share Tech Mono',monospace;white-space:nowrap">🔴 CASUALTIES (UNVERIFIED)</span>
+          <span style="font-size:11px;font-weight:700;color:#ef4444;font-family:'Orbitron',monospace">53+</span>
+        </div>
+        <div style="display:flex;align-items:center;gap:4px;background:rgba(167,139,250,.08);border:1px solid rgba(167,139,250,.2);border-radius:3px;padding:2px 8px">
+          <span style="font-size:9px;color:rgba(167,139,250,.6);font-family:'Share Tech Mono',monospace;white-space:nowrap">🇺🇳 UN SC MTG</span>
+          <span id="unsc-countdown" style="font-size:11px;font-weight:700;color:#a78bfa;font-family:'Orbitron',monospace">--:--:--</span>
+        </div>
+      </div>
+      <span id="iran-tl-count" class="wh-count" style="color:#ef4444;border-color:rgba(239,68,68,.3)">0 events</span>
     </div>
     <div class="widget-body" id="pane-iran-timeline" style="padding:0;overflow-y:auto"></div>
   </div>
@@ -3496,16 +3507,27 @@ function renderConflicts(){
 // ════════════════════════════════════════
 const STRIKE_SITES = [
   // US-Israel strikes on Iran
-  {name:'Tehran — Leadership House area', lat:35.6944, lon:51.4215, type:'us_strike', desc:'Smoke observed near Supreme Leader\'s office (Jomhouri Sq, Hassan Abad Sq). Multiple verified videos.', time:'09:30 UTC'},
-  {name:'Isfahan — Nuclear/UCF', lat:32.625, lon:51.671, type:'us_strike', desc:'Explosions reported in Isfahan. Uranium Conversion Facility nearby. Strike effectiveness unknown.', time:'09:30 UTC'},
+  {name:'Tehran — Khamenei Compound ⚡ CONFIRMED', lat:35.6944, lon:51.4215, type:'us_strike', desc:'CONFIRMED: Satellite imagery shows Khamenei compound struck. BBC Verify located video within 1km of Leadership House. Presidential office also reportedly targeted. Smoke over Jomhouri Sq, Hassan Abad Sq.', time:'09:30 UTC'},
+  {name:'Isfahan — Nuclear/UCF', lat:32.625, lon:51.671, type:'us_strike', desc:'Explosions in Isfahan. Uranium Conversion Facility nearby. Strike effectiveness unknown.', time:'09:30 UTC'},
   {name:'Qom — near Fordow', lat:34.64, lon:50.88, type:'us_strike', desc:'Explosions reported near Qom. Fordow underground enrichment facility ~30km away.', time:'09:30 UTC'},
   {name:'Karaj', lat:35.83, lon:51.01, type:'us_strike', desc:'Explosions reported. Karaj hosts nuclear centrifuge production facilities.', time:'09:30 UTC'},
-  {name:'Kermanshah', lat:34.32, lon:47.07, type:'us_strike', desc:'Explosions reported in Kermanshah (western Iran). Military bases in area.', time:'09:30 UTC'},
-  // Iranian retaliation
-  {name:'Haifa — Israel', lat:32.794, lon:34.99, type:'iran_retaliation', desc:'Explosions heard. Unclear if impacts or Iron Dome intercepts. IDF working to intercept.', time:'11:28 UTC'},
-  {name:'NSA Bahrain — US 5th Fleet HQ', lat:26.217, lon:50.607, type:'iran_retaliation', desc:'Iranian missile attack on US Navy 5th Fleet service center. Bahrain activated emergency sirens.', time:'11:00 UTC'},
-  {name:'Al Udeid AB — Qatar', lat:25.117, lon:51.315, type:'iran_retaliation', desc:'Largest US military facility in region (~10,000 troops). Qatar: "successfully countered a number of attacks."', time:'10:45 UTC'},
-  {name:'UAE — Al Dhafra AB area', lat:24.248, lon:54.547, type:'iran_retaliation', desc:'Iran struck UAE territory. 1 person killed by falling debris from air defense intercepts. Airspace partially closed.', time:'10:30 UTC'},
+  {name:'Kermanshah', lat:34.32, lon:47.07, type:'us_strike', desc:'Explosions in Kermanshah (western Iran). Military bases in area.', time:'09:30 UTC'},
+  {name:'Minab — Girls School ⚠️ UNVERIFIED', lat:27.09, lon:57.08, type:'us_strike', desc:'LOCAL OFFICIAL (UNVERIFIED): 53 people killed in strike on girls primary school in Minab, southern Iran. BBC has not verified. Significant if confirmed.', time:'~09:30 UTC'},
+  // Iranian retaliation — 6 countries targeted
+  {name:'Haifa — Israel', lat:32.794, lon:34.99, type:'iran_retaliation', desc:'Explosions heard in Haifa. IDF intercepting. Unclear if impacts or Iron Dome interceptions. Israelis ordered to shelters.', time:'11:28 UTC'},
+  {name:'NSA Bahrain — US 5th Fleet HQ', lat:26.217, lon:50.607, type:'iran_retaliation', desc:'Iranian missiles struck US Navy 5th Fleet service center. Bahrain sirens activated. US personnel status unknown.', time:'11:00 UTC'},
+  {name:'Al Udeid AB — Qatar', lat:25.117, lon:51.315, type:'iran_retaliation', desc:'Largest US base in region (~10,000 troops). Qatar: "successfully countered a number of attacks." CAOC operational status unknown.', time:'10:45 UTC'},
+  {name:'UAE — Al Dhafra AB area', lat:24.248, lon:54.547, type:'iran_retaliation', desc:'Iran struck UAE territory. 1 KIA from debris. Several missiles intercepted. Airspace partially closed. F-22s / tankers based here.', time:'10:30 UTC'},
+  {name:'Jordan — 2 Missiles Intercepted', lat:31.9, lon:36.0, type:'iran_retaliation', desc:'Jordan confirmed interception of 2 Iranian ballistic missiles targeting its territory. Not a combatant — Iran broadening retaliation footprint.', time:'~11:30 UTC'},
+  {name:'Kuwait — Ali Al-Salem AB', lat:29.45, lon:47.72, type:'iran_retaliation', desc:'Iran targeted Ali Al-Salem airbase where US Air Force has presence. Kuwait air defence successfully intercepted multiple ballistic missiles.', time:'~11:30 UTC'},
+];
+
+// Iran protest sites (internal unrest layer)
+const PROTEST_SITES = [
+  {name:'Tehran — Multiple Campuses', lat:35.715, lon:51.405, universities:['University of Tehran','Sharif University of Technology','Amirkabir University','al-Zahra University'], desc:'Students burning Islamic Republic flag. Chants: "woman, life, freedom" and "long live the Shah". Basij clashes reported on campuses. State TV acknowledges "limited" protests.'},
+  {name:'Isfahan — University of Technology', lat:32.617, lon:51.665, universities:['Isfahan University of Technology'], desc:'Students displaying pre-1979 "lion and sun" flag. Pro-Shah chants. Protests spreading from campus to streets.'},
+  {name:'Mashhad — Universities', lat:36.297, lon:59.606, universities:['Ferdowsi University'], desc:'Anti-regime protests confirmed. BBC Verify authenticated footage.'},
+  {name:'Abdanan — Street Protests', lat:32.99, lon:47.42, universities:[], desc:'Unrest after arrest of academic Yaqoob Mohammadi. Crowds running amid sound of gunfire. Western Iran.'},
 ];
 
 let strikeLayer = L.layerGroup();
@@ -3583,8 +3605,59 @@ if(!document.getElementById('strike-anim-style')){
   s.textContent = `
     @keyframes strike-pulse{0%{transform:translate(-50%,-50%) scale(0.8);opacity:0.4}100%{transform:translate(-50%,-50%) scale(2);opacity:0}}
     @keyframes strike-ring{0%{transform:translate(-50%,-50%) scale(0.5);opacity:0.3}100%{transform:translate(-50%,-50%) scale(3);opacity:0}}
+    @keyframes protest-pulse{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.5;transform:scale(1.3)}}
   `;
   document.head.appendChild(s);
+}
+
+// ════════════════════════════════════════
+// IRAN PROTEST / UNREST LAYER
+// ════════════════════════════════════════
+let protestLayer = L.layerGroup();
+let protestsVisible = true; // ON by default
+
+function toggleProtests(){
+  protestsVisible = !protestsVisible;
+  const btn = document.getElementById('btn-protests');
+  if(protestsVisible){
+    protestLayer.addTo(map);
+    btn.classList.add('on');
+    renderProtests();
+  } else {
+    map.removeLayer(protestLayer);
+    btn.classList.remove('on');
+  }
+}
+
+function renderProtests(){
+  protestLayer.clearLayers();
+  if(!protestsVisible) return;
+  PROTEST_SITES.forEach(p => {
+    const marker = L.marker([p.lat, p.lon], {
+      icon: L.divIcon({
+        html:`<div style="position:relative;cursor:pointer;text-align:center">
+          <div style="font-size:16px;animation:protest-pulse 1.8s ease-in-out infinite;text-shadow:0 0 8px #a78bfa">✊</div>
+          <div style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:28px;height:28px;border-radius:50%;border:2px solid #a78bfa;opacity:0.3;animation:seismic-ripple 2.5s ease-out infinite"></div>
+        </div>`,
+        className:'', iconSize:[20,20], iconAnchor:[10,10]
+      })
+    });
+    const uniList = p.universities.length ? p.universities.join(', ') : 'Street protests';
+    marker.bindTooltip(`✊ PROTEST: ${p.name}`, {className:'dark-tooltip', direction:'top', offset:[0,-12]});
+    marker.on('click', () => {
+      document.getElementById('pTitle').textContent = `✊ ${p.name}`;
+      document.getElementById('pBody').innerHTML = `
+        <div style="margin-bottom:8px">
+          <span style="font-size:10px;padding:2px 8px;border-radius:3px;font-weight:700;font-family:'Share Tech Mono',monospace;background:rgba(167,139,250,.12);color:#a78bfa;border:1px solid rgba(167,139,250,.3)">INTERNAL UNREST</span>
+        </div>
+        ${p.universities.length ? `<div class="f"><span class="k">Campuses: </span><span class="v" style="font-size:10px">${uniList}</span></div>` : ''}
+        <div style="font-size:11px;color:var(--text);line-height:1.5;margin-top:6px">${p.desc}</div>
+        <div style="margin-top:8px;font-size:9px;color:var(--muted);font-family:'Share Tech Mono',monospace">SOURCE: BBC VERIFY / BBC PERSIAN — 28 FEB 2026</div>
+      `;
+      document.getElementById('infoP').classList.add('vis');
+    });
+    protestLayer.addLayer(marker);
+  });
 }
 
 // ════════════════════════════════════════
@@ -4334,13 +4407,22 @@ function showCentcomDetail(navalIdx, colKey, itemIdx){
 // IRAN STRIKE TIMELINE
 // ════════════════════════════════════════
 const IRAN_TIMELINE = [
+  { time:'2026-02-28T16:49Z', icon:'✊', type:'intel',      text:'Anti-government protests spread to 8+ university campuses in Tehran, Mashhad, Isfahan. Students burning Islamic Republic flag, displaying pre-1979 Shah flag', src:'BBC Verify' },
+  { time:'2026-02-28T16:00Z', icon:'🌐', type:'diplomatic', text:'UK/France/Germany joint statement: "We did not participate in these strikes. We urge the Iranian leadership to seek a negotiated solution"', src:'Joint Statement' },
+  { time:'2026-02-28T15:49Z', icon:'📡', type:'intel',      text:'BBC CONFIRM: Satellite imagery shows Khamenei compound struck. Presidential office also reportedly targeted. Local official: 53 killed at Minab girls school (unverified)', src:'BBC' },
+  { time:'2026-02-28T15:00Z', icon:'🌐', type:'diplomatic', text:'UN Security Council emergency meeting called for 21:00 GMT — US-Israel-Iran war on agenda', src:'UN' },
+  { time:'2026-02-28T14:30Z', icon:'🌐', type:'diplomatic', text:'Oman FM (nuclear talks mediator): "I urge the US not to get sucked in further — this is not your war"', src:'Oman FM / X' },
+  { time:'2026-02-28T14:00Z', icon:'🛡️', type:'intercept',  text:'Saudi Arabia condemns Iran retaliation on Gulf states — pledges "full solidarity and unwavering support" to Bahrain, UAE, Qatar, Jordan, Kuwait', src:'Saudi FM' },
+  { time:'2026-02-28T13:30Z', icon:'🛡️', type:'intercept',  text:'Kuwait: Ali Al-Salem AB (US Air Force presence) targeted by Iranian ballistic missiles — all successfully intercepted', src:'Kuwait Def Min' },
+  { time:'2026-02-28T13:00Z', icon:'🛡️', type:'intercept',  text:'Jordan: 2 Iranian ballistic missiles targeting its territory successfully intercepted and destroyed', src:'Jordan spokesman' },
+  { time:'2026-02-28T12:17Z', icon:'📡', type:'intel',      text:'Bowen (BBC): "US and Israel see Iran\'s regime as vulnerable — dealing with economic crisis and aftermath of protests. A dangerous moment but an opportunity they do not want to miss"', src:'BBC' },
   { time:'2026-02-28T11:28Z', icon:'🚀', type:'missile',    text:'Iran fires ballistic missiles toward Israel — explosions heard in Haifa', src:'BBC' },
   { time:'2026-02-28T11:00Z', icon:'💥', type:'strike',     text:'Iran strikes NSA Bahrain — US Navy 5th Fleet HQ targeted by Iranian missiles', src:'BBC' },
-  { time:'2026-02-28T10:45Z', icon:'🛡️', type:'intercept',  text:'Qatar: Al Udeid AB attacks "successfully countered" — largest US base in region', src:'BBC' },
+  { time:'2026-02-28T10:45Z', icon:'🛡️', type:'intercept',  text:'Qatar: Al Udeid AB attacks "successfully countered" — largest US base in region (~10,000 troops)', src:'BBC' },
   { time:'2026-02-28T10:30Z', icon:'🔴', type:'casualty',   text:'UAE confirms 1 KIA from Iranian missile debris — airspace partially closed', src:'BBC' },
   { time:'2026-02-28T09:45Z', icon:'✈️', type:'air',        text:'Israel airspace fully closed — citizens ordered to shelter until Mon 20:00', src:'IDF' },
   { time:'2026-02-28T09:40Z', icon:'✈️', type:'air',        text:'Iran airspace closed — Tasnim News Agency confirms full closure', src:'Tasnim' },
-  { time:'2026-02-28T09:30Z', icon:'💥', type:'strike',     text:'Joint US-Israel strikes begin: Tehran (near Leadership House), Isfahan, Qom, Karaj, Kermanshah', src:'BBC' },
+  { time:'2026-02-28T09:30Z', icon:'💥', type:'strike',     text:'Joint US-Israel strikes begin: Tehran (near Leadership House/Khamenei compound), Isfahan, Qom, Karaj, Kermanshah', src:'BBC' },
   { time:'2026-02-28T09:15Z', icon:'📡', type:'intel',      text:'Trump posts Truth Social: "United States military began major combat operations in Iran"', src:'Truth Social' },
   { time:'2026-02-28T09:10Z', icon:'🌐', type:'diplomatic', text:'Netanyahu: "Our joint action will create conditions for the Iranian people to take their destiny"', src:'PM Office' },
   { time:'2026-02-28T09:05Z', icon:'🛡️', type:'intercept',  text:'Israel Defense Minister declares "special and permanent state of emergency" across Israel', src:'IDF' },
@@ -4391,12 +4473,13 @@ function renderIranTimeline() {
 
 // Iran Ticker cycling
 const IRAN_TICKER_MSGS = [
-  'US-ISRAEL STRIKES ACTIVE',
-  'IRAN RETALIATING — MISSILES',
+  'KHAMENEI COMPOUND STRUCK — CONFIRMED',
+  'IRAN RETALIATED: 6 COUNTRIES HIT',
+  'UN SECURITY COUNCIL: 21:00 GMT',
+  'PROTESTS: 8+ IRAN CAMPUSES',
+  'JORDAN + KUWAIT TARGETED',
   'HORMUZ: CLOSURE RISK',
   'DEFCON 2 — HIGH ALERT',
-  '5TH FLEET HQ STRUCK',
-  'AL UDEID UNDER ATTACK',
 ];
 let iranTickerIdx = 0;
 function cycleIranTicker() {
@@ -4523,6 +4606,25 @@ renderIranTimeline();
 // Initialize strike layer ON by default
 strikeLayer.addTo(map);
 renderStrikes();
+// Initialize protest layer ON by default
+protestLayer.addTo(map);
+renderProtests();
+// UNSC countdown (21:00 GMT 28 Feb 2026)
+(function startUNSCCountdown(){
+  const target = new Date('2026-02-28T21:00:00Z');
+  function tick(){
+    const el = document.getElementById('unsc-countdown');
+    if(!el) return;
+    const diff = target - Date.now();
+    if(diff <= 0){ el.textContent = 'IN SESSION'; el.style.color = '#ef4444'; return; }
+    const h = Math.floor(diff/3600000);
+    const m = Math.floor((diff%3600000)/60000);
+    const s = Math.floor((diff%60000)/1000);
+    el.textContent = `${String(h).padStart(2,'0')}:${String(m).padStart(2,'0')}:${String(s).padStart(2,'0')}`;
+  }
+  tick();
+  setInterval(tick, 1000);
+})();
 loadIntelData();
 // Fix Leaflet map size on mobile after layout settles
 setTimeout(() => map.invalidateSize(), 300);
