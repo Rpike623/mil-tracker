@@ -138,8 +138,95 @@ body::after{
 .tb-search::placeholder{color:rgba(56,189,248,.2)}
 .tb-label{font-size:9px;color:var(--muted);text-transform:uppercase;letter-spacing:1px;white-space:nowrap;font-family:'Share Tech Mono',monospace}
 
-/* ── WIDGET SYSTEM ── */
-.dashboard{flex:1;display:grid;grid-template-columns:1fr 280px 280px;grid-template-rows:1fr 1fr 1fr auto auto;min-height:0;gap:1px;background:rgba(56,189,248,.03)}
+/* ── NEW LAYOUT: STATUS BAR + MAP/PANEL SPLIT + BOTTOM ROW ── */
+
+/* STATUS BAR — compact single row beneath topbar */
+.status-bar{
+  flex-shrink:0;
+  display:flex;align-items:center;gap:0;
+  background:rgba(5,8,15,.98);
+  border-bottom:1px solid rgba(56,189,248,.08);
+  height:32px;overflow:hidden;
+  font-family:'Share Tech Mono',monospace;
+}
+.sb-cell{
+  display:flex;align-items:center;gap:5px;
+  padding:0 14px;height:100%;
+  border-right:1px solid rgba(56,189,248,.06);
+  font-size:10px;white-space:nowrap;
+  cursor:default;transition:background .15s;flex-shrink:0;
+}
+.sb-cell:hover{background:rgba(56,189,248,.04)}
+.sb-label{color:var(--muted);font-size:8px;text-transform:uppercase;letter-spacing:1px}
+.sb-value{font-weight:700;color:var(--text-bright);letter-spacing:.5px}
+.sb-cell.alert .sb-value{color:#ef4444;text-shadow:0 0 8px rgba(239,68,68,.4)}
+.sb-cell.warn  .sb-value{color:#f97316}
+.sb-cell.ok    .sb-value{color:#22c55e}
+.sb-spacer{flex:1}
+
+/* MAIN AREA — map + right panel side by side */
+.main-area{
+  flex:1;display:flex;flex-direction:row;min-height:0;overflow:hidden;
+  gap:1px;background:rgba(56,189,248,.03);
+}
+/* Map pane */
+.map-pane{
+  flex:1 1 0;position:relative;min-width:0;background:#05080f;overflow:hidden;
+}
+/* Right tabbed panel */
+.right-panel{
+  width:420px;flex-shrink:0;
+  display:flex;flex-direction:column;
+  background:rgba(8,12,22,.97);
+  border-left:1px solid rgba(56,189,248,.08);
+  overflow:hidden;min-height:0;
+}
+.rp-tabs{
+  flex-shrink:0;display:flex;
+  background:rgba(5,8,15,.98);
+  border-bottom:1px solid rgba(56,189,248,.1);
+}
+.rp-tab{
+  flex:1;padding:8px 4px;text-align:center;
+  font-size:9px;font-weight:700;letter-spacing:.5px;text-transform:uppercase;
+  font-family:'Share Tech Mono',monospace;
+  cursor:pointer;color:var(--muted);
+  border-bottom:2px solid transparent;
+  transition:all .15s;border-right:1px solid rgba(56,189,248,.05);
+  white-space:nowrap;
+}
+.rp-tab:last-child{border-right:none}
+.rp-tab:hover{color:var(--text-bright);background:rgba(56,189,248,.03)}
+.rp-tab.active{color:var(--accent);border-bottom-color:var(--accent);background:rgba(56,189,248,.04)}
+.rp-tab.active.iran{color:#ef4444;border-bottom-color:#ef4444;background:rgba(239,68,68,.04)}
+.rp-tab-content{flex:1;overflow:hidden;display:none;flex-direction:column;min-height:0}
+.rp-tab-content.active{display:flex}
+
+/* BOTTOM ROW */
+.bottom-row{
+  flex-shrink:0;height:190px;
+  display:flex;flex-direction:row;
+  border-top:1px solid rgba(56,189,248,.08);
+  background:rgba(5,8,15,.98);
+  overflow:hidden;
+}
+.br-pane{
+  display:flex;flex-direction:column;overflow:hidden;
+  border-right:1px solid rgba(56,189,248,.06);
+}
+.br-pane:last-child{border-right:none}
+.br-header{
+  flex-shrink:0;padding:5px 12px;
+  background:rgba(10,16,28,.9);
+  border-bottom:1px solid rgba(56,189,248,.07);
+  font-size:9px;font-weight:700;letter-spacing:1px;
+  color:rgba(56,189,248,.5);text-transform:uppercase;
+  font-family:'Share Tech Mono',monospace;
+  display:flex;align-items:center;gap:6px;
+}
+.br-body{flex:1;overflow:hidden}
+
+/* WIDGET system (kept for existing widget JS) */
 .widget{
   background:rgba(8,12,22,0.95);
   border:1px solid rgba(56,189,248,.08);
@@ -157,11 +244,8 @@ body::after{
   padding:7px 12px;
   background:rgba(10,16,28,0.98);
   border-bottom:1px solid rgba(56,189,248,.08);
-  font-size:10px;
-  font-weight:700;
-  letter-spacing:1px;
-  color:var(--muted);
-  text-transform:uppercase;
+  font-size:10px;font-weight:700;letter-spacing:1px;
+  color:var(--muted);text-transform:uppercase;
   display:flex;align-items:center;gap:6px;
   font-family:'Share Tech Mono',monospace;
 }
@@ -169,20 +253,17 @@ body::after{
 .widget-header .wh-count{
   background:rgba(56,189,248,.06);
   border:1px solid rgba(56,189,248,.2);
-  border-radius:3px;
-  padding:2px 8px;
-  font-size:9px;
-  color:var(--accent);
-  font-family:'Share Tech Mono',monospace;
+  border-radius:3px;padding:2px 8px;font-size:9px;
+  color:var(--accent);font-family:'Share Tech Mono',monospace;
 }
 .widget-body{flex:1;overflow-y:auto;overflow-x:hidden;min-height:0}
 .widget-body::-webkit-scrollbar{width:3px}
 .widget-body::-webkit-scrollbar-track{background:rgba(8,12,22,.5)}
 .widget-body::-webkit-scrollbar-thumb{background:rgba(56,189,248,.2);border-radius:2px}
-.w-map{grid-column:1;grid-row:1/4;position:relative;border:0;min-height:300px}
-.w-zones{grid-column:2;grid-row:1}
-.w-stats{grid-column:3;grid-row:1}
-.w-activity{grid-column:2;grid-row:2}
+
+/* Legacy grid classes — kept so widget JS still works, but layout overridden */
+.dashboard{display:none} /* hidden — replaced by .main-area */
+.w-map,.w-zones,.w-stats,.w-activity{}
 
 /* News + bottom bar */
 .news-card{min-width:220px;max-width:220px;padding:8px 10px;border-right:1px solid var(--border);cursor:pointer;transition:background .15s;flex-shrink:0;display:flex;flex-direction:column;justify-content:space-between}
@@ -375,24 +456,16 @@ body::after{
 /* Mobile */
 @media(max-width:768px){
   body{overflow-y:auto;overflow-x:hidden;height:auto}
-  .dashboard{display:block;height:auto}
-
-  /* Map widget: explicit height so Leaflet can render */
-  .w-map{height:60vw;min-height:260px;max-height:55vh;position:relative;display:block}
+  .main-area{flex-direction:column;height:auto}
+  .map-pane{height:60vw;min-height:260px;max-height:55vh;flex:none}
   #map{position:absolute;top:0;left:0;right:0;bottom:0}
-
-  /* Stack all widgets to full width with fixed heights */
-  .dashboard .widget{width:100%;display:flex;flex-direction:column}
-  .w-zones,.w-stats{height:230px}
-  .w-activity{height:250px}
-  .w-log{height:250px}
-  /* Adversary + naval span full width */
-  .dashboard .widget[style*="grid-column:2/4"]{height:260px;width:100%}
-  /* CENTCOM widget: stack columns vertically on mobile */
-  .dashboard .widget[style*="grid-column:1/-1"]{height:auto!important;width:100%}
-  #pane-centcom{flex-direction:column!important}
-  .centcom-col{border-right:none!important;border-bottom:1px solid rgba(56,189,248,.08);min-height:160px}
-  .centcom-col:last-child{border-bottom:none}
+  .right-panel{width:100%;height:auto;max-height:none;border-left:none;border-top:1px solid rgba(56,189,248,.1)}
+  .rp-tabs{overflow-x:auto}
+  .rp-tab{min-width:60px;font-size:8px;padding:6px 3px}
+  .bottom-row{flex-direction:column;height:auto}
+  .br-pane{height:160px;border-right:none;border-bottom:1px solid rgba(56,189,248,.06)}
+  .status-bar{overflow-x:auto;flex-wrap:nowrap}
+  .sb-cell{padding:0 10px}
 
   /* Topbar: collapse overflow, show only essentials + hamburger */
   .topbar{padding:5px 8px;position:sticky;top:0;z-index:9999;flex-wrap:nowrap;overflow:hidden;justify-content:flex-start}
@@ -507,15 +580,10 @@ body::after{
 
 /* ── TOP BAR ── */
 /* Clock bar */
-.clock-bar{flex-shrink:0;display:flex;justify-content:center;gap:0;background:rgba(5,8,15,.98);border-bottom:1px solid rgba(56,189,248,.1);padding:0;font-family:'Share Tech Mono',monospace;overflow-x:auto;position:relative}
-.clock-bar::before{content:'01001101 01001001 01001100';position:absolute;left:0;top:50%;transform:translateY(-50%);font-size:7px;color:rgba(56,189,248,.04);letter-spacing:2px;white-space:nowrap;animation:datastream 20s linear infinite;pointer-events:none}
-@keyframes datastream{0%{transform:translateY(-50%) translateX(100%)}100%{transform:translateY(-50%) translateX(-100%)}}
-.clock-cell{display:flex;flex-direction:column;align-items:center;padding:4px 14px;border-right:1px solid rgba(56,189,248,.05);min-width:80px}
-.clock-cell:last-child{border-right:none}
-.clock-label{font-size:8px;text-transform:uppercase;letter-spacing:1.5px;color:rgba(56,189,248,.3);margin-bottom:1px}
-.clock-time{font-size:13px;font-weight:700;color:var(--accent);letter-spacing:1px;text-shadow:0 0 6px rgba(56,189,248,.3)}
-.clock-cell.clock-date .clock-time{color:var(--text);text-shadow:none;font-size:11px}
-#clk-zulu{font-size:15px;color:#fff;text-shadow:0 0 10px rgba(56,189,248,.5)}
+/* Clock bar now lives inline in the status bar */
+.clock-bar{display:none} /* Hidden — clocks moved to status bar */
+.clock-cell,.clock-label,.clock-time{} /* kept for JS refs */
+#clk-zulu{}
 
 /* DEFCON meter */
 .defcon-meter{display:flex;gap:3px;margin:8px 0}
@@ -828,7 +896,7 @@ body::after{
 <div class="topbar">
   <span class="logo">⚡ PIKE<span>CLAW</span> // OSINT-MIL <span class="status-dot" title="Live feeds active"></span></span>
   <!-- Iran Status Ticker -->
-  <div id="iran-ticker" style="display:inline-flex;align-items:center;gap:6px;background:rgba(239,68,68,.1);border:1px solid rgba(239,68,68,.35);border-radius:4px;padding:3px 10px;margin-right:6px;flex-shrink:0;cursor:pointer;box-shadow:0 0 12px rgba(239,68,68,.15)" onclick="switchAdv('iran');document.getElementById('pane-adv').scrollIntoView({behavior:'smooth'})" title="Click for Iran intel">
+  <div id="iran-ticker" style="display:inline-flex;align-items:center;gap:6px;background:rgba(239,68,68,.1);border:1px solid rgba(239,68,68,.35);border-radius:4px;padding:3px 10px;margin-right:6px;flex-shrink:0;cursor:pointer;box-shadow:0 0 12px rgba(239,68,68,.15)" onclick="switchRPTab('iran')" title="Click for Iran timeline">
     <span style="width:7px;height:7px;border-radius:50%;background:#ef4444;display:inline-block;animation:logo-pulse 1s ease-in-out infinite;box-shadow:0 0 6px #ef4444"></span>
     <span id="iran-ticker-text" style="font-family:'Orbitron',monospace;font-size:9px;font-weight:700;color:#ef4444;letter-spacing:1.5px;text-transform:uppercase;white-space:nowrap;transition:opacity .2s">US-ISRAEL STRIKES ACTIVE</span>
   </div>
@@ -952,33 +1020,69 @@ body::after{
   </div>
 </div>
 
-<!-- ZULU CLOCK BAR -->
-<div class="clock-bar" id="clockBar">
-  <div class="clock-cell"><span class="clock-label">ZULU</span><span class="clock-time" id="clk-zulu">--:--:--Z</span></div>
-  <div class="clock-cell"><span class="clock-label">🇺🇸 DC</span><span class="clock-time" id="clk-dc">--:--</span></div>
-  <div class="clock-cell"><span class="clock-label">🇺🇦 KYIV</span><span class="clock-time" id="clk-kyiv">--:--</span></div>
-  <div class="clock-cell"><span class="clock-label">🇷🇺 MOSCOW</span><span class="clock-time" id="clk-moscow">--:--</span></div>
-  <div class="clock-cell"><span class="clock-label">🇮🇷 TEHRAN</span><span class="clock-time" id="clk-tehran">--:--</span></div>
-  <div class="clock-cell"><span class="clock-label">🇨🇳 BEIJING</span><span class="clock-time" id="clk-beijing">--:--</span></div>
-  <div class="clock-cell clock-date"><span class="clock-label">DATE</span><span class="clock-time" id="clk-date">--</span></div>
+<!-- STATUS BAR (replaces clock bar + adds live intel indicators) -->
+<div class="status-bar" id="statusBar">
+  <!-- Clocks (compact inline) -->
+  <div class="sb-cell" style="gap:8px;padding:0 10px 0 14px">
+    <span style="font-size:14px;font-weight:800;color:#fff;font-family:'Orbitron',monospace;letter-spacing:1px" id="clk-zulu">--:--Z</span>
+    <span class="sb-label">ZULU</span>
+  </div>
+  <div class="sb-cell" style="padding:0 10px"><span class="sb-label">🇮🇷</span><span id="clk-tehran" class="sb-value" style="font-size:10px">--:--</span></div>
+  <div class="sb-cell" style="padding:0 10px"><span class="sb-label">🇺🇸</span><span id="clk-dc" class="sb-value" style="font-size:10px">--:--</span></div>
+  <div class="sb-cell" style="padding:0 10px"><span class="sb-label">🇷🇺</span><span id="clk-moscow" class="sb-value" style="font-size:10px">--:--</span></div>
+  <div class="sb-cell" style="padding:0 10px"><span class="sb-label">🇨🇳</span><span id="clk-beijing" class="sb-value" style="font-size:10px">--:--</span></div>
+  <div class="sb-cell" style="padding:0 10px"><span class="sb-label">🇺🇦</span><span id="clk-kyiv" class="sb-value" style="font-size:10px">--:--</span></div>
+  <span id="clk-date" style="display:none"></span><!-- kept for JS compat -->
+  <!-- Divider -->
+  <div style="width:1px;height:100%;background:rgba(56,189,248,.12);flex-shrink:0"></div>
+  <!-- Live intel indicators -->
+  <div class="sb-cell alert" title="DEFCON status">
+    <span class="sb-label">DEFCON</span>
+    <span class="sb-value" id="sb-defcon">—</span>
+  </div>
+  <div class="sb-cell" title="Tracked contacts" onclick="fetchData()">
+    <span class="sb-label">CONTACTS</span>
+    <span class="sb-value" id="sb-contacts">—</span>
+  </div>
+  <div class="sb-cell" title="Alert zones active">
+    <span class="sb-label">HOT ZONES</span>
+    <span class="sb-value" id="sb-zones">—</span>
+  </div>
+  <div class="sb-cell alert" title="Hormuz status" onclick="goTo(26.6,56.3,7)">
+    <span class="sb-label">HORMUZ</span>
+    <span class="sb-value" id="sb-hormuz">BAN DECLARED</span>
+  </div>
+  <div class="sb-cell" title="Iran internet">
+    <span class="sb-label">IRAN NET</span>
+    <span class="sb-value alert" style="color:#ef4444">BLACKOUT</span>
+  </div>
+  <div class="sb-spacer"></div>
+  <div class="sb-cell" title="UN Security Council meeting" style="padding:0 14px">
+    <span class="sb-label">🇺🇳 UN SC</span>
+    <span class="sb-value" id="clk-unsc" style="color:#a78bfa">--:--:--</span>
+  </div>
 </div>
 
-<!-- DASHBOARD GRID -->
-<div class="dashboard">
+<!-- legacy dashboard placeholder removed -->
 
-  <!-- MAP WIDGET -->
-  <div class="widget w-map">
+<!-- ════════════════════════════════════════════════════════════════ -->
+<!-- MAIN AREA: MAP + TABBED RIGHT PANEL                             -->
+<!-- ════════════════════════════════════════════════════════════════ -->
+<div class="main-area">
+
+  <!-- MAP PANE -->
+  <div class="map-pane" id="mapPane">
     <div id="map" style="position:absolute;inset:0"></div>
     <div class="map-particles" id="mapParticles"></div>
-    <!-- Radar sweep -->
-    <svg class="radar-overlay" id="radarOverlay" viewBox="0 0 120 120">
+    <!-- Radar sweep overlay -->
+    <svg class="radar-overlay" id="radarOverlay" viewBox="0 0 120 120" style="position:absolute;top:10px;left:10px;width:80px;height:80px;opacity:.4;pointer-events:none;z-index:400">
       <circle class="radar-ring" cx="60" cy="60" r="20"/><circle class="radar-ring" cx="60" cy="60" r="40"/><circle class="radar-ring" cx="60" cy="60" r="58"/>
       <line x1="60" y1="2" x2="60" y2="118" stroke="rgba(56,189,248,.06)" stroke-width="0.5"/>
       <line x1="2" y1="60" x2="118" y2="60" stroke="rgba(56,189,248,.06)" stroke-width="0.5"/>
       <line x1="60" y1="60" x2="60" y2="2" stroke="rgba(56,189,248,.5)" stroke-width="1.5" stroke-linecap="round" style="transform-origin:60px 60px;animation:radar-rotate 3s linear infinite;filter:drop-shadow(0 0 4px #38bdf8)"/>
       <circle cx="60" cy="60" r="2" fill="#38bdf8" style="filter:drop-shadow(0 0 4px #38bdf8)"/>
     </svg>
-    <!-- Nuke calc panel -->
+    <!-- Map controls: nuke calc panel -->
     <div class="nuke-panel" id="nukePanel">
       <div style="color:#ef4444;font-weight:700;font-size:11px;margin-bottom:4px">☢️ NUCLEAR BLAST CALCULATOR</div>
       <div style="color:var(--muted);font-size:9px;margin-bottom:6px">Click map to set detonation point</div>
@@ -996,8 +1100,8 @@ body::after{
       <select id="nukeBurst"><option value="air" selected>Airburst</option><option value="surface">Surface</option></select>
       <button onclick="clearNukeRings()" style="margin-top:8px;background:rgba(239,68,68,.1);border-color:rgba(239,68,68,.3);color:#ef4444">Clear Rings</button>
     </div>
-    <!-- Cinema mode label -->
     <div class="cinema-label" id="cinemaLabel">⚡ SITUATION ROOM — LIVE MONITORING ⚡</div>
+    <!-- Map legend -->
     <div class="map-legend" style="position:absolute;top:10px;right:10px;z-index:400">
       <div class="ml-row"><div class="ml-dot" style="background:#38bdf8"></div>🇺🇸 US</div>
       <div class="ml-row"><div class="ml-dot" style="background:#ef4444"></div>🇮🇷 Iran</div>
@@ -1007,6 +1111,7 @@ body::after{
       <div class="ml-row" style="margin-top:4px;border-top:1px solid rgba(56,189,248,.1);padding-top:4px"><div class="ml-dot" style="background:#ef4444;box-shadow:0 0 6px #ef4444;animation:logo-pulse 1s infinite"></div>💥 Strike</div>
       <div class="ml-row"><div class="ml-dot" style="background:#f97316;box-shadow:0 0 6px #f97316;animation:logo-pulse 1.2s infinite"></div>🚀 Retaliation</div>
     </div>
+    <!-- Region jump buttons -->
     <div class="region-btns" style="position:absolute;bottom:10px;left:10px;z-index:400">
       <button onclick="goTo(30,50,5)">🔥 Mid East</button>
       <button onclick="goTo(38,-97,4)">🇺🇸 CONUS</button>
@@ -1014,173 +1119,162 @@ body::after{
       <button onclick="goTo(25,125,4)">🌏 Pacific</button>
       <button onclick="goTo(20,0,2)">🌍 Global</button>
     </div>
+    <!-- Info panel popup -->
     <div class="infopanel" id="infoP" style="position:absolute;bottom:50px;left:10px;z-index:500">
       <div class="ip-head"><h3 id="pTitle">—</h3><button class="x" onclick="closeP()">&times;</button></div>
       <div id="pBody"></div>
     </div>
+    <!-- Loading overlay -->
     <div class="loading-ov" id="loadOv" style="position:absolute;inset:0;z-index:600">
       <div class="sp">✈️</div><div class="st">Loading...</div>
     </div>
   </div>
 
-  <!-- ZONES WIDGET -->
-  <div class="widget w-zones">
-    <div class="widget-header">⚠️ <span class="wh-title">Alert Zones</span><span class="wh-count" id="zone-hot">0 hot</span></div>
-    <div class="widget-body" id="pane-alerts"></div>
-  </div>
-
-  <!-- STATS WIDGET -->
-  <div class="widget w-stats">
-    <div class="widget-header">📊 <span class="wh-title">Stats</span></div>
-    <div class="widget-body" id="pane-stats"></div>
-  </div>
-
-  <!-- ACTIVITY WIDGET -->
-  <div class="widget w-activity">
-    <div class="widget-header" style="padding:0;gap:0">
-      <div style="display:flex;flex:1">
-        <div id="act-tab-activity" onclick="switchActTab('activity')" style="flex:1;padding:7px 8px;text-align:center;font-size:9px;font-family:'Share Tech Mono',monospace;letter-spacing:.5px;text-transform:uppercase;cursor:pointer;color:rgba(56,189,248,.7);border-bottom:2px solid rgba(56,189,248,.6);border-right:1px solid rgba(56,189,248,.08)">🔔 ACTIVITY <span id="ac-count" style="opacity:.7">0</span></div>
-        <div id="act-tab-log"      onclick="switchActTab('log')"      style="flex:1;padding:7px 8px;text-align:center;font-size:9px;font-family:'Share Tech Mono',monospace;letter-spacing:.5px;text-transform:uppercase;cursor:pointer;color:var(--muted);border-bottom:2px solid transparent">📋 LOG <span id="log-count" style="opacity:.7">0</span></div>
-      </div>
+  <!-- RIGHT TABBED PANEL -->
+  <div class="right-panel">
+    <div class="rp-tabs">
+      <div class="rp-tab active iran" data-tab="iran" onclick="switchRPTab('iran')">⚡ IRAN</div>
+      <div class="rp-tab" data-tab="threat" onclick="switchRPTab('threat')">🚨 THREAT</div>
+      <div class="rp-tab" data-tab="naval" onclick="switchRPTab('naval')">🚢 NAVAL</div>
+      <div class="rp-tab" data-tab="centcom" onclick="switchRPTab('centcom')">🇺🇸 CENTCOM</div>
+      <div class="rp-tab" data-tab="adv" onclick="switchRPTab('adv')">🇮🇷 INTEL</div>
+      <div class="rp-tab" data-tab="activity" onclick="switchRPTab('activity')">📡 LIVE</div>
     </div>
-    <div class="widget-body">
-      <div id="pane-activity"></div>
-      <div id="pane-log" style="display:none"></div>
-    </div>
-  </div>
 
-  <!-- DEFCON / THREAT POSTURE WIDGET -->
-  <div class="widget w-log widget-scan-line" style="grid-column:3;grid-row:1;position:relative;overflow:hidden">
-    <div class="widget-header">🚨 <span class="wh-title">Threat Posture</span><span class="wh-count" id="threat-level" style="color:#22c55e">NORMAL</span></div>
-    <div class="widget-body" id="pane-threat"></div>
-  </div>
-
-  <!-- ADVERSARY INTEL WIDGET -->
-  <div class="widget" style="grid-column:2/4;grid-row:2">
-    <div class="widget-header" style="padding:0">
-      <div id="adv-tabs" style="display:flex;width:100%">
-        <div class="adv-tab active" data-adv="iran"   onclick="switchAdv('iran')"  >🇮🇷 Iran</div>
-        <div class="adv-tab"        data-adv="russia" onclick="switchAdv('russia')">🇷🇺 Russia</div>
-        <div class="adv-tab"        data-adv="china"  onclick="switchAdv('china')" >🇨🇳 China</div>
-      </div>
-    </div>
-    <div class="widget-body" id="pane-adv" style="padding:0"></div>
-  </div>
-
-  <!-- NAVAL ACTIVITY WIDGET -->
-  <div class="widget widget-scan-line" style="grid-column:2/4;grid-row:3;position:relative;overflow:hidden">
-    <div class="widget-header">🚢 <span class="wh-title">Naval Deployments</span><span class="wh-count" id="naval-count">0 assets</span></div>
-    <div class="widget-body" id="pane-naval" style="padding:0;display:flex;flex-direction:column"></div>
-  </div>
-
-  <!-- ⚡ IRAN STRIKE TIMELINE WIDGET -->
-  <div class="widget widget-scan-line" id="w-iran-timeline" style="grid-column:1/-1;grid-row:4;position:relative;overflow:hidden;min-height:140px;max-height:200px">
-    <div class="widget-header" style="background:rgba(20,5,5,.9);border-bottom:1px solid rgba(239,68,68,.25);gap:8px">
-      ⚡ <span class="wh-title" style="color:#ef4444">IRAN CONFLICT TIMELINE</span>
-      <span style="font-size:9px;color:rgba(239,68,68,.5);font-family:'Share Tech Mono',monospace">OP EPIC FURY + OP RAGING LION • HORMUZ BAN DECLARED • 6 COUNTRIES HIT</span>
-      <div style="display:flex;align-items:center;gap:6px;margin-left:auto;flex-shrink:0">
-        <div style="display:flex;align-items:center;gap:4px;background:rgba(239,68,68,.08);border:1px solid rgba(239,68,68,.2);border-radius:3px;padding:2px 8px">
-          <span style="font-size:9px;color:rgba(239,68,68,.6);font-family:'Share Tech Mono',monospace;white-space:nowrap">🔴 CASUALTIES (UNVERIFIED)</span>
-          <span style="font-size:11px;font-weight:700;color:#ef4444;font-family:'Orbitron',monospace">53+</span>
-        </div>
-        <div style="display:flex;align-items:center;gap:4px;background:rgba(167,139,250,.08);border:1px solid rgba(167,139,250,.2);border-radius:3px;padding:2px 8px">
-          <span style="font-size:9px;color:rgba(167,139,250,.6);font-family:'Share Tech Mono',monospace;white-space:nowrap">🇺🇳 UN SC MTG</span>
-          <span id="unsc-countdown" style="font-size:11px;font-weight:700;color:#a78bfa;font-family:'Orbitron',monospace">--:--:--</span>
+    <!-- ⚡ IRAN TIMELINE TAB -->
+    <div class="rp-tab-content active" id="rp-iran">
+      <div style="flex-shrink:0;padding:7px 12px;background:rgba(20,5,5,.9);border-bottom:1px solid rgba(239,68,68,.2);display:flex;align-items:center;gap:8px;font-family:'Share Tech Mono',monospace">
+        <span style="font-size:10px;font-weight:700;color:#ef4444;letter-spacing:1px">OP EPIC FURY · OP RAGING LION</span>
+        <div style="margin-left:auto;display:flex;gap:6px;flex-shrink:0">
+          <div style="background:rgba(239,68,68,.08);border:1px solid rgba(239,68,68,.2);border-radius:3px;padding:2px 7px;font-size:9px;color:rgba(239,68,68,.6)">
+            🔴 KIA <span style="font-weight:700;color:#ef4444;font-family:'Orbitron',monospace">53+</span>
+          </div>
+          <div style="background:rgba(167,139,250,.08);border:1px solid rgba(167,139,250,.2);border-radius:3px;padding:2px 7px;font-size:9px;color:rgba(167,139,250,.6)">
+            🇺🇳 <span id="unsc-countdown" style="font-weight:700;color:#a78bfa;font-family:'Orbitron',monospace">--:--:--</span>
+          </div>
+          <div style="background:rgba(56,189,248,.06);border:1px solid rgba(56,189,248,.15);border-radius:3px;padding:2px 7px;font-size:9px;color:var(--muted)">
+            <span id="iran-tl-count" style="color:var(--accent)">0</span> events
+          </div>
         </div>
       </div>
-      <span id="iran-tl-count" class="wh-count" style="color:#ef4444;border-color:rgba(239,68,68,.3)">0 events</span>
+      <div style="flex:1;overflow-y:auto" id="pane-iran-timeline"></div>
     </div>
-    <div class="widget-body" id="pane-iran-timeline" style="padding:0;overflow-y:auto"></div>
-  </div>
 
-  <!-- CENTCOM ASSETS WIDGET -->
-  <div class="widget widget-scan-line" style="grid-column:1/-1;grid-row:5;position:relative;overflow:hidden;min-height:180px;max-height:220px">
-    <div class="widget-header">
-      🇺🇸 <span class="wh-title">US CENTCOM Assets — Middle East Posture</span>
-      <span class="wh-count" id="centcom-troops" style="color:#38bdf8">~40,000 troops</span>
-      <span style="font-size:9px;color:var(--muted);font-family:'Share Tech Mono',monospace;margin-left:6px" id="centcom-updated"></span>
+    <!-- 🚨 THREAT POSTURE TAB -->
+    <div class="rp-tab-content" id="rp-threat">
+      <div class="widget-header">🚨 <span class="wh-title">Threat Posture</span><span class="wh-count" id="threat-level">NORMAL</span></div>
+      <div class="widget-body" id="pane-threat"></div>
     </div>
-    <div class="widget-body" id="pane-centcom" style="padding:0;display:flex;flex-direction:row;overflow-x:hidden;overflow-y:hidden"></div>
-  </div>
 
-</div>
-
-<!-- BOTTOM INFO BAR -->
-<div class="bottom-bar" style="flex-shrink:0;height:175px;display:flex;border-top:1px solid rgba(56,189,248,.1);background:rgba(5,8,15,.98)">
-
-  <!-- POLYMARKET WIDGET -->
-  <div style="width:300px;flex-shrink:0;border-right:1px solid var(--border);display:flex;flex-direction:column;overflow:hidden">
-    <div style="flex-shrink:0;padding:6px 10px;background:rgba(10,16,28,.8);border-bottom:1px solid rgba(56,189,248,.08);font-size:10px;font-weight:700;letter-spacing:1px;color:rgba(56,189,248,.5);text-transform:uppercase;display:flex;align-items:center;gap:6px">
-      🎲 <span style="flex:1">Polymarket Odds</span>
-      <span id="poly-updated" style="font-size:9px;color:#3a4560"></span>
+    <!-- 🚢 NAVAL TAB -->
+    <div class="rp-tab-content" id="rp-naval">
+      <div class="widget-header">🚢 <span class="wh-title">Naval Deployments</span><span class="wh-count" id="naval-count">0 assets</span></div>
+      <div class="widget-body" id="pane-naval" style="padding:0;display:flex;flex-direction:column"></div>
     </div>
-    <div style="flex:1;overflow-x:auto;overflow-y:hidden;display:flex;align-items:stretch" id="polyStrip"></div>
-  </div>
 
-  <!-- SPACE LAUNCH TRACKER -->
-  <div style="width:280px;flex-shrink:0;border-right:1px solid var(--border);display:flex;flex-direction:column;overflow:hidden;position:relative" class="widget-scan-line">
-    <div style="flex-shrink:0;padding:6px 10px;background:rgba(10,16,28,.8);border-bottom:1px solid rgba(56,189,248,.08);font-size:10px;font-weight:700;letter-spacing:1px;color:rgba(56,189,248,.5);text-transform:uppercase;display:flex;align-items:center;gap:6px">
-      🚀 <span style="flex:1">Launch Schedule</span>
-      <span id="launch-count" style="font-size:9px;color:var(--muted)"></span>
+    <!-- 🇺🇸 CENTCOM TAB -->
+    <div class="rp-tab-content" id="rp-centcom">
+      <div class="widget-header">🇺🇸 <span class="wh-title">CENTCOM Assets</span><span class="wh-count" id="centcom-troops">~40,000</span></div>
+      <div id="pane-centcom" style="flex:1;display:flex;flex-direction:row;overflow:hidden;min-height:0"></div>
     </div>
-    <div style="flex:1;overflow-y:auto;overflow-x:hidden" id="launchStrip"></div>
-  </div>
 
-  <!-- CURRENCY / SANCTIONS WATCH -->
-  <div style="width:220px;flex-shrink:0;border-right:1px solid var(--border);display:flex;flex-direction:column;overflow:hidden">
-    <div style="flex-shrink:0;padding:6px 10px;background:rgba(10,16,28,.8);border-bottom:1px solid rgba(56,189,248,.08);font-size:10px;font-weight:700;letter-spacing:1px;color:rgba(56,189,248,.5);text-transform:uppercase;display:flex;align-items:center;gap:6px">
-      💱 <span style="flex:1">FX Watch</span>
-    </div>
-    <div style="flex:1;overflow-y:auto" id="currencyStrip"></div>
-  </div>
-
-  <!-- DOOMSDAY CLOCK -->
-  <div style="width:140px;flex-shrink:0;border-right:1px solid var(--border);display:flex;flex-direction:column;overflow:hidden" id="doomsdayWidget">
-    <div style="flex-shrink:0;padding:6px 10px;background:rgba(10,16,28,.8);border-bottom:1px solid rgba(56,189,248,.08);font-size:10px;font-weight:700;letter-spacing:1px;color:rgba(56,189,248,.5);text-transform:uppercase;display:flex;align-items:center;gap:6px">
-      ⏰ <span style="flex:1">Doomsday</span>
-    </div>
-    <div style="flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:8px">
-      <div style="position:relative;width:80px;height:80px">
-        <svg width="80" height="80" viewBox="0 0 80 80" style="transform:rotate(-90deg)">
-          <circle cx="40" cy="40" r="36" fill="none" stroke="rgba(56,189,248,.08)" stroke-width="3"/>
-          <circle cx="40" cy="40" r="36" fill="none" stroke="#ef4444" stroke-width="3" stroke-dasharray="226.2" stroke-dashoffset="2.49" stroke-linecap="round" style="filter:drop-shadow(0 0 4px #ef4444)"/>
-        </svg>
-        <div style="position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center">
-          <div style="font-size:18px;font-weight:800;color:#ef4444;font-family:'Orbitron',monospace;text-shadow:0 0 12px rgba(239,68,68,.5);line-height:1">89</div>
-          <div style="font-size:7px;color:var(--muted);text-transform:uppercase;letter-spacing:1px;margin-top:2px">SECONDS</div>
+    <!-- 🇮🇷 ADVERSARY INTEL TAB -->
+    <div class="rp-tab-content" id="rp-adv">
+      <div class="widget-header" style="padding:0;background:rgba(10,16,28,.98)">
+        <div id="adv-tabs" style="display:flex;width:100%">
+          <div class="adv-tab active" data-adv="iran"   onclick="switchAdv('iran')"  >🇮🇷 Iran</div>
+          <div class="adv-tab"        data-adv="russia" onclick="switchAdv('russia')">🇷🇺 Russia</div>
+          <div class="adv-tab"        data-adv="china"  onclick="switchAdv('china')" >🇨🇳 China</div>
         </div>
       </div>
-      <div style="font-size:8px;color:#ef4444;font-family:'Share Tech Mono',monospace;letter-spacing:1px;margin-top:6px;text-align:center;text-shadow:0 0 8px rgba(239,68,68,.3)">TO MIDNIGHT</div>
-      <div style="font-size:7px;color:var(--muted);margin-top:3px;text-align:center">Bulletin of Atomic<br>Scientists — Jan 2025</div>
+      <div class="widget-body" id="pane-adv" style="padding:0"></div>
+    </div>
+
+    <!-- 📡 LIVE ACTIVITY TAB -->
+    <div class="rp-tab-content" id="rp-activity">
+      <div class="widget-header" style="padding:0;gap:0">
+        <div style="display:flex;flex:1">
+          <div id="act-tab-activity" onclick="switchActTab('activity')" style="flex:1;padding:7px 8px;text-align:center;font-size:9px;font-family:'Share Tech Mono',monospace;letter-spacing:.5px;text-transform:uppercase;cursor:pointer;color:rgba(56,189,248,.7);border-bottom:2px solid rgba(56,189,248,.6);border-right:1px solid rgba(56,189,248,.08)">🔔 AIRCRAFT <span id="ac-count" style="opacity:.7">0</span></div>
+          <div id="act-tab-log" onclick="switchActTab('log')" style="flex:1;padding:7px 8px;text-align:center;font-size:9px;font-family:'Share Tech Mono',monospace;letter-spacing:.5px;text-transform:uppercase;cursor:pointer;color:var(--muted);border-bottom:2px solid transparent">📋 LOG <span id="log-count" style="opacity:.7">0</span></div>
+        </div>
+      </div>
+      <div class="widget-body">
+        <div id="pane-activity"></div>
+        <div id="pane-log" style="display:none"></div>
+      </div>
+    </div>
+
+    <!-- hidden compat elements still needed by JS -->
+    <div style="display:none">
+      <div id="pane-alerts"></div>
+      <div id="pane-stats"></div>
+      <div id="zone-hot"></div>
+      <span id="centcom-updated"></span>
     </div>
   </div>
 
-  <!-- X / OSINT ACCOUNTS WIDGET -->
-  <div style="width:280px;flex-shrink:0;border-right:1px solid var(--border);display:flex;flex-direction:column;overflow:hidden">
-    <div style="flex-shrink:0;padding:6px 10px;background:rgba(10,16,28,.8);border-bottom:1px solid rgba(56,189,248,.08);font-size:10px;font-weight:700;letter-spacing:1px;color:rgba(56,189,248,.5);text-transform:uppercase;display:flex;align-items:center;gap:6px">
-      📡 <span style="flex:1">OSINT Feeds</span>
-      <span id="x-account-tabs" style="display:flex;gap:4px"></span>
-    </div>
-    <div style="flex:1;overflow-y:auto;overflow-x:hidden" id="xFeed"></div>
+</div><!-- end .main-area -->
+
+<!-- ════════════════════════════════════════════════════════════════ -->
+<!-- BOTTOM ROW: NEWS | MARKETS+FX | LAUNCHES+MISC                   -->
+<!-- ════════════════════════════════════════════════════════════════ -->
+<div class="bottom-row">
+
+  <!-- COL 1: NEWS FEED (flex) -->
+  <div class="br-pane" style="flex:1;min-width:0">
+    <div class="br-header">📰 Intel Feed</div>
+    <div class="br-body" style="overflow-x:auto;overflow-y:hidden;display:flex;align-items:stretch" id="newsStrip"></div>
   </div>
 
-  <!-- SPACE WEATHER -->
-  <div style="width:160px;flex-shrink:0;border-right:1px solid var(--border);display:flex;flex-direction:column;overflow:hidden" id="spaceWeatherWidget">
-    <div style="flex-shrink:0;padding:6px 10px;background:rgba(10,16,28,.8);border-bottom:1px solid rgba(56,189,248,.08);font-size:10px;font-weight:700;letter-spacing:1px;color:rgba(56,189,248,.5);text-transform:uppercase;display:flex;align-items:center;gap:6px">
-      ☀️ <span style="flex:1">Space Wx</span>
+  <!-- COL 2: POLYMARKET + FX (fixed) -->
+  <div class="br-pane" style="width:460px;flex-shrink:0">
+    <div class="br-header" style="gap:0;padding:0">
+      <div id="br-tab-poly" onclick="switchBRTab('poly')" style="flex:1;padding:5px 12px;cursor:pointer;color:rgba(56,189,248,.7);border-bottom:2px solid rgba(56,189,248,.5);border-right:1px solid rgba(56,189,248,.06);font-size:9px;font-weight:700;letter-spacing:1px;font-family:'Share Tech Mono',monospace;text-transform:uppercase">🎲 POLYMARKET <span id="poly-updated" style="font-weight:400;color:var(--muted);font-size:8px"></span></div>
+      <div id="br-tab-fx" onclick="switchBRTab('fx')" style="flex:1;padding:5px 12px;cursor:pointer;color:var(--muted);border-bottom:2px solid transparent;font-size:9px;font-weight:700;letter-spacing:1px;font-family:'Share Tech Mono',monospace;text-transform:uppercase">💱 FX WATCH</div>
+      <div id="br-tab-doom" onclick="switchBRTab('doom')" style="width:40px;padding:5px 8px;cursor:pointer;color:var(--muted);border-bottom:2px solid transparent;font-size:9px;font-weight:700;letter-spacing:1px;font-family:'Share Tech Mono',monospace;text-align:center">⏰</div>
     </div>
-    <div style="flex:1;display:flex;flex-direction:column;padding:6px 8px;gap:4px;overflow:hidden" id="spaceWeatherBody">
-      <div style="font-size:9px;color:var(--muted);text-align:center;padding-top:10px">Loading…</div>
+    <div class="br-body">
+      <div id="polyStrip" style="height:100%;overflow-x:auto;overflow-y:hidden;display:flex;align-items:stretch"></div>
+      <div id="currencyStrip" style="display:none;height:100%;overflow-y:auto"></div>
+      <div id="br-pane-doom" style="display:none;height:100%;display:none;align-items:center;justify-content:center" id="doomsdayWidget">
+        <div style="display:flex;flex-direction:column;align-items:center;padding:8px">
+          <div style="position:relative;width:90px;height:90px">
+            <svg width="90" height="90" viewBox="0 0 80 80" style="transform:rotate(-90deg)">
+              <circle cx="40" cy="40" r="36" fill="none" stroke="rgba(56,189,248,.08)" stroke-width="3"/>
+              <circle cx="40" cy="40" r="36" fill="none" stroke="#ef4444" stroke-width="3" stroke-dasharray="226.2" stroke-dashoffset="2.49" stroke-linecap="round" style="filter:drop-shadow(0 0 4px #ef4444)"/>
+            </svg>
+            <div style="position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center">
+              <div style="font-size:20px;font-weight:800;color:#ef4444;font-family:'Orbitron',monospace;text-shadow:0 0 12px rgba(239,68,68,.5);line-height:1">89</div>
+              <div style="font-size:7px;color:var(--muted);text-transform:uppercase;letter-spacing:1px;margin-top:2px">SEC</div>
+            </div>
+          </div>
+          <div style="font-size:8px;color:#ef4444;font-family:'Share Tech Mono',monospace;letter-spacing:1px;margin-top:4px;text-align:center">TO MIDNIGHT</div>
+          <div style="font-size:7px;color:var(--muted);margin-top:2px;text-align:center">Bulletin of Atomic Scientists</div>
+        </div>
+      </div>
     </div>
   </div>
 
-  <!-- NEWS STRIP -->
-  <div style="flex:1;display:flex;flex-direction:column;overflow:hidden">
-    <div style="flex-shrink:0;padding:6px 10px;background:rgba(10,16,28,.8);border-bottom:1px solid rgba(56,189,248,.08);font-size:10px;font-weight:700;letter-spacing:1px;color:rgba(56,189,248,.5);text-transform:uppercase">📰 Intel Feed</div>
-    <div style="flex:1;overflow-x:auto;overflow-y:hidden;display:flex;align-items:stretch" id="newsStrip"></div>
+  <!-- COL 3: LAUNCHES + SPACE WEATHER + OSINT (fixed) -->
+  <div class="br-pane" style="width:380px;flex-shrink:0">
+    <div class="br-header" style="gap:0;padding:0">
+      <div id="br-tab-launch" onclick="switchBRTab('launch')" style="flex:1;padding:5px 12px;cursor:pointer;color:rgba(56,189,248,.7);border-bottom:2px solid rgba(56,189,248,.5);border-right:1px solid rgba(56,189,248,.06);font-size:9px;font-weight:700;letter-spacing:1px;font-family:'Share Tech Mono',monospace;text-transform:uppercase">🚀 LAUNCHES <span id="launch-count" style="font-weight:400;color:var(--muted);font-size:8px"></span></div>
+      <div id="br-tab-spacewx" onclick="switchBRTab('spacewx')" style="flex:1;padding:5px 12px;cursor:pointer;color:var(--muted);border-bottom:2px solid transparent;font-size:9px;font-weight:700;letter-spacing:1px;font-family:'Share Tech Mono',monospace;text-transform:uppercase">☀️ SPACE WX</div>
+      <div id="br-tab-osint" onclick="switchBRTab('osint')" style="flex:1;padding:5px 12px;cursor:pointer;color:var(--muted);border-bottom:2px solid transparent;font-size:9px;font-weight:700;letter-spacing:1px;font-family:'Share Tech Mono',monospace;text-transform:uppercase">📡 OSINT</div>
+    </div>
+    <div class="br-body">
+      <div id="launchStrip" style="height:100%;overflow-y:auto"></div>
+      <div id="spaceWeatherBody" style="display:none;height:100%;flex-direction:column;padding:6px 8px;gap:4px;overflow:hidden">
+        <div style="font-size:9px;color:var(--muted);text-align:center;padding-top:10px">Loading…</div>
+      </div>
+      <div id="br-pane-osint" style="display:none;height:100%;overflow-y:auto">
+        <div style="padding:5px 10px;display:flex;gap:4px;flex-wrap:wrap;flex-shrink:0;border-bottom:1px solid rgba(56,189,248,.06)" id="x-account-tabs"></div>
+        <div style="flex:1;overflow-y:auto" id="xFeed"></div>
+      </div>
+    </div>
   </div>
 
-</div>
+</div><!-- end .bottom-row -->
 
 <!-- TICKER -->
 
@@ -1914,6 +2008,7 @@ function render(){
   updateAlertsPane(visible);
   updateActivityPane(visible);
   renderThreat(visible);
+  updateStatusBar(visible);
   renderAdvPanel(currentAdv);
   checkAudioAlerts(visible);
 }
@@ -2262,11 +2357,96 @@ function switchActTab(t){
   document.getElementById("pane-log").style.display=t==="log"?"block":"none";
   const aTab=document.getElementById("act-tab-activity");
   const lTab=document.getElementById("act-tab-log");
-  aTab.style.color=t==="activity"?"rgba(0,212,255,.7)":"var(--muted)";
-  aTab.style.borderBottom=t==="activity"?"2px solid rgba(0,212,255,.6)":"2px solid transparent";
-  lTab.style.color=t==="log"?"rgba(0,212,255,.7)":"var(--muted)";
-  lTab.style.borderBottom=t==="log"?"2px solid rgba(0,212,255,.6)":"2px solid transparent";
+  aTab.style.color=t==="activity"?"rgba(56,189,248,.7)":"var(--muted)";
+  aTab.style.borderBottom=t==="activity"?"2px solid rgba(56,189,248,.6)":"2px solid transparent";
+  lTab.style.color=t==="log"?"rgba(56,189,248,.7)":"var(--muted)";
+  lTab.style.borderBottom=t==="log"?"2px solid rgba(56,189,248,.6)":"2px solid transparent";
 }
+
+// ════════════════════════════════════════
+// RIGHT PANEL TAB SWITCHER
+// ════════════════════════════════════════
+let currentRPTab = 'iran';
+function switchRPTab(tab) {
+  currentRPTab = tab;
+  document.querySelectorAll('.rp-tab').forEach(t => {
+    const active = t.dataset.tab === tab;
+    t.classList.toggle('active', active);
+    t.classList.toggle('iran', active && tab === 'iran');
+  });
+  document.querySelectorAll('.rp-tab-content').forEach(c => {
+    c.classList.toggle('active', c.id === 'rp-'+tab);
+  });
+  // Trigger re-renders when switching to certain tabs
+  if(tab === 'adv') renderAdvPanel(currentAdv);
+  if(tab === 'naval') renderNaval();
+  if(tab === 'threat') renderThreat(acData.filter(ac=>ac.lat));
+  if(tab === 'iran') renderIranTimeline();
+  if(tab === 'centcom') { const c=document.getElementById('pane-centcom'); if(c&&c.children.length===0) renderCentcom(window._lastCentcomData||{}); }
+}
+
+// ════════════════════════════════════════
+// BOTTOM ROW TAB SWITCHER
+// ════════════════════════════════════════
+const BR_TABS = {
+  poly:    ['br-tab-poly','polyStrip'],
+  fx:      ['br-tab-fx','currencyStrip'],
+  doom:    ['br-tab-doom','br-pane-doom'],
+  launch:  ['br-tab-launch','launchStrip'],
+  spacewx: ['br-tab-spacewx','spaceWeatherBody'],
+  osint:   ['br-tab-osint','br-pane-osint'],
+};
+function switchBRTab(tab) {
+  // Determine which column this tab belongs to
+  const col2 = ['poly','fx','doom'];
+  const col3 = ['launch','spacewx','osint'];
+  const group = col2.includes(tab) ? col2 : col3;
+  group.forEach(t => {
+    const tabEl = document.getElementById(BR_TABS[t][0]);
+    const paneEl = document.getElementById(BR_TABS[t][1]);
+    const active = t === tab;
+    if(tabEl) { tabEl.style.color = active ? 'rgba(56,189,248,.7)' : 'var(--muted)'; tabEl.style.borderBottom = active ? '2px solid rgba(56,189,248,.5)' : '2px solid transparent'; }
+    const flexPanes = ['polyStrip','spaceWeatherBody','br-pane-doom'];
+    if(paneEl) paneEl.style.display = active ? (flexPanes.includes(BR_TABS[t][1])?'flex':'block') : 'none';
+  });
+}
+
+// ════════════════════════════════════════
+// STATUS BAR UPDATER
+// ════════════════════════════════════════
+function updateStatusBar(visible) {
+  const contacts = document.getElementById('sb-contacts');
+  const zones = document.getElementById('sb-zones');
+  if(contacts) contacts.textContent = visible ? visible.length : '—';
+  // Hot zones from ZONES
+  if(zones) {
+    const hot = ZONES.filter(z => visible && visible.some(ac => inZone(ac,z))).length;
+    const zEl = zones.parentElement;
+    zones.textContent = hot > 0 ? hot + ' HOT' : '0';
+    if(zEl) zEl.className = 'sb-cell' + (hot > 0 ? ' alert' : ' ok');
+  }
+  // DEFCON from threat level
+  const badge = document.getElementById('threat-level');
+  const sbDef = document.getElementById('sb-defcon');
+  if(badge && sbDef) {
+    sbDef.textContent = badge.textContent;
+    sbDef.style.color = badge.style.color || '#22c55e';
+  }
+}
+
+// UNSC countdown in status bar
+(function initStatusBarClock(){
+  const target = new Date('2026-02-28T21:00:00Z');
+  function tick(){
+    const el = document.getElementById('clk-unsc');
+    if(!el) return;
+    const diff = target - Date.now();
+    if(diff <= 0){ el.textContent = 'IN SESSION'; el.style.color='#ef4444'; return; }
+    const h=Math.floor(diff/3600000), m=Math.floor((diff%3600000)/60000), s=Math.floor((diff%60000)/1000);
+    el.textContent=`${String(h).padStart(2,'0')}:${String(m).padStart(2,'0')}:${String(s).padStart(2,'0')}`;
+  }
+  tick(); setInterval(tick,1000);
+})();
 
 // ════════════════════════════════════════
 // POLYMARKET
@@ -4324,6 +4504,7 @@ function renderCurrency(rates){
 // CENTCOM ASSETS WIDGET
 // ════════════════════════════════════════
 function renderCentcom(data){
+  window._lastCentcomData = data; // cache for tab switcher
   const pane = document.getElementById('pane-centcom');
   if(!pane || !data) return;
 
@@ -4641,6 +4822,8 @@ fetchLaunches();
 fetchCurrency();
 fetchSpaceWeather();
 initXFeed();
+// Initialize right panel
+switchRPTab('iran');
 renderAdvPanel('iran');
 renderIranTimeline();
 // Initialize strike layer ON by default
@@ -4649,22 +4832,9 @@ renderStrikes();
 // Initialize protest layer ON by default
 protestLayer.addTo(map);
 renderProtests();
-// UNSC countdown (21:00 GMT 28 Feb 2026)
-(function startUNSCCountdown(){
-  const target = new Date('2026-02-28T21:00:00Z');
-  function tick(){
-    const el = document.getElementById('unsc-countdown');
-    if(!el) return;
-    const diff = target - Date.now();
-    if(diff <= 0){ el.textContent = 'IN SESSION'; el.style.color = '#ef4444'; return; }
-    const h = Math.floor(diff/3600000);
-    const m = Math.floor((diff%3600000)/60000);
-    const s = Math.floor((diff%60000)/1000);
-    el.textContent = `${String(h).padStart(2,'0')}:${String(m).padStart(2,'0')}:${String(s).padStart(2,'0')}`;
-  }
-  tick();
-  setInterval(tick, 1000);
-})();
+// Initialize bottom row tabs
+switchBRTab('poly');
+switchBRTab('launch');
 loadIntelData();
 // Fix Leaflet map size on mobile after layout settles
 setTimeout(() => map.invalidateSize(), 300);
