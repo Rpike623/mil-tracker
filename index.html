@@ -1157,7 +1157,7 @@ body::after{
         <span style="font-size:10px;font-weight:700;color:#ef4444;letter-spacing:1px">OP EPIC FURY · OP RAGING LION</span>
         <div style="margin-left:auto;display:flex;gap:6px;flex-shrink:0">
           <div style="background:rgba(239,68,68,.08);border:1px solid rgba(239,68,68,.2);border-radius:3px;padding:2px 7px;font-size:9px;color:rgba(239,68,68,.6)">
-            🔴 KIA <span style="font-weight:700;color:#ef4444;font-family:'Orbitron',monospace">53+</span>
+            🔴 KIA <span style="font-weight:700;color:#ef4444;font-family:'Orbitron',monospace">201+</span>
           </div>
           <div style="background:rgba(167,139,250,.08);border:1px solid rgba(167,139,250,.2);border-radius:3px;padding:2px 7px;font-size:9px;color:rgba(167,139,250,.6)">
             🇺🇳 <span id="unsc-countdown" style="font-weight:700;color:#a78bfa;font-family:'Orbitron',monospace">--:--:--</span>
@@ -3392,30 +3392,30 @@ const ADV_INTEL = {
       { label:'Active personnel', val:'~610,000 + 220,000 IRGC — mobilized' },
     ],
     hotspots: [
-      { name:'Tehran — Leadership HQ', status:'ACTIVE', note:'Capital struck — smoke near Khamenei office' },
-      { name:'Natanz/Isfahan Nuclear', status:'ACTIVE', note:'Primary enrichment site — targeted in strikes' },
-      { name:'Fordow Underground', status:'ACTIVE', note:'~80m deep — strike effectiveness unknown' },
-      { name:'Strait of Hormuz', status:'ACTIVE', note:'CRITICAL — closure orders possible, IRGCN combat posture' },
-      { name:'NSA Bahrain (5th Fleet)', status:'ACTIVE', note:'Iran struck US Navy HQ — status unknown' },
-      { name:'Al Udeid AB Qatar', status:'ACTIVE', note:'Largest US base attacked — Qatar claims countered' },
+      { name:'KHAMENEI — DEAD', status:'ACTIVE', note:'Confirmed killed in US-Israel strikes. No designated successor. Regime future in doubt.' },
+      { name:'Konarak Naval Base', status:'ACTIVE', note:'BURNED — burning vessels at pier confirmed by satellite. IRGCN severely degraded.' },
+      { name:'Natanz/Isfahan/Fordow', status:'ACTIVE', note:'Nuclear sites targeted. IAEA: no radiological release detected yet.' },
+      { name:'Strait of Hormuz', status:'ACTIVE', note:'IRGC radio ban to ships. Tankers still transiting but enforcement risk critical.' },
+      { name:'NSA Bahrain', status:'ACTIVE', note:'Missile + Shahed drone struck 5th Fleet HQ, radome destroyed. Hours of attacks.' },
+      { name:'24/31 Iranian Provinces', status:'ACTIVE', note:'201 killed, 747 injured. Girls school Minab: 85 killed. Campaign continues.' },
     ],
     intel: [
-      '⚡ US = Op Epic Fury | Israel = Op Raging Lion — strikes from carriers (Ford/Nimitz) + land airbases',
-      '🚀 Iran retaliation across 6 countries: Israel, Bahrain, Qatar, UAE, Jordan, Kuwait',
-      '💥 Shahed drone struck NSA Bahrain — radome destroyed — video confirmed (USNI)',
-      '🚢 IRAN BANNED HORMUZ VESSEL TRAFFIC — tankers still moving as of 17:30 UTC',
-      '📡 IDF image confirms Iranian missile silo struck. Khamenei compound satellite-confirmed.',
-      '✊ Anti-govt protests at 8+ Iranian university campuses — students burning Islamic Republic flag',
-      '🌐 EU evacuating staff. France offering military aid to UAE/Qatar/Jordan.',
-      '🌐 Russia: strikes are "pre-planned unprovoked aggression against a UN member state"',
+      '💀 KHAMENEI CONFIRMED DEAD — Trump + Netanyahu + 2 Israeli officials (22:12 UTC)',
+      '💀 ALSO KILLED: IRGC commander, Defense Minister, Security Council secretary',
+      '🔴 Iran Red Crescent: 201 killed, 747 injured — 24/31 provinces struck',
+      '🚢 Konarak Naval Base: burning vessels confirmed by satellite — IRGCN crippled',
+      '💥 200 Israeli jets struck ~500 targets. LUCAS one-way drone — first combat use ever',
+      '🚀 Iran fired ~150 ballistic missiles + drones at Israel. US: ZERO casualties.',
+      '🌐 Trump: bombing continues uninterrupted through the week or longer',
+      '📵 Near-total internet blackout. IRGC to ships: no vessel through Hormuz',
     ],
     watchFor: [
-      '🔴 IRGCN enforcing Hormuz ban = energy crisis, oil to $150+, global supply shock',
-      '🔴 Second-wave Iranian ballistic missiles = escalation ladder climbing',
-      '🔴 Hezbollah/PMF activation = multi-front war expansion',
-      '🔴 Iran nuclear weapon assembly attempt = DEFCON 1 trigger',
-      '🔴 Russia/China material support to Iran = coalition war expansion',
-      '🔴 Regime collapse / coup = power vacuum, nuclear material security risk',
+      '🔴 Succession crisis — NO designated successor to Khamenei, power vacuum imminent',
+      '🔴 IRGC enforcing Hormuz ban = oil shock $150+, global economic crisis',
+      '🔴 IRGC coup or mutiny = nuclear command authority unclear',
+      '🔴 Hezbollah/PMF activation = Lebanon, Syria, Iraq all ignite simultaneously',
+      '🔴 Nuclear material security — sites struck, IAEA says no radiological release YET',
+      '🔴 Russia/China direct support to Iran = coalition war expansion',
     ],
   },
   russia: {
@@ -4124,8 +4124,12 @@ const STRIKE_SITES = [
    desc:'Debris from Iranian missile fell on residential area in Abu Dhabi — 1 civilian killed (BBC). UAE air defence intercepted multiple missiles. Airspace partially/temporarily closed. Al Dhafra AB (F-22s, tankers) also in area.', time:'10:30 UTC'},
   {name:'Jordan — 2 Missiles Intercepted', lat:31.9, lon:36.0, type:'iran_retaliation',
    desc:'Jordan intercepted 2 Iranian ballistic missiles targeting its territory. Jordan not a combatant. Iran broadening retaliation to include all countries with US military presence.', time:'~11:30 UTC'},
-  {name:'Kuwait — Ali Al-Salem AB', lat:29.45, lon:47.72, type:'iran_retaliation',
-   desc:'Iran targeted Ali Al-Salem airbase (US Air Force presence). Kuwait intercepted multiple ballistic missiles. Kuwait aviation authority halted all flights to Iran.', time:'~11:30 UTC'},
+  {name:'Kuwait — Ali Al-Salem AB + Airport 🔴', lat:29.45, lon:47.72, type:'iran_retaliation',
+   desc:'Iran targeted Ali Al-Salem AB (US Air Force presence). 3 Kuwaiti soldiers injured by shrapnel. Iranian drone ALSO struck Kuwait International Airport — minor injuries, material damage. Kuwait aviation authority halted all flights to Iran.', time:'~11:30 UTC'},
+  {name:'Tehran — Intelligence Ministry', lat:35.757, lon:51.405, type:'us_strike',
+   desc:'NEW 22:00 UTC: 3 explosions heard near Intelligence Ministry building in northern Tehran. Air defense systems began operating. Israel confirmed beginning new strikes against missile launchers and air defense systems in central Iran.', time:'22:00 UTC'},
+  {name:'Konarak Naval Base 🔴 CONFIRMED HIT', lat:27.18, lon:56.37, type:'us_strike',
+   desc:'CONFIRMED: Satellite imagery (Vantor/USNI, 28 Feb 2026) shows burning vessels at pier, Konarak Naval Base, southern Iran. Trump objective: "annihilate their navy." Konarak is primary IRGCN base for fast attack craft in Strait of Hormuz. Major blow to Iranian naval capability.', time:'~09:30 UTC'},
 ];
 
 // Iran protest sites (internal unrest layer)
@@ -5023,6 +5027,14 @@ function showCentcomDetail(navalIdx, colKey, itemIdx){
 // IRAN STRIKE TIMELINE
 // ════════════════════════════════════════
 const IRAN_TIMELINE = [
+  { time:'2026-02-28T22:12Z', icon:'💀', type:'casualty',   text:'KHAMENEI CONFIRMED DEAD — Trump Truth Social: "Khamenei, one of the most evil people in history, is dead." Netanyahu: "many signs he is no more." 2 Israeli officials confirmed to AP. No Iranian state confirmation. No designated successor — regime future in doubt.', src:'AP/BBC/Netanyahu' },
+  { time:'2026-02-28T22:00Z', icon:'💥', type:'strike',     text:'NEW STRIKES: 3 explosions near Tehran Intelligence Ministry. Israel resuming strikes against missile launchers + air defense in central Iran. Campaign continues.', src:'BBC' },
+  { time:'2026-02-28T21:45Z', icon:'🔴', type:'casualty',   text:'Iran Red Crescent: 201 killed, 747 injured across 24 of 31 provinces. Girls school Minab: 85 killed (updated). CENTCOM aware, investigating.', src:'IRNA/AP' },
+  { time:'2026-02-28T21:30Z', icon:'📡', type:'intel',      text:'IRGC claims: US FP-132 radar in Qatar "completely destroyed." US combat support vessel struck at sea by Iranian missiles. CENTCOM: zero US casualties, minimal damage, hundreds of attacks defended.', src:'IRGC/CENTCOM' },
+  { time:'2026-02-28T21:00Z', icon:'🚢', type:'intel',      text:'Konarak Naval Base (southern Iran): satellite shows burning vessels at pier. Trump said "annihilate their navy." Primary IRGCN fast attack craft base near Hormuz.', src:'USNI/Vantor satellite' },
+  { time:'2026-02-28T20:30Z', icon:'💥', type:'strike',     text:'IDF: 200 fighter jets struck ~500 targets simultaneously — air defense systems, missile launchers. IDF chief: joint US-Israel planning since June 2025 war. LUCAS one-way attack drone used in combat for first time.', src:'IDF/CENTCOM' },
+  { time:'2026-02-28T20:15Z', icon:'🔴', type:'casualty',   text:'Kuwait: 3 soldiers injured at Ali Al-Salem AB. Iranian drone struck Kuwait International Airport — minor injuries. UAE: Pakistani civilian killed Abu Dhabi, 4 injured Palm Dubai. Bahrain: 3 residential buildings damaged.', src:'BBC' },
+  { time:'2026-02-28T19:30Z', icon:'📡', type:'intel',      text:'CENTCOM statement: attacks began 01:15 EST. "Targets: IRGC command/control, air defense, missile/drone launch sites, military airfields." F-35Cs from Abraham Lincoln (N. Arabian Sea) + F/A-18s confirmed. DDGs fired Tomahawks.', src:'CENTCOM' },
   { time:'2026-02-28T18:00Z', icon:'📡', type:'intel',      text:'Iran op name confirmed: IRGC calls retaliation "Operation Truthful Promise 4." Near-total internet blackout across Iran. Iranians using Starlink to bypass. Text messages sent to Iranians: "Help has come" — apparent US/Israeli psyop.', src:'BBC / IRGC' },
   { time:'2026-02-28T17:56Z', icon:'🔴', type:'casualty',   text:'Abu Dhabi: Iranian missile debris fell on RESIDENTIAL AREA — 1 civilian killed, some material damage. Not a military base. Iran retaliating indiscriminately.', src:'BBC / UAE FM' },
   { time:'2026-02-28T17:43Z', icon:'🚢', type:'intel',      text:'HORMUZ: Iran officially bans vessel traffic through Strait of Hormuz. Tankers still transiting as of 17:30 UTC per maritime expert Sal Mercogliano. IRGCN in combat posture.', src:'USNI / X' },
@@ -5097,15 +5109,14 @@ function renderIranTimeline() {
 
 // Iran Ticker cycling
 const IRAN_TICKER_MSGS = [
-  'OP EPIC FURY + OP RAGING LION ACTIVE',
-  'IRAN: "TRUTHFUL PROMISE 4" RETALIATION',
-  'IRAN INTERNET BLACKOUT — NEAR TOTAL',
-  'IRAN BANS HORMUZ VESSEL TRAFFIC',
-  'BAHRAIN RADOME DESTROYED — SHAHED DRONE',
-  'ABU DHABI RESIDENTIAL AREA HIT — 1 KIA',
-  'KHAMENEI COMPOUND STRUCK — CONFIRMED',
-  'PRESIDENTIAL PALACE TARGETED',
-  'UN SECURITY COUNCIL: 21:00 GMT',
+  'KHAMENEI CONFIRMED DEAD',
+  '201 KILLED — 747 INJURED — 24/31 PROVINCES',
+  'IRGC COMMANDER + DEFENSE MIN KILLED',
+  'KONARAK NAVAL BASE — VESSELS BURNING',
+  'STRIKES CONTINUE THROUGH THE WEEK',
+  'US: ZERO CASUALTIES',
+  'IRGC: NO SHIPS THROUGH HORMUZ',
+  'LUCAS DRONE — FIRST COMBAT USE',
   'DEFCON 2 — HIGH ALERT',
 ];
 let iranTickerIdx = 0;

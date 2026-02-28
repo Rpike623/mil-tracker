@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-02-28T22:10:51Z",
-  "version": 101,
-  "breaking_alert": "⚡ IRAN \"TRUTHFUL PROMISE 4\" — INTERNET BLACKOUT — HORMUZ BAN — OP EPIC FURY ONGOING — UN SC 21:00 GMT",
+  "generated_utc": "2026-02-28T22:33:59Z",
+  "version": 103,
+  "breaking_alert": "💀 KHAMENEI CONFIRMED DEAD — 201 KILLED 747 INJURED — 24/31 PROVINCES STRUCK — STRIKES CONTINUE THROUGH THE WEEK — US: ZERO CASUALTIES",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -139,10 +139,10 @@
   "chokepoints": [
     {
       "name": "Strait of Hormuz",
-      "status": "⚡ IRAN BAN DECLARED — TANKERS STILL MOVING",
+      "status": "IRGC BAN — RADIO WARNINGS TO SHIPS",
       "lat": 26.6,
       "lon": 56.3,
-      "note": "WARTIME: Iran officially banned vessel traffic. Tankers still transiting as of 17:30 UTC (maritime expert). IRGCN in combat posture. 20% global oil at risk. Monitor for enforcement."
+      "note": "IRGC broadcasting radio: \"No ship is allowed to pass the Strait of Hormuz.\" Tankers still transiting last report. 20% global oil/gas at risk."
     },
     {
       "name": "Bab el-Mandeb",
@@ -246,12 +246,12 @@
     },
     {
       "id": "iran",
-      "name": "🔴 OP EPIC FURY + OP RAGING LION — US-ISRAEL vs IRAN",
+      "name": "💀 KHAMENEI DEAD — OP EPIC FURY CONTINUES",
       "lat": 35.7,
       "lng": 51.4,
       "intensity": "CRITICAL",
-      "status": "⚡ ACTIVE COMBAT — MULTI-DAY CAMPAIGN",
-      "update": "UPDATED 18:00 UTC: Iran IRGC operation name: \"Truthful Promise 4.\" NEAR-TOTAL INTERNET BLACKOUT across Iran — Iranians using Starlink to contact outside. SMS psyop: Iranians receiving \"Help has come\" messages urging regime forces to lay down arms. Residents fleeing Tehran north toward Caspian Sea. Op Epic Fury (US) + Op Raging Lion (Israel) — strikes from carriers + land airbases. NEW STRIKE SITES: Presidential Palace, Parchin Military Complex, Bandar Abbas IRIN HQ, Tabriz IRGC AB. Abu Dhabi: debris hit RESIDENTIAL area (not base) — 1 civilian KIA. Bahrain: Shahed drone destroyed radome at 5th Fleet — retaliation in Manama FOR HOURS. Iran banned Hormuz traffic — tankers still transiting. 6 countries targeted in retaliation. UN SC emergency 21:00 GMT."
+      "status": "DECAPITATION CONFIRMED — MULTI-DAY CAMPAIGN",
+      "update": "UPDATED 22:12 UTC: KHAMENEI CONFIRMED DEAD (Trump/Netanyahu/2 Israeli officials). ALSO KILLED: IRGC commander, Defense Minister, Security Council secretary. Iran Red Crescent: 201 killed, 747 injured, 24/31 provinces struck. Girls school Minab: 85 killed (updated). Konarak Naval Base: burning vessels confirmed by satellite. 200 Israeli jets struck ~500 targets. LUCAS drone first combat use. CVN-72 Abraham Lincoln active. New strikes 22:00 UTC near Tehran Intel Ministry. Iran fired ~150 ballistic missiles + drones at Israel. US: zero casualties, minimal damage. IRGC to ships: \"No vessel allowed through Hormuz.\" Trump: bombing continues through week."
     }
   ],
   "exercises": [
@@ -579,6 +579,16 @@
       "active": true,
       "type": "warzone",
       "notes": "Iran targeted Ali Al-Salem AB (US Air Force presence). Kuwait intercepted multiple ballistic missiles."
+    },
+    {
+      "id": "konarak",
+      "name": "Konarak Naval Base — Vessels Burning",
+      "lat": 27.18,
+      "lng": 56.37,
+      "radius_km": 80,
+      "active": true,
+      "type": "warzone",
+      "notes": "CONFIRMED: Satellite imagery (Vantor) shows burning vessels at pier. Konarak Naval Base, southern Iran. IRGCN fast attack craft base."
     }
   ],
   "_naval_news_refs": [
@@ -638,15 +648,6 @@
       ]
     },
     {
-      "title": "Transgender youths are targeted in Scouting America changes pushed by Pentagon",
-      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/02/27/transgender-youths-are-targeted-in-scouting-america-changes-pushed-by-pentagon/",
-      "published": "Fri, 27 Feb 2026 21:04:03 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "US, Israel launch ‘major combat operations’ in Iran",
       "link": "https://www.defensenews.com/news/your-military/2026/02/28/us-israel-launch-major-combat-operations-in-iran/",
       "published": "Sat, 28 Feb 2026 12:51:48 +0000",
@@ -675,11 +676,21 @@
         "deployment",
         "conflict"
       ]
+    },
+    {
+      "title": "World leaders fear broader escalation after major US and Israeli attack on Iran",
+      "link": "https://www.militarytimes.com/global/mideast-africa/2026/02/28/world-leaders-fear-broader-escalation-after-major-us-and-israeli-attack-on-iran/",
+      "published": "Sat, 28 Feb 2026 13:56:26 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
     }
   ],
   "centcom_assets": {
-    "updated": "2026-02-28T17:47:00Z",
-    "summary": "⚡ OP EPIC FURY + OP RAGING LION active. Ford (E.Med) + Nimitz (Arabian Sea) — sea + land strikes. NSA Bahrain: missile + Shahed drone struck, radome destroyed. Iran banned Hormuz — tankers still moving. UN SC 21:00 GMT.",
+    "updated": "2026-02-28T22:31:00Z",
+    "summary": "KHAMENEI DEAD. CVN-72 Abraham Lincoln (N. Arabian Sea): F-35C + F/A-18 strikes active. DDGs launching Tomahawks. CVN-78 Ford (E. Med). LUCAS one-way drones debut. US CENTCOM: 0 casualties, hundreds of Iranian attacks defended. Campaign continues through week.",
     "troops_total": "~40,000",
     "naval": [
       {
@@ -932,30 +943,34 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 23,
+    "deployment_articles": 24,
     "conflict_articles": 10,
     "exercise_articles": 7,
     "total_articles": 50,
-    "computed_at": "2026-02-28T22:10:51.175114+00:00",
+    "computed_at": "2026-02-28T22:33:59.006262+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
-      "Iran IRGC retaliation op name: \"Operation Truthful Promise 4\"",
-      "NEAR-TOTAL INTERNET BLACKOUT across Iran since strikes began",
-      "Iranians using Starlink to bypass blackout — OSINT tracking degraded",
-      "SMS psyop: \"Help has come\" messages sent to Iranians urging regime forces to stand down",
-      "Residents evacuating Tehran northward toward Caspian Sea",
-      "NEW STRIKE SITES confirmed/likely: Presidential Palace, Parchin, Bandar Abbas IRIN HQ, Tabriz IRGC AB",
-      "Op Epic Fury (US) + Op Raging Lion (Israel) launched from carriers (Ford/Nimitz) + land airbases",
-      "Trump: \"annihilate their navy\" — Bandar Abbas IRIN HQ almost certainly targeted",
-      "Abu Dhabi: missile DEBRIS hit RESIDENTIAL area (not base) — 1 civilian KIA (corrected from Al Dhafra)",
-      "NSA Bahrain: Shahed drone destroyed radome + hours of ongoing retaliation (Stars & Stripes)",
-      "Iran banned Hormuz vessel traffic — tankers still transiting as of 17:30 UTC",
-      "IDF released image of Iranian missile silo strike",
-      "Khamenei compound satellite-confirmed struck (BBC/Airbus DS imagery)",
-      "Iran retaliation: 6 countries — Israel, Bahrain, Qatar, UAE (1 KIA), Jordan, Kuwait",
-      "EU evacuating staff. France offering military aid to UAE/Qatar/Jordan.",
-      "Russia: \"pre-planned unprovoked aggression.\" Spain rejected. Norway: \"new extensive war.\"",
-      "UN Security Council emergency session 21:00 GMT"
+      "KHAMENEI CONFIRMED DEAD — Trump + Netanyahu + 2 Israeli officials (22:12 UTC)",
+      "ALSO KILLED: IRGC commander, Defense Minister, Security Council secretary",
+      "Iran Red Crescent: 201 killed, 747 injured — 24 of 31 provinces struck",
+      "Girls school Minab: 85 killed (updated from 53) — CENTCOM investigating",
+      "Konarak Naval Base: burning vessels at pier confirmed by satellite (Vantor/USNI)",
+      "200 Israeli jets struck ~500 targets simultaneously",
+      "LUCAS one-way attack drone: first combat use confirmed",
+      "CVN-72 Abraham Lincoln (N. Arabian Sea) active — F-35C + F/A-18 strikes, DDGs fired Tomahawks",
+      "New strikes at 22:00 UTC: 3 explosions near Tehran Intelligence Ministry",
+      "Israel resuming strikes on central Iran missile launchers + air defense",
+      "IRGC claims: US FP-132 radar Qatar destroyed, US combat support vessel struck at sea",
+      "Kuwait: 3 soldiers injured, drone struck Kuwait International Airport",
+      "UAE: Pakistani civilian killed Abu Dhabi, 4 injured Palm Dubai",
+      "Bahrain: 3 residential buildings damaged by drone/debris Manama/Muharraq",
+      "Iran fired ~150 ballistic missiles + dozens of drones at Israel — teen injured shrapnel",
+      "US CENTCOM: ZERO casualties, minimal damage, hundreds of Iranian attacks defended",
+      "IRGC radio to ships: No vessel allowed through Strait of Hormuz",
+      "Trump: bombing continues uninterrupted through the week or longer",
+      "Iran near-total internet blackout (NetBlocks confirmed)",
+      "IAEA: no evidence of radiological impact",
+      "Second US attack on Iran — first was June 2025 nuclear facilities strike"
     ]
   }
 }
