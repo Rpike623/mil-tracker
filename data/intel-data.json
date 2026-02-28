@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-02-28T17:04:01Z",
-  "version": 91,
+  "generated_utc": "2026-02-28T17:10:19Z",
+  "version": 92,
   "breaking_alert": "⚡ ESCALATION: KHAMENEI COMPOUND STRUCK — IRAN RETALIATES ACROSS 6 COUNTRIES — UN SECURITY COUNCIL EMERGENCY SESSION 21:00 GMT",
   "naval_deployments": [
     {
@@ -916,7 +916,7 @@
     "conflict_articles": 3,
     "exercise_articles": 8,
     "total_articles": 50,
-    "computed_at": "2026-02-28T17:04:01.729814+00:00",
+    "computed_at": "2026-02-28T17:10:18.457425+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "Khamenei compound struck — satellite imagery confirmed (BBC 15:49 UTC)",
