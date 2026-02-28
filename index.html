@@ -836,6 +836,11 @@ body::after{
 <!-- TOP BAR -->
 <div class="topbar">
   <span class="logo">⚡ PIKE<span>CLAW</span> // OSINT-MIL <span class="status-dot" title="Live feeds active"></span></span>
+  <!-- Iran Status Ticker -->
+  <div id="iran-ticker" style="display:inline-flex;align-items:center;gap:6px;background:rgba(239,68,68,.15);border:1px solid rgba(239,68,68,.5);border-radius:3px;padding:3px 10px;margin-right:6px;flex-shrink:0;cursor:pointer;box-shadow:0 0 8px rgba(239,68,68,.2)" onclick="switchAdv('iran');document.getElementById('pane-adv').scrollIntoView({behavior:'smooth'})" title="Click for Iran intel">
+    <span style="width:7px;height:7px;border-radius:50%;background:#ef4444;display:inline-block;animation:logo-pulse 1s ease-in-out infinite;box-shadow:0 0 6px #ef4444"></span>
+    <span id="iran-ticker-text" style="font-family:'Orbitron',monospace;font-size:9px;font-weight:700;color:#ef4444;letter-spacing:1.5px;text-transform:uppercase;white-space:nowrap;transition:opacity .2s">US-ISRAEL STRIKES ACTIVE</span>
+  </div>
   <span class="tb-label">Country:</span>
   <button class="tb-btn on" id="bc-all" onclick="setCF('all')">🌍 All</button>
   <button class="tb-btn" id="bc-us" onclick="setCF('us')">🇺🇸 US</button>
@@ -1073,8 +1078,18 @@ body::after{
     <div class="widget-body" id="pane-naval" style="padding:0;display:flex;flex-direction:column"></div>
   </div>
 
+  <!-- ⚡ IRAN STRIKE TIMELINE WIDGET -->
+  <div class="widget widget-scan-line" id="w-iran-timeline" style="grid-column:1/-1;grid-row:4;position:relative;overflow:hidden;min-height:180px">
+    <div class="widget-header" style="background:rgba(30,0,0,.7);border-bottom:1px solid rgba(239,68,68,.3)">
+      ⚡ <span class="wh-title" style="color:#ef4444;text-shadow:0 0 10px rgba(239,68,68,.5)">IRAN STRIKE TIMELINE</span>
+      <span id="iran-tl-updated" style="font-size:9px;color:#6b3a3a;font-family:'Share Tech Mono',monospace;margin-left:auto">28 FEB 2026 — LIVE CONFLICT</span>
+      <span id="iran-tl-count" class="wh-count" style="color:#ef4444;border-color:#ef4444">0 events</span>
+    </div>
+    <div class="widget-body" id="pane-iran-timeline" style="padding:0;overflow-y:auto"></div>
+  </div>
+
   <!-- CENTCOM ASSETS WIDGET -->
-  <div class="widget widget-scan-line" style="grid-column:1/-1;grid-row:4;position:relative;overflow:hidden;min-height:220px">
+  <div class="widget widget-scan-line" style="grid-column:1/-1;grid-row:5;position:relative;overflow:hidden;min-height:220px">
     <div class="widget-header">
       🇺🇸 <span class="wh-title">US CENTCOM Assets — Middle East Posture</span>
       <span class="wh-count" id="centcom-troops" style="color:#00ff41">~40,000 troops</span>
@@ -2624,19 +2639,19 @@ function toggleMissiles(){
 // NUCLEAR / WMD SITES
 // ════════════════════════════════════════
 const NUCLEAR_SITES = [
-  // Iran
-  { name:'Fordow FEP', lat:34.885, lon:50.996, country:'iran', type:'Enrichment', risk:'HIGH',
-    desc:'Underground enrichment facility near Qom. Buried in mountain for protection. Enriching up to 60% U-235. Under IAEA monitoring with gaps.'},
-  { name:'Natanz FEP', lat:33.725, lon:51.727, country:'iran', type:'Enrichment', risk:'HIGH',
-    desc:'Primary enrichment facility. Thousands of centrifuges. Target of Stuxnet cyberattack (2010) and Israeli sabotage (2021).'},
-  { name:'Isfahan UCF', lat:32.625, lon:51.671, country:'iran', type:'Conversion', risk:'MED',
-    desc:'Uranium conversion facility. Converts yellowcake to UF6 gas for centrifuge enrichment.'},
-  { name:'Arak IR-40', lat:34.144, lon:49.230, country:'iran', type:'Reactor', risk:'MED',
-    desc:'Heavy water reactor (redesigned under JCPOA). Original design could produce weapons-grade plutonium.'},
-  { name:'Bushehr NPP', lat:28.829, lon:50.888, country:'iran', type:'Reactor', risk:'LOW',
-    desc:'Russian-built civilian power reactor. 1GW output. Under IAEA safeguards. Low proliferation risk.'},
-  { name:'Parchin Military Complex', lat:35.522, lon:51.773, country:'iran', type:'Suspected WMD', risk:'HIGH',
-    desc:'Military site suspected of nuclear weapons development testing. IAEA has requested access multiple times.'},
+  // Iran — ⚡ WARTIME STRIKE STATUS (28 Feb 2026)
+  { name:'Fordow FFEP ⚡ STRUCK?', lat:34.885, lon:50.996, country:'iran', type:'Enrichment', risk:'HIGH', strikeStatus:'TARGETED',
+    desc:'⚡ WARTIME: US-Israel strikes active 28 Feb 2026. Fordow is ~80m underground — strike effectiveness UNKNOWN. Primary underground enrichment facility near Qom. Enriching to near-weapons-grade. IAEA access suspended.'},
+  { name:'Natanz FEP ⚡ STRUCK?', lat:33.725, lon:51.727, country:'iran', type:'Enrichment', risk:'HIGH', strikeStatus:'TARGETED',
+    desc:'⚡ WARTIME: Natanz confirmed as primary target of US-Israel strikes 28 Feb 2026. Primary enrichment facility — thousands of centrifuges. Target of Stuxnet (2010) and Israeli sabotage (2021).'},
+  { name:'Isfahan UCF ⚡ EXPLOSIONS', lat:32.625, lon:51.671, country:'iran', type:'Conversion', risk:'HIGH', strikeStatus:'STRUCK',
+    desc:'⚡ WARTIME: Explosions reported in Isfahan city 28 Feb 2026. Uranium conversion facility — converts yellowcake to UF6 for centrifuge enrichment. Strike effectiveness unknown.'},
+  { name:'Arak IR-40', lat:34.144, lon:49.230, country:'iran', type:'Reactor', risk:'MED', strikeStatus:'MONITOR',
+    desc:'Heavy water reactor (redesigned under JCPOA). Not confirmed as primary target but within strike theater. Monitor for secondary targeting.'},
+  { name:'Bushehr NPP ⚠️ MONITOR', lat:28.829, lon:50.888, country:'iran', type:'Reactor', risk:'MED', strikeStatus:'MONITOR',
+    desc:'⚠️ Russian-built civilian nuclear power plant. Not a primary target — striking would trigger international incident. Monitor for collateral effects and IAEA response.'},
+  { name:'Parchin Military ⚡ WATCH', lat:35.522, lon:51.773, country:'iran', type:'Suspected WMD', risk:'HIGH', strikeStatus:'WATCH',
+    desc:'⚡ WARTIME: Military complex suspected of nuclear weapons R&D — likely a high-priority target. Near Tehran. IAEA has repeatedly requested access. Strike status unconfirmed.'},
   // DPRK
   { name:'Yongbyon Nuclear Complex', lat:39.800, lon:125.755, country:'china', type:'Weapons Production', risk:'HIGH',
     desc:'North Korea\'s primary nuclear facility. 5MW reactor produces plutonium. Enrichment facility also on-site. Has produced material for 40-60 warheads.'},
@@ -2687,18 +2702,24 @@ function toggleNuclear(){
     NUCLEAR_SITES.forEach(s => {
       const col = RISK_COL[s.risk] || '#64748b';
       const flag = FLAGS[s.country] || '🌐';
+      const isStruck = s.strikeStatus === 'STRUCK' || s.strikeStatus === 'TARGETED';
+      const isWatch = s.strikeStatus === 'WATCH' || s.strikeStatus === 'MONITOR';
+      const strikeCol = isStruck ? '#ef4444' : isWatch ? '#f97316' : col;
+      const strikeIcon = isStruck ? '💥' : isWatch ? '⚠️' : '☢️';
+      const pulseAnim = isStruck ? 'animation:logo-pulse 0.8s ease-in-out infinite' : '';
       const m = L.marker([s.lat, s.lon], {
         icon: L.divIcon({
-          html: `<div style="color:${col};font-size:15px;text-shadow:0 0 6px ${col}80">☢️</div>`,
-          className:'', iconSize:[15,15], iconAnchor:[7,7]
+          html: `<div style="color:${strikeCol};font-size:${isStruck?'17px':'15px'};text-shadow:0 0 8px ${strikeCol}90;${pulseAnim}">${strikeIcon}</div>`,
+          className:'', iconSize:[17,17], iconAnchor:[8,8]
         })
-      }).bindTooltip(`${flag} ${s.name}<br>${s.type} — Risk: <b style="color:${col}">${s.risk}</b>`, {className:'dark-tooltip', direction:'top'}).addTo(map);
+      }).bindTooltip(`${flag} ${s.name}<br>${s.type}${s.strikeStatus ? ' — <b style="color:'+strikeCol+'">⚡ '+s.strikeStatus+'</b>' : ' — Risk: <b style="color:'+col+'">'+s.risk+'</b>'}`, {className:'dark-tooltip', direction:'top'}).addTo(map);
       m.on('click', () => {
-        document.getElementById('pTitle').textContent = `☢️ ${s.name}`;
+        document.getElementById('pTitle').textContent = `${strikeIcon} ${s.name}`;
         document.getElementById('pBody').innerHTML = `
-          <div style="margin-bottom:6px">
+          <div style="margin-bottom:6px;display:flex;flex-wrap:wrap;gap:4px">
             <span style="font-size:10px;padding:2px 8px;border-radius:2px;font-weight:700;font-family:'Share Tech Mono',monospace;background:${col}18;color:${col};border:1px solid ${col}40">${s.type}</span>
-            <span style="font-size:10px;padding:2px 8px;border-radius:2px;font-weight:700;font-family:'Share Tech Mono',monospace;background:${col}18;color:${col};border:1px solid ${col}40;margin-left:4px">${s.risk} RISK</span>
+            <span style="font-size:10px;padding:2px 8px;border-radius:2px;font-weight:700;font-family:'Share Tech Mono',monospace;background:${col}18;color:${col};border:1px solid ${col}40">${s.risk} RISK</span>
+            ${s.strikeStatus ? `<span style="font-size:10px;padding:2px 8px;border-radius:2px;font-weight:700;font-family:'Share Tech Mono',monospace;background:${strikeCol}25;color:${strikeCol};border:1px solid ${strikeCol}60">⚡ ${s.strikeStatus}</span>` : ''}
           </div>
           <div style="font-size:10px;color:var(--text);line-height:1.5;margin-top:6px">${s.desc||''}</div>
         `;
@@ -2767,35 +2788,43 @@ function toggleAirDef(){
 // ════════════════════════════════════════
 const ADV_INTEL = {
   iran: {
-    name: 'Islamic Republic of Iran', flag: '🇮🇷', color: '#ef4444',
+    name: '🔴 Islamic Republic of Iran — WARTIME', flag: '🇮🇷', color: '#ef4444',
     oob: [
-      { label:'Air Force Aircraft (est.)', val:'~330 fixed-wing' },
-      { label:'Key fighters', val:'F-14A Tomcat, F-4E, MiG-29, Su-24' },
-      { label:'Drones', val:'Shahed-136/131, Mohajer-6, Arash-2' },
-      { label:'Navy surface vessels', val:'~100 (IRIN + IRGCN)' },
-      { label:'Submarines', val:'3 Kilo-class + midget subs' },
-      { label:'Ballistic missiles', val:'Shahab-3, Khorramshahr, Qadr' },
-      { label:'Cruise missiles', val:'Soumar, Ya Ali, Hoveizeh' },
-      { label:'Active personnel', val:'~610,000 + 220,000 IRGC' },
+      { label:'⚡ STATUS', val:'UNDER ATTACK — RETALIATING' },
+      { label:'Air Force (pre-strike est.)', val:'~330 fixed-wing (status unknown)' },
+      { label:'Key fighters', val:'F-14A, MiG-29, Su-24 (many likely destroyed)' },
+      { label:'Ballistic missiles', val:'Shahab-3, Khorramshahr, Qadr — FIRING' },
+      { label:'Cruise missiles', val:'Soumar, Ya Ali, Hoveizeh — wartime deployment' },
+      { label:'IRGCN fast boats', val:'Combat posture — Hormuz threat CRITICAL' },
+      { label:'Drones', val:'Shahed-136/131, Mohajer-6 — expect employment' },
+      { label:'Nuclear sites', val:'Natanz, Fordow, Isfahan — targeted in strikes' },
+      { label:'Active personnel', val:'~610,000 + 220,000 IRGC — mobilized' },
     ],
     hotspots: [
-      { name:'Strait of Hormuz', status:'ACTIVE', note:'IRGCN patrols ongoing' },
-      { name:'Natanz Enrichment', status:'ACTIVE', note:'90% enrichment confirmed' },
-      { name:'Fordow Underground', status:'ACTIVE', note:'Deeply buried, air-strike resistant' },
-      { name:'Syria/Iraq proxies', status:'ACTIVE', note:'Hezbollah, PMF active' },
+      { name:'Tehran — Leadership HQ', status:'ACTIVE', note:'Capital struck — smoke near Khamenei office' },
+      { name:'Natanz/Isfahan Nuclear', status:'ACTIVE', note:'Primary enrichment site — targeted in strikes' },
+      { name:'Fordow Underground', status:'ACTIVE', note:'~80m deep — strike effectiveness unknown' },
+      { name:'Strait of Hormuz', status:'ACTIVE', note:'CRITICAL — closure orders possible, IRGCN combat posture' },
+      { name:'NSA Bahrain (5th Fleet)', status:'ACTIVE', note:'Iran struck US Navy HQ — status unknown' },
+      { name:'Al Udeid AB Qatar', status:'ACTIVE', note:'Largest US base attacked — Qatar claims countered' },
     ],
     intel: [
-      'Iran enriched uranium to near-weapons-grade (84%) at Fordow',
-      'IRGCN fast-boat harassment of US vessels in Arabian Gulf ongoing',
-      'Shahed drone exports to Russia confirm production scale-up',
-      'Parchin military site expansion detected via satellite imagery',
-      'Iran-Russia-China trilateral naval drills held in Indian Ocean',
+      '⚡ US-Israel joint strikes began ~06:00 UTC 28 Feb 2026 — Trump: "major combat operations"',
+      '🚀 Iran retaliation: ballistic missiles fired toward Israel — Haifa explosions reported',
+      '💥 Iran struck US 5th Fleet HQ at NSA Bahrain — status unknown',
+      '💥 Iran attacked Al Udeid AB Qatar (~10,000 US troops) — Qatar claims countered',
+      '✈️ Iran airspace fully closed — Tasnim News Agency confirmed',
+      '✈️ Israel airspace fully closed — citizens shelter in place until Mon 20:00',
+      '🌐 Airlines suspending regional flights through 7 Mar (Lufthansa, Wizz Air, Virgin)',
+      '🌐 Russia condemns strikes as "reckless move" — calls on international community',
     ],
     watchFor: [
-      'IRIAF tanker aircraft (707/747) suggest extended-range strike prep',
-      'Surge in IRGCN small boat activity near Hormuz = chokepoint threat',
-      'Iranian ISR drones over Iraq/Syria = target designation ops',
-      'Fordow or Natanz air defense activation = strike anticipation',
+      '🔴 Strait of Hormuz closure orders = energy crisis, oil spike to $150+',
+      '🔴 IRGCN fast boat swarms vs US Navy = Hormuz confrontation',
+      '🔴 Iran second-wave ballistic missiles = escalation ladder climbing',
+      '🔴 Hezbollah/PMF activation = multi-front war expansion',
+      '🔴 Iranian nuclear weapon assembly attempt = DEFCON 1 trigger',
+      '🔴 Russia/China material support to Iran = coalition war expansion',
     ],
   },
   russia: {
@@ -4211,6 +4240,94 @@ function showCentcomDetail(navalIdx, colKey, itemIdx){
 }
 
 // ════════════════════════════════════════
+// ════════════════════════════════════════
+// IRAN STRIKE TIMELINE
+// ════════════════════════════════════════
+const IRAN_TIMELINE = [
+  { time:'2026-02-28T11:28Z', icon:'🚀', type:'missile',    text:'Iran fires ballistic missiles toward Israel — explosions heard in Haifa', src:'BBC' },
+  { time:'2026-02-28T11:00Z', icon:'💥', type:'strike',     text:'Iran strikes NSA Bahrain — US Navy 5th Fleet HQ targeted by Iranian missiles', src:'BBC' },
+  { time:'2026-02-28T10:45Z', icon:'🛡️', type:'intercept',  text:'Qatar: Al Udeid AB attacks "successfully countered" — largest US base in region', src:'BBC' },
+  { time:'2026-02-28T10:30Z', icon:'🔴', type:'casualty',   text:'UAE confirms 1 KIA from Iranian missile debris — airspace partially closed', src:'BBC' },
+  { time:'2026-02-28T09:45Z', icon:'✈️', type:'air',        text:'Israel airspace fully closed — citizens ordered to shelter until Mon 20:00', src:'IDF' },
+  { time:'2026-02-28T09:40Z', icon:'✈️', type:'air',        text:'Iran airspace closed — Tasnim News Agency confirms full closure', src:'Tasnim' },
+  { time:'2026-02-28T09:30Z', icon:'💥', type:'strike',     text:'Joint US-Israel strikes begin: Tehran (near Leadership House), Isfahan, Qom, Karaj, Kermanshah', src:'BBC' },
+  { time:'2026-02-28T09:15Z', icon:'📡', type:'intel',      text:'Trump posts Truth Social: "United States military began major combat operations in Iran"', src:'Truth Social' },
+  { time:'2026-02-28T09:10Z', icon:'🌐', type:'diplomatic', text:'Netanyahu: "Our joint action will create conditions for the Iranian people to take their destiny"', src:'PM Office' },
+  { time:'2026-02-28T09:05Z', icon:'🛡️', type:'intercept',  text:'Israel Defense Minister declares "special and permanent state of emergency" across Israel', src:'IDF' },
+  { time:'2026-02-28T06:00Z', icon:'🌐', type:'diplomatic', text:'US-Iran Geneva nuclear talks conclude — last diplomatic contact before strikes', src:'State Dept' },
+  { time:'2026-02-27T19:20Z', icon:'✈️', type:'air',        text:'Defense News: US assembles largest force of warships and aircraft in Middle East in decades', src:'Defense News' },
+  { time:'2026-02-27T00:00Z', icon:'📡', type:'intel',      text:'CVN-78 Ford (Eastern Med) + CVN-68 Nimitz (Arabian Sea) confirmed in dual-carrier strike posture', src:'USNI' },
+];
+
+const IRAN_TYPE_COLORS = {
+  strike:     '#ef4444',
+  missile:    '#f97316',
+  intercept:  '#00ffcc',
+  casualty:   '#dc2626',
+  air:        '#eab308',
+  diplomatic: '#60a5fa',
+  intel:      '#a78bfa',
+};
+
+function renderIranTimeline() {
+  const pane = document.getElementById('pane-iran-timeline');
+  const countEl = document.getElementById('iran-tl-count');
+  if(!pane) return;
+
+  let h = '<div style="display:flex;flex-direction:column">';
+  IRAN_TIMELINE.forEach((ev, i) => {
+    const col = IRAN_TYPE_COLORS[ev.type] || '#b8e6b8';
+    const dt = new Date(ev.time);
+    const timeStr = dt.toUTCString().replace(/.*(\d{2}:\d{2}):\d{2} GMT/, '$1') + 'Z';
+    const dateStr = ev.time.slice(0,10);
+    const isNew = i < 3;
+    h += `<div style="display:flex;align-items:flex-start;gap:10px;padding:7px 12px;border-bottom:1px solid rgba(255,255,255,.04);border-left:3px solid ${col};${isNew?'background:rgba(239,68,68,.05)':''}">
+      <div style="flex-shrink:0;text-align:right;min-width:58px">
+        <div style="font-family:'Orbitron',monospace;font-size:9px;color:${col};font-weight:700">${timeStr}</div>
+        <div style="font-size:8px;color:var(--muted);font-family:'Share Tech Mono',monospace">${dateStr}</div>
+      </div>
+      <div style="font-size:14px;flex-shrink:0;line-height:1.6">${ev.icon}</div>
+      <div style="flex:1;min-width:0">
+        <div style="font-size:11px;color:${isNew?'#fff':'var(--text)'};line-height:1.4;font-family:'Share Tech Mono',monospace">${ev.text}</div>
+        <div style="font-size:9px;color:var(--muted);margin-top:2px;font-family:'Share Tech Mono',monospace">SOURCE: ${ev.src}</div>
+      </div>
+      ${isNew ? `<div style="flex-shrink:0;font-size:8px;background:#ef4444;color:#fff;padding:1px 5px;border-radius:2px;font-family:'Orbitron',monospace;font-weight:700;align-self:center">NEW</div>` : ''}
+    </div>`;
+  });
+  h += '</div>';
+  pane.innerHTML = h;
+  if(countEl) countEl.textContent = IRAN_TIMELINE.length + ' events';
+}
+
+// Iran Ticker cycling
+const IRAN_TICKER_MSGS = [
+  'US-ISRAEL STRIKES ACTIVE',
+  'IRAN RETALIATING — MISSILES',
+  'HORMUZ: CLOSURE RISK',
+  'DEFCON 2 — HIGH ALERT',
+  '5TH FLEET HQ STRUCK',
+  'AL UDEID UNDER ATTACK',
+];
+let iranTickerIdx = 0;
+function cycleIranTicker() {
+  iranTickerIdx = (iranTickerIdx + 1) % IRAN_TICKER_MSGS.length;
+  const el = document.getElementById('iran-ticker-text');
+  if(el) {
+    el.style.opacity = '0';
+    setTimeout(() => {
+      el.textContent = IRAN_TICKER_MSGS[iranTickerIdx];
+      el.style.opacity = '1';
+    }, 200);
+  }
+}
+setInterval(cycleIranTicker, 4000);
+
+// Add new event to the timeline (call with new intel)
+function addIranEvent(timeISO, icon, type, text, src) {
+  IRAN_TIMELINE.unshift({ time: timeISO, icon, type, text, src });
+  renderIranTimeline();
+}
+
 // BREAKING ALERT BANNER
 // ════════════════════════════════════════
 let breakingAlertActive = false;
@@ -4312,6 +4429,7 @@ fetchCurrency();
 fetchSpaceWeather();
 initXFeed();
 renderAdvPanel('iran');
+renderIranTimeline();
 loadIntelData();
 // Fix Leaflet map size on mobile after layout settles
 setTimeout(() => map.invalidateSize(), 300);
