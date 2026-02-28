@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-02-28T16:12:43Z",
-  "version": 89,
-  "breaking_alert": "⚡ BREAKING: US-ISRAEL JOINT STRIKES ON IRAN UNDERWAY — MAJOR COMBAT OPERATIONS ACTIVE — IRAN RETALIATING WITH MISSILES",
+  "generated_utc": "2026-02-28T16:52:00Z",
+  "version": 90,
+  "breaking_alert": "⚡ ESCALATION: KHAMENEI COMPOUND STRUCK — IRAN RETALIATES ACROSS 6 COUNTRIES — UN SECURITY COUNCIL EMERGENCY SESSION 21:00 GMT",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -139,10 +139,10 @@
   "chokepoints": [
     {
       "name": "Strait of Hormuz",
-      "status": "⚡ CRITICAL — CLOSURE RISK",
+      "status": "⚡ CRITICAL — ACTIVE WAR",
       "lat": 26.6,
       "lon": 56.3,
-      "note": "ACTIVE WAR STATE. Iran may attempt Hormuz closure. IRGCN fast attack craft on highest alert. 20% of global oil supply at risk. Monitor immediately."
+      "note": "WARTIME: US-Israel strikes active. Iran retaliating across 6 countries. Hormuz closure decision imminent. 20% global oil at risk."
     },
     {
       "name": "Bab el-Mandeb",
@@ -246,12 +246,12 @@
     },
     {
       "id": "iran",
-      "name": "🔴 US-ISRAEL STRIKES ON IRAN — ACTIVE WAR",
+      "name": "🔴 US-ISRAEL WAR ON IRAN — ESCALATING",
       "lat": 35.7,
       "lng": 51.4,
       "intensity": "CRITICAL",
-      "status": "⚡ ACTIVE STRIKES — IRAN RETALIATING",
-      "update": "BREAKING 28 FEB 2026: Joint US-Israel strikes began ~09:30 Tehran time. Explosions in Tehran (near Leadership House / Khamenei HQ), Isfahan, Qom, Karaj, Kermanshah. Trump: 'major combat operations in Iran — eliminate nuclear threat — seek regime change.' Iran retaliating: missiles fired toward Israel. Explosions in Haifa. Iran hit US Navy 5th Fleet HQ in Bahrain. Qatar (Al Udeid AB) attacked — 'successfully countered.' UAE attacked — 1 KIA from debris. Iran airspace closed. Israel airspace closed. Multiple Gulf airspaces shutting down. Lufthansa/Wizz Air/Virgin suspending regional flights to 7 Mar."
+      "status": "⚡ ACTIVE — KHAMENEI COMPOUND STRUCK",
+      "update": "UPDATED 16:49 UTC 28 FEB: BBC CONFIRMS satellite imagery shows Khamenei compound struck. Presidential office targeted. Local official: 53 killed at girls school in Minab (unverified). Iran retaliation in 6 countries: Israel (Haifa), Bahrain (5th Fleet HQ), Qatar (Al Udeid), UAE (1 KIA), Jordan (2 missiles intercepted), Kuwait (Ali Al-Salem AB). UN SC emergency meeting 21:00 GMT. UK/FR/DE: \"We did not participate.\" Saudi condemns Iran retaliation. Oman FM: \"I urge the US not to get sucked in — this is not your war.\" Anti-govt protests: 8+ university campuses Tehran/Mashhad/Isfahan. Students burning Islamic Republic flag."
     }
   ],
   "exercises": [
@@ -559,6 +559,26 @@
       "active": true,
       "type": "conflict",
       "notes": "Civil war continuing. Military junta vs resistance forces. Airspace hazardous."
+    },
+    {
+      "id": "jordan",
+      "name": "🔴 Jordan — 2 Iranian Missiles Intercepted",
+      "lat": 31.9,
+      "lng": 36.0,
+      "radius_km": 150,
+      "active": true,
+      "type": "warzone",
+      "notes": "Jordan intercepted 2 Iranian ballistic missiles. Not a combatant — Iran broadening retaliation footprint."
+    },
+    {
+      "id": "kuwait",
+      "name": "🔴 Kuwait — Ali Al-Salem AB Targeted",
+      "lat": 29.45,
+      "lng": 47.72,
+      "radius_km": 100,
+      "active": true,
+      "type": "warzone",
+      "notes": "Iran targeted Ali Al-Salem AB (US Air Force presence). Kuwait intercepted multiple ballistic missiles."
     }
   ],
   "_naval_news_refs": [
@@ -658,8 +678,8 @@
     }
   ],
   "centcom_assets": {
-    "updated": "2026-02-28T11:40:00Z",
-    "summary": "⚡ WARTIME POSTURE: US-Israel joint strikes on Iran active. Ford CSG (Eastern Med) + Nimitz CSG (North Arabian Sea) in strike posture. 5th Fleet HQ Bahrain struck by Iranian missiles. Al Udeid (Qatar) attacked. UAE struck. Iran retaliating with ballistic missiles toward Israel.",
+    "updated": "2026-02-28T16:52:00Z",
+    "summary": "⚡ WARTIME: Khamenei compound struck (satellite confirmed). Iran retaliating 6 countries. UN SC emergency 21:00 GMT. Ford CSG (E. Med) + Nimitz CSG (Arabian Sea) in strike posture. 5th Fleet HQ Bahrain struck. Kuwait/Jordan targeted.",
     "troops_total": "~40,000",
     "naval": [
       {
@@ -896,6 +916,22 @@
     "conflict_articles": 3,
     "exercise_articles": 7,
     "total_articles": 50,
-    "computed_at": "2026-02-28T16:12:42.698949+00:00"
+    "computed_at": "2026-02-28T16:52:00Z",
+    "manual_override": "DEFCON_2",
+    "breaking_events": [
+      "Khamenei compound struck — satellite imagery confirmed (BBC 15:49 UTC)",
+      "Presidential office of Iran also reportedly targeted",
+      "53 reported killed at girls primary school Minab — unverified",
+      "Iran retaliation across 6 countries: Israel, Bahrain, Qatar, UAE, Jordan, Kuwait",
+      "Jordan: 2 Iranian ballistic missiles intercepted",
+      "Kuwait: Ali Al-Salem AB (US Air Force) targeted — intercepted",
+      "UN Security Council emergency meeting called for 21:00 GMT",
+      "UK/France/Germany joint statement: \"We did not participate in these strikes\"",
+      "Saudi Arabia condemns Iran retaliation — full solidarity with Gulf states",
+      "Oman FM: \"I urge the US not to get sucked in — this is not your war\"",
+      "Anti-government protests: 8+ campuses Tehran, Mashhad, Isfahan",
+      "Students burning Islamic Republic flag, displaying pre-1979 Shah flag",
+      "Major airlines (BA, Emirates, Lufthansa, Turkish, Air India, Virgin) suspending ME flights"
+    ]
   }
 }
