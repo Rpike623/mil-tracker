@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-02-28T20:12:28Z",
-  "version": 97,
+  "generated_utc": "2026-02-28T21:09:43Z",
+  "version": 98,
   "breaking_alert": "⚡ IRAN \"TRUTHFUL PROMISE 4\" — INTERNET BLACKOUT — HORMUZ BAN — OP EPIC FURY ONGOING — UN SC 21:00 GMT",
   "naval_deployments": [
     {
@@ -932,11 +932,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 21,
-    "conflict_articles": 8,
+    "deployment_articles": 23,
+    "conflict_articles": 10,
     "exercise_articles": 7,
     "total_articles": 50,
-    "computed_at": "2026-02-28T20:12:27.689985+00:00",
+    "computed_at": "2026-02-28T21:09:42.624517+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "Iran IRGC retaliation op name: \"Operation Truthful Promise 4\"",
