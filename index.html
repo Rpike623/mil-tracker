@@ -3506,20 +3506,40 @@ function renderConflicts(){
 // STRIKE SITES OVERLAY (28 FEB 2026 — ON BY DEFAULT)
 // ════════════════════════════════════════
 const STRIKE_SITES = [
-  // US-Israel strikes on Iran
-  {name:'Tehran — Khamenei Compound ⚡ CONFIRMED', lat:35.6944, lon:51.4215, type:'us_strike', desc:'CONFIRMED: Satellite imagery shows Khamenei compound struck. BBC Verify located video within 1km of Leadership House. Presidential office also reportedly targeted. Smoke over Jomhouri Sq, Hassan Abad Sq.', time:'09:30 UTC'},
-  {name:'Isfahan — Nuclear/UCF', lat:32.625, lon:51.671, type:'us_strike', desc:'Explosions in Isfahan. Uranium Conversion Facility nearby. Strike effectiveness unknown.', time:'09:30 UTC'},
-  {name:'Qom — near Fordow', lat:34.64, lon:50.88, type:'us_strike', desc:'Explosions reported near Qom. Fordow underground enrichment facility ~30km away.', time:'09:30 UTC'},
-  {name:'Karaj', lat:35.83, lon:51.01, type:'us_strike', desc:'Explosions reported. Karaj hosts nuclear centrifuge production facilities.', time:'09:30 UTC'},
-  {name:'Kermanshah', lat:34.32, lon:47.07, type:'us_strike', desc:'Explosions in Kermanshah (western Iran). Military bases in area.', time:'09:30 UTC'},
-  {name:'Minab — Girls School ⚠️ UNVERIFIED', lat:27.09, lon:57.08, type:'us_strike', desc:'LOCAL OFFICIAL (UNVERIFIED): 53 people killed in strike on girls primary school in Minab, southern Iran. BBC has not verified. Significant if confirmed.', time:'~09:30 UTC'},
-  // Iranian retaliation — 6 countries targeted
-  {name:'Haifa — Israel', lat:32.794, lon:34.99, type:'iran_retaliation', desc:'Explosions heard in Haifa. IDF intercepting. Unclear if impacts or Iron Dome interceptions. Israelis ordered to shelters.', time:'11:28 UTC'},
-  {name:'NSA Bahrain — US 5th Fleet HQ ⚡ RADOME HIT', lat:26.217, lon:50.607, type:'iran_retaliation', desc:'Iranian ballistic missiles AND Shahed-type drone struck NSA Bahrain. Drone destroyed a radome — video confirmed on social media (USNI). Stars & Stripes: Iranian retaliation continued FOR HOURS in Manama. Bahrain sirens activated.', time:'11:00–17:00 UTC'},
-  {name:'Al Udeid AB — Qatar', lat:25.117, lon:51.315, type:'iran_retaliation', desc:'Largest US base in region (~10,000 troops). Qatar: "successfully countered a number of attacks." CAOC operational status unknown.', time:'10:45 UTC'},
-  {name:'UAE — Al Dhafra AB area', lat:24.248, lon:54.547, type:'iran_retaliation', desc:'Iran struck UAE territory. 1 KIA from debris. Several missiles intercepted. Airspace partially closed. F-22s / tankers based here.', time:'10:30 UTC'},
-  {name:'Jordan — 2 Missiles Intercepted', lat:31.9, lon:36.0, type:'iran_retaliation', desc:'Jordan confirmed interception of 2 Iranian ballistic missiles targeting its territory. Not a combatant — Iran broadening retaliation footprint.', time:'~11:30 UTC'},
-  {name:'Kuwait — Ali Al-Salem AB', lat:29.45, lon:47.72, type:'iran_retaliation', desc:'Iran targeted Ali Al-Salem airbase where US Air Force has presence. Kuwait air defence successfully intercepted multiple ballistic missiles.', time:'~11:30 UTC'},
+  // ── US-ISRAEL STRIKES ON IRAN (Op Epic Fury / Op Raging Lion) ──
+  {name:'Tehran — Khamenei Compound ✅ CONFIRMED', lat:35.6944, lon:51.4215, type:'us_strike',
+   desc:'CONFIRMED: Satellite imagery (Airbus DS) shows compound struck. Video within 1km of Leadership House verified by BBC. Smoke over Jomhouri Sq / Hassan Abad Sq. Heavy security presence on surrounding streets. Residents leaving city heading north to Caspian.', time:'09:30 UTC'},
+  {name:'Tehran — Presidential Palace (Pasteur St)', lat:35.7007, lon:51.3985, type:'us_strike',
+   desc:'Presidential office reportedly targeted per multiple reports. Located on Pasteur Street, central Tehran. Separate target from Khamenei Leadership House. Iran under near-total internet blackout.', time:'09:30 UTC'},
+  {name:'Tehran — Parchin Military Complex', lat:35.519, lon:51.767, type:'us_strike',
+   desc:'LIKELY TARGETED: Parchin Military Complex 14km SE of Tehran. Suspected nuclear weapons testing / conventional munitions production. High-priority target for both US and Israel — previous Israeli strikes 2021/2022. Near strike zone.', time:'09:30 UTC'},
+  {name:'Isfahan — Nuclear Conversion Facility', lat:32.625, lon:51.671, type:'us_strike',
+   desc:'Explosions reported in Isfahan. Uranium Conversion Facility (UCF) located here — converts yellowcake to UF6 feed gas. City-wide explosions. Strike effectiveness unknown.', time:'09:30 UTC'},
+  {name:'Qom — Fordow Enrichment Zone', lat:34.64, lon:50.88, type:'us_strike',
+   desc:'Explosions near Qom. Fordow underground enrichment facility (~80m deep) approximately 30km northeast. Most hardened nuclear site in Iran — strike effectiveness against buried facility unknown.', time:'09:30 UTC'},
+  {name:'Karaj — Centrifuge Production', lat:35.83, lon:51.01, type:'us_strike',
+   desc:'Explosions in Karaj. City hosts nuclear centrifuge component production facilities. Significant if centrifuge production capability degraded. Also site of IRGC aerospace forces infrastructure.', time:'09:30 UTC'},
+  {name:'Kermanshah — IRGC Western Command', lat:34.32, lon:47.07, type:'us_strike',
+   desc:'Explosions in Kermanshah, western Iran. IRGC Western Military District HQ located here. Gateway for Hezbollah/PMF logistics to Syria/Iraq. Strategic target to degrade proxy network.', time:'09:30 UTC'},
+  {name:'Bandar Abbas — IRIN Navy HQ', lat:27.19, lon:56.27, type:'us_strike',
+   desc:'LIKELY TARGETED: Bandar Abbas is headquarters of the Islamic Republic of Iran Navy (IRIN). Trump stated objective to "annihilate their navy." Strait of Hormuz chokepoint lies adjacent. Primary IRIN surface fleet base.', time:'~09:30 UTC'},
+  {name:'Tabriz — IRGC Air Base', lat:38.13, lon:46.24, type:'us_strike',
+   desc:'LIKELY TARGETED: Tabriz Air Base is a major IRGC Aerospace Force installation in northwest Iran. F-14 Tomcats historically based here. Op Epic Fury scope described as targeting military manufacturing and missile infrastructure across Iran.', time:'~09:30 UTC'},
+  {name:'Minab — Girls School ⚠️ UNVERIFIED', lat:27.09, lon:57.08, type:'us_strike',
+   desc:'LOCAL OFFICIAL (UNVERIFIED): 53 killed in strike on girls primary school in Minab, southern Iran. BBC has not been able to verify. Iranian state media reported it. Public sentiment inside Iran shifting if civilian casualties confirmed.', time:'~09:30 UTC'},
+  // ── IRANIAN RETALIATION (Op Truthful Promise 4 — IRGC) ──
+  {name:'Israel — Sirens Nationwide', lat:31.77, lon:35.21, type:'iran_retaliation',
+   desc:'Sirens activated across entire country of Israel throughout Saturday. IDF says "numerous rounds of missiles" launched by Iran, air force intercepting. Explosions heard in Haifa and elsewhere. Citizens ordered to shelters until Mon 20:00.', time:'11:28 UTC'},
+  {name:'NSA Bahrain — 5th Fleet HQ 🔴 STRUCK', lat:26.217, lon:50.607, type:'iran_retaliation',
+   desc:'CONFIRMED HIT: Huge plumes of black smoke visible near 5th Fleet HQ in Manama. Bahrain state agency confirmed attack. Shahed-type drone also struck — destroyed a radome (USNI, video confirmed). Stars & Stripes: retaliation in Manama continued FOR HOURS. Home port for US mine countermeasure vessels and support ships.', time:'11:00–17:00 UTC'},
+  {name:'Doha — Al Udeid AB, Qatar', lat:25.117, lon:51.315, type:'iran_retaliation',
+   desc:'Explosions heard in Doha city. Al Udeid AB (largest US base in region, ~10,000 troops, CAOC) targeted. Qatar FM: attacks "successfully countered." CAOC (Combined Air Operations Center) controls all regional airspace — critical target.', time:'10:45 UTC'},
+  {name:'Abu Dhabi — Residential Area 🔴 1 KIA', lat:24.453, lon:54.377, type:'iran_retaliation',
+   desc:'Debris from Iranian missile fell on residential area in Abu Dhabi — 1 civilian killed (BBC). UAE air defence intercepted multiple missiles. Airspace partially/temporarily closed. Al Dhafra AB (F-22s, tankers) also in area.', time:'10:30 UTC'},
+  {name:'Jordan — 2 Missiles Intercepted', lat:31.9, lon:36.0, type:'iran_retaliation',
+   desc:'Jordan intercepted 2 Iranian ballistic missiles targeting its territory. Jordan not a combatant. Iran broadening retaliation to include all countries with US military presence.', time:'~11:30 UTC'},
+  {name:'Kuwait — Ali Al-Salem AB', lat:29.45, lon:47.72, type:'iran_retaliation',
+   desc:'Iran targeted Ali Al-Salem airbase (US Air Force presence). Kuwait intercepted multiple ballistic missiles. Kuwait aviation authority halted all flights to Iran.', time:'~11:30 UTC'},
 ];
 
 // Iran protest sites (internal unrest layer)
@@ -4416,6 +4436,8 @@ function showCentcomDetail(navalIdx, colKey, itemIdx){
 // IRAN STRIKE TIMELINE
 // ════════════════════════════════════════
 const IRAN_TIMELINE = [
+  { time:'2026-02-28T18:00Z', icon:'📡', type:'intel',      text:'Iran op name confirmed: IRGC calls retaliation "Operation Truthful Promise 4." Near-total internet blackout across Iran. Iranians using Starlink to bypass. Text messages sent to Iranians: "Help has come" — apparent US/Israeli psyop.', src:'BBC / IRGC' },
+  { time:'2026-02-28T17:56Z', icon:'🔴', type:'casualty',   text:'Abu Dhabi: Iranian missile debris fell on RESIDENTIAL AREA — 1 civilian killed, some material damage. Not a military base. Iran retaliating indiscriminately.', src:'BBC / UAE FM' },
   { time:'2026-02-28T17:43Z', icon:'🚢', type:'intel',      text:'HORMUZ: Iran officially bans vessel traffic through Strait of Hormuz. Tankers still transiting as of 17:30 UTC per maritime expert Sal Mercogliano. IRGCN in combat posture.', src:'USNI / X' },
   { time:'2026-02-28T17:32Z', icon:'💥', type:'strike',     text:'USNI: Shahed-type drone struck NSA Bahrain — destroyed radome at 5th Fleet HQ. Video confirmed on social media. Stars & Stripes: Iranian retaliation in Manama continued FOR HOURS.', src:'USNI / Stars & Stripes' },
   { time:'2026-02-28T17:00Z', icon:'📡', type:'intel',      text:'IDF releases image of strike on Iranian missile silo. Op names confirmed: US = OPERATION EPIC FURY, Israel = OPERATION RAGING LION. Strikes from carriers + land airbases.', src:'IDF / USNI' },
@@ -4489,11 +4511,13 @@ function renderIranTimeline() {
 // Iran Ticker cycling
 const IRAN_TICKER_MSGS = [
   'OP EPIC FURY + OP RAGING LION ACTIVE',
+  'IRAN: "TRUTHFUL PROMISE 4" RETALIATION',
+  'IRAN INTERNET BLACKOUT — NEAR TOTAL',
   'IRAN BANS HORMUZ VESSEL TRAFFIC',
   'BAHRAIN RADOME DESTROYED — SHAHED DRONE',
+  'ABU DHABI RESIDENTIAL AREA HIT — 1 KIA',
   'KHAMENEI COMPOUND STRUCK — CONFIRMED',
-  'IRAN RETALIATED: 6 COUNTRIES HIT',
-  'EU EVACUATING STAFF FROM REGION',
+  'PRESIDENTIAL PALACE TARGETED',
   'UN SECURITY COUNCIL: 21:00 GMT',
   'DEFCON 2 — HIGH ALERT',
 ];

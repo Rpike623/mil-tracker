@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-02-28T17:47:00Z",
-  "version": 93,
-  "breaking_alert": "⚡ OP EPIC FURY / OP RAGING LION ACTIVE — IRAN BANS HORMUZ TRAFFIC — SHAHED DRONE DESTROYS BAHRAIN RADOME — UN SC 21:00 GMT",
+  "generated_utc": "2026-02-28T18:02:00Z",
+  "version": 94,
+  "breaking_alert": "⚡ IRAN \"TRUTHFUL PROMISE 4\" — INTERNET BLACKOUT — HORMUZ BAN — OP EPIC FURY ONGOING — UN SC 21:00 GMT",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -251,7 +251,7 @@
       "lng": 51.4,
       "intensity": "CRITICAL",
       "status": "⚡ ACTIVE COMBAT — MULTI-DAY CAMPAIGN",
-      "update": "UPDATED 17:43 UTC: Op Epic Fury (US) + Op Raging Lion (Israel) — strikes from carriers + land airbases. Trump: destroy missile industry, annihilate IRIN navy, prevent nuclear weapon. Warned US casualties possible. Shahed drone struck NSA Bahrain radome — video confirmed (USNI). Iran banned Hormuz vessel traffic — tankers still moving. IDF image of missile silo strike. Khamenei compound satellite-confirmed. 53 killed Minab school (unverified). 6 countries targeted: Israel/Bahrain/Qatar/UAE/Jordan/Kuwait. EU evacuating staff. France offering military aid. Russia: pre-planned unprovoked aggression. Spain rejected strikes. Norway FM: fears new extensive ME war. UN SC 21:00 GMT."
+      "update": "UPDATED 18:00 UTC: Iran IRGC operation name: \"Truthful Promise 4.\" NEAR-TOTAL INTERNET BLACKOUT across Iran — Iranians using Starlink to contact outside. SMS psyop: Iranians receiving \"Help has come\" messages urging regime forces to lay down arms. Residents fleeing Tehran north toward Caspian Sea. Op Epic Fury (US) + Op Raging Lion (Israel) — strikes from carriers + land airbases. NEW STRIKE SITES: Presidential Palace, Parchin Military Complex, Bandar Abbas IRIN HQ, Tabriz IRGC AB. Abu Dhabi: debris hit RESIDENTIAL area (not base) — 1 civilian KIA. Bahrain: Shahed drone destroyed radome at 5th Fleet — retaliation in Manama FOR HOURS. Iran banned Hormuz traffic — tankers still transiting. 6 countries targeted in retaliation. UN SC emergency 21:00 GMT."
     }
   ],
   "exercises": [
@@ -916,25 +916,26 @@
     "conflict_articles": 3,
     "exercise_articles": 8,
     "total_articles": 50,
-    "computed_at": "2026-02-28T17:47:00Z",
+    "computed_at": "2026-02-28T18:02:00Z",
     "manual_override": "DEFCON_2",
     "breaking_events": [
-      "Op Epic Fury (US) + Op Raging Lion (Israel) — official operation names confirmed (USNI)",
-      "Strikes launched from carriers (Ford E.Med, Nimitz Arabian Sea) + land airbases simultaneously",
-      "Trump: destroy missile industry, annihilate IRIN navy, prevent nuclear. Warned US casualties possible.",
-      "Shahed-type drone struck NSA Bahrain — destroyed radome — video on social media (USNI)",
-      "Stars & Stripes: Iranian retaliation in Manama continued FOR HOURS",
-      "IRAN BANS STRAIT OF HORMUZ VESSEL TRAFFIC — tankers still transiting (maritime expert 17:30 UTC)",
-      "IDF releases image of strike on Iranian missile silo",
-      "Khamenei compound hit — satellite confirmed (BBC). Presidential office targeted.",
-      "53 killed at girls school Minab — unverified local official",
-      "Iran retaliated 6 countries: Israel, Bahrain, Qatar, UAE (1 KIA), Jordan, Kuwait",
-      "EU evacuating staff from region. France offering military aid to UAE/Qatar/Jordan.",
-      "Russia: strikes are pre-planned unprovoked aggression against a UN member state",
-      "Spain rejected strikes. Norway FM: fears new extensive war in Middle East.",
-      "ICAN: attacks risk nuclear proliferation and use of nuclear weapons",
-      "Anti-govt protests: 8+ Iranian university campuses, burning Islamic Republic flag",
-      "UN Security Council emergency meeting 21:00 GMT"
+      "Iran IRGC retaliation op name: \"Operation Truthful Promise 4\"",
+      "NEAR-TOTAL INTERNET BLACKOUT across Iran since strikes began",
+      "Iranians using Starlink to bypass blackout — OSINT tracking degraded",
+      "SMS psyop: \"Help has come\" messages sent to Iranians urging regime forces to stand down",
+      "Residents evacuating Tehran northward toward Caspian Sea",
+      "NEW STRIKE SITES confirmed/likely: Presidential Palace, Parchin, Bandar Abbas IRIN HQ, Tabriz IRGC AB",
+      "Op Epic Fury (US) + Op Raging Lion (Israel) launched from carriers (Ford/Nimitz) + land airbases",
+      "Trump: \"annihilate their navy\" — Bandar Abbas IRIN HQ almost certainly targeted",
+      "Abu Dhabi: missile DEBRIS hit RESIDENTIAL area (not base) — 1 civilian KIA (corrected from Al Dhafra)",
+      "NSA Bahrain: Shahed drone destroyed radome + hours of ongoing retaliation (Stars & Stripes)",
+      "Iran banned Hormuz vessel traffic — tankers still transiting as of 17:30 UTC",
+      "IDF released image of Iranian missile silo strike",
+      "Khamenei compound satellite-confirmed struck (BBC/Airbus DS imagery)",
+      "Iran retaliation: 6 countries — Israel, Bahrain, Qatar, UAE (1 KIA), Jordan, Kuwait",
+      "EU evacuating staff. France offering military aid to UAE/Qatar/Jordan.",
+      "Russia: \"pre-planned unprovoked aggression.\" Spain rejected. Norway: \"new extensive war.\"",
+      "UN Security Council emergency session 21:00 GMT"
     ]
   }
 }
