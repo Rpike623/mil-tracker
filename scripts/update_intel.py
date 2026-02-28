@@ -196,7 +196,13 @@ def main():
     data['_naval_news_refs'] = deployment_news[:10]
     data['_conflict_news_refs'] = conflict_news[:5]
     data['_exercise_news_refs'] = exercise_news[:5]
-    data['_threat_indicators'] = compute_threat_indicators(news_items)
+    # Compute new threat indicators but preserve manual_override and breaking_events if set
+    new_indicators = compute_threat_indicators(news_items)
+    existing_indicators = data.get('_threat_indicators', {})
+    for preserve_key in ('manual_override', 'breaking_events'):
+        if preserve_key in existing_indicators:
+            new_indicators[preserve_key] = existing_indicators[preserve_key]
+    data['_threat_indicators'] = new_indicators
 
     # ── 2. GPS jamming status (best-effort)
     print('\n[ 2/3 ] Checking GPS jamming data...')

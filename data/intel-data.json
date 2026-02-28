@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-02-28T13:29:21Z",
-  "version": 84,
+  "generated_utc": "2026-02-28T14:01:06Z",
+  "version": 86,
   "breaking_alert": "⚡ BREAKING: US-ISRAEL JOINT STRIKES ON IRAN UNDERWAY — MAJOR COMBAT OPERATIONS ACTIVE — IRAN RETALIATING WITH MISSILES",
   "naval_deployments": [
     {
@@ -817,6 +817,26 @@
         "exercise",
         "conflict"
       ]
+    },
+    {
+      "title": "World leaders fear broader escalation after major US and Israeli attack on Iran",
+      "link": "https://www.defensenews.com/global/mideast-africa/2026/02/28/world-leaders-fear-broader-escalation-after-major-us-and-israeli-attack-on-iran/",
+      "published": "Sat, 28 Feb 2026 13:56:26 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
+    },
+    {
+      "title": "World leaders fear broader escalation after major US and Israeli attack on Iran",
+      "link": "https://www.militarytimes.com/global/mideast-africa/2026/02/28/world-leaders-fear-broader-escalation-after-major-us-and-israeli-attack-on-iran/",
+      "published": "Sat, 28 Feb 2026 13:56:26 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
     }
   ],
   "_exercise_news_refs": [
@@ -872,10 +892,10 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 17,
-    "conflict_articles": 1,
+    "deployment_articles": 18,
+    "conflict_articles": 3,
     "exercise_articles": 7,
     "total_articles": 50,
-    "computed_at": "2026-02-28T13:29:20.699409+00:00"
+    "computed_at": "2026-02-28T14:01:06.765081+00:00"
   }
 }
