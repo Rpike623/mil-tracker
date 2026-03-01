@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-03-01T18:16:36Z",
-  "version": 125,
+  "generated_utc": "2026-03-01T19:13:50Z",
+  "version": 126,
   "breaking_alert": "💀 DAY 2 KHAMENEI DEAD — 201 KILLED 747 INJURED — STRIKES CONTINUING — ZERO US CASUALTIES",
   "naval_deployments": [
     {
@@ -650,16 +650,6 @@
       ]
     },
     {
-      "title": "US, Israel launch ‘major combat operations’ in Iran",
-      "link": "https://www.militarytimes.com/news/your-military/2026/02/28/us-israel-launch-major-combat-operations-in-iran/",
-      "published": "Sat, 28 Feb 2026 12:51:48 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment",
-        "exercise"
-      ]
-    },
-    {
       "title": "World leaders fear broader escalation after major US and Israeli attack on Iran",
       "link": "https://www.defensenews.com/global/mideast-africa/2026/02/28/world-leaders-fear-broader-escalation-after-major-us-and-israeli-attack-on-iran/",
       "published": "Sat, 28 Feb 2026 13:56:26 +0000",
@@ -687,6 +677,16 @@
       "categories": [
         "deployment",
         "conflict"
+      ]
+    },
+    {
+      "title": "US launches ‘major combat operations’ against Iran",
+      "link": "https://taskandpurpose.com/news/us-israel-combat-bomb-iran/",
+      "published": "Sat, 28 Feb 2026 17:10:36 -0500",
+      "source": "Task & Purpose",
+      "categories": [
+        "deployment",
+        "exercise"
       ]
     }
   ],
@@ -924,16 +924,6 @@
       ]
     },
     {
-      "title": "US, Israel launch ‘major combat operations’ in Iran",
-      "link": "https://www.militarytimes.com/news/your-military/2026/02/28/us-israel-launch-major-combat-operations-in-iran/",
-      "published": "Sat, 28 Feb 2026 12:51:48 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment",
-        "exercise"
-      ]
-    },
-    {
       "title": "US launches ‘major combat operations’ against Iran",
       "link": "https://taskandpurpose.com/news/us-israel-combat-bomb-iran/",
       "published": "Sat, 28 Feb 2026 17:10:36 -0500",
@@ -942,14 +932,25 @@
         "deployment",
         "exercise"
       ]
+    },
+    {
+      "title": "3 US troops killed, 5 wounded in operations against Iran",
+      "link": "https://taskandpurpose.com/news/casualties-operation-epic-fury/",
+      "published": "Sun, 01 Mar 2026 10:36:45 -0500",
+      "source": "Task & Purpose",
+      "categories": [
+        "deployment",
+        "exercise",
+        "conflict"
+      ]
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 32,
+    "deployment_articles": 33,
     "conflict_articles": 15,
-    "exercise_articles": 8,
+    "exercise_articles": 7,
     "total_articles": 50,
-    "computed_at": "2026-03-01T18:16:36.086566+00:00",
+    "computed_at": "2026-03-01T19:13:50.490502+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "KHAMENEI CONFIRMED DEAD — Trump + Netanyahu + 2 Israeli officials (22:12 UTC)",
