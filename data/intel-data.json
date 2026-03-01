@@ -1,10 +1,10 @@
 {
-  "generated_utc": "2026-03-01T02:55:00Z",
-  "version": 110,
-  "breaking_alert": "\ud83d\udc80 DAY 2 KHAMENEI DEAD \u2014 201 KILLED 747 INJURED \u2014 STRIKES CONTINUING \u2014 ZERO US CASUALTIES",
+  "generated_utc": "2026-03-01T04:10:34Z",
+  "version": 111,
+  "breaking_alert": "💀 DAY 2 KHAMENEI DEAD — 201 KILLED 747 INJURED — STRIKES CONTINUING — ZERO US CASUALTIES",
   "naval_deployments": [
     {
-      "name": "CSG-3 \u2014 USS Abraham Lincoln (CVN-72)",
+      "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
       "type": "CSG",
       "country": "us",
       "status": "deployed",
@@ -12,10 +12,10 @@
       "lon": 145.0,
       "region": "WESTERN PACIFIC / 7TH FLEET",
       "ships": "CVN-72 Abraham Lincoln, CG-52 Bunker Hill, DDG-92 Momsen, DDG-114 Ralph Johnson",
-      "notes": "7th Fleet AOR \u2014 presence ops near South China Sea"
+      "notes": "7th Fleet AOR — presence ops near South China Sea"
     },
     {
-      "name": "CSG-5 \u2014 USS Ronald Reagan (CVN-76)",
+      "name": "CSG-5 — USS Ronald Reagan (CVN-76)",
       "type": "CSG",
       "country": "us",
       "status": "port",
@@ -23,10 +23,10 @@
       "lon": 139.6,
       "region": "YOKOSUKA, JAPAN (MAINTENANCE)",
       "ships": "CVN-76 Ronald Reagan, CG-54 Antietam, DDG-85 McCampbell",
-      "notes": "Homeport maintenance \u2014 Lincoln assumed 7th Fleet carrier duties"
+      "notes": "Homeport maintenance — Lincoln assumed 7th Fleet carrier duties"
     },
     {
-      "name": "CSG-12 \u2014 USS Gerald R. Ford (CVN-78)",
+      "name": "CSG-12 — USS Gerald R. Ford (CVN-78)",
       "type": "CSG",
       "country": "us",
       "status": "deployed",
@@ -34,10 +34,10 @@
       "lon": 30.0,
       "region": "EASTERN MEDITERRANEAN",
       "ships": "CVN-78 Gerald R. Ford, CG-66 Hue City, DDG-104 Sterett, DDG-110 William P. Lawrence",
-      "notes": "Eastern Med deterrence \u2014 backdrop to US-Iran Geneva talks (Feb 26)"
+      "notes": "Eastern Med deterrence — backdrop to US-Iran Geneva talks (Feb 26)"
     },
     {
-      "name": "CSG-9 \u2014 USS Nimitz (CVN-68)",
+      "name": "CSG-9 — USS Nimitz (CVN-68)",
       "type": "CSG",
       "country": "us",
       "status": "deployed",
@@ -48,7 +48,7 @@
       "notes": "Red Sea/Houthi campaign support + Iran deterrence"
     },
     {
-      "name": "ARG \u2014 USS Bataan (LHD-5)",
+      "name": "ARG — USS Bataan (LHD-5)",
       "type": "ARG",
       "country": "us",
       "status": "deployed",
@@ -59,7 +59,7 @@
       "notes": "Operating with NATO partners in Mediterranean"
     },
     {
-      "name": "ARG \u2014 USS Boxer (LHD-4)",
+      "name": "ARG — USS Boxer (LHD-4)",
       "type": "ARG",
       "country": "us",
       "status": "port",
@@ -70,7 +70,7 @@
       "notes": "Scheduled maintenance period"
     },
     {
-      "name": "SSBN Patrol \u2014 Atlantic",
+      "name": "SSBN Patrol — Atlantic",
       "type": "SSBN",
       "country": "us",
       "status": "deployed",
@@ -81,7 +81,7 @@
       "notes": "Strategic nuclear deterrence patrol"
     },
     {
-      "name": "SSBN Patrol \u2014 Pacific",
+      "name": "SSBN Patrol — Pacific",
       "type": "SSBN",
       "country": "us",
       "status": "deployed",
@@ -92,40 +92,40 @@
       "notes": "Strategic nuclear deterrence patrol"
     },
     {
-      "name": "\ud83c\uddf7\ud83c\uddfa Northern Fleet \u2014 Severomorsk",
+      "name": "🇷🇺 Northern Fleet — Severomorsk",
       "type": "FLEET",
       "country": "russia",
       "status": "combat",
       "lat": 69.1,
       "lon": 33.4,
       "region": "BARENTS SEA",
-      "ships": "Adm. Kuznetsov (CV \u2014 refit), Pyotr Velikiy (CGN), multiple SSNs/SSBNs",
+      "ships": "Adm. Kuznetsov (CV — refit), Pyotr Velikiy (CGN), multiple SSNs/SSBNs",
       "notes": "Reduced surface ops. Submarine activity elevated. NATO P-8 patrols active."
     },
     {
-      "name": "\ud83c\uddf7\ud83c\uddfa Black Sea Fleet \u2014 Novorossiysk",
+      "name": "🇷🇺 Black Sea Fleet — Novorossiysk",
       "type": "FLEET",
       "country": "russia",
       "status": "combat",
       "lat": 44.7,
       "lon": 37.8,
       "region": "BLACK SEA (RELOCATED TO NOVOROSSIYSK)",
-      "ships": "Significantly degraded \u2014 losses to Ukrainian drone/missile strikes. Remaining frigates, landing ships.",
+      "ships": "Significantly degraded — losses to Ukrainian drone/missile strikes. Remaining frigates, landing ships.",
       "notes": "Fleet relocated from Sevastopol after repeated Ukrainian strikes. Severely diminished capability."
     },
     {
-      "name": "\ud83c\udde8\ud83c\uddf3 PLA Navy \u2014 South Sea Fleet",
+      "name": "🇨🇳 PLA Navy — South Sea Fleet",
       "type": "FLEET",
       "country": "china",
       "status": "deployed",
       "lat": 18.2,
       "lon": 109.5,
       "region": "SOUTH CHINA SEA / SANYA",
-      "ships": "Type 003 Fujian (CV) \u2014 drills near Taiwan Strait, Type 055 destroyers, Type 093 SSNs",
+      "ships": "Type 003 Fujian (CV) — drills near Taiwan Strait, Type 055 destroyers, Type 093 SSNs",
       "notes": "Fujian conducting training exercises near Taiwan Strait. Elevated regional posture."
     },
     {
-      "name": "\ud83c\uddee\ud83c\uddf7 IRIN \u2014 Persian Gulf (COMBAT)",
+      "name": "🇮🇷 IRIN — Persian Gulf (COMBAT)",
       "type": "FLEET",
       "country": "iran",
       "status": "combat",
@@ -133,13 +133,13 @@
       "lon": 56.3,
       "region": "PERSIAN GULF / STRAIT OF HORMUZ",
       "ships": "Frigates, IRGCN fast attack craft, Ghadir-class midget submarines",
-      "notes": "\u26a1 WARTIME POSTURE. US-Israel strikes on Iran active as of 28 Feb 2026. Iran retaliating with ballistic missiles. IRGCN all units combat status. Hormuz closure orders possible. 5th Fleet HQ in Bahrain struck by Iranian missiles."
+      "notes": "⚡ WARTIME POSTURE. US-Israel strikes on Iran active as of 28 Feb 2026. Iran retaliating with ballistic missiles. IRGCN all units combat status. Hormuz closure orders possible. 5th Fleet HQ in Bahrain struck by Iranian missiles."
     }
   ],
   "chokepoints": [
     {
       "name": "Strait of Hormuz",
-      "status": "IRGC BAN \u2014 RADIO WARNINGS TO SHIPS",
+      "status": "IRGC BAN — RADIO WARNINGS TO SHIPS",
       "lat": 26.6,
       "lon": 56.3,
       "note": "IRGC broadcasting radio: \"No ship is allowed to pass the Strait of Hormuz.\" Tankers still transiting last report. 20% global oil/gas at risk."
@@ -219,7 +219,7 @@
     },
     {
       "id": "syria",
-      "name": "Syria \u2014 Post-Assad Transition",
+      "name": "Syria — Post-Assad Transition",
       "lat": 35.0,
       "lng": 38.5,
       "intensity": "LOW",
@@ -246,11 +246,11 @@
     },
     {
       "id": "iran",
-      "name": "\ud83d\udc80 KHAMENEI DEAD \u2014 OP EPIC FURY CONTINUES",
+      "name": "💀 KHAMENEI DEAD — OP EPIC FURY CONTINUES",
       "lat": 35.7,
       "lng": 51.4,
       "intensity": "CRITICAL",
-      "status": "DECAPITATION CONFIRMED \u2014 MULTI-DAY CAMPAIGN",
+      "status": "DECAPITATION CONFIRMED — MULTI-DAY CAMPAIGN",
       "update": "DAY 2: Strikes continuing. 201 dead, 747 injured. School: 108 killed. Khamenei dead confirmed. No successor. US: zero casualties.",
       "day": 2
     }
@@ -260,7 +260,7 @@
       "id": "cobragold",
       "name": "COBRA GOLD 2026",
       "status": "ONGOING",
-      "dates": "Feb 25 \u2013 Mar 7, 2026",
+      "dates": "Feb 25 – Mar 7, 2026",
       "location": "Thailand",
       "participants": "US, Thailand, Japan, Singapore, Indonesia, Malaysia, South Korea",
       "notes": "Largest multilateral exercise in Indo-Pacific. Currently active."
@@ -269,7 +269,7 @@
       "id": "defender26",
       "name": "DEFENDER EUROPE 2026",
       "status": "PLANNED",
-      "dates": "May\u2013Jun 2026",
+      "dates": "May–Jun 2026",
       "location": "Europe (multi-nation)",
       "participants": "NATO allies, ~20,000 US troops",
       "notes": "Annual large-scale NATO ground exercise. Planning underway."
@@ -278,7 +278,7 @@
       "id": "rimpac26",
       "name": "RIMPAC 2026",
       "status": "PLANNED",
-      "dates": "Jun\u2013Aug 2026",
+      "dates": "Jun–Aug 2026",
       "location": "Hawaii / Pacific",
       "participants": "~25 nations",
       "notes": "World's largest naval exercise. Biennial."
@@ -296,7 +296,7 @@
       "id": "keensword",
       "name": "KEEN SWORD 2026",
       "status": "COMPLETED",
-      "dates": "Oct\u2013Nov 2025",
+      "dates": "Oct–Nov 2025",
       "location": "Japan",
       "participants": "US, Japan",
       "notes": "Completed. Next edition 2027."
@@ -382,7 +382,7 @@
       "lng": 41.0,
       "radius_km": 200,
       "active": true,
-      "notes": "Multi-source jamming \u2014 US, Russian, Turkish forces all operating systems."
+      "notes": "Multi-source jamming — US, Russian, Turkish forces all operating systems."
     },
     {
       "id": "red_sea",
@@ -404,7 +404,7 @@
     },
     {
       "id": "scs",
-      "name": "South China Sea \u2014 Spratlys",
+      "name": "South China Sea — Spratlys",
       "lat": 10.0,
       "lng": 114.0,
       "radius_km": 200,
@@ -422,7 +422,7 @@
     },
     {
       "id": "iran_gulf",
-      "name": "\u26a1 Persian Gulf / Hormuz \u2014 WARTIME JAMMING",
+      "name": "⚡ Persian Gulf / Hormuz — WARTIME JAMMING",
       "lat": 26.5,
       "lng": 56.0,
       "radius_km": 300,
@@ -443,7 +443,7 @@
     },
     {
       "id": "israel",
-      "name": "\ud83d\udd34 Israel Airspace CLOSED \u2014 MISSILES INBOUND",
+      "name": "🔴 Israel Airspace CLOSED — MISSILES INBOUND",
       "lat": 31.8,
       "lng": 34.8,
       "radius_km": 300,
@@ -473,7 +473,7 @@
     },
     {
       "id": "iran",
-      "name": "\ud83d\udd34 Iran Airspace CLOSED \u2014 ACTIVE STRIKES",
+      "name": "🔴 Iran Airspace CLOSED — ACTIVE STRIKES",
       "lat": 33.0,
       "lng": 53.0,
       "radius_km": 600,
@@ -513,7 +513,7 @@
     },
     {
       "id": "bahrain",
-      "name": "\ud83d\udd34 Bahrain \u2014 US 5th Fleet HQ STRUCK",
+      "name": "🔴 Bahrain — US 5th Fleet HQ STRUCK",
       "lat": 26.2,
       "lng": 50.6,
       "radius_km": 150,
@@ -523,7 +523,7 @@
     },
     {
       "id": "qatar",
-      "name": "\ud83d\udd34 Qatar \u2014 Al Udeid AB Under Attack",
+      "name": "🔴 Qatar — Al Udeid AB Under Attack",
       "lat": 25.1,
       "lng": 51.3,
       "radius_km": 200,
@@ -533,7 +533,7 @@
     },
     {
       "id": "uae",
-      "name": "\ud83d\udd34 UAE \u2014 Missile Attack, 1 KIA",
+      "name": "🔴 UAE — Missile Attack, 1 KIA",
       "lat": 24.2,
       "lng": 54.5,
       "radius_km": 200,
@@ -563,17 +563,17 @@
     },
     {
       "id": "jordan",
-      "name": "\ud83d\udd34 Jordan \u2014 2 Iranian Missiles Intercepted",
+      "name": "🔴 Jordan — 2 Iranian Missiles Intercepted",
       "lat": 31.9,
       "lng": 36.0,
       "radius_km": 150,
       "active": true,
       "type": "warzone",
-      "notes": "Jordan intercepted 2 Iranian ballistic missiles. Not a combatant \u2014 Iran broadening retaliation footprint."
+      "notes": "Jordan intercepted 2 Iranian ballistic missiles. Not a combatant — Iran broadening retaliation footprint."
     },
     {
       "id": "kuwait",
-      "name": "\ud83d\udd34 Kuwait \u2014 Ali Al-Salem AB Targeted",
+      "name": "🔴 Kuwait — Ali Al-Salem AB Targeted",
       "lat": 29.45,
       "lng": 47.72,
       "radius_km": 100,
@@ -583,7 +583,7 @@
     },
     {
       "id": "konarak",
-      "name": "Konarak Naval Base \u2014 Vessels Burning",
+      "name": "Konarak Naval Base — Vessels Burning",
       "lat": 27.18,
       "lng": 56.37,
       "radius_km": 80,
@@ -612,7 +612,7 @@
       ]
     },
     {
-      "title": "NAVANTIA\u00a0offers Denmark strategic cooperation to deliver its naval programmes",
+      "title": "NAVANTIA offers Denmark strategic cooperation to deliver its naval programmes",
       "link": "https://www.navalnews.com/naval-news/2026/02/navantia-offers-denmark-strategic-cooperation-to-deliver-its-naval-programmes/",
       "published": "Fri, 27 Feb 2026 11:56:14 +0000",
       "source": "Naval News",
@@ -631,15 +631,6 @@
       ]
     },
     {
-      "title": "Swedish Navy intercepts suspected Russian drone nearing French aircraft carrier",
-      "link": "https://www.defensenews.com/global/europe/2026/02/27/swedish-navy-intercepts-suspected-russian-drone-nearing-french-aircraft-carrier/",
-      "published": "Fri, 27 Feb 2026 15:24:56 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Swedish Forces Jam Suspected Russian Drone Near French Carrier Charles De Gaulle",
       "link": "https://news.usni.org/2026/02/27/swedish-forces-jam-suspected-russian-drone-near-french-carrier-charles-de-gaulle",
       "published": "Fri, 27 Feb 2026 20:48:29 +0000",
@@ -649,7 +640,7 @@
       ]
     },
     {
-      "title": "US, Israel launch \u2018major combat operations\u2019 in Iran",
+      "title": "US, Israel launch ‘major combat operations’ in Iran",
       "link": "https://www.defensenews.com/news/your-military/2026/02/28/us-israel-launch-major-combat-operations-in-iran/",
       "published": "Sat, 28 Feb 2026 12:51:48 +0000",
       "source": "Defense News",
@@ -659,7 +650,7 @@
       ]
     },
     {
-      "title": "US, Israel launch \u2018major combat operations\u2019 in Iran",
+      "title": "US, Israel launch ‘major combat operations’ in Iran",
       "link": "https://www.militarytimes.com/news/your-military/2026/02/28/us-israel-launch-major-combat-operations-in-iran/",
       "published": "Sat, 28 Feb 2026 12:51:48 +0000",
       "source": "Military Times",
@@ -687,6 +678,16 @@
         "deployment",
         "conflict"
       ]
+    },
+    {
+      "title": "UPDATED: U.S., Israel Launch Strikes Against Iran, Tehran Retaliates Across Region",
+      "link": "https://news.usni.org/2026/02/28/u-s-israel-launch-operation-epic-fury-against-iran-tehran-retaliates-across-region",
+      "published": "Sat, 28 Feb 2026 16:37:44 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
     }
   ],
   "centcom_assets": {
@@ -695,7 +696,7 @@
     "troops_total": "~40,000",
     "naval": [
       {
-        "name": "CSG-12 \u2014 Gerald R. Ford (CVN-78)",
+        "name": "CSG-12 — Gerald R. Ford (CVN-78)",
         "type": "CSG",
         "location": "Eastern Mediterranean",
         "lat": 34.5,
@@ -706,7 +707,7 @@
         "notes": "Eastern Med deterrence"
       },
       {
-        "name": "CSG-9 \u2014 Nimitz (CVN-68)",
+        "name": "CSG-9 — Nimitz (CVN-68)",
         "type": "CSG",
         "location": "North Arabian Sea",
         "lat": 22.0,
@@ -717,7 +718,7 @@
         "notes": "Red Sea/Iran deterrence"
       },
       {
-        "name": "ARG \u2014 Bataan (LHD-5)",
+        "name": "ARG — Bataan (LHD-5)",
         "type": "ARG",
         "location": "Mediterranean",
         "lat": 37.0,
@@ -741,7 +742,7 @@
     ],
     "air": [
       {
-        "name": "F-35A/B \u2014 Aviano/Incirlik",
+        "name": "F-35A/B — Aviano/Incirlik",
         "aircraft": "F-35A/B Lightning II",
         "country": "US/NATO",
         "location": "Southern Europe",
@@ -750,40 +751,40 @@
         "notes": "NATO southern flank air superiority"
       },
       {
-        "name": "F-22 \u2014 Al Dhafra UAE",
+        "name": "F-22 — Al Dhafra UAE",
         "aircraft": "F-22 Raptor",
         "country": "US",
         "location": "Al Dhafra AB, UAE",
         "lat": 24.2,
         "lon": 54.5,
-        "notes": "5th gen deterrence \u2014 CENTCOM"
+        "notes": "5th gen deterrence — CENTCOM"
       },
       {
-        "name": "B-52H \u2014 Diego Garcia",
+        "name": "B-52H — Diego Garcia",
         "aircraft": "B-52H Stratofortress",
         "country": "US",
         "location": "Diego Garcia",
         "lat": -7.3,
         "lon": 72.4,
-        "notes": "Strategic bomber presence \u2014 INDOPACOM/CENTCOM"
+        "notes": "Strategic bomber presence — INDOPACOM/CENTCOM"
       },
       {
-        "name": "KC-46/KC-135 \u2014 Qatar",
+        "name": "KC-46/KC-135 — Qatar",
         "aircraft": "KC-46A Pegasus",
         "country": "US",
         "location": "Al Udeid AB, Qatar",
         "lat": 25.1,
         "lon": 51.3,
-        "notes": "Air refueling hub \u2014 largest USAF base in region"
+        "notes": "Air refueling hub — largest USAF base in region"
       },
       {
-        "name": "P-8A Poseidon \u2014 Sigonella",
+        "name": "P-8A Poseidon — Sigonella",
         "aircraft": "P-8A Poseidon",
         "country": "US",
         "location": "NAS Sigonella, Sicily",
         "lat": 37.4,
         "lon": 14.9,
-        "notes": "ASW patrol \u2014 Med + Russian sub tracking"
+        "notes": "ASW patrol — Med + Russian sub tracking"
       }
     ],
     "ground": [
@@ -893,7 +894,7 @@
   ],
   "_exercise_news_refs": [
     {
-      "title": "NAVANTIA\u00a0offers Denmark strategic cooperation to deliver its naval programmes",
+      "title": "NAVANTIA offers Denmark strategic cooperation to deliver its naval programmes",
       "link": "https://www.navalnews.com/naval-news/2026/02/navantia-offers-denmark-strategic-cooperation-to-deliver-its-naval-programmes/",
       "published": "Fri, 27 Feb 2026 11:56:14 +0000",
       "source": "Naval News",
@@ -913,7 +914,7 @@
       ]
     },
     {
-      "title": "US, Israel launch \u2018major combat operations\u2019 in Iran",
+      "title": "US, Israel launch ‘major combat operations’ in Iran",
       "link": "https://www.defensenews.com/news/your-military/2026/02/28/us-israel-launch-major-combat-operations-in-iran/",
       "published": "Sat, 28 Feb 2026 12:51:48 +0000",
       "source": "Defense News",
@@ -923,7 +924,7 @@
       ]
     },
     {
-      "title": "US, Israel launch \u2018major combat operations\u2019 in Iran",
+      "title": "US, Israel launch ‘major combat operations’ in Iran",
       "link": "https://www.militarytimes.com/news/your-military/2026/02/28/us-israel-launch-major-combat-operations-in-iran/",
       "published": "Sat, 28 Feb 2026 12:51:48 +0000",
       "source": "Military Times",
@@ -933,7 +934,7 @@
       ]
     },
     {
-      "title": "US launches \u2018major combat operations\u2019 against Iran",
+      "title": "US launches ‘major combat operations’ against Iran",
       "link": "https://taskandpurpose.com/news/us-israel-combat-bomb-iran/",
       "published": "Sat, 28 Feb 2026 17:10:36 -0500",
       "source": "Task & Purpose",
@@ -944,34 +945,34 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 24,
-    "conflict_articles": 10,
+    "deployment_articles": 28,
+    "conflict_articles": 11,
     "exercise_articles": 7,
     "total_articles": 50,
-    "computed_at": "2026-03-01T01:06:13.666878+00:00",
+    "computed_at": "2026-03-01T04:10:33.643737+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
-      "KHAMENEI CONFIRMED DEAD \u2014 Trump + Netanyahu + 2 Israeli officials (22:12 UTC)",
+      "KHAMENEI CONFIRMED DEAD — Trump + Netanyahu + 2 Israeli officials (22:12 UTC)",
       "ALSO KILLED: IRGC commander, Defense Minister, Security Council secretary",
-      "Iran Red Crescent: 201 killed, 747 injured \u2014 24 of 31 provinces struck",
-      "Girls school Minab: 85 killed (updated from 53) \u2014 CENTCOM investigating",
+      "Iran Red Crescent: 201 killed, 747 injured — 24 of 31 provinces struck",
+      "Girls school Minab: 85 killed (updated from 53) — CENTCOM investigating",
       "Konarak Naval Base: burning vessels at pier confirmed by satellite (Vantor/USNI)",
       "200 Israeli jets struck ~500 targets simultaneously",
       "LUCAS one-way attack drone: first combat use confirmed",
-      "CVN-72 Abraham Lincoln (N. Arabian Sea) active \u2014 F-35C + F/A-18 strikes, DDGs fired Tomahawks",
+      "CVN-72 Abraham Lincoln (N. Arabian Sea) active — F-35C + F/A-18 strikes, DDGs fired Tomahawks",
       "New strikes at 22:00 UTC: 3 explosions near Tehran Intelligence Ministry",
       "Israel resuming strikes on central Iran missile launchers + air defense",
       "IRGC claims: US FP-132 radar Qatar destroyed, US combat support vessel struck at sea",
       "Kuwait: 3 soldiers injured, drone struck Kuwait International Airport",
       "UAE: Pakistani civilian killed Abu Dhabi, 4 injured Palm Dubai",
       "Bahrain: 3 residential buildings damaged by drone/debris Manama/Muharraq",
-      "Iran fired ~150 ballistic missiles + dozens of drones at Israel \u2014 teen injured shrapnel",
+      "Iran fired ~150 ballistic missiles + dozens of drones at Israel — teen injured shrapnel",
       "US CENTCOM: ZERO casualties, minimal damage, hundreds of Iranian attacks defended",
       "IRGC radio to ships: No vessel allowed through Strait of Hormuz",
       "Trump: bombing continues uninterrupted through the week or longer",
       "Iran near-total internet blackout (NetBlocks confirmed)",
       "IAEA: no evidence of radiological impact",
-      "Second US attack on Iran \u2014 first was June 2025 nuclear facilities strike"
+      "Second US attack on Iran — first was June 2025 nuclear facilities strike"
     ]
   }
 }
