@@ -5909,3 +5909,378 @@ window.exportScreenshot = function(){
 
 console.log('🔥 PikeClaw OSINT Dashboard v4.1 — WAR DAY 2');
 </script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.3/howler.min.js"></script>
+
+<!-- COOL FEATURES PACK -->
+<style>
+/* HOLOGRAPHIC CARDS */
+.holo-card {
+  background: linear-gradient(135deg, rgba(56,189,248,0.1) 0%, rgba(8,12,22,0.9) 50%, rgba(239,68,68,0.05) 100%);
+  border: 1px solid rgba(56,189,248,0.3);
+  border-radius: 12px;
+  backdrop-filter: blur(10px);
+  box-shadow: 
+    0 4px 30px rgba(0,0,0,0.3),
+    0 0 20px rgba(56,189,248,0.1),
+    inset 0 1px 0 rgba(255,255,255,0.1);
+  position: relative;
+  overflow: hidden;
+}
+.holo-card::before {
+  content: '';
+  position: absolute;
+  top: -50%; left: -50%;
+  width: 200%; height: 200%;
+  background: linear-gradient(45deg, transparent, rgba(56,189,248,0.1), transparent);
+  transform: rotate(45deg);
+  animation: holo-shine 6s infinite;
+}
+@keyframes holo-shine {
+  0% { transform: translateX(-100%) translateY(-100%) rotate(45deg); }
+  100% { transform: translateX(100%) translateY(100%) rotate(45deg); }
+}
+
+/* MISSION TIMER */
+.mission-timer {
+  font-family: 'Orbitron', monospace;
+  font-size: 28px;
+  font-weight: 700;
+  color: #ef4444;
+  text-shadow: 0 0 20px rgba(239,68,68,0.8);
+  letter-spacing: 3px;
+}
+.timer-label {
+  font-size: 10px;
+  color: rgba(255,255,255,0.5);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+/* TERMINAL CONSOLE */
+.terminal-console {
+  font-family: 'Share Tech Mono', monospace;
+  background: rgba(0,0,0,0.9);
+  border: 1px solid rgba(34,197,94,0.3);
+  border-radius: 8px;
+  padding: 15px;
+  height: 180px;
+  overflow: hidden;
+  position: relative;
+}
+.terminal-content {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  right: 15px;
+}
+.terminal-line {
+  font-size: 11px;
+  color: #22c55e;
+  margin: 3px 0;
+  opacity: 0;
+  animation: term-fade-in 0.3s forwards;
+}
+.terminal-line.alert { color: #ef4444; }
+.terminal-line.info { color: #38bdf8; }
+.terminal-line.warning { color: #f97316; }
+@keyframes term-fade-in {
+  to { opacity: 1; }
+}
+
+/* NETWORK MESH */
+.network-mesh {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+}
+.mesh-node {
+  position: absolute;
+  width: 4px;
+  height: 4px;
+  background: rgba(56,189,248,0.5);
+  border-radius: 50%;
+  animation: mesh-pulse 3s infinite;
+}
+@keyframes mesh-pulse {
+  0%, 100% { opacity: 0.3; transform: scale(1); }
+  50% { opacity: 1; transform: scale(1.5); box-shadow: 0 0 10px #38bdf8; }
+}
+
+/* AUDIO VISUALIZER */
+.audio-viz {
+  display: flex;
+  align-items: flex-end;
+  gap: 3px;
+  height: 40px;
+}
+.viz-bar {
+  width: 4px;
+  background: linear-gradient(to top, #22c55e, #38bdf8);
+  border-radius: 2px;
+  animation: viz-bounce 0.5s ease-in-out infinite alternate;
+}
+@keyframes viz-bounce {
+  from { height: 5px; }
+  to { height: 35px; }
+}
+
+/* GLITCH TEXT EFFECT */
+.glitch-text {
+  position: relative;
+  animation: glitch-skew 1s infinite;
+}
+.glitch-text::before,
+.glitch-text::after {
+  content: attr(data-text);
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  opacity: 0.8;
+}
+.glitch-text::before {
+  color: #ef4444;
+  z-index: -1;
+  animation: glitch-1 0.3s infinite;
+  clip-path: polygon(0 0, 100% 0, 100% 45%, 0 45%);
+}
+.glitch-text::after {
+  color: #38bdf8;
+  z-index: -2;
+  animation: glitch-2 0.3s infinite;
+  clip-path: polygon(0 55%, 100% 55%, 100% 100%, 0 100%);
+}
+@keyframes glitch-1 {
+  0%, 100% { transform: translate(0); }
+  20% { transform: translate(-3px, 3px); }
+  40% { transform: translate(-3px, -3px); }
+}
+@keyframes glitch-2 {
+  0%, 100% { transform: translate(0); }
+  20% { transform: translate(3px, -3px); }
+  40% { transform: translate(3px, 3px); }
+}
+</style>
+
+<!-- MISSION TIMER WIDGET -->
+<div id="mission-timer-widget" style="position: fixed; top: 50px; left: 50%; transform: translateX(-50%); z-index: 1000; text-align: center; padding: 15px 30px; background: rgba(0,0,0,0.8); border: 2px solid rgba(239,68,68,0.5); border-radius: 12px; box-shadow: 0 0 30px rgba(239,68,68,0.3);">
+  <div class="timer-label">Mission Elapsed Time</div>
+  <div class="mission-timer" id="mission-timer">00:00:00</div>
+  <div style="font-size: 9px; color: rgba(255,255,255,0.4); margin-top: 5px;">OP EPIC FURY // DAY 2</div>
+</div>
+
+<!-- TERMINAL CONSOLE WIDGET -->
+<div id="terminal-widget" style="position: fixed; bottom: 250px; left: 20px; width: 350px; z-index: 1000;">
+  <div class="terminal-console">
+    <div class="terminal-content" id="terminal-content">
+      <div class="terminal-line" style="opacity: 1;">> SYSTEM INITIALIZED...</div>
+    </div>
+  </div>
+</div>
+
+<!-- AUDIO VISUALIZER WIDGET -->
+<div id="audio-viz-widget" style="position: fixed; top: 150px; left: 20px; z-index: 1000; background: rgba(0,0,0,0.8); border: 1px solid rgba(56,189,248,0.3); border-radius: 8px; padding: 15px;">
+  <div style="font-size: 9px; color: rgba(255,255,255,0.5); text-transform: uppercase; letter-spacing: 1px; margin-bottom: 8px;">Live Comms</div>
+  <div class="audio-viz" id="audio-viz">
+    <div class="viz-bar" style="animation-delay: 0s;"></div>
+    <div class="viz-bar" style="animation-delay: 0.1s;"></div>
+    <div class="viz-bar" style="animation-delay: 0.2s;"></div>
+    <div class="viz-bar" style="animation-delay: 0.3s;"></div>
+    <div class="viz-bar" style="animation-delay: 0.4s;"></div>
+    <div class="viz-bar" style="animation-delay: 0.5s;"></div>
+    <div class="viz-bar" style="animation-delay: 0.6s;"></div>
+    <div class="viz-bar" style="animation-delay: 0.7s;"></div>
+  </div>
+</div>
+
+<!-- WEATHER/ATMOSPHERE WIDGET -->
+<div id="atmosphere-widget" style="position: fixed; top: 250px; left: 20px; width: 200px; z-index: 1000;" class="holo-card" style="padding: 15px;">
+  <div style="font-size: 10px; color: rgba(255,255,255,0.5); text-transform: uppercase; letter-spacing: 1px; margin-bottom: 10px;">Theater Conditions</div>
+  <div style="display: flex; justify-content: space-between; margin-bottom: 8px;">
+    <span style="font-size: 11px; color: rgba(255,255,255,0.7);">Tehran</span>
+    <span style="font-size: 11px; color: #f97316;">18°C ♨</span>
+  </div>
+  <div style="display: flex; justify-content: space-between; margin-bottom: 8px;">
+    <span style="font-size: 11px; color: rgba(255,255,255,0.7);">Visibility</span>
+    <span style="font-size: 11px; color: #22c55e;">GOOD</span>
+  </div>
+  <div style="display: flex; justify-content: space-between; margin-bottom: 8px;">
+    <span style="font-size: 11px; color: rgba(255,255,255,0.7);">Wind</span>
+    <span style="font-size: 11px; color: #38bdf8;">12kt NW</span>
+  </div>
+  <div style="display: flex; justify-content: space-between;">
+    <span style="font-size: 11px; color: rgba(255,255,255,0.7);">AQI</span>
+    <span style="font-size: 11px; color: #ef4444;">178 POOR</span>
+  </div>
+</div>
+
+<script>
+// MISSION TIMER
+const missionStart = new Date('2026-02-28T06:00:00Z').getTime();
+function updateMissionTimer(){
+  const now = Date.now();
+  const elapsed = now - missionStart;
+  const hours = Math.floor(elapsed / 3600000);
+  const mins = Math.floor((elapsed % 3600000) / 60000);
+  const secs = Math.floor((elapsed % 60000) / 1000);
+  document.getElementById('mission-timer').textContent = 
+    String(hours).padStart(2,'0') + ':' + 
+    String(mins).padStart(2,'0') + ':' + 
+    String(secs).padStart(2,'0');
+}
+setInterval(updateMissionTimer, 1000);
+updateMissionTimer();
+
+// TERMINAL SIMULATOR
+const terminalLines = [
+  { text: '> SAT LINK ESTABLISHED [IRAN]', type: 'info', delay: 1000 },
+  { text: '> INTEL REPORT: KHAMENEI DECEASED', type: 'alert', delay: 2500 },
+  { text: '> STRIKE PACKAGE ALPHA: COMPLETE', type: 'info', delay: 4000 },
+  { text: '> WARNING: CIVILIAN CASUALTIES REPORTED', type: '<script>
+// GRID OVERLAY EFFECT
+(function initGridOverlay(){
+  const canvas = document.createElement('canvas');
+  canvas.id = 'grid-overlay';
+  canvas.style.cssText = 'position:fixed;inset:0;pointer-events:none;z-index:1;opacity:0.15;';
+  document.body.insertBefore(canvas, document.body.firstChild);
+  
+  const ctx = canvas.getContext('2d');
+  function resize(){
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
+  }
+  resize();
+  window.addEventListener('resize', resize);
+  
+  let offset = 0;
+  function draw(){
+    ctx.clearRect(0,0,canvas.width,canvas.height);
+    ctx.strokeStyle = '#38bdf8';
+    ctx.lineWidth = 0.5;
+    
+    const gridSize = 60;
+    offset = (offset + 0.2) % gridSize;
+    
+    for(let x = offset; x < canvas.width; x += gridSize){
+      ctx.beginPath();
+      ctx.moveTo(x, 0);
+      ctx.lineTo(x, canvas.height);
+      ctx.stroke();
+    }
+    for(let y = offset; y < canvas.height; y += gridSize){
+      ctx.beginPath();
+      ctx.moveTo(0, y);
+      ctx.lineTo(canvas.width, y);
+      ctx.stroke();
+    }
+    requestAnimationFrame(draw);
+  }
+  draw();
+})();
+
+// PARTICLE FIELD OVERLAY
+(function initParticles(){
+  const canvas = document.createElement('canvas');
+  canvas.id = 'particle-field';
+  canvas.style.cssText = 'position:fixed;inset:0;pointer-events:none;z-index:2;opacity:0.3;';
+  document.body.insertBefore(canvas, document.body.firstChild);
+  
+  const ctx = canvas.getContext('2d');
+  canvas.width = window.innerWidth;
+  canvas.height = window.innerHeight;
+  
+  const particles = [];
+  for(let i=0; i<50; i++){
+    particles.push({
+      x: Math.random() * canvas.width,
+      y: Math.random() * canvas.height,
+      vx: (Math.random() - 0.5) * 0.5,
+      vy: (Math.random() - 0.5) * 0.5,
+      size: Math.random() * 2 + 1
+    });
+  }
+  
+  function animate(){
+    ctx.clearRect(0,0,canvas.width,canvas.height);
+    ctx.fillStyle = 'rgba(56,189,248,0.6)';
+    
+    particles.forEach(p => {
+      p.x += p.vx;
+      p.y += p.vy;
+      
+      if(p.x < 0 || p.x > canvas.width) p.vx *= -1;
+      if(p.y < 0 || p.y > canvas.height) p.vy *= -1;
+      
+      ctx.beginPath();
+      ctx.arc(p.x, p.y, p.size, 0, Math.PI*2);
+      ctx.fill();
+    });
+    
+    requestAnimationFrame(animate);
+  }
+  animate();
+})();
+
+// TYPEWRITER EFFECT FOR HEADERS
+document.querySelectorAll('.widget-header .wh-title').forEach(el => {
+  const text = el.textContent;
+  el.textContent = '';
+  let i = 0;
+  const type = () => {
+    if(i < text.length){
+      el.textContent += text.charAt(i);
+      i++;
+      setTimeout(type, 30);
+    }
+  };
+  setTimeout(type, 500);
+});
+
+// MOUSE TRAIL EFFECT
+document.addEventListener('mousemove', e => {
+  if(Math.random() > 0.8){
+    const dot = document.createElement('div');
+    dot.style.cssText = `
+      position:fixed;left:${e.clientX}px;top:${e.clientY}px;
+      width:4px;height:4px;background:rgba(56,189,248,0.8);
+      border-radius:50%;pointer-events:none;z-index:9999;
+      box-shadow:0 0 8px #38bdf8;
+    `;
+    document.body.appendChild(dot);
+    setTimeout(() => dot.remove(), 500);
+  }
+});
+
+// RANDOM GLITCH EFFECT
+setInterval(() => {
+  if(Math.random() > 0.95){
+    document.body.style.filter = 'hue-rotate(90deg) saturate(1.5)';
+    setTimeout(() => {
+      document.body.style.filter = '';
+    }, 100);
+  }
+}, 2000);
+
+// BREATHING GLOW ON ACTIVE ELEMENTS
+(function pulseActiveElements(){
+  const activeElements = document.querySelectorAll('.rp-tab.active, .tb-btn.on');
+  activeElements.forEach((el, i) => {
+    setTimeout(() => {
+      el.style.animation = 'pulse-glow 2s infinite';
+    }, i * 200);
+  });
+})();
+
+// ADD CSS ANIMATIONS
+const style = document.createElement('style');
+style.textContent = `
+  @keyframes pulse-glow {
+    0%, 100% { box-shadow: 0 0 5px rgba(56,189,248,0.5); }
+    50% { box-shadow: 0 0 20px rgba(56,189,248,0.8); }
+  }
+`;
+document.head.appendChild(style);
+
+console.log('✨ Cool effects loaded: Grid overlay, particles, typewriter, mouse trail, glitch, pulse glow');
+</script>
