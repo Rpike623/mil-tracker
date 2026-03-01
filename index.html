@@ -5867,3 +5867,45 @@ console.log('⌨️ Press ? for keyboard shortcuts');
   <button class="fab-btn" onclick="exportScreenshot()" title="Screenshot">📸</button>
   <button class="fab-btn" onclick="showShortcutsModal()" title="Help">?</button>
 </div>
+<script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
+<script>
+// WIDGET: LIVE CLOCKS
+document.addEventListener('DOMContentLoaded', function(){
+  function updateClocks(){
+    const now = new Date();
+    const clocks = {
+      'clk-zulu': now.toUTCString().slice(17,25) + 'Z',
+      'clk-tehran': new Date(now.getTime() + 3.5*3600000).toTimeString().slice(0,5),
+      'clk-dc': new Date(now.getTime() - 5*3600000).toTimeString().slice(0,5),
+      'clk-moscow': new Date(now.getTime() + 3*3600000).toTimeString().slice(0,5)
+    };
+    Object.entries(clocks).forEach(([id, time]) => {
+      const el = document.getElementById(id);
+      if(el) el.textContent = time;
+    });
+  }
+  setInterval(updateClocks, 1000);
+  updateClocks();
+});
+
+// WIDGET: KEYBOARD SHORTCUTS
+document.addEventListener('keydown', function(e){
+  if(e.target.tagName === 'INPUT') return;
+  switch(e.key.toLowerCase()){
+    case 'f': document.fullscreenElement ? document.exitFullscreen() : document.documentElement.requestFullscreen(); break;
+    case 'r': location.reload(); break;
+  }
+});
+
+// WIDGET: EXPORT SCREENSHOT
+window.exportScreenshot = function(){
+  html2canvas(document.body).then(canvas => {
+    const link = document.createElement('a');
+    link.download = 'pikeclaw-osint-' + Date.now() + '.png';
+    link.href = canvas.toDataURL();
+    link.click();
+  });
+};
+
+console.log('🔥 PikeClaw OSINT Dashboard v4.1 — WAR DAY 2');
+</script>
