@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-03-01T14:13:42Z",
-  "version": 121,
+  "generated_utc": "2026-03-01T15:11:24Z",
+  "version": 122,
   "breaking_alert": "💀 DAY 2 KHAMENEI DEAD — 201 KILLED 747 INJURED — STRIKES CONTINUING — ZERO US CASUALTIES",
   "naval_deployments": [
     {
@@ -945,11 +945,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 28,
-    "conflict_articles": 11,
+    "deployment_articles": 30,
+    "conflict_articles": 13,
     "exercise_articles": 6,
     "total_articles": 50,
-    "computed_at": "2026-03-01T14:13:42.226694+00:00",
+    "computed_at": "2026-03-01T15:11:24.313767+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "KHAMENEI CONFIRMED DEAD — Trump + Netanyahu + 2 Israeli officials (22:12 UTC)",
