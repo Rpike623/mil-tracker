@@ -5701,3 +5701,169 @@ setInterval(() => {
 </script>
 </body>
 </html>
+
+<!-- COOL FEATURES ADDON -->
+<script>
+// LIVE CASUALTY COUNTER ANIMATION
+(function initCasualtyCounter(){
+  const counters = document.querySelectorAll('.casualty-count');
+  counters.forEach(el => {
+    const target = parseInt(el.dataset.target) || 201;
+    let current = 0;
+    const increment = Math.ceil(target / 50);
+    const timer = setInterval(() => {
+      current += increment;
+      if (current >= target) {
+        current = target;
+        clearInterval(timer);
+      }
+      el.textContent = current.toLocaleString();
+    }, 30);
+  });
+})();
+
+// KEYBOARD SHORTCUTS
+const shortcuts = {
+  'f': () => toggleFullscreen(),
+  'm': () => map.toggleFullscreen(),
+  'r': () => fetchData(),
+  's': () => exportScreenshot(),
+  '1': () => switchRPTab('iran'),
+  '2': () => switchRPTab('threat'),
+  '3': () => switchRPTab('naval'),
+  '4': () => switchRPTab('centcom'),
+  '?': () => showShortcutsModal()
+};
+
+document.addEventListener('keydown', (e) => {
+  if (e.target.tagName === 'INPUT') return;
+  const key = e.key.toLowerCase();
+  if (shortcuts[key]) {
+    e.preventDefault();
+    shortcuts[key]();
+  }
+});
+
+function toggleFullscreen() {
+  if (!document.fullscreenElement) {
+    document.documentElement.requestFullscreen();
+  } else {
+    document.exitFullscreen();
+  }
+}
+
+function exportScreenshot() {
+  html2canvas(document.body).then(canvas => {
+    const link = document.createElement('a');
+    link.download = `pikeclaw-osint-${Date.now()}.png`;
+    link.href = canvas.toDataURL();
+    link.click();
+  });
+}
+
+function showShortcutsModal() {
+  const modal = document.createElement('div');
+  modal.style.cssText = `
+    position:fixed;inset:0;z-index:99999;
+    background:rgba(0,0,0,.85);
+    display:flex;align-items:center;justify-content:center;
+    font-family:'Share Tech Mono',monospace;
+  `;
+  modal.innerHTML = `
+    <div style="background:var(--panel);border:1px solid var(--accent);border-radius:4px;padding:30px;max-width:500px;box-shadow:0 0 40px rgba(56,189,248,.3);">
+      <h2 style="color:var(--accent);font-family:'Orbitron',sans-serif;margin-bottom:20px;font-size:18px;">⌨️ KEYBOARD SHORTCUTS</h2>
+      <div style="display:grid;grid-template-columns:auto 1fr;gap:10px 20px;color:var(--text);font-size:13px;">
+        <span style="color:var(--accent);">F</span><span>Toggle Fullscreen</span>
+        <span style="color:var(--accent);">M</span><span>Map Fullscreen</span>
+        <span style="color:var(--accent);">R</span><span>Refresh Data</span>
+        <span style="color:var(--accent);">S</span><span>Export Screenshot</span>
+        <span style="color:var(--accent);">1-4</span><span>Switch Right Panel Tabs</span>
+        <span style="color:var(--accent);">?</span><span>Show This Help</span>
+      </div>
+      <button onclick="this.closest('.modal').remove()" style="margin-top:20px;width:100%;padding:10px;background:var(--accent);color:#000;border:none;border-radius:3px;cursor:pointer;font-family:'Orbitron',sans-serif;font-weight:700;">CLOSE</button>
+    </div>
+  `;
+  modal.className = 'modal';
+  modal.onclick = e => { if(e.target === modal) modal.remove(); };
+  document.body.appendChild(modal);
+}
+
+// PULSE EFFECT ON CRITICAL INDICATORS
+setInterval(() => {
+  const critical = document.querySelectorAll('.sb-cell.alert, .defcon-2, .defcon-1');
+  critical.forEach(el => {
+    el.style.boxShadow = '0 0 20px rgba(239,68,68,.5)';
+    setTimeout(() => el.style.boxShadow = '', 500);
+  });
+}, 2000);
+
+// LIVE CLOCK UPDATE
+function updateClocks() {
+  const now = new Date();
+  const clocks = {
+    'clk-zulu': now.toUTCString().slice(17,25) + 'Z',
+    'clk-tehran': new Date(now.getTime() + 3.5*3600000).toTimeString().slice(0,5),
+    'clk-dc': new Date(now.getTime() - 5*3600000).toTimeString().slice(0,5),
+    'clk-moscow': new Date(now.getTime() + 3*3600000).toTimeString().slice(0,5),
+    'clk-beijing': new Date(now.getTime() + 8*3600000).toTimeString().slice(0,5),
+    'clk-kyiv': new Date(now.getTime() + 2*3600000).toTimeString().slice(0,5)
+  };
+  Object.entries(clocks).forEach(([id, time]) => {
+    const el = document.getElementById(id);
+    if (el) el.textContent = time;
+  });
+}
+setInterval(updateClocks, 1000);
+updateClocks();
+
+console.log('🔥 PikeClaw OSINT Dashboard v4.0 loaded');
+console.log('⌨️ Press ? for keyboard shortcuts');
+</script>
+
+<!-- FLOATING ACTION BUTTON -->
+<style>
+.fab-container {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 9999;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.fab-btn {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: var(--accent);
+  border: 2px solid var(--border-glow);
+  color: #000;
+  font-size: 20px;
+  cursor: pointer;
+  box-shadow: 0 4px 15px rgba(56,189,248,.4);
+  transition: all 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.fab-btn:hover {
+  transform: scale(1.1);
+  box-shadow: 0 6px 25px rgba(56,189,248,.6);
+}
+.fab-btn.red {
+  background: var(--red);
+  border-color: #ef4444;
+  color: #fff;
+  animation: pulse-red 2s infinite;
+}
+@keyframes pulse-red {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(239,68,68,.7); }
+  50% { box-shadow: 0 0 0 15px rgba(239,68,68,0); }
+}
+</style>
+
+<div class="fab-container">
+  <button class="fab-btn red" onclick="toggleFullscreen()" title="Fullscreen">⛶</button>
+  <button class="fab-btn" onclick="exportScreenshot()" title="Screenshot">📸</button>
+  <button class="fab-btn" onclick="showShortcutsModal()" title="Help">?</button>
+</div>
