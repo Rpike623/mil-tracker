@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-03-02T16:29:22Z",
-  "version": 144,
+  "generated_utc": "2026-03-02T17:35:06Z",
+  "version": 145,
   "breaking_alert": "💀 DAY 3 — 3 US KIA, 5 WIA — IRANIAN FRIGATE SUNK — SHIPS ATTACKED AT HORMUZ — STRIKES CONTINUING — 201+ IRANIAN DEAD",
   "naval_deployments": [
     {
@@ -641,17 +641,6 @@
       ]
     },
     {
-      "title": "4 US troops killed, others wounded in operations against Iran",
-      "link": "https://taskandpurpose.com/news/casualties-operation-epic-fury/",
-      "published": "Mon, 02 Mar 2026 08:42:06 -0500",
-      "source": "Task & Purpose",
-      "categories": [
-        "deployment",
-        "exercise",
-        "conflict"
-      ]
-    },
-    {
       "title": "Fincantieri lays keel of first U212NFS Submarine",
       "link": "https://www.navalnews.com/naval-news/2026/03/fincantieri-lays-keel-of-first-u212nfs-submarine/",
       "published": "Mon, 02 Mar 2026 09:27:49 +0000",
@@ -676,6 +665,17 @@
       "source": "Military Times",
       "categories": [
         "deployment"
+      ]
+    },
+    {
+      "title": "4 US troops killed, others wounded in operations against Iran",
+      "link": "https://taskandpurpose.com/news/casualties-operation-epic-fury/",
+      "published": "Mon, 02 Mar 2026 11:55:17 -0500",
+      "source": "Task & Purpose",
+      "categories": [
+        "deployment",
+        "exercise",
+        "conflict"
       ]
     },
     {
@@ -874,7 +874,7 @@
     {
       "title": "4 US troops killed, others wounded in operations against Iran",
       "link": "https://taskandpurpose.com/news/casualties-operation-epic-fury/",
-      "published": "Mon, 02 Mar 2026 08:42:06 -0500",
+      "published": "Mon, 02 Mar 2026 11:55:17 -0500",
       "source": "Task & Purpose",
       "categories": [
         "deployment",
@@ -917,7 +917,7 @@
     {
       "title": "4 US troops killed, others wounded in operations against Iran",
       "link": "https://taskandpurpose.com/news/casualties-operation-epic-fury/",
-      "published": "Mon, 02 Mar 2026 08:42:06 -0500",
+      "published": "Mon, 02 Mar 2026 11:55:17 -0500",
       "source": "Task & Purpose",
       "categories": [
         "deployment",
@@ -948,11 +948,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 29,
+    "deployment_articles": 30,
     "conflict_articles": 12,
     "exercise_articles": 7,
     "total_articles": 50,
-    "computed_at": "2026-03-02T16:29:22.262228+00:00",
+    "computed_at": "2026-03-02T17:35:06.534682+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "KHAMENEI CONFIRMED DEAD — Trump + Netanyahu + 2 Israeli officials (22:12 UTC)",
