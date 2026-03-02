@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-03-02T12:29:12Z",
-  "version": 140,
+  "generated_utc": "2026-03-02T13:50:54Z",
+  "version": 141,
   "breaking_alert": "💀 DAY 3 — 3 US KIA, 5 WIA — IRANIAN FRIGATE SUNK — SHIPS ATTACKED AT HORMUZ — STRIKES CONTINUING — 201+ IRANIAN DEAD",
   "naval_deployments": [
     {
@@ -594,24 +594,6 @@
   ],
   "_naval_news_refs": [
     {
-      "title": "South Korea is already preparing for nuclear-powered submarines",
-      "link": "https://www.navalnews.com/naval-news/2026/02/south-korea-is-already-preparing-for-nuclear-powered-submarines/",
-      "published": "Fri, 27 Feb 2026 08:26:14 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Italy moves to transfer Garibaldi aircraft carrier to Indonesia, looking to new programmes",
-      "link": "https://www.navalnews.com/naval-news/2026/02/italy-moves-to-transfer-garibaldi-aircraft-carrier-to-indonesia-looking-to-new-programmes/",
-      "published": "Fri, 27 Feb 2026 09:32:12 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "NAVANTIA offers Denmark strategic cooperation to deliver its naval programmes",
       "link": "https://www.navalnews.com/naval-news/2026/02/navantia-offers-denmark-strategic-cooperation-to-deliver-its-naval-programmes/",
       "published": "Fri, 27 Feb 2026 11:56:14 +0000",
@@ -669,6 +651,17 @@
       ]
     },
     {
+      "title": "4 US troops killed, others wounded in operations against Iran",
+      "link": "https://taskandpurpose.com/news/casualties-operation-epic-fury/",
+      "published": "Mon, 02 Mar 2026 08:42:06 -0500",
+      "source": "Task & Purpose",
+      "categories": [
+        "deployment",
+        "exercise",
+        "conflict"
+      ]
+    },
+    {
       "title": "Fincantieri lays keel of first U212NFS Submarine",
       "link": "https://www.navalnews.com/naval-news/2026/03/fincantieri-lays-keel-of-first-u212nfs-submarine/",
       "published": "Mon, 02 Mar 2026 09:27:49 +0000",
@@ -682,6 +675,15 @@
       "link": "https://www.defensenews.com/global/europe/2026/03/02/european-military-installations-are-targeted-in-iran-retaliation/",
       "published": "Mon, 02 Mar 2026 09:32:51 +0000",
       "source": "Defense News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "European military installations are  targeted in Iran retaliation",
+      "link": "https://www.militarytimes.com/global/europe/2026/03/02/european-military-installations-are-targeted-in-iran-retaliation/",
+      "published": "Mon, 02 Mar 2026 09:32:51 +0000",
+      "source": "Military Times",
       "categories": [
         "deployment"
       ]
@@ -869,22 +871,24 @@
       ]
     },
     {
-      "title": "UPDATED: U.S., Israel Launch Strikes Against Iran, Tehran Retaliates Across Region",
-      "link": "https://news.usni.org/2026/02/28/u-s-israel-launch-operation-epic-fury-against-iran-tehran-retaliates-across-region",
-      "published": "Sat, 28 Feb 2026 16:37:44 +0000",
-      "source": "USNI News",
+      "title": "4 US troops killed, others wounded in operations against Iran",
+      "link": "https://taskandpurpose.com/news/casualties-operation-epic-fury/",
+      "published": "Mon, 02 Mar 2026 08:42:06 -0500",
+      "source": "Task & Purpose",
       "categories": [
         "deployment",
+        "exercise",
         "conflict"
       ]
     },
     {
-      "title": "War powers debate intensifies after Trump orders attack on Iran without approval by Congress",
-      "link": "https://www.defensenews.com/news/pentagon-congress/2026/02/28/war-powers-debate-intensifies-after-trump-orders-attack-on-iran-without-approval-by-congress/",
-      "published": "Sat, 28 Feb 2026 20:00:50 +0000",
-      "source": "Defense News",
+      "title": "Fourth US service member killed in action during Iran operations",
+      "link": "https://www.militarytimes.com/news/your-military/2026/03/02/fourth-us-service-member-killed-in-action-during-iran-operations/",
+      "published": "Mon, 02 Mar 2026 12:45:38 +0000",
+      "source": "Military Times",
       "categories": [
         "deployment",
+        "exercise",
         "conflict"
       ]
     }
@@ -911,19 +915,18 @@
       ]
     },
     {
-      "title": "US launches ‘major combat operations’ against Iran",
-      "link": "https://taskandpurpose.com/news/us-israel-combat-bomb-iran/",
-      "published": "Sat, 28 Feb 2026 17:10:36 -0500",
+      "title": "Space Force can finally start ‘orbital warfare’ maneuvers with new satellite",
+      "link": "https://taskandpurpose.com/news/space-force-orbital-warfare-training-satellite/",
+      "published": "Mon, 02 Mar 2026 08:07:00 -0500",
       "source": "Task & Purpose",
       "categories": [
-        "deployment",
         "exercise"
       ]
     },
     {
-      "title": "3 US troops killed, 5 wounded in operations against Iran",
+      "title": "4 US troops killed, others wounded in operations against Iran",
       "link": "https://taskandpurpose.com/news/casualties-operation-epic-fury/",
-      "published": "Sun, 01 Mar 2026 10:36:45 -0500",
+      "published": "Mon, 02 Mar 2026 08:42:06 -0500",
       "source": "Task & Purpose",
       "categories": [
         "deployment",
@@ -932,22 +935,23 @@
       ]
     },
     {
-      "title": "3 U.S. Service Members Killed, 5 Seriously Wounded in Operation Epic Fury",
-      "link": "https://news.usni.org/2026/03/01/3-u-s-service-members-killed-5-seriously-wounded-in-operation-epic-fury",
-      "published": "Sun, 01 Mar 2026 15:35:57 +0000",
-      "source": "USNI News",
+      "title": "Fourth US service member killed in action during Iran operations",
+      "link": "https://www.militarytimes.com/news/your-military/2026/03/02/fourth-us-service-member-killed-in-action-during-iran-operations/",
+      "published": "Mon, 02 Mar 2026 12:45:38 +0000",
+      "source": "Military Times",
       "categories": [
+        "deployment",
         "exercise",
         "conflict"
       ]
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 32,
+    "deployment_articles": 29,
     "conflict_articles": 11,
-    "exercise_articles": 6,
+    "exercise_articles": 8,
     "total_articles": 50,
-    "computed_at": "2026-03-02T12:29:12.577858+00:00",
+    "computed_at": "2026-03-02T13:50:54.089019+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "KHAMENEI CONFIRMED DEAD — Trump + Netanyahu + 2 Israeli officials (22:12 UTC)",
