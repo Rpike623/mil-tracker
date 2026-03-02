@@ -754,6 +754,47 @@ body::after{
 .nuke-panel select,.nuke-panel button{background:rgba(0,8,0,.9);border:1px solid rgba(56,189,248,.15);color:var(--accent);padding:4px 8px;font-family:'Share Tech Mono',monospace;font-size:10px;border-radius:2px;width:100%;cursor:pointer}
 .nuke-panel button:hover{border-color:var(--accent);box-shadow:0 0 8px rgba(56,189,248,.2)}
 
+/* War atmosphere — red ambient glow during active conflict */
+@keyframes war-pulse{0%,100%{box-shadow:inset 0 0 80px rgba(239,68,68,.03)}50%{box-shadow:inset 0 0 120px rgba(239,68,68,.06)}}
+@keyframes text-pulse{0%,100%{opacity:1}50%{opacity:.6}}
+@keyframes status-flash-red{0%,100%{background:rgba(239,68,68,.08)}50%{background:rgba(239,68,68,.2)}}
+@keyframes ticker-scroll{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+@keyframes war-border-glow{0%,100%{border-color:rgba(239,68,68,.15);box-shadow:0 0 20px rgba(239,68,68,.05)}50%{border-color:rgba(239,68,68,.35);box-shadow:0 0 40px rgba(239,68,68,.1)}}
+body{animation:war-pulse 8s ease-in-out infinite}
+
+/* Breaking news ticker */
+.war-ticker{
+  flex-shrink:0;height:26px;overflow:hidden;position:relative;
+  background:linear-gradient(90deg,rgba(239,68,68,.12),rgba(20,5,5,.95) 10%,rgba(20,5,5,.95) 90%,rgba(239,68,68,.12));
+  border-top:1px solid rgba(239,68,68,.2);border-bottom:1px solid rgba(239,68,68,.15);
+  font-family:'Share Tech Mono',monospace;font-size:10px;
+  display:flex;align-items:center;
+}
+.war-ticker-label{
+  flex-shrink:0;padding:0 10px 0 12px;font-weight:700;color:#ef4444;
+  font-family:'Orbitron',monospace;font-size:9px;letter-spacing:2px;
+  background:rgba(239,68,68,.1);height:100%;display:flex;align-items:center;
+  border-right:1px solid rgba(239,68,68,.2);z-index:2;
+  text-shadow:0 0 8px rgba(239,68,68,.5);
+}
+.war-ticker-scroll{
+  flex:1;overflow:hidden;white-space:nowrap;
+}
+.war-ticker-inner{
+  display:inline-block;white-space:nowrap;
+  animation:ticker-scroll 120s linear infinite;
+  color:rgba(239,68,68,.7);letter-spacing:.5px;
+}
+.war-ticker-inner span{margin-right:40px}
+.war-ticker-inner .tk-critical{color:#ef4444;font-weight:700}
+.war-ticker-inner .tk-alert{color:#f97316;font-weight:600}
+.war-ticker-inner .tk-info{color:var(--accent);font-weight:400}
+.war-ticker-inner .tk-sep{color:rgba(239,68,68,.25);margin:0 15px}
+
+/* Casualty counter animation */
+@keyframes count-up{from{opacity:0;transform:translateY(4px)}to{opacity:1;transform:translateY(0)}}
+.cas-num{animation:count-up .3s ease-out;display:inline-block}
+
 /* Boot skip button */
 .boot-skip-btn{
   position:absolute;bottom:20px;left:50%;transform:translateX(-50%);z-index:20;
@@ -841,7 +882,7 @@ body::after{
   <!-- Iran Status Ticker -->
   <div id="iran-ticker" style="display:inline-flex;align-items:center;gap:6px;background:rgba(239,68,68,.1);border:1px solid rgba(239,68,68,.35);border-radius:4px;padding:3px 10px;margin-right:6px;flex-shrink:0;cursor:pointer;box-shadow:0 0 12px rgba(239,68,68,.15)" onclick="switchRPTab('iran')" title="Click for Iran timeline">
     <span style="width:7px;height:7px;border-radius:50%;background:#ef4444;display:inline-block;animation:logo-pulse 1s ease-in-out infinite;box-shadow:0 0 6px #ef4444"></span>
-    <span id="iran-ticker-text" style="font-family:'Orbitron',monospace;font-size:9px;font-weight:700;color:#ef4444;letter-spacing:1.5px;text-transform:uppercase;white-space:nowrap;transition:opacity .2s">DAY 3 — 3 US KIA — FRIGATE SUNK</span>
+    <span id="iran-ticker-text" style="font-family:'Orbitron',monospace;font-size:9px;font-weight:700;color:#ef4444;letter-spacing:1.5px;text-transform:uppercase;white-space:nowrap;transition:opacity .2s;animation:text-pulse 2s ease-in-out infinite">DAY 4 — 6 US KIA — 3 F-15s DOWN — IRAN: TORCH TANKERS</span>
   </div>
   <span class="tb-label">Country:</span>
   <button class="tb-btn on" id="bc-all" onclick="setCF('all')">🌍 All</button>
@@ -991,9 +1032,17 @@ body::after{
     <span class="sb-label">HOT ZONES</span>
     <span class="sb-value" id="sb-zones">—</span>
   </div>
-  <div class="sb-cell alert" title="Hormuz status" onclick="goTo(26.6,56.3,7)">
+  <div class="sb-cell alert" title="Hormuz status" onclick="goTo(26.6,56.3,7)" style="animation:status-flash-red 1.5s ease-in-out infinite">
     <span class="sb-label">HORMUZ</span>
-    <span class="sb-value" id="sb-hormuz">SHIPS ATTACKED</span>
+    <span class="sb-value" id="sb-hormuz">⚠️ TORCH TANKERS</span>
+  </div>
+  <div class="sb-cell alert" title="Coalition losses">
+    <span class="sb-label">US KIA</span>
+    <span class="sb-value" style="color:#ef4444;font-family:'Orbitron',monospace;font-weight:800">6</span>
+  </div>
+  <div class="sb-cell alert" title="F-15 friendly fire">
+    <span class="sb-label">F-15s DOWN</span>
+    <span class="sb-value" style="color:#f97316;font-family:'Orbitron',monospace;font-weight:800">3</span>
   </div>
   <div class="sb-cell" title="Iran internet">
     <span class="sb-label">IRAN NET</span>
@@ -1076,7 +1125,8 @@ body::after{
   <!-- RIGHT TABBED PANEL -->
   <div class="right-panel">
     <div class="rp-tabs">
-      <div class="rp-tab active iran" data-tab="iran" onclick="switchRPTab('iran')">⚡ IRAN</div>
+      <div class="rp-tab active iran" data-tab="iran" onclick="switchRPTab('iran')" style="animation:text-pulse 2s ease-in-out infinite">⚡ IRAN</div>
+      <div class="rp-tab" data-tab="warstat" onclick="switchRPTab('warstat')">💀 WAR</div>
       <div class="rp-tab" data-tab="threat" onclick="switchRPTab('threat')">🚨 THREAT</div>
       <div class="rp-tab" data-tab="naval" onclick="switchRPTab('naval')">🚢 NAVAL</div>
       <div class="rp-tab" data-tab="centcom" onclick="switchRPTab('centcom')">🇺🇸 CENTCOM</div>
@@ -1087,10 +1137,10 @@ body::after{
     <!-- ⚡ IRAN TIMELINE TAB -->
     <div class="rp-tab-content active" id="rp-iran">
       <div style="flex-shrink:0;padding:7px 12px;background:rgba(20,5,5,.9);border-bottom:1px solid rgba(239,68,68,.2);display:flex;align-items:center;gap:8px;font-family:'Share Tech Mono',monospace">
-        <span style="font-size:10px;font-weight:700;color:#ef4444;letter-spacing:1px">OP EPIC FURY · DAY 3 · 3 US KIA</span>
+        <span style="font-size:10px;font-weight:700;color:#ef4444;letter-spacing:1px;animation:text-pulse 2s ease-in-out infinite">OP EPIC FURY · DAY 4 · 6 US KIA</span>
         <div style="margin-left:auto;display:flex;gap:6px;flex-shrink:0">
           <div style="background:rgba(239,68,68,.08);border:1px solid rgba(239,68,68,.2);border-radius:3px;padding:2px 7px;font-size:9px;color:rgba(239,68,68,.6)">
-            🔴 KIA <span style="font-weight:700;color:#ef4444;font-family:'Orbitron',monospace">201+ 🇮🇷 · 3 🇺🇸</span>
+            🔴 KIA <span style="font-weight:700;color:#ef4444;font-family:'Orbitron',monospace">555+ 🇮🇷 · 6 🇺🇸 · 10+ 🇮🇱 · 5 Gulf</span>
           </div>
           <div style="background:rgba(167,139,250,.08);border:1px solid rgba(167,139,250,.2);border-radius:3px;padding:2px 7px;font-size:9px;color:rgba(167,139,250,.6)">
             🇺🇳 <span id="unsc-countdown" style="font-weight:700;color:#a78bfa;font-family:'Orbitron',monospace">--:--:--</span>
@@ -1101,6 +1151,108 @@ body::after{
         </div>
       </div>
       <div style="flex:1;overflow-y:auto" id="pane-iran-timeline"></div>
+    </div>
+
+    <!-- 💀 WAR STATISTICS TAB -->
+    <div class="rp-tab-content" id="rp-warstat">
+      <div style="flex-shrink:0;padding:8px 12px;background:linear-gradient(135deg,rgba(239,68,68,.08),rgba(20,5,5,.95));border-bottom:1px solid rgba(239,68,68,.2);text-align:center">
+        <div style="font-family:'Orbitron',monospace;font-size:14px;font-weight:800;color:#ef4444;letter-spacing:3px;text-shadow:0 0 16px rgba(239,68,68,.4)">OPERATION EPIC FURY</div>
+        <div style="font-size:10px;color:var(--muted);font-family:'Share Tech Mono',monospace;margin-top:2px">US-ISRAEL vs IRAN · DAY 4 · COMMENCED 28 FEB 2026</div>
+      </div>
+      <div style="flex:1;overflow-y:auto;padding:10px 12px" id="pane-warstat">
+        <!-- Casualty Grid -->
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:12px">
+          <div style="background:rgba(239,68,68,.06);border:1px solid rgba(239,68,68,.2);border-radius:4px;padding:10px;text-align:center;animation:war-border-glow 3s ease-in-out infinite">
+            <div style="font-size:8px;color:rgba(239,68,68,.5);text-transform:uppercase;letter-spacing:1.5px;font-weight:700">🇮🇷 IRAN DEAD</div>
+            <div style="font-size:28px;font-family:'Orbitron',monospace;font-weight:900;color:#ef4444;text-shadow:0 0 20px rgba(239,68,68,.5);margin:4px 0" class="cas-num">555+</div>
+            <div style="font-size:8px;color:var(--muted)">747+ injured · 24/31 provinces struck</div>
+          </div>
+          <div style="background:rgba(56,189,248,.04);border:1px solid rgba(56,189,248,.15);border-radius:4px;padding:10px;text-align:center">
+            <div style="font-size:8px;color:rgba(56,189,248,.5);text-transform:uppercase;letter-spacing:1.5px;font-weight:700">🇺🇸 US KIA</div>
+            <div style="font-size:28px;font-family:'Orbitron',monospace;font-weight:900;color:#ef4444;text-shadow:0 0 20px rgba(239,68,68,.5);margin:4px 0" class="cas-num">6</div>
+            <div style="font-size:8px;color:var(--muted)">Multiple WIA · First combat deaths</div>
+          </div>
+          <div style="background:rgba(56,189,248,.04);border:1px solid rgba(56,189,248,.15);border-radius:4px;padding:10px;text-align:center">
+            <div style="font-size:8px;color:rgba(56,189,248,.5);text-transform:uppercase;letter-spacing:1.5px;font-weight:700">🇮🇱 ISRAEL</div>
+            <div style="font-size:28px;font-family:'Orbitron',monospace;font-weight:900;color:#f97316;text-shadow:0 0 12px rgba(249,115,22,.4);margin:4px 0" class="cas-num">10+</div>
+            <div style="font-size:8px;color:var(--muted)">Missile/drone strikes from Iran</div>
+          </div>
+          <div style="background:rgba(167,139,250,.04);border:1px solid rgba(167,139,250,.15);border-radius:4px;padding:10px;text-align:center">
+            <div style="font-size:8px;color:rgba(167,139,250,.5);text-transform:uppercase;letter-spacing:1.5px;font-weight:700">🌍 GULF STATES</div>
+            <div style="font-size:28px;font-family:'Orbitron',monospace;font-weight:900;color:#f97316;text-shadow:0 0 12px rgba(249,115,22,.4);margin:4px 0" class="cas-num">5</div>
+            <div style="font-size:8px;color:var(--muted)">UAE, Bahrain, Kuwait civilians</div>
+          </div>
+        </div>
+
+        <!-- Strike Stats -->
+        <div style="background:rgba(10,16,28,.8);border:1px solid rgba(56,189,248,.12);border-radius:4px;padding:10px;margin-bottom:10px">
+          <div style="font-size:9px;font-weight:700;color:var(--accent);letter-spacing:1.5px;margin-bottom:8px;font-family:'Share Tech Mono',monospace">⚡ COALITION STRIKE SUMMARY</div>
+          <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:6px">
+            <div style="text-align:center;padding:6px;background:rgba(56,189,248,.03);border:1px solid rgba(56,189,248,.08);border-radius:3px">
+              <div style="font-size:18px;font-family:'Orbitron',monospace;font-weight:800;color:var(--accent)">500+</div>
+              <div style="font-size:7px;color:var(--muted);text-transform:uppercase;letter-spacing:1px">Targets Hit</div>
+            </div>
+            <div style="text-align:center;padding:6px;background:rgba(56,189,248,.03);border:1px solid rgba(56,189,248,.08);border-radius:3px">
+              <div style="font-size:18px;font-family:'Orbitron',monospace;font-weight:800;color:var(--accent)">200+</div>
+              <div style="font-size:7px;color:var(--muted);text-transform:uppercase;letter-spacing:1px">Israeli Jets</div>
+            </div>
+            <div style="text-align:center;padding:6px;background:rgba(56,189,248,.03);border:1px solid rgba(56,189,248,.08);border-radius:3px">
+              <div style="font-size:18px;font-family:'Orbitron',monospace;font-weight:800;color:var(--accent)">24/31</div>
+              <div style="font-size:7px;color:var(--muted);text-transform:uppercase;letter-spacing:1px">Provinces Hit</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hardware Losses -->
+        <div style="background:rgba(10,16,28,.8);border:1px solid rgba(239,68,68,.12);border-radius:4px;padding:10px;margin-bottom:10px">
+          <div style="font-size:9px;font-weight:700;color:#ef4444;letter-spacing:1.5px;margin-bottom:8px;font-family:'Share Tech Mono',monospace">🔥 HARDWARE LOSSES</div>
+          <div style="display:flex;flex-direction:column;gap:4px;font-size:10px;font-family:'Share Tech Mono',monospace">
+            <div style="display:flex;justify-content:space-between;padding:4px 6px;background:rgba(239,68,68,.04);border-left:2px solid #ef4444"><span style="color:var(--text)">🇺🇸 F-15 Eagles (Kuwait)</span><span style="color:#ef4444;font-weight:700">3 LOST</span></div>
+            <div style="display:flex;justify-content:space-between;padding:4px 6px;background:rgba(239,68,68,.04);border-left:2px solid #ef4444"><span style="color:var(--text)">🇮🇷 Frigate (Navy)</span><span style="color:#ef4444;font-weight:700">1 SUNK</span></div>
+            <div style="display:flex;justify-content:space-between;padding:4px 6px;background:rgba(239,68,68,.04);border-left:2px solid #ef4444"><span style="color:var(--text)">🇮🇷 Fighter Jets (Qatar)</span><span style="color:#ef4444;font-weight:700">2 SHOT DOWN</span></div>
+            <div style="display:flex;justify-content:space-between;padding:4px 6px;background:rgba(239,68,68,.04);border-left:2px solid #ef4444"><span style="color:var(--text)">🇮🇷 Konarak Base Vessels</span><span style="color:#f97316;font-weight:700">BURNING</span></div>
+            <div style="display:flex;justify-content:space-between;padding:4px 6px;background:rgba(239,68,68,.04);border-left:2px solid #ef4444"><span style="color:var(--text)">🇮🇷 Air Defense Systems</span><span style="color:#ef4444;font-weight:700">DEGRADED</span></div>
+            <div style="display:flex;justify-content:space-between;padding:4px 6px;background:rgba(239,68,68,.04);border-left:2px solid #ef4444"><span style="color:var(--text)">🇮🇷 Nuclear Facilities</span><span style="color:#f97316;font-weight:700">STRUCK (JUN 2025 + FEB 2026)</span></div>
+          </div>
+        </div>
+
+        <!-- Iranian Retaliation -->
+        <div style="background:rgba(10,16,28,.8);border:1px solid rgba(239,68,68,.12);border-radius:4px;padding:10px;margin-bottom:10px">
+          <div style="font-size:9px;font-weight:700;color:#f97316;letter-spacing:1.5px;margin-bottom:8px;font-family:'Share Tech Mono',monospace">🚀 IRANIAN RETALIATION</div>
+          <div style="display:flex;flex-direction:column;gap:4px;font-size:10px;font-family:'Share Tech Mono',monospace">
+            <div style="display:flex;justify-content:space-between;padding:4px 6px;background:rgba(249,115,22,.04);border-left:2px solid #f97316"><span style="color:var(--text)">Ballistic missiles at Israel</span><span style="color:#f97316;font-weight:700">~150 FIRED</span></div>
+            <div style="display:flex;justify-content:space-between;padding:4px 6px;background:rgba(249,115,22,.04);border-left:2px solid #f97316"><span style="color:var(--text)">Drones launched</span><span style="color:#f97316;font-weight:700">DOZENS</span></div>
+            <div style="display:flex;justify-content:space-between;padding:4px 6px;background:rgba(249,115,22,.04);border-left:2px solid #f97316"><span style="color:var(--text)">Gulf state targets hit</span><span style="color:#f97316;font-weight:700">Dubai · Doha · Manama · Kuwait</span></div>
+            <div style="display:flex;justify-content:space-between;padding:4px 6px;background:rgba(249,115,22,.04);border-left:2px solid #f97316"><span style="color:var(--text)">Fighter jets intercepted</span><span style="color:#22c55e;font-weight:700">2 BY QATAR</span></div>
+            <div style="display:flex;justify-content:space-between;padding:4px 6px;background:rgba(249,115,22,.04);border-left:2px solid #f97316"><span style="color:var(--text)">Hormuz shipping threat</span><span style="color:#ef4444;font-weight:700;animation:text-pulse 1s infinite">TORCH TANKERS</span></div>
+          </div>
+        </div>
+
+        <!-- Coalition Status -->
+        <div style="background:rgba(10,16,28,.8);border:1px solid rgba(56,189,248,.12);border-radius:4px;padding:10px;margin-bottom:10px">
+          <div style="font-size:9px;font-weight:700;color:var(--accent);letter-spacing:1.5px;margin-bottom:8px;font-family:'Share Tech Mono',monospace">🌐 COALITION & OPPOSITION STATUS</div>
+          <div style="display:flex;flex-direction:column;gap:3px;font-size:10px;font-family:'Share Tech Mono',monospace">
+            <div style="display:flex;justify-content:space-between;padding:3px 6px"><span>🇺🇸 United States</span><span style="color:#ef4444;font-weight:700">ACTIVE COMBAT</span></div>
+            <div style="display:flex;justify-content:space-between;padding:3px 6px"><span>🇮🇱 Israel</span><span style="color:#ef4444;font-weight:700">ACTIVE COMBAT</span></div>
+            <div style="display:flex;justify-content:space-between;padding:3px 6px"><span>🇬🇧 United Kingdom</span><span style="color:#f97316;font-weight:700">BASES AUTHORIZED</span></div>
+            <div style="display:flex;justify-content:space-between;padding:3px 6px"><span>🇶🇦 Qatar</span><span style="color:#ef4444;font-weight:700">ACTIVE — SHOT DOWN JETS</span></div>
+            <div style="display:flex;justify-content:space-between;padding:3px 6px"><span>🇦🇪 UAE</span><span style="color:#f97316;font-weight:700">UNDER ATTACK — DEFENDING</span></div>
+            <div style="display:flex;justify-content:space-between;padding:3px 6px"><span>🇧🇭 Bahrain</span><span style="color:#f97316;font-weight:700">UNDER ATTACK — 5TH FLEET HQ</span></div>
+            <div style="display:flex;justify-content:space-between;padding:3px 6px"><span>🇰🇼 Kuwait</span><span style="color:#f97316;font-weight:700">UNDER ATTACK — F-15 INCIDENT</span></div>
+            <div style="display:flex;justify-content:space-between;padding:3px 6px"><span>🇯🇴 Jordan</span><span style="color:#eab308;font-weight:700">INTERCEPTED 2 BMs</span></div>
+            <div style="display:flex;justify-content:space-between;padding:3px 6px;border-top:1px solid rgba(239,68,68,.1);margin-top:2px"><span>🇪🇸 Spain</span><span style="color:#64748b;font-weight:700">REFUSED BASE ACCESS</span></div>
+            <div style="display:flex;justify-content:space-between;padding:3px 6px"><span>🇱🇧 Lebanon / Hezbollah</span><span style="color:#eab308;font-weight:700">BANNED — ROCKET FIRED</span></div>
+            <div style="display:flex;justify-content:space-between;padding:3px 6px"><span>🇮🇷 Iran Leadership</span><span style="color:#ef4444;font-weight:700">KHAMENEI DEAD — SUCCESSION</span></div>
+          </div>
+        </div>
+
+        <!-- War Duration Counter -->
+        <div style="background:rgba(239,68,68,.04);border:1px solid rgba(239,68,68,.15);border-radius:4px;padding:8px 12px;text-align:center">
+          <div style="font-size:8px;color:var(--muted);text-transform:uppercase;letter-spacing:1px">WAR DURATION</div>
+          <div style="font-size:22px;font-family:'Orbitron',monospace;font-weight:800;color:#ef4444;text-shadow:0 0 12px rgba(239,68,68,.4);margin:4px 0" id="war-duration">--:--:--:--</div>
+          <div style="font-size:8px;color:var(--muted)">Since 28 Feb 2026 ~12:00 UTC</div>
+        </div>
+      </div>
     </div>
 
     <!-- 🚨 THREAT POSTURE TAB -->
@@ -1225,7 +1377,63 @@ body::after{
 
 </div><!-- end .bottom-row -->
 
-<!-- TICKER -->
+<!-- WAR TICKER -->
+<div class="war-ticker" id="warTicker">
+  <div class="war-ticker-label">🔴 BREAKING</div>
+  <div class="war-ticker-scroll">
+    <div class="war-ticker-inner" id="warTickerInner">
+      <span class="tk-critical">💀 DAY 4: 6 US SERVICE MEMBERS KILLED IN OPERATIONS AGAINST IRAN</span>
+      <span class="tk-sep">///</span>
+      <span class="tk-critical">⚠️ 3 F-15 FIGHTER JETS CRASHED IN KUWAIT — CENTCOM: "MISTAKENLY SHOT DOWN" — FRIENDLY FIRE INVESTIGATION</span>
+      <span class="tk-sep">///</span>
+      <span class="tk-alert">🇶🇦 QATAR SHOOTS DOWN 2 IRANIAN FIGHTER JETS — INTERCEPTS 7 BALLISTIC MISSILES + 5 DRONES</span>
+      <span class="tk-sep">///</span>
+      <span class="tk-critical">🔥 IRAN THREATENS TO TORCH TANKERS AT STRAIT OF HORMUZ — MARITIME ESCALATION</span>
+      <span class="tk-sep">///</span>
+      <span class="tk-alert">💀 DEATH TOLL: 555+ DEAD IN IRAN (UP FROM 201) — 10+ IN ISRAEL — 6 US — 5 GULF STATES</span>
+      <span class="tk-sep">///</span>
+      <span class="tk-info">🇪🇸 SPAIN REFUSES TO LET US USE BASES FOR IRAN ATTACKS — PM SANCHEZ CONDEMNS STRIKES</span>
+      <span class="tk-sep">///</span>
+      <span class="tk-alert">🇱🇧 LEBANON BANS ALL HEZBOLLAH MILITARY ACTIVITIES AFTER ROCKET ATTACK ON ISRAEL</span>
+      <span class="tk-sep">///</span>
+      <span class="tk-info">🛰️ SPACE FORCE BEGINS ORBITAL WARFARE MANEUVERS WITH NEW TRAINING SATELLITE</span>
+      <span class="tk-sep">///</span>
+      <span class="tk-critical">🇺🇸 TRUMP: ATTACKS ON IRAN WILL CONTINUE UNTIL ALL OBJECTIVES ARE MET</span>
+      <span class="tk-sep">///</span>
+      <span class="tk-alert">🇮🇷 IRAN FM ARAGHCHI: NEW SUPREME LEADER MAY BE CHOSEN WITHIN DAYS</span>
+      <span class="tk-sep">///</span>
+      <span class="tk-info">🇬🇧 UK PM: WILL ALLOW US TO USE UK BASES FOR STRIKES ON IRANIAN MISSILE SITES</span>
+      <span class="tk-sep">///</span>
+      <span class="tk-alert">💣 RUBIO SUGGESTS US STRIKES ON IRAN WERE INFLUENCED BY ISRAELI PLANS</span>
+      <span class="tk-sep">///</span>
+      <!-- DUPLICATE FOR SEAMLESS SCROLL -->
+      <span class="tk-critical">💀 DAY 4: 6 US SERVICE MEMBERS KILLED IN OPERATIONS AGAINST IRAN</span>
+      <span class="tk-sep">///</span>
+      <span class="tk-critical">⚠️ 3 F-15 FIGHTER JETS CRASHED IN KUWAIT — CENTCOM: "MISTAKENLY SHOT DOWN" — FRIENDLY FIRE INVESTIGATION</span>
+      <span class="tk-sep">///</span>
+      <span class="tk-alert">🇶🇦 QATAR SHOOTS DOWN 2 IRANIAN FIGHTER JETS — INTERCEPTS 7 BALLISTIC MISSILES + 5 DRONES</span>
+      <span class="tk-sep">///</span>
+      <span class="tk-critical">🔥 IRAN THREATENS TO TORCH TANKERS AT STRAIT OF HORMUZ — MARITIME ESCALATION</span>
+      <span class="tk-sep">///</span>
+      <span class="tk-alert">💀 DEATH TOLL: 555+ DEAD IN IRAN (UP FROM 201) — 10+ IN ISRAEL — 6 US — 5 GULF STATES</span>
+      <span class="tk-sep">///</span>
+      <span class="tk-info">🇪🇸 SPAIN REFUSES TO LET US USE BASES FOR IRAN ATTACKS — PM SANCHEZ CONDEMNS STRIKES</span>
+      <span class="tk-sep">///</span>
+      <span class="tk-alert">🇱🇧 LEBANON BANS ALL HEZBOLLAH MILITARY ACTIVITIES AFTER ROCKET ATTACK ON ISRAEL</span>
+      <span class="tk-sep">///</span>
+      <span class="tk-info">🛰️ SPACE FORCE BEGINS ORBITAL WARFARE MANEUVERS WITH NEW TRAINING SATELLITE</span>
+      <span class="tk-sep">///</span>
+      <span class="tk-critical">🇺🇸 TRUMP: ATTACKS ON IRAN WILL CONTINUE UNTIL ALL OBJECTIVES ARE MET</span>
+      <span class="tk-sep">///</span>
+      <span class="tk-alert">🇮🇷 IRAN FM ARAGHCHI: NEW SUPREME LEADER MAY BE CHOSEN WITHIN DAYS</span>
+      <span class="tk-sep">///</span>
+      <span class="tk-info">🇬🇧 UK PM: WILL ALLOW US TO USE UK BASES FOR STRIKES ON IRANIAN MISSILE SITES</span>
+      <span class="tk-sep">///</span>
+      <span class="tk-alert">💣 RUBIO SUGGESTS US STRIKES ON IRAN WERE INFLUENCED BY ISRAELI PLANS</span>
+      <span class="tk-sep">///</span>
+    </div>
+  </div>
+</div>
 
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <script>
@@ -4459,6 +4667,23 @@ updateClocks();
 setInterval(updateClocks, 1000);
 
 // ════════════════════════════════════════
+// WAR DURATION COUNTER
+// ════════════════════════════════════════
+const WAR_START = new Date('2026-02-28T12:00:00Z').getTime();
+function updateWarDuration(){
+  const elapsed = Date.now() - WAR_START;
+  if(elapsed < 0) return;
+  const days = Math.floor(elapsed / 86400000);
+  const hrs = Math.floor((elapsed % 86400000) / 3600000);
+  const mins = Math.floor((elapsed % 3600000) / 60000);
+  const secs = Math.floor((elapsed % 60000) / 1000);
+  const el = document.getElementById('war-duration');
+  if(el) el.textContent = `${days}D ${String(hrs).padStart(2,'0')}:${String(mins).padStart(2,'0')}:${String(secs).padStart(2,'0')}`;
+}
+updateWarDuration();
+setInterval(updateWarDuration, 1000);
+
+// ════════════════════════════════════════
 // AUDIO ALERT SYSTEM
 // ════════════════════════════════════════
 let audioEnabled = false;
@@ -5882,7 +6107,7 @@ window.exportScreenshot = function(){
   });
 };
 
-console.log('🔥 PikeClaw OSINT Dashboard v4.1 — WAR DAY 2');
+console.log('🔥 PikeClaw OSINT Dashboard v4.2 — WAR DAY 4 — 6 US KIA');
 </script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.3/howler.min.js"></script>
@@ -6042,7 +6267,7 @@ console.log('🔥 PikeClaw OSINT Dashboard v4.1 — WAR DAY 2');
 <div id="mission-timer-widget" style="position: fixed; top: 50px; left: 50%; transform: translateX(-50%); z-index: 1000; text-align: center; padding: 15px 30px; background: rgba(0,0,0,0.8); border: 2px solid rgba(239,68,68,0.5); border-radius: 12px; box-shadow: 0 0 30px rgba(239,68,68,0.3);">
   <div class="timer-label">Mission Elapsed Time</div>
   <div class="mission-timer" id="mission-timer">00:00:00</div>
-  <div style="font-size: 9px; color: rgba(255,255,255,0.4); margin-top: 5px;">OP EPIC FURY // DAY 3</div>
+  <div style="font-size: 9px; color: rgba(255,255,255,0.4); margin-top: 5px;">OP EPIC FURY // DAY 4 // 6 KIA</div>
 </div>
 
 <!-- TERMINAL CONSOLE WIDGET -->
@@ -6112,7 +6337,30 @@ const terminalLines = [
   { text: '> SAT LINK ESTABLISHED [IRAN]', type: 'info', delay: 1000 },
   { text: '> INTEL REPORT: KHAMENEI DECEASED', type: 'alert', delay: 2500 },
   { text: '> STRIKE PACKAGE ALPHA: COMPLETE', type: 'info', delay: 4000 },
-  { text: '> WARNING: CIVILIAN CASUALTIES REPORTED', type: '<script>
+  { text: '> WARNING: CIVILIAN CASUALTIES 555+', type: 'alert', delay: 5500 },
+  { text: '> 6 US KIA CONFIRMED — CENTCOM', type: 'alert', delay: 7000 },
+  { text: '> 3 F-15 EAGLES DOWN — KUWAIT', type: 'warning', delay: 8500 },
+  { text: '> QATAR: 2 IRANIAN JETS SHOT DOWN', type: 'info', delay: 10000 },
+  { text: '> IRAN THREATENS TANKERS AT HORMUZ', type: 'alert', delay: 11500 },
+  { text: '> DEFCON 1 — ALL FORCES ALERT', type: 'alert', delay: 13000 },
+];
+let termIdx = 0;
+function addTerminalLine(){
+  if(termIdx >= terminalLines.length) termIdx = 0;
+  const tl = terminalLines[termIdx];
+  const el = document.getElementById('terminal-content');
+  if(!el) return;
+  const line = document.createElement('div');
+  line.className = 'terminal-line ' + tl.type;
+  line.textContent = tl.text;
+  line.style.opacity = '1';
+  el.appendChild(line);
+  if(el.children.length > 8) el.removeChild(el.firstChild);
+  termIdx++;
+}
+setInterval(addTerminalLine, 3000);
+</script>
+<script>
 // GRID OVERLAY EFFECT
 (function initGridOverlay(){
   const canvas = document.createElement('canvas');

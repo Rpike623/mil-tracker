@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-03-02T23:14:14Z",
-  "version": 151,
-  "breaking_alert": "💀 DAY 3 — 3 US KIA, 5 WIA — IRANIAN FRIGATE SUNK — SHIPS ATTACKED AT HORMUZ — STRIKES CONTINUING — 201+ IRANIAN DEAD",
+  "generated_utc": "2026-03-02T23:10:00Z",
+  "version": 133,
+  "breaking_alert": "💀 DAY 4 — 6 US KIA — 3 F-15s DOWN IN KUWAIT (FRIENDLY FIRE?) — QATAR SHOOTS DOWN 2 IRANIAN JETS — IRAN THREATENS TO TORCH TANKERS — 555+ IRANIAN DEAD — STRIKES CONTINUE",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -139,10 +139,10 @@
   "chokepoints": [
     {
       "name": "Strait of Hormuz",
-      "status": "SHIPS ATTACKED — BAN IN EFFECT",
+      "status": "TANKER THREAT — SHIPS ATTACKED",
       "lat": 26.6,
       "lon": 56.3,
-      "note": "Ships attacked near Strait of Hormuz (BBC Mar 1). IRGC ban still in effect. Oil prices jumping. 20% global oil/gas at risk. Commercial tankers avoiding."
+      "note": "Iran threatens to TORCH TANKERS. Ships attacked. IRGC ban in effect. Oil spiking."
     },
     {
       "name": "Bab el-Mandeb",
@@ -246,13 +246,13 @@
     },
     {
       "id": "iran",
-      "name": "💀 OP EPIC FURY — DAY 3",
+      "name": "💀 OP EPIC FURY — DAY 4",
       "lat": 35.7,
       "lng": 51.4,
       "intensity": "CRITICAL",
       "status": "ACTIVE WAR — US CASUALTIES",
-      "update": "DAY 3: 3 US KIA confirmed (first US combat deaths), 5 seriously wounded. Iranian frigate sunk. Ships attacked near Hormuz. 9 dead in Israel from Iranian missiles. Iran continues retaliatory strikes on Gulf states (Dubai, Doha, Manama hit again). Trump: more deaths likely. New supreme leader selection within days per FM Araghchi. UK authorizes base use. Hezbollah vows action but has not engaged.",
-      "day": 3
+      "update": "DAY 4: 6 US KIA confirmed. 3 F-15s crashed in Kuwait (friendly fire?). Qatar downed 2 Iranian jets + intercepted 7 BMs + 5 drones. Iran threatens to torch tankers at Hormuz. 555 dead in Iran, 10+ Israel, 6 US, 5 Gulf states. Spain refuses base access. Lebanon bans Hezbollah military. Trump: attacks continue until all objectives met.",
+      "day": 4
     }
   ],
   "exercises": [
@@ -449,7 +449,7 @@
       "radius_km": 300,
       "active": true,
       "type": "warzone",
-      "notes": "FULL CLOSURE. Iranian ballistic missiles inbound after US-Israel strikes on Iran. Explosions reported in Haifa. IDF intercepting. Citizens ordered to shelters until Mon 20:00. Ben Gurion closed."
+      "notes": "FULL CLOSURE. 10+ dead from Iranian missile/drone strikes. IDF intercepting. Haifa hit. Ben Gurion closed. Citizens in shelters. Hezbollah fired rockets from Lebanon — Lebanon subsequently banned Hezbollah military activities."
     },
     {
       "id": "redsea",
@@ -523,13 +523,13 @@
     },
     {
       "id": "qatar",
-      "name": "🔴 Qatar — Al Udeid AB Under Attack",
+      "name": "🔴 Qatar — Downed 2 Iranian Jets, 7 BMs Intercepted",
       "lat": 25.1,
       "lng": 51.3,
       "radius_km": 200,
       "active": true,
       "type": "warzone",
-      "notes": "BREAKING: Qatar reported Iranian attacks on its territory. Al Udeid AB (largest US base in region, ~10,000 troops) targeted. Qatar: 'successfully countered a number of attacks.' CAOC operations status unknown."
+      "notes": "Qatar downed 2 Iranian fighter jets. Intercepted 7 BMs + 5 drones. Al Udeid AB targeted."
     },
     {
       "id": "uae",
@@ -539,7 +539,7 @@
       "radius_km": 200,
       "active": true,
       "type": "warzone",
-      "notes": "BREAKING: UAE confirmed Iranian missile attack on its territory. 1 killed by falling debris from air defense intercepts. Airspace 'partially and temporarily' closed. Al Dhafra AB (F-22s, tankers) on alert."
+      "notes": "UAE confirmed Iranian missile attacks. 1 Pakistani civilian killed Abu Dhabi, 4 injured Palm Dubai. Airspace partially closed. Al Dhafra AB (F-22s, tankers) on high alert. Total Gulf state deaths: 5."
     },
     {
       "id": "sudan",
@@ -569,17 +569,17 @@
       "radius_km": 150,
       "active": true,
       "type": "warzone",
-      "notes": "Jordan intercepted 2 Iranian ballistic missiles. Not a combatant — Iran broadening retaliation footprint."
+      "notes": "Jordan intercepted 2 Iranian ballistic missiles. Not a combatant — Iran broadening retaliation. Jordanian airspace restricted."
     },
     {
       "id": "kuwait",
-      "name": "🔴 Kuwait — Ali Al-Salem AB Targeted",
+      "name": "🔴 Kuwait — 3 US F-15s Down (Friendly Fire?)",
       "lat": 29.45,
       "lng": 47.72,
       "radius_km": 100,
       "active": true,
       "type": "warzone",
-      "notes": "Iran targeted Ali Al-Salem AB (US Air Force presence). Kuwait intercepted multiple ballistic missiles."
+      "notes": "3 F-15s crashed in Kuwait. CENTCOM: mistakenly shot down. Kuwait investigating."
     },
     {
       "id": "konarak",
@@ -594,6 +594,43 @@
   ],
   "_naval_news_refs": [
     {
+      "title": "South Korea is already preparing for nuclear-powered submarines",
+      "link": "https://www.navalnews.com/naval-news/2026/02/south-korea-is-already-preparing-for-nuclear-powered-submarines/",
+      "published": "Fri, 27 Feb 2026 08:26:14 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Italy moves to transfer Garibaldi aircraft carrier to Indonesia, looking to new programmes",
+      "link": "https://www.navalnews.com/naval-news/2026/02/italy-moves-to-transfer-garibaldi-aircraft-carrier-to-indonesia-looking-to-new-programmes/",
+      "published": "Fri, 27 Feb 2026 09:32:12 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "NAVANTIA offers Denmark strategic cooperation to deliver its naval programmes",
+      "link": "https://www.navalnews.com/naval-news/2026/02/navantia-offers-denmark-strategic-cooperation-to-deliver-its-naval-programmes/",
+      "published": "Fri, 27 Feb 2026 11:56:14 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment",
+        "exercise"
+      ]
+    },
+    {
+      "title": "Canada Taps Safran for Victoria-class Submarine Modernization",
+      "link": "https://www.navalnews.com/naval-news/2026/02/canada-taps-safran-for-victoria-class-submarine-modernization/",
+      "published": "Fri, 27 Feb 2026 12:30:39 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "Swedish Forces Jam Suspected Russian Drone Near French Carrier Charles De Gaulle",
       "link": "https://news.usni.org/2026/02/27/swedish-forces-jam-suspected-russian-drone-near-french-carrier-charles-de-gaulle",
       "published": "Fri, 27 Feb 2026 20:48:29 +0000",
@@ -603,9 +640,19 @@
       ]
     },
     {
-      "title": "CIA tracked Iranian leaders for months ahead of attacks that began with 3 strikes in 60 seconds",
-      "link": "https://www.defensenews.com/flashpoints/middle-east/2026/03/02/cia-tracked-iranian-leaders-for-months-ahead-of-attacks-that-began-with-3-strikes-in-60-seconds/",
-      "published": "Mon, 02 Mar 2026 00:09:14 +0000",
+      "title": "US, Israel launch ‘major combat operations’ in Iran",
+      "link": "https://www.defensenews.com/news/your-military/2026/02/28/us-israel-launch-major-combat-operations-in-iran/",
+      "published": "Sat, 28 Feb 2026 12:51:48 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment",
+        "exercise"
+      ]
+    },
+    {
+      "title": "World leaders fear broader escalation after major US and Israeli attack on Iran",
+      "link": "https://www.defensenews.com/global/mideast-africa/2026/02/28/world-leaders-fear-broader-escalation-after-major-us-and-israeli-attack-on-iran/",
+      "published": "Sat, 28 Feb 2026 13:56:26 +0000",
       "source": "Defense News",
       "categories": [
         "deployment",
@@ -613,84 +660,39 @@
       ]
     },
     {
-      "title": "Chinese Navy Inducts Additional Type 903 Fleet Replenishment Ships",
-      "link": "https://www.navalnews.com/naval-news/2026/03/chinese-navy-inducts-more-type-903-fleet-replenishment-ships/",
-      "published": "Mon, 02 Mar 2026 06:29:00 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Fincantieri lays keel of first U212NFS Submarine",
-      "link": "https://www.navalnews.com/naval-news/2026/03/fincantieri-lays-keel-of-first-u212nfs-submarine/",
-      "published": "Mon, 02 Mar 2026 09:27:49 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "European military installations are  targeted in Iran retaliation",
-      "link": "https://www.defensenews.com/global/europe/2026/03/02/european-military-installations-are-targeted-in-iran-retaliation/",
-      "published": "Mon, 02 Mar 2026 09:32:51 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Fourth US service member killed in action during Iran operations",
-      "link": "https://www.militarytimes.com/news/your-military/2026/03/02/fourth-us-service-member-killed-in-action-during-iran-operations/",
-      "published": "Mon, 02 Mar 2026 12:45:38 +0000",
+      "title": "World leaders fear broader escalation after major US and Israeli attack on Iran",
+      "link": "https://www.militarytimes.com/global/mideast-africa/2026/02/28/world-leaders-fear-broader-escalation-after-major-us-and-israeli-attack-on-iran/",
+      "published": "Sat, 28 Feb 2026 13:56:26 +0000",
       "source": "Military Times",
       "categories": [
         "deployment",
-        "exercise",
         "conflict"
       ]
     },
     {
-      "title": "Greece Deploys FDI Frigate to Shield Cyprus Amid Iran Tensions",
-      "link": "https://www.navalnews.com/naval-news/2026/03/greece-deploys-fdi-frigate-to-shield-cyprus-amid-iran-tensions/",
-      "published": "Mon, 02 Mar 2026 13:32:04 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Future French Ballistic Missile Submarines will be named Invincible-class",
-      "link": "https://www.navalnews.com/naval-news/2026/03/future-french-ballistic-missile-submarines-will-be-named-invincible-class/",
-      "published": "Mon, 02 Mar 2026 15:40:07 +0000",
-      "source": "Naval News",
+      "title": "UPDATED: U.S., Israel Launch Strikes Against Iran, Tehran Retaliates Across Region",
+      "link": "https://news.usni.org/2026/02/28/u-s-israel-launch-operation-epic-fury-against-iran-tehran-retaliates-across-region",
+      "published": "Sat, 28 Feb 2026 16:37:44 +0000",
+      "source": "USNI News",
       "categories": [
         "deployment",
         "conflict"
       ]
     },
     {
-      "title": "Additional troops to deploy to Middle East as Gen. Caine says to expect ‘additional losses’",
-      "link": "https://www.defensenews.com/news/your-military/2026/03/02/additional-troops-to-deploy-to-middle-east-as-gen-caine-says-to-expect-additional-losses/",
-      "published": "Mon, 02 Mar 2026 15:46:47 +0000",
-      "source": "Defense News",
+      "title": "US launches ‘major combat operations’ against Iran",
+      "link": "https://taskandpurpose.com/news/us-israel-combat-bomb-iran/",
+      "published": "Sat, 28 Feb 2026 17:10:36 -0500",
+      "source": "Task & Purpose",
       "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Additional troops to deploy to Middle East as Gen. Caine says to expect ‘additional losses’",
-      "link": "https://www.militarytimes.com/news/your-military/2026/03/02/additional-troops-to-deploy-to-middle-east-as-gen-caine-says-to-expect-additional-losses/",
-      "published": "Mon, 02 Mar 2026 15:46:47 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment"
+        "deployment",
+        "exercise"
       ]
     }
   ],
   "centcom_assets": {
-    "updated": "2026-03-02T01:00:00Z",
-    "summary": "DAY 3: 3 US KIA, 5 WIA confirmed. Iranian frigate sunk by US forces. Abraham Lincoln NOT hit (CENTCOM denied Iranian claims). Strikes continue with F-35C/F/A-18 from CVN-72, DDG Tomahawks, HIMARS ATACMS. UK bases authorized. Ships attacked near Hormuz.",
+    "updated": "2026-03-02T23:10:00Z",
+    "summary": "DAY 4: 6 US KIA. 3 F-15s down Kuwait (friendly fire). Qatar engaged Iranian jets. Strikes continuing.",
     "troops_total": "~40,000",
     "naval": [
       {
@@ -850,9 +852,9 @@
       ]
     },
     {
-      "title": "CIA tracked Iranian leaders for months ahead of attacks that began with 3 strikes in 60 seconds",
-      "link": "https://www.defensenews.com/flashpoints/middle-east/2026/03/02/cia-tracked-iranian-leaders-for-months-ahead-of-attacks-that-began-with-3-strikes-in-60-seconds/",
-      "published": "Mon, 02 Mar 2026 00:09:14 +0000",
+      "title": "World leaders fear broader escalation after major US and Israeli attack on Iran",
+      "link": "https://www.defensenews.com/global/mideast-africa/2026/02/28/world-leaders-fear-broader-escalation-after-major-us-and-israeli-attack-on-iran/",
+      "published": "Sat, 28 Feb 2026 13:56:26 +0000",
       "source": "Defense News",
       "categories": [
         "deployment",
@@ -860,38 +862,102 @@
       ]
     },
     {
-      "title": "Fourth US service member killed in action during Iran operations",
-      "link": "https://www.militarytimes.com/news/your-military/2026/03/02/fourth-us-service-member-killed-in-action-during-iran-operations/",
-      "published": "Mon, 02 Mar 2026 12:45:38 +0000",
+      "title": "World leaders fear broader escalation after major US and Israeli attack on Iran",
+      "link": "https://www.militarytimes.com/global/mideast-africa/2026/02/28/world-leaders-fear-broader-escalation-after-major-us-and-israeli-attack-on-iran/",
+      "published": "Sat, 28 Feb 2026 13:56:26 +0000",
       "source": "Military Times",
       "categories": [
         "deployment",
-        "exercise",
         "conflict"
       ]
     },
     {
-      "title": "Future French Ballistic Missile Submarines will be named Invincible-class",
-      "link": "https://www.navalnews.com/naval-news/2026/03/future-french-ballistic-missile-submarines-will-be-named-invincible-class/",
-      "published": "Mon, 02 Mar 2026 15:40:07 +0000",
-      "source": "Naval News",
+      "title": "UPDATED: U.S., Israel Launch Strikes Against Iran, Tehran Retaliates Across Region",
+      "link": "https://news.usni.org/2026/02/28/u-s-israel-launch-operation-epic-fury-against-iran-tehran-retaliates-across-region",
+      "published": "Sat, 28 Feb 2026 16:37:44 +0000",
+      "source": "USNI News",
       "categories": [
         "deployment",
         "conflict"
       ]
     },
     {
-      "title": "Veterans ‘split’ over Iran strikes. Some see payback, others see another ‘forever war’",
-      "link": "https://taskandpurpose.com/news/veterans-iran-war/",
-      "published": "Mon, 02 Mar 2026 16:06:16 -0500",
+      "title": "US confirms first combat use of LUCAS one-way attack drone in Iran strikes",
+      "link": "https://www.defensenews.com/news/your-military/2026/02/28/us-confirms-first-combat-use-of-lucas-one-way-attack-drone-in-iran-strikes/",
+      "published": "Sat, 28 Feb 2026 18:41:36 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
+    },
+    {
+      "title": "3 US troops killed, 5 wounded in operations against Iran",
+      "link": "https://taskandpurpose.com/news/casualties-operation-epic-fury/",
+      "published": "Sun, 01 Mar 2026 10:36:45 -0500",
       "source": "Task & Purpose",
       "categories": [
         "deployment",
         "conflict"
       ]
+    },
+    {
+      "title": "More blasts rock Dubai, Doha and Manama as Iran targets US assets in Gulf",
+      "link": "https://www.aljazeera.com/news/2026/3/1/more-blasts-rock-dubai-doha-and-manama",
+      "published": "Sat, 01 Mar 2026 20:00:00 +0000",
+      "source": "Al Jazeera",
+      "categories": [
+        "conflict"
+      ]
+    },
+    {
+      "title": "Nine dead in missile attack on Israel as Iran strikes region",
+      "link": "https://www.bbc.com/news/articles/c363zkp1pgxo",
+      "published": "Sun, 01 Mar 2026 22:00:00 +0000",
+      "source": "BBC",
+      "categories": [
+        "conflict"
+      ]
+    },
+    {
+      "title": "Oil prices jump after ships attacked near Strait of Hormuz",
+      "link": "https://www.bbc.com/news/articles/c75evve6l63o",
+      "published": "Mon, 02 Mar 2026 01:00:00 +0000",
+      "source": "BBC",
+      "categories": [
+        "conflict"
+      ]
+    },
+    {
+      "title": "UK will allow US to use bases to strike Iranian missile sites",
+      "link": "https://www.bbc.com/news/articles/cqj9g11p1ezo",
+      "published": "Sun, 01 Mar 2026 23:00:00 +0000",
+      "source": "BBC",
+      "categories": [
+        "conflict"
+      ]
+    },
+    {
+      "title": "Trump warns there will likely be more US deaths in Iran conflict",
+      "link": "https://www.bbc.com/news/videos/cwykxdy4p5lo",
+      "published": "Sun, 01 Mar 2026 22:00:00 +0000",
+      "source": "BBC",
+      "categories": [
+        "conflict"
+      ]
     }
   ],
   "_exercise_news_refs": [
+    {
+      "title": "NAVANTIA offers Denmark strategic cooperation to deliver its naval programmes",
+      "link": "https://www.navalnews.com/naval-news/2026/02/navantia-offers-denmark-strategic-cooperation-to-deliver-its-naval-programmes/",
+      "published": "Fri, 27 Feb 2026 11:56:14 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment",
+        "exercise"
+      ]
+    },
     {
       "title": "U.S. Army Attack Helicopters Hold Maritime Attack Drills in the Pacific",
       "link": "https://news.usni.org/2026/02/27/u-s-army-attack-helicopters-hold-maritime-attack-drills-in-the-pacific",
@@ -903,55 +969,67 @@
       ]
     },
     {
-      "title": "Space Force can finally start ‘orbital warfare’ maneuvers with new satellite",
-      "link": "https://taskandpurpose.com/news/space-force-orbital-warfare-training-satellite/",
-      "published": "Mon, 02 Mar 2026 08:07:00 -0500",
-      "source": "Task & Purpose",
-      "categories": [
-        "exercise"
-      ]
-    },
-    {
-      "title": "Fourth US service member killed in action during Iran operations",
-      "link": "https://www.militarytimes.com/news/your-military/2026/03/02/fourth-us-service-member-killed-in-action-during-iran-operations/",
-      "published": "Mon, 02 Mar 2026 12:45:38 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment",
-        "exercise",
-        "conflict"
-      ]
-    },
-    {
-      "title": "6 US troops killed, others wounded in operations against Iran",
-      "link": "https://taskandpurpose.com/news/casualties-operation-epic-fury/",
-      "published": "Mon, 02 Mar 2026 16:15:50 -0500",
-      "source": "Task & Purpose",
-      "categories": [
-        "deployment",
-        "exercise",
-        "conflict"
-      ]
-    },
-    {
-      "title": "Six dead, 18 service members injured in Iran operation",
-      "link": "https://www.defensenews.com/news/your-military/2026/03/02/six-dead-18-service-members-injured-in-iran-operation/",
-      "published": "Mon, 02 Mar 2026 21:13:28 +0000",
+      "title": "US, Israel launch ‘major combat operations’ in Iran",
+      "link": "https://www.defensenews.com/news/your-military/2026/02/28/us-israel-launch-major-combat-operations-in-iran/",
+      "published": "Sat, 28 Feb 2026 12:51:48 +0000",
       "source": "Defense News",
       "categories": [
         "deployment",
         "exercise"
       ]
+    },
+    {
+      "title": "US launches ‘major combat operations’ against Iran",
+      "link": "https://taskandpurpose.com/news/us-israel-combat-bomb-iran/",
+      "published": "Sat, 28 Feb 2026 17:10:36 -0500",
+      "source": "Task & Purpose",
+      "categories": [
+        "deployment",
+        "exercise"
+      ]
+    },
+    {
+      "title": "3 US troops killed, 5 wounded in operations against Iran",
+      "link": "https://taskandpurpose.com/news/casualties-operation-epic-fury/",
+      "published": "Sun, 01 Mar 2026 10:36:45 -0500",
+      "source": "Task & Purpose",
+      "categories": [
+        "deployment",
+        "exercise",
+        "conflict"
+      ]
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 28,
-    "conflict_articles": 13,
-    "exercise_articles": 9,
+    "deployment_articles": 33,
+    "conflict_articles": 15,
+    "exercise_articles": 7,
     "total_articles": 50,
-    "computed_at": "2026-03-02T23:14:13.793759+00:00",
-    "manual_override": "DEFCON_2",
+    "computed_at": "2026-03-02T23:00:00.000000+00:00",
+    "manual_override": "DEFCON_1",
     "breaking_events": [
+      "6 US KIA total — CENTCOM Mar 2",
+      "3 F-15s crashed Kuwait — friendly fire",
+      "Qatar downed 2 Iranian jets + 7 BMs + 5 drones",
+      "Iran: TORCH TANKERS at Hormuz",
+      "555 dead Iran, 10+ Israel, 6 US, 5 Gulf",
+      "Spain refuses base access",
+      "Lebanon bans Hezbollah military",
+      "Trump: attacks continue until all objectives met",
+      "6 US service members killed total — CENTCOM Mar 2",
+      "3 F-15 fighter jets crashed in Kuwait — possible friendly fire",
+      "Qatar downed 2 Iranian fighter jets + intercepted 7 BMs + 5 drones",
+      "Iran threatens to TORCH TANKERS at Strait of Hormuz",
+      "Death toll: 555 dead in Iran, 10+ Israel, 6 US, 5 Gulf states",
+      "Spain refuses to let US use bases — PM Sanchez condemns",
+      "Lebanon bans ALL Hezbollah military activities",
+      "Trump: attacks continue until ALL objectives met",
+      "Death toll updated: 555 dead in Iran (up from 201), 10+ Israel, 6 US, 5 Gulf states",
+      "Rubio suggests US strikes on Iran were influenced by Israeli plans",
+      "Trump: attacks on Iran will continue until ALL objectives are met",
+      "Space Force begins orbital warfare maneuvers with new training satellite",
+      "Iran revised military strategy since June 2025 12-day war with Israel — analysts",
+      "Iran near-total internet blackout continues (NetBlocks)",
       "KHAMENEI CONFIRMED DEAD — Trump + Netanyahu + 2 Israeli officials (22:12 UTC)",
       "ALSO KILLED: IRGC commander, Defense Minister, Security Council secretary",
       "Iran Red Crescent: 201 killed, 747 injured — 24 of 31 provinces struck",
@@ -967,23 +1045,7 @@
       "UAE: Pakistani civilian killed Abu Dhabi, 4 injured Palm Dubai",
       "Bahrain: 3 residential buildings damaged by drone/debris Manama/Muharraq",
       "Iran fired ~150 ballistic missiles + dozens of drones at Israel — teen injured shrapnel",
-      "IRGC radio to ships: No vessel allowed through Strait of Hormuz",
-      "Trump: bombing continues uninterrupted through the week or longer",
-      "Iran near-total internet blackout (NetBlocks confirmed)",
-      "IAEA: no evidence of radiological impact",
-      "Second US attack on Iran — first was June 2025 nuclear facilities strike",
-      "3 US service members killed, 5 seriously wounded — first US combat deaths (CENTCOM Mar 1)",
-      "US forces sank Iranian frigate (CENTCOM Mar 1)",
-      "CENTCOM: Abraham Lincoln NOT hit — Iranian missiles \"didn't even come close\"",
-      "Ships attacked near Strait of Hormuz — oil prices jump (BBC Mar 1)",
-      "9 dead in Israel from Iranian missile/drone strikes",
-      "More blasts rock Dubai, Doha, Manama — Iran targets US assets in Gulf (Day 2-3)",
-      "Iranian drone crash-landed on fire in Kuwait (video)",
-      "UK PM: will allow US to use UK bases for strikes on Iranian missile sites",
-      "Iran FM Araghchi: new supreme leader may be chosen within days",
-      "Hezbollah vows to confront US/Israel but has NOT engaged militarily yet",
-      "Trump: \"there will likely be more\" US deaths, strikes continue through the week",
-      "Iran Red Crescent: death toll still 201 killed, 747 injured across 24 of 31 provinces"
+      "IRGC radio to ships: No vessel allowed through Strait of Hormuz"
     ]
   }
 }
