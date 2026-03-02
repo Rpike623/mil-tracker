@@ -456,82 +456,98 @@ body::after{
 /* Mobile */
 @media(max-width:768px){
   body{overflow-y:auto;overflow-x:hidden;height:auto}
-  .main-area{flex-direction:column;height:auto}
-  .map-pane{height:60vw;min-height:260px;max-height:55vh;flex:none}
-  #map{position:absolute;top:0;left:0;right:0;bottom:0}
-  .right-panel{width:100%;height:auto;max-height:none;border-left:none;border-top:1px solid rgba(56,189,248,.1)}
-  .rp-tabs{overflow-x:auto}
-  .rp-tab{min-width:60px;font-size:8px;padding:6px 3px}
-  .bottom-row{flex-direction:column;height:auto}
-  .br-pane{height:160px;border-right:none;border-bottom:1px solid rgba(56,189,248,.06)}
-  .status-bar{overflow-x:auto;flex-wrap:nowrap}
-  .sb-cell{padding:0 10px}
 
-  /* Topbar: collapse overflow, show only essentials + hamburger */
+  /* ── MAP: Give it real estate ── */
+  .main-area{flex-direction:column;height:auto}
+  .map-pane{height:55vh;min-height:300px;max-height:65vh;flex:none}
+  #map{position:absolute;top:0;left:0;right:0;bottom:0}
+
+  /* ── RIGHT PANEL: collapsed by default, expandable ── */
+  .right-panel{width:100%;max-height:45vh;border-left:none;border-top:1px solid rgba(56,189,248,.15);overflow-y:auto;-webkit-overflow-scrolling:touch}
+  .rp-tabs{overflow-x:auto;-webkit-overflow-scrolling:touch;position:sticky;top:0;z-index:10;background:rgba(5,8,15,.98)}
+  .rp-tab{min-width:55px;font-size:8px;padding:7px 4px;flex-shrink:0}
+  .rp-tab-content{min-height:200px}
+
+  /* ── BOTTOM ROW: tabbed single panel ── */
+  .bottom-row{flex-direction:column;height:auto;max-height:220px;overflow:hidden}
+  .br-pane{display:none!important;border-right:none;border-bottom:1px solid rgba(56,189,248,.06);height:180px!important;flex-shrink:0;width:100%!important}
+  .br-pane:first-child{display:flex!important}
+  .br-pane.mob-active{display:flex!important}
+
+  /* ── STATUS BAR: compact, hide less critical cells ── */
+  .status-bar{overflow-x:auto;flex-wrap:nowrap;-webkit-overflow-scrolling:touch}
+  .sb-cell{padding:0 8px}
+  .sb-spacer{display:none}
+  /* Hide less-critical status cells on mobile */
+  .sb-cell[title="Hormuz status"],
+  .sb-cell[title="Iran internet"],
+  .sb-cell[title="UN Security Council meeting"]{display:none}
+
+  /* ── TOPBAR: compact ── */
   .topbar{padding:5px 8px;position:sticky;top:0;z-index:9999;flex-wrap:nowrap;overflow:hidden;justify-content:flex-start}
   .topbar .logo{font-size:11px;letter-spacing:1px;margin-right:6px;white-space:nowrap;flex-shrink:0}
-  /* Show only country filter buttons + search + hamburger; hide the rest */
   .topbar .tb-btn:not(.mob-always):not([id^="bc-"]):not([onclick="fetchData()"]):not(.tile-btn){display:none}
   .topbar .tb-sep{display:none}
   .topbar .tb-label{display:none}
   .topbar .hb-live{display:none}
   #hb-time{display:none}
-  .tb-search{width:80px;flex-shrink:0}
-  .mob-menu-btn{display:flex;align-items:center;margin-left:auto;flex-shrink:0}
+  /* Iran ticker: compact on mobile */
+  #iran-ticker{padding:2px 6px!important;margin-right:4px!important}
+  #iran-ticker-text{font-size:7px!important;letter-spacing:.8px!important;max-width:100px;overflow:hidden;text-overflow:ellipsis}
+  .tb-search{width:70px;flex-shrink:0;font-size:10px}
+  .mob-menu-btn{display:flex;align-items:center;margin-left:auto;flex-shrink:0;padding:8px 12px;font-size:18px;min-width:44px;min-height:44px;justify-content:center}
 
   /* Country buttons: compact */
-  #bc-all,#bc-us,#bc-iran,#bc-russia,#bc-china,#bc-allied{padding:4px 6px;font-size:10px}
-  /* Tile buttons stay hidden on mobile (moved to drawer) */
+  #bc-all,#bc-us,#bc-iran,#bc-russia,#bc-china,#bc-allied{padding:5px 7px;font-size:10px;min-height:32px}
   .topbar .tile-btn{display:none}
-  /* Refresh button stays */
-  .topbar button[onclick="fetchData()"]{display:inline-flex!important;padding:4px 7px;font-size:10px}
+  .topbar button[onclick="fetchData()"]{display:inline-flex!important;padding:5px 8px;font-size:10px;min-height:32px}
 
-  /* Clock bar: scroll horizontally */
-  .clock-bar{flex-wrap:nowrap;overflow-x:auto;-webkit-overflow-scrolling:touch}
-  .clock-cell{min-width:68px;padding:3px 8px}
-  .clock-label{font-size:7px}
-  .clock-time{font-size:11px}
-  #clk-zulu{font-size:13px}
+  /* ── INFO PANEL: full-width, bigger dismiss button ── */
+  .infopanel{left:8px!important;right:8px!important;width:auto!important;bottom:8px!important;max-height:50vh!important}
+  .infopanel .x{width:44px;height:44px;font-size:24px;border-radius:4px}
+  .infopanel .ip-head{padding:10px 12px}
 
-  /* Info panel: full-width near bottom */
-  .infopanel{left:8px!important;right:8px!important;width:auto!important;bottom:8px!important;max-height:45vh!important}
-  .infopanel .x{width:36px;height:36px;font-size:22px}
+  /* ── REGION BUTTONS: horizontal strip at bottom of map ── */
+  .region-btns{flex-direction:row;flex-wrap:nowrap;bottom:8px;left:8px;right:8px;gap:4px;max-width:none;overflow-x:auto;-webkit-overflow-scrolling:touch}
+  .region-btns button{font-size:9px;padding:6px 10px;white-space:nowrap;flex-shrink:0;min-height:32px}
 
-  /* Region buttons: horizontal row at bottom-left */
-  .region-btns{flex-direction:row;flex-wrap:wrap;bottom:8px;left:8px;gap:4px;max-width:calc(100% - 16px)}
-  .region-btns button{font-size:9px;padding:4px 7px}
-
-  /* Map legend: hidden on mobile (use drawer) */
+  /* Map legend: hidden on mobile */
   .map-legend{display:none}
+  /* Radar overlay: hide on mobile */
+  .radar-overlay{display:none!important}
+  /* Map particles: reduce on mobile */
+  .map-particles{display:none}
 
-  /* Boot screen: scale to mobile */
-  .boot-screen{padding:20px 16px}
-  .boot-line{font-size:10px}
-  .boot-line.head{font-size:11px;letter-spacing:1px}
-  .boot-line.ascii{font-size:8px}
-  .boot-progress{width:100%}
+  /* ── BOOT SCREEN: mobile friendly ── */
+  .boot-screen{padding:16px 12px}
+  .bs-inner{flex-direction:column;width:100%;gap:16px}
+  .bs-left{width:100%;flex-direction:row;flex-wrap:wrap;gap:4px;padding:0;justify-content:center}
+  .bs-coord-item{font-size:7px;padding:0 4px}
+  .bs-radar-wrap{width:180px;height:180px;margin:0 auto}
+  .bs-right{padding:0;width:100%}
+  .bs-title{font-size:9px;letter-spacing:2px;text-align:center}
+  .bs-subtitle{font-size:7px;letter-spacing:1.5px;text-align:center}
+  .bs-item{font-size:8px}
+  .bs-locktext{font-size:10px;letter-spacing:3px}
 
-  /* Bottom info bar: stack vertically */
-  .bottom-bar{flex-direction:column!important;height:auto!important}
-  .bottom-bar > div{width:100%!important;min-width:0!important;max-width:none!important;border-right:none!important;border-bottom:1px solid rgba(56,189,248,.1)!important;height:160px!important;flex-shrink:0!important}
-  .bottom-bar > div:last-child{border-bottom:none!important}
-  /* News strip and polymarket: horizontal scroll within */
-  #polyStrip,#newsStrip{overflow-x:auto;overflow-y:hidden;display:flex;align-items:stretch}
-
-  /* Briefing modal: full screen */
+  /* ── BRIEFING MODAL: full screen ── */
   .brief-modal{width:100%;max-width:none;max-height:90vh;border-radius:0;border-left:0;border-right:0}
 
-  /* Nuke panel: full width at bottom */
+  /* Nuke panel: full width */
   .nuke-panel{left:8px!important;right:8px!important;bottom:8px!important;width:auto!important}
 
-  /* Hide cinema label on mobile */
+  /* Hide cosmetic overlays */
   .cinema-label{display:none!important}
-
-  /* Hide floating overlay widgets on mobile — they cover the map */
   #mission-timer-widget,
   #terminal-widget,
   #audio-viz-widget,
-  #atmosphere-widget { display:none!important; }
+  #atmosphere-widget{display:none!important}
+
+  /* News strip and polymarket: horizontal scroll */
+  #polyStrip,#newsStrip{overflow-x:auto;overflow-y:hidden;display:flex;align-items:stretch;-webkit-overflow-scrolling:touch}
+
+  /* Boot skip button: bigger on mobile */
+  .boot-skip-btn{font-size:12px!important;padding:10px 24px!important;bottom:30px!important}
 }
 
 /* ── WIDGET SYSTEM (legacy removed) ── */
@@ -584,12 +600,7 @@ body::after{
 .poly-card .pc-fill{height:100%;border-radius:2px;transition:width .5s}
 .poly-card .pc-vol{font-size:9px;color:var(--muted)}
 
-/* ── TOP BAR ── */
-/* Clock bar */
-/* Clock bar now lives inline in the status bar */
-.clock-bar{display:none} /* Hidden — clocks moved to status bar */
-.clock-cell,.clock-label,.clock-time{} /* kept for JS refs */
-#clk-zulu{}
+/* ════ LEGACY DUPLICATE BLOCK REMOVED — primary styles above ════ */
 
 /* DEFCON meter */
 .defcon-meter{display:flex;gap:3px;margin:8px 0}
@@ -669,110 +680,7 @@ body::after{
 .tb-search::placeholder{color:#3a4560}
 .tb-label{font-size:10px;color:var(--muted);text-transform:uppercase;letter-spacing:.5px;white-space:nowrap}
 
-/* ── MAIN BODY ── */
-.main{flex:1;display:flex;overflow:hidden;min-height:0}
-
-/* ── MAP AREA ── */
-.map-wrap{flex:1;position:relative;min-width:0}
-#map{position:absolute;inset:0}
-
-/* ── RIGHT PANEL ── */
-.rpanel{width:320px;flex-shrink:0;background:var(--panel);border-left:1px solid var(--border);display:flex;flex-direction:column;overflow:hidden}
-.rpanel-tabs{display:flex;border-bottom:1px solid var(--border);flex-shrink:0}
-.rpanel-tabs .tab{flex:1;padding:8px 4px;text-align:center;font-size:11px;cursor:pointer;color:var(--muted);border-bottom:2px solid transparent;transition:all .15s;user-select:none}
-.rpanel-tabs .tab:hover{color:var(--text)}
-.rpanel-tabs .tab.active{color:var(--accent);border-bottom-color:var(--accent)}
-.rpanel-body{flex:1;overflow-y:auto;overflow-x:hidden}
-.rpanel-body::-webkit-scrollbar{width:4px}
-.rpanel-body::-webkit-scrollbar-track{background:#0d111c}
-.rpanel-body::-webkit-scrollbar-thumb{background:#1e2a42;border-radius:2px}
-
-/* Right panel sections */
-.rp-section{padding:10px 12px 4px;font-size:10px;text-transform:uppercase;letter-spacing:.6px;color:var(--muted);border-bottom:1px solid var(--border)}
-.rp-section.mt{margin-top:4px}
-
-/* News cards */
-.news-card{padding:10px 12px;border-bottom:1px solid var(--border);cursor:pointer;transition:background .15s}
-.news-card:hover{background:rgba(59,130,246,.06)}
-.news-card .nc-src{font-size:10px;color:var(--accent);font-weight:600;margin-bottom:3px;text-transform:uppercase;letter-spacing:.4px}
-.news-card .nc-title{font-size:12px;line-height:1.4;color:var(--text);margin-bottom:4px}
-.news-card .nc-meta{font-size:10px;color:var(--muted)}
-.news-card.alert .nc-src{color:var(--red)}
-.news-card.alert{border-left:2px solid var(--red)}
-
-/* Stats panel */
-.stat-block{padding:10px 12px;border-bottom:1px solid var(--border)}
-.stat-block .sb-label{font-size:10px;color:var(--muted);margin-bottom:6px;text-transform:uppercase;letter-spacing:.5px}
-.country-row{display:flex;align-items:center;gap:6px;margin-bottom:5px;font-size:12px}
-.country-row .cr-flag{width:18px;text-align:center}
-.country-row .cr-name{flex:1;color:var(--muted)}
-.country-row .cr-bar-wrap{width:80px;height:6px;background:#111827;border-radius:3px;overflow:hidden}
-.country-row .cr-bar{height:100%;border-radius:3px;transition:width .3s}
-.country-row .cr-count{width:24px;text-align:right;font-weight:600;color:var(--text)}
-.type-row{display:flex;align-items:center;gap:6px;margin-bottom:4px;font-size:11px}
-.type-row .tr-icon{width:16px;text-align:center}
-.type-row .tr-name{flex:1;color:var(--muted)}
-.type-row .tr-bar-wrap{width:70px;height:5px;background:#111827;border-radius:3px;overflow:hidden}
-.type-row .tr-bar{height:100%;border-radius:3px;transition:width .3s}
-.type-row .tr-count{width:24px;text-align:right;font-weight:600;color:var(--text)}
-
-/* Alerts panel */
-.zone-card{padding:8px 12px;border-bottom:1px solid var(--border);display:flex;justify-content:space-between;align-items:center}
-.zone-card .zc-name{font-size:12px;color:var(--text)}
-.zone-card .zc-count{font-size:14px;font-weight:700}
-.zone-card.hot{border-left:2px solid var(--red)}
-.zone-card.warm{border-left:2px solid var(--orange)}
-
-/* Activity feed */
-.feed-item{padding:6px 12px;border-bottom:1px solid var(--border);display:flex;align-items:center;gap:6px;font-size:11px}
-.feed-item .fi-flag{flex-shrink:0}
-.feed-item .fi-call{font-weight:600;color:var(--text);flex-shrink:0}
-.feed-item .fi-type{color:var(--muted)}
-.feed-item .fi-alt{margin-left:auto;color:var(--muted);flex-shrink:0}
-
-/* Briefing modal */
-.brief-overlay{position:fixed;inset:0;z-index:90000;background:rgba(0,0,0,.85);display:none;align-items:center;justify-content:center;backdrop-filter:blur(4px)}
-.brief-overlay.vis{display:flex}
-.brief-modal{background:#000;border:1px solid rgba(56,189,248,.3);border-radius:2px;width:90%;max-width:600px;max-height:85vh;overflow-y:auto;box-shadow:0 0 60px rgba(56,189,248,.15);position:relative}
-.brief-modal::before{content:'';position:absolute;top:0;left:0;right:0;height:1px;background:linear-gradient(90deg,transparent,rgba(56,189,248,.7),transparent)}
-.brief-head{padding:12px 16px;background:rgba(0,8,0,.8);border-bottom:1px solid rgba(56,189,248,.1);display:flex;justify-content:space-between;align-items:center;position:sticky;top:0;z-index:2}
-.brief-head h2{font-size:14px;color:var(--accent);font-family:'Orbitron','Share Tech Mono',monospace;letter-spacing:2px;margin:0}
-.brief-body{padding:16px}
-.brief-section{margin-bottom:16px}
-.brief-section h3{font-size:11px;color:var(--accent);font-family:'Share Tech Mono',monospace;letter-spacing:1.5px;text-transform:uppercase;margin-bottom:8px;padding-bottom:4px;border-bottom:1px solid rgba(56,189,248,.1)}
-.brief-stat{display:flex;justify-content:space-between;padding:4px 0;font-size:11px;border-bottom:1px solid rgba(56,189,248,.04)}
-.brief-stat .bs-label{color:var(--muted)}
-.brief-stat .bs-value{color:var(--text);font-weight:700;font-family:'Share Tech Mono',monospace}
-
-/* Region quick-jump */
-.region-btns{position:absolute;bottom:10px;left:10px;z-index:400;display:flex;flex-direction:column;gap:3px}
-.region-btns button{background:rgba(13,17,28,0.88);border:1px solid var(--border2);color:var(--muted);padding:4px 8px;border-radius:4px;cursor:pointer;font-size:10px;text-align:left;transition:all .15s}
-.region-btns button:hover{color:var(--text);border-color:var(--accent)}
-
-/* Alert zones */
-.map-legend{position:absolute;top:10px;right:10px;z-index:400;background:rgba(13,17,28,0.88);border:1px solid var(--border2);border-radius:6px;padding:8px 10px;font-size:10px}
-.map-legend .ml-row{display:flex;align-items:center;gap:6px;margin-bottom:3px;color:var(--muted)}
-.map-legend .ml-row .ml-dot{width:8px;height:8px;border-radius:50%;flex-shrink:0}
-
-/* ── TICKER ── */
-.ticker{flex-shrink:0;height:30px;background:rgba(0,0,0,.7);border-top:1px solid var(--border);overflow:hidden;position:relative}
-.ticker-inner{display:flex;align-items:center;height:100%;white-space:nowrap;animation:ticker-scroll 80s linear infinite}
-.ticker-inner:hover{animation-play-state:paused}
-.ticker-item{padding:0 32px;font-size:11px;color:var(--muted)}
-.ticker-item .ti-src{color:var(--accent);font-weight:700;margin-right:6px}
-.ticker-item .ti-sep{color:var(--border2);margin:0 8px}
-@keyframes ticker-scroll{0%{transform:translateX(100vw)}100%{transform:translateX(-100%)}}
-
-/* Leaflet overrides */
-.leaflet-popup-content-wrapper{background:#0d111c;color:var(--text);border-radius:8px;border:1px solid var(--border2)}
-.leaflet-popup-tip{background:#0d111c}
-.dark-tooltip{background:rgba(13,17,28,.95)!important;color:var(--text)!important;border:1px solid var(--border2)!important;border-radius:5px!important;font-size:11px!important;padding:3px 7px!important;box-shadow:0 2px 8px rgba(0,0,0,.5)!important}
-
-/* Loading */
-.loading-ov{position:absolute;inset:0;z-index:600;background:rgba(10,14,23,.85);display:flex;align-items:center;justify-content:center;flex-direction:column;gap:8px}
-.loading-ov .sp{font-size:32px;animation:spin 1s linear infinite;display:inline-block}
-.loading-ov .st{color:var(--muted);font-size:13px}
-@keyframes spin{to{transform:rotate(360deg)}}
+/* ════ LEGACY DUPLICATE BLOCK #2 REMOVED — see primary styles above ════ */
 
 /* ═══ RADAR BOOT SEQUENCE ═══ */
 .boot-screen{position:fixed;inset:0;z-index:99999;background:#000;display:flex;align-items:center;justify-content:center;overflow:hidden;font-family:'Share Tech Mono',monospace}
@@ -846,6 +754,24 @@ body::after{
 .nuke-panel select,.nuke-panel button{background:rgba(0,8,0,.9);border:1px solid rgba(56,189,248,.15);color:var(--accent);padding:4px 8px;font-family:'Share Tech Mono',monospace;font-size:10px;border-radius:2px;width:100%;cursor:pointer}
 .nuke-panel button:hover{border-color:var(--accent);box-shadow:0 0 8px rgba(56,189,248,.2)}
 
+/* Boot skip button */
+.boot-skip-btn{
+  position:absolute;bottom:20px;left:50%;transform:translateX(-50%);z-index:20;
+  background:rgba(56,189,248,.1);border:1px solid rgba(56,189,248,.3);color:var(--accent);
+  padding:8px 20px;border-radius:4px;cursor:pointer;font-family:'Share Tech Mono',monospace;
+  font-size:11px;font-weight:700;letter-spacing:2px;text-transform:uppercase;
+  transition:all .2s;backdrop-filter:blur(4px);
+}
+.boot-skip-btn:hover{background:rgba(56,189,248,.2);box-shadow:0 0 16px rgba(56,189,248,.3)}
+
+/* Mobile bottom-row tab switcher */
+.mob-bottom-tabs{display:none;background:rgba(5,8,15,.98);border-top:1px solid rgba(56,189,248,.1);border-bottom:1px solid rgba(56,189,248,.08)}
+.mob-bottom-tab{flex:1;padding:8px 4px;text-align:center;font-size:9px;font-weight:700;letter-spacing:.5px;text-transform:uppercase;font-family:'Share Tech Mono',monospace;cursor:pointer;color:var(--muted);border-bottom:2px solid transparent;transition:all .15s}
+.mob-bottom-tab.active{color:var(--accent);border-bottom-color:var(--accent);background:rgba(56,189,248,.04)}
+@media(max-width:768px){
+  .mob-bottom-tabs{display:flex}
+}
+
 /* (mobile styles consolidated above) */
 </style>
 <!-- LAST_UPDATE: 2026-03-01T23:12:46Z -->
@@ -895,6 +821,7 @@ body::after{
       <div class="bs-locktext" id="bs-locktext">TARGET LOCK — INITIALIZING</div>
     </div>
   </div>
+  <button class="boot-skip-btn" id="bootSkipBtn" onclick="skipBoot()">SKIP ▶</button>
 </div>
 
 <!-- BRIEFING MODAL -->
@@ -1231,6 +1158,12 @@ body::after{
 
 </div><!-- end .main-area -->
 
+<!-- MOBILE BOTTOM TAB SWITCHER -->
+<div class="mob-bottom-tabs" id="mobBottomTabs">
+  <div class="mob-bottom-tab active" onclick="switchMobBottom(0,this)">📰 News</div>
+  <div class="mob-bottom-tab" onclick="switchMobBottom(1,this)">🎲 Markets</div>
+  <div class="mob-bottom-tab" onclick="switchMobBottom(2,this)">🚀 Launches</div>
+</div>
 <!-- ════════════════════════════════════════════════════════════════ -->
 <!-- BOTTOM ROW: NEWS | MARKETS+FX | LAUNCHES+MISC                   -->
 <!-- ════════════════════════════════════════════════════════════════ -->
@@ -1946,6 +1879,27 @@ body::after{
   },5400);
 
 })();
+
+// ── Boot skip button ──
+function skipBoot(){
+  const screen = document.getElementById('bootScreen');
+  if(!screen) return;
+  screen.style.transition='opacity .3s';
+  screen.style.opacity='0';
+  setTimeout(()=>{ try{screen.remove();}catch(_){} },350);
+}
+
+// ── Mobile bottom-row tab switcher ──
+function switchMobBottom(idx, btn){
+  const panes = document.querySelectorAll('.bottom-row > .br-pane');
+  panes.forEach((p,i)=>{
+    p.classList.toggle('mob-active', i === idx);
+    if(i === 0 && idx !== 0) p.style.display = 'none';
+    if(i === idx) p.style.display = 'flex';
+  });
+  document.querySelectorAll('.mob-bottom-tab').forEach(t => t.classList.remove('active'));
+  if(btn) btn.classList.add('active');
+}
 
 // ════════════════════════════════════════
 // MAP SETUP
