@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-03-02T21:22:34Z",
-  "version": 149,
+  "generated_utc": "2026-03-02T22:16:42Z",
+  "version": 150,
   "breaking_alert": "💀 DAY 3 — 3 US KIA, 5 WIA — IRANIAN FRIGATE SUNK — SHIPS ATTACKED AT HORMUZ — STRIKES CONTINUING — 201+ IRANIAN DEAD",
   "naval_deployments": [
     {
@@ -949,7 +949,7 @@
     "conflict_articles": 11,
     "exercise_articles": 8,
     "total_articles": 50,
-    "computed_at": "2026-03-02T21:22:33.889867+00:00",
+    "computed_at": "2026-03-02T22:16:41.613157+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "KHAMENEI CONFIRMED DEAD — Trump + Netanyahu + 2 Israeli officials (22:12 UTC)",
