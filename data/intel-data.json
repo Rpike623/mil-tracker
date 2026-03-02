@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-03-02T05:09:25Z",
-  "version": 133,
+  "generated_utc": "2026-03-02T06:40:50Z",
+  "version": 134,
   "breaking_alert": "💀 DAY 3 — 3 US KIA, 5 WIA — IRANIAN FRIGATE SUNK — SHIPS ATTACKED AT HORMUZ — STRIKES CONTINUING — 201+ IRANIAN DEAD",
   "naval_deployments": [
     {
@@ -660,6 +660,15 @@
       ]
     },
     {
+      "title": "Chinese Navy Inducts Additional Type 903 Fleet Replenishment Ships",
+      "link": "https://www.navalnews.com/naval-news/2026/03/chinese-navy-inducts-more-type-903-fleet-replenishment-ships/",
+      "published": "Mon, 02 Mar 2026 06:29:00 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "World leaders fear broader escalation after major US and Israeli attack on Iran",
       "link": "https://www.defensenews.com/global/mideast-africa/2026/02/28/world-leaders-fear-broader-escalation-after-major-us-and-israeli-attack-on-iran/",
       "published": "Sat, 28 Feb 2026 13:56:26 +0000",
@@ -677,16 +686,6 @@
       "categories": [
         "deployment",
         "conflict"
-      ]
-    },
-    {
-      "title": "US launches ‘major combat operations’ against Iran",
-      "link": "https://taskandpurpose.com/news/us-israel-combat-bomb-iran/",
-      "published": "Sat, 28 Feb 2026 17:10:36 -0500",
-      "source": "Task & Purpose",
-      "categories": [
-        "deployment",
-        "exercise"
       ]
     }
   ],
@@ -950,7 +949,7 @@
     "conflict_articles": 15,
     "exercise_articles": 6,
     "total_articles": 50,
-    "computed_at": "2026-03-02T05:09:25.435570+00:00",
+    "computed_at": "2026-03-02T06:40:49.648422+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "KHAMENEI CONFIRMED DEAD — Trump + Netanyahu + 2 Israeli officials (22:12 UTC)",
