@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-03-02T11:24:49Z",
-  "version": 139,
+  "generated_utc": "2026-03-02T12:29:12Z",
+  "version": 140,
   "breaking_alert": "💀 DAY 3 — 3 US KIA, 5 WIA — IRANIAN FRIGATE SUNK — SHIPS ATTACKED AT HORMUZ — STRIKES CONTINUING — 201+ IRANIAN DEAD",
   "naval_deployments": [
     {
@@ -879,9 +879,9 @@
       ]
     },
     {
-      "title": "US confirms first combat use of LUCAS one-way attack drone in Iran strikes",
-      "link": "https://www.defensenews.com/news/your-military/2026/02/28/us-confirms-first-combat-use-of-lucas-one-way-attack-drone-in-iran-strikes/",
-      "published": "Sat, 28 Feb 2026 18:41:36 +0000",
+      "title": "War powers debate intensifies after Trump orders attack on Iran without approval by Congress",
+      "link": "https://www.defensenews.com/news/pentagon-congress/2026/02/28/war-powers-debate-intensifies-after-trump-orders-attack-on-iran-without-approval-by-congress/",
+      "published": "Sat, 28 Feb 2026 20:00:50 +0000",
       "source": "Defense News",
       "categories": [
         "deployment",
@@ -943,11 +943,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 34,
-    "conflict_articles": 13,
+    "deployment_articles": 32,
+    "conflict_articles": 11,
     "exercise_articles": 6,
     "total_articles": 50,
-    "computed_at": "2026-03-02T11:24:49.353854+00:00",
+    "computed_at": "2026-03-02T12:29:12.577858+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "KHAMENEI CONFIRMED DEAD — Trump + Netanyahu + 2 Israeli officials (22:12 UTC)",
