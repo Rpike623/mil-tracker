@@ -478,10 +478,16 @@ body::after{
   .status-bar{overflow-x:auto;flex-wrap:nowrap;-webkit-overflow-scrolling:touch}
   .sb-cell{padding:0 8px}
   .sb-spacer{display:none}
-  /* Hide less-critical status cells on mobile */
-  .sb-cell[title="Hormuz status"],
+  /* Hide less-critical status cells on mobile — but KEEP war stats */
   .sb-cell[title="Iran internet"],
   .sb-cell[title="UN Security Council meeting"]{display:none}
+  /* Compact war cells on mobile */
+  .sb-cell[title="Hormuz status"],
+  .sb-cell[title="Coalition losses"],
+  .sb-cell[title="F-15 friendly fire"]{padding:0 5px!important}
+  .sb-cell[title="Hormuz status"] .sb-label,
+  .sb-cell[title="Coalition losses"] .sb-label,
+  .sb-cell[title="F-15 friendly fire"] .sb-label{font-size:6px!important}
 
   /* ── TOPBAR: compact ── */
   .topbar{padding:5px 8px;position:sticky;top:0;z-index:9999;flex-wrap:nowrap;overflow:hidden;justify-content:flex-start}
@@ -491,9 +497,10 @@ body::after{
   .topbar .tb-label{display:none}
   .topbar .hb-live{display:none}
   #hb-time{display:none}
-  /* Iran ticker: compact on mobile */
-  #iran-ticker{padding:2px 6px!important;margin-right:4px!important}
-  #iran-ticker-text{font-size:7px!important;letter-spacing:.8px!important;max-width:100px;overflow:hidden;text-overflow:ellipsis}
+  /* Iran ticker: scrolling marquee on mobile */
+  #iran-ticker{padding:2px 6px!important;margin-right:4px!important;max-width:40vw;overflow:hidden}
+  #iran-ticker-text{font-size:7px!important;letter-spacing:.8px!important;display:inline-block;white-space:nowrap;animation:mob-ticker-scroll 12s linear infinite!important}
+  @keyframes mob-ticker-scroll{0%{transform:translateX(0)}100%{transform:translateX(-60%)}}
   .tb-search{width:70px;flex-shrink:0;font-size:10px}
   .mob-menu-btn{display:flex;align-items:center;margin-left:auto;flex-shrink:0;padding:8px 12px;font-size:18px;min-width:44px;min-height:44px;justify-content:center}
 
@@ -548,6 +555,43 @@ body::after{
 
   /* Boot skip button: bigger on mobile */
   .boot-skip-btn{font-size:12px!important;padding:10px 24px!important;bottom:30px!important}
+
+  /* ── WAR TICKER: always visible on mobile ── */
+  .war-ticker{height:28px!important;position:sticky;top:42px;z-index:9998}
+  .war-ticker-label{font-size:7px!important;padding:0 6px 0 8px!important;letter-spacing:1px!important}
+  .war-ticker-inner{font-size:9px!important;animation-duration:80s!important}
+
+  /* ── WAR STATS TAB: mobile grid fix ── */
+  #pane-warstat .cas-num{font-size:22px!important}
+  #rp-warstat > div:first-child{padding:6px 8px!important}
+  #rp-warstat > div:first-child > div:first-child{font-size:11px!important;letter-spacing:1.5px!important}
+
+  /* ── FAB: smaller on mobile ── */
+  .fab-container{bottom:10px;right:10px}
+  .fab-btn{width:38px;height:38px;font-size:16px}
+
+  /* ── MOBILE WAR HERO BANNER ── */
+  .mob-war-hero{
+    display:flex!important;flex-direction:column;align-items:center;
+    padding:8px 12px;
+    background:linear-gradient(180deg,rgba(239,68,68,.12),rgba(5,8,15,.98));
+    border-bottom:1px solid rgba(239,68,68,.2);
+    position:sticky;top:70px;z-index:9997;
+  }
+  .mob-war-hero .hero-stats{
+    display:flex;gap:10px;justify-content:center;width:100%;
+  }
+  .mob-war-hero .hero-stat{
+    text-align:center;flex:1;
+  }
+  .mob-war-hero .hero-num{
+    font-family:'Orbitron',monospace;font-weight:900;font-size:20px;line-height:1.1;
+    text-shadow:0 0 12px currentColor;
+  }
+  .mob-war-hero .hero-label{
+    font-size:7px;text-transform:uppercase;letter-spacing:1px;color:var(--muted);
+    font-family:'Share Tech Mono',monospace;
+  }
 }
 
 /* ── WIDGET SYSTEM (legacy removed) ── */
@@ -1001,6 +1045,17 @@ body{animation:war-pulse 8s ease-in-out infinite}
         <button class="tb-btn" onclick="goTo(20,0,2);toggleMobDrawer()">🌍 Global</button>
       </div>
     </div>
+  </div>
+</div>
+
+<!-- MOBILE WAR HERO BANNER (hidden on desktop) -->
+<div class="mob-war-hero" style="display:none">
+  <div style="font-family:'Orbitron',monospace;font-size:9px;font-weight:800;color:#ef4444;letter-spacing:2px;margin-bottom:4px;animation:text-pulse 2s ease-in-out infinite">⚡ OPERATION EPIC FURY — DAY 4</div>
+  <div class="hero-stats">
+    <div class="hero-stat"><div class="hero-num" style="color:#ef4444">555+</div><div class="hero-label">🇮🇷 Dead</div></div>
+    <div class="hero-stat"><div class="hero-num" style="color:#ef4444">6</div><div class="hero-label">🇺🇸 KIA</div></div>
+    <div class="hero-stat"><div class="hero-num" style="color:#f97316">3</div><div class="hero-label">F-15s Down</div></div>
+    <div class="hero-stat"><div class="hero-num" style="color:#eab308">$77</div><div class="hero-label">Brent ↑7%</div></div>
   </div>
 </div>
 
@@ -3568,14 +3623,15 @@ const ADV_INTEL = {
       { name:'24/31 Iranian Provinces', status:'ACTIVE', note:'201 killed, 747 injured. Girls school Minab: 85 killed. Campaign continues.' },
     ],
     intel: [
-      '💀 KHAMENEI CONFIRMED DEAD — Trump + Netanyahu + 2 Israeli officials (22:12 UTC)',
-      '💀 ALSO KILLED: IRGC commander, Defense Minister, Security Council secretary',
-      '🔴 Iran Red Crescent: 201 killed, 747 injured — 24/31 provinces struck',
-      '🚢 Konarak Naval Base: burning vessels confirmed by satellite — IRGCN crippled',
-      '💥 200 Israeli jets struck ~500 targets. LUCAS one-way drone — first combat use ever',
-      '🚀 Iran fired ~150 ballistic missiles + drones at Israel. 3 US KIA, 5 WIA confirmed Day 3.',
-      '🌐 Trump: bombing continues uninterrupted through the week or longer',
-      '📵 Near-total internet blackout. IRGC to ships: no vessel through Hormuz',
+      '💀 6 US KIA CONFIRMED — DAY 4. 3 F-15s crashed Kuwait (friendly fire?)',
+      '🇶🇦 Qatar downed 2 Iranian fighter jets + intercepted 7 BMs + 5 drones',
+      '🔥 Iran threatens to TORCH TANKERS at Hormuz — Brent $77.74 (+6.7%)',
+      '💀 555+ dead in Iran, 10+ Israel, 6 US, 5 Gulf states',
+      '🇪🇸 Spain refuses base access. Lebanon bans Hezbollah military.',
+      '💀 KHAMENEI DEAD — succession crisis, new leader within days',
+      '💥 200 Israeli jets struck ~500 targets. LUCAS drone first combat use.',
+      '📵 Iran internet blackout. IRGC to ships: no vessel through Hormuz',
+      '🛰️ Space Force begins orbital warfare maneuvers with new satellite',
     ],
     watchFor: [
       '🔴 Succession crisis — NO designated successor to Khamenei, power vacuum imminent',
@@ -5041,9 +5097,12 @@ setInterval(renderLaunches, 30000);
 // CURRENCY / SANCTIONS WATCH
 // ════════════════════════════════════════
 const FX_PAIRS = [
+  {code:'_BRENT', label:'🛢️ BRENT CRUDE', name:'Brent Crude Oil', note:'Global oil benchmark — WAR PREMIUM', fixed:'77.74', change:'+6.68%', critical:true},
+  {code:'_WTI', label:'🛢️ WTI CRUDE', name:'WTI Crude Oil', note:'US oil benchmark', fixed:'71.49', change:'+0.37%', critical:false},
+  {code:'_NATGAS', label:'⛽ NATURAL GAS', name:'Henry Hub Natural Gas', note:'Energy supply indicator', fixed:'2.98', change:'+0.68%', critical:false},
   {code:'RUB', label:'🇷🇺 USD/RUB', name:'Russian Ruble', note:'Sanctions pressure indicator'},
   {code:'CNY', label:'🇨🇳 USD/CNY', name:'Chinese Yuan', note:'Trade war barometer'},
-  {code:'IRR', label:'🇮🇷 USD/IRR', name:'Iranian Rial', note:'Sanctions impact gauge'},
+  {code:'IRR', label:'🇮🇷 USD/IRR', name:'Iranian Rial', note:'Sanctions impact gauge — BLACKOUT'},
   {code:'EUR', label:'🇪🇺 USD/EUR', name:'Euro', note:'Western economic baseline'},
   {code:'GBP', label:'🇬🇧 USD/GBP', name:'British Pound', note:'NATO ally benchmark'},
   {code:'UAH', label:'🇺🇦 USD/UAH', name:'Ukrainian Hryvnia', note:'War economy indicator'},
@@ -5070,6 +5129,25 @@ function renderCurrency(rates){
 
   let h = '';
   FX_PAIRS.forEach(p => {
+    // Handle fixed commodity prices (oil, gas)
+    if(p.fixed){
+      const isUp = p.change && p.change.startsWith('+');
+      const changeCol = isUp ? '#ef4444' : '#22c55e';
+      const arrow = isUp ? '▲' : '▼';
+      const borderCol = p.critical ? 'rgba(239,68,68,.3)' : 'rgba(56,189,248,.06)';
+      const bgCol = p.critical ? 'rgba(239,68,68,.06)' : 'transparent';
+      h += `<div style="padding:6px 10px;border-bottom:1px solid ${borderCol};background:${bgCol};display:flex;justify-content:space-between;align-items:center${p.critical?' ;animation:status-flash-red 3s ease-in-out infinite':''}" title="${p.note}">
+        <div>
+          <div style="font-size:10px;color:${p.critical?'#ef4444':'var(--text)'};font-weight:${p.critical?'700':'400'}">${p.label}</div>
+          <div style="font-size:8px;color:var(--muted)">${p.note}</div>
+        </div>
+        <div style="text-align:right">
+          <div style="font-size:12px;font-family:'Orbitron',monospace;font-weight:700;color:${p.critical?'#ef4444':'var(--text)'}">$${p.fixed}</div>
+          <div style="font-size:9px;color:${changeCol};font-weight:700">${arrow} ${p.change}</div>
+        </div>
+      </div>`;
+      return;
+    }
     const rate = rates[p.code];
     if(rate === undefined) return;
     const prev = prevRates[p.code];
@@ -5212,6 +5290,15 @@ function showCentcomDetail(navalIdx, colKey, itemIdx){
 // IRAN STRIKE TIMELINE
 // ════════════════════════════════════════
 const IRAN_TIMELINE = [
+  { time:'2026-03-02T21:00Z', icon:'🇪🇸', type:'diplomatic', text:'SPAIN REFUSES to let US use bases for Iran attacks. PM Sanchez condemns strikes. Coalition fracturing on European front.', src:'Al Jazeera' },
+  { time:'2026-03-02T20:00Z', icon:'🇱🇧', type:'intel',      text:'LEBANON BANS ALL HEZBOLLAH MILITARY ACTIVITIES after rocket attack on Israel. PM Salam: "all Hezbollah activities are illegal." Hezbollah: ban unjustified.', src:'Al Jazeera' },
+  { time:'2026-03-02T18:00Z', icon:'🔥', type:'strike',     text:'IRAN THREATENS TO TORCH TANKERS at Strait of Hormuz. Maritime escalation — 20% of global oil supply at risk. Brent crude $77.74 (+6.7%).', src:'Al Jazeera' },
+  { time:'2026-03-02T16:00Z', icon:'💣', type:'intel',      text:'RUBIO suggests US strikes on Iran were INFLUENCED BY ISRAELI PLANS. Secretary of state hopes Iranian people will "overthrow regime."', src:'Al Jazeera' },
+  { time:'2026-03-02T14:00Z', icon:'🇶🇦', type:'intercept',  text:'QATAR DOWNS 2 IRANIAN FIGHTER JETS entering its airspace. Also intercepted 7 ballistic missiles + 5 drones. Qatar now an active combatant.', src:'Al Jazeera/Qatar MoD' },
+  { time:'2026-03-02T12:00Z', icon:'✈️', type:'casualty',   text:'3 F-15 FIGHTER JETS CRASHED IN KUWAIT — CENTCOM says "mistakenly shot down." Kuwait investigating cause. Possible friendly fire incident. Pilots status unknown.', src:'CENTCOM/Al Jazeera/T&P' },
+  { time:'2026-03-02T10:00Z', icon:'💀', type:'casualty',   text:'6 US TROOPS KILLED total — CENTCOM confirms (up from 3). Multiple others wounded. Trump: "attacks continue until all objectives are met."', src:'CENTCOM/T&P/Al Jazeera' },
+  { time:'2026-03-02T08:00Z', icon:'🛰️', type:'intel',      text:'SPACE FORCE begins orbital warfare maneuvers with new training satellite. First-ever offensive space capability exercise during active conflict.', src:'Task & Purpose' },
+  { time:'2026-03-02T06:00Z', icon:'💀', type:'intel',      text:'DEATH TOLL UPDATE: 555 dead in Iran (up from 201), at least 10 in Israel, 6 US, 5 Gulf state civilians. Iran Red Crescent: 24 of 31 provinces struck.', src:'Al Jazeera tracker' },
   { time:'2026-03-02T01:00Z', icon:'⛽', type:'intel',      text:'OIL PRICES JUMP — ships attacked near Strait of Hormuz. Prolonged conflict threatens global energy supply. Brent crude surges.', src:'BBC' },
   { time:'2026-03-01T23:00Z', icon:'🇬🇧', type:'intel',    text:'UK PM authorizes US to use UK bases for strikes on Iranian missile sites. UK "will not join offensive action now" but providing logistical support.', src:'BBC' },
   { time:'2026-03-01T22:00Z', icon:'🚀', type:'strike',     text:'9 DEAD IN ISRAEL from Iranian missile strikes as Tehran retaliates across the region. Several deaths reported across Middle East. IDF intercepting but some getting through.', src:'BBC' },
@@ -5304,20 +5391,21 @@ function renderIranTimeline() {
 
 // Iran Ticker cycling
 const IRAN_TICKER_MSGS = [
-  'DAY 3 — 3 US KIA, 5 WOUNDED',
-  'IRANIAN FRIGATE SUNK BY US FORCES',
-  '201+ KILLED — 747 INJURED — 24/31 PROVINCES',
-  'SHIPS ATTACKED NEAR HORMUZ — OIL JUMPS',
-  '9 DEAD IN ISRAEL FROM IRANIAN MISSILES',
-  'DUBAI, DOHA, MANAMA HIT AGAIN DAY 2-3',
-  'UK BASES AUTHORIZED FOR US STRIKES',
-  'TRUMP: MORE US DEATHS LIKELY',
+  'DAY 4 — 6 US KIA CONFIRMED',
+  '3 F-15s DOWN IN KUWAIT — FRIENDLY FIRE?',
+  'QATAR SHOOTS DOWN 2 IRANIAN JETS',
+  'IRAN: TORCH TANKERS AT HORMUZ',
+  '555+ DEAD IRAN — 10+ ISRAEL — 6 US',
+  'BRENT CRUDE $77.74 ↑6.7% — WAR PREMIUM',
+  'SPAIN REFUSES US BASE ACCESS',
+  'LEBANON BANS HEZBOLLAH MILITARY',
+  'TRUMP: ATTACKS UNTIL OBJECTIVES MET',
+  'RUBIO: STRIKES INFLUENCED BY ISRAELI PLANS',
+  'SPACE FORCE: ORBITAL WARFARE BEGINS',
+  'IRANIAN FRIGATE SUNK — NAVY BURNING',
+  'DUBAI · DOHA · MANAMA · KUWAIT HIT',
   'NEW SUPREME LEADER WITHIN DAYS — FM',
-  'HEZBOLLAH VOWS ACTION — NOT YET ENGAGED',
-  'CVN-72 LINCOLN NOT HIT — CENTCOM',
-  'IRANIAN DRONE CRASH-LANDED IN KUWAIT',
-  'STRIKES CONTINUE THROUGH THE WEEK',
-  'DEFCON 2 — HIGH ALERT',
+  'DEFCON 1 — ALL FORCES MAXIMUM ALERT',
 ];
 let iranTickerIdx = 0;
 function cycleIranTicker() {
