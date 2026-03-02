@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-03-02T15:30:22Z",
-  "version": 143,
+  "generated_utc": "2026-03-02T16:29:22Z",
+  "version": 144,
   "breaking_alert": "💀 DAY 3 — 3 US KIA, 5 WIA — IRANIAN FRIGATE SUNK — SHIPS ATTACKED AT HORMUZ — STRIKES CONTINUING — 201+ IRANIAN DEAD",
   "naval_deployments": [
     {
@@ -594,16 +594,6 @@
   ],
   "_naval_news_refs": [
     {
-      "title": "NAVANTIA offers Denmark strategic cooperation to deliver its naval programmes",
-      "link": "https://www.navalnews.com/naval-news/2026/02/navantia-offers-denmark-strategic-cooperation-to-deliver-its-naval-programmes/",
-      "published": "Fri, 27 Feb 2026 11:56:14 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment",
-        "exercise"
-      ]
-    },
-    {
       "title": "Canada Taps Safran for Victoria-class Submarine Modernization",
       "link": "https://www.navalnews.com/naval-news/2026/02/canada-taps-safran-for-victoria-class-submarine-modernization/",
       "published": "Fri, 27 Feb 2026 12:30:39 +0000",
@@ -686,6 +676,17 @@
       "source": "Military Times",
       "categories": [
         "deployment"
+      ]
+    },
+    {
+      "title": "Fourth US service member killed in action during Iran operations",
+      "link": "https://www.militarytimes.com/news/your-military/2026/03/02/fourth-us-service-member-killed-in-action-during-iran-operations/",
+      "published": "Mon, 02 Mar 2026 12:45:38 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment",
+        "exercise",
+        "conflict"
       ]
     }
   ],
@@ -895,16 +896,6 @@
   ],
   "_exercise_news_refs": [
     {
-      "title": "NAVANTIA offers Denmark strategic cooperation to deliver its naval programmes",
-      "link": "https://www.navalnews.com/naval-news/2026/02/navantia-offers-denmark-strategic-cooperation-to-deliver-its-naval-programmes/",
-      "published": "Fri, 27 Feb 2026 11:56:14 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment",
-        "exercise"
-      ]
-    },
-    {
       "title": "U.S. Army Attack Helicopters Hold Maritime Attack Drills in the Pacific",
       "link": "https://news.usni.org/2026/02/27/u-s-army-attack-helicopters-hold-maritime-attack-drills-in-the-pacific",
       "published": "Fri, 27 Feb 2026 20:57:08 +0000",
@@ -944,14 +935,24 @@
         "exercise",
         "conflict"
       ]
+    },
+    {
+      "title": "US launches ‘major combat operations’ against Iran",
+      "link": "https://taskandpurpose.com/news/us-israel-combat-bomb-iran/",
+      "published": "Sat, 28 Feb 2026 17:10:36 -0500",
+      "source": "Task & Purpose",
+      "categories": [
+        "deployment",
+        "exercise"
+      ]
     }
   ],
   "_threat_indicators": {
     "deployment_articles": 29,
-    "conflict_articles": 11,
-    "exercise_articles": 8,
+    "conflict_articles": 12,
+    "exercise_articles": 7,
     "total_articles": 50,
-    "computed_at": "2026-03-02T15:30:21.501994+00:00",
+    "computed_at": "2026-03-02T16:29:22.262228+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "KHAMENEI CONFIRMED DEAD — Trump + Netanyahu + 2 Israeli officials (22:12 UTC)",
