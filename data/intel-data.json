@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-03-02T09:35:19Z",
-  "version": 137,
+  "generated_utc": "2026-03-02T10:33:17Z",
+  "version": 138,
   "breaking_alert": "💀 DAY 3 — 3 US KIA, 5 WIA — IRANIAN FRIGATE SUNK — SHIPS ATTACKED AT HORMUZ — STRIKES CONTINUING — 201+ IRANIAN DEAD",
   "naval_deployments": [
     {
@@ -678,13 +678,12 @@
       ]
     },
     {
-      "title": "World leaders fear broader escalation after major US and Israeli attack on Iran",
-      "link": "https://www.defensenews.com/global/mideast-africa/2026/02/28/world-leaders-fear-broader-escalation-after-major-us-and-israeli-attack-on-iran/",
-      "published": "Sat, 28 Feb 2026 13:56:26 +0000",
+      "title": "European military installations are  targeted in Iran retaliation",
+      "link": "https://www.defensenews.com/global/europe/2026/03/02/european-military-installations-are-targeted-in-iran-retaliation/",
+      "published": "Mon, 02 Mar 2026 09:32:51 +0000",
       "source": "Defense News",
       "categories": [
-        "deployment",
-        "conflict"
+        "deployment"
       ]
     }
   ],
@@ -870,20 +869,20 @@
       ]
     },
     {
-      "title": "World leaders fear broader escalation after major US and Israeli attack on Iran",
-      "link": "https://www.defensenews.com/global/mideast-africa/2026/02/28/world-leaders-fear-broader-escalation-after-major-us-and-israeli-attack-on-iran/",
-      "published": "Sat, 28 Feb 2026 13:56:26 +0000",
-      "source": "Defense News",
+      "title": "UPDATED: U.S., Israel Launch Strikes Against Iran, Tehran Retaliates Across Region",
+      "link": "https://news.usni.org/2026/02/28/u-s-israel-launch-operation-epic-fury-against-iran-tehran-retaliates-across-region",
+      "published": "Sat, 28 Feb 2026 16:37:44 +0000",
+      "source": "USNI News",
       "categories": [
         "deployment",
         "conflict"
       ]
     },
     {
-      "title": "UPDATED: U.S., Israel Launch Strikes Against Iran, Tehran Retaliates Across Region",
-      "link": "https://news.usni.org/2026/02/28/u-s-israel-launch-operation-epic-fury-against-iran-tehran-retaliates-across-region",
-      "published": "Sat, 28 Feb 2026 16:37:44 +0000",
-      "source": "USNI News",
+      "title": "US confirms first combat use of LUCAS one-way attack drone in Iran strikes",
+      "link": "https://www.defensenews.com/news/your-military/2026/02/28/us-confirms-first-combat-use-of-lucas-one-way-attack-drone-in-iran-strikes/",
+      "published": "Sat, 28 Feb 2026 18:41:36 +0000",
+      "source": "Defense News",
       "categories": [
         "deployment",
         "conflict"
@@ -945,10 +944,10 @@
   ],
   "_threat_indicators": {
     "deployment_articles": 34,
-    "conflict_articles": 15,
+    "conflict_articles": 13,
     "exercise_articles": 6,
     "total_articles": 50,
-    "computed_at": "2026-03-02T09:35:19.209310+00:00",
+    "computed_at": "2026-03-02T10:33:17.012270+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "KHAMENEI CONFIRMED DEAD — Trump + Netanyahu + 2 Israeli officials (22:12 UTC)",
