@@ -841,7 +841,7 @@ body::after{
   <!-- Iran Status Ticker -->
   <div id="iran-ticker" style="display:inline-flex;align-items:center;gap:6px;background:rgba(239,68,68,.1);border:1px solid rgba(239,68,68,.35);border-radius:4px;padding:3px 10px;margin-right:6px;flex-shrink:0;cursor:pointer;box-shadow:0 0 12px rgba(239,68,68,.15)" onclick="switchRPTab('iran')" title="Click for Iran timeline">
     <span style="width:7px;height:7px;border-radius:50%;background:#ef4444;display:inline-block;animation:logo-pulse 1s ease-in-out infinite;box-shadow:0 0 6px #ef4444"></span>
-    <span id="iran-ticker-text" style="font-family:'Orbitron',monospace;font-size:9px;font-weight:700;color:#ef4444;letter-spacing:1.5px;text-transform:uppercase;white-space:nowrap;transition:opacity .2s">US-ISRAEL STRIKES ACTIVE</span>
+    <span id="iran-ticker-text" style="font-family:'Orbitron',monospace;font-size:9px;font-weight:700;color:#ef4444;letter-spacing:1.5px;text-transform:uppercase;white-space:nowrap;transition:opacity .2s">DAY 3 — 3 US KIA — FRIGATE SUNK</span>
   </div>
   <span class="tb-label">Country:</span>
   <button class="tb-btn on" id="bc-all" onclick="setCF('all')">🌍 All</button>
@@ -993,7 +993,7 @@ body::after{
   </div>
   <div class="sb-cell alert" title="Hormuz status" onclick="goTo(26.6,56.3,7)">
     <span class="sb-label">HORMUZ</span>
-    <span class="sb-value" id="sb-hormuz">BAN DECLARED</span>
+    <span class="sb-value" id="sb-hormuz">SHIPS ATTACKED</span>
   </div>
   <div class="sb-cell" title="Iran internet">
     <span class="sb-label">IRAN NET</span>
@@ -1087,10 +1087,10 @@ body::after{
     <!-- ⚡ IRAN TIMELINE TAB -->
     <div class="rp-tab-content active" id="rp-iran">
       <div style="flex-shrink:0;padding:7px 12px;background:rgba(20,5,5,.9);border-bottom:1px solid rgba(239,68,68,.2);display:flex;align-items:center;gap:8px;font-family:'Share Tech Mono',monospace">
-        <span style="font-size:10px;font-weight:700;color:#ef4444;letter-spacing:1px">OP EPIC FURY · OP RAGING LION</span>
+        <span style="font-size:10px;font-weight:700;color:#ef4444;letter-spacing:1px">OP EPIC FURY · DAY 3 · 3 US KIA</span>
         <div style="margin-left:auto;display:flex;gap:6px;flex-shrink:0">
           <div style="background:rgba(239,68,68,.08);border:1px solid rgba(239,68,68,.2);border-radius:3px;padding:2px 7px;font-size:9px;color:rgba(239,68,68,.6)">
-            🔴 KIA <span style="font-weight:700;color:#ef4444;font-family:'Orbitron',monospace">201+</span>
+            🔴 KIA <span style="font-weight:700;color:#ef4444;font-family:'Orbitron',monospace">201+ 🇮🇷 · 3 🇺🇸</span>
           </div>
           <div style="background:rgba(167,139,250,.08);border:1px solid rgba(167,139,250,.2);border-radius:3px;padding:2px 7px;font-size:9px;color:rgba(167,139,250,.6)">
             🇺🇳 <span id="unsc-countdown" style="font-weight:700;color:#a78bfa;font-family:'Orbitron',monospace">--:--:--</span>
@@ -3365,7 +3365,7 @@ const ADV_INTEL = {
       '🔴 Iran Red Crescent: 201 killed, 747 injured — 24/31 provinces struck',
       '🚢 Konarak Naval Base: burning vessels confirmed by satellite — IRGCN crippled',
       '💥 200 Israeli jets struck ~500 targets. LUCAS one-way drone — first combat use ever',
-      '🚀 Iran fired ~150 ballistic missiles + drones at Israel. US: ZERO casualties.',
+      '🚀 Iran fired ~150 ballistic missiles + drones at Israel. 3 US KIA, 5 WIA confirmed Day 3.',
       '🌐 Trump: bombing continues uninterrupted through the week or longer',
       '📵 Near-total internet blackout. IRGC to ships: no vessel through Hormuz',
     ],
@@ -4987,6 +4987,16 @@ function showCentcomDetail(navalIdx, colKey, itemIdx){
 // IRAN STRIKE TIMELINE
 // ════════════════════════════════════════
 const IRAN_TIMELINE = [
+  { time:'2026-03-02T01:00Z', icon:'⛽', type:'intel',      text:'OIL PRICES JUMP — ships attacked near Strait of Hormuz. Prolonged conflict threatens global energy supply. Brent crude surges.', src:'BBC' },
+  { time:'2026-03-01T23:00Z', icon:'🇬🇧', type:'intel',    text:'UK PM authorizes US to use UK bases for strikes on Iranian missile sites. UK "will not join offensive action now" but providing logistical support.', src:'BBC' },
+  { time:'2026-03-01T22:00Z', icon:'🚀', type:'strike',     text:'9 DEAD IN ISRAEL from Iranian missile strikes as Tehran retaliates across the region. Several deaths reported across Middle East. IDF intercepting but some getting through.', src:'BBC' },
+  { time:'2026-03-01T21:00Z', icon:'💥', type:'strike',     text:'MORE BLASTS ROCK DUBAI, DOHA, MANAMA — Iran continues targeting US assets in Gulf Arab states for second day. Civilian infrastructure also hit. Regional escalation fears rising.', src:'Al Jazeera' },
+  { time:'2026-03-01T19:00Z', icon:'🇮🇷', type:'intel',    text:'IRAN FM ARAGHCHI: New supreme leader may be chosen within days. Constitutional process underway. Tehran mourns Khamenei, surviving leaders vow resistance.', src:'Al Jazeera' },
+  { time:'2026-03-01T18:00Z', icon:'🔥', type:'intel',      text:'HEZBOLLAH promises to confront US and Israel over Khamenei killing — but has NOT taken military action yet. Watching closely for second front.', src:'Al Jazeera' },
+  { time:'2026-03-01T17:00Z', icon:'⚠️', type:'intel',     text:'TRUMP: "There will likely be more" US deaths. Bombing continues uninterrupted. Posted video statement to Truth Social.', src:'BBC/Truth Social' },
+  { time:'2026-03-01T16:00Z', icon:'🚢', type:'strike',     text:'CENTCOM: US forces SANK IRANIAN FRIGATE. Also denied Iranian claims that CVN-72 Abraham Lincoln was hit — "missiles didn\'t even come close."', src:'CENTCOM/T&P' },
+  { time:'2026-03-01T15:30Z', icon:'💥', type:'strike',     text:'Iranian drone crash-landed on fire in Kuwait — captured on video by eyewitness. Kuwait: 3 soldiers injured, drone struck Kuwait International Airport.', src:'BBC' },
+  { time:'2026-03-01T10:36Z', icon:'🔴', type:'casualty',   text:'3 US SERVICE MEMBERS KILLED, 5 SERIOUSLY WOUNDED in operations against Iran. First US combat deaths of Operation Epic Fury. "Several others sustained minor shrapnel injuries and concussions." Locations not specified.', src:'CENTCOM/Task&Purpose' },
   { time:'2026-02-28T22:12Z', icon:'💀', type:'casualty',   text:'KHAMENEI CONFIRMED DEAD — Trump Truth Social: "Khamenei, one of the most evil people in history, is dead." Netanyahu: "many signs he is no more." 2 Israeli officials confirmed to AP. No Iranian state confirmation. No designated successor — regime future in doubt.', src:'AP/BBC/Netanyahu' },
   { time:'2026-02-28T22:00Z', icon:'💥', type:'strike',     text:'NEW STRIKES: 3 explosions near Tehran Intelligence Ministry. Israel resuming strikes against missile launchers + air defense in central Iran. Campaign continues.', src:'BBC' },
   { time:'2026-02-28T21:45Z', icon:'🔴', type:'casualty',   text:'Iran Red Crescent: 201 killed, 747 injured across 24 of 31 provinces. Girls school Minab: 85 killed (updated). CENTCOM aware, investigating.', src:'IRNA/AP' },
@@ -5069,14 +5079,19 @@ function renderIranTimeline() {
 
 // Iran Ticker cycling
 const IRAN_TICKER_MSGS = [
-  'KHAMENEI CONFIRMED DEAD',
-  '201 KILLED — 747 INJURED — 24/31 PROVINCES',
-  'IRGC COMMANDER + DEFENSE MIN KILLED',
-  'KONARAK NAVAL BASE — VESSELS BURNING',
+  'DAY 3 — 3 US KIA, 5 WOUNDED',
+  'IRANIAN FRIGATE SUNK BY US FORCES',
+  '201+ KILLED — 747 INJURED — 24/31 PROVINCES',
+  'SHIPS ATTACKED NEAR HORMUZ — OIL JUMPS',
+  '9 DEAD IN ISRAEL FROM IRANIAN MISSILES',
+  'DUBAI, DOHA, MANAMA HIT AGAIN DAY 2-3',
+  'UK BASES AUTHORIZED FOR US STRIKES',
+  'TRUMP: MORE US DEATHS LIKELY',
+  'NEW SUPREME LEADER WITHIN DAYS — FM',
+  'HEZBOLLAH VOWS ACTION — NOT YET ENGAGED',
+  'CVN-72 LINCOLN NOT HIT — CENTCOM',
+  'IRANIAN DRONE CRASH-LANDED IN KUWAIT',
   'STRIKES CONTINUE THROUGH THE WEEK',
-  'US: ZERO CASUALTIES',
-  'IRGC: NO SHIPS THROUGH HORMUZ',
-  'LUCAS DRONE — FIRST COMBAT USE',
   'DEFCON 2 — HIGH ALERT',
 ];
 let iranTickerIdx = 0;
@@ -6027,7 +6042,7 @@ console.log('🔥 PikeClaw OSINT Dashboard v4.1 — WAR DAY 2');
 <div id="mission-timer-widget" style="position: fixed; top: 50px; left: 50%; transform: translateX(-50%); z-index: 1000; text-align: center; padding: 15px 30px; background: rgba(0,0,0,0.8); border: 2px solid rgba(239,68,68,0.5); border-radius: 12px; box-shadow: 0 0 30px rgba(239,68,68,0.3);">
   <div class="timer-label">Mission Elapsed Time</div>
   <div class="mission-timer" id="mission-timer">00:00:00</div>
-  <div style="font-size: 9px; color: rgba(255,255,255,0.4); margin-top: 5px;">OP EPIC FURY // DAY 2</div>
+  <div style="font-size: 9px; color: rgba(255,255,255,0.4); margin-top: 5px;">OP EPIC FURY // DAY 3</div>
 </div>
 
 <!-- TERMINAL CONSOLE WIDGET -->
