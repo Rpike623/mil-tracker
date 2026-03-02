@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-03-02T20:21:42Z",
-  "version": 148,
+  "generated_utc": "2026-03-02T21:22:34Z",
+  "version": 149,
   "breaking_alert": "💀 DAY 3 — 3 US KIA, 5 WIA — IRANIAN FRIGATE SUNK — SHIPS ATTACKED AT HORMUZ — STRIKES CONTINUING — 201+ IRANIAN DEAD",
   "naval_deployments": [
     {
@@ -622,16 +622,6 @@
       ]
     },
     {
-      "title": "CIA tracked Iranian leaders for months ahead of attacks that began with 3 strikes in 60 seconds",
-      "link": "https://www.militarytimes.com/flashpoints/middle-east/2026/03/02/cia-tracked-iranian-leaders-for-months-ahead-of-attacks-that-began-with-3-strikes-in-60-seconds/",
-      "published": "Mon, 02 Mar 2026 00:09:14 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
       "title": "Chinese Navy Inducts Additional Type 903 Fleet Replenishment Ships",
       "link": "https://www.navalnews.com/naval-news/2026/03/chinese-navy-inducts-more-type-903-fleet-replenishment-ships/",
       "published": "Mon, 02 Mar 2026 06:29:00 +0000",
@@ -668,17 +658,6 @@
       ]
     },
     {
-      "title": "4 US troops killed, others wounded in operations against Iran",
-      "link": "https://taskandpurpose.com/news/casualties-operation-epic-fury/",
-      "published": "Mon, 02 Mar 2026 11:55:17 -0500",
-      "source": "Task & Purpose",
-      "categories": [
-        "deployment",
-        "exercise",
-        "conflict"
-      ]
-    },
-    {
       "title": "Fourth US service member killed in action during Iran operations",
       "link": "https://www.militarytimes.com/news/your-military/2026/03/02/fourth-us-service-member-killed-in-action-during-iran-operations/",
       "published": "Mon, 02 Mar 2026 12:45:38 +0000",
@@ -686,6 +665,25 @@
       "categories": [
         "deployment",
         "exercise",
+        "conflict"
+      ]
+    },
+    {
+      "title": "Greece Deploys FDI Frigate to Shield Cyprus Amid Iran Tensions",
+      "link": "https://www.navalnews.com/naval-news/2026/03/greece-deploys-fdi-frigate-to-shield-cyprus-amid-iran-tensions/",
+      "published": "Mon, 02 Mar 2026 13:32:04 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Future French Ballistic Missile Submarines will be named Invincible-class",
+      "link": "https://www.navalnews.com/naval-news/2026/03/future-french-ballistic-missile-submarines-will-be-named-invincible-class/",
+      "published": "Mon, 02 Mar 2026 15:40:07 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment",
         "conflict"
       ]
     }
@@ -862,27 +860,6 @@
       ]
     },
     {
-      "title": "CIA tracked Iranian leaders for months ahead of attacks that began with 3 strikes in 60 seconds",
-      "link": "https://www.militarytimes.com/flashpoints/middle-east/2026/03/02/cia-tracked-iranian-leaders-for-months-ahead-of-attacks-that-began-with-3-strikes-in-60-seconds/",
-      "published": "Mon, 02 Mar 2026 00:09:14 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
-      "title": "4 US troops killed, others wounded in operations against Iran",
-      "link": "https://taskandpurpose.com/news/casualties-operation-epic-fury/",
-      "published": "Mon, 02 Mar 2026 11:55:17 -0500",
-      "source": "Task & Purpose",
-      "categories": [
-        "deployment",
-        "exercise",
-        "conflict"
-      ]
-    },
-    {
       "title": "Fourth US service member killed in action during Iran operations",
       "link": "https://www.militarytimes.com/news/your-military/2026/03/02/fourth-us-service-member-killed-in-action-during-iran-operations/",
       "published": "Mon, 02 Mar 2026 12:45:38 +0000",
@@ -890,6 +867,26 @@
       "categories": [
         "deployment",
         "exercise",
+        "conflict"
+      ]
+    },
+    {
+      "title": "Future French Ballistic Missile Submarines will be named Invincible-class",
+      "link": "https://www.navalnews.com/naval-news/2026/03/future-french-ballistic-missile-submarines-will-be-named-invincible-class/",
+      "published": "Mon, 02 Mar 2026 15:40:07 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
+    },
+    {
+      "title": "Veterans ‘split’ over Iran strikes. Some see payback, others see another ‘forever war’",
+      "link": "https://taskandpurpose.com/news/veterans-iran-war/",
+      "published": "Mon, 02 Mar 2026 16:06:16 -0500",
+      "source": "Task & Purpose",
+      "categories": [
+        "deployment",
         "conflict"
       ]
     }
@@ -915,17 +912,6 @@
       ]
     },
     {
-      "title": "4 US troops killed, others wounded in operations against Iran",
-      "link": "https://taskandpurpose.com/news/casualties-operation-epic-fury/",
-      "published": "Mon, 02 Mar 2026 11:55:17 -0500",
-      "source": "Task & Purpose",
-      "categories": [
-        "deployment",
-        "exercise",
-        "conflict"
-      ]
-    },
-    {
       "title": "Fourth US service member killed in action during Iran operations",
       "link": "https://www.militarytimes.com/news/your-military/2026/03/02/fourth-us-service-member-killed-in-action-during-iran-operations/",
       "published": "Mon, 02 Mar 2026 12:45:38 +0000",
@@ -937,10 +923,21 @@
       ]
     },
     {
-      "title": "US launches ‘major combat operations’ against Iran",
-      "link": "https://taskandpurpose.com/news/us-israel-combat-bomb-iran/",
-      "published": "Sat, 28 Feb 2026 17:10:36 -0500",
+      "title": "6 US troops killed, others wounded in operations against Iran",
+      "link": "https://taskandpurpose.com/news/casualties-operation-epic-fury/",
+      "published": "Mon, 02 Mar 2026 16:15:50 -0500",
       "source": "Task & Purpose",
+      "categories": [
+        "deployment",
+        "exercise",
+        "conflict"
+      ]
+    },
+    {
+      "title": "Six dead, 18 service members injured in Iran operation",
+      "link": "https://www.defensenews.com/news/your-military/2026/03/02/six-dead-18-service-members-injured-in-iran-operation/",
+      "published": "Mon, 02 Mar 2026 21:13:28 +0000",
+      "source": "Defense News",
       "categories": [
         "deployment",
         "exercise"
@@ -948,11 +945,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 26,
-    "conflict_articles": 12,
-    "exercise_articles": 6,
+    "deployment_articles": 28,
+    "conflict_articles": 11,
+    "exercise_articles": 8,
     "total_articles": 50,
-    "computed_at": "2026-03-02T20:21:42.010243+00:00",
+    "computed_at": "2026-03-02T21:22:33.889867+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "KHAMENEI CONFIRMED DEAD — Trump + Netanyahu + 2 Israeli officials (22:12 UTC)",
