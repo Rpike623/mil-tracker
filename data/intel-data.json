@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-03-02T22:16:42Z",
-  "version": 150,
+  "generated_utc": "2026-03-02T23:14:14Z",
+  "version": 151,
   "breaking_alert": "💀 DAY 3 — 3 US KIA, 5 WIA — IRANIAN FRIGATE SUNK — SHIPS ATTACKED AT HORMUZ — STRIKES CONTINUING — 201+ IRANIAN DEAD",
   "naval_deployments": [
     {
@@ -594,15 +594,6 @@
   ],
   "_naval_news_refs": [
     {
-      "title": "Canada Taps Safran for Victoria-class Submarine Modernization",
-      "link": "https://www.navalnews.com/naval-news/2026/02/canada-taps-safran-for-victoria-class-submarine-modernization/",
-      "published": "Fri, 27 Feb 2026 12:30:39 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Swedish Forces Jam Suspected Russian Drone Near French Carrier Charles De Gaulle",
       "link": "https://news.usni.org/2026/02/27/swedish-forces-jam-suspected-russian-drone-near-french-carrier-charles-de-gaulle",
       "published": "Fri, 27 Feb 2026 20:48:29 +0000",
@@ -649,15 +640,6 @@
       ]
     },
     {
-      "title": "European military installations are  targeted in Iran retaliation",
-      "link": "https://www.militarytimes.com/global/europe/2026/03/02/european-military-installations-are-targeted-in-iran-retaliation/",
-      "published": "Mon, 02 Mar 2026 09:32:51 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Fourth US service member killed in action during Iran operations",
       "link": "https://www.militarytimes.com/news/your-military/2026/03/02/fourth-us-service-member-killed-in-action-during-iran-operations/",
       "published": "Mon, 02 Mar 2026 12:45:38 +0000",
@@ -685,6 +667,24 @@
       "categories": [
         "deployment",
         "conflict"
+      ]
+    },
+    {
+      "title": "Additional troops to deploy to Middle East as Gen. Caine says to expect ‘additional losses’",
+      "link": "https://www.defensenews.com/news/your-military/2026/03/02/additional-troops-to-deploy-to-middle-east-as-gen-caine-says-to-expect-additional-losses/",
+      "published": "Mon, 02 Mar 2026 15:46:47 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Additional troops to deploy to Middle East as Gen. Caine says to expect ‘additional losses’",
+      "link": "https://www.militarytimes.com/news/your-military/2026/03/02/additional-troops-to-deploy-to-middle-east-as-gen-caine-says-to-expect-additional-losses/",
+      "published": "Mon, 02 Mar 2026 15:46:47 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment"
       ]
     }
   ],
@@ -946,10 +946,10 @@
   ],
   "_threat_indicators": {
     "deployment_articles": 28,
-    "conflict_articles": 11,
-    "exercise_articles": 8,
+    "conflict_articles": 13,
+    "exercise_articles": 9,
     "total_articles": 50,
-    "computed_at": "2026-03-02T22:16:41.613157+00:00",
+    "computed_at": "2026-03-02T23:14:13.793759+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "KHAMENEI CONFIRMED DEAD — Trump + Netanyahu + 2 Israeli officials (22:12 UTC)",
