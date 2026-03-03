@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-03-03T14:35:12Z",
-  "version": 145,
+  "generated_utc": "2026-03-03T15:36:18Z",
+  "version": 146,
   "breaking_alert": "💀 DAY 4 — 6 US KIA — 3 F-15s DOWN IN KUWAIT (FRIENDLY FIRE?) — QATAR SHOOTS DOWN 2 IRANIAN JETS — IRAN THREATENS TO TORCH TANKERS — 555+ IRANIAN DEAD — STRIKES CONTINUE",
   "naval_deployments": [
     {
@@ -640,15 +640,6 @@
       ]
     },
     {
-      "title": "Additional troops to deploy to Middle East as Gen. Caine says to expect ‘additional losses’",
-      "link": "https://www.militarytimes.com/news/your-military/2026/03/02/additional-troops-to-deploy-to-middle-east-as-gen-caine-says-to-expect-additional-losses/",
-      "published": "Mon, 02 Mar 2026 15:46:47 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Veterans ‘split’ over Iran strikes. Some see payback, others see another ‘forever war’",
       "link": "https://taskandpurpose.com/news/veterans-iran-war/",
       "published": "Mon, 02 Mar 2026 16:06:16 -0500",
@@ -686,6 +677,15 @@
       "categories": [
         "deployment",
         "conflict"
+      ]
+    },
+    {
+      "title": "USNI News Fleet and Marine Tracker: March 2, 2026",
+      "link": "https://news.usni.org/2026/03/02/usni-news-fleet-and-marine-tracker-march-2-2026",
+      "published": "Mon, 02 Mar 2026 19:50:26 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment"
       ]
     }
   ],
@@ -945,11 +945,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 26,
-    "conflict_articles": 12,
+    "deployment_articles": 25,
+    "conflict_articles": 14,
     "exercise_articles": 8,
     "total_articles": 50,
-    "computed_at": "2026-03-03T14:35:12.221917+00:00",
+    "computed_at": "2026-03-03T15:36:17.671530+00:00",
     "manual_override": "DEFCON_1",
     "breaking_events": [
       "6 US KIA total — CENTCOM Mar 2",
