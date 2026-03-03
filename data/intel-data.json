@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-03-03T01:01:19Z",
-  "version": 134,
+  "generated_utc": "2026-03-03T04:03:03Z",
+  "version": 135,
   "breaking_alert": "💀 DAY 4 — 6 US KIA — 3 F-15s DOWN IN KUWAIT (FRIENDLY FIRE?) — QATAR SHOOTS DOWN 2 IRANIAN JETS — IRAN THREATENS TO TORCH TANKERS — 555+ IRANIAN DEAD — STRIKES CONTINUE",
   "naval_deployments": [
     {
@@ -603,16 +603,6 @@
       ]
     },
     {
-      "title": "CIA tracked Iranian leaders for months ahead of attacks that began with 3 strikes in 60 seconds",
-      "link": "https://www.defensenews.com/flashpoints/middle-east/2026/03/02/cia-tracked-iranian-leaders-for-months-ahead-of-attacks-that-began-with-3-strikes-in-60-seconds/",
-      "published": "Mon, 02 Mar 2026 00:09:14 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
       "title": "Chinese Navy Inducts Additional Type 903 Fleet Replenishment Ships",
       "link": "https://www.navalnews.com/naval-news/2026/03/chinese-navy-inducts-more-type-903-fleet-replenishment-ships/",
       "published": "Mon, 02 Mar 2026 06:29:00 +0000",
@@ -637,17 +627,6 @@
       "source": "Defense News",
       "categories": [
         "deployment"
-      ]
-    },
-    {
-      "title": "Fourth US service member killed in action during Iran operations",
-      "link": "https://www.militarytimes.com/news/your-military/2026/03/02/fourth-us-service-member-killed-in-action-during-iran-operations/",
-      "published": "Mon, 02 Mar 2026 12:45:38 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment",
-        "exercise",
-        "conflict"
       ]
     },
     {
@@ -685,6 +664,27 @@
       "source": "Military Times",
       "categories": [
         "deployment"
+      ]
+    },
+    {
+      "title": "Veterans ‘split’ over Iran strikes. Some see payback, others see another ‘forever war’",
+      "link": "https://taskandpurpose.com/news/veterans-iran-war/",
+      "published": "Mon, 02 Mar 2026 16:06:16 -0500",
+      "source": "Task & Purpose",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
+    },
+    {
+      "title": "6 US troops killed, others wounded in operations against Iran",
+      "link": "https://taskandpurpose.com/news/casualties-operation-epic-fury/",
+      "published": "Mon, 02 Mar 2026 16:15:50 -0500",
+      "source": "Task & Purpose",
+      "categories": [
+        "deployment",
+        "exercise",
+        "conflict"
       ]
     }
   ],
@@ -850,27 +850,6 @@
       ]
     },
     {
-      "title": "CIA tracked Iranian leaders for months ahead of attacks that began with 3 strikes in 60 seconds",
-      "link": "https://www.defensenews.com/flashpoints/middle-east/2026/03/02/cia-tracked-iranian-leaders-for-months-ahead-of-attacks-that-began-with-3-strikes-in-60-seconds/",
-      "published": "Mon, 02 Mar 2026 00:09:14 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
-      "title": "Fourth US service member killed in action during Iran operations",
-      "link": "https://www.militarytimes.com/news/your-military/2026/03/02/fourth-us-service-member-killed-in-action-during-iran-operations/",
-      "published": "Mon, 02 Mar 2026 12:45:38 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment",
-        "exercise",
-        "conflict"
-      ]
-    },
-    {
       "title": "Future French Ballistic Missile Submarines will be named Invincible-class",
       "link": "https://www.navalnews.com/naval-news/2026/03/future-french-ballistic-missile-submarines-will-be-named-invincible-class/",
       "published": "Mon, 02 Mar 2026 15:40:07 +0000",
@@ -885,6 +864,27 @@
       "link": "https://taskandpurpose.com/news/veterans-iran-war/",
       "published": "Mon, 02 Mar 2026 16:06:16 -0500",
       "source": "Task & Purpose",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
+    },
+    {
+      "title": "6 US troops killed, others wounded in operations against Iran",
+      "link": "https://taskandpurpose.com/news/casualties-operation-epic-fury/",
+      "published": "Mon, 02 Mar 2026 16:15:50 -0500",
+      "source": "Task & Purpose",
+      "categories": [
+        "deployment",
+        "exercise",
+        "conflict"
+      ]
+    },
+    {
+      "title": "Shipyard Worker Dead, Fire Breaks Out on U.S.-Flagged Tanker After Iranian Attack on Bahrain Port",
+      "link": "https://news.usni.org/2026/03/02/shipyard-worker-dead-fire-breaks-out-on-u-s-flagged-tanker-after-iranian-attack-on-bahrain-port",
+      "published": "Mon, 02 Mar 2026 18:16:28 +0000",
+      "source": "USNI News",
       "categories": [
         "deployment",
         "conflict"
@@ -912,17 +912,6 @@
       ]
     },
     {
-      "title": "Fourth US service member killed in action during Iran operations",
-      "link": "https://www.militarytimes.com/news/your-military/2026/03/02/fourth-us-service-member-killed-in-action-during-iran-operations/",
-      "published": "Mon, 02 Mar 2026 12:45:38 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment",
-        "exercise",
-        "conflict"
-      ]
-    },
-    {
       "title": "6 US troops killed, others wounded in operations against Iran",
       "link": "https://taskandpurpose.com/news/casualties-operation-epic-fury/",
       "published": "Mon, 02 Mar 2026 16:15:50 -0500",
@@ -942,14 +931,24 @@
         "deployment",
         "exercise"
       ]
+    },
+    {
+      "title": "Six dead, 18 service members injured in Iran operation",
+      "link": "https://www.militarytimes.com/news/your-military/2026/03/02/six-dead-18-service-members-injured-in-iran-operation/",
+      "published": "Mon, 02 Mar 2026 21:13:28 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment",
+        "exercise"
+      ]
     }
   ],
   "_threat_indicators": {
     "deployment_articles": 27,
-    "conflict_articles": 13,
-    "exercise_articles": 9,
+    "conflict_articles": 11,
+    "exercise_articles": 8,
     "total_articles": 50,
-    "computed_at": "2026-03-03T01:01:19.265678+00:00",
+    "computed_at": "2026-03-03T04:03:02.478830+00:00",
     "manual_override": "DEFCON_1",
     "breaking_events": [
       "6 US KIA total — CENTCOM Mar 2",
