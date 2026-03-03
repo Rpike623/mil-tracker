@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-03-03T22:16:07Z",
-  "version": 153,
+  "generated_utc": "2026-03-03T23:14:49Z",
+  "version": 154,
   "breaking_alert": "💀 DAY 4 — 6 US KIA — 3 F-15s DOWN IN KUWAIT (FRIENDLY FIRE?) — QATAR SHOOTS DOWN 2 IRANIAN JETS — IRAN THREATENS TO TORCH TANKERS — 555+ IRANIAN DEAD — STRIKES CONTINUE",
   "naval_deployments": [
     {
@@ -662,24 +662,6 @@
       ]
     },
     {
-      "title": "Trump projects war on Iran could last ‘four to five weeks’",
-      "link": "https://www.defensenews.com/news/your-military/2026/03/02/trump-projects-war-on-iran-could-last-four-to-five-weeks/",
-      "published": "Mon, 02 Mar 2026 20:52:43 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Trump projects war on Iran could last ‘four to five weeks’",
-      "link": "https://www.militarytimes.com/news/your-military/2026/03/02/trump-projects-war-on-iran-could-last-four-to-five-weeks/",
-      "published": "Mon, 02 Mar 2026 20:52:43 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Six dead, 18 service members injured in Iran operation",
       "link": "https://www.defensenews.com/news/your-military/2026/03/02/six-dead-18-service-members-injured-in-iran-operation/",
       "published": "Mon, 02 Mar 2026 21:13:28 +0000",
@@ -687,6 +669,27 @@
       "categories": [
         "deployment",
         "exercise"
+      ]
+    },
+    {
+      "title": "Iranian Naval Forces are Major Target in Operation Epic Fury Strikes",
+      "link": "https://news.usni.org/2026/03/02/iranian-naval-forces-are-major-target-in-operation-epic-fury-strikes",
+      "published": "Mon, 02 Mar 2026 22:35:04 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment",
+        "exercise",
+        "conflict"
+      ]
+    },
+    {
+      "title": "US Strikes Destroy Iran’s Main Naval Assets",
+      "link": "https://www.navalnews.com/naval-news/2026/03/us-strikes-destroy-irans-main-naval-assets/",
+      "published": "Mon, 02 Mar 2026 22:37:44 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment",
+        "conflict"
       ]
     }
   ],
@@ -905,7 +908,7 @@
       ]
     },
     {
-      "title": "Space Force can finally start ‘orbital warfare’ maneuvers with new satellite",
+      "title": "Space Force to refine ‘orbital warfare’ maneuvers with new prototype",
       "link": "https://taskandpurpose.com/news/space-force-orbital-warfare-training-satellite/",
       "published": "Mon, 02 Mar 2026 08:07:00 -0500",
       "source": "Task & Purpose",
@@ -935,22 +938,23 @@
       ]
     },
     {
-      "title": "Six dead, 18 service members injured in Iran operation",
-      "link": "https://www.militarytimes.com/news/your-military/2026/03/02/six-dead-18-service-members-injured-in-iran-operation/",
-      "published": "Mon, 02 Mar 2026 21:13:28 +0000",
-      "source": "Military Times",
+      "title": "Iranian Naval Forces are Major Target in Operation Epic Fury Strikes",
+      "link": "https://news.usni.org/2026/03/02/iranian-naval-forces-are-major-target-in-operation-epic-fury-strikes",
+      "published": "Mon, 02 Mar 2026 22:35:04 +0000",
+      "source": "USNI News",
       "categories": [
         "deployment",
-        "exercise"
+        "exercise",
+        "conflict"
       ]
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 26,
-    "conflict_articles": 13,
-    "exercise_articles": 8,
+    "deployment_articles": 25,
+    "conflict_articles": 15,
+    "exercise_articles": 9,
     "total_articles": 50,
-    "computed_at": "2026-03-03T22:16:06.682073+00:00",
+    "computed_at": "2026-03-03T23:14:48.761093+00:00",
     "manual_override": "DEFCON_1",
     "breaking_events": [
       "6 US KIA total — CENTCOM Mar 2",
