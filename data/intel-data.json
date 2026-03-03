@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-03-03T19:31:28Z",
-  "version": 150,
+  "generated_utc": "2026-03-03T20:20:19Z",
+  "version": 151,
   "breaking_alert": "💀 DAY 4 — 6 US KIA — 3 F-15s DOWN IN KUWAIT (FRIENDLY FIRE?) — QATAR SHOOTS DOWN 2 IRANIAN JETS — IRAN THREATENS TO TORCH TANKERS — 555+ IRANIAN DEAD — STRIKES CONTINUE",
   "naval_deployments": [
     {
@@ -945,11 +945,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 19,
+    "deployment_articles": 22,
     "conflict_articles": 11,
     "exercise_articles": 8,
     "total_articles": 40,
-    "computed_at": "2026-03-03T19:31:28.209647+00:00",
+    "computed_at": "2026-03-03T20:20:19.122218+00:00",
     "manual_override": "DEFCON_1",
     "breaking_events": [
       "6 US KIA total — CENTCOM Mar 2",
