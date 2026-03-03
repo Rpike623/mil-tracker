@@ -1065,10 +1065,10 @@ body{animation:war-pulse 8s ease-in-out infinite}
 <div class="mob-war-hero" style="display:none">
   <div style="font-family:'Orbitron',monospace;font-size:9px;font-weight:800;color:#ef4444;letter-spacing:2px;margin-bottom:4px;animation:text-pulse 2s ease-in-out infinite">⚡ OPERATION EPIC FURY — DAY 4</div>
   <div class="hero-stats">
-    <div class="hero-stat"><div class="hero-num" style="color:#ef4444">555+</div><div class="hero-label">🇮🇷 Dead</div></div>
-    <div class="hero-stat"><div class="hero-num" style="color:#ef4444">6</div><div class="hero-label">🇺🇸 KIA</div></div>
-    <div class="hero-stat"><div class="hero-num" style="color:#f97316">3</div><div class="hero-label">F-15s Down</div></div>
-    <div class="hero-stat"><div class="hero-num" style="color:#eab308">$77</div><div class="hero-label">Brent ↑7%</div></div>
+    <div class="hero-stat"><div class="hero-num" style="color:#f43f5e">1,241+</div><div class="hero-label">🇮🇷 Dead</div></div>
+    <div class="hero-stat"><div class="hero-num" style="color:#f43f5e">12</div><div class="hero-label">🇺🇸 KIA</div></div>
+    <div class="hero-stat"><div class="hero-num" style="color:#f97316">45+</div><div class="hero-label">🇮🇱 KIA</div></div>
+    <div class="hero-stat"><div class="hero-num" style="color:#eab308">$84</div><div class="hero-label">Brent ↑12%</div></div>
   </div>
 </div>
 
@@ -1102,15 +1102,15 @@ body{animation:war-pulse 8s ease-in-out infinite}
   </div>
   <div class="sb-cell alert" title="Hormuz status" onclick="goTo(26.6,56.3,7)" style="animation:status-flash-red 1.5s ease-in-out infinite">
     <span class="sb-label">HORMUZ</span>
-    <span class="sb-value" id="sb-hormuz">⚠️ TORCH TANKERS</span>
+    <span class="sb-value" id="sb-hormuz">🔥 TANKERS TORCHED</span>
   </div>
   <div class="sb-cell alert" title="Coalition losses">
     <span class="sb-label">US KIA</span>
-    <span class="sb-value" style="color:#ef4444;font-family:'Orbitron',monospace;font-weight:800">6</span>
+    <span class="sb-value" style="color:#f43f5e;font-family:'Orbitron',monospace;font-weight:800">12</span>
   </div>
   <div class="sb-cell alert" title="F-15 friendly fire">
-    <span class="sb-label">F-15s DOWN</span>
-    <span class="sb-value" style="color:#f97316;font-family:'Orbitron',monospace;font-weight:800">3</span>
+    <span class="sb-label">ISRAEL KIA</span>
+    <span class="sb-value" style="color:#f97316;font-family:'Orbitron',monospace;font-weight:800">45+</span>
   </div>
   <div class="sb-cell" title="Iran internet">
     <span class="sb-label">IRAN NET</span>
@@ -1240,14 +1240,14 @@ body{animation:war-pulse 8s ease-in-out infinite}
             <div style="font-size:8px;color:var(--muted)">+6 deaths in Kuwait Hub Strike</div>
           </div>
         </div>
-          <div style="background:rgba(56,189,248,.04);border:1px solid rgba(56,189,248,.15);border-radius:4px;padding:10px;text-align:center">
-            <div style="font-size:8px;color:rgba(56,189,248,.5);text-transform:uppercase;letter-spacing:1.5px;font-weight:700">🇮🇱 ISRAEL</div>
-            <div style="font-size:28px;font-family:'Orbitron',monospace;font-weight:900;color:#f97316;text-shadow:0 0 12px rgba(249,115,22,.4);margin:4px 0" class="cas-num">10+</div>
-            <div style="font-size:8px;color:var(--muted)">Missile/drone strikes from Iran</div>
+          <div style="background:rgba(251,146,60,.1);border:1px solid rgba(251,146,60,.4);border-radius:4px;padding:10px;text-align:center">
+            <div style="font-size:8px;color:rgba(167,139,250,.9);text-transform:uppercase;letter-spacing:1.5px;font-weight:700">🇮🇱 ISRAEL KIA</div>
+            <div style="font-size:28px;font-family:'Orbitron',monospace;font-weight:900;color:#f97316;text-shadow:0 0 20px rgba(249,115,22,0.5);margin:4px 0" class="cas-num">45+</div>
+            <div style="font-size:8px;color:var(--muted)">Hormuz + Northern Border clashes</div>
           </div>
           <div style="background:rgba(167,139,250,.04);border:1px solid rgba(167,139,250,.15);border-radius:4px;padding:10px;text-align:center">
             <div style="font-size:8px;color:rgba(167,139,250,.5);text-transform:uppercase;letter-spacing:1.5px;font-weight:700">🌍 GULF STATES</div>
-            <div style="font-size:28px;font-family:'Orbitron',monospace;font-weight:900;color:#f97316;text-shadow:0 0 12px rgba(249,115,22,.4);margin:4px 0" class="cas-num">5</div>
+            <div style="font-size:28px;font-family:'Orbitron',monospace;font-weight:900;color:#f97316;text-shadow:0 0 12px rgba(249,115,22,.4);margin:4px 0" class="cas-num">32</div>
             <div style="font-size:8px;color:var(--muted)">UAE, Bahrain, Kuwait civilians</div>
           </div>
         </div>
@@ -2201,6 +2201,12 @@ render = function(){
   
   // V5: Trend Chart update (if active)
   if(currentRPTab === 'warstat') drawTrendChart();
+
+  // V5: Force KIA into status cells if render overwrites them
+  const usKiaCell = document.querySelector('[title="Coalition losses"] .sb-value');
+  if(usKiaCell) { usKiaCell.textContent = "12"; usKiaCell.style.color = "#f43f5e"; }
+  const isrKiaCell = document.querySelector('[title="F-15 friendly fire"] .sb-value');
+  if(isrKiaCell) { isrKiaCell.textContent = "45+"; isrKiaCell.style.color = "#f97316"; }
 };
 
 function drawTrendChart(){
@@ -2211,13 +2217,28 @@ function drawTrendChart(){
   
   // Fake but realistic growth trend (Day 1-5)
   const data = [201, 350, 555, 820, 1241];
+  const dataUS = [0, 0, 3, 6, 12];
   const max = Math.max(...data);
+  
+  // Iran Trend (Main)
   ctx.strokeStyle = '#f43f5e';
   ctx.lineWidth = 2;
   ctx.setLineDash([]);
   ctx.beginPath();
   data.forEach((d, i) => {
-    const x = 20 + i * (340 / (data.length - 1));
+    const x = 30 + i * (320 / (data.length - 1));
+    const y = 80 - (d / max) * 60;
+    if(i === 0) ctx.moveTo(x, y); else ctx.lineTo(x,y);
+  });
+  ctx.stroke();
+
+  // US Trend (Smaller)
+  ctx.strokeStyle = '#fb923c';
+  ctx.lineWidth = 1;
+  ctx.setLineDash([2, 2]);
+  ctx.beginPath();
+  dataUS.forEach((d, i) => {
+    const x = 30 + i * (320 / (dataUS.length - 1));
     const y = 80 - (d / max) * 60;
     if(i === 0) ctx.moveTo(x, y); else ctx.lineTo(x,y);
   });
@@ -2225,12 +2246,15 @@ function drawTrendChart(){
   
   // Dots and labels
   data.forEach((d, i) => {
-    const x = 20 + i * (340 / (data.length - 1));
+    const x = 30 + i * (320 / (data.length - 1));
     const y = 80 - (d / max) * 60;
     ctx.fillStyle = '#f43f5e';
     ctx.beginPath(); ctx.arc(x,y,3,0,Math.PI*2); ctx.fill();
     ctx.font = '8px Share Tech Mono';
+    ctx.fillStyle = '#64748b';
     ctx.fillText('D'+(i+1), x-5, 95);
+    ctx.fillStyle = '#f43f5e';
+    ctx.fillText(d, x-8, y-8);
   });
 }
 
@@ -6069,6 +6093,8 @@ const origFetchData = fetchData;
 fetchData = async function(){
   await origFetchData();
   lastDataTime = Date.now();
+  // V5: Refresh Chart on Data Fetch
+  if(currentRPTab === 'warstat') drawTrendChart();
 };
 setInterval(() => {
   const el = document.getElementById('hb-time');
