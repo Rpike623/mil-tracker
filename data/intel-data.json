@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-03-03T13:50:04Z",
-  "version": 144,
+  "generated_utc": "2026-03-03T14:35:12Z",
+  "version": 145,
   "breaking_alert": "💀 DAY 4 — 6 US KIA — 3 F-15s DOWN IN KUWAIT (FRIENDLY FIRE?) — QATAR SHOOTS DOWN 2 IRANIAN JETS — IRAN THREATENS TO TORCH TANKERS — 555+ IRANIAN DEAD — STRIKES CONTINUE",
   "naval_deployments": [
     {
@@ -603,15 +603,6 @@
       ]
     },
     {
-      "title": "Chinese Navy Inducts Additional Type 903 Fleet Replenishment Ships",
-      "link": "https://www.navalnews.com/naval-news/2026/03/chinese-navy-inducts-more-type-903-fleet-replenishment-ships/",
-      "published": "Mon, 02 Mar 2026 06:29:00 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Fincantieri lays keel of first U212NFS Submarine",
       "link": "https://www.navalnews.com/naval-news/2026/03/fincantieri-lays-keel-of-first-u212nfs-submarine/",
       "published": "Mon, 02 Mar 2026 09:27:49 +0000",
@@ -685,6 +676,16 @@
       "source": "USNI News",
       "categories": [
         "deployment"
+      ]
+    },
+    {
+      "title": "Shipyard Worker Dead, Fire Breaks Out on U.S.-Flagged Tanker After Iranian Attack on Bahrain Port",
+      "link": "https://news.usni.org/2026/03/02/shipyard-worker-dead-fire-breaks-out-on-u-s-flagged-tanker-after-iranian-attack-on-bahrain-port",
+      "published": "Mon, 02 Mar 2026 18:16:28 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment",
+        "conflict"
       ]
     }
   ],
@@ -945,10 +946,10 @@
   ],
   "_threat_indicators": {
     "deployment_articles": 26,
-    "conflict_articles": 11,
+    "conflict_articles": 12,
     "exercise_articles": 8,
     "total_articles": 50,
-    "computed_at": "2026-03-03T13:50:04.282307+00:00",
+    "computed_at": "2026-03-03T14:35:12.221917+00:00",
     "manual_override": "DEFCON_1",
     "breaking_events": [
       "6 US KIA total — CENTCOM Mar 2",
