@@ -9,26 +9,34 @@
 @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Exo+2:wght@300;400;600;700;800&family=Orbitron:wght@400;500;600;700;800;900&display=swap');
 *{margin:0;padding:0;box-sizing:border-box}
 :root{
-  --bg:#05080f;
-  --bg2:#080c14;
-  --panel:rgba(8,12,22,0.96);
-  --panel2:rgba(10,16,28,0.94);
-  --border:#141e30;
-  --border2:#1a2740;
-  --border-glow:#38bdf8;
-  --text:#c8d6e5;
-  --text-bright:#e8f0f8;
-  --muted:#4a6080;
-  --accent:#38bdf8;
-  --accent2:#0ea5e9;
-  --red:#ef4444;
-  --orange:#f97316;
+  --bg:#020408;
+  --bg2:#04060c;
+  --panel:rgba(2,4,8,0.98);
+  --panel2:rgba(4,6,12,0.96);
+  --border:#0f172a;
+  --border2:#1e293b;
+  --border-glow:#fb923c;
+  --text:#cbd5e1;
+  --text-bright:#f8fafc;
+  --muted:#64748b;
+  --accent:#fb923c;
+  --accent2:#f97316;
+  --red:#f43f5e;
+  --orange:#f59e0b;
   --yellow:#eab308;
-  --purple:#a78bfa;
-  --green:#22c55e;
+  --purple:#c084fc;
+  --green:#10b981;
   --cyan:#06b6d4;
-  --grid-line:rgba(56,189,248,0.03);
+  --grid-line:rgba(251,146,60,0.03);
 }
+
+/* ── WAR V5 THEME OVERRIDES ── */
+.war-v5 {
+  background:radial-gradient(ellipse 1400px 700px at 15% -5%, rgba(244,63,94,.06), transparent 60%),
+             radial-gradient(ellipse 900px 500px at 85% 0%, rgba(251,146,60,.04), transparent 55%),
+             #020408;
+}
+@keyframes border-pulse { 0%,100% {opacity:1} 50% {opacity:0.3} }
 
 /* ── SCANLINE + GRID OVERLAY ── */
 body{
@@ -859,9 +867,14 @@ body{animation:war-pulse 8s ease-in-out infinite}
 
 /* (mobile styles consolidated above) */
 </style>
-<!-- LAST_UPDATE: 2026-03-03T23:14:49Z -->
+<!-- LAST_UPDATE: 2026-03-03T23:45:00Z -->
 </head>
-<body>
+<body class="war-v5">
+
+<!-- CYBER HUD OVERLAY (Red Alert HUD) -->
+<div id="escalation-hud" style="fixed;inset:0;border:4px solid #f43f5e;pointer-events:none;z-index:10000;display:none;animation:border-pulse 1s infinite">
+  <div style="position:absolute;top:0;left:50%;transform:translateX(-50%);background:#f43f5e;color:#fff;padding:4px 20px;font-family:Orbitron,monospace;font-size:12px;letter-spacing:4px;font-weight:900;text-shadow:0 0 10px #000">CRITICAL ESCALATION — DAY 5</div>
+</div>
 
 <!-- RADAR BOOT SEQUENCE -->
 <div class="boot-screen" id="bootScreen">
@@ -1181,27 +1194,21 @@ body{animation:war-pulse 8s ease-in-out infinite}
   <div class="right-panel">
     <div class="rp-tabs">
       <div class="rp-tab active iran" data-tab="iran" onclick="switchRPTab('iran')" style="animation:text-pulse 2s ease-in-out infinite">⚡ IRAN</div>
-      <div class="rp-tab" data-tab="warstat" onclick="switchRPTab('warstat')">💀 WAR</div>
-      <div class="rp-tab" data-tab="threat" onclick="switchRPTab('threat')">🚨 THREAT</div>
-      <div class="rp-tab" data-tab="naval" onclick="switchRPTab('naval')">🚢 NAVAL</div>
-      <div class="rp-tab" data-tab="centcom" onclick="switchRPTab('centcom')">🇺🇸 CENTCOM</div>
-      <div class="rp-tab" data-tab="adv" onclick="switchRPTab('adv')">🇮🇷 INTEL</div>
-      <div class="rp-tab" data-tab="activity" onclick="switchRPTab('activity')">📡 LIVE</div>
+      <div class="rp-tab" data-tab="warstat" onclick="switchRPTab('warstat')">💀 BATTLE</div>
+      <div class="rp-tab" data-tab="cyber" onclick="switchRPTab('cyber')">💻 CYBER</div>
+      <div class="rp-tab" data-tab="threat" onclick="switchRPTab('threat')">🚨 ALERT</div>
+      <div class="rp-tab" data-tab="naval" onclick="switchRPTab('naval')">⚓ FLEET</div>
+      <div class="rp-tab" data-tab="centcom" onclick="switchRPTab('centcom')">🇺🇸 FORCE</div>
+      <div class="rp-tab" data-tab="activity" onclick="switchRPTab('activity')">📡 TRK</div>
     </div>
 
     <!-- ⚡ IRAN TIMELINE TAB -->
     <div class="rp-tab-content active" id="rp-iran">
-      <div style="flex-shrink:0;padding:7px 12px;background:rgba(20,5,5,.9);border-bottom:1px solid rgba(239,68,68,.2);display:flex;align-items:center;gap:8px;font-family:'Share Tech Mono',monospace">
-        <span style="font-size:10px;font-weight:700;color:#ef4444;letter-spacing:1px;animation:text-pulse 2s ease-in-out infinite">OP EPIC FURY · DAY 4 · 6 US KIA</span>
+      <div style="flex-shrink:0;padding:7px 12px;background:rgba(30,5,5,.9);border-bottom:1px solid rgba(244,63,94,.3);display:flex;align-items:center;gap:8px;font-family:'Share Tech Mono',monospace">
+        <span style="font-size:10px;font-weight:700;color:#f43f5e;letter-spacing:1px;animation:text-pulse 2s ease-in-out infinite">OP EPIC FURY · DAY 5 · 12 US KIA</span>
         <div style="margin-left:auto;display:flex;gap:6px;flex-shrink:0">
-          <div style="background:rgba(239,68,68,.08);border:1px solid rgba(239,68,68,.2);border-radius:3px;padding:2px 7px;font-size:9px;color:rgba(239,68,68,.6)">
-            🔴 KIA <span style="font-weight:700;color:#ef4444;font-family:'Orbitron',monospace">555+ 🇮🇷 · 6 🇺🇸 · 10+ 🇮🇱 · 5 Gulf</span>
-          </div>
-          <div style="background:rgba(167,139,250,.08);border:1px solid rgba(167,139,250,.2);border-radius:3px;padding:2px 7px;font-size:9px;color:rgba(167,139,250,.6)">
-            🇺🇳 <span id="unsc-countdown" style="font-weight:700;color:#a78bfa;font-family:'Orbitron',monospace">--:--:--</span>
-          </div>
-          <div style="background:rgba(56,189,248,.06);border:1px solid rgba(56,189,248,.15);border-radius:3px;padding:2px 7px;font-size:9px;color:var(--muted)">
-            <span id="iran-tl-count" style="color:var(--accent)">0</span> events
+          <div style="background:rgba(244,63,94,.1);border:1px solid rgba(244,63,94,.4);border-radius:3px;padding:2px 7px;font-size:9px;color:rgba(244,63,94,.9)">
+            🔴 KIA <span style="font-weight:700;color:#f43f5e;font-family:'Orbitron',monospace">1,200+ 🇮🇷 · 12 🇺🇸 · 45 🇮🇱</span>
           </div>
         </div>
       </div>
@@ -1210,23 +1217,29 @@ body{animation:war-pulse 8s ease-in-out infinite}
 
     <!-- 💀 WAR STATISTICS TAB -->
     <div class="rp-tab-content" id="rp-warstat">
-      <div style="flex-shrink:0;padding:8px 12px;background:linear-gradient(135deg,rgba(239,68,68,.08),rgba(20,5,5,.95));border-bottom:1px solid rgba(239,68,68,.2);text-align:center">
-        <div style="font-family:'Orbitron',monospace;font-size:14px;font-weight:800;color:#ef4444;letter-spacing:3px;text-shadow:0 0 16px rgba(239,68,68,.4)">OPERATION EPIC FURY</div>
-        <div style="font-size:10px;color:var(--muted);font-family:'Share Tech Mono',monospace;margin-top:2px">US-ISRAEL vs IRAN · DAY 4 · COMMENCED 28 FEB 2026</div>
+      <div style="flex-shrink:0;padding:8px 12px;background:linear-gradient(135deg,rgba(244,63,94,.15),rgba(15,2,2,.98));border-bottom:1px solid rgba(244,63,94,.3);text-align:center">
+        <div style="font-family:'Orbitron',monospace;font-size:14px;font-weight:800;color:#f43f5e;letter-spacing:3px;text-shadow:0 0 16px rgba(244,63,94,.6)">OPERATION EPIC FURY</div>
+        <div style="font-size:10px;color:var(--muted);font-family:'Share Tech Mono',monospace;margin-top:2px">BATTLE DAMAGE ASSESSMENT · DAY 5</div>
       </div>
       <div style="flex:1;overflow-y:auto;padding:10px 12px" id="pane-warstat">
+        <!-- Trend Chart Canvas -->
+        <div style="background:rgba(0,0,0,0.4);border:1px solid rgba(251,146,60,0.1);border-radius:4px;padding:10px;margin-bottom:12px">
+          <div style="font-size:9px;color:var(--muted);text-transform:uppercase;margin-bottom:8px">Casualty Growth (5-Day Trend)</div>
+          <canvas id="conflictTrend" width="380" height="100" style="width:100%"></canvas>
+        </div>
         <!-- Casualty Grid -->
         <div style="display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:12px">
-          <div style="background:rgba(239,68,68,.06);border:1px solid rgba(239,68,68,.2);border-radius:4px;padding:10px;text-align:center;animation:war-border-glow 3s ease-in-out infinite">
-            <div style="font-size:8px;color:rgba(239,68,68,.5);text-transform:uppercase;letter-spacing:1.5px;font-weight:700">🇮🇷 IRAN DEAD</div>
-            <div style="font-size:28px;font-family:'Orbitron',monospace;font-weight:900;color:#ef4444;text-shadow:0 0 20px rgba(239,68,68,.5);margin:4px 0" class="cas-num">555+</div>
-            <div style="font-size:8px;color:var(--muted)">747+ injured · 24/31 provinces struck</div>
+          <div style="background:rgba(244,63,94,.1);border:1px solid rgba(244,63,94,.4);border-radius:4px;padding:10px;text-align:center;animation:war-border-glow 3s ease-in-out infinite">
+            <div style="font-size:8px;color:rgba(244,63,94,.8);text-transform:uppercase;letter-spacing:1.5px;font-weight:700">🇮🇷 IRAN DEAD</div>
+            <div style="font-size:28px;font-family:'Orbitron',monospace;font-weight:900;color:#f43f5e;text-shadow:0 0 20px rgba(244,63,94,0.7);margin:4px 0" class="cas-num">1,241+</div>
+            <div style="font-size:8px;color:var(--muted)">Est. civilians: 412 · Sepah: 829</div>
           </div>
-          <div style="background:rgba(56,189,248,.04);border:1px solid rgba(56,189,248,.15);border-radius:4px;padding:10px;text-align:center">
-            <div style="font-size:8px;color:rgba(56,189,248,.5);text-transform:uppercase;letter-spacing:1.5px;font-weight:700">🇺🇸 US KIA</div>
-            <div style="font-size:28px;font-family:'Orbitron',monospace;font-weight:900;color:#ef4444;text-shadow:0 0 20px rgba(239,68,68,.5);margin:4px 0" class="cas-num">6</div>
-            <div style="font-size:8px;color:var(--muted)">Multiple WIA · First combat deaths</div>
+          <div style="background:rgba(251,146,60,.1);border:1px solid rgba(251,146,60,.4);border-radius:4px;padding:10px;text-align:center">
+            <div style="font-size:8px;color:var(--accent);text-transform:uppercase;letter-spacing:1.5px;font-weight:700">🇺🇸 US KIA</div>
+            <div style="font-size:28px;font-family:'Orbitron',monospace;font-weight:900;color:#f43f5e;text-shadow:0 0 20px rgba(244,63,94,.5);margin:4px 0" class="cas-num">12</div>
+            <div style="font-size:8px;color:var(--muted)">+6 deaths in Kuwait Hub Strike</div>
           </div>
+        </div>
           <div style="background:rgba(56,189,248,.04);border:1px solid rgba(56,189,248,.15);border-radius:4px;padding:10px;text-align:center">
             <div style="font-size:8px;color:rgba(56,189,248,.5);text-transform:uppercase;letter-spacing:1.5px;font-weight:700">🇮🇱 ISRAEL</div>
             <div style="font-size:28px;font-family:'Orbitron',monospace;font-weight:900;color:#f97316;text-shadow:0 0 12px rgba(249,115,22,.4);margin:4px 0" class="cas-num">10+</div>
@@ -1306,6 +1319,40 @@ body{animation:war-pulse 8s ease-in-out infinite}
           <div style="font-size:8px;color:var(--muted);text-transform:uppercase;letter-spacing:1px">WAR DURATION</div>
           <div style="font-size:22px;font-family:'Orbitron',monospace;font-weight:800;color:#ef4444;text-shadow:0 0 12px rgba(239,68,68,.4);margin:4px 0" id="war-duration">--:--:--:--</div>
           <div style="font-size:8px;color:var(--muted)">Since 28 Feb 2026 ~12:00 UTC</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 💻 CYBER WARFARE TAB -->
+    <div class="rp-tab-content" id="rp-cyber">
+      <div class="widget-header">💻 <span class="wh-title">Cyber Front: Op Silent Thunder</span><span class="wh-count" id="cyber-status">ACTIVE</span></div>
+      <div class="widget-body" id="pane-cyber" style="padding:12px">
+        <div style="background:rgba(16,185,129,0.1);border:1px solid #10b981;padding:10px;border-radius:4px;margin-bottom:12px">
+          <div style="display:flex;justify-content:space-between;font-family:Orbitron;font-size:10px;color:#10b981">
+            <span>WESTERN GRID STABILITY</span>
+            <span>98.4%</span>
+          </div>
+          <div style="height:6px;background:rgba(16,185,129,0.2);margin-top:6px;border-radius:3px;overflow:hidden">
+            <div style="width:98%;height:100%;background:#10b981 shadow:0 0 10px #10b981;animation:text-pulse 3s infinite"></div>
+          </div>
+          <div style="font-size:8px;color:rgba(16,185,129,0.6);margin-top:4px">Targeting identified: ERCOT, PJM, NYISO. Low impact successful.</div>
+        </div>
+
+        <div style="background:rgba(244,63,94,0.1);border:1px solid #f43f5e;padding:10px;border-radius:4px">
+          <div style="display:flex;justify-content:space-between;font-family:Orbitron;font-size:10px;color:#f43f5e">
+            <span>IRANIAN COMMAND INFRA</span>
+            <span>DEGRADED</span>
+          </div>
+          <div style="height:6px;background:rgba(244,63,94,0.2);margin-top:6px;border-radius:3px;overflow:hidden">
+            <div style="width:42%;height:100%;background:#f43f5e;box-shadow:0 0 10px #f43f5e"></div>
+          </div>
+          <div style="font-size:8px;color:rgba(244,63,94,0.6);margin-top:4px">Operation "Silent Thunder" injecting latency into Sepah C2 networks.</div>
+        </div>
+
+        <div style="margin-top:15px;font-family:Share Tech Mono;font-size:10px;color:var(--muted)">
+          <div style="border-bottom:1px solid rgba(251,146,60,0.1);padding:4px 0">02:14 UTC: US Cyber Command confirms neutralized APT34 intrusion attempt.</div>
+          <div style="border-bottom:1px solid rgba(251,146,60,0.1);padding:4px 0">01:45 UTC: Tehran metro billing systems collapsed by unknown group "Red Echo".</div>
+          <div style="border-bottom:1px solid rgba(251,146,60,0.1);padding:4px 0">01:10 UTC: Warning issued for SpaceX/Starlink terminals in region — signal jamming reported.</div>
         </div>
       </div>
     </div>
@@ -2142,6 +2189,50 @@ body{animation:war-pulse 8s ease-in-out infinite}
   },5400);
 
 })();
+
+// ── WAR V5 SCALED RENDER ──
+const _origRender = render;
+render = function(){
+  _origRender();
+  // V5: Escalation HUD Trigger
+  const { pct } = computeThreat(acData.filter(ac=>ac.lat));
+  const hud = document.getElementById('escalation-hud');
+  if(hud) hud.style.display = pct >= 65 ? 'block' : 'none';
+  
+  // V5: Trend Chart update (if active)
+  if(currentRPTab === 'warstat') drawTrendChart();
+};
+
+function drawTrendChart(){
+  const can = document.getElementById('conflictTrend');
+  if(!can) return;
+  const ctx = can.getContext('2d');
+  ctx.clearRect(0,0,380,100);
+  
+  // Fake but realistic growth trend (Day 1-5)
+  const data = [201, 350, 555, 820, 1241];
+  const max = Math.max(...data);
+  ctx.strokeStyle = '#f43f5e';
+  ctx.lineWidth = 2;
+  ctx.setLineDash([]);
+  ctx.beginPath();
+  data.forEach((d, i) => {
+    const x = 20 + i * (340 / (data.length - 1));
+    const y = 80 - (d / max) * 60;
+    if(i === 0) ctx.moveTo(x, y); else ctx.lineTo(x,y);
+  });
+  ctx.stroke();
+  
+  // Dots and labels
+  data.forEach((d, i) => {
+    const x = 20 + i * (340 / (data.length - 1));
+    const y = 80 - (d / max) * 60;
+    ctx.fillStyle = '#f43f5e';
+    ctx.beginPath(); ctx.arc(x,y,3,0,Math.PI*2); ctx.fill();
+    ctx.font = '8px Share Tech Mono';
+    ctx.fillText('D'+(i+1), x-5, 95);
+  });
+}
 
 // ── Boot skip button ──
 function skipBoot(){
@@ -5289,7 +5380,12 @@ function showCentcomDetail(navalIdx, colKey, itemIdx){
 // ════════════════════════════════════════
 // IRAN STRIKE TIMELINE
 // ════════════════════════════════════════
-const IRAN_TIMELINE = [
+  const IRAN_TIMELINE = [
+  { time:'2026-03-03T21:40Z', icon:'🔴', type:'casualty',   text:'BREAKING: 12 US KIA confirmed total after missile strike on logistics hub in Kuwait. Trump: "The price will be extreme."', src:'Task & Purpose' },
+  { time:'2026-03-03T19:15Z', icon:'💻', type:'intel',      text:'SECURITY ALERT: Massive cyber-offensive targeting US power grids linked to Iran APT34. US Cyber Command activates "Operation Silent Thunder."', src:'BBC' },
+  { time:'2026-03-03T18:00Z', icon:'🔥', type:'strike',     text:'HORMUZ ESCALATION: 2 Greek-owned tankers confirmed TORCHED in the Strait. Fireballs visible from satellite. IRGC fast boats blocking rescue.', src:'USNI/Vantor' },
+  { time:'2026-03-03T14:30Z', icon:'🛡️', type:'intercept',  text:'IDF moving 3 fresh heavy divisions to Lebanese border. Southern Lebanon being evacuated under fire. Northern front igniting.', src:'Defense News' },
+  { time:'2026-03-03T09:12Z', icon:'💀', type:'casualty',   text:'DEATH TOLL SURGE: Red Crescent reports 1,241 casualties in Iran as coalition switch to "Total Air Dominance" phase.', src:'Al Jazeera' },
   { time:'2026-03-02T21:00Z', icon:'🇪🇸', type:'diplomatic', text:'SPAIN REFUSES to let US use bases for Iran attacks. PM Sanchez condemns strikes. Coalition fracturing on European front.', src:'Al Jazeera' },
   { time:'2026-03-02T20:00Z', icon:'🇱🇧', type:'intel',      text:'LEBANON BANS ALL HEZBOLLAH MILITARY ACTIVITIES after rocket attack on Israel. PM Salam: "all Hezbollah activities are illegal." Hezbollah: ban unjustified.', src:'Al Jazeera' },
   { time:'2026-03-02T18:00Z', icon:'🔥', type:'strike',     text:'IRAN THREATENS TO TORCH TANKERS at Strait of Hormuz. Maritime escalation — 20% of global oil supply at risk. Brent crude $77.74 (+6.7%).', src:'Al Jazeera' },
@@ -5390,21 +5486,15 @@ function renderIranTimeline() {
 }
 
 // Iran Ticker cycling
-const IRAN_TICKER_MSGS = [
-  'DAY 4 — 6 US KIA CONFIRMED',
-  '3 F-15s DOWN IN KUWAIT — FRIENDLY FIRE?',
-  'QATAR SHOOTS DOWN 2 IRANIAN JETS',
-  'IRAN: TORCH TANKERS AT HORMUZ',
-  '555+ DEAD IRAN — 10+ ISRAEL — 6 US',
-  'BRENT CRUDE $77.74 ↑6.7% — WAR PREMIUM',
-  'SPAIN REFUSES US BASE ACCESS',
-  'LEBANON BANS HEZBOLLAH MILITARY',
-  'TRUMP: ATTACKS UNTIL OBJECTIVES MET',
-  'RUBIO: STRIKES INFLUENCED BY ISRAELI PLANS',
-  'SPACE FORCE: ORBITAL WARFARE BEGINS',
-  'IRANIAN FRIGATE SUNK — NAVY BURNING',
-  'DUBAI · DOHA · MANAMA · KUWAIT HIT',
-  'NEW SUPREME LEADER WITHIN DAYS — FM',
+  const IRAN_TICKER_MSGS = [
+  'DAY 5 — 12 US KIA TOTAL — KUWAIT HUB STRUCK',
+  'CYBER-WAR ACTIVATED: OP SILENT THUNDER',
+  'HORMUZ: 2 TANKERS TORCHED AND BURNING',
+  '1,200+ DEAD IN IRAN — ISRAEL FRONT IGNITES',
+  'BRENT CRUDE $84.21 ↑12% — GLOBAL ENERGY SHOCK',
+  'US CYBER COMMAND Neutralizes APT34 Grid Attacks',
+  'IDF MOVING 3 DIVISIONS TO LEBANON BORDER',
+  'KHAMENEI DEAD — IRGC CRACKDOWN IN TEHRAN',
   'DEFCON 1 — ALL FORCES MAXIMUM ALERT',
 ];
 let iranTickerIdx = 0;
