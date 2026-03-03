@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-03-03T21:22:24Z",
-  "version": 152,
+  "generated_utc": "2026-03-03T22:16:07Z",
+  "version": 153,
   "breaking_alert": "💀 DAY 4 — 6 US KIA — 3 F-15s DOWN IN KUWAIT (FRIENDLY FIRE?) — QATAR SHOOTS DOWN 2 IRANIAN JETS — IRAN THREATENS TO TORCH TANKERS — 555+ IRANIAN DEAD — STRIKES CONTINUE",
   "naval_deployments": [
     {
@@ -594,15 +594,6 @@
   ],
   "_naval_news_refs": [
     {
-      "title": "Swedish Forces Jam Suspected Russian Drone Near French Carrier Charles De Gaulle",
-      "link": "https://news.usni.org/2026/02/27/swedish-forces-jam-suspected-russian-drone-near-french-carrier-charles-de-gaulle",
-      "published": "Fri, 27 Feb 2026 20:48:29 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Greece Deploys FDI Frigate to Shield Cyprus Amid Iran Tensions",
       "link": "https://www.navalnews.com/naval-news/2026/03/greece-deploys-fdi-frigate-to-shield-cyprus-amid-iran-tensions/",
       "published": "Mon, 02 Mar 2026 13:32:04 +0000",
@@ -619,15 +610,6 @@
       "categories": [
         "deployment",
         "conflict"
-      ]
-    },
-    {
-      "title": "Additional troops to deploy to Middle East as Gen. Caine says to expect ‘additional losses’",
-      "link": "https://www.defensenews.com/news/your-military/2026/03/02/additional-troops-to-deploy-to-middle-east-as-gen-caine-says-to-expect-additional-losses/",
-      "published": "Mon, 02 Mar 2026 15:46:47 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment"
       ]
     },
     {
@@ -680,13 +662,31 @@
       ]
     },
     {
-      "title": "Space Force squadron barred from alcohol amid US-Israeli strikes on Iran",
-      "link": "https://www.militarytimes.com/news/your-military/2026/03/02/space-force-squadron-barred-from-alcohol-amid-us-israeli-strikes-on-iran/",
-      "published": "Mon, 02 Mar 2026 19:50:55 +0000",
+      "title": "Trump projects war on Iran could last ‘four to five weeks’",
+      "link": "https://www.defensenews.com/news/your-military/2026/03/02/trump-projects-war-on-iran-could-last-four-to-five-weeks/",
+      "published": "Mon, 02 Mar 2026 20:52:43 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Trump projects war on Iran could last ‘four to five weeks’",
+      "link": "https://www.militarytimes.com/news/your-military/2026/03/02/trump-projects-war-on-iran-could-last-four-to-five-weeks/",
+      "published": "Mon, 02 Mar 2026 20:52:43 +0000",
       "source": "Military Times",
       "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Six dead, 18 service members injured in Iran operation",
+      "link": "https://www.defensenews.com/news/your-military/2026/03/02/six-dead-18-service-members-injured-in-iran-operation/",
+      "published": "Mon, 02 Mar 2026 21:13:28 +0000",
+      "source": "Defense News",
+      "categories": [
         "deployment",
-        "conflict"
+        "exercise"
       ]
     }
   ],
@@ -946,11 +946,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 29,
-    "conflict_articles": 14,
+    "deployment_articles": 26,
+    "conflict_articles": 13,
     "exercise_articles": 8,
     "total_articles": 50,
-    "computed_at": "2026-03-03T21:22:23.712805+00:00",
+    "computed_at": "2026-03-03T22:16:06.682073+00:00",
     "manual_override": "DEFCON_1",
     "breaking_events": [
       "6 US KIA total — CENTCOM Mar 2",
