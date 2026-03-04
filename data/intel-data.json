@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-03-04T18:30:47Z",
-  "version": 170,
+  "generated_utc": "2026-03-04T19:30:04Z",
+  "version": 171,
   "breaking_alert": "DAY 5: 12 US KIA TOTAL IN IRAN CONFLICT — ISRAELI F-35 DOWNS IRANIAN YAK-130 OVER TEHRAN",
   "naval_deployments": [
     {
@@ -615,15 +615,6 @@
       ]
     },
     {
-      "title": "Belgian, French Forces Seize Russian ‘Shadow Fleet’ tanker in North Sea",
-      "link": "https://news.usni.org/2026/03/02/belgian-french-forces-seize-russian-shadow-fleet-tanker-in-north-sea",
-      "published": "Mon, 02 Mar 2026 17:02:47 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Shipyard Worker Dead, Fire Breaks Out on U.S.-Flagged Tanker After Iranian Attack on Bahrain Port",
       "link": "https://news.usni.org/2026/03/02/shipyard-worker-dead-fire-breaks-out-on-u-s-flagged-tanker-after-iranian-attack-on-bahrain-port",
       "published": "Mon, 02 Mar 2026 18:16:28 +0000",
@@ -688,6 +679,16 @@
       "source": "Task & Purpose",
       "categories": [
         "deployment"
+      ]
+    },
+    {
+      "title": "Pentagon identifies 4 soldiers killed by Iranian attack",
+      "link": "https://taskandpurpose.com/news/military-troops-identified-iran/",
+      "published": "Tue, 03 Mar 2026 18:47:45 -0500",
+      "source": "Task & Purpose",
+      "categories": [
+        "deployment",
+        "conflict"
       ]
     }
   ],
@@ -928,22 +929,21 @@
       ]
     },
     {
-      "title": "B-1B Lancers conduct deep strikes in Iran as part of Operation Epic Fury",
-      "link": "https://www.militarytimes.com/news/your-military/2026/03/03/b-1b-lancers-conduct-deep-strikes-in-iran-as-part-of-operation-epic-fury/",
-      "published": "Tue, 03 Mar 2026 22:59:18 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment",
-        "exercise",
-        "conflict"
-      ]
-    },
-    {
       "title": "US Southern Command says it launched military operations in Ecuador aimed at ‘narco-terrorists’",
       "link": "https://taskandpurpose.com/news/us-military-operations-ecuador/",
       "published": "Wed, 04 Mar 2026 08:39:38 -0500",
       "source": "Task & Purpose",
       "categories": [
+        "exercise"
+      ]
+    },
+    {
+      "title": "Iran’s Catamaran Corvette Struck During Operation Epic Fury",
+      "link": "https://www.navalnews.com/naval-news/2026/03/irans-catamaran-corvette-struck-during-operation-epic-fury/",
+      "published": "Wed, 04 Mar 2026 14:30:34 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment",
         "exercise"
       ]
     }
@@ -953,7 +953,7 @@
     "conflict_articles": 12,
     "exercise_articles": 9,
     "total_articles": 50,
-    "computed_at": "2026-03-04T18:30:46.651297+00:00",
+    "computed_at": "2026-03-04T19:30:04.417041+00:00",
     "manual_override": "DEFCON_1",
     "breaking_events": [
       "12 US personnel confirmed KIA in operations against Iran (Mar 4 total)",
