@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-03-04T19:30:04Z",
-  "version": 171,
+  "generated_utc": "2026-03-04T20:20:50Z",
+  "version": 172,
   "breaking_alert": "DAY 5: 12 US KIA TOTAL IN IRAN CONFLICT — ISRAELI F-35 DOWNS IRANIAN YAK-130 OVER TEHRAN",
   "naval_deployments": [
     {
@@ -898,15 +898,6 @@
   ],
   "_exercise_news_refs": [
     {
-      "title": "Space Force to refine ‘orbital warfare’ maneuvers with new prototype",
-      "link": "https://taskandpurpose.com/news/space-force-orbital-warfare-training-satellite/",
-      "published": "Mon, 02 Mar 2026 08:07:00 -0500",
-      "source": "Task & Purpose",
-      "categories": [
-        "exercise"
-      ]
-    },
-    {
       "title": "6 US troops killed, others wounded in operations against Iran",
       "link": "https://taskandpurpose.com/news/casualties-operation-epic-fury/",
       "published": "Mon, 02 Mar 2026 16:15:50 -0500",
@@ -946,14 +937,24 @@
         "deployment",
         "exercise"
       ]
+    },
+    {
+      "title": "Philippine Forces Hold Naval Drills with U.S., Japanese Warships Near Taiwan",
+      "link": "https://news.usni.org/2026/03/04/philippine-forces-hold-naval-drills-with-u-s-japanese-warships-near-taiwan",
+      "published": "Wed, 04 Mar 2026 15:32:46 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment",
+        "exercise"
+      ]
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 31,
-    "conflict_articles": 12,
-    "exercise_articles": 9,
+    "deployment_articles": 33,
+    "conflict_articles": 14,
+    "exercise_articles": 8,
     "total_articles": 50,
-    "computed_at": "2026-03-04T19:30:04.417041+00:00",
+    "computed_at": "2026-03-04T20:20:49.941075+00:00",
     "manual_override": "DEFCON_1",
     "breaking_events": [
       "12 US personnel confirmed KIA in operations against Iran (Mar 4 total)",
