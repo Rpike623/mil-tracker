@@ -1109,15 +1109,15 @@ body{animation:war-pulse 8s ease-in-out infinite}
   </div>
   <div class="sb-cell alert" title="Hormuz status" onclick="goTo(26.6,56.3,7)" style="animation:status-flash-red 1.5s ease-in-out infinite">
     <span class="sb-label">HORMUZ</span>
-    <span class="sb-value" id="sb-hormuz">🔥 TANKERS TORCHED</span>
+    <span class="sb-value" id="sb-hormuz">🔥 CRITICAL BLOCKADE</span>
   </div>
   <div class="sb-cell alert" title="Coalition losses">
     <span class="sb-label">US KIA</span>
     <span class="sb-value" style="color:#f43f5e;font-family:'Orbitron',monospace;font-weight:800">12</span>
   </div>
   <div class="sb-cell alert" title="F-15 friendly fire">
-    <span class="sb-label">ISRAEL KIA</span>
-    <span class="sb-value" style="color:#f97316;font-family:'Orbitron',monospace;font-weight:800">45+</span>
+    <span class="sb-label">ISRAEL DEAD</span>
+    <span class="sb-value" style="color:#f97316;font-family:'Orbitron',monospace;font-weight:800">12</span>
   </div>
   <div class="sb-cell" title="Iran internet">
     <span class="sb-label">IRAN NET</span>
@@ -1238,8 +1238,8 @@ body{animation:war-pulse 8s ease-in-out infinite}
         <div style="display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:12px">
           <div style="background:rgba(244,63,94,.1);border:1px solid rgba(244,63,94,.4);border-radius:4px;padding:10px;text-align:center;animation:war-border-glow 3s ease-in-out infinite">
             <div style="font-size:8px;color:rgba(244,63,94,.8);text-transform:uppercase;letter-spacing:1.5px;font-weight:700">🇮🇷 IRAN DEAD</div>
-            <div style="font-size:28px;font-family:'Orbitron',monospace;font-weight:900;color:#f43f5e;text-shadow:0 0 20px rgba(244,63,94,0.7);margin:4px 0" class="cas-num">1,241+</div>
-            <div style="font-size:8px;color:var(--muted)">Est. civilians: 412 · Sepah: 829</div>
+            <div style="font-size:28px;font-family:'Orbitron',monospace;font-weight:900;color:#f43f5e;text-shadow:0 0 20px rgba(244,63,94,0.7);margin:4px 0" class="cas-num">~1,045</div>
+            <div style="font-size:8px;color:var(--muted)">Est. civilians / ~1,300 military deaths</div>
           </div>
           <div style="background:rgba(251,146,60,.1);border:1px solid rgba(251,146,60,.4);border-radius:4px;padding:10px;text-align:center">
             <div style="font-size:8px;color:var(--accent);text-transform:uppercase;letter-spacing:1.5px;font-weight:700">🇺🇸 US KIA</div>
@@ -1491,13 +1491,13 @@ body{animation:war-pulse 8s ease-in-out infinite}
   <div class="war-ticker-label">🔴 BREAKING</div>
   <div class="war-ticker-scroll">
     <div class="war-ticker-inner" id="warTickerInner">
-      <span class="tk-critical">💀 DAY 5: 12 US SERVICE MEMBERS KILLED IN OPERATIONS AGAINST IRAN — KUWAIT HUB STRUCK</span>
+      <span class="tk-critical">💀 DAY 5: 12 US SERVICE MEMBERS KILLED IN OPERATIONS AGAINST IRAN — ISRAELI F-35 AIR KILL CONFIRMED</span>
       <span class="tk-sep">///</span>
-      <span class="tk-critical">💻 CYBER-WAR ESCALATION: IRAN TARGETS US POWER GRIDS — OPERATION SILENT THUNDERS ACTIVATED</span>
+      <span class="tk-critical">🚢 NAVAL REACH: US SUBMARINE SINKS IRANIAN FRIGATE IRIS DENA OFF SRI LANKA COAST</span>
       <span class="tk-sep">///</span>
-      <span class="tk-critical">🔥 HORMUZ TORCHED: 2 TANKERS CONFIRMED BURNING — IRGC BLOCKING RESCUE</span>
+      <span class="tk-critical">🔥 HORMUZ BLOCKADE: IRGC FIRING ON TANKERS — BRENT CRUDE SURGES TO $82.42</span>
       <span class="tk-sep">///</span>
-      <span class="tk-alert">💀 DEATH TOLL: 1,241+ DEAD IN IRAN — 45 IN ISRAEL — 12 US — 32 GULF STATES</span>
+      <span class="tk-alert">💀 DEATH TOLL: ~1,045+ DEAD IN IRAN — 12 US — 12 ISRAEL — 32 GULF STATES</span>
       <span class="tk-sep">///</span>
       <span class="tk-info">🇪🇸 SPAIN REFUSES TO LET US USE BASES FOR IRAN ATTACKS — PM SANCHEZ CONDEMNS STRIKES</span>
       <span class="tk-sep">///</span>
@@ -5408,7 +5408,13 @@ function showCentcomDetail(navalIdx, colKey, itemIdx){
 // IRAN STRIKE TIMELINE
 // ════════════════════════════════════════
   const IRAN_TIMELINE = [
-  { time:'2026-03-03T21:40Z', icon:'🔴', type:'casualty',   text:'BREAKING: 12 US KIA confirmed total after missile strike on logistics hub in Kuwait. Trump: "The price will be extreme."', src:'Task & Purpose' },
+  { time:'2026-03-04T17:30Z', icon:'✈️', type:'intercept', text:'Israeli F-35 downs Iranian YAK-130 trainer/fighter over Tehran — first confirmed F-35 air-to-air kill.', src:'ILTV' },
+  { time:'2026-03-04T16:15Z', icon:'🚢', type:'strike',    text:'US Secretary Hegseth confirms US SUBMARINE sank Iranian frigate IRIS Dena off Sri Lanka coast.', src:'USNI' },
+  { time:'2026-03-04T14:45Z', icon:'💀', type:'casualty',  text:'12 US KIA total confirmed in Operations against Iran. 6 died in Kuwait logistics hub strike.', src:'CENTCOM' },
+  { time:'2026-03-04T12:00Z', icon:'🔥', type:'strike',    text:'Israel launches "broad wave" of strikes on Tehran military sites, IRGC HQ, and Basij facilities.', src:'IDF' },
+  { time:'2026-03-04T09:30Z', icon:'🛡️', type:'intercept', text:'IDF ground units crossing Lebanon border for "protection zones" — warning 80 villages to evacuate.', src:'Defense News' },
+  { time:'2026-03-04T08:00Z', icon:'💀', type:'casualty',  text:'Iran Death Toll reaches ~1,045 civilian / 1,300+ military deaths estimated as war enters Day 5.', src:'Red Crescent' },
+  { time:'2026-03-03T21:40Z', icon:'🔴', type:'casualty',   text:'BREAKING: 12 US KIA confirmed total after missile strike on logistics hub in Kuwait.', src:'Task & Purpose' },
   { time:'2026-03-03T19:15Z', icon:'💻', type:'intel',      text:'SECURITY ALERT: Massive cyber-offensive targeting US power grids linked to Iran APT34. US Cyber Command activates "Operation Silent Thunder."', src:'BBC' },
   { time:'2026-03-03T18:00Z', icon:'🔥', type:'strike',     text:'HORMUZ ESCALATION: 2 Greek-owned tankers confirmed TORCHED in the Strait. Fireballs visible from satellite. IRGC fast boats blocking rescue.', src:'USNI/Vantor' },
   { time:'2026-03-03T14:30Z', icon:'🛡️', type:'intercept',  text:'IDF moving 3 fresh heavy divisions to Lebanese border. Southern Lebanon being evacuated under fire. Northern front igniting.', src:'Defense News' },
@@ -5514,11 +5520,11 @@ function renderIranTimeline() {
 
 // Iran Ticker cycling
   const IRAN_TICKER_MSGS = [
-  'DAY 5 — 12 US KIA TOTAL — KUWAIT HUB STRUCK',
-  'CYBER-WAR ACTIVATED: OP SILENT THUNDER',
-  'HORMUZ: 2 TANKERS TORCHED AND BURNING',
-  '1,200+ DEAD IN IRAN — ISRAEL FRONT IGNITES',
-  'BRENT CRUDE $84.21 ↑12% — GLOBAL ENERGY SHOCK',
+  'DAY 5 — 12 US KIA TOTAL — ISRAELI F-35 AIR-TO-AIR KILL OVER TEHRAN',
+  'US SUBMARINE SINKS IRANIAN FRIGATE OFF SRI LANKA COAST',
+  'CRITICAL: IDF GROUND TROOPS ENTERING LEBANON TO CREATE PROTECTION ZONES',
+  '1,045+ CIVILIAN DEAD IN IRAN — BRENT CRUDE $82.42 — HORMUZ BLOCKADE',
+  'CYBER-WAR ACTIVATED: OP SILENT THUNDER AGAINST US GRID ATTACKS',
   'US CYBER COMMAND Neutralizes APT34 Grid Attacks',
   'IDF MOVING 3 DIVISIONS TO LEBANON BORDER',
   'KHAMENEI DEAD — IRGC CRACKDOWN IN TEHRAN',
