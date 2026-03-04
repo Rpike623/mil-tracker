@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-03-04T15:28:06Z",
-  "version": 167,
+  "generated_utc": "2026-03-04T16:28:45Z",
+  "version": 168,
   "breaking_alert": "💀 DAY 4 — 6 US KIA — 3 F-15s DOWN IN KUWAIT (FRIENDLY FIRE?) — QATAR SHOOTS DOWN 2 IRANIAN JETS — IRAN THREATENS TO TORCH TANKERS — 555+ IRANIAN DEAD — STRIKES CONTINUE",
   "naval_deployments": [
     {
@@ -885,12 +885,12 @@
       ]
     },
     {
-      "title": "3 U.S. Service Members Killed, 5 Seriously Wounded in Operation Epic Fury",
-      "link": "https://news.usni.org/2026/03/01/3-u-s-service-members-killed-5-seriously-wounded-in-operation-epic-fury",
-      "published": "Sun, 01 Mar 2026 15:35:57 +0000",
-      "source": "USNI News",
+      "title": "Qatar Emiri Navy Intercepts Iranian Missiles and Drones",
+      "link": "https://www.navalnews.com/naval-news/2026/03/qatar-emiri-navy-intercepts-iranian-missiles-and-drones/",
+      "published": "Tue, 03 Mar 2026 14:15:15 +0000",
+      "source": "Naval News",
       "categories": [
-        "exercise",
+        "deployment",
         "conflict"
       ]
     }
@@ -928,16 +928,6 @@
       ]
     },
     {
-      "title": "3 U.S. Service Members Killed, 5 Seriously Wounded in Operation Epic Fury",
-      "link": "https://news.usni.org/2026/03/01/3-u-s-service-members-killed-5-seriously-wounded-in-operation-epic-fury",
-      "published": "Sun, 01 Mar 2026 15:35:57 +0000",
-      "source": "USNI News",
-      "categories": [
-        "exercise",
-        "conflict"
-      ]
-    },
-    {
       "title": "B-1B Lancers conduct deep strikes in Iran as part of Operation Epic Fury",
       "link": "https://www.defensenews.com/news/your-military/2026/03/03/b-1b-lancers-conduct-deep-strikes-in-iran-as-part-of-operation-epic-fury/",
       "published": "Tue, 03 Mar 2026 22:59:18 +0000",
@@ -947,14 +937,25 @@
         "exercise",
         "conflict"
       ]
+    },
+    {
+      "title": "B-1B Lancers conduct deep strikes in Iran as part of Operation Epic Fury",
+      "link": "https://www.militarytimes.com/news/your-military/2026/03/03/b-1b-lancers-conduct-deep-strikes-in-iran-as-part-of-operation-epic-fury/",
+      "published": "Tue, 03 Mar 2026 22:59:18 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment",
+        "exercise",
+        "conflict"
+      ]
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 28,
-    "conflict_articles": 12,
+    "deployment_articles": 32,
+    "conflict_articles": 13,
     "exercise_articles": 8,
     "total_articles": 50,
-    "computed_at": "2026-03-04T15:28:05.508947+00:00",
+    "computed_at": "2026-03-04T16:28:44.820841+00:00",
     "manual_override": "DEFCON_1",
     "breaking_events": [
       "6 US KIA total — CENTCOM Mar 2",
