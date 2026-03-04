@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-03-04T09:28:24Z",
-  "version": 161,
+  "generated_utc": "2026-03-04T10:23:32Z",
+  "version": 162,
   "breaking_alert": "💀 DAY 4 — 6 US KIA — 3 F-15s DOWN IN KUWAIT (FRIENDLY FIRE?) — QATAR SHOOTS DOWN 2 IRANIAN JETS — IRAN THREATENS TO TORCH TANKERS — 555+ IRANIAN DEAD — STRIKES CONTINUE",
   "naval_deployments": [
     {
@@ -594,15 +594,6 @@
   ],
   "_naval_news_refs": [
     {
-      "title": "Greece Deploys FDI Frigate to Shield Cyprus Amid Iran Tensions",
-      "link": "https://www.navalnews.com/naval-news/2026/03/greece-deploys-fdi-frigate-to-shield-cyprus-amid-iran-tensions/",
-      "published": "Mon, 02 Mar 2026 13:32:04 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Future French Ballistic Missile Submarines will be named Invincible-class",
       "link": "https://www.navalnews.com/naval-news/2026/03/future-french-ballistic-missile-submarines-will-be-named-invincible-class/",
       "published": "Mon, 02 Mar 2026 15:40:07 +0000",
@@ -687,6 +678,16 @@
       "link": "https://news.usni.org/2026/02/28/u-s-israel-launch-operation-epic-fury-against-iran-tehran-retaliates-across-region",
       "published": "Sat, 28 Feb 2026 16:37:44 +0000",
       "source": "USNI News",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
+    },
+    {
+      "title": "Iran strike marks first time US used new one-way attack drones in combat",
+      "link": "https://taskandpurpose.com/news/us-iran-lucas-one-way-drone/",
+      "published": "Sat, 28 Feb 2026 20:44:07 -0500",
+      "source": "Task & Purpose",
       "categories": [
         "deployment",
         "conflict"
@@ -956,7 +957,7 @@
     "conflict_articles": 16,
     "exercise_articles": 6,
     "total_articles": 50,
-    "computed_at": "2026-03-04T09:28:24.291753+00:00",
+    "computed_at": "2026-03-04T10:23:31.480370+00:00",
     "manual_override": "DEFCON_1",
     "breaking_events": [
       "6 US KIA total — CENTCOM Mar 2",
