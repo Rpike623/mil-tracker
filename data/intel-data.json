@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-03-04T00:58:05Z",
-  "version": 155,
+  "generated_utc": "2026-03-04T03:23:32Z",
+  "version": 156,
   "breaking_alert": "💀 DAY 4 — 6 US KIA — 3 F-15s DOWN IN KUWAIT (FRIENDLY FIRE?) — QATAR SHOOTS DOWN 2 IRANIAN JETS — IRAN THREATENS TO TORCH TANKERS — 555+ IRANIAN DEAD — STRIKES CONTINUE",
   "naval_deployments": [
     {
@@ -662,16 +662,6 @@
       ]
     },
     {
-      "title": "Six dead, 18 service members injured in Iran operation",
-      "link": "https://www.defensenews.com/news/your-military/2026/03/02/six-dead-18-service-members-injured-in-iran-operation/",
-      "published": "Mon, 02 Mar 2026 21:13:28 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment",
-        "exercise"
-      ]
-    },
-    {
       "title": "Iranian Naval Forces are Major Target in Operation Epic Fury Strikes",
       "link": "https://news.usni.org/2026/03/02/iranian-naval-forces-are-major-target-in-operation-epic-fury-strikes",
       "published": "Mon, 02 Mar 2026 22:35:04 +0000",
@@ -687,6 +677,16 @@
       "link": "https://www.navalnews.com/naval-news/2026/03/us-strikes-destroy-irans-main-naval-assets/",
       "published": "Mon, 02 Mar 2026 22:37:44 +0000",
       "source": "Naval News",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
+    },
+    {
+      "title": "UPDATED: U.S., Israel Launch Strikes Against Iran, Tehran Retaliates Across Region",
+      "link": "https://news.usni.org/2026/02/28/u-s-israel-launch-operation-epic-fury-against-iran-tehran-retaliates-across-region",
+      "published": "Sat, 28 Feb 2026 16:37:44 +0000",
+      "source": "USNI News",
       "categories": [
         "deployment",
         "conflict"
@@ -919,16 +919,6 @@
       ]
     },
     {
-      "title": "Six dead, 18 service members injured in Iran operation",
-      "link": "https://www.defensenews.com/news/your-military/2026/03/02/six-dead-18-service-members-injured-in-iran-operation/",
-      "published": "Mon, 02 Mar 2026 21:13:28 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment",
-        "exercise"
-      ]
-    },
-    {
       "title": "Iranian Naval Forces are Major Target in Operation Epic Fury Strikes",
       "link": "https://news.usni.org/2026/03/02/iranian-naval-forces-are-major-target-in-operation-epic-fury-strikes",
       "published": "Mon, 02 Mar 2026 22:35:04 +0000",
@@ -948,14 +938,25 @@
         "exercise",
         "conflict"
       ]
+    },
+    {
+      "title": "B-1B Lancers conduct deep strikes in Iran as part of Operation Epic Fury",
+      "link": "https://www.defensenews.com/news/your-military/2026/03/03/b-1b-lancers-conduct-deep-strikes-in-iran-as-part-of-operation-epic-fury/",
+      "published": "Tue, 03 Mar 2026 22:59:18 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment",
+        "exercise",
+        "conflict"
+      ]
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 26,
+    "deployment_articles": 24,
     "conflict_articles": 16,
-    "exercise_articles": 7,
+    "exercise_articles": 6,
     "total_articles": 50,
-    "computed_at": "2026-03-04T00:58:04.770807+00:00",
+    "computed_at": "2026-03-04T03:23:32.295893+00:00",
     "manual_override": "DEFCON_1",
     "breaking_events": [
       "6 US KIA total — CENTCOM Mar 2",
