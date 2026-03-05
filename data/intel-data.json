@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-03-05T14:36:07Z",
-  "version": 187,
+  "generated_utc": "2026-03-05T15:38:26Z",
+  "version": 188,
   "breaking_alert": "DAY 5: 12 US KIA TOTAL IN IRAN CONFLICT — ISRAELI F-35 DOWNS IRANIAN YAK-130 OVER TEHRAN",
   "naval_deployments": [
     {
@@ -594,16 +594,6 @@
   ],
   "_naval_news_refs": [
     {
-      "title": "Shipyard Worker Dead, Fire Breaks Out on U.S.-Flagged Tanker After Iranian Attack on Bahrain Port",
-      "link": "https://news.usni.org/2026/03/02/shipyard-worker-dead-fire-breaks-out-on-u-s-flagged-tanker-after-iranian-attack-on-bahrain-port",
-      "published": "Mon, 02 Mar 2026 18:16:28 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
       "title": "USNI News Fleet and Marine Tracker: March 2, 2026",
       "link": "https://news.usni.org/2026/03/02/usni-news-fleet-and-marine-tracker-march-2-2026",
       "published": "Mon, 02 Mar 2026 19:50:26 +0000",
@@ -640,6 +630,16 @@
       "source": "Military Times",
       "categories": [
         "deployment"
+      ]
+    },
+    {
+      "title": "Italy, allies send warships to protect Europe’s southeastern edge from Iran strikes",
+      "link": "https://www.defensenews.com/global/europe/2026/03/05/italy-allies-send-warships-to-protect-europes-southeastern-edge-from-iran-strikes/",
+      "published": "Thu, 05 Mar 2026 14:42:09 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment",
+        "conflict"
       ]
     },
     {
@@ -841,16 +841,6 @@
   },
   "_conflict_news_refs": [
     {
-      "title": "Shipyard Worker Dead, Fire Breaks Out on U.S.-Flagged Tanker After Iranian Attack on Bahrain Port",
-      "link": "https://news.usni.org/2026/03/02/shipyard-worker-dead-fire-breaks-out-on-u-s-flagged-tanker-after-iranian-attack-on-bahrain-port",
-      "published": "Mon, 02 Mar 2026 18:16:28 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
       "title": "Iranian Naval Forces are Major Target in Operation Epic Fury Strikes",
       "link": "https://news.usni.org/2026/03/02/iranian-naval-forces-are-major-target-in-operation-epic-fury-strikes",
       "published": "Mon, 02 Mar 2026 22:35:04 +0000",
@@ -866,6 +856,16 @@
       "link": "https://www.militarytimes.com/news/your-military/2026/03/05/pentagon-names-5th-soldier-killed-by-iran-drone-strike-6th-is-believed-to-be-idd/",
       "published": "Thu, 05 Mar 2026 02:23:19 +0000",
       "source": "Military Times",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
+    },
+    {
+      "title": "Italy, allies send warships to protect Europe’s southeastern edge from Iran strikes",
+      "link": "https://www.defensenews.com/global/europe/2026/03/05/italy-allies-send-warships-to-protect-europes-southeastern-edge-from-iran-strikes/",
+      "published": "Thu, 05 Mar 2026 14:42:09 +0000",
+      "source": "Defense News",
       "categories": [
         "deployment",
         "conflict"
@@ -944,11 +944,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 25,
-    "conflict_articles": 9,
+    "deployment_articles": 24,
+    "conflict_articles": 8,
     "exercise_articles": 9,
     "total_articles": 50,
-    "computed_at": "2026-03-05T14:36:02.192604+00:00",
+    "computed_at": "2026-03-05T15:38:25.952372+00:00",
     "manual_override": "DEFCON_1",
     "breaking_events": [
       "12 US personnel confirmed KIA in operations against Iran (Mar 4 total)",
