@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-03-05T05:07:33Z",
-  "version": 178,
+  "generated_utc": "2026-03-05T06:35:12Z",
+  "version": 179,
   "breaking_alert": "DAY 5: 12 US KIA TOTAL IN IRAN CONFLICT — ISRAELI F-35 DOWNS IRANIAN YAK-130 OVER TEHRAN",
   "naval_deployments": [
     {
@@ -654,15 +654,6 @@
       ]
     },
     {
-      "title": "Shadow Fleet Tanker Impounded by Belgium and France",
-      "link": "https://www.navalnews.com/naval-news/2026/03/shadow-fleet-tanker-impounded-by-belgium-and-france/",
-      "published": "Tue, 03 Mar 2026 08:01:33 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Top officer in Middle East tells US troops ‘you will change the course of human history’",
       "link": "https://taskandpurpose.com/news/epic-fury-letter-to-troops/",
       "published": "Tue, 03 Mar 2026 11:11:24 -0500",
@@ -688,6 +679,16 @@
       "source": "Task & Purpose",
       "categories": [
         "deployment"
+      ]
+    },
+    {
+      "title": "Pentagon identifies 4 soldiers killed by Iranian attack",
+      "link": "https://taskandpurpose.com/news/military-troops-identified-iran/",
+      "published": "Tue, 03 Mar 2026 18:47:45 -0500",
+      "source": "Task & Purpose",
+      "categories": [
+        "deployment",
+        "conflict"
       ]
     }
   ],
@@ -949,11 +950,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 30,
+    "deployment_articles": 29,
     "conflict_articles": 11,
     "exercise_articles": 9,
     "total_articles": 50,
-    "computed_at": "2026-03-05T05:07:32.876872+00:00",
+    "computed_at": "2026-03-05T06:35:12.322395+00:00",
     "manual_override": "DEFCON_1",
     "breaking_events": [
       "12 US personnel confirmed KIA in operations against Iran (Mar 4 total)",
