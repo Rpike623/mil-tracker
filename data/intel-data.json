@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-03-05T12:31:38Z",
-  "version": 185,
+  "generated_utc": "2026-03-05T13:53:09Z",
+  "version": 186,
   "breaking_alert": "DAY 5: 12 US KIA TOTAL IN IRAN CONFLICT — ISRAELI F-35 DOWNS IRANIAN YAK-130 OVER TEHRAN",
   "naval_deployments": [
     {
@@ -682,9 +682,9 @@
       ]
     },
     {
-      "title": "UK deploys Type 45 destroyer, drone-busting helicopters amid Iran tensions",
-      "link": "https://www.navalnews.com/naval-news/2026/03/uk-deploys-type-45-destroyer-drone-busting-helicopters-amid-iran-tensions/",
-      "published": "Tue, 03 Mar 2026 19:35:31 +0000",
+      "title": "French CSG Retasked to East Mediterranean amid Iran tensions",
+      "link": "https://www.navalnews.com/naval-news/2026/03/french-csg-retasked-to-east-mediterranean-amid-iran-tensions/",
+      "published": "Tue, 03 Mar 2026 20:39:45 +0000",
       "source": "Naval News",
       "categories": [
         "deployment"
@@ -919,6 +919,15 @@
       ]
     },
     {
+      "title": "Navantia’s proposal for Croatia: a proven ship and long-term robust industrial cooperation",
+      "link": "https://www.navalnews.com/naval-news/2026/03/navantias-proposal-for-croatia-a-proven-ship-and-long-term-robust-industrial-cooperation/",
+      "published": "Thu, 05 Mar 2026 13:37:17 +0000",
+      "source": "Naval News",
+      "categories": [
+        "exercise"
+      ]
+    },
+    {
       "title": "US Southern Command says it launched military operations in Ecuador aimed at ‘narco-terrorists’",
       "link": "https://taskandpurpose.com/news/us-military-operations-ecuador/",
       "published": "Wed, 04 Mar 2026 08:39:38 -0500",
@@ -936,24 +945,14 @@
         "deployment",
         "exercise"
       ]
-    },
-    {
-      "title": "Philippine Forces Hold Naval Drills with U.S., Japanese Warships Near Taiwan",
-      "link": "https://news.usni.org/2026/03/04/philippine-forces-hold-naval-drills-with-u-s-japanese-warships-near-taiwan",
-      "published": "Wed, 04 Mar 2026 15:32:46 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment",
-        "exercise"
-      ]
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 27,
+    "deployment_articles": 26,
     "conflict_articles": 10,
-    "exercise_articles": 9,
+    "exercise_articles": 10,
     "total_articles": 50,
-    "computed_at": "2026-03-05T12:31:37.890668+00:00",
+    "computed_at": "2026-03-05T13:53:08.530890+00:00",
     "manual_override": "DEFCON_1",
     "breaking_events": [
       "12 US personnel confirmed KIA in operations against Iran (Mar 4 total)",
