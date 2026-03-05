@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-03-05T15:38:26Z",
-  "version": 188,
+  "generated_utc": "2026-03-05T17:57:37Z",
+  "version": 189,
   "breaking_alert": "DAY 5: 12 US KIA TOTAL IN IRAN CONFLICT — ISRAELI F-35 DOWNS IRANIAN YAK-130 OVER TEHRAN",
   "naval_deployments": [
     {
@@ -594,15 +594,6 @@
   ],
   "_naval_news_refs": [
     {
-      "title": "USNI News Fleet and Marine Tracker: March 2, 2026",
-      "link": "https://news.usni.org/2026/03/02/usni-news-fleet-and-marine-tracker-march-2-2026",
-      "published": "Mon, 02 Mar 2026 19:50:26 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Iranian Naval Forces are Major Target in Operation Epic Fury Strikes",
       "link": "https://news.usni.org/2026/03/02/iranian-naval-forces-are-major-target-in-operation-epic-fury-strikes",
       "published": "Mon, 02 Mar 2026 22:35:04 +0000",
@@ -633,10 +624,39 @@
       ]
     },
     {
+      "title": "Pentagon names soldiers killed in Iranian drone strike",
+      "link": "https://taskandpurpose.com/news/military-troops-identified-iran/",
+      "published": "Thu, 05 Mar 2026 11:07:30 -0500",
+      "source": "Task & Purpose",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
+    },
+    {
       "title": "Italy, allies send warships to protect Europe’s southeastern edge from Iran strikes",
       "link": "https://www.defensenews.com/global/europe/2026/03/05/italy-allies-send-warships-to-protect-europes-southeastern-edge-from-iran-strikes/",
       "published": "Thu, 05 Mar 2026 14:42:09 +0000",
       "source": "Defense News",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
+    },
+    {
+      "title": "Spain deploys Frigate and Support Ship amid Iran Tensions",
+      "link": "https://www.navalnews.com/naval-news/2026/03/spain-deploys-frigate-and-support-ship-amid-iran-tensions/",
+      "published": "Thu, 05 Mar 2026 16:08:18 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Chinese Navy Expanding Nuclear Attack Boat Fleet and Missile Strike Capabilities, ONI Commander Says",
+      "link": "https://news.usni.org/2026/03/05/chinese-navy-expanding-nuclear-attack-boat-fleet-and-missile-strike-capabilities-oni-commander-says",
+      "published": "Thu, 05 Mar 2026 16:45:59 +0000",
+      "source": "USNI News",
       "categories": [
         "deployment",
         "conflict"
@@ -656,25 +676,6 @@
       "link": "https://taskandpurpose.com/news/sailors-mark-names-on-bombs/",
       "published": "Tue, 03 Mar 2026 14:35:37 -0500",
       "source": "Task & Purpose",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Pentagon identifies 4 soldiers killed by Iranian attack",
-      "link": "https://taskandpurpose.com/news/military-troops-identified-iran/",
-      "published": "Tue, 03 Mar 2026 18:47:45 -0500",
-      "source": "Task & Purpose",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
-      "title": "French CSG Retasked to East Mediterranean amid Iran tensions",
-      "link": "https://www.navalnews.com/naval-news/2026/03/french-csg-retasked-to-east-mediterranean-amid-iran-tensions/",
-      "published": "Tue, 03 Mar 2026 20:39:45 +0000",
-      "source": "Naval News",
       "categories": [
         "deployment"
       ]
@@ -862,6 +863,16 @@
       ]
     },
     {
+      "title": "Pentagon names soldiers killed in Iranian drone strike",
+      "link": "https://taskandpurpose.com/news/military-troops-identified-iran/",
+      "published": "Thu, 05 Mar 2026 11:07:30 -0500",
+      "source": "Task & Purpose",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
+    },
+    {
       "title": "Italy, allies send warships to protect Europe’s southeastern edge from Iran strikes",
       "link": "https://www.defensenews.com/global/europe/2026/03/05/italy-allies-send-warships-to-protect-europes-southeastern-edge-from-iran-strikes/",
       "published": "Thu, 05 Mar 2026 14:42:09 +0000",
@@ -872,19 +883,9 @@
       ]
     },
     {
-      "title": "Pentagon identifies 4 soldiers killed by Iranian attack",
-      "link": "https://taskandpurpose.com/news/military-troops-identified-iran/",
-      "published": "Tue, 03 Mar 2026 18:47:45 -0500",
-      "source": "Task & Purpose",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
-      "title": "VIDEO: U.S. Attack Boat Torpedoes Iranian Frigate off Sri Lanka",
-      "link": "https://news.usni.org/2026/03/04/video-u-s-attack-boat-torpedoes-iranian-frigate-off-sri-lanka",
-      "published": "Wed, 04 Mar 2026 14:44:44 +0000",
+      "title": "Chinese Navy Expanding Nuclear Attack Boat Fleet and Missile Strike Capabilities, ONI Commander Says",
+      "link": "https://news.usni.org/2026/03/05/chinese-navy-expanding-nuclear-attack-boat-fleet-and-missile-strike-capabilities-oni-commander-says",
+      "published": "Thu, 05 Mar 2026 16:45:59 +0000",
       "source": "USNI News",
       "categories": [
         "deployment",
@@ -944,11 +945,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 24,
+    "deployment_articles": 22,
     "conflict_articles": 8,
     "exercise_articles": 9,
     "total_articles": 50,
-    "computed_at": "2026-03-05T15:38:25.952372+00:00",
+    "computed_at": "2026-03-05T17:57:37.421421+00:00",
     "manual_override": "DEFCON_1",
     "breaking_events": [
       "12 US personnel confirmed KIA in operations against Iran (Mar 4 total)",
