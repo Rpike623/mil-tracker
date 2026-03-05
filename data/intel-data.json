@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-03-05T10:27:10Z",
-  "version": 183,
+  "generated_utc": "2026-03-05T11:24:32Z",
+  "version": 184,
   "breaking_alert": "DAY 5: 12 US KIA TOTAL IN IRAN CONFLICT — ISRAELI F-35 DOWNS IRANIAN YAK-130 OVER TEHRAN",
   "naval_deployments": [
     {
@@ -663,16 +663,6 @@
       ]
     },
     {
-      "title": "Qatar Emiri Navy Intercepts Iranian Missiles and Drones",
-      "link": "https://www.navalnews.com/naval-news/2026/03/qatar-emiri-navy-intercepts-iranian-missiles-and-drones/",
-      "published": "Tue, 03 Mar 2026 14:15:15 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
       "title": "Sailors on the USS Abraham Lincoln scrawl their names on bombs headed to Iran",
       "link": "https://taskandpurpose.com/news/sailors-mark-names-on-bombs/",
       "published": "Tue, 03 Mar 2026 14:35:37 -0500",
@@ -689,6 +679,15 @@
       "categories": [
         "deployment",
         "conflict"
+      ]
+    },
+    {
+      "title": "UK deploys Type 45 destroyer, drone-busting helicopters amid Iran tensions",
+      "link": "https://www.navalnews.com/naval-news/2026/03/uk-deploys-type-45-destroyer-drone-busting-helicopters-amid-iran-tensions/",
+      "published": "Tue, 03 Mar 2026 19:35:31 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment"
       ]
     }
   ],
@@ -886,10 +885,10 @@
       ]
     },
     {
-      "title": "Qatar Emiri Navy Intercepts Iranian Missiles and Drones",
-      "link": "https://www.navalnews.com/naval-news/2026/03/qatar-emiri-navy-intercepts-iranian-missiles-and-drones/",
-      "published": "Tue, 03 Mar 2026 14:15:15 +0000",
-      "source": "Naval News",
+      "title": "Pentagon identifies 4 soldiers killed by Iranian attack",
+      "link": "https://taskandpurpose.com/news/military-troops-identified-iran/",
+      "published": "Tue, 03 Mar 2026 18:47:45 -0500",
+      "source": "Task & Purpose",
       "categories": [
         "deployment",
         "conflict"
@@ -950,11 +949,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 29,
-    "conflict_articles": 11,
+    "deployment_articles": 28,
+    "conflict_articles": 10,
     "exercise_articles": 9,
     "total_articles": 50,
-    "computed_at": "2026-03-05T10:27:09.935304+00:00",
+    "computed_at": "2026-03-05T11:24:32.077228+00:00",
     "manual_override": "DEFCON_1",
     "breaking_events": [
       "12 US personnel confirmed KIA in operations against Iran (Mar 4 total)",
