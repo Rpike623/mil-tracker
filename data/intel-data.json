@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-03-06T18:27:08Z",
-  "version": 210,
+  "generated_utc": "2026-03-06T19:25:59Z",
+  "version": 211,
   "breaking_alert": "DAY 5: 12 US KIA TOTAL IN IRAN CONFLICT — ISRAELI F-35 DOWNS IRANIAN YAK-130 OVER TEHRAN",
   "naval_deployments": [
     {
@@ -681,13 +681,12 @@
       ]
     },
     {
-      "title": "Pentagon names soldiers killed in Iranian drone strike",
-      "link": "https://taskandpurpose.com/news/military-troops-identified-iran/",
-      "published": "Thu, 05 Mar 2026 11:07:30 -0500",
-      "source": "Task & Purpose",
+      "title": "France deploys additional LHD and Frigate to East Mediterranean",
+      "link": "https://www.navalnews.com/naval-news/2026/03/france-deploys-additional-lhd-and-frigate-to-east-mediterranean/",
+      "published": "Fri, 06 Mar 2026 19:23:36 +0000",
+      "source": "Naval News",
       "categories": [
-        "deployment",
-        "conflict"
+        "deployment"
       ]
     }
   ],
@@ -948,7 +947,7 @@
     "conflict_articles": 13,
     "exercise_articles": 5,
     "total_articles": 50,
-    "computed_at": "2026-03-06T18:27:07.761007+00:00",
+    "computed_at": "2026-03-06T19:25:59.261167+00:00",
     "manual_override": "DEFCON_1",
     "breaking_events": [
       "12 US personnel confirmed KIA in operations against Iran (Mar 4 total)",
