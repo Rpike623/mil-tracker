@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-03-06T15:25:14Z",
-  "version": 207,
+  "generated_utc": "2026-03-06T16:24:59Z",
+  "version": 208,
   "breaking_alert": "DAY 5: 12 US KIA TOTAL IN IRAN CONFLICT — ISRAELI F-35 DOWNS IRANIAN YAK-130 OVER TEHRAN",
   "naval_deployments": [
     {
@@ -624,6 +624,36 @@
       ]
     },
     {
+      "title": "Gulf allies complain US did not provide notice of Iran attacks and ignored warnings, sources say",
+      "link": "https://www.defensenews.com/news/your-military/2026/03/06/gulf-allies-complain-us-did-not-provide-notice-of-iran-attacks-and-ignored-warnings-sources-say/",
+      "published": "Fri, 06 Mar 2026 15:23:02 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
+    },
+    {
+      "title": "Gulf allies complain US did not provide notice of Iran attacks and ignored warnings, sources say",
+      "link": "https://www.militarytimes.com/news/your-military/2026/03/06/gulf-allies-complain-us-did-not-provide-notice-of-iran-attacks-and-ignored-warnings-sources-say/",
+      "published": "Fri, 06 Mar 2026 15:23:02 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
+    },
+    {
+      "title": "North Korean Destroyer Tests Strategic Cruise Missile",
+      "link": "https://news.usni.org/2026/03/06/north-korean-destroyer-tests-strategic-cruise-missile",
+      "published": "Fri, 06 Mar 2026 15:59:01 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
+    },
+    {
       "title": "Pentagon names soldiers killed in Iranian drone strike",
       "link": "https://taskandpurpose.com/news/military-troops-identified-iran/",
       "published": "Thu, 05 Mar 2026 11:07:30 -0500",
@@ -656,35 +686,6 @@
       "title": "Chinese Navy Expanding Nuclear Attack Boat Fleet and Missile Strike Capabilities, ONI Commander Says",
       "link": "https://news.usni.org/2026/03/05/chinese-navy-expanding-nuclear-attack-boat-fleet-and-missile-strike-capabilities-oni-commander-says",
       "published": "Thu, 05 Mar 2026 16:45:59 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
-      "title": "Pentagon IDs Army Reserve Soldiers Killed in Iranian Strike in Kuwait",
-      "link": "https://news.usni.org/2026/03/05/pentagon-ids-army-reserve-soldiers-killed-in-iranian-strike-in-kuwait",
-      "published": "Thu, 05 Mar 2026 18:14:51 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
-      "title": "Largest US military hospital abroad halts labor, delivery services amid Iran war",
-      "link": "https://www.militarytimes.com/news/your-military/2026/03/05/largest-us-military-hospital-abroad-halts-labor-delivery-services-amid-iran-war/",
-      "published": "Thu, 05 Mar 2026 18:51:19 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Sri Lanka Interns Iranian Naval Vessel Following Sub Attack, European States Increase Middle East Naval and Air Deployments",
-      "link": "https://news.usni.org/2026/03/05/sri-lanka-interns-iranian-naval-vessel-following-sub-attack-european-states-increase-middle-east-naval-and-air-deployments",
-      "published": "Thu, 05 Mar 2026 21:12:30 +0000",
       "source": "USNI News",
       "categories": [
         "deployment",
@@ -874,20 +875,20 @@
       ]
     },
     {
-      "title": "Pentagon names soldiers killed in Iranian drone strike",
-      "link": "https://taskandpurpose.com/news/military-troops-identified-iran/",
-      "published": "Thu, 05 Mar 2026 11:07:30 -0500",
-      "source": "Task & Purpose",
+      "title": "Gulf allies complain US did not provide notice of Iran attacks and ignored warnings, sources say",
+      "link": "https://www.defensenews.com/news/your-military/2026/03/06/gulf-allies-complain-us-did-not-provide-notice-of-iran-attacks-and-ignored-warnings-sources-say/",
+      "published": "Fri, 06 Mar 2026 15:23:02 +0000",
+      "source": "Defense News",
       "categories": [
         "deployment",
         "conflict"
       ]
     },
     {
-      "title": "Italy, allies send warships to protect Europe’s southeastern edge from Iran strikes",
-      "link": "https://www.defensenews.com/global/europe/2026/03/05/italy-allies-send-warships-to-protect-europes-southeastern-edge-from-iran-strikes/",
-      "published": "Thu, 05 Mar 2026 14:42:09 +0000",
-      "source": "Defense News",
+      "title": "Gulf allies complain US did not provide notice of Iran attacks and ignored warnings, sources say",
+      "link": "https://www.militarytimes.com/news/your-military/2026/03/06/gulf-allies-complain-us-did-not-provide-notice-of-iran-attacks-and-ignored-warnings-sources-say/",
+      "published": "Fri, 06 Mar 2026 15:23:02 +0000",
+      "source": "Military Times",
       "categories": [
         "deployment",
         "conflict"
@@ -945,11 +946,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 21,
-    "conflict_articles": 10,
+    "deployment_articles": 22,
+    "conflict_articles": 13,
     "exercise_articles": 5,
     "total_articles": 50,
-    "computed_at": "2026-03-06T15:25:14.042445+00:00",
+    "computed_at": "2026-03-06T16:24:58.809538+00:00",
     "manual_override": "DEFCON_1",
     "breaking_events": [
       "12 US personnel confirmed KIA in operations against Iran (Mar 4 total)",
