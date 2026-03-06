@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-03-06T12:26:41Z",
-  "version": 204,
+  "generated_utc": "2026-03-06T13:44:32Z",
+  "version": 205,
   "breaking_alert": "DAY 5: 12 US KIA TOTAL IN IRAN CONFLICT — ISRAELI F-35 DOWNS IRANIAN YAK-130 OVER TEHRAN",
   "naval_deployments": [
     {
@@ -604,6 +604,16 @@
       ]
     },
     {
+      "title": "CENTCOM Releases Footage Showing Strike on Iran’s Drone Carrier",
+      "link": "https://www.navalnews.com/naval-news/2026/03/centcom-releases-footage-showing-strike-on-irans-drone-carrier/",
+      "published": "Fri, 06 Mar 2026 13:30:46 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
+    },
+    {
       "title": "Pentagon names soldiers killed in Iranian drone strike",
       "link": "https://taskandpurpose.com/news/military-troops-identified-iran/",
       "published": "Thu, 05 Mar 2026 11:07:30 -0500",
@@ -676,15 +686,6 @@
       "link": "https://www.militarytimes.com/news/pentagon-congress/2026/03/05/democrats-slam-hegseth-for-comments-on-first-us-deaths-in-iran-war/",
       "published": "Thu, 05 Mar 2026 21:20:48 +0000",
       "source": "Military Times",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Sri Lanka Takes Charge of Iranian Naval Auxiliary Ship IRINS Bushehr",
-      "link": "https://www.navalnews.com/naval-news/2026/03/sri-lanka-takes-charge-of-iranian-naval-auxiliary-ship-irins-bushehr/",
-      "published": "Thu, 05 Mar 2026 21:21:36 +0000",
-      "source": "Naval News",
       "categories": [
         "deployment"
       ]
@@ -852,6 +853,16 @@
       ]
     },
     {
+      "title": "CENTCOM Releases Footage Showing Strike on Iran’s Drone Carrier",
+      "link": "https://www.navalnews.com/naval-news/2026/03/centcom-releases-footage-showing-strike-on-irans-drone-carrier/",
+      "published": "Fri, 06 Mar 2026 13:30:46 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
+    },
+    {
       "title": "Pentagon names soldiers killed in Iranian drone strike",
       "link": "https://taskandpurpose.com/news/military-troops-identified-iran/",
       "published": "Thu, 05 Mar 2026 11:07:30 -0500",
@@ -875,16 +886,6 @@
       "title": "Chinese Navy Expanding Nuclear Attack Boat Fleet and Missile Strike Capabilities, ONI Commander Says",
       "link": "https://news.usni.org/2026/03/05/chinese-navy-expanding-nuclear-attack-boat-fleet-and-missile-strike-capabilities-oni-commander-says",
       "published": "Thu, 05 Mar 2026 16:45:59 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
-      "title": "Pentagon IDs Army Reserve Soldiers Killed in Iranian Strike in Kuwait",
-      "link": "https://news.usni.org/2026/03/05/pentagon-ids-army-reserve-soldiers-killed-in-iranian-strike-in-kuwait",
-      "published": "Thu, 05 Mar 2026 18:14:51 +0000",
       "source": "USNI News",
       "categories": [
         "deployment",
@@ -921,16 +922,6 @@
       ]
     },
     {
-      "title": "Iran’s Catamaran Corvette Struck During Operation Epic Fury",
-      "link": "https://www.navalnews.com/naval-news/2026/03/irans-catamaran-corvette-struck-during-operation-epic-fury/",
-      "published": "Wed, 04 Mar 2026 14:30:34 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment",
-        "exercise"
-      ]
-    },
-    {
       "title": "Philippine Forces Hold Naval Drills with U.S., Japanese Warships Near Taiwan",
       "link": "https://news.usni.org/2026/03/04/philippine-forces-hold-naval-drills-with-u-s-japanese-warships-near-taiwan",
       "published": "Wed, 04 Mar 2026 15:32:46 +0000",
@@ -939,14 +930,25 @@
         "deployment",
         "exercise"
       ]
+    },
+    {
+      "title": "NATO Shoots Down Iranian Missile Headed for Turkey",
+      "link": "https://news.usni.org/2026/03/04/nato-shoots-down-iranian-missile-headed-for-turkey",
+      "published": "Wed, 04 Mar 2026 19:29:04 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment",
+        "exercise",
+        "conflict"
+      ]
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 21,
-    "conflict_articles": 8,
-    "exercise_articles": 6,
+    "deployment_articles": 20,
+    "conflict_articles": 9,
+    "exercise_articles": 5,
     "total_articles": 50,
-    "computed_at": "2026-03-06T12:26:40.767927+00:00",
+    "computed_at": "2026-03-06T13:44:31.975201+00:00",
     "manual_override": "DEFCON_1",
     "breaking_events": [
       "12 US personnel confirmed KIA in operations against Iran (Mar 4 total)",
