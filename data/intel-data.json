@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-03-05T23:42:33Z",
-  "version": 194,
+  "generated_utc": "2026-03-06T01:04:40Z",
+  "version": 195,
   "breaking_alert": "DAY 5: 12 US KIA TOTAL IN IRAN CONFLICT — ISRAELI F-35 DOWNS IRANIAN YAK-130 OVER TEHRAN",
   "naval_deployments": [
     {
@@ -594,15 +594,6 @@
   ],
   "_naval_news_refs": [
     {
-      "title": "Senate Republicans vote down legislation to halt Iran war",
-      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/03/05/senate-republicans-vote-down-legislation-to-halt-iran-war/",
-      "published": "Thu, 05 Mar 2026 03:04:44 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Pentagon names soldiers killed in Iranian drone strike",
       "link": "https://taskandpurpose.com/news/military-troops-identified-iran/",
       "published": "Thu, 05 Mar 2026 11:07:30 -0500",
@@ -684,6 +675,15 @@
       "link": "https://www.navalnews.com/naval-news/2026/03/sri-lanka-takes-charge-of-iranian-naval-auxiliary-ship-irins-bushehr/",
       "published": "Thu, 05 Mar 2026 21:21:36 +0000",
       "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "House narrowly rejects Iran war powers resolution",
+      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/03/05/house-narrowly-rejects-iran-war-powers-resolution/",
+      "published": "Thu, 05 Mar 2026 22:26:08 +0000",
+      "source": "Military Times",
       "categories": [
         "deployment"
       ]
@@ -941,11 +941,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 24,
-    "conflict_articles": 8,
+    "deployment_articles": 22,
+    "conflict_articles": 7,
     "exercise_articles": 7,
     "total_articles": 50,
-    "computed_at": "2026-03-05T23:42:33.608081+00:00",
+    "computed_at": "2026-03-06T01:04:39.884312+00:00",
     "manual_override": "DEFCON_1",
     "breaking_events": [
       "12 US personnel confirmed KIA in operations against Iran (Mar 4 total)",
