@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-03-06T14:27:52Z",
-  "version": 206,
+  "generated_utc": "2026-03-06T15:25:14Z",
+  "version": 207,
   "breaking_alert": "DAY 5: 12 US KIA TOTAL IN IRAN CONFLICT — ISRAELI F-35 DOWNS IRANIAN YAK-130 OVER TEHRAN",
   "naval_deployments": [
     {
@@ -604,6 +604,16 @@
       ]
     },
     {
+      "title": "Iran can still fire drones and missiles — experts weigh the implications on the war",
+      "link": "https://www.militarytimes.com/global/mideast-africa/2026/03/06/iran-can-still-fire-drones-and-missiles-experts-weigh-the-implications-on-the-war/",
+      "published": "Fri, 06 Mar 2026 10:32:08 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
+    },
+    {
       "title": "CENTCOM Releases Footage Showing Strike on Iran’s Drone Carrier",
       "link": "https://www.navalnews.com/naval-news/2026/03/centcom-releases-footage-showing-strike-on-irans-drone-carrier/",
       "published": "Fri, 06 Mar 2026 13:30:46 +0000",
@@ -679,15 +689,6 @@
       "categories": [
         "deployment",
         "conflict"
-      ]
-    },
-    {
-      "title": "Democrats slam Hegseth for comments on first US deaths in Iran war",
-      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/03/05/democrats-slam-hegseth-for-comments-on-first-us-deaths-in-iran-war/",
-      "published": "Thu, 05 Mar 2026 21:20:48 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment"
       ]
     }
   ],
@@ -853,6 +854,16 @@
       ]
     },
     {
+      "title": "Iran can still fire drones and missiles — experts weigh the implications on the war",
+      "link": "https://www.militarytimes.com/global/mideast-africa/2026/03/06/iran-can-still-fire-drones-and-missiles-experts-weigh-the-implications-on-the-war/",
+      "published": "Fri, 06 Mar 2026 10:32:08 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
+    },
+    {
       "title": "CENTCOM Releases Footage Showing Strike on Iran’s Drone Carrier",
       "link": "https://www.navalnews.com/naval-news/2026/03/centcom-releases-footage-showing-strike-on-irans-drone-carrier/",
       "published": "Fri, 06 Mar 2026 13:30:46 +0000",
@@ -877,16 +888,6 @@
       "link": "https://www.defensenews.com/global/europe/2026/03/05/italy-allies-send-warships-to-protect-europes-southeastern-edge-from-iran-strikes/",
       "published": "Thu, 05 Mar 2026 14:42:09 +0000",
       "source": "Defense News",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
-      "title": "Chinese Navy Expanding Nuclear Attack Boat Fleet and Missile Strike Capabilities, ONI Commander Says",
-      "link": "https://news.usni.org/2026/03/05/chinese-navy-expanding-nuclear-attack-boat-fleet-and-missile-strike-capabilities-oni-commander-says",
-      "published": "Thu, 05 Mar 2026 16:45:59 +0000",
-      "source": "USNI News",
       "categories": [
         "deployment",
         "conflict"
@@ -944,11 +945,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 20,
-    "conflict_articles": 9,
+    "deployment_articles": 21,
+    "conflict_articles": 10,
     "exercise_articles": 5,
     "total_articles": 50,
-    "computed_at": "2026-03-06T14:27:51.877307+00:00",
+    "computed_at": "2026-03-06T15:25:14.042445+00:00",
     "manual_override": "DEFCON_1",
     "breaking_events": [
       "12 US personnel confirmed KIA in operations against Iran (Mar 4 total)",
