@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-03-06T09:26:12Z",
-  "version": 201,
+  "generated_utc": "2026-03-06T10:22:21Z",
+  "version": 202,
   "breaking_alert": "DAY 5: 12 US KIA TOTAL IN IRAN CONFLICT — ISRAELI F-35 DOWNS IRANIAN YAK-130 OVER TEHRAN",
   "naval_deployments": [
     {
@@ -941,11 +941,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 22,
+    "deployment_articles": 21,
     "conflict_articles": 7,
     "exercise_articles": 7,
     "total_articles": 50,
-    "computed_at": "2026-03-06T09:26:11.629412+00:00",
+    "computed_at": "2026-03-06T10:22:20.606792+00:00",
     "manual_override": "DEFCON_1",
     "breaking_events": [
       "12 US personnel confirmed KIA in operations against Iran (Mar 4 total)",
