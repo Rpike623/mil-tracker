@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-03-06T16:24:59Z",
-  "version": 208,
+  "generated_utc": "2026-03-06T17:25:06Z",
+  "version": 209,
   "breaking_alert": "DAY 5: 12 US KIA TOTAL IN IRAN CONFLICT — ISRAELI F-35 DOWNS IRANIAN YAK-130 OVER TEHRAN",
   "naval_deployments": [
     {
@@ -654,6 +654,24 @@
       ]
     },
     {
+      "title": "No deal with Iran except ‘unconditional surrender,’ Trump says",
+      "link": "https://www.defensenews.com/news/your-military/2026/03/06/no-deal-with-iran-except-unconditional-surrender-trump-says/",
+      "published": "Fri, 06 Mar 2026 16:45:10 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "No deal with Iran except ‘unconditional surrender,’ Trump says",
+      "link": "https://www.militarytimes.com/news/your-military/2026/03/06/no-deal-with-iran-except-unconditional-surrender-trump-says/",
+      "published": "Fri, 06 Mar 2026 16:45:10 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "Pentagon names soldiers killed in Iranian drone strike",
       "link": "https://taskandpurpose.com/news/military-troops-identified-iran/",
       "published": "Thu, 05 Mar 2026 11:07:30 -0500",
@@ -668,25 +686,6 @@
       "link": "https://www.defensenews.com/global/europe/2026/03/05/italy-allies-send-warships-to-protect-europes-southeastern-edge-from-iran-strikes/",
       "published": "Thu, 05 Mar 2026 14:42:09 +0000",
       "source": "Defense News",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
-      "title": "Spain deploys Frigate and Support Ship amid Iran Tensions",
-      "link": "https://www.navalnews.com/naval-news/2026/03/spain-deploys-frigate-and-support-ship-amid-iran-tensions/",
-      "published": "Thu, 05 Mar 2026 16:08:18 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Chinese Navy Expanding Nuclear Attack Boat Fleet and Missile Strike Capabilities, ONI Commander Says",
-      "link": "https://news.usni.org/2026/03/05/chinese-navy-expanding-nuclear-attack-boat-fleet-and-missile-strike-capabilities-oni-commander-says",
-      "published": "Thu, 05 Mar 2026 16:45:59 +0000",
-      "source": "USNI News",
       "categories": [
         "deployment",
         "conflict"
@@ -946,11 +945,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 22,
+    "deployment_articles": 24,
     "conflict_articles": 13,
     "exercise_articles": 5,
     "total_articles": 50,
-    "computed_at": "2026-03-06T16:24:58.809538+00:00",
+    "computed_at": "2026-03-06T17:25:06.025784+00:00",
     "manual_override": "DEFCON_1",
     "breaking_events": [
       "12 US personnel confirmed KIA in operations against Iran (Mar 4 total)",
