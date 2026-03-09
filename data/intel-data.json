@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-03-09T15:44:44Z",
-  "version": 271,
+  "generated_utc": "2026-03-09T16:43:48Z",
+  "version": 272,
   "breaking_alert": "DAY 5: 12 US KIA TOTAL IN IRAN CONFLICT — ISRAELI F-35 DOWNS IRANIAN YAK-130 OVER TEHRAN",
   "naval_deployments": [
     {
@@ -614,15 +614,6 @@
       ]
     },
     {
-      "title": "No deal with Iran except ‘unconditional surrender,’ Trump says",
-      "link": "https://www.defensenews.com/news/your-military/2026/03/06/no-deal-with-iran-except-unconditional-surrender-trump-says/",
-      "published": "Fri, 06 Mar 2026 16:45:10 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Iranian Amphibious Vessel Seeks Refuge in Indian Port",
       "link": "https://news.usni.org/2026/03/06/iranian-amphibious-vessel-seeks-refuge-in-indian-port",
       "published": "Fri, 06 Mar 2026 18:26:45 +0000",
@@ -685,6 +676,16 @@
       "source": "Task & Purpose",
       "categories": [
         "deployment"
+      ]
+    },
+    {
+      "title": "North Korea’s New Destroyer Sets Sail for the First Time, Tests Missile Systems",
+      "link": "https://www.navalnews.com/naval-news/2026/03/north-koreas-new-destroyer-sets-sail-for-the-first-time-tests-missile-systems/",
+      "published": "Mon, 09 Mar 2026 08:21:54 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment",
+        "conflict"
       ]
     }
   ],
@@ -929,10 +930,10 @@
       ]
     },
     {
-      "title": "First US casualties of Operation Epic Fury return as Trump vows escalation",
-      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/03/08/first-us-casualties-of-operation-epic-fury-return-as-trump-vows-escalation/",
-      "published": "Sun, 08 Mar 2026 01:29:42 +0000",
-      "source": "Military Times",
+      "title": "NATO defenses shoot down ballistic missile in Turkey",
+      "link": "https://www.defensenews.com/global/europe/2026/03/09/nato-defenses-shoot-down-ballistic-missile-in-turkey/",
+      "published": "Mon, 09 Mar 2026 15:53:59 +0000",
+      "source": "Defense News",
       "categories": [
         "exercise",
         "conflict"
@@ -940,11 +941,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 24,
-    "conflict_articles": 20,
-    "exercise_articles": 8,
+    "deployment_articles": 23,
+    "conflict_articles": 22,
+    "exercise_articles": 10,
     "total_articles": 50,
-    "computed_at": "2026-03-09T15:44:43.953789+00:00",
+    "computed_at": "2026-03-09T16:43:48.231860+00:00",
     "manual_override": "DEFCON_1",
     "breaking_events": [
       "12 US personnel confirmed KIA in operations against Iran (Mar 4 total)",
