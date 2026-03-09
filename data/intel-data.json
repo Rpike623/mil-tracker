@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-03-09T14:43:49Z",
-  "version": 270,
+  "generated_utc": "2026-03-09T15:44:44Z",
+  "version": 271,
   "breaking_alert": "DAY 5: 12 US KIA TOTAL IN IRAN CONFLICT — ISRAELI F-35 DOWNS IRANIAN YAK-130 OVER TEHRAN",
   "naval_deployments": [
     {
@@ -880,12 +880,11 @@
       ]
     },
     {
-      "title": "Italy Sends Frigate to Defend Europe’s South-East From Iran strikes",
-      "link": "https://www.navalnews.com/naval-news/2026/03/italy-sends-frigate-to-protect-europes-south-east-from-iran-strikes/",
-      "published": "Mon, 09 Mar 2026 11:35:24 +0000",
-      "source": "Naval News",
+      "title": "Soldier who died from attack on Saudi Arabia was ‘nothing less than a hero’",
+      "link": "https://taskandpurpose.com/news/7th-us-death-saudi-arabia-iran/",
+      "published": "Mon, 09 Mar 2026 11:08:00 -0400",
+      "source": "Task & Purpose",
       "categories": [
-        "deployment",
         "conflict"
       ]
     }
@@ -920,6 +919,16 @@
       ]
     },
     {
+      "title": "Pentagon identifies seventh soldier killed in action during Operation Epic Fury",
+      "link": "https://www.militarytimes.com/news/your-military/2026/03/09/pentagon-identifies-seventh-soldier-killed-in-action-during-operation-epic-fury/",
+      "published": "Mon, 09 Mar 2026 14:53:57 +0000",
+      "source": "Military Times",
+      "categories": [
+        "exercise",
+        "conflict"
+      ]
+    },
+    {
       "title": "First US casualties of Operation Epic Fury return as Trump vows escalation",
       "link": "https://www.militarytimes.com/news/pentagon-congress/2026/03/08/first-us-casualties-of-operation-epic-fury-return-as-trump-vows-escalation/",
       "published": "Sun, 08 Mar 2026 01:29:42 +0000",
@@ -928,24 +937,14 @@
         "exercise",
         "conflict"
       ]
-    },
-    {
-      "title": "Seventh US service member killed in action during Operation Epic Fury",
-      "link": "https://www.militarytimes.com/news/your-military/2026/03/08/seventh-us-service-member-killed-in-action-during-operation-epic-fury/",
-      "published": "Sun, 08 Mar 2026 21:29:57 +0000",
-      "source": "Military Times",
-      "categories": [
-        "exercise",
-        "conflict"
-      ]
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 25,
-    "conflict_articles": 19,
-    "exercise_articles": 7,
+    "deployment_articles": 24,
+    "conflict_articles": 20,
+    "exercise_articles": 8,
     "total_articles": 50,
-    "computed_at": "2026-03-09T14:43:48.410879+00:00",
+    "computed_at": "2026-03-09T15:44:43.953789+00:00",
     "manual_override": "DEFCON_1",
     "breaking_events": [
       "12 US personnel confirmed KIA in operations against Iran (Mar 4 total)",
