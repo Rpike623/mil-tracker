@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-03-09T11:26:24Z",
-  "version": 267,
+  "generated_utc": "2026-03-09T12:31:02Z",
+  "version": 268,
   "breaking_alert": "DAY 5: 12 US KIA TOTAL IN IRAN CONFLICT — ISRAELI F-35 DOWNS IRANIAN YAK-130 OVER TEHRAN",
   "naval_deployments": [
     {
@@ -679,13 +679,12 @@
       ]
     },
     {
-      "title": "North Korea’s New Destroyer Sets Sail for the First Time, Tests Missile Systems",
-      "link": "https://www.navalnews.com/naval-news/2026/03/north-koreas-new-destroyer-sets-sail-for-the-first-time-tests-missile-systems/",
-      "published": "Mon, 09 Mar 2026 08:21:54 +0000",
-      "source": "Naval News",
+      "title": "USS Nimitz sets off for Latin America in its last deployment",
+      "link": "https://taskandpurpose.com/news/uss-nimitz-southcom-latin-america/",
+      "published": "Mon, 09 Mar 2026 07:54:00 -0400",
+      "source": "Task & Purpose",
       "categories": [
-        "deployment",
-        "conflict"
+        "deployment"
       ]
     }
   ],
@@ -881,9 +880,9 @@
       ]
     },
     {
-      "title": "Ukraine Intensifies Strikes on Russian Naval Assets Across Black Sea Region",
-      "link": "https://www.navalnews.com/naval-news/2026/03/ukraine-intensifies-strikes-on-russian-naval-assets-across-black-sea-region/",
-      "published": "Sat, 07 Mar 2026 09:29:00 +0000",
+      "title": "Italy Sends Frigate to Defend Europe’s South-East From Iran strikes",
+      "link": "https://www.navalnews.com/naval-news/2026/03/italy-sends-frigate-to-protect-europes-south-east-from-iran-strikes/",
+      "published": "Mon, 09 Mar 2026 11:35:24 +0000",
       "source": "Naval News",
       "categories": [
         "deployment",
@@ -942,11 +941,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 23,
-    "conflict_articles": 17,
+    "deployment_articles": 25,
+    "conflict_articles": 18,
     "exercise_articles": 7,
     "total_articles": 50,
-    "computed_at": "2026-03-09T11:26:23.837420+00:00",
+    "computed_at": "2026-03-09T12:31:02.161094+00:00",
     "manual_override": "DEFCON_1",
     "breaking_events": [
       "12 US personnel confirmed KIA in operations against Iran (Mar 4 total)",
