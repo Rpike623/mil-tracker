@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-03-09T09:35:41Z",
-  "version": 265,
+  "generated_utc": "2026-03-09T10:33:13Z",
+  "version": 266,
   "breaking_alert": "DAY 5: 12 US KIA TOTAL IN IRAN CONFLICT — ISRAELI F-35 DOWNS IRANIAN YAK-130 OVER TEHRAN",
   "naval_deployments": [
     {
@@ -604,16 +604,6 @@
       ]
     },
     {
-      "title": "Gulf allies complain US did not provide notice of Iran attacks and ignored warnings, sources say",
-      "link": "https://www.defensenews.com/news/your-military/2026/03/06/gulf-allies-complain-us-did-not-provide-notice-of-iran-attacks-and-ignored-warnings-sources-say/",
-      "published": "Fri, 06 Mar 2026 15:23:02 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
       "title": "North Korean Destroyer Tests Strategic Cruise Missile",
       "link": "https://news.usni.org/2026/03/06/north-korean-destroyer-tests-strategic-cruise-missile",
       "published": "Fri, 06 Mar 2026 15:59:01 +0000",
@@ -686,6 +676,16 @@
       "source": "Defense News",
       "categories": [
         "deployment"
+      ]
+    },
+    {
+      "title": "North Korea’s New Destroyer Sets Sail for the First Time, Tests Missile Systems",
+      "link": "https://www.navalnews.com/naval-news/2026/03/north-koreas-new-destroyer-sets-sail-for-the-first-time-tests-missile-systems/",
+      "published": "Mon, 09 Mar 2026 08:21:54 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment",
+        "conflict"
       ]
     }
   ],
@@ -851,16 +851,6 @@
       ]
     },
     {
-      "title": "Gulf allies complain US did not provide notice of Iran attacks and ignored warnings, sources say",
-      "link": "https://www.defensenews.com/news/your-military/2026/03/06/gulf-allies-complain-us-did-not-provide-notice-of-iran-attacks-and-ignored-warnings-sources-say/",
-      "published": "Fri, 06 Mar 2026 15:23:02 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
       "title": "North Korean Destroyer Tests Strategic Cruise Missile",
       "link": "https://news.usni.org/2026/03/06/north-korean-destroyer-tests-strategic-cruise-missile",
       "published": "Fri, 06 Mar 2026 15:59:01 +0000",
@@ -884,6 +874,16 @@
       "title": "North Korea’s New Destroyer Sets Sail for the First Time, Tests Missile Systems",
       "link": "https://www.navalnews.com/naval-news/2026/03/north-koreas-new-destroyer-sets-sail-for-the-first-time-tests-missile-systems/",
       "published": "Mon, 09 Mar 2026 08:21:54 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
+    },
+    {
+      "title": "Ukraine Intensifies Strikes on Russian Naval Assets Across Black Sea Region",
+      "link": "https://www.navalnews.com/naval-news/2026/03/ukraine-intensifies-strikes-on-russian-naval-assets-across-black-sea-region/",
+      "published": "Sat, 07 Mar 2026 09:29:00 +0000",
       "source": "Naval News",
       "categories": [
         "deployment",
@@ -942,11 +942,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 24,
-    "conflict_articles": 18,
+    "deployment_articles": 23,
+    "conflict_articles": 17,
     "exercise_articles": 7,
     "total_articles": 50,
-    "computed_at": "2026-03-09T09:35:40.982868+00:00",
+    "computed_at": "2026-03-09T10:33:12.942053+00:00",
     "manual_override": "DEFCON_1",
     "breaking_events": [
       "12 US personnel confirmed KIA in operations against Iran (Mar 4 total)",
