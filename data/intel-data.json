@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-03-09T19:31:43Z",
-  "version": 275,
+  "generated_utc": "2026-03-09T20:19:13Z",
+  "version": 276,
   "breaking_alert": "DAY 5: 12 US KIA TOTAL IN IRAN CONFLICT — ISRAELI F-35 DOWNS IRANIAN YAK-130 OVER TEHRAN",
   "naval_deployments": [
     {
@@ -651,15 +651,6 @@
       ]
     },
     {
-      "title": "Pentagon acknowledges tough quest to counter Iranian drones",
-      "link": "https://www.defensenews.com/news/pentagon-congress/2026/03/06/pentagon-acknowledges-tough-quest-to-counter-iranian-drones/",
-      "published": "Fri, 06 Mar 2026 22:31:48 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "USS Nimitz sets off for Latin America in its last deployment",
       "link": "https://taskandpurpose.com/news/uss-nimitz-southcom-latin-america/",
       "published": "Mon, 09 Mar 2026 07:54:00 -0400",
@@ -683,6 +674,16 @@
       "link": "https://www.navalnews.com/naval-news/2026/03/italy-sends-frigate-to-protect-europes-south-east-from-iran-strikes/",
       "published": "Mon, 09 Mar 2026 11:35:24 +0000",
       "source": "Naval News",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
+    },
+    {
+      "title": "Turkey sends six F-16 fighters to Northern Cyprus amid Iran missile threats",
+      "link": "https://www.defensenews.com/global/europe/2026/03/09/turkey-sends-six-f-16-fighters-to-northern-cyprus-amid-iran-missile-threats/",
+      "published": "Mon, 09 Mar 2026 12:59:17 +0000",
+      "source": "Defense News",
       "categories": [
         "deployment",
         "conflict"
@@ -930,22 +931,22 @@
       ]
     },
     {
-      "title": "NATO defenses shoot down ballistic missile in Turkey",
-      "link": "https://www.defensenews.com/global/europe/2026/03/09/nato-defenses-shoot-down-ballistic-missile-in-turkey/",
-      "published": "Mon, 09 Mar 2026 15:53:59 +0000",
-      "source": "Defense News",
+      "title": "Air National Guard general says Iran operation demonstrates ‘wartime readiness’",
+      "link": "https://taskandpurpose.com/news/national-guard-epic-fury-letter/",
+      "published": "Mon, 09 Mar 2026 15:41:35 -0400",
+      "source": "Task & Purpose",
       "categories": [
-        "exercise",
-        "conflict"
+        "deployment",
+        "exercise"
       ]
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 24,
+    "deployment_articles": 25,
     "conflict_articles": 19,
     "exercise_articles": 11,
     "total_articles": 50,
-    "computed_at": "2026-03-09T19:31:42.665756+00:00",
+    "computed_at": "2026-03-09T20:19:12.814579+00:00",
     "manual_override": "DEFCON_1",
     "breaking_events": [
       "12 US personnel confirmed KIA in operations against Iran (Mar 4 total)",
