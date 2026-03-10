@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-03-10T10:26:27Z",
-  "version": 287,
+  "generated_utc": "2026-03-10T11:23:14Z",
+  "version": 288,
   "breaking_alert": "DAY 5: 12 US KIA TOTAL IN IRAN CONFLICT — ISRAELI F-35 DOWNS IRANIAN YAK-130 OVER TEHRAN",
   "naval_deployments": [
     {
@@ -613,15 +613,6 @@
       ]
     },
     {
-      "title": "France deploys additional LHD and Frigate to East Mediterranean",
-      "link": "https://www.navalnews.com/naval-news/2026/03/france-deploys-additional-lhd-and-frigate-to-east-mediterranean/",
-      "published": "Fri, 06 Mar 2026 19:23:36 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "USS Gerald R. Ford Now in the Red Sea, USS George H.W. Bush Wraps Pre-Deployment Exercises",
       "link": "https://news.usni.org/2026/03/06/uss-gerald-r-ford-now-in-the-red-sea-uss-george-h-w-bush-wraps-pre-deployment-exercises",
       "published": "Fri, 06 Mar 2026 20:24:36 +0000",
@@ -684,6 +675,16 @@
       "link": "https://taskandpurpose.com/news/national-guard-epic-fury-letter/",
       "published": "Mon, 09 Mar 2026 15:41:35 -0400",
       "source": "Task & Purpose",
+      "categories": [
+        "deployment",
+        "exercise"
+      ]
+    },
+    {
+      "title": "Pentagon IDs 2 U.S. Service Members Who Died During Middle East Operations",
+      "link": "https://news.usni.org/2026/03/09/pentagon-ids-2-u-s-service-members-who-died-during-middle-east-operations",
+      "published": "Mon, 09 Mar 2026 16:08:44 +0000",
+      "source": "USNI News",
       "categories": [
         "deployment",
         "exercise"
@@ -943,11 +944,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 32,
+    "deployment_articles": 31,
     "conflict_articles": 15,
     "exercise_articles": 9,
     "total_articles": 50,
-    "computed_at": "2026-03-10T10:26:27.113338+00:00",
+    "computed_at": "2026-03-10T11:23:13.809747+00:00",
     "manual_override": "DEFCON_1",
     "breaking_events": [
       "12 US personnel confirmed KIA in operations against Iran (Mar 4 total)",
