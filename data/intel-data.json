@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-03-10T08:26:25Z",
-  "version": 285,
+  "generated_utc": "2026-03-10T09:31:47Z",
+  "version": 286,
   "breaking_alert": "DAY 5: 12 US KIA TOTAL IN IRAN CONFLICT — ISRAELI F-35 DOWNS IRANIAN YAK-130 OVER TEHRAN",
   "naval_deployments": [
     {
@@ -594,16 +594,6 @@
   ],
   "_naval_news_refs": [
     {
-      "title": "CENTCOM Releases Footage Showing Strike on Iran’s Drone Carrier",
-      "link": "https://www.navalnews.com/naval-news/2026/03/centcom-releases-footage-showing-strike-on-irans-drone-carrier/",
-      "published": "Fri, 06 Mar 2026 13:30:46 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
       "title": "North Korean Destroyer Tests Strategic Cruise Missile",
       "link": "https://news.usni.org/2026/03/06/north-korean-destroyer-tests-strategic-cruise-missile",
       "published": "Fri, 06 Mar 2026 15:59:01 +0000",
@@ -687,6 +677,16 @@
       "categories": [
         "deployment",
         "conflict"
+      ]
+    },
+    {
+      "title": "Air National Guard general says Iran operation demonstrates ‘wartime readiness’",
+      "link": "https://taskandpurpose.com/news/national-guard-epic-fury-letter/",
+      "published": "Mon, 09 Mar 2026 15:41:35 -0400",
+      "source": "Task & Purpose",
+      "categories": [
+        "deployment",
+        "exercise"
       ]
     }
   ],
@@ -842,16 +842,6 @@
   },
   "_conflict_news_refs": [
     {
-      "title": "CENTCOM Releases Footage Showing Strike on Iran’s Drone Carrier",
-      "link": "https://www.navalnews.com/naval-news/2026/03/centcom-releases-footage-showing-strike-on-irans-drone-carrier/",
-      "published": "Fri, 06 Mar 2026 13:30:46 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
       "title": "North Korean Destroyer Tests Strategic Cruise Missile",
       "link": "https://news.usni.org/2026/03/06/north-korean-destroyer-tests-strategic-cruise-missile",
       "published": "Fri, 06 Mar 2026 15:59:01 +0000",
@@ -885,6 +875,16 @@
       "link": "https://www.navalnews.com/naval-news/2026/03/italy-sends-frigate-to-protect-europes-south-east-from-iran-strikes/",
       "published": "Mon, 09 Mar 2026 11:35:24 +0000",
       "source": "Naval News",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
+    },
+    {
+      "title": "Turkey sends six F-16 fighters to Northern Cyprus amid Iran missile threats",
+      "link": "https://www.defensenews.com/global/europe/2026/03/09/turkey-sends-six-f-16-fighters-to-northern-cyprus-amid-iran-missile-threats/",
+      "published": "Mon, 09 Mar 2026 12:59:17 +0000",
+      "source": "Defense News",
       "categories": [
         "deployment",
         "conflict"
@@ -944,10 +944,10 @@
   ],
   "_threat_indicators": {
     "deployment_articles": 32,
-    "conflict_articles": 16,
+    "conflict_articles": 15,
     "exercise_articles": 9,
     "total_articles": 50,
-    "computed_at": "2026-03-10T08:26:24.552891+00:00",
+    "computed_at": "2026-03-10T09:31:46.777176+00:00",
     "manual_override": "DEFCON_1",
     "breaking_events": [
       "12 US personnel confirmed KIA in operations against Iran (Mar 4 total)",
