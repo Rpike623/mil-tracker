@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-03-10T11:23:14Z",
-  "version": 288,
+  "generated_utc": "2026-03-10T12:31:07Z",
+  "version": 289,
   "breaking_alert": "DAY 5: 12 US KIA TOTAL IN IRAN CONFLICT — ISRAELI F-35 DOWNS IRANIAN YAK-130 OVER TEHRAN",
   "naval_deployments": [
     {
@@ -904,15 +904,6 @@
       ]
     },
     {
-      "title": "European NATO nations reduce reliance on US arms imports: SIPRI data",
-      "link": "https://www.defensenews.com/global/europe/2026/03/09/european-nato-nations-reduce-reliance-on-us-arms-imports-sipri-data/",
-      "published": "Mon, 09 Mar 2026 09:30:53 +0000",
-      "source": "Defense News",
-      "categories": [
-        "exercise"
-      ]
-    },
-    {
       "title": "Air National Guard general says Iran operation demonstrates ‘wartime readiness’",
       "link": "https://taskandpurpose.com/news/national-guard-epic-fury-letter/",
       "published": "Mon, 09 Mar 2026 15:41:35 -0400",
@@ -941,14 +932,23 @@
         "deployment",
         "exercise"
       ]
+    },
+    {
+      "title": "NATO to study what-if scenarios that could cause Arctic conflict with Russia",
+      "link": "https://www.defensenews.com/global/europe/2026/03/09/nato-to-study-what-if-scenarios-that-could-cause-arctic-conflict-with-russia/",
+      "published": "Mon, 09 Mar 2026 16:54:26 +0000",
+      "source": "Defense News",
+      "categories": [
+        "exercise"
+      ]
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 31,
+    "deployment_articles": 33,
     "conflict_articles": 15,
-    "exercise_articles": 9,
+    "exercise_articles": 8,
     "total_articles": 50,
-    "computed_at": "2026-03-10T11:23:13.809747+00:00",
+    "computed_at": "2026-03-10T12:31:06.850861+00:00",
     "manual_override": "DEFCON_1",
     "breaking_events": [
       "12 US personnel confirmed KIA in operations against Iran (Mar 4 total)",
