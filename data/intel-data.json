@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-03-10T13:53:08Z",
-  "version": 290,
+  "generated_utc": "2026-03-10T14:41:55Z",
+  "version": 291,
   "breaking_alert": "DAY 5: 12 US KIA TOTAL IN IRAN CONFLICT — ISRAELI F-35 DOWNS IRANIAN YAK-130 OVER TEHRAN",
   "naval_deployments": [
     {
@@ -661,16 +661,6 @@
       ]
     },
     {
-      "title": "Turkey sends six F-16 fighters to Northern Cyprus amid Iran missile threats",
-      "link": "https://www.defensenews.com/global/europe/2026/03/09/turkey-sends-six-f-16-fighters-to-northern-cyprus-amid-iran-missile-threats/",
-      "published": "Mon, 09 Mar 2026 12:59:17 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
       "title": "Air National Guard general says Iran operation demonstrates ‘wartime readiness’",
       "link": "https://taskandpurpose.com/news/national-guard-epic-fury-letter/",
       "published": "Mon, 09 Mar 2026 15:41:35 -0400",
@@ -688,6 +678,15 @@
       "categories": [
         "deployment",
         "exercise"
+      ]
+    },
+    {
+      "title": "Prewar US intel found intervention in Iran wasn’t likely to change leadership",
+      "link": "https://www.defensenews.com/news/your-military/2026/03/09/prewar-us-intel-found-intervention-in-iran-wasnt-likely-to-change-leadership/",
+      "published": "Mon, 09 Mar 2026 18:44:33 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment"
       ]
     }
   ],
@@ -882,12 +881,11 @@
       ]
     },
     {
-      "title": "Turkey sends six F-16 fighters to Northern Cyprus amid Iran missile threats",
-      "link": "https://www.defensenews.com/global/europe/2026/03/09/turkey-sends-six-f-16-fighters-to-northern-cyprus-amid-iran-missile-threats/",
-      "published": "Mon, 09 Mar 2026 12:59:17 +0000",
-      "source": "Defense News",
+      "title": "SOUTHCOM Strike on Suspected Drug Boat Kills 6",
+      "link": "https://news.usni.org/2026/03/09/southcom-strike-on-suspected-drug-boat-kills-6",
+      "published": "Mon, 09 Mar 2026 13:55:36 +0000",
+      "source": "USNI News",
       "categories": [
-        "deployment",
         "conflict"
       ]
     }
@@ -944,11 +942,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 34,
-    "conflict_articles": 16,
-    "exercise_articles": 8,
+    "deployment_articles": 33,
+    "conflict_articles": 17,
+    "exercise_articles": 7,
     "total_articles": 50,
-    "computed_at": "2026-03-10T13:53:08.265828+00:00",
+    "computed_at": "2026-03-10T14:41:55.316248+00:00",
     "manual_override": "DEFCON_1",
     "breaking_events": [
       "12 US personnel confirmed KIA in operations against Iran (Mar 4 total)",
