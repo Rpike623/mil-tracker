@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-03-11T10:27:08Z",
-  "version": 308,
+  "generated_utc": "2026-03-11T11:23:49Z",
+  "version": 309,
   "breaking_alert": "DAY 5: 12 US KIA TOTAL IN IRAN CONFLICT — ISRAELI F-35 DOWNS IRANIAN YAK-130 OVER TEHRAN",
   "naval_deployments": [
     {
@@ -662,16 +662,6 @@
       ]
     },
     {
-      "title": "US B-1B Lancers arrive at RAF Fairford as strikes on Iran intensify",
-      "link": "https://www.defensenews.com/news/your-military/2026/03/09/us-b-1b-lancers-arrive-at-raf-fairford-as-strikes-on-iran-intensify/",
-      "published": "Mon, 09 Mar 2026 19:39:01 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
       "title": "USNI News Fleet and Marine Tracker: March 9, 2026",
       "link": "https://news.usni.org/2026/03/09/usni-news-fleet-and-marine-tracker-march-9-2026",
       "published": "Mon, 09 Mar 2026 19:52:31 +0000",
@@ -685,6 +675,15 @@
       "link": "https://www.navalnews.com/naval-news/2026/03/dutch-frigate-hnlms-evertsen-to-be-deployed-in-the-mediterranean/",
       "published": "Mon, 09 Mar 2026 20:34:01 +0000",
       "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "US, Iran spar over status of Iranian warship sunk by submarine",
+      "link": "https://www.defensenews.com/news/your-military/2026/03/09/us-iran-spar-over-status-of-iranian-warship-sunk-by-submarine/",
+      "published": "Mon, 09 Mar 2026 20:45:41 +0000",
+      "source": "Defense News",
       "categories": [
         "deployment"
       ]
@@ -880,12 +879,11 @@
       ]
     },
     {
-      "title": "US B-1B Lancers arrive at RAF Fairford as strikes on Iran intensify",
-      "link": "https://www.defensenews.com/news/your-military/2026/03/09/us-b-1b-lancers-arrive-at-raf-fairford-as-strikes-on-iran-intensify/",
-      "published": "Mon, 09 Mar 2026 19:39:01 +0000",
+      "title": "US Air Force seeks sources for Stand-in Attack Weapon compatible with F-47, B-21",
+      "link": "https://www.defensenews.com/air/2026/03/09/us-air-force-seeks-sources-for-stand-in-attack-weapon-compatible-with-f-47-b-21/",
+      "published": "Mon, 09 Mar 2026 23:43:18 +0000",
       "source": "Defense News",
       "categories": [
-        "deployment",
         "conflict"
       ]
     }
@@ -945,7 +943,7 @@
     "conflict_articles": 15,
     "exercise_articles": 6,
     "total_articles": 50,
-    "computed_at": "2026-03-11T10:27:07.755629+00:00",
+    "computed_at": "2026-03-11T11:23:49.359149+00:00",
     "manual_override": "DEFCON_1",
     "breaking_events": [
       "12 US personnel confirmed KIA in operations against Iran (Mar 4 total)",
