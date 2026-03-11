@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-03-11T19:34:26Z",
-  "version": 317,
+  "generated_utc": "2026-03-11T20:21:13Z",
+  "version": 318,
   "breaking_alert": "DAY 5: 12 US KIA TOTAL IN IRAN CONFLICT — ISRAELI F-35 DOWNS IRANIAN YAK-130 OVER TEHRAN",
   "naval_deployments": [
     {
@@ -594,16 +594,6 @@
   ],
   "_naval_news_refs": [
     {
-      "title": "USS Gerald R. Ford Now in the Red Sea, USS George H.W. Bush Wraps Pre-Deployment Exercises",
-      "link": "https://news.usni.org/2026/03/06/uss-gerald-r-ford-now-in-the-red-sea-uss-george-h-w-bush-wraps-pre-deployment-exercises",
-      "published": "Fri, 06 Mar 2026 20:24:36 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment",
-        "exercise"
-      ]
-    },
-    {
       "title": "USS Nimitz sets off for Latin America in its last deployment",
       "link": "https://taskandpurpose.com/news/uss-nimitz-southcom-latin-america/",
       "published": "Mon, 09 Mar 2026 07:54:00 -0400",
@@ -684,6 +674,16 @@
       "source": "Task & Purpose",
       "categories": [
         "deployment"
+      ]
+    },
+    {
+      "title": "Iran to face ‘most intense day of strikes,’ Hegseth says",
+      "link": "https://www.defensenews.com/news/your-military/2026/03/10/iran-to-face-most-intense-day-of-strikes-hegseth-says/",
+      "published": "Tue, 10 Mar 2026 13:48:31 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment",
+        "conflict"
       ]
     }
   ],
@@ -888,16 +888,6 @@
   ],
   "_exercise_news_refs": [
     {
-      "title": "USS Gerald R. Ford Now in the Red Sea, USS George H.W. Bush Wraps Pre-Deployment Exercises",
-      "link": "https://news.usni.org/2026/03/06/uss-gerald-r-ford-now-in-the-red-sea-uss-george-h-w-bush-wraps-pre-deployment-exercises",
-      "published": "Fri, 06 Mar 2026 20:24:36 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment",
-        "exercise"
-      ]
-    },
-    {
       "title": "Air National Guard general says Iran operation demonstrates ‘wartime readiness’",
       "link": "https://taskandpurpose.com/news/national-guard-epic-fury-letter/",
       "published": "Mon, 09 Mar 2026 15:41:35 -0400",
@@ -934,14 +924,25 @@
       "categories": [
         "exercise"
       ]
+    },
+    {
+      "title": "Report to Congress on U.S. Military Operations Against Iran’s Missile, Nuclear Programs",
+      "link": "https://news.usni.org/2026/03/11/report-to-congress-on-u-s-military-operations-against-irans-missile-nuclear-programs",
+      "published": "Wed, 11 Mar 2026 13:38:39 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment",
+        "exercise",
+        "conflict"
+      ]
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 30,
+    "deployment_articles": 31,
     "conflict_articles": 13,
     "exercise_articles": 7,
     "total_articles": 50,
-    "computed_at": "2026-03-11T19:34:25.597909+00:00",
+    "computed_at": "2026-03-11T20:21:12.615574+00:00",
     "manual_override": "DEFCON_1",
     "breaking_events": [
       "12 US personnel confirmed KIA in operations against Iran (Mar 4 total)",
