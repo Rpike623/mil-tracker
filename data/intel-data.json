@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-03-11T12:30:41Z",
-  "version": 310,
+  "generated_utc": "2026-03-11T13:56:39Z",
+  "version": 311,
   "breaking_alert": "DAY 5: 12 US KIA TOTAL IN IRAN CONFLICT — ISRAELI F-35 DOWNS IRANIAN YAK-130 OVER TEHRAN",
   "naval_deployments": [
     {
@@ -594,15 +594,6 @@
   ],
   "_naval_news_refs": [
     {
-      "title": "Iranian Amphibious Vessel Seeks Refuge in Indian Port",
-      "link": "https://news.usni.org/2026/03/06/iranian-amphibious-vessel-seeks-refuge-in-indian-port",
-      "published": "Fri, 06 Mar 2026 18:26:45 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "USS Gerald R. Ford Now in the Red Sea, USS George H.W. Bush Wraps Pre-Deployment Exercises",
       "link": "https://news.usni.org/2026/03/06/uss-gerald-r-ford-now-in-the-red-sea-uss-george-h-w-bush-wraps-pre-deployment-exercises",
       "published": "Fri, 06 Mar 2026 20:24:36 +0000",
@@ -680,10 +671,19 @@
       ]
     },
     {
-      "title": "US, Iran spar over status of Iranian warship sunk by submarine",
-      "link": "https://www.defensenews.com/news/your-military/2026/03/09/us-iran-spar-over-status-of-iranian-warship-sunk-by-submarine/",
-      "published": "Mon, 09 Mar 2026 20:45:41 +0000",
-      "source": "Defense News",
+      "title": "USS Nimitz Begins Last Cruise Ahead of Decommissioning",
+      "link": "https://news.usni.org/2026/03/09/uss-nimitz-begins-last-cruise-ahead-of-decommissioning",
+      "published": "Mon, 09 Mar 2026 21:19:55 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "French Navy Pledges 10 Additional Warships to Middle East, Escorts for Strait of Hormuz",
+      "link": "https://news.usni.org/2026/03/09/french-navy-pledges-10-additional-warships-to-middle-east-escorts-for-strait-of-hormuz",
+      "published": "Mon, 09 Mar 2026 21:37:06 +0000",
+      "source": "USNI News",
       "categories": [
         "deployment"
       ]
@@ -939,11 +939,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 30,
-    "conflict_articles": 15,
-    "exercise_articles": 6,
+    "deployment_articles": 29,
+    "conflict_articles": 16,
+    "exercise_articles": 7,
     "total_articles": 50,
-    "computed_at": "2026-03-11T12:30:40.784848+00:00",
+    "computed_at": "2026-03-11T13:56:39.256154+00:00",
     "manual_override": "DEFCON_1",
     "breaking_events": [
       "12 US personnel confirmed KIA in operations against Iran (Mar 4 total)",
