@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-03-11T17:39:39Z",
-  "version": 315,
+  "generated_utc": "2026-03-11T18:37:10Z",
+  "version": 316,
   "breaking_alert": "DAY 5: 12 US KIA TOTAL IN IRAN CONFLICT — ISRAELI F-35 DOWNS IRANIAN YAK-130 OVER TEHRAN",
   "naval_deployments": [
     {
@@ -669,20 +669,19 @@
       ]
     },
     {
-      "title": "US strikes continue as Iran war enters its second week",
-      "link": "https://taskandpurpose.com/news/us-iran-war-second-week/",
-      "published": "Sun, 08 Mar 2026 14:27:11 -0400",
-      "source": "Task & Purpose",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
       "title": "Japan Commissions Fifth Taigei-class Submarine",
       "link": "https://www.navalnews.com/naval-news/2026/03/japan-commissions-fifth-taigei-class-submarine/",
       "published": "Tue, 10 Mar 2026 08:27:51 +0000",
       "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Hegseth won’t say how long Iran war might last",
+      "link": "https://taskandpurpose.com/news/military-hegseth-iran-2026/",
+      "published": "Tue, 10 Mar 2026 11:52:54 -0400",
+      "source": "Task & Purpose",
       "categories": [
         "deployment"
       ]
@@ -858,16 +857,6 @@
       ]
     },
     {
-      "title": "US strikes continue as Iran war enters its second week",
-      "link": "https://taskandpurpose.com/news/us-iran-war-second-week/",
-      "published": "Sun, 08 Mar 2026 14:27:11 -0400",
-      "source": "Task & Purpose",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
       "title": "Veteran who survived missile strike says field screenings ‘easily miss’ TBIs",
       "link": "https://taskandpurpose.com/news/iran-attack-2020-tbis-missed/",
       "published": "Tue, 10 Mar 2026 10:30:09 -0400",
@@ -881,6 +870,16 @@
       "link": "https://www.defensenews.com/news/your-military/2026/03/10/iran-to-face-most-intense-day-of-strikes-hegseth-says/",
       "published": "Tue, 10 Mar 2026 13:48:31 +0000",
       "source": "Defense News",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
+    },
+    {
+      "title": "Marines, Soldiers Practice Anti-ship Missile Deployments in Hawaii",
+      "link": "https://news.usni.org/2026/03/10/marines-soliders-practice-anti-ship-missile-deployments-in-hawaii",
+      "published": "Tue, 10 Mar 2026 13:57:24 +0000",
+      "source": "USNI News",
       "categories": [
         "deployment",
         "conflict"
@@ -940,9 +939,9 @@
   "_threat_indicators": {
     "deployment_articles": 31,
     "conflict_articles": 13,
-    "exercise_articles": 6,
+    "exercise_articles": 7,
     "total_articles": 50,
-    "computed_at": "2026-03-11T17:39:38.673680+00:00",
+    "computed_at": "2026-03-11T18:37:10.060226+00:00",
     "manual_override": "DEFCON_1",
     "breaking_events": [
       "12 US personnel confirmed KIA in operations against Iran (Mar 4 total)",
