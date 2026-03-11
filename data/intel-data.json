@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-03-11T20:21:13Z",
-  "version": 318,
+  "generated_utc": "2026-03-11T21:20:06Z",
+  "version": 319,
   "breaking_alert": "DAY 5: 12 US KIA TOTAL IN IRAN CONFLICT — ISRAELI F-35 DOWNS IRANIAN YAK-130 OVER TEHRAN",
   "naval_deployments": [
     {
@@ -848,15 +848,6 @@
       ]
     },
     {
-      "title": "SOUTHCOM Strike on Suspected Drug Boat Kills 6",
-      "link": "https://news.usni.org/2026/03/09/southcom-strike-on-suspected-drug-boat-kills-6",
-      "published": "Mon, 09 Mar 2026 13:55:36 +0000",
-      "source": "USNI News",
-      "categories": [
-        "conflict"
-      ]
-    },
-    {
       "title": "Veteran who survived missile strike says field screenings ‘easily miss’ TBIs",
       "link": "https://taskandpurpose.com/news/iran-attack-2020-tbis-missed/",
       "published": "Tue, 10 Mar 2026 10:30:09 -0400",
@@ -880,6 +871,16 @@
       "link": "https://news.usni.org/2026/03/10/marines-soliders-practice-anti-ship-missile-deployments-in-hawaii",
       "published": "Tue, 10 Mar 2026 13:57:24 +0000",
       "source": "USNI News",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
+    },
+    {
+      "title": "US Navy Strikes Another Iranian Catamaran Corvette",
+      "link": "https://www.navalnews.com/naval-news/2026/03/us-navy-strikes-another-iranian-catamaran-corvette/",
+      "published": "Tue, 10 Mar 2026 17:40:14 +0000",
+      "source": "Naval News",
       "categories": [
         "deployment",
         "conflict"
@@ -938,11 +939,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 31,
+    "deployment_articles": 32,
     "conflict_articles": 13,
     "exercise_articles": 7,
     "total_articles": 50,
-    "computed_at": "2026-03-11T20:21:12.615574+00:00",
+    "computed_at": "2026-03-11T21:20:06.130604+00:00",
     "manual_override": "DEFCON_1",
     "breaking_events": [
       "12 US personnel confirmed KIA in operations against Iran (Mar 4 total)",
