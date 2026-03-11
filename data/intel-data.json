@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-03-10T23:16:01Z",
-  "version": 300,
+  "generated_utc": "2026-03-11T00:56:38Z",
+  "version": 301,
   "breaking_alert": "DAY 5: 12 US KIA TOTAL IN IRAN CONFLICT — ISRAELI F-35 DOWNS IRANIAN YAK-130 OVER TEHRAN",
   "naval_deployments": [
     {
@@ -662,15 +662,6 @@
       ]
     },
     {
-      "title": "Prewar US intel found intervention in Iran wasn’t likely to change leadership",
-      "link": "https://www.defensenews.com/news/your-military/2026/03/09/prewar-us-intel-found-intervention-in-iran-wasnt-likely-to-change-leadership/",
-      "published": "Mon, 09 Mar 2026 18:44:33 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "US B-1B Lancers arrive at RAF Fairford as strikes on Iran intensify",
       "link": "https://www.defensenews.com/news/your-military/2026/03/09/us-b-1b-lancers-arrive-at-raf-fairford-as-strikes-on-iran-intensify/",
       "published": "Mon, 09 Mar 2026 19:39:01 +0000",
@@ -685,6 +676,15 @@
       "link": "https://news.usni.org/2026/03/09/usni-news-fleet-and-marine-tracker-march-9-2026",
       "published": "Mon, 09 Mar 2026 19:52:31 +0000",
       "source": "USNI News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Dutch frigate HNLMS Evertsen to be deployed in the Mediterranean",
+      "link": "https://www.navalnews.com/naval-news/2026/03/dutch-frigate-hnlms-evertsen-to-be-deployed-in-the-mediterranean/",
+      "published": "Mon, 09 Mar 2026 20:34:01 +0000",
+      "source": "Naval News",
       "categories": [
         "deployment"
       ]
@@ -941,11 +941,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 33,
-    "conflict_articles": 15,
+    "deployment_articles": 31,
+    "conflict_articles": 16,
     "exercise_articles": 6,
     "total_articles": 50,
-    "computed_at": "2026-03-10T23:16:01.434991+00:00",
+    "computed_at": "2026-03-11T00:56:37.496596+00:00",
     "manual_override": "DEFCON_1",
     "breaking_events": [
       "12 US personnel confirmed KIA in operations against Iran (Mar 4 total)",
