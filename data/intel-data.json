@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-03-12T15:44:10Z",
-  "version": 334,
+  "generated_utc": "2026-03-12T16:45:32Z",
+  "version": 335,
   "breaking_alert": "DAY 5: 12 US KIA TOTAL IN IRAN CONFLICT — ISRAELI F-35 DOWNS IRANIAN YAK-130 OVER TEHRAN",
   "naval_deployments": [
     {
@@ -594,15 +594,6 @@
   ],
   "_naval_news_refs": [
     {
-      "title": "USNI News Fleet and Marine Tracker: March 9, 2026",
-      "link": "https://news.usni.org/2026/03/09/usni-news-fleet-and-marine-tracker-march-9-2026",
-      "published": "Mon, 09 Mar 2026 19:52:31 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "USS Nimitz Begins Last Cruise Ahead of Decommissioning",
       "link": "https://news.usni.org/2026/03/09/uss-nimitz-begins-last-cruise-ahead-of-decommissioning",
       "published": "Mon, 09 Mar 2026 21:19:55 +0000",
@@ -683,6 +674,15 @@
       "categories": [
         "deployment",
         "conflict"
+      ]
+    },
+    {
+      "title": "US goes after Iran’s ability to lay sea mines, build drones, top general says",
+      "link": "https://taskandpurpose.com/news/military-iran-sea-mines-drones/",
+      "published": "Tue, 10 Mar 2026 14:33:32 -0400",
+      "source": "Task & Purpose",
+      "categories": [
+        "deployment"
       ]
     }
   ],
@@ -937,11 +937,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 24,
-    "conflict_articles": 8,
+    "deployment_articles": 23,
+    "conflict_articles": 7,
     "exercise_articles": 8,
     "total_articles": 50,
-    "computed_at": "2026-03-12T15:44:10.501715+00:00",
+    "computed_at": "2026-03-12T16:45:32.427243+00:00",
     "manual_override": "DEFCON_1",
     "breaking_events": [
       "12 US personnel confirmed KIA in operations against Iran (Mar 4 total)",
