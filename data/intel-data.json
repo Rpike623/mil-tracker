@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-03-12T22:13:23Z",
-  "version": 341,
+  "generated_utc": "2026-03-12T23:16:23Z",
+  "version": 342,
   "breaking_alert": "DAY 5: 12 US KIA TOTAL IN IRAN CONFLICT — ISRAELI F-35 DOWNS IRANIAN YAK-130 OVER TEHRAN",
   "naval_deployments": [
     {
@@ -640,6 +640,15 @@
       ]
     },
     {
+      "title": "US KC-135 tanker crashes in Iraq, though not from enemy fire, officials say",
+      "link": "https://taskandpurpose.com/news/military-kc-135-iraq/",
+      "published": "Thu, 12 Mar 2026 18:25:16 -0400",
+      "source": "Task & Purpose",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "The US Navy decommissioned Middle East minesweepers last year. Here’s what they did.",
       "link": "https://www.militarytimes.com/news/your-navy/2026/03/12/the-us-navy-decommissioned-middle-east-minesweepers-last-year-heres-what-they-did/",
       "published": "Thu, 12 Mar 2026 21:49:09 +0000",
@@ -673,16 +682,6 @@
       "source": "Task & Purpose",
       "categories": [
         "deployment"
-      ]
-    },
-    {
-      "title": "Marines, Soldiers Practice Anti-ship Missile Deployments in Hawaii",
-      "link": "https://news.usni.org/2026/03/10/marines-soliders-practice-anti-ship-missile-deployments-in-hawaii",
-      "published": "Tue, 10 Mar 2026 13:57:24 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment",
-        "conflict"
       ]
     }
   ],
@@ -838,15 +837,6 @@
   },
   "_conflict_news_refs": [
     {
-      "title": "Veteran who survived missile strike says field screenings ‘easily miss’ TBIs",
-      "link": "https://taskandpurpose.com/news/iran-attack-2020-tbis-missed/",
-      "published": "Tue, 10 Mar 2026 10:30:09 -0400",
-      "source": "Task & Purpose",
-      "categories": [
-        "conflict"
-      ]
-    },
-    {
       "title": "Marines, Soldiers Practice Anti-ship Missile Deployments in Hawaii",
       "link": "https://news.usni.org/2026/03/10/marines-soliders-practice-anti-ship-missile-deployments-in-hawaii",
       "published": "Tue, 10 Mar 2026 13:57:24 +0000",
@@ -882,6 +872,16 @@
       "link": "https://taskandpurpose.com/news/military-troops-identified-iran/",
       "published": "Wed, 11 Mar 2026 15:24:56 -0400",
       "source": "Task & Purpose",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
+    },
+    {
+      "title": "3 Cargo Ships Damaged in Suspected Iranian Attacks in the Strait of Hormuz",
+      "link": "https://news.usni.org/2026/03/11/3-cargo-ships-damaged-in-suspected-iranian-attacks-in-the-strait-of-hormuz",
+      "published": "Wed, 11 Mar 2026 21:07:33 +0000",
+      "source": "USNI News",
       "categories": [
         "deployment",
         "conflict"
@@ -937,11 +937,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 22,
-    "conflict_articles": 6,
+    "deployment_articles": 23,
+    "conflict_articles": 5,
     "exercise_articles": 7,
     "total_articles": 50,
-    "computed_at": "2026-03-12T22:13:23.497917+00:00",
+    "computed_at": "2026-03-12T23:16:23.016414+00:00",
     "manual_override": "DEFCON_1",
     "breaking_events": [
       "12 US personnel confirmed KIA in operations against Iran (Mar 4 total)",
