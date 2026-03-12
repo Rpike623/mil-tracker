@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-03-12T21:21:32Z",
-  "version": 340,
+  "generated_utc": "2026-03-12T22:13:23Z",
+  "version": 341,
   "breaking_alert": "DAY 5: 12 US KIA TOTAL IN IRAN CONFLICT — ISRAELI F-35 DOWNS IRANIAN YAK-130 OVER TEHRAN",
   "naval_deployments": [
     {
@@ -631,18 +631,36 @@
       ]
     },
     {
-      "title": "Facing death 275 feet beneath the sea, this pioneering naval diver earned the Medal of Honor",
-      "link": "https://www.militarytimes.com/veterans/military-history/2026/03/12/facing-death-275-feet-beneath-the-sea-this-pioneering-naval-diver-earned-the-medal-of-honor/",
-      "published": "Thu, 12 Mar 2026 15:07:25 +0000",
+      "title": "Onboard fire extinguished on aircraft carrier in Red Sea, Navy says",
+      "link": "https://www.militarytimes.com/news/your-navy/2026/03/12/onboard-fire-extinguished-on-aircraft-carrier-in-red-sea-navy-says/",
+      "published": "Thu, 12 Mar 2026 15:28:20 +0000",
       "source": "Military Times",
       "categories": [
         "deployment"
       ]
     },
     {
-      "title": "Onboard fire extinguished on aircraft carrier in Red Sea, Navy says",
-      "link": "https://www.militarytimes.com/news/your-navy/2026/03/12/onboard-fire-extinguished-on-aircraft-carrier-in-red-sea-navy-says/",
-      "published": "Thu, 12 Mar 2026 15:28:20 +0000",
+      "title": "The US Navy decommissioned Middle East minesweepers last year. Here’s what they did.",
+      "link": "https://www.militarytimes.com/news/your-navy/2026/03/12/the-us-navy-decommissioned-middle-east-minesweepers-last-year-heres-what-they-did/",
+      "published": "Thu, 12 Mar 2026 21:49:09 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "US Air Force KC-135 goes down in Iraq, CENTCOM says",
+      "link": "https://www.defensenews.com/flashpoints/2026/03/12/us-air-force-kc-135-goes-down-in-iraq-centcom-says/",
+      "published": "Thu, 12 Mar 2026 21:58:14 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "US Air Force KC-135 goes down in Iraq, CENTCOM says",
+      "link": "https://www.militarytimes.com/flashpoints/2026/03/12/us-air-force-kc-135-goes-down-in-iraq-centcom-says/",
+      "published": "Thu, 12 Mar 2026 21:58:14 +0000",
       "source": "Military Times",
       "categories": [
         "deployment"
@@ -665,24 +683,6 @@
       "categories": [
         "deployment",
         "conflict"
-      ]
-    },
-    {
-      "title": "US goes after Iran’s ability to lay sea mines, build drones, top general says",
-      "link": "https://taskandpurpose.com/news/military-iran-sea-mines-drones/",
-      "published": "Tue, 10 Mar 2026 14:33:32 -0400",
-      "source": "Task & Purpose",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "It only took 2 weeks for the Iran war to cause a draft scare",
-      "link": "https://taskandpurpose.com/news/iran-war-military-draft/",
-      "published": "Tue, 10 Mar 2026 16:56:30 -0400",
-      "source": "Task & Purpose",
-      "categories": [
-        "deployment"
       ]
     }
   ],
@@ -937,11 +937,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 20,
+    "deployment_articles": 22,
     "conflict_articles": 6,
-    "exercise_articles": 8,
+    "exercise_articles": 7,
     "total_articles": 50,
-    "computed_at": "2026-03-12T21:21:32.285453+00:00",
+    "computed_at": "2026-03-12T22:13:23.497917+00:00",
     "manual_override": "DEFCON_1",
     "breaking_events": [
       "12 US personnel confirmed KIA in operations against Iran (Mar 4 total)",
