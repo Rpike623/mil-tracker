@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-03-11T23:14:11Z",
-  "version": 321,
+  "generated_utc": "2026-03-12T00:53:33Z",
+  "version": 322,
   "breaking_alert": "DAY 5: 12 US KIA TOTAL IN IRAN CONFLICT — ISRAELI F-35 DOWNS IRANIAN YAK-130 OVER TEHRAN",
   "naval_deployments": [
     {
@@ -594,15 +594,6 @@
   ],
   "_naval_news_refs": [
     {
-      "title": "USS Nimitz sets off for Latin America in its last deployment",
-      "link": "https://taskandpurpose.com/news/uss-nimitz-southcom-latin-america/",
-      "published": "Mon, 09 Mar 2026 07:54:00 -0400",
-      "source": "Task & Purpose",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Air National Guard general says Iran operation demonstrates ‘wartime readiness’",
       "link": "https://taskandpurpose.com/news/national-guard-epic-fury-letter/",
       "published": "Mon, 09 Mar 2026 15:41:35 -0400",
@@ -684,6 +675,15 @@
       "categories": [
         "deployment",
         "conflict"
+      ]
+    },
+    {
+      "title": "US goes after Iran’s ability to lay sea mines, build drones, top general says",
+      "link": "https://taskandpurpose.com/news/military-iran-sea-mines-drones/",
+      "published": "Tue, 10 Mar 2026 14:33:32 -0400",
+      "source": "Task & Purpose",
+      "categories": [
+        "deployment"
       ]
     }
   ],
@@ -938,11 +938,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 30,
-    "conflict_articles": 12,
+    "deployment_articles": 28,
+    "conflict_articles": 13,
     "exercise_articles": 7,
     "total_articles": 50,
-    "computed_at": "2026-03-11T23:14:11.223594+00:00",
+    "computed_at": "2026-03-12T00:53:32.640366+00:00",
     "manual_override": "DEFCON_1",
     "breaking_events": [
       "12 US personnel confirmed KIA in operations against Iran (Mar 4 total)",
