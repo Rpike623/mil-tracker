@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-03-12T12:29:43Z",
-  "version": 331,
+  "generated_utc": "2026-03-12T13:54:01Z",
+  "version": 332,
   "breaking_alert": "DAY 5: 12 US KIA TOTAL IN IRAN CONFLICT — ISRAELI F-35 DOWNS IRANIAN YAK-130 OVER TEHRAN",
   "naval_deployments": [
     {
@@ -650,6 +650,16 @@
       ]
     },
     {
+      "title": "Nations withdraw some equipment from NATO Arctic exercise amid Iran fallout",
+      "link": "https://www.defensenews.com/global/europe/2026/03/12/nations-withdraw-some-equipment-from-nato-arctic-exercise-amid-iran-fallout/",
+      "published": "Thu, 12 Mar 2026 13:09:19 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment",
+        "exercise"
+      ]
+    },
+    {
       "title": "Japan Commissions Fifth Taigei-class Submarine",
       "link": "https://www.navalnews.com/naval-news/2026/03/japan-commissions-fifth-taigei-class-submarine/",
       "published": "Tue, 10 Mar 2026 08:27:51 +0000",
@@ -675,15 +685,6 @@
       "categories": [
         "deployment",
         "conflict"
-      ]
-    },
-    {
-      "title": "US goes after Iran’s ability to lay sea mines, build drones, top general says",
-      "link": "https://taskandpurpose.com/news/military-iran-sea-mines-drones/",
-      "published": "Tue, 10 Mar 2026 14:33:32 -0400",
-      "source": "Task & Purpose",
-      "categories": [
-        "deployment"
       ]
     }
   ],
@@ -839,15 +840,6 @@
   },
   "_conflict_news_refs": [
     {
-      "title": "Soldier who died from attack on Saudi Arabia was ‘nothing less than a hero’",
-      "link": "https://taskandpurpose.com/news/7th-us-death-saudi-arabia-iran/",
-      "published": "Mon, 09 Mar 2026 11:08:00 -0400",
-      "source": "Task & Purpose",
-      "categories": [
-        "conflict"
-      ]
-    },
-    {
       "title": "Veteran who survived missile strike says field screenings ‘easily miss’ TBIs",
       "link": "https://taskandpurpose.com/news/iran-attack-2020-tbis-missed/",
       "published": "Tue, 10 Mar 2026 10:30:09 -0400",
@@ -884,6 +876,16 @@
       "categories": [
         "deployment",
         "exercise",
+        "conflict"
+      ]
+    },
+    {
+      "title": "These are the US soldiers killed in Iran’s drone strike in Kuwait",
+      "link": "https://taskandpurpose.com/news/military-troops-identified-iran/",
+      "published": "Wed, 11 Mar 2026 15:24:56 -0400",
+      "source": "Task & Purpose",
+      "categories": [
+        "deployment",
         "conflict"
       ]
     }
@@ -939,10 +941,10 @@
   ],
   "_threat_indicators": {
     "deployment_articles": 26,
-    "conflict_articles": 11,
-    "exercise_articles": 9,
+    "conflict_articles": 10,
+    "exercise_articles": 10,
     "total_articles": 50,
-    "computed_at": "2026-03-12T12:29:42.427021+00:00",
+    "computed_at": "2026-03-12T13:54:00.557667+00:00",
     "manual_override": "DEFCON_1",
     "breaking_events": [
       "12 US personnel confirmed KIA in operations against Iran (Mar 4 total)",
