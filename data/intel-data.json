@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-03-12T13:54:01Z",
-  "version": 332,
+  "generated_utc": "2026-03-12T14:39:21Z",
+  "version": 333,
   "breaking_alert": "DAY 5: 12 US KIA TOTAL IN IRAN CONFLICT — ISRAELI F-35 DOWNS IRANIAN YAK-130 OVER TEHRAN",
   "naval_deployments": [
     {
@@ -604,16 +604,6 @@
       ]
     },
     {
-      "title": "Pentagon IDs 2 U.S. Service Members Who Died During Middle East Operations",
-      "link": "https://news.usni.org/2026/03/09/pentagon-ids-2-u-s-service-members-who-died-during-middle-east-operations",
-      "published": "Mon, 09 Mar 2026 16:08:44 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment",
-        "exercise"
-      ]
-    },
-    {
       "title": "USNI News Fleet and Marine Tracker: March 9, 2026",
       "link": "https://news.usni.org/2026/03/09/usni-news-fleet-and-marine-tracker-march-9-2026",
       "published": "Mon, 09 Mar 2026 19:52:31 +0000",
@@ -660,10 +650,10 @@
       ]
     },
     {
-      "title": "Japan Commissions Fifth Taigei-class Submarine",
-      "link": "https://www.navalnews.com/naval-news/2026/03/japan-commissions-fifth-taigei-class-submarine/",
-      "published": "Tue, 10 Mar 2026 08:27:51 +0000",
-      "source": "Naval News",
+      "title": "Carrier USS Gerald R. Ford Suffers Fire",
+      "link": "https://news.usni.org/2026/03/12/carrier-uss-gerald-r-ford-suffers-fire",
+      "published": "Thu, 12 Mar 2026 14:37:17 +0000",
+      "source": "USNI News",
       "categories": [
         "deployment"
       ]
@@ -685,6 +675,15 @@
       "categories": [
         "deployment",
         "conflict"
+      ]
+    },
+    {
+      "title": "US goes after Iran’s ability to lay sea mines, build drones, top general says",
+      "link": "https://taskandpurpose.com/news/military-iran-sea-mines-drones/",
+      "published": "Tue, 10 Mar 2026 14:33:32 -0400",
+      "source": "Task & Purpose",
+      "categories": [
+        "deployment"
       ]
     }
   ],
@@ -902,16 +901,6 @@
       ]
     },
     {
-      "title": "Pentagon IDs 2 U.S. Service Members Who Died During Middle East Operations",
-      "link": "https://news.usni.org/2026/03/09/pentagon-ids-2-u-s-service-members-who-died-during-middle-east-operations",
-      "published": "Mon, 09 Mar 2026 16:08:44 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment",
-        "exercise"
-      ]
-    },
-    {
       "title": "Senator blocks veterans benefits bill over cost in ‘dollars and cents’",
       "link": "https://taskandpurpose.com/news/veterans-richard-star-act-senate/",
       "published": "Mon, 09 Mar 2026 17:05:08 -0400",
@@ -937,14 +926,24 @@
       "categories": [
         "exercise"
       ]
+    },
+    {
+      "title": "Nations withdraw some equipment from NATO Arctic exercise amid Iran fallout",
+      "link": "https://www.defensenews.com/global/europe/2026/03/12/nations-withdraw-some-equipment-from-nato-arctic-exercise-amid-iran-fallout/",
+      "published": "Thu, 12 Mar 2026 13:09:19 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment",
+        "exercise"
+      ]
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 26,
-    "conflict_articles": 10,
-    "exercise_articles": 10,
+    "deployment_articles": 24,
+    "conflict_articles": 9,
+    "exercise_articles": 9,
     "total_articles": 50,
-    "computed_at": "2026-03-12T13:54:00.557667+00:00",
+    "computed_at": "2026-03-12T14:39:21.000807+00:00",
     "manual_override": "DEFCON_1",
     "breaking_events": [
       "12 US personnel confirmed KIA in operations against Iran (Mar 4 total)",
