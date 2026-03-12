@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-03-12T09:31:09Z",
-  "version": 328,
+  "generated_utc": "2026-03-12T10:27:05Z",
+  "version": 329,
   "breaking_alert": "DAY 5: 12 US KIA TOTAL IN IRAN CONFLICT — ISRAELI F-35 DOWNS IRANIAN YAK-130 OVER TEHRAN",
   "naval_deployments": [
     {
@@ -650,6 +650,15 @@
       ]
     },
     {
+      "title": "France’s Mediterranean armada signals clout as Middle East may rethink alliances",
+      "link": "https://www.defensenews.com/global/europe/2026/03/12/frances-mediterranean-armada-signals-clout-as-middle-east-may-rethink-alliances/",
+      "published": "Thu, 12 Mar 2026 09:28:56 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "Japan Commissions Fifth Taigei-class Submarine",
       "link": "https://www.navalnews.com/naval-news/2026/03/japan-commissions-fifth-taigei-class-submarine/",
       "published": "Tue, 10 Mar 2026 08:27:51 +0000",
@@ -675,15 +684,6 @@
       "categories": [
         "deployment",
         "conflict"
-      ]
-    },
-    {
-      "title": "US goes after Iran’s ability to lay sea mines, build drones, top general says",
-      "link": "https://taskandpurpose.com/news/military-iran-sea-mines-drones/",
-      "published": "Tue, 10 Mar 2026 14:33:32 -0400",
-      "source": "Task & Purpose",
-      "categories": [
-        "deployment"
       ]
     }
   ],
@@ -877,11 +877,13 @@
       ]
     },
     {
-      "title": "US Space Force clears design milestone, advances missile-warning constellation",
-      "link": "https://www.defensenews.com/space/2026/03/10/us-space-force-clears-design-milestone-advances-missile-warning-constellation/",
-      "published": "Tue, 10 Mar 2026 23:56:29 +0000",
-      "source": "Defense News",
+      "title": "Report to Congress on U.S. Military Operations Against Iran’s Missile, Nuclear Programs",
+      "link": "https://news.usni.org/2026/03/11/report-to-congress-on-u-s-military-operations-against-irans-missile-nuclear-programs",
+      "published": "Wed, 11 Mar 2026 13:38:39 +0000",
+      "source": "USNI News",
       "categories": [
+        "deployment",
+        "exercise",
         "conflict"
       ]
     }
@@ -939,10 +941,10 @@
   ],
   "_threat_indicators": {
     "deployment_articles": 27,
-    "conflict_articles": 13,
+    "conflict_articles": 11,
     "exercise_articles": 7,
     "total_articles": 50,
-    "computed_at": "2026-03-12T09:31:08.440394+00:00",
+    "computed_at": "2026-03-12T10:27:05.232189+00:00",
     "manual_override": "DEFCON_1",
     "breaking_events": [
       "12 US personnel confirmed KIA in operations against Iran (Mar 4 total)",
