@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-03-12T10:27:05Z",
-  "version": 329,
+  "generated_utc": "2026-03-12T11:23:51Z",
+  "version": 330,
   "breaking_alert": "DAY 5: 12 US KIA TOTAL IN IRAN CONFLICT — ISRAELI F-35 DOWNS IRANIAN YAK-130 OVER TEHRAN",
   "naval_deployments": [
     {
@@ -623,15 +623,6 @@
       ]
     },
     {
-      "title": "Dutch frigate HNLMS Evertsen to be deployed in the Mediterranean",
-      "link": "https://www.navalnews.com/naval-news/2026/03/dutch-frigate-hnlms-evertsen-to-be-deployed-in-the-mediterranean/",
-      "published": "Mon, 09 Mar 2026 20:34:01 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "USS Nimitz Begins Last Cruise Ahead of Decommissioning",
       "link": "https://news.usni.org/2026/03/09/uss-nimitz-begins-last-cruise-ahead-of-decommissioning",
       "published": "Mon, 09 Mar 2026 21:19:55 +0000",
@@ -684,6 +675,15 @@
       "categories": [
         "deployment",
         "conflict"
+      ]
+    },
+    {
+      "title": "US goes after Iran’s ability to lay sea mines, build drones, top general says",
+      "link": "https://taskandpurpose.com/news/military-iran-sea-mines-drones/",
+      "published": "Tue, 10 Mar 2026 14:33:32 -0400",
+      "source": "Task & Purpose",
+      "categories": [
+        "deployment"
       ]
     }
   ],
@@ -919,32 +919,30 @@
       ]
     },
     {
-      "title": "Operation Epic Escort",
-      "link": "https://news.usni.org/2026/03/10/operation-epic-escort",
-      "published": "Tue, 10 Mar 2026 22:11:44 +0000",
-      "source": "USNI News",
+      "title": "NATO sends Patriot system to protect key air-defense radar in Turkey",
+      "link": "https://www.defensenews.com/global/europe/2026/03/12/nato-sends-patriot-system-to-protect-key-air-defense-radar-in-turkey/",
+      "published": "Thu, 12 Mar 2026 10:27:38 +0000",
+      "source": "Defense News",
       "categories": [
         "exercise"
       ]
     },
     {
-      "title": "Report to Congress on U.S. Military Operations Against Iran’s Missile, Nuclear Programs",
-      "link": "https://news.usni.org/2026/03/11/report-to-congress-on-u-s-military-operations-against-irans-missile-nuclear-programs",
-      "published": "Wed, 11 Mar 2026 13:38:39 +0000",
-      "source": "USNI News",
+      "title": "French Navy Looks to Expand Future Operational Domains and Current Operational Readiness",
+      "link": "https://www.navalnews.com/naval-news/2026/03/french-navy-looks-to-expand-future-operational-domains-and-current-operational-readiness/",
+      "published": "Thu, 12 Mar 2026 10:28:32 +0000",
+      "source": "Naval News",
       "categories": [
-        "deployment",
-        "exercise",
-        "conflict"
+        "exercise"
       ]
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 27,
+    "deployment_articles": 26,
     "conflict_articles": 11,
-    "exercise_articles": 7,
+    "exercise_articles": 9,
     "total_articles": 50,
-    "computed_at": "2026-03-12T10:27:05.232189+00:00",
+    "computed_at": "2026-03-12T11:23:51.213402+00:00",
     "manual_override": "DEFCON_1",
     "breaking_events": [
       "12 US personnel confirmed KIA in operations against Iran (Mar 4 total)",
