@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-03-13T13:50:50Z",
-  "version": 353,
+  "generated_utc": "2026-03-13T14:33:49Z",
+  "version": 354,
   "breaking_alert": "DAY 5: 12 US KIA TOTAL IN IRAN CONFLICT — ISRAELI F-35 DOWNS IRANIAN YAK-130 OVER TEHRAN",
   "naval_deployments": [
     {
@@ -594,19 +594,19 @@
   ],
   "_naval_news_refs": [
     {
-      "title": "4 service members confirmed dead after US KC-135 tanker crash in Iraq",
-      "link": "https://taskandpurpose.com/news/military-kc-135-iraq/",
-      "published": "Fri, 13 Mar 2026 08:32:50 -0400",
-      "source": "Task & Purpose",
+      "title": "Myanmar Commissions Largest Domestically Built Frigate",
+      "link": "https://www.navalnews.com/naval-news/2026/03/myanmar-commissions-largest-domestically-built-frigate/",
+      "published": "Fri, 13 Mar 2026 09:28:56 +0000",
+      "source": "Naval News",
       "categories": [
         "deployment"
       ]
     },
     {
-      "title": "Myanmar Commissions Largest Domestically Built Frigate",
-      "link": "https://www.navalnews.com/naval-news/2026/03/myanmar-commissions-largest-domestically-built-frigate/",
-      "published": "Fri, 13 Mar 2026 09:28:56 +0000",
-      "source": "Naval News",
+      "title": "All 6 crew members of US KC-135 tanker confirmed dead after crash in Iraq",
+      "link": "https://taskandpurpose.com/news/military-kc-135-iraq/",
+      "published": "Fri, 13 Mar 2026 10:32:08 -0400",
+      "source": "Task & Purpose",
       "categories": [
         "deployment"
       ]
@@ -943,7 +943,7 @@
     "conflict_articles": 6,
     "exercise_articles": 7,
     "total_articles": 50,
-    "computed_at": "2026-03-13T13:50:49.828858+00:00",
+    "computed_at": "2026-03-13T14:33:48.863415+00:00",
     "manual_override": "DEFCON_1",
     "breaking_events": [
       "12 US personnel confirmed KIA in operations against Iran (Mar 4 total)",
