@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-03-13T07:36:45Z",
-  "version": 347,
+  "generated_utc": "2026-03-13T08:26:01Z",
+  "version": 348,
   "breaking_alert": "DAY 5: 12 US KIA TOTAL IN IRAN CONFLICT — ISRAELI F-35 DOWNS IRANIAN YAK-130 OVER TEHRAN",
   "naval_deployments": [
     {
@@ -847,16 +847,6 @@
       ]
     },
     {
-      "title": "US Navy Strikes Another Iranian Catamaran Corvette",
-      "link": "https://www.navalnews.com/naval-news/2026/03/us-navy-strikes-another-iranian-catamaran-corvette/",
-      "published": "Tue, 10 Mar 2026 17:40:14 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
       "title": "Report to Congress on U.S. Military Operations Against Iran’s Missile, Nuclear Programs",
       "link": "https://news.usni.org/2026/03/11/report-to-congress-on-u-s-military-operations-against-irans-missile-nuclear-programs",
       "published": "Wed, 11 Mar 2026 13:38:39 +0000",
@@ -937,11 +927,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 23,
-    "conflict_articles": 5,
+    "deployment_articles": 22,
+    "conflict_articles": 4,
     "exercise_articles": 7,
     "total_articles": 50,
-    "computed_at": "2026-03-13T07:36:45.026804+00:00",
+    "computed_at": "2026-03-13T08:26:01.285982+00:00",
     "manual_override": "DEFCON_1",
     "breaking_events": [
       "12 US personnel confirmed KIA in operations against Iran (Mar 4 total)",
