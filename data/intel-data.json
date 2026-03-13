@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-03-13T22:17:34Z",
-  "version": 362,
+  "generated_utc": "2026-03-13T23:16:32Z",
+  "version": 363,
   "breaking_alert": "DAY 5: 12 US KIA TOTAL IN IRAN CONFLICT — ISRAELI F-35 DOWNS IRANIAN YAK-130 OVER TEHRAN",
   "naval_deployments": [
     {
@@ -907,15 +907,6 @@
       ]
     },
     {
-      "title": "Operation Epic Escort",
-      "link": "https://news.usni.org/2026/03/10/operation-epic-escort",
-      "published": "Tue, 10 Mar 2026 22:11:44 +0000",
-      "source": "USNI News",
-      "categories": [
-        "exercise"
-      ]
-    },
-    {
       "title": "Report to Congress on U.S. Military Operations Against Iran’s Missile, Nuclear Programs",
       "link": "https://news.usni.org/2026/03/11/report-to-congress-on-u-s-military-operations-against-irans-missile-nuclear-programs",
       "published": "Wed, 11 Mar 2026 13:38:39 +0000",
@@ -939,10 +930,10 @@
   ],
   "_threat_indicators": {
     "deployment_articles": 22,
-    "conflict_articles": 8,
-    "exercise_articles": 5,
+    "conflict_articles": 9,
+    "exercise_articles": 4,
     "total_articles": 50,
-    "computed_at": "2026-03-13T22:17:34.365266+00:00",
+    "computed_at": "2026-03-13T23:16:32.413417+00:00",
     "manual_override": "DEFCON_1",
     "breaking_events": [
       "12 US personnel confirmed KIA in operations against Iran (Mar 4 total)",
