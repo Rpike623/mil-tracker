@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-03-13T12:29:18Z",
-  "version": 352,
+  "generated_utc": "2026-03-13T13:50:50Z",
+  "version": 353,
   "breaking_alert": "DAY 5: 12 US KIA TOTAL IN IRAN CONFLICT — ISRAELI F-35 DOWNS IRANIAN YAK-130 OVER TEHRAN",
   "naval_deployments": [
     {
@@ -594,9 +594,47 @@
   ],
   "_naval_news_refs": [
     {
+      "title": "4 service members confirmed dead after US KC-135 tanker crash in Iraq",
+      "link": "https://taskandpurpose.com/news/military-kc-135-iraq/",
+      "published": "Fri, 13 Mar 2026 08:32:50 -0400",
+      "source": "Task & Purpose",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "Myanmar Commissions Largest Domestically Built Frigate",
       "link": "https://www.navalnews.com/naval-news/2026/03/myanmar-commissions-largest-domestically-built-frigate/",
       "published": "Fri, 13 Mar 2026 09:28:56 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Four US airmen killed in KC-135 crash in Iraq",
+      "link": "https://www.defensenews.com/news/your-military/2026/03/13/four-us-airmen-killed-in-kc-135-crash-in-iraq/",
+      "published": "Fri, 13 Mar 2026 13:14:54 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
+    },
+    {
+      "title": "Four US airmen killed in KC-135 crash in Iraq",
+      "link": "https://www.militarytimes.com/news/your-military/2026/03/13/four-us-airmen-killed-in-kc-135-crash-in-iraq/",
+      "published": "Fri, 13 Mar 2026 13:14:54 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
+    },
+    {
+      "title": "PrSM Increment 2 Takes Flight and Advances Army’s Moving-Target and Maritime Capability",
+      "link": "https://www.navalnews.com/naval-news/2026/03/prsm-increment-2-takes-flight-and-advances-armys-moving-target-and-maritime-capability/",
+      "published": "Fri, 13 Mar 2026 13:29:08 +0000",
       "source": "Naval News",
       "categories": [
         "deployment"
@@ -607,15 +645,6 @@
       "link": "https://news.usni.org/2026/03/09/french-navy-pledges-10-additional-warships-to-middle-east-escorts-for-strait-of-hormuz",
       "published": "Mon, 09 Mar 2026 21:37:06 +0000",
       "source": "USNI News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "France’s Mediterranean armada signals clout as Middle East may rethink alliances",
-      "link": "https://www.defensenews.com/global/europe/2026/03/12/frances-mediterranean-armada-signals-clout-as-middle-east-may-rethink-alliances/",
-      "published": "Thu, 12 Mar 2026 09:28:56 +0000",
-      "source": "Defense News",
       "categories": [
         "deployment"
       ]
@@ -640,24 +669,6 @@
       ]
     },
     {
-      "title": "Onboard fire extinguished on aircraft carrier in Red Sea, Navy says",
-      "link": "https://www.militarytimes.com/news/your-navy/2026/03/12/onboard-fire-extinguished-on-aircraft-carrier-in-red-sea-navy-says/",
-      "published": "Thu, 12 Mar 2026 15:28:20 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "US KC-135 tanker crashes in Iraq, though not from enemy fire, officials say",
-      "link": "https://taskandpurpose.com/news/military-kc-135-iraq/",
-      "published": "Thu, 12 Mar 2026 18:25:16 -0400",
-      "source": "Task & Purpose",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "The US Navy decommissioned Middle East minesweepers last year. Here’s what they did.",
       "link": "https://www.militarytimes.com/news/your-navy/2026/03/12/the-us-navy-decommissioned-middle-east-minesweepers-last-year-heres-what-they-did/",
       "published": "Thu, 12 Mar 2026 21:49:09 +0000",
@@ -671,15 +682,6 @@
       "link": "https://www.defensenews.com/flashpoints/2026/03/12/us-air-force-kc-135-goes-down-in-iraq-centcom-says/",
       "published": "Thu, 12 Mar 2026 21:58:14 +0000",
       "source": "Defense News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "US Air Force KC-135 goes down in Iraq, CENTCOM says",
-      "link": "https://www.militarytimes.com/flashpoints/2026/03/12/us-air-force-kc-135-goes-down-in-iraq-centcom-says/",
-      "published": "Thu, 12 Mar 2026 21:58:14 +0000",
-      "source": "Military Times",
       "categories": [
         "deployment"
       ]
@@ -837,6 +839,26 @@
   },
   "_conflict_news_refs": [
     {
+      "title": "Four US airmen killed in KC-135 crash in Iraq",
+      "link": "https://www.defensenews.com/news/your-military/2026/03/13/four-us-airmen-killed-in-kc-135-crash-in-iraq/",
+      "published": "Fri, 13 Mar 2026 13:14:54 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
+    },
+    {
+      "title": "Four US airmen killed in KC-135 crash in Iraq",
+      "link": "https://www.militarytimes.com/news/your-military/2026/03/13/four-us-airmen-killed-in-kc-135-crash-in-iraq/",
+      "published": "Fri, 13 Mar 2026 13:14:54 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
+    },
+    {
       "title": "Marines, Soldiers Practice Anti-ship Missile Deployments in Hawaii",
       "link": "https://news.usni.org/2026/03/10/marines-soliders-practice-anti-ship-missile-deployments-in-hawaii",
       "published": "Tue, 10 Mar 2026 13:57:24 +0000",
@@ -862,16 +884,6 @@
       "link": "https://taskandpurpose.com/news/military-troops-identified-iran/",
       "published": "Wed, 11 Mar 2026 15:24:56 -0400",
       "source": "Task & Purpose",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
-      "title": "3 Cargo Ships Damaged in Suspected Iranian Attacks in the Strait of Hormuz",
-      "link": "https://news.usni.org/2026/03/11/3-cargo-ships-damaged-in-suspected-iranian-attacks-in-the-strait-of-hormuz",
-      "published": "Wed, 11 Mar 2026 21:07:33 +0000",
-      "source": "USNI News",
       "categories": [
         "deployment",
         "conflict"
@@ -928,10 +940,10 @@
   ],
   "_threat_indicators": {
     "deployment_articles": 21,
-    "conflict_articles": 4,
+    "conflict_articles": 6,
     "exercise_articles": 7,
     "total_articles": 50,
-    "computed_at": "2026-03-13T12:29:17.968612+00:00",
+    "computed_at": "2026-03-13T13:50:49.828858+00:00",
     "manual_override": "DEFCON_1",
     "breaking_events": [
       "12 US personnel confirmed KIA in operations against Iran (Mar 4 total)",
