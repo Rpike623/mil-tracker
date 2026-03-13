@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-03-13T19:23:03Z",
-  "version": 359,
+  "generated_utc": "2026-03-13T20:20:02Z",
+  "version": 360,
   "breaking_alert": "DAY 5: 12 US KIA TOTAL IN IRAN CONFLICT — ISRAELI F-35 DOWNS IRANIAN YAK-130 OVER TEHRAN",
   "naval_deployments": [
     {
@@ -878,13 +878,11 @@
       ]
     },
     {
-      "title": "Report to Congress on U.S. Military Operations Against Iran’s Missile, Nuclear Programs",
-      "link": "https://news.usni.org/2026/03/11/report-to-congress-on-u-s-military-operations-against-irans-missile-nuclear-programs",
-      "published": "Wed, 11 Mar 2026 13:38:39 +0000",
-      "source": "USNI News",
+      "title": "Marine Raider’s remains identified 80 years after being killed in action",
+      "link": "https://www.militarytimes.com/veterans/military-history/2026/03/13/marine-raiders-remains-identified-80-years-after-being-killed-in-action/",
+      "published": "Fri, 13 Mar 2026 19:37:09 +0000",
+      "source": "Military Times",
       "categories": [
-        "deployment",
-        "exercise",
         "conflict"
       ]
     }
@@ -940,11 +938,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 23,
-    "conflict_articles": 7,
+    "deployment_articles": 22,
+    "conflict_articles": 8,
     "exercise_articles": 5,
     "total_articles": 50,
-    "computed_at": "2026-03-13T19:23:03.043140+00:00",
+    "computed_at": "2026-03-13T20:20:02.071581+00:00",
     "manual_override": "DEFCON_1",
     "breaking_events": [
       "12 US personnel confirmed KIA in operations against Iran (Mar 4 total)",
