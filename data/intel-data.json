@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-03-14T14:17:43Z",
-  "version": 375,
+  "generated_utc": "2026-03-14T15:15:38Z",
+  "version": 376,
   "breaking_alert": "DAY 5: 12 US KIA TOTAL IN IRAN CONFLICT — ISRAELI F-35 DOWNS IRANIAN YAK-130 OVER TEHRAN",
   "naval_deployments": [
     {
@@ -594,6 +594,15 @@
   ],
   "_naval_news_refs": [
     {
+      "title": "Myanmar Commissions Largest Domestically Built Frigate",
+      "link": "https://www.navalnews.com/naval-news/2026/03/myanmar-commissions-largest-domestically-built-frigate/",
+      "published": "Fri, 13 Mar 2026 09:28:56 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "All 6 crew members of US KC-135 tanker confirmed dead after crash in Iraq",
       "link": "https://taskandpurpose.com/news/military-kc-135-iraq/",
       "published": "Fri, 13 Mar 2026 10:32:08 -0400",
@@ -610,6 +619,15 @@
       "categories": [
         "deployment",
         "conflict"
+      ]
+    },
+    {
+      "title": "PrSM Increment 2 Takes Flight and Advances Army’s Moving-Target and Maritime Capability",
+      "link": "https://www.navalnews.com/naval-news/2026/03/prsm-increment-2-takes-flight-and-advances-armys-moving-target-and-maritime-capability/",
+      "published": "Fri, 13 Mar 2026 13:29:08 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment"
       ]
     },
     {
@@ -662,24 +680,6 @@
       "title": "Pentagon reportedly sending more warships and Marines to Middle East",
       "link": "https://www.defensenews.com/news/your-military/2026/03/13/pentagon-reportedly-sending-more-warships-and-marines-to-middle-east/",
       "published": "Fri, 13 Mar 2026 20:49:53 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Pentagon reportedly sending more warships and Marines to Middle East",
-      "link": "https://www.militarytimes.com/news/your-military/2026/03/13/pentagon-reportedly-sending-more-warships-and-marines-to-middle-east/",
-      "published": "Fri, 13 Mar 2026 20:49:53 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "US bombs key Iranian island amid oil concerns",
-      "link": "https://www.defensenews.com/flashpoints/2026/03/14/us-bombs-key-iranian-island-amid-oil-concerns/",
-      "published": "Sat, 14 Mar 2026 00:25:08 +0000",
       "source": "Defense News",
       "categories": [
         "deployment"
@@ -887,6 +887,15 @@
   ],
   "_exercise_news_refs": [
     {
+      "title": "French Navy Looks to Expand Future Operational Domains and Current Operational Readiness",
+      "link": "https://www.navalnews.com/naval-news/2026/03/french-navy-looks-to-expand-future-operational-domains-and-current-operational-readiness/",
+      "published": "Thu, 12 Mar 2026 10:28:32 +0000",
+      "source": "Naval News",
+      "categories": [
+        "exercise"
+      ]
+    },
+    {
       "title": "U.S. Forces, Partner Nations Defend Against Maritime Drones in Exercise Cobra Gold",
       "link": "https://news.usni.org/2026/03/12/u-s-forces-partner-nations-defend-against-maritime-drones-in-exercise-cobra-gold",
       "published": "Thu, 12 Mar 2026 18:25:46 +0000",
@@ -918,11 +927,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 19,
+    "deployment_articles": 22,
     "conflict_articles": 8,
-    "exercise_articles": 3,
-    "total_articles": 40,
-    "computed_at": "2026-03-14T14:17:43.012064+00:00",
+    "exercise_articles": 4,
+    "total_articles": 50,
+    "computed_at": "2026-03-14T15:15:38.116997+00:00",
     "manual_override": "DEFCON_1",
     "breaking_events": [
       "12 US personnel confirmed KIA in operations against Iran (Mar 4 total)",
