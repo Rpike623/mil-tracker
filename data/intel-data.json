@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-03-14T22:12:57Z",
-  "version": 383,
+  "generated_utc": "2026-03-14T23:15:59Z",
+  "version": 384,
   "breaking_alert": "DAY 5: 12 US KIA TOTAL IN IRAN CONFLICT — ISRAELI F-35 DOWNS IRANIAN YAK-130 OVER TEHRAN",
   "naval_deployments": [
     {
@@ -905,17 +905,6 @@
       ]
     },
     {
-      "title": "Report to Congress on U.S. Military Operations Against Iran’s Missile, Nuclear Programs",
-      "link": "https://news.usni.org/2026/03/11/report-to-congress-on-u-s-military-operations-against-irans-missile-nuclear-programs",
-      "published": "Wed, 11 Mar 2026 13:38:39 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment",
-        "exercise",
-        "conflict"
-      ]
-    },
-    {
       "title": "Sailor sports ‘Arrogant Bastard’ beer patch on carrier involved in Iran combat operations",
       "link": "https://taskandpurpose.com/culture/abraham-lincoln-arrogant-bastard-ale/",
       "published": "Wed, 11 Mar 2026 14:12:40 -0400",
@@ -928,10 +917,10 @@
   ],
   "_threat_indicators": {
     "deployment_articles": 22,
-    "conflict_articles": 8,
-    "exercise_articles": 4,
+    "conflict_articles": 7,
+    "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-03-14T22:12:57.017900+00:00",
+    "computed_at": "2026-03-14T23:15:53.939306+00:00",
     "manual_override": "DEFCON_1",
     "breaking_events": [
       "12 US personnel confirmed KIA in operations against Iran (Mar 4 total)",
