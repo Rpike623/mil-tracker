@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-03-15T01:08:33Z",
-  "version": 385,
+  "generated_utc": "2026-03-15T04:21:12Z",
+  "version": 386,
   "breaking_alert": "DAY 5: 12 US KIA TOTAL IN IRAN CONFLICT — ISRAELI F-35 DOWNS IRANIAN YAK-130 OVER TEHRAN",
   "naval_deployments": [
     {
@@ -848,15 +848,6 @@
       ]
     },
     {
-      "title": "Army ROTC instructor killed by ex-National Guard member in campus shooting",
-      "link": "https://www.militarytimes.com/news/your-military/2026/03/13/army-rotc-instructor-killed-by-ex-national-guard-member-in-campus-shooting/",
-      "published": "Fri, 13 Mar 2026 15:38:36 +0000",
-      "source": "Military Times",
-      "categories": [
-        "conflict"
-      ]
-    },
-    {
       "title": "Iran’s new supreme leader was ‘wounded and likely disfigured’ in US-Israeli strikes, Hegseth contends",
       "link": "https://www.militarytimes.com/news/pentagon-congress/2026/03/13/hegseth-contends-irans-new-supreme-leader-was-wounded-and-likely-disfigured-in-us-israeli-strikes/",
       "published": "Fri, 13 Mar 2026 15:43:29 +0000",
@@ -883,6 +874,16 @@
       "categories": [
         "conflict"
       ]
+    },
+    {
+      "title": "Pentagon identifies 6 airmen killed in KC-135 crash in Iraq",
+      "link": "https://taskandpurpose.com/news/pentagon-identifies-airmen-iraq-kc-135/",
+      "published": "Sat, 14 Mar 2026 22:28:13 -0400",
+      "source": "Task & Purpose",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
     }
   ],
   "_exercise_news_refs": [
@@ -903,24 +904,14 @@
       "categories": [
         "exercise"
       ]
-    },
-    {
-      "title": "Sailor sports ‘Arrogant Bastard’ beer patch on carrier involved in Iran combat operations",
-      "link": "https://taskandpurpose.com/culture/abraham-lincoln-arrogant-bastard-ale/",
-      "published": "Wed, 11 Mar 2026 14:12:40 -0400",
-      "source": "Task & Purpose",
-      "categories": [
-        "deployment",
-        "exercise"
-      ]
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 22,
-    "conflict_articles": 7,
-    "exercise_articles": 3,
+    "deployment_articles": 23,
+    "conflict_articles": 8,
+    "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-03-15T01:08:32.856453+00:00",
+    "computed_at": "2026-03-15T04:21:11.448530+00:00",
     "manual_override": "DEFCON_1",
     "breaking_events": [
       "12 US personnel confirmed KIA in operations against Iran (Mar 4 total)",
