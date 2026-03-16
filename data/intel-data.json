@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-03-16T14:11:35Z",
-  "version": 414,
+  "generated_utc": "2026-03-16T15:53:03Z",
+  "version": 415,
   "breaking_alert": "DAY 5: 12 US KIA TOTAL IN IRAN CONFLICT — ISRAELI F-35 DOWNS IRANIAN YAK-130 OVER TEHRAN",
   "naval_deployments": [
     {
@@ -865,20 +865,19 @@
       ]
     },
     {
-      "title": "Pentagon identifies 6 airmen killed in KC-135 crash in Iraq",
-      "link": "https://taskandpurpose.com/news/pentagon-identifies-airmen-iraq-kc-135/",
-      "published": "Sat, 14 Mar 2026 22:28:13 -0400",
-      "source": "Task & Purpose",
+      "title": "Turkey’s Baykar tests swarm behavior of its K2 one-way attack drone",
+      "link": "https://www.defensenews.com/global/europe/2026/03/16/turkeys-baykar-tests-swarm-behavior-of-its-k2-one-way-attack-drone/",
+      "published": "Mon, 16 Mar 2026 14:09:28 +0000",
+      "source": "Defense News",
       "categories": [
-        "deployment",
         "conflict"
       ]
     },
     {
-      "title": "Pentagon identifies six airmen killed in KC-135 crash in Iraq",
-      "link": "https://www.militarytimes.com/news/your-military/2026/03/15/pentagon-identifies-six-airmen-killed-in-kc-135-crash-in-iraq/",
-      "published": "Sun, 15 Mar 2026 01:14:55 +0000",
-      "source": "Military Times",
+      "title": "Pentagon identifies 6 airmen killed in KC-135 crash in Iraq",
+      "link": "https://taskandpurpose.com/news/pentagon-identifies-airmen-iraq-kc-135/",
+      "published": "Sat, 14 Mar 2026 22:28:13 -0400",
+      "source": "Task & Purpose",
       "categories": [
         "deployment",
         "conflict"
@@ -898,10 +897,10 @@
   ],
   "_threat_indicators": {
     "deployment_articles": 22,
-    "conflict_articles": 6,
+    "conflict_articles": 7,
     "exercise_articles": 1,
     "total_articles": 50,
-    "computed_at": "2026-03-16T14:11:35.194034+00:00",
+    "computed_at": "2026-03-16T15:53:02.995575+00:00",
     "manual_override": "DEFCON_1",
     "breaking_events": [
       "12 US personnel confirmed KIA in operations against Iran (Mar 4 total)",
