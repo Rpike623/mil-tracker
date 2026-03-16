@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-03-16T20:24:47Z",
-  "version": 420,
+  "generated_utc": "2026-03-16T21:27:27Z",
+  "version": 421,
   "breaking_alert": "DAY 5: 12 US KIA TOTAL IN IRAN CONFLICT — ISRAELI F-35 DOWNS IRANIAN YAK-130 OVER TEHRAN",
   "naval_deployments": [
     {
@@ -887,6 +887,15 @@
   ],
   "_exercise_news_refs": [
     {
+      "title": "Operation Epic Fury’s Tomahawk Fires: An Open-Source Counter",
+      "link": "https://www.navalnews.com/naval-news/2026/03/operation-epic-furys-tomahawk-fires-an-open-source-counter/",
+      "published": "Mon, 16 Mar 2026 20:39:08 +0000",
+      "source": "Naval News",
+      "categories": [
+        "exercise"
+      ]
+    },
+    {
       "title": "U.S. Forces, Partner Nations Defend Against Maritime Drones in Exercise Cobra Gold",
       "link": "https://news.usni.org/2026/03/12/u-s-forces-partner-nations-defend-against-maritime-drones-in-exercise-cobra-gold",
       "published": "Thu, 12 Mar 2026 18:25:46 +0000",
@@ -898,10 +907,10 @@
   ],
   "_threat_indicators": {
     "deployment_articles": 21,
-    "conflict_articles": 7,
-    "exercise_articles": 1,
+    "conflict_articles": 8,
+    "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-03-16T20:24:47.020935+00:00",
+    "computed_at": "2026-03-16T21:27:26.920261+00:00",
     "manual_override": "DEFCON_1",
     "breaking_events": [
       "12 US personnel confirmed KIA in operations against Iran (Mar 4 total)",
