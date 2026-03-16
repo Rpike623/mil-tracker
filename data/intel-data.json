@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-03-16T16:49:01Z",
-  "version": 416,
+  "generated_utc": "2026-03-16T17:51:02Z",
+  "version": 417,
   "breaking_alert": "DAY 5: 12 US KIA TOTAL IN IRAN CONFLICT — ISRAELI F-35 DOWNS IRANIAN YAK-130 OVER TEHRAN",
   "naval_deployments": [
     {
@@ -612,16 +612,6 @@
       ]
     },
     {
-      "title": "Six US service members killed in KC-135 crash in Iraq",
-      "link": "https://www.defensenews.com/news/your-military/2026/03/13/four-us-airmen-killed-in-kc-135-crash-in-iraq/",
-      "published": "Fri, 13 Mar 2026 13:14:54 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
       "title": "PrSM Increment 2 Takes Flight and Advances Army’s Moving-Target and Maritime Capability",
       "link": "https://www.navalnews.com/naval-news/2026/03/prsm-increment-2-takes-flight-and-advances-armys-moving-target-and-maritime-capability/",
       "published": "Fri, 13 Mar 2026 13:29:08 +0000",
@@ -649,15 +639,6 @@
       ]
     },
     {
-      "title": "Lebanese government tries to avoid internal strife amid Israeli bombardment",
-      "link": "https://www.defensenews.com/global/mideast-africa/2026/03/13/lebanese-government-tries-to-avoid-internal-strife-amid-israeli-bombardment/",
-      "published": "Fri, 13 Mar 2026 18:49:24 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "USS Tripoli, 31st MEU Heading to the Middle East",
       "link": "https://news.usni.org/2026/03/13/uss-tripoli-31st-meu-heading-to-the-middle-east",
       "published": "Fri, 13 Mar 2026 19:18:36 +0000",
@@ -676,12 +657,31 @@
       ]
     },
     {
-      "title": "Pentagon reportedly sending more warships and Marines to Middle East",
-      "link": "https://www.militarytimes.com/news/your-military/2026/03/13/pentagon-reportedly-sending-more-warships-and-marines-to-middle-east/",
-      "published": "Fri, 13 Mar 2026 20:49:53 +0000",
-      "source": "Military Times",
+      "title": "Marine Expeditionary Unit Ordered to the Middle East",
+      "link": "https://www.navalnews.com/naval-news/2026/03/marine-expeditionary-unit-ordered-to-the-middle-east/",
+      "published": "Fri, 13 Mar 2026 21:57:44 +0000",
+      "source": "Naval News",
       "categories": [
         "deployment"
+      ]
+    },
+    {
+      "title": "Red Sea Crisis Reinforced Need to be Ready at Sea, say Western Navy Chiefs",
+      "link": "https://www.navalnews.com/naval-news/2026/03/red-sea-crisis-reinforced-need-to-be-ready-at-sea-say-western-navy-chiefs/",
+      "published": "Mon, 16 Mar 2026 09:30:15 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "These are the 6 airmen killed in the KC-135 crash in Iraq",
+      "link": "https://taskandpurpose.com/news/pentagon-identifies-airmen-iraq-kc-135/",
+      "published": "Mon, 16 Mar 2026 10:28:00 -0400",
+      "source": "Task & Purpose",
+      "categories": [
+        "deployment",
+        "conflict"
       ]
     }
   ],
@@ -837,21 +837,21 @@
   },
   "_conflict_news_refs": [
     {
-      "title": "Six US service members killed in KC-135 crash in Iraq",
-      "link": "https://www.defensenews.com/news/your-military/2026/03/13/four-us-airmen-killed-in-kc-135-crash-in-iraq/",
-      "published": "Fri, 13 Mar 2026 13:14:54 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
       "title": "Missile Attacks Define Strait of Hormuz Risks, Officials Say",
       "link": "https://news.usni.org/2026/03/13/missile-attacks-define-strait-of-hormuz-risks-officials-say",
       "published": "Fri, 13 Mar 2026 22:51:37 +0000",
       "source": "USNI News",
       "categories": [
+        "conflict"
+      ]
+    },
+    {
+      "title": "These are the 6 airmen killed in the KC-135 crash in Iraq",
+      "link": "https://taskandpurpose.com/news/pentagon-identifies-airmen-iraq-kc-135/",
+      "published": "Mon, 16 Mar 2026 10:28:00 -0400",
+      "source": "Task & Purpose",
+      "categories": [
+        "deployment",
         "conflict"
       ]
     },
@@ -875,10 +875,10 @@
       ]
     },
     {
-      "title": "Pentagon identifies 6 airmen killed in KC-135 crash in Iraq",
-      "link": "https://taskandpurpose.com/news/pentagon-identifies-airmen-iraq-kc-135/",
-      "published": "Sat, 14 Mar 2026 22:28:13 -0400",
-      "source": "Task & Purpose",
+      "title": "Iran missile strike damages five KC-135 tankers in Saudi Arabia, officials say",
+      "link": "https://www.defensenews.com/news/your-military/2026/03/16/iran-missile-strike-damages-five-kc-135-tankers-in-saudi-arabia-officials-say/",
+      "published": "Mon, 16 Mar 2026 17:11:39 +0000",
+      "source": "Defense News",
       "categories": [
         "deployment",
         "conflict"
@@ -897,11 +897,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 22,
-    "conflict_articles": 7,
+    "deployment_articles": 21,
+    "conflict_articles": 8,
     "exercise_articles": 1,
     "total_articles": 50,
-    "computed_at": "2026-03-16T16:49:01.394571+00:00",
+    "computed_at": "2026-03-16T17:51:02.219487+00:00",
     "manual_override": "DEFCON_1",
     "breaking_events": [
       "12 US personnel confirmed KIA in operations against Iran (Mar 4 total)",
