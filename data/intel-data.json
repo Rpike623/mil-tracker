@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-03-17T01:00:14Z",
-  "version": 424,
+  "generated_utc": "2026-03-17T03:33:43Z",
+  "version": 425,
   "breaking_alert": "DAY 5: 12 US KIA TOTAL IN IRAN CONFLICT — ISRAELI F-35 DOWNS IRANIAN YAK-130 OVER TEHRAN",
   "naval_deployments": [
     {
@@ -648,15 +648,6 @@
       ]
     },
     {
-      "title": "Pentagon reportedly sending more warships and Marines to Middle East",
-      "link": "https://www.defensenews.com/news/your-military/2026/03/13/pentagon-reportedly-sending-more-warships-and-marines-to-middle-east/",
-      "published": "Fri, 13 Mar 2026 20:49:53 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Marine Expeditionary Unit Ordered to the Middle East",
       "link": "https://www.navalnews.com/naval-news/2026/03/marine-expeditionary-unit-ordered-to-the-middle-east/",
       "published": "Fri, 13 Mar 2026 21:57:44 +0000",
@@ -682,6 +673,15 @@
       "categories": [
         "deployment",
         "conflict"
+      ]
+    },
+    {
+      "title": "Middle East-based U.S. Mine Countermeasure Ships Spotted in Malaysia",
+      "link": "https://news.usni.org/2026/03/16/middle-east-based-u-s-mine-countermeasure-ships-spotted-in-malaysia",
+      "published": "Mon, 16 Mar 2026 15:37:02 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment"
       ]
     }
   ],
@@ -906,11 +906,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 23,
+    "deployment_articles": 22,
     "conflict_articles": 7,
     "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-03-17T01:00:13.793390+00:00",
+    "computed_at": "2026-03-17T03:33:43.563633+00:00",
     "manual_override": "DEFCON_1",
     "breaking_events": [
       "12 US personnel confirmed KIA in operations against Iran (Mar 4 total)",
