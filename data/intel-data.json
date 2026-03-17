@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-03-17T17:54:38Z",
-  "version": 437,
+  "generated_utc": "2026-03-17T18:43:09Z",
+  "version": 438,
   "breaking_alert": "DAY 5: 12 US KIA TOTAL IN IRAN CONFLICT — ISRAELI F-35 DOWNS IRANIAN YAK-130 OVER TEHRAN",
   "naval_deployments": [
     {
@@ -857,15 +857,6 @@
       ]
     },
     {
-      "title": "Turkey’s Baykar tests swarm behavior of its K2 one-way attack drone",
-      "link": "https://www.defensenews.com/global/europe/2026/03/16/turkeys-baykar-tests-swarm-behavior-of-its-k2-one-way-attack-drone/",
-      "published": "Mon, 16 Mar 2026 14:09:28 +0000",
-      "source": "Defense News",
-      "categories": [
-        "conflict"
-      ]
-    },
-    {
       "title": "Iran missile strike damages five KC-135 tankers in Saudi Arabia, officials say",
       "link": "https://www.defensenews.com/news/your-military/2026/03/16/iran-missile-strike-damages-five-kc-135-tankers-in-saudi-arabia-officials-say/",
       "published": "Mon, 16 Mar 2026 17:11:39 +0000",
@@ -880,6 +871,15 @@
       "link": "https://news.usni.org/2026/03/16/north-korea-fires-10-missiles-over-sea-of-japan-in-latest-multiple-rocket-launcher-system-test",
       "published": "Mon, 16 Mar 2026 20:46:45 +0000",
       "source": "USNI News",
+      "categories": [
+        "conflict"
+      ]
+    },
+    {
+      "title": "StrikeMaster to Remain in Europe following Strong International Interest",
+      "link": "https://www.navalnews.com/naval-news/2026/03/strikemaster-to-remain-in-europe-following-strong-international-interest/",
+      "published": "Tue, 17 Mar 2026 11:12:58 +0000",
+      "source": "Naval News",
       "categories": [
         "conflict"
       ]
@@ -915,11 +915,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 20,
-    "conflict_articles": 6,
+    "deployment_articles": 18,
+    "conflict_articles": 5,
     "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-03-17T17:54:37.691125+00:00",
+    "computed_at": "2026-03-17T18:43:09.199666+00:00",
     "manual_override": "DEFCON_1",
     "breaking_events": [
       "12 US personnel confirmed KIA in operations against Iran (Mar 4 total)",
