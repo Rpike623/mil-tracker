@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-03-17T12:38:36Z",
-  "version": 433,
+  "generated_utc": "2026-03-17T14:10:15Z",
+  "version": 434,
   "breaking_alert": "DAY 5: 12 US KIA TOTAL IN IRAN CONFLICT — ISRAELI F-35 DOWNS IRANIAN YAK-130 OVER TEHRAN",
   "naval_deployments": [
     {
@@ -603,15 +603,6 @@
       ]
     },
     {
-      "title": "PrSM Increment 2 Takes Flight and Advances Army’s Moving-Target and Maritime Capability",
-      "link": "https://www.navalnews.com/naval-news/2026/03/prsm-increment-2-takes-flight-and-advances-armys-moving-target-and-maritime-capability/",
-      "published": "Fri, 13 Mar 2026 13:29:08 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Destroyer USS Mustin to Replace Cruiser USS Robert Smalls in Japan",
       "link": "https://news.usni.org/2026/03/13/destroyer-uss-mustin-to-replace-cruiser-uss-robert-smalls-in-japan",
       "published": "Fri, 13 Mar 2026 17:26:43 +0000",
@@ -683,6 +674,15 @@
       "categories": [
         "deployment",
         "conflict"
+      ]
+    },
+    {
+      "title": "Navy says USS Nimitz will put off retirement and stay in service into next year",
+      "link": "https://taskandpurpose.com/news/navy-nimitz-extension/",
+      "published": "Mon, 16 Mar 2026 16:56:31 -0400",
+      "source": "Task & Purpose",
+      "categories": [
+        "deployment"
       ]
     }
   ],
@@ -897,15 +897,6 @@
       ]
     },
     {
-      "title": "U.S. Forces, Partner Nations Defend Against Maritime Drones in Exercise Cobra Gold",
-      "link": "https://news.usni.org/2026/03/12/u-s-forces-partner-nations-defend-against-maritime-drones-in-exercise-cobra-gold",
-      "published": "Thu, 12 Mar 2026 18:25:46 +0000",
-      "source": "USNI News",
-      "categories": [
-        "exercise"
-      ]
-    },
-    {
       "title": "NATO Navies Need Data Mastery for Battlespace Domination",
       "link": "https://www.navalnews.com/naval-news/2026/03/nato-navies-need-data-mastery-for-battlespace-domination/",
       "published": "Tue, 17 Mar 2026 09:33:17 +0000",
@@ -913,14 +904,23 @@
       "categories": [
         "exercise"
       ]
+    },
+    {
+      "title": "Pentagon’s Director, Operational Test & Evaluation 2025 Annual Report",
+      "link": "https://news.usni.org/2026/03/17/pentagons-director-operational-test-evaluation-2025-annual-report",
+      "published": "Tue, 17 Mar 2026 13:58:20 +0000",
+      "source": "USNI News",
+      "categories": [
+        "exercise"
+      ]
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 22,
+    "deployment_articles": 21,
     "conflict_articles": 8,
     "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-03-17T12:38:36.239503+00:00",
+    "computed_at": "2026-03-17T14:10:14.630878+00:00",
     "manual_override": "DEFCON_1",
     "breaking_events": [
       "12 US personnel confirmed KIA in operations against Iran (Mar 4 total)",
