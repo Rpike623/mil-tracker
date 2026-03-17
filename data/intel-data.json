@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-03-17T14:10:15Z",
-  "version": 434,
+  "generated_utc": "2026-03-17T15:51:53Z",
+  "version": 435,
   "breaking_alert": "DAY 5: 12 US KIA TOTAL IN IRAN CONFLICT — ISRAELI F-35 DOWNS IRANIAN YAK-130 OVER TEHRAN",
   "naval_deployments": [
     {
@@ -667,22 +667,22 @@
       ]
     },
     {
-      "title": "‘Radiant’ mother from Kentucky was among 6 US service members killed in air crash in Iraq",
-      "link": "https://www.militarytimes.com/news/your-military/2026/03/16/radiant-mother-from-kentucky-was-among-6-us-service-members-killed-in-air-crash-in-iraq/",
-      "published": "Mon, 16 Mar 2026 16:00:55 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
       "title": "Navy says USS Nimitz will put off retirement and stay in service into next year",
       "link": "https://taskandpurpose.com/news/navy-nimitz-extension/",
       "published": "Mon, 16 Mar 2026 16:56:31 -0400",
       "source": "Task & Purpose",
       "categories": [
         "deployment"
+      ]
+    },
+    {
+      "title": "Iran missile strike damages five KC-135 tankers in Saudi Arabia, officials say",
+      "link": "https://www.defensenews.com/news/your-military/2026/03/16/iran-missile-strike-damages-five-kc-135-tankers-in-saudi-arabia-officials-say/",
+      "published": "Mon, 16 Mar 2026 17:11:39 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment",
+        "conflict"
       ]
     }
   ],
@@ -866,10 +866,10 @@
       ]
     },
     {
-      "title": "‘Radiant’ mother from Kentucky was among 6 US service members killed in air crash in Iraq",
-      "link": "https://www.militarytimes.com/news/your-military/2026/03/16/radiant-mother-from-kentucky-was-among-6-us-service-members-killed-in-air-crash-in-iraq/",
-      "published": "Mon, 16 Mar 2026 16:00:55 +0000",
-      "source": "Military Times",
+      "title": "Iran missile strike damages five KC-135 tankers in Saudi Arabia, officials say",
+      "link": "https://www.defensenews.com/news/your-military/2026/03/16/iran-missile-strike-damages-five-kc-135-tankers-in-saudi-arabia-officials-say/",
+      "published": "Mon, 16 Mar 2026 17:11:39 +0000",
+      "source": "Defense News",
       "categories": [
         "deployment",
         "conflict"
@@ -877,9 +877,9 @@
     },
     {
       "title": "Iran missile strike damages five KC-135 tankers in Saudi Arabia, officials say",
-      "link": "https://www.defensenews.com/news/your-military/2026/03/16/iran-missile-strike-damages-five-kc-135-tankers-in-saudi-arabia-officials-say/",
+      "link": "https://www.militarytimes.com/news/your-military/2026/03/16/iran-missile-strike-damages-five-kc-135-tankers-in-saudi-arabia-officials-say/",
       "published": "Mon, 16 Mar 2026 17:11:39 +0000",
-      "source": "Defense News",
+      "source": "Military Times",
       "categories": [
         "deployment",
         "conflict"
@@ -917,10 +917,10 @@
   ],
   "_threat_indicators": {
     "deployment_articles": 21,
-    "conflict_articles": 8,
+    "conflict_articles": 7,
     "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-03-17T14:10:14.630878+00:00",
+    "computed_at": "2026-03-17T15:51:53.243703+00:00",
     "manual_override": "DEFCON_1",
     "breaking_events": [
       "12 US personnel confirmed KIA in operations against Iran (Mar 4 total)",
