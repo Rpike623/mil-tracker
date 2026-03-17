@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-03-17T21:25:21Z",
-  "version": 441,
+  "generated_utc": "2026-03-17T22:20:41Z",
+  "version": 442,
   "breaking_alert": "DAY 5: 12 US KIA TOTAL IN IRAN CONFLICT — ISRAELI F-35 DOWNS IRANIAN YAK-130 OVER TEHRAN",
   "naval_deployments": [
     {
@@ -603,15 +603,6 @@
       ]
     },
     {
-      "title": "Marine Expeditionary Unit Ordered to the Middle East",
-      "link": "https://www.navalnews.com/naval-news/2026/03/marine-expeditionary-unit-ordered-to-the-middle-east/",
-      "published": "Fri, 13 Mar 2026 21:57:44 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Red Sea Crisis Reinforced Need to be Ready at Sea, say Western Navy Chiefs",
       "link": "https://www.navalnews.com/naval-news/2026/03/red-sea-crisis-reinforced-need-to-be-ready-at-sea-say-western-navy-chiefs/",
       "published": "Mon, 16 Mar 2026 09:30:15 +0000",
@@ -681,6 +672,15 @@
       "link": "https://www.defensenews.com/news/your-navy/2026/03/16/the-us-has-several-options-to-counter-iranian-mines-these-are-some-key-assets/",
       "published": "Mon, 16 Mar 2026 22:43:26 +0000",
       "source": "Defense News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Navy F-18 that got the US’s first air-to-air kill in the 21st century is taking part in the Iran War",
+      "link": "https://taskandpurpose.com/news/navy-fa18-syria-iran/",
+      "published": "Sat, 14 Mar 2026 18:07:02 -0400",
+      "source": "Task & Purpose",
       "categories": [
         "deployment"
       ]
@@ -919,7 +919,7 @@
     "conflict_articles": 6,
     "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-03-17T21:25:20.593241+00:00",
+    "computed_at": "2026-03-17T22:20:41.077250+00:00",
     "manual_override": "DEFCON_1",
     "breaking_events": [
       "12 US personnel confirmed KIA in operations against Iran (Mar 4 total)",
