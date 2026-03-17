@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-03-17T18:43:09Z",
-  "version": 438,
+  "generated_utc": "2026-03-17T19:46:06Z",
+  "version": 439,
   "breaking_alert": "DAY 5: 12 US KIA TOTAL IN IRAN CONFLICT — ISRAELI F-35 DOWNS IRANIAN YAK-130 OVER TEHRAN",
   "naval_deployments": [
     {
@@ -603,15 +603,6 @@
       ]
     },
     {
-      "title": "Report to Congress on the Iran Conflict and Strait of Hormuz",
-      "link": "https://news.usni.org/2026/03/13/report-to-congress-on-the-iran-conflict-and-strait-of-hormuz",
-      "published": "Fri, 13 Mar 2026 17:45:22 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "USS Tripoli, 31st MEU Heading to the Middle East",
       "link": "https://news.usni.org/2026/03/13/uss-tripoli-31st-meu-heading-to-the-middle-east",
       "published": "Fri, 13 Mar 2026 19:18:36 +0000",
@@ -681,6 +672,15 @@
       "link": "https://www.defensenews.com/global/asia-pacific/2026/03/16/two-india-carriers-secure-safe-passage-through-strait-of-hormuz/",
       "published": "Mon, 16 Mar 2026 18:11:09 +0000",
       "source": "Defense News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "USNI News Fleet and Marine Tracker: March 16, 2026",
+      "link": "https://news.usni.org/2026/03/16/usni-news-fleet-and-marine-tracker-march-16-2026",
+      "published": "Mon, 16 Mar 2026 19:43:18 +0000",
+      "source": "USNI News",
       "categories": [
         "deployment"
       ]
@@ -916,10 +916,10 @@
   ],
   "_threat_indicators": {
     "deployment_articles": 18,
-    "conflict_articles": 5,
+    "conflict_articles": 6,
     "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-03-17T18:43:09.199666+00:00",
+    "computed_at": "2026-03-17T19:46:06.174634+00:00",
     "manual_override": "DEFCON_1",
     "breaking_events": [
       "12 US personnel confirmed KIA in operations against Iran (Mar 4 total)",
