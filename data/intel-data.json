@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-03-17T08:37:06Z",
-  "version": 429,
+  "generated_utc": "2026-03-17T09:42:15Z",
+  "version": 430,
   "breaking_alert": "DAY 5: 12 US KIA TOTAL IN IRAN CONFLICT — ISRAELI F-35 DOWNS IRANIAN YAK-130 OVER TEHRAN",
   "naval_deployments": [
     {
@@ -594,15 +594,6 @@
   ],
   "_naval_news_refs": [
     {
-      "title": "Myanmar Commissions Largest Domestically Built Frigate",
-      "link": "https://www.navalnews.com/naval-news/2026/03/myanmar-commissions-largest-domestically-built-frigate/",
-      "published": "Fri, 13 Mar 2026 09:28:56 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "All 6 crew members of US KC-135 tanker confirmed dead after crash in Iraq",
       "link": "https://taskandpurpose.com/news/military-kc-135-iraq/",
       "published": "Fri, 13 Mar 2026 10:32:08 -0400",
@@ -682,6 +673,16 @@
       "source": "USNI News",
       "categories": [
         "deployment"
+      ]
+    },
+    {
+      "title": "‘Radiant’ mother from Kentucky was among 6 US service members killed in air crash in Iraq",
+      "link": "https://www.militarytimes.com/news/your-military/2026/03/16/radiant-mother-from-kentucky-was-among-6-us-service-members-killed-in-air-crash-in-iraq/",
+      "published": "Mon, 16 Mar 2026 16:00:55 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment",
+        "conflict"
       ]
     }
   ],
@@ -903,14 +904,23 @@
       "categories": [
         "exercise"
       ]
+    },
+    {
+      "title": "NATO Navies Need Data Mastery for Battlespace Domination",
+      "link": "https://www.navalnews.com/naval-news/2026/03/nato-navies-need-data-mastery-for-battlespace-domination/",
+      "published": "Tue, 17 Mar 2026 09:33:17 +0000",
+      "source": "Naval News",
+      "categories": [
+        "exercise"
+      ]
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 22,
+    "deployment_articles": 21,
     "conflict_articles": 7,
-    "exercise_articles": 2,
+    "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-03-17T08:37:05.481120+00:00",
+    "computed_at": "2026-03-17T09:42:14.744932+00:00",
     "manual_override": "DEFCON_1",
     "breaking_events": [
       "12 US personnel confirmed KIA in operations against Iran (Mar 4 total)",
