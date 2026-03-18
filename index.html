@@ -983,6 +983,7 @@ body{animation:war-pulse 8s ease-in-out infinite}
   <button class="tb-btn" id="btn-exercises" onclick="toggleExercises()">🎯 Exercises</button>
   <button class="tb-btn" id="btn-conflicts" onclick="toggleConflicts()">⚔️ Conflicts</button>
   <button class="tb-btn on" id="btn-strikes" onclick="toggleStrikes()" style="background:rgba(239,68,68,.1);border-color:rgba(239,68,68,.3);color:#ef4444">💥 Strikes</button>
+  <button class="tb-btn" id="btn-firms" onclick="toggleFIRMS()" style="background:rgba(249,115,22,.08);border-color:rgba(249,115,22,.2);color:#f97316">🔥 FIRMS</button>
   <button class="tb-btn on" id="btn-protests" onclick="toggleProtests()" style="background:rgba(167,139,250,.1);border-color:rgba(167,139,250,.3);color:#a78bfa">✊ Protests</button>
   <button class="tb-btn on" id="btn-naval" onclick="toggleNavalLayer()">🚢 Naval</button>
   <button class="tb-btn" id="btn-terminator" onclick="toggleTerminator()">🌗 Day/Night</button>
@@ -1040,6 +1041,7 @@ body{animation:war-pulse 8s ease-in-out infinite}
         <button class="tb-btn" id="mob-btn-gpsjam" onclick="toggleGPSJam()">📡 GPS Jam</button>
         <button class="tb-btn" id="mob-btn-exercises" onclick="toggleExercises()">🎯 Exercises</button>
         <button class="tb-btn" id="mob-btn-conflicts" onclick="toggleConflicts()">⚔️ Conflicts</button>
+        <button class="tb-btn" id="mob-btn-firms" onclick="toggleFIRMS()">🔥 FIRMS</button>
         <button class="tb-btn on" id="mob-btn-naval" onclick="toggleNavalLayer()">🚢 Naval</button>
         <button class="tb-btn" id="mob-btn-terminator" onclick="toggleTerminator()">🌗 Day/Night</button>
         <button class="tb-btn" id="mob-btn-paths" onclick="toggleFlightPaths()">➤ Paths</button>
@@ -1122,6 +1124,10 @@ body{animation:war-pulse 8s ease-in-out infinite}
   <div class="sb-cell" title="Iran internet">
     <span class="sb-label">IRAN NET</span>
     <span class="sb-value alert" style="color:#ef4444">BLACKOUT</span>
+  </div>
+  <div class="sb-cell" title="NASA FIRMS satellite thermal hotspots" onclick="toggleFIRMS()" style="cursor:pointer">
+    <span class="sb-label">🔥 FIRMS</span>
+    <span class="sb-value" id="firms-count" style="color:#f97316">OFF</span>
   </div>
   <div class="sb-spacer"></div>
   <div class="sb-cell" title="UN Security Council meeting" style="padding:0 14px">
@@ -2370,7 +2376,7 @@ function toggleMobDrawer(){
   if(!d) return;
   d.classList.toggle('open');
   // Sync overlay button states into drawer buttons
-  ['bases','missiles','nuclear','airdef','quakes','notams','gpsjam','exercises','conflicts','naval','terminator','paths','nuke'].forEach(id=>{
+  ['bases','missiles','nuclear','airdef','quakes','notams','gpsjam','exercises','conflicts','firms','naval','terminator','paths','nuke'].forEach(id=>{
     const src=document.getElementById('btn-'+id);
     const dst=document.getElementById('mob-btn-'+id);
     if(src&&dst) dst.className=src.className.replace('btn-'+id,'mob-btn-'+id);
@@ -6732,4 +6738,290 @@ alertsContainer.style.cssText = `
   pointer-events: none;
 `;
 document.body.appendChild(alertsContainer);
+
+// ════════════════════════════════════════
+// NASA FIRMS — SATELLITE THERMAL ANOMALY LAYER
+// Live fire/strike detection via VIIRS satellite data
+// Source: https://firms.modaps.eosdis.nasa.gov
+// ════════════════════════════════════════
+const FIRMS_MAP_KEY = 'd90d258be6f663ce1cffb67bb9d374f4';
+let firmsLayer = L.layerGroup();
+let firmsVisible = false;
+let firmsData = [];
+let firmsFetching = false;
+let firmsLastFetch = 0;
+
+// Conflict-zone bounding boxes [west, south, east, north, label]
+const FIRMS_ZONES = [
+  [44, 25, 63, 40, 'Iran/Iraq/Persian Gulf'],
+  [22, 44, 40, 52, 'Ukraine/Black Sea'],
+  [34, 29, 36, 33, 'Gaza/Israel/Lebanon'],
+  [33, 33, 37, 35, 'Lebanon/Syria Border'],
+  [35, 33, 42, 37, 'Syria/Iraq'],
+  [42, 12, 46, 16, 'Yemen/Red Sea'],
+];
+
+// Known military/industrial sites for proximity scoring
+const FIRMS_MIL_SITES = [
+  // Iran nuclear & military
+  {lat:35.694, lon:51.422, name:'Tehran – Khamenei Compound', r:5},
+  {lat:35.519, lon:51.767, name:'Parchin Military Complex', r:8},
+  {lat:32.625, lon:51.671, name:'Isfahan Nuclear Facility', r:6},
+  {lat:34.64,  lon:50.88,  name:'Fordow Enrichment', r:5},
+  {lat:35.83,  lon:51.01,  name:'Karaj Centrifuge Plant', r:5},
+  {lat:34.32,  lon:47.07,  name:'Kermanshah IRGC HQ', r:5},
+  {lat:27.19,  lon:56.27,  name:'Bandar Abbas Naval Base', r:6},
+  {lat:38.13,  lon:46.24,  name:'Tabriz Air Base', r:5},
+  {lat:27.18,  lon:56.37,  name:'Konarak Naval Base', r:5},
+  // Iraq/Syria US bases
+  {lat:33.42,  lon:43.57,  name:'Ain al-Assad AB', r:8},
+  {lat:33.93,  lon:44.36,  name:'Balad AB (Iraq)', r:6},
+  {lat:36.94,  lon:42.06,  name:'Erbil AB', r:5},
+  // Ukraine frontline
+  {lat:48.02,  lon:37.80,  name:'Donetsk', r:15},
+  {lat:47.10,  lon:37.55,  name:'Mariupol', r:10},
+  {lat:46.64,  lon:32.62,  name:'Kherson', r:10},
+  {lat:49.99,  lon:36.23,  name:'Kharkiv', r:12},
+  {lat:48.45,  lon:35.05,  name:'Dnipro', r:8},
+  {lat:44.95,  lon:34.10,  name:'Crimea – Sevastopol', r:10},
+  // Gaza/Lebanon
+  {lat:31.42,  lon:34.35,  name:'Gaza City', r:8},
+  {lat:31.30,  lon:34.25,  name:'Khan Younis', r:6},
+  {lat:31.23,  lon:34.20,  name:'Rafah', r:5},
+  {lat:33.87,  lon:35.51,  name:'Beirut', r:6},
+  {lat:33.27,  lon:35.20,  name:'South Lebanon / Naqoura', r:8},
+  // Yemen / Houthi
+  {lat:15.35,  lon:44.21,  name:'Sana\'a', r:10},
+  {lat:14.80,  lon:42.95,  name:'Hodeidah Port', r:8},
+];
+
+// Haversine distance in km
+function firmsDistKm(lat1,lon1,lat2,lon2){
+  const R=6371, dLat=(lat2-lat1)*Math.PI/180, dLon=(lon2-lon1)*Math.PI/180;
+  const a=Math.sin(dLat/2)**2+Math.cos(lat1*Math.PI/180)*Math.cos(lat2*Math.PI/180)*Math.sin(dLon/2)**2;
+  return R*2*Math.atan2(Math.sqrt(a),Math.sqrt(1-a));
+}
+
+// Score a hotspot: higher = more likely military/strike
+function firmsMilScore(pt){
+  let score = 0;
+  // FRP scoring — higher = more energetic = more likely explosion/industrial
+  if(pt.frp >= 50) score += 40;
+  else if(pt.frp >= 20) score += 25;
+  else if(pt.frp >= 10) score += 15;
+  else if(pt.frp >= 5) score += 5;
+
+  // Brightness temperature scoring
+  if(pt.bright >= 360) score += 20;
+  else if(pt.bright >= 345) score += 10;
+  else if(pt.bright >= 335) score += 5;
+
+  // Nighttime detections in conflict zones = more suspicious
+  if(pt.daynight === 'N') score += 10;
+
+  // High confidence from VIIRS
+  if(pt.confidence === 'h') score += 15;
+  else if(pt.confidence === 'n') score += 5;
+
+  // Proximity to known military sites
+  let nearestDist = Infinity, nearestSite = null;
+  for(const site of FIRMS_MIL_SITES){
+    const d = firmsDistKm(pt.lat, pt.lon, site.lat, site.lon);
+    if(d < nearestDist){ nearestDist = d; nearestSite = site; }
+    if(d <= site.r) score += 30; // within expected blast/fire radius
+    else if(d <= site.r * 2) score += 15;
+    else if(d <= site.r * 4) score += 5;
+  }
+  pt._nearestSite = nearestSite;
+  pt._nearestDist = nearestDist;
+  return score;
+}
+
+async function fetchFIRMS(){
+  if(firmsFetching) return;
+  firmsFetching = true;
+  firmsData = [];
+  const sources = ['VIIRS_SNPP_NRT', 'VIIRS_NOAA20_NRT'];
+
+  for(const zone of FIRMS_ZONES){
+    const [w,s,e,n,label] = zone;
+    for(const src of sources){
+      try{
+        const url = `https://firms.modaps.eosdis.nasa.gov/api/area/csv/${FIRMS_MAP_KEY}/${src}/${w},${s},${e},${n}/1`;
+        const resp = await fetch(url, {signal: AbortSignal.timeout(15000)});
+        if(!resp.ok) continue;
+        const text = await resp.text();
+        const lines = text.trim().split('\n');
+        if(lines.length < 2) continue;
+        const hdr = lines[0].split(',');
+        const iLat=hdr.indexOf('latitude'), iLon=hdr.indexOf('longitude');
+        const iBright=hdr.indexOf('bright_ti4'), iFRP=hdr.indexOf('frp');
+        const iConf=hdr.indexOf('confidence'), iDN=hdr.indexOf('daynight');
+        const iDate=hdr.indexOf('acq_date'), iTime=hdr.indexOf('acq_time');
+        const iSat=hdr.indexOf('satellite');
+
+        for(let i=1; i<lines.length; i++){
+          const c = lines[i].split(',');
+          if(c.length < 10) continue;
+          firmsData.push({
+            lat: parseFloat(c[iLat]),
+            lon: parseFloat(c[iLon]),
+            bright: parseFloat(c[iBright]),
+            frp: parseFloat(c[iFRP]),
+            confidence: c[iConf],
+            daynight: c[iDN],
+            date: c[iDate],
+            time: c[iTime],
+            sat: c[iSat],
+            zone: label,
+            src: src.replace('_NRT','')
+          });
+        }
+      }catch(e){ console.warn('FIRMS fetch fail', zone[4], e.message); }
+    }
+  }
+
+  // Deduplicate (same lat/lon within 0.005°)
+  const seen = new Set();
+  firmsData = firmsData.filter(p => {
+    const key = `${p.lat.toFixed(3)},${p.lon.toFixed(3)}`;
+    if(seen.has(key)) return false;
+    seen.add(key);
+    return true;
+  });
+
+  // Score each point
+  firmsData.forEach(p => { p.score = firmsMilScore(p); });
+  firmsData.sort((a,b) => b.score - a.score);
+
+  firmsLastFetch = Date.now();
+  firmsFetching = false;
+  console.log(`🔥 FIRMS: ${firmsData.length} hotspots loaded, ${firmsData.filter(p=>p.score>=30).length} high-confidence military anomalies`);
+  if(firmsVisible) renderFIRMS();
+}
+
+function renderFIRMS(){
+  firmsLayer.clearLayers();
+  if(!firmsVisible || !firmsData.length) return;
+
+  const highConf = firmsData.filter(p => p.score >= 30);
+  const medConf = firmsData.filter(p => p.score >= 10 && p.score < 30);
+  const lowConf = firmsData.filter(p => p.score < 10);
+
+  // Low-confidence: small amber dots
+  lowConf.forEach(p => {
+    const circle = L.circleMarker([p.lat, p.lon], {
+      radius: 3, fillColor: '#f59e0b', fillOpacity: 0.35,
+      color: '#f59e0b', weight: 0.5, opacity: 0.4
+    });
+    circle.bindTooltip(`🔥 Thermal Anomaly<br>FRP: ${p.frp.toFixed(1)} MW · ${p.confidence.toUpperCase()} conf<br>${p.bright.toFixed(0)}K · ${p.daynight==='N'?'🌙 Night':'☀️ Day'}<br><span style="color:var(--muted)">${p.zone} · ${p.src}</span>`, {className:'dark-tooltip', direction:'top'});
+    firmsLayer.addLayer(circle);
+  });
+
+  // Medium-confidence: orange circles
+  medConf.forEach(p => {
+    const circle = L.circleMarker([p.lat, p.lon], {
+      radius: 5, fillColor: '#f97316', fillOpacity: 0.5,
+      color: '#f97316', weight: 1, opacity: 0.6
+    });
+    const nearInfo = p._nearestSite ? `<br>📍 ${p._nearestDist.toFixed(1)}km from ${p._nearestSite.name}` : '';
+    circle.bindTooltip(`🔥 Elevated Thermal (Score: ${p.score})<br>FRP: ${p.frp.toFixed(1)} MW · ${p.confidence.toUpperCase()} conf<br>${p.bright.toFixed(0)}K · ${p.daynight==='N'?'🌙 Night':'☀️ Day'}${nearInfo}<br><span style="color:var(--muted)">${p.zone} · ${p.src}</span>`, {className:'dark-tooltip', direction:'top'});
+    firmsLayer.addLayer(circle);
+  });
+
+  // High-confidence: pulsing red/orange with military tag
+  highConf.forEach(p => {
+    const isHot = p.score >= 50;
+    const col = isHot ? '#ef4444' : '#f97316';
+    const sz = isHot ? 8 : 6;
+
+    const marker = L.marker([p.lat, p.lon], {
+      icon: L.divIcon({
+        html:`<div style="position:relative">
+          <div style="width:${sz}px;height:${sz}px;background:${col};border-radius:50%;box-shadow:0 0 8px ${col},0 0 16px ${col}60;position:relative;z-index:2"></div>
+          <div style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:${sz*3}px;height:${sz*3}px;border-radius:50%;border:1.5px solid ${col};opacity:0.3;animation:firms-pulse 2s ease-out infinite"></div>
+          ${isHot ? `<div style="position:absolute;top:-14px;left:50%;transform:translateX(-50%);font-size:10px;white-space:nowrap;color:${col};font-family:'Share Tech Mono',monospace;font-weight:700;text-shadow:0 0 6px rgba(0,0,0,.9)">⚠ STRIKE?</div>` : ''}
+        </div>`,
+        className:'', iconSize:[sz,sz], iconAnchor:[sz/2,sz/2]
+      })
+    });
+
+    const nearInfo = p._nearestSite ? `<br>📍 <b>${p._nearestDist.toFixed(1)}km</b> from <b>${p._nearestSite.name}</b>` : '';
+    const scoreBar = `<div style="margin-top:4px;height:4px;background:rgba(255,255,255,.1);border-radius:2px;overflow:hidden"><div style="height:100%;width:${Math.min(p.score,100)}%;background:linear-gradient(90deg,#f97316,#ef4444);border-radius:2px"></div></div>`;
+
+    marker.bindTooltip(`
+      <div style="min-width:180px">
+        <div style="font-weight:700;color:${col};margin-bottom:4px">🔥 HIGH-CONFIDENCE ANOMALY</div>
+        <div>Score: <b>${p.score}</b>/100</div>
+        ${scoreBar}
+        <div style="margin-top:4px">FRP: <b>${p.frp.toFixed(1)} MW</b> · Brightness: <b>${p.bright.toFixed(0)}K</b></div>
+        <div>Confidence: <b>${p.confidence.toUpperCase()}</b> · ${p.daynight==='N'?'🌙 Nighttime':'☀️ Daytime'}</div>
+        <div>Time: ${p.date} ${p.time} UTC</div>
+        ${nearInfo}
+        <div style="margin-top:4px;color:var(--muted);font-size:9px">${p.zone} · ${p.src} satellite</div>
+      </div>
+    `, {className:'dark-tooltip', direction:'top', offset:[0,-12]});
+
+    marker.on('click', () => {
+      document.getElementById('pTitle').textContent = `🔥 Thermal Anomaly — Score ${p.score}`;
+      document.getElementById('pBody').innerHTML = `
+        <div style="margin-bottom:8px;display:flex;gap:4px;flex-wrap:wrap">
+          <span style="font-size:10px;padding:2px 8px;border-radius:3px;font-weight:700;font-family:'Share Tech Mono',monospace;background:${col}15;color:${col};border:1px solid ${col}40">${isHot ? 'PROBABLE STRIKE' : 'ELEVATED THERMAL'}</span>
+          <span style="font-size:10px;padding:2px 8px;border-radius:3px;font-weight:700;font-family:'Share Tech Mono',monospace;background:rgba(56,189,248,.06);color:var(--accent);border:1px solid rgba(56,189,248,.2)">${p.date} ${p.time} UTC</span>
+        </div>
+        <div class="f"><span class="k">Fire Radiative Power: </span><span class="v">${p.frp.toFixed(1)} MW</span></div>
+        <div class="f"><span class="k">Brightness Temp: </span><span class="v">${p.bright.toFixed(0)}K</span></div>
+        <div class="f"><span class="k">Confidence: </span><span class="v">${p.confidence.toUpperCase()}</span></div>
+        <div class="f"><span class="k">Day/Night: </span><span class="v">${p.daynight==='N'?'🌙 Night':'☀️ Day'}</span></div>
+        <div class="f"><span class="k">Satellite: </span><span class="v">${p.src}</span></div>
+        <div class="f"><span class="k">Zone: </span><span class="v">${p.zone}</span></div>
+        ${p._nearestSite ? `<div class="f"><span class="k">Nearest Mil Site: </span><span class="v" style="color:${col}">${p._nearestSite.name} (${p._nearestDist.toFixed(1)} km)</span></div>` : ''}
+        ${scoreBar}
+        <div style="margin-top:8px;font-size:9px;color:var(--muted);font-family:'Share Tech Mono',monospace">SOURCE: NASA FIRMS VIIRS · NEAR REAL-TIME (3hr delay)</div>
+      `;
+      document.getElementById('infoP').classList.add('vis');
+    });
+
+    firmsLayer.addLayer(marker);
+  });
+
+  // Update status bar counter
+  const countEl = document.getElementById('firms-count');
+  if(countEl) countEl.textContent = `${highConf.length} mil / ${firmsData.length} total`;
+}
+
+function toggleFIRMS(){
+  firmsVisible = !firmsVisible;
+  const btn = document.getElementById('btn-firms');
+  const mobBtn = document.getElementById('mob-btn-firms');
+  if(firmsVisible){
+    btn && btn.classList.add('on');
+    mobBtn && mobBtn.classList.add('on');
+    firmsLayer.addTo(map);
+    if(Date.now() - firmsLastFetch > 600000) fetchFIRMS();
+    else renderFIRMS();
+  } else {
+    btn && btn.classList.remove('on');
+    mobBtn && mobBtn.classList.remove('on');
+    map.removeLayer(firmsLayer);
+    const countEl = document.getElementById('firms-count');
+    if(countEl) countEl.textContent = 'OFF';
+  }
+}
+
+// FIRMS pulse animation
+if(!document.getElementById('firms-anim-style')){
+  const fs = document.createElement('style');
+  fs.id = 'firms-anim-style';
+  fs.textContent = `@keyframes firms-pulse{0%{transform:translate(-50%,-50%) scale(0.5);opacity:0.4}100%{transform:translate(-50%,-50%) scale(2.5);opacity:0}}`;
+  document.head.appendChild(fs);
+}
+
+// Auto-refresh FIRMS when visible (every 3 min check, 10 min stale threshold)
+setInterval(() => {
+  if(firmsVisible && Date.now() - firmsLastFetch > 600000) fetchFIRMS();
+}, 180000);
+
+console.log('🔥 NASA FIRMS satellite thermal anomaly layer loaded');
+
 </script>
