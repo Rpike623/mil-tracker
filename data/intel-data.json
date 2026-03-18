@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-03-18T15:58:29Z",
-  "version": 455,
+  "generated_utc": "2026-03-18T16:56:12Z",
+  "version": 456,
   "breaking_alert": "DAY 5: 12 US KIA TOTAL IN IRAN CONFLICT — ISRAELI F-35 DOWNS IRANIAN YAK-130 OVER TEHRAN",
   "naval_deployments": [
     {
@@ -622,16 +622,6 @@
       ]
     },
     {
-      "title": "Iran missile strike damages five KC-135 tankers in Saudi Arabia, officials say",
-      "link": "https://www.defensenews.com/news/your-military/2026/03/16/iran-missile-strike-damages-five-kc-135-tankers-in-saudi-arabia-officials-say/",
-      "published": "Mon, 16 Mar 2026 17:11:39 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
       "title": "Two India carriers secure safe passage through Strait of Hormuz",
       "link": "https://www.defensenews.com/global/asia-pacific/2026/03/16/two-india-carriers-secure-safe-passage-through-strait-of-hormuz/",
       "published": "Mon, 16 Mar 2026 18:11:09 +0000",
@@ -681,6 +671,15 @@
       "link": "https://taskandpurpose.com/news/us-troops-iran-200-wounded/",
       "published": "Tue, 17 Mar 2026 08:16:32 -0400",
       "source": "Task & Purpose",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Sailors aboard USS Gerald R. Ford reportedly lost their beds amid fire",
+      "link": "https://www.militarytimes.com/news/your-navy/2026/03/17/sailors-aboard-uss-gerald-r-ford-reportedly-lost-their-beds-amid-fire/",
+      "published": "Tue, 17 Mar 2026 15:56:15 +0000",
+      "source": "Military Times",
       "categories": [
         "deployment"
       ]
@@ -848,16 +847,6 @@
       ]
     },
     {
-      "title": "Iran missile strike damages five KC-135 tankers in Saudi Arabia, officials say",
-      "link": "https://www.defensenews.com/news/your-military/2026/03/16/iran-missile-strike-damages-five-kc-135-tankers-in-saudi-arabia-officials-say/",
-      "published": "Mon, 16 Mar 2026 17:11:39 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
       "title": "North Korea Fires 10 Missiles Over Sea of Japan in Latest Multiple Rocket Launcher System Test",
       "link": "https://news.usni.org/2026/03/16/north-korea-fires-10-missiles-over-sea-of-japan-in-latest-multiple-rocket-launcher-system-test",
       "published": "Mon, 16 Mar 2026 20:46:45 +0000",
@@ -883,18 +872,20 @@
       "categories": [
         "conflict"
       ]
+    },
+    {
+      "title": "Turkey deploys third NATO Patriot system to repel Iranian missiles",
+      "link": "https://www.defensenews.com/global/europe/2026/03/18/turkey-deploys-third-nato-patriot-system-to-repel-iranian-missiles/",
+      "published": "Wed, 18 Mar 2026 14:31:00 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment",
+        "exercise",
+        "conflict"
+      ]
     }
   ],
   "_exercise_news_refs": [
-    {
-      "title": "Operation Epic Fury’s Tomahawk Fires: An Open-Source Counter",
-      "link": "https://www.navalnews.com/naval-news/2026/03/operation-epic-furys-tomahawk-fires-an-open-source-counter/",
-      "published": "Mon, 16 Mar 2026 20:39:08 +0000",
-      "source": "Naval News",
-      "categories": [
-        "exercise"
-      ]
-    },
     {
       "title": "NATO Navies Need Data Mastery for Battlespace Domination",
       "link": "https://www.navalnews.com/naval-news/2026/03/nato-navies-need-data-mastery-for-battlespace-domination/",
@@ -926,11 +917,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 20,
-    "conflict_articles": 7,
-    "exercise_articles": 4,
+    "deployment_articles": 19,
+    "conflict_articles": 6,
+    "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-03-18T15:58:29.257559+00:00",
+    "computed_at": "2026-03-18T16:56:11.534568+00:00",
     "manual_override": "DEFCON_1",
     "breaking_events": [
       "12 US personnel confirmed KIA in operations against Iran (Mar 4 total)",
