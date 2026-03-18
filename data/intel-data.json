@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-03-18T12:39:27Z",
-  "version": 453,
+  "generated_utc": "2026-03-18T14:12:29Z",
+  "version": 454,
   "breaking_alert": "DAY 5: 12 US KIA TOTAL IN IRAN CONFLICT — ISRAELI F-35 DOWNS IRANIAN YAK-130 OVER TEHRAN",
   "naval_deployments": [
     {
@@ -603,15 +603,6 @@
       ]
     },
     {
-      "title": "Red Sea Crisis Reinforced Need to be Ready at Sea, say Western Navy Chiefs",
-      "link": "https://www.navalnews.com/naval-news/2026/03/red-sea-crisis-reinforced-need-to-be-ready-at-sea-say-western-navy-chiefs/",
-      "published": "Mon, 16 Mar 2026 09:30:15 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "These are the 6 airmen killed in the KC-135 crash in Iraq",
       "link": "https://taskandpurpose.com/news/pentagon-identifies-airmen-iraq-kc-135/",
       "published": "Mon, 16 Mar 2026 10:28:00 -0400",
@@ -681,6 +672,15 @@
       "link": "https://taskandpurpose.com/news/navy-fa18-syria-iran/",
       "published": "Sat, 14 Mar 2026 18:07:02 -0400",
       "source": "Task & Purpose",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Navy Extends USS Nimitz Service Life to 2027, in Line with Carrier John F. Kennedy’s Delivery",
+      "link": "https://news.usni.org/2026/03/14/navy-extends-uss-nimitz-service-life-to-2027-in-line-with-carrier-john-f-kennedys-delivery",
+      "published": "Sat, 14 Mar 2026 22:41:05 +0000",
+      "source": "USNI News",
       "categories": [
         "deployment"
       ]
@@ -838,15 +838,6 @@
   },
   "_conflict_news_refs": [
     {
-      "title": "Missile Attacks Define Strait of Hormuz Risks, Officials Say",
-      "link": "https://news.usni.org/2026/03/13/missile-attacks-define-strait-of-hormuz-risks-officials-say",
-      "published": "Fri, 13 Mar 2026 22:51:37 +0000",
-      "source": "USNI News",
-      "categories": [
-        "conflict"
-      ]
-    },
-    {
       "title": "These are the 6 airmen killed in the KC-135 crash in Iraq",
       "link": "https://taskandpurpose.com/news/pentagon-identifies-airmen-iraq-kc-135/",
       "published": "Mon, 16 Mar 2026 10:28:00 -0400",
@@ -883,6 +874,15 @@
       "categories": [
         "conflict"
       ]
+    },
+    {
+      "title": "Soldiers remember a leader killed in Kuwait as ‘surrogate dad’",
+      "link": "https://taskandpurpose.com/news/soldiers-scramble-to-attend-funeral/",
+      "published": "Tue, 17 Mar 2026 15:01:34 -0400",
+      "source": "Task & Purpose",
+      "categories": [
+        "conflict"
+      ]
     }
   ],
   "_exercise_news_refs": [
@@ -916,10 +916,10 @@
   ],
   "_threat_indicators": {
     "deployment_articles": 20,
-    "conflict_articles": 6,
+    "conflict_articles": 5,
     "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-03-18T12:39:27.407909+00:00",
+    "computed_at": "2026-03-18T14:12:28.584924+00:00",
     "manual_override": "DEFCON_1",
     "breaking_events": [
       "12 US personnel confirmed KIA in operations against Iran (Mar 4 total)",
