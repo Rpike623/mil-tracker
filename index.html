@@ -947,6 +947,25 @@ function updateMobTypeButtons(active){ document.querySelectorAll('[id^="mob-bt-"
   }
   makeHUD();
 
+  // ── Skip button ──────────────────────────────────────────────────────────
+  const skipBtn=document.createElement('div');
+  skipBtn.textContent='SKIP ▸';
+  skipBtn.style.cssText='position:absolute;bottom:20px;right:20px;z-index:200;font-family:Share Tech Mono,monospace;font-size:12px;letter-spacing:2px;color:rgba(255,255,255,.4);cursor:pointer;padding:8px 16px;border:1px solid rgba(255,255,255,.15);border-radius:3px;transition:all .2s;pointer-events:all';
+  skipBtn.onmouseenter=()=>{skipBtn.style.color='#fff';skipBtn.style.borderColor='rgba(255,255,255,.5)'};
+  skipBtn.onmouseleave=()=>{skipBtn.style.color='rgba(255,255,255,.4)';skipBtn.style.borderColor='rgba(255,255,255,.15)'};
+  function endBoot(){
+    cancelAnimationFrame(raf);
+    if(typeof radarRaf!=='undefined') cancelAnimationFrame(radarRaf);
+    screen.style.transition='opacity .4s';
+    screen.style.opacity='0';
+    setTimeout(()=>{ screen.remove(); if(AC) try{AC.close()}catch(_){} },450);
+  }
+  skipBtn.onclick=endBoot;
+  screen.appendChild(skipBtn);
+
+  // Hard failsafe — boot screen ALWAYS dies after 8s
+  setTimeout(()=>{ if(document.getElementById('bootScreen')) endBoot(); },8000);
+
   // ── Main render loop ─────────────────────────────────────────────────────
   let raf;
   // Impact flash state
@@ -1257,34 +1276,14 @@ function updateMobTypeButtons(active){ document.querySelectorAll('[id^="mob-bt-"
 
   // ── t=5400: TRANSITION to dashboard ──────────────────────────────────────
   setTimeout(()=>{
-    // Create locktext dynamically (no longer in static HTML)
-    let lockEl=document.getElementById('bs-locktext');
-    if(!lockEl){
-      lockEl=document.createElement('div');
-      lockEl.id='bs-locktext';
-      lockEl.className='flir-hud';
-      lockEl.style.cssText='position:absolute;bottom:52px;left:50%;transform:translateX(-50%);z-index:16;font-family:Orbitron,monospace;font-size:13px;letter-spacing:3px;color:#38bdf8;text-shadow:0 0 20px #38bdf8,0 0 40px rgba(56,189,248,.3);pointer-events:none';
-      screen.appendChild(lockEl);
-    }
-    lockEl.style.opacity='1';
+    // Create locktext dynamically
+    let lockEl=document.createElement('div');
+    lockEl.className='flir-hud';
+    lockEl.style.cssText='position:absolute;bottom:52px;left:50%;transform:translateX(-50%);z-index:16;font-family:Orbitron,monospace;font-size:13px;letter-spacing:3px;color:#38bdf8;text-shadow:0 0 20px #38bdf8,0 0 40px rgba(56,189,248,.3);pointer-events:none';
+    screen.appendChild(lockEl);
     scramble(lockEl,'SYSTEMS ONLINE — LAUNCHING DASHBOARD',450,()=>{
-      setTimeout(()=>{
-        cancelAnimationFrame(raf);
-        cancelAnimationFrame(radarRaf);
-        // Static burst wipe
-        sfxStatic(0.08,0.3);
-        const wipe=document.createElement('div');
-        wipe.style.cssText='position:absolute;inset:0;z-index:100;pointer-events:none;background:#fff;opacity:0;transition:opacity .06s';
-        screen.appendChild(wipe);
-        requestAnimationFrame(()=>{
-          wipe.style.opacity='0.9';
-          setTimeout(()=>{
-            screen.style.transition='opacity .6s';
-            screen.style.opacity='0';
-            setTimeout(()=>{ screen.remove(); if(AC) try{AC.close()}catch(_){} },650);
-          },220);
-        });
-      },600);
+      sfxStatic(0.08,0.3);
+      setTimeout(endBoot,600);
     });
   },5400);
 
@@ -4478,41 +4477,6 @@ render = function(){
 // AMBIENT MAP PARTICLES
 // ════════════════════════════════════════
 (function spawnParticles(){
-  const container = document.getElementById('mapParticles');
-  if(!container) return;
-  function spawn(){
-    const p = document.createElement('div');
-    p.className = 'map-particle';
-    p.style.left = Math.random()*100+'%';
-    p.style.bottom = '-4px';
-    p.style.animationDuration = (8 + Math.random()*12)+'s';
-    p.style.animationDelay = Math.random()*2+'s';
-    container.appendChild(p);
-    setTimeout(() => p.remove(), 22000);
-  }
-  setInterval(spawn, 800);
-  for(let j=0;j<6;j++) setTimeout(spawn, j*300);
-})();
-
-// ════════════════════════════════════════
-// LIVE HEARTBEAT INDICATOR
-// ════════════════════════════════════════
-let lastDataTime = Date.now();
-const origFetchData = fetchData;
-fetchData = async function(){
-  await origFetchData();
-  lastDataTime = Date.now();
-};
-setInterval(() => {
-  const el = document.getElementById('hb-time');
-  if(!el) return;
-  const ago = Math.round((Date.now()-lastDataTime)/1000);
-  el.textContent = ago < 5 ? 'just now' : ago+'s ago';
-}, 1000);
-</script>
-</body>
-</html>
-on spawnParticles(){
   const container = document.getElementById('mapParticles');
   if(!container) return;
   function spawn(){
