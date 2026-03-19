@@ -195,27 +195,43 @@
     .spectra-tip{background:rgba(10,18,32,.95)!important;color:var(--text)!important;border:1px solid rgba(255,255,255,.12)!important;border-radius:12px!important;padding:8px 10px!important;box-shadow:0 12px 24px rgba(0,0,0,.35)!important}
 
     @media (max-width: 1280px){
-      .layout{grid-template-columns:290px 1fr 360px}
+      .layout{grid-template-columns:280px minmax(0,1fr) 340px}
     }
-    @media (max-width: 1080px){
+    @media (max-width: 980px){
       body{overflow:auto}
-      .app{height:auto;min-height:100vh}
-      .layout{grid-template-columns:1fr;grid-template-rows:auto minmax(480px,62vh) auto}
-      .left-stack,.right-stack{height:auto}
-      .map-wrap{min-height:62vh}
+      .app{height:auto;min-height:100vh;grid-template-rows:auto auto}
+      .layout{
+        grid-template-columns:1fr 1fr;
+        grid-template-areas:
+          "map map"
+          "left right";
+        align-items:start;
+      }
+      .layout > .left-stack{grid-area:left;height:auto}
+      .layout > .panel{grid-area:map;min-height:68vh}
+      .layout > .right-stack{grid-area:right;height:auto}
+      .map-wrap{min-height:68vh}
       .toolbar{max-width:calc(100% - 28px)}
       .overlay-card{max-width:none}
     }
     @media (max-width: 720px){
-      .app{padding:10px;gap:10px;grid-template-rows:auto 1fr}
+      .app{padding:10px;gap:10px;grid-template-rows:auto auto}
+      .layout{
+        grid-template-columns:1fr;
+        grid-template-areas:
+          "map"
+          "left"
+          "right";
+      }
       .topbar{padding:12px;align-items:flex-start;flex-direction:column}
       .top-actions{width:100%;justify-content:flex-start}
       .stats-grid,.mini-grid{grid-template-columns:1fr}
       .map-top-overlay{flex-direction:column}
       .overlay-card{max-width:none}
-      .toolbar{position:static;padding:12px}
-      .map-wrap{display:flex;flex-direction:column}
-      #map{position:relative;min-height:52vh}
+      .toolbar{position:absolute;left:10px;right:10px;bottom:10px;padding:0;max-width:none}
+      .map-wrap{display:block;min-height:72vh}
+      #map{position:absolute;inset:0;min-height:0}
+      .left-stack,.right-stack{height:auto}
     }
   </style>
 <!-- LAST_UPDATE: 2026-03-19T01:03:41Z -->
