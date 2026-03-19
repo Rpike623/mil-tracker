@@ -566,30 +566,9 @@ body::after{
     <div style="flex-shrink:0;padding:6px 10px;background:rgba(10,14,24,.6);border-bottom:1px solid rgba(124,107,255,.1);font-size:10px;font-weight:700;letter-spacing:1px;color:rgba(255,255,255,.55);text-transform:uppercase;display:flex;align-items:center;gap:6px">🎲 <span style="flex:1">Prediction Pulse</span><span id="poly-updated" style="font-size:9px;color:var(--muted)"></span></div>
     <div style="flex:1;overflow-x:auto;overflow-y:hidden;display:flex;align-items:stretch" id="polyStrip"></div>
   </div>
-  <div style="width:280px;flex-shrink:0;border-right:1px solid rgba(124,107,255,.12);display:flex;flex-direction:column;overflow:hidden;position:relative" class="widget-scan-line">
-    <div style="flex-shrink:0;padding:6px 10px;background:rgba(10,14,24,.6);border-bottom:1px solid rgba(124,107,255,.1);font-size:10px;font-weight:700;letter-spacing:1px;color:rgba(255,255,255,.55);text-transform:uppercase;display:flex;align-items:center;gap:6px">🚀 <span style="flex:1">Launch Schedule</span><span id="launch-count" style="font-size:9px;color:var(--muted)"></span></div>
-    <div style="flex:1;overflow-y:auto;overflow-x:hidden" id="launchStrip"></div>
-  </div>
   <div style="width:220px;flex-shrink:0;border-right:1px solid rgba(124,107,255,.12);display:flex;flex-direction:column;overflow:hidden">
     <div style="flex-shrink:0;padding:6px 10px;background:rgba(10,14,24,.6);border-bottom:1px solid rgba(124,107,255,.1);font-size:10px;font-weight:700;letter-spacing:1px;color:rgba(255,255,255,.55);text-transform:uppercase;display:flex;align-items:center;gap:6px">💱 <span style="flex:1">FX Watch</span></div>
     <div style="flex:1;overflow-y:auto" id="currencyStrip"></div>
-  </div>
-  <div style="width:150px;flex-shrink:0;border-right:1px solid rgba(124,107,255,.12);display:flex;flex-direction:column;overflow:hidden" id="doomsdayWidget">
-    <div style="flex-shrink:0;padding:6px 10px;background:rgba(10,14,24,.6);border-bottom:1px solid rgba(124,107,255,.1);font-size:10px;font-weight:700;letter-spacing:1px;color:rgba(255,255,255,.55);text-transform:uppercase;display:flex;align-items:center;gap:6px">⏰ <span style="flex:1">Doomsday</span></div>
-    <div style="flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:8px">
-      <div style="position:relative;width:84px;height:84px">
-        <svg width="84" height="84" viewBox="0 0 84 84" style="transform:rotate(-90deg)">
-          <circle cx="42" cy="42" r="37" fill="none" stroke="rgba(124,107,255,.12)" stroke-width="3"/>
-          <circle cx="42" cy="42" r="37" fill="none" stroke="var(--red)" stroke-width="3" stroke-dasharray="232.5" stroke-dashoffset="2.32" stroke-linecap="round" style="filter:drop-shadow(0 0 6px var(--red))"/>
-        </svg>
-        <div style="position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center">
-          <div style="font-size:18px;font-weight:800;color:var(--red);font-family:'Orbitron',monospace;text-shadow:0 0 12px rgba(255,66,107,.5);line-height:1">90</div>
-          <div style="font-size:7px;color:var(--muted);text-transform:uppercase;letter-spacing:1px;margin-top:2px">SECONDS</div>
-        </div>
-      </div>
-      <div style="font-size:8px;color:var(--red);font-family:'Share Tech Mono',monospace;letter-spacing:1px;margin-top:6px;text-align:center;text-shadow:0 0 8px rgba(255,66,107,.3)">TO MIDNIGHT</div>
-      <div style="font-size:7px;color:var(--muted);margin-top:3px;text-align:center">Bulletin of Atomic<br>Scientists — Jan 2024</div>
-    </div>
   </div>
   <div style="width:280px;flex-shrink:0;border-right:1px solid rgba(124,107,255,.12);display:flex;flex-direction:column;overflow:hidden">
     <div style="flex-shrink:0;padding:6px 10px;background:rgba(10,14,24,.6);border-bottom:1px solid rgba(124,107,255,.1);font-size:10px;font-weight:700;letter-spacing:1px;color:rgba(255,255,255,.55);text-transform:uppercase;display:flex;align-items:center;gap:6px">📡 <span style="flex:1">OSINT Feeds</span><span id="x-account-tabs" style="display:flex;gap:4px"></span></div>
@@ -828,7 +807,6 @@ function updateMobTypeButtons(active){ document.querySelectorAll('[id^="mob-bt-"
         row.classList.remove('active');
         row.classList.add('ok');
         beep(1000+i*50);
-        spawnPing(i);
         // Update progress
         const pct = Math.round(((i+1)/STATUS_ITEMS.length)*100);
         const fill = document.getElementById('bs-fill');
@@ -4052,6 +4030,41 @@ render = function(){
 // AMBIENT MAP PARTICLES
 // ════════════════════════════════════════
 (function spawnParticles(){
+  const container = document.getElementById('mapParticles');
+  if(!container) return;
+  function spawn(){
+    const p = document.createElement('div');
+    p.className = 'map-particle';
+    p.style.left = Math.random()*100+'%';
+    p.style.bottom = '-4px';
+    p.style.animationDuration = (8 + Math.random()*12)+'s';
+    p.style.animationDelay = Math.random()*2+'s';
+    container.appendChild(p);
+    setTimeout(() => p.remove(), 22000);
+  }
+  setInterval(spawn, 800);
+  for(let j=0;j<6;j++) setTimeout(spawn, j*300);
+})();
+
+// ════════════════════════════════════════
+// LIVE HEARTBEAT INDICATOR
+// ════════════════════════════════════════
+let lastDataTime = Date.now();
+const origFetchData = fetchData;
+fetchData = async function(){
+  await origFetchData();
+  lastDataTime = Date.now();
+};
+setInterval(() => {
+  const el = document.getElementById('hb-time');
+  if(!el) return;
+  const ago = Math.round((Date.now()-lastDataTime)/1000);
+  el.textContent = ago < 5 ? 'just now' : ago+'s ago';
+}, 1000);
+</script>
+</body>
+</html>
+on spawnParticles(){
   const container = document.getElementById('mapParticles');
   if(!container) return;
   function spawn(){
