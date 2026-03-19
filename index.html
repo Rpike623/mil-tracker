@@ -875,47 +875,18 @@
     async function fetchFIRMS(){
       if(state.firmsFetching) return;
       state.firmsFetching = true;
-      let firmsData = [];
-      const sources = ['VIIRS_SNPP_NRT','VIIRS_NOAA20_NRT'];
-      for(const zone of FIRMS_ZONES){
-        const [w,s,e,n,label] = zone;
-        for(const src of sources){
-          try{
-            const url = `https://firms.modaps.eosdis.nasa.gov/api/area/csv/${FIRMS_MAP_KEY}/${src}/${w},${s},${e},${n}/1`;
-            const resp = await fetch(url, {signal: AbortSignal.timeout(15000)});
-            if(!resp.ok) continue;
-            const text = await resp.text();
-            const lines = text.trim().split('\n');
-            if(lines.length < 2) continue;
-            const hdr = lines[0].split(',');
-            const iLat=hdr.indexOf('latitude'), iLon=hdr.indexOf('longitude');
-            const iBright=hdr.indexOf('bright_ti4'), iFRP=hdr.indexOf('frp');
-            const iConf=hdr.indexOf('confidence'), iDN=hdr.indexOf('daynight');
-            const iDate=hdr.indexOf('acq_date'), iTime=hdr.indexOf('acq_time');
-            const iSat=hdr.indexOf('satellite');
-            for(let i=1;i<lines.length;i++){
-              const c = lines[i].split(',');
-              if(c.length < 10) continue;
-              firmsData.push({
-                lat:parseFloat(c[iLat]), lon:parseFloat(c[iLon]), bright:parseFloat(c[iBright]), frp:parseFloat(c[iFRP]),
-                confidence:c[iConf], daynight:c[iDN], date:c[iDate], time:c[iTime], sat:c[iSat], zone:label, src:src.replace('_NRT','')
-              });
-            }
-          }catch(e){ console.warn('FIRMS fetch fail', label, e.message); }
-        }
+      try{
+        const firmsData = Array.isArray(state.data?._firms_hotspots) ? [...state.data._firms_hotspots] : [];
+        firmsData.forEach(p => {
+          if(typeof p.score !== 'number') p.score = firmsMilScore(p);
+        });
+        firmsData.sort((a,b) => b.score - a.score);
+        state.firmsData = firmsData;
+        state.firmsLastFetch = Date.now();
+        renderFIRMS();
+      } finally {
+        state.firmsFetching = false;
       }
-      const seen = new Set();
-      firmsData = firmsData.filter(p => {
-        const key = `${p.lat.toFixed(3)},${p.lon.toFixed(3)}`;
-        if(seen.has(key)) return false;
-        seen.add(key); return true;
-      });
-      firmsData.forEach(p => p.score = firmsMilScore(p));
-      firmsData.sort((a,b) => b.score - a.score);
-      state.firmsData = firmsData;
-      state.firmsLastFetch = Date.now();
-      state.firmsFetching = false;
-      renderFIRMS();
     }
 
     function renderFIRMS(){

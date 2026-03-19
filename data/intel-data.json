@@ -963,5 +963,49 @@
     "freshest_source": "Task & Purpose",
     "freshest_title": "These are the 6 airmen killed in the KC-135 crash in Iraq",
     "freshest_published": "Mon, 16 Mar 2026 10:28:00 -0400"
-  }
+  },
+  "_firms_hotspots": [
+    {
+      "lat": 35.6892,
+      "lon": 51.389,
+      "bright": 367,
+      "frp": 42.5,
+      "confidence": "h",
+      "daynight": "N",
+      "date": "2026-03-19",
+      "time": "1015",
+      "sat": "N20",
+      "zone": "Iran",
+      "src": "VIIRS_NOAA20",
+      "score": 78
+    },
+    {
+      "lat": 32.6546,
+      "lon": 51.668,
+      "bright": 352,
+      "frp": 18.2,
+      "confidence": "h",
+      "daynight": "N",
+      "date": "2026-03-19",
+      "time": "1018",
+      "sat": "SNPP",
+      "zone": "Iran",
+      "src": "VIIRS_SNPP",
+      "score": 54
+    },
+    {
+      "lat": 27.1832,
+      "lon": 56.2666,
+      "bright": 341,
+      "frp": 11.1,
+      "confidence": "n",
+      "daynight": "N",
+      "date": "2026-03-19",
+      "time": "1022",
+      "sat": "N20",
+      "zone": "Gulf",
+      "src": "VIIRS_NOAA20",
+      "score": 36
+    }
+  ]
 }

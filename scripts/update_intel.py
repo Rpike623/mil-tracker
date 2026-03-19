@@ -31,6 +31,16 @@ except ImportError:
 DATA_PATH = os.path.join(os.path.dirname(__file__), '..', 'data', 'intel-data.json')
 
 HEADERS = {'User-Agent': 'PikeClaw-OSINT-Bot/1.0 (https://rpike623.github.io/mil-tracker)'}
+FIRMS_MAP_KEY = 'b8a5882409f4bafebdebc9b4c3c0a6a0'
+FIRMS_ZONES = [
+    (43, 24, 65, 40, 'Iran'),
+    (34, 29, 40, 37, 'Levant'),
+    (44, 10, 60, 31, 'Gulf'),
+    (28, -5, 44, 17, 'Red Sea'),
+    (118, 20, 124, 27, 'Taiwan Strait'),
+    (112, 6, 123, 24, 'South China Sea'),
+    (28, 43, 42, 52, 'Ukraine'),
+]
 
 # ─────────────────────────────────────────
 # NEWS FEEDS
@@ -207,6 +217,63 @@ def build_pipeline_status(news_items):
     }
 
 
+def fetch_firms_hotspots():
+    hotspots = []
+    sources = ['VIIRS_SNPP_NRT', 'VIIRS_NOAA20_NRT']
+    for west, south, east, north, label in FIRMS_ZONES:
+        for src in sources:
+            url = f'https://firms.modaps.eosdis.nasa.gov/api/area/csv/{FIRMS_MAP_KEY}/{src}/{west},{south},{east},{north}/1'
+            try:
+                r = requests.get(url, headers=HEADERS, timeout=20)
+                if r.status_code != 200:
+                    continue
+                lines = [ln for ln in r.text.strip().splitlines() if ln.strip()]
+                if len(lines) < 2:
+                    continue
+                hdr = lines[0].split(',')
+                i_lat = hdr.index('latitude')
+                i_lon = hdr.index('longitude')
+                i_bright = hdr.index('bright_ti4')
+                i_frp = hdr.index('frp')
+                i_conf = hdr.index('confidence')
+                i_dn = hdr.index('daynight')
+                i_date = hdr.index('acq_date')
+                i_time = hdr.index('acq_time')
+                i_sat = hdr.index('satellite')
+                for row in lines[1:]:
+                    cols = row.split(',')
+                    if len(cols) <= max(i_lat, i_lon, i_bright, i_frp, i_conf, i_dn, i_date, i_time, i_sat):
+                        continue
+                    try:
+                        hotspots.append({
+                            'lat': float(cols[i_lat]),
+                            'lon': float(cols[i_lon]),
+                            'bright': float(cols[i_bright] or 0),
+                            'frp': float(cols[i_frp] or 0),
+                            'confidence': cols[i_conf],
+                            'daynight': cols[i_dn],
+                            'date': cols[i_date],
+                            'time': cols[i_time],
+                            'sat': cols[i_sat],
+                            'zone': label,
+                            'src': src.replace('_NRT', ''),
+                        })
+                    except ValueError:
+                        continue
+            except Exception as e:
+                print(f'  FIRMS fetch fail {label} {src}: {e}')
+
+    dedup = {}
+    for item in hotspots:
+        key = f"{item['lat']:.3f},{item['lon']:.3f}"
+        if key not in dedup or item['frp'] > dedup[key]['frp']:
+            dedup[key] = item
+
+    result = sorted(dedup.values(), key=lambda x: x['frp'], reverse=True)
+    print(f'  FIRMS hotspots fetched: {len(result)}')
+    return result[:250]
+
+
 # ─────────────────────────────────────────
 # MAIN
 # ─────────────────────────────────────────
@@ -262,7 +329,7 @@ def main():
     data['_pipeline_status'] = build_pipeline_status(news_items)
 
     # ── 2. GPS jamming status (best-effort)
-    print('\n[ 2/3 ] Checking GPS jamming data...')
+    print('\n[ 2/4 ] Checking GPS jamming data...')
     gps_data = fetch_gps_status()
     if gps_data:
         # Don't replace our curated zones, just note the latest fetch
@@ -271,8 +338,12 @@ def main():
     else:
         print('        GPS jamming data unavailable — keeping existing zones')
 
-    # ── 3. Update timestamp & version
-    print('\n[ 3/3 ] Updating metadata...')
+    # ── 3. FIRMS hotspots (server-side to avoid browser CORS)
+    print('\n[ 3/4 ] Fetching FIRMS hotspots...')
+    data['_firms_hotspots'] = fetch_firms_hotspots()
+
+    # ── 4. Update timestamp & version
+    print('\n[ 4/4 ] Updating metadata...')
     data = update_timestamp(data)
     print(f'        Version: {data["version"]}')
     print(f'        Timestamp: {data["generated_utc"]}')
