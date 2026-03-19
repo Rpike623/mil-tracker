@@ -345,49 +345,7 @@ body::after{
 <body>
 
 <!-- BOOT SCREEN -->
-<div class="boot-screen" id="bootScreen">
-  <div class="bs-inner">
-    <div class="bs-strikecam" id="bsStrikecam">
-      <div class="bs-overlay-grid"></div>
-      <div class="bs-vignette"></div>
-      <div class="bs-status-stack">
-        <div class="bs-status" id="bsStat0">TGP FLIR — STANDBY</div>
-        <div class="bs-status warn" id="bsStat1">LASER: DESIGNATING</div>
-        <div class="bs-status hot" id="bsStat2">WEAPON: ARMED</div>
-        <div class="bs-status" id="bsStat3">RANGE: 14.2 KM</div>
-        <div class="bs-status" id="bsStat4">TRACK: STABLE</div>
-      </div>
-      <div class="bs-coords">
-        <div class="bs-coord-item" id="bsC0"><span>LAT</span> 31.4012°N</div>
-        <div class="bs-coord-item" id="bsC1"><span>LON</span> 34.3240°E</div>
-        <div class="bs-coord-item" id="bsC2"><span>ALT</span> 22,400 FT</div>
-        <div class="bs-coord-item" id="bsC3"><span>HDG</span> 274°</div>
-        <div class="bs-coord-item" id="bsC4"><span>WIND</span> 12 KT NW</div>
-        <div class="bs-coord-item" id="bsC5"><span>MODE</span> WHT HOT</div>
-      </div>
-      <div class="bs-ground"></div>
-      <div class="bs-building"></div>
-      <div class="bs-reticle">
-        <div class="bs-reticle-box">
-          <div class="bs-corner tl"></div>
-          <div class="bs-corner tr"></div>
-          <div class="bs-corner bl"></div>
-          <div class="bs-corner br"></div>
-        </div>
-        <div class="bs-reticle-inner"></div>
-      </div>
-      <div class="bs-target" id="bsTarget"></div>
-      <div class="bs-flash" id="bsFlash"></div>
-      <div class="bs-shock" id="bsShock"></div>
-      <div class="bs-shock2" id="bsShock2"></div>
-      <div class="bs-fireball" id="bsFireball"></div>
-      <div class="bs-smoke" id="bsSmoke"></div>
-      <div class="bs-whiteout" id="bsWhiteout"></div>
-      <div class="bs-locktext" id="bs-locktext">TGP INITIALIZING</div>
-      <div class="bs-timestamp" id="bsTimestamp"></div>
-    </div>
-  </div>
-</div>
+<div class="boot-screen" id="bootScreen"></div>
 
 <!-- BRIEFING MODAL -->
 <div class="brief-overlay" id="briefOverlay" onclick="if(event.target===this)closeBriefing()">
@@ -680,128 +638,651 @@ function toggleMobDrawer(){ const d=document.getElementById('mobDrawer'); if(!d)
 function updateMobTypeButtons(active){ document.querySelectorAll('[id^="mob-bt-"]').forEach(b=>b.classList.toggle('on',b.id==='mob-bt-'+active)); }
 </script>
 <script>
-// CRT BOOT SEQUENCE
-// ════════════════════════════════════════
 (function bootSequence(){
+  'use strict';
   const screen = document.getElementById('bootScreen');
   if(!screen) return;
 
-  // ── Audio ────────────────────────────────────────────────────────────────
-  let ctx;
-  try { ctx = new (window.AudioContext || window.webkitAudioContext)(); } catch(e){}
-  function tone(freq, dur, type='sine', vol=0.04){
-    if(!ctx) return;
+  // ─────────────────────────────────────────────────────────────────────────
+  // AUDIO ENGINE
+  // ─────────────────────────────────────────────────────────────────────────
+  let AC;
+  try { AC = new (window.AudioContext||window.webkitAudioContext)(); } catch(e){}
+  const now = () => AC ? AC.currentTime : 0;
+
+  function osc(f,dur,type,vol,fEnd){
+    if(!AC) return;
     try{
-      const o=ctx.createOscillator(), g=ctx.createGain();
-      o.connect(g); g.connect(ctx.destination);
-      o.type=type; o.frequency.value=freq;
-      g.gain.setValueAtTime(vol,ctx.currentTime);
-      g.gain.exponentialRampToValueAtTime(0.001,ctx.currentTime+dur);
-      o.start(); o.stop(ctx.currentTime+dur);
+      const o=AC.createOscillator(), g=AC.createGain();
+      o.connect(g); g.connect(AC.destination);
+      o.type=type||'sine'; o.frequency.setValueAtTime(f,now());
+      if(fEnd!=null) o.frequency.linearRampToValueAtTime(fEnd,now()+dur);
+      g.gain.setValueAtTime(vol||0.03,now());
+      g.gain.exponentialRampToValueAtTime(0.0001,now()+dur);
+      o.start(); o.stop(now()+dur);
     }catch(e){}
   }
-  function beep(f){ tone(f,0.05,'sine',0.03); }
-  function lock(){ tone(1200,.12,'square',.05); setTimeout(()=>tone(1600,.2,'sine',.06),130); }
-  function impact(){ tone(180,.2,'sawtooth',.08); setTimeout(()=>tone(90,.35,'square',.06),100); }
 
-  const targetEl=document.getElementById('bsTarget');
-  const flashEl=document.getElementById('bsFlash');
-  const shockEl=document.getElementById('bsShock');
-
-
-  // ── Countdown number scramble ────────────────────────────────────────────
-  const CHARS='ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789@#$%^&*';
-  function scramble(el, finalTxt, duration, cb){
-    let t=0;
-    const frames = Math.round(duration/40);
-    const iv = setInterval(()=>{
-      const progress = t/frames;
-      let txt='';
-      for(let i=0;i<finalTxt.length;i++){
-        if(progress > i/finalTxt.length) txt+=finalTxt[i];
-        else txt+=CHARS[Math.floor(Math.random()*CHARS.length)];
-      }
-      el.textContent=txt;
-      t++;
-      if(t>=frames){ clearInterval(iv); el.textContent=finalTxt; if(cb)cb(); }
-    },40);
+  // Static / white noise burst
+  function sfxStatic(vol=0.04, dur=0.12){
+    if(!AC) return;
+    try{
+      const buf=AC.createBuffer(1,AC.sampleRate*dur,AC.sampleRate);
+      const d=buf.getChannelData(0);
+      for(let i=0;i<d.length;i++) d[i]=(Math.random()*2-1)*0.7;
+      const s=AC.createBufferSource(), g=AC.createGain();
+      const lp=AC.createBiquadFilter(); lp.type='bandpass'; lp.frequency.value=2000; lp.Q.value=0.5;
+      s.buffer=buf; s.connect(lp); lp.connect(g); g.connect(AC.destination);
+      g.gain.setValueAtTime(vol,now()); g.gain.exponentialRampToValueAtTime(0.0001,now()+dur);
+      s.start();
+    }catch(e){}
   }
 
-  // ── Strike-cam boot sequence ────────────────────────────────────────────
-  const cam = document.getElementById('bsStrikecam');
-  const shock2El = document.getElementById('bsShock2');
-  const whiteoutEl = document.getElementById('bsWhiteout');
-  const tsEl = document.getElementById('bsTimestamp');
-  if(tsEl) tsEl.textContent = new Date().toUTCString().replace('GMT','Z');
+  // Targeting beep — short, clinical, military
+  function sfxLock(freq=1200){ osc(freq,0.06,'square',0.04); }
+  function sfxLockOn(){ osc(1400,0.08,'square',0.05); setTimeout(()=>osc(1800,0.12,'sine',0.06),90); }
+  function sfxBeep(f=800){ osc(f,0.04,'sine',0.025); }
 
-  // spawn debris particles on impact
-  function spawnDebris(){
-    for(let i=0;i<12;i++){
-      const d=document.createElement('div');
-      d.className='bs-debris';
-      const angle=Math.random()*Math.PI*2;
-      const dist=80+Math.random()*200;
-      d.style.setProperty('--dx', Math.cos(angle)*dist+'px');
-      d.style.setProperty('--dy', Math.sin(angle)*dist+'px');
-      cam.appendChild(d);
-      setTimeout(()=>d.classList.add('go'), 10);
-      setTimeout(()=>{ try{cam.removeChild(d)}catch(e){} }, 1200);
-    }
+  // Weapon release — radio crackle + low thud
+  function sfxRifle(){
+    sfxStatic(0.12, 0.08);
+    setTimeout(()=>{ osc(60,0.5,'sine',0.18,30); osc(200,0.08,'sawtooth',0.05); },80);
   }
 
-  const statEls = [0,1,2,3,4].map(i=>document.getElementById('bsStat'+i));
-  const coordEls = [0,1,2,3,4,5].map(i=>document.getElementById('bsC'+i));
+  // Impact explosion — shaped noise, sub-bass
+  function sfxImpact(){
+    if(!AC) return;
+    try{
+      const len=AC.sampleRate*0.8;
+      const buf=AC.createBuffer(1,len,AC.sampleRate);
+      const d=buf.getChannelData(0);
+      for(let i=0;i<len;i++) d[i]=(Math.random()*2-1)*Math.pow(1-i/len,2.2);
+      const s=AC.createBufferSource(), lp=AC.createBiquadFilter(), g=AC.createGain();
+      lp.type='lowpass'; lp.frequency.value=350;
+      s.buffer=buf; s.connect(lp); lp.connect(g); g.connect(AC.destination);
+      g.gain.setValueAtTime(0.28,now()); g.gain.exponentialRampToValueAtTime(0.0001,now()+0.8);
+      s.start();
+    }catch(e){}
+    osc(45,0.6,'sine',0.22,20);
+  }
 
-  const timeline = [
-    // phase 1: HUD elements fade in staggered
-    [100, () => { if(tsEl) tsEl.textContent = new Date().toUTCString().replace('GMT','Z'); }],
-    [200, () => coordEls[0] && coordEls[0].classList.add('vis')],
-    [350, () => coordEls[1] && coordEls[1].classList.add('vis')],
-    [500, () => { coordEls[2] && coordEls[2].classList.add('vis'); beep(700); }],
-    [650, () => coordEls[3] && coordEls[3].classList.add('vis')],
-    [800, () => { coordEls[4] && coordEls[4].classList.add('vis'); coordEls[5] && coordEls[5].classList.add('vis'); }],
-    [400, () => statEls[0] && statEls[0].classList.add('vis')],
-    [600, () => statEls[1] && statEls[1].classList.add('vis')],
-    [850, () => { statEls[2] && statEls[2].classList.add('vis'); beep(900); }],
-    [1050, () => statEls[3] && statEls[3].classList.add('vis')],
-    [1250, () => statEls[4] && statEls[4].classList.add('vis')],
-    // phase 2: lock-on
-    [1500, () => scramble(document.getElementById('bs-locktext'), 'ACQUIRING TARGET', 300)],
-    [2000, () => { lock(); targetEl && targetEl.classList.add('locked'); const ret=cam?.querySelector('.bs-reticle'); if(ret) ret.classList.add('locked'); }],
-    [2200, () => scramble(document.getElementById('bs-locktext'), 'TARGET LOCK — STABLE', 260)],
-    // phase 3: weapon release
-    [2800, () => { beep(1400); scramble(document.getElementById('bs-locktext'), 'RIFLE RIFLE RIFLE', 180); }],
-    [3200, () => scramble(document.getElementById('bs-locktext'), 'WEAPON AWAY', 200)],
-    // phase 4: time of flight
-    [3600, () => scramble(document.getElementById('bs-locktext'), 'TOF 4.2 SEC', 150)],
-    // phase 5: IMPACT
-    [4200, () => {
-      impact();
-      flashEl && flashEl.classList.add('hit');
-      shockEl && shockEl.classList.add('hit');
-      shock2El && shock2El.classList.add('hit');
-      whiteoutEl && whiteoutEl.classList.add('flash');
-      const fireballEl=document.getElementById('bsFireball');
-      const smokeEl=document.getElementById('bsSmoke');
-      fireballEl && fireballEl.classList.add('hit');
-      smokeEl && smokeEl.classList.add('hit');
-      // hide the building on impact
-      const bldg=cam?.querySelector('.bs-building');
-      if(bldg) bldg.style.opacity='0';
-      cam && cam.classList.add('bs-screen-shake');
-      spawnDebris();
-      setTimeout(()=>cam && cam.classList.remove('bs-screen-shake'), 500);
-    }],
-    [4600, () => scramble(document.getElementById('bs-locktext'), 'SPLASH — GOOD EFFECT ON TARGET', 300)],
-    // phase 6: BDA + transition
-    [5400, () => scramble(document.getElementById('bs-locktext'), 'BDA CONFIRMED — LOADING WARFLOOR', 360)],
-    [6200, () => {
-      screen.style.transition='opacity 0.8s ease-out';
-      screen.style.opacity='0';
-      setTimeout(()=>{ screen.remove(); if(ctx)ctx.close(); }, 800);
-    }]
+  // ─────────────────────────────────────────────────────────────────────────
+  // FLIR CANVAS — the whole boot screen IS this canvas
+  // ─────────────────────────────────────────────────────────────────────────
+  const fc=document.createElement('canvas');
+  fc.style.cssText='position:absolute;inset:0;z-index:3';
+  fc.width=window.innerWidth; fc.height=window.innerHeight;
+  screen.insertBefore(fc,screen.firstChild);
+  const C=fc.getContext('2d');
+  const W=fc.width, H=fc.height;
+
+  // ── Scene state ──────────────────────────────────────────────────────────
+  let camX=W*0.5, camY=H*0.5;   // camera center in world space
+  let zoom=1.0;                   // overall zoom (world→canvas)
+  let targetZoom=1.0;
+
+  // The "world" is a synthetic top-down aerial scene:
+  // roads, buildings, a vehicle convoy the weapon is tracking
+  const ROADS=[
+    {x1:0,   y1:H*0.45, x2:W,   y2:H*0.45, w:28}, // main horizontal
+    {x1:0,   y1:H*0.6,  x2:W,   y2:H*0.6,  w:14},
+    {x1:W*0.4,y1:0,     x2:W*0.4,y2:H,     w:20}, // vertical
+    {x1:W*0.7,y1:0,     x2:W*0.7,y2:H,     w:10},
+    {x1:0,   y1:H*0.25, x2:W*0.6,y2:H*0.25,w:8 },
   ];
-  timeline.forEach(([t, fn]) => setTimeout(fn, t));
+  const BUILDINGS=[]; // auto-generated
+  for(let i=0;i<60;i++){
+    BUILDINGS.push({
+      x:Math.random()*W, y:Math.random()*H,
+      w:14+Math.random()*60, h:14+Math.random()*60,
+      bright:0.12+Math.random()*0.22, // thermal signature
+    });
+  }
+
+  // Convoy — 3 vehicles moving along main road
+  const convoy=[
+    {x:W*0.72, y:H*0.45, vx:-0.4, vy:0, bright:0.7},
+    {x:W*0.76, y:H*0.45, vx:-0.4, vy:0, bright:0.65},
+    {x:W*0.80, y:H*0.45, vx:-0.4, vy:0, bright:0.6},
+  ];
+
+  // TARGET — the lead vehicle
+  let targetX=convoy[0].x, targetY=convoy[0].y;
+
+  // ── FLIR rendering helpers ───────────────────────────────────────────────
+  // FLIR uses whiteHot mode: hot = bright white, cold = dark
+  // Apply a sensor noise overlay
+  let noiseCanvas=document.createElement('canvas');
+  noiseCanvas.width=256; noiseCanvas.height=256;
+  const nCtx=noiseCanvas.getContext('2d');
+  function updateNoise(){
+    const id=nCtx.createImageData(256,256);
+    for(let i=0;i<id.data.length;i+=4){
+      const v=Math.random()*30|0;
+      id.data[i]=v; id.data[i+1]=v; id.data[i+2]=v; id.data[i+3]=18;
+    }
+    nCtx.putImageData(id,0,0);
+  }
+  updateNoise();
+
+  // Coordinate transform: world → canvas
+  function wx(x){ return (x-camX)*zoom + W/2; }
+  function wy(y){ return (y-camY)*zoom + H/2; }
+  function ws(s){ return s*zoom; }
+
+  // Draw the thermal scene
+  function drawScene(){
+    // Background: cold ground — dark grey-green (FLIR ground temp)
+    C.fillStyle='#1a1c18'; C.fillRect(0,0,W,H);
+
+    // Roads — slightly warmer than ground (asphalt retains heat)
+    ROADS.forEach(r=>{
+      C.beginPath(); C.moveTo(wx(r.x1),wy(r.y1)); C.lineTo(wx(r.x2),wy(r.y2));
+      C.strokeStyle='#2e3028'; C.lineWidth=ws(r.w); C.stroke();
+      // Road edge lines
+      C.strokeStyle='#252720'; C.lineWidth=ws(r.w+4); C.globalAlpha=0.3;
+      C.beginPath(); C.moveTo(wx(r.x1),wy(r.y1)); C.lineTo(wx(r.x2),wy(r.y2));
+      C.stroke(); C.globalAlpha=1;
+    });
+
+    // Buildings — thermal signatures (warm roofs)
+    BUILDINGS.forEach(b=>{
+      const bx=wx(b.x), by=wy(b.y), bw=ws(b.w), bh=ws(b.h);
+      const v=Math.floor(b.bright*200);
+      C.fillStyle=`rgb(${v*0.85|0},${v*0.9|0},${v*0.75|0})`;
+      C.fillRect(bx-bw/2, by-bh/2, bw, bh);
+      // Roof hot-spot (HVAC signature)
+      if(b.bright>0.2){
+        const hv=Math.min(255,v+60);
+        C.fillStyle=`rgba(${hv},${hv},${hv*0.8|0},0.6)`;
+        C.fillRect(bx-bw*0.2, by-bh*0.2, bw*0.4, bh*0.4);
+      }
+    });
+
+    // Convoy vehicles — hot engine signatures
+    convoy.forEach((v,i)=>{
+      const vx2=wx(v.x), vy2=wy(v.y);
+      const vb=v.bright;
+      // Vehicle body
+      C.save();
+      const sz=ws(12);
+      // Engine hot (front)
+      const grad=C.createRadialGradient(vx2,vy2,0,vx2,vy2,sz*2.5);
+      grad.addColorStop(0, `rgba(255,255,${220*(1-vb)|0},${vb*0.9})`);
+      grad.addColorStop(0.3,`rgba(${(vb*255)|0},${(vb*240)|0},${(vb*180)|0},0.8)`);
+      grad.addColorStop(1,'rgba(0,0,0,0)');
+      C.beginPath(); C.arc(vx2,vy2,sz*2.5,0,Math.PI*2);
+      C.fillStyle=grad; C.fill();
+      // Vehicle rectangle
+      C.fillStyle=`rgb(${(vb*255)|0},${(vb*255)|0},${(vb*220)|0})`;
+      C.fillRect(vx2-sz*0.8, vy2-sz*0.45, sz*1.6, sz*0.9);
+      C.restore();
+    });
+
+    // Sensor noise overlay (tiled)
+    C.globalAlpha=0.55;
+    for(let tx=0;tx<W;tx+=256) for(let ty=0;ty<H;ty+=256)
+      C.drawImage(noiseCanvas,tx,ty);
+    C.globalAlpha=1;
+  }
+
+  // ── Targeting box state ──────────────────────────────────────────────────
+  let tboxX=W*0.5, tboxY=H*0.5;  // current box center (in canvas space)
+  let tboxSize=220;               // half-size
+  let tboxLocked=false;
+  let tboxPhase=0;                // 0=scanning, 1=tracking, 2=locked, 3=lasing
+  let scanDX=2.2, scanDY=0.9;    // scanning drift
+
+  // Crosshair animation
+  let crossGap=60;  // gap in center of crosshairs
+  let crossLen=30;
+
+  function drawTargetingBox(ts){
+    const t=ts*0.001;
+    const cx=tboxX, cy=tboxY;
+    const hs=tboxSize;
+    const flash= tboxPhase>=2 ? (Math.sin(t*8)>0.3?1:0.5) : 1;
+
+    C.save();
+    C.globalAlpha= tboxPhase===3 ? 0.95*flash : 0.8;
+    const col = tboxPhase>=3 ? '#ff2020' : tboxPhase>=2 ? '#ffffff' : '#b0ffb0';
+    C.strokeStyle=col;
+    C.shadowColor=col; C.shadowBlur=8;
+    C.lineWidth=1.5;
+
+    // Corner brackets — the iconic targeting box look
+    const bracketLen=hs*0.28;
+    [[-1,-1],[1,-1],[1,1],[-1,1]].forEach(([sx,sy])=>{
+      const bx=cx+sx*hs, by=cy+sy*hs;
+      C.beginPath();
+      C.moveTo(bx, by-sy*bracketLen); C.lineTo(bx,by); C.lineTo(bx-sx*bracketLen,by);
+      C.stroke();
+    });
+
+    // Pulsing diamond center (phase 2+)
+    if(tboxPhase>=2){
+      const pulse=4+Math.sin(t*12)*2;
+      C.strokeStyle=col; C.lineWidth=1;
+      C.beginPath();
+      C.moveTo(cx,cy-pulse); C.lineTo(cx+pulse,cy);
+      C.lineTo(cx,cy+pulse); C.lineTo(cx-pulse,cy); C.closePath();
+      C.stroke();
+    }
+
+    // Crosshairs (gap in center)
+    C.globalAlpha=0.5;
+    C.strokeStyle=col; C.lineWidth=1;
+    C.setLineDash([]);
+    // Horizontal
+    C.beginPath(); C.moveTo(cx-hs,cy); C.lineTo(cx-crossGap,cy); C.stroke();
+    C.beginPath(); C.moveTo(cx+crossGap,cy); C.lineTo(cx+hs,cy); C.stroke();
+    // Vertical
+    C.beginPath(); C.moveTo(cx,cy-hs); C.lineTo(cx,cy-crossGap); C.stroke();
+    C.beginPath(); C.moveTo(cx,cy+crossGap); C.lineTo(cx,cy+hs); C.stroke();
+
+    // Range ring (tracking mode)
+    if(tboxPhase>=1){
+      C.globalAlpha=0.2;
+      C.strokeStyle=col; C.lineWidth=0.7;
+      C.setLineDash([4,8]);
+      C.beginPath(); C.arc(cx,cy,hs*1.1,0,Math.PI*2); C.stroke();
+      C.setLineDash([]);
+    }
+
+    C.shadowBlur=0; C.restore();
+  }
+
+  // ── HUD elements (HTML overlay) ──────────────────────────────────────────
+  function makeHUD(){
+    // Top-left: system info
+    const tl=document.createElement('div');
+    tl.className='flir-hud'; tl.style.cssText='top:18px;left:18px';
+    tl.innerHTML=`<div id="hud-mode">WHT-HOT</div><div id="hud-fov">FOV: 1.8°</div><div id="hud-lrf" style="margin-top:4px">LRF: <span id="hud-range">----</span>m</div>`;
+    screen.appendChild(tl);
+
+    // Top-right: weapon / platform
+    const tr=document.createElement('div');
+    tr.className='flir-hud'; tr.style.cssText='top:18px;right:18px;text-align:right';
+    tr.innerHTML=`<div>MQ-9 REAPER</div><div id="hud-alt">ALT: 18,500 ft</div><div id="hud-spd" style="margin-top:4px">SPD: 230 kts</div>`;
+    screen.appendChild(tr);
+
+    // Bottom-left: coords
+    const bl=document.createElement('div');
+    bl.className='flir-hud dim'; bl.style.cssText='bottom:18px;left:18px';
+    bl.innerHTML=`<div>35°41'39"N  51°25'17"E</div><div id="hud-trk">TRK: <span id="hud-hdg">270°</span></div>`;
+    screen.appendChild(bl);
+
+    // Bottom-right: weapon status
+    const br=document.createElement('div');
+    br.className='flir-hud'; br.style.cssText='bottom:18px;right:18px;text-align:right';
+    br.innerHTML=`<div id="hud-wpn">AGM-114K HELLFIRE</div><div id="hud-laser" style="color:rgba(255,255,255,.3)">LASER: SAFE</div><div id="hud-status" style="margin-top:4px;color:rgba(255,255,255,.4)">STANDBY</div>`;
+    screen.appendChild(br);
+
+    // Center top: timestamp
+    const ct=document.createElement('div');
+    ct.className='flir-hud dim'; ct.style.cssText='top:18px;left:50%;transform:translateX(-50%)';
+    ct.innerHTML=`<div id="hud-time">${new Date().toUTCString().slice(5,25)} Z</div>`;
+    screen.appendChild(ct);
+
+    // Center bottom: target ID (hidden until lock)
+    const cb=document.createElement('div');
+    cb.id='hud-tgt-label';
+    cb.className='flir-hud'; cb.style.cssText='bottom:52px;left:50%;transform:translateX(-50%);text-align:center;opacity:0;transition:opacity .3s;color:rgba(255,80,80,0.9)';
+    cb.textContent='TARGET: IRGC CONVOY — LEAD VEHICLE';
+    screen.appendChild(cb);
+
+    // LASING indicator
+    const laseEl=document.createElement('div');
+    laseEl.id='hud-lase';
+    laseEl.style.cssText='position:absolute;top:50%;left:50%;transform:translate(-50%,-100px);z-index:16;font-family:Share Tech Mono,monospace;font-size:14px;letter-spacing:3px;color:#ff2020;text-shadow:0 0 12px #ff2020;opacity:0;transition:opacity .2s;pointer-events:none';
+    laseEl.textContent='LASING';
+    screen.appendChild(laseEl);
+
+    // RIFLE / WEAPON AWAY text
+    const rifleEl=document.createElement('div');
+    rifleEl.id='hud-rifle';
+    rifleEl.style.cssText='position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);z-index:16;font-family:Orbitron,monospace;font-size:clamp(18px,3vw,42px);font-weight:900;letter-spacing:6px;color:#fff;text-shadow:0 0 30px #fff,0 0 60px rgba(255,200,100,.5);opacity:0;pointer-events:none;text-align:center';
+    rifleEl.innerHTML='RIFLE<br><span style="font-size:.45em;letter-spacing:3px;color:rgba(255,200,80,.9)">WEAPON AWAY</span>';
+    screen.appendChild(rifleEl);
+  }
+  makeHUD();
+
+  // ── Main render loop ─────────────────────────────────────────────────────
+  let raf;
+  // Impact flash state
+  let impactFlash=0;
+  let impactX=0, impactY=0;
+  let postImpact=false;
+  // Smoke plumes after impact
+  const smokes=[];
+
+  function render(ts){
+    if(!ts) ts=0;
+
+    // Update noise every ~3 frames
+    if((ts|0)%3===0) updateNoise();
+
+    // Update vehicle positions
+    convoy.forEach(v=>{ v.x+=v.vx; v.y+=v.vy; });
+    targetX=convoy[0].x; targetY=convoy[0].y;
+
+    // Camera slowly tracks target (pan + gentle zoom toward target)
+    const tdx=targetX-camX, tdy=targetY-camY;
+    if(tboxPhase>=1){ camX+=tdx*0.015; camY+=tdy*0.015; }
+    zoom+=(targetZoom-zoom)*0.04;
+
+    // Draw scene
+    drawScene();
+
+    // Impact flash (full frame)
+    if(impactFlash>0){
+      impactFlash-=0.04;
+      // White-hot bloom from impact point
+      const g=C.createRadialGradient(impactX,impactY,0,impactX,impactY,350*Math.sqrt(impactFlash));
+      g.addColorStop(0,`rgba(255,255,255,${Math.min(impactFlash*1.5,1)})`);
+      g.addColorStop(0.2,`rgba(255,230,150,${impactFlash*0.9})`);
+      g.addColorStop(0.5,`rgba(255,150,50,${impactFlash*0.5})`);
+      g.addColorStop(1,'rgba(0,0,0,0)');
+      C.globalCompositeOperation='lighter';
+      C.beginPath(); C.arc(impactX,impactY,350,0,Math.PI*2);
+      C.fillStyle=g; C.fill();
+      C.globalCompositeOperation='source-over';
+
+      // Screen white-hot at peak
+      if(impactFlash>0.7){
+        C.fillStyle=`rgba(255,255,255,${(impactFlash-0.7)*2})`;
+        C.fillRect(0,0,W,H);
+      }
+    }
+
+    // Smoke plumes (post-impact)
+    for(let i=smokes.length-1;i>=0;i--){
+      const s=smokes[i];
+      s.x+=s.vx; s.y+=s.vy; s.r+=0.4; s.life-=0.005; s.vy-=0.03;
+      if(s.life<=0){ smokes.splice(i,1); continue; }
+      const g=C.createRadialGradient(s.x,s.y,0,s.x,s.y,s.r);
+      const v=Math.floor(s.v*(1+s.life*0.3));
+      g.addColorStop(0,`rgba(${v},${v},${v},${s.life*0.35})`);
+      g.addColorStop(1,'rgba(0,0,0,0)');
+      C.beginPath(); C.arc(s.x,s.y,s.r,0,Math.PI*2);
+      C.fillStyle=g; C.fill();
+    }
+
+    // Scanning phase: drift tbox
+    if(tboxPhase===0){
+      tboxX+=scanDX; tboxY+=scanDY;
+      if(tboxX<W*0.2||tboxX>W*0.8) scanDX*=-1;
+      if(tboxY<H*0.2||tboxY>H*0.8) scanDY*=-1;
+    }
+
+    // Draw targeting box
+    if(tboxPhase<4) drawTargetingBox(ts);
+
+    raf=requestAnimationFrame(render);
+  }
+  raf=requestAnimationFrame(render);
+
+  // ─────────────────────────────────────────────────────────────────────────
+  // TEXT SCRAMBLER
+  // ─────────────────────────────────────────────────────────────────────────
+  const GLYPHS='ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%&*<>/|{}';
+  function scramble(el,final,ms,cb){
+    if(!el) return;
+    let f=0; const frames=Math.round(ms/32);
+    const iv=setInterval(()=>{
+      const p=f/frames; let t='';
+      for(let i=0;i<final.length;i++)
+        t+=p>i/final.length ? final[i] : GLYPHS[Math.floor(Math.random()*GLYPHS.length)];
+      el.textContent=t; f++;
+      if(f>=frames){ clearInterval(iv); el.textContent=final; if(cb)cb(); }
+    },32);
+  }
+
+  // ─────────────────────────────────────────────────────────────────────────
+  // SEQUENCE
+  // ─────────────────────────────────────────────────────────────────────────
+
+  // t=0: scanning mode — box drifting, atmosphere building
+  sfxStatic(0.02, 0.15);
+
+  // t=600: radar/status panel fades in
+  setTimeout(()=>{
+    const inner=document.getElementById('bs-inner')||document.querySelector('.bs-inner');
+    if(inner) inner.classList.add('vis');
+  },600);
+
+  // COORD scramble
+  const COORDS=[
+    ['bsc-0','LAT 35.6944°N'],['bsc-1','LON 51.4215°E'],
+    ['bsc-2','ALT 18,500 ft'], ['bsc-3','UTC '+new Date().toISOString().slice(11,19)+'Z'],
+    ['bsc-4','TGT MOVING'],   ['bsc-5','ENC AES-256-GCM'],
+    ['bsc-6','SAT 17 LOCKED'],['bsc-7','THR DEFCON 2'],
+    ['bsc-8','RANGE 1,840m'],  ['bsc-9','FLT OP EPIC FURY'],
+  ];
+  COORDS.forEach(([id,txt],i)=>setTimeout(()=>{
+    const el=document.getElementById(id); if(!el) return;
+    el.classList.add('active'); scramble(el,txt,320);
+  },400+i*200));
+
+  // STATUS items
+  const STATUS=[
+    {id:'bsi-0',val:'bsv-0',txt:'LOCKED',  t:500 },
+    {id:'bsi-1',val:'bsv-1',txt:'AES-256', t:750 },
+    {id:'bsi-2',val:'bsv-2',txt:'LVL 5 ✓', t:980 },
+    {id:'bsi-3',val:'bsv-3',txt:'ACTIVE',  t:1200},
+    {id:'bsi-4',val:'bsv-4',txt:'6 FEEDS', t:1400},
+    {id:'bsi-5',val:'bsv-5',txt:'v94 ✓',   t:1600},
+    {id:'bsi-6',val:'bsv-6',txt:'USGS ✓',  t:1780},
+    {id:'bsi-7',val:'bsv-7',txt:'ISS ✓',   t:1950},
+    {id:'bsi-8',val:'bsv-8',txt:'NOMINAL', t:2100},
+    {id:'bsi-9',val:'bsv-9',txt:'READY',   t:2250},
+  ];
+
+  const PING_POS=[[55,30,'#b0ffb0'],[70,115,'#ef4444'],[42,195,'#f97316'],[78,268,'#ef4444'],[58,338,'#b0ffb0'],[32,78,'#22d3ee'],[72,152,'#ef4444'],[48,242,'#f97316']];
+  const radarC=document.getElementById('radarCanvas');
+  const pingWrap=document.getElementById('radarPings');
+  let sweepAng=0, radarRaf, lastBeepT=0;
+
+  function drawRadar(){
+    if(!radarC) return;
+    const cx=radarC.getContext('2d'), R=150;
+    cx.clearRect(0,0,300,300);
+    cx.beginPath(); cx.arc(R,R,R-1,0,Math.PI*2);
+    cx.fillStyle='rgba(0,8,2,0.92)'; cx.fill();
+    [0.25,0.5,0.75,1].forEach(f=>{
+      cx.beginPath(); cx.arc(R,R,(R-1)*f,0,Math.PI*2);
+      cx.strokeStyle=`rgba(100,255,100,${f===1?.3:.06})`; cx.lineWidth=f===1?1.5:.5; cx.stroke();
+    });
+    cx.strokeStyle='rgba(100,255,100,.05)'; cx.lineWidth=.5;
+    cx.beginPath(); cx.moveTo(R,1); cx.lineTo(R,299); cx.stroke();
+    cx.beginPath(); cx.moveTo(1,R); cx.lineTo(299,R); cx.stroke();
+    cx.save(); cx.beginPath(); cx.moveTo(R,R);
+    cx.arc(R,R,R-2,sweepAng-Math.PI*.5,sweepAng); cx.closePath();
+    const sg=cx.createRadialGradient(R,R,0,R,R,R-2);
+    sg.addColorStop(0,'rgba(100,255,100,0)'); sg.addColorStop(1,'rgba(100,255,100,.09)');
+    cx.fillStyle=sg; cx.fill(); cx.restore();
+    cx.save(); cx.translate(R,R); cx.rotate(sweepAng);
+    const lg=cx.createLinearGradient(0,0,R-2,0);
+    lg.addColorStop(0,'rgba(100,255,100,0)'); lg.addColorStop(.4,'rgba(100,255,100,.25)'); lg.addColorStop(1,'rgba(100,255,100,1)');
+    cx.beginPath(); cx.moveTo(0,0); cx.lineTo(R-2,0);
+    cx.strokeStyle=lg; cx.lineWidth=2.5; cx.stroke();
+    cx.beginPath(); cx.arc(R-3,0,3.5,0,Math.PI*2);
+    cx.fillStyle='rgba(100,255,100,0.95)'; cx.shadowColor='#64ff64'; cx.shadowBlur=12; cx.fill(); cx.shadowBlur=0;
+    cx.restore();
+    cx.beginPath(); cx.arc(R,R,5,0,Math.PI*2);
+    cx.fillStyle='#64ff64'; cx.shadowColor='#64ff64'; cx.shadowBlur=20; cx.fill(); cx.shadowBlur=0;
+  }
+  function animRadar(ts){
+    sweepAng=(sweepAng+0.035)%(Math.PI*2); drawRadar();
+    if(ts-lastBeepT>700+Math.random()*400){ sfxBeep(600+Math.random()*200); lastBeepT=ts; }
+    radarRaf=requestAnimationFrame(animRadar);
+  }
+  requestAnimationFrame(animRadar);
+
+  function spawnPing(i){
+    const [dist,ang,col]=PING_POS[i%PING_POS.length];
+    const rad=ang*Math.PI/180, r=(dist/100)*138;
+    const px=150+r*Math.cos(rad), py=150+r*Math.sin(rad);
+    if(!pingWrap) return;
+    const el=document.createElement('div');
+    el.style.cssText=`position:absolute;left:${px}px;top:${py}px;width:7px;height:7px;border-radius:50%;background:${col};box-shadow:0 0 6px ${col};transform:translate(-50%,-50%);transition:opacity .5s`;
+    pingWrap.appendChild(el);
+    sfxBeep(500+i*80);
+    setTimeout(()=>{ el.style.opacity='0'; setTimeout(()=>{ try{pingWrap.removeChild(el)}catch(_){} },500); },1000);
+  }
+
+  STATUS.forEach((s,i)=>setTimeout(()=>{
+    const row=document.getElementById(s.id), val=document.getElementById(s.val);
+    if(!row||!val) return;
+    row.classList.add('active');
+    scramble(val,s.txt,200,()=>{
+      row.classList.remove('active'); row.classList.add('ok');
+      spawnPing(i);
+      const pct=Math.round(((i+1)/STATUS.length)*100);
+      const fill=document.getElementById('bs-fill'), pctEl=document.getElementById('bs-pct');
+      if(fill) fill.style.width=pct+'%'; if(pctEl) pctEl.textContent=pct+'%';
+    });
+  },s.t));
+
+  // ── t=1000: Tbox starts tracking convoy ──────────────────────────────────
+  setTimeout(()=>{
+    sfxLock(900);
+    tboxPhase=1; // tracking
+    tboxSize=180; targetZoom=1.4;
+    const rangeEl=document.getElementById('hud-range');
+    // Countdown range
+    let range=1840;
+    const rv=setInterval(()=>{
+      range-=Math.floor(8+Math.random()*4);
+      if(rangeEl) rangeEl.textContent=range.toLocaleString();
+      if(range<200){ clearInterval(rv); }
+    },80);
+  },1000);
+
+  // ── t=2000: Lock acquired, box tightens ──────────────────────────────────
+  setTimeout(()=>{
+    sfxLockOn();
+    tboxPhase=2; // locked
+    tboxSize=90;
+    targetZoom=1.9;
+    crossGap=20;
+    const tgtLabel=document.getElementById('hud-tgt-label');
+    if(tgtLabel) tgtLabel.style.opacity='1';
+    const statusEl=document.getElementById('hud-status');
+    if(statusEl){ statusEl.style.color='rgba(255,255,80,.9)'; statusEl.textContent='TARGET LOCKED'; }
+    // Box tracks target precisely from here
+    const trackIv=setInterval(()=>{
+      const txCanvas=wx(targetX), tyCanvas=wy(targetY);
+      tboxX+=(txCanvas-tboxX)*0.18;
+      tboxY+=(tyCanvas-tboxY)*0.18;
+    },16);
+    setTimeout(()=>clearInterval(trackIv),6000);
+  },2000);
+
+  // ── t=2800: Weapon release authorization ─────────────────────────────────
+  setTimeout(()=>{
+    sfxStatic(0.05,0.06);
+    const laserEl=document.getElementById('hud-laser');
+    const statusEl=document.getElementById('hud-status');
+    if(laserEl){ laserEl.style.color='rgba(255,220,50,0.95)'; laserEl.textContent='LASER: ARM'; }
+    if(statusEl){ statusEl.style.color='rgba(255,200,50,1)'; statusEl.textContent='AUTHORIZED'; }
+  },2800);
+
+  // ── t=3200: LASING / laser designation ───────────────────────────────────
+  setTimeout(()=>{
+    tboxPhase=3; // lasing — box flashes red
+    sfxLock(1600);
+    const laserEl=document.getElementById('hud-laser');
+    const laseEl=document.getElementById('hud-lase');
+    if(laserEl){ laserEl.style.color='#ff2020'; laserEl.textContent='LASER: ACTIVE'; }
+    if(laseEl) laseEl.style.opacity='1';
+    // Lasing flash
+    let lf=0;
+    const li=setInterval(()=>{
+      if(laseEl) laseEl.style.opacity=lf%2?'0.2':'1';
+      lf++;
+      if(lf>8){ clearInterval(li); if(laseEl) laseEl.style.opacity='1'; }
+    },200);
+  },3200);
+
+  // ── t=3800: RIFLE ─────────────────────────────────────────────────────────
+  setTimeout(()=>{
+    sfxRifle();
+    const rifleEl=document.getElementById('hud-rifle');
+    const statusEl=document.getElementById('hud-status');
+    if(rifleEl){ rifleEl.style.opacity='1'; rifleEl.style.transition='opacity .08s'; }
+    if(statusEl){ statusEl.style.color='#ff2020'; statusEl.textContent='RIFLE'; }
+    // Flash screen slightly with rifle signal
+    fc.style.filter='brightness(1.4)';
+    setTimeout(()=>fc.style.filter='',100);
+    // Rifle text fades
+    setTimeout(()=>{ if(rifleEl) rifleEl.style.transition='opacity 1s'; rifleEl.style.opacity='0.6'; },400);
+  },3800);
+
+  // ── t=4600: IMPACT ────────────────────────────────────────────────────────
+  setTimeout(()=>{
+    sfxImpact();
+    tboxPhase=4; // done — hide box
+    // Impact at current target canvas position
+    impactX=wx(targetX); impactY=wy(targetY);
+    impactFlash=1.8;
+    // Spawn smoke plumes
+    for(let i=0;i<25;i++){
+      const ang=Math.random()*Math.PI*2;
+      const spd=0.3+Math.random()*1.2;
+      smokes.push({
+        x:impactX+(Math.random()-0.5)*40, y:impactY+(Math.random()-0.5)*40,
+        vx:Math.cos(ang)*spd, vy:Math.sin(ang)*spd-1,
+        r:10+Math.random()*20, life:1, v:50+Math.random()*80,
+      });
+    }
+    // BDA text
+    setTimeout(()=>{
+      const bda=document.createElement('div');
+      bda.style.cssText='position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);z-index:20;font-family:Share Tech Mono,monospace;font-size:clamp(10px,1.5vw,16px);color:rgba(255,255,255,.9);letter-spacing:3px;text-align:center;text-shadow:0 0 10px #fff;pointer-events:none;opacity:0;transition:opacity .4s';
+      bda.innerHTML='BDA: TARGET DESTROYED<br><span style="font-size:.75em;color:rgba(255,200,80,.8);letter-spacing:2px">BATTLE DAMAGE CONFIRMED</span>';
+      screen.appendChild(bda);
+      requestAnimationFrame(()=>bda.style.opacity='1');
+    },500);
+
+    // HUD status
+    const statusEl=document.getElementById('hud-status');
+    const rifleEl=document.getElementById('hud-rifle');
+    const laseEl=document.getElementById('hud-lase');
+    if(statusEl){ statusEl.style.color='rgba(100,255,100,.9)'; statusEl.textContent='DIRECT HIT'; }
+    if(rifleEl) rifleEl.style.opacity='0';
+    if(laseEl) laseEl.style.opacity='0';
+
+  },4600);
+
+  // ── t=5400: TRANSITION to dashboard ──────────────────────────────────────
+  setTimeout(()=>{
+    const lockEl=document.getElementById('bs-locktext');
+    if(lockEl){
+      lockEl.classList.add('vis');
+      lockEl.style.color='#38bdf8';
+      lockEl.style.textShadow='0 0 20px #38bdf8, 0 0 40px rgba(56,189,248,.3)';
+      scramble(lockEl,'SYSTEMS ONLINE — LAUNCHING DASHBOARD',450,()=>{
+        setTimeout(()=>{
+          cancelAnimationFrame(raf);
+          cancelAnimationFrame(radarRaf);
+          // Static burst wipe
+          sfxStatic(0.08,0.3);
+          const wipe=document.createElement('div');
+          wipe.style.cssText='position:absolute;inset:0;z-index:100;pointer-events:none;background:#fff;opacity:0;transition:opacity .06s';
+          screen.appendChild(wipe);
+          requestAnimationFrame(()=>{
+            wipe.style.opacity='0.9';
+            setTimeout(()=>{
+              screen.style.transition='opacity .6s';
+              screen.style.opacity='0';
+              setTimeout(()=>{ screen.remove(); if(AC) try{AC.close()}catch(_){} },650);
+            },220);
+          });
+        },600);
+      });
+    }
+  },5400);
 
 })();
 
