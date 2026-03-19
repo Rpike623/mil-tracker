@@ -230,6 +230,13 @@
     .leaflet-control-zoom a{background:rgba(10,17,29,.85)!important;color:var(--text)!important;border-color:rgba(255,255,255,.12)!important}
     .leaflet-popup-content-wrapper,.leaflet-popup-tip{background:rgba(10,17,29,.96);color:var(--text);border:1px solid rgba(255,255,255,.12)}
     .spectra-tip{background:rgba(10,17,29,.96)!important;color:var(--text)!important;border:1px solid rgba(255,255,255,.12)!important;border-radius:12px!important;padding:8px 10px!important;box-shadow:0 12px 24px rgba(0,0,0,.35)!important}
+    .firms-emoji-marker{
+      width:22px;height:22px;display:grid;place-items:center;
+      font-size:18px;line-height:1;text-shadow:0 0 10px rgba(255,120,80,.85), 0 0 18px rgba(0,0,0,.55);
+      filter:drop-shadow(0 4px 8px rgba(0,0,0,.45));
+      transform:translate(-50%,-50%);
+      pointer-events:none;
+    }
 
     @media (max-width: 1380px){
       .workspace{grid-template-columns:300px minmax(0,1fr) 340px}
@@ -902,13 +909,21 @@
       high.forEach(p => {
         const hot = p.score >= 50;
         const col = hot ? '#ff6b7d' : '#ffb454';
-        const m = L.circleMarker([p.lat,p.lon], {radius:hot?8:6,color:col,weight:2,fillColor:col,fillOpacity:.32});
-        m.bindTooltip(`<b>FIRMS anomaly</b><br>Score ${p.score} • FRP ${p.frp.toFixed(1)} MW`, {className:'spectra-tip'});
+        const m = L.marker([p.lat,p.lon], {
+          icon: L.divIcon({
+            className:'firms-emoji-marker',
+            html: hot ? '🔥' : '♨️',
+            iconSize:[22,22],
+            iconAnchor:[11,11]
+          })
+        });
+        m.bindTooltip(`<b>🔥 FIRMS thermal anomaly</b><br>Score ${p.score} • FRP ${p.frp.toFixed(1)} MW`, {className:'spectra-tip'});
         m.on('click', () => openDetail('NASA FIRMS anomaly', `${p.zone} • score ${p.score}`, [
           {k:'FRP',v:`${p.frp.toFixed(1)} MW`},
           {k:'Brightness',v:`${p.bright.toFixed(0)} K`},
           {k:'Confidence',v:p.confidence},
           {k:'Day/Night',v:p.daynight === 'N' ? 'Night' : 'Day'},
+          {k:'Thermal marker',v:hot ? '🔥 High-confidence hotspot' : '♨️ Moderate hotspot'},
           {k:'Nearest site',v:p._nearestSite ? `${p._nearestSite.name} (${p._nearestDist.toFixed(1)} km)` : '—'},
           {k:'Time',v:`${p.date} ${p.time} UTC`}
         ], `${p.src} VIIRS near-real-time thermal anomaly.`));
