@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-03-19T14:00:22Z",
-  "version": 468,
+  "generated_utc": "2026-03-19T15:40:43Z",
+  "version": 469,
   "breaking_alert": "Task & Purpose: These are the 6 airmen killed in the KC-135 crash in Iraq",
   "naval_deployments": [
     {
@@ -613,15 +613,6 @@
       ]
     },
     {
-      "title": "USNI News Fleet and Marine Tracker: March 16, 2026",
-      "link": "https://news.usni.org/2026/03/16/usni-news-fleet-and-marine-tracker-march-16-2026",
-      "published": "Mon, 16 Mar 2026 19:43:18 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "US weighs military reinforcements as Iran war enters possible new phase",
       "link": "https://www.militarytimes.com/news/your-military/2026/03/19/us-weighs-military-reinforcements-as-iran-war-enters-possible-new-phase/",
       "published": "Thu, 19 Mar 2026 00:53:20 +0000",
@@ -641,6 +632,45 @@
       ]
     },
     {
+      "title": "Report to Congress on U.S. Munitions and Missile Defense Amid Iran Conflict",
+      "link": "https://news.usni.org/2026/03/19/report-to-congress-on-u-s-munitions-and-missile-defense-amid-iran-conflict",
+      "published": "Thu, 19 Mar 2026 14:21:49 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
+    },
+    {
+      "title": "‘It takes money to kill bad guys’: Pentagon seeks $200 billion in new funding for war in Iran",
+      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/03/19/it-takes-money-to-kill-bad-guys-pentagon-seeks-200-billion-in-new-funding-for-war-in-iran/",
+      "published": "Thu, 19 Mar 2026 15:24:59 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "A-10 Warthogs target Iranian fast-attack craft in Strait of Hormuz",
+      "link": "https://www.defensenews.com/news/your-air-force/2026/03/19/a-10-warthogs-target-iranian-fast-attack-craft-in-strait-of-hormuz/",
+      "published": "Thu, 19 Mar 2026 15:32:43 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
+    },
+    {
+      "title": "A-10 Warthogs target Iranian fast-attack craft in Strait of Hormuz",
+      "link": "https://www.militarytimes.com/news/your-air-force/2026/03/19/a-10-warthogs-target-iranian-fast-attack-craft-in-strait-of-hormuz/",
+      "published": "Thu, 19 Mar 2026 15:32:43 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
+    },
+    {
       "title": "At least 200 US troops wounded in Iran war, Pentagon says",
       "link": "https://taskandpurpose.com/news/us-troops-iran-200-wounded/",
       "published": "Tue, 17 Mar 2026 08:16:32 -0400",
@@ -654,33 +684,6 @@
       "link": "https://news.usni.org/2026/03/17/uss-gerald-r-ford-headed-to-souda-bay-for-repairs-after-fire",
       "published": "Tue, 17 Mar 2026 17:38:30 +0000",
       "source": "USNI News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "U.S. Navy to Increase Hammerhead Anti-Submarine Mine Order",
-      "link": "https://news.usni.org/2026/03/17/u-s-navy-to-increase-hammerhead-anti-submarine-mine-order",
-      "published": "Tue, 17 Mar 2026 18:52:01 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Iran war is not delaying US weapons shipments to Taiwan, officials say",
-      "link": "https://www.defensenews.com/news/pentagon-congress/2026/03/17/iran-war-is-not-delaying-us-weapons-shipments-to-taiwan-officials-say/",
-      "published": "Tue, 17 Mar 2026 19:45:58 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Israel to mount lasers on fighter jets and helicopters",
-      "link": "https://www.defensenews.com/global/mideast-africa/2026/03/18/israel-to-mount-lasers-on-fighter-jets-and-helicopters/",
-      "published": "Wed, 18 Mar 2026 11:22:36 +0000",
-      "source": "Defense News",
       "categories": [
         "deployment"
       ]
@@ -867,20 +870,22 @@
       ]
     },
     {
-      "title": "StrikeMaster to Remain in Europe following Strong International Interest",
-      "link": "https://www.navalnews.com/naval-news/2026/03/strikemaster-to-remain-in-europe-following-strong-international-interest/",
-      "published": "Tue, 17 Mar 2026 11:12:58 +0000",
-      "source": "Naval News",
+      "title": "Report to Congress on U.S. Munitions and Missile Defense Amid Iran Conflict",
+      "link": "https://news.usni.org/2026/03/19/report-to-congress-on-u-s-munitions-and-missile-defense-amid-iran-conflict",
+      "published": "Thu, 19 Mar 2026 14:21:49 +0000",
+      "source": "USNI News",
       "categories": [
+        "deployment",
         "conflict"
       ]
     },
     {
-      "title": "Soldiers remember a leader killed in Kuwait as ‘surrogate dad’",
-      "link": "https://taskandpurpose.com/news/soldiers-scramble-to-attend-funeral/",
-      "published": "Tue, 17 Mar 2026 15:01:34 -0400",
-      "source": "Task & Purpose",
+      "title": "A-10 Warthogs target Iranian fast-attack craft in Strait of Hormuz",
+      "link": "https://www.defensenews.com/news/your-air-force/2026/03/19/a-10-warthogs-target-iranian-fast-attack-craft-in-strait-of-hormuz/",
+      "published": "Thu, 19 Mar 2026 15:32:43 +0000",
+      "source": "Defense News",
       "categories": [
+        "deployment",
         "conflict"
       ]
     }
@@ -935,18 +940,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 19,
-    "conflict_articles": 9,
+    "deployment_articles": 21,
+    "conflict_articles": 12,
     "exercise_articles": 5,
     "total_articles": 50,
-    "computed_at": "2026-03-19T14:00:18.749959+00:00",
+    "computed_at": "2026-03-19T15:40:37.389437+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[Task & Purpose] These are the 6 airmen killed in the KC-135 crash in Iraq",
       "[Task & Purpose] Navy says USS Nimitz will put off retirement and stay in service into next year",
-      "[USNI News] USNI News Fleet and Marine Tracker: March 16, 2026",
       "[USNI News] North Korea Fires 10 Missiles Over Sea of Japan in Latest Multiple Rocket Launcher System Test",
-      "[Military Times] US weighs military reinforcements as Iran war enters possible new phase"
+      "[Military Times] US weighs military reinforcements as Iran war enters possible new phase",
+      "[Task & Purpose] US Apache helicopters attack Iranian militias in Iraq, Chairman of Joint Chiefs says"
     ]
   },
   "ground_intel": {
@@ -957,9 +962,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-03-19T14:00:18.750000+00:00",
+    "last_successful_update": "2026-03-19T15:40:37.389482+00:00",
     "article_count": 50,
-    "categorized_count": 29,
+    "categorized_count": 31,
     "freshest_source": "Task & Purpose",
     "freshest_title": "These are the 6 airmen killed in the KC-135 crash in Iraq",
     "freshest_published": "Mon, 16 Mar 2026 10:28:00 -0400"
