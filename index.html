@@ -39,7 +39,7 @@ body{
     radial-gradient(ellipse 700px 700px at 50% 100%, rgba(255,66,107,.08), transparent 52%),
     linear-gradient(180deg,#05060b 0%,#090f1d 45%,#0d1324 100%);
   color:var(--text);
-  height:100vh;display:flex;flex-direction:column;overflow:hidden;
+  min-height:100vh;display:flex;flex-direction:column;overflow-y:auto;overflow-x:hidden;
 }
 body::before{
   content:'';position:fixed;inset:0;
@@ -114,7 +114,7 @@ body::after{
 .clock-date .clock-time{font-size:12px}
 
 /* ── DASHBOARD GRID ── */
-.dashboard{flex:1;display:grid;grid-template-columns:1.1fr 280px 280px;grid-template-rows:1fr 1fr 1fr 220px;min-height:0;gap:0;position:relative}
+.dashboard{flex:1;display:grid;grid-template-columns:1.1fr 280px 280px;grid-template-rows:minmax(560px,76vh) minmax(260px,auto) minmax(300px,auto) minmax(260px,auto);min-height:max-content;gap:0;position:relative}
 .widget{
   background:linear-gradient(180deg, rgba(10,14,24,.92), rgba(8,10,18,.96));
   border:1px solid rgba(124,107,255,.11);
@@ -230,16 +230,35 @@ body::after{
 .brief-overlay.vis{display:flex}.brief-modal{background:linear-gradient(180deg, rgba(10,14,24,.98), rgba(6,8,14,.98));border:1px solid rgba(124,107,255,.26);border-radius:12px;width:90%;max-width:640px;max-height:85vh;overflow-y:auto;box-shadow:0 0 60px rgba(124,107,255,.15);position:relative}.brief-modal::before{content:'';position:absolute;top:0;left:0;right:0;height:1px;background:linear-gradient(90deg,transparent,rgba(59,224,255,.7),transparent)}
 .brief-head{padding:12px 16px;background:rgba(12,18,32,.9);border-bottom:1px solid rgba(124,107,255,.12);display:flex;justify-content:space-between;align-items:center;position:sticky;top:0;z-index:2}.brief-head h2{font-size:14px;color:var(--accent2);font-family:'Orbitron','Share Tech Mono',monospace;letter-spacing:2px;margin:0}.brief-body{padding:16px}.brief-section{margin-bottom:16px}.brief-section h3{font-size:11px;color:var(--accent2);font-family:'Share Tech Mono',monospace;letter-spacing:1.5px;text-transform:uppercase;margin-bottom:8px;padding-bottom:4px;border-bottom:1px solid rgba(124,107,255,.1)}.brief-stat{display:flex;justify-content:space-between;padding:4px 0;font-size:11px;border-bottom:1px solid rgba(124,107,255,.04)}.brief-stat .bs-label{color:var(--muted)}.brief-stat .bs-value{color:var(--text);font-weight:700;font-family:'Share Tech Mono',monospace}
 
-/* boot */
-.boot-screen{position:fixed;inset:0;z-index:99999;background:#02040a;display:flex;align-items:center;justify-content:center;overflow:hidden;font-family:'Share Tech Mono',monospace}
-.boot-screen::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse at center,rgba(124,107,255,.16) 0%,rgba(0,0,0,.94) 100%);pointer-events:none;z-index:1}
-.boot-screen::after{content:'';position:absolute;inset:0;background:repeating-linear-gradient(0deg,transparent,transparent 3px,rgba(0,5,16,.35) 3px,rgba(0,5,16,.35) 4px);pointer-events:none;z-index:5;animation:bs-scanroll 5s linear infinite}
+/* strike-cam boot */
+.boot-screen{position:fixed;inset:0;z-index:99999;background:#06080d;display:flex;align-items:center;justify-content:center;overflow:hidden;font-family:'Share Tech Mono',monospace}
+.boot-screen::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse at center,rgba(255,120,80,.12) 0%,rgba(0,0,0,.94) 100%);pointer-events:none;z-index:1}
+.boot-screen::after{content:'';position:absolute;inset:0;background:repeating-linear-gradient(0deg,transparent,transparent 3px,rgba(255,255,255,.06) 3px,rgba(255,255,255,.06) 4px);pointer-events:none;z-index:5;animation:bs-scanroll 5s linear infinite}
 @keyframes bs-scanroll{from{background-position:0 0}to{background-position:0 400px}}
-.bs-inner{position:relative;display:flex;align-items:center;gap:0;z-index:4;width:860px;max-width:98vw}
-.bs-left{width:180px;flex-shrink:0;display:flex;flex-direction:column;gap:5px;padding:0 16px 0 0}
-.bs-right{flex:1;display:flex;flex-direction:column;gap:6px;padding:0 0 0 16px}
-.bs-status{font-size:10px;color:var(--muted);letter-spacing:1px;text-transform:uppercase}
-.bs-locktext{font-size:11px;color:var(--accent2);letter-spacing:2px;text-transform:uppercase;animation:data-flicker 1.8s ease-in-out infinite}
+.bs-inner{position:relative;display:flex;align-items:center;justify-content:center;z-index:4;width:920px;max-width:98vw;min-height:420px}
+.bs-strikecam{position:relative;width:min(820px,92vw);height:min(470px,68vh);border:1px solid rgba(255,190,120,.18);background:radial-gradient(circle at center, rgba(255,220,160,.05), rgba(0,0,0,.86));box-shadow:0 0 50px rgba(255,130,80,.08), inset 0 0 80px rgba(255,180,100,.04);overflow:hidden}
+.bs-strikecam::before{content:'';position:absolute;inset:0;background:linear-gradient(180deg, rgba(255,255,255,.04), rgba(255,255,255,0));pointer-events:none}
+.bs-overlay-grid{position:absolute;inset:0;background-image:linear-gradient(rgba(255,210,160,.08) 1px, transparent 1px),linear-gradient(90deg, rgba(255,210,160,.08) 1px, transparent 1px);background-size:34px 34px;opacity:.28}
+.bs-crosshair{position:absolute;left:50%;top:50%;width:180px;height:180px;transform:translate(-50%,-50%)}
+.bs-crosshair::before,.bs-crosshair::after{content:'';position:absolute;background:rgba(255,220,160,.8);box-shadow:0 0 10px rgba(255,220,160,.45)}
+.bs-crosshair::before{left:50%;top:0;bottom:0;width:1px;transform:translateX(-50%)}
+.bs-crosshair::after{top:50%;left:0;right:0;height:1px;transform:translateY(-50%)}
+.bs-cross-ring{position:absolute;left:50%;top:50%;width:170px;height:170px;border:1px solid rgba(255,220,160,.55);border-radius:50%;transform:translate(-50%,-50%)}
+.bs-target{position:absolute;left:50%;top:50%;width:20px;height:20px;border-radius:50%;background:radial-gradient(circle,#ffedbd 0%, #ff9a45 55%, rgba(255,90,30,.2) 100%);transform:translate(-50%,-50%);box-shadow:0 0 24px rgba(255,150,70,.5)}
+.bs-target.locked{animation:data-flicker .3s linear 6}
+.bs-flash{position:absolute;left:50%;top:50%;width:10px;height:10px;border-radius:50%;background:rgba(255,220,160,.95);transform:translate(-50%,-50%);opacity:0;box-shadow:0 0 60px rgba(255,220,160,.95),0 0 140px rgba(255,110,40,.55)}
+.bs-flash.hit{animation:impactFlash .9s ease-out forwards}
+@keyframes impactFlash{0%{opacity:0;transform:translate(-50%,-50%) scale(.4)}20%{opacity:1;transform:translate(-50%,-50%) scale(3.2)}100%{opacity:0;transform:translate(-50%,-50%) scale(10)}}
+.bs-shock{position:absolute;left:50%;top:50%;width:20px;height:20px;border-radius:50%;border:2px solid rgba(255,180,90,.7);transform:translate(-50%,-50%);opacity:0}
+.bs-shock.hit{animation:shockwave .9s ease-out forwards}
+@keyframes shockwave{0%{opacity:.85;transform:translate(-50%,-50%) scale(.2)}100%{opacity:0;transform:translate(-50%,-50%) scale(12)}}
+.bs-status-stack{position:absolute;left:14px;top:14px;display:flex;flex-direction:column;gap:4px;z-index:6}
+.bs-status{font-size:10px;color:#ffd7b0;letter-spacing:1px;text-transform:uppercase;text-shadow:0 0 8px rgba(255,180,100,.25)}
+.bs-status.warn{color:#ffb37a}.bs-status.hot{color:#ff6f48}
+.bs-locktext{position:absolute;left:14px;bottom:14px;font-size:11px;color:#ffd7b0;letter-spacing:2px;text-transform:uppercase;animation:data-flicker 1.4s ease-in-out infinite;z-index:6}
+.bs-coords{position:absolute;right:14px;top:14px;display:flex;flex-direction:column;gap:4px;z-index:6;text-align:right}
+.bs-coord-item{font-size:10px;color:#f8dcb5;letter-spacing:1px;text-transform:uppercase}
+.bs-coord-item span{color:#8e7760}
 
 /* widgets extras */
 .widget-scan-line::after{content:'';position:absolute;left:0;right:0;height:2px;background:linear-gradient(90deg,transparent,rgba(124,107,255,.12),rgba(59,224,255,.28),rgba(124,107,255,.12),transparent);animation:widget-scan 4s linear infinite;pointer-events:none;z-index:1}
@@ -286,14 +305,24 @@ body::after{
 <!-- BOOT SCREEN -->
 <div class="boot-screen" id="bootScreen">
   <div class="bs-inner">
-    <div class="bs-left">
-      <div class="bs-status">SYSTEM READY</div>
-      <div class="bs-status">GLOBAL SIGINT GRID</div>
-      <div class="bs-status">THERMAL / ISR / NAVAL</div>
+    <div class="bs-strikecam">
+      <div class="bs-overlay-grid"></div>
+      <div class="bs-status-stack">
+        <div class="bs-status">TARGETING POD FEED</div>
+        <div class="bs-status warn">LASER RANGE: 14.2 KM</div>
+        <div class="bs-status hot">MUNITION: ARMED</div>
+      </div>
+      <div class="bs-coords">
+        <div class="bs-coord-item"><span>LAT</span> 31.4012N</div>
+        <div class="bs-coord-item"><span>LON</span> 34.3240E</div>
+        <div class="bs-coord-item"><span>WIND</span> 12KT</div>
+        <div class="bs-coord-item"><span>MODE</span> THERMAL</div>
+      </div>
+      <div class="bs-crosshair"><div class="bs-cross-ring"></div></div>
+      <div class="bs-target" id="bsTarget"></div>
+      <div class="bs-flash" id="bsFlash"></div>
+      <div class="bs-shock" id="bsShock"></div>
       <div class="bs-locktext" id="bs-locktext">TARGET LOCK — INITIALIZING</div>
-    </div>
-    <div class="bs-right">
-      <canvas id="radarCanvas" width="300" height="300" style="width:300px;height:300px;display:block;border:1px solid rgba(124,107,255,.2);border-radius:50%;background:radial-gradient(circle,rgba(124,107,255,.08),rgba(0,0,0,.7));box-shadow:0 0 40px rgba(124,107,255,.12)"></canvas>
     </div>
   </div>
 </div>
@@ -609,136 +638,14 @@ function updateMobTypeButtons(active){ document.querySelectorAll('[id^="mob-bt-"
       o.start(); o.stop(ctx.currentTime+dur);
     }catch(e){}
   }
-  function beep(f){ tone(f,0.06,'sine',0.03); }
+  function beep(f){ tone(f,0.05,'sine',0.03); }
   function lock(){ tone(1200,.12,'square',.05); setTimeout(()=>tone(1600,.2,'sine',.06),130); }
-  function sweep(){ tone(400,.4,'sawtooth',.02); }
+  function impact(){ tone(180,.2,'sawtooth',.08); setTimeout(()=>tone(90,.35,'square',.06),100); }
 
-  // ── Radar canvas ─────────────────────────────────────────────────────────
-  const canvas = document.getElementById('radarCanvas');
-  const ping_wrap = document.getElementById('radarPings');
-  const R = 150; // radius
-  let sweepAngle = 0;
-  let rafId;
-  let trails = []; // [{angle, dist, intensity}]
+  const targetEl=document.getElementById('bsTarget');
+  const flashEl=document.getElementById('bsFlash');
+  const shockEl=document.getElementById('bsShock');
 
-  function drawRadar(){
-    if(!canvas) return;
-    const ctx2 = canvas.getContext('2d');
-    const cx=R, cy=R;
-    ctx2.clearRect(0,0,300,300);
-
-    // Background disc
-    ctx2.beginPath();
-    ctx2.arc(cx,cy,R-1,0,Math.PI*2);
-    ctx2.fillStyle='rgba(0,10,5,0.85)';
-    ctx2.fill();
-
-    // Concentric rings
-    [0.25,0.5,0.75,1].forEach(f=>{
-      ctx2.beginPath();
-      ctx2.arc(cx,cy,(R-1)*f,0,Math.PI*2);
-      ctx2.strokeStyle=`rgba(0,255,65,${f===1?0.25:0.08})`;
-      ctx2.lineWidth=f===1?1.5:0.5;
-      ctx2.stroke();
-    });
-
-    // Cross hairs
-    ctx2.strokeStyle='rgba(0,255,65,0.08)';
-    ctx2.lineWidth=0.5;
-    [[cx,1,cx,299],[1,cy,299,cy]].forEach(([x1,y1,x2,y2])=>{
-      ctx2.beginPath(); ctx2.moveTo(x1,y1); ctx2.lineTo(x2,y2); ctx2.stroke();
-    });
-    // Diagonal
-    ctx2.strokeStyle='rgba(0,255,65,0.04)';
-    [[cx-R*.707,cy-R*.707,cx+R*.707,cy+R*.707],[cx+R*.707,cy-R*.707,cx-R*.707,cy+R*.707]].forEach(([x1,y1,x2,y2])=>{
-      ctx2.beginPath(); ctx2.moveTo(x1,y1); ctx2.lineTo(x2,y2); ctx2.stroke();
-    });
-
-    // Sweep trail (fade sectors behind sweep)
-    const trailSpan = Math.PI * 0.6;
-    const grad = ctx2.createConicalGradient ? null : null; // fallback
-    // Draw trail as arc fill
-    ctx2.save();
-    ctx2.beginPath();
-    ctx2.moveTo(cx,cy);
-    ctx2.arc(cx,cy,R-2,sweepAngle-trailSpan,sweepAngle,false);
-    ctx2.closePath();
-    const fillGrad = ctx2.createRadialGradient(cx,cy,0,cx,cy,R-2);
-    fillGrad.addColorStop(0,'rgba(0,255,65,0.0)');
-    fillGrad.addColorStop(1,'rgba(0,255,65,0.04)');
-    ctx2.fillStyle=fillGrad;
-    ctx2.fill();
-    ctx2.restore();
-
-    // Sweep line
-    ctx2.save();
-    ctx2.translate(cx,cy);
-    ctx2.rotate(sweepAngle);
-    const lineGrad=ctx2.createLinearGradient(0,0,R-2,0);
-    lineGrad.addColorStop(0,'rgba(0,255,65,0)');
-    lineGrad.addColorStop(0.6,'rgba(0,255,65,0.3)');
-    lineGrad.addColorStop(1,'rgba(0,255,65,0.9)');
-    ctx2.beginPath();
-    ctx2.moveTo(0,0);
-    ctx2.lineTo(R-2,0);
-    ctx2.strokeStyle=lineGrad;
-    ctx2.lineWidth=2;
-    ctx2.stroke();
-    // Bright tip
-    ctx2.beginPath();
-    ctx2.arc(R-3,0,2.5,0,Math.PI*2);
-    ctx2.fillStyle='rgba(0,255,65,0.9)';
-    ctx2.fill();
-    ctx2.restore();
-
-    // Center dot
-    ctx2.beginPath();
-    ctx2.arc(cx,cy,4,0,Math.PI*2);
-    ctx2.fillStyle='#00ff41';
-    ctx2.shadowColor='#00ff41';
-    ctx2.shadowBlur=10;
-    ctx2.fill();
-    ctx2.shadowBlur=0;
-  }
-
-  let lastBeep=0;
-  function animateRadar(ts){
-    const speed = 0.035;
-    sweepAngle = (sweepAngle + speed) % (Math.PI*2);
-    drawRadar();
-    // Occasional beep on sweep
-    if(ts-lastBeep>800+Math.random()*400){ tone(900+Math.random()*200,.04,'sine',.015); lastBeep=ts; }
-    rafId = requestAnimationFrame(animateRadar);
-  }
-  requestAnimationFrame(animateRadar);
-
-  // ── Spawn radar pings ─────────────────────────────────────────────────────
-  const PING_LOCATIONS = [
-    // [%from center, angle from center in degrees, color]
-    [55, 30,  '#00ff41'], // NE
-    [70, 120, '#00ff41'], // SE
-    [40, 200, '#f97316'], // SW warm
-    [80, 270, '#ef4444'], // W hot
-    [60, 340, '#00ff41'], // NNW
-    [30, 80,  '#22d3ee'], // ENE blue
-    [75, 155, '#00ff41'], // SSE
-    [50, 245, '#f97316'], // WSW
-  ];
-  let pingIdx=0;
-  function spawnPing(i){
-    const [dist, ang, col] = PING_LOCATIONS[i % PING_LOCATIONS.length];
-    const rad = (ang * Math.PI/180);
-    const cx=150, cy=150, r=(dist/100)*(150-10);
-    const x = cx + r*Math.cos(rad);
-    const y = cy + r*Math.sin(rad);
-    const dot = document.createElement('div');
-    dot.style.cssText=`position:absolute;left:${x}px;top:${y}px;width:6px;height:6px;border-radius:50%;background:${col};box-shadow:0 0 6px ${col};transform:translate(-50%,-50%);`;
-    dot.className='radar-ping';
-    dot.style.color=col;
-    ping_wrap.appendChild(dot);
-    beep(700+i*80);
-    setTimeout(()=>{ try{ping_wrap.removeChild(dot)}catch(e){} }, 2000);
-  }
 
   // ── Countdown number scramble ────────────────────────────────────────────
   const CHARS='ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789@#$%^&*';
@@ -758,87 +665,24 @@ function updateMobTypeButtons(active){ document.querySelectorAll('[id^="mob-bt-"
     },40);
   }
 
-  // ── Status items ─────────────────────────────────────────────────────────
-  const STATUS_ITEMS = [
-    { id:'bsi-0', val:'bsv-0', ok:'LOCKED',   warn:null,  delay:400  },
-    { id:'bsi-1', val:'bsv-1', ok:'AES-256',  warn:null,  delay:700  },
-    { id:'bsi-2', val:'bsv-2', ok:'LVL 5 ✓',  warn:null,  delay:1000 },
-    { id:'bsi-3', val:'bsv-3', ok:'ACTIVE',   warn:null,  delay:1350 },
-    { id:'bsi-4', val:'bsv-4', ok:'6 FEEDS',  warn:null,  delay:1650 },
-    { id:'bsi-5', val:'bsv-5', ok:'v40 ✓',    warn:null,  delay:1900 },
-    { id:'bsi-6', val:'bsv-6', ok:'USGS ✓',   warn:null,  delay:2150 },
-    { id:'bsi-7', val:'bsv-7', ok:'ISS ✓',    warn:null,  delay:2350 },
-    { id:'bsi-8', val:'bsv-8', ok:'NOMINAL',  warn:null,  delay:2600 },
-    { id:'bsi-9', val:'bsv-9', ok:'READY',    warn:null,  delay:2850 },
+  // ── Strike-cam boot sequence ────────────────────────────────────────────
+  const timeline = [
+    [250, () => beep(820)],
+    [650, () => targetEl && targetEl.classList.add('locked')],
+    [900, () => lock()],
+    [1200, () => scramble(document.getElementById('bs-locktext'), 'TARGET LOCK — STABLE', 260)],
+    [1700, () => scramble(document.getElementById('bs-locktext'), 'WEAPON AWAY', 220)],
+    [2050, () => impact()],
+    [2100, () => flashEl && flashEl.classList.add('hit')],
+    [2140, () => shockEl && shockEl.classList.add('hit')],
+    [2600, () => scramble(document.getElementById('bs-locktext'), 'BDA CONFIRMED — LOADING WARFLOOR', 360)],
+    [3600, () => {
+      screen.style.transition='opacity 0.7s ease-out';
+      screen.style.opacity='0';
+      setTimeout(()=>{ screen.remove(); if(ctx)ctx.close(); }, 700);
+    }]
   ];
-
-  // ── Coordinate scramble ──────────────────────────────────────────────────
-  const COORD_FINALS = [
-    ['bsc-0', 'LAT 32.7254°N'],
-    ['bsc-1', 'LON 97.3208°W'],
-    ['bsc-2', 'ALT  412  km'],
-    ['bsc-3', 'UTC '+new Date().toUTCString().slice(17,25)],
-    ['bsc-4', 'SIG ████████'],
-    ['bsc-5', 'ENC AES-256'],
-    ['bsc-6', 'SAT 14 FIXED'],
-    ['bsc-7', 'THR DEFCON 3'],
-    ['bsc-8', 'TRK SCANNING'],
-    ['bsc-9', 'FLT GLOBAL'],
-  ];
-
-  // Start coord scramble gradually
-  COORD_FINALS.forEach(([id, txt], i) => {
-    setTimeout(() => {
-      const el = document.getElementById(id);
-      if(!el) return;
-      el.classList.add('active');
-      scramble(el, txt, 500);
-    }, 300 + i*280);
-  });
-
-  // Activate status items
-  STATUS_ITEMS.forEach((item,i)=>{
-    setTimeout(()=>{
-      const row = document.getElementById(item.id);
-      const val = document.getElementById(item.val);
-      if(!row||!val) return;
-      row.classList.add('active');
-      scramble(val, item.ok, 300, ()=>{
-        row.classList.remove('active');
-        row.classList.add('ok');
-        beep(1000+i*50);
-        // Update progress
-        const pct = Math.round(((i+1)/STATUS_ITEMS.length)*100);
-        const fill = document.getElementById('bs-fill');
-        const pctEl = document.getElementById('bs-pct');
-        if(fill) fill.style.width=pct+'%';
-        if(pctEl) pctEl.textContent=pct+'%';
-      });
-    }, item.delay);
-  });
-
-  // ── Lock-on finale ───────────────────────────────────────────────────────
-  const totalTime = STATUS_ITEMS[STATUS_ITEMS.length-1].delay + 800;
-  setTimeout(()=>{
-    lock();
-    const lockEl = document.getElementById('bs-locktext');
-    if(lockEl){
-      lockEl.classList.add('vis');
-      scramble(lockEl, 'SYSTEMS ONLINE — LAUNCHING DASHBOARD', 600, ()=>{
-        // Glitch flash
-        screen.classList.add('boot-glitch');
-        tone(200,.08,'sawtooth',.08);
-        setTimeout(()=>screen.classList.remove('boot-glitch'),200);
-        // Fade out
-        setTimeout(()=>{
-          cancelAnimationFrame(rafId);
-          screen.style.transition='opacity 0.7s ease-out';
-          screen.style.opacity='0';
-          setTimeout(()=>{ screen.remove(); if(ctx)ctx.close(); }, 700);
-        }, 600);
-      });
-    }
-  }, totalTime);
+  timeline.forEach(([t, fn]) => setTimeout(fn, t));
 
 })();
 
