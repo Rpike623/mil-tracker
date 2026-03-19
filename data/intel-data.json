@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-03-19T11:25:45Z",
-  "version": 466,
+  "generated_utc": "2026-03-19T12:33:35Z",
+  "version": 467,
   "breaking_alert": "Task & Purpose: These are the 6 airmen killed in the KC-135 crash in Iraq",
   "naval_deployments": [
     {
@@ -939,7 +939,7 @@
     "conflict_articles": 8,
     "exercise_articles": 5,
     "total_articles": 50,
-    "computed_at": "2026-03-19T11:25:45.123110+00:00",
+    "computed_at": "2026-03-19T12:33:16.472172+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[Task & Purpose] These are the 6 airmen killed in the KC-135 crash in Iraq",
@@ -957,55 +957,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-03-19T11:25:45.123158+00:00",
+    "last_successful_update": "2026-03-19T12:33:16.472218+00:00",
     "article_count": 50,
     "categorized_count": 29,
     "freshest_source": "Task & Purpose",
     "freshest_title": "These are the 6 airmen killed in the KC-135 crash in Iraq",
     "freshest_published": "Mon, 16 Mar 2026 10:28:00 -0400"
   },
-  "_firms_hotspots": [
-    {
-      "lat": 35.6892,
-      "lon": 51.389,
-      "bright": 367,
-      "frp": 42.5,
-      "confidence": "h",
-      "daynight": "N",
-      "date": "2026-03-19",
-      "time": "1015",
-      "sat": "N20",
-      "zone": "Iran",
-      "src": "VIIRS_NOAA20",
-      "score": 78
-    },
-    {
-      "lat": 32.6546,
-      "lon": 51.668,
-      "bright": 352,
-      "frp": 18.2,
-      "confidence": "h",
-      "daynight": "N",
-      "date": "2026-03-19",
-      "time": "1018",
-      "sat": "SNPP",
-      "zone": "Iran",
-      "src": "VIIRS_SNPP",
-      "score": 54
-    },
-    {
-      "lat": 27.1832,
-      "lon": 56.2666,
-      "bright": 341,
-      "frp": 11.1,
-      "confidence": "n",
-      "daynight": "N",
-      "date": "2026-03-19",
-      "time": "1022",
-      "sat": "N20",
-      "zone": "Gulf",
-      "src": "VIIRS_NOAA20",
-      "score": 36
-    }
-  ]
+  "_firms_hotspots": []
 }
