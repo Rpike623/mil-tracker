@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-03-19T15:40:43Z",
-  "version": 469,
+  "generated_utc": "2026-03-19T16:43:24Z",
+  "version": 470,
   "breaking_alert": "Task & Purpose: These are the 6 airmen killed in the KC-135 crash in Iraq",
   "naval_deployments": [
     {
@@ -928,23 +928,14 @@
       "categories": [
         "exercise"
       ]
-    },
-    {
-      "title": "US Air Force special operations seeks kamikaze drones",
-      "link": "https://www.militarytimes.com/unmanned/2026/03/18/us-air-force-special-operations-seeks-kamikaze-drones/",
-      "published": "Wed, 18 Mar 2026 20:21:07 +0000",
-      "source": "Military Times",
-      "categories": [
-        "exercise"
-      ]
     }
   ],
   "_threat_indicators": {
     "deployment_articles": 21,
     "conflict_articles": 12,
-    "exercise_articles": 5,
+    "exercise_articles": 4,
     "total_articles": 50,
-    "computed_at": "2026-03-19T15:40:37.389437+00:00",
+    "computed_at": "2026-03-19T16:43:20.246617+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[Task & Purpose] These are the 6 airmen killed in the KC-135 crash in Iraq",
@@ -962,9 +953,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-03-19T15:40:37.389482+00:00",
+    "last_successful_update": "2026-03-19T16:43:20.246660+00:00",
     "article_count": 50,
-    "categorized_count": 31,
+    "categorized_count": 30,
     "freshest_source": "Task & Purpose",
     "freshest_title": "These are the 6 airmen killed in the KC-135 crash in Iraq",
     "freshest_published": "Mon, 16 Mar 2026 10:28:00 -0400"
