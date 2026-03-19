@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-03-19T20:24:16Z",
-  "version": 474,
+  "generated_utc": "2026-03-19T21:23:43Z",
+  "version": 475,
   "breaking_alert": "Task & Purpose: These are the 6 airmen killed in the KC-135 crash in Iraq",
   "naval_deployments": [
     {
@@ -921,17 +921,6 @@
       ]
     },
     {
-      "title": "Turkey deploys third NATO Patriot system to repel Iranian missiles",
-      "link": "https://www.defensenews.com/global/europe/2026/03/18/turkey-deploys-third-nato-patriot-system-to-repel-iranian-missiles/",
-      "published": "Wed, 18 Mar 2026 14:31:00 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment",
-        "exercise",
-        "conflict"
-      ]
-    },
-    {
       "title": "US Air Force special operations seeks kamikaze drones",
       "link": "https://www.defensenews.com/unmanned/2026/03/18/us-air-force-special-operations-seeks-kamikaze-drones/",
       "published": "Wed, 18 Mar 2026 20:21:07 +0000",
@@ -942,11 +931,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 21,
-    "conflict_articles": 14,
-    "exercise_articles": 5,
+    "deployment_articles": 24,
+    "conflict_articles": 12,
+    "exercise_articles": 4,
     "total_articles": 50,
-    "computed_at": "2026-03-19T20:24:07.632163+00:00",
+    "computed_at": "2026-03-19T21:23:21.087958+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[Task & Purpose] These are the 6 airmen killed in the KC-135 crash in Iraq",
@@ -964,9 +953,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-03-19T20:24:07.632204+00:00",
+    "last_successful_update": "2026-03-19T21:23:21.088005+00:00",
     "article_count": 50,
-    "categorized_count": 31,
+    "categorized_count": 33,
     "freshest_source": "Task & Purpose",
     "freshest_title": "These are the 6 airmen killed in the KC-135 crash in Iraq",
     "freshest_published": "Mon, 16 Mar 2026 10:28:00 -0400"
