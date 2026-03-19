@@ -239,19 +239,29 @@ body::after{
 .bs-strikecam{position:relative;width:100%;height:100%;background:#000;overflow:hidden}
 .bs-overlay-grid{position:absolute;inset:0;background-image:linear-gradient(rgba(255,210,160,.06) 1px, transparent 1px),linear-gradient(90deg, rgba(255,210,160,.06) 1px, transparent 1px);background-size:40px 40px;opacity:.35}
 .bs-vignette{position:absolute;inset:0;background:radial-gradient(circle at center, transparent 30%, rgba(0,0,0,.7) 100%);pointer-events:none;z-index:3}
-.bs-crosshair{position:absolute;left:50%;top:50%;width:240px;height:240px;transform:translate(-50%,-50%);z-index:4}
-.bs-crosshair::before,.bs-crosshair::after{content:'';position:absolute;background:rgba(255,220,160,.7)}
-.bs-crosshair::before{left:50%;top:0;bottom:0;width:1px;transform:translateX(-50%);box-shadow:0 0 6px rgba(255,220,160,.3)}
-.bs-crosshair::after{top:50%;left:0;right:0;height:1px;transform:translateY(-50%);box-shadow:0 0 6px rgba(255,220,160,.3)}
-.bs-cross-ring{position:absolute;left:50%;top:50%;width:200px;height:200px;border:1.5px solid rgba(255,220,160,.45);border-radius:50%;transform:translate(-50%,-50%)}
-.bs-cross-ring-inner{position:absolute;left:50%;top:50%;width:100px;height:100px;border:1px solid rgba(255,220,160,.25);border-radius:50%;transform:translate(-50%,-50%)}
-.bs-cross-tick{position:absolute;background:rgba(255,220,160,.6);z-index:5}
-.bs-cross-tick.top{left:50%;top:calc(50% - 120px);width:1px;height:16px;transform:translateX(-50%)}
-.bs-cross-tick.bot{left:50%;bottom:calc(50% - 120px);width:1px;height:16px;transform:translateX(-50%)}
-.bs-cross-tick.lft{top:50%;left:calc(50% - 120px);height:1px;width:16px;transform:translateY(-50%)}
-.bs-cross-tick.rgt{top:50%;right:calc(50% - 120px);height:1px;width:16px;transform:translateY(-50%)}
-.bs-target{position:absolute;left:50%;top:50%;width:14px;height:14px;border-radius:50%;background:radial-gradient(circle,#ffe8c0 0%, #ff9a45 60%, rgba(255,90,30,0) 100%);transform:translate(-50%,-50%);box-shadow:0 0 20px rgba(255,160,80,.45);z-index:4;transition:all .3s ease}
-.bs-target.locked{width:10px;height:10px;box-shadow:0 0 30px rgba(255,120,40,.7),0 0 60px rgba(255,90,30,.3)}
+/* square reticle like real FLIR/TGP footage */
+.bs-reticle{position:absolute;left:50%;top:50%;width:160px;height:160px;transform:translate(-50%,-50%);z-index:4}
+.bs-reticle-box{position:absolute;inset:0;border:1.5px solid rgba(255,220,160,.55)}
+.bs-reticle-inner{position:absolute;left:50%;top:50%;width:80px;height:80px;border:1px solid rgba(255,220,160,.3);transform:translate(-50%,-50%)}
+/* crosshair lines extending beyond the box */
+.bs-reticle::before,.bs-reticle::after{content:'';position:absolute;background:rgba(255,220,160,.6)}
+.bs-reticle::before{left:50%;top:-40px;bottom:-40px;width:1px;transform:translateX(-50%)}
+.bs-reticle::after{top:50%;left:-40px;right:-40px;height:1px;transform:translateY(-50%)}
+/* corner brackets */
+.bs-corner{position:absolute;width:20px;height:20px;z-index:5}
+.bs-corner::before,.bs-corner::after{content:'';position:absolute;background:rgba(255,220,160,.75)}
+.bs-corner.tl{top:-1px;left:-1px}.bs-corner.tl::before{top:0;left:0;width:20px;height:2px}.bs-corner.tl::after{top:0;left:0;width:2px;height:20px}
+.bs-corner.tr{top:-1px;right:-1px}.bs-corner.tr::before{top:0;right:0;width:20px;height:2px}.bs-corner.tr::after{top:0;right:0;width:2px;height:20px}
+.bs-corner.bl{bottom:-1px;left:-1px}.bs-corner.bl::before{bottom:0;left:0;width:20px;height:2px}.bs-corner.bl::after{bottom:0;left:0;width:2px;height:20px}
+.bs-corner.br{bottom:-1px;right:-1px}.bs-corner.br::before{bottom:0;right:0;width:20px;height:2px}.bs-corner.br::after{bottom:0;right:0;width:2px;height:20px}
+/* "building" target — white-hot blob like FLIR footage */
+.bs-building{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);z-index:3;width:46px;height:28px;background:linear-gradient(180deg, rgba(255,240,210,.35) 0%, rgba(255,220,170,.2) 60%, rgba(255,200,140,.08) 100%);border-radius:2px;box-shadow:0 0 20px rgba(255,210,160,.15), 0 8px 16px rgba(255,180,120,.08)}
+.bs-building::before{content:'';position:absolute;left:6px;top:-12px;width:10px;height:12px;background:rgba(255,240,220,.25);border-radius:1px}
+.bs-building::after{content:'';position:absolute;right:8px;top:-8px;width:8px;height:8px;background:rgba(255,235,210,.2);border-radius:1px}
+.bs-ground{position:absolute;left:calc(50% - 80px);top:calc(50% + 14px);width:160px;height:40px;background:linear-gradient(180deg, rgba(255,210,160,.04), rgba(255,200,140,.02));z-index:2}
+/* target marker — the laser spot */
+.bs-target{position:absolute;left:50%;top:50%;width:8px;height:8px;border-radius:50%;background:#fff;transform:translate(-50%,-50%);box-shadow:0 0 16px rgba(255,220,180,.6),0 0 40px rgba(255,180,120,.25);z-index:4;transition:all .3s ease}
+.bs-target.locked{box-shadow:0 0 24px rgba(255,180,100,.8),0 0 60px rgba(255,140,60,.4)}
 .bs-flash{position:absolute;left:50%;top:50%;width:6px;height:6px;border-radius:50%;background:#fff;transform:translate(-50%,-50%);opacity:0;z-index:10}
 .bs-flash.hit{animation:impactFlash 1.2s ease-out forwards}
 @keyframes impactFlash{0%{opacity:0;width:6px;height:6px;box-shadow:none}8%{opacity:1;width:6px;height:6px;box-shadow:0 0 80px #fff,0 0 160px rgba(255,200,120,.8)}30%{opacity:.95;width:600px;height:600px;margin-left:-300px;margin-top:-300px;border-radius:50%;box-shadow:0 0 200px #fff,0 0 400px rgba(255,160,60,.5)}100%{opacity:0;width:1200px;height:1200px;margin-left:-600px;margin-top:-600px;box-shadow:none}}
@@ -275,6 +285,17 @@ body::after{
 .bs-coord-item.vis{opacity:1}
 .bs-coord-item span{color:#8e7760;margin-right:4px}
 .bs-timestamp{position:absolute;right:18px;bottom:18px;font-size:10px;color:rgba(255,220,180,.5);letter-spacing:1px;z-index:6}
+/* secondary fireball — lingers after initial flash */
+.bs-fireball{position:absolute;left:50%;top:50%;width:30px;height:30px;border-radius:50%;transform:translate(-50%,-50%);opacity:0;z-index:9;
+  background:radial-gradient(circle, rgba(255,200,100,.9) 0%, rgba(255,140,40,.7) 30%, rgba(255,80,20,.3) 60%, transparent 100%);
+  box-shadow:0 0 40px rgba(255,160,60,.6),0 0 80px rgba(255,100,30,.3)}
+.bs-fireball.hit{animation:fireballGrow 2s ease-out forwards}
+@keyframes fireballGrow{0%{opacity:0;width:30px;height:30px}10%{opacity:1;width:120px;height:100px;margin-left:-60px;margin-top:-50px}40%{opacity:.8;width:180px;height:140px;margin-left:-90px;margin-top:-70px}100%{opacity:0;width:260px;height:200px;margin-left:-130px;margin-top:-100px}}
+/* smoke column rising */
+.bs-smoke{position:absolute;left:50%;top:50%;width:60px;height:10px;transform:translate(-50%,-50%);opacity:0;z-index:8;
+  background:radial-gradient(ellipse, rgba(180,160,140,.4), rgba(120,100,80,.15), transparent 70%);filter:blur(4px)}
+.bs-smoke.hit{animation:smokeRise 3s ease-out .3s forwards}
+@keyframes smokeRise{0%{opacity:0;width:60px;height:10px;margin-top:0}20%{opacity:.6;width:100px;height:80px;margin-left:-50px;margin-top:-60px}100%{opacity:0;width:200px;height:300px;margin-left:-100px;margin-top:-280px}}
 .bs-whiteout{position:absolute;inset:0;background:#fff;opacity:0;z-index:20;pointer-events:none}
 .bs-whiteout.flash{animation:whiteout .6s ease-out forwards}
 @keyframes whiteout{0%{opacity:0}15%{opacity:.85}100%{opacity:0}}
@@ -343,18 +364,23 @@ body::after{
         <div class="bs-coord-item" id="bsC4"><span>WIND</span> 12 KT NW</div>
         <div class="bs-coord-item" id="bsC5"><span>MODE</span> WHT HOT</div>
       </div>
-      <div class="bs-crosshair">
-        <div class="bs-cross-ring"></div>
-        <div class="bs-cross-ring-inner"></div>
+      <div class="bs-ground"></div>
+      <div class="bs-building"></div>
+      <div class="bs-reticle">
+        <div class="bs-reticle-box">
+          <div class="bs-corner tl"></div>
+          <div class="bs-corner tr"></div>
+          <div class="bs-corner bl"></div>
+          <div class="bs-corner br"></div>
+        </div>
+        <div class="bs-reticle-inner"></div>
       </div>
-      <div class="bs-cross-tick top"></div>
-      <div class="bs-cross-tick bot"></div>
-      <div class="bs-cross-tick lft"></div>
-      <div class="bs-cross-tick rgt"></div>
       <div class="bs-target" id="bsTarget"></div>
       <div class="bs-flash" id="bsFlash"></div>
       <div class="bs-shock" id="bsShock"></div>
       <div class="bs-shock2" id="bsShock2"></div>
+      <div class="bs-fireball" id="bsFireball"></div>
+      <div class="bs-smoke" id="bsSmoke"></div>
       <div class="bs-whiteout" id="bsWhiteout"></div>
       <div class="bs-locktext" id="bs-locktext">TGP INITIALIZING</div>
       <div class="bs-timestamp" id="bsTimestamp"></div>
@@ -754,6 +780,13 @@ function updateMobTypeButtons(active){ document.querySelectorAll('[id^="mob-bt-"
       shockEl && shockEl.classList.add('hit');
       shock2El && shock2El.classList.add('hit');
       whiteoutEl && whiteoutEl.classList.add('flash');
+      const fireballEl=document.getElementById('bsFireball');
+      const smokeEl=document.getElementById('bsSmoke');
+      fireballEl && fireballEl.classList.add('hit');
+      smokeEl && smokeEl.classList.add('hit');
+      // hide the building on impact
+      const bldg=cam?.querySelector('.bs-building');
+      if(bldg) bldg.style.opacity='0';
       cam && cam.classList.add('bs-screen-shake');
       spawnDebris();
       setTimeout(()=>cam && cam.classList.remove('bs-screen-shake'), 500);
