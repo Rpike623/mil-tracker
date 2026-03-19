@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-03-19T10:19:42Z",
-  "version": 465,
+  "generated_utc": "2026-03-19T11:25:45Z",
+  "version": 466,
   "breaking_alert": "Task & Purpose: These are the 6 airmen killed in the KC-135 crash in Iraq",
   "naval_deployments": [
     {
@@ -935,18 +935,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 10,
-    "conflict_articles": 5,
+    "deployment_articles": 19,
+    "conflict_articles": 8,
     "exercise_articles": 5,
-    "total_articles": 20,
-    "computed_at": "2026-03-19T10:19:42Z",
-    "manual_override": "DEFCON_3",
+    "total_articles": 50,
+    "computed_at": "2026-03-19T11:25:45.123110+00:00",
+    "manual_override": "DEFCON_2",
     "breaking_events": [
       "[Task & Purpose] These are the 6 airmen killed in the KC-135 crash in Iraq",
+      "[Task & Purpose] Navy says USS Nimitz will put off retirement and stay in service into next year",
+      "[USNI News] USNI News Fleet and Marine Tracker: March 16, 2026",
       "[USNI News] North Korea Fires 10 Missiles Over Sea of Japan in Latest Multiple Rocket Launcher System Test",
-      "[Naval News] StrikeMaster to Remain in Europe following Strong International Interest",
-      "[Task & Purpose] Soldiers remember a leader killed in Kuwait as ‘surrogate dad’",
-      "[Defense News] Turkey deploys third NATO Patriot system to repel Iranian missiles"
+      "[Task & Purpose] Navy F-18 that got the US’s first air-to-air kill in the 21st century is taking part in the Iran War"
     ]
   },
   "ground_intel": {
@@ -957,9 +957,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-03-19T10:19:42Z",
-    "article_count": 20,
-    "categorized_count": 20,
+    "last_successful_update": "2026-03-19T11:25:45.123158+00:00",
+    "article_count": 50,
+    "categorized_count": 29,
     "freshest_source": "Task & Purpose",
     "freshest_title": "These are the 6 airmen killed in the KC-135 crash in Iraq",
     "freshest_published": "Mon, 16 Mar 2026 10:28:00 -0400"
