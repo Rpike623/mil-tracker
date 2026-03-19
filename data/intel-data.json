@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-03-19T21:23:43Z",
-  "version": 475,
+  "generated_utc": "2026-03-19T22:15:27Z",
+  "version": 476,
   "breaking_alert": "Task & Purpose: These are the 6 airmen killed in the KC-135 crash in Iraq",
   "naval_deployments": [
     {
@@ -613,15 +613,6 @@
       ]
     },
     {
-      "title": "US weighs military reinforcements as Iran war enters possible new phase",
-      "link": "https://www.militarytimes.com/news/your-military/2026/03/19/us-weighs-military-reinforcements-as-iran-war-enters-possible-new-phase/",
-      "published": "Thu, 19 Mar 2026 00:53:20 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "US Apache helicopters attack Iranian militias in Iraq, Chairman of Joint Chiefs says",
       "link": "https://taskandpurpose.com/news/military-apache-iraq-militias/",
       "published": "Thu, 19 Mar 2026 09:52:34 -0400",
@@ -684,6 +675,16 @@
       "link": "https://www.defensenews.com/news/your-air-force/2026/03/19/us-strikes-iranian-underground-missile-storage-with-5000-pound-penetrator/",
       "published": "Thu, 19 Mar 2026 18:53:17 +0000",
       "source": "Defense News",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
+    },
+    {
+      "title": "US strikes Iranian underground missile storage with 5,000-pound penetrator",
+      "link": "https://www.militarytimes.com/news/your-air-force/2026/03/19/us-strikes-iranian-underground-missile-storage-with-5000-pound-penetrator/",
+      "published": "Thu, 19 Mar 2026 18:53:17 +0000",
+      "source": "Military Times",
       "categories": [
         "deployment",
         "conflict"
@@ -931,18 +932,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 24,
+    "deployment_articles": 23,
     "conflict_articles": 12,
     "exercise_articles": 4,
     "total_articles": 50,
-    "computed_at": "2026-03-19T21:23:21.087958+00:00",
+    "computed_at": "2026-03-19T22:15:13.350282+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[Task & Purpose] These are the 6 airmen killed in the KC-135 crash in Iraq",
       "[Task & Purpose] Navy says USS Nimitz will put off retirement and stay in service into next year",
-      "[Military Times] US weighs military reinforcements as Iran war enters possible new phase",
       "[Task & Purpose] US Apache helicopters attack Iranian militias in Iraq, Chairman of Joint Chiefs says",
-      "[USNI News] Report to Congress on U.S. Munitions and Missile Defense Amid Iran Conflict"
+      "[USNI News] Report to Congress on U.S. Munitions and Missile Defense Amid Iran Conflict",
+      "[Military Times] ‘It takes money to kill bad guys’: Pentagon seeks $200 billion in new funding for war in Iran"
     ]
   },
   "ground_intel": {
@@ -953,9 +954,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-03-19T21:23:21.088005+00:00",
+    "last_successful_update": "2026-03-19T22:15:13.350329+00:00",
     "article_count": 50,
-    "categorized_count": 33,
+    "categorized_count": 32,
     "freshest_source": "Task & Purpose",
     "freshest_title": "These are the 6 airmen killed in the KC-135 crash in Iraq",
     "freshest_published": "Mon, 16 Mar 2026 10:28:00 -0400"
