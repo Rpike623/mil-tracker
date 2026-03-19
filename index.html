@@ -1257,31 +1257,35 @@ function updateMobTypeButtons(active){ document.querySelectorAll('[id^="mob-bt-"
 
   // ── t=5400: TRANSITION to dashboard ──────────────────────────────────────
   setTimeout(()=>{
-    const lockEl=document.getElementById('bs-locktext');
-    if(lockEl){
-      lockEl.classList.add('vis');
-      lockEl.style.color='#38bdf8';
-      lockEl.style.textShadow='0 0 20px #38bdf8, 0 0 40px rgba(56,189,248,.3)';
-      scramble(lockEl,'SYSTEMS ONLINE — LAUNCHING DASHBOARD',450,()=>{
-        setTimeout(()=>{
-          cancelAnimationFrame(raf);
-          cancelAnimationFrame(radarRaf);
-          // Static burst wipe
-          sfxStatic(0.08,0.3);
-          const wipe=document.createElement('div');
-          wipe.style.cssText='position:absolute;inset:0;z-index:100;pointer-events:none;background:#fff;opacity:0;transition:opacity .06s';
-          screen.appendChild(wipe);
-          requestAnimationFrame(()=>{
-            wipe.style.opacity='0.9';
-            setTimeout(()=>{
-              screen.style.transition='opacity .6s';
-              screen.style.opacity='0';
-              setTimeout(()=>{ screen.remove(); if(AC) try{AC.close()}catch(_){} },650);
-            },220);
-          });
-        },600);
-      });
+    // Create locktext dynamically (no longer in static HTML)
+    let lockEl=document.getElementById('bs-locktext');
+    if(!lockEl){
+      lockEl=document.createElement('div');
+      lockEl.id='bs-locktext';
+      lockEl.className='flir-hud';
+      lockEl.style.cssText='position:absolute;bottom:52px;left:50%;transform:translateX(-50%);z-index:16;font-family:Orbitron,monospace;font-size:13px;letter-spacing:3px;color:#38bdf8;text-shadow:0 0 20px #38bdf8,0 0 40px rgba(56,189,248,.3);pointer-events:none';
+      screen.appendChild(lockEl);
     }
+    lockEl.style.opacity='1';
+    scramble(lockEl,'SYSTEMS ONLINE — LAUNCHING DASHBOARD',450,()=>{
+      setTimeout(()=>{
+        cancelAnimationFrame(raf);
+        cancelAnimationFrame(radarRaf);
+        // Static burst wipe
+        sfxStatic(0.08,0.3);
+        const wipe=document.createElement('div');
+        wipe.style.cssText='position:absolute;inset:0;z-index:100;pointer-events:none;background:#fff;opacity:0;transition:opacity .06s';
+        screen.appendChild(wipe);
+        requestAnimationFrame(()=>{
+          wipe.style.opacity='0.9';
+          setTimeout(()=>{
+            screen.style.transition='opacity .6s';
+            screen.style.opacity='0';
+            setTimeout(()=>{ screen.remove(); if(AC) try{AC.close()}catch(_){} },650);
+          },220);
+        });
+      },600);
+    });
   },5400);
 
 })();
