@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-03-19T17:45:56Z",
-  "version": 471,
+  "generated_utc": "2026-03-19T18:38:41Z",
+  "version": 472,
   "breaking_alert": "Task & Purpose: These are the 6 airmen killed in the KC-135 crash in Iraq",
   "naval_deployments": [
     {
@@ -671,19 +671,19 @@
       ]
     },
     {
-      "title": "At least 200 US troops wounded in Iran war, Pentagon says",
-      "link": "https://taskandpurpose.com/news/us-troops-iran-200-wounded/",
-      "published": "Tue, 17 Mar 2026 08:16:32 -0400",
-      "source": "Task & Purpose",
+      "title": "US F-35 forced to make emergency landing after Iran combat mission",
+      "link": "https://www.militarytimes.com/news/your-military/2026/03/19/us-f-35-forced-to-make-emergency-landing-after-iran-combat-mission/",
+      "published": "Thu, 19 Mar 2026 18:22:36 +0000",
+      "source": "Military Times",
       "categories": [
         "deployment"
       ]
     },
     {
-      "title": "USS Gerald R. Ford Headed to Souda Bay for Repairs After Fire",
-      "link": "https://news.usni.org/2026/03/17/uss-gerald-r-ford-headed-to-souda-bay-for-repairs-after-fire",
-      "published": "Tue, 17 Mar 2026 17:38:30 +0000",
-      "source": "USNI News",
+      "title": "At least 200 US troops wounded in Iran war, Pentagon says",
+      "link": "https://taskandpurpose.com/news/us-troops-iran-200-wounded/",
+      "published": "Tue, 17 Mar 2026 08:16:32 -0400",
+      "source": "Task & Purpose",
       "categories": [
         "deployment"
       ]
@@ -941,11 +941,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 21,
+    "deployment_articles": 22,
     "conflict_articles": 11,
     "exercise_articles": 5,
     "total_articles": 50,
-    "computed_at": "2026-03-19T17:45:29.793421+00:00",
+    "computed_at": "2026-03-19T18:38:15.874371+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[Task & Purpose] These are the 6 airmen killed in the KC-135 crash in Iraq",
@@ -963,9 +963,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-03-19T17:45:29.793463+00:00",
+    "last_successful_update": "2026-03-19T18:38:15.874415+00:00",
     "article_count": 50,
-    "categorized_count": 30,
+    "categorized_count": 31,
     "freshest_source": "Task & Purpose",
     "freshest_title": "These are the 6 airmen killed in the KC-135 crash in Iraq",
     "freshest_published": "Mon, 16 Mar 2026 10:28:00 -0400"
