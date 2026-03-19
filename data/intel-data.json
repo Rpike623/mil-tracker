@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-03-19T10:27:50Z",
-  "version": 471,
-  "breaking_alert": "DAY 5: 12 US KIA TOTAL IN IRAN CONFLICT — ISRAELI F-35 DOWNS IRANIAN YAK-130 OVER TEHRAN",
+  "generated_utc": "2026-03-19T10:19:42Z",
+  "version": 465,
+  "breaking_alert": "Task & Purpose: These are the 6 airmen killed in the KC-135 crash in Iraq",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -9,7 +9,7 @@
       "country": "us",
       "status": "combat",
       "lat": 13.5,
-      "lon": 145.0,
+      "lon": 145,
       "region": "WESTERN PACIFIC / 7TH FLEET",
       "ships": "CVN-72 Abraham Lincoln, CG-52 Bunker Hill, DDG-92 Momsen, DDG-114 Ralph Johnson",
       "notes": "Conducting strikes on Southern Iran — F-35C sorties active"
@@ -31,7 +31,7 @@
       "country": "us",
       "status": "deployed",
       "lat": 34.5,
-      "lon": 30.0,
+      "lon": 30,
       "region": "EASTERN MEDITERRANEAN",
       "ships": "CVN-78 Gerald R. Ford, CG-66 Hue City, DDG-104 Sterett, DDG-110 William P. Lawrence",
       "notes": "Eastern Med deterrence — backdrop to US-Iran Geneva talks (Feb 26)"
@@ -41,8 +41,8 @@
       "type": "CSG",
       "country": "us",
       "status": "deployed",
-      "lat": 22.0,
-      "lon": 62.0,
+      "lat": 22,
+      "lon": 62,
       "region": "NORTH ARABIAN SEA / 5TH FLEET",
       "ships": "CVN-68 Nimitz, CG-57 Lake Champlain, DDG-76 Higgins, DDG-71 Ross",
       "notes": "Active strike ops vs Iran. Abraham Lincoln (CVN-72) NOT hit despite Iranian claims. F-35C + F/A-18 + Tomahawks. HIMARS ATACMS fired."
@@ -52,8 +52,8 @@
       "type": "ARG",
       "country": "us",
       "status": "deployed",
-      "lat": 37.0,
-      "lon": 15.0,
+      "lat": 37,
+      "lon": 15,
       "region": "MEDITERRANEAN SEA",
       "ships": "LHD-5 Bataan, LPD-23 Anchorage, LSD-50 Carter Hall + 26th MEU",
       "notes": "Operating with NATO partners in Mediterranean"
@@ -74,8 +74,8 @@
       "type": "SSBN",
       "country": "us",
       "status": "deployed",
-      "lat": 55.0,
-      "lon": -35.0,
+      "lat": 55,
+      "lon": -35,
       "region": "NORTH ATLANTIC (CLASSIFIED)",
       "ships": "Ohio-class SSBN (undisclosed hull)",
       "notes": "Strategic nuclear deterrence patrol"
@@ -85,8 +85,8 @@
       "type": "SSBN",
       "country": "us",
       "status": "deployed",
-      "lat": 40.0,
-      "lon": -150.0,
+      "lat": 40,
+      "lon": -150,
       "region": "PACIFIC (CLASSIFIED)",
       "ships": "Ohio-class SSBN (undisclosed hull)",
       "notes": "Strategic nuclear deterrence patrol"
@@ -168,8 +168,8 @@
     {
       "name": "GIUK Gap",
       "status": "WATCH",
-      "lat": 62.0,
-      "lon": -15.0,
+      "lat": 62,
+      "lon": -15,
       "note": "Russian submarine transit monitoring. NATO P-8 Poseidon patrols active."
     },
     {
@@ -184,8 +184,8 @@
     {
       "id": "ukraine",
       "name": "Ukraine-Russia War",
-      "lat": 49.0,
-      "lng": 32.0,
+      "lat": 49,
+      "lng": 32,
       "intensity": "HIGH",
       "status": "WAR OF ATTRITION",
       "update": "Zelenskyy-Trump call Feb 25 re: peace talks. US-Ukraine envoys meeting Geneva Feb 26. Russia recruiting 1,700+ African mercenaries. Frontlines static in Donbas."
@@ -220,7 +220,7 @@
     {
       "id": "syria",
       "name": "Syria — Post-Assad Transition",
-      "lat": 35.0,
+      "lat": 35,
       "lng": 38.5,
       "intensity": "LOW",
       "status": "TRANSITIONAL",
@@ -238,8 +238,8 @@
     {
       "id": "scs",
       "name": "South China Sea Disputes",
-      "lat": 12.0,
-      "lng": 114.0,
+      "lat": 12,
+      "lng": 114,
       "intensity": "MEDIUM",
       "status": "ELEVATED",
       "update": "PLA activity elevated near Spratlys. Philippines-China standoffs at Second Thomas Shoal continuing. Marcos Jr under pressure domestically."
@@ -342,8 +342,8 @@
     {
       "id": "finland",
       "name": "Northern Finland / Lapland",
-      "lat": 68.0,
-      "lng": 27.0,
+      "lat": 68,
+      "lng": 27,
       "radius_km": 150,
       "active": true,
       "notes": "Russian jamming from Kola Peninsula. Affecting Finnish/Norwegian airspace."
@@ -351,8 +351,8 @@
     {
       "id": "baltics",
       "name": "Baltic States",
-      "lat": 57.0,
-      "lng": 24.0,
+      "lat": 57,
+      "lng": 24,
       "radius_km": 200,
       "active": true,
       "notes": "Intermittent Russian jamming. NATO monitoring closely."
@@ -360,8 +360,8 @@
     {
       "id": "blacksea",
       "name": "Black Sea / Romania",
-      "lat": 44.0,
-      "lng": 30.0,
+      "lat": 44,
+      "lng": 30,
       "radius_km": 250,
       "active": true,
       "notes": "Spoofing incidents ongoing. Vessels reporting false positions."
@@ -379,7 +379,7 @@
       "id": "syria_iraq",
       "name": "Syria / Iraq Border",
       "lat": 34.5,
-      "lng": 41.0,
+      "lng": 41,
       "radius_km": 200,
       "active": true,
       "notes": "Multi-source jamming — US, Russian, Turkish forces all operating systems."
@@ -387,8 +387,8 @@
     {
       "id": "red_sea",
       "name": "Red Sea / Yemen",
-      "lat": 15.0,
-      "lng": 43.0,
+      "lat": 15,
+      "lng": 43,
       "radius_km": 200,
       "active": true,
       "notes": "Houthi spoofing affecting commercial shipping navigation."
@@ -396,8 +396,8 @@
     {
       "id": "taiwan",
       "name": "Taiwan Strait",
-      "lat": 24.0,
-      "lng": 120.0,
+      "lat": 24,
+      "lng": 120,
       "radius_km": 150,
       "active": true,
       "notes": "PLA jamming exercises. Intermittent disruption to civil aviation."
@@ -405,8 +405,8 @@
     {
       "id": "scs",
       "name": "South China Sea — Spratlys",
-      "lat": 10.0,
-      "lng": 114.0,
+      "lat": 10,
+      "lng": 114,
       "radius_km": 200,
       "active": true,
       "notes": "Chinese jamming around artificial islands. Philippine vessels reporting."
@@ -424,7 +424,7 @@
       "id": "iran_gulf",
       "name": "⚡ Persian Gulf / Hormuz — WARTIME JAMMING",
       "lat": 26.5,
-      "lng": 56.0,
+      "lng": 56,
       "radius_km": 300,
       "active": true,
       "notes": "ACTIVE. Iran in combat state. Full-spectrum jamming and spoofing expected across Persian Gulf, Strait of Hormuz, and Gulf of Oman. All navigation caution."
@@ -434,8 +434,8 @@
     {
       "id": "ukraine",
       "name": "Ukraine Airspace NOTAM",
-      "lat": 49.0,
-      "lng": 32.0,
+      "lat": 49,
+      "lng": 32,
       "radius_km": 500,
       "active": true,
       "type": "warzone",
@@ -454,8 +454,8 @@
     {
       "id": "redsea",
       "name": "Red Sea NOTAM",
-      "lat": 15.0,
-      "lng": 42.0,
+      "lat": 15,
+      "lng": 42,
       "radius_km": 300,
       "active": true,
       "type": "maritime_threat",
@@ -474,8 +474,8 @@
     {
       "id": "iran",
       "name": "🔴 Iran Airspace CLOSED — ACTIVE STRIKES",
-      "lat": 33.0,
-      "lng": 53.0,
+      "lat": 33,
+      "lng": 53,
       "radius_km": 600,
       "active": true,
       "type": "warzone",
@@ -484,7 +484,7 @@
     {
       "id": "taiwan",
       "name": "Taiwan Strait Notice",
-      "lat": 24.0,
+      "lat": 24,
       "lng": 120.5,
       "radius_km": 200,
       "active": true,
@@ -494,8 +494,8 @@
     {
       "id": "baltics",
       "name": "Baltic Air Policing",
-      "lat": 57.0,
-      "lng": 24.0,
+      "lat": 57,
+      "lng": 24,
       "radius_km": 200,
       "active": true,
       "type": "air_policing",
@@ -504,7 +504,7 @@
     {
       "id": "nkorea",
       "name": "North Korea Exclusion Zone",
-      "lat": 39.0,
+      "lat": 39,
       "lng": 127.5,
       "radius_km": 300,
       "active": true,
@@ -545,7 +545,7 @@
       "id": "sudan",
       "name": "Sudan Airspace NOTAM",
       "lat": 15.5,
-      "lng": 32.0,
+      "lng": 32,
       "radius_km": 400,
       "active": true,
       "type": "conflict",
@@ -554,8 +554,8 @@
     {
       "id": "myanmar",
       "name": "Myanmar Conflict Zone",
-      "lat": 19.0,
-      "lng": 96.0,
+      "lat": 19,
+      "lng": 96,
       "radius_km": 300,
       "active": true,
       "type": "conflict",
@@ -565,7 +565,7 @@
       "id": "jordan",
       "name": "🔴 Jordan — 2 Iranian Missiles Intercepted",
       "lat": 31.9,
-      "lng": 36.0,
+      "lng": 36,
       "radius_km": 150,
       "active": true,
       "type": "warzone",
@@ -695,7 +695,7 @@
         "type": "CSG",
         "location": "Eastern Mediterranean",
         "lat": 34.5,
-        "lon": 30.0,
+        "lon": 30,
         "status": "deployed",
         "escorts": "CG-66, DDG-104, DDG-110",
         "airwing": "CVW-8 (~70 aircraft)",
@@ -705,8 +705,8 @@
         "name": "CSG-9 — Nimitz (CVN-68)",
         "type": "CSG",
         "location": "North Arabian Sea",
-        "lat": 22.0,
-        "lon": 62.0,
+        "lat": 22,
+        "lon": 62,
         "status": "deployed",
         "escorts": "CG-57, DDG-76, DDG-71",
         "airwing": "CVW-17",
@@ -716,8 +716,8 @@
         "name": "ARG — Bataan (LHD-5)",
         "type": "ARG",
         "location": "Mediterranean",
-        "lat": 37.0,
-        "lon": 15.0,
+        "lat": 37,
+        "lon": 15,
         "status": "deployed",
         "escorts": "LPD-23, LSD-50",
         "airwing": "26th MEU embarked",
@@ -727,8 +727,8 @@
         "name": "Destroyers/Cruisers",
         "type": "DDG/CG",
         "location": "Red Sea / Gulf",
-        "lat": 15.0,
-        "lon": 43.0,
+        "lat": 15,
+        "lon": 43,
         "status": "deployed",
         "escorts": "Multiple DDGs",
         "airwing": "",
@@ -741,7 +741,7 @@
         "aircraft": "F-35A/B Lightning II",
         "country": "US/NATO",
         "location": "Southern Europe",
-        "lat": 46.0,
+        "lat": 46,
         "lon": 12.6,
         "notes": "NATO southern flank air superiority"
       },
@@ -935,23 +935,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 19,
-    "conflict_articles": 8,
+    "deployment_articles": 10,
+    "conflict_articles": 5,
     "exercise_articles": 5,
-    "total_articles": 50,
-    "computed_at": "2026-03-19T10:27:50.279135+00:00",
-    "manual_override": "DEFCON_1",
+    "total_articles": 20,
+    "computed_at": "2026-03-19T10:19:42Z",
+    "manual_override": "DEFCON_3",
     "breaking_events": [
-      "12 US personnel confirmed KIA in operations against Iran (Mar 4 total)",
-      "Israeli F-35 downs Iranian Yak-130 jet over Tehran — first air-to-air kill",
-      "US Submarine sinks Iranian Frigate IRIS Dena off Sri Lanka coast",
-      "IRGC Quds Force Lebanon Corps commander Daoud Alizadeh killed",
-      "Iran Death Toll: ~1,045 civilian / 1,300+ military deaths estimated",
-      "Israel Death Toll: 12 civilian / ~1,274 injured from missile barrages",
-      "Hormuz Status: BLOCKADE — IRGC fires on tankers, Brent Crude at $82.42",
-      "Cyber: US activates Op Silent Thunder against Iranian grid attacks",
-      "Internal: Khamenei funeral begins; Son targeted by assassination warnings",
-      "Lebanon: IDF ground units crossing border for 'protection zones'"
+      "[Task & Purpose] These are the 6 airmen killed in the KC-135 crash in Iraq",
+      "[USNI News] North Korea Fires 10 Missiles Over Sea of Japan in Latest Multiple Rocket Launcher System Test",
+      "[Naval News] StrikeMaster to Remain in Europe following Strong International Interest",
+      "[Task & Purpose] Soldiers remember a leader killed in Kuwait as ‘surrogate dad’",
+      "[Defense News] Turkey deploys third NATO Patriot system to repel Iranian missiles"
     ]
   },
   "ground_intel": {
@@ -960,5 +955,13 @@
     "active_conflict_count": 5,
     "nuclear_posture": 4,
     "diplomatic_breakdown": 5
+  },
+  "_pipeline_status": {
+    "last_successful_update": "2026-03-19T10:19:42Z",
+    "article_count": 20,
+    "categorized_count": 20,
+    "freshest_source": "Task & Purpose",
+    "freshest_title": "These are the 6 airmen killed in the KC-135 crash in Iraq",
+    "freshest_published": "Mon, 16 Mar 2026 10:28:00 -0400"
   }
 }

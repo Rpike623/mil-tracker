@@ -141,12 +141,69 @@ def compute_threat_indicators(news_items):
     deployment_count = sum(1 for i in news_items if 'deployment' in i.get('categories', []))
     conflict_count   = sum(1 for i in news_items if 'conflict' in i.get('categories', []))
     exercise_count   = sum(1 for i in news_items if 'exercise' in i.get('categories', []))
+
+    if conflict_count >= 8:
+        manual_override = 'DEFCON_2'
+    elif conflict_count >= 3 or deployment_count >= 8:
+        manual_override = 'DEFCON_3'
+    elif deployment_count >= 3 or exercise_count >= 5:
+        manual_override = 'DEFCON_4'
+    else:
+        manual_override = 'DEFCON_5'
+
     return {
         'deployment_articles': deployment_count,
         'conflict_articles':   conflict_count,
         'exercise_articles':   exercise_count,
         'total_articles':      len(news_items),
         'computed_at':         datetime.now(timezone.utc).isoformat(),
+        'manual_override':     manual_override,
+    }
+
+
+def summarize_breaking_headline(news_items):
+    """Generate a headline from current feed items instead of preserving stale manual text."""
+    prioritized = [
+        i for i in news_items
+        if any(cat in i.get('categories', []) for cat in ('conflict', 'deployment', 'exercise'))
+    ]
+    if not prioritized:
+        return 'No verified breaking military headline from current feeds.'
+
+    top = prioritized[0]
+    source = top.get('source', 'Feed')
+    title = re.sub(r'\s+', ' ', top.get('title', '')).strip()
+    if not title:
+        return 'No verified breaking military headline from current feeds.'
+    return f'{source}: {title}'[:220]
+
+
+def build_breaking_events(news_items, limit=5):
+    """Build a short list of fresh event bullets from current feed items."""
+    events = []
+    for item in news_items:
+        if not any(cat in item.get('categories', []) for cat in ('conflict', 'deployment', 'exercise')):
+            continue
+        source = item.get('source', 'Feed')
+        title = re.sub(r'\s+', ' ', item.get('title', '')).strip()
+        if not title:
+            continue
+        events.append(f'[{source}] {title}')
+        if len(events) >= limit:
+            break
+    return events
+
+
+def build_pipeline_status(news_items):
+    categorized = [i for i in news_items if i.get('categories')]
+    top = categorized[0] if categorized else (news_items[0] if news_items else None)
+    return {
+        'last_successful_update': datetime.now(timezone.utc).isoformat(),
+        'article_count': len(news_items),
+        'categorized_count': len(categorized),
+        'freshest_source': (top or {}).get('source'),
+        'freshest_title': (top or {}).get('title'),
+        'freshest_published': (top or {}).get('published'),
     }
 
 
@@ -196,13 +253,13 @@ def main():
     data['_naval_news_refs'] = deployment_news[:10]
     data['_conflict_news_refs'] = conflict_news[:5]
     data['_exercise_news_refs'] = exercise_news[:5]
-    # Compute new threat indicators but preserve manual_override and breaking_events if set
+
+    # Replace stale manual headlines with feed-derived freshness data
+    data['breaking_alert'] = summarize_breaking_headline(news_items)
     new_indicators = compute_threat_indicators(news_items)
-    existing_indicators = data.get('_threat_indicators', {})
-    for preserve_key in ('manual_override', 'breaking_events'):
-        if preserve_key in existing_indicators:
-            new_indicators[preserve_key] = existing_indicators[preserve_key]
+    new_indicators['breaking_events'] = build_breaking_events(news_items)
     data['_threat_indicators'] = new_indicators
+    data['_pipeline_status'] = build_pipeline_status(news_items)
 
     # ── 2. GPS jamming status (best-effort)
     print('\n[ 2/3 ] Checking GPS jamming data...')

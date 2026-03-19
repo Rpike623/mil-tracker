@@ -3,31 +3,33 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>SPECTRA // Global OSINT</title>
+  <title>SPECTRA // Global OSINT Command Center</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
   <style>
     :root{
-      --bg:#07111f;
-      --bg2:#0b1728;
-      --panel:rgba(10,18,32,.72);
-      --panel-strong:rgba(9,16,28,.88);
-      --panel-soft:rgba(255,255,255,.04);
-      --line:rgba(255,255,255,.08);
-      --line-strong:rgba(255,255,255,.14);
-      --text:#edf3ff;
-      --muted:#8ea2c2;
-      --soft:#b9c7de;
-      --accent:#78b7ff;
-      --accent2:#46e1c6;
-      --danger:#ff6b7d;
-      --warn:#ffb454;
-      --ok:#50d890;
-      --shadow:0 20px 60px rgba(0,0,0,.35);
-      --blur:blur(20px);
-      --radius:20px;
+      --bg:#040812;
+      --bg-soft:#09111f;
+      --panel:#0b1526cc;
+      --panel-strong:#0d182bf0;
+      --panel-lite:#122038d9;
+      --line:rgba(160,190,255,.14);
+      --line-strong:rgba(160,190,255,.28);
+      --text:#eef4ff;
+      --muted:#8da0c2;
+      --soft:#c8d4ea;
+      --accent:#6db5ff;
+      --accent-2:#53e4cb;
+      --danger:#ff6e86;
+      --warn:#ffbc63;
+      --ok:#5fe09f;
+      --shadow:0 24px 80px rgba(0,0,0,.42);
+      --radius:24px;
+      --radius-sm:18px;
+      --radius-xs:14px;
+      --blur:blur(18px);
     }
 
     *{box-sizing:border-box;margin:0;padding:0}
@@ -36,218 +38,241 @@
       font-family:Inter,system-ui,sans-serif;
       color:var(--text);
       background:
-        radial-gradient(circle at 10% 20%, rgba(120,183,255,.18), transparent 0 28%),
-        radial-gradient(circle at 85% 15%, rgba(70,225,198,.09), transparent 0 22%),
-        radial-gradient(circle at 60% 85%, rgba(255,107,125,.10), transparent 0 18%),
-        linear-gradient(180deg,#07111f 0%,#08111d 42%,#091625 100%);
+        radial-gradient(circle at top left, rgba(109,181,255,.18), transparent 0 26%),
+        radial-gradient(circle at 82% 12%, rgba(83,228,203,.12), transparent 0 24%),
+        radial-gradient(circle at 50% 100%, rgba(255,110,134,.10), transparent 0 30%),
+        linear-gradient(180deg,#040812 0%,#08101d 45%,#091321 100%);
       overflow:hidden;
     }
     body::before{
       content:"";
-      position:fixed;inset:0;pointer-events:none;opacity:.45;
+      position:fixed; inset:0; pointer-events:none; opacity:.45;
       background-image:
-        linear-gradient(rgba(255,255,255,.03) 1px, transparent 1px),
-        linear-gradient(90deg, rgba(255,255,255,.03) 1px, transparent 1px);
-      background-size:48px 48px;
-      mask-image:radial-gradient(circle at center, black 40%, transparent 90%);
+        linear-gradient(rgba(255,255,255,.035) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255,255,255,.035) 1px, transparent 1px);
+      background-size:44px 44px;
+      mask-image:radial-gradient(circle at center, black 38%, transparent 92%);
     }
 
-    .app{display:grid;grid-template-rows:72px 1fr;height:100vh;padding:18px;gap:16px}
+    .app{height:100vh;display:grid;grid-template-rows:auto 1fr;padding:16px;gap:14px}
 
     .topbar{
       display:flex;align-items:center;justify-content:space-between;gap:16px;
-      padding:14px 18px;border:1px solid var(--line);border-radius:24px;
+      padding:16px 18px;border:1px solid var(--line);border-radius:28px;
       background:linear-gradient(180deg, rgba(255,255,255,.08), rgba(255,255,255,.03));
-      backdrop-filter:var(--blur);box-shadow:var(--shadow);
+      backdrop-filter:var(--blur); box-shadow:var(--shadow);
     }
-    .brand{display:flex;align-items:center;gap:14px;min-width:0}
+    .brand{display:flex;align-items:center;gap:16px;min-width:0}
     .brand-mark{
-      width:42px;height:42px;border-radius:14px;display:grid;place-items:center;font-weight:800;
-      background:linear-gradient(135deg, rgba(120,183,255,.24), rgba(70,225,198,.18));
-      border:1px solid rgba(255,255,255,.12);box-shadow:inset 0 1px 0 rgba(255,255,255,.15);
+      width:48px;height:48px;border-radius:16px;display:grid;place-items:center;
+      font-size:20px;font-weight:900;letter-spacing:.04em;
+      background:linear-gradient(145deg, rgba(109,181,255,.26), rgba(83,228,203,.18));
+      border:1px solid rgba(255,255,255,.14);
+      box-shadow:inset 0 1px 0 rgba(255,255,255,.16);
     }
-    .brand-copy{min-width:0}
-    .eyebrow{font:600 11px/1 JetBrains Mono,monospace;letter-spacing:.18em;text-transform:uppercase;color:var(--accent2)}
-    .title{font-size:20px;font-weight:800;letter-spacing:-.03em}
-    .subtitle{font-size:12px;color:var(--muted);margin-top:2px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+    .eyebrow{font:700 11px/1 JetBrains Mono,monospace;letter-spacing:.22em;text-transform:uppercase;color:var(--accent-2)}
+    .title{margin-top:6px;font-size:24px;font-weight:900;letter-spacing:-.05em}
+    .subtitle{margin-top:4px;font-size:12px;color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+    .subtitle.stale{color:var(--warn)}
+    .subtitle.fresh{color:var(--accent-2)}
+    .subtitle.critical{color:var(--danger);font-weight:700}
+    .stale-banner{margin-top:10px;padding:10px 12px;border-radius:14px;border:1px solid rgba(255,188,99,.28);background:rgba(255,188,99,.10);font:700 11px/1.45 JetBrains Mono,monospace;letter-spacing:.04em;color:#ffe0b2;display:none;white-space:normal}
+    .stale-banner.show{display:block}
 
-    .top-actions{display:flex;align-items:center;gap:10px;flex-wrap:wrap;justify-content:flex-end}
+    .top-meta{display:flex;align-items:center;gap:10px;flex-wrap:wrap;justify-content:flex-end}
     .pill{
       display:inline-flex;align-items:center;gap:8px;padding:10px 12px;border-radius:999px;
-      background:rgba(255,255,255,.04);border:1px solid var(--line);color:var(--soft);font-size:12px
+      border:1px solid var(--line);background:rgba(255,255,255,.04);font-size:12px;color:var(--soft)
     }
     .pill b{color:var(--text)}
     .btn{
-      appearance:none;border:1px solid var(--line);background:rgba(255,255,255,.04);color:var(--text);
-      padding:10px 14px;border-radius:999px;font:600 12px Inter,sans-serif;cursor:pointer;
-      transition:.18s ease;display:inline-flex;align-items:center;gap:8px
+      appearance:none;border:1px solid var(--line);background:rgba(255,255,255,.05);color:var(--text);
+      border-radius:999px;padding:10px 14px;font:700 12px Inter,sans-serif;cursor:pointer;
+      display:inline-flex;align-items:center;gap:8px;transition:.18s ease
     }
-    .btn:hover{transform:translateY(-1px);border-color:rgba(255,255,255,.18);background:rgba(255,255,255,.08)}
-    .btn.on{background:rgba(120,183,255,.15);border-color:rgba(120,183,255,.45);color:#dcebff}
-    .btn.danger.on{background:rgba(255,107,125,.16);border-color:rgba(255,107,125,.45);color:#ffd7de}
+    .btn:hover{transform:translateY(-1px);border-color:var(--line-strong);background:rgba(255,255,255,.09)}
+    .btn.on{background:rgba(109,181,255,.15);border-color:rgba(109,181,255,.42);color:#dcebff}
 
-    .layout{display:grid;grid-template-columns:320px 1fr 420px;gap:16px;min-height:0}
+    .workspace{display:grid;grid-template-columns:340px minmax(0,1fr) 380px;gap:14px;min-height:0}
     .panel{
       min-height:0;border:1px solid var(--line);border-radius:var(--radius);
       background:var(--panel);backdrop-filter:var(--blur);box-shadow:var(--shadow);overflow:hidden;
     }
     .panel-inner{height:100%;display:flex;flex-direction:column;min-height:0}
     .panel-head{
-      display:flex;align-items:center;justify-content:space-between;gap:12px;
-      padding:16px 18px;border-bottom:1px solid var(--line)
+      display:flex;justify-content:space-between;align-items:flex-start;gap:12px;
+      padding:16px 18px;border-bottom:1px solid rgba(255,255,255,.08)
     }
-    .panel-head h2{font-size:13px;font-weight:800;letter-spacing:.08em;text-transform:uppercase}
+    .panel-head h2{font-size:13px;font-weight:900;letter-spacing:.12em;text-transform:uppercase}
     .panel-head .meta{font:500 11px/1 JetBrains Mono,monospace;color:var(--muted)}
     .panel-body{flex:1;min-height:0;overflow:auto}
     .panel-body::-webkit-scrollbar{width:8px;height:8px}
     .panel-body::-webkit-scrollbar-thumb{background:rgba(255,255,255,.10);border-radius:99px}
 
-    .left-stack{display:grid;grid-template-rows:auto auto 1fr;gap:16px;height:100%}
-    .right-stack{display:grid;grid-template-rows:auto auto 1fr;gap:16px;height:100%}
+    .left-rail,.right-rail{display:grid;gap:14px;min-height:0}
+    .left-rail{grid-template-rows:auto auto 1fr}
+    .right-rail{grid-template-rows:auto auto 1fr}
 
-    .stats-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;padding:16px}
+    .snapshot-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;padding:16px}
     .stat-card{
-      padding:14px;border-radius:18px;border:1px solid var(--line);background:rgba(255,255,255,.035)
+      padding:14px;border-radius:18px;border:1px solid rgba(255,255,255,.08);
+      background:linear-gradient(180deg, rgba(255,255,255,.05), rgba(255,255,255,.03));
     }
-    .stat-label{font:600 11px/1 JetBrains Mono,monospace;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
-    .stat-value{font-size:28px;font-weight:800;letter-spacing:-.05em;margin-top:8px}
-    .stat-sub{font-size:12px;color:var(--soft);margin-top:6px}
-    .danger{color:var(--danger)} .warn{color:var(--warn)} .ok{color:var(--ok)} .accent{color:var(--accent)}
+    .stat-label{font:700 10px/1 JetBrains Mono,monospace;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+    .stat-value{margin-top:10px;font-size:30px;font-weight:900;letter-spacing:-.06em}
+    .stat-sub{margin-top:7px;font-size:12px;color:var(--soft);line-height:1.35}
 
-    .ticker{padding:14px 16px;display:flex;flex-direction:column;gap:10px}
+    .alert-wrap{padding:16px}
     .alert-banner{
-      padding:14px 16px;border-radius:18px;border:1px solid rgba(255,107,125,.22);
-      background:linear-gradient(180deg, rgba(255,107,125,.14), rgba(255,107,125,.06));
+      padding:16px;border-radius:20px;border:1px solid rgba(255,110,134,.24);
+      background:linear-gradient(180deg, rgba(255,110,134,.16), rgba(255,110,134,.06));
     }
-    .alert-label{font:700 11px/1 JetBrains Mono,monospace;letter-spacing:.18em;text-transform:uppercase;color:#ffb9c4}
-    .alert-text{margin-top:8px;font-size:15px;font-weight:700;line-height:1.35}
-
-    .map-wrap{position:relative;height:100%;min-height:0;background:rgba(4,8,16,.55)}
-    #map{position:absolute;inset:0}
-    .map-top-overlay{
-      position:absolute;top:14px;left:14px;right:14px;z-index:500;display:flex;justify-content:space-between;gap:10px;pointer-events:none
-    }
-    .overlay-card{
-      pointer-events:auto;max-width:min(420px,48%);padding:14px 16px;border-radius:18px;
-      border:1px solid var(--line);background:rgba(8,14,25,.72);backdrop-filter:blur(18px)
-    }
-    .overlay-kicker{font:700 11px/1 JetBrains Mono,monospace;letter-spacing:.16em;text-transform:uppercase;color:var(--accent2)}
-    .overlay-title{margin-top:8px;font-size:18px;font-weight:800;line-height:1.1}
-    .overlay-copy{margin-top:8px;font-size:13px;color:var(--soft);line-height:1.45}
-
-    .toolbar{
-      position:absolute;left:14px;bottom:14px;z-index:500;display:flex;gap:10px;flex-wrap:wrap;max-width:70%
-    }
+    .alert-label{font:700 11px/1 JetBrains Mono,monospace;letter-spacing:.18em;text-transform:uppercase;color:#ffc0cc}
+    .alert-text{margin-top:10px;font-size:16px;font-weight:800;line-height:1.4}
 
     .list{display:flex;flex-direction:column}
-    .list-item{
-      padding:14px 16px;border-bottom:1px solid rgba(255,255,255,.06);cursor:pointer;transition:.18s ease
-    }
-    .list-item:hover{background:rgba(255,255,255,.04)}
-    .list-top{display:flex;align-items:flex-start;justify-content:space-between;gap:12px}
-    .list-title{font-size:14px;font-weight:700;line-height:1.25}
-    .list-kicker{font:600 10px/1 JetBrains Mono,monospace;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin-bottom:6px}
-    .list-copy{font-size:12px;color:var(--soft);margin-top:8px;line-height:1.45}
+    .list-item{padding:14px 16px;border-bottom:1px solid rgba(255,255,255,.06);cursor:pointer;transition:.15s ease}
+    .list-item:hover{background:rgba(255,255,255,.05)}
+    .list-kicker{font:700 10px/1 JetBrains Mono,monospace;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);margin-bottom:8px}
+    .list-top{display:flex;justify-content:space-between;gap:10px;align-items:flex-start}
+    .list-title{font-size:14px;font-weight:800;line-height:1.28}
+    .list-copy{margin-top:8px;font-size:12px;color:var(--soft);line-height:1.45}
     .tag{display:inline-flex;align-items:center;padding:5px 8px;border-radius:999px;font:700 10px/1 JetBrains Mono,monospace;letter-spacing:.08em;border:1px solid var(--line);white-space:nowrap}
-    .tag.hot{background:rgba(255,107,125,.12);color:#ffc5ce;border-color:rgba(255,107,125,.24)}
-    .tag.warn{background:rgba(255,180,84,.12);color:#ffd8a2;border-color:rgba(255,180,84,.25)}
-    .tag.ok{background:rgba(80,216,144,.10);color:#bdf3d0;border-color:rgba(80,216,144,.22)}
-    .tag.info{background:rgba(120,183,255,.10);color:#d6e8ff;border-color:rgba(120,183,255,.22)}
+    .tag.hot{background:rgba(255,110,134,.13);color:#ffd0d8;border-color:rgba(255,110,134,.26)}
+    .tag.warn{background:rgba(255,188,99,.14);color:#ffe0b2;border-color:rgba(255,188,99,.28)}
+    .tag.ok{background:rgba(95,224,159,.12);color:#caf7dc;border-color:rgba(95,224,159,.24)}
+    .tag.info{background:rgba(109,181,255,.12);color:#dbeaff;border-color:rgba(109,181,255,.22)}
 
-    .section-stack{display:flex;flex-direction:column;gap:16px;padding:16px}
-    .mini-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}
-    .mini-card{padding:14px;border-radius:18px;border:1px solid var(--line);background:rgba(255,255,255,.03)}
-    .mini-card h3{font:700 11px/1 JetBrains Mono,monospace;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin-bottom:10px}
-    .mini-card .big{font-size:26px;font-weight:800;letter-spacing:-.04em}
-    .mini-card .small{margin-top:8px;font-size:12px;color:var(--soft);line-height:1.4}
+    .center-stack{display:grid;grid-template-rows:auto 1fr auto;gap:14px;min-height:0}
+    .hero-band{
+      display:grid;grid-template-columns:1.3fr .9fr;gap:14px;
+    }
+    .hero-card,.notes-card{
+      border:1px solid var(--line);border-radius:var(--radius);padding:18px;
+      background:linear-gradient(180deg, rgba(255,255,255,.07), rgba(255,255,255,.03));
+      backdrop-filter:var(--blur);box-shadow:var(--shadow)
+    }
+    .hero-kicker,.notes-kicker{font:700 11px/1 JetBrains Mono,monospace;letter-spacing:.16em;text-transform:uppercase;color:var(--accent-2)}
+    .hero-title{margin-top:10px;font-size:30px;font-weight:900;letter-spacing:-.06em;line-height:1.02}
+    .hero-copy,.notes-copy{margin-top:10px;font-size:14px;color:var(--soft);line-height:1.55}
+
+    .map-panel{position:relative;overflow:hidden}
+    .map-wrap{position:relative;height:100%;min-height:0;background:rgba(3,8,15,.55)}
+    #map{position:absolute;inset:0}
+    .map-chrome{
+      position:absolute;top:14px;left:14px;right:14px;z-index:500;display:flex;justify-content:space-between;gap:12px;pointer-events:none
+    }
+    .map-badge{
+      pointer-events:auto;max-width:min(380px,48%);padding:14px 16px;border-radius:18px;
+      border:1px solid rgba(255,255,255,.10);background:rgba(8,14,24,.74);backdrop-filter:blur(16px)
+    }
+    .map-badge .k{font:700 10px/1 JetBrains Mono,monospace;letter-spacing:.16em;text-transform:uppercase;color:var(--muted)}
+    .map-badge .v{margin-top:8px;font-size:17px;font-weight:800;line-height:1.2}
+    .map-badge .c{margin-top:8px;font-size:12px;color:var(--soft);line-height:1.45}
+
+    .map-toolbar{
+      position:absolute;left:14px;right:14px;bottom:14px;z-index:500;display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap
+    }
+    .filters,.map-actions{display:flex;gap:10px;flex-wrap:wrap}
+
+    .footer-strip{
+      display:grid;grid-template-columns:repeat(3,1fr);gap:14px
+    }
+    .footer-card{
+      border:1px solid var(--line);border-radius:20px;padding:14px 16px;
+      background:rgba(255,255,255,.04);backdrop-filter:var(--blur)
+    }
+    .footer-card h3{font:700 10px/1 JetBrains Mono,monospace;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
+    .footer-card .big{margin-top:10px;font-size:26px;font-weight:900;letter-spacing:-.05em}
+    .footer-card .small{margin-top:8px;font-size:12px;line-height:1.4;color:var(--soft)}
+
+    .threat-grid,.intel-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;padding:16px}
+    .intel-grid{padding-top:0}
+    .mini-card{
+      padding:14px;border-radius:18px;border:1px solid rgba(255,255,255,.08);background:rgba(255,255,255,.04)
+    }
+    .mini-card h3{font:700 10px/1 JetBrains Mono,monospace;letter-spacing:.11em;text-transform:uppercase;color:var(--muted);margin-bottom:10px}
+    .mini-card .big{font-size:28px;font-weight:900;letter-spacing:-.05em}
+    .mini-card .small{margin-top:8px;font-size:12px;color:var(--soft);line-height:1.45}
+
+    .feed-stack{display:flex;flex-direction:column;gap:14px;padding:16px}
+    .feed-card{padding:14px;border-radius:18px;border:1px solid rgba(255,255,255,.08);background:rgba(255,255,255,.04)}
+    .feed-card h3{font:700 10px/1 JetBrains Mono,monospace;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin-bottom:10px}
 
     .detail{
-      position:fixed;right:18px;bottom:18px;width:min(420px,calc(100vw - 36px));max-height:72vh;z-index:1200;
-      border:1px solid var(--line-strong);border-radius:24px;background:rgba(7,13,23,.88);backdrop-filter:blur(22px);
-      box-shadow:0 24px 80px rgba(0,0,0,.45);display:none;overflow:hidden
+      position:fixed;right:18px;bottom:18px;width:min(440px,calc(100vw - 36px));max-height:74vh;z-index:1200;
+      border:1px solid var(--line-strong);border-radius:24px;background:rgba(8,14,24,.92);backdrop-filter:blur(24px);
+      box-shadow:0 28px 90px rgba(0,0,0,.46);display:none;overflow:hidden
     }
     .detail.open{display:block}
-    .detail-head{display:flex;justify-content:space-between;align-items:flex-start;gap:14px;padding:18px;border-bottom:1px solid var(--line)}
-    .detail-title{font-size:18px;font-weight:800;line-height:1.15}
+    .detail-head{display:flex;justify-content:space-between;align-items:flex-start;gap:14px;padding:18px;border-bottom:1px solid rgba(255,255,255,.08)}
+    .detail-title{font-size:18px;font-weight:900;line-height:1.12}
     .detail-sub{margin-top:6px;font-size:12px;color:var(--muted)}
     .icon-btn{width:38px;height:38px;border-radius:999px;border:1px solid var(--line);background:rgba(255,255,255,.04);color:var(--text);cursor:pointer}
-    .detail-body{padding:18px;overflow:auto;max-height:calc(72vh - 82px)}
+    .detail-body{padding:18px;overflow:auto;max-height:calc(74vh - 82px)}
     .detail-row{display:flex;justify-content:space-between;gap:12px;padding:10px 0;border-bottom:1px solid rgba(255,255,255,.06)}
     .detail-row:last-child{border-bottom:none}
-    .detail-key{font:600 11px/1 JetBrains Mono,monospace;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
-    .detail-value{font-size:13px;line-height:1.45;color:var(--text);text-align:right}
-    .detail-note{margin-top:14px;padding:14px;border-radius:16px;background:rgba(255,255,255,.04);font-size:13px;line-height:1.5;color:var(--soft)}
+    .detail-key{font:700 10px/1 JetBrains Mono,monospace;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+    .detail-value{font-size:13px;color:var(--text);line-height:1.45;text-align:right}
+    .detail-note{margin-top:14px;padding:14px;border-radius:16px;background:rgba(255,255,255,.04);font-size:13px;color:var(--soft);line-height:1.5}
 
-    .command-palette{
-      position:fixed;inset:0;background:rgba(2,6,12,.55);backdrop-filter:blur(10px);display:none;align-items:flex-start;justify-content:center;z-index:1500;padding-top:10vh
-    }
+    .command-palette{position:fixed;inset:0;background:rgba(3,7,14,.58);backdrop-filter:blur(10px);display:none;align-items:flex-start;justify-content:center;z-index:1500;padding-top:10vh}
     .command-palette.open{display:flex}
-    .command-box{width:min(720px,calc(100vw - 24px));border-radius:26px;border:1px solid var(--line-strong);background:rgba(9,16,28,.92);box-shadow:0 30px 90px rgba(0,0,0,.45);overflow:hidden}
+    .command-box{width:min(760px,calc(100vw - 24px));border-radius:24px;border:1px solid var(--line-strong);background:rgba(10,17,29,.95);box-shadow:0 30px 100px rgba(0,0,0,.5);overflow:hidden}
     .command-input{width:100%;padding:20px 22px;border:0;background:transparent;color:var(--text);font-size:18px;outline:none}
-    .command-list{border-top:1px solid var(--line);max-height:50vh;overflow:auto}
+    .command-list{border-top:1px solid rgba(255,255,255,.08);max-height:50vh;overflow:auto}
     .command-item{padding:14px 20px;display:flex;justify-content:space-between;gap:12px;cursor:pointer}
     .command-item:hover{background:rgba(255,255,255,.05)}
     .command-item small{color:var(--muted)}
 
+    .danger{color:var(--danger)} .warn{color:var(--warn)} .ok{color:var(--ok)} .accent{color:var(--accent)}
     .leaflet-container{background:#07111f}
-    .leaflet-control-zoom a{background:rgba(9,16,28,.82)!important;color:var(--text)!important;border-color:rgba(255,255,255,.12)!important}
-    .leaflet-popup-content-wrapper,.leaflet-popup-tip{background:rgba(10,18,32,.95);color:var(--text);border:1px solid rgba(255,255,255,.10)}
-    .spectra-tip{background:rgba(10,18,32,.95)!important;color:var(--text)!important;border:1px solid rgba(255,255,255,.12)!important;border-radius:12px!important;padding:8px 10px!important;box-shadow:0 12px 24px rgba(0,0,0,.35)!important}
+    .leaflet-control-zoom a{background:rgba(10,17,29,.85)!important;color:var(--text)!important;border-color:rgba(255,255,255,.12)!important}
+    .leaflet-popup-content-wrapper,.leaflet-popup-tip{background:rgba(10,17,29,.96);color:var(--text);border:1px solid rgba(255,255,255,.12)}
+    .spectra-tip{background:rgba(10,17,29,.96)!important;color:var(--text)!important;border:1px solid rgba(255,255,255,.12)!important;border-radius:12px!important;padding:8px 10px!important;box-shadow:0 12px 24px rgba(0,0,0,.35)!important}
 
-    @media (max-width: 1280px){
-      .layout{grid-template-columns:280px minmax(0,1fr) 340px}
+    @media (max-width: 1380px){
+      .workspace{grid-template-columns:300px minmax(0,1fr) 340px}
+      .hero-band{grid-template-columns:1fr}
+      .footer-strip{grid-template-columns:1fr}
     }
-    @media (max-width: 980px){
+    @media (max-width: 1080px){
       body{overflow:auto}
-      .app{height:auto;min-height:100vh;grid-template-rows:auto auto}
-      .layout{
-        grid-template-columns:1fr 1fr;
-        grid-template-areas:
-          "map map"
-          "left right";
-        align-items:start;
-      }
-      .layout > .left-stack{grid-area:left;height:auto}
-      .layout > .panel{grid-area:map;min-height:68vh}
-      .layout > .right-stack{grid-area:right;height:auto}
-      .map-wrap{min-height:68vh}
-      .toolbar{max-width:calc(100% - 28px)}
-      .overlay-card{max-width:none}
+      .app{height:auto;min-height:100vh}
+      .workspace{grid-template-columns:1fr;grid-template-areas:"center" "left" "right"}
+      .center-stack{grid-area:center}
+      .left-rail{grid-area:left}
+      .right-rail{grid-area:right}
+      .map-panel{min-height:70vh}
     }
     @media (max-width: 720px){
-      .app{padding:10px;gap:10px;grid-template-rows:auto auto}
-      .layout{
-        grid-template-columns:1fr;
-        grid-template-areas:
-          "map"
-          "left"
-          "right";
-      }
-      .topbar{padding:12px;align-items:flex-start;flex-direction:column}
-      .top-actions{width:100%;justify-content:flex-start}
-      .stats-grid,.mini-grid{grid-template-columns:1fr}
-      .map-top-overlay{flex-direction:column}
-      .overlay-card{max-width:none}
-      .toolbar{position:absolute;left:10px;right:10px;bottom:10px;padding:0;max-width:none}
-      .map-wrap{display:block;min-height:72vh}
-      #map{position:absolute;inset:0;min-height:0}
-      .left-stack,.right-stack{height:auto}
+      .app{padding:10px;gap:10px}
+      .topbar{padding:14px;align-items:flex-start;flex-direction:column}
+      .top-meta{justify-content:flex-start}
+      .snapshot-grid,.threat-grid,.intel-grid{grid-template-columns:1fr}
+      .map-chrome{flex-direction:column}
+      .map-badge{max-width:none}
+      .map-toolbar{left:10px;right:10px;bottom:10px}
+      .filters,.map-actions{width:100%}
+      .filters .btn,.map-actions .btn{flex:1;justify-content:center}
+      .title{font-size:22px}
+      .hero-title{font-size:24px}
     }
   </style>
-<!-- LAST_UPDATE: 2026-03-19T10:27:50Z -->
+  <!-- LAST_UPDATE: 2026-03-19T09:14:00Z -->
 </head>
 <body>
   <div class="app">
     <header class="topbar">
       <div class="brand">
         <div class="brand-mark">S</div>
-        <div class="brand-copy">
-          <div class="eyebrow">SPECTRA / GLOBAL OSINT PLATFORM</div>
-          <div class="title">Operational picture, cleaned up</div>
+        <div>
+          <div class="eyebrow">SPECTRA / GLOBAL OSINT COMMAND CENTER</div>
+          <div class="title">Operational picture, rebuilt for actual use</div>
           <div class="subtitle" id="generatedStamp">Waiting for live intel…</div>
         </div>
       </div>
-      <div class="top-actions">
+      <div class="top-meta">
         <div class="pill"><span>Threat</span><b id="topThreat">—</b></div>
         <div class="pill"><span>Conflicts</span><b id="topConflicts">—</b></div>
         <div class="pill"><span>FIRMS</span><b id="firms-count">OFF</b></div>
@@ -257,34 +282,34 @@
       </div>
     </header>
 
-    <main class="layout">
-      <section class="left-stack">
+    <main class="workspace">
+      <section class="left-rail">
         <div class="panel">
           <div class="panel-inner">
             <div class="panel-head">
               <h2>Strategic Snapshot</h2>
               <div class="meta" id="defconLabel">DEFCON —</div>
             </div>
-            <div class="stats-grid">
+            <div class="snapshot-grid">
               <div class="stat-card">
                 <div class="stat-label">Breaking events</div>
                 <div class="stat-value danger" id="statBreaking">0</div>
-                <div class="stat-sub">Manual indicator stack</div>
+                <div class="stat-sub">Immediate escalation signals in the stack.</div>
               </div>
               <div class="stat-card">
                 <div class="stat-label">Naval posture</div>
                 <div class="stat-value accent" id="statNaval">0</div>
-                <div class="stat-sub">Tracked deployments</div>
+                <div class="stat-sub">Tracked carrier, ARG, and fleet posture.</div>
               </div>
               <div class="stat-card">
                 <div class="stat-label">Airspace alerts</div>
                 <div class="stat-value warn" id="statNotams">0</div>
-                <div class="stat-sub">NOTAM / closure zones</div>
+                <div class="stat-sub">Closures, NOTAMs, and kinetic aviation risk.</div>
               </div>
               <div class="stat-card">
                 <div class="stat-label">EW zones</div>
                 <div class="stat-value ok" id="statGps">0</div>
-                <div class="stat-sub">GPS jamming / spoofing</div>
+                <div class="stat-sub">GPS jamming, spoofing, and interference bands.</div>
               </div>
             </div>
           </div>
@@ -296,10 +321,11 @@
               <h2>Breaking Alert</h2>
               <div class="meta">Priority signal</div>
             </div>
-            <div class="ticker">
-              <div class="alert-banner">
-                <div class="alert-label">Live</div>
+            <div class="alert-wrap">
+              <div class="alert-banner" id="alertBanner">
+                <div class="alert-label" id="alertLabel">Live</div>
                 <div class="alert-text" id="breakingAlert">Loading…</div>
+                <div class="stale-banner" id="staleBanner">This feed is stale.</div>
               </div>
             </div>
           </div>
@@ -316,42 +342,79 @@
         </div>
       </section>
 
-      <section class="panel">
-        <div class="panel-inner">
-          <div class="map-wrap">
-            <div id="map"></div>
+      <section class="center-stack">
+        <div class="hero-band">
+          <div class="hero-card">
+            <div class="hero-kicker">Primary theater</div>
+            <div class="hero-title" id="heroTitle">Loading theater…</div>
+            <div class="hero-copy" id="heroCopy">Pulling current operational summary.</div>
+          </div>
+          <div class="notes-card">
+            <div class="notes-kicker">Analyst notes</div>
+            <div class="notes-copy" id="overlayNotes">Data-driven synthesis from intel-data.json and live FIRMS overlays.</div>
+          </div>
+        </div>
 
-            <div class="map-top-overlay">
-              <div class="overlay-card">
-                <div class="overlay-kicker">Primary theater</div>
-                <div class="overlay-title" id="heroTitle">Loading theater…</div>
-                <div class="overlay-copy" id="heroCopy">Pulling current operational summary.</div>
+        <section class="panel map-panel">
+          <div class="panel-inner">
+            <div class="map-wrap">
+              <div id="map"></div>
+              <div class="map-chrome">
+                <div class="map-badge">
+                  <div class="k">Primary theater</div>
+                  <div class="v" id="heroTitleMirror">Loading theater…</div>
+                  <div class="c" id="heroCopyMirror">Pulling current operational summary.</div>
+                </div>
+                <div class="map-badge">
+                  <div class="k">Operational notes</div>
+                  <div class="v" id="topThreatMirror">Threat posture pending</div>
+                  <div class="c" id="overlayNotesMirror">Awaiting analyst synthesis.</div>
+                </div>
               </div>
-              <div class="overlay-card">
-                <div class="overlay-kicker">Operational notes</div>
-                <div class="overlay-copy" id="overlayNotes">Data-driven synthesis from intel-data.json and live FIRMS overlays.</div>
+              <div class="map-toolbar">
+                <div class="filters">
+                  <button class="btn on" data-filter="all">All</button>
+                  <button class="btn" data-filter="conflicts">Conflicts</button>
+                  <button class="btn" data-filter="naval">Naval</button>
+                  <button class="btn" data-filter="notams">Airspace</button>
+                  <button class="btn" data-filter="gps">EW</button>
+                </div>
+                <div class="map-actions">
+                  <button class="btn" id="btnRefreshMap">Sync feed</button>
+                  <button class="btn" id="btnFirmsMap">Thermal overlay</button>
+                </div>
               </div>
             </div>
+          </div>
+        </section>
 
-            <div class="toolbar">
-              <button class="btn on" data-filter="all">All</button>
-              <button class="btn" data-filter="conflicts">Conflicts</button>
-              <button class="btn" data-filter="naval">Naval</button>
-              <button class="btn" data-filter="notams">Airspace</button>
-              <button class="btn" data-filter="gps">EW</button>
-            </div>
+        <div class="footer-strip">
+          <div class="footer-card">
+            <h3>Centcom footprint</h3>
+            <div class="big" id="centcomTotal">—</div>
+            <div class="small" id="centcomSummary">Loading force posture…</div>
+          </div>
+          <div class="footer-card">
+            <h3>Naval stack</h3>
+            <div class="big accent" id="centcomNaval">—</div>
+            <div class="small">Carrier / ARG / escort posture in focus regions.</div>
+          </div>
+          <div class="footer-card">
+            <h3>Air stack</h3>
+            <div class="big warn" id="centcomAir">—</div>
+            <div class="small">Air dominance, tanker, ISR, and strike posture.</div>
           </div>
         </div>
       </section>
 
-      <section class="right-stack">
+      <section class="right-rail">
         <div class="panel">
           <div class="panel-inner">
             <div class="panel-head">
               <h2>Threat Stack</h2>
               <div class="meta">Manual override aware</div>
             </div>
-            <div class="section-stack mini-grid" id="threatGrid"></div>
+            <div class="threat-grid" id="threatGrid"></div>
           </div>
         </div>
 
@@ -368,29 +431,16 @@
         <div class="panel">
           <div class="panel-inner">
             <div class="panel-head">
-              <h2>Assets & Feed</h2>
-              <div class="meta">Naval / Air / Ground / News</div>
+              <h2>Intel Feed</h2>
+              <div class="meta">News / posture / context</div>
             </div>
             <div class="panel-body">
-              <div class="section-stack">
-                <div class="mini-card">
-                  <h3>Centcom footprint</h3>
-                  <div class="big" id="centcomTotal">—</div>
-                  <div class="small" id="centcomSummary">Loading force posture…</div>
+              <div class="feed-stack">
+                <div class="feed-card">
+                  <h3>Current posture</h3>
+                  <div class="list-copy">Use the feed below to jump straight into the freshest reporting and supporting context.</div>
                 </div>
-                <div class="mini-grid">
-                  <div class="mini-card">
-                    <h3>Naval</h3>
-                    <div class="big accent" id="centcomNaval">—</div>
-                    <div class="small">Carrier / ARG / escort posture</div>
-                  </div>
-                  <div class="mini-card">
-                    <h3>Air</h3>
-                    <div class="big warn" id="centcomAir">—</div>
-                    <div class="small">Air dominance / ISR / tanker stack</div>
-                  </div>
-                </div>
-                <div class="mini-card">
+                <div class="feed-card">
                   <h3>Latest reporting</h3>
                   <div class="list" id="newsList"></div>
                 </div>
@@ -464,12 +514,79 @@
       catch{return s;}
     }
 
+    function ageMeta(s){
+      const t = Date.parse(s || '');
+      if(!Number.isFinite(t)) return {hours:Infinity, label:'unknown age', stale:true, severe:true};
+      const hours = (Date.now() - t) / 36e5;
+      const days = Math.floor(hours / 24);
+      const remHours = Math.floor(hours % 24);
+      const label = days > 0 ? `${days}d ${remHours}h old` : `${Math.max(0, Math.floor(hours))}h old`;
+      return { hours, label, stale: hours >= 6, severe: hours >= 24 };
+    }
+
+    function staleAlertText(meta){
+      if(meta.severe) return `STALE INTEL — last feed update was ${meta.label}. Live headline suppressed until data is refreshed.`;
+      if(meta.stale) return `Aging intel — last feed update was ${meta.label}. Treat summaries as provisional.`;
+      return '';
+    }
+
     function tagClass(text=''){
       const t = String(text).toLowerCase();
       if(/critical|blockade|combat|closed|war|high|hot|active/.test(t)) return 'hot';
       if(/watch|elevated|risk|planning|warn/.test(t)) return 'warn';
       if(/normal|clear|holding|ongoing|deployed/.test(t)) return 'ok';
       return 'info';
+    }
+
+    function inferRegion(title=''){
+      const t = String(title).toLowerCase();
+      if(/iran|iraq|israel|gaza|lebanon|syria|houthi|red sea|hormuz|persian gulf/.test(t)) return 'Middle East';
+      if(/ukraine|russia|black sea|nato|baltic/.test(t)) return 'Europe';
+      if(/taiwan|south china sea|china|philippines|pacific|japan/.test(t)) return 'Indo-Pacific';
+      return 'Global';
+    }
+
+    function inferConflictMeta(title=''){
+      const t = String(title).toLowerCase();
+      if(/killed|crash|strike|attack|missile|drone|combat|war/.test(t)) return {status:'ACTIVE INCIDENT', intensity:'HIGH'};
+      if(/deploy|carrier|fleet|destroyer|submarine|exercise|drill/.test(t)) return {status:'FORCE MOVEMENT', intensity:'MEDIUM'};
+      return {status:'WATCH', intensity:'LOW'};
+    }
+
+    function deriveLiveConflicts(data){
+      const refs = [
+        ...(data._conflict_news_refs || []),
+        ...(data._naval_news_refs || [])
+      ];
+      return refs.slice(0,6).map((item, idx) => {
+        const meta = inferConflictMeta(item.title);
+        return {
+          id:`live-${idx}`,
+          name:inferRegion(item.title),
+          status:meta.status,
+          intensity:meta.intensity,
+          update:item.title,
+          summary:item.published || item.source || 'Feed item',
+          source:item.source || 'Feed',
+          link:item.link || ''
+        };
+      });
+    }
+
+    function deriveLiveChokepoints(data){
+      const refs = [
+        ...(data._naval_news_refs || []),
+        ...(data._conflict_news_refs || [])
+      ];
+      return refs.slice(0,5).map((item, idx) => ({
+        name:inferRegion(item.title),
+        status:/hormuz|red sea|missile|attack|crash|killed/i.test(item.title) ? 'HIGH RISK' : 'WATCH',
+        note:`${item.source || 'Feed'}: ${item.title}`,
+        lat:'—',
+        lon:'—',
+        link:item.link || '',
+        published:item.published || ''
+      }));
     }
 
     function defconFromIndicators(ind){
@@ -491,7 +608,8 @@
 
     function buildConflictList(data){
       const wrap = byId('conflictList');
-      wrap.innerHTML = data.conflicts.map(c => `
+      const items = deriveLiveConflicts(data);
+      wrap.innerHTML = items.map(c => `
         <div class="list-item" data-kind="conflict" data-id="${esc(c.id)}">
           <div class="list-kicker">${esc(c.name)}</div>
           <div class="list-top">
@@ -503,13 +621,12 @@
       `).join('');
       [...wrap.querySelectorAll('[data-kind="conflict"]')].forEach(el => {
         el.onclick = () => {
-          const item = data.conflicts.find(c => c.id === el.dataset.id);
+          const item = items.find(c => c.id === el.dataset.id);
           if(!item) return;
           openDetail(item.name, item.status, [
             {k:'Intensity',v:item.intensity},
-            {k:'Latitude',v:item.lat ?? '—'},
-            {k:'Longitude',v:item.lng ?? '—'},
-            {k:'Day',v:item.day ?? '—'}
+            {k:'Source',v:item.source ?? '—'},
+            {k:'Link',v:item.link || '—'}
           ], item.update || item.summary || '');
         };
       });
@@ -536,7 +653,8 @@
 
     function buildChokepoints(data){
       const wrap = byId('chokepointList');
-      wrap.innerHTML = data.chokepoints.map((c, i) => `
+      const items = deriveLiveChokepoints(data);
+      wrap.innerHTML = items.map((c, i) => `
         <div class="list-item" data-kind="cp" data-idx="${i}">
           <div class="list-kicker">${esc(c.name)}</div>
           <div class="list-top">
@@ -548,11 +666,11 @@
       `).join('');
       [...wrap.querySelectorAll('[data-kind="cp"]')].forEach(el => {
         el.onclick = () => {
-          const item = data.chokepoints[Number(el.dataset.idx)];
+          const item = items[Number(el.dataset.idx)];
           openDetail(item.name, item.status, [
-            {k:'Latitude',v:item.lat},
-            {k:'Longitude',v:item.lon},
-            {k:'Status',v:item.status}
+            {k:'Published',v:item.published || '—'},
+            {k:'Status',v:item.status},
+            {k:'Link',v:item.link || '—'}
           ], item.note || '');
         };
       });
@@ -581,12 +699,30 @@
     }
 
     function applySummary(data){
-      byId('generatedStamp').textContent = `Generated ${fmtDate(data.generated_utc)} • version ${data.version}`;
-      byId('breakingAlert').textContent = data.breaking_alert || 'No breaking alert';
-      byId('topThreat').textContent = defconFromIndicators(data._threat_indicators);
+      const freshness = ageMeta(data.generated_utc);
+      const stamp = byId('generatedStamp');
+      const staleBanner = byId('staleBanner');
+      const alertLabel = byId('alertLabel');
+      const breakingAlert = byId('breakingAlert');
+
+      stamp.textContent = `Generated ${fmtDate(data.generated_utc)} • ${freshness.label} • version ${data.version}`;
+      stamp.classList.remove('fresh','stale','critical');
+      stamp.classList.add(freshness.severe ? 'critical' : freshness.stale ? 'stale' : 'fresh');
+
+      alertLabel.textContent = freshness.stale ? 'Stale feed' : 'Live';
+      staleBanner.textContent = staleAlertText(freshness);
+      staleBanner.classList.toggle('show', freshness.stale);
+
+      breakingAlert.textContent = freshness.severe
+        ? `INTEL FEED IS OUTDATED — source snapshot is ${freshness.label}. Refresh the underlying data pipeline before trusting operational headlines.`
+        : freshness.stale
+          ? `AGING INTEL — source snapshot is ${freshness.label}. ${data.breaking_alert || 'No current breaking headline.'}`
+          : (data.breaking_alert || 'No breaking alert');
+
+      byId('topThreat').textContent = freshness.severe ? 'STALE FEED' : defconFromIndicators(data._threat_indicators);
       byId('topConflicts').textContent = data.conflicts?.length || 0;
-      byId('defconLabel').textContent = defconFromIndicators(data._threat_indicators);
-      byId('statBreaking').textContent = data._threat_indicators?.breaking_events?.length || 0;
+      byId('defconLabel').textContent = freshness.severe ? 'STALE FEED' : defconFromIndicators(data._threat_indicators);
+      byId('statBreaking').textContent = freshness.severe ? '!' : (data._threat_indicators?.breaking_events?.length || 0);
       byId('statNaval').textContent = data.naval_deployments?.length || 0;
       byId('statNotams').textContent = data.notams?.length || 0;
       byId('statGps').textContent = data.gps_zones?.length || 0;
@@ -594,13 +730,32 @@
         const rank = s => /critical|war|combat/i.test((s.intensity||'') + ' ' + (s.status||'')) ? 3 : /high|elevated/i.test((s.intensity||'') + ' ' + (s.status||'')) ? 2 : 1;
         return rank(b) - rank(a);
       })[0];
-      byId('heroTitle').textContent = hero ? hero.name : 'No primary theater';
-      byId('heroCopy').textContent = hero ? (hero.update || hero.summary || hero.status) : 'No active theater loaded.';
-      byId('overlayNotes').textContent = `Manual override: ${defconFromIndicators(data._threat_indicators)}. ${data.centcom_assets?.summary || 'CENTCOM summary unavailable.'}`;
-      byId('centcomTotal').textContent = data.centcom_assets?.troops_total || '—';
-      byId('centcomSummary').textContent = data.centcom_assets?.summary || 'No CENTCOM summary.';
-      byId('centcomNaval').textContent = data.centcom_assets?.naval?.length || 0;
-      byId('centcomAir').textContent = data.centcom_assets?.air?.length || 0;
+      const pipeline = data._pipeline_status || {};
+      const freshestSource = pipeline.freshest_source || 'Feed';
+      const freshestTitle = pipeline.freshest_title || 'No fresh headline summary available.';
+      const freshestPublished = pipeline.freshest_published || 'Unknown publish time';
+      const heroTitle = freshness.stale
+        ? 'Stale intelligence snapshot'
+        : `${freshestSource} headline`;
+      const heroCopy = freshness.stale
+        ? `Current dashboard content is ${freshness.label}. Refresh source data before using this for decisions.`
+        : `${freshestTitle} Published: ${freshestPublished}.`;
+      const overlayCopy = freshness.stale
+        ? `Feed age: ${freshness.label}. Old conflict banners and war-state text are being treated as stale until the intel source is regenerated.`
+        : `Fresh feed mode. Primary theater cards are now driven by current feed output instead of legacy curated conflict summaries. Threat posture: ${defconFromIndicators(data._threat_indicators)}.`;
+      byId('heroTitle').textContent = heroTitle;
+      byId('heroCopy').textContent = heroCopy;
+      byId('heroTitleMirror').textContent = heroTitle;
+      byId('heroCopyMirror').textContent = heroCopy;
+      byId('overlayNotes').textContent = overlayCopy;
+      byId('overlayNotesMirror').textContent = overlayCopy;
+      byId('topThreatMirror').textContent = freshness.severe ? 'Stale feed' : defconFromIndicators(data._threat_indicators);
+      byId('centcomTotal').textContent = data._pipeline_status?.article_count || '—';
+      byId('centcomSummary').textContent = freshness.stale
+        ? 'Feed stale — refresh source data to rebuild posture summary.'
+        : `Freshest sourced item: ${freshestSource}. ${freshestTitle}`;
+      byId('centcomNaval').textContent = data._naval_news_refs?.length || 0;
+      byId('centcomAir').textContent = data._conflict_news_refs?.length || 0;
     }
 
     function initMap(){
@@ -848,7 +1003,9 @@
     function wireUI(){
       byId('detailClose').onclick = () => byId('detailPanel').classList.remove('open');
       byId('btnRefresh').onclick = loadData;
+      byId('btnRefreshMap').onclick = loadData;
       byId('btnFirms').onclick = toggleFIRMS;
+      byId('btnFirmsMap').onclick = toggleFIRMS;
       byId('btnPalette').onclick = openPalette;
       document.querySelectorAll('[data-filter]').forEach(btn => btn.onclick = () => applyFilter(btn.dataset.filter));
       byId('palette').onclick = e => { if(e.target === byId('palette')) closePalette(); };
