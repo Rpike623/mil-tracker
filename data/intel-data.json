@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-03-18T22:20:21Z",
-  "version": 462,
+  "generated_utc": "2026-03-18T23:20:14Z",
+  "version": 463,
   "breaking_alert": "DAY 5: 12 US KIA TOTAL IN IRAN CONFLICT — ISRAELI F-35 DOWNS IRANIAN YAK-130 OVER TEHRAN",
   "naval_deployments": [
     {
@@ -667,19 +667,19 @@
       ]
     },
     {
-      "title": "Iran war is not delaying US weapons shipments to Taiwan, officials say",
-      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/03/17/iran-war-is-not-delaying-us-weapons-shipments-to-taiwan-officials-say/",
-      "published": "Tue, 17 Mar 2026 19:45:58 +0000",
+      "title": "US carrier Ford to go to port temporarily after fire",
+      "link": "https://www.militarytimes.com/news/your-military/2026/03/17/us-carrier-ford-to-go-to-port-temporarily-after-fire/",
+      "published": "Tue, 17 Mar 2026 21:49:35 +0000",
       "source": "Military Times",
       "categories": [
         "deployment"
       ]
     },
     {
-      "title": "US carrier Ford to go to port temporarily after fire",
-      "link": "https://www.militarytimes.com/news/your-military/2026/03/17/us-carrier-ford-to-go-to-port-temporarily-after-fire/",
-      "published": "Tue, 17 Mar 2026 21:49:35 +0000",
-      "source": "Military Times",
+      "title": "Israel to mount lasers on fighter jets and helicopters",
+      "link": "https://www.defensenews.com/global/mideast-africa/2026/03/18/israel-to-mount-lasers-on-fighter-jets-and-helicopters/",
+      "published": "Wed, 18 Mar 2026 11:22:36 +0000",
+      "source": "Defense News",
       "categories": [
         "deployment"
       ]
@@ -935,11 +935,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 18,
+    "deployment_articles": 19,
     "conflict_articles": 6,
     "exercise_articles": 5,
     "total_articles": 50,
-    "computed_at": "2026-03-18T22:20:21.100908+00:00",
+    "computed_at": "2026-03-18T23:20:13.838099+00:00",
     "manual_override": "DEFCON_1",
     "breaking_events": [
       "12 US personnel confirmed KIA in operations against Iran (Mar 4 total)",
