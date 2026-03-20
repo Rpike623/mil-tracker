@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-03-20T21:19:05Z",
-  "version": 496,
+  "generated_utc": "2026-03-20T22:15:09Z",
+  "version": 497,
   "breaking_alert": "Military Times: USS Boxer and 11th Marine Expeditionary Unit deploy to Middle East",
   "naval_deployments": [
     {
@@ -905,7 +905,7 @@
     "conflict_articles": 9,
     "exercise_articles": 1,
     "total_articles": 50,
-    "computed_at": "2026-03-20T21:18:56.584018+00:00",
+    "computed_at": "2026-03-20T22:14:58.812208+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[Military Times] USS Boxer and 11th Marine Expeditionary Unit deploy to Middle East",
@@ -923,7 +923,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-03-20T21:18:56.584063+00:00",
+    "last_successful_update": "2026-03-20T22:14:58.812252+00:00",
     "article_count": 50,
     "categorized_count": 23,
     "freshest_source": "Military Times",
