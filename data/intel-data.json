@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-03-20T22:15:09Z",
-  "version": 497,
+  "generated_utc": "2026-03-20T23:17:44Z",
+  "version": 498,
   "breaking_alert": "Military Times: USS Boxer and 11th Marine Expeditionary Unit deploy to Middle East",
   "naval_deployments": [
     {
@@ -659,15 +659,6 @@
       ]
     },
     {
-      "title": "Navy says USS Nimitz will put off retirement and stay in service into next year",
-      "link": "https://taskandpurpose.com/news/navy-nimitz-extension/",
-      "published": "Mon, 16 Mar 2026 16:56:31 -0400",
-      "source": "Task & Purpose",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "US Apache helicopters attack Iranian militias in Iraq, Chairman of Joint Chiefs says",
       "link": "https://taskandpurpose.com/news/military-apache-iraq-militias/",
       "published": "Thu, 19 Mar 2026 09:52:34 -0400",
@@ -685,6 +676,15 @@
       "categories": [
         "deployment",
         "conflict"
+      ]
+    },
+    {
+      "title": "At least 200 US troops wounded in Iran war, Pentagon says",
+      "link": "https://taskandpurpose.com/news/us-troops-iran-200-wounded/",
+      "published": "Tue, 17 Mar 2026 08:16:32 -0400",
+      "source": "Task & Purpose",
+      "categories": [
+        "deployment"
       ]
     }
   ],
@@ -891,6 +891,24 @@
   ],
   "_exercise_news_refs": [
     {
+      "title": "US countered drone threat over ‘strategic’ installation in early hours of Operation Epic Fury: Guillot",
+      "link": "https://www.defensenews.com/news/your-military/2026/03/20/us-countered-drone-threat-over-strategic-installation-in-early-hours-of-operation-epic-fury-guillot/",
+      "published": "Fri, 20 Mar 2026 22:55:10 +0000",
+      "source": "Defense News",
+      "categories": [
+        "exercise"
+      ]
+    },
+    {
+      "title": "US countered drone threat over ‘strategic’ installation in early hours of Operation Epic Fury: Guillot",
+      "link": "https://www.militarytimes.com/news/your-military/2026/03/20/us-countered-drone-threat-over-strategic-installation-in-early-hours-of-operation-epic-fury-guillot/",
+      "published": "Fri, 20 Mar 2026 22:55:10 +0000",
+      "source": "Military Times",
+      "categories": [
+        "exercise"
+      ]
+    },
+    {
       "title": "NATO Forces Wrap Arctic Warfare Cold Response 26 Drills",
       "link": "https://news.usni.org/2026/03/19/nato-forces-wrap-arctic-warfare-cold-response-26-drills",
       "published": "Thu, 19 Mar 2026 16:49:23 +0000",
@@ -901,11 +919,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 17,
+    "deployment_articles": 16,
     "conflict_articles": 9,
-    "exercise_articles": 1,
+    "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-03-20T22:14:58.812208+00:00",
+    "computed_at": "2026-03-20T23:17:11.475390+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[Military Times] USS Boxer and 11th Marine Expeditionary Unit deploy to Middle East",
@@ -923,9 +941,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-03-20T22:14:58.812252+00:00",
+    "last_successful_update": "2026-03-20T23:17:11.475431+00:00",
     "article_count": 50,
-    "categorized_count": 23,
+    "categorized_count": 24,
     "freshest_source": "Military Times",
     "freshest_title": "USS Boxer and 11th Marine Expeditionary Unit deploy to Middle East",
     "freshest_published": "Fri, 20 Mar 2026 15:22:04 +0000"
