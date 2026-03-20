@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-03-19T23:18:30Z",
-  "version": 477,
+  "generated_utc": "2026-03-20T01:00:24Z",
+  "version": 478,
   "breaking_alert": "Task & Purpose: These are the 6 airmen killed in the KC-135 crash in Iraq",
   "naval_deployments": [
     {
@@ -941,10 +941,10 @@
   ],
   "_threat_indicators": {
     "deployment_articles": 23,
-    "conflict_articles": 11,
-    "exercise_articles": 6,
+    "conflict_articles": 10,
+    "exercise_articles": 5,
     "total_articles": 50,
-    "computed_at": "2026-03-19T23:18:23.273115+00:00",
+    "computed_at": "2026-03-20T01:00:21.343326+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[Task & Purpose] These are the 6 airmen killed in the KC-135 crash in Iraq",
@@ -962,9 +962,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-03-19T23:18:23.273156+00:00",
+    "last_successful_update": "2026-03-20T01:00:21.343367+00:00",
     "article_count": 50,
-    "categorized_count": 34,
+    "categorized_count": 32,
     "freshest_source": "Task & Purpose",
     "freshest_title": "These are the 6 airmen killed in the KC-135 crash in Iraq",
     "freshest_published": "Mon, 16 Mar 2026 10:28:00 -0400"
