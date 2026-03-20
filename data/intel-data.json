@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-03-20T14:34:52Z",
-  "version": 489,
-  "breaking_alert": "Task & Purpose: Navy says USS Nimitz will put off retirement and stay in service into next year",
+  "generated_utc": "2026-03-20T15:32:03Z",
+  "version": 490,
+  "breaking_alert": "Military Times: USS Boxer and 11th Marine Expeditionary Unit deploy to Middle East",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -594,6 +594,15 @@
   ],
   "_naval_news_refs": [
     {
+      "title": "USS Boxer and 11th Marine Expeditionary Unit deploy to Middle East",
+      "link": "https://www.militarytimes.com/news/your-military/2026/03/20/uss-boxer-and-11th-marine-expeditionary-unit-deploy-to-middle-east/",
+      "published": "Fri, 20 Mar 2026 15:22:04 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "Navy says USS Nimitz will put off retirement and stay in service into next year",
       "link": "https://taskandpurpose.com/news/navy-nimitz-extension/",
       "published": "Mon, 16 Mar 2026 16:56:31 -0400",
@@ -617,16 +626,6 @@
       "link": "https://news.usni.org/2026/03/19/report-to-congress-on-u-s-munitions-and-missile-defense-amid-iran-conflict",
       "published": "Thu, 19 Mar 2026 14:21:49 +0000",
       "source": "USNI News",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
-      "title": "US strikes Iranian underground missile storage with 5,000-pound penetrator",
-      "link": "https://www.defensenews.com/news/your-air-force/2026/03/19/us-strikes-iranian-underground-missile-storage-with-5000-pound-penetrator/",
-      "published": "Thu, 19 Mar 2026 18:53:17 +0000",
-      "source": "Defense News",
       "categories": [
         "deployment",
         "conflict"
@@ -859,16 +858,6 @@
       ]
     },
     {
-      "title": "US strikes Iranian underground missile storage with 5,000-pound penetrator",
-      "link": "https://www.defensenews.com/news/your-air-force/2026/03/19/us-strikes-iranian-underground-missile-storage-with-5000-pound-penetrator/",
-      "published": "Thu, 19 Mar 2026 18:53:17 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
       "title": "China Not Committed to 2027 Taiwan Invasion, U.S. Intel Report Says",
       "link": "https://news.usni.org/2026/03/19/china-not-committed-to-2027-taiwan-invasion-u-s-intel-report-says",
       "published": "Thu, 19 Mar 2026 20:05:51 +0000",
@@ -882,6 +871,15 @@
       "link": "https://www.navalnews.com/naval-news/2026/03/strikemaster-to-remain-in-europe-following-strong-international-interest/",
       "published": "Tue, 17 Mar 2026 11:12:58 +0000",
       "source": "Naval News",
+      "categories": [
+        "conflict"
+      ]
+    },
+    {
+      "title": "Soldiers remember a leader killed in Kuwait as ‘surrogate dad’",
+      "link": "https://taskandpurpose.com/news/soldiers-scramble-to-attend-funeral/",
+      "published": "Tue, 17 Mar 2026 15:01:34 -0400",
+      "source": "Task & Purpose",
       "categories": [
         "conflict"
       ]
@@ -918,17 +916,17 @@
   ],
   "_threat_indicators": {
     "deployment_articles": 19,
-    "conflict_articles": 7,
+    "conflict_articles": 6,
     "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-03-20T14:34:43.133675+00:00",
+    "computed_at": "2026-03-20T15:31:57.069702+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
+      "[Military Times] USS Boxer and 11th Marine Expeditionary Unit deploy to Middle East",
       "[Task & Purpose] Navy says USS Nimitz will put off retirement and stay in service into next year",
       "[Task & Purpose] US Apache helicopters attack Iranian militias in Iraq, Chairman of Joint Chiefs says",
       "[USNI News] Report to Congress on U.S. Munitions and Missile Defense Amid Iran Conflict",
-      "[USNI News] NATO Forces Wrap Arctic Warfare Cold Response 26 Drills",
-      "[Defense News] US strikes Iranian underground missile storage with 5,000-pound penetrator"
+      "[USNI News] NATO Forces Wrap Arctic Warfare Cold Response 26 Drills"
     ]
   },
   "ground_intel": {
@@ -939,12 +937,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-03-20T14:34:43.133743+00:00",
+    "last_successful_update": "2026-03-20T15:31:57.069749+00:00",
     "article_count": 50,
     "categorized_count": 26,
-    "freshest_source": "Task & Purpose",
-    "freshest_title": "Navy says USS Nimitz will put off retirement and stay in service into next year",
-    "freshest_published": "Mon, 16 Mar 2026 16:56:31 -0400"
+    "freshest_source": "Military Times",
+    "freshest_title": "USS Boxer and 11th Marine Expeditionary Unit deploy to Middle East",
+    "freshest_published": "Fri, 20 Mar 2026 15:22:04 +0000"
   },
   "_firms_hotspots": []
 }
