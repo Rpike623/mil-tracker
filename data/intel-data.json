@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-03-20T19:29:29Z",
-  "version": 494,
+  "generated_utc": "2026-03-20T20:18:34Z",
+  "version": 495,
   "breaking_alert": "Military Times: USS Boxer and 11th Marine Expeditionary Unit deploy to Middle East",
   "naval_deployments": [
     {
@@ -630,6 +630,15 @@
       ]
     },
     {
+      "title": "Air Force first to upgrade records for troops discharged over COVID vax refusal",
+      "link": "https://www.militarytimes.com/news/your-military/2026/03/20/air-force-first-to-upgrade-records-for-troops-discharged-over-covid-vax-refusal/",
+      "published": "Fri, 20 Mar 2026 19:42:21 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "Navy says USS Nimitz will put off retirement and stay in service into next year",
       "link": "https://taskandpurpose.com/news/navy-nimitz-extension/",
       "published": "Mon, 16 Mar 2026 16:56:31 -0400",
@@ -659,28 +668,19 @@
       ]
     },
     {
-      "title": "Two US counter-mine ships based in the Middle East are now in Singapore, Navy says",
-      "link": "https://www.defensenews.com/news/your-navy/2026/03/19/two-us-counter-mine-ships-based-in-the-middle-east-are-now-in-singapore-navy-says/",
-      "published": "Thu, 19 Mar 2026 22:34:57 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Two US counter-mine ships based in the Middle East are now in Singapore, Navy says",
-      "link": "https://www.militarytimes.com/news/your-navy/2026/03/19/two-us-counter-mine-ships-based-in-the-middle-east-are-now-in-singapore-navy-says/",
-      "published": "Thu, 19 Mar 2026 22:34:57 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "At least 200 US troops wounded in Iran war, Pentagon says",
       "link": "https://taskandpurpose.com/news/us-troops-iran-200-wounded/",
       "published": "Tue, 17 Mar 2026 08:16:32 -0400",
       "source": "Task & Purpose",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "U.S. Navy to Increase Hammerhead Anti-Submarine Mine Order",
+      "link": "https://news.usni.org/2026/03/17/u-s-navy-to-increase-hammerhead-anti-submarine-mine-order",
+      "published": "Tue, 17 Mar 2026 18:52:01 +0000",
+      "source": "USNI News",
       "categories": [
         "deployment"
       ]
@@ -903,30 +903,21 @@
       "categories": [
         "exercise"
       ]
-    },
-    {
-      "title": "Apache helicopter shoots down drones in Europe for first time in combat exercise",
-      "link": "https://www.militarytimes.com/news/your-military/2026/03/19/apache-helicopter-shoots-down-drones-in-europe-for-first-time-in-combat-exercise/",
-      "published": "Thu, 19 Mar 2026 22:43:19 +0000",
-      "source": "Military Times",
-      "categories": [
-        "exercise"
-      ]
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 17,
+    "deployment_articles": 16,
     "conflict_articles": 6,
-    "exercise_articles": 3,
+    "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-03-20T19:29:23.928754+00:00",
+    "computed_at": "2026-03-20T20:18:27.929654+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Military Times] USS Boxer and 11th Marine Expeditionary Unit deploy to Middle East",
       "[Defense News] Ukraine deploys units to 5 Middle East countries to intercept drones",
       "[Military Times] Ukraine deploys units to 5 Middle East countries to intercept drones",
       "[Defense News] Two suspected Iranian spies reportedly arrested near UK submarine base",
-      "[Task & Purpose] Navy says USS Nimitz will put off retirement and stay in service into next year"
+      "[Military Times] Air Force first to upgrade records for troops discharged over COVID vax refusal"
     ]
   },
   "ground_intel": {
@@ -937,9 +928,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-03-20T19:29:23.928794+00:00",
+    "last_successful_update": "2026-03-20T20:18:27.929697+00:00",
     "article_count": 50,
-    "categorized_count": 24,
+    "categorized_count": 22,
     "freshest_source": "Military Times",
     "freshest_title": "USS Boxer and 11th Marine Expeditionary Unit deploy to Middle East",
     "freshest_published": "Fri, 20 Mar 2026 15:22:04 +0000"
