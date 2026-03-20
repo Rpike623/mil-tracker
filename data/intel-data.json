@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-03-20T20:18:34Z",
-  "version": 495,
+  "generated_utc": "2026-03-20T21:19:05Z",
+  "version": 496,
   "breaking_alert": "Military Times: USS Boxer and 11th Marine Expeditionary Unit deploy to Middle East",
   "naval_deployments": [
     {
@@ -639,6 +639,26 @@
       ]
     },
     {
+      "title": "UK approves US use of British bases to strike Iran missile sites targeting ships",
+      "link": "https://www.defensenews.com/news/your-military/2026/03/20/uk-approves-us-use-of-british-bases-to-strike-iran-missile-sites-targeting-ships/",
+      "published": "Fri, 20 Mar 2026 20:14:36 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
+    },
+    {
+      "title": "UK approves US use of British bases to strike Iran missile sites targeting ships",
+      "link": "https://www.militarytimes.com/news/your-military/2026/03/20/uk-approves-us-use-of-british-bases-to-strike-iran-missile-sites-targeting-ships/",
+      "published": "Fri, 20 Mar 2026 20:14:36 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
+    },
+    {
       "title": "Navy says USS Nimitz will put off retirement and stay in service into next year",
       "link": "https://taskandpurpose.com/news/navy-nimitz-extension/",
       "published": "Mon, 16 Mar 2026 16:56:31 -0400",
@@ -665,24 +685,6 @@
       "categories": [
         "deployment",
         "conflict"
-      ]
-    },
-    {
-      "title": "At least 200 US troops wounded in Iran war, Pentagon says",
-      "link": "https://taskandpurpose.com/news/us-troops-iran-200-wounded/",
-      "published": "Tue, 17 Mar 2026 08:16:32 -0400",
-      "source": "Task & Purpose",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "U.S. Navy to Increase Hammerhead Anti-Submarine Mine Order",
-      "link": "https://news.usni.org/2026/03/17/u-s-navy-to-increase-hammerhead-anti-submarine-mine-order",
-      "published": "Tue, 17 Mar 2026 18:52:01 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment"
       ]
     }
   ],
@@ -838,6 +840,35 @@
   },
   "_conflict_news_refs": [
     {
+      "title": "UK approves US use of British bases to strike Iran missile sites targeting ships",
+      "link": "https://www.defensenews.com/news/your-military/2026/03/20/uk-approves-us-use-of-british-bases-to-strike-iran-missile-sites-targeting-ships/",
+      "published": "Fri, 20 Mar 2026 20:14:36 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
+    },
+    {
+      "title": "UK approves US use of British bases to strike Iran missile sites targeting ships",
+      "link": "https://www.militarytimes.com/news/your-military/2026/03/20/uk-approves-us-use-of-british-bases-to-strike-iran-missile-sites-targeting-ships/",
+      "published": "Fri, 20 Mar 2026 20:14:36 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
+    },
+    {
+      "title": "U.S. Forces Strike Suspected Narco Boat in the Eastern Pacific",
+      "link": "https://news.usni.org/2026/03/20/u-s-forces-strike-suspected-narco-boat-in-eastern-pacific",
+      "published": "Fri, 20 Mar 2026 20:53:20 +0000",
+      "source": "USNI News",
+      "categories": [
+        "conflict"
+      ]
+    },
+    {
       "title": "US Apache helicopters attack Iranian militias in Iraq, Chairman of Joint Chiefs says",
       "link": "https://taskandpurpose.com/news/military-apache-iraq-militias/",
       "published": "Thu, 19 Mar 2026 09:52:34 -0400",
@@ -856,33 +887,6 @@
         "deployment",
         "conflict"
       ]
-    },
-    {
-      "title": "China Not Committed to 2027 Taiwan Invasion, U.S. Intel Report Says",
-      "link": "https://news.usni.org/2026/03/19/china-not-committed-to-2027-taiwan-invasion-u-s-intel-report-says",
-      "published": "Thu, 19 Mar 2026 20:05:51 +0000",
-      "source": "USNI News",
-      "categories": [
-        "conflict"
-      ]
-    },
-    {
-      "title": "StrikeMaster to Remain in Europe following Strong International Interest",
-      "link": "https://www.navalnews.com/naval-news/2026/03/strikemaster-to-remain-in-europe-following-strong-international-interest/",
-      "published": "Tue, 17 Mar 2026 11:12:58 +0000",
-      "source": "Naval News",
-      "categories": [
-        "conflict"
-      ]
-    },
-    {
-      "title": "Soldiers remember a leader killed in Kuwait as ‘surrogate dad’",
-      "link": "https://taskandpurpose.com/news/soldiers-scramble-to-attend-funeral/",
-      "published": "Tue, 17 Mar 2026 15:01:34 -0400",
-      "source": "Task & Purpose",
-      "categories": [
-        "conflict"
-      ]
     }
   ],
   "_exercise_news_refs": [
@@ -894,24 +898,15 @@
       "categories": [
         "exercise"
       ]
-    },
-    {
-      "title": "Apache helicopter shoots down drones in Europe for first time in combat exercise",
-      "link": "https://www.defensenews.com/news/your-military/2026/03/19/apache-helicopter-shoots-down-drones-in-europe-for-first-time-in-combat-exercise/",
-      "published": "Thu, 19 Mar 2026 22:43:19 +0000",
-      "source": "Defense News",
-      "categories": [
-        "exercise"
-      ]
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 16,
-    "conflict_articles": 6,
-    "exercise_articles": 2,
+    "deployment_articles": 17,
+    "conflict_articles": 9,
+    "exercise_articles": 1,
     "total_articles": 50,
-    "computed_at": "2026-03-20T20:18:27.929654+00:00",
-    "manual_override": "DEFCON_3",
+    "computed_at": "2026-03-20T21:18:56.584018+00:00",
+    "manual_override": "DEFCON_2",
     "breaking_events": [
       "[Military Times] USS Boxer and 11th Marine Expeditionary Unit deploy to Middle East",
       "[Defense News] Ukraine deploys units to 5 Middle East countries to intercept drones",
@@ -928,9 +923,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-03-20T20:18:27.929697+00:00",
+    "last_successful_update": "2026-03-20T21:18:56.584063+00:00",
     "article_count": 50,
-    "categorized_count": 22,
+    "categorized_count": 23,
     "freshest_source": "Military Times",
     "freshest_title": "USS Boxer and 11th Marine Expeditionary Unit deploy to Middle East",
     "freshest_published": "Fri, 20 Mar 2026 15:22:04 +0000"
