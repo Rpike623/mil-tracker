@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-03-20T17:27:37Z",
-  "version": 492,
+  "generated_utc": "2026-03-20T18:30:12Z",
+  "version": 493,
   "breaking_alert": "Military Times: USS Boxer and 11th Marine Expeditionary Unit deploy to Middle East",
   "naval_deployments": [
     {
@@ -603,6 +603,24 @@
       ]
     },
     {
+      "title": "Ukraine deploys units to 5 Middle East countries to intercept drones",
+      "link": "https://www.defensenews.com/global/mideast-africa/2026/03/20/ukraine-deploys-units-to-5-middle-east-countries-to-intercept-drones/",
+      "published": "Fri, 20 Mar 2026 17:37:48 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Ukraine deploys units to 5 Middle East countries to intercept drones",
+      "link": "https://www.militarytimes.com/global/mideast-africa/2026/03/20/ukraine-deploys-units-to-5-middle-east-countries-to-intercept-drones/",
+      "published": "Fri, 20 Mar 2026 17:37:48 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "Navy says USS Nimitz will put off retirement and stay in service into next year",
       "link": "https://taskandpurpose.com/news/navy-nimitz-extension/",
       "published": "Mon, 16 Mar 2026 16:56:31 -0400",
@@ -632,28 +650,10 @@
       ]
     },
     {
-      "title": "US moves to approve more than $16 billion in air defense sales to Middle East",
-      "link": "https://www.defensenews.com/global/mideast-africa/2026/03/19/us-moves-to-approve-more-than-16-billion-in-air-defense-sales-to-middle-east/",
-      "published": "Thu, 19 Mar 2026 20:47:26 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Israel forges ahead on ground incursion against Hezbollah in Lebanon",
       "link": "https://www.defensenews.com/global/mideast-africa/2026/03/19/israel-forges-ahead-on-ground-incursion-against-hezbollah-in-lebanon/",
       "published": "Thu, 19 Mar 2026 20:59:54 +0000",
       "source": "Defense News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Israel forges ahead on ground incursion against Hezbollah in Lebanon",
-      "link": "https://www.militarytimes.com/global/mideast-africa/2026/03/19/israel-forges-ahead-on-ground-incursion-against-hezbollah-in-lebanon/",
-      "published": "Thu, 19 Mar 2026 20:59:54 +0000",
-      "source": "Military Times",
       "categories": [
         "deployment"
       ]
@@ -919,14 +919,14 @@
     "conflict_articles": 6,
     "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-03-20T17:27:24.771711+00:00",
+    "computed_at": "2026-03-20T18:30:00.599573+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Military Times] USS Boxer and 11th Marine Expeditionary Unit deploy to Middle East",
+      "[Defense News] Ukraine deploys units to 5 Middle East countries to intercept drones",
+      "[Military Times] Ukraine deploys units to 5 Middle East countries to intercept drones",
       "[Task & Purpose] Navy says USS Nimitz will put off retirement and stay in service into next year",
-      "[Task & Purpose] US Apache helicopters attack Iranian militias in Iraq, Chairman of Joint Chiefs says",
-      "[USNI News] Report to Congress on U.S. Munitions and Missile Defense Amid Iran Conflict",
-      "[USNI News] NATO Forces Wrap Arctic Warfare Cold Response 26 Drills"
+      "[Task & Purpose] US Apache helicopters attack Iranian militias in Iraq, Chairman of Joint Chiefs says"
     ]
   },
   "ground_intel": {
@@ -937,7 +937,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-03-20T17:27:24.771754+00:00",
+    "last_successful_update": "2026-03-20T18:30:00.599613+00:00",
     "article_count": 50,
     "categorized_count": 25,
     "freshest_source": "Military Times",
