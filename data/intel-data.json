@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-03-20T18:30:12Z",
-  "version": 493,
+  "generated_utc": "2026-03-20T19:29:29Z",
+  "version": 494,
   "breaking_alert": "Military Times: USS Boxer and 11th Marine Expeditionary Unit deploy to Middle East",
   "naval_deployments": [
     {
@@ -621,6 +621,15 @@
       ]
     },
     {
+      "title": "Two suspected Iranian spies reportedly arrested near UK submarine base",
+      "link": "https://www.defensenews.com/global/europe/2026/03/20/two-suspected-iranian-spies-reportedly-arrested-near-uk-submarine-base/",
+      "published": "Fri, 20 Mar 2026 18:51:42 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "Navy says USS Nimitz will put off retirement and stay in service into next year",
       "link": "https://taskandpurpose.com/news/navy-nimitz-extension/",
       "published": "Mon, 16 Mar 2026 16:56:31 -0400",
@@ -647,15 +656,6 @@
       "categories": [
         "deployment",
         "conflict"
-      ]
-    },
-    {
-      "title": "Israel forges ahead on ground incursion against Hezbollah in Lebanon",
-      "link": "https://www.defensenews.com/global/mideast-africa/2026/03/19/israel-forges-ahead-on-ground-incursion-against-hezbollah-in-lebanon/",
-      "published": "Thu, 19 Mar 2026 20:59:54 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment"
       ]
     },
     {
@@ -915,18 +915,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 18,
+    "deployment_articles": 17,
     "conflict_articles": 6,
     "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-03-20T18:30:00.599573+00:00",
+    "computed_at": "2026-03-20T19:29:23.928754+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Military Times] USS Boxer and 11th Marine Expeditionary Unit deploy to Middle East",
       "[Defense News] Ukraine deploys units to 5 Middle East countries to intercept drones",
       "[Military Times] Ukraine deploys units to 5 Middle East countries to intercept drones",
-      "[Task & Purpose] Navy says USS Nimitz will put off retirement and stay in service into next year",
-      "[Task & Purpose] US Apache helicopters attack Iranian militias in Iraq, Chairman of Joint Chiefs says"
+      "[Defense News] Two suspected Iranian spies reportedly arrested near UK submarine base",
+      "[Task & Purpose] Navy says USS Nimitz will put off retirement and stay in service into next year"
     ]
   },
   "ground_intel": {
@@ -937,9 +937,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-03-20T18:30:00.599613+00:00",
+    "last_successful_update": "2026-03-20T19:29:23.928794+00:00",
     "article_count": 50,
-    "categorized_count": 25,
+    "categorized_count": 24,
     "freshest_source": "Military Times",
     "freshest_title": "USS Boxer and 11th Marine Expeditionary Unit deploy to Middle East",
     "freshest_published": "Fri, 20 Mar 2026 15:22:04 +0000"
