@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-03-20T09:28:42Z",
-  "version": 484,
+  "generated_utc": "2026-03-20T10:26:10Z",
+  "version": 485,
   "breaking_alert": "Task & Purpose: These are the 6 airmen killed in the KC-135 crash in Iraq",
   "naval_deployments": [
     {
@@ -921,15 +921,6 @@
       ]
     },
     {
-      "title": "NATO Navies Need Data Mastery for Battlespace Domination",
-      "link": "https://www.navalnews.com/naval-news/2026/03/nato-navies-need-data-mastery-for-battlespace-domination/",
-      "published": "Tue, 17 Mar 2026 09:33:17 +0000",
-      "source": "Naval News",
-      "categories": [
-        "exercise"
-      ]
-    },
-    {
       "title": "Pentagon’s Director, Operational Test & Evaluation 2025 Annual Report",
       "link": "https://news.usni.org/2026/03/17/pentagons-director-operational-test-evaluation-2025-annual-report",
       "published": "Tue, 17 Mar 2026 13:58:20 +0000",
@@ -942,9 +933,9 @@
   "_threat_indicators": {
     "deployment_articles": 23,
     "conflict_articles": 10,
-    "exercise_articles": 5,
+    "exercise_articles": 4,
     "total_articles": 50,
-    "computed_at": "2026-03-20T09:28:35.193622+00:00",
+    "computed_at": "2026-03-20T10:26:07.615224+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[Task & Purpose] These are the 6 airmen killed in the KC-135 crash in Iraq",
@@ -962,9 +953,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-03-20T09:28:35.193665+00:00",
+    "last_successful_update": "2026-03-20T10:26:07.615268+00:00",
     "article_count": 50,
-    "categorized_count": 32,
+    "categorized_count": 31,
     "freshest_source": "Task & Purpose",
     "freshest_title": "These are the 6 airmen killed in the KC-135 crash in Iraq",
     "freshest_published": "Mon, 16 Mar 2026 10:28:00 -0400"
