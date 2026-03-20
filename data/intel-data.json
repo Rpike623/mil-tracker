@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-03-20T13:52:16Z",
-  "version": 488,
+  "generated_utc": "2026-03-20T14:34:52Z",
+  "version": 489,
   "breaking_alert": "Task & Purpose: Navy says USS Nimitz will put off retirement and stay in service into next year",
   "naval_deployments": [
     {
@@ -623,30 +623,10 @@
       ]
     },
     {
-      "title": "A-10 Warthogs target Iranian fast-attack craft in Strait of Hormuz",
-      "link": "https://www.defensenews.com/news/your-air-force/2026/03/19/a-10-warthogs-target-iranian-fast-attack-craft-in-strait-of-hormuz/",
-      "published": "Thu, 19 Mar 2026 15:32:43 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
       "title": "US strikes Iranian underground missile storage with 5,000-pound penetrator",
       "link": "https://www.defensenews.com/news/your-air-force/2026/03/19/us-strikes-iranian-underground-missile-storage-with-5000-pound-penetrator/",
       "published": "Thu, 19 Mar 2026 18:53:17 +0000",
       "source": "Defense News",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
-      "title": "US strikes Iranian underground missile storage with 5,000-pound penetrator",
-      "link": "https://www.militarytimes.com/news/your-air-force/2026/03/19/us-strikes-iranian-underground-missile-storage-with-5000-pound-penetrator/",
-      "published": "Thu, 19 Mar 2026 18:53:17 +0000",
-      "source": "Military Times",
       "categories": [
         "deployment",
         "conflict"
@@ -683,6 +663,24 @@
       "title": "Israel forges ahead on ground incursion against Hezbollah in Lebanon",
       "link": "https://www.militarytimes.com/global/mideast-africa/2026/03/19/israel-forges-ahead-on-ground-incursion-against-hezbollah-in-lebanon/",
       "published": "Thu, 19 Mar 2026 20:59:54 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Two US counter-mine ships based in the Middle East are now in Singapore, Navy says",
+      "link": "https://www.defensenews.com/news/your-navy/2026/03/19/two-us-counter-mine-ships-based-in-the-middle-east-are-now-in-singapore-navy-says/",
+      "published": "Thu, 19 Mar 2026 22:34:57 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Two US counter-mine ships based in the Middle East are now in Singapore, Navy says",
+      "link": "https://www.militarytimes.com/news/your-navy/2026/03/19/two-us-counter-mine-ships-based-in-the-middle-east-are-now-in-singapore-navy-says/",
+      "published": "Thu, 19 Mar 2026 22:34:57 +0000",
       "source": "Military Times",
       "categories": [
         "deployment"
@@ -861,16 +859,6 @@
       ]
     },
     {
-      "title": "A-10 Warthogs target Iranian fast-attack craft in Strait of Hormuz",
-      "link": "https://www.defensenews.com/news/your-air-force/2026/03/19/a-10-warthogs-target-iranian-fast-attack-craft-in-strait-of-hormuz/",
-      "published": "Thu, 19 Mar 2026 15:32:43 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
       "title": "US strikes Iranian underground missile storage with 5,000-pound penetrator",
       "link": "https://www.defensenews.com/news/your-air-force/2026/03/19/us-strikes-iranian-underground-missile-storage-with-5000-pound-penetrator/",
       "published": "Thu, 19 Mar 2026 18:53:17 +0000",
@@ -881,12 +869,20 @@
       ]
     },
     {
-      "title": "US strikes Iranian underground missile storage with 5,000-pound penetrator",
-      "link": "https://www.militarytimes.com/news/your-air-force/2026/03/19/us-strikes-iranian-underground-missile-storage-with-5000-pound-penetrator/",
-      "published": "Thu, 19 Mar 2026 18:53:17 +0000",
-      "source": "Military Times",
+      "title": "China Not Committed to 2027 Taiwan Invasion, U.S. Intel Report Says",
+      "link": "https://news.usni.org/2026/03/19/china-not-committed-to-2027-taiwan-invasion-u-s-intel-report-says",
+      "published": "Thu, 19 Mar 2026 20:05:51 +0000",
+      "source": "USNI News",
       "categories": [
-        "deployment",
+        "conflict"
+      ]
+    },
+    {
+      "title": "StrikeMaster to Remain in Europe following Strong International Interest",
+      "link": "https://www.navalnews.com/naval-news/2026/03/strikemaster-to-remain-in-europe-following-strong-international-interest/",
+      "published": "Tue, 17 Mar 2026 11:12:58 +0000",
+      "source": "Naval News",
+      "categories": [
         "conflict"
       ]
     }
@@ -918,30 +914,21 @@
       "categories": [
         "exercise"
       ]
-    },
-    {
-      "title": "Pentagon’s Director, Operational Test & Evaluation 2025 Annual Report",
-      "link": "https://news.usni.org/2026/03/17/pentagons-director-operational-test-evaluation-2025-annual-report",
-      "published": "Tue, 17 Mar 2026 13:58:20 +0000",
-      "source": "USNI News",
-      "categories": [
-        "exercise"
-      ]
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 21,
-    "conflict_articles": 9,
-    "exercise_articles": 4,
+    "deployment_articles": 19,
+    "conflict_articles": 7,
+    "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-03-20T13:52:08.572770+00:00",
-    "manual_override": "DEFCON_2",
+    "computed_at": "2026-03-20T14:34:43.133675+00:00",
+    "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Task & Purpose] Navy says USS Nimitz will put off retirement and stay in service into next year",
       "[Task & Purpose] US Apache helicopters attack Iranian militias in Iraq, Chairman of Joint Chiefs says",
       "[USNI News] Report to Congress on U.S. Munitions and Missile Defense Amid Iran Conflict",
-      "[Defense News] A-10 Warthogs target Iranian fast-attack craft in Strait of Hormuz",
-      "[USNI News] NATO Forces Wrap Arctic Warfare Cold Response 26 Drills"
+      "[USNI News] NATO Forces Wrap Arctic Warfare Cold Response 26 Drills",
+      "[Defense News] US strikes Iranian underground missile storage with 5,000-pound penetrator"
     ]
   },
   "ground_intel": {
@@ -952,9 +939,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-03-20T13:52:08.572813+00:00",
+    "last_successful_update": "2026-03-20T14:34:43.133743+00:00",
     "article_count": 50,
-    "categorized_count": 29,
+    "categorized_count": 26,
     "freshest_source": "Task & Purpose",
     "freshest_title": "Navy says USS Nimitz will put off retirement and stay in service into next year",
     "freshest_published": "Mon, 16 Mar 2026 16:56:31 -0400"
