@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-03-21T20:12:36Z",
-  "version": 517,
+  "generated_utc": "2026-03-21T21:14:00Z",
+  "version": 518,
   "breaking_alert": "Military Times: USS Boxer and 11th Marine Expeditionary Unit deploy to Middle East",
   "naval_deployments": [
     {
@@ -677,13 +677,13 @@
       ]
     },
     {
-      "title": "US Apache helicopters attack Iranian militias in Iraq, Chairman of Joint Chiefs says",
-      "link": "https://taskandpurpose.com/news/military-apache-iraq-militias/",
-      "published": "Thu, 19 Mar 2026 09:52:34 -0400",
+      "title": "Pentagon wants to increase naval, special operations capabilities on Greenland",
+      "link": "https://taskandpurpose.com/news/northcom-greenland-expand-operations/",
+      "published": "Sat, 21 Mar 2026 16:42:16 -0400",
       "source": "Task & Purpose",
       "categories": [
         "deployment",
-        "conflict"
+        "exercise"
       ]
     }
   ],
@@ -908,6 +908,16 @@
       ]
     },
     {
+      "title": "Pentagon wants to increase naval, special operations capabilities on Greenland",
+      "link": "https://taskandpurpose.com/news/northcom-greenland-expand-operations/",
+      "published": "Sat, 21 Mar 2026 16:42:16 -0400",
+      "source": "Task & Purpose",
+      "categories": [
+        "deployment",
+        "exercise"
+      ]
+    },
+    {
       "title": "NATO Forces Wrap Arctic Warfare Cold Response 26 Drills",
       "link": "https://news.usni.org/2026/03/19/nato-forces-wrap-arctic-warfare-cold-response-26-drills",
       "published": "Thu, 19 Mar 2026 16:49:23 +0000",
@@ -918,12 +928,12 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 17,
-    "conflict_articles": 8,
-    "exercise_articles": 3,
+    "deployment_articles": 18,
+    "conflict_articles": 7,
+    "exercise_articles": 4,
     "total_articles": 50,
-    "computed_at": "2026-03-21T20:12:19.348440+00:00",
-    "manual_override": "DEFCON_2",
+    "computed_at": "2026-03-21T21:13:46.703904+00:00",
+    "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Military Times] USS Boxer and 11th Marine Expeditionary Unit deploy to Middle East",
       "[Defense News] Ukraine deploys units to 5 Middle East countries to intercept drones",
@@ -940,7 +950,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-03-21T20:12:19.348481+00:00",
+    "last_successful_update": "2026-03-21T21:13:46.703947+00:00",
     "article_count": 50,
     "categorized_count": 24,
     "freshest_source": "Military Times",
