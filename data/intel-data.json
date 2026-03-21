@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-03-21T16:14:51Z",
-  "version": 513,
+  "generated_utc": "2026-03-21T17:15:36Z",
+  "version": 514,
   "breaking_alert": "Military Times: USS Boxer and 11th Marine Expeditionary Unit deploy to Middle East",
   "naval_deployments": [
     {
@@ -668,20 +668,19 @@
       ]
     },
     {
+      "title": "US orders more warships, thousands of Marines to the Middle East",
+      "link": "https://taskandpurpose.com/news/marines-uss-boxer-middle-east/",
+      "published": "Sat, 21 Mar 2026 12:29:37 -0400",
+      "source": "Task & Purpose",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "US Apache helicopters attack Iranian militias in Iraq, Chairman of Joint Chiefs says",
       "link": "https://taskandpurpose.com/news/military-apache-iraq-militias/",
       "published": "Thu, 19 Mar 2026 09:52:34 -0400",
       "source": "Task & Purpose",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
-      "title": "Report to Congress on U.S. Munitions and Missile Defense Amid Iran Conflict",
-      "link": "https://news.usni.org/2026/03/19/report-to-congress-on-u-s-munitions-and-missile-defense-amid-iran-conflict",
-      "published": "Thu, 19 Mar 2026 14:21:49 +0000",
-      "source": "USNI News",
       "categories": [
         "deployment",
         "conflict"
@@ -923,7 +922,7 @@
     "conflict_articles": 8,
     "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-03-21T16:14:44.968195+00:00",
+    "computed_at": "2026-03-21T17:15:23.113155+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[Military Times] USS Boxer and 11th Marine Expeditionary Unit deploy to Middle East",
@@ -941,7 +940,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-03-21T16:14:44.968235+00:00",
+    "last_successful_update": "2026-03-21T17:15:23.113196+00:00",
     "article_count": 50,
     "categorized_count": 24,
     "freshest_source": "Military Times",
