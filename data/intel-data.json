@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-03-21T07:24:55Z",
-  "version": 504,
+  "generated_utc": "2026-03-21T08:17:37Z",
+  "version": 505,
   "breaking_alert": "Military Times: USS Boxer and 11th Marine Expeditionary Unit deploy to Middle East",
   "naval_deployments": [
     {
@@ -659,6 +659,15 @@
       ]
     },
     {
+      "title": "Bluebottle USV to Feature in Australian Navy’s Fleet Review for the First Time",
+      "link": "https://www.navalnews.com/naval-news/2026/03/bluebottle-usv-to-feature-in-australian-navys-fleet-review-for-the-first-time/",
+      "published": "Sat, 21 Mar 2026 08:13:32 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "US Apache helicopters attack Iranian militias in Iraq, Chairman of Joint Chiefs says",
       "link": "https://taskandpurpose.com/news/military-apache-iraq-militias/",
       "published": "Thu, 19 Mar 2026 09:52:34 -0400",
@@ -676,15 +685,6 @@
       "categories": [
         "deployment",
         "conflict"
-      ]
-    },
-    {
-      "title": "At least 200 US troops wounded in Iran war, Pentagon says",
-      "link": "https://taskandpurpose.com/news/us-troops-iran-200-wounded/",
-      "published": "Tue, 17 Mar 2026 08:16:32 -0400",
-      "source": "Task & Purpose",
-      "categories": [
-        "deployment"
       ]
     }
   ],
@@ -919,11 +919,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 16,
-    "conflict_articles": 9,
+    "deployment_articles": 17,
+    "conflict_articles": 8,
     "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-03-21T07:24:49.462010+00:00",
+    "computed_at": "2026-03-21T08:17:34.900315+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[Military Times] USS Boxer and 11th Marine Expeditionary Unit deploy to Middle East",
@@ -941,7 +941,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-03-21T07:24:49.462051+00:00",
+    "last_successful_update": "2026-03-21T08:17:34.900355+00:00",
     "article_count": 50,
     "categorized_count": 24,
     "freshest_source": "Military Times",
