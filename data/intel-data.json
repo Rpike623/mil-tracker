@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-03-23T17:41:47Z",
-  "version": 554,
+  "generated_utc": "2026-03-23T18:36:24Z",
+  "version": 555,
   "breaking_alert": "Defense News: Ukraine deploys units to 5 Middle East countries to intercept drones",
   "naval_deployments": [
     {
@@ -940,7 +940,7 @@
     "conflict_articles": 8,
     "exercise_articles": 6,
     "total_articles": 50,
-    "computed_at": "2026-03-23T17:41:20.537435+00:00",
+    "computed_at": "2026-03-23T18:36:03.122167+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[Defense News] Ukraine deploys units to 5 Middle East countries to intercept drones",
@@ -958,7 +958,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-03-23T17:41:20.537478+00:00",
+    "last_successful_update": "2026-03-23T18:36:03.122220+00:00",
     "article_count": 50,
     "categorized_count": 25,
     "freshest_source": "Defense News",
