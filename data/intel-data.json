@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-03-23T18:36:24Z",
-  "version": 555,
-  "breaking_alert": "Defense News: Ukraine deploys units to 5 Middle East countries to intercept drones",
+  "generated_utc": "2026-03-23T19:39:07Z",
+  "version": 556,
+  "breaking_alert": "Defense News: UK approves US use of British bases to strike Iran missile sites targeting ships",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -594,33 +594,6 @@
   ],
   "_naval_news_refs": [
     {
-      "title": "Ukraine deploys units to 5 Middle East countries to intercept drones",
-      "link": "https://www.defensenews.com/global/mideast-africa/2026/03/20/ukraine-deploys-units-to-5-middle-east-countries-to-intercept-drones/",
-      "published": "Fri, 20 Mar 2026 17:37:48 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Two suspected Iranian spies reportedly arrested near UK submarine base",
-      "link": "https://www.defensenews.com/global/europe/2026/03/20/two-suspected-iranian-spies-reportedly-arrested-near-uk-submarine-base/",
-      "published": "Fri, 20 Mar 2026 18:51:42 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Air Force first to upgrade records for troops discharged over COVID vax refusal",
-      "link": "https://www.militarytimes.com/news/your-military/2026/03/20/air-force-first-to-upgrade-records-for-troops-discharged-over-covid-vax-refusal/",
-      "published": "Fri, 20 Mar 2026 19:42:21 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "UK approves US use of British bases to strike Iran missile sites targeting ships",
       "link": "https://www.defensenews.com/news/your-military/2026/03/20/uk-approves-us-use-of-british-bases-to-strike-iran-missile-sites-targeting-ships/",
       "published": "Fri, 20 Mar 2026 20:14:36 +0000",
@@ -684,6 +657,35 @@
       "source": "Naval News",
       "categories": [
         "deployment"
+      ]
+    },
+    {
+      "title": "French Navy Intercepts Suspected Russian Tanker in Western Mediterranean",
+      "link": "https://news.usni.org/2026/03/23/french-navy-intercepts-suspected-russian-tanker-in-western-mediterranean",
+      "published": "Mon, 23 Mar 2026 19:14:34 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "A web of sensors: How the US spots missiles and drones from Iran",
+      "link": "https://www.defensenews.com/opinion/commentary/2026/03/23/a-web-of-sensors-how-the-us-spots-missiles-and-drones-from-iran/",
+      "published": "Mon, 23 Mar 2026 19:27:52 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
+    },
+    {
+      "title": "A web of sensors: How the US spots missiles and drones from Iran",
+      "link": "https://www.militarytimes.com/opinion/commentary/2026/03/23/a-web-of-sensors-how-the-us-spots-missiles-and-drones-from-iran/",
+      "published": "Mon, 23 Mar 2026 19:27:52 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment",
+        "conflict"
       ]
     }
   ],
@@ -936,18 +938,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 17,
-    "conflict_articles": 8,
+    "deployment_articles": 16,
+    "conflict_articles": 10,
     "exercise_articles": 6,
     "total_articles": 50,
-    "computed_at": "2026-03-23T18:36:03.122167+00:00",
+    "computed_at": "2026-03-23T19:39:02.885478+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
-      "[Defense News] Ukraine deploys units to 5 Middle East countries to intercept drones",
-      "[Defense News] Two suspected Iranian spies reportedly arrested near UK submarine base",
-      "[Military Times] Air Force first to upgrade records for troops discharged over COVID vax refusal",
       "[Defense News] UK approves US use of British bases to strike Iran missile sites targeting ships",
-      "[Military Times] UK approves US use of British bases to strike Iran missile sites targeting ships"
+      "[Military Times] UK approves US use of British bases to strike Iran missile sites targeting ships",
+      "[USNI News] U.S. Forces Strike Suspected Narco Boat in the Eastern Pacific",
+      "[Defense News] US countered drone threat over ‘strategic’ installation in early hours of Operation Epic Fury: Guillot",
+      "[Military Times] US countered drone threat over ‘strategic’ installation in early hours of Operation Epic Fury: Guillot"
     ]
   },
   "ground_intel": {
@@ -958,12 +960,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-03-23T18:36:03.122220+00:00",
+    "last_successful_update": "2026-03-23T19:39:02.885546+00:00",
     "article_count": 50,
-    "categorized_count": 25,
+    "categorized_count": 24,
     "freshest_source": "Defense News",
-    "freshest_title": "Ukraine deploys units to 5 Middle East countries to intercept drones",
-    "freshest_published": "Fri, 20 Mar 2026 17:37:48 +0000"
+    "freshest_title": "UK approves US use of British bases to strike Iran missile sites targeting ships",
+    "freshest_published": "Fri, 20 Mar 2026 20:14:36 +0000"
   },
   "_firms_hotspots": []
 }
