@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-03-23T08:40:53Z",
-  "version": 546,
+  "generated_utc": "2026-03-23T09:50:46Z",
+  "version": 547,
   "breaking_alert": "Military Times: USS Boxer and 11th Marine Expeditionary Unit deploy to Middle East",
   "naval_deployments": [
     {
@@ -659,6 +659,15 @@
       ]
     },
     {
+      "title": "JMSDF Launches ‘Fleet Surface Force’, Scrapping Decades-Old ‘Escort Fleet’",
+      "link": "https://www.navalnews.com/naval-news/2026/03/jmsdf-launches-fleet-surface-force-scrapping-decades-old-escort-fleet/",
+      "published": "Mon, 23 Mar 2026 09:07:32 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "Bluebottle USV to Feature in Australian Navy’s Fleet Review for the First Time",
       "link": "https://www.navalnews.com/naval-news/2026/03/bluebottle-usv-to-feature-in-australian-navys-fleet-review-for-the-first-time/",
       "published": "Sat, 21 Mar 2026 08:13:32 +0000",
@@ -674,16 +683,6 @@
       "source": "Task & Purpose",
       "categories": [
         "deployment"
-      ]
-    },
-    {
-      "title": "Pentagon wants to increase naval, special operations capabilities on Greenland",
-      "link": "https://taskandpurpose.com/news/northcom-greenland-expand-operations/",
-      "published": "Sat, 21 Mar 2026 16:42:16 -0400",
-      "source": "Task & Purpose",
-      "categories": [
-        "deployment",
-        "exercise"
       ]
     }
   ],
@@ -932,7 +931,7 @@
     "conflict_articles": 7,
     "exercise_articles": 4,
     "total_articles": 50,
-    "computed_at": "2026-03-23T08:40:38.823962+00:00",
+    "computed_at": "2026-03-23T09:50:43.673329+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Military Times] USS Boxer and 11th Marine Expeditionary Unit deploy to Middle East",
@@ -950,7 +949,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-03-23T08:40:38.824005+00:00",
+    "last_successful_update": "2026-03-23T09:50:43.673372+00:00",
     "article_count": 50,
     "categorized_count": 23,
     "freshest_source": "Military Times",
