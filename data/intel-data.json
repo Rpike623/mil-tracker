@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-03-23T10:40:53Z",
-  "version": 548,
+  "generated_utc": "2026-03-23T11:35:13Z",
+  "version": 549,
   "breaking_alert": "Military Times: USS Boxer and 11th Marine Expeditionary Unit deploy to Middle East",
   "naval_deployments": [
     {
@@ -668,19 +668,19 @@
       ]
     },
     {
-      "title": "Bluebottle USV to Feature in Australian Navy’s Fleet Review for the First Time",
-      "link": "https://www.navalnews.com/naval-news/2026/03/bluebottle-usv-to-feature-in-australian-navys-fleet-review-for-the-first-time/",
-      "published": "Sat, 21 Mar 2026 08:13:32 +0000",
-      "source": "Naval News",
+      "title": "US-made naval drone with active warhead washes up in northern Turkey, gets blown up",
+      "link": "https://www.defensenews.com/global/europe/2026/03/23/us-made-naval-drone-with-active-warhead-washes-up-in-northern-turkey-gets-blown-up/",
+      "published": "Mon, 23 Mar 2026 10:54:30 +0000",
+      "source": "Defense News",
       "categories": [
         "deployment"
       ]
     },
     {
-      "title": "US orders more warships, thousands of Marines to the Middle East",
-      "link": "https://taskandpurpose.com/news/marines-uss-boxer-middle-east/",
-      "published": "Sat, 21 Mar 2026 12:29:37 -0400",
-      "source": "Task & Purpose",
+      "title": "Bluebottle USV to Feature in Australian Navy’s Fleet Review for the First Time",
+      "link": "https://www.navalnews.com/naval-news/2026/03/bluebottle-usv-to-feature-in-australian-navys-fleet-review-for-the-first-time/",
+      "published": "Sat, 21 Mar 2026 08:13:32 +0000",
+      "source": "Naval News",
       "categories": [
         "deployment"
       ]
@@ -927,11 +927,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 17,
+    "deployment_articles": 18,
     "conflict_articles": 7,
     "exercise_articles": 4,
     "total_articles": 50,
-    "computed_at": "2026-03-23T10:40:50.398458+00:00",
+    "computed_at": "2026-03-23T11:35:04.805238+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Military Times] USS Boxer and 11th Marine Expeditionary Unit deploy to Middle East",
@@ -949,9 +949,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-03-23T10:40:50.398497+00:00",
+    "last_successful_update": "2026-03-23T11:35:04.805280+00:00",
     "article_count": 50,
-    "categorized_count": 23,
+    "categorized_count": 24,
     "freshest_source": "Military Times",
     "freshest_title": "USS Boxer and 11th Marine Expeditionary Unit deploy to Middle East",
     "freshest_published": "Fri, 20 Mar 2026 15:22:04 +0000"
