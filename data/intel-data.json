@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-03-23T11:35:13Z",
-  "version": 549,
+  "generated_utc": "2026-03-23T12:36:28Z",
+  "version": 550,
   "breaking_alert": "Military Times: USS Boxer and 11th Marine Expeditionary Unit deploy to Middle East",
   "naval_deployments": [
     {
@@ -907,6 +907,15 @@
       ]
     },
     {
+      "title": "National Guard mobilized for search and rescue operations amid Hawaii floods",
+      "link": "https://taskandpurpose.com/news/hawaii-floods-national-guard/",
+      "published": "Mon, 23 Mar 2026 08:30:00 -0400",
+      "source": "Task & Purpose",
+      "categories": [
+        "exercise"
+      ]
+    },
+    {
       "title": "Pentagon wants to increase naval, special operations capabilities on Greenland",
       "link": "https://taskandpurpose.com/news/northcom-greenland-expand-operations/",
       "published": "Sat, 21 Mar 2026 16:42:16 -0400",
@@ -927,11 +936,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 18,
+    "deployment_articles": 17,
     "conflict_articles": 7,
-    "exercise_articles": 4,
+    "exercise_articles": 5,
     "total_articles": 50,
-    "computed_at": "2026-03-23T11:35:04.805238+00:00",
+    "computed_at": "2026-03-23T12:36:25.837209+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Military Times] USS Boxer and 11th Marine Expeditionary Unit deploy to Middle East",
@@ -949,7 +958,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-03-23T11:35:04.805280+00:00",
+    "last_successful_update": "2026-03-23T12:36:25.837255+00:00",
     "article_count": 50,
     "categorized_count": 24,
     "freshest_source": "Military Times",
