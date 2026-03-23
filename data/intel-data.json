@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-03-23T22:18:57Z",
-  "version": 559,
+  "generated_utc": "2026-03-23T23:19:53Z",
+  "version": 560,
   "breaking_alert": "Defense News: UK approves US use of British bases to strike Iran missile sites targeting ships",
   "naval_deployments": [
     {
@@ -898,15 +898,6 @@
       ]
     },
     {
-      "title": "US countered drone threat over ‘strategic’ installation in early hours of Operation Epic Fury: Guillot",
-      "link": "https://www.militarytimes.com/news/your-military/2026/03/20/us-countered-drone-threat-over-strategic-installation-in-early-hours-of-operation-epic-fury-guillot/",
-      "published": "Fri, 20 Mar 2026 22:55:10 +0000",
-      "source": "Military Times",
-      "categories": [
-        "exercise"
-      ]
-    },
-    {
       "title": "National Guard mobilized for search and rescue operations amid Hawaii floods",
       "link": "https://taskandpurpose.com/news/hawaii-floods-national-guard/",
       "published": "Mon, 23 Mar 2026 08:30:00 -0400",
@@ -934,21 +925,31 @@
         "deployment",
         "exercise"
       ]
+    },
+    {
+      "title": "Pentagon wants to increase naval, special operations capabilities on Greenland",
+      "link": "https://taskandpurpose.com/news/northcom-greenland-expand-operations/",
+      "published": "Sat, 21 Mar 2026 16:42:16 -0400",
+      "source": "Task & Purpose",
+      "categories": [
+        "deployment",
+        "exercise"
+      ]
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 17,
+    "deployment_articles": 18,
     "conflict_articles": 8,
-    "exercise_articles": 7,
+    "exercise_articles": 6,
     "total_articles": 50,
-    "computed_at": "2026-03-23T22:18:51.408763+00:00",
+    "computed_at": "2026-03-23T23:19:50.249217+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[Defense News] UK approves US use of British bases to strike Iran missile sites targeting ships",
       "[USNI News] U.S. Forces Strike Suspected Narco Boat in the Eastern Pacific",
       "[Defense News] US countered drone threat over ‘strategic’ installation in early hours of Operation Epic Fury: Guillot",
-      "[Military Times] US countered drone threat over ‘strategic’ installation in early hours of Operation Epic Fury: Guillot",
-      "[Task & Purpose] National Guard mobilized for search and rescue operations amid Hawaii floods"
+      "[Task & Purpose] National Guard mobilized for search and rescue operations amid Hawaii floods",
+      "[Naval News] JMSDF Launches ‘Fleet Surface Force’, Scrapping Decades-Old ‘Escort Fleet’"
     ]
   },
   "ground_intel": {
@@ -959,7 +960,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-03-23T22:18:51.408813+00:00",
+    "last_successful_update": "2026-03-23T23:19:50.249266+00:00",
     "article_count": 50,
     "categorized_count": 25,
     "freshest_source": "Defense News",
