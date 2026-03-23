@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-03-23T12:36:28Z",
-  "version": 550,
-  "breaking_alert": "Military Times: USS Boxer and 11th Marine Expeditionary Unit deploy to Middle East",
+  "generated_utc": "2026-03-23T14:05:42Z",
+  "version": 551,
+  "breaking_alert": "Defense News: Ukraine deploys units to 5 Middle East countries to intercept drones",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -594,15 +594,6 @@
   ],
   "_naval_news_refs": [
     {
-      "title": "USS Boxer and 11th Marine Expeditionary Unit deploy to Middle East",
-      "link": "https://www.militarytimes.com/news/your-military/2026/03/20/uss-boxer-and-11th-marine-expeditionary-unit-deploy-to-middle-east/",
-      "published": "Fri, 20 Mar 2026 15:22:04 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Ukraine deploys units to 5 Middle East countries to intercept drones",
       "link": "https://www.defensenews.com/global/mideast-africa/2026/03/20/ukraine-deploys-units-to-5-middle-east-countries-to-intercept-drones/",
       "published": "Fri, 20 Mar 2026 17:37:48 +0000",
@@ -672,6 +663,15 @@
       "link": "https://www.defensenews.com/global/europe/2026/03/23/us-made-naval-drone-with-active-warhead-washes-up-in-northern-turkey-gets-blown-up/",
       "published": "Mon, 23 Mar 2026 10:54:30 +0000",
       "source": "Defense News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Keel Joins Palantir and U.S. Navy in ShipOS Initiative to Accelerate Submarine Production",
+      "link": "https://www.navalnews.com/naval-news/2026/03/keel-joins-palantir-and-u-s-navy-in-shipos-initiative-to-accelerate-submarine-production/",
+      "published": "Mon, 23 Mar 2026 13:48:36 +0000",
+      "source": "Naval News",
       "categories": [
         "deployment"
       ]
@@ -867,22 +867,20 @@
       ]
     },
     {
-      "title": "US Apache helicopters attack Iranian militias in Iraq, Chairman of Joint Chiefs says",
-      "link": "https://taskandpurpose.com/news/military-apache-iraq-militias/",
-      "published": "Thu, 19 Mar 2026 09:52:34 -0400",
-      "source": "Task & Purpose",
+      "title": "Patriot missile involved in Bahrain blast likely US-operated, analysis finds",
+      "link": "https://www.defensenews.com/flashpoints/2026/03/23/patriot-missile-involved-in-bahrain-blast-likely-us-operated-analysis-finds/",
+      "published": "Mon, 23 Mar 2026 13:21:18 +0000",
+      "source": "Defense News",
       "categories": [
-        "deployment",
         "conflict"
       ]
     },
     {
-      "title": "Report to Congress on U.S. Munitions and Missile Defense Amid Iran Conflict",
-      "link": "https://news.usni.org/2026/03/19/report-to-congress-on-u-s-munitions-and-missile-defense-amid-iran-conflict",
-      "published": "Thu, 19 Mar 2026 14:21:49 +0000",
-      "source": "USNI News",
+      "title": "Patriot missile involved in Bahrain blast likely US-operated, analysis finds",
+      "link": "https://www.militarytimes.com/flashpoints/2026/03/23/patriot-missile-involved-in-bahrain-blast-likely-us-operated-analysis-finds/",
+      "published": "Mon, 23 Mar 2026 13:21:18 +0000",
+      "source": "Military Times",
       "categories": [
-        "deployment",
         "conflict"
       ]
     }
@@ -937,17 +935,17 @@
   ],
   "_threat_indicators": {
     "deployment_articles": 17,
-    "conflict_articles": 7,
+    "conflict_articles": 8,
     "exercise_articles": 5,
     "total_articles": 50,
-    "computed_at": "2026-03-23T12:36:25.837209+00:00",
-    "manual_override": "DEFCON_3",
+    "computed_at": "2026-03-23T14:05:39.007983+00:00",
+    "manual_override": "DEFCON_2",
     "breaking_events": [
-      "[Military Times] USS Boxer and 11th Marine Expeditionary Unit deploy to Middle East",
       "[Defense News] Ukraine deploys units to 5 Middle East countries to intercept drones",
       "[Military Times] Ukraine deploys units to 5 Middle East countries to intercept drones",
       "[Defense News] Two suspected Iranian spies reportedly arrested near UK submarine base",
-      "[Military Times] Air Force first to upgrade records for troops discharged over COVID vax refusal"
+      "[Military Times] Air Force first to upgrade records for troops discharged over COVID vax refusal",
+      "[Defense News] UK approves US use of British bases to strike Iran missile sites targeting ships"
     ]
   },
   "ground_intel": {
@@ -958,12 +956,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-03-23T12:36:25.837255+00:00",
+    "last_successful_update": "2026-03-23T14:05:39.008028+00:00",
     "article_count": 50,
-    "categorized_count": 24,
-    "freshest_source": "Military Times",
-    "freshest_title": "USS Boxer and 11th Marine Expeditionary Unit deploy to Middle East",
-    "freshest_published": "Fri, 20 Mar 2026 15:22:04 +0000"
+    "categorized_count": 25,
+    "freshest_source": "Defense News",
+    "freshest_title": "Ukraine deploys units to 5 Middle East countries to intercept drones",
+    "freshest_published": "Fri, 20 Mar 2026 17:37:48 +0000"
   },
   "_firms_hotspots": []
 }
