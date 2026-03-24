@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-03-24T20:29:04Z",
-  "version": 577,
+  "generated_utc": "2026-03-24T21:25:55Z",
+  "version": 578,
   "breaking_alert": "USNI News: U.S. Forces Strike Suspected Narco Boat in the Eastern Pacific",
   "naval_deployments": [
     {
@@ -912,7 +912,7 @@
     "conflict_articles": 2,
     "exercise_articles": 5,
     "total_articles": 50,
-    "computed_at": "2026-03-24T20:28:57.333510+00:00",
+    "computed_at": "2026-03-24T21:25:50.720940+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[USNI News] U.S. Forces Strike Suspected Narco Boat in the Eastern Pacific",
@@ -930,7 +930,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-03-24T20:28:57.333557+00:00",
+    "last_successful_update": "2026-03-24T21:25:50.720988+00:00",
     "article_count": 50,
     "categorized_count": 24,
     "freshest_source": "USNI News",
