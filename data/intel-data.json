@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-03-24T07:45:06Z",
-  "version": 565,
+  "generated_utc": "2026-03-24T08:36:48Z",
+  "version": 566,
   "breaking_alert": "Defense News: UK approves US use of British bases to strike Iran missile sites targeting ships",
   "naval_deployments": [
     {
@@ -942,7 +942,7 @@
     "conflict_articles": 8,
     "exercise_articles": 6,
     "total_articles": 50,
-    "computed_at": "2026-03-24T07:44:52.490791+00:00",
+    "computed_at": "2026-03-24T08:36:45.264473+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[Defense News] UK approves US use of British bases to strike Iran missile sites targeting ships",
@@ -960,7 +960,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-03-24T07:44:52.490839+00:00",
+    "last_successful_update": "2026-03-24T08:36:45.264528+00:00",
     "article_count": 50,
     "categorized_count": 25,
     "freshest_source": "Defense News",
