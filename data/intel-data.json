@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-03-24T19:44:55Z",
-  "version": 576,
+  "generated_utc": "2026-03-24T20:29:04Z",
+  "version": 577,
   "breaking_alert": "USNI News: U.S. Forces Strike Suspected Narco Boat in the Eastern Pacific",
   "naval_deployments": [
     {
@@ -848,15 +848,6 @@
       ]
     },
     {
-      "title": "Patriot missile involved in Bahrain blast likely US-operated, analysis finds",
-      "link": "https://www.defensenews.com/flashpoints/2026/03/23/patriot-missile-involved-in-bahrain-blast-likely-us-operated-analysis-finds/",
-      "published": "Mon, 23 Mar 2026 13:21:18 +0000",
-      "source": "Defense News",
-      "categories": [
-        "conflict"
-      ]
-    },
-    {
       "title": "A web of sensors: How the US spots missiles and drones from Iran",
       "link": "https://www.defensenews.com/opinion/commentary/2026/03/23/a-web-of-sensors-how-the-us-spots-missiles-and-drones-from-iran/",
       "published": "Mon, 23 Mar 2026 19:27:52 +0000",
@@ -918,17 +909,17 @@
   ],
   "_threat_indicators": {
     "deployment_articles": 20,
-    "conflict_articles": 3,
+    "conflict_articles": 2,
     "exercise_articles": 5,
     "total_articles": 50,
-    "computed_at": "2026-03-24T19:44:41.491863+00:00",
+    "computed_at": "2026-03-24T20:28:57.333510+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[USNI News] U.S. Forces Strike Suspected Narco Boat in the Eastern Pacific",
       "[Task & Purpose] National Guard mobilized for search and rescue operations amid Hawaii floods",
       "[Naval News] JMSDF Launches ‘Fleet Surface Force’, Scrapping Decades-Old ‘Escort Fleet’",
       "[Task & Purpose] Senator references Iwo Jima while pushing for US to take Kharg Island",
-      "[Defense News] Patriot missile involved in Bahrain blast likely US-operated, analysis finds"
+      "[Naval News] Keel Joins Palantir and U.S. Navy in ShipOS Initiative to Accelerate Submarine Production"
     ]
   },
   "ground_intel": {
@@ -939,9 +930,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-03-24T19:44:41.491909+00:00",
+    "last_successful_update": "2026-03-24T20:28:57.333557+00:00",
     "article_count": 50,
-    "categorized_count": 25,
+    "categorized_count": 24,
     "freshest_source": "USNI News",
     "freshest_title": "U.S. Forces Strike Suspected Narco Boat in the Eastern Pacific",
     "freshest_published": "Fri, 20 Mar 2026 20:53:20 +0000"
