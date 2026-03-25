@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-03-25T17:47:34Z",
-  "version": 594,
-  "breaking_alert": "USNI News: U.S. Forces Strike Suspected Narco Boat in the Eastern Pacific",
+  "generated_utc": "2026-03-25T18:39:47Z",
+  "version": 595,
+  "breaking_alert": "Task & Purpose: National Guard mobilized for search and rescue operations amid Hawaii floods",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -838,15 +838,6 @@
   },
   "_conflict_news_refs": [
     {
-      "title": "U.S. Forces Strike Suspected Narco Boat in the Eastern Pacific",
-      "link": "https://news.usni.org/2026/03/20/u-s-forces-strike-suspected-narco-boat-in-eastern-pacific",
-      "published": "Fri, 20 Mar 2026 20:53:20 +0000",
-      "source": "USNI News",
-      "categories": [
-        "conflict"
-      ]
-    },
-    {
       "title": "Deadly Iran school strike casts shadow over Pentagon’s AI targeting push",
       "link": "https://www.defensenews.com/news/your-military/2026/03/24/deadly-iran-school-strike-casts-shadow-over-pentagons-ai-targeting-push/",
       "published": "Tue, 24 Mar 2026 22:16:26 +0000",
@@ -928,18 +919,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 25,
-    "conflict_articles": 4,
+    "deployment_articles": 23,
+    "conflict_articles": 3,
     "exercise_articles": 5,
     "total_articles": 50,
-    "computed_at": "2026-03-25T17:47:31.145181+00:00",
+    "computed_at": "2026-03-25T18:39:44.244341+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
-      "[USNI News] U.S. Forces Strike Suspected Narco Boat in the Eastern Pacific",
       "[Task & Purpose] National Guard mobilized for search and rescue operations amid Hawaii floods",
       "[Naval News] JMSDF Launches ‘Fleet Surface Force’, Scrapping Decades-Old ‘Escort Fleet’",
       "[Task & Purpose] Senator references Iwo Jima while pushing for US to take Kharg Island",
-      "[Naval News] Keel Joins Palantir and U.S. Navy in ShipOS Initiative to Accelerate Submarine Production"
+      "[Naval News] Keel Joins Palantir and U.S. Navy in ShipOS Initiative to Accelerate Submarine Production",
+      "[USNI News] French Navy Intercepts Suspected Russian Tanker in Western Mediterranean"
     ]
   },
   "ground_intel": {
@@ -950,12 +941,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-03-25T17:47:31.145225+00:00",
+    "last_successful_update": "2026-03-25T18:39:44.244382+00:00",
     "article_count": 50,
-    "categorized_count": 28,
-    "freshest_source": "USNI News",
-    "freshest_title": "U.S. Forces Strike Suspected Narco Boat in the Eastern Pacific",
-    "freshest_published": "Fri, 20 Mar 2026 20:53:20 +0000"
+    "categorized_count": 25,
+    "freshest_source": "Task & Purpose",
+    "freshest_title": "National Guard mobilized for search and rescue operations amid Hawaii floods",
+    "freshest_published": "Mon, 23 Mar 2026 08:30:00 -0400"
   },
   "_firms_hotspots": []
 }
