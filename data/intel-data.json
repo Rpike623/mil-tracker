@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-03-25T11:32:38Z",
-  "version": 589,
+  "generated_utc": "2026-03-25T12:37:10Z",
+  "version": 590,
   "breaking_alert": "USNI News: U.S. Forces Strike Suspected Narco Boat in the Eastern Pacific",
   "naval_deployments": [
     {
@@ -908,15 +908,6 @@
       ]
     },
     {
-      "title": "The ‘simple maneuver’ of opening Hormuz strait carries great risks, analysts say",
-      "link": "https://www.defensenews.com/global/mideast-africa/2026/03/24/the-simple-maneuver-of-opening-hormuz-strait-carries-great-risks-analysts-say/",
-      "published": "Tue, 24 Mar 2026 10:10:27 +0000",
-      "source": "Defense News",
-      "categories": [
-        "exercise"
-      ]
-    },
-    {
       "title": "Japan to deploy troops for ‘biggest’ Balikatan drills to date",
       "link": "https://www.navalnews.com/naval-news/2026/03/japan-to-deploy-troops-for-biggest-balikatan-drills-to-date/",
       "published": "Tue, 24 Mar 2026 21:54:13 +0000",
@@ -924,14 +915,24 @@
       "categories": [
         "exercise"
       ]
+    },
+    {
+      "title": "USS Nimitz, now in service until 2027, heads to SOUTHCOM exercise",
+      "link": "https://www.militarytimes.com/news/your-navy/2026/03/24/uss-nimitz-now-in-service-until-2027-heads-to-southcom-exercise/",
+      "published": "Tue, 24 Mar 2026 21:55:42 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment",
+        "exercise"
+      ]
     }
   ],
   "_threat_indicators": {
     "deployment_articles": 22,
     "conflict_articles": 4,
-    "exercise_articles": 6,
+    "exercise_articles": 5,
     "total_articles": 50,
-    "computed_at": "2026-03-25T11:32:25.784500+00:00",
+    "computed_at": "2026-03-25T12:37:04.237250+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[USNI News] U.S. Forces Strike Suspected Narco Boat in the Eastern Pacific",
@@ -949,9 +950,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-03-25T11:32:25.784545+00:00",
+    "last_successful_update": "2026-03-25T12:37:04.237296+00:00",
     "article_count": 50,
-    "categorized_count": 26,
+    "categorized_count": 25,
     "freshest_source": "USNI News",
     "freshest_title": "U.S. Forces Strike Suspected Narco Boat in the Eastern Pacific",
     "freshest_published": "Fri, 20 Mar 2026 20:53:20 +0000"
