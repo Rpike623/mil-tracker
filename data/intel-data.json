@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-03-25T22:23:15Z",
-  "version": 599,
+  "generated_utc": "2026-03-25T23:22:28Z",
+  "version": 600,
   "breaking_alert": "Task & Purpose: National Guard mobilized for search and rescue operations amid Hawaii floods",
   "naval_deployments": [
     {
@@ -926,22 +926,21 @@
       ]
     },
     {
-      "title": "USS Nimitz, now in service until 2027, heads to SOUTHCOM exercise",
-      "link": "https://www.militarytimes.com/news/your-navy/2026/03/24/uss-nimitz-now-in-service-until-2027-heads-to-southcom-exercise/",
-      "published": "Tue, 24 Mar 2026 21:55:42 +0000",
-      "source": "Military Times",
+      "title": "US Army Special Operations Command takes home top prize in sniper competition",
+      "link": "https://www.defensenews.com/news/your-military/2026/03/25/us-army-special-operations-command-takes-home-top-prize-in-sniper-competition/",
+      "published": "Wed, 25 Mar 2026 23:15:28 +0000",
+      "source": "Defense News",
       "categories": [
-        "deployment",
         "exercise"
       ]
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 22,
+    "deployment_articles": 20,
     "conflict_articles": 8,
-    "exercise_articles": 5,
+    "exercise_articles": 6,
     "total_articles": 50,
-    "computed_at": "2026-03-25T22:23:13.052831+00:00",
+    "computed_at": "2026-03-25T23:22:25.796039+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[Task & Purpose] National Guard mobilized for search and rescue operations amid Hawaii floods",
@@ -959,7 +958,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-03-25T22:23:13.052874+00:00",
+    "last_successful_update": "2026-03-25T23:22:25.796081+00:00",
     "article_count": 50,
     "categorized_count": 29,
     "freshest_source": "Task & Purpose",
