@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-03-24T23:19:53Z",
-  "version": 580,
+  "generated_utc": "2026-03-25T01:02:43Z",
+  "version": 581,
   "breaking_alert": "USNI News: U.S. Forces Strike Suspected Narco Boat in the Eastern Pacific",
   "naval_deployments": [
     {
@@ -631,16 +631,6 @@
       ]
     },
     {
-      "title": "A web of sensors: How the US spots missiles and drones from Iran",
-      "link": "https://www.defensenews.com/opinion/commentary/2026/03/23/a-web-of-sensors-how-the-us-spots-missiles-and-drones-from-iran/",
-      "published": "Mon, 23 Mar 2026 19:27:52 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
       "title": "USNI News Fleet and Marine Tracker: March 23, 2026",
       "link": "https://news.usni.org/2026/03/23/usni-news-fleet-and-marine-tracker-march-23-2026",
       "published": "Mon, 23 Mar 2026 20:26:08 +0000",
@@ -682,6 +672,15 @@
       "link": "https://taskandpurpose.com/news/navy-harvey-barnum-flag/",
       "published": "Tue, 24 Mar 2026 07:45:00 -0400",
       "source": "Task & Purpose",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Royal Navy’s SSN-AUKUS Submarines to feature VLS",
+      "link": "https://www.navalnews.com/naval-news/2026/03/royal-navys-ssn-aukus-submarines-to-feature-vls/",
+      "published": "Tue, 24 Mar 2026 09:24:51 +0000",
+      "source": "Naval News",
       "categories": [
         "deployment"
       ]
@@ -848,16 +847,6 @@
       ]
     },
     {
-      "title": "A web of sensors: How the US spots missiles and drones from Iran",
-      "link": "https://www.defensenews.com/opinion/commentary/2026/03/23/a-web-of-sensors-how-the-us-spots-missiles-and-drones-from-iran/",
-      "published": "Mon, 23 Mar 2026 19:27:52 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
       "title": "Deadly Iran school strike casts shadow over Pentagon’s AI targeting push",
       "link": "https://www.defensenews.com/news/your-military/2026/03/24/deadly-iran-school-strike-casts-shadow-over-pentagons-ai-targeting-push/",
       "published": "Tue, 24 Mar 2026 22:16:26 +0000",
@@ -938,11 +927,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 22,
-    "conflict_articles": 5,
+    "deployment_articles": 21,
+    "conflict_articles": 4,
     "exercise_articles": 6,
     "total_articles": 50,
-    "computed_at": "2026-03-24T23:19:50.260166+00:00",
+    "computed_at": "2026-03-25T01:02:37.128554+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[USNI News] U.S. Forces Strike Suspected Narco Boat in the Eastern Pacific",
@@ -960,9 +949,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-03-24T23:19:50.260211+00:00",
+    "last_successful_update": "2026-03-25T01:02:37.128597+00:00",
     "article_count": 50,
-    "categorized_count": 26,
+    "categorized_count": 25,
     "freshest_source": "USNI News",
     "freshest_title": "U.S. Forces Strike Suspected Narco Boat in the Eastern Pacific",
     "freshest_published": "Fri, 20 Mar 2026 20:53:20 +0000"
