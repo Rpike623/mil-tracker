@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-03-25T21:25:45Z",
-  "version": 598,
+  "generated_utc": "2026-03-25T22:23:15Z",
+  "version": 599,
   "breaking_alert": "Task & Purpose: National Guard mobilized for search and rescue operations amid Hawaii floods",
   "naval_deployments": [
     {
@@ -594,15 +594,6 @@
   ],
   "_naval_news_refs": [
     {
-      "title": "JMSDF Launches ‘Fleet Surface Force’, Scrapping Decades-Old ‘Escort Fleet’",
-      "link": "https://www.navalnews.com/naval-news/2026/03/jmsdf-launches-fleet-surface-force-scrapping-decades-old-escort-fleet/",
-      "published": "Mon, 23 Mar 2026 09:07:32 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Senator references Iwo Jima while pushing for US to take Kharg Island",
       "link": "https://taskandpurpose.com/news/military-iwo-jima-iran/",
       "published": "Mon, 23 Mar 2026 13:13:06 -0400",
@@ -680,6 +671,15 @@
       "title": "Royal Navy’s SSN-AUKUS Submarines to feature VLS",
       "link": "https://www.navalnews.com/naval-news/2026/03/royal-navys-ssn-aukus-submarines-to-feature-vls/",
       "published": "Tue, 24 Mar 2026 09:24:51 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "USS Gerald R. Ford Arrives in Souda Bay for Repair",
+      "link": "https://www.navalnews.com/naval-news/2026/03/uss-gerald-r-ford-arrives-in-souda-bay-for-repair/",
+      "published": "Tue, 24 Mar 2026 14:05:00 +0000",
       "source": "Naval News",
       "categories": [
         "deployment"
@@ -937,18 +937,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 23,
-    "conflict_articles": 6,
+    "deployment_articles": 22,
+    "conflict_articles": 8,
     "exercise_articles": 5,
     "total_articles": 50,
-    "computed_at": "2026-03-25T21:25:42.681921+00:00",
-    "manual_override": "DEFCON_3",
+    "computed_at": "2026-03-25T22:23:13.052831+00:00",
+    "manual_override": "DEFCON_2",
     "breaking_events": [
       "[Task & Purpose] National Guard mobilized for search and rescue operations amid Hawaii floods",
-      "[Naval News] JMSDF Launches ‘Fleet Surface Force’, Scrapping Decades-Old ‘Escort Fleet’",
       "[Task & Purpose] Senator references Iwo Jima while pushing for US to take Kharg Island",
       "[Naval News] Keel Joins Palantir and U.S. Navy in ShipOS Initiative to Accelerate Submarine Production",
-      "[USNI News] French Navy Intercepts Suspected Russian Tanker in Western Mediterranean"
+      "[USNI News] French Navy Intercepts Suspected Russian Tanker in Western Mediterranean",
+      "[USNI News] USNI News Fleet and Marine Tracker: March 23, 2026"
     ]
   },
   "ground_intel": {
@@ -959,9 +959,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-03-25T21:25:42.681965+00:00",
+    "last_successful_update": "2026-03-25T22:23:13.052874+00:00",
     "article_count": 50,
-    "categorized_count": 28,
+    "categorized_count": 29,
     "freshest_source": "Task & Purpose",
     "freshest_title": "National Guard mobilized for search and rescue operations amid Hawaii floods",
     "freshest_published": "Mon, 23 Mar 2026 08:30:00 -0400"
