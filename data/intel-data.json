@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-03-25T20:25:58Z",
-  "version": 597,
+  "generated_utc": "2026-03-25T21:25:45Z",
+  "version": 598,
   "breaking_alert": "Task & Purpose: National Guard mobilized for search and rescue operations amid Hawaii floods",
   "naval_deployments": [
     {
@@ -866,6 +866,24 @@
         "deployment",
         "conflict"
       ]
+    },
+    {
+      "title": "Pentagon announces major surge in missile production",
+      "link": "https://www.defensenews.com/industry/techwatch/2026/03/25/pentagon-announces-major-surge-in-missile-production/",
+      "published": "Wed, 25 Mar 2026 20:54:37 +0000",
+      "source": "Defense News",
+      "categories": [
+        "conflict"
+      ]
+    },
+    {
+      "title": "Pentagon announces major surge in missile production",
+      "link": "https://www.militarytimes.com/industry/techwatch/2026/03/25/pentagon-announces-major-surge-in-missile-production/",
+      "published": "Wed, 25 Mar 2026 20:54:37 +0000",
+      "source": "Military Times",
+      "categories": [
+        "conflict"
+      ]
     }
   ],
   "_exercise_news_refs": [
@@ -920,10 +938,10 @@
   ],
   "_threat_indicators": {
     "deployment_articles": 23,
-    "conflict_articles": 3,
+    "conflict_articles": 6,
     "exercise_articles": 5,
     "total_articles": 50,
-    "computed_at": "2026-03-25T20:25:52.027675+00:00",
+    "computed_at": "2026-03-25T21:25:42.681921+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Task & Purpose] National Guard mobilized for search and rescue operations amid Hawaii floods",
@@ -941,9 +959,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-03-25T20:25:52.027721+00:00",
+    "last_successful_update": "2026-03-25T21:25:42.681965+00:00",
     "article_count": 50,
-    "categorized_count": 25,
+    "categorized_count": 28,
     "freshest_source": "Task & Purpose",
     "freshest_title": "National Guard mobilized for search and rescue operations amid Hawaii floods",
     "freshest_published": "Mon, 23 Mar 2026 08:30:00 -0400"
