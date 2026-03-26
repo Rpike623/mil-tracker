@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-03-26T09:49:16Z",
-  "version": 606,
+  "generated_utc": "2026-03-26T10:40:35Z",
+  "version": 607,
   "breaking_alert": "Task & Purpose: National Guard mobilized for search and rescue operations amid Hawaii floods",
   "naval_deployments": [
     {
@@ -839,6 +839,15 @@
   },
   "_conflict_news_refs": [
     {
+      "title": "Europe can’t rely on US for air-defense missiles, top EU official says",
+      "link": "https://www.defensenews.com/global/europe/2026/03/26/europe-cant-rely-on-us-for-air-defense-missiles-top-eu-official-says/",
+      "published": "Thu, 26 Mar 2026 10:15:01 +0000",
+      "source": "Defense News",
+      "categories": [
+        "conflict"
+      ]
+    },
+    {
       "title": "Deadly Iran school strike casts shadow over Pentagon’s AI targeting push",
       "link": "https://www.defensenews.com/news/your-military/2026/03/24/deadly-iran-school-strike-casts-shadow-over-pentagons-ai-targeting-push/",
       "published": "Tue, 24 Mar 2026 22:16:26 +0000",
@@ -873,15 +882,6 @@
       "link": "https://www.defensenews.com/industry/techwatch/2026/03/25/pentagon-announces-major-surge-in-missile-production/",
       "published": "Wed, 25 Mar 2026 20:54:37 +0000",
       "source": "Defense News",
-      "categories": [
-        "conflict"
-      ]
-    },
-    {
-      "title": "Pentagon announces major surge in missile production",
-      "link": "https://www.militarytimes.com/industry/techwatch/2026/03/25/pentagon-announces-major-surge-in-missile-production/",
-      "published": "Wed, 25 Mar 2026 20:54:37 +0000",
-      "source": "Military Times",
       "categories": [
         "conflict"
       ]
@@ -938,11 +938,11 @@
   ],
   "_threat_indicators": {
     "deployment_articles": 14,
-    "conflict_articles": 7,
+    "conflict_articles": 8,
     "exercise_articles": 5,
     "total_articles": 40,
-    "computed_at": "2026-03-26T09:49:13.608198+00:00",
-    "manual_override": "DEFCON_3",
+    "computed_at": "2026-03-26T10:40:29.557953+00:00",
+    "manual_override": "DEFCON_2",
     "breaking_events": [
       "[Task & Purpose] National Guard mobilized for search and rescue operations amid Hawaii floods",
       "[Task & Purpose] Senator references Iwo Jima while pushing for US to take Kharg Island",
@@ -959,9 +959,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-03-26T09:49:13.608240+00:00",
+    "last_successful_update": "2026-03-26T10:40:29.557995+00:00",
     "article_count": 40,
-    "categorized_count": 21,
+    "categorized_count": 22,
     "freshest_source": "Task & Purpose",
     "freshest_title": "National Guard mobilized for search and rescue operations amid Hawaii floods",
     "freshest_published": "Mon, 23 Mar 2026 08:30:00 -0400"
