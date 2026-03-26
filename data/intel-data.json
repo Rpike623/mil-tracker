@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-03-26T08:39:30Z",
-  "version": 605,
+  "generated_utc": "2026-03-26T09:49:16Z",
+  "version": 606,
   "breaking_alert": "Task & Purpose: National Guard mobilized for search and rescue operations amid Hawaii floods",
   "naval_deployments": [
     {
@@ -659,30 +659,31 @@
       ]
     },
     {
-      "title": "Royal Navy’s SSN-AUKUS Submarines to feature VLS",
-      "link": "https://www.navalnews.com/naval-news/2026/03/royal-navys-ssn-aukus-submarines-to-feature-vls/",
-      "published": "Tue, 24 Mar 2026 09:24:51 +0000",
-      "source": "Naval News",
+      "title": "Destroyer USS Mustin Arrives at New Homeport in Japan",
+      "link": "https://news.usni.org/2026/03/24/destroyer-uss-mustin-arrives-at-new-homeport-in-japan",
+      "published": "Tue, 24 Mar 2026 17:41:04 +0000",
+      "source": "USNI News",
       "categories": [
         "deployment"
       ]
     },
     {
-      "title": "USS Gerald R. Ford Arrives in Souda Bay for Repair",
-      "link": "https://www.navalnews.com/naval-news/2026/03/uss-gerald-r-ford-arrives-in-souda-bay-for-repair/",
-      "published": "Tue, 24 Mar 2026 14:05:00 +0000",
-      "source": "Naval News",
+      "title": "USS Gettysburg Back in Norfolk After 5 Months in SOUTHCOM",
+      "link": "https://news.usni.org/2026/03/24/uss-gettysburg-back-in-norfolk-after-5-months-in-southcom",
+      "published": "Tue, 24 Mar 2026 18:27:24 +0000",
+      "source": "USNI News",
       "categories": [
         "deployment"
       ]
     },
     {
-      "title": "TKMS and ST Engineering could set up submarine maintenance hub in Singapore",
-      "link": "https://www.navalnews.com/naval-news/2026/03/tkms-and-st-engineering-could-set-up-submarine-maintenance-hub-in-singapore/",
-      "published": "Tue, 24 Mar 2026 15:17:05 +0000",
-      "source": "Naval News",
+      "title": "Deadly Iran school strike casts shadow over Pentagon’s AI targeting push",
+      "link": "https://www.defensenews.com/news/your-military/2026/03/24/deadly-iran-school-strike-casts-shadow-over-pentagons-ai-targeting-push/",
+      "published": "Tue, 24 Mar 2026 22:16:26 +0000",
+      "source": "Defense News",
       "categories": [
-        "deployment"
+        "deployment",
+        "conflict"
       ]
     }
   ],
@@ -917,15 +918,6 @@
       ]
     },
     {
-      "title": "Japan to deploy troops for ‘biggest’ Balikatan drills to date",
-      "link": "https://www.navalnews.com/naval-news/2026/03/japan-to-deploy-troops-for-biggest-balikatan-drills-to-date/",
-      "published": "Tue, 24 Mar 2026 21:54:13 +0000",
-      "source": "Naval News",
-      "categories": [
-        "exercise"
-      ]
-    },
-    {
       "title": "US Army Special Operations Command takes home top prize in sniper competition",
       "link": "https://www.defensenews.com/news/your-military/2026/03/25/us-army-special-operations-command-takes-home-top-prize-in-sniper-competition/",
       "published": "Wed, 25 Mar 2026 23:15:28 +0000",
@@ -933,15 +925,24 @@
       "categories": [
         "exercise"
       ]
+    },
+    {
+      "title": "US Army Special Operations Command takes home top prize in sniper competition",
+      "link": "https://www.militarytimes.com/news/your-military/2026/03/25/us-army-special-operations-command-takes-home-top-prize-in-sniper-competition/",
+      "published": "Wed, 25 Mar 2026 23:15:28 +0000",
+      "source": "Military Times",
+      "categories": [
+        "exercise"
+      ]
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 19,
-    "conflict_articles": 8,
-    "exercise_articles": 6,
-    "total_articles": 50,
-    "computed_at": "2026-03-26T08:39:28.807003+00:00",
-    "manual_override": "DEFCON_2",
+    "deployment_articles": 14,
+    "conflict_articles": 7,
+    "exercise_articles": 5,
+    "total_articles": 40,
+    "computed_at": "2026-03-26T09:49:13.608198+00:00",
+    "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Task & Purpose] National Guard mobilized for search and rescue operations amid Hawaii floods",
       "[Task & Purpose] Senator references Iwo Jima while pushing for US to take Kharg Island",
@@ -958,9 +959,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-03-26T08:39:28.807044+00:00",
-    "article_count": 50,
-    "categorized_count": 28,
+    "last_successful_update": "2026-03-26T09:49:13.608240+00:00",
+    "article_count": 40,
+    "categorized_count": 21,
     "freshest_source": "Task & Purpose",
     "freshest_title": "National Guard mobilized for search and rescue operations amid Hawaii floods",
     "freshest_published": "Mon, 23 Mar 2026 08:30:00 -0400"
