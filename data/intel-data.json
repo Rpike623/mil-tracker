@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-03-26T18:46:38Z",
-  "version": 613,
+  "generated_utc": "2026-03-26T19:47:51Z",
+  "version": 614,
   "breaking_alert": "Task & Purpose: National Guard mobilized for search and rescue operations amid Hawaii floods",
   "naval_deployments": [
     {
@@ -680,10 +680,10 @@
       ]
     },
     {
-      "title": "Navy destroyer with grizzly bear battle flag pays tribute to heroic Marine",
-      "link": "https://taskandpurpose.com/news/navy-harvey-barnum-flag/",
-      "published": "Tue, 24 Mar 2026 07:45:00 -0400",
-      "source": "Task & Purpose",
+      "title": "US Navy launches new Golden Fleet-era USV program, terminates old one",
+      "link": "https://www.defensenews.com/news/your-navy/2026/03/26/us-navy-launches-new-golden-fleet-era-usv-program-terminates-old-one/",
+      "published": "Thu, 26 Mar 2026 19:03:12 +0000",
+      "source": "Defense News",
       "categories": [
         "deployment"
       ]
@@ -938,11 +938,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 13,
+    "deployment_articles": 15,
     "conflict_articles": 6,
-    "exercise_articles": 9,
+    "exercise_articles": 8,
     "total_articles": 40,
-    "computed_at": "2026-03-26T18:46:30.319194+00:00",
+    "computed_at": "2026-03-26T19:47:49.001449+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Task & Purpose] National Guard mobilized for search and rescue operations amid Hawaii floods",
@@ -960,9 +960,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-03-26T18:46:30.319237+00:00",
+    "last_successful_update": "2026-03-26T19:47:49.001491+00:00",
     "article_count": 40,
-    "categorized_count": 23,
+    "categorized_count": 24,
     "freshest_source": "Task & Purpose",
     "freshest_title": "National Guard mobilized for search and rescue operations amid Hawaii floods",
     "freshest_published": "Mon, 23 Mar 2026 08:30:00 -0400"
