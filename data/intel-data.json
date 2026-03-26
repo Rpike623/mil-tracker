@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-03-26T20:24:32Z",
-  "version": 615,
+  "generated_utc": "2026-03-26T21:20:34Z",
+  "version": 616,
   "breaking_alert": "Task & Purpose: National Guard mobilized for search and rescue operations amid Hawaii floods",
   "naval_deployments": [
     {
@@ -942,7 +942,7 @@
     "conflict_articles": 6,
     "exercise_articles": 8,
     "total_articles": 40,
-    "computed_at": "2026-03-26T20:24:25.028254+00:00",
+    "computed_at": "2026-03-26T21:20:28.988865+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Task & Purpose] National Guard mobilized for search and rescue operations amid Hawaii floods",
@@ -960,7 +960,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-03-26T20:24:25.028301+00:00",
+    "last_successful_update": "2026-03-26T21:20:28.988911+00:00",
     "article_count": 40,
     "categorized_count": 24,
     "freshest_source": "Task & Purpose",
