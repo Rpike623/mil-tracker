@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-03-26T17:02:45Z",
-  "version": 612,
+  "generated_utc": "2026-03-26T18:46:38Z",
+  "version": 613,
   "breaking_alert": "Task & Purpose: National Guard mobilized for search and rescue operations amid Hawaii floods",
   "naval_deployments": [
     {
@@ -604,15 +604,6 @@
       ]
     },
     {
-      "title": "Carrier USS Gerald R. Ford Arrives in Souda Bay for Repairs After Laundry Room Fire",
-      "link": "https://news.usni.org/2026/03/23/carrier-uss-gerald-r-ford-arrives-in-souda-bay-for-repairs-after-laundry-room-fire",
-      "published": "Mon, 23 Mar 2026 21:20:34 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Pentagon wants to increase naval, special operations capabilities on Greenland",
       "link": "https://taskandpurpose.com/news/northcom-greenland-expand-operations/",
       "published": "Sat, 21 Mar 2026 16:42:16 -0400",
@@ -676,6 +667,16 @@
       "categories": [
         "deployment",
         "exercise"
+      ]
+    },
+    {
+      "title": "59% of Americans feel US military offensive against Iran has ‘gone too far’",
+      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/03/26/59-of-americans-feel-us-military-offensive-against-iran-has-gone-too-far/",
+      "published": "Thu, 26 Mar 2026 18:00:45 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment",
+        "conflict"
       ]
     },
     {
@@ -858,19 +859,20 @@
       ]
     },
     {
-      "title": "Pentagon announces major surge in missile production",
-      "link": "https://www.defensenews.com/industry/techwatch/2026/03/25/pentagon-announces-major-surge-in-missile-production/",
-      "published": "Wed, 25 Mar 2026 20:54:37 +0000",
-      "source": "Defense News",
+      "title": "59% of Americans feel US military offensive against Iran has ‘gone too far’",
+      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/03/26/59-of-americans-feel-us-military-offensive-against-iran-has-gone-too-far/",
+      "published": "Thu, 26 Mar 2026 18:00:45 +0000",
+      "source": "Military Times",
       "categories": [
+        "deployment",
         "conflict"
       ]
     },
     {
       "title": "Pentagon announces major surge in missile production",
-      "link": "https://www.militarytimes.com/industry/techwatch/2026/03/25/pentagon-announces-major-surge-in-missile-production/",
+      "link": "https://www.defensenews.com/industry/techwatch/2026/03/25/pentagon-announces-major-surge-in-missile-production/",
       "published": "Wed, 25 Mar 2026 20:54:37 +0000",
-      "source": "Military Times",
+      "source": "Defense News",
       "categories": [
         "conflict"
       ]
@@ -938,16 +940,16 @@
   "_threat_indicators": {
     "deployment_articles": 13,
     "conflict_articles": 6,
-    "exercise_articles": 8,
+    "exercise_articles": 9,
     "total_articles": 40,
-    "computed_at": "2026-03-26T17:02:43.257478+00:00",
+    "computed_at": "2026-03-26T18:46:30.319194+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Task & Purpose] National Guard mobilized for search and rescue operations amid Hawaii floods",
       "[Task & Purpose] Senator references Iwo Jima while pushing for US to take Kharg Island",
-      "[USNI News] Carrier USS Gerald R. Ford Arrives in Souda Bay for Repairs After Laundry Room Fire",
       "[Task & Purpose] Pentagon wants to increase naval, special operations capabilities on Greenland",
-      "[Defense News] Europe can’t rely on US for air-defense missiles, top EU official says"
+      "[Defense News] Europe can’t rely on US for air-defense missiles, top EU official says",
+      "[Task & Purpose] How Iran got the F-14 Tomcat and kept it flying for decades"
     ]
   },
   "ground_intel": {
@@ -958,7 +960,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-03-26T17:02:43.257529+00:00",
+    "last_successful_update": "2026-03-26T18:46:30.319237+00:00",
     "article_count": 40,
     "categorized_count": 23,
     "freshest_source": "Task & Purpose",
