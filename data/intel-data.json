@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-03-26T04:21:40Z",
-  "version": 602,
+  "generated_utc": "2026-03-26T06:04:57Z",
+  "version": 603,
   "breaking_alert": "Task & Purpose: National Guard mobilized for search and rescue operations amid Hawaii floods",
   "naval_deployments": [
     {
@@ -604,15 +604,6 @@
       ]
     },
     {
-      "title": "Keel Joins Palantir and U.S. Navy in ShipOS Initiative to Accelerate Submarine Production",
-      "link": "https://www.navalnews.com/naval-news/2026/03/keel-joins-palantir-and-u-s-navy-in-shipos-initiative-to-accelerate-submarine-production/",
-      "published": "Mon, 23 Mar 2026 13:48:36 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "French Navy Intercepts Suspected Russian Tanker in Western Mediterranean",
       "link": "https://news.usni.org/2026/03/23/french-navy-intercepts-suspected-russian-tanker-in-western-mediterranean",
       "published": "Mon, 23 Mar 2026 19:14:34 +0000",
@@ -680,6 +671,15 @@
       "title": "USS Gerald R. Ford Arrives in Souda Bay for Repair",
       "link": "https://www.navalnews.com/naval-news/2026/03/uss-gerald-r-ford-arrives-in-souda-bay-for-repair/",
       "published": "Tue, 24 Mar 2026 14:05:00 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "TKMS and ST Engineering could set up submarine maintenance hub in Singapore",
+      "link": "https://www.navalnews.com/naval-news/2026/03/tkms-and-st-engineering-could-set-up-submarine-maintenance-hub-in-singapore/",
+      "published": "Tue, 24 Mar 2026 15:17:05 +0000",
       "source": "Naval News",
       "categories": [
         "deployment"
@@ -936,18 +936,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 20,
+    "deployment_articles": 19,
     "conflict_articles": 8,
     "exercise_articles": 6,
     "total_articles": 50,
-    "computed_at": "2026-03-26T04:21:38.088426+00:00",
+    "computed_at": "2026-03-26T06:04:53.508496+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[Task & Purpose] National Guard mobilized for search and rescue operations amid Hawaii floods",
       "[Task & Purpose] Senator references Iwo Jima while pushing for US to take Kharg Island",
-      "[Naval News] Keel Joins Palantir and U.S. Navy in ShipOS Initiative to Accelerate Submarine Production",
       "[USNI News] French Navy Intercepts Suspected Russian Tanker in Western Mediterranean",
-      "[USNI News] USNI News Fleet and Marine Tracker: March 23, 2026"
+      "[USNI News] USNI News Fleet and Marine Tracker: March 23, 2026",
+      "[USNI News] Carrier USS Gerald R. Ford Arrives in Souda Bay for Repairs After Laundry Room Fire"
     ]
   },
   "ground_intel": {
@@ -958,9 +958,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-03-26T04:21:38.088468+00:00",
+    "last_successful_update": "2026-03-26T06:04:53.508538+00:00",
     "article_count": 50,
-    "categorized_count": 29,
+    "categorized_count": 28,
     "freshest_source": "Task & Purpose",
     "freshest_title": "National Guard mobilized for search and rescue operations amid Hawaii floods",
     "freshest_published": "Mon, 23 Mar 2026 08:30:00 -0400"
