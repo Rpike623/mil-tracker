@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-03-26T16:00:06Z",
-  "version": 611,
+  "generated_utc": "2026-03-26T17:02:45Z",
+  "version": 612,
   "breaking_alert": "Task & Purpose: National Guard mobilized for search and rescue operations amid Hawaii floods",
   "naval_deployments": [
     {
@@ -604,15 +604,6 @@
       ]
     },
     {
-      "title": "USNI News Fleet and Marine Tracker: March 23, 2026",
-      "link": "https://news.usni.org/2026/03/23/usni-news-fleet-and-marine-tracker-march-23-2026",
-      "published": "Mon, 23 Mar 2026 20:26:08 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Carrier USS Gerald R. Ford Arrives in Souda Bay for Repairs After Laundry Room Fire",
       "link": "https://news.usni.org/2026/03/23/carrier-uss-gerald-r-ford-arrives-in-souda-bay-for-repairs-after-laundry-room-fire",
       "published": "Mon, 23 Mar 2026 21:20:34 +0000",
@@ -660,28 +651,38 @@
       ]
     },
     {
+      "title": "Pentagon reportedly weighs diverting Ukraine military aid to Middle East",
+      "link": "https://www.defensenews.com/news/pentagon-congress/2026/03/26/pentagon-reportedly-weighs-diverting-ukraine-military-aid-to-middle-east/",
+      "published": "Thu, 26 Mar 2026 16:37:29 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Pentagon reportedly weighs diverting Ukraine military aid to Middle East",
+      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/03/26/pentagon-reportedly-weighs-diverting-ukraine-military-aid-to-middle-east/",
+      "published": "Thu, 26 Mar 2026 16:37:29 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Sailor Flown Ashore After Flight Operations Injury on Carrier USS Abraham Lincoln",
+      "link": "https://news.usni.org/2026/03/26/sailor-flown-ashore-after-flight-operations-injury-on-carrier-uss-abraham-lincoln",
+      "published": "Thu, 26 Mar 2026 16:52:55 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment",
+        "exercise"
+      ]
+    },
+    {
       "title": "Navy destroyer with grizzly bear battle flag pays tribute to heroic Marine",
       "link": "https://taskandpurpose.com/news/navy-harvey-barnum-flag/",
       "published": "Tue, 24 Mar 2026 07:45:00 -0400",
       "source": "Task & Purpose",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Destroyer USS Mustin Arrives at New Homeport in Japan",
-      "link": "https://news.usni.org/2026/03/24/destroyer-uss-mustin-arrives-at-new-homeport-in-japan",
-      "published": "Tue, 24 Mar 2026 17:41:04 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "USS Gettysburg Back in Norfolk After 5 Months in SOUTHCOM",
-      "link": "https://news.usni.org/2026/03/24/uss-gettysburg-back-in-norfolk-after-5-months-in-southcom",
-      "published": "Tue, 24 Mar 2026 18:27:24 +0000",
-      "source": "USNI News",
       "categories": [
         "deployment"
       ]
@@ -935,18 +936,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 12,
+    "deployment_articles": 13,
     "conflict_articles": 6,
-    "exercise_articles": 7,
+    "exercise_articles": 8,
     "total_articles": 40,
-    "computed_at": "2026-03-26T16:00:01.957808+00:00",
+    "computed_at": "2026-03-26T17:02:43.257478+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Task & Purpose] National Guard mobilized for search and rescue operations amid Hawaii floods",
       "[Task & Purpose] Senator references Iwo Jima while pushing for US to take Kharg Island",
-      "[USNI News] USNI News Fleet and Marine Tracker: March 23, 2026",
       "[USNI News] Carrier USS Gerald R. Ford Arrives in Souda Bay for Repairs After Laundry Room Fire",
-      "[Task & Purpose] Pentagon wants to increase naval, special operations capabilities on Greenland"
+      "[Task & Purpose] Pentagon wants to increase naval, special operations capabilities on Greenland",
+      "[Defense News] Europe can’t rely on US for air-defense missiles, top EU official says"
     ]
   },
   "ground_intel": {
@@ -957,9 +958,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-03-26T16:00:01.957853+00:00",
+    "last_successful_update": "2026-03-26T17:02:43.257529+00:00",
     "article_count": 40,
-    "categorized_count": 22,
+    "categorized_count": 23,
     "freshest_source": "Task & Purpose",
     "freshest_title": "National Guard mobilized for search and rescue operations amid Hawaii floods",
     "freshest_published": "Mon, 23 Mar 2026 08:30:00 -0400"
