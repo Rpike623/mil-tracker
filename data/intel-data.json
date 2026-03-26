@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-03-26T21:20:34Z",
-  "version": 616,
+  "generated_utc": "2026-03-26T22:14:53Z",
+  "version": 617,
   "breaking_alert": "Task & Purpose: National Guard mobilized for search and rescue operations amid Hawaii floods",
   "naval_deployments": [
     {
@@ -623,16 +623,6 @@
       ]
     },
     {
-      "title": "Sailor injured during flight operations aboard carrier USS Abraham Lincoln",
-      "link": "https://www.militarytimes.com/news/your-navy/2026/03/26/sailor-injured-during-flight-operations-aboard-carrier-uss-abraham-lincoln/",
-      "published": "Thu, 26 Mar 2026 13:01:02 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment",
-        "exercise"
-      ]
-    },
-    {
       "title": "CNO Caudle’s ‘Excellence Ashore’ C-Note to the Fleet",
       "link": "https://news.usni.org/2026/03/26/cno-caudles-excellence-ashore-c-note-to-the-fleet",
       "published": "Thu, 26 Mar 2026 14:21:20 +0000",
@@ -684,6 +674,15 @@
       "link": "https://www.defensenews.com/news/your-navy/2026/03/26/us-navy-launches-new-golden-fleet-era-usv-program-terminates-old-one/",
       "published": "Thu, 26 Mar 2026 19:03:12 +0000",
       "source": "Defense News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "US Navy launches new Golden Fleet-era USV program, terminates old one",
+      "link": "https://www.militarytimes.com/news/your-navy/2026/03/26/us-navy-launches-new-golden-fleet-era-usv-program-terminates-old-one/",
+      "published": "Thu, 26 Mar 2026 19:03:12 +0000",
+      "source": "Military Times",
       "categories": [
         "deployment"
       ]
@@ -927,10 +926,10 @@
       ]
     },
     {
-      "title": "Sailor injured during flight operations aboard carrier USS Abraham Lincoln",
-      "link": "https://www.militarytimes.com/news/your-navy/2026/03/26/sailor-injured-during-flight-operations-aboard-carrier-uss-abraham-lincoln/",
-      "published": "Thu, 26 Mar 2026 13:01:02 +0000",
-      "source": "Military Times",
+      "title": "Sailor Flown Ashore After Flight Operations Injury on Carrier USS Abraham Lincoln",
+      "link": "https://news.usni.org/2026/03/26/sailor-flown-ashore-after-flight-operations-injury-on-carrier-uss-abraham-lincoln",
+      "published": "Thu, 26 Mar 2026 16:52:55 +0000",
+      "source": "USNI News",
       "categories": [
         "deployment",
         "exercise"
@@ -940,9 +939,9 @@
   "_threat_indicators": {
     "deployment_articles": 15,
     "conflict_articles": 6,
-    "exercise_articles": 8,
+    "exercise_articles": 7,
     "total_articles": 40,
-    "computed_at": "2026-03-26T21:20:28.988865+00:00",
+    "computed_at": "2026-03-26T22:14:49.312985+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Task & Purpose] National Guard mobilized for search and rescue operations amid Hawaii floods",
@@ -960,7 +959,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-03-26T21:20:28.988911+00:00",
+    "last_successful_update": "2026-03-26T22:14:49.313030+00:00",
     "article_count": 40,
     "categorized_count": 24,
     "freshest_source": "Task & Purpose",
