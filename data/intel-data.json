@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-03-26T12:43:29Z",
-  "version": 609,
+  "generated_utc": "2026-03-26T14:17:27Z",
+  "version": 610,
   "breaking_alert": "Task & Purpose: National Guard mobilized for search and rescue operations amid Hawaii floods",
   "naval_deployments": [
     {
@@ -650,6 +650,16 @@
       ]
     },
     {
+      "title": "Sailor injured during flight operations aboard carrier USS Abraham Lincoln",
+      "link": "https://www.militarytimes.com/news/your-navy/2026/03/26/sailor-injured-during-flight-operations-aboard-carrier-uss-abraham-lincoln/",
+      "published": "Thu, 26 Mar 2026 13:01:02 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment",
+        "exercise"
+      ]
+    },
+    {
       "title": "Navy destroyer with grizzly bear battle flag pays tribute to heroic Marine",
       "link": "https://taskandpurpose.com/news/navy-harvey-barnum-flag/",
       "published": "Tue, 24 Mar 2026 07:45:00 -0400",
@@ -674,16 +684,6 @@
       "source": "USNI News",
       "categories": [
         "deployment"
-      ]
-    },
-    {
-      "title": "Deadly Iran school strike casts shadow over Pentagon’s AI targeting push",
-      "link": "https://www.defensenews.com/news/your-military/2026/03/24/deadly-iran-school-strike-casts-shadow-over-pentagons-ai-targeting-push/",
-      "published": "Tue, 24 Mar 2026 22:16:26 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment",
-        "conflict"
       ]
     }
   ],
@@ -848,40 +848,37 @@
       ]
     },
     {
-      "title": "Deadly Iran school strike casts shadow over Pentagon’s AI targeting push",
-      "link": "https://www.defensenews.com/news/your-military/2026/03/24/deadly-iran-school-strike-casts-shadow-over-pentagons-ai-targeting-push/",
-      "published": "Tue, 24 Mar 2026 22:16:26 +0000",
+      "title": "Pentagon announces major surge in missile production",
+      "link": "https://www.defensenews.com/industry/techwatch/2026/03/25/pentagon-announces-major-surge-in-missile-production/",
+      "published": "Wed, 25 Mar 2026 20:54:37 +0000",
       "source": "Defense News",
       "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
-      "title": "Deadly Iran school strike casts shadow over Pentagon’s AI targeting push",
-      "link": "https://www.militarytimes.com/news/your-military/2026/03/24/deadly-iran-school-strike-casts-shadow-over-pentagons-ai-targeting-push/",
-      "published": "Tue, 24 Mar 2026 22:16:26 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
-      "title": "Lockheed launches Hellfire missile from 10-foot cargo container",
-      "link": "https://www.defensenews.com/industry/techwatch/2026/03/24/lockheed-launches-hellfire-missile-from-10-foot-cargo-container/",
-      "published": "Tue, 24 Mar 2026 22:51:03 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment",
         "conflict"
       ]
     },
     {
       "title": "Pentagon announces major surge in missile production",
-      "link": "https://www.defensenews.com/industry/techwatch/2026/03/25/pentagon-announces-major-surge-in-missile-production/",
+      "link": "https://www.militarytimes.com/industry/techwatch/2026/03/25/pentagon-announces-major-surge-in-missile-production/",
       "published": "Wed, 25 Mar 2026 20:54:37 +0000",
-      "source": "Defense News",
+      "source": "Military Times",
+      "categories": [
+        "conflict"
+      ]
+    },
+    {
+      "title": "4 Killed in Strike on Suspected Narco Boat",
+      "link": "https://news.usni.org/2026/03/25/4-killed-in-strike-on-suspected-narco-boat",
+      "published": "Wed, 25 Mar 2026 21:20:18 +0000",
+      "source": "USNI News",
+      "categories": [
+        "conflict"
+      ]
+    },
+    {
+      "title": "Taiwanese Leadership Visits First Domestically-built Attack Boat, Highlights Deterrent Role",
+      "link": "https://news.usni.org/2026/03/25/taiwanese-leadership-visits-first-domestically-built-attack-sub-highlights-deterrent-role",
+      "published": "Wed, 25 Mar 2026 21:44:30 +0000",
+      "source": "USNI News",
       "categories": [
         "conflict"
       ]
@@ -918,31 +915,32 @@
       ]
     },
     {
-      "title": "US Army Special Operations Command takes home top prize in sniper competition",
-      "link": "https://www.defensenews.com/news/your-military/2026/03/25/us-army-special-operations-command-takes-home-top-prize-in-sniper-competition/",
-      "published": "Wed, 25 Mar 2026 23:15:28 +0000",
+      "title": "Volkswagen in talks to make Iron Dome parts at struggling German auto plant: report",
+      "link": "https://www.defensenews.com/global/europe/2026/03/26/volkswagen-in-talks-to-make-iron-dome-parts-at-struggling-german-auto-plant-report/",
+      "published": "Thu, 26 Mar 2026 12:56:03 +0000",
       "source": "Defense News",
       "categories": [
         "exercise"
       ]
     },
     {
-      "title": "US Army Special Operations Command takes home top prize in sniper competition",
-      "link": "https://www.militarytimes.com/news/your-military/2026/03/25/us-army-special-operations-command-takes-home-top-prize-in-sniper-competition/",
-      "published": "Wed, 25 Mar 2026 23:15:28 +0000",
+      "title": "Sailor injured during flight operations aboard carrier USS Abraham Lincoln",
+      "link": "https://www.militarytimes.com/news/your-navy/2026/03/26/sailor-injured-during-flight-operations-aboard-carrier-uss-abraham-lincoln/",
+      "published": "Thu, 26 Mar 2026 13:01:02 +0000",
       "source": "Military Times",
       "categories": [
+        "deployment",
         "exercise"
       ]
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 14,
-    "conflict_articles": 8,
-    "exercise_articles": 5,
+    "deployment_articles": 12,
+    "conflict_articles": 5,
+    "exercise_articles": 7,
     "total_articles": 40,
-    "computed_at": "2026-03-26T12:43:26.775890+00:00",
-    "manual_override": "DEFCON_2",
+    "computed_at": "2026-03-26T14:17:24.068426+00:00",
+    "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Task & Purpose] National Guard mobilized for search and rescue operations amid Hawaii floods",
       "[Task & Purpose] Senator references Iwo Jima while pushing for US to take Kharg Island",
@@ -959,9 +957,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-03-26T12:43:26.775931+00:00",
+    "last_successful_update": "2026-03-26T14:17:24.068467+00:00",
     "article_count": 40,
-    "categorized_count": 22,
+    "categorized_count": 21,
     "freshest_source": "Task & Purpose",
     "freshest_title": "National Guard mobilized for search and rescue operations amid Hawaii floods",
     "freshest_published": "Mon, 23 Mar 2026 08:30:00 -0400"
