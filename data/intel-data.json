@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-03-27T19:34:09Z",
-  "version": 633,
+  "generated_utc": "2026-03-27T20:23:00Z",
+  "version": 634,
   "breaking_alert": "Naval News: Japan lays keel of both ASEV Missile Defense Ships",
   "naval_deployments": [
     {
@@ -642,6 +642,16 @@
       ]
     },
     {
+      "title": "Japanese Aegis Destroyer Completes Modifications to Operate U.S.-made Tomahawk Missiles",
+      "link": "https://news.usni.org/2026/03/27/japanese-aegis-destroyer-completes-modifications-to-operate-u-s-made-tomahawk-missiles",
+      "published": "Fri, 27 Mar 2026 19:37:42 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
+    },
+    {
       "title": "Senator references Iwo Jima while pushing for US to take Kharg Island",
       "link": "https://taskandpurpose.com/news/military-iwo-jima-iran/",
       "published": "Mon, 23 Mar 2026 13:13:06 -0400",
@@ -676,16 +686,6 @@
       "source": "USNI News",
       "categories": [
         "deployment"
-      ]
-    },
-    {
-      "title": "Sailor Flown Ashore After Flight Operations Injury on Carrier USS Abraham Lincoln",
-      "link": "https://news.usni.org/2026/03/26/sailor-flown-ashore-after-flight-operations-injury-on-carrier-uss-abraham-lincoln",
-      "published": "Thu, 26 Mar 2026 16:52:55 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment",
-        "exercise"
       ]
     }
   ],
@@ -930,11 +930,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 18,
-    "conflict_articles": 11,
+    "deployment_articles": 17,
+    "conflict_articles": 12,
     "exercise_articles": 4,
     "total_articles": 50,
-    "computed_at": "2026-03-27T19:34:03.609506+00:00",
+    "computed_at": "2026-03-27T20:22:52.830866+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[Naval News] Japan lays keel of both ASEV Missile Defense Ships",
@@ -952,9 +952,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-03-27T19:34:03.609551+00:00",
+    "last_successful_update": "2026-03-27T20:22:52.830910+00:00",
     "article_count": 50,
-    "categorized_count": 28,
+    "categorized_count": 27,
     "freshest_source": "Naval News",
     "freshest_title": "Japan lays keel of both ASEV Missile Defense Ships",
     "freshest_published": "Fri, 27 Mar 2026 08:06:06 +0000"
