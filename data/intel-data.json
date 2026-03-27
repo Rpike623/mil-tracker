@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-03-27T14:02:06Z",
-  "version": 628,
+  "generated_utc": "2026-03-27T15:39:29Z",
+  "version": 629,
   "breaking_alert": "Naval News: Japan lays keel of both ASEV Missile Defense Ships",
   "naval_deployments": [
     {
@@ -603,6 +603,35 @@
       ]
     },
     {
+      "title": "Inspector General Audit of Naval Supply Systems Command Management of Inventory Items with No Demand for 5 Years",
+      "link": "https://news.usni.org/2026/03/27/inspector-general-audit-of-naval-supply-systems-command-management-of-inventory-items-with-no-demand-for-5-years",
+      "published": "Fri, 27 Mar 2026 14:16:19 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "US uses hundreds of Tomahawk missiles on Iran, alarming some at Pentagon",
+      "link": "https://www.defensenews.com/news/your-military/2026/03/27/us-uses-hundreds-of-tomahawk-missiles-on-iran-alarming-some-at-pentagon/",
+      "published": "Fri, 27 Mar 2026 15:19:36 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
+    },
+    {
+      "title": "US uses hundreds of Tomahawk missiles on Iran, alarming some at Pentagon",
+      "link": "https://www.militarytimes.com/news/your-military/2026/03/27/us-uses-hundreds-of-tomahawk-missiles-on-iran-alarming-some-at-pentagon/",
+      "published": "Fri, 27 Mar 2026 15:19:36 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
+    },
+    {
       "title": "Senator references Iwo Jima while pushing for US to take Kharg Island",
       "link": "https://taskandpurpose.com/news/military-iwo-jima-iran/",
       "published": "Mon, 23 Mar 2026 13:13:06 -0400",
@@ -656,34 +685,6 @@
       "categories": [
         "deployment",
         "exercise"
-      ]
-    },
-    {
-      "title": "59% of Americans feel US military offensive against Iran has ‘gone too far’",
-      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/03/26/59-of-americans-feel-us-military-offensive-against-iran-has-gone-too-far/",
-      "published": "Thu, 26 Mar 2026 18:00:45 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
-      "title": "US Navy launches new Golden Fleet-era USV program, terminates old one",
-      "link": "https://www.defensenews.com/news/your-navy/2026/03/26/us-navy-launches-new-golden-fleet-era-usv-program-terminates-old-one/",
-      "published": "Thu, 26 Mar 2026 19:03:12 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "US Navy launches new Golden Fleet-era USV program, terminates old one",
-      "link": "https://www.militarytimes.com/news/your-navy/2026/03/26/us-navy-launches-new-golden-fleet-era-usv-program-terminates-old-one/",
-      "published": "Thu, 26 Mar 2026 19:03:12 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment"
       ]
     }
   ],
@@ -848,39 +849,40 @@
       ]
     },
     {
+      "title": "Japan sprinkles fresh missiles across its islands to fend off would-be attackers",
+      "link": "https://www.defensenews.com/global/asia-pacific/2026/03/27/japan-sprinkles-fresh-missiles-across-its-islands-to-fend-off-would-be-attackers/",
+      "published": "Fri, 27 Mar 2026 15:17:52 +0000",
+      "source": "Defense News",
+      "categories": [
+        "conflict"
+      ]
+    },
+    {
+      "title": "US uses hundreds of Tomahawk missiles on Iran, alarming some at Pentagon",
+      "link": "https://www.defensenews.com/news/your-military/2026/03/27/us-uses-hundreds-of-tomahawk-missiles-on-iran-alarming-some-at-pentagon/",
+      "published": "Fri, 27 Mar 2026 15:19:36 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
+    },
+    {
+      "title": "US uses hundreds of Tomahawk missiles on Iran, alarming some at Pentagon",
+      "link": "https://www.militarytimes.com/news/your-military/2026/03/27/us-uses-hundreds-of-tomahawk-missiles-on-iran-alarming-some-at-pentagon/",
+      "published": "Fri, 27 Mar 2026 15:19:36 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
+    },
+    {
       "title": "Greece Orders RAM Block 2A Missiles for Fast Attack Craft, FDI Frigates to Follow",
       "link": "https://www.navalnews.com/naval-news/2026/03/greece-orders-ram-block-2a-missiles-for-fast-attack-craft-fdi-frigates-to-follow/",
       "published": "Thu, 26 Mar 2026 09:16:08 +0000",
       "source": "Naval News",
       "categories": [
-        "conflict"
-      ]
-    },
-    {
-      "title": "Europe can’t rely on US for air-defense missiles, top EU official says",
-      "link": "https://www.defensenews.com/global/europe/2026/03/26/europe-cant-rely-on-us-for-air-defense-missiles-top-eu-official-says/",
-      "published": "Thu, 26 Mar 2026 10:15:01 +0000",
-      "source": "Defense News",
-      "categories": [
-        "conflict"
-      ]
-    },
-    {
-      "title": "MBDA to double Aster air-defense missile output in 2026",
-      "link": "https://www.defensenews.com/global/europe/2026/03/26/mbda-to-double-aster-air-defense-missile-output-in-2026/",
-      "published": "Thu, 26 Mar 2026 15:44:08 +0000",
-      "source": "Defense News",
-      "categories": [
-        "conflict"
-      ]
-    },
-    {
-      "title": "59% of Americans feel US military offensive against Iran has ‘gone too far’",
-      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/03/26/59-of-americans-feel-us-military-offensive-against-iran-has-gone-too-far/",
-      "published": "Thu, 26 Mar 2026 18:00:45 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment",
         "conflict"
       ]
     }
@@ -935,18 +937,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 19,
-    "conflict_articles": 8,
+    "deployment_articles": 20,
+    "conflict_articles": 9,
     "exercise_articles": 6,
     "total_articles": 50,
-    "computed_at": "2026-03-27T14:01:58.495488+00:00",
+    "computed_at": "2026-03-27T15:39:25.191210+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[Naval News] Japan lays keel of both ASEV Missile Defense Ships",
       "[Task & Purpose] New bill could make it easier for veterans to get VA home loans, senators say",
       "[Naval News] South Korea opens KDDX destroyer tender, eyes July contract",
-      "[Task & Purpose] National Guard mobilized for search and rescue operations amid Hawaii floods",
-      "[Task & Purpose] Senator references Iwo Jima while pushing for US to take Kharg Island"
+      "[USNI News] Inspector General Audit of Naval Supply Systems Command Management of Inventory Items with No Demand for 5 Years",
+      "[Defense News] Japan sprinkles fresh missiles across its islands to fend off would-be attackers"
     ]
   },
   "ground_intel": {
@@ -957,9 +959,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-03-27T14:01:58.495529+00:00",
+    "last_successful_update": "2026-03-27T15:39:25.191251+00:00",
     "article_count": 50,
-    "categorized_count": 30,
+    "categorized_count": 31,
     "freshest_source": "Naval News",
     "freshest_title": "Japan lays keel of both ASEV Missile Defense Ships",
     "freshest_published": "Fri, 27 Mar 2026 08:06:06 +0000"
