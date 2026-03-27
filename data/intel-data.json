@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-03-27T12:34:42Z",
-  "version": 627,
+  "generated_utc": "2026-03-27T14:02:06Z",
+  "version": 628,
   "breaking_alert": "Naval News: Japan lays keel of both ASEV Missile Defense Ships",
   "naval_deployments": [
     {
@@ -613,16 +613,6 @@
       ]
     },
     {
-      "title": "Pentagon wants to increase naval, special operations capabilities on Greenland",
-      "link": "https://taskandpurpose.com/news/northcom-greenland-expand-operations/",
-      "published": "Sat, 21 Mar 2026 16:42:16 -0400",
-      "source": "Task & Purpose",
-      "categories": [
-        "deployment",
-        "exercise"
-      ]
-    },
-    {
       "title": "How Iran got the F-14 Tomcat and kept it flying for decades",
       "link": "https://taskandpurpose.com/tech-tactics/iran-f14-tomcat/",
       "published": "Thu, 26 Mar 2026 11:57:31 -0400",
@@ -683,6 +673,15 @@
       "link": "https://www.defensenews.com/news/your-navy/2026/03/26/us-navy-launches-new-golden-fleet-era-usv-program-terminates-old-one/",
       "published": "Thu, 26 Mar 2026 19:03:12 +0000",
       "source": "Defense News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "US Navy launches new Golden Fleet-era USV program, terminates old one",
+      "link": "https://www.militarytimes.com/news/your-navy/2026/03/26/us-navy-launches-new-golden-fleet-era-usv-program-terminates-old-one/",
+      "published": "Thu, 26 Mar 2026 19:03:12 +0000",
+      "source": "Military Times",
       "categories": [
         "deployment"
       ]
@@ -888,6 +887,15 @@
   ],
   "_exercise_news_refs": [
     {
+      "title": "New bill could make it easier for veterans to get VA home loans, senators say",
+      "link": "https://taskandpurpose.com/military-life/va-appraisal-modernization-act/",
+      "published": "Fri, 27 Mar 2026 09:00:00 -0400",
+      "source": "Task & Purpose",
+      "categories": [
+        "exercise"
+      ]
+    },
+    {
       "title": "National Guard mobilized for search and rescue operations amid Hawaii floods",
       "link": "https://taskandpurpose.com/news/hawaii-floods-national-guard/",
       "published": "Mon, 23 Mar 2026 08:30:00 -0400",
@@ -900,16 +908,6 @@
       "title": "Senator references Iwo Jima while pushing for US to take Kharg Island",
       "link": "https://taskandpurpose.com/news/military-iwo-jima-iran/",
       "published": "Mon, 23 Mar 2026 13:13:06 -0400",
-      "source": "Task & Purpose",
-      "categories": [
-        "deployment",
-        "exercise"
-      ]
-    },
-    {
-      "title": "Pentagon wants to increase naval, special operations capabilities on Greenland",
-      "link": "https://taskandpurpose.com/news/northcom-greenland-expand-operations/",
-      "published": "Sat, 21 Mar 2026 16:42:16 -0400",
       "source": "Task & Purpose",
       "categories": [
         "deployment",
@@ -937,18 +935,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 20,
+    "deployment_articles": 19,
     "conflict_articles": 8,
-    "exercise_articles": 8,
+    "exercise_articles": 6,
     "total_articles": 50,
-    "computed_at": "2026-03-27T12:34:23.194595+00:00",
+    "computed_at": "2026-03-27T14:01:58.495488+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[Naval News] Japan lays keel of both ASEV Missile Defense Ships",
+      "[Task & Purpose] New bill could make it easier for veterans to get VA home loans, senators say",
       "[Naval News] South Korea opens KDDX destroyer tender, eyes July contract",
       "[Task & Purpose] National Guard mobilized for search and rescue operations amid Hawaii floods",
-      "[Task & Purpose] Senator references Iwo Jima while pushing for US to take Kharg Island",
-      "[Task & Purpose] Pentagon wants to increase naval, special operations capabilities on Greenland"
+      "[Task & Purpose] Senator references Iwo Jima while pushing for US to take Kharg Island"
     ]
   },
   "ground_intel": {
@@ -959,9 +957,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-03-27T12:34:23.194636+00:00",
+    "last_successful_update": "2026-03-27T14:01:58.495529+00:00",
     "article_count": 50,
-    "categorized_count": 32,
+    "categorized_count": 30,
     "freshest_source": "Naval News",
     "freshest_title": "Japan lays keel of both ASEV Missile Defense Ships",
     "freshest_published": "Fri, 27 Mar 2026 08:06:06 +0000"
