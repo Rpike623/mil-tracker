@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-03-27T07:50:56Z",
-  "version": 622,
-  "breaking_alert": "Task & Purpose: National Guard mobilized for search and rescue operations amid Hawaii floods",
+  "generated_utc": "2026-03-27T08:41:42Z",
+  "version": 623,
+  "breaking_alert": "Naval News: Japan lays keel of both ASEV Missile Defense Ships",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -840,6 +840,15 @@
   },
   "_conflict_news_refs": [
     {
+      "title": "Japan lays keel of both ASEV Missile Defense Ships",
+      "link": "https://www.navalnews.com/naval-news/2026/03/japan-lays-keel-of-both-asev-missile-defense-ships/",
+      "published": "Fri, 27 Mar 2026 08:06:06 +0000",
+      "source": "Naval News",
+      "categories": [
+        "conflict"
+      ]
+    },
+    {
       "title": "Greece Orders RAM Block 2A Missiles for Fast Attack Craft, FDI Frigates to Follow",
       "link": "https://www.navalnews.com/naval-news/2026/03/greece-orders-ram-block-2a-missiles-for-fast-attack-craft-fdi-frigates-to-follow/",
       "published": "Thu, 26 Mar 2026 09:16:08 +0000",
@@ -873,15 +882,6 @@
       "source": "Military Times",
       "categories": [
         "deployment",
-        "conflict"
-      ]
-    },
-    {
-      "title": "4 Killed in Strike on Suspected Narco Boat",
-      "link": "https://news.usni.org/2026/03/25/4-killed-in-strike-on-suspected-narco-boat",
-      "published": "Wed, 25 Mar 2026 21:20:18 +0000",
-      "source": "USNI News",
-      "categories": [
         "conflict"
       ]
     }
@@ -937,18 +937,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 21,
-    "conflict_articles": 7,
+    "deployment_articles": 20,
+    "conflict_articles": 8,
     "exercise_articles": 8,
     "total_articles": 50,
-    "computed_at": "2026-03-27T07:50:53.726894+00:00",
-    "manual_override": "DEFCON_3",
+    "computed_at": "2026-03-27T08:37:02.001687+00:00",
+    "manual_override": "DEFCON_2",
     "breaking_events": [
+      "[Naval News] Japan lays keel of both ASEV Missile Defense Ships",
       "[Task & Purpose] National Guard mobilized for search and rescue operations amid Hawaii floods",
       "[Task & Purpose] Senator references Iwo Jima while pushing for US to take Kharg Island",
       "[Task & Purpose] Pentagon wants to increase naval, special operations capabilities on Greenland",
-      "[Naval News] Greece Orders RAM Block 2A Missiles for Fast Attack Craft, FDI Frigates to Follow",
-      "[Defense News] Europe can’t rely on US for air-defense missiles, top EU official says"
+      "[Naval News] Greece Orders RAM Block 2A Missiles for Fast Attack Craft, FDI Frigates to Follow"
     ]
   },
   "ground_intel": {
@@ -959,12 +959,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-03-27T07:50:53.726943+00:00",
+    "last_successful_update": "2026-03-27T08:37:02.001730+00:00",
     "article_count": 50,
     "categorized_count": 32,
-    "freshest_source": "Task & Purpose",
-    "freshest_title": "National Guard mobilized for search and rescue operations amid Hawaii floods",
-    "freshest_published": "Mon, 23 Mar 2026 08:30:00 -0400"
+    "freshest_source": "Naval News",
+    "freshest_title": "Japan lays keel of both ASEV Missile Defense Ships",
+    "freshest_published": "Fri, 27 Mar 2026 08:06:06 +0000"
   },
   "_firms_hotspots": []
 }
