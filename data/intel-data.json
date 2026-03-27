@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-03-27T20:23:00Z",
-  "version": 634,
+  "generated_utc": "2026-03-27T21:23:10Z",
+  "version": 635,
   "breaking_alert": "Naval News: Japan lays keel of both ASEV Missile Defense Ships",
   "naval_deployments": [
     {
@@ -652,6 +652,15 @@
       ]
     },
     {
+      "title": "IRGC Opens Tolled Passage for Merchant Ships in Strait of Hormuz, Transit Continues to Trickle Through",
+      "link": "https://news.usni.org/2026/03/27/irgc-opens-tolled-passage-for-merchant-ships-in-strait-of-hormuz-transit-continues-to-trickle-through",
+      "published": "Fri, 27 Mar 2026 20:28:39 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "Senator references Iwo Jima while pushing for US to take Kharg Island",
       "link": "https://taskandpurpose.com/news/military-iwo-jima-iran/",
       "published": "Mon, 23 Mar 2026 13:13:06 -0400",
@@ -675,15 +684,6 @@
       "link": "https://www.navalnews.com/naval-news/2026/03/u-s-navy-unveils-unmanned-centerpiece-of-golden-fleet-initiative/",
       "published": "Thu, 26 Mar 2026 13:27:22 +0000",
       "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "CNO Caudle’s ‘Excellence Ashore’ C-Note to the Fleet",
-      "link": "https://news.usni.org/2026/03/26/cno-caudles-excellence-ashore-c-note-to-the-fleet",
-      "published": "Thu, 26 Mar 2026 14:21:20 +0000",
-      "source": "USNI News",
       "categories": [
         "deployment"
       ]
@@ -930,11 +930,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 17,
+    "deployment_articles": 18,
     "conflict_articles": 12,
     "exercise_articles": 4,
     "total_articles": 50,
-    "computed_at": "2026-03-27T20:22:52.830866+00:00",
+    "computed_at": "2026-03-27T21:23:03.246553+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[Naval News] Japan lays keel of both ASEV Missile Defense Ships",
@@ -952,9 +952,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-03-27T20:22:52.830910+00:00",
+    "last_successful_update": "2026-03-27T21:23:03.246596+00:00",
     "article_count": 50,
-    "categorized_count": 27,
+    "categorized_count": 28,
     "freshest_source": "Naval News",
     "freshest_title": "Japan lays keel of both ASEV Missile Defense Ships",
     "freshest_published": "Fri, 27 Mar 2026 08:06:06 +0000"
