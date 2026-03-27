@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-03-26T23:18:59Z",
-  "version": 618,
+  "generated_utc": "2026-03-27T01:07:20Z",
+  "version": 619,
   "breaking_alert": "Task & Purpose: National Guard mobilized for search and rescue operations amid Hawaii floods",
   "naval_deployments": [
     {
@@ -641,15 +641,6 @@
       ]
     },
     {
-      "title": "Pentagon reportedly weighs diverting Ukraine military aid to Middle East",
-      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/03/26/pentagon-reportedly-weighs-diverting-ukraine-military-aid-to-middle-east/",
-      "published": "Thu, 26 Mar 2026 16:37:29 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Sailor Flown Ashore After Flight Operations Injury on Carrier USS Abraham Lincoln",
       "link": "https://news.usni.org/2026/03/26/sailor-flown-ashore-after-flight-operations-injury-on-carrier-uss-abraham-lincoln",
       "published": "Thu, 26 Mar 2026 16:52:55 +0000",
@@ -682,6 +673,15 @@
       "title": "US Navy launches new Golden Fleet-era USV program, terminates old one",
       "link": "https://www.militarytimes.com/news/your-navy/2026/03/26/us-navy-launches-new-golden-fleet-era-usv-program-terminates-old-one/",
       "published": "Thu, 26 Mar 2026 19:03:12 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Former VA executive charged with accepting $16K worth of gifts",
+      "link": "https://www.militarytimes.com/veterans/2026/03/26/former-va-executive-charged-with-accepting-16k-worth-of-gifts/",
+      "published": "Thu, 26 Mar 2026 21:46:10 +0000",
       "source": "Military Times",
       "categories": [
         "deployment"
@@ -937,11 +937,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 17,
+    "deployment_articles": 16,
     "conflict_articles": 5,
     "exercise_articles": 7,
     "total_articles": 40,
-    "computed_at": "2026-03-26T23:18:50.360680+00:00",
+    "computed_at": "2026-03-27T01:07:18.014720+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Task & Purpose] National Guard mobilized for search and rescue operations amid Hawaii floods",
@@ -959,9 +959,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-03-26T23:18:50.360728+00:00",
+    "last_successful_update": "2026-03-27T01:07:18.014766+00:00",
     "article_count": 40,
-    "categorized_count": 25,
+    "categorized_count": 24,
     "freshest_source": "Task & Purpose",
     "freshest_title": "National Guard mobilized for search and rescue operations amid Hawaii floods",
     "freshest_published": "Mon, 23 Mar 2026 08:30:00 -0400"
