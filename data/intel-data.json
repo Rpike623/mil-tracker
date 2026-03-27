@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-03-27T18:39:37Z",
-  "version": 632,
+  "generated_utc": "2026-03-27T19:34:09Z",
+  "version": 633,
   "breaking_alert": "Naval News: Japan lays keel of both ASEV Missile Defense Ships",
   "naval_deployments": [
     {
@@ -679,12 +679,13 @@
       ]
     },
     {
-      "title": "Pentagon reportedly weighs diverting Ukraine military aid to Middle East",
-      "link": "https://www.defensenews.com/news/pentagon-congress/2026/03/26/pentagon-reportedly-weighs-diverting-ukraine-military-aid-to-middle-east/",
-      "published": "Thu, 26 Mar 2026 16:37:29 +0000",
-      "source": "Defense News",
+      "title": "Sailor Flown Ashore After Flight Operations Injury on Carrier USS Abraham Lincoln",
+      "link": "https://news.usni.org/2026/03/26/sailor-flown-ashore-after-flight-operations-injury-on-carrier-uss-abraham-lincoln",
+      "published": "Thu, 26 Mar 2026 16:52:55 +0000",
+      "source": "USNI News",
       "categories": [
-        "deployment"
+        "deployment",
+        "exercise"
       ]
     }
   ],
@@ -929,11 +930,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 20,
+    "deployment_articles": 18,
     "conflict_articles": 11,
     "exercise_articles": 4,
     "total_articles": 50,
-    "computed_at": "2026-03-27T18:39:31.793370+00:00",
+    "computed_at": "2026-03-27T19:34:03.609506+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[Naval News] Japan lays keel of both ASEV Missile Defense Ships",
@@ -951,9 +952,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-03-27T18:39:31.793414+00:00",
+    "last_successful_update": "2026-03-27T19:34:03.609551+00:00",
     "article_count": 50,
-    "categorized_count": 30,
+    "categorized_count": 28,
     "freshest_source": "Naval News",
     "freshest_title": "Japan lays keel of both ASEV Missile Defense Ships",
     "freshest_published": "Fri, 27 Mar 2026 08:06:06 +0000"
