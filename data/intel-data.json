@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-03-27T11:33:06Z",
-  "version": 626,
+  "generated_utc": "2026-03-27T12:34:42Z",
+  "version": 627,
   "breaking_alert": "Naval News: Japan lays keel of both ASEV Missile Defense Ships",
   "naval_deployments": [
     {
@@ -941,7 +941,7 @@
     "conflict_articles": 8,
     "exercise_articles": 8,
     "total_articles": 50,
-    "computed_at": "2026-03-27T11:33:01.762229+00:00",
+    "computed_at": "2026-03-27T12:34:23.194595+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[Naval News] Japan lays keel of both ASEV Missile Defense Ships",
@@ -959,7 +959,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-03-27T11:33:01.762274+00:00",
+    "last_successful_update": "2026-03-27T12:34:23.194636+00:00",
     "article_count": 50,
     "categorized_count": 32,
     "freshest_source": "Naval News",
