@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-03-27T01:07:20Z",
-  "version": 619,
+  "generated_utc": "2026-03-27T04:22:58Z",
+  "version": 620,
   "breaking_alert": "Task & Purpose: National Guard mobilized for search and rescue operations amid Hawaii floods",
   "naval_deployments": [
     {
@@ -623,6 +623,15 @@
       ]
     },
     {
+      "title": "U.S. Navy Unveils Unmanned Centerpiece of Golden Fleet Initiative",
+      "link": "https://www.navalnews.com/naval-news/2026/03/u-s-navy-unveils-unmanned-centerpiece-of-golden-fleet-initiative/",
+      "published": "Thu, 26 Mar 2026 13:27:22 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "CNO Caudle’s ‘Excellence Ashore’ C-Note to the Fleet",
       "link": "https://news.usni.org/2026/03/26/cno-caudles-excellence-ashore-c-note-to-the-fleet",
       "published": "Thu, 26 Mar 2026 14:21:20 +0000",
@@ -673,15 +682,6 @@
       "title": "US Navy launches new Golden Fleet-era USV program, terminates old one",
       "link": "https://www.militarytimes.com/news/your-navy/2026/03/26/us-navy-launches-new-golden-fleet-era-usv-program-terminates-old-one/",
       "published": "Thu, 26 Mar 2026 19:03:12 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Former VA executive charged with accepting $16K worth of gifts",
-      "link": "https://www.militarytimes.com/veterans/2026/03/26/former-va-executive-charged-with-accepting-16k-worth-of-gifts/",
-      "published": "Thu, 26 Mar 2026 21:46:10 +0000",
       "source": "Military Times",
       "categories": [
         "deployment"
@@ -840,6 +840,15 @@
   },
   "_conflict_news_refs": [
     {
+      "title": "Greece Orders RAM Block 2A Missiles for Fast Attack Craft, FDI Frigates to Follow",
+      "link": "https://www.navalnews.com/naval-news/2026/03/greece-orders-ram-block-2a-missiles-for-fast-attack-craft-fdi-frigates-to-follow/",
+      "published": "Thu, 26 Mar 2026 09:16:08 +0000",
+      "source": "Naval News",
+      "categories": [
+        "conflict"
+      ]
+    },
+    {
       "title": "Europe can’t rely on US for air-defense missiles, top EU official says",
       "link": "https://www.defensenews.com/global/europe/2026/03/26/europe-cant-rely-on-us-for-air-defense-missiles-top-eu-official-says/",
       "published": "Thu, 26 Mar 2026 10:15:01 +0000",
@@ -871,15 +880,6 @@
       "title": "4 Killed in Strike on Suspected Narco Boat",
       "link": "https://news.usni.org/2026/03/25/4-killed-in-strike-on-suspected-narco-boat",
       "published": "Wed, 25 Mar 2026 21:20:18 +0000",
-      "source": "USNI News",
-      "categories": [
-        "conflict"
-      ]
-    },
-    {
-      "title": "Taiwanese Leadership Visits First Domestically-built Attack Boat, Highlights Deterrent Role",
-      "link": "https://news.usni.org/2026/03/25/taiwanese-leadership-visits-first-domestically-built-attack-sub-highlights-deterrent-role",
-      "published": "Wed, 25 Mar 2026 21:44:30 +0000",
       "source": "USNI News",
       "categories": [
         "conflict"
@@ -937,18 +937,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 16,
-    "conflict_articles": 5,
-    "exercise_articles": 7,
-    "total_articles": 40,
-    "computed_at": "2026-03-27T01:07:18.014720+00:00",
+    "deployment_articles": 21,
+    "conflict_articles": 7,
+    "exercise_articles": 8,
+    "total_articles": 50,
+    "computed_at": "2026-03-27T04:22:47.567362+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Task & Purpose] National Guard mobilized for search and rescue operations amid Hawaii floods",
       "[Task & Purpose] Senator references Iwo Jima while pushing for US to take Kharg Island",
       "[Task & Purpose] Pentagon wants to increase naval, special operations capabilities on Greenland",
-      "[Defense News] Europe can’t rely on US for air-defense missiles, top EU official says",
-      "[Task & Purpose] How Iran got the F-14 Tomcat and kept it flying for decades"
+      "[Naval News] Greece Orders RAM Block 2A Missiles for Fast Attack Craft, FDI Frigates to Follow",
+      "[Defense News] Europe can’t rely on US for air-defense missiles, top EU official says"
     ]
   },
   "ground_intel": {
@@ -959,9 +959,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-03-27T01:07:18.014766+00:00",
-    "article_count": 40,
-    "categorized_count": 24,
+    "last_successful_update": "2026-03-27T04:22:47.567427+00:00",
+    "article_count": 50,
+    "categorized_count": 32,
     "freshest_source": "Task & Purpose",
     "freshest_title": "National Guard mobilized for search and rescue operations amid Hawaii floods",
     "freshest_published": "Mon, 23 Mar 2026 08:30:00 -0400"
