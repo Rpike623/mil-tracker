@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-03-27T22:18:42Z",
-  "version": 636,
+  "generated_utc": "2026-03-27T23:20:47Z",
+  "version": 637,
   "breaking_alert": "Naval News: Japan lays keel of both ASEV Missile Defense Ships",
   "naval_deployments": [
     {
@@ -661,6 +661,16 @@
       ]
     },
     {
+      "title": "10 US troops wounded in Iranian attack on Prince Sultan Airbase",
+      "link": "https://www.militarytimes.com/news/your-military/2026/03/27/10-us-troops-wounded-in-attack-on-prince-sultan-airbase/",
+      "published": "Fri, 27 Mar 2026 22:53:44 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
+    },
+    {
       "title": "Senator references Iwo Jima while pushing for US to take Kharg Island",
       "link": "https://taskandpurpose.com/news/military-iwo-jima-iran/",
       "published": "Mon, 23 Mar 2026 13:13:06 -0400",
@@ -675,15 +685,6 @@
       "link": "https://taskandpurpose.com/tech-tactics/iran-f14-tomcat/",
       "published": "Thu, 26 Mar 2026 11:57:31 -0400",
       "source": "Task & Purpose",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "U.S. Navy Unveils Unmanned Centerpiece of Golden Fleet Initiative",
-      "link": "https://www.navalnews.com/naval-news/2026/03/u-s-navy-unveils-unmanned-centerpiece-of-golden-fleet-initiative/",
-      "published": "Thu, 26 Mar 2026 13:27:22 +0000",
-      "source": "Naval News",
       "categories": [
         "deployment"
       ]
@@ -931,10 +932,10 @@
   ],
   "_threat_indicators": {
     "deployment_articles": 17,
-    "conflict_articles": 12,
+    "conflict_articles": 13,
     "exercise_articles": 4,
     "total_articles": 50,
-    "computed_at": "2026-03-27T22:18:24.728732+00:00",
+    "computed_at": "2026-03-27T23:20:44.831457+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[Naval News] Japan lays keel of both ASEV Missile Defense Ships",
@@ -952,7 +953,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-03-27T22:18:24.728775+00:00",
+    "last_successful_update": "2026-03-27T23:20:44.831502+00:00",
     "article_count": 50,
     "categorized_count": 27,
     "freshest_source": "Naval News",
