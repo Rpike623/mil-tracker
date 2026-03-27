@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-03-27T17:40:14Z",
-  "version": 631,
+  "generated_utc": "2026-03-27T18:39:37Z",
+  "version": 632,
   "breaking_alert": "Naval News: Japan lays keel of both ASEV Missile Defense Ships",
   "naval_deployments": [
     {
@@ -632,6 +632,16 @@
       ]
     },
     {
+      "title": "Combat zone widens in Lebanon as Israel and Hezbollah escalate attacks",
+      "link": "https://www.defensenews.com/global/mideast-africa/2026/03/27/combat-zone-widens-in-lebanon-as-israel-and-hezbollah-escalate-attacks/",
+      "published": "Fri, 27 Mar 2026 18:18:29 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
+    },
+    {
       "title": "Senator references Iwo Jima while pushing for US to take Kharg Island",
       "link": "https://taskandpurpose.com/news/military-iwo-jima-iran/",
       "published": "Mon, 23 Mar 2026 13:13:06 -0400",
@@ -675,16 +685,6 @@
       "source": "Defense News",
       "categories": [
         "deployment"
-      ]
-    },
-    {
-      "title": "Sailor Flown Ashore After Flight Operations Injury on Carrier USS Abraham Lincoln",
-      "link": "https://news.usni.org/2026/03/26/sailor-flown-ashore-after-flight-operations-injury-on-carrier-uss-abraham-lincoln",
-      "published": "Thu, 26 Mar 2026 16:52:55 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment",
-        "exercise"
       ]
     }
   ],
@@ -878,11 +878,12 @@
       ]
     },
     {
-      "title": "Greece Orders RAM Block 2A Missiles for Fast Attack Craft, FDI Frigates to Follow",
-      "link": "https://www.navalnews.com/naval-news/2026/03/greece-orders-ram-block-2a-missiles-for-fast-attack-craft-fdi-frigates-to-follow/",
-      "published": "Thu, 26 Mar 2026 09:16:08 +0000",
-      "source": "Naval News",
+      "title": "Combat zone widens in Lebanon as Israel and Hezbollah escalate attacks",
+      "link": "https://www.defensenews.com/global/mideast-africa/2026/03/27/combat-zone-widens-in-lebanon-as-israel-and-hezbollah-escalate-attacks/",
+      "published": "Fri, 27 Mar 2026 18:18:29 +0000",
+      "source": "Defense News",
       "categories": [
+        "deployment",
         "conflict"
       ]
     }
@@ -917,15 +918,6 @@
       ]
     },
     {
-      "title": "Volkswagen in talks to make Iron Dome parts at struggling German auto plant: report",
-      "link": "https://www.defensenews.com/global/europe/2026/03/26/volkswagen-in-talks-to-make-iron-dome-parts-at-struggling-german-auto-plant-report/",
-      "published": "Thu, 26 Mar 2026 12:56:03 +0000",
-      "source": "Defense News",
-      "categories": [
-        "exercise"
-      ]
-    },
-    {
       "title": "Sailor Flown Ashore After Flight Operations Injury on Carrier USS Abraham Lincoln",
       "link": "https://news.usni.org/2026/03/26/sailor-flown-ashore-after-flight-operations-injury-on-carrier-uss-abraham-lincoln",
       "published": "Thu, 26 Mar 2026 16:52:55 +0000",
@@ -937,11 +929,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 19,
-    "conflict_articles": 9,
-    "exercise_articles": 5,
+    "deployment_articles": 20,
+    "conflict_articles": 11,
+    "exercise_articles": 4,
     "total_articles": 50,
-    "computed_at": "2026-03-27T17:40:08.856581+00:00",
+    "computed_at": "2026-03-27T18:39:31.793370+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[Naval News] Japan lays keel of both ASEV Missile Defense Ships",
@@ -959,9 +951,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-03-27T17:40:08.856624+00:00",
+    "last_successful_update": "2026-03-27T18:39:31.793414+00:00",
     "article_count": 50,
-    "categorized_count": 29,
+    "categorized_count": 30,
     "freshest_source": "Naval News",
     "freshest_title": "Japan lays keel of both ASEV Missile Defense Ships",
     "freshest_published": "Fri, 27 Mar 2026 08:06:06 +0000"
