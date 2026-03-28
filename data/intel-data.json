@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-03-28T20:20:34Z",
-  "version": 655,
+  "generated_utc": "2026-03-28T21:18:33Z",
+  "version": 656,
   "breaking_alert": "Naval News: Japan lays keel of both ASEV Missile Defense Ships",
   "naval_deployments": [
     {
@@ -671,20 +671,19 @@
       ]
     },
     {
-      "title": "Senator references Iwo Jima while pushing for US to take Kharg Island",
-      "link": "https://taskandpurpose.com/news/military-iwo-jima-iran/",
-      "published": "Mon, 23 Mar 2026 13:13:06 -0400",
-      "source": "Task & Purpose",
-      "categories": [
-        "deployment",
-        "exercise"
-      ]
-    },
-    {
       "title": "Aircraft carrier USS Gerald R. Ford arrives in Croatia for repairs",
       "link": "https://www.defensenews.com/news/your-military/2026/03/28/aircraft-carrier-uss-gerald-r-ford-arrives-in-croatia-for-repairs/",
       "published": "Sat, 28 Mar 2026 14:47:55 +0000",
       "source": "Defense News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Aircraft carrier USS Gerald R. Ford arrives in Croatia for repairs",
+      "link": "https://www.militarytimes.com/news/your-military/2026/03/28/aircraft-carrier-uss-gerald-r-ford-arrives-in-croatia-for-repairs/",
+      "published": "Sat, 28 Mar 2026 14:47:55 +0000",
+      "source": "Military Times",
       "categories": [
         "deployment"
       ]
@@ -901,16 +900,6 @@
       ]
     },
     {
-      "title": "Senator references Iwo Jima while pushing for US to take Kharg Island",
-      "link": "https://taskandpurpose.com/news/military-iwo-jima-iran/",
-      "published": "Mon, 23 Mar 2026 13:13:06 -0400",
-      "source": "Task & Purpose",
-      "categories": [
-        "deployment",
-        "exercise"
-      ]
-    },
-    {
       "title": "Ukraine’s Zelenskyy agrees to defense cooperation with UAE, Qatar",
       "link": "https://www.defensenews.com/global/europe/2026/03/28/ukraines-zelenskyy-agrees-to-defense-cooperation-with-uae-qatar/",
       "published": "Sat, 28 Mar 2026 14:26:36 +0000",
@@ -933,9 +922,9 @@
   "_threat_indicators": {
     "deployment_articles": 21,
     "conflict_articles": 12,
-    "exercise_articles": 4,
+    "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-03-28T20:15:53.960108+00:00",
+    "computed_at": "2026-03-28T21:18:31.240907+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[Naval News] Japan lays keel of both ASEV Missile Defense Ships",
@@ -953,7 +942,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-03-28T20:15:53.960150+00:00",
+    "last_successful_update": "2026-03-28T21:18:31.240957+00:00",
     "article_count": 50,
     "categorized_count": 30,
     "freshest_source": "Naval News",
