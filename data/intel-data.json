@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-03-28T14:21:25Z",
-  "version": 649,
+  "generated_utc": "2026-03-28T15:19:02Z",
+  "version": 650,
   "breaking_alert": "Naval News: Japan lays keel of both ASEV Missile Defense Ships",
   "naval_deployments": [
     {
@@ -681,10 +681,10 @@
       ]
     },
     {
-      "title": "How Iran got the F-14 Tomcat and kept it flying for decades",
-      "link": "https://taskandpurpose.com/tech-tactics/iran-f14-tomcat/",
-      "published": "Thu, 26 Mar 2026 11:57:31 -0400",
-      "source": "Task & Purpose",
+      "title": "Aircraft carrier USS Gerald R. Ford arrives in Croatia for repairs",
+      "link": "https://www.defensenews.com/news/your-military/2026/03/28/aircraft-carrier-uss-gerald-r-ford-arrives-in-croatia-for-repairs/",
+      "published": "Sat, 28 Mar 2026 14:47:55 +0000",
+      "source": "Defense News",
       "categories": [
         "deployment"
       ]
@@ -920,6 +920,15 @@
       ]
     },
     {
+      "title": "Ukraine’s Zelenskyy agrees to defense cooperation with UAE, Qatar",
+      "link": "https://www.defensenews.com/global/europe/2026/03/28/ukraines-zelenskyy-agrees-to-defense-cooperation-with-uae-qatar/",
+      "published": "Sat, 28 Mar 2026 14:26:36 +0000",
+      "source": "Defense News",
+      "categories": [
+        "exercise"
+      ]
+    },
+    {
       "title": "Sailor Flown Ashore After Flight Operations Injury on Carrier USS Abraham Lincoln",
       "link": "https://news.usni.org/2026/03/26/sailor-flown-ashore-after-flight-operations-injury-on-carrier-uss-abraham-lincoln",
       "published": "Thu, 26 Mar 2026 16:52:55 +0000",
@@ -931,11 +940,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 17,
+    "deployment_articles": 18,
     "conflict_articles": 13,
-    "exercise_articles": 4,
+    "exercise_articles": 5,
     "total_articles": 50,
-    "computed_at": "2026-03-28T14:21:21.530222+00:00",
+    "computed_at": "2026-03-28T15:18:59.823268+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[Naval News] Japan lays keel of both ASEV Missile Defense Ships",
@@ -953,9 +962,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-03-28T14:21:21.530265+00:00",
+    "last_successful_update": "2026-03-28T15:18:59.823314+00:00",
     "article_count": 50,
-    "categorized_count": 27,
+    "categorized_count": 29,
     "freshest_source": "Naval News",
     "freshest_title": "Japan lays keel of both ASEV Missile Defense Ships",
     "freshest_published": "Fri, 27 Mar 2026 08:06:06 +0000"
