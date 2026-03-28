@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-03-28T17:19:06Z",
-  "version": 652,
+  "generated_utc": "2026-03-28T18:22:19Z",
+  "version": 653,
   "breaking_alert": "Naval News: Japan lays keel of both ASEV Missile Defense Ships",
   "naval_deployments": [
     {
@@ -901,15 +901,6 @@
       ]
     },
     {
-      "title": "National Guard mobilized for search and rescue operations amid Hawaii floods",
-      "link": "https://taskandpurpose.com/news/hawaii-floods-national-guard/",
-      "published": "Mon, 23 Mar 2026 08:30:00 -0400",
-      "source": "Task & Purpose",
-      "categories": [
-        "exercise"
-      ]
-    },
-    {
       "title": "Senator references Iwo Jima while pushing for US to take Kharg Island",
       "link": "https://taskandpurpose.com/news/military-iwo-jima-iran/",
       "published": "Mon, 23 Mar 2026 13:13:06 -0400",
@@ -942,9 +933,9 @@
   "_threat_indicators": {
     "deployment_articles": 21,
     "conflict_articles": 12,
-    "exercise_articles": 5,
+    "exercise_articles": 4,
     "total_articles": 50,
-    "computed_at": "2026-03-28T17:18:52.628609+00:00",
+    "computed_at": "2026-03-28T18:22:13.176915+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[Naval News] Japan lays keel of both ASEV Missile Defense Ships",
@@ -962,9 +953,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-03-28T17:18:52.628651+00:00",
+    "last_successful_update": "2026-03-28T18:22:13.176963+00:00",
     "article_count": 50,
-    "categorized_count": 31,
+    "categorized_count": 30,
     "freshest_source": "Naval News",
     "freshest_title": "Japan lays keel of both ASEV Missile Defense Ships",
     "freshest_published": "Fri, 27 Mar 2026 08:06:06 +0000"
