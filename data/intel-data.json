@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-03-29T14:23:03Z",
-  "version": 669,
+  "generated_utc": "2026-03-29T15:19:16Z",
+  "version": 670,
   "breaking_alert": "Naval News: Japan lays keel of both ASEV Missile Defense Ships",
   "naval_deployments": [
     {
@@ -622,16 +622,6 @@
       ]
     },
     {
-      "title": "US uses hundreds of Tomahawk missiles on Iran, alarming some at Pentagon",
-      "link": "https://www.militarytimes.com/news/your-military/2026/03/27/us-uses-hundreds-of-tomahawk-missiles-on-iran-alarming-some-at-pentagon/",
-      "published": "Fri, 27 Mar 2026 15:19:36 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
       "title": "Combat zone widens in Lebanon as Israel and Hezbollah escalate attacks",
       "link": "https://www.defensenews.com/global/mideast-africa/2026/03/27/combat-zone-widens-in-lebanon-as-israel-and-hezbollah-escalate-attacks/",
       "published": "Fri, 27 Mar 2026 18:18:29 +0000",
@@ -684,6 +674,15 @@
       "link": "https://www.militarytimes.com/news/your-military/2026/03/28/aircraft-carrier-uss-gerald-r-ford-arrives-in-croatia-for-repairs/",
       "published": "Sat, 28 Mar 2026 14:47:55 +0000",
       "source": "Military Times",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "USS Tripoli, 2,200 Marines arrive in the Middle East",
+      "link": "https://taskandpurpose.com/news/uss-tripoli-marines-middle-east/",
+      "published": "Sat, 28 Mar 2026 16:21:07 -0400",
+      "source": "Task & Purpose",
       "categories": [
         "deployment"
       ]
@@ -850,29 +849,10 @@
       ]
     },
     {
-      "title": "Japan sprinkles fresh missiles across its islands to fend off would-be attackers",
-      "link": "https://www.defensenews.com/global/asia-pacific/2026/03/27/japan-sprinkles-fresh-missiles-across-its-islands-to-fend-off-would-be-attackers/",
-      "published": "Fri, 27 Mar 2026 15:17:52 +0000",
-      "source": "Defense News",
-      "categories": [
-        "conflict"
-      ]
-    },
-    {
       "title": "US uses hundreds of Tomahawk missiles on Iran, alarming some at Pentagon",
       "link": "https://www.defensenews.com/news/your-military/2026/03/27/us-uses-hundreds-of-tomahawk-missiles-on-iran-alarming-some-at-pentagon/",
       "published": "Fri, 27 Mar 2026 15:19:36 +0000",
       "source": "Defense News",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
-      "title": "US uses hundreds of Tomahawk missiles on Iran, alarming some at Pentagon",
-      "link": "https://www.militarytimes.com/news/your-military/2026/03/27/us-uses-hundreds-of-tomahawk-missiles-on-iran-alarming-some-at-pentagon/",
-      "published": "Fri, 27 Mar 2026 15:19:36 +0000",
-      "source": "Military Times",
       "categories": [
         "deployment",
         "conflict"
@@ -885,6 +865,24 @@
       "source": "Defense News",
       "categories": [
         "deployment",
+        "conflict"
+      ]
+    },
+    {
+      "title": "Ukraine offers Gulf allies drone defense in bid for scarce Patriot missiles",
+      "link": "https://www.defensenews.com/global/europe/2026/03/27/ukraine-offers-gulf-allies-drone-defense-in-bid-for-scarce-patriot-missiles/",
+      "published": "Fri, 27 Mar 2026 18:37:24 +0000",
+      "source": "Defense News",
+      "categories": [
+        "conflict"
+      ]
+    },
+    {
+      "title": "Ukraine offers Gulf allies drone defense in bid for scarce Patriot missiles",
+      "link": "https://www.militarytimes.com/global/europe/2026/03/27/ukraine-offers-gulf-allies-drone-defense-in-bid-for-scarce-patriot-missiles/",
+      "published": "Fri, 27 Mar 2026 18:37:24 +0000",
+      "source": "Military Times",
+      "categories": [
         "conflict"
       ]
     }
@@ -909,6 +907,26 @@
       ]
     },
     {
+      "title": "Pentagon reportedly preparing for weeks of ground operations in Iran",
+      "link": "https://www.defensenews.com/news/your-military/2026/03/29/pentagon-reportedly-preparing-for-weeks-of-ground-operations-in-iran/",
+      "published": "Sun, 29 Mar 2026 14:35:23 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment",
+        "exercise"
+      ]
+    },
+    {
+      "title": "Pentagon reportedly preparing for weeks of ground operations in Iran",
+      "link": "https://www.militarytimes.com/news/your-military/2026/03/29/pentagon-reportedly-preparing-for-weeks-of-ground-operations-in-iran/",
+      "published": "Sun, 29 Mar 2026 14:35:23 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment",
+        "exercise"
+      ]
+    },
+    {
       "title": "Sailor Flown Ashore After Flight Operations Injury on Carrier USS Abraham Lincoln",
       "link": "https://news.usni.org/2026/03/26/sailor-flown-ashore-after-flight-operations-injury-on-carrier-uss-abraham-lincoln",
       "published": "Thu, 26 Mar 2026 16:52:55 +0000",
@@ -920,18 +938,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 21,
-    "conflict_articles": 12,
-    "exercise_articles": 3,
+    "deployment_articles": 22,
+    "conflict_articles": 10,
+    "exercise_articles": 5,
     "total_articles": 50,
-    "computed_at": "2026-03-29T14:23:01.110477+00:00",
+    "computed_at": "2026-03-29T15:19:11.049586+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[Naval News] Japan lays keel of both ASEV Missile Defense Ships",
       "[Task & Purpose] New bill could make it easier for veterans to get VA home loans, senators say",
       "[Naval News] South Korea opens KDDX destroyer tender, eyes July contract",
       "[USNI News] Inspector General Audit of Naval Supply Systems Command Management of Inventory Items with No Demand for 5 Years",
-      "[Defense News] Japan sprinkles fresh missiles across its islands to fend off would-be attackers"
+      "[Defense News] US uses hundreds of Tomahawk missiles on Iran, alarming some at Pentagon"
     ]
   },
   "ground_intel": {
@@ -942,7 +960,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-03-29T14:23:01.110517+00:00",
+    "last_successful_update": "2026-03-29T15:19:11.049633+00:00",
     "article_count": 50,
     "categorized_count": 30,
     "freshest_source": "Naval News",
