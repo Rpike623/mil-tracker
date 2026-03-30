@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-03-30T18:42:35Z",
-  "version": 690,
+  "generated_utc": "2026-03-30T19:45:19Z",
+  "version": 691,
   "breaking_alert": "Naval News: Japan lays keel of both ASEV Missile Defense Ships",
   "naval_deployments": [
     {
@@ -669,19 +669,19 @@
       ]
     },
     {
-      "title": "Ukraine’s drone masters eye Iran war to kickstart export ambitions",
-      "link": "https://www.defensenews.com/industry/techwatch/2026/03/30/ukraines-drone-masters-eye-iran-war-to-kickstart-export-ambitions/",
-      "published": "Mon, 30 Mar 2026 16:13:42 +0000",
-      "source": "Defense News",
+      "title": "Army approves combat patches for soldiers in Iran war zone",
+      "link": "https://taskandpurpose.com/military-life/army-iran-war-combat-patch/",
+      "published": "Mon, 30 Mar 2026 15:23:53 -0400",
+      "source": "Task & Purpose",
       "categories": [
         "deployment"
       ]
     },
     {
       "title": "Ukraine’s drone masters eye Iran war to kickstart export ambitions",
-      "link": "https://www.militarytimes.com/industry/techwatch/2026/03/30/ukraines-drone-masters-eye-iran-war-to-kickstart-export-ambitions/",
+      "link": "https://www.defensenews.com/industry/techwatch/2026/03/30/ukraines-drone-masters-eye-iran-war-to-kickstart-export-ambitions/",
       "published": "Mon, 30 Mar 2026 16:13:42 +0000",
-      "source": "Military Times",
+      "source": "Defense News",
       "categories": [
         "deployment"
       ]
@@ -936,11 +936,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 25,
+    "deployment_articles": 26,
     "conflict_articles": 6,
     "exercise_articles": 7,
     "total_articles": 50,
-    "computed_at": "2026-03-30T18:42:30.375375+00:00",
+    "computed_at": "2026-03-30T19:45:14.559046+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] Japan lays keel of both ASEV Missile Defense Ships",
@@ -958,9 +958,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-03-30T18:42:30.375417+00:00",
+    "last_successful_update": "2026-03-30T19:45:14.559093+00:00",
     "article_count": 50,
-    "categorized_count": 31,
+    "categorized_count": 32,
     "freshest_source": "Naval News",
     "freshest_title": "Japan lays keel of both ASEV Missile Defense Ships",
     "freshest_published": "Fri, 27 Mar 2026 08:06:06 +0000"
