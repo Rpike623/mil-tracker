@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-03-30T20:32:40Z",
-  "version": 692,
+  "generated_utc": "2026-03-30T21:31:02Z",
+  "version": 693,
   "breaking_alert": "Naval News: Japan lays keel of both ASEV Missile Defense Ships",
   "naval_deployments": [
     {
@@ -937,11 +937,11 @@
   ],
   "_threat_indicators": {
     "deployment_articles": 27,
-    "conflict_articles": 7,
+    "conflict_articles": 8,
     "exercise_articles": 7,
     "total_articles": 50,
-    "computed_at": "2026-03-30T20:32:29.735991+00:00",
-    "manual_override": "DEFCON_3",
+    "computed_at": "2026-03-30T21:30:59.890087+00:00",
+    "manual_override": "DEFCON_2",
     "breaking_events": [
       "[Naval News] Japan lays keel of both ASEV Missile Defense Ships",
       "[Task & Purpose] New bill could make it easier for veterans to get VA home loans, senators say",
@@ -958,7 +958,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-03-30T20:32:29.736032+00:00",
+    "last_successful_update": "2026-03-30T21:30:59.890132+00:00",
     "article_count": 50,
     "categorized_count": 33,
     "freshest_source": "Naval News",
