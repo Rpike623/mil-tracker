@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-03-30T08:14:53Z",
-  "version": 682,
+  "generated_utc": "2026-03-30T10:04:05Z",
+  "version": 683,
   "breaking_alert": "Naval News: Japan lays keel of both ASEV Missile Defense Ships",
   "naval_deployments": [
     {
@@ -612,16 +612,6 @@
       ]
     },
     {
-      "title": "US uses hundreds of Tomahawk missiles on Iran, alarming some at Pentagon",
-      "link": "https://www.defensenews.com/news/your-military/2026/03/27/us-uses-hundreds-of-tomahawk-missiles-on-iran-alarming-some-at-pentagon/",
-      "published": "Fri, 27 Mar 2026 15:19:36 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
       "title": "Combat zone widens in Lebanon as Israel and Hezbollah escalate attacks",
       "link": "https://www.defensenews.com/global/mideast-africa/2026/03/27/combat-zone-widens-in-lebanon-as-israel-and-hezbollah-escalate-attacks/",
       "published": "Fri, 27 Mar 2026 18:18:29 +0000",
@@ -658,6 +648,15 @@
       "categories": [
         "deployment",
         "conflict"
+      ]
+    },
+    {
+      "title": "Italian Navy to fly TB3 drones from Cavour aircraft carrier",
+      "link": "https://www.navalnews.com/naval-news/2026/03/italian-navy-to-fly-tb3-drones-from-cavour-aircraft-carrier/",
+      "published": "Mon, 30 Mar 2026 09:45:38 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment"
       ]
     },
     {
@@ -849,16 +848,6 @@
       ]
     },
     {
-      "title": "US uses hundreds of Tomahawk missiles on Iran, alarming some at Pentagon",
-      "link": "https://www.defensenews.com/news/your-military/2026/03/27/us-uses-hundreds-of-tomahawk-missiles-on-iran-alarming-some-at-pentagon/",
-      "published": "Fri, 27 Mar 2026 15:19:36 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
       "title": "Combat zone widens in Lebanon as Israel and Hezbollah escalate attacks",
       "link": "https://www.defensenews.com/global/mideast-africa/2026/03/27/combat-zone-widens-in-lebanon-as-israel-and-hezbollah-escalate-attacks/",
       "published": "Fri, 27 Mar 2026 18:18:29 +0000",
@@ -885,6 +874,16 @@
       "categories": [
         "conflict"
       ]
+    },
+    {
+      "title": "Japanese Aegis Destroyer Completes Modifications to Operate U.S.-made Tomahawk Missiles",
+      "link": "https://news.usni.org/2026/03/27/japanese-aegis-destroyer-completes-modifications-to-operate-u-s-made-tomahawk-missiles",
+      "published": "Fri, 27 Mar 2026 19:37:42 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
     }
   ],
   "_exercise_news_refs": [
@@ -893,6 +892,15 @@
       "link": "https://taskandpurpose.com/military-life/va-appraisal-modernization-act/",
       "published": "Fri, 27 Mar 2026 09:00:00 -0400",
       "source": "Task & Purpose",
+      "categories": [
+        "exercise"
+      ]
+    },
+    {
+      "title": "Europe must reinvent warfare for ‘era of shocks,’ NATO’s Vandier says",
+      "link": "https://www.defensenews.com/global/europe/2026/03/30/europe-must-reinvent-warfare-for-era-of-shocks-natos-vandier-says/",
+      "published": "Mon, 30 Mar 2026 09:53:00 +0000",
+      "source": "Defense News",
       "categories": [
         "exercise"
       ]
@@ -925,31 +933,21 @@
         "deployment",
         "exercise"
       ]
-    },
-    {
-      "title": "Sailor Flown Ashore After Flight Operations Injury on Carrier USS Abraham Lincoln",
-      "link": "https://news.usni.org/2026/03/26/sailor-flown-ashore-after-flight-operations-injury-on-carrier-uss-abraham-lincoln",
-      "published": "Thu, 26 Mar 2026 16:52:55 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment",
-        "exercise"
-      ]
     }
   ],
   "_threat_indicators": {
     "deployment_articles": 21,
-    "conflict_articles": 10,
-    "exercise_articles": 5,
+    "conflict_articles": 8,
+    "exercise_articles": 6,
     "total_articles": 50,
-    "computed_at": "2026-03-30T08:14:01.980339+00:00",
+    "computed_at": "2026-03-30T10:03:58.144088+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[Naval News] Japan lays keel of both ASEV Missile Defense Ships",
       "[Task & Purpose] New bill could make it easier for veterans to get VA home loans, senators say",
       "[Naval News] South Korea opens KDDX destroyer tender, eyes July contract",
       "[USNI News] Inspector General Audit of Naval Supply Systems Command Management of Inventory Items with No Demand for 5 Years",
-      "[Defense News] US uses hundreds of Tomahawk missiles on Iran, alarming some at Pentagon"
+      "[Defense News] Combat zone widens in Lebanon as Israel and Hezbollah escalate attacks"
     ]
   },
   "ground_intel": {
@@ -960,7 +958,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-03-30T08:14:01.980382+00:00",
+    "last_successful_update": "2026-03-30T10:03:58.144134+00:00",
     "article_count": 50,
     "categorized_count": 29,
     "freshest_source": "Naval News",
