@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-03-30T17:42:49Z",
-  "version": 689,
+  "generated_utc": "2026-03-30T18:42:35Z",
+  "version": 690,
   "breaking_alert": "Naval News: Japan lays keel of both ASEV Missile Defense Ships",
   "naval_deployments": [
     {
@@ -631,16 +631,6 @@
       ]
     },
     {
-      "title": "12 US troops wounded in Iranian attack on Prince Sultan Airbase",
-      "link": "https://www.militarytimes.com/news/your-military/2026/03/27/10-us-troops-wounded-in-attack-on-prince-sultan-airbase/",
-      "published": "Fri, 27 Mar 2026 22:53:44 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
       "title": "Italian Navy to fly TB3 drones from Cavour aircraft carrier",
       "link": "https://www.navalnews.com/naval-news/2026/03/italian-navy-to-fly-tb3-drones-from-cavour-aircraft-carrier/",
       "published": "Mon, 30 Mar 2026 09:45:38 +0000",
@@ -683,6 +673,15 @@
       "link": "https://www.defensenews.com/industry/techwatch/2026/03/30/ukraines-drone-masters-eye-iran-war-to-kickstart-export-ambitions/",
       "published": "Mon, 30 Mar 2026 16:13:42 +0000",
       "source": "Defense News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Ukraine’s drone masters eye Iran war to kickstart export ambitions",
+      "link": "https://www.militarytimes.com/industry/techwatch/2026/03/30/ukraines-drone-masters-eye-iran-war-to-kickstart-export-ambitions/",
+      "published": "Mon, 30 Mar 2026 16:13:42 +0000",
+      "source": "Military Times",
       "categories": [
         "deployment"
       ]
@@ -859,16 +858,6 @@
       ]
     },
     {
-      "title": "12 US troops wounded in Iranian attack on Prince Sultan Airbase",
-      "link": "https://www.militarytimes.com/news/your-military/2026/03/27/10-us-troops-wounded-in-attack-on-prince-sultan-airbase/",
-      "published": "Fri, 27 Mar 2026 22:53:44 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
       "title": "Japanese destroyer can now fire Tomahawk missiles, extending nation’s combat punch",
       "link": "https://www.defensenews.com/global/asia-pacific/2026/03/30/japanese-destroyer-can-now-fire-tomahawk-missiles-extending-nations-combat-punch/",
       "published": "Mon, 30 Mar 2026 13:38:59 +0000",
@@ -885,6 +874,15 @@
       "source": "Military Times",
       "categories": [
         "deployment",
+        "conflict"
+      ]
+    },
+    {
+      "title": "Missile-wielding Airbus interceptor engages one-way attack drone in test",
+      "link": "https://www.defensenews.com/global/europe/2026/03/30/missile-wielding-airbus-interceptor-engages-one-way-attack-drone-in-test/",
+      "published": "Mon, 30 Mar 2026 16:35:48 +0000",
+      "source": "Defense News",
+      "categories": [
         "conflict"
       ]
     }
@@ -938,11 +936,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 24,
+    "deployment_articles": 25,
     "conflict_articles": 6,
     "exercise_articles": 7,
     "total_articles": 50,
-    "computed_at": "2026-03-30T17:42:17.095920+00:00",
+    "computed_at": "2026-03-30T18:42:30.375375+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] Japan lays keel of both ASEV Missile Defense Ships",
@@ -960,9 +958,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-03-30T17:42:17.095963+00:00",
+    "last_successful_update": "2026-03-30T18:42:30.375417+00:00",
     "article_count": 50,
-    "categorized_count": 30,
+    "categorized_count": 31,
     "freshest_source": "Naval News",
     "freshest_title": "Japan lays keel of both ASEV Missile Defense Ships",
     "freshest_published": "Fri, 27 Mar 2026 08:06:06 +0000"
