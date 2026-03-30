@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-03-30T11:44:57Z",
-  "version": 684,
+  "generated_utc": "2026-03-30T12:46:02Z",
+  "version": 685,
   "breaking_alert": "Naval News: Japan lays keel of both ASEV Missile Defense Ships",
   "naval_deployments": [
     {
@@ -660,6 +660,15 @@
       ]
     },
     {
+      "title": "U.S. Navy Commissions Submarine USS Massachusetts (SSN 798)",
+      "link": "https://www.navalnews.com/naval-news/2026/03/u-s-navy-commissions-submarine-uss-massachusetts-ssn-798/",
+      "published": "Mon, 30 Mar 2026 12:24:53 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "Aircraft carrier USS Gerald R. Ford arrives in Croatia for repairs",
       "link": "https://www.defensenews.com/news/your-military/2026/03/28/aircraft-carrier-uss-gerald-r-ford-arrives-in-croatia-for-repairs/",
       "published": "Sat, 28 Mar 2026 14:47:55 +0000",
@@ -673,15 +682,6 @@
       "link": "https://www.militarytimes.com/news/your-military/2026/03/28/aircraft-carrier-uss-gerald-r-ford-arrives-in-croatia-for-repairs/",
       "published": "Sat, 28 Mar 2026 14:47:55 +0000",
       "source": "Military Times",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "USS Tripoli, 2,200 Marines arrive in the Middle East",
-      "link": "https://taskandpurpose.com/news/uss-tripoli-marines-middle-east/",
-      "published": "Sat, 28 Mar 2026 16:21:07 -0400",
-      "source": "Task & Purpose",
       "categories": [
         "deployment"
       ]
@@ -936,12 +936,12 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 21,
-    "conflict_articles": 8,
+    "deployment_articles": 22,
+    "conflict_articles": 7,
     "exercise_articles": 6,
     "total_articles": 50,
-    "computed_at": "2026-03-30T11:44:50.614401+00:00",
-    "manual_override": "DEFCON_2",
+    "computed_at": "2026-03-30T12:45:46.220639+00:00",
+    "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] Japan lays keel of both ASEV Missile Defense Ships",
       "[Task & Purpose] New bill could make it easier for veterans to get VA home loans, senators say",
@@ -958,7 +958,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-03-30T11:44:50.614444+00:00",
+    "last_successful_update": "2026-03-30T12:45:46.220683+00:00",
     "article_count": 50,
     "categorized_count": 29,
     "freshest_source": "Naval News",
