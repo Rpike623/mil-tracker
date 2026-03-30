@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-03-30T21:31:02Z",
-  "version": 693,
+  "generated_utc": "2026-03-30T22:21:45Z",
+  "version": 694,
   "breaking_alert": "Naval News: Japan lays keel of both ASEV Missile Defense Ships",
   "naval_deployments": [
     {
@@ -916,15 +916,6 @@
       ]
     },
     {
-      "title": "Ukraine’s Zelenskyy agrees to defense cooperation with UAE, Qatar",
-      "link": "https://www.defensenews.com/global/europe/2026/03/28/ukraines-zelenskyy-agrees-to-defense-cooperation-with-uae-qatar/",
-      "published": "Sat, 28 Mar 2026 14:26:36 +0000",
-      "source": "Defense News",
-      "categories": [
-        "exercise"
-      ]
-    },
-    {
       "title": "Pentagon reportedly preparing for weeks of ground operations in Iran",
       "link": "https://www.defensenews.com/news/your-military/2026/03/29/pentagon-reportedly-preparing-for-weeks-of-ground-operations-in-iran/",
       "published": "Sun, 29 Mar 2026 14:35:23 +0000",
@@ -938,9 +929,9 @@
   "_threat_indicators": {
     "deployment_articles": 27,
     "conflict_articles": 8,
-    "exercise_articles": 7,
+    "exercise_articles": 4,
     "total_articles": 50,
-    "computed_at": "2026-03-30T21:30:59.890087+00:00",
+    "computed_at": "2026-03-30T22:21:41.444997+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[Naval News] Japan lays keel of both ASEV Missile Defense Ships",
@@ -958,9 +949,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-03-30T21:30:59.890132+00:00",
+    "last_successful_update": "2026-03-30T22:21:41.445039+00:00",
     "article_count": 50,
-    "categorized_count": 33,
+    "categorized_count": 32,
     "freshest_source": "Naval News",
     "freshest_title": "Japan lays keel of both ASEV Missile Defense Ships",
     "freshest_published": "Fri, 27 Mar 2026 08:06:06 +0000"
