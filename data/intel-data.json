@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-03-30T15:58:00Z",
-  "version": 687,
+  "generated_utc": "2026-03-30T16:50:52Z",
+  "version": 688,
   "breaking_alert": "Naval News: Japan lays keel of both ASEV Missile Defense Ships",
   "naval_deployments": [
     {
@@ -679,9 +679,9 @@
       ]
     },
     {
-      "title": "Aircraft carrier USS Gerald R. Ford arrives in Croatia for repairs",
-      "link": "https://www.defensenews.com/news/your-military/2026/03/28/aircraft-carrier-uss-gerald-r-ford-arrives-in-croatia-for-repairs/",
-      "published": "Sat, 28 Mar 2026 14:47:55 +0000",
+      "title": "Ukraine’s drone masters eye Iran war to kickstart export ambitions",
+      "link": "https://www.defensenews.com/industry/techwatch/2026/03/30/ukraines-drone-masters-eye-iran-war-to-kickstart-export-ambitions/",
+      "published": "Mon, 30 Mar 2026 16:13:42 +0000",
       "source": "Defense News",
       "categories": [
         "deployment"
@@ -938,11 +938,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 22,
-    "conflict_articles": 6,
+    "deployment_articles": 24,
+    "conflict_articles": 7,
     "exercise_articles": 7,
     "total_articles": 50,
-    "computed_at": "2026-03-30T15:57:57.610541+00:00",
+    "computed_at": "2026-03-30T16:50:50.443112+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] Japan lays keel of both ASEV Missile Defense Ships",
@@ -960,9 +960,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-03-30T15:57:57.610586+00:00",
+    "last_successful_update": "2026-03-30T16:50:50.443156+00:00",
     "article_count": 50,
-    "categorized_count": 28,
+    "categorized_count": 31,
     "freshest_source": "Naval News",
     "freshest_title": "Japan lays keel of both ASEV Missile Defense Ships",
     "freshest_published": "Fri, 27 Mar 2026 08:06:06 +0000"
