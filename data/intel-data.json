@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-03-31T15:56:32Z",
-  "version": 706,
+  "generated_utc": "2026-03-31T16:48:57Z",
+  "version": 707,
   "breaking_alert": "USNI News: Inspector General Audit of Naval Supply Systems Command Management of Inventory Items with No Demand for 5 Years",
   "naval_deployments": [
     {
@@ -923,7 +923,7 @@
     "conflict_articles": 11,
     "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-03-31T15:56:27.112125+00:00",
+    "computed_at": "2026-03-31T16:48:55.035650+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[USNI News] Inspector General Audit of Naval Supply Systems Command Management of Inventory Items with No Demand for 5 Years",
@@ -941,7 +941,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-03-31T15:56:27.112169+00:00",
+    "last_successful_update": "2026-03-31T16:48:55.035697+00:00",
     "article_count": 50,
     "categorized_count": 33,
     "freshest_source": "USNI News",
