@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-03-31T11:39:00Z",
-  "version": 703,
+  "generated_utc": "2026-03-31T12:44:36Z",
+  "version": 704,
   "breaking_alert": "Task & Purpose: New bill could make it easier for veterans to get VA home loans, senators say",
   "naval_deployments": [
     {
@@ -650,16 +650,6 @@
       ]
     },
     {
-      "title": "Japanese destroyer can now fire Tomahawk missiles, extending nation’s combat punch",
-      "link": "https://www.militarytimes.com/global/asia-pacific/2026/03/30/japanese-destroyer-can-now-fire-tomahawk-missiles-extending-nations-combat-punch/",
-      "published": "Mon, 30 Mar 2026 13:38:59 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
       "title": "Army approves combat patches for soldiers in Iran war zone",
       "link": "https://taskandpurpose.com/military-life/army-iran-war-combat-patch/",
       "published": "Mon, 30 Mar 2026 15:23:53 -0400",
@@ -684,6 +674,16 @@
       "source": "Military Times",
       "categories": [
         "deployment"
+      ]
+    },
+    {
+      "title": "Marine corporal charged with stealing and selling a Javelin missile",
+      "link": "https://taskandpurpose.com/news/marine-stolen-javelin-indicted/",
+      "published": "Mon, 30 Mar 2026 16:46:21 -0400",
+      "source": "Task & Purpose",
+      "categories": [
+        "deployment",
+        "conflict"
       ]
     }
   ],
@@ -859,16 +859,6 @@
       ]
     },
     {
-      "title": "Japanese destroyer can now fire Tomahawk missiles, extending nation’s combat punch",
-      "link": "https://www.militarytimes.com/global/asia-pacific/2026/03/30/japanese-destroyer-can-now-fire-tomahawk-missiles-extending-nations-combat-punch/",
-      "published": "Mon, 30 Mar 2026 13:38:59 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
       "title": "Missile-wielding Airbus interceptor engages one-way attack drone in test",
       "link": "https://www.defensenews.com/global/europe/2026/03/30/missile-wielding-airbus-interceptor-engages-one-way-attack-drone-in-test/",
       "published": "Mon, 30 Mar 2026 16:35:48 +0000",
@@ -882,6 +872,16 @@
       "link": "https://taskandpurpose.com/news/marine-stolen-javelin-indicted/",
       "published": "Mon, 30 Mar 2026 16:46:21 -0400",
       "source": "Task & Purpose",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
+    },
+    {
+      "title": "US Navy commissions fast-attack submarine USS Massachusetts",
+      "link": "https://www.militarytimes.com/news/your-navy/2026/03/30/us-navy-commissions-fast-attack-submarine-uss-massachusetts/",
+      "published": "Mon, 30 Mar 2026 18:17:31 +0000",
+      "source": "Military Times",
       "categories": [
         "deployment",
         "conflict"
@@ -928,11 +928,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 28,
-    "conflict_articles": 9,
+    "deployment_articles": 26,
+    "conflict_articles": 8,
     "exercise_articles": 4,
     "total_articles": 50,
-    "computed_at": "2026-03-31T11:38:56.752967+00:00",
+    "computed_at": "2026-03-31T12:44:34.538577+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[Task & Purpose] New bill could make it easier for veterans to get VA home loans, senators say",
@@ -950,9 +950,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-03-31T11:38:56.753010+00:00",
+    "last_successful_update": "2026-03-31T12:44:34.538620+00:00",
     "article_count": 50,
-    "categorized_count": 32,
+    "categorized_count": 30,
     "freshest_source": "Task & Purpose",
     "freshest_title": "New bill could make it easier for veterans to get VA home loans, senators say",
     "freshest_published": "Fri, 27 Mar 2026 09:00:00 -0400"
