@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-03-31T07:59:09Z",
-  "version": 699,
-  "breaking_alert": "Naval News: Japan lays keel of both ASEV Missile Defense Ships",
+  "generated_utc": "2026-03-31T08:57:17Z",
+  "version": 700,
+  "breaking_alert": "Task & Purpose: New bill could make it easier for veterans to get VA home loans, senators say",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -839,15 +839,6 @@
   },
   "_conflict_news_refs": [
     {
-      "title": "Japan lays keel of both ASEV Missile Defense Ships",
-      "link": "https://www.navalnews.com/naval-news/2026/03/japan-lays-keel-of-both-asev-missile-defense-ships/",
-      "published": "Fri, 27 Mar 2026 08:06:06 +0000",
-      "source": "Naval News",
-      "categories": [
-        "conflict"
-      ]
-    },
-    {
       "title": "Japanese Aegis Destroyer Completes Modifications to Operate U.S.-made Tomahawk Missiles",
       "link": "https://news.usni.org/2026/03/27/japanese-aegis-destroyer-completes-modifications-to-operate-u-s-made-tomahawk-missiles",
       "published": "Fri, 27 Mar 2026 19:37:42 +0000",
@@ -883,6 +874,16 @@
       "published": "Mon, 30 Mar 2026 16:35:48 +0000",
       "source": "Defense News",
       "categories": [
+        "conflict"
+      ]
+    },
+    {
+      "title": "Marine corporal charged with stealing and selling a Javelin missile",
+      "link": "https://taskandpurpose.com/news/marine-stolen-javelin-indicted/",
+      "published": "Mon, 30 Mar 2026 16:46:21 -0400",
+      "source": "Task & Purpose",
+      "categories": [
+        "deployment",
         "conflict"
       ]
     }
@@ -927,18 +928,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 27,
+    "deployment_articles": 28,
     "conflict_articles": 8,
     "exercise_articles": 4,
     "total_articles": 50,
-    "computed_at": "2026-03-31T07:59:06.613794+00:00",
+    "computed_at": "2026-03-31T08:57:14.549200+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
-      "[Naval News] Japan lays keel of both ASEV Missile Defense Ships",
       "[Task & Purpose] New bill could make it easier for veterans to get VA home loans, senators say",
       "[Naval News] South Korea opens KDDX destroyer tender, eyes July contract",
       "[USNI News] Inspector General Audit of Naval Supply Systems Command Management of Inventory Items with No Demand for 5 Years",
-      "[USNI News] Japanese Aegis Destroyer Completes Modifications to Operate U.S.-made Tomahawk Missiles"
+      "[USNI News] Japanese Aegis Destroyer Completes Modifications to Operate U.S.-made Tomahawk Missiles",
+      "[USNI News] IRGC Opens Tolled Passage for Merchant Ships in Strait of Hormuz, Transit Continues to Trickle Through"
     ]
   },
   "ground_intel": {
@@ -949,12 +950,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-03-31T07:59:06.613846+00:00",
+    "last_successful_update": "2026-03-31T08:57:14.549246+00:00",
     "article_count": 50,
     "categorized_count": 32,
-    "freshest_source": "Naval News",
-    "freshest_title": "Japan lays keel of both ASEV Missile Defense Ships",
-    "freshest_published": "Fri, 27 Mar 2026 08:06:06 +0000"
+    "freshest_source": "Task & Purpose",
+    "freshest_title": "New bill could make it easier for veterans to get VA home loans, senators say",
+    "freshest_published": "Fri, 27 Mar 2026 09:00:00 -0400"
   },
   "_firms_hotspots": []
 }
