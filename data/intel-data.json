@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-03-31T14:21:18Z",
-  "version": 705,
-  "breaking_alert": "Task & Purpose: New bill could make it easier for veterans to get VA home loans, senators say",
+  "generated_utc": "2026-03-31T15:56:32Z",
+  "version": 706,
+  "breaking_alert": "USNI News: Inspector General Audit of Naval Supply Systems Command Management of Inventory Items with No Demand for 5 Years",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -668,15 +668,6 @@
       ]
     },
     {
-      "title": "Ukraine’s drone masters eye Iran war to kickstart export ambitions",
-      "link": "https://www.militarytimes.com/industry/techwatch/2026/03/30/ukraines-drone-masters-eye-iran-war-to-kickstart-export-ambitions/",
-      "published": "Mon, 30 Mar 2026 16:13:42 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Marine corporal charged with stealing and selling a Javelin missile",
       "link": "https://taskandpurpose.com/news/marine-stolen-javelin-indicted/",
       "published": "Mon, 30 Mar 2026 16:46:21 -0400",
@@ -684,6 +675,15 @@
       "categories": [
         "deployment",
         "conflict"
+      ]
+    },
+    {
+      "title": "Thousands of US Army paratroopers arrive in Middle East as buildup intensifies",
+      "link": "https://www.militarytimes.com/news/your-military/2026/03/30/thousands-of-us-army-paratroopers-arrive-in-middle-east-as-buildup-intensifies/",
+      "published": "Mon, 30 Mar 2026 17:48:20 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment"
       ]
     }
   ],
@@ -890,28 +890,10 @@
   ],
   "_exercise_news_refs": [
     {
-      "title": "New bill could make it easier for veterans to get VA home loans, senators say",
-      "link": "https://taskandpurpose.com/military-life/va-appraisal-modernization-act/",
-      "published": "Fri, 27 Mar 2026 09:00:00 -0400",
-      "source": "Task & Purpose",
-      "categories": [
-        "exercise"
-      ]
-    },
-    {
       "title": "Europe must reinvent warfare for ‘era of shocks,’ NATO’s Vandier says",
       "link": "https://www.defensenews.com/global/europe/2026/03/30/europe-must-reinvent-warfare-for-era-of-shocks-natos-vandier-says/",
       "published": "Mon, 30 Mar 2026 09:53:00 +0000",
       "source": "Defense News",
-      "categories": [
-        "exercise"
-      ]
-    },
-    {
-      "title": "Senator stalls 3 ‘unfit’ officer promotions in retort to Hegseth",
-      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/03/30/senator-stalls-3-unfit-officer-promotions-in-retort-to-hegseth/",
-      "published": "Mon, 30 Mar 2026 14:08:07 +0000",
-      "source": "Military Times",
       "categories": [
         "exercise"
       ]
@@ -925,21 +907,30 @@
         "deployment",
         "exercise"
       ]
+    },
+    {
+      "title": "NATO Secretary General’s 2025 Annual Report",
+      "link": "https://news.usni.org/2026/03/31/nato-secretary-generals-2025-annual-report",
+      "published": "Tue, 31 Mar 2026 14:22:02 +0000",
+      "source": "USNI News",
+      "categories": [
+        "exercise"
+      ]
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 26,
-    "conflict_articles": 9,
-    "exercise_articles": 4,
+    "deployment_articles": 29,
+    "conflict_articles": 11,
+    "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-03-31T14:21:00.447655+00:00",
+    "computed_at": "2026-03-31T15:56:27.112125+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
-      "[Task & Purpose] New bill could make it easier for veterans to get VA home loans, senators say",
       "[USNI News] Inspector General Audit of Naval Supply Systems Command Management of Inventory Items with No Demand for 5 Years",
       "[USNI News] Japanese Aegis Destroyer Completes Modifications to Operate U.S.-made Tomahawk Missiles",
       "[USNI News] IRGC Opens Tolled Passage for Merchant Ships in Strait of Hormuz, Transit Continues to Trickle Through",
-      "[Naval News] Italian Navy to fly TB3 drones from Cavour aircraft carrier"
+      "[Naval News] Italian Navy to fly TB3 drones from Cavour aircraft carrier",
+      "[Defense News] Europe must reinvent warfare for ‘era of shocks,’ NATO’s Vandier says"
     ]
   },
   "ground_intel": {
@@ -950,12 +941,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-03-31T14:21:00.447700+00:00",
+    "last_successful_update": "2026-03-31T15:56:27.112169+00:00",
     "article_count": 50,
-    "categorized_count": 31,
-    "freshest_source": "Task & Purpose",
-    "freshest_title": "New bill could make it easier for veterans to get VA home loans, senators say",
-    "freshest_published": "Fri, 27 Mar 2026 09:00:00 -0400"
+    "categorized_count": 33,
+    "freshest_source": "USNI News",
+    "freshest_title": "Inspector General Audit of Naval Supply Systems Command Management of Inventory Items with No Demand for 5 Years",
+    "freshest_published": "Fri, 27 Mar 2026 14:16:19 +0000"
   },
   "_firms_hotspots": []
 }
