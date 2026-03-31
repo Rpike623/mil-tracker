@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-03-31T21:26:14Z",
-  "version": 712,
-  "breaking_alert": "USNI News: Inspector General Audit of Naval Supply Systems Command Management of Inventory Items with No Demand for 5 Years",
+  "generated_utc": "2026-03-31T22:22:35Z",
+  "version": 713,
+  "breaking_alert": "USNI News: Japanese Aegis Destroyer Completes Modifications to Operate U.S.-made Tomahawk Missiles",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -594,15 +594,6 @@
   ],
   "_naval_news_refs": [
     {
-      "title": "Inspector General Audit of Naval Supply Systems Command Management of Inventory Items with No Demand for 5 Years",
-      "link": "https://news.usni.org/2026/03/27/inspector-general-audit-of-naval-supply-systems-command-management-of-inventory-items-with-no-demand-for-5-years",
-      "published": "Fri, 27 Mar 2026 14:16:19 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Japanese Aegis Destroyer Completes Modifications to Operate U.S.-made Tomahawk Missiles",
       "link": "https://news.usni.org/2026/03/27/japanese-aegis-destroyer-completes-modifications-to-operate-u-s-made-tomahawk-missiles",
       "published": "Fri, 27 Mar 2026 19:37:42 +0000",
@@ -685,6 +676,15 @@
       "categories": [
         "deployment",
         "conflict"
+      ]
+    },
+    {
+      "title": "Trump interested in calling on Arab states to help pay for Iran war, White House says",
+      "link": "https://www.defensenews.com/news/your-military/2026/03/30/trump-interested-in-calling-on-arab-states-to-help-pay-for-iran-war-white-house-says/",
+      "published": "Mon, 30 Mar 2026 19:59:11 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment"
       ]
     }
   ],
@@ -920,18 +920,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 29,
+    "deployment_articles": 27,
     "conflict_articles": 11,
     "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-03-31T21:25:59.972018+00:00",
+    "computed_at": "2026-03-31T22:22:32.036658+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
-      "[USNI News] Inspector General Audit of Naval Supply Systems Command Management of Inventory Items with No Demand for 5 Years",
       "[USNI News] Japanese Aegis Destroyer Completes Modifications to Operate U.S.-made Tomahawk Missiles",
       "[USNI News] IRGC Opens Tolled Passage for Merchant Ships in Strait of Hormuz, Transit Continues to Trickle Through",
       "[Naval News] Italian Navy to fly TB3 drones from Cavour aircraft carrier",
-      "[Defense News] Europe must reinvent warfare for ‘era of shocks,’ NATO’s Vandier says"
+      "[Defense News] Europe must reinvent warfare for ‘era of shocks,’ NATO’s Vandier says",
+      "[Naval News] U.S. Navy Commissions Submarine USS Massachusetts (SSN 798)"
     ]
   },
   "ground_intel": {
@@ -942,12 +942,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-03-31T21:25:59.972063+00:00",
+    "last_successful_update": "2026-03-31T22:22:32.036705+00:00",
     "article_count": 50,
-    "categorized_count": 34,
+    "categorized_count": 32,
     "freshest_source": "USNI News",
-    "freshest_title": "Inspector General Audit of Naval Supply Systems Command Management of Inventory Items with No Demand for 5 Years",
-    "freshest_published": "Fri, 27 Mar 2026 14:16:19 +0000"
+    "freshest_title": "Japanese Aegis Destroyer Completes Modifications to Operate U.S.-made Tomahawk Missiles",
+    "freshest_published": "Fri, 27 Mar 2026 19:37:42 +0000"
   },
   "_firms_hotspots": []
 }
