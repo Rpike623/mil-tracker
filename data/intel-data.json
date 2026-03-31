@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-03-31T12:44:36Z",
-  "version": 704,
+  "generated_utc": "2026-03-31T14:21:18Z",
+  "version": 705,
   "breaking_alert": "Task & Purpose: New bill could make it easier for veterans to get VA home loans, senators say",
   "naval_deployments": [
     {
@@ -929,10 +929,10 @@
   ],
   "_threat_indicators": {
     "deployment_articles": 26,
-    "conflict_articles": 8,
+    "conflict_articles": 9,
     "exercise_articles": 4,
     "total_articles": 50,
-    "computed_at": "2026-03-31T12:44:34.538577+00:00",
+    "computed_at": "2026-03-31T14:21:00.447655+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[Task & Purpose] New bill could make it easier for veterans to get VA home loans, senators say",
@@ -950,9 +950,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-03-31T12:44:34.538620+00:00",
+    "last_successful_update": "2026-03-31T14:21:00.447700+00:00",
     "article_count": 50,
-    "categorized_count": 30,
+    "categorized_count": 31,
     "freshest_source": "Task & Purpose",
     "freshest_title": "New bill could make it easier for veterans to get VA home loans, senators say",
     "freshest_published": "Fri, 27 Mar 2026 09:00:00 -0400"
