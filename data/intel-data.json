@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-04-01T20:32:06Z",
-  "version": 729,
+  "generated_utc": "2026-04-01T21:31:04Z",
+  "version": 730,
   "breaking_alert": "Task & Purpose: Army approves combat patches for soldiers in Iran war zone",
   "naval_deployments": [
     {
@@ -632,24 +632,6 @@
       ]
     },
     {
-      "title": "USS Tripoli Operating in CENTCOM, USS Gerald R. Ford in Croatia",
-      "link": "https://news.usni.org/2026/03/28/uss-tripoli-operating-in-centcom-uss-gerald-r-ford-in-croatia",
-      "published": "Sat, 28 Mar 2026 16:43:44 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Navy commissions its newest submarine, the USS Massachusetts",
-      "link": "https://taskandpurpose.com/news/uss-massachusetts-submarine-commissions/",
-      "published": "Sun, 29 Mar 2026 16:15:38 -0400",
-      "source": "Task & Purpose",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Hegseth says US won’t rule out deploying ‘boots on the ground’ for Iran war",
       "link": "https://taskandpurpose.com/news/hegseth-us-iran-ground-troops/",
       "published": "Tue, 31 Mar 2026 10:34:48 -0400",
@@ -681,6 +663,24 @@
       "link": "https://news.usni.org/2026/03/31/uss-george-h-w-bush-departs-for-deployment-uss-gerald-ford-could-be-extended-to-11-months",
       "published": "Tue, 31 Mar 2026 22:38:39 +0000",
       "source": "USNI News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Minesweeping technology in the Middle East is ‘a very good package,’ Caudle says",
+      "link": "https://www.militarytimes.com/news/your-navy/2026/04/01/minesweeping-technology-in-the-middle-east-is-a-very-good-package-caudle-says/",
+      "published": "Wed, 01 Apr 2026 00:04:52 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Poland holds tight to its Patriot batteries amid reported US call for Middle East transfer",
+      "link": "https://www.defensenews.com/global/europe/2026/04/01/poland-holds-tight-to-its-patriot-batteries-amid-reported-us-call-for-middle-east-transfer/",
+      "published": "Wed, 01 Apr 2026 10:43:11 +0000",
+      "source": "Defense News",
       "categories": [
         "deployment"
       ]
@@ -897,18 +897,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 16,
-    "conflict_articles": 9,
+    "deployment_articles": 14,
+    "conflict_articles": 10,
     "exercise_articles": 1,
     "total_articles": 40,
-    "computed_at": "2026-04-01T20:31:54.819575+00:00",
+    "computed_at": "2026-04-01T21:31:01.833820+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[Task & Purpose] Army approves combat patches for soldiers in Iran war zone",
       "[Task & Purpose] Marine corporal charged with stealing and selling a Javelin missile",
       "[USNI News] Navy Commissions New Virginia-class Attack Boat USS Massachusetts in Boston Ceremony",
       "[USNI News] USNI News Fleet and Marine Tracker: March 30, 2026",
-      "[USNI News] USS Tripoli Operating in CENTCOM, USS Gerald R. Ford in Croatia"
+      "[Task & Purpose] Hegseth says US won’t rule out deploying ‘boots on the ground’ for Iran war"
     ]
   },
   "ground_intel": {
@@ -919,9 +919,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-04-01T20:31:54.819615+00:00",
+    "last_successful_update": "2026-04-01T21:31:01.833865+00:00",
     "article_count": 40,
-    "categorized_count": 22,
+    "categorized_count": 21,
     "freshest_source": "Task & Purpose",
     "freshest_title": "Army approves combat patches for soldiers in Iran war zone",
     "freshest_published": "Mon, 30 Mar 2026 15:23:53 -0400"
