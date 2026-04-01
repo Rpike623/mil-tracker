@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-04-01T09:56:20Z",
-  "version": 719,
+  "generated_utc": "2026-04-01T10:45:17Z",
+  "version": 720,
   "breaking_alert": "USNI News: Japanese Aegis Destroyer Completes Modifications to Operate U.S.-made Tomahawk Missiles",
   "naval_deployments": [
     {
@@ -891,15 +891,6 @@
   ],
   "_exercise_news_refs": [
     {
-      "title": "Europe must reinvent warfare for ‘era of shocks,’ NATO’s Vandier says",
-      "link": "https://www.defensenews.com/global/europe/2026/03/30/europe-must-reinvent-warfare-for-era-of-shocks-natos-vandier-says/",
-      "published": "Mon, 30 Mar 2026 09:53:00 +0000",
-      "source": "Defense News",
-      "categories": [
-        "exercise"
-      ]
-    },
-    {
       "title": "NATO Secretary General’s 2025 Annual Report",
       "link": "https://news.usni.org/2026/03/31/nato-secretary-generals-2025-annual-report",
       "published": "Tue, 31 Mar 2026 14:22:02 +0000",
@@ -912,16 +903,16 @@
   "_threat_indicators": {
     "deployment_articles": 27,
     "conflict_articles": 11,
-    "exercise_articles": 2,
+    "exercise_articles": 1,
     "total_articles": 50,
-    "computed_at": "2026-04-01T09:56:14.461066+00:00",
+    "computed_at": "2026-04-01T10:45:14.243265+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[USNI News] Japanese Aegis Destroyer Completes Modifications to Operate U.S.-made Tomahawk Missiles",
       "[USNI News] IRGC Opens Tolled Passage for Merchant Ships in Strait of Hormuz, Transit Continues to Trickle Through",
       "[Naval News] Italian Navy to fly TB3 drones from Cavour aircraft carrier",
-      "[Defense News] Europe must reinvent warfare for ‘era of shocks,’ NATO’s Vandier says",
-      "[Naval News] U.S. Navy Commissions Submarine USS Massachusetts (SSN 798)"
+      "[Naval News] U.S. Navy Commissions Submarine USS Massachusetts (SSN 798)",
+      "[Defense News] Japanese destroyer can now fire Tomahawk missiles, extending nation’s combat punch"
     ]
   },
   "ground_intel": {
@@ -932,9 +923,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-04-01T09:56:14.461112+00:00",
+    "last_successful_update": "2026-04-01T10:45:14.243310+00:00",
     "article_count": 50,
-    "categorized_count": 32,
+    "categorized_count": 31,
     "freshest_source": "USNI News",
     "freshest_title": "Japanese Aegis Destroyer Completes Modifications to Operate U.S.-made Tomahawk Missiles",
     "freshest_published": "Fri, 27 Mar 2026 19:37:42 +0000"
