@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-04-01T17:40:13Z",
-  "version": 726,
+  "generated_utc": "2026-04-01T18:41:56Z",
+  "version": 727,
   "breaking_alert": "USNI News: IRGC Opens Tolled Passage for Merchant Ships in Strait of Hormuz, Transit Continues to Trickle Through",
   "naval_deployments": [
     {
@@ -659,15 +659,6 @@
       ]
     },
     {
-      "title": "USS Tripoli, 2,200 Marines arrive in the Middle East",
-      "link": "https://taskandpurpose.com/news/uss-tripoli-marines-middle-east/",
-      "published": "Sat, 28 Mar 2026 16:21:07 -0400",
-      "source": "Task & Purpose",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "USS Tripoli Operating in CENTCOM, USS Gerald R. Ford in Croatia",
       "link": "https://news.usni.org/2026/03/28/uss-tripoli-operating-in-centcom-uss-gerald-r-ford-in-croatia",
       "published": "Sat, 28 Mar 2026 16:43:44 +0000",
@@ -680,6 +671,15 @@
       "title": "Navy commissions its newest submarine, the USS Massachusetts",
       "link": "https://taskandpurpose.com/news/uss-massachusetts-submarine-commissions/",
       "published": "Sun, 29 Mar 2026 16:15:38 -0400",
+      "source": "Task & Purpose",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Hegseth says US won’t rule out deploying ‘boots on the ground’ for Iran war",
+      "link": "https://taskandpurpose.com/news/hegseth-us-iran-ground-troops/",
+      "published": "Tue, 31 Mar 2026 10:34:48 -0400",
       "source": "Task & Purpose",
       "categories": [
         "deployment"
@@ -897,11 +897,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 18,
+    "deployment_articles": 17,
     "conflict_articles": 5,
     "exercise_articles": 1,
     "total_articles": 40,
-    "computed_at": "2026-04-01T17:40:11.433377+00:00",
+    "computed_at": "2026-04-01T18:41:49.747677+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[USNI News] IRGC Opens Tolled Passage for Merchant Ships in Strait of Hormuz, Transit Continues to Trickle Through",
@@ -919,9 +919,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-04-01T17:40:11.433418+00:00",
+    "last_successful_update": "2026-04-01T18:41:49.747739+00:00",
     "article_count": 40,
-    "categorized_count": 22,
+    "categorized_count": 21,
     "freshest_source": "USNI News",
     "freshest_title": "IRGC Opens Tolled Passage for Merchant Ships in Strait of Hormuz, Transit Continues to Trickle Through",
     "freshest_published": "Fri, 27 Mar 2026 20:28:39 +0000"
