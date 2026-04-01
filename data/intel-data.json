@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-04-01T10:45:17Z",
-  "version": 720,
+  "generated_utc": "2026-04-01T11:41:14Z",
+  "version": 721,
   "breaking_alert": "USNI News: Japanese Aegis Destroyer Completes Modifications to Operate U.S.-made Tomahawk Missiles",
   "naval_deployments": [
     {
@@ -613,34 +613,6 @@
       ]
     },
     {
-      "title": "Italian Navy to fly TB3 drones from Cavour aircraft carrier",
-      "link": "https://www.navalnews.com/naval-news/2026/03/italian-navy-to-fly-tb3-drones-from-cavour-aircraft-carrier/",
-      "published": "Mon, 30 Mar 2026 09:45:38 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "U.S. Navy Commissions Submarine USS Massachusetts (SSN 798)",
-      "link": "https://www.navalnews.com/naval-news/2026/03/u-s-navy-commissions-submarine-uss-massachusetts-ssn-798/",
-      "published": "Mon, 30 Mar 2026 12:24:53 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Japanese destroyer can now fire Tomahawk missiles, extending nation’s combat punch",
-      "link": "https://www.defensenews.com/global/asia-pacific/2026/03/30/japanese-destroyer-can-now-fire-tomahawk-missiles-extending-nations-combat-punch/",
-      "published": "Mon, 30 Mar 2026 13:38:59 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
       "title": "Army approves combat patches for soldiers in Iran war zone",
       "link": "https://taskandpurpose.com/military-life/army-iran-war-combat-patch/",
       "published": "Mon, 30 Mar 2026 15:23:53 -0400",
@@ -683,6 +655,33 @@
       "link": "https://www.defensenews.com/news/your-military/2026/03/30/trump-interested-in-calling-on-arab-states-to-help-pay-for-iran-war-white-house-says/",
       "published": "Mon, 30 Mar 2026 19:59:11 +0000",
       "source": "Defense News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "USNI News Fleet and Marine Tracker: March 30, 2026",
+      "link": "https://news.usni.org/2026/03/30/usni-news-fleet-and-marine-tracker-march-30-2026",
+      "published": "Mon, 30 Mar 2026 21:39:02 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Limited missions, big risks: What a US ground fight in Iran could become",
+      "link": "https://www.defensenews.com/news/your-military/2026/03/30/limited-missions-big-risks-what-a-us-ground-fight-in-iran-could-become/",
+      "published": "Mon, 30 Mar 2026 21:43:39 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "USS Tripoli, 2,200 Marines arrive in the Middle East",
+      "link": "https://taskandpurpose.com/news/uss-tripoli-marines-middle-east/",
+      "published": "Sat, 28 Mar 2026 16:21:07 -0400",
+      "source": "Task & Purpose",
       "categories": [
         "deployment"
       ]
@@ -850,16 +849,6 @@
       ]
     },
     {
-      "title": "Japanese destroyer can now fire Tomahawk missiles, extending nation’s combat punch",
-      "link": "https://www.defensenews.com/global/asia-pacific/2026/03/30/japanese-destroyer-can-now-fire-tomahawk-missiles-extending-nations-combat-punch/",
-      "published": "Mon, 30 Mar 2026 13:38:59 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
       "title": "Missile-wielding Airbus interceptor engages one-way attack drone in test",
       "link": "https://www.defensenews.com/global/europe/2026/03/30/missile-wielding-airbus-interceptor-engages-one-way-attack-drone-in-test/",
       "published": "Mon, 30 Mar 2026 16:35:48 +0000",
@@ -887,6 +876,16 @@
         "deployment",
         "conflict"
       ]
+    },
+    {
+      "title": "Marine charged with stealing and selling Javelin Missile Systems, ammunition",
+      "link": "https://www.militarytimes.com/news/your-military/2026/03/31/marine-charged-with-stealing-and-selling-javelin-missile-systems-ammunition/",
+      "published": "Tue, 31 Mar 2026 14:59:54 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
     }
   ],
   "_exercise_news_refs": [
@@ -901,18 +900,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 27,
-    "conflict_articles": 11,
+    "deployment_articles": 22,
+    "conflict_articles": 7,
     "exercise_articles": 1,
-    "total_articles": 50,
-    "computed_at": "2026-04-01T10:45:14.243265+00:00",
-    "manual_override": "DEFCON_2",
+    "total_articles": 40,
+    "computed_at": "2026-04-01T11:41:11.320628+00:00",
+    "manual_override": "DEFCON_3",
     "breaking_events": [
       "[USNI News] Japanese Aegis Destroyer Completes Modifications to Operate U.S.-made Tomahawk Missiles",
       "[USNI News] IRGC Opens Tolled Passage for Merchant Ships in Strait of Hormuz, Transit Continues to Trickle Through",
-      "[Naval News] Italian Navy to fly TB3 drones from Cavour aircraft carrier",
-      "[Naval News] U.S. Navy Commissions Submarine USS Massachusetts (SSN 798)",
-      "[Defense News] Japanese destroyer can now fire Tomahawk missiles, extending nation’s combat punch"
+      "[Task & Purpose] Army approves combat patches for soldiers in Iran war zone",
+      "[Defense News] Ukraine’s drone masters eye Iran war to kickstart export ambitions",
+      "[Defense News] Missile-wielding Airbus interceptor engages one-way attack drone in test"
     ]
   },
   "ground_intel": {
@@ -923,9 +922,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-04-01T10:45:14.243310+00:00",
-    "article_count": 50,
-    "categorized_count": 31,
+    "last_successful_update": "2026-04-01T11:41:11.320672+00:00",
+    "article_count": 40,
+    "categorized_count": 25,
     "freshest_source": "USNI News",
     "freshest_title": "Japanese Aegis Destroyer Completes Modifications to Operate U.S.-made Tomahawk Missiles",
     "freshest_published": "Fri, 27 Mar 2026 19:37:42 +0000"
