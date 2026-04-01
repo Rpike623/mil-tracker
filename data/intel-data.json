@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-04-01T12:46:32Z",
-  "version": 722,
+  "generated_utc": "2026-04-01T14:23:08Z",
+  "version": 723,
   "breaking_alert": "USNI News: Japanese Aegis Destroyer Completes Modifications to Operate U.S.-made Tomahawk Missiles",
   "naval_deployments": [
     {
@@ -622,15 +622,6 @@
       ]
     },
     {
-      "title": "Ukraine’s drone masters eye Iran war to kickstart export ambitions",
-      "link": "https://www.defensenews.com/industry/techwatch/2026/03/30/ukraines-drone-masters-eye-iran-war-to-kickstart-export-ambitions/",
-      "published": "Mon, 30 Mar 2026 16:13:42 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Marine corporal charged with stealing and selling a Javelin missile",
       "link": "https://taskandpurpose.com/news/marine-stolen-javelin-indicted/",
       "published": "Mon, 30 Mar 2026 16:46:21 -0400",
@@ -682,6 +673,15 @@
       "link": "https://taskandpurpose.com/news/uss-tripoli-marines-middle-east/",
       "published": "Sat, 28 Mar 2026 16:21:07 -0400",
       "source": "Task & Purpose",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "USS Tripoli Operating in CENTCOM, USS Gerald R. Ford in Croatia",
+      "link": "https://news.usni.org/2026/03/28/uss-tripoli-operating-in-centcom-uss-gerald-r-ford-in-croatia",
+      "published": "Sat, 28 Mar 2026 16:43:44 +0000",
+      "source": "USNI News",
       "categories": [
         "deployment"
       ]
@@ -878,9 +878,9 @@
       ]
     },
     {
-      "title": "Marine charged with stealing and selling Javelin Missile Systems, ammunition",
-      "link": "https://www.militarytimes.com/news/your-military/2026/03/31/marine-charged-with-stealing-and-selling-javelin-missile-systems-ammunition/",
-      "published": "Tue, 31 Mar 2026 14:59:54 +0000",
+      "title": "Hegseth reveals secret trip to Middle East amid escalating Iran war",
+      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/03/31/hegseth-reveals-secret-trip-to-middle-east-amid-escalating-iran-war/",
+      "published": "Tue, 31 Mar 2026 15:18:39 +0000",
       "source": "Military Times",
       "categories": [
         "deployment",
@@ -900,18 +900,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 22,
-    "conflict_articles": 7,
+    "deployment_articles": 19,
+    "conflict_articles": 8,
     "exercise_articles": 1,
     "total_articles": 40,
-    "computed_at": "2026-04-01T12:46:26.715481+00:00",
-    "manual_override": "DEFCON_3",
+    "computed_at": "2026-04-01T14:22:59.111906+00:00",
+    "manual_override": "DEFCON_2",
     "breaking_events": [
       "[USNI News] Japanese Aegis Destroyer Completes Modifications to Operate U.S.-made Tomahawk Missiles",
       "[USNI News] IRGC Opens Tolled Passage for Merchant Ships in Strait of Hormuz, Transit Continues to Trickle Through",
       "[Task & Purpose] Army approves combat patches for soldiers in Iran war zone",
-      "[Defense News] Ukraine’s drone masters eye Iran war to kickstart export ambitions",
-      "[Defense News] Missile-wielding Airbus interceptor engages one-way attack drone in test"
+      "[Defense News] Missile-wielding Airbus interceptor engages one-way attack drone in test",
+      "[Task & Purpose] Marine corporal charged with stealing and selling a Javelin missile"
     ]
   },
   "ground_intel": {
@@ -922,9 +922,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-04-01T12:46:26.715524+00:00",
+    "last_successful_update": "2026-04-01T14:22:59.111949+00:00",
     "article_count": 40,
-    "categorized_count": 25,
+    "categorized_count": 24,
     "freshest_source": "USNI News",
     "freshest_title": "Japanese Aegis Destroyer Completes Modifications to Operate U.S.-made Tomahawk Missiles",
     "freshest_published": "Fri, 27 Mar 2026 19:37:42 +0000"
