@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-04-01T15:59:40Z",
-  "version": 724,
+  "generated_utc": "2026-04-01T16:54:27Z",
+  "version": 725,
   "breaking_alert": "USNI News: IRGC Opens Tolled Passage for Merchant Ships in Strait of Hormuz, Transit Continues to Trickle Through",
   "naval_deployments": [
     {
@@ -901,7 +901,7 @@
     "conflict_articles": 5,
     "exercise_articles": 1,
     "total_articles": 40,
-    "computed_at": "2026-04-01T15:59:35.119747+00:00",
+    "computed_at": "2026-04-01T16:54:22.024893+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[USNI News] IRGC Opens Tolled Passage for Merchant Ships in Strait of Hormuz, Transit Continues to Trickle Through",
@@ -919,7 +919,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-04-01T15:59:35.119790+00:00",
+    "last_successful_update": "2026-04-01T16:54:22.024937+00:00",
     "article_count": 40,
     "categorized_count": 21,
     "freshest_source": "USNI News",
