@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-04-01T18:41:56Z",
-  "version": 727,
+  "generated_utc": "2026-04-01T19:49:20Z",
+  "version": 728,
   "breaking_alert": "USNI News: IRGC Opens Tolled Passage for Merchant Ships in Strait of Hormuz, Transit Continues to Trickle Through",
   "naval_deployments": [
     {
@@ -632,15 +632,6 @@
       ]
     },
     {
-      "title": "Trump interested in calling on Arab states to help pay for Iran war, White House says",
-      "link": "https://www.defensenews.com/news/your-military/2026/03/30/trump-interested-in-calling-on-arab-states-to-help-pay-for-iran-war-white-house-says/",
-      "published": "Mon, 30 Mar 2026 19:59:11 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "USNI News Fleet and Marine Tracker: March 30, 2026",
       "link": "https://news.usni.org/2026/03/30/usni-news-fleet-and-marine-tracker-march-30-2026",
       "published": "Mon, 30 Mar 2026 21:39:02 +0000",
@@ -681,6 +672,15 @@
       "link": "https://taskandpurpose.com/news/hegseth-us-iran-ground-troops/",
       "published": "Tue, 31 Mar 2026 10:34:48 -0400",
       "source": "Task & Purpose",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Italy turns away Middle East-bound US military aircraft from Sicily stopover",
+      "link": "https://www.defensenews.com/global/europe/2026/03/31/italy-turns-away-middle-east-bound-us-military-aircraft-from-sicily-stopover/",
+      "published": "Tue, 31 Mar 2026 14:47:13 +0000",
+      "source": "Defense News",
       "categories": [
         "deployment"
       ]
@@ -898,17 +898,17 @@
   ],
   "_threat_indicators": {
     "deployment_articles": 17,
-    "conflict_articles": 5,
+    "conflict_articles": 7,
     "exercise_articles": 1,
     "total_articles": 40,
-    "computed_at": "2026-04-01T18:41:49.747677+00:00",
+    "computed_at": "2026-04-01T19:49:18.202718+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[USNI News] IRGC Opens Tolled Passage for Merchant Ships in Strait of Hormuz, Transit Continues to Trickle Through",
       "[Task & Purpose] Army approves combat patches for soldiers in Iran war zone",
       "[Task & Purpose] Marine corporal charged with stealing and selling a Javelin missile",
       "[USNI News] Navy Commissions New Virginia-class Attack Boat USS Massachusetts in Boston Ceremony",
-      "[Defense News] Trump interested in calling on Arab states to help pay for Iran war, White House says"
+      "[USNI News] USNI News Fleet and Marine Tracker: March 30, 2026"
     ]
   },
   "ground_intel": {
@@ -919,7 +919,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-04-01T18:41:49.747739+00:00",
+    "last_successful_update": "2026-04-01T19:49:18.202780+00:00",
     "article_count": 40,
     "categorized_count": 21,
     "freshest_source": "USNI News",
