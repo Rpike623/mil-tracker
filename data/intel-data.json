@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-04-01T14:23:08Z",
-  "version": 723,
-  "breaking_alert": "USNI News: Japanese Aegis Destroyer Completes Modifications to Operate U.S.-made Tomahawk Missiles",
+  "generated_utc": "2026-04-01T15:59:40Z",
+  "version": 724,
+  "breaking_alert": "USNI News: IRGC Opens Tolled Passage for Merchant Ships in Strait of Hormuz, Transit Continues to Trickle Through",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -594,16 +594,6 @@
   ],
   "_naval_news_refs": [
     {
-      "title": "Japanese Aegis Destroyer Completes Modifications to Operate U.S.-made Tomahawk Missiles",
-      "link": "https://news.usni.org/2026/03/27/japanese-aegis-destroyer-completes-modifications-to-operate-u-s-made-tomahawk-missiles",
-      "published": "Fri, 27 Mar 2026 19:37:42 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
       "title": "IRGC Opens Tolled Passage for Merchant Ships in Strait of Hormuz, Transit Continues to Trickle Through",
       "link": "https://news.usni.org/2026/03/27/irgc-opens-tolled-passage-for-merchant-ships-in-strait-of-hormuz-transit-continues-to-trickle-through",
       "published": "Fri, 27 Mar 2026 20:28:39 +0000",
@@ -682,6 +672,15 @@
       "link": "https://news.usni.org/2026/03/28/uss-tripoli-operating-in-centcom-uss-gerald-r-ford-in-croatia",
       "published": "Sat, 28 Mar 2026 16:43:44 +0000",
       "source": "USNI News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Navy commissions its newest submarine, the USS Massachusetts",
+      "link": "https://taskandpurpose.com/news/uss-massachusetts-submarine-commissions/",
+      "published": "Sun, 29 Mar 2026 16:15:38 -0400",
+      "source": "Task & Purpose",
       "categories": [
         "deployment"
       ]
@@ -839,25 +838,6 @@
   },
   "_conflict_news_refs": [
     {
-      "title": "Japanese Aegis Destroyer Completes Modifications to Operate U.S.-made Tomahawk Missiles",
-      "link": "https://news.usni.org/2026/03/27/japanese-aegis-destroyer-completes-modifications-to-operate-u-s-made-tomahawk-missiles",
-      "published": "Fri, 27 Mar 2026 19:37:42 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
-      "title": "Missile-wielding Airbus interceptor engages one-way attack drone in test",
-      "link": "https://www.defensenews.com/global/europe/2026/03/30/missile-wielding-airbus-interceptor-engages-one-way-attack-drone-in-test/",
-      "published": "Mon, 30 Mar 2026 16:35:48 +0000",
-      "source": "Defense News",
-      "categories": [
-        "conflict"
-      ]
-    },
-    {
       "title": "Marine corporal charged with stealing and selling a Javelin missile",
       "link": "https://taskandpurpose.com/news/marine-stolen-javelin-indicted/",
       "published": "Mon, 30 Mar 2026 16:46:21 -0400",
@@ -878,12 +858,29 @@
       ]
     },
     {
-      "title": "Hegseth reveals secret trip to Middle East amid escalating Iran war",
-      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/03/31/hegseth-reveals-secret-trip-to-middle-east-amid-escalating-iran-war/",
-      "published": "Tue, 31 Mar 2026 15:18:39 +0000",
+      "title": "Taiwan President Inspects Anti-ship, Air Defense Missile Production",
+      "link": "https://news.usni.org/2026/03/31/taiwan-president-inspects-anti-ship-air-defense-missile-production",
+      "published": "Tue, 31 Mar 2026 17:52:24 +0000",
+      "source": "USNI News",
+      "categories": [
+        "conflict"
+      ]
+    },
+    {
+      "title": "Ukraine claims near-90% air-defense success in March as attacks increase",
+      "link": "https://www.defensenews.com/global/europe/2026/04/01/ukraine-claims-near-90-air-defense-success-in-march-as-attacks-increase/",
+      "published": "Wed, 01 Apr 2026 12:46:48 +0000",
+      "source": "Defense News",
+      "categories": [
+        "conflict"
+      ]
+    },
+    {
+      "title": "Ukraine claims near-90% air-defense success in March as attacks increase",
+      "link": "https://www.militarytimes.com/global/europe/2026/04/01/ukraine-claims-near-90-air-defense-success-in-march-as-attacks-increase/",
+      "published": "Wed, 01 Apr 2026 12:46:48 +0000",
       "source": "Military Times",
       "categories": [
-        "deployment",
         "conflict"
       ]
     }
@@ -900,18 +897,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 19,
-    "conflict_articles": 8,
+    "deployment_articles": 17,
+    "conflict_articles": 5,
     "exercise_articles": 1,
     "total_articles": 40,
-    "computed_at": "2026-04-01T14:22:59.111906+00:00",
-    "manual_override": "DEFCON_2",
+    "computed_at": "2026-04-01T15:59:35.119747+00:00",
+    "manual_override": "DEFCON_3",
     "breaking_events": [
-      "[USNI News] Japanese Aegis Destroyer Completes Modifications to Operate U.S.-made Tomahawk Missiles",
       "[USNI News] IRGC Opens Tolled Passage for Merchant Ships in Strait of Hormuz, Transit Continues to Trickle Through",
       "[Task & Purpose] Army approves combat patches for soldiers in Iran war zone",
-      "[Defense News] Missile-wielding Airbus interceptor engages one-way attack drone in test",
-      "[Task & Purpose] Marine corporal charged with stealing and selling a Javelin missile"
+      "[Task & Purpose] Marine corporal charged with stealing and selling a Javelin missile",
+      "[USNI News] Navy Commissions New Virginia-class Attack Boat USS Massachusetts in Boston Ceremony",
+      "[Defense News] Trump interested in calling on Arab states to help pay for Iran war, White House says"
     ]
   },
   "ground_intel": {
@@ -922,12 +919,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-04-01T14:22:59.111949+00:00",
+    "last_successful_update": "2026-04-01T15:59:35.119790+00:00",
     "article_count": 40,
-    "categorized_count": 24,
+    "categorized_count": 21,
     "freshest_source": "USNI News",
-    "freshest_title": "Japanese Aegis Destroyer Completes Modifications to Operate U.S.-made Tomahawk Missiles",
-    "freshest_published": "Fri, 27 Mar 2026 19:37:42 +0000"
+    "freshest_title": "IRGC Opens Tolled Passage for Merchant Ships in Strait of Hormuz, Transit Continues to Trickle Through",
+    "freshest_published": "Fri, 27 Mar 2026 20:28:39 +0000"
   },
   "_firms_hotspots": []
 }
