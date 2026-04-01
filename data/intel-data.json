@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-04-01T08:07:00Z",
-  "version": 718,
+  "generated_utc": "2026-04-01T09:56:20Z",
+  "version": 719,
   "breaking_alert": "USNI News: Japanese Aegis Destroyer Completes Modifications to Operate U.S.-made Tomahawk Missiles",
   "naval_deployments": [
     {
@@ -900,16 +900,6 @@
       ]
     },
     {
-      "title": "Pentagon reportedly preparing for weeks of ground operations in Iran",
-      "link": "https://www.defensenews.com/news/your-military/2026/03/29/pentagon-reportedly-preparing-for-weeks-of-ground-operations-in-iran/",
-      "published": "Sun, 29 Mar 2026 14:35:23 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment",
-        "exercise"
-      ]
-    },
-    {
       "title": "NATO Secretary General’s 2025 Annual Report",
       "link": "https://news.usni.org/2026/03/31/nato-secretary-generals-2025-annual-report",
       "published": "Tue, 31 Mar 2026 14:22:02 +0000",
@@ -920,11 +910,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 29,
+    "deployment_articles": 27,
     "conflict_articles": 11,
-    "exercise_articles": 3,
+    "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-04-01T08:06:58.036285+00:00",
+    "computed_at": "2026-04-01T09:56:14.461066+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[USNI News] Japanese Aegis Destroyer Completes Modifications to Operate U.S.-made Tomahawk Missiles",
@@ -942,9 +932,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-04-01T08:06:58.036328+00:00",
+    "last_successful_update": "2026-04-01T09:56:14.461112+00:00",
     "article_count": 50,
-    "categorized_count": 34,
+    "categorized_count": 32,
     "freshest_source": "USNI News",
     "freshest_title": "Japanese Aegis Destroyer Completes Modifications to Operate U.S.-made Tomahawk Missiles",
     "freshest_published": "Fri, 27 Mar 2026 19:37:42 +0000"
