@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-04-01T01:15:50Z",
-  "version": 715,
+  "generated_utc": "2026-04-01T04:36:56Z",
+  "version": 716,
   "breaking_alert": "USNI News: Japanese Aegis Destroyer Completes Modifications to Operate U.S.-made Tomahawk Missiles",
   "naval_deployments": [
     {
@@ -924,7 +924,7 @@
     "conflict_articles": 11,
     "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-04-01T01:15:45.312326+00:00",
+    "computed_at": "2026-04-01T04:36:53.326005+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[USNI News] Japanese Aegis Destroyer Completes Modifications to Operate U.S.-made Tomahawk Missiles",
@@ -942,7 +942,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-04-01T01:15:45.312374+00:00",
+    "last_successful_update": "2026-04-01T04:36:53.326048+00:00",
     "article_count": 50,
     "categorized_count": 34,
     "freshest_source": "USNI News",
