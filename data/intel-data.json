@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-04-01T19:49:20Z",
-  "version": 728,
-  "breaking_alert": "USNI News: IRGC Opens Tolled Passage for Merchant Ships in Strait of Hormuz, Transit Continues to Trickle Through",
+  "generated_utc": "2026-04-01T20:32:06Z",
+  "version": 729,
+  "breaking_alert": "Task & Purpose: Army approves combat patches for soldiers in Iran war zone",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -594,15 +594,6 @@
   ],
   "_naval_news_refs": [
     {
-      "title": "IRGC Opens Tolled Passage for Merchant Ships in Strait of Hormuz, Transit Continues to Trickle Through",
-      "link": "https://news.usni.org/2026/03/27/irgc-opens-tolled-passage-for-merchant-ships-in-strait-of-hormuz-transit-continues-to-trickle-through",
-      "published": "Fri, 27 Mar 2026 20:28:39 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Army approves combat patches for soldiers in Iran war zone",
       "link": "https://taskandpurpose.com/military-life/army-iran-war-combat-patch/",
       "published": "Mon, 30 Mar 2026 15:23:53 -0400",
@@ -641,15 +632,6 @@
       ]
     },
     {
-      "title": "Limited missions, big risks: What a US ground fight in Iran could become",
-      "link": "https://www.defensenews.com/news/your-military/2026/03/30/limited-missions-big-risks-what-a-us-ground-fight-in-iran-could-become/",
-      "published": "Mon, 30 Mar 2026 21:43:39 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "USS Tripoli Operating in CENTCOM, USS Gerald R. Ford in Croatia",
       "link": "https://news.usni.org/2026/03/28/uss-tripoli-operating-in-centcom-uss-gerald-r-ford-in-croatia",
       "published": "Sat, 28 Mar 2026 16:43:44 +0000",
@@ -681,6 +663,24 @@
       "link": "https://www.defensenews.com/global/europe/2026/03/31/italy-turns-away-middle-east-bound-us-military-aircraft-from-sicily-stopover/",
       "published": "Tue, 31 Mar 2026 14:47:13 +0000",
       "source": "Defense News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "USS Gerald R. Ford’s ‘record-breaking’ deployment could last 11 months, top admiral says",
+      "link": "https://taskandpurpose.com/news/navy-ford-caudle-deployment/",
+      "published": "Tue, 31 Mar 2026 16:55:58 -0400",
+      "source": "Task & Purpose",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "USS George H.W. Bush Departs for Deployment, USS Gerald Ford Could Be Extended to 11 Months",
+      "link": "https://news.usni.org/2026/03/31/uss-george-h-w-bush-departs-for-deployment-uss-gerald-ford-could-be-extended-to-11-months",
+      "published": "Tue, 31 Mar 2026 22:38:39 +0000",
+      "source": "USNI News",
       "categories": [
         "deployment"
       ]
@@ -897,18 +897,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 17,
-    "conflict_articles": 7,
+    "deployment_articles": 16,
+    "conflict_articles": 9,
     "exercise_articles": 1,
     "total_articles": 40,
-    "computed_at": "2026-04-01T19:49:18.202718+00:00",
-    "manual_override": "DEFCON_3",
+    "computed_at": "2026-04-01T20:31:54.819575+00:00",
+    "manual_override": "DEFCON_2",
     "breaking_events": [
-      "[USNI News] IRGC Opens Tolled Passage for Merchant Ships in Strait of Hormuz, Transit Continues to Trickle Through",
       "[Task & Purpose] Army approves combat patches for soldiers in Iran war zone",
       "[Task & Purpose] Marine corporal charged with stealing and selling a Javelin missile",
       "[USNI News] Navy Commissions New Virginia-class Attack Boat USS Massachusetts in Boston Ceremony",
-      "[USNI News] USNI News Fleet and Marine Tracker: March 30, 2026"
+      "[USNI News] USNI News Fleet and Marine Tracker: March 30, 2026",
+      "[USNI News] USS Tripoli Operating in CENTCOM, USS Gerald R. Ford in Croatia"
     ]
   },
   "ground_intel": {
@@ -919,12 +919,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-04-01T19:49:18.202780+00:00",
+    "last_successful_update": "2026-04-01T20:31:54.819615+00:00",
     "article_count": 40,
-    "categorized_count": 21,
-    "freshest_source": "USNI News",
-    "freshest_title": "IRGC Opens Tolled Passage for Merchant Ships in Strait of Hormuz, Transit Continues to Trickle Through",
-    "freshest_published": "Fri, 27 Mar 2026 20:28:39 +0000"
+    "categorized_count": 22,
+    "freshest_source": "Task & Purpose",
+    "freshest_title": "Army approves combat patches for soldiers in Iran war zone",
+    "freshest_published": "Mon, 30 Mar 2026 15:23:53 -0400"
   },
   "_firms_hotspots": []
 }
