@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-04-02T19:40:04Z",
-  "version": 747,
-  "breaking_alert": "Task & Purpose: Marine corporal charged with stealing and selling a Javelin missile",
+  "generated_utc": "2026-04-02T20:22:15Z",
+  "version": 748,
+  "breaking_alert": "Military Times: US carried out nearly 50 strikes in Somalia so far this year",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -594,16 +594,6 @@
   ],
   "_naval_news_refs": [
     {
-      "title": "Marine corporal charged with stealing and selling a Javelin missile",
-      "link": "https://taskandpurpose.com/news/marine-stolen-javelin-indicted/",
-      "published": "Mon, 30 Mar 2026 16:46:21 -0400",
-      "source": "Task & Purpose",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
       "title": "HII Launches Flight III Destroyer George M. Neal (DDG 131)",
       "link": "https://www.navalnews.com/naval-news/2026/04/hii-launches-flight-iii-destroyer-george-m-neal-ddg-131/",
       "published": "Thu, 02 Apr 2026 06:52:59 +0000",
@@ -625,6 +615,15 @@
       "title": "82nd Airborne Division cancels All American Week amid Iran war deployments",
       "link": "https://taskandpurpose.com/news/82nd-airbone-event-cancelled-iran-war/",
       "published": "Thu, 02 Apr 2026 12:00:20 -0400",
+      "source": "Task & Purpose",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "How does the Iran war end?",
+      "link": "https://taskandpurpose.com/opinion/military-iran-war-end/",
+      "published": "Thu, 02 Apr 2026 16:09:12 -0400",
       "source": "Task & Purpose",
       "categories": [
         "deployment"
@@ -660,6 +659,15 @@
       ]
     },
     {
+      "title": "Carrier USS Gerald R. Ford Departs Croatia After Liberty, Additional Repairs",
+      "link": "https://news.usni.org/2026/04/02/carrier-uss-gerald-r-ford-departs-croatia-after-liberty-additional-repairs",
+      "published": "Thu, 02 Apr 2026 20:10:31 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "Watch Qatar’s Al Fulk LPD Launching Aster Missiles Against Iranian Threats",
       "link": "https://www.navalnews.com/naval-news/2026/03/watch-qatars-al-fulk-lpd-launching-aster-missiles-against-iranian-threats/",
       "published": "Tue, 31 Mar 2026 10:26:22 +0000",
@@ -673,15 +681,6 @@
       "title": "Hegseth says US won’t rule out deploying ‘boots on the ground’ for Iran war",
       "link": "https://taskandpurpose.com/news/hegseth-us-iran-ground-troops/",
       "published": "Tue, 31 Mar 2026 10:34:48 -0400",
-      "source": "Task & Purpose",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "USS Gerald R. Ford’s ‘record-breaking’ deployment could last 11 months, top admiral says",
-      "link": "https://taskandpurpose.com/news/navy-ford-caudle-deployment/",
-      "published": "Tue, 31 Mar 2026 16:55:58 -0400",
       "source": "Task & Purpose",
       "categories": [
         "deployment"
@@ -840,16 +839,6 @@
   },
   "_conflict_news_refs": [
     {
-      "title": "Marine corporal charged with stealing and selling a Javelin missile",
-      "link": "https://taskandpurpose.com/news/marine-stolen-javelin-indicted/",
-      "published": "Mon, 30 Mar 2026 16:46:21 -0400",
-      "source": "Task & Purpose",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
       "title": "US carried out nearly 50 strikes in Somalia so far this year",
       "link": "https://www.militarytimes.com/news/your-military/2026/04/02/us-carried-out-nearly-50-strikes-in-somalia-so-far-this-year/",
       "published": "Thu, 02 Apr 2026 01:50:16 +0000",
@@ -886,6 +875,16 @@
       "categories": [
         "conflict"
       ]
+    },
+    {
+      "title": "Watch Qatar’s Al Fulk LPD Launching Aster Missiles Against Iranian Threats",
+      "link": "https://www.navalnews.com/naval-news/2026/03/watch-qatars-al-fulk-lpd-launching-aster-missiles-against-iranian-threats/",
+      "published": "Tue, 31 Mar 2026 10:26:22 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
     }
   ],
   "_exercise_news_refs": [
@@ -917,30 +916,21 @@
       "categories": [
         "exercise"
       ]
-    },
-    {
-      "title": "NATO Secretary General’s 2025 Annual Report",
-      "link": "https://news.usni.org/2026/03/31/nato-secretary-generals-2025-annual-report",
-      "published": "Tue, 31 Mar 2026 14:22:02 +0000",
-      "source": "USNI News",
-      "categories": [
-        "exercise"
-      ]
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 19,
-    "conflict_articles": 15,
-    "exercise_articles": 4,
+    "deployment_articles": 20,
+    "conflict_articles": 14,
+    "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-04-02T19:39:59.867372+00:00",
+    "computed_at": "2026-04-02T20:22:09.192224+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
-      "[Task & Purpose] Marine corporal charged with stealing and selling a Javelin missile",
       "[Military Times] US carried out nearly 50 strikes in Somalia so far this year",
       "[Military Times] Trump threatens to walk away from NATO",
       "[Naval News] HII Launches Flight III Destroyer George M. Neal (DDG 131)",
-      "[Naval News] France orders fifth FDI frigate from Naval Group"
+      "[Naval News] France orders fifth FDI frigate from Naval Group",
+      "[Task & Purpose] 82nd Airborne Division cancels All American Week amid Iran war deployments"
     ]
   },
   "ground_intel": {
@@ -951,12 +941,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-04-02T19:39:59.867413+00:00",
+    "last_successful_update": "2026-04-02T20:22:09.192262+00:00",
     "article_count": 50,
     "categorized_count": 31,
-    "freshest_source": "Task & Purpose",
-    "freshest_title": "Marine corporal charged with stealing and selling a Javelin missile",
-    "freshest_published": "Mon, 30 Mar 2026 16:46:21 -0400"
+    "freshest_source": "Military Times",
+    "freshest_title": "US carried out nearly 50 strikes in Somalia so far this year",
+    "freshest_published": "Thu, 02 Apr 2026 01:50:16 +0000"
   },
   "_firms_hotspots": []
 }
