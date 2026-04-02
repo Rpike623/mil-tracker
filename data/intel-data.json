@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-04-02T16:42:12Z",
-  "version": 744,
+  "generated_utc": "2026-04-02T17:39:43Z",
+  "version": 745,
   "breaking_alert": "Task & Purpose: Marine corporal charged with stealing and selling a Javelin missile",
   "naval_deployments": [
     {
@@ -604,15 +604,6 @@
       ]
     },
     {
-      "title": "USNI News Fleet and Marine Tracker: March 30, 2026",
-      "link": "https://news.usni.org/2026/03/30/usni-news-fleet-and-marine-tracker-march-30-2026",
-      "published": "Mon, 30 Mar 2026 21:39:02 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "HII Launches Flight III Destroyer George M. Neal (DDG 131)",
       "link": "https://www.navalnews.com/naval-news/2026/04/hii-launches-flight-iii-destroyer-george-m-neal-ddg-131/",
       "published": "Thu, 02 Apr 2026 06:52:59 +0000",
@@ -637,6 +628,17 @@
       "source": "Task & Purpose",
       "categories": [
         "deployment"
+      ]
+    },
+    {
+      "title": "French, Italian Carrier Strike Groups Wrap NATO’s Neptune Strike Drills",
+      "link": "https://news.usni.org/2026/04/02/french-italian-carrier-strike-groups-wrap-natos-neptune-strike-drills",
+      "published": "Thu, 02 Apr 2026 17:28:31 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment",
+        "exercise",
+        "conflict"
       ]
     },
     {
@@ -857,6 +859,17 @@
       ]
     },
     {
+      "title": "French, Italian Carrier Strike Groups Wrap NATO’s Neptune Strike Drills",
+      "link": "https://news.usni.org/2026/04/02/french-italian-carrier-strike-groups-wrap-natos-neptune-strike-drills",
+      "published": "Thu, 02 Apr 2026 17:28:31 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment",
+        "exercise",
+        "conflict"
+      ]
+    },
+    {
       "title": "Watch Qatar’s Al Fulk LPD Launching Aster Missiles Against Iranian Threats",
       "link": "https://www.navalnews.com/naval-news/2026/03/watch-qatars-al-fulk-lpd-launching-aster-missiles-against-iranian-threats/",
       "published": "Tue, 31 Mar 2026 10:26:22 +0000",
@@ -874,15 +887,6 @@
       "categories": [
         "conflict"
       ]
-    },
-    {
-      "title": "Taiwan President Inspects Anti-ship, Air Defense Missile Production",
-      "link": "https://news.usni.org/2026/03/31/taiwan-president-inspects-anti-ship-air-defense-missile-production",
-      "published": "Tue, 31 Mar 2026 17:52:24 +0000",
-      "source": "USNI News",
-      "categories": [
-        "conflict"
-      ]
     }
   ],
   "_exercise_news_refs": [
@@ -893,6 +897,17 @@
       "source": "Military Times",
       "categories": [
         "exercise"
+      ]
+    },
+    {
+      "title": "French, Italian Carrier Strike Groups Wrap NATO’s Neptune Strike Drills",
+      "link": "https://news.usni.org/2026/04/02/french-italian-carrier-strike-groups-wrap-natos-neptune-strike-drills",
+      "published": "Thu, 02 Apr 2026 17:28:31 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment",
+        "exercise",
+        "conflict"
       ]
     },
     {
@@ -907,17 +922,17 @@
   ],
   "_threat_indicators": {
     "deployment_articles": 17,
-    "conflict_articles": 13,
-    "exercise_articles": 2,
+    "conflict_articles": 14,
+    "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-04-02T16:42:09.278614+00:00",
+    "computed_at": "2026-04-02T17:39:41.004247+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[Task & Purpose] Marine corporal charged with stealing and selling a Javelin missile",
-      "[USNI News] USNI News Fleet and Marine Tracker: March 30, 2026",
       "[Military Times] US carried out nearly 50 strikes in Somalia so far this year",
       "[Military Times] Trump threatens to walk away from NATO",
-      "[Naval News] HII Launches Flight III Destroyer George M. Neal (DDG 131)"
+      "[Naval News] HII Launches Flight III Destroyer George M. Neal (DDG 131)",
+      "[Naval News] France orders fifth FDI frigate from Naval Group"
     ]
   },
   "ground_intel": {
@@ -928,7 +943,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-04-02T16:42:09.278658+00:00",
+    "last_successful_update": "2026-04-02T17:39:41.004289+00:00",
     "article_count": 50,
     "categorized_count": 27,
     "freshest_source": "Task & Purpose",
