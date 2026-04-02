@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-04-02T18:38:20Z",
-  "version": 746,
+  "generated_utc": "2026-04-02T19:40:04Z",
+  "version": 747,
   "breaking_alert": "Task & Purpose: Marine corporal charged with stealing and selling a Javelin missile",
   "naval_deployments": [
     {
@@ -642,6 +642,24 @@
       ]
     },
     {
+      "title": "US defense stocks see no Iran war lift after early surge",
+      "link": "https://www.defensenews.com/news/your-military/2026/04/02/us-defense-stocks-see-no-iran-war-lift-after-early-surge/",
+      "published": "Thu, 02 Apr 2026 18:55:05 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "US defense stocks see no Iran war lift after early surge",
+      "link": "https://www.militarytimes.com/news/your-military/2026/04/02/us-defense-stocks-see-no-iran-war-lift-after-early-surge/",
+      "published": "Thu, 02 Apr 2026 18:55:05 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "Watch Qatar’s Al Fulk LPD Launching Aster Missiles Against Iranian Threats",
       "link": "https://www.navalnews.com/naval-news/2026/03/watch-qatars-al-fulk-lpd-launching-aster-missiles-against-iranian-threats/",
       "published": "Tue, 31 Mar 2026 10:26:22 +0000",
@@ -665,24 +683,6 @@
       "link": "https://taskandpurpose.com/news/navy-ford-caudle-deployment/",
       "published": "Tue, 31 Mar 2026 16:55:58 -0400",
       "source": "Task & Purpose",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "French Suffren-class submarine launches and recovers U.S. Navy UUV",
-      "link": "https://www.navalnews.com/naval-news/2026/03/french-suffren-class-submarine-launches-and-recovers-u-s-navy-uuv/",
-      "published": "Tue, 31 Mar 2026 18:19:30 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "USS George H.W. Bush Departs for Deployment, USS Gerald Ford Could Be Extended to 11 Months",
-      "link": "https://news.usni.org/2026/03/31/uss-george-h-w-bush-departs-for-deployment-uss-gerald-ford-could-be-extended-to-11-months",
-      "published": "Tue, 31 Mar 2026 22:38:39 +0000",
-      "source": "USNI News",
       "categories": [
         "deployment"
       ]
@@ -870,20 +870,19 @@
       ]
     },
     {
-      "title": "Watch Qatar’s Al Fulk LPD Launching Aster Missiles Against Iranian Threats",
-      "link": "https://www.navalnews.com/naval-news/2026/03/watch-qatars-al-fulk-lpd-launching-aster-missiles-against-iranian-threats/",
-      "published": "Tue, 31 Mar 2026 10:26:22 +0000",
-      "source": "Naval News",
+      "title": "Golden Dome, ships and missiles top Trump’s $1.5 trillion defense wish list",
+      "link": "https://www.defensenews.com/news/pentagon-congress/2026/04/02/golden-dome-ships-and-missiles-top-trumps-15-trillion-defense-wish-list/",
+      "published": "Thu, 02 Apr 2026 19:09:10 +0000",
+      "source": "Defense News",
       "categories": [
-        "deployment",
         "conflict"
       ]
     },
     {
-      "title": "Japan Deploys New Longer-Range Missiles, Formally Designates ‘Type 25’ Systems",
-      "link": "https://www.navalnews.com/naval-news/2026/03/japan-deploys-new-longer-range-missiles-formally-designates-type-25-systems/",
-      "published": "Tue, 31 Mar 2026 12:48:53 +0000",
-      "source": "Naval News",
+      "title": "Golden Dome, ships and missiles top Trump’s $1.5 trillion defense wish list",
+      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/04/02/golden-dome-ships-and-missiles-top-trumps-15-trillion-defense-wish-list/",
+      "published": "Thu, 02 Apr 2026 19:09:10 +0000",
+      "source": "Military Times",
       "categories": [
         "conflict"
       ]
@@ -911,6 +910,15 @@
       ]
     },
     {
+      "title": "‘Drone Hunters of Kherson’ takes viewers into a war that blends ‘trench warfare and the Terminator’",
+      "link": "https://www.militarytimes.com/news/your-military/2026/04/02/drone-hunters-of-kherson-take-viewers-into-a-war-that-blends-trench-warfare-and-the-terminator/",
+      "published": "Thu, 02 Apr 2026 18:52:22 +0000",
+      "source": "Military Times",
+      "categories": [
+        "exercise"
+      ]
+    },
+    {
       "title": "NATO Secretary General’s 2025 Annual Report",
       "link": "https://news.usni.org/2026/03/31/nato-secretary-generals-2025-annual-report",
       "published": "Tue, 31 Mar 2026 14:22:02 +0000",
@@ -921,11 +929,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 17,
-    "conflict_articles": 14,
-    "exercise_articles": 3,
+    "deployment_articles": 19,
+    "conflict_articles": 15,
+    "exercise_articles": 4,
     "total_articles": 50,
-    "computed_at": "2026-04-02T18:38:16.751256+00:00",
+    "computed_at": "2026-04-02T19:39:59.867372+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[Task & Purpose] Marine corporal charged with stealing and selling a Javelin missile",
@@ -943,9 +951,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-04-02T18:38:16.751297+00:00",
+    "last_successful_update": "2026-04-02T19:39:59.867413+00:00",
     "article_count": 50,
-    "categorized_count": 27,
+    "categorized_count": 31,
     "freshest_source": "Task & Purpose",
     "freshest_title": "Marine corporal charged with stealing and selling a Javelin missile",
     "freshest_published": "Mon, 30 Mar 2026 16:46:21 -0400"
