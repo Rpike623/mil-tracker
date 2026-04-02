@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-04-02T01:06:06Z",
-  "version": 733,
+  "generated_utc": "2026-04-02T04:15:37Z",
+  "version": 734,
   "breaking_alert": "Task & Purpose: Army approves combat patches for soldiers in Iran war zone",
   "naval_deployments": [
     {
@@ -632,6 +632,26 @@
       ]
     },
     {
+      "title": "Japanese Destroyer Finalizes Tomahawk Missile Integration",
+      "link": "https://www.navalnews.com/naval-news/2026/03/japanese-destroyer-finalizes-tomahawk-missile-integration/",
+      "published": "Tue, 31 Mar 2026 08:29:30 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
+    },
+    {
+      "title": "Watch Qatar’s Al Fulk LPD Launching Aster Missiles Against Iranian Threats",
+      "link": "https://www.navalnews.com/naval-news/2026/03/watch-qatars-al-fulk-lpd-launching-aster-missiles-against-iranian-threats/",
+      "published": "Tue, 31 Mar 2026 10:26:22 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
+    },
+    {
       "title": "Hegseth says US won’t rule out deploying ‘boots on the ground’ for Iran war",
       "link": "https://taskandpurpose.com/news/hegseth-us-iran-ground-troops/",
       "published": "Tue, 31 Mar 2026 10:34:48 -0400",
@@ -659,28 +679,10 @@
       ]
     },
     {
-      "title": "USS George H.W. Bush Departs for Deployment, USS Gerald Ford Could Be Extended to 11 Months",
-      "link": "https://news.usni.org/2026/03/31/uss-george-h-w-bush-departs-for-deployment-uss-gerald-ford-could-be-extended-to-11-months",
-      "published": "Tue, 31 Mar 2026 22:38:39 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Minesweeping technology in the Middle East is ‘a very good package,’ Caudle says",
-      "link": "https://www.militarytimes.com/news/your-navy/2026/04/01/minesweeping-technology-in-the-middle-east-is-a-very-good-package-caudle-says/",
-      "published": "Wed, 01 Apr 2026 00:04:52 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Poland holds tight to its Patriot batteries amid reported US call for Middle East transfer",
-      "link": "https://www.defensenews.com/global/europe/2026/04/01/poland-holds-tight-to-its-patriot-batteries-amid-reported-us-call-for-middle-east-transfer/",
-      "published": "Wed, 01 Apr 2026 10:43:11 +0000",
-      "source": "Defense News",
+      "title": "French Suffren-class submarine launches and recovers U.S. Navy UUV",
+      "link": "https://www.navalnews.com/naval-news/2026/03/french-suffren-class-submarine-launches-and-recovers-u-s-navy-uuv/",
+      "published": "Tue, 31 Mar 2026 18:19:30 +0000",
+      "source": "Naval News",
       "categories": [
         "deployment"
       ]
@@ -858,34 +860,45 @@
       ]
     },
     {
-      "title": "Taiwan President Inspects Anti-ship, Air Defense Missile Production",
-      "link": "https://news.usni.org/2026/03/31/taiwan-president-inspects-anti-ship-air-defense-missile-production",
-      "published": "Tue, 31 Mar 2026 17:52:24 +0000",
-      "source": "USNI News",
-      "categories": [
-        "conflict"
-      ]
-    },
-    {
-      "title": "Ukraine claims near-90% air-defense success in March as attacks increase",
-      "link": "https://www.defensenews.com/global/europe/2026/04/01/ukraine-claims-near-90-air-defense-success-in-march-as-attacks-increase/",
-      "published": "Wed, 01 Apr 2026 12:46:48 +0000",
-      "source": "Defense News",
-      "categories": [
-        "conflict"
-      ]
-    },
-    {
-      "title": "Ukraine claims near-90% air-defense success in March as attacks increase",
-      "link": "https://www.militarytimes.com/global/europe/2026/04/01/ukraine-claims-near-90-air-defense-success-in-march-as-attacks-increase/",
-      "published": "Wed, 01 Apr 2026 12:46:48 +0000",
+      "title": "US carried out nearly 50 strikes in Somalia so far this year",
+      "link": "https://www.militarytimes.com/news/your-military/2026/04/02/us-carried-out-nearly-50-strikes-in-somalia-so-far-this-year/",
+      "published": "Thu, 02 Apr 2026 01:50:16 +0000",
       "source": "Military Times",
       "categories": [
+        "conflict"
+      ]
+    },
+    {
+      "title": "Japanese Destroyer Finalizes Tomahawk Missile Integration",
+      "link": "https://www.navalnews.com/naval-news/2026/03/japanese-destroyer-finalizes-tomahawk-missile-integration/",
+      "published": "Tue, 31 Mar 2026 08:29:30 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
+    },
+    {
+      "title": "Watch Qatar’s Al Fulk LPD Launching Aster Missiles Against Iranian Threats",
+      "link": "https://www.navalnews.com/naval-news/2026/03/watch-qatars-al-fulk-lpd-launching-aster-missiles-against-iranian-threats/",
+      "published": "Tue, 31 Mar 2026 10:26:22 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment",
         "conflict"
       ]
     }
   ],
   "_exercise_news_refs": [
+    {
+      "title": "Trump threatens to walk away from NATO",
+      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/04/02/trump-threatens-to-walk-away-from-nato/",
+      "published": "Thu, 02 Apr 2026 02:11:34 +0000",
+      "source": "Military Times",
+      "categories": [
+        "exercise"
+      ]
+    },
     {
       "title": "NATO Secretary General’s 2025 Annual Report",
       "link": "https://news.usni.org/2026/03/31/nato-secretary-generals-2025-annual-report",
@@ -897,18 +910,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 14,
-    "conflict_articles": 10,
-    "exercise_articles": 1,
-    "total_articles": 40,
-    "computed_at": "2026-04-02T01:05:57.232219+00:00",
+    "deployment_articles": 18,
+    "conflict_articles": 15,
+    "exercise_articles": 2,
+    "total_articles": 50,
+    "computed_at": "2026-04-02T04:15:32.186983+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[Task & Purpose] Army approves combat patches for soldiers in Iran war zone",
       "[Task & Purpose] Marine corporal charged with stealing and selling a Javelin missile",
       "[USNI News] Navy Commissions New Virginia-class Attack Boat USS Massachusetts in Boston Ceremony",
       "[USNI News] USNI News Fleet and Marine Tracker: March 30, 2026",
-      "[Task & Purpose] Hegseth says US won’t rule out deploying ‘boots on the ground’ for Iran war"
+      "[Military Times] US carried out nearly 50 strikes in Somalia so far this year"
     ]
   },
   "ground_intel": {
@@ -919,9 +932,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-04-02T01:05:57.232259+00:00",
-    "article_count": 40,
-    "categorized_count": 21,
+    "last_successful_update": "2026-04-02T04:15:32.187051+00:00",
+    "article_count": 50,
+    "categorized_count": 28,
     "freshest_source": "Task & Purpose",
     "freshest_title": "Army approves combat patches for soldiers in Iran war zone",
     "freshest_published": "Mon, 30 Mar 2026 15:23:53 -0400"
