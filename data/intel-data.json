@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-04-02T15:46:31Z",
-  "version": 743,
-  "breaking_alert": "Task & Purpose: Army approves combat patches for soldiers in Iran war zone",
+  "generated_utc": "2026-04-02T16:42:12Z",
+  "version": 744,
+  "breaking_alert": "Task & Purpose: Marine corporal charged with stealing and selling a Javelin missile",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -594,15 +594,6 @@
   ],
   "_naval_news_refs": [
     {
-      "title": "Army approves combat patches for soldiers in Iran war zone",
-      "link": "https://taskandpurpose.com/military-life/army-iran-war-combat-patch/",
-      "published": "Mon, 30 Mar 2026 15:23:53 -0400",
-      "source": "Task & Purpose",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Marine corporal charged with stealing and selling a Javelin missile",
       "link": "https://taskandpurpose.com/news/marine-stolen-javelin-indicted/",
       "published": "Mon, 30 Mar 2026 16:46:21 -0400",
@@ -635,6 +626,15 @@
       "link": "https://www.navalnews.com/naval-news/2026/04/france-orders-fifth-fdi-frigate-from-naval-group/",
       "published": "Thu, 02 Apr 2026 10:56:53 +0000",
       "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "82nd Airborne Division cancels All American Week amid Iran war deployments",
+      "link": "https://taskandpurpose.com/news/82nd-airbone-event-cancelled-iran-war/",
+      "published": "Thu, 02 Apr 2026 12:00:20 -0400",
+      "source": "Task & Purpose",
       "categories": [
         "deployment"
       ]
@@ -910,14 +910,14 @@
     "conflict_articles": 13,
     "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-04-02T15:46:26.177825+00:00",
+    "computed_at": "2026-04-02T16:42:09.278614+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
-      "[Task & Purpose] Army approves combat patches for soldiers in Iran war zone",
       "[Task & Purpose] Marine corporal charged with stealing and selling a Javelin missile",
       "[USNI News] USNI News Fleet and Marine Tracker: March 30, 2026",
       "[Military Times] US carried out nearly 50 strikes in Somalia so far this year",
-      "[Military Times] Trump threatens to walk away from NATO"
+      "[Military Times] Trump threatens to walk away from NATO",
+      "[Naval News] HII Launches Flight III Destroyer George M. Neal (DDG 131)"
     ]
   },
   "ground_intel": {
@@ -928,12 +928,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-04-02T15:46:26.177863+00:00",
+    "last_successful_update": "2026-04-02T16:42:09.278658+00:00",
     "article_count": 50,
     "categorized_count": 27,
     "freshest_source": "Task & Purpose",
-    "freshest_title": "Army approves combat patches for soldiers in Iran war zone",
-    "freshest_published": "Mon, 30 Mar 2026 15:23:53 -0400"
+    "freshest_title": "Marine corporal charged with stealing and selling a Javelin missile",
+    "freshest_published": "Mon, 30 Mar 2026 16:46:21 -0400"
   },
   "_firms_hotspots": []
 }
