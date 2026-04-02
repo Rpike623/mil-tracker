@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-04-02T06:03:49Z",
-  "version": 735,
+  "generated_utc": "2026-04-02T07:56:34Z",
+  "version": 736,
   "breaking_alert": "Task & Purpose: Army approves combat patches for soldiers in Iran war zone",
   "naval_deployments": [
     {
@@ -632,6 +632,15 @@
       ]
     },
     {
+      "title": "HII Launches Flight III Destroyer George M. Neal (DDG 131)",
+      "link": "https://www.navalnews.com/naval-news/2026/04/hii-launches-flight-iii-destroyer-george-m-neal-ddg-131/",
+      "published": "Thu, 02 Apr 2026 06:52:59 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "Japanese Destroyer Finalizes Tomahawk Missile Integration",
       "link": "https://www.navalnews.com/naval-news/2026/03/japanese-destroyer-finalizes-tomahawk-missile-integration/",
       "published": "Tue, 31 Mar 2026 08:29:30 +0000",
@@ -674,15 +683,6 @@
       "link": "https://taskandpurpose.com/news/navy-ford-caudle-deployment/",
       "published": "Tue, 31 Mar 2026 16:55:58 -0400",
       "source": "Task & Purpose",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "French Suffren-class submarine launches and recovers U.S. Navy UUV",
-      "link": "https://www.navalnews.com/naval-news/2026/03/french-suffren-class-submarine-launches-and-recovers-u-s-navy-uuv/",
-      "published": "Tue, 31 Mar 2026 18:19:30 +0000",
-      "source": "Naval News",
       "categories": [
         "deployment"
       ]
@@ -910,11 +910,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 18,
+    "deployment_articles": 19,
     "conflict_articles": 15,
     "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-04-02T06:03:44.697600+00:00",
+    "computed_at": "2026-04-02T07:56:30.197084+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[Task & Purpose] Army approves combat patches for soldiers in Iran war zone",
@@ -932,9 +932,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-04-02T06:03:44.697666+00:00",
+    "last_successful_update": "2026-04-02T07:56:30.197125+00:00",
     "article_count": 50,
-    "categorized_count": 28,
+    "categorized_count": 29,
     "freshest_source": "Task & Purpose",
     "freshest_title": "Army approves combat patches for soldiers in Iran war zone",
     "freshest_published": "Mon, 30 Mar 2026 15:23:53 -0400"
