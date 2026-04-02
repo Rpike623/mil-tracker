@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-04-02T10:39:59Z",
-  "version": 739,
+  "generated_utc": "2026-04-02T11:36:17Z",
+  "version": 740,
   "breaking_alert": "Task & Purpose: Army approves combat patches for soldiers in Iran war zone",
   "naval_deployments": [
     {
@@ -641,13 +641,12 @@
       ]
     },
     {
-      "title": "Japanese Destroyer Finalizes Tomahawk Missile Integration",
-      "link": "https://www.navalnews.com/naval-news/2026/03/japanese-destroyer-finalizes-tomahawk-missile-integration/",
-      "published": "Tue, 31 Mar 2026 08:29:30 +0000",
+      "title": "France orders fifth FDI frigate from Naval Group",
+      "link": "https://www.navalnews.com/naval-news/2026/04/france-orders-fifth-fdi-frigate-from-naval-group/",
+      "published": "Thu, 02 Apr 2026 10:56:53 +0000",
       "source": "Naval News",
       "categories": [
-        "deployment",
-        "conflict"
+        "deployment"
       ]
     },
     {
@@ -869,9 +868,9 @@
       ]
     },
     {
-      "title": "Japanese Destroyer Finalizes Tomahawk Missile Integration",
-      "link": "https://www.navalnews.com/naval-news/2026/03/japanese-destroyer-finalizes-tomahawk-missile-integration/",
-      "published": "Tue, 31 Mar 2026 08:29:30 +0000",
+      "title": "Watch Qatar’s Al Fulk LPD Launching Aster Missiles Against Iranian Threats",
+      "link": "https://www.navalnews.com/naval-news/2026/03/watch-qatars-al-fulk-lpd-launching-aster-missiles-against-iranian-threats/",
+      "published": "Tue, 31 Mar 2026 10:26:22 +0000",
       "source": "Naval News",
       "categories": [
         "deployment",
@@ -879,12 +878,11 @@
       ]
     },
     {
-      "title": "Watch Qatar’s Al Fulk LPD Launching Aster Missiles Against Iranian Threats",
-      "link": "https://www.navalnews.com/naval-news/2026/03/watch-qatars-al-fulk-lpd-launching-aster-missiles-against-iranian-threats/",
-      "published": "Tue, 31 Mar 2026 10:26:22 +0000",
+      "title": "Japan Deploys New Longer-Range Missiles, Formally Designates ‘Type 25’ Systems",
+      "link": "https://www.navalnews.com/naval-news/2026/03/japan-deploys-new-longer-range-missiles-formally-designates-type-25-systems/",
+      "published": "Tue, 31 Mar 2026 12:48:53 +0000",
       "source": "Naval News",
       "categories": [
-        "deployment",
         "conflict"
       ]
     }
@@ -911,10 +909,10 @@
   ],
   "_threat_indicators": {
     "deployment_articles": 19,
-    "conflict_articles": 15,
+    "conflict_articles": 14,
     "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-04-02T10:39:57.148425+00:00",
+    "computed_at": "2026-04-02T11:36:13.507375+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[Task & Purpose] Army approves combat patches for soldiers in Iran war zone",
@@ -932,7 +930,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-04-02T10:39:57.148465+00:00",
+    "last_successful_update": "2026-04-02T11:36:13.507419+00:00",
     "article_count": 50,
     "categorized_count": 29,
     "freshest_source": "Task & Purpose",
