@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-04-02T20:22:15Z",
-  "version": 748,
+  "generated_utc": "2026-04-02T21:25:27Z",
+  "version": 749,
   "breaking_alert": "Military Times: US carried out nearly 50 strikes in Somalia so far this year",
   "naval_deployments": [
     {
@@ -668,6 +668,15 @@
       ]
     },
     {
+      "title": "USS Gerald R. Ford returns to see after brief stop in Croatia",
+      "link": "https://www.militarytimes.com/news/your-military/2026/04/02/uss-gerald-r-ford-returns-to-see-after-brief-stop-in-croatia/",
+      "published": "Thu, 02 Apr 2026 21:10:12 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "Watch Qatar’s Al Fulk LPD Launching Aster Missiles Against Iranian Threats",
       "link": "https://www.navalnews.com/naval-news/2026/03/watch-qatars-al-fulk-lpd-launching-aster-missiles-against-iranian-threats/",
       "published": "Tue, 31 Mar 2026 10:26:22 +0000",
@@ -675,15 +684,6 @@
       "categories": [
         "deployment",
         "conflict"
-      ]
-    },
-    {
-      "title": "Hegseth says US won’t rule out deploying ‘boots on the ground’ for Iran war",
-      "link": "https://taskandpurpose.com/news/hegseth-us-iran-ground-troops/",
-      "published": "Tue, 31 Mar 2026 10:34:48 -0400",
-      "source": "Task & Purpose",
-      "categories": [
-        "deployment"
       ]
     }
   ],
@@ -916,14 +916,32 @@
       "categories": [
         "exercise"
       ]
+    },
+    {
+      "title": "15 Fairchild airmen awarded for refueling roles in combat operations",
+      "link": "https://www.militarytimes.com/news/your-air-force/2026/04/02/15-fairchild-airmen-awarded-for-refueling-roles-in-combat-operations/",
+      "published": "Thu, 02 Apr 2026 20:26:14 +0000",
+      "source": "Military Times",
+      "categories": [
+        "exercise"
+      ]
+    },
+    {
+      "title": "Bipartisan group of senators vow to keep US in NATO despite Trump threats",
+      "link": "https://www.defensenews.com/news/pentagon-congress/2026/04/02/bipartisan-group-of-senators-vow-to-keep-us-in-nato-despite-trump-threats/",
+      "published": "Thu, 02 Apr 2026 20:56:30 +0000",
+      "source": "Defense News",
+      "categories": [
+        "exercise"
+      ]
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 20,
-    "conflict_articles": 14,
-    "exercise_articles": 3,
+    "deployment_articles": 17,
+    "conflict_articles": 11,
+    "exercise_articles": 6,
     "total_articles": 50,
-    "computed_at": "2026-04-02T20:22:09.192224+00:00",
+    "computed_at": "2026-04-02T21:25:11.801660+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[Military Times] US carried out nearly 50 strikes in Somalia so far this year",
@@ -941,9 +959,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-04-02T20:22:09.192262+00:00",
+    "last_successful_update": "2026-04-02T21:25:11.801700+00:00",
     "article_count": 50,
-    "categorized_count": 31,
+    "categorized_count": 29,
     "freshest_source": "Military Times",
     "freshest_title": "US carried out nearly 50 strikes in Somalia so far this year",
     "freshest_published": "Thu, 02 Apr 2026 01:50:16 +0000"
