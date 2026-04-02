@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-04-02T22:20:57Z",
-  "version": 750,
+  "generated_utc": "2026-04-02T23:21:43Z",
+  "version": 751,
   "breaking_alert": "Military Times: US carried out nearly 50 strikes in Somalia so far this year",
   "naval_deployments": [
     {
@@ -677,13 +677,12 @@
       ]
     },
     {
-      "title": "Watch Qatar’s Al Fulk LPD Launching Aster Missiles Against Iranian Threats",
-      "link": "https://www.navalnews.com/naval-news/2026/03/watch-qatars-al-fulk-lpd-launching-aster-missiles-against-iranian-threats/",
-      "published": "Tue, 31 Mar 2026 10:26:22 +0000",
-      "source": "Naval News",
+      "title": "Hegseth asks Army’s top general to retire immediately as Iran war rages",
+      "link": "https://www.defensenews.com/news/pentagon-congress/2026/04/02/hegseth-asks-armys-top-general-to-retire-immediately-as-iran-war-rages/",
+      "published": "Thu, 02 Apr 2026 22:25:12 +0000",
+      "source": "Defense News",
       "categories": [
-        "deployment",
-        "conflict"
+        "deployment"
       ]
     }
   ],
@@ -937,11 +936,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 17,
-    "conflict_articles": 11,
+    "deployment_articles": 19,
+    "conflict_articles": 10,
     "exercise_articles": 6,
     "total_articles": 50,
-    "computed_at": "2026-04-02T22:20:44.494653+00:00",
+    "computed_at": "2026-04-02T23:21:36.151811+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[Military Times] US carried out nearly 50 strikes in Somalia so far this year",
@@ -959,9 +958,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-04-02T22:20:44.494708+00:00",
+    "last_successful_update": "2026-04-02T23:21:36.151850+00:00",
     "article_count": 50,
-    "categorized_count": 29,
+    "categorized_count": 30,
     "freshest_source": "Military Times",
     "freshest_title": "US carried out nearly 50 strikes in Somalia so far this year",
     "freshest_published": "Thu, 02 Apr 2026 01:50:16 +0000"
