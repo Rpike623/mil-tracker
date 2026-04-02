@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-04-02T17:39:43Z",
-  "version": 745,
+  "generated_utc": "2026-04-02T18:38:20Z",
+  "version": 746,
   "breaking_alert": "Task & Purpose: Marine corporal charged with stealing and selling a Javelin missile",
   "naval_deployments": [
     {
@@ -925,7 +925,7 @@
     "conflict_articles": 14,
     "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-04-02T17:39:41.004247+00:00",
+    "computed_at": "2026-04-02T18:38:16.751256+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[Task & Purpose] Marine corporal charged with stealing and selling a Javelin missile",
@@ -943,7 +943,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-04-02T17:39:41.004289+00:00",
+    "last_successful_update": "2026-04-02T18:38:16.751297+00:00",
     "article_count": 50,
     "categorized_count": 27,
     "freshest_source": "Task & Purpose",
