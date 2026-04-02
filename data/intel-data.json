@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-04-02T12:41:37Z",
-  "version": 741,
+  "generated_utc": "2026-04-02T14:13:47Z",
+  "version": 742,
   "breaking_alert": "Task & Purpose: Army approves combat patches for soldiers in Iran war zone",
   "naval_deployments": [
     {
@@ -912,7 +912,7 @@
     "conflict_articles": 14,
     "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-04-02T12:41:34.849106+00:00",
+    "computed_at": "2026-04-02T14:13:44.677611+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[Task & Purpose] Army approves combat patches for soldiers in Iran war zone",
@@ -930,7 +930,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-04-02T12:41:34.849145+00:00",
+    "last_successful_update": "2026-04-02T14:13:44.677656+00:00",
     "article_count": 50,
     "categorized_count": 29,
     "freshest_source": "Task & Purpose",
