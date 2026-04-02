@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-04-02T21:25:27Z",
-  "version": 749,
+  "generated_utc": "2026-04-02T22:20:57Z",
+  "version": 750,
   "breaking_alert": "Military Times: US carried out nearly 50 strikes in Somalia so far this year",
   "naval_deployments": [
     {
@@ -668,7 +668,7 @@
       ]
     },
     {
-      "title": "USS Gerald R. Ford returns to see after brief stop in Croatia",
+      "title": "USS Gerald R. Ford returns to sea after brief stop in Croatia",
       "link": "https://www.militarytimes.com/news/your-military/2026/04/02/uss-gerald-r-ford-returns-to-see-after-brief-stop-in-croatia/",
       "published": "Thu, 02 Apr 2026 21:10:12 +0000",
       "source": "Military Times",
@@ -941,7 +941,7 @@
     "conflict_articles": 11,
     "exercise_articles": 6,
     "total_articles": 50,
-    "computed_at": "2026-04-02T21:25:11.801660+00:00",
+    "computed_at": "2026-04-02T22:20:44.494653+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[Military Times] US carried out nearly 50 strikes in Somalia so far this year",
@@ -959,7 +959,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-04-02T21:25:11.801700+00:00",
+    "last_successful_update": "2026-04-02T22:20:44.494708+00:00",
     "article_count": 50,
     "categorized_count": 29,
     "freshest_source": "Military Times",
