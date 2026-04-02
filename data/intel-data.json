@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-04-02T14:13:47Z",
-  "version": 742,
+  "generated_utc": "2026-04-02T15:46:31Z",
+  "version": 743,
   "breaking_alert": "Task & Purpose: Army approves combat patches for soldiers in Iran war zone",
   "naval_deployments": [
     {
@@ -613,16 +613,6 @@
       ]
     },
     {
-      "title": "Navy Commissions New Virginia-class Attack Boat USS Massachusetts in Boston Ceremony",
-      "link": "https://news.usni.org/2026/03/30/navy-commissions-new-virginia-class-attack-boat-uss-massachusetts-in-boston-ceremony",
-      "published": "Mon, 30 Mar 2026 19:58:18 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
       "title": "USNI News Fleet and Marine Tracker: March 30, 2026",
       "link": "https://news.usni.org/2026/03/30/usni-news-fleet-and-marine-tracker-march-30-2026",
       "published": "Mon, 30 Mar 2026 21:39:02 +0000",
@@ -669,19 +659,28 @@
       ]
     },
     {
-      "title": "Italy turns away Middle East-bound US military aircraft from Sicily stopover",
-      "link": "https://www.defensenews.com/global/europe/2026/03/31/italy-turns-away-middle-east-bound-us-military-aircraft-from-sicily-stopover/",
-      "published": "Tue, 31 Mar 2026 14:47:13 +0000",
-      "source": "Defense News",
+      "title": "USS Gerald R. Ford’s ‘record-breaking’ deployment could last 11 months, top admiral says",
+      "link": "https://taskandpurpose.com/news/navy-ford-caudle-deployment/",
+      "published": "Tue, 31 Mar 2026 16:55:58 -0400",
+      "source": "Task & Purpose",
       "categories": [
         "deployment"
       ]
     },
     {
-      "title": "USS Gerald R. Ford’s ‘record-breaking’ deployment could last 11 months, top admiral says",
-      "link": "https://taskandpurpose.com/news/navy-ford-caudle-deployment/",
-      "published": "Tue, 31 Mar 2026 16:55:58 -0400",
-      "source": "Task & Purpose",
+      "title": "French Suffren-class submarine launches and recovers U.S. Navy UUV",
+      "link": "https://www.navalnews.com/naval-news/2026/03/french-suffren-class-submarine-launches-and-recovers-u-s-navy-uuv/",
+      "published": "Tue, 31 Mar 2026 18:19:30 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "USS George H.W. Bush Departs for Deployment, USS Gerald Ford Could Be Extended to 11 Months",
+      "link": "https://news.usni.org/2026/03/31/uss-george-h-w-bush-departs-for-deployment-uss-gerald-ford-could-be-extended-to-11-months",
+      "published": "Tue, 31 Mar 2026 22:38:39 +0000",
+      "source": "USNI News",
       "categories": [
         "deployment"
       ]
@@ -849,16 +848,6 @@
       ]
     },
     {
-      "title": "Navy Commissions New Virginia-class Attack Boat USS Massachusetts in Boston Ceremony",
-      "link": "https://news.usni.org/2026/03/30/navy-commissions-new-virginia-class-attack-boat-uss-massachusetts-in-boston-ceremony",
-      "published": "Mon, 30 Mar 2026 19:58:18 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
       "title": "US carried out nearly 50 strikes in Somalia so far this year",
       "link": "https://www.militarytimes.com/news/your-military/2026/04/02/us-carried-out-nearly-50-strikes-in-somalia-so-far-this-year/",
       "published": "Thu, 02 Apr 2026 01:50:16 +0000",
@@ -885,6 +874,15 @@
       "categories": [
         "conflict"
       ]
+    },
+    {
+      "title": "Taiwan President Inspects Anti-ship, Air Defense Missile Production",
+      "link": "https://news.usni.org/2026/03/31/taiwan-president-inspects-anti-ship-air-defense-missile-production",
+      "published": "Tue, 31 Mar 2026 17:52:24 +0000",
+      "source": "USNI News",
+      "categories": [
+        "conflict"
+      ]
     }
   ],
   "_exercise_news_refs": [
@@ -908,18 +906,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 19,
-    "conflict_articles": 14,
+    "deployment_articles": 17,
+    "conflict_articles": 13,
     "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-04-02T14:13:44.677611+00:00",
+    "computed_at": "2026-04-02T15:46:26.177825+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[Task & Purpose] Army approves combat patches for soldiers in Iran war zone",
       "[Task & Purpose] Marine corporal charged with stealing and selling a Javelin missile",
-      "[USNI News] Navy Commissions New Virginia-class Attack Boat USS Massachusetts in Boston Ceremony",
       "[USNI News] USNI News Fleet and Marine Tracker: March 30, 2026",
-      "[Military Times] US carried out nearly 50 strikes in Somalia so far this year"
+      "[Military Times] US carried out nearly 50 strikes in Somalia so far this year",
+      "[Military Times] Trump threatens to walk away from NATO"
     ]
   },
   "ground_intel": {
@@ -930,9 +928,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-04-02T14:13:44.677656+00:00",
+    "last_successful_update": "2026-04-02T15:46:26.177863+00:00",
     "article_count": 50,
-    "categorized_count": 29,
+    "categorized_count": 27,
     "freshest_source": "Task & Purpose",
     "freshest_title": "Army approves combat patches for soldiers in Iran war zone",
     "freshest_published": "Mon, 30 Mar 2026 15:23:53 -0400"
