@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-04-03T04:16:33Z",
-  "version": 753,
+  "generated_utc": "2026-04-03T06:04:38Z",
+  "version": 754,
   "breaking_alert": "Military Times: Trump threatens to walk away from NATO",
   "naval_deployments": [
     {
@@ -940,7 +940,7 @@
     "conflict_articles": 9,
     "exercise_articles": 6,
     "total_articles": 50,
-    "computed_at": "2026-04-03T04:16:27.261610+00:00",
+    "computed_at": "2026-04-03T06:04:30.116662+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[Military Times] Trump threatens to walk away from NATO",
@@ -958,7 +958,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-04-03T04:16:27.261649+00:00",
+    "last_successful_update": "2026-04-03T06:04:30.116701+00:00",
     "article_count": 50,
     "categorized_count": 29,
     "freshest_source": "Military Times",
