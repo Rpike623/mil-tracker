@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-04-03T10:32:04Z",
-  "version": 758,
-  "breaking_alert": "Military Times: Trump threatens to walk away from NATO",
+  "generated_utc": "2026-04-03T11:28:32Z",
+  "version": 759,
+  "breaking_alert": "Defense News: France orders its fifth and final FDI frigate from Naval Group, completing fleet plan",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -594,6 +594,15 @@
   ],
   "_naval_news_refs": [
     {
+      "title": "France orders its fifth and final FDI frigate from Naval Group, completing fleet plan",
+      "link": "https://www.defensenews.com/global/europe/2026/04/03/france-orders-its-fifth-and-final-fdi-frigate-from-naval-group-completing-fleet-plan/",
+      "published": "Fri, 03 Apr 2026 10:57:57 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "HII Launches Flight III Destroyer George M. Neal (DDG 131)",
       "link": "https://www.navalnews.com/naval-news/2026/04/hii-launches-flight-iii-destroyer-george-m-neal-ddg-131/",
       "published": "Thu, 02 Apr 2026 06:52:59 +0000",
@@ -672,15 +681,6 @@
       "link": "https://www.militarytimes.com/news/your-military/2026/04/02/uss-gerald-r-ford-returns-to-see-after-brief-stop-in-croatia/",
       "published": "Thu, 02 Apr 2026 21:10:12 +0000",
       "source": "Military Times",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Hegseth asks Army’s top general to retire, fires two others as Iran war rages",
-      "link": "https://www.defensenews.com/news/pentagon-congress/2026/04/02/hegseth-asks-armys-top-general-to-retire-immediately-as-iran-war-rages/",
-      "published": "Thu, 02 Apr 2026 22:25:12 +0000",
-      "source": "Defense News",
       "categories": [
         "deployment"
       ]
@@ -936,18 +936,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 19,
+    "deployment_articles": 20,
     "conflict_articles": 9,
     "exercise_articles": 6,
     "total_articles": 50,
-    "computed_at": "2026-04-03T10:32:01.428040+00:00",
+    "computed_at": "2026-04-03T11:28:29.483880+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
+      "[Defense News] France orders its fifth and final FDI frigate from Naval Group, completing fleet plan",
       "[Military Times] Trump threatens to walk away from NATO",
       "[Naval News] HII Launches Flight III Destroyer George M. Neal (DDG 131)",
       "[Naval News] France orders fifth FDI frigate from Naval Group",
-      "[Task & Purpose] 82nd Airborne Division cancels All American Week amid Iran war deployments",
-      "[Task & Purpose] How does the Iran war end?"
+      "[Task & Purpose] 82nd Airborne Division cancels All American Week amid Iran war deployments"
     ]
   },
   "ground_intel": {
@@ -958,12 +958,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-04-03T10:32:01.428078+00:00",
+    "last_successful_update": "2026-04-03T11:28:29.483915+00:00",
     "article_count": 50,
-    "categorized_count": 29,
-    "freshest_source": "Military Times",
-    "freshest_title": "Trump threatens to walk away from NATO",
-    "freshest_published": "Thu, 02 Apr 2026 02:11:34 +0000"
+    "categorized_count": 30,
+    "freshest_source": "Defense News",
+    "freshest_title": "France orders its fifth and final FDI frigate from Naval Group, completing fleet plan",
+    "freshest_published": "Fri, 03 Apr 2026 10:57:57 +0000"
   },
   "_firms_hotspots": []
 }
