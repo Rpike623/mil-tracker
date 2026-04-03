@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-04-02T23:21:43Z",
-  "version": 751,
-  "breaking_alert": "Military Times: US carried out nearly 50 strikes in Somalia so far this year",
+  "generated_utc": "2026-04-03T01:09:17Z",
+  "version": 752,
+  "breaking_alert": "Military Times: Trump threatens to walk away from NATO",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -838,15 +838,6 @@
   },
   "_conflict_news_refs": [
     {
-      "title": "US carried out nearly 50 strikes in Somalia so far this year",
-      "link": "https://www.militarytimes.com/news/your-military/2026/04/02/us-carried-out-nearly-50-strikes-in-somalia-so-far-this-year/",
-      "published": "Thu, 02 Apr 2026 01:50:16 +0000",
-      "source": "Military Times",
-      "categories": [
-        "conflict"
-      ]
-    },
-    {
       "title": "French, Italian Carrier Strike Groups Wrap NATO’s Neptune Strike Drills",
       "link": "https://news.usni.org/2026/04/02/french-italian-carrier-strike-groups-wrap-natos-neptune-strike-drills",
       "published": "Thu, 02 Apr 2026 17:28:31 +0000",
@@ -882,6 +873,15 @@
       "source": "Naval News",
       "categories": [
         "deployment",
+        "conflict"
+      ]
+    },
+    {
+      "title": "Japan Deploys New Longer-Range Missiles, Formally Designates ‘Type 25’ Systems",
+      "link": "https://www.navalnews.com/naval-news/2026/03/japan-deploys-new-longer-range-missiles-formally-designates-type-25-systems/",
+      "published": "Tue, 31 Mar 2026 12:48:53 +0000",
+      "source": "Naval News",
+      "categories": [
         "conflict"
       ]
     }
@@ -937,17 +937,17 @@
   ],
   "_threat_indicators": {
     "deployment_articles": 19,
-    "conflict_articles": 10,
+    "conflict_articles": 9,
     "exercise_articles": 6,
     "total_articles": 50,
-    "computed_at": "2026-04-02T23:21:36.151811+00:00",
+    "computed_at": "2026-04-03T01:09:11.680660+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
-      "[Military Times] US carried out nearly 50 strikes in Somalia so far this year",
       "[Military Times] Trump threatens to walk away from NATO",
       "[Naval News] HII Launches Flight III Destroyer George M. Neal (DDG 131)",
       "[Naval News] France orders fifth FDI frigate from Naval Group",
-      "[Task & Purpose] 82nd Airborne Division cancels All American Week amid Iran war deployments"
+      "[Task & Purpose] 82nd Airborne Division cancels All American Week amid Iran war deployments",
+      "[Task & Purpose] How does the Iran war end?"
     ]
   },
   "ground_intel": {
@@ -958,12 +958,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-04-02T23:21:36.151850+00:00",
+    "last_successful_update": "2026-04-03T01:09:11.680699+00:00",
     "article_count": 50,
-    "categorized_count": 30,
+    "categorized_count": 29,
     "freshest_source": "Military Times",
-    "freshest_title": "US carried out nearly 50 strikes in Somalia so far this year",
-    "freshest_published": "Thu, 02 Apr 2026 01:50:16 +0000"
+    "freshest_title": "Trump threatens to walk away from NATO",
+    "freshest_published": "Thu, 02 Apr 2026 02:11:34 +0000"
   },
   "_firms_hotspots": []
 }
