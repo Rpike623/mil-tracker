@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-04-03T15:30:56Z",
-  "version": 763,
+  "generated_utc": "2026-04-03T16:25:42Z",
+  "version": 764,
   "breaking_alert": "Defense News: France orders its fifth and final FDI frigate from Naval Group, completing fleet plan",
   "naval_deployments": [
     {
@@ -621,6 +621,15 @@
       ]
     },
     {
+      "title": "US forces rescue downed F-15 crew member in Iran, search for second continues",
+      "link": "https://www.militarytimes.com/news/your-military/2026/04/03/us-forces-rescue-downed-fighter-pilot-in-iran-search-for-second-continues/",
+      "published": "Fri, 03 Apr 2026 16:12:55 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "HII Launches Flight III Destroyer George M. Neal (DDG 131)",
       "link": "https://www.navalnews.com/naval-news/2026/04/hii-launches-flight-iii-destroyer-george-m-neal-ddg-131/",
       "published": "Thu, 02 Apr 2026 06:52:59 +0000",
@@ -672,15 +681,6 @@
       "link": "https://www.defensenews.com/news/your-military/2026/04/02/us-defense-stocks-see-no-iran-war-lift-after-early-surge/",
       "published": "Thu, 02 Apr 2026 18:55:05 +0000",
       "source": "Defense News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "US defense stocks see no Iran war lift after early surge",
-      "link": "https://www.militarytimes.com/news/your-military/2026/04/02/us-defense-stocks-see-no-iran-war-lift-after-early-surge/",
-      "published": "Thu, 02 Apr 2026 18:55:05 +0000",
-      "source": "Military Times",
       "categories": [
         "deployment"
       ]
@@ -899,15 +899,6 @@
       ]
     },
     {
-      "title": "‘Drone Hunters of Kherson’ takes viewers into a war that blends ‘trench warfare and the Terminator’",
-      "link": "https://www.militarytimes.com/news/your-military/2026/04/02/drone-hunters-of-kherson-take-viewers-into-a-war-that-blends-trench-warfare-and-the-terminator/",
-      "published": "Thu, 02 Apr 2026 18:52:22 +0000",
-      "source": "Military Times",
-      "categories": [
-        "exercise"
-      ]
-    },
-    {
       "title": "15 Fairchild airmen awarded for refueling roles in combat operations",
       "link": "https://www.militarytimes.com/news/your-air-force/2026/04/02/15-fairchild-airmen-awarded-for-refueling-roles-in-combat-operations/",
       "published": "Thu, 02 Apr 2026 20:26:14 +0000",
@@ -936,18 +927,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 21,
-    "conflict_articles": 8,
-    "exercise_articles": 5,
+    "deployment_articles": 20,
+    "conflict_articles": 6,
+    "exercise_articles": 4,
     "total_articles": 50,
-    "computed_at": "2026-04-03T15:30:51.920812+00:00",
-    "manual_override": "DEFCON_2",
+    "computed_at": "2026-04-03T16:25:30.991972+00:00",
+    "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Defense News] France orders its fifth and final FDI frigate from Naval Group, completing fleet plan",
       "[Defense News] US F-15E fighter jet shot down over Iran",
       "[Military Times] US F-15E fighter jet shot down over Iran",
-      "[Naval News] HII Launches Flight III Destroyer George M. Neal (DDG 131)",
-      "[Naval News] France orders fifth FDI frigate from Naval Group"
+      "[Military Times] US forces rescue downed F-15 crew member in Iran, search for second continues",
+      "[Naval News] HII Launches Flight III Destroyer George M. Neal (DDG 131)"
     ]
   },
   "ground_intel": {
@@ -958,9 +949,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-04-03T15:30:51.920849+00:00",
+    "last_successful_update": "2026-04-03T16:25:30.992013+00:00",
     "article_count": 50,
-    "categorized_count": 30,
+    "categorized_count": 27,
     "freshest_source": "Defense News",
     "freshest_title": "France orders its fifth and final FDI frigate from Naval Group, completing fleet plan",
     "freshest_published": "Fri, 03 Apr 2026 10:57:57 +0000"
