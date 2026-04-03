@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-04-03T14:34:22Z",
-  "version": 762,
+  "generated_utc": "2026-04-03T15:30:56Z",
+  "version": 763,
   "breaking_alert": "Defense News: France orders its fifth and final FDI frigate from Naval Group, completing fleet plan",
   "naval_deployments": [
     {
@@ -603,7 +603,7 @@
       ]
     },
     {
-      "title": "US fighter jet shot down over Iran",
+      "title": "US F-15E fighter jet shot down over Iran",
       "link": "https://www.defensenews.com/news/your-military/2026/04/03/us-fighter-jet-shot-down-over-iran/",
       "published": "Fri, 03 Apr 2026 14:17:01 +0000",
       "source": "Defense News",
@@ -612,7 +612,7 @@
       ]
     },
     {
-      "title": "US fighter jet shot down over Iran",
+      "title": "US F-15E fighter jet shot down over Iran",
       "link": "https://www.militarytimes.com/news/your-military/2026/04/03/us-fighter-jet-shot-down-over-iran/",
       "published": "Fri, 03 Apr 2026 14:17:01 +0000",
       "source": "Military Times",
@@ -867,21 +867,21 @@
       ]
     },
     {
-      "title": "Watch Qatar’s Al Fulk LPD Launching Aster Missiles Against Iranian Threats",
-      "link": "https://www.navalnews.com/naval-news/2026/03/watch-qatars-al-fulk-lpd-launching-aster-missiles-against-iranian-threats/",
-      "published": "Tue, 31 Mar 2026 10:26:22 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
       "title": "Japan Deploys New Longer-Range Missiles, Formally Designates ‘Type 25’ Systems",
       "link": "https://www.navalnews.com/naval-news/2026/03/japan-deploys-new-longer-range-missiles-formally-designates-type-25-systems/",
       "published": "Tue, 31 Mar 2026 12:48:53 +0000",
       "source": "Naval News",
       "categories": [
+        "conflict"
+      ]
+    },
+    {
+      "title": "ST Engineering Secures ADSB Sub-Contract for Kuwait’s New Missile Gun Boat Fleet",
+      "link": "https://www.navalnews.com/naval-news/2026/04/st-engineering-secures-adsb-sub-contract-for-kuwaits-new-missile-gun-boat-fleet/",
+      "published": "Wed, 01 Apr 2026 14:44:15 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment",
         "conflict"
       ]
     }
@@ -936,16 +936,16 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 22,
-    "conflict_articles": 9,
+    "deployment_articles": 21,
+    "conflict_articles": 8,
     "exercise_articles": 5,
     "total_articles": 50,
-    "computed_at": "2026-04-03T14:33:58.693300+00:00",
+    "computed_at": "2026-04-03T15:30:51.920812+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[Defense News] France orders its fifth and final FDI frigate from Naval Group, completing fleet plan",
-      "[Defense News] US fighter jet shot down over Iran",
-      "[Military Times] US fighter jet shot down over Iran",
+      "[Defense News] US F-15E fighter jet shot down over Iran",
+      "[Military Times] US F-15E fighter jet shot down over Iran",
       "[Naval News] HII Launches Flight III Destroyer George M. Neal (DDG 131)",
       "[Naval News] France orders fifth FDI frigate from Naval Group"
     ]
@@ -958,9 +958,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-04-03T14:33:58.693339+00:00",
+    "last_successful_update": "2026-04-03T15:30:51.920849+00:00",
     "article_count": 50,
-    "categorized_count": 31,
+    "categorized_count": 30,
     "freshest_source": "Defense News",
     "freshest_title": "France orders its fifth and final FDI frigate from Naval Group, completing fleet plan",
     "freshest_published": "Fri, 03 Apr 2026 10:57:57 +0000"
