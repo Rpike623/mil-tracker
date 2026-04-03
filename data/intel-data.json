@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-04-03T19:30:26Z",
-  "version": 767,
+  "generated_utc": "2026-04-03T20:21:36Z",
+  "version": 768,
   "breaking_alert": "Defense News: France orders its fifth and final FDI frigate from Naval Group, completing fleet plan",
   "naval_deployments": [
     {
@@ -621,7 +621,7 @@
       ]
     },
     {
-      "title": "What we know about a downed U.S. F-15 and its crew in Iran",
+      "title": "What we know about a downed US F-15 and its crew in Iran",
       "link": "https://taskandpurpose.com/news/military-f-15-iran/",
       "published": "Fri, 03 Apr 2026 14:58:57 -0400",
       "source": "Task & Purpose",
@@ -642,6 +642,15 @@
       "title": "Airmen, guardians to follow shorter SkillBridge transition assistance timeline to match their rank",
       "link": "https://www.militarytimes.com/news/your-military/2026/04/03/airmen-guardians-to-follow-shorter-skillbridge-transition-assistance-timeline-to-match-their-rank/",
       "published": "Fri, 03 Apr 2026 16:47:13 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Iran ‘skirmish’ has no effect on strong US economy, White House advisor claims",
+      "link": "https://www.militarytimes.com/veterans/2026/04/03/iran-skirmish-has-no-effect-on-strong-us-economy-white-house-advisor-claims/",
+      "published": "Fri, 03 Apr 2026 19:55:56 +0000",
       "source": "Military Times",
       "categories": [
         "deployment"
@@ -669,15 +678,6 @@
       "title": "82nd Airborne Division cancels All American Week amid Iran war deployments",
       "link": "https://taskandpurpose.com/news/82nd-airbone-event-cancelled-iran-war/",
       "published": "Thu, 02 Apr 2026 12:00:20 -0400",
-      "source": "Task & Purpose",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "How does the Iran war end?",
-      "link": "https://taskandpurpose.com/opinion/military-iran-war-end/",
-      "published": "Thu, 02 Apr 2026 16:09:12 -0400",
       "source": "Task & Purpose",
       "categories": [
         "deployment"
@@ -897,15 +897,6 @@
       ]
     },
     {
-      "title": "15 Fairchild airmen awarded for refueling roles in combat operations",
-      "link": "https://www.militarytimes.com/news/your-air-force/2026/04/02/15-fairchild-airmen-awarded-for-refueling-roles-in-combat-operations/",
-      "published": "Thu, 02 Apr 2026 20:26:14 +0000",
-      "source": "Military Times",
-      "categories": [
-        "exercise"
-      ]
-    },
-    {
       "title": "Bipartisan group of senators vow to keep US in NATO despite Trump threats",
       "link": "https://www.defensenews.com/news/pentagon-congress/2026/04/02/bipartisan-group-of-senators-vow-to-keep-us-in-nato-despite-trump-threats/",
       "published": "Thu, 02 Apr 2026 20:56:30 +0000",
@@ -913,29 +904,20 @@
       "categories": [
         "exercise"
       ]
-    },
-    {
-      "title": "Bipartisan group of senators vow to keep US in NATO despite Trump threats",
-      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/04/02/bipartisan-group-of-senators-vow-to-keep-us-in-nato-despite-trump-threats/",
-      "published": "Thu, 02 Apr 2026 20:56:30 +0000",
-      "source": "Military Times",
-      "categories": [
-        "exercise"
-      ]
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 21,
+    "deployment_articles": 22,
     "conflict_articles": 5,
-    "exercise_articles": 4,
+    "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-04-03T19:30:23.304804+00:00",
+    "computed_at": "2026-04-03T20:21:34.056808+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Defense News] France orders its fifth and final FDI frigate from Naval Group, completing fleet plan",
       "[Defense News] US F-15E fighter jet shot down over Iran",
       "[Military Times] US F-15E fighter jet shot down over Iran",
-      "[Task & Purpose] What we know about a downed U.S. F-15 and its crew in Iran",
+      "[Task & Purpose] What we know about a downed US F-15 and its crew in Iran",
       "[Military Times] US forces rescue downed F-15 crew member in Iran, search for second continues"
     ]
   },
@@ -947,9 +929,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-04-03T19:30:23.304854+00:00",
+    "last_successful_update": "2026-04-03T20:21:34.056852+00:00",
     "article_count": 50,
-    "categorized_count": 27,
+    "categorized_count": 26,
     "freshest_source": "Defense News",
     "freshest_title": "France orders its fifth and final FDI frigate from Naval Group, completing fleet plan",
     "freshest_published": "Fri, 03 Apr 2026 10:57:57 +0000"
