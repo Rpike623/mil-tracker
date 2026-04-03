@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-04-03T18:29:23Z",
-  "version": 766,
+  "generated_utc": "2026-04-03T19:30:26Z",
+  "version": 767,
   "breaking_alert": "Defense News: France orders its fifth and final FDI frigate from Naval Group, completing fleet plan",
   "naval_deployments": [
     {
@@ -621,6 +621,15 @@
       ]
     },
     {
+      "title": "What we know about a downed U.S. F-15 and its crew in Iran",
+      "link": "https://taskandpurpose.com/news/military-f-15-iran/",
+      "published": "Fri, 03 Apr 2026 14:58:57 -0400",
+      "source": "Task & Purpose",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "US forces rescue downed F-15 crew member in Iran, search for second continues",
       "link": "https://www.militarytimes.com/news/your-military/2026/04/03/us-forces-rescue-downed-fighter-pilot-in-iran-search-for-second-continues/",
       "published": "Fri, 03 Apr 2026 16:12:55 +0000",
@@ -672,17 +681,6 @@
       "source": "Task & Purpose",
       "categories": [
         "deployment"
-      ]
-    },
-    {
-      "title": "French, Italian Carrier Strike Groups Wrap NATO’s Neptune Strike Drills",
-      "link": "https://news.usni.org/2026/04/02/french-italian-carrier-strike-groups-wrap-natos-neptune-strike-drills",
-      "published": "Thu, 02 Apr 2026 17:28:31 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment",
-        "exercise",
-        "conflict"
       ]
     }
   ],
@@ -931,14 +929,14 @@
     "conflict_articles": 5,
     "exercise_articles": 4,
     "total_articles": 50,
-    "computed_at": "2026-04-03T18:29:17.633496+00:00",
+    "computed_at": "2026-04-03T19:30:23.304804+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Defense News] France orders its fifth and final FDI frigate from Naval Group, completing fleet plan",
       "[Defense News] US F-15E fighter jet shot down over Iran",
       "[Military Times] US F-15E fighter jet shot down over Iran",
-      "[Military Times] US forces rescue downed F-15 crew member in Iran, search for second continues",
-      "[Military Times] Airmen, guardians to follow shorter SkillBridge transition assistance timeline to match their rank"
+      "[Task & Purpose] What we know about a downed U.S. F-15 and its crew in Iran",
+      "[Military Times] US forces rescue downed F-15 crew member in Iran, search for second continues"
     ]
   },
   "ground_intel": {
@@ -949,7 +947,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-04-03T18:29:17.633537+00:00",
+    "last_successful_update": "2026-04-03T19:30:23.304854+00:00",
     "article_count": 50,
     "categorized_count": 27,
     "freshest_source": "Defense News",
