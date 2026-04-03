@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-04-03T01:09:17Z",
-  "version": 752,
+  "generated_utc": "2026-04-03T04:16:33Z",
+  "version": 753,
   "breaking_alert": "Military Times: Trump threatens to walk away from NATO",
   "naval_deployments": [
     {
@@ -677,7 +677,7 @@
       ]
     },
     {
-      "title": "Hegseth asks Army’s top general to retire immediately as Iran war rages",
+      "title": "Hegseth asks Army’s top general to retire, fires two others as Iran war rages",
       "link": "https://www.defensenews.com/news/pentagon-congress/2026/04/02/hegseth-asks-armys-top-general-to-retire-immediately-as-iran-war-rages/",
       "published": "Thu, 02 Apr 2026 22:25:12 +0000",
       "source": "Defense News",
@@ -940,7 +940,7 @@
     "conflict_articles": 9,
     "exercise_articles": 6,
     "total_articles": 50,
-    "computed_at": "2026-04-03T01:09:11.680660+00:00",
+    "computed_at": "2026-04-03T04:16:27.261610+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[Military Times] Trump threatens to walk away from NATO",
@@ -958,7 +958,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-04-03T01:09:11.680699+00:00",
+    "last_successful_update": "2026-04-03T04:16:27.261649+00:00",
     "article_count": 50,
     "categorized_count": 29,
     "freshest_source": "Military Times",
