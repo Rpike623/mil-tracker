@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-04-03T13:54:32Z",
-  "version": 761,
+  "generated_utc": "2026-04-03T14:34:22Z",
+  "version": 762,
   "breaking_alert": "Defense News: France orders its fifth and final FDI frigate from Naval Group, completing fleet plan",
   "naval_deployments": [
     {
@@ -603,6 +603,24 @@
       ]
     },
     {
+      "title": "US fighter jet shot down over Iran",
+      "link": "https://www.defensenews.com/news/your-military/2026/04/03/us-fighter-jet-shot-down-over-iran/",
+      "published": "Fri, 03 Apr 2026 14:17:01 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "US fighter jet shot down over Iran",
+      "link": "https://www.militarytimes.com/news/your-military/2026/04/03/us-fighter-jet-shot-down-over-iran/",
+      "published": "Fri, 03 Apr 2026 14:17:01 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "HII Launches Flight III Destroyer George M. Neal (DDG 131)",
       "link": "https://www.navalnews.com/naval-news/2026/04/hii-launches-flight-iii-destroyer-george-m-neal-ddg-131/",
       "published": "Thu, 02 Apr 2026 06:52:59 +0000",
@@ -662,24 +680,6 @@
       "title": "US defense stocks see no Iran war lift after early surge",
       "link": "https://www.militarytimes.com/news/your-military/2026/04/02/us-defense-stocks-see-no-iran-war-lift-after-early-surge/",
       "published": "Thu, 02 Apr 2026 18:55:05 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Carrier USS Gerald R. Ford Departs Croatia After Liberty, Additional Repairs",
-      "link": "https://news.usni.org/2026/04/02/carrier-uss-gerald-r-ford-departs-croatia-after-liberty-additional-repairs",
-      "published": "Thu, 02 Apr 2026 20:10:31 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "USS Gerald R. Ford returns to sea after brief stop in Croatia",
-      "link": "https://www.militarytimes.com/news/your-military/2026/04/02/uss-gerald-r-ford-returns-to-see-after-brief-stop-in-croatia/",
-      "published": "Thu, 02 Apr 2026 21:10:12 +0000",
       "source": "Military Times",
       "categories": [
         "deployment"
@@ -888,15 +888,6 @@
   ],
   "_exercise_news_refs": [
     {
-      "title": "Trump threatens to walk away from NATO",
-      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/04/02/trump-threatens-to-walk-away-from-nato/",
-      "published": "Thu, 02 Apr 2026 02:11:34 +0000",
-      "source": "Military Times",
-      "categories": [
-        "exercise"
-      ]
-    },
-    {
       "title": "French, Italian Carrier Strike Groups Wrap NATO’s Neptune Strike Drills",
       "link": "https://news.usni.org/2026/04/02/french-italian-carrier-strike-groups-wrap-natos-neptune-strike-drills",
       "published": "Thu, 02 Apr 2026 17:28:31 +0000",
@@ -933,21 +924,30 @@
       "categories": [
         "exercise"
       ]
+    },
+    {
+      "title": "Bipartisan group of senators vow to keep US in NATO despite Trump threats",
+      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/04/02/bipartisan-group-of-senators-vow-to-keep-us-in-nato-despite-trump-threats/",
+      "published": "Thu, 02 Apr 2026 20:56:30 +0000",
+      "source": "Military Times",
+      "categories": [
+        "exercise"
+      ]
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 20,
+    "deployment_articles": 22,
     "conflict_articles": 9,
-    "exercise_articles": 6,
+    "exercise_articles": 5,
     "total_articles": 50,
-    "computed_at": "2026-04-03T13:54:24.952098+00:00",
+    "computed_at": "2026-04-03T14:33:58.693300+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[Defense News] France orders its fifth and final FDI frigate from Naval Group, completing fleet plan",
-      "[Military Times] Trump threatens to walk away from NATO",
+      "[Defense News] US fighter jet shot down over Iran",
+      "[Military Times] US fighter jet shot down over Iran",
       "[Naval News] HII Launches Flight III Destroyer George M. Neal (DDG 131)",
-      "[Naval News] France orders fifth FDI frigate from Naval Group",
-      "[Task & Purpose] 82nd Airborne Division cancels All American Week amid Iran war deployments"
+      "[Naval News] France orders fifth FDI frigate from Naval Group"
     ]
   },
   "ground_intel": {
@@ -958,9 +958,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-04-03T13:54:24.952137+00:00",
+    "last_successful_update": "2026-04-03T14:33:58.693339+00:00",
     "article_count": 50,
-    "categorized_count": 30,
+    "categorized_count": 31,
     "freshest_source": "Defense News",
     "freshest_title": "France orders its fifth and final FDI frigate from Naval Group, completing fleet plan",
     "freshest_published": "Fri, 03 Apr 2026 10:57:57 +0000"
