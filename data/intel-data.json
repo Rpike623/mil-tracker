@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-04-05T12:28:14Z",
-  "version": 801,
+  "generated_utc": "2026-04-05T13:44:23Z",
+  "version": 802,
   "breaking_alert": "Defense News: France orders its fifth and final FDI frigate from Naval Group, completing fleet plan",
   "naval_deployments": [
     {
@@ -675,10 +675,10 @@
       ]
     },
     {
-      "title": "HII Launches Flight III Destroyer George M. Neal (DDG 131)",
-      "link": "https://www.navalnews.com/naval-news/2026/04/hii-launches-flight-iii-destroyer-george-m-neal-ddg-131/",
-      "published": "Thu, 02 Apr 2026 06:52:59 +0000",
-      "source": "Naval News",
+      "title": "US special forces rescue F-15 airman from Iran",
+      "link": "https://www.defensenews.com/news/your-military/2026/04/05/us-special-forces-rescue-f-15-airman-from-iran/",
+      "published": "Sun, 05 Apr 2026 13:40:03 +0000",
+      "source": "Defense News",
       "categories": [
         "deployment"
       ]
@@ -847,15 +847,6 @@
       ]
     },
     {
-      "title": "Golden Dome, ships and missiles top Trump’s $1.5 trillion defense wish list",
-      "link": "https://www.defensenews.com/news/pentagon-congress/2026/04/02/golden-dome-ships-and-missiles-top-trumps-15-trillion-defense-wish-list/",
-      "published": "Thu, 02 Apr 2026 19:09:10 +0000",
-      "source": "Defense News",
-      "categories": [
-        "conflict"
-      ]
-    },
-    {
       "title": "ST Engineering Secures ADSB Sub-Contract for Kuwait’s New Missile Gun Boat Fleet",
       "link": "https://www.navalnews.com/naval-news/2026/04/st-engineering-secures-adsb-sub-contract-for-kuwaits-new-missile-gun-boat-fleet/",
       "published": "Wed, 01 Apr 2026 14:44:15 +0000",
@@ -898,11 +889,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 20,
-    "conflict_articles": 4,
+    "deployment_articles": 22,
+    "conflict_articles": 3,
     "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-04-05T12:28:11.059546+00:00",
+    "computed_at": "2026-04-05T13:44:16.855024+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Defense News] France orders its fifth and final FDI frigate from Naval Group, completing fleet plan",
@@ -920,9 +911,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-04-05T12:28:11.059588+00:00",
+    "last_successful_update": "2026-04-05T13:44:16.855067+00:00",
     "article_count": 50,
-    "categorized_count": 23,
+    "categorized_count": 24,
     "freshest_source": "Defense News",
     "freshest_title": "France orders its fifth and final FDI frigate from Naval Group, completing fleet plan",
     "freshest_published": "Fri, 03 Apr 2026 10:57:57 +0000"
