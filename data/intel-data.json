@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-04-05T13:44:23Z",
-  "version": 802,
+  "generated_utc": "2026-04-05T14:29:25Z",
+  "version": 803,
   "breaking_alert": "Defense News: France orders its fifth and final FDI frigate from Naval Group, completing fleet plan",
   "naval_deployments": [
     {
@@ -675,7 +675,7 @@
       ]
     },
     {
-      "title": "US special forces rescue F-15 airman from Iran",
+      "title": "US special forces rescue second F-15 airman from Iran",
       "link": "https://www.defensenews.com/news/your-military/2026/04/05/us-special-forces-rescue-f-15-airman-from-iran/",
       "published": "Sun, 05 Apr 2026 13:40:03 +0000",
       "source": "Defense News",
@@ -893,7 +893,7 @@
     "conflict_articles": 3,
     "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-04-05T13:44:16.855024+00:00",
+    "computed_at": "2026-04-05T14:24:44.976195+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Defense News] France orders its fifth and final FDI frigate from Naval Group, completing fleet plan",
@@ -911,7 +911,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-04-05T13:44:16.855067+00:00",
+    "last_successful_update": "2026-04-05T14:24:44.976237+00:00",
     "article_count": 50,
     "categorized_count": 24,
     "freshest_source": "Defense News",
