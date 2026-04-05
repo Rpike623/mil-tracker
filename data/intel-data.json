@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-04-05T08:29:30Z",
-  "version": 797,
+  "generated_utc": "2026-04-05T09:27:12Z",
+  "version": 798,
   "breaking_alert": "Defense News: France orders its fifth and final FDI frigate from Naval Group, completing fleet plan",
   "naval_deployments": [
     {
@@ -856,15 +856,6 @@
       ]
     },
     {
-      "title": "Japan Deploys New Longer-Range Missiles, Formally Designates ‘Type 25’ Systems",
-      "link": "https://www.navalnews.com/naval-news/2026/03/japan-deploys-new-longer-range-missiles-formally-designates-type-25-systems/",
-      "published": "Tue, 31 Mar 2026 12:48:53 +0000",
-      "source": "Naval News",
-      "categories": [
-        "conflict"
-      ]
-    },
-    {
       "title": "ST Engineering Secures ADSB Sub-Contract for Kuwait’s New Missile Gun Boat Fleet",
       "link": "https://www.navalnews.com/naval-news/2026/04/st-engineering-secures-adsb-sub-contract-for-kuwaits-new-missile-gun-boat-fleet/",
       "published": "Wed, 01 Apr 2026 14:44:15 +0000",
@@ -908,10 +899,10 @@
   ],
   "_threat_indicators": {
     "deployment_articles": 20,
-    "conflict_articles": 5,
+    "conflict_articles": 4,
     "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-04-05T08:29:28.360956+00:00",
+    "computed_at": "2026-04-05T09:27:08.443300+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Defense News] France orders its fifth and final FDI frigate from Naval Group, completing fleet plan",
@@ -929,9 +920,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-04-05T08:29:28.360997+00:00",
+    "last_successful_update": "2026-04-05T09:27:08.443343+00:00",
     "article_count": 50,
-    "categorized_count": 24,
+    "categorized_count": 23,
     "freshest_source": "Defense News",
     "freshest_title": "France orders its fifth and final FDI frigate from Naval Group, completing fleet plan",
     "freshest_published": "Fri, 03 Apr 2026 10:57:57 +0000"
