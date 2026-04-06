@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-04-06T20:26:16Z",
-  "version": 827,
-  "breaking_alert": "Defense News: France orders its fifth and final FDI frigate from Naval Group, completing fleet plan",
+  "generated_utc": "2026-04-06T21:27:08Z",
+  "version": 828,
+  "breaking_alert": "Defense News: US F-15E fighter jet shot down over Iran",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -594,15 +594,6 @@
   ],
   "_naval_news_refs": [
     {
-      "title": "France orders its fifth and final FDI frigate from Naval Group, completing fleet plan",
-      "link": "https://www.defensenews.com/global/europe/2026/04/03/france-orders-its-fifth-and-final-fdi-frigate-from-naval-group-completing-fleet-plan/",
-      "published": "Fri, 03 Apr 2026 10:57:57 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "US F-15E fighter jet shot down over Iran",
       "link": "https://www.defensenews.com/news/your-military/2026/04/03/us-fighter-jet-shot-down-over-iran/",
       "published": "Fri, 03 Apr 2026 14:17:01 +0000",
@@ -682,6 +673,15 @@
       "link": "https://www.militarytimes.com/news/pentagon-congress/2026/04/06/trump-says-iran-could-be-taken-out-on-tuesday/",
       "published": "Mon, 06 Apr 2026 19:32:39 +0000",
       "source": "Military Times",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "USNI News Fleet and Marine Tracker: April 6, 2026",
+      "link": "https://news.usni.org/2026/04/06/usni-news-fleet-and-marine-tracker-april-6-2026",
+      "published": "Mon, 06 Apr 2026 20:00:02 +0000",
+      "source": "USNI News",
       "categories": [
         "deployment"
       ]
@@ -917,14 +917,14 @@
     "conflict_articles": 5,
     "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-04-06T20:26:08.234195+00:00",
+    "computed_at": "2026-04-06T21:26:50.156285+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
-      "[Defense News] France orders its fifth and final FDI frigate from Naval Group, completing fleet plan",
       "[Defense News] US F-15E fighter jet shot down over Iran",
       "[Task & Purpose] What we know about a downed US F-15 and its crew in Iran",
       "[Military Times] Iran ‘skirmish’ has no effect on strong US economy, White House advisor claims",
-      "[Task & Purpose] Army lets soldiers deployed for Operation Epic Fury reenlist two years early"
+      "[Task & Purpose] Army lets soldiers deployed for Operation Epic Fury reenlist two years early",
+      "[Defense News] Ukraine missile maker targets ‘game changer’ air defense system by 2027"
     ]
   },
   "ground_intel": {
@@ -935,12 +935,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-04-06T20:26:08.234240+00:00",
+    "last_successful_update": "2026-04-06T21:26:50.156331+00:00",
     "article_count": 50,
     "categorized_count": 24,
     "freshest_source": "Defense News",
-    "freshest_title": "France orders its fifth and final FDI frigate from Naval Group, completing fleet plan",
-    "freshest_published": "Fri, 03 Apr 2026 10:57:57 +0000"
+    "freshest_title": "US F-15E fighter jet shot down over Iran",
+    "freshest_published": "Fri, 03 Apr 2026 14:17:01 +0000"
   },
   "_firms_hotspots": []
 }
