@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-04-06T04:32:54Z",
-  "version": 814,
+  "generated_utc": "2026-04-06T06:22:48Z",
+  "version": 815,
   "breaking_alert": "Defense News: France orders its fifth and final FDI frigate from Naval Group, completing fleet plan",
   "naval_deployments": [
     {
@@ -893,7 +893,7 @@
     "conflict_articles": 3,
     "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-04-06T04:32:51.703641+00:00",
+    "computed_at": "2026-04-06T06:22:42.198841+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Defense News] France orders its fifth and final FDI frigate from Naval Group, completing fleet plan",
@@ -911,7 +911,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-04-06T04:32:51.703681+00:00",
+    "last_successful_update": "2026-04-06T06:22:42.198903+00:00",
     "article_count": 50,
     "categorized_count": 25,
     "freshest_source": "Defense News",
