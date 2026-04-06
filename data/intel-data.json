@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-04-06T12:41:01Z",
-  "version": 820,
+  "generated_utc": "2026-04-06T14:03:16Z",
+  "version": 821,
   "breaking_alert": "Defense News: France orders its fifth and final FDI frigate from Naval Group, completing fleet plan",
   "naval_deployments": [
     {
@@ -612,15 +612,6 @@
       ]
     },
     {
-      "title": "US F-15E fighter jet shot down over Iran",
-      "link": "https://www.militarytimes.com/news/your-military/2026/04/03/us-fighter-jet-shot-down-over-iran/",
-      "published": "Fri, 03 Apr 2026 14:17:01 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "What we know about a downed US F-15 and its crew in Iran",
       "link": "https://taskandpurpose.com/news/military-f-15-iran/",
       "published": "Fri, 03 Apr 2026 14:58:57 -0400",
@@ -657,28 +648,40 @@
       ]
     },
     {
+      "title": "Army lets soldiers deployed for Operation Epic Fury reenlist two years early",
+      "link": "https://taskandpurpose.com/news/army-epic-fury-reenlistment-widened/",
+      "published": "Mon, 06 Apr 2026 09:24:14 -0400",
+      "source": "Task & Purpose",
+      "categories": [
+        "deployment",
+        "exercise"
+      ]
+    },
+    {
+      "title": "Ukraine missile maker targets ‘game changer’ air defense system by 2027",
+      "link": "https://www.defensenews.com/industry/techwatch/2026/04/06/ukraine-missile-maker-targets-game-changer-air-defense-system-by-2027/",
+      "published": "Mon, 06 Apr 2026 13:55:57 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
+    },
+    {
+      "title": "Ukraine missile maker targets ‘game changer’ air defense system by 2027",
+      "link": "https://www.militarytimes.com/industry/techwatch/2026/04/06/ukraine-missile-maker-targets-game-changer-air-defense-system-by-2027/",
+      "published": "Mon, 06 Apr 2026 13:55:57 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
+    },
+    {
       "title": "Iran leaves door open for peace talks as hunt for missing US pilot continues",
       "link": "https://www.defensenews.com/news/pentagon-congress/2026/04/04/iran-leaves-door-open-for-peace-talks-as-hunt-for-missing-us-pilot-continues/",
       "published": "Sat, 04 Apr 2026 14:45:58 +0000",
       "source": "Defense News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Iran leaves door open for peace talks as hunt for missing US pilot continues",
-      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/04/04/iran-leaves-door-open-for-peace-talks-as-hunt-for-missing-us-pilot-continues/",
-      "published": "Sat, 04 Apr 2026 14:45:58 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "What we know about the commando raid to recover the F-15 crew member in Iran",
-      "link": "https://taskandpurpose.com/news/f15-airman-rescue-iran-special-operations/",
-      "published": "Sun, 05 Apr 2026 13:19:45 -0400",
-      "source": "Task & Purpose",
       "categories": [
         "deployment"
       ]
@@ -836,6 +839,26 @@
   },
   "_conflict_news_refs": [
     {
+      "title": "Ukraine missile maker targets ‘game changer’ air defense system by 2027",
+      "link": "https://www.defensenews.com/industry/techwatch/2026/04/06/ukraine-missile-maker-targets-game-changer-air-defense-system-by-2027/",
+      "published": "Mon, 06 Apr 2026 13:55:57 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
+    },
+    {
+      "title": "Ukraine missile maker targets ‘game changer’ air defense system by 2027",
+      "link": "https://www.militarytimes.com/industry/techwatch/2026/04/06/ukraine-missile-maker-targets-game-changer-air-defense-system-by-2027/",
+      "published": "Mon, 06 Apr 2026 13:55:57 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
+    },
+    {
       "title": "French, Italian Carrier Strike Groups Wrap NATO’s Neptune Strike Drills",
       "link": "https://news.usni.org/2026/04/02/french-italian-carrier-strike-groups-wrap-natos-neptune-strike-drills",
       "published": "Thu, 02 Apr 2026 17:28:31 +0000",
@@ -868,6 +891,16 @@
   ],
   "_exercise_news_refs": [
     {
+      "title": "Army lets soldiers deployed for Operation Epic Fury reenlist two years early",
+      "link": "https://taskandpurpose.com/news/army-epic-fury-reenlistment-widened/",
+      "published": "Mon, 06 Apr 2026 09:24:14 -0400",
+      "source": "Task & Purpose",
+      "categories": [
+        "deployment",
+        "exercise"
+      ]
+    },
+    {
       "title": "French, Italian Carrier Strike Groups Wrap NATO’s Neptune Strike Drills",
       "link": "https://news.usni.org/2026/04/02/french-italian-carrier-strike-groups-wrap-natos-neptune-strike-drills",
       "published": "Thu, 02 Apr 2026 17:28:31 +0000",
@@ -877,30 +910,21 @@
         "exercise",
         "conflict"
       ]
-    },
-    {
-      "title": "Bipartisan group of senators vow to keep US in NATO despite Trump threats",
-      "link": "https://www.defensenews.com/news/pentagon-congress/2026/04/02/bipartisan-group-of-senators-vow-to-keep-us-in-nato-despite-trump-threats/",
-      "published": "Thu, 02 Apr 2026 20:56:30 +0000",
-      "source": "Defense News",
-      "categories": [
-        "exercise"
-      ]
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 22,
-    "conflict_articles": 3,
+    "deployment_articles": 23,
+    "conflict_articles": 5,
     "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-04-06T12:40:59.349017+00:00",
+    "computed_at": "2026-04-06T14:03:00.034630+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Defense News] France orders its fifth and final FDI frigate from Naval Group, completing fleet plan",
       "[Defense News] US F-15E fighter jet shot down over Iran",
-      "[Military Times] US F-15E fighter jet shot down over Iran",
       "[Task & Purpose] What we know about a downed US F-15 and its crew in Iran",
-      "[Military Times] US forces rescue downed F-15 crew member in Iran, search for second continues"
+      "[Military Times] US forces rescue downed F-15 crew member in Iran, search for second continues",
+      "[Military Times] Airmen, guardians to follow shorter SkillBridge transition assistance timeline to match their rank"
     ]
   },
   "ground_intel": {
@@ -911,7 +935,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-04-06T12:40:59.349058+00:00",
+    "last_successful_update": "2026-04-06T14:03:00.034673+00:00",
     "article_count": 50,
     "categorized_count": 24,
     "freshest_source": "Defense News",
