@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-04-06T17:35:04Z",
-  "version": 824,
+  "generated_utc": "2026-04-06T18:38:55Z",
+  "version": 825,
   "breaking_alert": "Defense News: France orders its fifth and final FDI frigate from Naval Group, completing fleet plan",
   "naval_deployments": [
     {
@@ -859,6 +859,15 @@
       ]
     },
     {
+      "title": "Marines Test Custom-built Drone in Live Fire Test, Strike Unmanned Surface Vessel",
+      "link": "https://news.usni.org/2026/04/06/marines-test-custom-built-drone-in-live-fire-test-strike-unmanned-surface-vessel",
+      "published": "Mon, 06 Apr 2026 17:43:46 +0000",
+      "source": "USNI News",
+      "categories": [
+        "conflict"
+      ]
+    },
+    {
       "title": "French, Italian Carrier Strike Groups Wrap NATO’s Neptune Strike Drills",
       "link": "https://news.usni.org/2026/04/02/french-italian-carrier-strike-groups-wrap-natos-neptune-strike-drills",
       "published": "Thu, 02 Apr 2026 17:28:31 +0000",
@@ -876,15 +885,6 @@
       "source": "Naval News",
       "categories": [
         "deployment",
-        "conflict"
-      ]
-    },
-    {
-      "title": "Japan Deploys New Hypersonic, Anti-ship Missiles",
-      "link": "https://news.usni.org/2026/04/01/japan-deploys-new-hypersonic-anti-ship-missiles",
-      "published": "Wed, 01 Apr 2026 20:37:24 +0000",
-      "source": "USNI News",
-      "categories": [
         "conflict"
       ]
     }
@@ -917,7 +917,7 @@
     "conflict_articles": 5,
     "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-04-06T17:35:00.546146+00:00",
+    "computed_at": "2026-04-06T18:38:50.527531+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Defense News] France orders its fifth and final FDI frigate from Naval Group, completing fleet plan",
@@ -935,7 +935,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-04-06T17:35:00.546196+00:00",
+    "last_successful_update": "2026-04-06T18:38:50.527577+00:00",
     "article_count": 50,
     "categorized_count": 22,
     "freshest_source": "Defense News",
