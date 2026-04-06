@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-04-06T14:03:16Z",
-  "version": 821,
+  "generated_utc": "2026-04-06T15:35:27Z",
+  "version": 822,
   "breaking_alert": "Defense News: France orders its fifth and final FDI frigate from Naval Group, completing fleet plan",
   "naval_deployments": [
     {
@@ -621,15 +621,6 @@
       ]
     },
     {
-      "title": "US forces rescue downed F-15 crew member in Iran, search for second continues",
-      "link": "https://www.militarytimes.com/news/your-military/2026/04/03/us-forces-rescue-downed-fighter-pilot-in-iran-search-for-second-continues/",
-      "published": "Fri, 03 Apr 2026 16:12:55 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Airmen, guardians to follow shorter SkillBridge transition assistance timeline to match their rank",
       "link": "https://www.militarytimes.com/news/your-military/2026/04/03/airmen-guardians-to-follow-shorter-skillbridge-transition-assistance-timeline-to-match-their-rank/",
       "published": "Fri, 03 Apr 2026 16:47:13 +0000",
@@ -682,6 +673,15 @@
       "link": "https://www.defensenews.com/news/pentagon-congress/2026/04/04/iran-leaves-door-open-for-peace-talks-as-hunt-for-missing-us-pilot-continues/",
       "published": "Sat, 04 Apr 2026 14:45:58 +0000",
       "source": "Defense News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Iran leaves door open for peace talks as hunt for missing US pilot continues",
+      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/04/04/iran-leaves-door-open-for-peace-talks-as-hunt-for-missing-us-pilot-continues/",
+      "published": "Sat, 04 Apr 2026 14:45:58 +0000",
+      "source": "Military Times",
       "categories": [
         "deployment"
       ]
@@ -913,18 +913,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 23,
+    "deployment_articles": 22,
     "conflict_articles": 5,
     "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-04-06T14:03:00.034630+00:00",
+    "computed_at": "2026-04-06T15:35:23.657999+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Defense News] France orders its fifth and final FDI frigate from Naval Group, completing fleet plan",
       "[Defense News] US F-15E fighter jet shot down over Iran",
       "[Task & Purpose] What we know about a downed US F-15 and its crew in Iran",
-      "[Military Times] US forces rescue downed F-15 crew member in Iran, search for second continues",
-      "[Military Times] Airmen, guardians to follow shorter SkillBridge transition assistance timeline to match their rank"
+      "[Military Times] Airmen, guardians to follow shorter SkillBridge transition assistance timeline to match their rank",
+      "[Military Times] Iran ‘skirmish’ has no effect on strong US economy, White House advisor claims"
     ]
   },
   "ground_intel": {
@@ -935,9 +935,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-04-06T14:03:00.034673+00:00",
+    "last_successful_update": "2026-04-06T15:35:23.658046+00:00",
     "article_count": 50,
-    "categorized_count": 24,
+    "categorized_count": 23,
     "freshest_source": "Defense News",
     "freshest_title": "France orders its fifth and final FDI frigate from Naval Group, completing fleet plan",
     "freshest_published": "Fri, 03 Apr 2026 10:57:57 +0000"
