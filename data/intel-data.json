@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-04-07T08:03:17Z",
-  "version": 834,
+  "generated_utc": "2026-04-07T09:55:49Z",
+  "version": 835,
   "breaking_alert": "Defense News: US F-15E fighter jet shot down over Iran",
   "naval_deployments": [
     {
@@ -907,7 +907,7 @@
     "conflict_articles": 4,
     "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-04-07T08:03:12.919227+00:00",
+    "computed_at": "2026-04-07T09:55:43.518505+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Defense News] US F-15E fighter jet shot down over Iran",
@@ -925,7 +925,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-04-07T08:03:12.919273+00:00",
+    "last_successful_update": "2026-04-07T09:55:43.518551+00:00",
     "article_count": 50,
     "categorized_count": 23,
     "freshest_source": "Defense News",
