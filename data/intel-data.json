@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-04-07T14:23:53Z",
-  "version": 839,
+  "generated_utc": "2026-04-07T16:02:27Z",
+  "version": 840,
   "breaking_alert": "Task & Purpose: What we know about a downed US F-15 and its crew in Iran",
   "naval_deployments": [
     {
@@ -868,22 +868,21 @@
       ]
     },
     {
-      "title": "French, Italian Carrier Strike Groups Wrap NATO’s Neptune Strike Drills",
-      "link": "https://news.usni.org/2026/04/02/french-italian-carrier-strike-groups-wrap-natos-neptune-strike-drills",
-      "published": "Thu, 02 Apr 2026 17:28:31 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment",
-        "exercise",
-        "conflict"
-      ]
-    },
-    {
       "title": "Swedish RBS 15 Anti-ship Missiles Surface in Ukraine",
       "link": "https://www.navalnews.com/naval-news/2026/04/swedish-rbs-15-anti-ship-missiles-surface-in-ukraine/",
       "published": "Tue, 07 Apr 2026 09:58:59 +0000",
       "source": "Naval News",
       "categories": [
+        "conflict"
+      ]
+    },
+    {
+      "title": "Iran’s other would-be WMD program lies in ruins following strikes by Israel and the US",
+      "link": "https://www.defensenews.com/global/mideast-africa/2026/04/07/irans-other-would-be-wmd-program-lies-in-ruins-following-strikes-by-israel-and-the-us/",
+      "published": "Tue, 07 Apr 2026 15:51:32 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment",
         "conflict"
       ]
     }
@@ -898,25 +897,14 @@
         "deployment",
         "exercise"
       ]
-    },
-    {
-      "title": "French, Italian Carrier Strike Groups Wrap NATO’s Neptune Strike Drills",
-      "link": "https://news.usni.org/2026/04/02/french-italian-carrier-strike-groups-wrap-natos-neptune-strike-drills",
-      "published": "Thu, 02 Apr 2026 17:28:31 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment",
-        "exercise",
-        "conflict"
-      ]
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 17,
-    "conflict_articles": 5,
-    "exercise_articles": 2,
+    "deployment_articles": 20,
+    "conflict_articles": 6,
+    "exercise_articles": 1,
     "total_articles": 50,
-    "computed_at": "2026-04-07T14:23:45.581250+00:00",
+    "computed_at": "2026-04-07T16:02:17.348542+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Task & Purpose] What we know about a downed US F-15 and its crew in Iran",
@@ -934,9 +922,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-04-07T14:23:45.581297+00:00",
+    "last_successful_update": "2026-04-07T16:02:17.348589+00:00",
     "article_count": 50,
-    "categorized_count": 19,
+    "categorized_count": 22,
     "freshest_source": "Task & Purpose",
     "freshest_title": "What we know about a downed US F-15 and its crew in Iran",
     "freshest_published": "Fri, 03 Apr 2026 14:58:57 -0400"
