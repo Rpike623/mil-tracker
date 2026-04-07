@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-04-07T06:11:26Z",
-  "version": 833,
+  "generated_utc": "2026-04-07T08:03:17Z",
+  "version": 834,
   "breaking_alert": "Defense News: US F-15E fighter jet shot down over Iran",
   "naval_deployments": [
     {
@@ -877,16 +877,6 @@
         "exercise",
         "conflict"
       ]
-    },
-    {
-      "title": "ST Engineering Secures ADSB Sub-Contract for Kuwait’s New Missile Gun Boat Fleet",
-      "link": "https://www.navalnews.com/naval-news/2026/04/st-engineering-secures-adsb-sub-contract-for-kuwaits-new-missile-gun-boat-fleet/",
-      "published": "Wed, 01 Apr 2026 14:44:15 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
     }
   ],
   "_exercise_news_refs": [
@@ -913,11 +903,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 23,
-    "conflict_articles": 5,
+    "deployment_articles": 22,
+    "conflict_articles": 4,
     "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-04-07T06:11:20.806427+00:00",
+    "computed_at": "2026-04-07T08:03:12.919227+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Defense News] US F-15E fighter jet shot down over Iran",
@@ -935,9 +925,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-04-07T06:11:20.806474+00:00",
+    "last_successful_update": "2026-04-07T08:03:12.919273+00:00",
     "article_count": 50,
-    "categorized_count": 24,
+    "categorized_count": 23,
     "freshest_source": "Defense News",
     "freshest_title": "US F-15E fighter jet shot down over Iran",
     "freshest_published": "Fri, 03 Apr 2026 14:17:01 +0000"
