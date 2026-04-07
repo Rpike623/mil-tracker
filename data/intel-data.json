@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-04-07T18:42:59Z",
-  "version": 842,
+  "generated_utc": "2026-04-07T19:47:42Z",
+  "version": 843,
   "breaking_alert": "Task & Purpose: What we know about a downed US F-15 and its crew in Iran",
   "naval_deployments": [
     {
@@ -668,19 +668,19 @@
       ]
     },
     {
-      "title": "Iran leaves door open for peace talks as hunt for missing US pilot continues",
-      "link": "https://www.defensenews.com/news/pentagon-congress/2026/04/04/iran-leaves-door-open-for-peace-talks-as-hunt-for-missing-us-pilot-continues/",
-      "published": "Sat, 04 Apr 2026 14:45:58 +0000",
-      "source": "Defense News",
+      "title": "What we know about the commando raid to recover the F-15 crew member in Iran",
+      "link": "https://taskandpurpose.com/news/f15-airman-rescue-iran-special-operations/",
+      "published": "Sun, 05 Apr 2026 13:19:45 -0400",
+      "source": "Task & Purpose",
       "categories": [
         "deployment"
       ]
     },
     {
-      "title": "What we know about the commando raid to recover the F-15 crew member in Iran",
-      "link": "https://taskandpurpose.com/news/f15-airman-rescue-iran-special-operations/",
-      "published": "Sun, 05 Apr 2026 13:19:45 -0400",
-      "source": "Task & Purpose",
+      "title": "US special forces rescue second F-15 airman from Iran",
+      "link": "https://www.defensenews.com/news/your-military/2026/04/05/us-special-forces-rescue-f-15-airman-from-iran/",
+      "published": "Sun, 05 Apr 2026 13:40:03 +0000",
+      "source": "Defense News",
       "categories": [
         "deployment"
       ]
@@ -899,11 +899,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 19,
-    "conflict_articles": 5,
+    "deployment_articles": 17,
+    "conflict_articles": 7,
     "exercise_articles": 1,
     "total_articles": 50,
-    "computed_at": "2026-04-07T18:42:48.994509+00:00",
+    "computed_at": "2026-04-07T19:47:17.536132+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Task & Purpose] What we know about a downed US F-15 and its crew in Iran",
@@ -921,7 +921,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-04-07T18:42:48.994552+00:00",
+    "last_successful_update": "2026-04-07T19:47:17.536178+00:00",
     "article_count": 50,
     "categorized_count": 21,
     "freshest_source": "Task & Purpose",
