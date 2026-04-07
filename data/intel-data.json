@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-04-07T12:50:27Z",
-  "version": 838,
+  "generated_utc": "2026-04-07T14:23:53Z",
+  "version": 839,
   "breaking_alert": "Task & Purpose: What we know about a downed US F-15 and its crew in Iran",
   "naval_deployments": [
     {
@@ -912,11 +912,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 19,
+    "deployment_articles": 17,
     "conflict_articles": 5,
     "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-04-07T12:50:25.414978+00:00",
+    "computed_at": "2026-04-07T14:23:45.581250+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Task & Purpose] What we know about a downed US F-15 and its crew in Iran",
@@ -934,9 +934,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-04-07T12:50:25.415025+00:00",
+    "last_successful_update": "2026-04-07T14:23:45.581297+00:00",
     "article_count": 50,
-    "categorized_count": 21,
+    "categorized_count": 19,
     "freshest_source": "Task & Purpose",
     "freshest_title": "What we know about a downed US F-15 and its crew in Iran",
     "freshest_published": "Fri, 03 Apr 2026 14:58:57 -0400"
