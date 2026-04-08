@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-04-07T23:27:00Z",
-  "version": 847,
+  "generated_utc": "2026-04-08T01:10:36Z",
+  "version": 848,
   "breaking_alert": "Task & Purpose: What we know about a downed US F-15 and its crew in Iran",
   "naval_deployments": [
     {
@@ -677,10 +677,10 @@
       ]
     },
     {
-      "title": "‘A whole civilization will die tonight,’ Trump says as Iran defies deal",
-      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/04/07/a-whole-civilization-will-die-tonight-trump-says-as-iran-defies-deal/",
-      "published": "Tue, 07 Apr 2026 15:14:44 +0000",
-      "source": "Military Times",
+      "title": "US hits military targets on Iran’s Kharg Island",
+      "link": "https://www.defensenews.com/news/pentagon-congress/2026/04/07/us-hits-military-targets-on-irans-kharg-island/",
+      "published": "Tue, 07 Apr 2026 15:17:58 +0000",
+      "source": "Defense News",
       "categories": [
         "deployment"
       ]
@@ -876,12 +876,11 @@
       ]
     },
     {
-      "title": "Iran’s other would-be WMD program lies in ruins following strikes by Israel and the US",
-      "link": "https://www.militarytimes.com/global/mideast-africa/2026/04/07/irans-other-would-be-wmd-program-lies-in-ruins-following-strikes-by-israel-and-the-us/",
-      "published": "Tue, 07 Apr 2026 15:51:32 +0000",
-      "source": "Military Times",
+      "title": "US Navy seeks 1,200% increase in Tomahawk missile procurement for 2027",
+      "link": "https://www.defensenews.com/news/your-navy/2026/04/07/us-navy-seeks-1200-increase-in-tomahawk-missile-procurement-for-2027/",
+      "published": "Tue, 07 Apr 2026 19:38:51 +0000",
+      "source": "Defense News",
       "categories": [
-        "deployment",
         "conflict"
       ]
     }
@@ -899,11 +898,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 18,
-    "conflict_articles": 9,
+    "deployment_articles": 17,
+    "conflict_articles": 11,
     "exercise_articles": 1,
     "total_articles": 50,
-    "computed_at": "2026-04-07T23:26:56.472629+00:00",
+    "computed_at": "2026-04-08T01:10:32.131386+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[Task & Purpose] What we know about a downed US F-15 and its crew in Iran",
@@ -921,7 +920,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-04-07T23:26:56.472674+00:00",
+    "last_successful_update": "2026-04-08T01:10:32.131431+00:00",
     "article_count": 50,
     "categorized_count": 22,
     "freshest_source": "Task & Purpose",
