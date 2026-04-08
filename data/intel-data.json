@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-04-08T20:30:14Z",
-  "version": 860,
+  "generated_utc": "2026-04-08T21:35:07Z",
+  "version": 861,
   "breaking_alert": "Task & Purpose: Army lets soldiers deployed for Operation Epic Fury reenlist two years early",
   "naval_deployments": [
     {
@@ -678,10 +678,10 @@
       ]
     },
     {
-      "title": "Russia supplies Iran with cyber support, spy imagery to hone attacks, Ukraine says",
-      "link": "https://www.militarytimes.com/flashpoints/middle-east/2026/04/07/russia-supplies-iran-with-cyber-support-spy-imagery-to-hone-attacks-ukraine-says/",
-      "published": "Tue, 07 Apr 2026 21:12:52 +0000",
-      "source": "Military Times",
+      "title": "Trump says he has agreed to two-week ceasefire with Iran",
+      "link": "https://www.defensenews.com/news/your-military/2026/04/07/trump-says-he-has-agreed-to-two-week-ceasefire-with-iran/",
+      "published": "Tue, 07 Apr 2026 23:35:46 +0000",
+      "source": "Defense News",
       "categories": [
         "deployment",
         "conflict"
@@ -910,11 +910,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 20,
-    "conflict_articles": 13,
+    "deployment_articles": 19,
+    "conflict_articles": 12,
     "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-04-08T20:30:08.682182+00:00",
+    "computed_at": "2026-04-08T21:35:05.141970+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[Task & Purpose] Army lets soldiers deployed for Operation Epic Fury reenlist two years early",
@@ -932,9 +932,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-04-08T20:30:08.682225+00:00",
+    "last_successful_update": "2026-04-08T21:35:05.142016+00:00",
     "article_count": 50,
-    "categorized_count": 26,
+    "categorized_count": 25,
     "freshest_source": "Task & Purpose",
     "freshest_title": "Army lets soldiers deployed for Operation Epic Fury reenlist two years early",
     "freshest_published": "Mon, 06 Apr 2026 09:24:14 -0400"
