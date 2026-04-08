@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-04-08T16:05:45Z",
-  "version": 857,
+  "generated_utc": "2026-04-08T17:56:35Z",
+  "version": 858,
   "breaking_alert": "Task & Purpose: What we know about a downed US F-15 and its crew in Iran",
   "naval_deployments": [
     {
@@ -875,11 +875,12 @@
       ]
     },
     {
-      "title": "US Navy seeks 1,200% increase in Tomahawk missile procurement for 2027",
-      "link": "https://www.militarytimes.com/news/your-navy/2026/04/07/us-navy-seeks-1200-increase-in-tomahawk-missile-procurement-for-2027/",
-      "published": "Tue, 07 Apr 2026 19:38:51 +0000",
-      "source": "Military Times",
+      "title": "Russia supplies Iran with cyber support, spy imagery to hone attacks, Ukraine says",
+      "link": "https://www.defensenews.com/flashpoints/middle-east/2026/04/07/russia-supplies-iran-with-cyber-support-spy-imagery-to-hone-attacks-ukraine-says/",
+      "published": "Tue, 07 Apr 2026 21:12:52 +0000",
+      "source": "Defense News",
       "categories": [
+        "deployment",
         "conflict"
       ]
     }
@@ -898,10 +899,10 @@
   ],
   "_threat_indicators": {
     "deployment_articles": 21,
-    "conflict_articles": 13,
+    "conflict_articles": 12,
     "exercise_articles": 1,
     "total_articles": 50,
-    "computed_at": "2026-04-08T16:05:43.257873+00:00",
+    "computed_at": "2026-04-08T17:56:33.190212+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[Task & Purpose] What we know about a downed US F-15 and its crew in Iran",
@@ -919,9 +920,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-04-08T16:05:43.257920+00:00",
+    "last_successful_update": "2026-04-08T17:56:33.190257+00:00",
     "article_count": 50,
-    "categorized_count": 27,
+    "categorized_count": 26,
     "freshest_source": "Task & Purpose",
     "freshest_title": "What we know about a downed US F-15 and its crew in Iran",
     "freshest_published": "Fri, 03 Apr 2026 14:58:57 -0400"
