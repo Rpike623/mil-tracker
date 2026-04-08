@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-04-08T12:50:11Z",
-  "version": 855,
+  "generated_utc": "2026-04-08T14:25:34Z",
+  "version": 856,
   "breaking_alert": "Task & Purpose: What we know about a downed US F-15 and its crew in Iran",
   "naval_deployments": [
     {
@@ -613,16 +613,6 @@
       ]
     },
     {
-      "title": "Ukraine missile maker targets ‘game changer’ air defense system by 2027",
-      "link": "https://www.defensenews.com/industry/techwatch/2026/04/06/ukraine-missile-maker-targets-game-changer-air-defense-system-by-2027/",
-      "published": "Mon, 06 Apr 2026 13:55:57 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
       "title": "General confirms A-10 lost, helicopter damaged during F-15 rescue in Iran",
       "link": "https://taskandpurpose.com/news/military-iran-rescue-2026/",
       "published": "Mon, 06 Apr 2026 14:49:35 -0400",
@@ -650,15 +640,6 @@
       ]
     },
     {
-      "title": "Israel to sell PULS systems to Greece for $750 million",
-      "link": "https://www.defensenews.com/global/mideast-africa/2026/04/06/israel-to-sell-puls-systems-to-greece-for-750-million/",
-      "published": "Mon, 06 Apr 2026 21:21:55 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "What we know about the commando raid to recover the F-15 crew member in Iran",
       "link": "https://taskandpurpose.com/news/f15-airman-rescue-iran-special-operations/",
       "published": "Sun, 05 Apr 2026 13:19:45 -0400",
@@ -681,6 +662,25 @@
       "link": "https://www.defensenews.com/news/pentagon-congress/2026/04/07/us-hits-military-targets-on-irans-kharg-island/",
       "published": "Tue, 07 Apr 2026 15:17:58 +0000",
       "source": "Defense News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Iran’s other would-be WMD program lies in ruins following strikes by Israel and the US",
+      "link": "https://www.defensenews.com/global/mideast-africa/2026/04/07/irans-other-would-be-wmd-program-lies-in-ruins-following-strikes-by-israel-and-the-us/",
+      "published": "Tue, 07 Apr 2026 15:51:32 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
+    },
+    {
+      "title": "B-2s flew 36-hour mission to target Iranian Revolutionary Guard meeting",
+      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/04/07/b-2s-flew-36-hour-mission-to-target-iranian-revolutionary-guard-meeting/",
+      "published": "Tue, 07 Apr 2026 20:46:14 +0000",
+      "source": "Military Times",
       "categories": [
         "deployment"
       ]
@@ -838,16 +838,6 @@
   },
   "_conflict_news_refs": [
     {
-      "title": "Ukraine missile maker targets ‘game changer’ air defense system by 2027",
-      "link": "https://www.defensenews.com/industry/techwatch/2026/04/06/ukraine-missile-maker-targets-game-changer-air-defense-system-by-2027/",
-      "published": "Mon, 06 Apr 2026 13:55:57 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
       "title": "Marines Test Custom-built Drone in Live Fire Test, Strike Unmanned Surface Vessel",
       "link": "https://news.usni.org/2026/04/06/marines-test-custom-built-drone-in-live-fire-test-strike-unmanned-surface-vessel",
       "published": "Mon, 06 Apr 2026 17:43:46 +0000",
@@ -883,6 +873,15 @@
       "categories": [
         "conflict"
       ]
+    },
+    {
+      "title": "US Navy seeks 1,200% increase in Tomahawk missile procurement for 2027",
+      "link": "https://www.militarytimes.com/news/your-navy/2026/04/07/us-navy-seeks-1200-increase-in-tomahawk-missile-procurement-for-2027/",
+      "published": "Tue, 07 Apr 2026 19:38:51 +0000",
+      "source": "Military Times",
+      "categories": [
+        "conflict"
+      ]
     }
   ],
   "_exercise_news_refs": [
@@ -902,14 +901,14 @@
     "conflict_articles": 11,
     "exercise_articles": 1,
     "total_articles": 50,
-    "computed_at": "2026-04-08T12:50:07.020695+00:00",
+    "computed_at": "2026-04-08T14:25:32.054408+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[Task & Purpose] What we know about a downed US F-15 and its crew in Iran",
       "[Task & Purpose] Army lets soldiers deployed for Operation Epic Fury reenlist two years early",
-      "[Defense News] Ukraine missile maker targets ‘game changer’ air defense system by 2027",
       "[Task & Purpose] General confirms A-10 lost, helicopter damaged during F-15 rescue in Iran",
-      "[USNI News] SOUTHCOM Doesn’t Need a Carrier for Maritime Interdiction, CNO Says"
+      "[USNI News] SOUTHCOM Doesn’t Need a Carrier for Maritime Interdiction, CNO Says",
+      "[USNI News] Marines Test Custom-built Drone in Live Fire Test, Strike Unmanned Surface Vessel"
     ]
   },
   "ground_intel": {
@@ -920,9 +919,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-04-08T12:50:07.020740+00:00",
+    "last_successful_update": "2026-04-08T14:25:32.054454+00:00",
     "article_count": 50,
-    "categorized_count": 23,
+    "categorized_count": 24,
     "freshest_source": "Task & Purpose",
     "freshest_title": "What we know about a downed US F-15 and its crew in Iran",
     "freshest_published": "Fri, 03 Apr 2026 14:58:57 -0400"
