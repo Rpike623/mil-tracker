@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-04-09T12:53:23Z",
-  "version": 871,
+  "generated_utc": "2026-04-09T14:47:55Z",
+  "version": 872,
   "breaking_alert": "Task & Purpose: Army lets soldiers deployed for Operation Epic Fury reenlist two years early",
   "naval_deployments": [
     {
@@ -613,15 +613,6 @@
       ]
     },
     {
-      "title": "SOUTHCOM Doesn’t Need a Carrier for Maritime Interdiction, CNO Says",
-      "link": "https://news.usni.org/2026/04/06/southcom-doesnt-need-a-carrier-for-maritime-interdiction-cno-says",
-      "published": "Mon, 06 Apr 2026 15:48:01 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "USNI News Fleet and Marine Tracker: April 6, 2026",
       "link": "https://news.usni.org/2026/04/06/usni-news-fleet-and-marine-tracker-april-6-2026",
       "published": "Mon, 06 Apr 2026 20:00:02 +0000",
@@ -659,9 +650,9 @@
       ]
     },
     {
-      "title": "Damen launches ‘Drone Carrier’ for the Portuguese Navy",
-      "link": "https://www.navalnews.com/naval-news/2026/04/damen-launches-drone-carrier-for-the-portuguese-navy/",
-      "published": "Tue, 07 Apr 2026 20:47:26 +0000",
+      "title": "Video: How Naval Group builds FDI Frigates so quickly",
+      "link": "https://www.navalnews.com/naval-news/2026/04/video-how-naval-group-builds-fdi-frigates-so-quickly/",
+      "published": "Thu, 09 Apr 2026 13:56:25 +0000",
       "source": "Naval News",
       "categories": [
         "deployment"
@@ -685,6 +676,15 @@
       "categories": [
         "deployment",
         "conflict"
+      ]
+    },
+    {
+      "title": "US troops downed ‘2 million’ energy drinks during Iran war, top general says",
+      "link": "https://taskandpurpose.com/news/military-iran-energy-drinks/",
+      "published": "Wed, 08 Apr 2026 09:26:05 -0400",
+      "source": "Task & Purpose",
+      "categories": [
+        "deployment"
       ]
     }
   ],
@@ -878,10 +878,10 @@
       ]
     },
     {
-      "title": "The rescue mission that brought 2 F-15E Strike Eagle crew members home",
-      "link": "https://www.militarytimes.com/news/your-military/2026/04/08/the-rescue-mission-that-brought-2-f-15e-strike-eagle-crew-members-home/",
-      "published": "Wed, 08 Apr 2026 00:03:42 +0000",
-      "source": "Military Times",
+      "title": "U.S. Navy Requests Major Strike Weapons Package in Budget Request",
+      "link": "https://www.navalnews.com/naval-news/2026/04/u-s-navy-requests-major-strike-weapons-package-in-budget-request/",
+      "published": "Wed, 08 Apr 2026 14:19:00 +0000",
+      "source": "Naval News",
       "categories": [
         "conflict"
       ]
@@ -929,18 +929,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 19,
-    "conflict_articles": 9,
+    "deployment_articles": 17,
+    "conflict_articles": 8,
     "exercise_articles": 4,
     "total_articles": 50,
-    "computed_at": "2026-04-09T12:53:17.948025+00:00",
+    "computed_at": "2026-04-09T14:47:50.482668+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[Task & Purpose] Army lets soldiers deployed for Operation Epic Fury reenlist two years early",
       "[Task & Purpose] General confirms A-10 lost, helicopter damaged during F-15 rescue in Iran",
-      "[USNI News] SOUTHCOM Doesn’t Need a Carrier for Maritime Interdiction, CNO Says",
       "[USNI News] Marines Test Custom-built Drone in Live Fire Test, Strike Unmanned Surface Vessel",
-      "[USNI News] USNI News Fleet and Marine Tracker: April 6, 2026"
+      "[USNI News] USNI News Fleet and Marine Tracker: April 6, 2026",
+      "[Task & Purpose] What we know about the commando raid to recover the F-15 crew member in Iran"
     ]
   },
   "ground_intel": {
@@ -951,9 +951,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-04-09T12:53:17.948069+00:00",
+    "last_successful_update": "2026-04-09T14:47:50.482710+00:00",
     "article_count": 50,
-    "categorized_count": 25,
+    "categorized_count": 22,
     "freshest_source": "Task & Purpose",
     "freshest_title": "Army lets soldiers deployed for Operation Epic Fury reenlist two years early",
     "freshest_published": "Mon, 06 Apr 2026 09:24:14 -0400"
