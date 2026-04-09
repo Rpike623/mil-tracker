@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-04-09T17:50:59Z",
-  "version": 874,
+  "generated_utc": "2026-04-09T18:43:36Z",
+  "version": 875,
   "breaking_alert": "Task & Purpose: Army lets soldiers deployed for Operation Epic Fury reenlist two years early",
   "naval_deployments": [
     {
@@ -931,11 +931,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 17,
+    "deployment_articles": 16,
     "conflict_articles": 7,
     "exercise_articles": 4,
     "total_articles": 50,
-    "computed_at": "2026-04-09T17:50:55.359336+00:00",
+    "computed_at": "2026-04-09T18:43:32.354659+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Task & Purpose] Army lets soldiers deployed for Operation Epic Fury reenlist two years early",
@@ -953,9 +953,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-04-09T17:50:55.359379+00:00",
+    "last_successful_update": "2026-04-09T18:43:32.354697+00:00",
     "article_count": 50,
-    "categorized_count": 21,
+    "categorized_count": 20,
     "freshest_source": "Task & Purpose",
     "freshest_title": "Army lets soldiers deployed for Operation Epic Fury reenlist two years early",
     "freshest_published": "Mon, 06 Apr 2026 09:24:14 -0400"
