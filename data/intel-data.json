@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-04-09T20:38:39Z",
-  "version": 877,
+  "generated_utc": "2026-04-09T21:36:19Z",
+  "version": 878,
   "breaking_alert": "Task & Purpose: General confirms A-10 lost, helicopter damaged during F-15 rescue in Iran",
   "naval_deployments": [
     {
@@ -603,15 +603,6 @@
       ]
     },
     {
-      "title": "USNI News Fleet and Marine Tracker: April 6, 2026",
-      "link": "https://news.usni.org/2026/04/06/usni-news-fleet-and-marine-tracker-april-6-2026",
-      "published": "Mon, 06 Apr 2026 20:00:02 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Former Army employee charged with leaking classified information to journalist",
       "link": "https://www.militarytimes.com/news/your-military/2026/04/09/former-army-employee-charged-with-leaking-classified-information-to-journalist/",
       "published": "Thu, 09 Apr 2026 01:13:39 +0000",
@@ -659,13 +650,32 @@
       ]
     },
     {
-      "title": "Russia supplies Iran with cyber support, spy imagery to hone attacks, Ukraine says",
-      "link": "https://www.defensenews.com/flashpoints/middle-east/2026/04/07/russia-supplies-iran-with-cyber-support-spy-imagery-to-hone-attacks-ukraine-says/",
-      "published": "Tue, 07 Apr 2026 21:12:52 +0000",
+      "title": "Trump again chides NATO for failing to back US operations in Iran",
+      "link": "https://www.defensenews.com/news/pentagon-congress/2026/04/09/trump-again-chides-nato-for-failing-to-back-us-operations-in-iran/",
+      "published": "Thu, 09 Apr 2026 21:15:47 +0000",
       "source": "Defense News",
       "categories": [
         "deployment",
-        "conflict"
+        "exercise"
+      ]
+    },
+    {
+      "title": "Trump again chides NATO for failing to back US operations in Iran",
+      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/04/09/trump-again-chides-nato-for-failing-to-back-us-operations-in-iran/",
+      "published": "Thu, 09 Apr 2026 21:15:47 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment",
+        "exercise"
+      ]
+    },
+    {
+      "title": "Vessels Trickle Past Iran as Questions Remain Over Strait of Hormuz Status",
+      "link": "https://news.usni.org/2026/04/09/vessels-trickle-past-iran-as-questions-remain-over-strait-of-hormuz-status",
+      "published": "Thu, 09 Apr 2026 21:35:40 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment"
       ]
     },
     {
@@ -676,15 +686,6 @@
       "categories": [
         "deployment",
         "conflict"
-      ]
-    },
-    {
-      "title": "US troops downed ‘2 million’ energy drinks during Iran war, top general says",
-      "link": "https://taskandpurpose.com/news/military-iran-energy-drinks/",
-      "published": "Wed, 08 Apr 2026 09:26:05 -0400",
-      "source": "Task & Purpose",
-      "categories": [
-        "deployment"
       ]
     }
   ],
@@ -859,16 +860,6 @@
       ]
     },
     {
-      "title": "Russia supplies Iran with cyber support, spy imagery to hone attacks, Ukraine says",
-      "link": "https://www.defensenews.com/flashpoints/middle-east/2026/04/07/russia-supplies-iran-with-cyber-support-spy-imagery-to-hone-attacks-ukraine-says/",
-      "published": "Tue, 07 Apr 2026 21:12:52 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
       "title": "Trump says he has agreed to two-week ceasefire with Iran",
       "link": "https://www.defensenews.com/news/your-military/2026/04/07/trump-says-he-has-agreed-to-two-week-ceasefire-with-iran/",
       "published": "Tue, 07 Apr 2026 23:35:46 +0000",
@@ -884,6 +875,16 @@
       "published": "Wed, 08 Apr 2026 14:19:00 +0000",
       "source": "Naval News",
       "categories": [
+        "conflict"
+      ]
+    },
+    {
+      "title": "US forces will be ‘hanging around’ Middle East after Iran ceasefire, Hegseth says",
+      "link": "https://www.defensenews.com/news/pentagon-congress/2026/04/08/us-forces-will-be-hanging-around-middle-east-after-iran-ceasefire-hegseth-says/",
+      "published": "Wed, 08 Apr 2026 15:51:43 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment",
         "conflict"
       ]
     }
@@ -907,21 +908,41 @@
         "deployment",
         "exercise"
       ]
+    },
+    {
+      "title": "Trump again chides NATO for failing to back US operations in Iran",
+      "link": "https://www.defensenews.com/news/pentagon-congress/2026/04/09/trump-again-chides-nato-for-failing-to-back-us-operations-in-iran/",
+      "published": "Thu, 09 Apr 2026 21:15:47 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment",
+        "exercise"
+      ]
+    },
+    {
+      "title": "Trump again chides NATO for failing to back US operations in Iran",
+      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/04/09/trump-again-chides-nato-for-failing-to-back-us-operations-in-iran/",
+      "published": "Thu, 09 Apr 2026 21:15:47 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment",
+        "exercise"
+      ]
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 15,
-    "conflict_articles": 6,
-    "exercise_articles": 2,
+    "deployment_articles": 16,
+    "conflict_articles": 5,
+    "exercise_articles": 4,
     "total_articles": 50,
-    "computed_at": "2026-04-09T20:38:31.890223+00:00",
+    "computed_at": "2026-04-09T21:36:12.367582+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Task & Purpose] General confirms A-10 lost, helicopter damaged during F-15 rescue in Iran",
-      "[USNI News] USNI News Fleet and Marine Tracker: April 6, 2026",
       "[Military Times] Green Berets infiltrate 90-plus miles undetected in weeklong exercise",
       "[Military Times] Former Army employee charged with leaking classified information to journalist",
-      "[Naval News] UK exposes covert Russian submarine operation in and around UK waters"
+      "[Naval News] UK exposes covert Russian submarine operation in and around UK waters",
+      "[Naval News] Video: How Naval Group builds FDI Frigates so quickly"
     ]
   },
   "ground_intel": {
@@ -932,9 +953,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-04-09T20:38:31.890263+00:00",
+    "last_successful_update": "2026-04-09T21:36:12.367621+00:00",
     "article_count": 50,
-    "categorized_count": 18,
+    "categorized_count": 19,
     "freshest_source": "Task & Purpose",
     "freshest_title": "General confirms A-10 lost, helicopter damaged during F-15 rescue in Iran",
     "freshest_published": "Mon, 06 Apr 2026 14:49:35 -0400"
