@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-04-09T08:08:24Z",
-  "version": 867,
+  "generated_utc": "2026-04-09T10:00:05Z",
+  "version": 868,
   "breaking_alert": "Task & Purpose: Army lets soldiers deployed for Operation Epic Fury reenlist two years early",
   "naval_deployments": [
     {
@@ -649,15 +649,6 @@
       ]
     },
     {
-      "title": "US hits military targets on Iran’s Kharg Island",
-      "link": "https://www.defensenews.com/news/pentagon-congress/2026/04/07/us-hits-military-targets-on-irans-kharg-island/",
-      "published": "Tue, 07 Apr 2026 15:17:58 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Iran’s other would-be WMD program lies in ruins following strikes by Israel and the US",
       "link": "https://www.defensenews.com/global/mideast-africa/2026/04/07/irans-other-would-be-wmd-program-lies-in-ruins-following-strikes-by-israel-and-the-us/",
       "published": "Tue, 07 Apr 2026 15:51:32 +0000",
@@ -680,6 +671,16 @@
       "title": "Russia supplies Iran with cyber support, spy imagery to hone attacks, Ukraine says",
       "link": "https://www.defensenews.com/flashpoints/middle-east/2026/04/07/russia-supplies-iran-with-cyber-support-spy-imagery-to-hone-attacks-ukraine-says/",
       "published": "Tue, 07 Apr 2026 21:12:52 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
+    },
+    {
+      "title": "Trump says he has agreed to two-week ceasefire with Iran",
+      "link": "https://www.defensenews.com/news/your-military/2026/04/07/trump-says-he-has-agreed-to-two-week-ceasefire-with-iran/",
+      "published": "Tue, 07 Apr 2026 23:35:46 +0000",
       "source": "Defense News",
       "categories": [
         "deployment",
@@ -918,11 +919,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 20,
+    "deployment_articles": 19,
     "conflict_articles": 11,
     "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-04-09T08:08:18.634138+00:00",
+    "computed_at": "2026-04-09T10:00:00.679522+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[Task & Purpose] Army lets soldiers deployed for Operation Epic Fury reenlist two years early",
@@ -940,9 +941,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-04-09T08:08:18.634183+00:00",
+    "last_successful_update": "2026-04-09T10:00:00.679568+00:00",
     "article_count": 50,
-    "categorized_count": 27,
+    "categorized_count": 26,
     "freshest_source": "Task & Purpose",
     "freshest_title": "Army lets soldiers deployed for Operation Epic Fury reenlist two years early",
     "freshest_published": "Mon, 06 Apr 2026 09:24:14 -0400"
