@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-04-09T18:43:36Z",
-  "version": 875,
-  "breaking_alert": "Task & Purpose: Army lets soldiers deployed for Operation Epic Fury reenlist two years early",
+  "generated_utc": "2026-04-09T19:55:48Z",
+  "version": 876,
+  "breaking_alert": "Task & Purpose: General confirms A-10 lost, helicopter damaged during F-15 rescue in Iran",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -594,16 +594,6 @@
   ],
   "_naval_news_refs": [
     {
-      "title": "Army lets soldiers deployed for Operation Epic Fury reenlist two years early",
-      "link": "https://taskandpurpose.com/news/army-epic-fury-reenlistment-widened/",
-      "published": "Mon, 06 Apr 2026 09:24:14 -0400",
-      "source": "Task & Purpose",
-      "categories": [
-        "deployment",
-        "exercise"
-      ]
-    },
-    {
       "title": "General confirms A-10 lost, helicopter damaged during F-15 rescue in Iran",
       "link": "https://taskandpurpose.com/news/military-iran-rescue-2026/",
       "published": "Mon, 06 Apr 2026 14:49:35 -0400",
@@ -686,6 +676,15 @@
       "categories": [
         "deployment",
         "conflict"
+      ]
+    },
+    {
+      "title": "US troops downed ‘2 million’ energy drinks during Iran war, top general says",
+      "link": "https://taskandpurpose.com/news/military-iran-energy-drinks/",
+      "published": "Wed, 08 Apr 2026 09:26:05 -0400",
+      "source": "Task & Purpose",
+      "categories": [
+        "deployment"
       ]
     }
   ],
@@ -841,21 +840,21 @@
   },
   "_conflict_news_refs": [
     {
-      "title": "Marines Test Custom-built Drone in Live Fire Test, Strike Unmanned Surface Vessel",
-      "link": "https://news.usni.org/2026/04/06/marines-test-custom-built-drone-in-live-fire-test-strike-unmanned-surface-vessel",
-      "published": "Mon, 06 Apr 2026 17:43:46 +0000",
-      "source": "USNI News",
-      "categories": [
-        "conflict"
-      ]
-    },
-    {
       "title": "UK says it deployed military to deter Russian submarines from attack on undersea cables",
       "link": "https://www.defensenews.com/global/europe/2026/04/09/uk-says-it-deployed-military-to-deter-russian-submarines-from-attack-on-undersea-cables/",
       "published": "Thu, 09 Apr 2026 14:55:55 +0000",
       "source": "Defense News",
       "categories": [
         "deployment",
+        "conflict"
+      ]
+    },
+    {
+      "title": "North Korea Holds 3 Days of Major Weapon Tests, Missile Launches",
+      "link": "https://news.usni.org/2026/04/09/north-korea-holds-3-days-of-major-weapon-tests-missile-launches",
+      "published": "Thu, 09 Apr 2026 19:47:39 +0000",
+      "source": "USNI News",
+      "categories": [
         "conflict"
       ]
     },
@@ -891,16 +890,6 @@
   ],
   "_exercise_news_refs": [
     {
-      "title": "Army lets soldiers deployed for Operation Epic Fury reenlist two years early",
-      "link": "https://taskandpurpose.com/news/army-epic-fury-reenlistment-widened/",
-      "published": "Mon, 06 Apr 2026 09:24:14 -0400",
-      "source": "Task & Purpose",
-      "categories": [
-        "deployment",
-        "exercise"
-      ]
-    },
-    {
       "title": "Green Berets infiltrate 90-plus miles undetected in weeklong exercise",
       "link": "https://www.militarytimes.com/news/your-military/2026/04/09/green-berets-infiltrate-90-plus-miles-undetected-in-weeklong-exercise/",
       "published": "Thu, 09 Apr 2026 00:08:13 +0000",
@@ -918,31 +907,21 @@
         "deployment",
         "exercise"
       ]
-    },
-    {
-      "title": "13 US troops killed, more than 380 wounded in Operation Epic Fury",
-      "link": "https://www.militarytimes.com/news/your-military/2026/04/08/pentagon-data-13-us-troops-killed-346-wounded-in-operation-epic-fury/",
-      "published": "Wed, 08 Apr 2026 19:11:54 +0000",
-      "source": "Military Times",
-      "categories": [
-        "exercise",
-        "conflict"
-      ]
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 16,
-    "conflict_articles": 7,
-    "exercise_articles": 4,
+    "deployment_articles": 15,
+    "conflict_articles": 6,
+    "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-04-09T18:43:32.354659+00:00",
+    "computed_at": "2026-04-09T19:55:44.992546+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
-      "[Task & Purpose] Army lets soldiers deployed for Operation Epic Fury reenlist two years early",
       "[Task & Purpose] General confirms A-10 lost, helicopter damaged during F-15 rescue in Iran",
-      "[USNI News] Marines Test Custom-built Drone in Live Fire Test, Strike Unmanned Surface Vessel",
       "[USNI News] USNI News Fleet and Marine Tracker: April 6, 2026",
-      "[Military Times] Green Berets infiltrate 90-plus miles undetected in weeklong exercise"
+      "[Military Times] Green Berets infiltrate 90-plus miles undetected in weeklong exercise",
+      "[Military Times] Former Army employee charged with leaking classified information to journalist",
+      "[Naval News] UK exposes covert Russian submarine operation in and around UK waters"
     ]
   },
   "ground_intel": {
@@ -953,12 +932,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-04-09T18:43:32.354697+00:00",
+    "last_successful_update": "2026-04-09T19:55:44.992590+00:00",
     "article_count": 50,
-    "categorized_count": 20,
+    "categorized_count": 18,
     "freshest_source": "Task & Purpose",
-    "freshest_title": "Army lets soldiers deployed for Operation Epic Fury reenlist two years early",
-    "freshest_published": "Mon, 06 Apr 2026 09:24:14 -0400"
+    "freshest_title": "General confirms A-10 lost, helicopter damaged during F-15 rescue in Iran",
+    "freshest_published": "Mon, 06 Apr 2026 14:49:35 -0400"
   },
   "_firms_hotspots": []
 }
