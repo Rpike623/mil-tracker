@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-04-09T21:36:19Z",
-  "version": 878,
+  "generated_utc": "2026-04-09T22:28:51Z",
+  "version": 879,
   "breaking_alert": "Task & Purpose: General confirms A-10 lost, helicopter damaged during F-15 rescue in Iran",
   "naval_deployments": [
     {
@@ -891,15 +891,6 @@
   ],
   "_exercise_news_refs": [
     {
-      "title": "Green Berets infiltrate 90-plus miles undetected in weeklong exercise",
-      "link": "https://www.militarytimes.com/news/your-military/2026/04/09/green-berets-infiltrate-90-plus-miles-undetected-in-weeklong-exercise/",
-      "published": "Thu, 09 Apr 2026 00:08:13 +0000",
-      "source": "Military Times",
-      "categories": [
-        "exercise"
-      ]
-    },
-    {
       "title": "UK exposes covert Russian submarine operation in and around UK waters",
       "link": "https://www.navalnews.com/naval-news/2026/04/uk-exposes-covert-russian-submarine-operation-in-and-around-uk-waters/",
       "published": "Thu, 09 Apr 2026 12:09:02 +0000",
@@ -933,16 +924,16 @@
   "_threat_indicators": {
     "deployment_articles": 16,
     "conflict_articles": 5,
-    "exercise_articles": 4,
+    "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-04-09T21:36:12.367582+00:00",
+    "computed_at": "2026-04-09T22:28:42.574012+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Task & Purpose] General confirms A-10 lost, helicopter damaged during F-15 rescue in Iran",
-      "[Military Times] Green Berets infiltrate 90-plus miles undetected in weeklong exercise",
       "[Military Times] Former Army employee charged with leaking classified information to journalist",
       "[Naval News] UK exposes covert Russian submarine operation in and around UK waters",
-      "[Naval News] Video: How Naval Group builds FDI Frigates so quickly"
+      "[Naval News] Video: How Naval Group builds FDI Frigates so quickly",
+      "[Defense News] UK says it deployed military to deter Russian submarines from attack on undersea cables"
     ]
   },
   "ground_intel": {
@@ -953,9 +944,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-04-09T21:36:12.367621+00:00",
+    "last_successful_update": "2026-04-09T22:28:42.574057+00:00",
     "article_count": 50,
-    "categorized_count": 19,
+    "categorized_count": 18,
     "freshest_source": "Task & Purpose",
     "freshest_title": "General confirms A-10 lost, helicopter damaged during F-15 rescue in Iran",
     "freshest_published": "Mon, 06 Apr 2026 14:49:35 -0400"
