@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-04-09T11:54:06Z",
-  "version": 870,
+  "generated_utc": "2026-04-09T12:53:23Z",
+  "version": 871,
   "breaking_alert": "Task & Purpose: Army lets soldiers deployed for Operation Epic Fury reenlist two years early",
   "naval_deployments": [
     {
@@ -649,13 +649,13 @@
       ]
     },
     {
-      "title": "Iran’s other would-be WMD program lies in ruins following strikes by Israel and the US",
-      "link": "https://www.defensenews.com/global/mideast-africa/2026/04/07/irans-other-would-be-wmd-program-lies-in-ruins-following-strikes-by-israel-and-the-us/",
-      "published": "Tue, 07 Apr 2026 15:51:32 +0000",
-      "source": "Defense News",
+      "title": "UK exposes covert Russian submarine operation in and around UK waters",
+      "link": "https://www.navalnews.com/naval-news/2026/04/uk-exposes-covert-russian-submarine-operation-in-and-around-uk-waters/",
+      "published": "Thu, 09 Apr 2026 12:09:02 +0000",
+      "source": "Naval News",
       "categories": [
         "deployment",
-        "conflict"
+        "exercise"
       ]
     },
     {
@@ -849,25 +849,6 @@
       ]
     },
     {
-      "title": "Swedish RBS 15 Anti-ship Missiles Surface in Ukraine",
-      "link": "https://www.navalnews.com/naval-news/2026/04/swedish-rbs-15-anti-ship-missiles-surface-in-ukraine/",
-      "published": "Tue, 07 Apr 2026 09:58:59 +0000",
-      "source": "Naval News",
-      "categories": [
-        "conflict"
-      ]
-    },
-    {
-      "title": "Iran’s other would-be WMD program lies in ruins following strikes by Israel and the US",
-      "link": "https://www.defensenews.com/global/mideast-africa/2026/04/07/irans-other-would-be-wmd-program-lies-in-ruins-following-strikes-by-israel-and-the-us/",
-      "published": "Tue, 07 Apr 2026 15:51:32 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
       "title": "US Navy seeks 1,200% increase in Tomahawk missile procurement for 2027",
       "link": "https://www.defensenews.com/news/your-navy/2026/04/07/us-navy-seeks-1200-increase-in-tomahawk-missile-procurement-for-2027/",
       "published": "Tue, 07 Apr 2026 19:38:51 +0000",
@@ -883,6 +864,25 @@
       "source": "Defense News",
       "categories": [
         "deployment",
+        "conflict"
+      ]
+    },
+    {
+      "title": "Trump says he has agreed to two-week ceasefire with Iran",
+      "link": "https://www.defensenews.com/news/your-military/2026/04/07/trump-says-he-has-agreed-to-two-week-ceasefire-with-iran/",
+      "published": "Tue, 07 Apr 2026 23:35:46 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
+    },
+    {
+      "title": "The rescue mission that brought 2 F-15E Strike Eagle crew members home",
+      "link": "https://www.militarytimes.com/news/your-military/2026/04/08/the-rescue-mission-that-brought-2-f-15e-strike-eagle-crew-members-home/",
+      "published": "Wed, 08 Apr 2026 00:03:42 +0000",
+      "source": "Military Times",
+      "categories": [
         "conflict"
       ]
     }
@@ -908,6 +908,16 @@
       ]
     },
     {
+      "title": "UK exposes covert Russian submarine operation in and around UK waters",
+      "link": "https://www.navalnews.com/naval-news/2026/04/uk-exposes-covert-russian-submarine-operation-in-and-around-uk-waters/",
+      "published": "Thu, 09 Apr 2026 12:09:02 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment",
+        "exercise"
+      ]
+    },
+    {
       "title": "13 US troops killed, more than 380 wounded in Operation Epic Fury",
       "link": "https://www.militarytimes.com/news/your-military/2026/04/08/pentagon-data-13-us-troops-killed-346-wounded-in-operation-epic-fury/",
       "published": "Wed, 08 Apr 2026 19:11:54 +0000",
@@ -920,10 +930,10 @@
   ],
   "_threat_indicators": {
     "deployment_articles": 19,
-    "conflict_articles": 11,
-    "exercise_articles": 3,
+    "conflict_articles": 9,
+    "exercise_articles": 4,
     "total_articles": 50,
-    "computed_at": "2026-04-09T11:54:01.183706+00:00",
+    "computed_at": "2026-04-09T12:53:17.948025+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[Task & Purpose] Army lets soldiers deployed for Operation Epic Fury reenlist two years early",
@@ -941,9 +951,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-04-09T11:54:01.183752+00:00",
+    "last_successful_update": "2026-04-09T12:53:17.948069+00:00",
     "article_count": 50,
-    "categorized_count": 26,
+    "categorized_count": 25,
     "freshest_source": "Task & Purpose",
     "freshest_title": "Army lets soldiers deployed for Operation Epic Fury reenlist two years early",
     "freshest_published": "Mon, 06 Apr 2026 09:24:14 -0400"
