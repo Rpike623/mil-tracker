@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-04-09T19:55:48Z",
-  "version": 876,
+  "generated_utc": "2026-04-09T20:38:39Z",
+  "version": 877,
   "breaking_alert": "Task & Purpose: General confirms A-10 lost, helicopter damaged during F-15 rescue in Iran",
   "naval_deployments": [
     {
@@ -914,7 +914,7 @@
     "conflict_articles": 6,
     "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-04-09T19:55:44.992546+00:00",
+    "computed_at": "2026-04-09T20:38:31.890223+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Task & Purpose] General confirms A-10 lost, helicopter damaged during F-15 rescue in Iran",
@@ -932,7 +932,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-04-09T19:55:44.992590+00:00",
+    "last_successful_update": "2026-04-09T20:38:31.890263+00:00",
     "article_count": 50,
     "categorized_count": 18,
     "freshest_source": "Task & Purpose",
