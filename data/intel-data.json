@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-04-09T22:28:51Z",
-  "version": 879,
+  "generated_utc": "2026-04-09T23:28:57Z",
+  "version": 880,
   "breaking_alert": "Task & Purpose: General confirms A-10 lost, helicopter damaged during F-15 rescue in Iran",
   "naval_deployments": [
     {
@@ -603,15 +603,6 @@
       ]
     },
     {
-      "title": "Former Army employee charged with leaking classified information to journalist",
-      "link": "https://www.militarytimes.com/news/your-military/2026/04/09/former-army-employee-charged-with-leaking-classified-information-to-journalist/",
-      "published": "Thu, 09 Apr 2026 01:13:39 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "UK exposes covert Russian submarine operation in and around UK waters",
       "link": "https://www.navalnews.com/naval-news/2026/04/uk-exposes-covert-russian-submarine-operation-in-and-around-uk-waters/",
       "published": "Thu, 09 Apr 2026 12:09:02 +0000",
@@ -679,13 +670,21 @@
       ]
     },
     {
-      "title": "Trump says he has agreed to two-week ceasefire with Iran",
-      "link": "https://www.defensenews.com/news/your-military/2026/04/07/trump-says-he-has-agreed-to-two-week-ceasefire-with-iran/",
-      "published": "Tue, 07 Apr 2026 23:35:46 +0000",
-      "source": "Defense News",
+      "title": "US troops downed ‘2 million’ energy drinks during Iran war, top general says",
+      "link": "https://taskandpurpose.com/news/military-iran-energy-drinks/",
+      "published": "Wed, 08 Apr 2026 09:26:05 -0400",
+      "source": "Task & Purpose",
       "categories": [
-        "deployment",
-        "conflict"
+        "deployment"
+      ]
+    },
+    {
+      "title": "Report to Congress on Iran’s Nuclear Program and UN Sanctions Reimposition",
+      "link": "https://news.usni.org/2026/04/08/report-to-congress-on-irans-nuclear-program-and-un-sanctions-reimposition",
+      "published": "Wed, 08 Apr 2026 13:03:36 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment"
       ]
     }
   ],
@@ -860,16 +859,6 @@
       ]
     },
     {
-      "title": "Trump says he has agreed to two-week ceasefire with Iran",
-      "link": "https://www.defensenews.com/news/your-military/2026/04/07/trump-says-he-has-agreed-to-two-week-ceasefire-with-iran/",
-      "published": "Tue, 07 Apr 2026 23:35:46 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
       "title": "U.S. Navy Requests Major Strike Weapons Package in Budget Request",
       "link": "https://www.navalnews.com/naval-news/2026/04/u-s-navy-requests-major-strike-weapons-package-in-budget-request/",
       "published": "Wed, 08 Apr 2026 14:19:00 +0000",
@@ -919,21 +908,39 @@
         "deployment",
         "exercise"
       ]
+    },
+    {
+      "title": "Trump weighs pulling some US troops from Europe amid NATO strains, official says",
+      "link": "https://www.defensenews.com/news/pentagon-congress/2026/04/09/trump-weighs-pulling-some-us-troops-from-europe-amid-nato-strains-official-says/",
+      "published": "Thu, 09 Apr 2026 23:00:00 +0000",
+      "source": "Defense News",
+      "categories": [
+        "exercise"
+      ]
+    },
+    {
+      "title": "Trump weighs pulling some US troops from Europe amid NATO strains, official says",
+      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/04/09/trump-weighs-pulling-some-us-troops-from-europe-amid-nato-strains-official-says/",
+      "published": "Thu, 09 Apr 2026 23:00:00 +0000",
+      "source": "Military Times",
+      "categories": [
+        "exercise"
+      ]
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 16,
-    "conflict_articles": 5,
-    "exercise_articles": 3,
+    "deployment_articles": 14,
+    "conflict_articles": 4,
+    "exercise_articles": 5,
     "total_articles": 50,
-    "computed_at": "2026-04-09T22:28:42.574012+00:00",
+    "computed_at": "2026-04-09T23:28:52.551084+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Task & Purpose] General confirms A-10 lost, helicopter damaged during F-15 rescue in Iran",
-      "[Military Times] Former Army employee charged with leaking classified information to journalist",
       "[Naval News] UK exposes covert Russian submarine operation in and around UK waters",
       "[Naval News] Video: How Naval Group builds FDI Frigates so quickly",
-      "[Defense News] UK says it deployed military to deter Russian submarines from attack on undersea cables"
+      "[Defense News] UK says it deployed military to deter Russian submarines from attack on undersea cables",
+      "[Military Times] Charges mount for Army OB/GYN accused of sexual assault"
     ]
   },
   "ground_intel": {
@@ -944,7 +951,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-04-09T22:28:42.574057+00:00",
+    "last_successful_update": "2026-04-09T23:28:52.551125+00:00",
     "article_count": 50,
     "categorized_count": 18,
     "freshest_source": "Task & Purpose",
