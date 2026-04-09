@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-04-09T14:47:55Z",
-  "version": 872,
+  "generated_utc": "2026-04-09T16:09:44Z",
+  "version": 873,
   "breaking_alert": "Task & Purpose: Army lets soldiers deployed for Operation Epic Fury reenlist two years early",
   "naval_deployments": [
     {
@@ -622,15 +622,6 @@
       ]
     },
     {
-      "title": "What we know about the commando raid to recover the F-15 crew member in Iran",
-      "link": "https://taskandpurpose.com/news/f15-airman-rescue-iran-special-operations/",
-      "published": "Sun, 05 Apr 2026 13:19:45 -0400",
-      "source": "Task & Purpose",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Former Army employee charged with leaking classified information to journalist",
       "link": "https://www.militarytimes.com/news/your-military/2026/04/09/former-army-employee-charged-with-leaking-classified-information-to-journalist/",
       "published": "Thu, 09 Apr 2026 01:13:39 +0000",
@@ -659,6 +650,25 @@
       ]
     },
     {
+      "title": "UK says it deployed military to deter Russian submarines from attack on undersea cables",
+      "link": "https://www.defensenews.com/global/europe/2026/04/09/uk-says-it-deployed-military-to-deter-russian-submarines-from-attack-on-undersea-cables/",
+      "published": "Thu, 09 Apr 2026 14:55:55 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
+    },
+    {
+      "title": "Charges mount for Army OB/GYN accused of sexual assault",
+      "link": "https://www.militarytimes.com/news/your-military/2026/04/09/charges-mount-for-army-obgyn-accused-of-sexual-assault/",
+      "published": "Thu, 09 Apr 2026 15:43:44 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "Russia supplies Iran with cyber support, spy imagery to hone attacks, Ukraine says",
       "link": "https://www.defensenews.com/flashpoints/middle-east/2026/04/07/russia-supplies-iran-with-cyber-support-spy-imagery-to-hone-attacks-ukraine-says/",
       "published": "Tue, 07 Apr 2026 21:12:52 +0000",
@@ -676,15 +686,6 @@
       "categories": [
         "deployment",
         "conflict"
-      ]
-    },
-    {
-      "title": "US troops downed ‘2 million’ energy drinks during Iran war, top general says",
-      "link": "https://taskandpurpose.com/news/military-iran-energy-drinks/",
-      "published": "Wed, 08 Apr 2026 09:26:05 -0400",
-      "source": "Task & Purpose",
-      "categories": [
-        "deployment"
       ]
     }
   ],
@@ -849,11 +850,12 @@
       ]
     },
     {
-      "title": "US Navy seeks 1,200% increase in Tomahawk missile procurement for 2027",
-      "link": "https://www.defensenews.com/news/your-navy/2026/04/07/us-navy-seeks-1200-increase-in-tomahawk-missile-procurement-for-2027/",
-      "published": "Tue, 07 Apr 2026 19:38:51 +0000",
+      "title": "UK says it deployed military to deter Russian submarines from attack on undersea cables",
+      "link": "https://www.defensenews.com/global/europe/2026/04/09/uk-says-it-deployed-military-to-deter-russian-submarines-from-attack-on-undersea-cables/",
+      "published": "Thu, 09 Apr 2026 14:55:55 +0000",
       "source": "Defense News",
       "categories": [
+        "deployment",
         "conflict"
       ]
     },
@@ -930,17 +932,17 @@
   ],
   "_threat_indicators": {
     "deployment_articles": 17,
-    "conflict_articles": 8,
+    "conflict_articles": 7,
     "exercise_articles": 4,
     "total_articles": 50,
-    "computed_at": "2026-04-09T14:47:50.482668+00:00",
-    "manual_override": "DEFCON_2",
+    "computed_at": "2026-04-09T16:09:38.791941+00:00",
+    "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Task & Purpose] Army lets soldiers deployed for Operation Epic Fury reenlist two years early",
       "[Task & Purpose] General confirms A-10 lost, helicopter damaged during F-15 rescue in Iran",
       "[USNI News] Marines Test Custom-built Drone in Live Fire Test, Strike Unmanned Surface Vessel",
       "[USNI News] USNI News Fleet and Marine Tracker: April 6, 2026",
-      "[Task & Purpose] What we know about the commando raid to recover the F-15 crew member in Iran"
+      "[Military Times] Green Berets infiltrate 90-plus miles undetected in weeklong exercise"
     ]
   },
   "ground_intel": {
@@ -951,9 +953,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-04-09T14:47:50.482710+00:00",
+    "last_successful_update": "2026-04-09T16:09:38.791986+00:00",
     "article_count": 50,
-    "categorized_count": 22,
+    "categorized_count": 21,
     "freshest_source": "Task & Purpose",
     "freshest_title": "Army lets soldiers deployed for Operation Epic Fury reenlist two years early",
     "freshest_published": "Mon, 06 Apr 2026 09:24:14 -0400"
