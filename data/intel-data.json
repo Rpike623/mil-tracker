@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-04-10T16:38:00Z",
-  "version": 891,
+  "generated_utc": "2026-04-10T17:38:31Z",
+  "version": 892,
   "breaking_alert": "Naval News: Kongsberg Signs Waterjet contract for Indian Navy’s Next Generation Missile Vessel",
   "naval_deployments": [
     {
@@ -604,6 +604,16 @@
       ]
     },
     {
+      "title": "Navy to Inactivate Attack Boat USS Boise After $1.6B Repair Effort",
+      "link": "https://news.usni.org/2026/04/10/navy-to-inactivate-attack-boat-uss-boise-after-1-6b-repair-effort",
+      "published": "Fri, 10 Apr 2026 17:36:45 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
+    },
+    {
       "title": "General confirms A-10 lost, helicopter damaged during F-15 rescue in Iran",
       "link": "https://taskandpurpose.com/news/military-iran-rescue-2026/",
       "published": "Mon, 06 Apr 2026 14:49:35 -0400",
@@ -675,15 +685,6 @@
       "link": "https://news.usni.org/2026/04/09/vessels-trickle-past-iran-as-questions-remain-over-strait-of-hormuz-status",
       "published": "Thu, 09 Apr 2026 21:35:40 +0000",
       "source": "USNI News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "US troops downed ‘2 million’ energy drinks during Iran war, top general says",
-      "link": "https://taskandpurpose.com/news/military-iran-energy-drinks/",
-      "published": "Wed, 08 Apr 2026 09:26:05 -0400",
-      "source": "Task & Purpose",
       "categories": [
         "deployment"
       ]
@@ -850,6 +851,16 @@
       ]
     },
     {
+      "title": "Navy to Inactivate Attack Boat USS Boise After $1.6B Repair Effort",
+      "link": "https://news.usni.org/2026/04/10/navy-to-inactivate-attack-boat-uss-boise-after-1-6b-repair-effort",
+      "published": "Fri, 10 Apr 2026 17:36:45 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
+    },
+    {
       "title": "UK says it deployed military to deter Russian submarines from attack on undersea cables",
       "link": "https://www.defensenews.com/global/europe/2026/04/09/uk-says-it-deployed-military-to-deter-russian-submarines-from-attack-on-undersea-cables/",
       "published": "Thu, 09 Apr 2026 14:55:55 +0000",
@@ -921,18 +932,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 14,
-    "conflict_articles": 3,
+    "deployment_articles": 15,
+    "conflict_articles": 4,
     "exercise_articles": 6,
     "total_articles": 50,
-    "computed_at": "2026-04-10T16:37:55.433606+00:00",
+    "computed_at": "2026-04-10T17:38:23.843573+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] Kongsberg Signs Waterjet contract for Indian Navy’s Next Generation Missile Vessel",
       "[Task & Purpose] A 2023 special ops exercise in Wyoming was a preview of the Iran rescue mission",
+      "[USNI News] Navy to Inactivate Attack Boat USS Boise After $1.6B Repair Effort",
       "[Task & Purpose] General confirms A-10 lost, helicopter damaged during F-15 rescue in Iran",
-      "[Naval News] UK exposes covert Russian submarine operation in and around UK waters",
-      "[Naval News] Video: How Naval Group builds FDI Frigates so quickly"
+      "[Naval News] UK exposes covert Russian submarine operation in and around UK waters"
     ]
   },
   "ground_intel": {
@@ -943,9 +954,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-04-10T16:37:55.433652+00:00",
+    "last_successful_update": "2026-04-10T17:38:23.843616+00:00",
     "article_count": 50,
-    "categorized_count": 18,
+    "categorized_count": 19,
     "freshest_source": "Naval News",
     "freshest_title": "Kongsberg Signs Waterjet contract for Indian Navy’s Next Generation Missile Vessel",
     "freshest_published": "Fri, 10 Apr 2026 07:02:57 +0000"
