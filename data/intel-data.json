@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-04-10T14:08:09Z",
-  "version": 889,
+  "generated_utc": "2026-04-10T15:38:59Z",
+  "version": 890,
   "breaking_alert": "Naval News: Kongsberg Signs Waterjet contract for Indian Navy’s Next Generation Missile Vessel",
   "naval_deployments": [
     {
@@ -594,6 +594,16 @@
   ],
   "_naval_news_refs": [
     {
+      "title": "A 2023 special ops exercise in Wyoming was a preview of the Iran rescue mission",
+      "link": "https://taskandpurpose.com/news/2023-preview-of-iran-rescue/",
+      "published": "Fri, 10 Apr 2026 11:24:11 -0400",
+      "source": "Task & Purpose",
+      "categories": [
+        "deployment",
+        "exercise"
+      ]
+    },
+    {
       "title": "General confirms A-10 lost, helicopter damaged during F-15 rescue in Iran",
       "link": "https://taskandpurpose.com/news/military-iran-rescue-2026/",
       "published": "Mon, 06 Apr 2026 14:49:35 -0400",
@@ -674,15 +684,6 @@
       "link": "https://taskandpurpose.com/news/military-iran-energy-drinks/",
       "published": "Wed, 08 Apr 2026 09:26:05 -0400",
       "source": "Task & Purpose",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Report to Congress on Iran’s Nuclear Program and UN Sanctions Reimposition",
-      "link": "https://news.usni.org/2026/04/08/report-to-congress-on-irans-nuclear-program-and-un-sanctions-reimposition",
-      "published": "Wed, 08 Apr 2026 13:03:36 +0000",
-      "source": "USNI News",
       "categories": [
         "deployment"
       ]
@@ -866,19 +867,19 @@
       "categories": [
         "conflict"
       ]
-    },
-    {
-      "title": "US forces will be ‘hanging around’ Middle East after Iran ceasefire, Hegseth says",
-      "link": "https://www.defensenews.com/news/pentagon-congress/2026/04/08/us-forces-will-be-hanging-around-middle-east-after-iran-ceasefire-hegseth-says/",
-      "published": "Wed, 08 Apr 2026 15:51:43 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
     }
   ],
   "_exercise_news_refs": [
+    {
+      "title": "A 2023 special ops exercise in Wyoming was a preview of the Iran rescue mission",
+      "link": "https://taskandpurpose.com/news/2023-preview-of-iran-rescue/",
+      "published": "Fri, 10 Apr 2026 11:24:11 -0400",
+      "source": "Task & Purpose",
+      "categories": [
+        "deployment",
+        "exercise"
+      ]
+    },
     {
       "title": "UK exposes covert Russian submarine operation in and around UK waters",
       "link": "https://www.navalnews.com/naval-news/2026/04/uk-exposes-covert-russian-submarine-operation-in-and-around-uk-waters/",
@@ -917,30 +918,21 @@
       "categories": [
         "exercise"
       ]
-    },
-    {
-      "title": "Trump weighs pulling some US troops from Europe amid NATO strains, official says",
-      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/04/09/trump-weighs-pulling-some-us-troops-from-europe-amid-nato-strains-official-says/",
-      "published": "Thu, 09 Apr 2026 23:00:00 +0000",
-      "source": "Military Times",
-      "categories": [
-        "exercise"
-      ]
     }
   ],
   "_threat_indicators": {
     "deployment_articles": 14,
-    "conflict_articles": 4,
-    "exercise_articles": 5,
+    "conflict_articles": 3,
+    "exercise_articles": 6,
     "total_articles": 50,
-    "computed_at": "2026-04-10T14:08:06.495952+00:00",
+    "computed_at": "2026-04-10T15:38:43.029054+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] Kongsberg Signs Waterjet contract for Indian Navy’s Next Generation Missile Vessel",
+      "[Task & Purpose] A 2023 special ops exercise in Wyoming was a preview of the Iran rescue mission",
       "[Task & Purpose] General confirms A-10 lost, helicopter damaged during F-15 rescue in Iran",
       "[Naval News] UK exposes covert Russian submarine operation in and around UK waters",
-      "[Naval News] Video: How Naval Group builds FDI Frigates so quickly",
-      "[Defense News] UK says it deployed military to deter Russian submarines from attack on undersea cables"
+      "[Naval News] Video: How Naval Group builds FDI Frigates so quickly"
     ]
   },
   "ground_intel": {
@@ -951,7 +943,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-04-10T14:08:06.495999+00:00",
+    "last_successful_update": "2026-04-10T15:38:43.029099+00:00",
     "article_count": 50,
     "categorized_count": 18,
     "freshest_source": "Naval News",
