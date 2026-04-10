@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-04-10T21:24:45Z",
-  "version": 896,
+  "generated_utc": "2026-04-10T22:24:20Z",
+  "version": 897,
   "breaking_alert": "Naval News: Kongsberg Signs Waterjet contract for Indian Navy’s Next Generation Missile Vessel",
   "naval_deployments": [
     {
@@ -671,20 +671,19 @@
       ]
     },
     {
-      "title": "Trump again chides NATO for failing to back US operations in Iran",
-      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/04/09/trump-again-chides-nato-for-failing-to-back-us-operations-in-iran/",
-      "published": "Thu, 09 Apr 2026 21:15:47 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment",
-        "exercise"
-      ]
-    },
-    {
       "title": "Vessels Trickle Past Iran as Questions Remain Over Strait of Hormuz Status",
       "link": "https://news.usni.org/2026/04/09/vessels-trickle-past-iran-as-questions-remain-over-strait-of-hormuz-status",
       "published": "Thu, 09 Apr 2026 21:35:40 +0000",
       "source": "USNI News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "US troops downed ‘2 million’ energy drinks during Iran war, top general says",
+      "link": "https://taskandpurpose.com/news/military-iran-energy-drinks/",
+      "published": "Wed, 08 Apr 2026 09:26:05 -0400",
+      "source": "Task & Purpose",
       "categories": [
         "deployment"
       ]
@@ -912,16 +911,6 @@
       ]
     },
     {
-      "title": "Trump again chides NATO for failing to back US operations in Iran",
-      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/04/09/trump-again-chides-nato-for-failing-to-back-us-operations-in-iran/",
-      "published": "Thu, 09 Apr 2026 21:15:47 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment",
-        "exercise"
-      ]
-    },
-    {
       "title": "Trump weighs pulling some US troops from Europe amid NATO strains, official says",
       "link": "https://www.defensenews.com/news/pentagon-congress/2026/04/09/trump-weighs-pulling-some-us-troops-from-europe-amid-nato-strains-official-says/",
       "published": "Thu, 09 Apr 2026 23:00:00 +0000",
@@ -929,14 +918,23 @@
       "categories": [
         "exercise"
       ]
+    },
+    {
+      "title": "Trump weighs pulling some US troops from Europe amid NATO strains, official says",
+      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/04/09/trump-weighs-pulling-some-us-troops-from-europe-amid-nato-strains-official-says/",
+      "published": "Thu, 09 Apr 2026 23:00:00 +0000",
+      "source": "Military Times",
+      "categories": [
+        "exercise"
+      ]
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 14,
+    "deployment_articles": 13,
     "conflict_articles": 4,
-    "exercise_articles": 6,
+    "exercise_articles": 5,
     "total_articles": 50,
-    "computed_at": "2026-04-10T21:24:43.468507+00:00",
+    "computed_at": "2026-04-10T22:24:15.083047+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] Kongsberg Signs Waterjet contract for Indian Navy’s Next Generation Missile Vessel",
@@ -954,9 +952,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-04-10T21:24:43.468551+00:00",
+    "last_successful_update": "2026-04-10T22:24:15.083091+00:00",
     "article_count": 50,
-    "categorized_count": 18,
+    "categorized_count": 17,
     "freshest_source": "Naval News",
     "freshest_title": "Kongsberg Signs Waterjet contract for Indian Navy’s Next Generation Missile Vessel",
     "freshest_published": "Fri, 10 Apr 2026 07:02:57 +0000"
