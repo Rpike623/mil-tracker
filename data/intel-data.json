@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-04-10T17:38:31Z",
-  "version": 892,
+  "generated_utc": "2026-04-10T18:36:15Z",
+  "version": 893,
   "breaking_alert": "Naval News: Kongsberg Signs Waterjet contract for Indian Navy’s Next Generation Missile Vessel",
   "naval_deployments": [
     {
@@ -614,10 +614,19 @@
       ]
     },
     {
-      "title": "General confirms A-10 lost, helicopter damaged during F-15 rescue in Iran",
-      "link": "https://taskandpurpose.com/news/military-iran-rescue-2026/",
-      "published": "Mon, 06 Apr 2026 14:49:35 -0400",
-      "source": "Task & Purpose",
+      "title": "US Navy ends USS Boise submarine overhaul after price tag soars",
+      "link": "https://www.defensenews.com/news/your-navy/2026/04/10/us-navy-ends-uss-boise-submarine-overhaul-after-price-tag-soars/",
+      "published": "Fri, 10 Apr 2026 18:25:36 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "US Navy ends USS Boise submarine overhaul after price tag soars",
+      "link": "https://www.militarytimes.com/news/your-navy/2026/04/10/us-navy-ends-uss-boise-submarine-overhaul-after-price-tag-soars/",
+      "published": "Fri, 10 Apr 2026 18:25:36 +0000",
+      "source": "Military Times",
       "categories": [
         "deployment"
       ]
@@ -649,15 +658,6 @@
       "categories": [
         "deployment",
         "conflict"
-      ]
-    },
-    {
-      "title": "Charges mount for Army OB/GYN accused of sexual assault",
-      "link": "https://www.militarytimes.com/news/your-military/2026/04/09/charges-mount-for-army-obgyn-accused-of-sexual-assault/",
-      "published": "Thu, 09 Apr 2026 15:43:44 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment"
       ]
     },
     {
@@ -932,18 +932,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 15,
+    "deployment_articles": 14,
     "conflict_articles": 4,
     "exercise_articles": 6,
     "total_articles": 50,
-    "computed_at": "2026-04-10T17:38:23.843573+00:00",
+    "computed_at": "2026-04-10T18:36:12.774658+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] Kongsberg Signs Waterjet contract for Indian Navy’s Next Generation Missile Vessel",
       "[Task & Purpose] A 2023 special ops exercise in Wyoming was a preview of the Iran rescue mission",
       "[USNI News] Navy to Inactivate Attack Boat USS Boise After $1.6B Repair Effort",
-      "[Task & Purpose] General confirms A-10 lost, helicopter damaged during F-15 rescue in Iran",
-      "[Naval News] UK exposes covert Russian submarine operation in and around UK waters"
+      "[Defense News] US Navy ends USS Boise submarine overhaul after price tag soars",
+      "[Military Times] US Navy ends USS Boise submarine overhaul after price tag soars"
     ]
   },
   "ground_intel": {
@@ -954,9 +954,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-04-10T17:38:23.843616+00:00",
+    "last_successful_update": "2026-04-10T18:36:12.774703+00:00",
     "article_count": 50,
-    "categorized_count": 19,
+    "categorized_count": 18,
     "freshest_source": "Naval News",
     "freshest_title": "Kongsberg Signs Waterjet contract for Indian Navy’s Next Generation Missile Vessel",
     "freshest_published": "Fri, 10 Apr 2026 07:02:57 +0000"
