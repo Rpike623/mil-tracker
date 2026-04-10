@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-04-10T04:35:44Z",
-  "version": 882,
+  "generated_utc": "2026-04-10T06:24:04Z",
+  "version": 883,
   "breaking_alert": "Task & Purpose: General confirms A-10 lost, helicopter damaged during F-15 rescue in Iran",
   "naval_deployments": [
     {
@@ -603,6 +603,25 @@
       ]
     },
     {
+      "title": "UK exposes covert Russian submarine operation in and around UK waters",
+      "link": "https://www.navalnews.com/naval-news/2026/04/uk-exposes-covert-russian-submarine-operation-in-and-around-uk-waters/",
+      "published": "Thu, 09 Apr 2026 12:09:02 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment",
+        "exercise"
+      ]
+    },
+    {
+      "title": "Video: How Naval Group builds FDI Frigates so quickly",
+      "link": "https://www.navalnews.com/naval-news/2026/04/video-how-naval-group-builds-fdi-frigates-so-quickly/",
+      "published": "Thu, 09 Apr 2026 13:56:25 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "UK says it deployed military to deter Russian submarines from attack on undersea cables",
       "link": "https://www.defensenews.com/global/europe/2026/04/09/uk-says-it-deployed-military-to-deter-russian-submarines-from-attack-on-undersea-cables/",
       "published": "Thu, 09 Apr 2026 14:55:55 +0000",
@@ -666,25 +685,6 @@
       "source": "USNI News",
       "categories": [
         "deployment"
-      ]
-    },
-    {
-      "title": "French Navy Submarine Launches, Recovers U.S. Navy Drone in Test Run",
-      "link": "https://news.usni.org/2026/04/08/french-navy-submarine-launches-recovers-u-s-navy-drone-in-test-run",
-      "published": "Wed, 08 Apr 2026 15:19:34 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "US forces will be ‘hanging around’ Middle East after Iran ceasefire, Hegseth says",
-      "link": "https://www.defensenews.com/news/pentagon-congress/2026/04/08/us-forces-will-be-hanging-around-middle-east-after-iran-ceasefire-hegseth-says/",
-      "published": "Wed, 08 Apr 2026 15:51:43 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment",
-        "conflict"
       ]
     }
   ],
@@ -859,6 +859,15 @@
       ]
     },
     {
+      "title": "U.S. Navy Requests Major Strike Weapons Package in Budget Request",
+      "link": "https://www.navalnews.com/naval-news/2026/04/u-s-navy-requests-major-strike-weapons-package-in-budget-request/",
+      "published": "Wed, 08 Apr 2026 14:19:00 +0000",
+      "source": "Naval News",
+      "categories": [
+        "conflict"
+      ]
+    },
+    {
       "title": "US forces will be ‘hanging around’ Middle East after Iran ceasefire, Hegseth says",
       "link": "https://www.defensenews.com/news/pentagon-congress/2026/04/08/us-forces-will-be-hanging-around-middle-east-after-iran-ceasefire-hegseth-says/",
       "published": "Wed, 08 Apr 2026 15:51:43 +0000",
@@ -870,6 +879,16 @@
     }
   ],
   "_exercise_news_refs": [
+    {
+      "title": "UK exposes covert Russian submarine operation in and around UK waters",
+      "link": "https://www.navalnews.com/naval-news/2026/04/uk-exposes-covert-russian-submarine-operation-in-and-around-uk-waters/",
+      "published": "Thu, 09 Apr 2026 12:09:02 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment",
+        "exercise"
+      ]
+    },
     {
       "title": "Trump again chides NATO for failing to back US operations in Iran",
       "link": "https://www.defensenews.com/news/pentagon-congress/2026/04/09/trump-again-chides-nato-for-failing-to-back-us-operations-in-iran/",
@@ -910,18 +929,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 12,
-    "conflict_articles": 3,
-    "exercise_articles": 4,
-    "total_articles": 40,
-    "computed_at": "2026-04-10T04:35:21.337816+00:00",
+    "deployment_articles": 14,
+    "conflict_articles": 4,
+    "exercise_articles": 5,
+    "total_articles": 50,
+    "computed_at": "2026-04-10T06:24:01.262865+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Task & Purpose] General confirms A-10 lost, helicopter damaged during F-15 rescue in Iran",
+      "[Naval News] UK exposes covert Russian submarine operation in and around UK waters",
+      "[Naval News] Video: How Naval Group builds FDI Frigates so quickly",
       "[Defense News] UK says it deployed military to deter Russian submarines from attack on undersea cables",
-      "[Military Times] Charges mount for Army OB/GYN accused of sexual assault",
-      "[USNI News] North Korea Holds 3 Days of Major Weapon Tests, Missile Launches",
-      "[Defense News] Trump again chides NATO for failing to back US operations in Iran"
+      "[Military Times] Charges mount for Army OB/GYN accused of sexual assault"
     ]
   },
   "ground_intel": {
@@ -932,9 +951,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-04-10T04:35:21.337856+00:00",
-    "article_count": 40,
-    "categorized_count": 15,
+    "last_successful_update": "2026-04-10T06:24:01.262909+00:00",
+    "article_count": 50,
+    "categorized_count": 18,
     "freshest_source": "Task & Purpose",
     "freshest_title": "General confirms A-10 lost, helicopter damaged during F-15 rescue in Iran",
     "freshest_published": "Mon, 06 Apr 2026 14:49:35 -0400"
