@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-04-10T22:24:20Z",
-  "version": 897,
+  "generated_utc": "2026-04-10T23:23:53Z",
+  "version": 898,
   "breaking_alert": "Naval News: Kongsberg Signs Waterjet contract for Indian Navy’s Next Generation Missile Vessel",
   "naval_deployments": [
     {
@@ -891,6 +891,15 @@
       ]
     },
     {
+      "title": "Army debuts data operations center to serve as information hub",
+      "link": "https://www.militarytimes.com/industry/techwatch/2026/04/10/army-debuts-data-operations-center-to-serve-as-information-hub/",
+      "published": "Fri, 10 Apr 2026 23:17:54 +0000",
+      "source": "Military Times",
+      "categories": [
+        "exercise"
+      ]
+    },
+    {
       "title": "UK exposes covert Russian submarine operation in and around UK waters",
       "link": "https://www.navalnews.com/naval-news/2026/04/uk-exposes-covert-russian-submarine-operation-in-and-around-uk-waters/",
       "published": "Thu, 09 Apr 2026 12:09:02 +0000",
@@ -918,23 +927,14 @@
       "categories": [
         "exercise"
       ]
-    },
-    {
-      "title": "Trump weighs pulling some US troops from Europe amid NATO strains, official says",
-      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/04/09/trump-weighs-pulling-some-us-troops-from-europe-amid-nato-strains-official-says/",
-      "published": "Thu, 09 Apr 2026 23:00:00 +0000",
-      "source": "Military Times",
-      "categories": [
-        "exercise"
-      ]
     }
   ],
   "_threat_indicators": {
     "deployment_articles": 13,
     "conflict_articles": 4,
-    "exercise_articles": 5,
+    "exercise_articles": 6,
     "total_articles": 50,
-    "computed_at": "2026-04-10T22:24:15.083047+00:00",
+    "computed_at": "2026-04-10T23:23:47.243221+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] Kongsberg Signs Waterjet contract for Indian Navy’s Next Generation Missile Vessel",
@@ -952,9 +952,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-04-10T22:24:15.083091+00:00",
+    "last_successful_update": "2026-04-10T23:23:47.243264+00:00",
     "article_count": 50,
-    "categorized_count": 17,
+    "categorized_count": 18,
     "freshest_source": "Naval News",
     "freshest_title": "Kongsberg Signs Waterjet contract for Indian Navy’s Next Generation Missile Vessel",
     "freshest_published": "Fri, 10 Apr 2026 07:02:57 +0000"
