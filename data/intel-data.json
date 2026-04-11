@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-04-11T10:21:15Z",
-  "version": 906,
+  "generated_utc": "2026-04-11T11:20:22Z",
+  "version": 907,
   "breaking_alert": "Naval News: Kongsberg Signs Waterjet contract for Indian Navy’s Next Generation Missile Vessel",
   "naval_deployments": [
     {
@@ -641,13 +641,12 @@
       ]
     },
     {
-      "title": "UK exposes covert Russian submarine operation in and around UK waters",
-      "link": "https://www.navalnews.com/naval-news/2026/04/uk-exposes-covert-russian-submarine-operation-in-and-around-uk-waters/",
-      "published": "Thu, 09 Apr 2026 12:09:02 +0000",
+      "title": "Third Invincible-Class Submarine Returns to Singapore",
+      "link": "https://www.navalnews.com/naval-news/2026/04/third-invincible-class-submarine-returns-to-singapore/",
+      "published": "Sat, 11 Apr 2026 11:03:52 +0000",
       "source": "Naval News",
       "categories": [
-        "deployment",
-        "exercise"
+        "deployment"
       ]
     },
     {
@@ -900,16 +899,6 @@
       ]
     },
     {
-      "title": "UK exposes covert Russian submarine operation in and around UK waters",
-      "link": "https://www.navalnews.com/naval-news/2026/04/uk-exposes-covert-russian-submarine-operation-in-and-around-uk-waters/",
-      "published": "Thu, 09 Apr 2026 12:09:02 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment",
-        "exercise"
-      ]
-    },
-    {
       "title": "Trump again chides NATO for failing to back US operations in Iran",
       "link": "https://www.defensenews.com/news/pentagon-congress/2026/04/09/trump-again-chides-nato-for-failing-to-back-us-operations-in-iran/",
       "published": "Thu, 09 Apr 2026 21:15:47 +0000",
@@ -932,9 +921,9 @@
   "_threat_indicators": {
     "deployment_articles": 14,
     "conflict_articles": 4,
-    "exercise_articles": 5,
+    "exercise_articles": 4,
     "total_articles": 50,
-    "computed_at": "2026-04-11T10:21:07.473053+00:00",
+    "computed_at": "2026-04-11T11:20:20.359605+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] Kongsberg Signs Waterjet contract for Indian Navy’s Next Generation Missile Vessel",
@@ -952,7 +941,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-04-11T10:21:07.473099+00:00",
+    "last_successful_update": "2026-04-11T11:20:20.359650+00:00",
     "article_count": 50,
     "categorized_count": 18,
     "freshest_source": "Naval News",
