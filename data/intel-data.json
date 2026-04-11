@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-04-11T18:25:12Z",
-  "version": 914,
+  "generated_utc": "2026-04-11T19:27:03Z",
+  "version": 915,
   "breaking_alert": "Naval News: Kongsberg Signs Waterjet contract for Indian Navy’s Next Generation Missile Vessel",
   "naval_deployments": [
     {
@@ -650,6 +650,15 @@
       ]
     },
     {
+      "title": "Two destroyers cross Strait of Hormuz ahead of mine clearance mission",
+      "link": "https://taskandpurpose.com/news/navy-destroyers-strait-of-hormuz-mines/",
+      "published": "Sat, 11 Apr 2026 15:25:19 -0400",
+      "source": "Task & Purpose",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "Video: How Naval Group builds FDI Frigates so quickly",
       "link": "https://www.navalnews.com/naval-news/2026/04/video-how-naval-group-builds-fdi-frigates-so-quickly/",
       "published": "Thu, 09 Apr 2026 13:56:25 +0000",
@@ -673,15 +682,6 @@
       "link": "https://news.usni.org/2026/04/09/vessels-trickle-past-iran-as-questions-remain-over-strait-of-hormuz-status",
       "published": "Thu, 09 Apr 2026 21:35:40 +0000",
       "source": "USNI News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "US troops downed ‘2 million’ energy drinks during Iran war, top general says",
-      "link": "https://taskandpurpose.com/news/military-iran-energy-drinks/",
-      "published": "Wed, 08 Apr 2026 09:26:05 -0400",
-      "source": "Task & Purpose",
       "categories": [
         "deployment"
       ]
@@ -908,11 +908,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 13,
+    "deployment_articles": 14,
     "conflict_articles": 3,
     "exercise_articles": 4,
     "total_articles": 50,
-    "computed_at": "2026-04-11T18:25:10.032028+00:00",
+    "computed_at": "2026-04-11T19:26:58.405419+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] Kongsberg Signs Waterjet contract for Indian Navy’s Next Generation Missile Vessel",
@@ -930,9 +930,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-04-11T18:25:10.032073+00:00",
+    "last_successful_update": "2026-04-11T19:26:58.405461+00:00",
     "article_count": 50,
-    "categorized_count": 17,
+    "categorized_count": 18,
     "freshest_source": "Naval News",
     "freshest_title": "Kongsberg Signs Waterjet contract for Indian Navy’s Next Generation Missile Vessel",
     "freshest_published": "Fri, 10 Apr 2026 07:02:57 +0000"
