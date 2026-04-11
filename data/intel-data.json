@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-04-11T06:44:41Z",
-  "version": 902,
+  "generated_utc": "2026-04-11T07:45:31Z",
+  "version": 903,
   "breaking_alert": "Naval News: Kongsberg Signs Waterjet contract for Indian Navy’s Next Generation Missile Vessel",
   "naval_deployments": [
     {
@@ -632,6 +632,15 @@
       ]
     },
     {
+      "title": "UKEF Secures £128 Million for Indonesian Navy’s Submarine Rescue Systems",
+      "link": "https://www.navalnews.com/naval-news/2026/04/ukef-secures-128-million-for-indonesian-navys-submarine-rescue-systems/",
+      "published": "Sat, 11 Apr 2026 07:09:04 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "UK exposes covert Russian submarine operation in and around UK waters",
       "link": "https://www.navalnews.com/naval-news/2026/04/uk-exposes-covert-russian-submarine-operation-in-and-around-uk-waters/",
       "published": "Thu, 09 Apr 2026 12:09:02 +0000",
@@ -675,15 +684,6 @@
       "link": "https://news.usni.org/2026/04/09/vessels-trickle-past-iran-as-questions-remain-over-strait-of-hormuz-status",
       "published": "Thu, 09 Apr 2026 21:35:40 +0000",
       "source": "USNI News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "US troops downed ‘2 million’ energy drinks during Iran war, top general says",
-      "link": "https://taskandpurpose.com/news/military-iran-energy-drinks/",
-      "published": "Wed, 08 Apr 2026 09:26:05 -0400",
-      "source": "Task & Purpose",
       "categories": [
         "deployment"
       ]
@@ -930,11 +930,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 13,
+    "deployment_articles": 14,
     "conflict_articles": 4,
     "exercise_articles": 5,
     "total_articles": 50,
-    "computed_at": "2026-04-11T06:44:39.014518+00:00",
+    "computed_at": "2026-04-11T07:40:50.367169+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] Kongsberg Signs Waterjet contract for Indian Navy’s Next Generation Missile Vessel",
@@ -952,9 +952,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-04-11T06:44:39.014564+00:00",
+    "last_successful_update": "2026-04-11T07:40:50.367215+00:00",
     "article_count": 50,
-    "categorized_count": 17,
+    "categorized_count": 18,
     "freshest_source": "Naval News",
     "freshest_title": "Kongsberg Signs Waterjet contract for Indian Navy’s Next Generation Missile Vessel",
     "freshest_published": "Fri, 10 Apr 2026 07:02:57 +0000"
