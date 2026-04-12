@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-04-12T22:20:05Z",
-  "version": 938,
+  "generated_utc": "2026-04-12T23:22:15Z",
+  "version": 939,
   "breaking_alert": "Naval News: Kongsberg Signs Waterjet contract for Indian Navy’s Next Generation Missile Vessel",
   "naval_deployments": [
     {
@@ -892,7 +892,7 @@
     "conflict_articles": 3,
     "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-04-12T22:19:59.674030+00:00",
+    "computed_at": "2026-04-12T23:22:13.184625+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] Kongsberg Signs Waterjet contract for Indian Navy’s Next Generation Missile Vessel",
@@ -910,7 +910,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-04-12T22:19:59.674077+00:00",
+    "last_successful_update": "2026-04-12T23:22:13.184688+00:00",
     "article_count": 50,
     "categorized_count": 18,
     "freshest_source": "Naval News",
