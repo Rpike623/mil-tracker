@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-04-12T12:32:04Z",
-  "version": 928,
+  "generated_utc": "2026-04-12T13:51:37Z",
+  "version": 929,
   "breaking_alert": "Naval News: Kongsberg Signs Waterjet contract for Indian Navy’s Next Generation Missile Vessel",
   "naval_deployments": [
     {
@@ -659,29 +659,28 @@
       ]
     },
     {
-      "title": "Video: How Naval Group builds FDI Frigates so quickly",
-      "link": "https://www.navalnews.com/naval-news/2026/04/video-how-naval-group-builds-fdi-frigates-so-quickly/",
-      "published": "Thu, 09 Apr 2026 13:56:25 +0000",
-      "source": "Naval News",
+      "title": "US-Iran peace talks end without deal as delegations leave Pakistan",
+      "link": "https://www.defensenews.com/news/pentagon-congress/2026/04/12/us-iran-peace-talks-end-without-deal-as-delegations-leave-pakistan/",
+      "published": "Sun, 12 Apr 2026 13:27:21 +0000",
+      "source": "Defense News",
       "categories": [
         "deployment"
       ]
     },
     {
-      "title": "Trump again chides NATO for failing to back US operations in Iran",
-      "link": "https://www.defensenews.com/news/pentagon-congress/2026/04/09/trump-again-chides-nato-for-failing-to-back-us-operations-in-iran/",
-      "published": "Thu, 09 Apr 2026 21:15:47 +0000",
-      "source": "Defense News",
+      "title": "US-Iran peace talks end without deal as delegations leave Pakistan",
+      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/04/12/us-iran-peace-talks-end-without-deal-as-delegations-leave-pakistan/",
+      "published": "Sun, 12 Apr 2026 13:27:21 +0000",
+      "source": "Military Times",
       "categories": [
-        "deployment",
-        "exercise"
+        "deployment"
       ]
     },
     {
-      "title": "Vessels Trickle Past Iran as Questions Remain Over Strait of Hormuz Status",
-      "link": "https://news.usni.org/2026/04/09/vessels-trickle-past-iran-as-questions-remain-over-strait-of-hormuz-status",
-      "published": "Thu, 09 Apr 2026 21:35:40 +0000",
-      "source": "USNI News",
+      "title": "Video: How Naval Group builds FDI Frigates so quickly",
+      "link": "https://www.navalnews.com/naval-news/2026/04/video-how-naval-group-builds-fdi-frigates-so-quickly/",
+      "published": "Thu, 09 Apr 2026 13:56:25 +0000",
+      "source": "Naval News",
       "categories": [
         "deployment"
       ]
@@ -888,16 +887,6 @@
       ]
     },
     {
-      "title": "Trump again chides NATO for failing to back US operations in Iran",
-      "link": "https://www.defensenews.com/news/pentagon-congress/2026/04/09/trump-again-chides-nato-for-failing-to-back-us-operations-in-iran/",
-      "published": "Thu, 09 Apr 2026 21:15:47 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment",
-        "exercise"
-      ]
-    },
-    {
       "title": "Trump weighs pulling some US troops from Europe amid NATO strains, official says",
       "link": "https://www.defensenews.com/news/pentagon-congress/2026/04/09/trump-weighs-pulling-some-us-troops-from-europe-amid-nato-strains-official-says/",
       "published": "Thu, 09 Apr 2026 23:00:00 +0000",
@@ -908,11 +897,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 14,
+    "deployment_articles": 15,
     "conflict_articles": 3,
-    "exercise_articles": 4,
+    "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-04-12T12:31:59.226043+00:00",
+    "computed_at": "2026-04-12T13:51:34.700832+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] Kongsberg Signs Waterjet contract for Indian Navy’s Next Generation Missile Vessel",
@@ -930,9 +919,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-04-12T12:31:59.226111+00:00",
+    "last_successful_update": "2026-04-12T13:51:34.700876+00:00",
     "article_count": 50,
-    "categorized_count": 18,
+    "categorized_count": 19,
     "freshest_source": "Naval News",
     "freshest_title": "Kongsberg Signs Waterjet contract for Indian Navy’s Next Generation Missile Vessel",
     "freshest_published": "Fri, 10 Apr 2026 07:02:57 +0000"
