@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-04-12T14:31:00Z",
-  "version": 930,
+  "generated_utc": "2026-04-12T15:25:01Z",
+  "version": 931,
   "breaking_alert": "Naval News: Kongsberg Signs Waterjet contract for Indian Navy’s Next Generation Missile Vessel",
   "naval_deployments": [
     {
@@ -623,15 +623,6 @@
       ]
     },
     {
-      "title": "US Navy ends USS Boise submarine overhaul after price tag soars",
-      "link": "https://www.militarytimes.com/news/your-navy/2026/04/10/us-navy-ends-uss-boise-submarine-overhaul-after-price-tag-soars/",
-      "published": "Fri, 10 Apr 2026 18:25:36 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "UKEF Secures £128 Million for Indonesian Navy’s Submarine Rescue Systems",
       "link": "https://www.navalnews.com/naval-news/2026/04/ukef-secures-128-million-for-indonesian-navys-submarine-rescue-systems/",
       "published": "Sat, 11 Apr 2026 07:09:04 +0000",
@@ -680,6 +671,15 @@
       "title": "U.S. Navy Commissions Flight III Destroyer USS Harvey C. Barnum (DDG 124)",
       "link": "https://www.navalnews.com/naval-news/2026/04/u-s-navy-commissions-flight-iii-destroyer-uss-harvey-c-barnum-ddg-124/",
       "published": "Sun, 12 Apr 2026 14:13:11 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Video: How Naval Group builds FDI Frigates so quickly",
+      "link": "https://www.navalnews.com/naval-news/2026/04/video-how-naval-group-builds-fdi-frigates-so-quickly/",
+      "published": "Thu, 09 Apr 2026 13:56:25 +0000",
       "source": "Naval News",
       "categories": [
         "deployment"
@@ -885,30 +885,21 @@
       "categories": [
         "exercise"
       ]
-    },
-    {
-      "title": "Trump weighs pulling some US troops from Europe amid NATO strains, official says",
-      "link": "https://www.defensenews.com/news/pentagon-congress/2026/04/09/trump-weighs-pulling-some-us-troops-from-europe-amid-nato-strains-official-says/",
-      "published": "Thu, 09 Apr 2026 23:00:00 +0000",
-      "source": "Defense News",
-      "categories": [
-        "exercise"
-      ]
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 16,
+    "deployment_articles": 15,
     "conflict_articles": 3,
-    "exercise_articles": 3,
+    "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-04-12T14:30:58.766090+00:00",
+    "computed_at": "2026-04-12T15:24:55.705593+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] Kongsberg Signs Waterjet contract for Indian Navy’s Next Generation Missile Vessel",
       "[Task & Purpose] A 2023 special ops exercise in Wyoming was a preview of the Iran rescue mission",
       "[USNI News] Navy to Inactivate Attack Boat USS Boise After $1.6B Repair Effort",
       "[Defense News] US Navy ends USS Boise submarine overhaul after price tag soars",
-      "[Military Times] US Navy ends USS Boise submarine overhaul after price tag soars"
+      "[Military Times] Army debuts data operations center to serve as information hub"
     ]
   },
   "ground_intel": {
@@ -919,9 +910,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-04-12T14:30:58.766135+00:00",
+    "last_successful_update": "2026-04-12T15:24:55.705639+00:00",
     "article_count": 50,
-    "categorized_count": 20,
+    "categorized_count": 18,
     "freshest_source": "Naval News",
     "freshest_title": "Kongsberg Signs Waterjet contract for Indian Navy’s Next Generation Missile Vessel",
     "freshest_published": "Fri, 10 Apr 2026 07:02:57 +0000"
