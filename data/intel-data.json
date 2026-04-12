@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-04-12T18:29:13Z",
-  "version": 934,
+  "generated_utc": "2026-04-12T19:31:03Z",
+  "version": 935,
   "breaking_alert": "Naval News: Kongsberg Signs Waterjet contract for Indian Navy’s Next Generation Missile Vessel",
   "naval_deployments": [
     {
@@ -677,10 +677,10 @@
       ]
     },
     {
-      "title": "Video: How Naval Group builds FDI Frigates so quickly",
-      "link": "https://www.navalnews.com/naval-news/2026/04/video-how-naval-group-builds-fdi-frigates-so-quickly/",
-      "published": "Thu, 09 Apr 2026 13:56:25 +0000",
-      "source": "Naval News",
+      "title": "USS Stockdale flies shaken, not stirred battle flag",
+      "link": "https://taskandpurpose.com/culture/uss-stockdale-james-bond-battle-flag/",
+      "published": "Sun, 12 Apr 2026 15:10:27 -0400",
+      "source": "Task & Purpose",
       "categories": [
         "deployment"
       ]
@@ -892,7 +892,7 @@
     "conflict_articles": 3,
     "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-04-12T18:29:10.470000+00:00",
+    "computed_at": "2026-04-12T19:31:00.960137+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] Kongsberg Signs Waterjet contract for Indian Navy’s Next Generation Missile Vessel",
@@ -910,7 +910,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-04-12T18:29:10.470044+00:00",
+    "last_successful_update": "2026-04-12T19:31:00.960202+00:00",
     "article_count": 50,
     "categorized_count": 18,
     "freshest_source": "Naval News",
