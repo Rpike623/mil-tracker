@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-04-12T16:23:39Z",
-  "version": 932,
+  "generated_utc": "2026-04-12T17:24:53Z",
+  "version": 933,
   "breaking_alert": "Naval News: Kongsberg Signs Waterjet contract for Indian Navy’s Next Generation Missile Vessel",
   "naval_deployments": [
     {
@@ -668,7 +668,7 @@
       ]
     },
     {
-      "title": "U.S. Navy Commissions Flight III Destroyer USS Harvey C. Barnum (DDG 124)",
+      "title": "U.S. Navy Commissions Flight IIA Destroyer USS Harvey C. Barnum (DDG 124)",
       "link": "https://www.navalnews.com/naval-news/2026/04/u-s-navy-commissions-flight-iii-destroyer-uss-harvey-c-barnum-ddg-124/",
       "published": "Sun, 12 Apr 2026 14:13:11 +0000",
       "source": "Naval News",
@@ -892,7 +892,7 @@
     "conflict_articles": 3,
     "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-04-12T16:23:36.636153+00:00",
+    "computed_at": "2026-04-12T17:24:49.033082+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] Kongsberg Signs Waterjet contract for Indian Navy’s Next Generation Missile Vessel",
@@ -910,7 +910,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-04-12T16:23:36.636197+00:00",
+    "last_successful_update": "2026-04-12T17:24:49.033128+00:00",
     "article_count": 50,
     "categorized_count": 18,
     "freshest_source": "Naval News",
