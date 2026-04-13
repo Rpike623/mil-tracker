@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-04-13T18:56:46Z",
-  "version": 949,
+  "generated_utc": "2026-04-13T19:59:43Z",
+  "version": 950,
   "breaking_alert": "Task & Purpose: A 2023 special ops exercise in Wyoming was a preview of the Iran rescue mission",
   "naval_deployments": [
     {
@@ -660,28 +660,28 @@
       ]
     },
     {
+      "title": "USNI News Fleet and Marine Tracker: April 13, 2026",
+      "link": "https://news.usni.org/2026/04/13/usni-news-fleet-and-marine-tracker-april-13-2026",
+      "published": "Mon, 13 Apr 2026 19:12:43 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Carrier USS George H.W. Bush Operating off Southern Africa as Iranian Blockade Begins",
+      "link": "https://news.usni.org/2026/04/13/carrier-uss-george-h-w-bush-operating-off-southern-africa-as-iranian-blockade-begins",
+      "published": "Mon, 13 Apr 2026 19:18:15 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "UKEF Secures £128 Million for Indonesian Navy’s Submarine Rescue Systems",
       "link": "https://www.navalnews.com/naval-news/2026/04/ukef-secures-128-million-for-indonesian-navys-submarine-rescue-systems/",
       "published": "Sat, 11 Apr 2026 07:09:04 +0000",
       "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Third Invincible-Class Submarine Returns to Singapore",
-      "link": "https://www.navalnews.com/naval-news/2026/04/third-invincible-class-submarine-returns-to-singapore/",
-      "published": "Sat, 11 Apr 2026 11:03:52 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Two destroyers cross Strait of Hormuz ahead of mine clearance mission",
-      "link": "https://taskandpurpose.com/news/navy-destroyers-strait-of-hormuz-mines/",
-      "published": "Sat, 11 Apr 2026 15:25:19 -0400",
-      "source": "Task & Purpose",
       "categories": [
         "deployment"
       ]
@@ -856,15 +856,6 @@
       "categories": [
         "conflict"
       ]
-    },
-    {
-      "title": "North Korea Holds 3 Days of Major Weapon Tests, Missile Launches",
-      "link": "https://news.usni.org/2026/04/09/north-korea-holds-3-days-of-major-weapon-tests-missile-launches",
-      "published": "Thu, 09 Apr 2026 19:47:39 +0000",
-      "source": "USNI News",
-      "categories": [
-        "conflict"
-      ]
     }
   ],
   "_exercise_news_refs": [
@@ -899,11 +890,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 16,
-    "conflict_articles": 3,
+    "deployment_articles": 18,
+    "conflict_articles": 2,
     "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-04-13T18:56:44.711720+00:00",
+    "computed_at": "2026-04-13T19:59:38.136991+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Task & Purpose] A 2023 special ops exercise in Wyoming was a preview of the Iran rescue mission",
@@ -921,9 +912,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-04-13T18:56:44.711766+00:00",
+    "last_successful_update": "2026-04-13T19:59:38.137033+00:00",
     "article_count": 50,
-    "categorized_count": 19,
+    "categorized_count": 20,
     "freshest_source": "Task & Purpose",
     "freshest_title": "A 2023 special ops exercise in Wyoming was a preview of the Iran rescue mission",
     "freshest_published": "Fri, 10 Apr 2026 11:24:11 -0400"
