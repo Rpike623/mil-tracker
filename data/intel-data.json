@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-04-13T21:36:57Z",
-  "version": 952,
-  "breaking_alert": "Task & Purpose: A 2023 special ops exercise in Wyoming was a preview of the Iran rescue mission",
+  "generated_utc": "2026-04-13T22:32:56Z",
+  "version": 953,
+  "breaking_alert": "USNI News: Navy to Inactivate Attack Boat USS Boise After $1.6B Repair Effort",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -594,16 +594,6 @@
   ],
   "_naval_news_refs": [
     {
-      "title": "A 2023 special ops exercise in Wyoming was a preview of the Iran rescue mission",
-      "link": "https://taskandpurpose.com/news/2023-preview-of-iran-rescue/",
-      "published": "Fri, 10 Apr 2026 11:24:11 -0400",
-      "source": "Task & Purpose",
-      "categories": [
-        "deployment",
-        "exercise"
-      ]
-    },
-    {
       "title": "Navy to Inactivate Attack Boat USS Boise After $1.6B Repair Effort",
       "link": "https://news.usni.org/2026/04/10/navy-to-inactivate-attack-boat-uss-boise-after-1-6b-repair-effort",
       "published": "Fri, 10 Apr 2026 17:36:45 +0000",
@@ -682,6 +672,15 @@
       "link": "https://news.usni.org/2026/04/13/carrier-uss-george-h-w-bush-operating-off-southern-africa-as-iranian-blockade-begins",
       "published": "Mon, 13 Apr 2026 19:18:15 +0000",
       "source": "USNI News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "UKEF Secures £128 Million for Indonesian Navy’s Submarine Rescue Systems",
+      "link": "https://www.navalnews.com/naval-news/2026/04/ukef-secures-128-million-for-indonesian-navys-submarine-rescue-systems/",
+      "published": "Sat, 11 Apr 2026 07:09:04 +0000",
+      "source": "Naval News",
       "categories": [
         "deployment"
       ]
@@ -860,16 +859,6 @@
   ],
   "_exercise_news_refs": [
     {
-      "title": "A 2023 special ops exercise in Wyoming was a preview of the Iran rescue mission",
-      "link": "https://taskandpurpose.com/news/2023-preview-of-iran-rescue/",
-      "published": "Fri, 10 Apr 2026 11:24:11 -0400",
-      "source": "Task & Purpose",
-      "categories": [
-        "deployment",
-        "exercise"
-      ]
-    },
-    {
       "title": "Turkey pushes for larger role in Europe’s defense as Trump questions NATO",
       "link": "https://www.defensenews.com/global/europe/2026/04/13/turkey-pushes-for-larger-role-in-europes-defense-as-trump-questions-nato/",
       "published": "Mon, 13 Apr 2026 13:49:26 +0000",
@@ -881,18 +870,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 19,
+    "deployment_articles": 18,
     "conflict_articles": 2,
-    "exercise_articles": 2,
+    "exercise_articles": 1,
     "total_articles": 50,
-    "computed_at": "2026-04-13T21:36:53.929151+00:00",
+    "computed_at": "2026-04-13T22:32:52.970779+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
-      "[Task & Purpose] A 2023 special ops exercise in Wyoming was a preview of the Iran rescue mission",
       "[USNI News] Navy to Inactivate Attack Boat USS Boise After $1.6B Repair Effort",
       "[Defense News] US blockade of Iran will be major military endeavor, experts say",
       "[Military Times] US blockade of Iran will be major military endeavor, experts say",
-      "[Defense News] Turkey pushes for larger role in Europe’s defense as Trump questions NATO"
+      "[Defense News] Turkey pushes for larger role in Europe’s defense as Trump questions NATO",
+      "[Task & Purpose] What we know about the US military’s blockade of Iran"
     ]
   },
   "ground_intel": {
@@ -903,12 +892,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-04-13T21:36:53.929198+00:00",
+    "last_successful_update": "2026-04-13T22:32:52.970827+00:00",
     "article_count": 50,
-    "categorized_count": 20,
-    "freshest_source": "Task & Purpose",
-    "freshest_title": "A 2023 special ops exercise in Wyoming was a preview of the Iran rescue mission",
-    "freshest_published": "Fri, 10 Apr 2026 11:24:11 -0400"
+    "categorized_count": 19,
+    "freshest_source": "USNI News",
+    "freshest_title": "Navy to Inactivate Attack Boat USS Boise After $1.6B Repair Effort",
+    "freshest_published": "Fri, 10 Apr 2026 17:36:45 +0000"
   },
   "_firms_hotspots": []
 }
