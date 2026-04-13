@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-04-13T17:48:21Z",
-  "version": 948,
+  "generated_utc": "2026-04-13T18:56:46Z",
+  "version": 949,
   "breaking_alert": "Task & Purpose: A 2023 special ops exercise in Wyoming was a preview of the Iran rescue mission",
   "naval_deployments": [
     {
@@ -642,6 +642,24 @@
       ]
     },
     {
+      "title": "What we know about the US military’s blockade of Iran",
+      "link": "https://taskandpurpose.com/news/military-iran-blockade/",
+      "published": "Mon, 13 Apr 2026 13:50:04 -0400",
+      "source": "Task & Purpose",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Navy Commissions USS Harvey C. Barnum Jr. into the Fleet",
+      "link": "https://news.usni.org/2026/04/13/navy-commissions-uss-harvey-c-barnum-jr-into-the-fleet",
+      "published": "Mon, 13 Apr 2026 18:56:26 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "UKEF Secures £128 Million for Indonesian Navy’s Submarine Rescue Systems",
       "link": "https://www.navalnews.com/naval-news/2026/04/ukef-secures-128-million-for-indonesian-navys-submarine-rescue-systems/",
       "published": "Sat, 11 Apr 2026 07:09:04 +0000",
@@ -664,24 +682,6 @@
       "link": "https://taskandpurpose.com/news/navy-destroyers-strait-of-hormuz-mines/",
       "published": "Sat, 11 Apr 2026 15:25:19 -0400",
       "source": "Task & Purpose",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "US-Iran peace talks end without deal as delegations leave Pakistan",
-      "link": "https://www.defensenews.com/news/pentagon-congress/2026/04/12/us-iran-peace-talks-end-without-deal-as-delegations-leave-pakistan/",
-      "published": "Sun, 12 Apr 2026 13:27:21 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "US-Iran peace talks end without deal as delegations leave Pakistan",
-      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/04/12/us-iran-peace-talks-end-without-deal-as-delegations-leave-pakistan/",
-      "published": "Sun, 12 Apr 2026 13:27:21 +0000",
-      "source": "Military Times",
       "categories": [
         "deployment"
       ]
@@ -899,11 +899,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 15,
+    "deployment_articles": 16,
     "conflict_articles": 3,
     "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-04-13T17:48:18.579562+00:00",
+    "computed_at": "2026-04-13T18:56:44.711720+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Task & Purpose] A 2023 special ops exercise in Wyoming was a preview of the Iran rescue mission",
@@ -921,9 +921,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-04-13T17:48:18.579602+00:00",
+    "last_successful_update": "2026-04-13T18:56:44.711766+00:00",
     "article_count": 50,
-    "categorized_count": 18,
+    "categorized_count": 19,
     "freshest_source": "Task & Purpose",
     "freshest_title": "A 2023 special ops exercise in Wyoming was a preview of the Iran rescue mission",
     "freshest_published": "Fri, 10 Apr 2026 11:24:11 -0400"
