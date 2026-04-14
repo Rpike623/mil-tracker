@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-04-14T21:39:39Z",
-  "version": 968,
+  "generated_utc": "2026-04-14T22:34:13Z",
+  "version": 969,
   "breaking_alert": "Defense News: US blockade of Iran will be major military endeavor, experts say",
   "naval_deployments": [
     {
@@ -603,15 +603,6 @@
       ]
     },
     {
-      "title": "US blockade of Iran will be major military endeavor, experts say",
-      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/04/13/us-blockade-of-iran-will-be-major-military-endeavor-experts-say/",
-      "published": "Mon, 13 Apr 2026 12:42:14 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Turkey pushes for larger role in Europe’s defense as Trump questions NATO",
       "link": "https://www.defensenews.com/global/europe/2026/04/13/turkey-pushes-for-larger-role-in-europes-defense-as-trump-questions-nato/",
       "published": "Mon, 13 Apr 2026 13:49:26 +0000",
@@ -680,6 +671,15 @@
       "link": "https://taskandpurpose.com/culture/uss-stockdale-james-bond-battle-flag/",
       "published": "Sun, 12 Apr 2026 15:10:27 -0400",
       "source": "Task & Purpose",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "U.S. to Blockade Ships Entering or Exiting Iranian Ports",
+      "link": "https://www.navalnews.com/naval-news/2026/04/u-s-to-blockade-ships-entering-or-exiting-iranian-ports/",
+      "published": "Sun, 12 Apr 2026 21:54:09 +0000",
+      "source": "Naval News",
       "categories": [
         "deployment"
       ]
@@ -877,18 +877,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 16,
+    "deployment_articles": 17,
     "conflict_articles": 2,
     "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-04-14T21:39:36.951048+00:00",
+    "computed_at": "2026-04-14T22:34:06.358840+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Defense News] US blockade of Iran will be major military endeavor, experts say",
-      "[Military Times] US blockade of Iran will be major military endeavor, experts say",
       "[Defense News] Turkey pushes for larger role in Europe’s defense as Trump questions NATO",
       "[Task & Purpose] What we know about the US military’s blockade of Iran",
-      "[USNI News] 5 Killed in U.S. Strikes on Suspected Narco Boats in Eastern Pacific"
+      "[USNI News] 5 Killed in U.S. Strikes on Suspected Narco Boats in Eastern Pacific",
+      "[Task & Purpose] The Iran war took a toll on the Air Force’s Reaper fleet"
     ]
   },
   "ground_intel": {
@@ -899,9 +899,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-04-14T21:39:36.951095+00:00",
+    "last_successful_update": "2026-04-14T22:34:06.358887+00:00",
     "article_count": 50,
-    "categorized_count": 19,
+    "categorized_count": 20,
     "freshest_source": "Defense News",
     "freshest_title": "US blockade of Iran will be major military endeavor, experts say",
     "freshest_published": "Mon, 13 Apr 2026 12:42:14 +0000"
