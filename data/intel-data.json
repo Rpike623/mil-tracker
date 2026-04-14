@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-04-14T14:44:15Z",
-  "version": 962,
+  "generated_utc": "2026-04-14T15:58:52Z",
+  "version": 963,
   "breaking_alert": "Defense News: US blockade of Iran will be major military endeavor, experts say",
   "naval_deployments": [
     {
@@ -844,6 +844,15 @@
       "categories": [
         "conflict"
       ]
+    },
+    {
+      "title": "U.S. Military Kills 2 in 50th Strike on Suspected Narco Boat",
+      "link": "https://news.usni.org/2026/04/14/u-s-military-kills-2-in-50th-strike-on-suspected-narco-boat",
+      "published": "Tue, 14 Apr 2026 15:45:46 +0000",
+      "source": "USNI News",
+      "categories": [
+        "conflict"
+      ]
     }
   ],
   "_exercise_news_refs": [
@@ -869,10 +878,10 @@
   ],
   "_threat_indicators": {
     "deployment_articles": 17,
-    "conflict_articles": 1,
+    "conflict_articles": 2,
     "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-04-14T14:44:12.578733+00:00",
+    "computed_at": "2026-04-14T15:58:46.302642+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Defense News] US blockade of Iran will be major military endeavor, experts say",
@@ -890,9 +899,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-04-14T14:44:12.578781+00:00",
+    "last_successful_update": "2026-04-14T15:58:46.302684+00:00",
     "article_count": 50,
-    "categorized_count": 19,
+    "categorized_count": 20,
     "freshest_source": "Defense News",
     "freshest_title": "US blockade of Iran will be major military endeavor, experts say",
     "freshest_published": "Mon, 13 Apr 2026 12:42:14 +0000"
