@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-04-14T18:54:32Z",
-  "version": 965,
+  "generated_utc": "2026-04-14T19:58:01Z",
+  "version": 966,
   "breaking_alert": "Defense News: US blockade of Iran will be major military endeavor, experts say",
   "naval_deployments": [
     {
@@ -667,19 +667,19 @@
       ]
     },
     {
-      "title": "Two destroyers cross Strait of Hormuz ahead of mine clearance mission",
-      "link": "https://taskandpurpose.com/news/navy-destroyers-strait-of-hormuz-mines/",
-      "published": "Sat, 11 Apr 2026 15:25:19 -0400",
-      "source": "Task & Purpose",
+      "title": "U.S. Navy Commissions Flight IIA Destroyer USS Harvey C. Barnum (DDG 124)",
+      "link": "https://www.navalnews.com/naval-news/2026/04/u-s-navy-commissions-flight-iii-destroyer-uss-harvey-c-barnum-ddg-124/",
+      "published": "Sun, 12 Apr 2026 14:13:11 +0000",
+      "source": "Naval News",
       "categories": [
         "deployment"
       ]
     },
     {
-      "title": "US-Iran peace talks end without deal as delegations leave Pakistan",
-      "link": "https://www.defensenews.com/news/pentagon-congress/2026/04/12/us-iran-peace-talks-end-without-deal-as-delegations-leave-pakistan/",
-      "published": "Sun, 12 Apr 2026 13:27:21 +0000",
-      "source": "Defense News",
+      "title": "USS Stockdale flies shaken, not stirred battle flag",
+      "link": "https://taskandpurpose.com/culture/uss-stockdale-james-bond-battle-flag/",
+      "published": "Sun, 12 Apr 2026 15:10:27 -0400",
+      "source": "Task & Purpose",
       "categories": [
         "deployment"
       ]
@@ -877,11 +877,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 17,
+    "deployment_articles": 16,
     "conflict_articles": 2,
     "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-04-14T18:54:26.750932+00:00",
+    "computed_at": "2026-04-14T19:57:58.512039+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Defense News] US blockade of Iran will be major military endeavor, experts say",
@@ -899,9 +899,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-04-14T18:54:26.750971+00:00",
+    "last_successful_update": "2026-04-14T19:57:58.512083+00:00",
     "article_count": 50,
-    "categorized_count": 20,
+    "categorized_count": 19,
     "freshest_source": "Defense News",
     "freshest_title": "US blockade of Iran will be major military endeavor, experts say",
     "freshest_published": "Mon, 13 Apr 2026 12:42:14 +0000"
