@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-04-14T17:03:21Z",
-  "version": 964,
+  "generated_utc": "2026-04-14T18:54:32Z",
+  "version": 965,
   "breaking_alert": "Defense News: US blockade of Iran will be major military endeavor, experts say",
   "naval_deployments": [
     {
@@ -877,11 +877,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 16,
+    "deployment_articles": 17,
     "conflict_articles": 2,
     "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-04-14T17:03:15.278950+00:00",
+    "computed_at": "2026-04-14T18:54:26.750932+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Defense News] US blockade of Iran will be major military endeavor, experts say",
@@ -899,9 +899,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-04-14T17:03:15.278994+00:00",
+    "last_successful_update": "2026-04-14T18:54:26.750971+00:00",
     "article_count": 50,
-    "categorized_count": 19,
+    "categorized_count": 20,
     "freshest_source": "Defense News",
     "freshest_title": "US blockade of Iran will be major military endeavor, experts say",
     "freshest_published": "Mon, 13 Apr 2026 12:42:14 +0000"
