@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-04-14T12:54:08Z",
-  "version": 961,
-  "breaking_alert": "USNI News: Navy to Inactivate Attack Boat USS Boise After $1.6B Repair Effort",
+  "generated_utc": "2026-04-14T14:44:15Z",
+  "version": 962,
+  "breaking_alert": "Defense News: US blockade of Iran will be major military endeavor, experts say",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -594,16 +594,6 @@
   ],
   "_naval_news_refs": [
     {
-      "title": "Navy to Inactivate Attack Boat USS Boise After $1.6B Repair Effort",
-      "link": "https://news.usni.org/2026/04/10/navy-to-inactivate-attack-boat-uss-boise-after-1-6b-repair-effort",
-      "published": "Fri, 10 Apr 2026 17:36:45 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
       "title": "US blockade of Iran will be major military endeavor, experts say",
       "link": "https://www.defensenews.com/news/pentagon-congress/2026/04/13/us-blockade-of-iran-will-be-major-military-endeavor-experts-say/",
       "published": "Mon, 13 Apr 2026 12:42:14 +0000",
@@ -677,10 +667,19 @@
       ]
     },
     {
-      "title": "UKEF Secures £128 Million for Indonesian Navy’s Submarine Rescue Systems",
-      "link": "https://www.navalnews.com/naval-news/2026/04/ukef-secures-128-million-for-indonesian-navys-submarine-rescue-systems/",
-      "published": "Sat, 11 Apr 2026 07:09:04 +0000",
+      "title": "Third Invincible-Class Submarine Returns to Singapore",
+      "link": "https://www.navalnews.com/naval-news/2026/04/third-invincible-class-submarine-returns-to-singapore/",
+      "published": "Sat, 11 Apr 2026 11:03:52 +0000",
       "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Two destroyers cross Strait of Hormuz ahead of mine clearance mission",
+      "link": "https://taskandpurpose.com/news/navy-destroyers-strait-of-hormuz-mines/",
+      "published": "Sat, 11 Apr 2026 15:25:19 -0400",
+      "source": "Task & Purpose",
       "categories": [
         "deployment"
       ]
@@ -838,16 +837,6 @@
   },
   "_conflict_news_refs": [
     {
-      "title": "Navy to Inactivate Attack Boat USS Boise After $1.6B Repair Effort",
-      "link": "https://news.usni.org/2026/04/10/navy-to-inactivate-attack-boat-uss-boise-after-1-6b-repair-effort",
-      "published": "Fri, 10 Apr 2026 17:36:45 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
       "title": "5 Killed in U.S. Strikes on Suspected Narco Boats in Eastern Pacific",
       "link": "https://news.usni.org/2026/04/13/5-killed-in-u-s-strikes-on-suspected-narco-boats-in-eastern-pacific",
       "published": "Mon, 13 Apr 2026 15:00:27 +0000",
@@ -879,18 +868,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 19,
-    "conflict_articles": 2,
+    "deployment_articles": 17,
+    "conflict_articles": 1,
     "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-04-14T12:54:06.106244+00:00",
+    "computed_at": "2026-04-14T14:44:12.578733+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
-      "[USNI News] Navy to Inactivate Attack Boat USS Boise After $1.6B Repair Effort",
       "[Defense News] US blockade of Iran will be major military endeavor, experts say",
       "[Military Times] US blockade of Iran will be major military endeavor, experts say",
       "[Defense News] Turkey pushes for larger role in Europe’s defense as Trump questions NATO",
-      "[Task & Purpose] What we know about the US military’s blockade of Iran"
+      "[Task & Purpose] What we know about the US military’s blockade of Iran",
+      "[USNI News] 5 Killed in U.S. Strikes on Suspected Narco Boats in Eastern Pacific"
     ]
   },
   "ground_intel": {
@@ -901,12 +890,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-04-14T12:54:06.106288+00:00",
+    "last_successful_update": "2026-04-14T14:44:12.578781+00:00",
     "article_count": 50,
-    "categorized_count": 21,
-    "freshest_source": "USNI News",
-    "freshest_title": "Navy to Inactivate Attack Boat USS Boise After $1.6B Repair Effort",
-    "freshest_published": "Fri, 10 Apr 2026 17:36:45 +0000"
+    "categorized_count": 19,
+    "freshest_source": "Defense News",
+    "freshest_title": "US blockade of Iran will be major military endeavor, experts say",
+    "freshest_published": "Mon, 13 Apr 2026 12:42:14 +0000"
   },
   "_firms_hotspots": []
 }
