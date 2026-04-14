@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-04-14T01:15:50Z",
-  "version": 955,
+  "generated_utc": "2026-04-14T04:34:37Z",
+  "version": 956,
   "breaking_alert": "USNI News: Navy to Inactivate Attack Boat USS Boise After $1.6B Repair Effort",
   "naval_deployments": [
     {
@@ -874,7 +874,7 @@
     "conflict_articles": 2,
     "exercise_articles": 1,
     "total_articles": 50,
-    "computed_at": "2026-04-14T01:15:46.839467+00:00",
+    "computed_at": "2026-04-14T04:34:32.931831+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[USNI News] Navy to Inactivate Attack Boat USS Boise After $1.6B Repair Effort",
@@ -892,7 +892,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-04-14T01:15:46.839516+00:00",
+    "last_successful_update": "2026-04-14T04:34:32.931877+00:00",
     "article_count": 50,
     "categorized_count": 19,
     "freshest_source": "USNI News",
