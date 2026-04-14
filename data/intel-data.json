@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-04-14T15:58:52Z",
-  "version": 963,
+  "generated_utc": "2026-04-14T17:03:21Z",
+  "version": 964,
   "breaking_alert": "Defense News: US blockade of Iran will be major military endeavor, experts say",
   "naval_deployments": [
     {
@@ -667,19 +667,19 @@
       ]
     },
     {
-      "title": "Third Invincible-Class Submarine Returns to Singapore",
-      "link": "https://www.navalnews.com/naval-news/2026/04/third-invincible-class-submarine-returns-to-singapore/",
-      "published": "Sat, 11 Apr 2026 11:03:52 +0000",
-      "source": "Naval News",
+      "title": "Two destroyers cross Strait of Hormuz ahead of mine clearance mission",
+      "link": "https://taskandpurpose.com/news/navy-destroyers-strait-of-hormuz-mines/",
+      "published": "Sat, 11 Apr 2026 15:25:19 -0400",
+      "source": "Task & Purpose",
       "categories": [
         "deployment"
       ]
     },
     {
-      "title": "Two destroyers cross Strait of Hormuz ahead of mine clearance mission",
-      "link": "https://taskandpurpose.com/news/navy-destroyers-strait-of-hormuz-mines/",
-      "published": "Sat, 11 Apr 2026 15:25:19 -0400",
-      "source": "Task & Purpose",
+      "title": "US-Iran peace talks end without deal as delegations leave Pakistan",
+      "link": "https://www.defensenews.com/news/pentagon-congress/2026/04/12/us-iran-peace-talks-end-without-deal-as-delegations-leave-pakistan/",
+      "published": "Sun, 12 Apr 2026 13:27:21 +0000",
+      "source": "Defense News",
       "categories": [
         "deployment"
       ]
@@ -877,11 +877,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 17,
+    "deployment_articles": 16,
     "conflict_articles": 2,
     "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-04-14T15:58:46.302642+00:00",
+    "computed_at": "2026-04-14T17:03:15.278950+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Defense News] US blockade of Iran will be major military endeavor, experts say",
@@ -899,9 +899,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-04-14T15:58:46.302684+00:00",
+    "last_successful_update": "2026-04-14T17:03:15.278994+00:00",
     "article_count": 50,
-    "categorized_count": 20,
+    "categorized_count": 19,
     "freshest_source": "Defense News",
     "freshest_title": "US blockade of Iran will be major military endeavor, experts say",
     "freshest_published": "Mon, 13 Apr 2026 12:42:14 +0000"
