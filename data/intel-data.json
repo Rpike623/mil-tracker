@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-04-15T15:56:52Z",
-  "version": 979,
+  "generated_utc": "2026-04-15T16:53:57Z",
+  "version": 980,
   "breaking_alert": "Task & Purpose: What we know about the US military’s blockade of Iran",
   "naval_deployments": [
     {
@@ -871,6 +871,16 @@
       "categories": [
         "conflict"
       ]
+    },
+    {
+      "title": "North Korea Test Launches Anti-ship, Cruise Missiles from First-in-class Destroyer",
+      "link": "https://news.usni.org/2026/04/15/north-korea-test-launches-anti-ship-cruise-missiles-from-first-in-class-destroyer",
+      "published": "Wed, 15 Apr 2026 16:25:14 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
     }
   ],
   "_exercise_news_refs": [
@@ -885,11 +895,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 15,
-    "conflict_articles": 4,
+    "deployment_articles": 16,
+    "conflict_articles": 5,
     "exercise_articles": 1,
     "total_articles": 50,
-    "computed_at": "2026-04-15T15:56:49.956147+00:00",
+    "computed_at": "2026-04-15T16:53:54.982823+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Task & Purpose] What we know about the US military’s blockade of Iran",
@@ -907,9 +917,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-04-15T15:56:49.956190+00:00",
+    "last_successful_update": "2026-04-15T16:53:54.982870+00:00",
     "article_count": 50,
-    "categorized_count": 19,
+    "categorized_count": 20,
     "freshest_source": "Task & Purpose",
     "freshest_title": "What we know about the US military’s blockade of Iran",
     "freshest_published": "Mon, 13 Apr 2026 13:50:04 -0400"
