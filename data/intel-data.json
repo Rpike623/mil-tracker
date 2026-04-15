@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-04-15T16:53:57Z",
-  "version": 980,
+  "generated_utc": "2026-04-15T17:57:00Z",
+  "version": 981,
   "breaking_alert": "Task & Purpose: What we know about the US military’s blockade of Iran",
   "naval_deployments": [
     {
@@ -836,15 +836,6 @@
   },
   "_conflict_news_refs": [
     {
-      "title": "5 Killed in U.S. Strikes on Suspected Narco Boats in Eastern Pacific",
-      "link": "https://news.usni.org/2026/04/13/5-killed-in-u-s-strikes-on-suspected-narco-boats-in-eastern-pacific",
-      "published": "Mon, 13 Apr 2026 15:00:27 +0000",
-      "source": "USNI News",
-      "categories": [
-        "conflict"
-      ]
-    },
-    {
       "title": "U.S. Military Kills 2 in 50th Strike on Suspected Narco Boat",
       "link": "https://news.usni.org/2026/04/14/u-s-military-kills-2-in-50th-strike-on-suspected-narco-boat",
       "published": "Tue, 14 Apr 2026 15:45:46 +0000",
@@ -895,18 +886,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 16,
-    "conflict_articles": 5,
+    "deployment_articles": 17,
+    "conflict_articles": 4,
     "exercise_articles": 1,
     "total_articles": 50,
-    "computed_at": "2026-04-15T16:53:54.982823+00:00",
+    "computed_at": "2026-04-15T17:56:56.731700+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Task & Purpose] What we know about the US military’s blockade of Iran",
-      "[USNI News] 5 Killed in U.S. Strikes on Suspected Narco Boats in Eastern Pacific",
       "[Task & Purpose] The Iran war took a toll on the Air Force’s Reaper fleet",
       "[USNI News] Navy Commissions USS Harvey C. Barnum Jr. into the Fleet",
-      "[USNI News] USNI News Fleet and Marine Tracker: April 13, 2026"
+      "[USNI News] USNI News Fleet and Marine Tracker: April 13, 2026",
+      "[USNI News] Carrier USS George H.W. Bush Operating off Southern Africa as Iranian Blockade Begins"
     ]
   },
   "ground_intel": {
@@ -917,7 +908,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-04-15T16:53:54.982870+00:00",
+    "last_successful_update": "2026-04-15T17:56:56.731770+00:00",
     "article_count": 50,
     "categorized_count": 20,
     "freshest_source": "Task & Purpose",
