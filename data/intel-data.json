@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-04-15T20:35:03Z",
-  "version": 983,
+  "generated_utc": "2026-04-15T21:39:55Z",
+  "version": 984,
   "breaking_alert": "Task & Purpose: What we know about the US military’s blockade of Iran",
   "naval_deployments": [
     {
@@ -612,15 +612,6 @@
       ]
     },
     {
-      "title": "Navy Commissions USS Harvey C. Barnum Jr. into the Fleet",
-      "link": "https://news.usni.org/2026/04/13/navy-commissions-uss-harvey-c-barnum-jr-into-the-fleet",
-      "published": "Mon, 13 Apr 2026 18:56:26 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "USNI News Fleet and Marine Tracker: April 13, 2026",
       "link": "https://news.usni.org/2026/04/13/usni-news-fleet-and-marine-tracker-april-13-2026",
       "published": "Mon, 13 Apr 2026 19:12:43 +0000",
@@ -678,6 +669,15 @@
       "title": "Italy suspends defense agreement with Israel",
       "link": "https://www.defensenews.com/global/europe/2026/04/14/italy-suspends-defense-agreement-with-israel/",
       "published": "Tue, 14 Apr 2026 19:48:08 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Amid focus on Strait of Hormuz, experts sound warning on Yemen’s Houthis and Red Sea",
+      "link": "https://www.defensenews.com/news/pentagon-congress/2026/04/14/amid-focus-on-strait-of-hormuz-experts-sound-warning-on-yemens-houthis-and-red-sea/",
+      "published": "Tue, 14 Apr 2026 22:04:37 +0000",
       "source": "Defense News",
       "categories": [
         "deployment"
@@ -872,6 +872,15 @@
         "deployment",
         "conflict"
       ]
+    },
+    {
+      "title": "U.S. Military Strikes 4th Suspected Drug Boat in Eastern Pacific in 5 Days",
+      "link": "https://news.usni.org/2026/04/15/u-s-military-strikes-4th-suspected-drug-boat-in-eastern-pacific-in-5-days",
+      "published": "Wed, 15 Apr 2026 20:46:04 +0000",
+      "source": "USNI News",
+      "categories": [
+        "conflict"
+      ]
     }
   ],
   "_exercise_news_refs": [
@@ -886,18 +895,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 18,
-    "conflict_articles": 4,
+    "deployment_articles": 17,
+    "conflict_articles": 5,
     "exercise_articles": 1,
     "total_articles": 50,
-    "computed_at": "2026-04-15T20:34:56.954977+00:00",
+    "computed_at": "2026-04-15T21:39:51.866706+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Task & Purpose] What we know about the US military’s blockade of Iran",
       "[Task & Purpose] The Iran war took a toll on the Air Force’s Reaper fleet",
-      "[USNI News] Navy Commissions USS Harvey C. Barnum Jr. into the Fleet",
       "[USNI News] USNI News Fleet and Marine Tracker: April 13, 2026",
-      "[USNI News] Carrier USS George H.W. Bush Operating off Southern Africa as Iranian Blockade Begins"
+      "[USNI News] Carrier USS George H.W. Bush Operating off Southern Africa as Iranian Blockade Begins",
+      "[Defense News] Lebanon and Israel talks set to begin in Washington"
     ]
   },
   "ground_intel": {
@@ -908,7 +917,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-04-15T20:34:56.955023+00:00",
+    "last_successful_update": "2026-04-15T21:39:51.866747+00:00",
     "article_count": 50,
     "categorized_count": 21,
     "freshest_source": "Task & Purpose",
