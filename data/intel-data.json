@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-04-15T01:13:39Z",
-  "version": 971,
+  "generated_utc": "2026-04-15T04:34:56Z",
+  "version": 972,
   "breaking_alert": "Defense News: US blockade of Iran will be major military endeavor, experts say",
   "naval_deployments": [
     {
@@ -853,6 +853,16 @@
       "categories": [
         "conflict"
       ]
+    },
+    {
+      "title": "Japan to join largest Balikatan war games with 1,400 troops, Type 88 missiles",
+      "link": "https://www.navalnews.com/naval-news/2026/04/japan-to-join-largest-balikatan-war-games-with-1400-troops-type-88-missiles/",
+      "published": "Wed, 15 Apr 2026 04:29:00 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
     }
   ],
   "_exercise_news_refs": [
@@ -877,11 +887,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 17,
-    "conflict_articles": 2,
+    "deployment_articles": 18,
+    "conflict_articles": 3,
     "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-04-15T01:13:36.780422+00:00",
+    "computed_at": "2026-04-15T04:34:50.958257+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Defense News] US blockade of Iran will be major military endeavor, experts say",
@@ -899,9 +909,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-04-15T01:13:36.780480+00:00",
+    "last_successful_update": "2026-04-15T04:34:50.958303+00:00",
     "article_count": 50,
-    "categorized_count": 20,
+    "categorized_count": 21,
     "freshest_source": "Defense News",
     "freshest_title": "US blockade of Iran will be major military endeavor, experts say",
     "freshest_published": "Mon, 13 Apr 2026 12:42:14 +0000"
