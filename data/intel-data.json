@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-04-15T14:24:12Z",
-  "version": 978,
+  "generated_utc": "2026-04-15T15:56:52Z",
+  "version": 979,
   "breaking_alert": "Task & Purpose: What we know about the US military’s blockade of Iran",
   "naval_deployments": [
     {
@@ -862,18 +862,18 @@
         "deployment",
         "conflict"
       ]
+    },
+    {
+      "title": "Mystery U.S. Navy Launcher Identified as Upgraded Coyote Missile Launcher",
+      "link": "https://www.navalnews.com/naval-news/2026/04/mystery-u-s-navy-launcher-identified-as-upgraded-coyote-missile-launcher/",
+      "published": "Wed, 15 Apr 2026 15:31:27 +0000",
+      "source": "Naval News",
+      "categories": [
+        "conflict"
+      ]
     }
   ],
   "_exercise_news_refs": [
-    {
-      "title": "France scales down participation to Balikatan exercises in the Philippines",
-      "link": "https://www.navalnews.com/naval-news/2026/04/france-scales-down-participation-to-balikatan-exercises-in-the-philippines/",
-      "published": "Tue, 14 Apr 2026 07:19:54 +0000",
-      "source": "Naval News",
-      "categories": [
-        "exercise"
-      ]
-    },
     {
       "title": "TKMS and Navantia ink MoU on Shipbuilding Cooperation Roadmap",
       "link": "https://www.navalnews.com/naval-news/2026/04/tkms-and-navantia-ink-mou-on-shipbuilding-cooperation-roadmap/",
@@ -885,11 +885,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 14,
-    "conflict_articles": 3,
-    "exercise_articles": 2,
+    "deployment_articles": 15,
+    "conflict_articles": 4,
+    "exercise_articles": 1,
     "total_articles": 50,
-    "computed_at": "2026-04-15T14:24:09.395262+00:00",
+    "computed_at": "2026-04-15T15:56:49.956147+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Task & Purpose] What we know about the US military’s blockade of Iran",
@@ -907,9 +907,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-04-15T14:24:09.395307+00:00",
+    "last_successful_update": "2026-04-15T15:56:49.956190+00:00",
     "article_count": 50,
-    "categorized_count": 18,
+    "categorized_count": 19,
     "freshest_source": "Task & Purpose",
     "freshest_title": "What we know about the US military’s blockade of Iran",
     "freshest_published": "Mon, 13 Apr 2026 13:50:04 -0400"
