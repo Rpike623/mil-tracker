@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-04-15T11:44:20Z",
-  "version": 976,
+  "generated_utc": "2026-04-15T12:53:13Z",
+  "version": 977,
   "breaking_alert": "Defense News: US blockade of Iran will be major military endeavor, experts say",
   "naval_deployments": [
     {
@@ -658,28 +658,28 @@
       ]
     },
     {
-      "title": "USS Stockdale flies shaken, not stirred battle flag",
-      "link": "https://taskandpurpose.com/culture/uss-stockdale-james-bond-battle-flag/",
-      "published": "Sun, 12 Apr 2026 15:10:27 -0400",
+      "title": "Lebanon and Israel talks set to begin in Washington",
+      "link": "https://www.defensenews.com/global/mideast-africa/2026/04/14/lebanon-and-israel-talks-set-to-begin-in-washington/",
+      "published": "Tue, 14 Apr 2026 12:15:29 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Marines on way to Middle East seen using rifles with anti-drone smart scope",
+      "link": "https://taskandpurpose.com/news/marines-drone-optic-2026/",
+      "published": "Tue, 14 Apr 2026 14:27:48 -0400",
       "source": "Task & Purpose",
       "categories": [
         "deployment"
       ]
     },
     {
-      "title": "U.S. to Blockade Ships Entering or Exiting Iranian Ports",
-      "link": "https://www.navalnews.com/naval-news/2026/04/u-s-to-blockade-ships-entering-or-exiting-iranian-ports/",
-      "published": "Sun, 12 Apr 2026 21:54:09 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Lebanon and Israel talks set to begin in Washington",
-      "link": "https://www.defensenews.com/global/mideast-africa/2026/04/14/lebanon-and-israel-talks-set-to-begin-in-washington/",
-      "published": "Tue, 14 Apr 2026 12:15:29 +0000",
-      "source": "Defense News",
+      "title": "U.K. Forces Counter Covert Russian Submarine Activities, Officials Say",
+      "link": "https://news.usni.org/2026/04/14/u-k-forces-counter-covert-russian-submarine-activities-officials-say",
+      "published": "Tue, 14 Apr 2026 14:31:08 +0000",
+      "source": "USNI News",
       "categories": [
         "deployment"
       ]
@@ -884,14 +884,23 @@
       "categories": [
         "exercise"
       ]
+    },
+    {
+      "title": "TKMS and Navantia ink MoU on Shipbuilding Cooperation Roadmap",
+      "link": "https://www.navalnews.com/naval-news/2026/04/tkms-and-navantia-ink-mou-on-shipbuilding-cooperation-roadmap/",
+      "published": "Wed, 15 Apr 2026 12:26:36 +0000",
+      "source": "Naval News",
+      "categories": [
+        "exercise"
+      ]
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 18,
+    "deployment_articles": 16,
     "conflict_articles": 3,
-    "exercise_articles": 2,
+    "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-04-15T11:44:14.054928+00:00",
+    "computed_at": "2026-04-15T12:53:10.771911+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Defense News] US blockade of Iran will be major military endeavor, experts say",
@@ -909,9 +918,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-04-15T11:44:14.054976+00:00",
+    "last_successful_update": "2026-04-15T12:53:10.771958+00:00",
     "article_count": 50,
-    "categorized_count": 21,
+    "categorized_count": 20,
     "freshest_source": "Defense News",
     "freshest_title": "US blockade of Iran will be major military endeavor, experts say",
     "freshest_published": "Mon, 13 Apr 2026 12:42:14 +0000"
