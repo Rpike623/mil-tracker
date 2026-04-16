@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-04-16T16:14:17Z",
-  "version": 995,
+  "generated_utc": "2026-04-16T18:01:01Z",
+  "version": 996,
   "breaking_alert": "Task & Purpose: The Iran war took a toll on the Air Force’s Reaper fleet",
   "naval_deployments": [
     {
@@ -913,11 +913,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 18,
+    "deployment_articles": 17,
     "conflict_articles": 7,
     "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-04-16T16:14:13.722537+00:00",
+    "computed_at": "2026-04-16T18:00:58.860346+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Task & Purpose] The Iran war took a toll on the Air Force’s Reaper fleet",
@@ -935,9 +935,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-04-16T16:14:13.722583+00:00",
+    "last_successful_update": "2026-04-16T18:00:58.860391+00:00",
     "article_count": 50,
-    "categorized_count": 25,
+    "categorized_count": 24,
     "freshest_source": "Task & Purpose",
     "freshest_title": "The Iran war took a toll on the Air Force’s Reaper fleet",
     "freshest_published": "Mon, 13 Apr 2026 16:27:09 -0400"
