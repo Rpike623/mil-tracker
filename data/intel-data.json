@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-04-15T23:31:41Z",
-  "version": 986,
+  "generated_utc": "2026-04-16T01:18:14Z",
+  "version": 987,
   "breaking_alert": "Task & Purpose: What we know about the US military’s blockade of Iran",
   "naval_deployments": [
     {
@@ -630,10 +630,19 @@
       ]
     },
     {
-      "title": "Lebanon and Israel talks set to begin in Washington",
-      "link": "https://www.defensenews.com/global/mideast-africa/2026/04/14/lebanon-and-israel-talks-set-to-begin-in-washington/",
-      "published": "Tue, 14 Apr 2026 12:15:29 +0000",
+      "title": "White House offers no hint of Iran war cost as it seeks military funding surge",
+      "link": "https://www.defensenews.com/news/pentagon-congress/2026/04/16/white-house-offers-no-hint-of-iran-war-cost-as-it-seeks-military-funding-surge/",
+      "published": "Thu, 16 Apr 2026 00:52:33 +0000",
       "source": "Defense News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "White House offers no hint of Iran war cost as it seeks military funding surge",
+      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/04/16/white-house-offers-no-hint-of-iran-war-cost-as-it-seeks-military-funding-surge/",
+      "published": "Thu, 16 Apr 2026 00:52:33 +0000",
+      "source": "Military Times",
       "categories": [
         "deployment"
       ]
@@ -670,15 +679,6 @@
       "link": "https://www.defensenews.com/news/pentagon-congress/2026/04/14/amid-focus-on-strait-of-hormuz-experts-sound-warning-on-yemens-houthis-and-red-sea/",
       "published": "Tue, 14 Apr 2026 22:04:37 +0000",
       "source": "Defense News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Amid focus on Strait of Hormuz, experts sound warning on Yemen’s Houthis and Red Sea",
-      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/04/14/amid-focus-on-strait-of-hormuz-experts-sound-warning-on-yemens-houthis-and-red-sea/",
-      "published": "Tue, 14 Apr 2026 22:04:37 +0000",
-      "source": "Military Times",
       "categories": [
         "deployment"
       ]
@@ -915,18 +915,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 20,
+    "deployment_articles": 21,
     "conflict_articles": 5,
     "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-04-15T23:31:39.177689+00:00",
+    "computed_at": "2026-04-16T01:18:10.352593+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Task & Purpose] What we know about the US military’s blockade of Iran",
       "[Task & Purpose] The Iran war took a toll on the Air Force’s Reaper fleet",
       "[USNI News] USNI News Fleet and Marine Tracker: April 13, 2026",
       "[USNI News] Carrier USS George H.W. Bush Operating off Southern Africa as Iranian Blockade Begins",
-      "[Defense News] Lebanon and Israel talks set to begin in Washington"
+      "[Defense News] White House offers no hint of Iran war cost as it seeks military funding surge"
     ]
   },
   "ground_intel": {
@@ -937,9 +937,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-04-15T23:31:39.177730+00:00",
+    "last_successful_update": "2026-04-16T01:18:10.352637+00:00",
     "article_count": 50,
-    "categorized_count": 24,
+    "categorized_count": 25,
     "freshest_source": "Task & Purpose",
     "freshest_title": "What we know about the US military’s blockade of Iran",
     "freshest_published": "Mon, 13 Apr 2026 13:50:04 -0400"
