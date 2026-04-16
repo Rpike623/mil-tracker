@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-04-16T21:32:44Z",
-  "version": 999,
+  "generated_utc": "2026-04-16T22:27:32Z",
+  "version": 1000,
   "breaking_alert": "Defense News: White House offers no hint of Iran war cost as it seeks military funding surge",
   "naval_deployments": [
     {
@@ -666,19 +666,19 @@
       ]
     },
     {
-      "title": "Marines on way to Middle East seen using rifles with anti-drone smart scope",
-      "link": "https://taskandpurpose.com/news/marines-drone-optic-2026/",
-      "published": "Tue, 14 Apr 2026 14:27:48 -0400",
-      "source": "Task & Purpose",
+      "title": "Australia readies itself for high-risk submarine life extension for Collins-class",
+      "link": "https://www.navalnews.com/naval-news/2026/04/australia-readies-itself-for-high-risk-submarine-life-extension-for-collins-class/",
+      "published": "Thu, 16 Apr 2026 21:40:56 +0000",
+      "source": "Naval News",
       "categories": [
         "deployment"
       ]
     },
     {
-      "title": "USS Gerald R. Ford Breaks Post-Cold War Deployment Record",
-      "link": "https://news.usni.org/2026/04/15/uss-gerald-r-ford-breaks-post-cold-war-deployment-record",
-      "published": "Wed, 15 Apr 2026 14:25:05 +0000",
-      "source": "USNI News",
+      "title": "Marines on way to Middle East seen using rifles with anti-drone smart scope",
+      "link": "https://taskandpurpose.com/news/marines-drone-optic-2026/",
+      "published": "Tue, 14 Apr 2026 14:27:48 -0400",
+      "source": "Task & Purpose",
       "categories": [
         "deployment"
       ]
@@ -883,15 +883,6 @@
   ],
   "_exercise_news_refs": [
     {
-      "title": "TKMS and Navantia ink MoU on Shipbuilding Cooperation Roadmap",
-      "link": "https://www.navalnews.com/naval-news/2026/04/tkms-and-navantia-ink-mou-on-shipbuilding-cooperation-roadmap/",
-      "published": "Wed, 15 Apr 2026 12:26:36 +0000",
-      "source": "Naval News",
-      "categories": [
-        "exercise"
-      ]
-    },
-    {
       "title": "US Air Force debuts operational AI wargame system",
       "link": "https://www.defensenews.com/industry/techwatch/2026/04/15/us-air-force-debuts-operational-ai-wargame-system/",
       "published": "Wed, 15 Apr 2026 21:47:07 +0000",
@@ -913,11 +904,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 15,
+    "deployment_articles": 16,
     "conflict_articles": 7,
-    "exercise_articles": 3,
+    "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-04-16T21:32:39.173315+00:00",
+    "computed_at": "2026-04-16T22:27:28.043751+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Defense News] White House offers no hint of Iran war cost as it seeks military funding surge",
@@ -935,7 +926,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-04-16T21:32:39.173354+00:00",
+    "last_successful_update": "2026-04-16T22:27:28.043786+00:00",
     "article_count": 50,
     "categorized_count": 22,
     "freshest_source": "Defense News",
