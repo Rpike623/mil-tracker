@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-04-16T12:57:53Z",
-  "version": 993,
-  "breaking_alert": "Task & Purpose: What we know about the US military’s blockade of Iran",
+  "generated_utc": "2026-04-16T14:50:32Z",
+  "version": 994,
+  "breaking_alert": "Task & Purpose: The Iran war took a toll on the Air Force’s Reaper fleet",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -594,37 +594,10 @@
   ],
   "_naval_news_refs": [
     {
-      "title": "What we know about the US military’s blockade of Iran",
-      "link": "https://taskandpurpose.com/news/military-iran-blockade/",
-      "published": "Mon, 13 Apr 2026 13:50:04 -0400",
-      "source": "Task & Purpose",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "The Iran war took a toll on the Air Force’s Reaper fleet",
       "link": "https://taskandpurpose.com/tech-tactics/air-force-reaper-drone-fleet/",
       "published": "Mon, 13 Apr 2026 16:27:09 -0400",
       "source": "Task & Purpose",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "USNI News Fleet and Marine Tracker: April 13, 2026",
-      "link": "https://news.usni.org/2026/04/13/usni-news-fleet-and-marine-tracker-april-13-2026",
-      "published": "Mon, 13 Apr 2026 19:12:43 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Carrier USS George H.W. Bush Operating off Southern Africa as Iranian Blockade Begins",
-      "link": "https://news.usni.org/2026/04/13/carrier-uss-george-h-w-bush-operating-off-southern-africa-as-iranian-blockade-begins",
-      "published": "Mon, 13 Apr 2026 19:18:15 +0000",
-      "source": "USNI News",
       "categories": [
         "deployment"
       ]
@@ -661,6 +634,33 @@
       "link": "https://www.militarytimes.com/news/pentagon-congress/2026/04/16/senate-republicans-back-trump-military-sales-to-israel/",
       "published": "Thu, 16 Apr 2026 01:25:07 +0000",
       "source": "Military Times",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Navy can fire warning shots to enforce blockade of Iran, top general says",
+      "link": "https://taskandpurpose.com/news/us-iran-blockade-warning-shots/",
+      "published": "Thu, 16 Apr 2026 10:03:59 -0400",
+      "source": "Task & Purpose",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Iran war exposes weakened state of Britain’s armed forces",
+      "link": "https://www.defensenews.com/global/europe/2026/04/16/iran-war-exposes-weakened-state-of-britains-armed-forces/",
+      "published": "Thu, 16 Apr 2026 13:34:38 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Carrier USS Dwight D. Eisenhower Suffers Fire at Norfolk Naval Shipyard",
+      "link": "https://news.usni.org/2026/04/16/carrier-uss-dwight-d-eisenhower-suffers-fire-at-norfolk-naval-shipyard",
+      "published": "Thu, 16 Apr 2026 14:41:43 +0000",
+      "source": "USNI News",
       "categories": [
         "deployment"
       ]
@@ -854,21 +854,20 @@
       ]
     },
     {
-      "title": "U.S. Military Kills 2 in 50th Strike on Suspected Narco Boat",
-      "link": "https://news.usni.org/2026/04/14/u-s-military-kills-2-in-50th-strike-on-suspected-narco-boat",
-      "published": "Tue, 14 Apr 2026 15:45:46 +0000",
+      "title": "U.S. Strikes Third Suspected Narco Boat in Three Days, Three Killed",
+      "link": "https://news.usni.org/2026/04/16/u-s-strikes-third-suspected-narco-boat-in-three-days-three-killed",
+      "published": "Thu, 16 Apr 2026 13:26:35 +0000",
       "source": "USNI News",
       "categories": [
         "conflict"
       ]
     },
     {
-      "title": "Japan to join largest Balikatan war games with 1,400 troops, Type 88 missiles",
-      "link": "https://www.navalnews.com/naval-news/2026/04/japan-to-join-largest-balikatan-war-games-with-1400-troops-type-88-missiles/",
-      "published": "Wed, 15 Apr 2026 04:29:00 +0000",
-      "source": "Naval News",
+      "title": "U.S. Military Kills 2 in 50th Strike on Suspected Narco Boat",
+      "link": "https://news.usni.org/2026/04/14/u-s-military-kills-2-in-50th-strike-on-suspected-narco-boat",
+      "published": "Tue, 14 Apr 2026 15:45:46 +0000",
+      "source": "USNI News",
       "categories": [
-        "deployment",
         "conflict"
       ]
     },
@@ -914,18 +913,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 20,
+    "deployment_articles": 18,
     "conflict_articles": 7,
     "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-04-16T12:57:50.153235+00:00",
+    "computed_at": "2026-04-16T14:50:21.848233+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
-      "[Task & Purpose] What we know about the US military’s blockade of Iran",
       "[Task & Purpose] The Iran war took a toll on the Air Force’s Reaper fleet",
-      "[USNI News] USNI News Fleet and Marine Tracker: April 13, 2026",
-      "[USNI News] Carrier USS George H.W. Bush Operating off Southern Africa as Iranian Blockade Begins",
-      "[Defense News] White House offers no hint of Iran war cost as it seeks military funding surge"
+      "[Defense News] White House offers no hint of Iran war cost as it seeks military funding surge",
+      "[Military Times] White House offers no hint of Iran war cost as it seeks military funding surge",
+      "[Defense News] Senate Republicans back Trump military sales to Israel",
+      "[Military Times] Senate Republicans back Trump military sales to Israel"
     ]
   },
   "ground_intel": {
@@ -936,12 +935,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-04-16T12:57:50.153280+00:00",
+    "last_successful_update": "2026-04-16T14:50:21.848279+00:00",
     "article_count": 50,
-    "categorized_count": 26,
+    "categorized_count": 25,
     "freshest_source": "Task & Purpose",
-    "freshest_title": "What we know about the US military’s blockade of Iran",
-    "freshest_published": "Mon, 13 Apr 2026 13:50:04 -0400"
+    "freshest_title": "The Iran war took a toll on the Air Force’s Reaper fleet",
+    "freshest_published": "Mon, 13 Apr 2026 16:27:09 -0400"
   },
   "_firms_hotspots": []
 }
