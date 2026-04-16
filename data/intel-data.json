@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-04-16T18:01:01Z",
-  "version": 996,
-  "breaking_alert": "Task & Purpose: The Iran war took a toll on the Air Force’s Reaper fleet",
+  "generated_utc": "2026-04-16T19:54:57Z",
+  "version": 997,
+  "breaking_alert": "Defense News: White House offers no hint of Iran war cost as it seeks military funding surge",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -594,15 +594,6 @@
   ],
   "_naval_news_refs": [
     {
-      "title": "The Iran war took a toll on the Air Force’s Reaper fleet",
-      "link": "https://taskandpurpose.com/tech-tactics/air-force-reaper-drone-fleet/",
-      "published": "Mon, 13 Apr 2026 16:27:09 -0400",
-      "source": "Task & Purpose",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "White House offers no hint of Iran war cost as it seeks military funding surge",
       "link": "https://www.defensenews.com/news/pentagon-congress/2026/04/16/white-house-offers-no-hint-of-iran-war-cost-as-it-seeks-military-funding-surge/",
       "published": "Thu, 16 Apr 2026 00:52:33 +0000",
@@ -678,6 +669,15 @@
       "title": "U.K. Forces Counter Covert Russian Submarine Activities, Officials Say",
       "link": "https://news.usni.org/2026/04/14/u-k-forces-counter-covert-russian-submarine-activities-officials-say",
       "published": "Tue, 14 Apr 2026 14:31:08 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "USS Gerald R. Ford Breaks Post-Cold War Deployment Record",
+      "link": "https://news.usni.org/2026/04/15/uss-gerald-r-ford-breaks-post-cold-war-deployment-record",
+      "published": "Wed, 15 Apr 2026 14:25:05 +0000",
       "source": "USNI News",
       "categories": [
         "deployment"
@@ -913,18 +913,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 17,
+    "deployment_articles": 15,
     "conflict_articles": 7,
     "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-04-16T18:00:58.860346+00:00",
+    "computed_at": "2026-04-16T19:54:51.544262+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
-      "[Task & Purpose] The Iran war took a toll on the Air Force’s Reaper fleet",
       "[Defense News] White House offers no hint of Iran war cost as it seeks military funding surge",
       "[Military Times] White House offers no hint of Iran war cost as it seeks military funding surge",
       "[Defense News] Senate Republicans back Trump military sales to Israel",
-      "[Military Times] Senate Republicans back Trump military sales to Israel"
+      "[Military Times] Senate Republicans back Trump military sales to Israel",
+      "[Naval News] Pakistan Navy Demonstrates Precision Strike Capabilities with SMASH ASBM Test"
     ]
   },
   "ground_intel": {
@@ -935,12 +935,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-04-16T18:00:58.860391+00:00",
+    "last_successful_update": "2026-04-16T19:54:51.544301+00:00",
     "article_count": 50,
-    "categorized_count": 24,
-    "freshest_source": "Task & Purpose",
-    "freshest_title": "The Iran war took a toll on the Air Force’s Reaper fleet",
-    "freshest_published": "Mon, 13 Apr 2026 16:27:09 -0400"
+    "categorized_count": 22,
+    "freshest_source": "Defense News",
+    "freshest_title": "White House offers no hint of Iran war cost as it seeks military funding surge",
+    "freshest_published": "Thu, 16 Apr 2026 00:52:33 +0000"
   },
   "_firms_hotspots": []
 }
