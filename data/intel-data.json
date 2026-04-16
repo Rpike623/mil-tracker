@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-04-16T19:54:57Z",
-  "version": 997,
+  "generated_utc": "2026-04-16T20:36:36Z",
+  "version": 998,
   "breaking_alert": "Defense News: White House offers no hint of Iran war cost as it seeks military funding surge",
   "naval_deployments": [
     {
@@ -917,7 +917,7 @@
     "conflict_articles": 7,
     "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-04-16T19:54:51.544262+00:00",
+    "computed_at": "2026-04-16T20:36:33.753473+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Defense News] White House offers no hint of Iran war cost as it seeks military funding surge",
@@ -935,7 +935,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-04-16T19:54:51.544301+00:00",
+    "last_successful_update": "2026-04-16T20:36:33.753514+00:00",
     "article_count": 50,
     "categorized_count": 22,
     "freshest_source": "Defense News",
