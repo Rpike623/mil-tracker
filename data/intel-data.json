@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-04-16T20:36:36Z",
-  "version": 998,
+  "generated_utc": "2026-04-16T21:32:44Z",
+  "version": 999,
   "breaking_alert": "Defense News: White House offers no hint of Iran war cost as it seeks military funding surge",
   "naval_deployments": [
     {
@@ -657,19 +657,19 @@
       ]
     },
     {
-      "title": "Marines on way to Middle East seen using rifles with anti-drone smart scope",
-      "link": "https://taskandpurpose.com/news/marines-drone-optic-2026/",
-      "published": "Tue, 14 Apr 2026 14:27:48 -0400",
-      "source": "Task & Purpose",
+      "title": "U.S. Expands Search for Contraband as Iranian Blockade Continues",
+      "link": "https://news.usni.org/2026/04/16/u-s-expands-search-for-contraband-as-iranian-blockade-continues",
+      "published": "Thu, 16 Apr 2026 21:12:43 +0000",
+      "source": "USNI News",
       "categories": [
         "deployment"
       ]
     },
     {
-      "title": "U.K. Forces Counter Covert Russian Submarine Activities, Officials Say",
-      "link": "https://news.usni.org/2026/04/14/u-k-forces-counter-covert-russian-submarine-activities-officials-say",
-      "published": "Tue, 14 Apr 2026 14:31:08 +0000",
-      "source": "USNI News",
+      "title": "Marines on way to Middle East seen using rifles with anti-drone smart scope",
+      "link": "https://taskandpurpose.com/news/marines-drone-optic-2026/",
+      "published": "Tue, 14 Apr 2026 14:27:48 -0400",
+      "source": "Task & Purpose",
       "categories": [
         "deployment"
       ]
@@ -917,7 +917,7 @@
     "conflict_articles": 7,
     "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-04-16T20:36:33.753473+00:00",
+    "computed_at": "2026-04-16T21:32:39.173315+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Defense News] White House offers no hint of Iran war cost as it seeks military funding surge",
@@ -935,7 +935,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-04-16T20:36:33.753514+00:00",
+    "last_successful_update": "2026-04-16T21:32:39.173354+00:00",
     "article_count": 50,
     "categorized_count": 22,
     "freshest_source": "Defense News",
