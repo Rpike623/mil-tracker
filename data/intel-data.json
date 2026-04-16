@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-04-16T08:19:42Z",
-  "version": 990,
+  "generated_utc": "2026-04-16T10:04:41Z",
+  "version": 991,
   "breaking_alert": "Task & Purpose: What we know about the US military’s blockade of Iran",
   "naval_deployments": [
     {
@@ -836,6 +836,15 @@
   },
   "_conflict_news_refs": [
     {
+      "title": "Pakistan Navy Demonstrates Precision Strike Capabilities with SMASH ASBM Test",
+      "link": "https://www.navalnews.com/naval-news/2026/04/pakistan-navy-demonstrates-precision-strike-capabilities-with-asbm-test/",
+      "published": "Thu, 16 Apr 2026 08:37:39 +0000",
+      "source": "Naval News",
+      "categories": [
+        "conflict"
+      ]
+    },
+    {
       "title": "U.S. Military Kills 2 in 50th Strike on Suspected Narco Boat",
       "link": "https://news.usni.org/2026/04/14/u-s-military-kills-2-in-50th-strike-on-suspected-narco-boat",
       "published": "Tue, 14 Apr 2026 15:45:46 +0000",
@@ -870,15 +879,6 @@
       "source": "USNI News",
       "categories": [
         "deployment",
-        "conflict"
-      ]
-    },
-    {
-      "title": "U.S. Military Strikes 4th Suspected Drug Boat in Eastern Pacific in 5 Days",
-      "link": "https://news.usni.org/2026/04/15/u-s-military-strikes-4th-suspected-drug-boat-in-eastern-pacific-in-5-days",
-      "published": "Wed, 15 Apr 2026 20:46:04 +0000",
-      "source": "USNI News",
-      "categories": [
         "conflict"
       ]
     }
@@ -916,10 +916,10 @@
   ],
   "_threat_indicators": {
     "deployment_articles": 21,
-    "conflict_articles": 5,
+    "conflict_articles": 6,
     "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-04-16T08:19:40.083553+00:00",
+    "computed_at": "2026-04-16T10:04:34.676675+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Task & Purpose] What we know about the US military’s blockade of Iran",
@@ -937,9 +937,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-04-16T08:19:40.083625+00:00",
+    "last_successful_update": "2026-04-16T10:04:34.676726+00:00",
     "article_count": 50,
-    "categorized_count": 25,
+    "categorized_count": 26,
     "freshest_source": "Task & Purpose",
     "freshest_title": "What we know about the US military’s blockade of Iran",
     "freshest_published": "Mon, 13 Apr 2026 13:50:04 -0400"
