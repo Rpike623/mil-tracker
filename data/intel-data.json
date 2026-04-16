@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-04-16T11:49:08Z",
-  "version": 992,
+  "generated_utc": "2026-04-16T12:57:53Z",
+  "version": 993,
   "breaking_alert": "Task & Purpose: What we know about the US military’s blockade of Iran",
   "naval_deployments": [
     {
@@ -845,6 +845,15 @@
       ]
     },
     {
+      "title": "U.S. Navy Seeks Over 600 Surface-to-Air Missiles in Budget Request",
+      "link": "https://www.navalnews.com/naval-news/2026/04/u-s-navy-seeks-over-600-surface-to-air-missiles-in-budget-request/",
+      "published": "Thu, 16 Apr 2026 12:51:22 +0000",
+      "source": "Naval News",
+      "categories": [
+        "conflict"
+      ]
+    },
+    {
       "title": "U.S. Military Kills 2 in 50th Strike on Suspected Narco Boat",
       "link": "https://news.usni.org/2026/04/14/u-s-military-kills-2-in-50th-strike-on-suspected-narco-boat",
       "published": "Tue, 14 Apr 2026 15:45:46 +0000",
@@ -869,16 +878,6 @@
       "published": "Wed, 15 Apr 2026 15:31:27 +0000",
       "source": "Naval News",
       "categories": [
-        "conflict"
-      ]
-    },
-    {
-      "title": "North Korea Test Launches Anti-ship, Cruise Missiles from First-in-class Destroyer",
-      "link": "https://news.usni.org/2026/04/15/north-korea-test-launches-anti-ship-cruise-missiles-from-first-in-class-destroyer",
-      "published": "Wed, 15 Apr 2026 16:25:14 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment",
         "conflict"
       ]
     }
@@ -916,10 +915,10 @@
   ],
   "_threat_indicators": {
     "deployment_articles": 20,
-    "conflict_articles": 6,
+    "conflict_articles": 7,
     "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-04-16T11:49:05.763372+00:00",
+    "computed_at": "2026-04-16T12:57:50.153235+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Task & Purpose] What we know about the US military’s blockade of Iran",
@@ -937,9 +936,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-04-16T11:49:05.763418+00:00",
+    "last_successful_update": "2026-04-16T12:57:50.153280+00:00",
     "article_count": 50,
-    "categorized_count": 25,
+    "categorized_count": 26,
     "freshest_source": "Task & Purpose",
     "freshest_title": "What we know about the US military’s blockade of Iran",
     "freshest_published": "Mon, 13 Apr 2026 13:50:04 -0400"
