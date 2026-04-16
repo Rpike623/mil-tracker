@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-04-16T01:18:14Z",
-  "version": 987,
+  "generated_utc": "2026-04-16T04:40:53Z",
+  "version": 988,
   "breaking_alert": "Task & Purpose: What we know about the US military’s blockade of Iran",
   "naval_deployments": [
     {
@@ -648,6 +648,24 @@
       ]
     },
     {
+      "title": "Senate Republicans back Trump military sales to Israel",
+      "link": "https://www.defensenews.com/news/pentagon-congress/2026/04/16/senate-republicans-back-trump-military-sales-to-israel/",
+      "published": "Thu, 16 Apr 2026 01:25:07 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Senate Republicans back Trump military sales to Israel",
+      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/04/16/senate-republicans-back-trump-military-sales-to-israel/",
+      "published": "Thu, 16 Apr 2026 01:25:07 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "Marines on way to Middle East seen using rifles with anti-drone smart scope",
       "link": "https://taskandpurpose.com/news/marines-drone-optic-2026/",
       "published": "Tue, 14 Apr 2026 14:27:48 -0400",
@@ -661,24 +679,6 @@
       "link": "https://news.usni.org/2026/04/14/u-k-forces-counter-covert-russian-submarine-activities-officials-say",
       "published": "Tue, 14 Apr 2026 14:31:08 +0000",
       "source": "USNI News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Italy suspends defense agreement with Israel",
-      "link": "https://www.defensenews.com/global/europe/2026/04/14/italy-suspends-defense-agreement-with-israel/",
-      "published": "Tue, 14 Apr 2026 19:48:08 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Amid focus on Strait of Hormuz, experts sound warning on Yemen’s Houthis and Red Sea",
-      "link": "https://www.defensenews.com/news/pentagon-congress/2026/04/14/amid-focus-on-strait-of-hormuz-experts-sound-warning-on-yemens-houthis-and-red-sea/",
-      "published": "Tue, 14 Apr 2026 22:04:37 +0000",
-      "source": "Defense News",
       "categories": [
         "deployment"
       ]
@@ -919,7 +919,7 @@
     "conflict_articles": 5,
     "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-04-16T01:18:10.352593+00:00",
+    "computed_at": "2026-04-16T04:40:50.561340+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Task & Purpose] What we know about the US military’s blockade of Iran",
@@ -937,7 +937,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-04-16T01:18:10.352637+00:00",
+    "last_successful_update": "2026-04-16T04:40:50.561382+00:00",
     "article_count": 50,
     "categorized_count": 25,
     "freshest_source": "Task & Purpose",
