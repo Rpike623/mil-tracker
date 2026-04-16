@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-04-16T10:04:41Z",
-  "version": 991,
+  "generated_utc": "2026-04-16T11:49:08Z",
+  "version": 992,
   "breaking_alert": "Task & Purpose: What we know about the US military’s blockade of Iran",
   "naval_deployments": [
     {
@@ -915,11 +915,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 21,
+    "deployment_articles": 20,
     "conflict_articles": 6,
     "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-04-16T10:04:34.676675+00:00",
+    "computed_at": "2026-04-16T11:49:05.763372+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Task & Purpose] What we know about the US military’s blockade of Iran",
@@ -937,9 +937,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-04-16T10:04:34.676726+00:00",
+    "last_successful_update": "2026-04-16T11:49:05.763418+00:00",
     "article_count": 50,
-    "categorized_count": 26,
+    "categorized_count": 25,
     "freshest_source": "Task & Purpose",
     "freshest_title": "What we know about the US military’s blockade of Iran",
     "freshest_published": "Mon, 13 Apr 2026 13:50:04 -0400"
