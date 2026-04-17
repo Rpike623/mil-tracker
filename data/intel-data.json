@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-04-17T01:15:50Z",
-  "version": 1002,
+  "generated_utc": "2026-04-17T04:38:24Z",
+  "version": 1003,
   "breaking_alert": "Defense News: White House offers no hint of Iran war cost as it seeks military funding surge",
   "naval_deployments": [
     {
@@ -881,24 +881,13 @@
       ]
     }
   ],
-  "_exercise_news_refs": [
-    {
-      "title": "US Air Force debuts operational AI wargame system",
-      "link": "https://www.defensenews.com/industry/techwatch/2026/04/15/us-air-force-debuts-operational-ai-wargame-system/",
-      "published": "Wed, 15 Apr 2026 21:47:07 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment",
-        "exercise"
-      ]
-    }
-  ],
+  "_exercise_news_refs": [],
   "_threat_indicators": {
-    "deployment_articles": 15,
+    "deployment_articles": 13,
     "conflict_articles": 7,
-    "exercise_articles": 1,
+    "exercise_articles": 0,
     "total_articles": 50,
-    "computed_at": "2026-04-17T01:15:48.066823+00:00",
+    "computed_at": "2026-04-17T04:38:17.287742+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Defense News] White House offers no hint of Iran war cost as it seeks military funding surge",
@@ -916,9 +905,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-04-17T01:15:48.066864+00:00",
+    "last_successful_update": "2026-04-17T04:38:17.287784+00:00",
     "article_count": 50,
-    "categorized_count": 21,
+    "categorized_count": 19,
     "freshest_source": "Defense News",
     "freshest_title": "White House offers no hint of Iran war cost as it seeks military funding surge",
     "freshest_published": "Thu, 16 Apr 2026 00:52:33 +0000"
