@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-04-17T14:14:37Z",
-  "version": 1009,
+  "generated_utc": "2026-04-17T15:46:05Z",
+  "version": 1010,
   "breaking_alert": "Defense News: France nears rocket artillery decision, plans ballistic missile by 2035",
   "naval_deployments": [
     {
@@ -621,9 +621,9 @@
       ]
     },
     {
-      "title": "Senate Republicans back Trump military sales to Israel",
-      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/04/16/senate-republicans-back-trump-military-sales-to-israel/",
-      "published": "Thu, 16 Apr 2026 01:25:07 +0000",
+      "title": "USS Dwight D. Eisenhower experiences small fire while undergoing maintenance",
+      "link": "https://www.militarytimes.com/news/your-navy/2026/04/17/uss-dwight-d-eisenhower-experiences-small-fire-while-undergoing-maintenance/",
+      "published": "Fri, 17 Apr 2026 15:12:58 +0000",
       "source": "Military Times",
       "categories": [
         "deployment"
@@ -888,14 +888,14 @@
     "conflict_articles": 6,
     "exercise_articles": 0,
     "total_articles": 50,
-    "computed_at": "2026-04-17T14:14:30.091407+00:00",
+    "computed_at": "2026-04-17T15:46:00.835908+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Defense News] France nears rocket artillery decision, plans ballistic missile by 2035",
       "[Defense News] Dutch broadcaster tracks carrier-group frigate with Bluetooth gadget",
       "[Defense News] US to delay weapons deliveries to some European countries due to Iran war, sources say",
       "[Military Times] US to delay weapons deliveries to some European countries due to Iran war, sources say",
-      "[Military Times] Senate Republicans back Trump military sales to Israel"
+      "[Military Times] USS Dwight D. Eisenhower experiences small fire while undergoing maintenance"
     ]
   },
   "ground_intel": {
@@ -906,7 +906,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-04-17T14:14:30.091448+00:00",
+    "last_successful_update": "2026-04-17T15:46:00.835950+00:00",
     "article_count": 50,
     "categorized_count": 16,
     "freshest_source": "Defense News",
