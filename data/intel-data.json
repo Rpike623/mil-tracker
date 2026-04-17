@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-04-17T08:19:06Z",
-  "version": 1005,
-  "breaking_alert": "Defense News: White House offers no hint of Iran war cost as it seeks military funding surge",
+  "generated_utc": "2026-04-17T10:02:22Z",
+  "version": 1006,
+  "breaking_alert": "Defense News: France nears rocket artillery decision, plans ballistic missile by 2035",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -595,15 +595,6 @@
   "_naval_news_refs": [
     {
       "title": "White House offers no hint of Iran war cost as it seeks military funding surge",
-      "link": "https://www.defensenews.com/news/pentagon-congress/2026/04/16/white-house-offers-no-hint-of-iran-war-cost-as-it-seeks-military-funding-surge/",
-      "published": "Thu, 16 Apr 2026 00:52:33 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "White House offers no hint of Iran war cost as it seeks military funding surge",
       "link": "https://www.militarytimes.com/news/pentagon-congress/2026/04/16/white-house-offers-no-hint-of-iran-war-cost-as-it-seeks-military-funding-surge/",
       "published": "Thu, 16 Apr 2026 00:52:33 +0000",
       "source": "Military Times",
@@ -679,6 +670,15 @@
       "link": "https://taskandpurpose.com/news/marines-drone-optic-2026/",
       "published": "Tue, 14 Apr 2026 14:27:48 -0400",
       "source": "Task & Purpose",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "USS Gerald R. Ford Breaks Post-Cold War Deployment Record",
+      "link": "https://news.usni.org/2026/04/15/uss-gerald-r-ford-breaks-post-cold-war-deployment-record",
+      "published": "Wed, 15 Apr 2026 14:25:05 +0000",
+      "source": "USNI News",
       "categories": [
         "deployment"
       ]
@@ -836,6 +836,15 @@
   },
   "_conflict_news_refs": [
     {
+      "title": "France nears rocket artillery decision, plans ballistic missile by 2035",
+      "link": "https://www.defensenews.com/global/europe/2026/04/17/france-nears-rocket-artillery-decision-plans-ballistic-missile-by-2035/",
+      "published": "Fri, 17 Apr 2026 08:19:24 +0000",
+      "source": "Defense News",
+      "categories": [
+        "conflict"
+      ]
+    },
+    {
       "title": "Pakistan Navy Demonstrates Precision Strike Capabilities with SMASH ASBM Test",
       "link": "https://www.navalnews.com/naval-news/2026/04/pakistan-navy-demonstrates-precision-strike-capabilities-with-asbm-test/",
       "published": "Thu, 16 Apr 2026 08:37:39 +0000",
@@ -870,27 +879,18 @@
       "categories": [
         "conflict"
       ]
-    },
-    {
-      "title": "Mystery U.S. Navy Launcher Identified as Upgraded Coyote Missile Launcher",
-      "link": "https://www.navalnews.com/naval-news/2026/04/mystery-u-s-navy-launcher-identified-as-upgraded-coyote-missile-launcher/",
-      "published": "Wed, 15 Apr 2026 15:31:27 +0000",
-      "source": "Naval News",
-      "categories": [
-        "conflict"
-      ]
     }
   ],
   "_exercise_news_refs": [],
   "_threat_indicators": {
-    "deployment_articles": 13,
-    "conflict_articles": 7,
+    "deployment_articles": 11,
+    "conflict_articles": 8,
     "exercise_articles": 0,
     "total_articles": 50,
-    "computed_at": "2026-04-17T08:18:43.470016+00:00",
-    "manual_override": "DEFCON_3",
+    "computed_at": "2026-04-17T10:02:18.300148+00:00",
+    "manual_override": "DEFCON_2",
     "breaking_events": [
-      "[Defense News] White House offers no hint of Iran war cost as it seeks military funding surge",
+      "[Defense News] France nears rocket artillery decision, plans ballistic missile by 2035",
       "[Military Times] White House offers no hint of Iran war cost as it seeks military funding surge",
       "[Defense News] Senate Republicans back Trump military sales to Israel",
       "[Military Times] Senate Republicans back Trump military sales to Israel",
@@ -905,12 +905,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-04-17T08:18:43.470057+00:00",
+    "last_successful_update": "2026-04-17T10:02:18.300189+00:00",
     "article_count": 50,
-    "categorized_count": 19,
+    "categorized_count": 18,
     "freshest_source": "Defense News",
-    "freshest_title": "White House offers no hint of Iran war cost as it seeks military funding surge",
-    "freshest_published": "Thu, 16 Apr 2026 00:52:33 +0000"
+    "freshest_title": "France nears rocket artillery decision, plans ballistic missile by 2035",
+    "freshest_published": "Fri, 17 Apr 2026 08:19:24 +0000"
   },
   "_firms_hotspots": []
 }
