@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-04-19T07:58:54Z",
-  "version": 1042,
+  "generated_utc": "2026-04-19T08:51:06Z",
+  "version": 1043,
   "breaking_alert": "Defense News: France nears rocket artillery decision, plans ballistic missile by 2035",
   "naval_deployments": [
     {
@@ -888,7 +888,7 @@
     "conflict_articles": 5,
     "exercise_articles": 0,
     "total_articles": 50,
-    "computed_at": "2026-04-19T07:58:48.911577+00:00",
+    "computed_at": "2026-04-19T08:51:04.287550+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Defense News] France nears rocket artillery decision, plans ballistic missile by 2035",
@@ -906,7 +906,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-04-19T07:58:48.911629+00:00",
+    "last_successful_update": "2026-04-19T08:51:04.287597+00:00",
     "article_count": 50,
     "categorized_count": 17,
     "freshest_source": "Defense News",
