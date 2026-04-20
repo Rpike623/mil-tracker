@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-04-20T14:48:10Z",
-  "version": 1065,
-  "breaking_alert": "Military Times: US to delay weapons deliveries to some European countries due to Iran war, sources say",
+  "generated_utc": "2026-04-20T16:00:37Z",
+  "version": 1066,
+  "breaking_alert": "Defense News: US Navy destroyer fires on cargo vessel attempting to sail to Iranian port",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -594,24 +594,6 @@
   ],
   "_naval_news_refs": [
     {
-      "title": "US to delay weapons deliveries to some European countries due to Iran war, sources say",
-      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/04/17/us-to-delay-weapons-deliveries-to-some-european-countries-due-to-iran-war-sources-say/",
-      "published": "Fri, 17 Apr 2026 13:20:50 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "USS Dwight D. Eisenhower experiences small fire while undergoing maintenance",
-      "link": "https://www.militarytimes.com/news/your-navy/2026/04/17/uss-dwight-d-eisenhower-experiences-small-fire-while-undergoing-maintenance/",
-      "published": "Fri, 17 Apr 2026 15:12:58 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "US Navy destroyer fires on cargo vessel attempting to sail to Iranian port",
       "link": "https://www.defensenews.com/news/your-military/2026/04/20/us-navy-destroyer-fires-on-cargo-vessel-attempting-to-sail-to-iranian-port/",
       "published": "Mon, 20 Apr 2026 01:00:27 +0000",
@@ -667,6 +649,15 @@
       ]
     },
     {
+      "title": "PLAN Carrier Fujian Expected to Achieve Full Readiness This Year, Chinese State Media Says",
+      "link": "https://news.usni.org/2026/04/20/plan-carrier-fujian-expected-to-achieve-full-readiness-this-year-chinese-state-media-says",
+      "published": "Mon, 20 Apr 2026 15:25:32 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "Iran war demonstrates a ‘combat credible’ Space Force, top guardian says",
       "link": "https://taskandpurpose.com/news/space-force-combat-epic-fury/",
       "published": "Sat, 18 Apr 2026 13:44:33 -0400",
@@ -677,9 +668,18 @@
     },
     {
       "title": "Vessels report being hit by gunfire as Iran says Strait of Hormuz shut again",
-      "link": "https://www.defensenews.com/news/pentagon-congress/2026/04/18/vessels-report-being-hit-by-gunfire-as-iran-says-strait-of-hormuz-shut-again/",
+      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/04/18/vessels-report-being-hit-by-gunfire-as-iran-says-strait-of-hormuz-shut-again/",
       "published": "Sat, 18 Apr 2026 15:19:25 +0000",
-      "source": "Defense News",
+      "source": "Military Times",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Marines seize Iranian cargo ship",
+      "link": "https://taskandpurpose.com/news/marines-seize-cargo-ship-iran/",
+      "published": "Sun, 19 Apr 2026 16:19:46 -0400",
+      "source": "Task & Purpose",
       "categories": [
         "deployment"
       ]
@@ -853,15 +853,6 @@
       "categories": [
         "conflict"
       ]
-    },
-    {
-      "title": "U.S. Strikes Third Suspected Narco Boat in Three Days, Three Killed",
-      "link": "https://news.usni.org/2026/04/16/u-s-strikes-third-suspected-narco-boat-in-three-days-three-killed",
-      "published": "Thu, 16 Apr 2026 13:26:35 +0000",
-      "source": "USNI News",
-      "categories": [
-        "conflict"
-      ]
     }
   ],
   "_exercise_news_refs": [
@@ -877,18 +868,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 17,
-    "conflict_articles": 3,
+    "deployment_articles": 15,
+    "conflict_articles": 2,
     "exercise_articles": 1,
     "total_articles": 50,
-    "computed_at": "2026-04-20T14:48:08.091895+00:00",
+    "computed_at": "2026-04-20T16:00:34.960149+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
-      "[Military Times] US to delay weapons deliveries to some European countries due to Iran war, sources say",
-      "[Military Times] USS Dwight D. Eisenhower experiences small fire while undergoing maintenance",
       "[Defense News] US Navy destroyer fires on cargo vessel attempting to sail to Iranian port",
       "[Military Times] US Navy destroyer fires on cargo vessel attempting to sail to Iranian port",
-      "[Naval News] Fincantieri in Malaysia: integrated naval solutions for a changing maritime landscape"
+      "[Naval News] Fincantieri in Malaysia: integrated naval solutions for a changing maritime landscape",
+      "[USNI News] U.S. Disables, Seizes Iranian Container Ship Attempting to Run Strait of Hormuz Blockade",
+      "[Defense News] Baltic nations brace for impact of Iran war delaying US weapons shipments"
     ]
   },
   "ground_intel": {
@@ -899,12 +890,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-04-20T14:48:08.091936+00:00",
+    "last_successful_update": "2026-04-20T16:00:34.960198+00:00",
     "article_count": 50,
-    "categorized_count": 20,
-    "freshest_source": "Military Times",
-    "freshest_title": "US to delay weapons deliveries to some European countries due to Iran war, sources say",
-    "freshest_published": "Fri, 17 Apr 2026 13:20:50 +0000"
+    "categorized_count": 17,
+    "freshest_source": "Defense News",
+    "freshest_title": "US Navy destroyer fires on cargo vessel attempting to sail to Iranian port",
+    "freshest_published": "Mon, 20 Apr 2026 01:00:27 +0000"
   },
   "_firms_hotspots": []
 }
