@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-04-19T23:24:53Z",
-  "version": 1058,
+  "generated_utc": "2026-04-20T01:17:57Z",
+  "version": 1059,
   "breaking_alert": "Defense News: France nears rocket artillery decision, plans ballistic missile by 2035",
   "naval_deployments": [
     {
@@ -630,6 +630,24 @@
       ]
     },
     {
+      "title": "US Navy destroyer fires on cargo vessel attempting to sail to Iranian port",
+      "link": "https://www.defensenews.com/news/your-military/2026/04/20/us-navy-destroyer-fires-on-cargo-vessel-attempting-to-sail-to-iranian-port/",
+      "published": "Mon, 20 Apr 2026 01:00:27 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "US Navy destroyer fires on cargo vessel attempting to sail to Iranian port",
+      "link": "https://www.militarytimes.com/news/your-military/2026/04/20/us-navy-destroyer-fires-on-cargo-vessel-attempting-to-sail-to-iranian-port/",
+      "published": "Mon, 20 Apr 2026 01:00:27 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "Iran war demonstrates a ‘combat credible’ Space Force, top guardian says",
       "link": "https://taskandpurpose.com/news/space-force-combat-epic-fury/",
       "published": "Sat, 18 Apr 2026 13:44:33 -0400",
@@ -661,24 +679,6 @@
       "link": "https://taskandpurpose.com/news/marines-seize-cargo-ship-iran/",
       "published": "Sun, 19 Apr 2026 16:19:46 -0400",
       "source": "Task & Purpose",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "USS Gerald R. Ford is Now Operating in the Red Sea",
-      "link": "https://news.usni.org/2026/04/19/uss-gerald-r-ford-now-operating-in-the-red-sea",
-      "published": "Sun, 19 Apr 2026 17:45:03 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "U.S. Navy Destroyer Disables Iranian-Flagged Cargo Vessel",
-      "link": "https://www.navalnews.com/naval-news/2026/04/u-s-navy-destroyer-disables-iranian-flagged-cargo-vessel/",
-      "published": "Sun, 19 Apr 2026 21:07:53 +0000",
-      "source": "Naval News",
       "categories": [
         "deployment"
       ]
@@ -884,11 +884,11 @@
   ],
   "_exercise_news_refs": [],
   "_threat_indicators": {
-    "deployment_articles": 14,
+    "deployment_articles": 16,
     "conflict_articles": 5,
     "exercise_articles": 0,
     "total_articles": 50,
-    "computed_at": "2026-04-19T23:24:49.882848+00:00",
+    "computed_at": "2026-04-20T01:17:51.624663+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Defense News] France nears rocket artillery decision, plans ballistic missile by 2035",
@@ -906,9 +906,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-04-19T23:24:49.882889+00:00",
+    "last_successful_update": "2026-04-20T01:17:51.624703+00:00",
     "article_count": 50,
-    "categorized_count": 18,
+    "categorized_count": 20,
     "freshest_source": "Defense News",
     "freshest_title": "France nears rocket artillery decision, plans ballistic missile by 2035",
     "freshest_published": "Fri, 17 Apr 2026 08:19:24 +0000"
