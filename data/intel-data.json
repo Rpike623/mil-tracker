@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-04-20T01:17:57Z",
-  "version": 1059,
+  "generated_utc": "2026-04-20T04:46:56Z",
+  "version": 1060,
   "breaking_alert": "Defense News: France nears rocket artillery decision, plans ballistic missile by 2035",
   "naval_deployments": [
     {
@@ -648,6 +648,24 @@
       ]
     },
     {
+      "title": "Fincantieri in Malaysia: integrated naval solutions for a changing maritime landscape",
+      "link": "https://www.navalnews.com/naval-news/2026/04/fincantieri-in-malaysia-integrated-naval-solutions-for-a-changing-maritime-landscape/",
+      "published": "Mon, 20 Apr 2026 01:29:00 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "U.S. Disables, Seizes Iranian Container Ship Attempting to Run Strait of Hormuz Blockade",
+      "link": "https://news.usni.org/2026/04/19/u-s-disables-seizes-iranian-container-ship-attempting-to-run-strait-of-hormuz-blockade",
+      "published": "Mon, 20 Apr 2026 02:23:13 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "Iran war demonstrates a ‘combat credible’ Space Force, top guardian says",
       "link": "https://taskandpurpose.com/news/space-force-combat-epic-fury/",
       "published": "Sat, 18 Apr 2026 13:44:33 -0400",
@@ -661,24 +679,6 @@
       "link": "https://www.defensenews.com/news/pentagon-congress/2026/04/18/vessels-report-being-hit-by-gunfire-as-iran-says-strait-of-hormuz-shut-again/",
       "published": "Sat, 18 Apr 2026 15:19:25 +0000",
       "source": "Defense News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Vessels report being hit by gunfire as Iran says Strait of Hormuz shut again",
-      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/04/18/vessels-report-being-hit-by-gunfire-as-iran-says-strait-of-hormuz-shut-again/",
-      "published": "Sat, 18 Apr 2026 15:19:25 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Marines seize Iranian cargo ship, Trump says",
-      "link": "https://taskandpurpose.com/news/marines-seize-cargo-ship-iran/",
-      "published": "Sun, 19 Apr 2026 16:19:46 -0400",
-      "source": "Task & Purpose",
       "categories": [
         "deployment"
       ]
@@ -863,16 +863,6 @@
       ]
     },
     {
-      "title": "North Korea Test Launches Anti-ship, Cruise Missiles from First-in-class Destroyer",
-      "link": "https://news.usni.org/2026/04/15/north-korea-test-launches-anti-ship-cruise-missiles-from-first-in-class-destroyer",
-      "published": "Wed, 15 Apr 2026 16:25:14 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
       "title": "U.S. Military Strikes 4th Suspected Drug Boat in Eastern Pacific in 5 Days",
       "link": "https://news.usni.org/2026/04/15/u-s-military-strikes-4th-suspected-drug-boat-in-eastern-pacific-in-5-days",
       "published": "Wed, 15 Apr 2026 20:46:04 +0000",
@@ -884,11 +874,11 @@
   ],
   "_exercise_news_refs": [],
   "_threat_indicators": {
-    "deployment_articles": 16,
-    "conflict_articles": 5,
+    "deployment_articles": 17,
+    "conflict_articles": 4,
     "exercise_articles": 0,
     "total_articles": 50,
-    "computed_at": "2026-04-20T01:17:51.624663+00:00",
+    "computed_at": "2026-04-20T04:46:53.524701+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Defense News] France nears rocket artillery decision, plans ballistic missile by 2035",
@@ -906,9 +896,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-04-20T01:17:51.624703+00:00",
+    "last_successful_update": "2026-04-20T04:46:53.524743+00:00",
     "article_count": 50,
-    "categorized_count": 20,
+    "categorized_count": 21,
     "freshest_source": "Defense News",
     "freshest_title": "France nears rocket artillery decision, plans ballistic missile by 2035",
     "freshest_published": "Fri, 17 Apr 2026 08:19:24 +0000"
