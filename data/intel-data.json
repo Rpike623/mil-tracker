@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-04-20T18:46:44Z",
-  "version": 1068,
+  "generated_utc": "2026-04-20T19:51:49Z",
+  "version": 1069,
   "breaking_alert": "Military Times: US Navy destroyer fires on cargo vessel attempting to sail to Iranian port",
   "naval_deployments": [
     {
@@ -872,7 +872,7 @@
     "conflict_articles": 2,
     "exercise_articles": 1,
     "total_articles": 50,
-    "computed_at": "2026-04-20T18:46:34.274192+00:00",
+    "computed_at": "2026-04-20T19:51:44.438746+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Military Times] US Navy destroyer fires on cargo vessel attempting to sail to Iranian port",
@@ -890,7 +890,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-04-20T18:46:34.274233+00:00",
+    "last_successful_update": "2026-04-20T19:51:44.438793+00:00",
     "article_count": 50,
     "categorized_count": 17,
     "freshest_source": "Military Times",
