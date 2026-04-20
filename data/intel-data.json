@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-04-20T16:00:37Z",
-  "version": 1066,
-  "breaking_alert": "Defense News: US Navy destroyer fires on cargo vessel attempting to sail to Iranian port",
+  "generated_utc": "2026-04-20T17:46:53Z",
+  "version": 1067,
+  "breaking_alert": "Military Times: US Navy destroyer fires on cargo vessel attempting to sail to Iranian port",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -595,15 +595,6 @@
   "_naval_news_refs": [
     {
       "title": "US Navy destroyer fires on cargo vessel attempting to sail to Iranian port",
-      "link": "https://www.defensenews.com/news/your-military/2026/04/20/us-navy-destroyer-fires-on-cargo-vessel-attempting-to-sail-to-iranian-port/",
-      "published": "Mon, 20 Apr 2026 01:00:27 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "US Navy destroyer fires on cargo vessel attempting to sail to Iranian port",
       "link": "https://www.militarytimes.com/news/your-military/2026/04/20/us-navy-destroyer-fires-on-cargo-vessel-attempting-to-sail-to-iranian-port/",
       "published": "Mon, 20 Apr 2026 01:00:27 +0000",
       "source": "Military Times",
@@ -649,6 +640,15 @@
       ]
     },
     {
+      "title": "Navy tells sailors to ‘beware’ of dating apps, button-up social media amid Iran conflict",
+      "link": "https://taskandpurpose.com/news/navy-cyber-warning-social-media/",
+      "published": "Mon, 20 Apr 2026 12:45:36 -0400",
+      "source": "Task & Purpose",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "PLAN Carrier Fujian Expected to Achieve Full Readiness This Year, Chinese State Media Says",
       "link": "https://news.usni.org/2026/04/20/plan-carrier-fujian-expected-to-achieve-full-readiness-this-year-chinese-state-media-says",
       "published": "Mon, 20 Apr 2026 15:25:32 +0000",
@@ -658,28 +658,28 @@
       ]
     },
     {
-      "title": "Iran war demonstrates a ‘combat credible’ Space Force, top guardian says",
-      "link": "https://taskandpurpose.com/news/space-force-combat-epic-fury/",
-      "published": "Sat, 18 Apr 2026 13:44:33 -0400",
-      "source": "Task & Purpose",
+      "title": "US Army turns to Ukraine-tested drones to counter Iranian UAV threat",
+      "link": "https://www.defensenews.com/unmanned/2026/04/20/us-army-turns-to-ukraine-tested-drones-to-counter-iranian-uav-threat/",
+      "published": "Mon, 20 Apr 2026 16:31:07 +0000",
+      "source": "Defense News",
       "categories": [
         "deployment"
       ]
     },
     {
-      "title": "Vessels report being hit by gunfire as Iran says Strait of Hormuz shut again",
-      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/04/18/vessels-report-being-hit-by-gunfire-as-iran-says-strait-of-hormuz-shut-again/",
-      "published": "Sat, 18 Apr 2026 15:19:25 +0000",
+      "title": "US Army turns to Ukraine-tested drones to counter Iranian UAV threat",
+      "link": "https://www.militarytimes.com/unmanned/2026/04/20/us-army-turns-to-ukraine-tested-drones-to-counter-iranian-uav-threat/",
+      "published": "Mon, 20 Apr 2026 16:31:07 +0000",
       "source": "Military Times",
       "categories": [
         "deployment"
       ]
     },
     {
-      "title": "Marines seize Iranian cargo ship",
-      "link": "https://taskandpurpose.com/news/marines-seize-cargo-ship-iran/",
-      "published": "Sun, 19 Apr 2026 16:19:46 -0400",
-      "source": "Task & Purpose",
+      "title": "USNI News Fleet and Marine Tracker: April, 20 2026",
+      "link": "https://news.usni.org/2026/04/20/usni-news-fleet-and-marine-tracker-april-20-2026",
+      "published": "Mon, 20 Apr 2026 17:26:50 +0000",
+      "source": "USNI News",
       "categories": [
         "deployment"
       ]
@@ -868,18 +868,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 15,
+    "deployment_articles": 16,
     "conflict_articles": 2,
     "exercise_articles": 1,
     "total_articles": 50,
-    "computed_at": "2026-04-20T16:00:34.960149+00:00",
+    "computed_at": "2026-04-20T17:46:47.635284+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
-      "[Defense News] US Navy destroyer fires on cargo vessel attempting to sail to Iranian port",
       "[Military Times] US Navy destroyer fires on cargo vessel attempting to sail to Iranian port",
       "[Naval News] Fincantieri in Malaysia: integrated naval solutions for a changing maritime landscape",
       "[USNI News] U.S. Disables, Seizes Iranian Container Ship Attempting to Run Strait of Hormuz Blockade",
-      "[Defense News] Baltic nations brace for impact of Iran war delaying US weapons shipments"
+      "[Defense News] Baltic nations brace for impact of Iran war delaying US weapons shipments",
+      "[Naval News] MQ-9B SeaGuardian: Enhancing Naval and Marine Corps Operations"
     ]
   },
   "ground_intel": {
@@ -890,10 +890,10 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-04-20T16:00:34.960198+00:00",
+    "last_successful_update": "2026-04-20T17:46:47.635328+00:00",
     "article_count": 50,
-    "categorized_count": 17,
-    "freshest_source": "Defense News",
+    "categorized_count": 18,
+    "freshest_source": "Military Times",
     "freshest_title": "US Navy destroyer fires on cargo vessel attempting to sail to Iranian port",
     "freshest_published": "Mon, 20 Apr 2026 01:00:27 +0000"
   },
