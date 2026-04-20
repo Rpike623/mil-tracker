@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-04-20T20:33:27Z",
-  "version": 1070,
-  "breaking_alert": "Military Times: US Navy destroyer fires on cargo vessel attempting to sail to Iranian port",
+  "generated_utc": "2026-04-20T21:35:30Z",
+  "version": 1071,
+  "breaking_alert": "Naval News: Fincantieri in Malaysia: integrated naval solutions for a changing maritime landscape",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -594,15 +594,6 @@
   ],
   "_naval_news_refs": [
     {
-      "title": "US Navy destroyer fires on cargo vessel attempting to sail to Iranian port",
-      "link": "https://www.militarytimes.com/news/your-military/2026/04/20/us-navy-destroyer-fires-on-cargo-vessel-attempting-to-sail-to-iranian-port/",
-      "published": "Mon, 20 Apr 2026 01:00:27 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Fincantieri in Malaysia: integrated naval solutions for a changing maritime landscape",
       "link": "https://www.navalnews.com/naval-news/2026/04/fincantieri-in-malaysia-integrated-naval-solutions-for-a-changing-maritime-landscape/",
       "published": "Mon, 20 Apr 2026 01:29:00 +0000",
@@ -671,6 +662,15 @@
       "link": "https://news.usni.org/2026/04/20/usni-news-fleet-and-marine-tracker-april-20-2026",
       "published": "Mon, 20 Apr 2026 17:26:50 +0000",
       "source": "USNI News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Australian Defence Strategy 2026 Spends Big On Submarines, Frigates",
+      "link": "https://www.navalnews.com/naval-news/2026/04/australian-defence-strategy-spends-big-on-submarines-frigates/",
+      "published": "Mon, 20 Apr 2026 21:32:51 +0000",
+      "source": "Naval News",
       "categories": [
         "deployment"
       ]
@@ -872,14 +872,14 @@
     "conflict_articles": 2,
     "exercise_articles": 1,
     "total_articles": 50,
-    "computed_at": "2026-04-20T20:33:21.863549+00:00",
+    "computed_at": "2026-04-20T21:35:28.743819+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
-      "[Military Times] US Navy destroyer fires on cargo vessel attempting to sail to Iranian port",
       "[Naval News] Fincantieri in Malaysia: integrated naval solutions for a changing maritime landscape",
       "[USNI News] U.S. Disables, Seizes Iranian Container Ship Attempting to Run Strait of Hormuz Blockade",
       "[Naval News] MQ-9B SeaGuardian: Enhancing Naval and Marine Corps Operations",
-      "[USNI News] U.S. Forces Strike Suspected Narco Boat, 3 Killed"
+      "[USNI News] U.S. Forces Strike Suspected Narco Boat, 3 Killed",
+      "[Task & Purpose] Navy tells sailors to ‘beware’ of dating apps, button-up social media amid Iran conflict"
     ]
   },
   "ground_intel": {
@@ -890,12 +890,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-04-20T20:33:21.863593+00:00",
+    "last_successful_update": "2026-04-20T21:35:28.743861+00:00",
     "article_count": 50,
     "categorized_count": 16,
-    "freshest_source": "Military Times",
-    "freshest_title": "US Navy destroyer fires on cargo vessel attempting to sail to Iranian port",
-    "freshest_published": "Mon, 20 Apr 2026 01:00:27 +0000"
+    "freshest_source": "Naval News",
+    "freshest_title": "Fincantieri in Malaysia: integrated naval solutions for a changing maritime landscape",
+    "freshest_published": "Mon, 20 Apr 2026 01:29:00 +0000"
   },
   "_firms_hotspots": []
 }
