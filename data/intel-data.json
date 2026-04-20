@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-04-20T11:08:59Z",
-  "version": 1063,
+  "generated_utc": "2026-04-20T12:59:04Z",
+  "version": 1064,
   "breaking_alert": "Defense News: Dutch broadcaster tracks carrier-group frigate with Bluetooth gadget",
   "naval_deployments": [
     {
@@ -675,12 +675,13 @@
       ]
     },
     {
-      "title": "Iran war demonstrates a ‘combat credible’ Space Force, top guardian says",
-      "link": "https://taskandpurpose.com/news/space-force-combat-epic-fury/",
-      "published": "Sat, 18 Apr 2026 13:44:33 -0400",
-      "source": "Task & Purpose",
+      "title": "MQ-9B SeaGuardian: Enhancing Naval and Marine Corps Operations",
+      "link": "https://www.navalnews.com/event-news/sea-air-space-2026/2026/04/mq-9b-seaguardian-enhancing-naval-and-marine-corps-operations/",
+      "published": "Mon, 20 Apr 2026 11:29:00 +0000",
+      "source": "Naval News",
       "categories": [
-        "deployment"
+        "deployment",
+        "exercise"
       ]
     }
   ],
@@ -836,6 +837,15 @@
   },
   "_conflict_news_refs": [
     {
+      "title": "U.S. Forces Strike Suspected Narco Boat, 3 Killed",
+      "link": "https://news.usni.org/2026/04/20/u-s-forces-strike-suspected-narco-boat-3-killed",
+      "published": "Mon, 20 Apr 2026 11:34:32 +0000",
+      "source": "USNI News",
+      "categories": [
+        "conflict"
+      ]
+    },
+    {
       "title": "Two soldiers wounded in a bear attack in Alaska",
       "link": "https://taskandpurpose.com/news/alaska-bear-attack-11th-airborne-soldiers/",
       "published": "Sat, 18 Apr 2026 15:02:19 -0400",
@@ -863,13 +873,24 @@
       ]
     }
   ],
-  "_exercise_news_refs": [],
+  "_exercise_news_refs": [
+    {
+      "title": "MQ-9B SeaGuardian: Enhancing Naval and Marine Corps Operations",
+      "link": "https://www.navalnews.com/event-news/sea-air-space-2026/2026/04/mq-9b-seaguardian-enhancing-naval-and-marine-corps-operations/",
+      "published": "Mon, 20 Apr 2026 11:29:00 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment",
+        "exercise"
+      ]
+    }
+  ],
   "_threat_indicators": {
-    "deployment_articles": 18,
-    "conflict_articles": 3,
-    "exercise_articles": 0,
+    "deployment_articles": 19,
+    "conflict_articles": 4,
+    "exercise_articles": 1,
     "total_articles": 50,
-    "computed_at": "2026-04-20T11:08:57.217805+00:00",
+    "computed_at": "2026-04-20T12:59:00.470324+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Defense News] Dutch broadcaster tracks carrier-group frigate with Bluetooth gadget",
@@ -887,9 +908,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-04-20T11:08:57.217846+00:00",
+    "last_successful_update": "2026-04-20T12:59:00.470366+00:00",
     "article_count": 50,
-    "categorized_count": 21,
+    "categorized_count": 23,
     "freshest_source": "Defense News",
     "freshest_title": "Dutch broadcaster tracks carrier-group frigate with Bluetooth gadget",
     "freshest_published": "Fri, 17 Apr 2026 10:53:51 +0000"
