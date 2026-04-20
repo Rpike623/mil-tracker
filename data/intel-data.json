@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-04-20T07:08:04Z",
-  "version": 1061,
-  "breaking_alert": "Defense News: France nears rocket artillery decision, plans ballistic missile by 2035",
+  "generated_utc": "2026-04-20T09:29:31Z",
+  "version": 1062,
+  "breaking_alert": "Defense News: Dutch broadcaster tracks carrier-group frigate with Bluetooth gadget",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -666,19 +666,19 @@
       ]
     },
     {
-      "title": "Iran war demonstrates a ‘combat credible’ Space Force, top guardian says",
-      "link": "https://taskandpurpose.com/news/space-force-combat-epic-fury/",
-      "published": "Sat, 18 Apr 2026 13:44:33 -0400",
-      "source": "Task & Purpose",
+      "title": "Baltic nations brace for impact of Iran war delaying US weapons shipments",
+      "link": "https://www.defensenews.com/global/europe/2026/04/20/baltic-nations-brace-for-impact-of-iran-war-delaying-us-weapons-shipments/",
+      "published": "Mon, 20 Apr 2026 08:36:48 +0000",
+      "source": "Defense News",
       "categories": [
         "deployment"
       ]
     },
     {
-      "title": "Vessels report being hit by gunfire as Iran says Strait of Hormuz shut again",
-      "link": "https://www.defensenews.com/news/pentagon-congress/2026/04/18/vessels-report-being-hit-by-gunfire-as-iran-says-strait-of-hormuz-shut-again/",
-      "published": "Sat, 18 Apr 2026 15:19:25 +0000",
-      "source": "Defense News",
+      "title": "Iran war demonstrates a ‘combat credible’ Space Force, top guardian says",
+      "link": "https://taskandpurpose.com/news/space-force-combat-epic-fury/",
+      "published": "Sat, 18 Apr 2026 13:44:33 -0400",
+      "source": "Task & Purpose",
       "categories": [
         "deployment"
       ]
@@ -836,15 +836,6 @@
   },
   "_conflict_news_refs": [
     {
-      "title": "France nears rocket artillery decision, plans ballistic missile by 2035",
-      "link": "https://www.defensenews.com/global/europe/2026/04/17/france-nears-rocket-artillery-decision-plans-ballistic-missile-by-2035/",
-      "published": "Fri, 17 Apr 2026 08:19:24 +0000",
-      "source": "Defense News",
-      "categories": [
-        "conflict"
-      ]
-    },
-    {
       "title": "Two soldiers wounded in a bear attack in Alaska",
       "link": "https://taskandpurpose.com/news/alaska-bear-attack-11th-airborne-soldiers/",
       "published": "Sat, 18 Apr 2026 15:02:19 -0400",
@@ -874,18 +865,18 @@
   ],
   "_exercise_news_refs": [],
   "_threat_indicators": {
-    "deployment_articles": 17,
-    "conflict_articles": 4,
+    "deployment_articles": 18,
+    "conflict_articles": 3,
     "exercise_articles": 0,
     "total_articles": 50,
-    "computed_at": "2026-04-20T07:08:01.586172+00:00",
+    "computed_at": "2026-04-20T09:29:28.734170+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
-      "[Defense News] France nears rocket artillery decision, plans ballistic missile by 2035",
       "[Defense News] Dutch broadcaster tracks carrier-group frigate with Bluetooth gadget",
       "[Defense News] US to delay weapons deliveries to some European countries due to Iran war, sources say",
       "[Military Times] US to delay weapons deliveries to some European countries due to Iran war, sources say",
-      "[Military Times] USS Dwight D. Eisenhower experiences small fire while undergoing maintenance"
+      "[Military Times] USS Dwight D. Eisenhower experiences small fire while undergoing maintenance",
+      "[Defense News] US Navy destroyer fires on cargo vessel attempting to sail to Iranian port"
     ]
   },
   "ground_intel": {
@@ -896,12 +887,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-04-20T07:08:01.586214+00:00",
+    "last_successful_update": "2026-04-20T09:29:28.734212+00:00",
     "article_count": 50,
     "categorized_count": 21,
     "freshest_source": "Defense News",
-    "freshest_title": "France nears rocket artillery decision, plans ballistic missile by 2035",
-    "freshest_published": "Fri, 17 Apr 2026 08:19:24 +0000"
+    "freshest_title": "Dutch broadcaster tracks carrier-group frigate with Bluetooth gadget",
+    "freshest_published": "Fri, 17 Apr 2026 10:53:51 +0000"
   },
   "_firms_hotspots": []
 }
