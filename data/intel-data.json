@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-04-21T17:48:55Z",
-  "version": 1083,
+  "generated_utc": "2026-04-21T18:52:51Z",
+  "version": 1084,
   "breaking_alert": "USNI News: U.S. Disables, Seizes Iranian Container Ship Attempting to Run Strait of Hormuz Blockade",
   "naval_deployments": [
     {
@@ -630,15 +630,6 @@
       ]
     },
     {
-      "title": "US Army turns to Ukraine-tested drones to counter Iranian UAV threat",
-      "link": "https://www.defensenews.com/unmanned/2026/04/20/us-army-turns-to-ukraine-tested-drones-to-counter-iranian-uav-threat/",
-      "published": "Mon, 20 Apr 2026 16:31:07 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "USNI News Fleet and Marine Tracker: April, 20 2026",
       "link": "https://news.usni.org/2026/04/20/usni-news-fleet-and-marine-tracker-april-20-2026",
       "published": "Mon, 20 Apr 2026 17:26:50 +0000",
@@ -678,6 +669,15 @@
       "title": "Trump’s madman diplomacy isn’t working on Iran",
       "link": "https://www.defensenews.com/opinion/2026/04/21/trumps-madman-diplomacy-isnt-working-on-iran/",
       "published": "Tue, 21 Apr 2026 10:41:11 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "US Navy unmanned surface vessel fleet to grow sevenfold in Indo-Pacific",
+      "link": "https://www.defensenews.com/newsletters/daily-news-roundup/2026/04/21/us-navy-unmanned-surface-vessel-fleet-to-grow-sevenfold-in-indo-pacific/",
+      "published": "Tue, 21 Apr 2026 17:42:57 +0000",
       "source": "Defense News",
       "categories": [
         "deployment"
@@ -860,7 +860,7 @@
     "conflict_articles": 2,
     "exercise_articles": 0,
     "total_articles": 50,
-    "computed_at": "2026-04-21T17:48:49.766677+00:00",
+    "computed_at": "2026-04-21T18:52:44.355408+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[USNI News] U.S. Disables, Seizes Iranian Container Ship Attempting to Run Strait of Hormuz Blockade",
@@ -878,7 +878,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-04-21T17:48:49.766721+00:00",
+    "last_successful_update": "2026-04-21T18:52:44.355456+00:00",
     "article_count": 50,
     "categorized_count": 13,
     "freshest_source": "USNI News",
