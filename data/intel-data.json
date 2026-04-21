@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-04-21T20:40:50Z",
-  "version": 1086,
+  "generated_utc": "2026-04-21T21:35:08Z",
+  "version": 1087,
   "breaking_alert": "USNI News: U.S. Disables, Seizes Iranian Container Ship Attempting to Run Strait of Hormuz Blockade",
   "naval_deployments": [
     {
@@ -639,15 +639,6 @@
       ]
     },
     {
-      "title": "Australian Defence Strategy 2026 Spends Big On Submarines, Frigates",
-      "link": "https://www.navalnews.com/naval-news/2026/04/australian-defence-strategy-spends-big-on-submarines-frigates/",
-      "published": "Mon, 20 Apr 2026 21:32:51 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Marines seize Iranian cargo ship",
       "link": "https://taskandpurpose.com/news/marines-seize-cargo-ship-iran/",
       "published": "Sun, 19 Apr 2026 16:19:46 -0400",
@@ -679,6 +670,15 @@
       "link": "https://www.defensenews.com/newsletters/daily-news-roundup/2026/04/21/us-navy-unmanned-surface-vessel-fleet-to-grow-sevenfold-in-indo-pacific/",
       "published": "Tue, 21 Apr 2026 17:42:57 +0000",
       "source": "Defense News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "US Navy unmanned surface vessel fleet to grow sevenfold in Indo-Pacific",
+      "link": "https://www.militarytimes.com/newsletters/daily-news-roundup/2026/04/21/us-navy-unmanned-surface-vessel-fleet-to-grow-sevenfold-in-indo-pacific/",
+      "published": "Tue, 21 Apr 2026 17:42:57 +0000",
+      "source": "Military Times",
       "categories": [
         "deployment"
       ]
@@ -878,7 +878,7 @@
     "conflict_articles": 4,
     "exercise_articles": 0,
     "total_articles": 50,
-    "computed_at": "2026-04-21T20:40:48.298663+00:00",
+    "computed_at": "2026-04-21T21:34:57.540453+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[USNI News] U.S. Disables, Seizes Iranian Container Ship Attempting to Run Strait of Hormuz Blockade",
@@ -896,7 +896,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-04-21T20:40:48.298710+00:00",
+    "last_successful_update": "2026-04-21T21:34:57.540506+00:00",
     "article_count": 50,
     "categorized_count": 16,
     "freshest_source": "USNI News",
