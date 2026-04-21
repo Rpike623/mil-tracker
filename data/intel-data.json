@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-04-21T12:58:38Z",
-  "version": 1080,
+  "generated_utc": "2026-04-21T14:27:37Z",
+  "version": 1081,
   "breaking_alert": "USNI News: U.S. Disables, Seizes Iranian Container Ship Attempting to Run Strait of Hormuz Blockade",
   "naval_deployments": [
     {
@@ -603,16 +603,6 @@
       ]
     },
     {
-      "title": "MQ-9B SeaGuardian: Enhancing Naval and Marine Corps Operations",
-      "link": "https://www.navalnews.com/event-news/sea-air-space-2026/2026/04/mq-9b-seaguardian-enhancing-naval-and-marine-corps-operations/",
-      "published": "Mon, 20 Apr 2026 11:29:00 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment",
-        "exercise"
-      ]
-    },
-    {
       "title": "Navy tells sailors to ‘beware’ of dating apps, button-up social media amid Iran conflict",
       "link": "https://taskandpurpose.com/news/navy-cyber-warning-social-media/",
       "published": "Mon, 20 Apr 2026 12:45:36 -0400",
@@ -626,6 +616,15 @@
       "link": "https://news.usni.org/2026/04/20/plan-carrier-fujian-expected-to-achieve-full-readiness-this-year-chinese-state-media-says",
       "published": "Mon, 20 Apr 2026 15:25:32 +0000",
       "source": "USNI News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "This is what we know about the Maritime Raid Force used to seize Iranian vessel",
+      "link": "https://taskandpurpose.com/news/marines-sea-raids/",
+      "published": "Mon, 20 Apr 2026 16:12:37 -0400",
+      "source": "Task & Purpose",
       "categories": [
         "deployment"
       ]
@@ -855,31 +854,20 @@
       ]
     }
   ],
-  "_exercise_news_refs": [
-    {
-      "title": "MQ-9B SeaGuardian: Enhancing Naval and Marine Corps Operations",
-      "link": "https://www.navalnews.com/event-news/sea-air-space-2026/2026/04/mq-9b-seaguardian-enhancing-naval-and-marine-corps-operations/",
-      "published": "Mon, 20 Apr 2026 11:29:00 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment",
-        "exercise"
-      ]
-    }
-  ],
+  "_exercise_news_refs": [],
   "_threat_indicators": {
     "deployment_articles": 13,
     "conflict_articles": 2,
-    "exercise_articles": 1,
+    "exercise_articles": 0,
     "total_articles": 50,
-    "computed_at": "2026-04-21T12:53:57.765479+00:00",
+    "computed_at": "2026-04-21T14:27:35.038030+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[USNI News] U.S. Disables, Seizes Iranian Container Ship Attempting to Run Strait of Hormuz Blockade",
-      "[Naval News] MQ-9B SeaGuardian: Enhancing Naval and Marine Corps Operations",
       "[USNI News] U.S. Forces Strike Suspected Narco Boat, 3 Killed",
       "[Task & Purpose] Navy tells sailors to ‘beware’ of dating apps, button-up social media amid Iran conflict",
-      "[USNI News] PLAN Carrier Fujian Expected to Achieve Full Readiness This Year, Chinese State Media Says"
+      "[USNI News] PLAN Carrier Fujian Expected to Achieve Full Readiness This Year, Chinese State Media Says",
+      "[Task & Purpose] This is what we know about the Maritime Raid Force used to seize Iranian vessel"
     ]
   },
   "ground_intel": {
@@ -890,7 +878,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-04-21T12:53:57.765527+00:00",
+    "last_successful_update": "2026-04-21T14:27:35.038078+00:00",
     "article_count": 50,
     "categorized_count": 15,
     "freshest_source": "USNI News",
