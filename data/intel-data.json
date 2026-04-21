@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-04-21T18:52:51Z",
-  "version": 1084,
+  "generated_utc": "2026-04-21T19:56:55Z",
+  "version": 1085,
   "breaking_alert": "USNI News: U.S. Disables, Seizes Iranian Container Ship Attempting to Run Strait of Hormuz Blockade",
   "naval_deployments": [
     {
@@ -852,15 +852,33 @@
       "categories": [
         "conflict"
       ]
+    },
+    {
+      "title": "US Navy to integrate PAC-3 MSE interceptor missile with Aegis Combat System",
+      "link": "https://www.defensenews.com/news/your-military/2026/04/21/us-navy-to-integrate-pac-3-mse-interceptor-missile-with-aegis-combat-system/",
+      "published": "Tue, 21 Apr 2026 19:02:34 +0000",
+      "source": "Defense News",
+      "categories": [
+        "conflict"
+      ]
+    },
+    {
+      "title": "US Navy to integrate PAC-3 MSE interceptor missile with Aegis Combat System",
+      "link": "https://www.militarytimes.com/news/your-military/2026/04/21/us-navy-to-integrate-pac-3-mse-interceptor-missile-with-aegis-combat-system/",
+      "published": "Tue, 21 Apr 2026 19:02:34 +0000",
+      "source": "Military Times",
+      "categories": [
+        "conflict"
+      ]
     }
   ],
   "_exercise_news_refs": [],
   "_threat_indicators": {
-    "deployment_articles": 11,
-    "conflict_articles": 2,
+    "deployment_articles": 12,
+    "conflict_articles": 4,
     "exercise_articles": 0,
     "total_articles": 50,
-    "computed_at": "2026-04-21T18:52:44.355408+00:00",
+    "computed_at": "2026-04-21T19:56:52.794640+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[USNI News] U.S. Disables, Seizes Iranian Container Ship Attempting to Run Strait of Hormuz Blockade",
@@ -878,9 +896,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-04-21T18:52:44.355456+00:00",
+    "last_successful_update": "2026-04-21T19:56:52.794686+00:00",
     "article_count": 50,
-    "categorized_count": 13,
+    "categorized_count": 16,
     "freshest_source": "USNI News",
     "freshest_title": "U.S. Disables, Seizes Iranian Container Ship Attempting to Run Strait of Hormuz Blockade",
     "freshest_published": "Mon, 20 Apr 2026 02:23:13 +0000"
