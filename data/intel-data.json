@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-04-21T14:27:37Z",
-  "version": 1081,
+  "generated_utc": "2026-04-21T16:01:21Z",
+  "version": 1082,
   "breaking_alert": "USNI News: U.S. Disables, Seizes Iranian Container Ship Attempting to Run Strait of Hormuz Blockade",
   "naval_deployments": [
     {
@@ -666,19 +666,19 @@
       ]
     },
     {
-      "title": "Iran war demonstrates a ‘combat credible’ Space Force, top guardian says",
-      "link": "https://taskandpurpose.com/news/space-force-combat-epic-fury/",
-      "published": "Sat, 18 Apr 2026 13:44:33 -0400",
+      "title": "Marines seize Iranian cargo ship",
+      "link": "https://taskandpurpose.com/news/marines-seize-cargo-ship-iran/",
+      "published": "Sun, 19 Apr 2026 16:19:46 -0400",
       "source": "Task & Purpose",
       "categories": [
         "deployment"
       ]
     },
     {
-      "title": "Marines seize Iranian cargo ship",
-      "link": "https://taskandpurpose.com/news/marines-seize-cargo-ship-iran/",
-      "published": "Sun, 19 Apr 2026 16:19:46 -0400",
-      "source": "Task & Purpose",
+      "title": "USS Gerald R. Ford is Now Operating in the Red Sea",
+      "link": "https://news.usni.org/2026/04/19/uss-gerald-r-ford-now-operating-in-the-red-sea",
+      "published": "Sun, 19 Apr 2026 17:45:03 +0000",
+      "source": "USNI News",
       "categories": [
         "deployment"
       ]
@@ -856,11 +856,11 @@
   ],
   "_exercise_news_refs": [],
   "_threat_indicators": {
-    "deployment_articles": 13,
+    "deployment_articles": 11,
     "conflict_articles": 2,
     "exercise_articles": 0,
     "total_articles": 50,
-    "computed_at": "2026-04-21T14:27:35.038030+00:00",
+    "computed_at": "2026-04-21T16:01:17.705474+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[USNI News] U.S. Disables, Seizes Iranian Container Ship Attempting to Run Strait of Hormuz Blockade",
@@ -878,9 +878,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-04-21T14:27:35.038078+00:00",
+    "last_successful_update": "2026-04-21T16:01:17.705521+00:00",
     "article_count": 50,
-    "categorized_count": 15,
+    "categorized_count": 13,
     "freshest_source": "USNI News",
     "freshest_title": "U.S. Disables, Seizes Iranian Container Ship Attempting to Run Strait of Hormuz Blockade",
     "freshest_published": "Mon, 20 Apr 2026 02:23:13 +0000"
