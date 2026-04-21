@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-04-20T23:31:30Z",
-  "version": 1073,
+  "generated_utc": "2026-04-21T01:15:34Z",
+  "version": 1074,
   "breaking_alert": "Naval News: Fincantieri in Malaysia: integrated naval solutions for a changing maritime landscape",
   "naval_deployments": [
     {
@@ -872,7 +872,7 @@
     "conflict_articles": 2,
     "exercise_articles": 1,
     "total_articles": 50,
-    "computed_at": "2026-04-20T23:31:28.358979+00:00",
+    "computed_at": "2026-04-21T01:15:30.098144+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] Fincantieri in Malaysia: integrated naval solutions for a changing maritime landscape",
@@ -890,7 +890,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-04-20T23:31:28.359025+00:00",
+    "last_successful_update": "2026-04-21T01:15:30.098205+00:00",
     "article_count": 50,
     "categorized_count": 16,
     "freshest_source": "Naval News",
