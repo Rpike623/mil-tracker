@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-04-22T16:59:28Z",
-  "version": 1099,
+  "generated_utc": "2026-04-22T17:59:21Z",
+  "version": 1100,
   "breaking_alert": "USNI News: U.S. Disables, Seizes Iranian Container Ship Attempting to Run Strait of Hormuz Blockade",
   "naval_deployments": [
     {
@@ -639,15 +639,6 @@
       ]
     },
     {
-      "title": "Marines seize Iranian cargo ship",
-      "link": "https://taskandpurpose.com/news/marines-seize-cargo-ship-iran/",
-      "published": "Sun, 19 Apr 2026 16:19:46 -0400",
-      "source": "Task & Purpose",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "US Navy unmanned surface vessel fleet to grow sevenfold in Indo-Pacific",
       "link": "https://www.defensenews.com/industry/techwatch/2026/04/21/us-navy-unmanned-surface-vessel-fleet-to-grow-sevenfold-in-indo-pacific/",
       "published": "Tue, 21 Apr 2026 17:42:57 +0000",
@@ -679,6 +670,15 @@
       "link": "https://www.militarytimes.com/news/pentagon-congress/2026/04/21/pentagon-seeks-funds-for-golden-dome-drones-ai-in-largest-ever-budget-request/",
       "published": "Tue, 21 Apr 2026 18:58:09 +0000",
       "source": "Military Times",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "AV demonstrates LOCUST Laser Weapon System aboard Aircraft Carrier",
+      "link": "https://www.navalnews.com/event-news/sea-air-space-2026/2026/04/av-demonstrates-locust-laser-weapon-system-aboard-aircraft-carrier/",
+      "published": "Tue, 21 Apr 2026 21:06:50 +0000",
+      "source": "Naval News",
       "categories": [
         "deployment"
       ]
@@ -893,11 +893,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 15,
+    "deployment_articles": 14,
     "conflict_articles": 5,
     "exercise_articles": 1,
     "total_articles": 50,
-    "computed_at": "2026-04-22T16:59:12.217562+00:00",
+    "computed_at": "2026-04-22T17:59:04.171019+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[USNI News] U.S. Disables, Seizes Iranian Container Ship Attempting to Run Strait of Hormuz Blockade",
@@ -915,9 +915,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-04-22T16:59:12.217608+00:00",
+    "last_successful_update": "2026-04-22T17:59:04.171065+00:00",
     "article_count": 50,
-    "categorized_count": 21,
+    "categorized_count": 20,
     "freshest_source": "USNI News",
     "freshest_title": "U.S. Disables, Seizes Iranian Container Ship Attempting to Run Strait of Hormuz Blockade",
     "freshest_published": "Mon, 20 Apr 2026 02:23:13 +0000"
