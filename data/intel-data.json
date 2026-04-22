@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-04-22T21:40:13Z",
-  "version": 1103,
-  "breaking_alert": "Task & Purpose: Navy tells sailors to ‘beware’ of dating apps, button-up social media amid Iran conflict",
+  "generated_utc": "2026-04-22T22:36:04Z",
+  "version": 1104,
+  "breaking_alert": "Task & Purpose: This is what we know about the Maritime Raid Force used to seize Iranian vessel",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -594,24 +594,6 @@
   ],
   "_naval_news_refs": [
     {
-      "title": "Navy tells sailors to ‘beware’ of dating apps, button-up social media amid Iran conflict",
-      "link": "https://taskandpurpose.com/news/navy-cyber-warning-social-media/",
-      "published": "Mon, 20 Apr 2026 12:45:36 -0400",
-      "source": "Task & Purpose",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "PLAN Carrier Fujian Expected to Achieve Full Readiness This Year, Chinese State Media Says",
-      "link": "https://news.usni.org/2026/04/20/plan-carrier-fujian-expected-to-achieve-full-readiness-this-year-chinese-state-media-says",
-      "published": "Mon, 20 Apr 2026 15:25:32 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "This is what we know about the Maritime Raid Force used to seize Iranian vessel",
       "link": "https://taskandpurpose.com/news/marines-sea-raids/",
       "published": "Mon, 20 Apr 2026 16:12:37 -0400",
@@ -625,15 +607,6 @@
       "link": "https://news.usni.org/2026/04/20/usni-news-fleet-and-marine-tracker-april-20-2026",
       "published": "Mon, 20 Apr 2026 17:26:50 +0000",
       "source": "USNI News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "US Navy unmanned surface vessel fleet to grow sevenfold in Indo-Pacific",
-      "link": "https://www.defensenews.com/industry/techwatch/2026/04/21/us-navy-unmanned-surface-vessel-fleet-to-grow-sevenfold-in-indo-pacific/",
-      "published": "Tue, 21 Apr 2026 17:42:57 +0000",
-      "source": "Defense News",
       "categories": [
         "deployment"
       ]
@@ -666,18 +639,45 @@
       ]
     },
     {
-      "title": "Saildrone announces new USV class aimed at anti-submarine warfare",
-      "link": "https://www.militarytimes.com/industry/techwatch/2026/04/21/saildrone-announces-new-usv-class-aimed-at-anti-submarine-warfare/",
-      "published": "Tue, 21 Apr 2026 21:33:36 +0000",
-      "source": "Military Times",
+      "title": "Navy Reviewing Ford-class Carrier Design Ahead of Future Contract Awards",
+      "link": "https://news.usni.org/2026/04/21/navy-reviewing-ford-class-carrier-design-ahead-of-future-contract-awards",
+      "published": "Tue, 21 Apr 2026 22:57:44 +0000",
+      "source": "USNI News",
       "categories": [
         "deployment"
       ]
     },
     {
-      "title": "Navy Reviewing Ford-class Carrier Design Ahead of Future Contract Awards",
-      "link": "https://news.usni.org/2026/04/21/navy-reviewing-ford-class-carrier-design-ahead-of-future-contract-awards",
-      "published": "Tue, 21 Apr 2026 22:57:44 +0000",
+      "title": "Babcock completes major maintenance programme supporting UK carrier capability",
+      "link": "https://www.navalnews.com/naval-news/2026/04/babcock-completes-major-maintenance-programme-supporting-uk-carrier-capability/",
+      "published": "Wed, 22 Apr 2026 08:09:12 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Air Force wants to use lasers to help protect rescue helicopters after Iran mission",
+      "link": "https://taskandpurpose.com/news/air-force-lasers-HH-60Ws/",
+      "published": "Wed, 22 Apr 2026 14:30:50 -0400",
+      "source": "Task & Purpose",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Iran Conflict Holds Lessons for U.S., Adversaries, IndoPACOM Commander Says",
+      "link": "https://news.usni.org/2026/04/22/iran-conflict-holds-lessons-for-u-s-adversaries-indopacom-commander-says",
+      "published": "Wed, 22 Apr 2026 19:26:19 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "3 Sailors Injured in Fire Aboard USS Zumwalt",
+      "link": "https://news.usni.org/2026/04/22/3-sailors-injured-in-fire-aboard-destroyer-uss-zumwalt",
+      "published": "Wed, 22 Apr 2026 20:28:06 +0000",
       "source": "USNI News",
       "categories": [
         "deployment"
@@ -845,15 +845,6 @@
       ]
     },
     {
-      "title": "US Navy to integrate PAC-3 MSE interceptor missile with Aegis Combat System",
-      "link": "https://www.militarytimes.com/news/your-military/2026/04/21/us-navy-to-integrate-pac-3-mse-interceptor-missile-with-aegis-combat-system/",
-      "published": "Tue, 21 Apr 2026 19:02:34 +0000",
-      "source": "Military Times",
-      "categories": [
-        "conflict"
-      ]
-    },
-    {
       "title": "Pakistan Navy Performs Taimoor Air-launched Cruise Missile Firing",
       "link": "https://www.navalnews.com/naval-news/2026/04/pakistan-navy-performs-taimoor-air-launched-cruise-missile-firing/",
       "published": "Wed, 22 Apr 2026 08:50:19 +0000",
@@ -879,6 +870,15 @@
       "categories": [
         "conflict"
       ]
+    },
+    {
+      "title": "U.S. Navy’s New Anti-Radar Missile to Suffer ‘Strategic Pause’",
+      "link": "https://www.navalnews.com/event-news/sea-air-space-2026/2026/04/u-s-navys-new-anti-radar-missile-to-suffer-strategic-pause/",
+      "published": "Wed, 22 Apr 2026 18:43:18 +0000",
+      "source": "Naval News",
+      "categories": [
+        "conflict"
+      ]
     }
   ],
   "_exercise_news_refs": [
@@ -893,18 +893,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 14,
-    "conflict_articles": 6,
+    "deployment_articles": 10,
+    "conflict_articles": 5,
     "exercise_articles": 1,
     "total_articles": 50,
-    "computed_at": "2026-04-22T21:40:03.049942+00:00",
+    "computed_at": "2026-04-22T22:36:01.873743+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
-      "[Task & Purpose] Navy tells sailors to ‘beware’ of dating apps, button-up social media amid Iran conflict",
-      "[USNI News] PLAN Carrier Fujian Expected to Achieve Full Readiness This Year, Chinese State Media Says",
       "[Task & Purpose] This is what we know about the Maritime Raid Force used to seize Iranian vessel",
       "[USNI News] USNI News Fleet and Marine Tracker: April, 20 2026",
-      "[Defense News] US Navy unmanned surface vessel fleet to grow sevenfold in Indo-Pacific"
+      "[Defense News] Pentagon seeks funds for Golden Dome, drones, AI in largest-ever budget request",
+      "[Defense News] US Navy to integrate PAC-3 MSE interceptor missile with Aegis Combat System",
+      "[Naval News] AV demonstrates LOCUST Laser Weapon System aboard Aircraft Carrier"
     ]
   },
   "ground_intel": {
@@ -915,12 +915,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-04-22T21:40:03.049989+00:00",
+    "last_successful_update": "2026-04-22T22:36:01.873778+00:00",
     "article_count": 50,
-    "categorized_count": 21,
+    "categorized_count": 16,
     "freshest_source": "Task & Purpose",
-    "freshest_title": "Navy tells sailors to ‘beware’ of dating apps, button-up social media amid Iran conflict",
-    "freshest_published": "Mon, 20 Apr 2026 12:45:36 -0400"
+    "freshest_title": "This is what we know about the Maritime Raid Force used to seize Iranian vessel",
+    "freshest_published": "Mon, 20 Apr 2026 16:12:37 -0400"
   },
   "_firms_hotspots": []
 }
