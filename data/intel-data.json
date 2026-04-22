@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-04-22T15:59:47Z",
-  "version": 1098,
+  "generated_utc": "2026-04-22T16:59:28Z",
+  "version": 1099,
   "breaking_alert": "USNI News: U.S. Disables, Seizes Iranian Container Ship Attempting to Run Strait of Hormuz Blockade",
   "naval_deployments": [
     {
@@ -648,15 +648,6 @@
       ]
     },
     {
-      "title": "USS Gerald R. Ford is Now Operating in the Red Sea",
-      "link": "https://news.usni.org/2026/04/19/uss-gerald-r-ford-now-operating-in-the-red-sea",
-      "published": "Sun, 19 Apr 2026 17:45:03 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "US Navy unmanned surface vessel fleet to grow sevenfold in Indo-Pacific",
       "link": "https://www.defensenews.com/industry/techwatch/2026/04/21/us-navy-unmanned-surface-vessel-fleet-to-grow-sevenfold-in-indo-pacific/",
       "published": "Tue, 21 Apr 2026 17:42:57 +0000",
@@ -679,6 +670,15 @@
       "link": "https://www.defensenews.com/news/pentagon-congress/2026/04/21/pentagon-seeks-funds-for-golden-dome-drones-ai-in-largest-ever-budget-request/",
       "published": "Tue, 21 Apr 2026 18:58:09 +0000",
       "source": "Defense News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Pentagon seeks funds for Golden Dome, drones, AI in largest-ever budget request",
+      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/04/21/pentagon-seeks-funds-for-golden-dome-drones-ai-in-largest-ever-budget-request/",
+      "published": "Tue, 21 Apr 2026 18:58:09 +0000",
+      "source": "Military Times",
       "categories": [
         "deployment"
       ]
@@ -893,11 +893,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 16,
+    "deployment_articles": 15,
     "conflict_articles": 5,
     "exercise_articles": 1,
     "total_articles": 50,
-    "computed_at": "2026-04-22T15:59:29.836205+00:00",
+    "computed_at": "2026-04-22T16:59:12.217562+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[USNI News] U.S. Disables, Seizes Iranian Container Ship Attempting to Run Strait of Hormuz Blockade",
@@ -915,9 +915,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-04-22T15:59:29.836253+00:00",
+    "last_successful_update": "2026-04-22T16:59:12.217608+00:00",
     "article_count": 50,
-    "categorized_count": 22,
+    "categorized_count": 21,
     "freshest_source": "USNI News",
     "freshest_title": "U.S. Disables, Seizes Iranian Container Ship Attempting to Run Strait of Hormuz Blockade",
     "freshest_published": "Mon, 20 Apr 2026 02:23:13 +0000"
