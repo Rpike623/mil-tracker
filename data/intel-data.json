@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-04-22T20:40:40Z",
-  "version": 1102,
+  "generated_utc": "2026-04-22T21:40:13Z",
+  "version": 1103,
   "breaking_alert": "Task & Purpose: Navy tells sailors to ‘beware’ of dating apps, button-up social media amid Iran conflict",
   "naval_deployments": [
     {
@@ -863,20 +863,19 @@
       ]
     },
     {
-      "title": "Air Force bulking up missile defense on rescue helicopters after Iran mission",
-      "link": "https://taskandpurpose.com/news/air-force-lasers-HH-60Ws/",
-      "published": "Wed, 22 Apr 2026 14:30:50 -0400",
-      "source": "Task & Purpose",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
       "title": "Northrop Grumman and Hanwha Sign MOA for Advanced Reactive Strike Capability",
       "link": "https://www.navalnews.com/event-news/sea-air-space-2026/2026/04/northrop-grumman-and-hanwha-sign-moa-for-advanced-reactive-strike-capability/",
       "published": "Wed, 22 Apr 2026 14:37:01 +0000",
       "source": "Naval News",
+      "categories": [
+        "conflict"
+      ]
+    },
+    {
+      "title": "Navy Tests Long-Range Munition Capable of Maritime Strike, Mining Missions",
+      "link": "https://news.usni.org/2026/04/22/navy-tests-long-range-munition-capable-of-maritime-strike-mining-missions",
+      "published": "Wed, 22 Apr 2026 18:29:41 +0000",
+      "source": "USNI News",
       "categories": [
         "conflict"
       ]
@@ -895,10 +894,10 @@
   ],
   "_threat_indicators": {
     "deployment_articles": 14,
-    "conflict_articles": 7,
+    "conflict_articles": 6,
     "exercise_articles": 1,
     "total_articles": 50,
-    "computed_at": "2026-04-22T20:40:38.090132+00:00",
+    "computed_at": "2026-04-22T21:40:03.049942+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Task & Purpose] Navy tells sailors to ‘beware’ of dating apps, button-up social media amid Iran conflict",
@@ -916,7 +915,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-04-22T20:40:38.090178+00:00",
+    "last_successful_update": "2026-04-22T21:40:03.049989+00:00",
     "article_count": 50,
     "categorized_count": 21,
     "freshest_source": "Task & Purpose",
