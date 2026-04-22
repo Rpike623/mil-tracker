@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-04-22T08:22:20Z",
-  "version": 1093,
+  "generated_utc": "2026-04-22T10:07:45Z",
+  "version": 1094,
   "breaking_alert": "USNI News: U.S. Disables, Seizes Iranian Container Ship Attempting to Run Strait of Hormuz Blockade",
   "naval_deployments": [
     {
@@ -870,15 +870,24 @@
       "categories": [
         "conflict"
       ]
+    },
+    {
+      "title": "Pakistan Navy Performs Taimoor Air-launched Cruise Missile Firing",
+      "link": "https://www.navalnews.com/naval-news/2026/04/pakistan-navy-performs-taimoor-air-launched-cruise-missile-firing/",
+      "published": "Wed, 22 Apr 2026 08:50:19 +0000",
+      "source": "Naval News",
+      "categories": [
+        "conflict"
+      ]
     }
   ],
   "_exercise_news_refs": [],
   "_threat_indicators": {
     "deployment_articles": 16,
-    "conflict_articles": 4,
+    "conflict_articles": 5,
     "exercise_articles": 0,
     "total_articles": 50,
-    "computed_at": "2026-04-22T08:22:17.784059+00:00",
+    "computed_at": "2026-04-22T10:07:42.909126+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[USNI News] U.S. Disables, Seizes Iranian Container Ship Attempting to Run Strait of Hormuz Blockade",
@@ -896,9 +905,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-04-22T08:22:17.784108+00:00",
+    "last_successful_update": "2026-04-22T10:07:42.909172+00:00",
     "article_count": 50,
-    "categorized_count": 20,
+    "categorized_count": 21,
     "freshest_source": "USNI News",
     "freshest_title": "U.S. Disables, Seizes Iranian Container Ship Attempting to Run Strait of Hormuz Blockade",
     "freshest_published": "Mon, 20 Apr 2026 02:23:13 +0000"
