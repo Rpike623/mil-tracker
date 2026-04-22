@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-04-22T12:54:21Z",
-  "version": 1096,
+  "generated_utc": "2026-04-22T14:28:21Z",
+  "version": 1097,
   "breaking_alert": "USNI News: U.S. Disables, Seizes Iranian Container Ship Attempting to Run Strait of Hormuz Blockade",
   "naval_deployments": [
     {
@@ -845,15 +845,6 @@
       ]
     },
     {
-      "title": "Two soldiers wounded in a bear attack in Alaska",
-      "link": "https://taskandpurpose.com/news/alaska-bear-attack-11th-airborne-soldiers/",
-      "published": "Sat, 18 Apr 2026 15:02:19 -0400",
-      "source": "Task & Purpose",
-      "categories": [
-        "conflict"
-      ]
-    },
-    {
       "title": "US Navy to integrate PAC-3 MSE interceptor missile with Aegis Combat System",
       "link": "https://www.defensenews.com/news/your-military/2026/04/21/us-navy-to-integrate-pac-3-mse-interceptor-missile-with-aegis-combat-system/",
       "published": "Tue, 21 Apr 2026 19:02:34 +0000",
@@ -881,13 +872,23 @@
       ]
     }
   ],
-  "_exercise_news_refs": [],
+  "_exercise_news_refs": [
+    {
+      "title": "Russia could be ready for NATO conflict year after Ukraine, Dutch warn",
+      "link": "https://www.defensenews.com/global/europe/2026/04/22/russia-could-be-ready-for-nato-conflict-year-after-ukraine-dutch-warn/",
+      "published": "Wed, 22 Apr 2026 13:34:20 +0000",
+      "source": "Defense News",
+      "categories": [
+        "exercise"
+      ]
+    }
+  ],
   "_threat_indicators": {
     "deployment_articles": 16,
-    "conflict_articles": 5,
-    "exercise_articles": 0,
+    "conflict_articles": 4,
+    "exercise_articles": 1,
     "total_articles": 50,
-    "computed_at": "2026-04-22T12:54:05.021445+00:00",
+    "computed_at": "2026-04-22T14:28:06.326052+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[USNI News] U.S. Disables, Seizes Iranian Container Ship Attempting to Run Strait of Hormuz Blockade",
@@ -905,7 +906,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-04-22T12:54:05.021493+00:00",
+    "last_successful_update": "2026-04-22T14:28:06.326102+00:00",
     "article_count": 50,
     "categorized_count": 21,
     "freshest_source": "USNI News",
