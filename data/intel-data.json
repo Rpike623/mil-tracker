@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-04-22T14:28:21Z",
-  "version": 1097,
+  "generated_utc": "2026-04-22T15:59:47Z",
+  "version": 1098,
   "breaking_alert": "USNI News: U.S. Disables, Seizes Iranian Container Ship Attempting to Run Strait of Hormuz Blockade",
   "naval_deployments": [
     {
@@ -870,6 +870,15 @@
       "categories": [
         "conflict"
       ]
+    },
+    {
+      "title": "Northrop Grumman and Hanwha Sign MOA for Advanced Reactive Strike Capability",
+      "link": "https://www.navalnews.com/event-news/sea-air-space-2026/2026/04/northrop-grumman-and-hanwha-sign-moa-for-advanced-reactive-strike-capability/",
+      "published": "Wed, 22 Apr 2026 14:37:01 +0000",
+      "source": "Naval News",
+      "categories": [
+        "conflict"
+      ]
     }
   ],
   "_exercise_news_refs": [
@@ -885,10 +894,10 @@
   ],
   "_threat_indicators": {
     "deployment_articles": 16,
-    "conflict_articles": 4,
+    "conflict_articles": 5,
     "exercise_articles": 1,
     "total_articles": 50,
-    "computed_at": "2026-04-22T14:28:06.326052+00:00",
+    "computed_at": "2026-04-22T15:59:29.836205+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[USNI News] U.S. Disables, Seizes Iranian Container Ship Attempting to Run Strait of Hormuz Blockade",
@@ -906,9 +915,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-04-22T14:28:06.326102+00:00",
+    "last_successful_update": "2026-04-22T15:59:29.836253+00:00",
     "article_count": 50,
-    "categorized_count": 21,
+    "categorized_count": 22,
     "freshest_source": "USNI News",
     "freshest_title": "U.S. Disables, Seizes Iranian Container Ship Attempting to Run Strait of Hormuz Blockade",
     "freshest_published": "Mon, 20 Apr 2026 02:23:13 +0000"
