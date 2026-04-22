@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-04-22T11:49:16Z",
-  "version": 1095,
+  "generated_utc": "2026-04-22T12:54:21Z",
+  "version": 1096,
   "breaking_alert": "USNI News: U.S. Disables, Seizes Iranian Container Ship Attempting to Run Strait of Hormuz Blockade",
   "naval_deployments": [
     {
@@ -887,7 +887,7 @@
     "conflict_articles": 5,
     "exercise_articles": 0,
     "total_articles": 50,
-    "computed_at": "2026-04-22T11:49:08.987431+00:00",
+    "computed_at": "2026-04-22T12:54:05.021445+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[USNI News] U.S. Disables, Seizes Iranian Container Ship Attempting to Run Strait of Hormuz Blockade",
@@ -905,7 +905,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-04-22T11:49:08.987478+00:00",
+    "last_successful_update": "2026-04-22T12:54:05.021493+00:00",
     "article_count": 50,
     "categorized_count": 21,
     "freshest_source": "USNI News",
