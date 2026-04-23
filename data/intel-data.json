@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-04-23T12:54:05Z",
-  "version": 1112,
+  "generated_utc": "2026-04-23T15:05:17Z",
+  "version": 1113,
   "breaking_alert": "USNI News: USNI News Fleet and Marine Tracker: April, 20 2026",
   "naval_deployments": [
     {
@@ -854,15 +854,6 @@
       ]
     },
     {
-      "title": "Pakistan Navy Performs Taimoor Air-launched Cruise Missile Firing",
-      "link": "https://www.navalnews.com/naval-news/2026/04/pakistan-navy-performs-taimoor-air-launched-cruise-missile-firing/",
-      "published": "Wed, 22 Apr 2026 08:50:19 +0000",
-      "source": "Naval News",
-      "categories": [
-        "conflict"
-      ]
-    },
-    {
       "title": "Northrop Grumman and Hanwha Sign MOA for Advanced Reactive Strike Capability",
       "link": "https://www.navalnews.com/event-news/sea-air-space-2026/2026/04/northrop-grumman-and-hanwha-sign-moa-for-advanced-reactive-strike-capability/",
       "published": "Wed, 22 Apr 2026 14:37:01 +0000",
@@ -870,9 +861,27 @@
       "categories": [
         "conflict"
       ]
+    },
+    {
+      "title": "Navy Tests Long-Range Munition Capable of Maritime Strike, Mining Missions",
+      "link": "https://news.usni.org/2026/04/22/navy-tests-long-range-munition-capable-of-maritime-strike-mining-missions",
+      "published": "Wed, 22 Apr 2026 18:29:41 +0000",
+      "source": "USNI News",
+      "categories": [
+        "conflict"
+      ]
     }
   ],
   "_exercise_news_refs": [
+    {
+      "title": "NATO DIANA’s Rapid Adoption Service enables first R&D contract between Allies and industry",
+      "link": "https://www.navalnews.com/naval-news/2026/04/nato-dianas-rapid-adoption-service-enables-first-rd-contract-between-allies-and-industry/",
+      "published": "Thu, 23 Apr 2026 13:15:24 +0000",
+      "source": "Naval News",
+      "categories": [
+        "exercise"
+      ]
+    },
     {
       "title": "Russia could be ready for NATO conflict year after Ukraine, Dutch warn",
       "link": "https://www.defensenews.com/global/europe/2026/04/22/russia-could-be-ready-for-nato-conflict-year-after-ukraine-dutch-warn/",
@@ -885,10 +894,10 @@
   ],
   "_threat_indicators": {
     "deployment_articles": 9,
-    "conflict_articles": 7,
-    "exercise_articles": 1,
+    "conflict_articles": 6,
+    "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-04-23T12:53:54.946775+00:00",
+    "computed_at": "2026-04-23T15:04:59.788992+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[USNI News] USNI News Fleet and Marine Tracker: April, 20 2026",
@@ -906,7 +915,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-04-23T12:53:54.946820+00:00",
+    "last_successful_update": "2026-04-23T15:04:59.789041+00:00",
     "article_count": 50,
     "categorized_count": 17,
     "freshest_source": "USNI News",
