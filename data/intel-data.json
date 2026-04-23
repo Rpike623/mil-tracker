@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-04-23T01:19:13Z",
-  "version": 1106,
+  "generated_utc": "2026-04-23T04:40:31Z",
+  "version": 1107,
   "breaking_alert": "Task & Purpose: This is what we know about the Maritime Raid Force used to seize Iranian vessel",
   "naval_deployments": [
     {
@@ -675,7 +675,7 @@
       ]
     },
     {
-      "title": "Iran Conflict Holds Lessons for U.S., Adversaries, IndoPACOM Commander Says",
+      "title": "Iran Conflict Holds Lessons for U.S., Adversaries, INDOPACOM Commander Says",
       "link": "https://news.usni.org/2026/04/22/iran-conflict-holds-lessons-for-u-s-adversaries-indopacom-commander-says",
       "published": "Wed, 22 Apr 2026 19:26:19 +0000",
       "source": "USNI News",
@@ -897,7 +897,7 @@
     "conflict_articles": 5,
     "exercise_articles": 1,
     "total_articles": 50,
-    "computed_at": "2026-04-23T01:19:05.115282+00:00",
+    "computed_at": "2026-04-23T04:40:25.968295+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Task & Purpose] This is what we know about the Maritime Raid Force used to seize Iranian vessel",
@@ -915,7 +915,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-04-23T01:19:05.115324+00:00",
+    "last_successful_update": "2026-04-23T04:40:25.968342+00:00",
     "article_count": 50,
     "categorized_count": 17,
     "freshest_source": "Task & Purpose",
