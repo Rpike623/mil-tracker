@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-04-23T08:26:18Z",
-  "version": 1109,
+  "generated_utc": "2026-04-23T10:11:38Z",
+  "version": 1110,
   "breaking_alert": "Task & Purpose: This is what we know about the Maritime Raid Force used to seize Iranian vessel",
   "naval_deployments": [
     {
@@ -639,15 +639,6 @@
       ]
     },
     {
-      "title": "AV demonstrates LOCUST Laser Weapon System aboard Aircraft Carrier",
-      "link": "https://www.navalnews.com/event-news/sea-air-space-2026/2026/04/av-demonstrates-locust-laser-weapon-system-aboard-aircraft-carrier/",
-      "published": "Tue, 21 Apr 2026 21:06:50 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Saildrone announces new USV class aimed at anti-submarine warfare",
       "link": "https://www.defensenews.com/industry/techwatch/2026/04/21/saildrone-announces-new-usv-class-aimed-at-anti-submarine-warfare/",
       "published": "Tue, 21 Apr 2026 21:33:36 +0000",
@@ -679,6 +670,15 @@
       "link": "https://taskandpurpose.com/news/air-force-lasers-HH-60Ws/",
       "published": "Wed, 22 Apr 2026 14:30:50 -0400",
       "source": "Task & Purpose",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Iran Conflict Holds Lessons for U.S., Adversaries, INDOPACOM Commander Says",
+      "link": "https://news.usni.org/2026/04/22/iran-conflict-holds-lessons-for-u-s-adversaries-indopacom-commander-says",
+      "published": "Wed, 22 Apr 2026 19:26:19 +0000",
+      "source": "USNI News",
       "categories": [
         "deployment"
       ]
@@ -836,6 +836,15 @@
   },
   "_conflict_news_refs": [
     {
+      "title": "Malaysia taps Roketsan for Atmaca anti-ship missiles",
+      "link": "https://www.navalnews.com/naval-news/2026/04/malaysia-taps-roketsan-for-atmaca-anti-ship-missiles/",
+      "published": "Thu, 23 Apr 2026 08:34:36 +0000",
+      "source": "Naval News",
+      "categories": [
+        "conflict"
+      ]
+    },
+    {
       "title": "US Navy to integrate PAC-3 MSE interceptor missile with Aegis Combat System",
       "link": "https://www.defensenews.com/news/your-military/2026/04/21/us-navy-to-integrate-pac-3-mse-interceptor-missile-with-aegis-combat-system/",
       "published": "Tue, 21 Apr 2026 19:02:34 +0000",
@@ -870,15 +879,6 @@
       "categories": [
         "conflict"
       ]
-    },
-    {
-      "title": "U.S. Navy’s New Anti-Radar Missile to Suffer ‘Strategic Pause’",
-      "link": "https://www.navalnews.com/event-news/sea-air-space-2026/2026/04/u-s-navys-new-anti-radar-missile-to-suffer-strategic-pause/",
-      "published": "Wed, 22 Apr 2026 18:43:18 +0000",
-      "source": "Naval News",
-      "categories": [
-        "conflict"
-      ]
     }
   ],
   "_exercise_news_refs": [
@@ -893,18 +893,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 12,
-    "conflict_articles": 5,
+    "deployment_articles": 11,
+    "conflict_articles": 6,
     "exercise_articles": 1,
     "total_articles": 50,
-    "computed_at": "2026-04-23T08:26:14.599297+00:00",
+    "computed_at": "2026-04-23T10:11:26.938206+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Task & Purpose] This is what we know about the Maritime Raid Force used to seize Iranian vessel",
       "[USNI News] USNI News Fleet and Marine Tracker: April, 20 2026",
       "[Military Times] Used as an ‘individual target’ by the Germans, this Medal of Honor recipient kept up the fight",
       "[Naval News] From the Gulf to FREMM EVO: How Fincantieri is Shaping the Next Generation of Naval Air Defence",
-      "[Defense News] Pentagon seeks funds for Golden Dome, drones, AI in largest-ever budget request"
+      "[Naval News] Malaysia taps Roketsan for Atmaca anti-ship missiles"
     ]
   },
   "ground_intel": {
@@ -915,7 +915,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-04-23T08:26:14.599347+00:00",
+    "last_successful_update": "2026-04-23T10:11:26.938255+00:00",
     "article_count": 50,
     "categorized_count": 18,
     "freshest_source": "Task & Purpose",
