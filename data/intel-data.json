@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-04-23T22:31:17Z",
-  "version": 1119,
+  "generated_utc": "2026-04-23T23:33:44Z",
+  "version": 1120,
   "breaking_alert": "Military Times: Used as an ‘individual target’ by the Germans, this Medal of Honor recipient kept up the fight",
   "naval_deployments": [
     {
@@ -874,10 +874,10 @@
       ]
     },
     {
-      "title": "Northrop Grumman and Hanwha Sign MOA for Advanced Reactive Strike Capability",
-      "link": "https://www.navalnews.com/event-news/sea-air-space-2026/2026/04/northrop-grumman-and-hanwha-sign-moa-for-advanced-reactive-strike-capability/",
-      "published": "Wed, 22 Apr 2026 14:37:01 +0000",
-      "source": "Naval News",
+      "title": "Could the US military handle a monster invasion? Monarch: Legacy of Monsters begs the question",
+      "link": "https://www.militarytimes.com/off-duty/2026/04/23/could-the-us-military-handle-a-monster-invasion-monarch-legacy-of-monsters-begs-the-question/",
+      "published": "Thu, 23 Apr 2026 23:00:00 +0000",
+      "source": "Military Times",
       "categories": [
         "conflict"
       ]
@@ -905,11 +905,11 @@
   ],
   "_threat_indicators": {
     "deployment_articles": 14,
-    "conflict_articles": 7,
+    "conflict_articles": 8,
     "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-04-23T22:31:12.157997+00:00",
-    "manual_override": "DEFCON_3",
+    "computed_at": "2026-04-23T23:33:38.495866+00:00",
+    "manual_override": "DEFCON_2",
     "breaking_events": [
       "[Military Times] Used as an ‘individual target’ by the Germans, this Medal of Honor recipient kept up the fight",
       "[Naval News] From the Gulf to FREMM EVO: How Fincantieri is Shaping the Next Generation of Naval Air Defence",
@@ -926,9 +926,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-04-23T22:31:12.158043+00:00",
+    "last_successful_update": "2026-04-23T23:33:38.495915+00:00",
     "article_count": 50,
-    "categorized_count": 22,
+    "categorized_count": 23,
     "freshest_source": "Military Times",
     "freshest_title": "Used as an ‘individual target’ by the Germans, this Medal of Honor recipient kept up the fight",
     "freshest_published": "Thu, 23 Apr 2026 00:00:00 +0000"
