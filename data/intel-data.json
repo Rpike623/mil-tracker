@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-04-23T21:35:06Z",
-  "version": 1118,
+  "generated_utc": "2026-04-23T22:31:17Z",
+  "version": 1119,
   "breaking_alert": "Military Times: Used as an ‘individual target’ by the Germans, this Medal of Honor recipient kept up the fight",
   "naval_deployments": [
     {
@@ -676,9 +676,9 @@
       ]
     },
     {
-      "title": "Navy Reviewing Ford-class Carrier Design Ahead of Future Contract Awards",
-      "link": "https://news.usni.org/2026/04/21/navy-reviewing-ford-class-carrier-design-ahead-of-future-contract-awards",
-      "published": "Tue, 21 Apr 2026 22:57:44 +0000",
+      "title": "Carrier USS George H.W. Bush Now in U.S. Central Command After Traveling Around Africa",
+      "link": "https://news.usni.org/2026/04/23/carrier-uss-george-h-w-bush-now-in-u-s-central-command-after-traveling-around-africa",
+      "published": "Thu, 23 Apr 2026 22:11:24 +0000",
       "source": "USNI News",
       "categories": [
         "deployment"
@@ -904,11 +904,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 13,
+    "deployment_articles": 14,
     "conflict_articles": 7,
     "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-04-23T21:35:03.385455+00:00",
+    "computed_at": "2026-04-23T22:31:12.157997+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Military Times] Used as an ‘individual target’ by the Germans, this Medal of Honor recipient kept up the fight",
@@ -926,9 +926,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-04-23T21:35:03.385508+00:00",
+    "last_successful_update": "2026-04-23T22:31:12.158043+00:00",
     "article_count": 50,
-    "categorized_count": 21,
+    "categorized_count": 22,
     "freshest_source": "Military Times",
     "freshest_title": "Used as an ‘individual target’ by the Germans, this Medal of Honor recipient kept up the fight",
     "freshest_published": "Thu, 23 Apr 2026 00:00:00 +0000"
