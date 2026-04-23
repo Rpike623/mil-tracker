@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-04-23T04:40:31Z",
-  "version": 1107,
+  "generated_utc": "2026-04-23T06:30:17Z",
+  "version": 1108,
   "breaking_alert": "Task & Purpose: This is what we know about the Maritime Raid Force used to seize Iranian vessel",
   "naval_deployments": [
     {
@@ -897,7 +897,7 @@
     "conflict_articles": 5,
     "exercise_articles": 1,
     "total_articles": 50,
-    "computed_at": "2026-04-23T04:40:25.968295+00:00",
+    "computed_at": "2026-04-23T06:30:08.743039+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Task & Purpose] This is what we know about the Maritime Raid Force used to seize Iranian vessel",
@@ -915,7 +915,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-04-23T04:40:25.968342+00:00",
+    "last_successful_update": "2026-04-23T06:30:08.743085+00:00",
     "article_count": 50,
     "categorized_count": 17,
     "freshest_source": "Task & Purpose",
