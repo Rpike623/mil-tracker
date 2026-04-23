@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-04-23T18:51:05Z",
-  "version": 1115,
+  "generated_utc": "2026-04-23T19:59:13Z",
+  "version": 1116,
   "breaking_alert": "Military Times: Used as an ‘individual target’ by the Germans, this Medal of Honor recipient kept up the fight",
   "naval_deployments": [
     {
@@ -648,6 +648,24 @@
       ]
     },
     {
+      "title": "US Navy is reviewing cost of future Ford-class carriers to ensure they ‘make sense’",
+      "link": "https://www.defensenews.com/news/your-navy/2026/04/23/us-navy-is-reviewing-cost-of-future-ford-class-carriers-to-ensure-they-make-sense/",
+      "published": "Thu, 23 Apr 2026 19:01:05 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "US Navy is reviewing cost of future Ford-class carriers to ensure they ‘make sense’",
+      "link": "https://www.militarytimes.com/news/your-navy/2026/04/23/us-navy-is-reviewing-cost-of-future-ford-class-carriers-to-ensure-they-make-sense/",
+      "published": "Thu, 23 Apr 2026 19:01:05 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "Navy Reviewing Ford-class Carrier Design Ahead of Future Contract Awards",
       "link": "https://news.usni.org/2026/04/21/navy-reviewing-ford-class-carrier-design-ahead-of-future-contract-awards",
       "published": "Tue, 21 Apr 2026 22:57:44 +0000",
@@ -661,24 +679,6 @@
       "link": "https://taskandpurpose.com/news/air-force-lasers-HH-60Ws/",
       "published": "Wed, 22 Apr 2026 14:30:50 -0400",
       "source": "Task & Purpose",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Iran Conflict Holds Lessons for U.S., Adversaries, INDOPACOM Commander Says",
-      "link": "https://news.usni.org/2026/04/22/iran-conflict-holds-lessons-for-u-s-adversaries-indopacom-commander-says",
-      "published": "Wed, 22 Apr 2026 19:26:19 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "3 Sailors Injured in Fire Aboard USS Zumwalt",
-      "link": "https://news.usni.org/2026/04/22/3-sailors-injured-in-fire-aboard-destroyer-uss-zumwalt",
-      "published": "Wed, 22 Apr 2026 20:28:06 +0000",
-      "source": "USNI News",
       "categories": [
         "deployment"
       ]
@@ -854,6 +854,15 @@
       ]
     },
     {
+      "title": "Hanwha Ocean Debuts Dual-Use Vessel for Drone and Strike Roles",
+      "link": "https://www.navalnews.com/event-news/sea-air-space-2026/2026/04/hanwha-ocean-debuts-dual-use-vessel-for-drone-and-strike-roles/",
+      "published": "Thu, 23 Apr 2026 19:13:13 +0000",
+      "source": "Naval News",
+      "categories": [
+        "conflict"
+      ]
+    },
+    {
       "title": "Northrop Grumman and Hanwha Sign MOA for Advanced Reactive Strike Capability",
       "link": "https://www.navalnews.com/event-news/sea-air-space-2026/2026/04/northrop-grumman-and-hanwha-sign-moa-for-advanced-reactive-strike-capability/",
       "published": "Wed, 22 Apr 2026 14:37:01 +0000",
@@ -867,15 +876,6 @@
       "link": "https://news.usni.org/2026/04/22/navy-tests-long-range-munition-capable-of-maritime-strike-mining-missions",
       "published": "Wed, 22 Apr 2026 18:29:41 +0000",
       "source": "USNI News",
-      "categories": [
-        "conflict"
-      ]
-    },
-    {
-      "title": "U.S. Navy’s New Anti-Radar Missile to Suffer ‘Strategic Pause’",
-      "link": "https://www.navalnews.com/event-news/sea-air-space-2026/2026/04/u-s-navys-new-anti-radar-missile-to-suffer-strategic-pause/",
-      "published": "Wed, 22 Apr 2026 18:43:18 +0000",
-      "source": "Naval News",
       "categories": [
         "conflict"
       ]
@@ -902,11 +902,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 10,
-    "conflict_articles": 5,
+    "deployment_articles": 12,
+    "conflict_articles": 6,
     "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-04-23T18:51:02.712416+00:00",
+    "computed_at": "2026-04-23T19:59:10.774923+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Military Times] Used as an ‘individual target’ by the Germans, this Medal of Honor recipient kept up the fight",
@@ -924,9 +924,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-04-23T18:51:02.712466+00:00",
+    "last_successful_update": "2026-04-23T19:59:10.774969+00:00",
     "article_count": 50,
-    "categorized_count": 17,
+    "categorized_count": 20,
     "freshest_source": "Military Times",
     "freshest_title": "Used as an ‘individual target’ by the Germans, this Medal of Honor recipient kept up the fight",
     "freshest_published": "Thu, 23 Apr 2026 00:00:00 +0000"
