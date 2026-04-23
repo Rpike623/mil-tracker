@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-04-22T23:36:00Z",
-  "version": 1105,
+  "generated_utc": "2026-04-23T01:19:13Z",
+  "version": 1106,
   "breaking_alert": "Task & Purpose: This is what we know about the Maritime Raid Force used to seize Iranian vessel",
   "naval_deployments": [
     {
@@ -612,6 +612,15 @@
       ]
     },
     {
+      "title": "Used as an ‘individual target’ by the Germans, this Medal of Honor recipient kept up the fight",
+      "link": "https://www.militarytimes.com/veterans/military-history/2026/04/23/used-as-an-individual-target-by-the-germans-this-medal-of-honor-recipient-kept-up-the-fight/",
+      "published": "Thu, 23 Apr 2026 00:00:00 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "Pentagon seeks funds for Golden Dome, drones, AI in largest-ever budget request",
       "link": "https://www.defensenews.com/news/pentagon-congress/2026/04/21/pentagon-seeks-funds-for-golden-dome-drones-ai-in-largest-ever-budget-request/",
       "published": "Tue, 21 Apr 2026 18:58:09 +0000",
@@ -669,15 +678,6 @@
       "title": "Iran Conflict Holds Lessons for U.S., Adversaries, IndoPACOM Commander Says",
       "link": "https://news.usni.org/2026/04/22/iran-conflict-holds-lessons-for-u-s-adversaries-indopacom-commander-says",
       "published": "Wed, 22 Apr 2026 19:26:19 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "3 Sailors Injured in Fire Aboard USS Zumwalt",
-      "link": "https://news.usni.org/2026/04/22/3-sailors-injured-in-fire-aboard-destroyer-uss-zumwalt",
-      "published": "Wed, 22 Apr 2026 20:28:06 +0000",
       "source": "USNI News",
       "categories": [
         "deployment"
@@ -893,18 +893,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 10,
+    "deployment_articles": 11,
     "conflict_articles": 5,
     "exercise_articles": 1,
     "total_articles": 50,
-    "computed_at": "2026-04-22T23:35:54.648033+00:00",
+    "computed_at": "2026-04-23T01:19:05.115282+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Task & Purpose] This is what we know about the Maritime Raid Force used to seize Iranian vessel",
       "[USNI News] USNI News Fleet and Marine Tracker: April, 20 2026",
+      "[Military Times] Used as an ‘individual target’ by the Germans, this Medal of Honor recipient kept up the fight",
       "[Defense News] Pentagon seeks funds for Golden Dome, drones, AI in largest-ever budget request",
-      "[Defense News] US Navy to integrate PAC-3 MSE interceptor missile with Aegis Combat System",
-      "[Naval News] AV demonstrates LOCUST Laser Weapon System aboard Aircraft Carrier"
+      "[Defense News] US Navy to integrate PAC-3 MSE interceptor missile with Aegis Combat System"
     ]
   },
   "ground_intel": {
@@ -915,9 +915,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-04-22T23:35:54.648075+00:00",
+    "last_successful_update": "2026-04-23T01:19:05.115324+00:00",
     "article_count": 50,
-    "categorized_count": 16,
+    "categorized_count": 17,
     "freshest_source": "Task & Purpose",
     "freshest_title": "This is what we know about the Maritime Raid Force used to seize Iranian vessel",
     "freshest_published": "Mon, 20 Apr 2026 16:12:37 -0400"
