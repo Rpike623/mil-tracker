@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-04-23T15:05:17Z",
-  "version": 1113,
-  "breaking_alert": "USNI News: USNI News Fleet and Marine Tracker: April, 20 2026",
+  "generated_utc": "2026-04-23T17:06:27Z",
+  "version": 1114,
+  "breaking_alert": "Military Times: Used as an ‘individual target’ by the Germans, this Medal of Honor recipient kept up the fight",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -594,15 +594,6 @@
   ],
   "_naval_news_refs": [
     {
-      "title": "USNI News Fleet and Marine Tracker: April, 20 2026",
-      "link": "https://news.usni.org/2026/04/20/usni-news-fleet-and-marine-tracker-april-20-2026",
-      "published": "Mon, 20 Apr 2026 17:26:50 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Used as an ‘individual target’ by the Germans, this Medal of Honor recipient kept up the fight",
       "link": "https://www.militarytimes.com/veterans/military-history/2026/04/23/used-as-an-individual-target-by-the-germans-this-medal-of-honor-recipient-kept-up-the-fight/",
       "published": "Thu, 23 Apr 2026 00:00:00 +0000",
@@ -621,10 +612,37 @@
       ]
     },
     {
-      "title": "Pentagon seeks funds for Golden Dome, drones, AI in largest-ever budget request",
-      "link": "https://www.defensenews.com/news/pentagon-congress/2026/04/21/pentagon-seeks-funds-for-golden-dome-drones-ai-in-largest-ever-budget-request/",
-      "published": "Tue, 21 Apr 2026 18:58:09 +0000",
+      "title": "As Iran saps US focus, the troop math for monitoring a Ukraine peace deal looks grim",
+      "link": "https://www.defensenews.com/global/europe/2026/04/23/as-iran-saps-us-focus-the-troop-math-for-monitoring-a-ukraine-peace-deal-looks-grim/",
+      "published": "Thu, 23 Apr 2026 15:23:46 +0000",
       "source": "Defense News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "As Iran saps US focus, the troop math for monitoring a Ukraine peace deal looks grim",
+      "link": "https://www.militarytimes.com/global/europe/2026/04/23/as-iran-saps-us-focus-the-troop-math-for-monitoring-a-ukraine-peace-deal-looks-grim/",
+      "published": "Thu, 23 Apr 2026 15:23:46 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "US Marine Corps, Navy join forces to combat insufficient amphibious fleet size",
+      "link": "https://www.defensenews.com/news/your-military/2026/04/23/us-marine-corps-navy-join-forces-to-combat-insufficient-amphibious-fleet-size/",
+      "published": "Thu, 23 Apr 2026 15:27:18 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "US Marine Corps, Navy join forces to combat insufficient amphibious fleet size",
+      "link": "https://www.militarytimes.com/news/your-military/2026/04/23/us-marine-corps-navy-join-forces-to-combat-insufficient-amphibious-fleet-size/",
+      "published": "Thu, 23 Apr 2026 15:27:18 +0000",
+      "source": "Military Times",
       "categories": [
         "deployment"
       ]
@@ -660,15 +678,6 @@
       "title": "Iran Conflict Holds Lessons for U.S., Adversaries, INDOPACOM Commander Says",
       "link": "https://news.usni.org/2026/04/22/iran-conflict-holds-lessons-for-u-s-adversaries-indopacom-commander-says",
       "published": "Wed, 22 Apr 2026 19:26:19 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "3 Sailors Injured in Fire Aboard USS Zumwalt",
-      "link": "https://news.usni.org/2026/04/22/3-sailors-injured-in-fire-aboard-destroyer-uss-zumwalt",
-      "published": "Wed, 22 Apr 2026 20:28:06 +0000",
       "source": "USNI News",
       "categories": [
         "deployment"
@@ -845,15 +854,6 @@
       ]
     },
     {
-      "title": "US Navy to integrate PAC-3 MSE interceptor missile with Aegis Combat System",
-      "link": "https://www.defensenews.com/news/your-military/2026/04/21/us-navy-to-integrate-pac-3-mse-interceptor-missile-with-aegis-combat-system/",
-      "published": "Tue, 21 Apr 2026 19:02:34 +0000",
-      "source": "Defense News",
-      "categories": [
-        "conflict"
-      ]
-    },
-    {
       "title": "Northrop Grumman and Hanwha Sign MOA for Advanced Reactive Strike Capability",
       "link": "https://www.navalnews.com/event-news/sea-air-space-2026/2026/04/northrop-grumman-and-hanwha-sign-moa-for-advanced-reactive-strike-capability/",
       "published": "Wed, 22 Apr 2026 14:37:01 +0000",
@@ -867,6 +867,15 @@
       "link": "https://news.usni.org/2026/04/22/navy-tests-long-range-munition-capable-of-maritime-strike-mining-missions",
       "published": "Wed, 22 Apr 2026 18:29:41 +0000",
       "source": "USNI News",
+      "categories": [
+        "conflict"
+      ]
+    },
+    {
+      "title": "U.S. Navy’s New Anti-Radar Missile to Suffer ‘Strategic Pause’",
+      "link": "https://www.navalnews.com/event-news/sea-air-space-2026/2026/04/u-s-navys-new-anti-radar-missile-to-suffer-strategic-pause/",
+      "published": "Wed, 22 Apr 2026 18:43:18 +0000",
+      "source": "Naval News",
       "categories": [
         "conflict"
       ]
@@ -893,18 +902,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 9,
-    "conflict_articles": 6,
+    "deployment_articles": 11,
+    "conflict_articles": 5,
     "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-04-23T15:04:59.788992+00:00",
+    "computed_at": "2026-04-23T17:06:22.099788+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
-      "[USNI News] USNI News Fleet and Marine Tracker: April, 20 2026",
       "[Military Times] Used as an ‘individual target’ by the Germans, this Medal of Honor recipient kept up the fight",
       "[Naval News] From the Gulf to FREMM EVO: How Fincantieri is Shaping the Next Generation of Naval Air Defence",
       "[Naval News] Malaysia taps Roketsan for Atmaca anti-ship missiles",
-      "[Naval News] MACE to Become U.S. Navy’s Primary Hypersonic Strike Munition"
+      "[Naval News] MACE to Become U.S. Navy’s Primary Hypersonic Strike Munition",
+      "[Naval News] NATO DIANA’s Rapid Adoption Service enables first R&D contract between Allies and industry"
     ]
   },
   "ground_intel": {
@@ -915,12 +924,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-04-23T15:04:59.789041+00:00",
+    "last_successful_update": "2026-04-23T17:06:22.099835+00:00",
     "article_count": 50,
-    "categorized_count": 17,
-    "freshest_source": "USNI News",
-    "freshest_title": "USNI News Fleet and Marine Tracker: April, 20 2026",
-    "freshest_published": "Mon, 20 Apr 2026 17:26:50 +0000"
+    "categorized_count": 18,
+    "freshest_source": "Military Times",
+    "freshest_title": "Used as an ‘individual target’ by the Germans, this Medal of Honor recipient kept up the fight",
+    "freshest_published": "Thu, 23 Apr 2026 00:00:00 +0000"
   },
   "_firms_hotspots": []
 }
