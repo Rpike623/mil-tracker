@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-04-23T17:06:27Z",
-  "version": 1114,
+  "generated_utc": "2026-04-23T18:51:05Z",
+  "version": 1115,
   "breaking_alert": "Military Times: Used as an ‘individual target’ by the Germans, this Medal of Honor recipient kept up the fight",
   "naval_deployments": [
     {
@@ -648,15 +648,6 @@
       ]
     },
     {
-      "title": "Saildrone announces new USV class aimed at anti-submarine warfare",
-      "link": "https://www.defensenews.com/industry/techwatch/2026/04/21/saildrone-announces-new-usv-class-aimed-at-anti-submarine-warfare/",
-      "published": "Tue, 21 Apr 2026 21:33:36 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Navy Reviewing Ford-class Carrier Design Ahead of Future Contract Awards",
       "link": "https://news.usni.org/2026/04/21/navy-reviewing-ford-class-carrier-design-ahead-of-future-contract-awards",
       "published": "Tue, 21 Apr 2026 22:57:44 +0000",
@@ -678,6 +669,15 @@
       "title": "Iran Conflict Holds Lessons for U.S., Adversaries, INDOPACOM Commander Says",
       "link": "https://news.usni.org/2026/04/22/iran-conflict-holds-lessons-for-u-s-adversaries-indopacom-commander-says",
       "published": "Wed, 22 Apr 2026 19:26:19 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "3 Sailors Injured in Fire Aboard USS Zumwalt",
+      "link": "https://news.usni.org/2026/04/22/3-sailors-injured-in-fire-aboard-destroyer-uss-zumwalt",
+      "published": "Wed, 22 Apr 2026 20:28:06 +0000",
       "source": "USNI News",
       "categories": [
         "deployment"
@@ -902,11 +902,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 11,
+    "deployment_articles": 10,
     "conflict_articles": 5,
     "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-04-23T17:06:22.099788+00:00",
+    "computed_at": "2026-04-23T18:51:02.712416+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Military Times] Used as an ‘individual target’ by the Germans, this Medal of Honor recipient kept up the fight",
@@ -924,9 +924,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-04-23T17:06:22.099835+00:00",
+    "last_successful_update": "2026-04-23T18:51:02.712466+00:00",
     "article_count": 50,
-    "categorized_count": 18,
+    "categorized_count": 17,
     "freshest_source": "Military Times",
     "freshest_title": "Used as an ‘individual target’ by the Germans, this Medal of Honor recipient kept up the fight",
     "freshest_published": "Thu, 23 Apr 2026 00:00:00 +0000"
