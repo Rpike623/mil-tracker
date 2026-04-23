@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-04-23T06:30:17Z",
-  "version": 1108,
+  "generated_utc": "2026-04-23T08:26:18Z",
+  "version": 1109,
   "breaking_alert": "Task & Purpose: This is what we know about the Maritime Raid Force used to seize Iranian vessel",
   "naval_deployments": [
     {
@@ -621,6 +621,15 @@
       ]
     },
     {
+      "title": "From the Gulf to FREMM EVO: How Fincantieri is Shaping the Next Generation of Naval Air Defence",
+      "link": "https://www.navalnews.com/naval-news/2026/04/from-the-gulf-to-fremm-evo-how-fincantieri-is-shaping-the-next-generation-of-naval-air-defence/",
+      "published": "Thu, 23 Apr 2026 07:38:28 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "Pentagon seeks funds for Golden Dome, drones, AI in largest-ever budget request",
       "link": "https://www.defensenews.com/news/pentagon-congress/2026/04/21/pentagon-seeks-funds-for-golden-dome-drones-ai-in-largest-ever-budget-request/",
       "published": "Tue, 21 Apr 2026 18:58:09 +0000",
@@ -670,15 +679,6 @@
       "link": "https://taskandpurpose.com/news/air-force-lasers-HH-60Ws/",
       "published": "Wed, 22 Apr 2026 14:30:50 -0400",
       "source": "Task & Purpose",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Iran Conflict Holds Lessons for U.S., Adversaries, INDOPACOM Commander Says",
-      "link": "https://news.usni.org/2026/04/22/iran-conflict-holds-lessons-for-u-s-adversaries-indopacom-commander-says",
-      "published": "Wed, 22 Apr 2026 19:26:19 +0000",
-      "source": "USNI News",
       "categories": [
         "deployment"
       ]
@@ -893,18 +893,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 11,
+    "deployment_articles": 12,
     "conflict_articles": 5,
     "exercise_articles": 1,
     "total_articles": 50,
-    "computed_at": "2026-04-23T06:30:08.743039+00:00",
+    "computed_at": "2026-04-23T08:26:14.599297+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Task & Purpose] This is what we know about the Maritime Raid Force used to seize Iranian vessel",
       "[USNI News] USNI News Fleet and Marine Tracker: April, 20 2026",
       "[Military Times] Used as an ‘individual target’ by the Germans, this Medal of Honor recipient kept up the fight",
-      "[Defense News] Pentagon seeks funds for Golden Dome, drones, AI in largest-ever budget request",
-      "[Defense News] US Navy to integrate PAC-3 MSE interceptor missile with Aegis Combat System"
+      "[Naval News] From the Gulf to FREMM EVO: How Fincantieri is Shaping the Next Generation of Naval Air Defence",
+      "[Defense News] Pentagon seeks funds for Golden Dome, drones, AI in largest-ever budget request"
     ]
   },
   "ground_intel": {
@@ -915,9 +915,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-04-23T06:30:08.743085+00:00",
+    "last_successful_update": "2026-04-23T08:26:14.599347+00:00",
     "article_count": 50,
-    "categorized_count": 17,
+    "categorized_count": 18,
     "freshest_source": "Task & Purpose",
     "freshest_title": "This is what we know about the Maritime Raid Force used to seize Iranian vessel",
     "freshest_published": "Mon, 20 Apr 2026 16:12:37 -0400"
