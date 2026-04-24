@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-04-24T08:55:05Z",
-  "version": 1124,
+  "generated_utc": "2026-04-24T10:14:17Z",
+  "version": 1125,
   "breaking_alert": "Military Times: US soldier charged with making $400,000 on Maduro removal bets",
   "naval_deployments": [
     {
@@ -908,7 +908,7 @@
     "conflict_articles": 7,
     "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-04-24T08:55:01.770930+00:00",
+    "computed_at": "2026-04-24T10:14:12.623139+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Military Times] US soldier charged with making $400,000 on Maduro removal bets",
@@ -926,7 +926,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-04-24T08:55:01.770978+00:00",
+    "last_successful_update": "2026-04-24T10:14:12.623185+00:00",
     "article_count": 50,
     "categorized_count": 23,
     "freshest_source": "Military Times",
