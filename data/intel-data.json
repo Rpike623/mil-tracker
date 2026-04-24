@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-04-24T17:41:13Z",
-  "version": 1131,
+  "generated_utc": "2026-04-24T18:33:44Z",
+  "version": 1132,
   "breaking_alert": "Military Times: US soldier charged with making $400,000 on Maduro removal bets",
   "naval_deployments": [
     {
@@ -660,28 +660,28 @@
       ]
     },
     {
+      "title": "US Air Force aims to double F-15EX Eagle fleet",
+      "link": "https://www.defensenews.com/industry/techwatch/2026/04/24/us-air-force-aims-to-double-f-15ex-eagle-fleet/",
+      "published": "Fri, 24 Apr 2026 18:04:20 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "US Air Force aims to double F-15EX Eagle fleet",
+      "link": "https://www.militarytimes.com/industry/techwatch/2026/04/24/us-air-force-aims-to-double-f-15ex-eagle-fleet/",
+      "published": "Fri, 24 Apr 2026 18:04:20 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "From the Gulf to FREMM EVO: How Fincantieri is Shaping the Next Generation of Naval Air Defence",
       "link": "https://www.navalnews.com/naval-news/2026/04/from-the-gulf-to-fremm-evo-how-fincantieri-is-shaping-the-next-generation-of-naval-air-defence/",
       "published": "Thu, 23 Apr 2026 07:38:28 +0000",
       "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "US Marine Corps, Navy join forces to combat insufficient amphibious fleet size",
-      "link": "https://www.defensenews.com/news/your-military/2026/04/23/us-marine-corps-navy-join-forces-to-combat-insufficient-amphibious-fleet-size/",
-      "published": "Thu, 23 Apr 2026 15:27:18 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "US Navy is reviewing cost of future Ford-class carriers to ensure they ‘make sense’",
-      "link": "https://www.defensenews.com/news/your-navy/2026/04/23/us-navy-is-reviewing-cost-of-future-ford-class-carriers-to-ensure-they-make-sense/",
-      "published": "Thu, 23 Apr 2026 19:01:05 +0000",
-      "source": "Defense News",
       "categories": [
         "deployment"
       ]
@@ -911,7 +911,7 @@
     "conflict_articles": 12,
     "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-04-24T17:41:09.754976+00:00",
+    "computed_at": "2026-04-24T18:33:41.760063+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[Military Times] US soldier charged with making $400,000 on Maduro removal bets",
@@ -929,7 +929,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-04-24T17:41:09.755017+00:00",
+    "last_successful_update": "2026-04-24T18:33:41.760103+00:00",
     "article_count": 50,
     "categorized_count": 27,
     "freshest_source": "Military Times",
