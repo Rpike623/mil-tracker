@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-04-24T15:55:46Z",
-  "version": 1129,
+  "generated_utc": "2026-04-24T16:43:12Z",
+  "version": 1130,
   "breaking_alert": "Military Times: US soldier charged with making $400,000 on Maduro removal bets",
   "naval_deployments": [
     {
@@ -621,9 +621,29 @@
       ]
     },
     {
-      "title": "Used as an ‘individual target’ by the Germans, this Medal of Honor recipient kept up the fight",
-      "link": "https://www.militarytimes.com/veterans/military-history/2026/04/23/used-as-an-individual-target-by-the-germans-this-medal-of-honor-recipient-kept-up-the-fight/",
-      "published": "Thu, 23 Apr 2026 00:00:00 +0000",
+      "title": "The US military wants a fleet of missile-killing laser drones",
+      "link": "https://www.defensenews.com/industry/techwatch/2026/04/24/the-us-military-wants-a-fleet-of-missile-killing-laser-drones/",
+      "published": "Fri, 24 Apr 2026 16:00:27 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
+    },
+    {
+      "title": "The US military wants a fleet of missile-killing laser drones",
+      "link": "https://www.militarytimes.com/industry/techwatch/2026/04/24/the-us-military-wants-a-fleet-of-missile-killing-laser-drones/",
+      "published": "Fri, 24 Apr 2026 16:00:27 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
+    },
+    {
+      "title": "3 sailors injured after fire breaks out aboard USS Zumwalt",
+      "link": "https://www.militarytimes.com/news/your-military/2026/04/24/3-sailors-injured-after-fire-breaks-out-aboard-uss-zumwalt/",
+      "published": "Fri, 24 Apr 2026 16:32:54 +0000",
       "source": "Military Times",
       "categories": [
         "deployment"
@@ -634,24 +654,6 @@
       "link": "https://www.navalnews.com/naval-news/2026/04/from-the-gulf-to-fremm-evo-how-fincantieri-is-shaping-the-next-generation-of-naval-air-defence/",
       "published": "Thu, 23 Apr 2026 07:38:28 +0000",
       "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "As Iran saps US focus, the troop math for monitoring a Ukraine peace deal looks grim",
-      "link": "https://www.defensenews.com/global/europe/2026/04/23/as-iran-saps-us-focus-the-troop-math-for-monitoring-a-ukraine-peace-deal-looks-grim/",
-      "published": "Thu, 23 Apr 2026 15:23:46 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "As Iran saps US focus, the troop math for monitoring a Ukraine peace deal looks grim",
-      "link": "https://www.militarytimes.com/global/europe/2026/04/23/as-iran-saps-us-focus-the-troop-math-for-monitoring-a-ukraine-peace-deal-looks-grim/",
-      "published": "Thu, 23 Apr 2026 15:23:46 +0000",
-      "source": "Military Times",
       "categories": [
         "deployment"
       ]
@@ -863,20 +865,22 @@
       ]
     },
     {
-      "title": "Malaysia taps Roketsan for Atmaca anti-ship missiles",
-      "link": "https://www.navalnews.com/naval-news/2026/04/malaysia-taps-roketsan-for-atmaca-anti-ship-missiles/",
-      "published": "Thu, 23 Apr 2026 08:34:36 +0000",
-      "source": "Naval News",
+      "title": "The US military wants a fleet of missile-killing laser drones",
+      "link": "https://www.defensenews.com/industry/techwatch/2026/04/24/the-us-military-wants-a-fleet-of-missile-killing-laser-drones/",
+      "published": "Fri, 24 Apr 2026 16:00:27 +0000",
+      "source": "Defense News",
       "categories": [
+        "deployment",
         "conflict"
       ]
     },
     {
-      "title": "MACE to Become U.S. Navy’s Primary Hypersonic Strike Munition",
-      "link": "https://www.navalnews.com/naval-news/2026/04/mace-to-become-u-s-navys-primary-hypersonic-strike-munition/",
-      "published": "Thu, 23 Apr 2026 10:36:16 +0000",
-      "source": "Naval News",
+      "title": "The US military wants a fleet of missile-killing laser drones",
+      "link": "https://www.militarytimes.com/industry/techwatch/2026/04/24/the-us-military-wants-a-fleet-of-missile-killing-laser-drones/",
+      "published": "Fri, 24 Apr 2026 16:00:27 +0000",
+      "source": "Military Times",
       "categories": [
+        "deployment",
         "conflict"
       ]
     }
@@ -903,10 +907,10 @@
   ],
   "_threat_indicators": {
     "deployment_articles": 17,
-    "conflict_articles": 9,
+    "conflict_articles": 11,
     "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-04-24T15:55:39.678981+00:00",
+    "computed_at": "2026-04-24T16:43:09.614707+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[Military Times] US soldier charged with making $400,000 on Maduro removal bets",
@@ -924,7 +928,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-04-24T15:55:39.679028+00:00",
+    "last_successful_update": "2026-04-24T16:43:09.614750+00:00",
     "article_count": 50,
     "categorized_count": 27,
     "freshest_source": "Military Times",
