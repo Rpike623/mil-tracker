@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-04-24T14:26:15Z",
-  "version": 1128,
+  "generated_utc": "2026-04-24T15:55:46Z",
+  "version": 1129,
   "breaking_alert": "Military Times: US soldier charged with making $400,000 on Maduro removal bets",
   "naval_deployments": [
     {
@@ -603,6 +603,24 @@
       ]
     },
     {
+      "title": "Three’s company: Trio of US carriers operating in Middle East for first time in decades",
+      "link": "https://www.defensenews.com/news/your-military/2026/04/24/threes-company-trio-of-us-carriers-operating-in-middle-east-for-first-time-in-decades/",
+      "published": "Fri, 24 Apr 2026 14:47:39 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Three’s company: Trio of US carriers operating in Middle East for first time in decades",
+      "link": "https://www.militarytimes.com/news/your-military/2026/04/24/threes-company-trio-of-us-carriers-operating-in-middle-east-for-first-time-in-decades/",
+      "published": "Fri, 24 Apr 2026 14:47:39 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "Used as an ‘individual target’ by the Germans, this Medal of Honor recipient kept up the fight",
       "link": "https://www.militarytimes.com/veterans/military-history/2026/04/23/used-as-an-individual-target-by-the-germans-this-medal-of-honor-recipient-kept-up-the-fight/",
       "published": "Thu, 23 Apr 2026 00:00:00 +0000",
@@ -663,25 +681,6 @@
       "source": "Defense News",
       "categories": [
         "deployment"
-      ]
-    },
-    {
-      "title": "US Navy is reviewing cost of future Ford-class carriers to ensure they ‘make sense’",
-      "link": "https://www.militarytimes.com/news/your-navy/2026/04/23/us-navy-is-reviewing-cost-of-future-ford-class-carriers-to-ensure-they-make-sense/",
-      "published": "Thu, 23 Apr 2026 19:01:05 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Navy to Integrate PAC-3 Missiles on Aegis Guided-Missile Destroyers",
-      "link": "https://news.usni.org/2026/04/23/navy-to-integrate-pac-3-missiles-on-aegis-guided-missile-destroyers",
-      "published": "Thu, 23 Apr 2026 20:06:42 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment",
-        "conflict"
       ]
     }
   ],
@@ -903,11 +902,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 15,
+    "deployment_articles": 17,
     "conflict_articles": 9,
     "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-04-24T14:26:12.290948+00:00",
+    "computed_at": "2026-04-24T15:55:39.678981+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[Military Times] US soldier charged with making $400,000 on Maduro removal bets",
@@ -925,9 +924,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-04-24T14:26:12.290990+00:00",
+    "last_successful_update": "2026-04-24T15:55:39.679028+00:00",
     "article_count": 50,
-    "categorized_count": 25,
+    "categorized_count": 27,
     "freshest_source": "Military Times",
     "freshest_title": "US soldier charged with making $400,000 on Maduro removal bets",
     "freshest_published": "Fri, 24 Apr 2026 01:32:45 +0000"
