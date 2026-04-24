@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-04-23T23:33:44Z",
-  "version": 1120,
+  "generated_utc": "2026-04-24T01:18:30Z",
+  "version": 1121,
   "breaking_alert": "Military Times: Used as an ‘individual target’ by the Germans, this Medal of Honor recipient kept up the fight",
   "naval_deployments": [
     {
@@ -908,7 +908,7 @@
     "conflict_articles": 8,
     "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-04-23T23:33:38.495866+00:00",
+    "computed_at": "2026-04-24T01:18:28.116025+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[Military Times] Used as an ‘individual target’ by the Germans, this Medal of Honor recipient kept up the fight",
@@ -926,7 +926,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-04-23T23:33:38.495915+00:00",
+    "last_successful_update": "2026-04-24T01:18:28.116074+00:00",
     "article_count": 50,
     "categorized_count": 23,
     "freshest_source": "Military Times",
