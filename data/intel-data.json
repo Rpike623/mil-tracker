@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-04-24T01:18:30Z",
-  "version": 1121,
-  "breaking_alert": "Military Times: Used as an ‘individual target’ by the Germans, this Medal of Honor recipient kept up the fight",
+  "generated_utc": "2026-04-24T04:43:43Z",
+  "version": 1122,
+  "breaking_alert": "Military Times: US soldier charged with making $400,000 on Maduro removal bets",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -594,6 +594,15 @@
   ],
   "_naval_news_refs": [
     {
+      "title": "US soldier charged with making $400,000 on Maduro removal bets",
+      "link": "https://www.militarytimes.com/news/your-military/2026/04/24/us-soldier-charged-with-making-400000-on-maduro-removal-bets/",
+      "published": "Fri, 24 Apr 2026 01:32:45 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "Used as an ‘individual target’ by the Germans, this Medal of Honor recipient kept up the fight",
       "link": "https://www.militarytimes.com/veterans/military-history/2026/04/23/used-as-an-individual-target-by-the-germans-this-medal-of-honor-recipient-kept-up-the-fight/",
       "published": "Thu, 23 Apr 2026 00:00:00 +0000",
@@ -673,15 +682,6 @@
       "categories": [
         "deployment",
         "conflict"
-      ]
-    },
-    {
-      "title": "Carrier USS George H.W. Bush Now in U.S. Central Command After Traveling Around Africa",
-      "link": "https://news.usni.org/2026/04/23/carrier-uss-george-h-w-bush-now-in-u-s-central-command-after-traveling-around-africa",
-      "published": "Thu, 23 Apr 2026 22:11:24 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment"
       ]
     }
   ],
@@ -904,18 +904,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 14,
+    "deployment_articles": 15,
     "conflict_articles": 8,
     "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-04-24T01:18:28.116025+00:00",
+    "computed_at": "2026-04-24T04:43:41.653548+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
+      "[Military Times] US soldier charged with making $400,000 on Maduro removal bets",
       "[Military Times] Used as an ‘individual target’ by the Germans, this Medal of Honor recipient kept up the fight",
       "[Naval News] From the Gulf to FREMM EVO: How Fincantieri is Shaping the Next Generation of Naval Air Defence",
       "[Naval News] Malaysia taps Roketsan for Atmaca anti-ship missiles",
-      "[Naval News] MACE to Become U.S. Navy’s Primary Hypersonic Strike Munition",
-      "[Naval News] NATO DIANA’s Rapid Adoption Service enables first R&D contract between Allies and industry"
+      "[Naval News] MACE to Become U.S. Navy’s Primary Hypersonic Strike Munition"
     ]
   },
   "ground_intel": {
@@ -926,12 +926,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-04-24T01:18:28.116074+00:00",
+    "last_successful_update": "2026-04-24T04:43:41.653594+00:00",
     "article_count": 50,
-    "categorized_count": 23,
+    "categorized_count": 24,
     "freshest_source": "Military Times",
-    "freshest_title": "Used as an ‘individual target’ by the Germans, this Medal of Honor recipient kept up the fight",
-    "freshest_published": "Thu, 23 Apr 2026 00:00:00 +0000"
+    "freshest_title": "US soldier charged with making $400,000 on Maduro removal bets",
+    "freshest_published": "Fri, 24 Apr 2026 01:32:45 +0000"
   },
   "_firms_hotspots": []
 }
