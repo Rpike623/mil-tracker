@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-04-24T11:50:03Z",
-  "version": 1126,
+  "generated_utc": "2026-04-24T12:52:25Z",
+  "version": 1127,
   "breaking_alert": "Military Times: US soldier charged with making $400,000 on Maduro removal bets",
   "naval_deployments": [
     {
@@ -837,6 +837,15 @@
   },
   "_conflict_news_refs": [
     {
+      "title": "Japan to Field Multiple Advanced Coastal Defense Missiles by 2032",
+      "link": "https://www.navalnews.com/naval-news/2026/04/japan-to-field-multiple-advanced-coastal-defense-missiles-by-2032/",
+      "published": "Fri, 24 Apr 2026 12:04:09 +0000",
+      "source": "Naval News",
+      "categories": [
+        "conflict"
+      ]
+    },
+    {
       "title": "Malaysia taps Roketsan for Atmaca anti-ship missiles",
       "link": "https://www.navalnews.com/naval-news/2026/04/malaysia-taps-roketsan-for-atmaca-anti-ship-missiles/",
       "published": "Thu, 23 Apr 2026 08:34:36 +0000",
@@ -870,15 +879,6 @@
       "source": "USNI News",
       "categories": [
         "deployment",
-        "conflict"
-      ]
-    },
-    {
-      "title": "Could the US military handle a monster invasion? Monarch: Legacy of Monsters begs the question",
-      "link": "https://www.militarytimes.com/off-duty/2026/04/23/could-the-us-military-handle-a-monster-invasion-monarch-legacy-of-monsters-begs-the-question/",
-      "published": "Thu, 23 Apr 2026 23:00:00 +0000",
-      "source": "Military Times",
-      "categories": [
         "conflict"
       ]
     }
@@ -917,14 +917,14 @@
     "conflict_articles": 7,
     "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-04-24T11:49:58.001222+00:00",
+    "computed_at": "2026-04-24T12:52:19.189793+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Military Times] US soldier charged with making $400,000 on Maduro removal bets",
       "[Defense News] NATO eyes Swedish-Canadian jet for AWACS role in shift away from Boeing",
+      "[Naval News] Japan to Field Multiple Advanced Coastal Defense Missiles by 2032",
       "[Military Times] Used as an ‘individual target’ by the Germans, this Medal of Honor recipient kept up the fight",
-      "[Naval News] From the Gulf to FREMM EVO: How Fincantieri is Shaping the Next Generation of Naval Air Defence",
-      "[Naval News] Malaysia taps Roketsan for Atmaca anti-ship missiles"
+      "[Naval News] From the Gulf to FREMM EVO: How Fincantieri is Shaping the Next Generation of Naval Air Defence"
     ]
   },
   "ground_intel": {
@@ -935,7 +935,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-04-24T11:49:58.001270+00:00",
+    "last_successful_update": "2026-04-24T12:52:19.189845+00:00",
     "article_count": 50,
     "categorized_count": 24,
     "freshest_source": "Military Times",
