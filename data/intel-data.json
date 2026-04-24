@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-04-24T12:52:25Z",
-  "version": 1127,
+  "generated_utc": "2026-04-24T14:26:15Z",
+  "version": 1128,
   "breaking_alert": "Military Times: US soldier charged with making $400,000 on Maduro removal bets",
   "naval_deployments": [
     {
@@ -846,6 +846,24 @@
       ]
     },
     {
+      "title": "ArianeGroup studying ballistic-missile production in Germany: Les Echos",
+      "link": "https://www.defensenews.com/global/europe/2026/04/24/arianegroup-studying-ballistic-missile-production-in-germany-les-echos/",
+      "published": "Fri, 24 Apr 2026 13:10:39 +0000",
+      "source": "Defense News",
+      "categories": [
+        "conflict"
+      ]
+    },
+    {
+      "title": "North Korea Test Launches Short Range Ballistic Missiles with Cluster Munitions",
+      "link": "https://news.usni.org/2026/04/24/north-korea-test-launches-short-range-ballistic-missiles-with-cluster-munitions",
+      "published": "Fri, 24 Apr 2026 13:50:53 +0000",
+      "source": "USNI News",
+      "categories": [
+        "conflict"
+      ]
+    },
+    {
       "title": "Malaysia taps Roketsan for Atmaca anti-ship missiles",
       "link": "https://www.navalnews.com/naval-news/2026/04/malaysia-taps-roketsan-for-atmaca-anti-ship-missiles/",
       "published": "Thu, 23 Apr 2026 08:34:36 +0000",
@@ -860,25 +878,6 @@
       "published": "Thu, 23 Apr 2026 10:36:16 +0000",
       "source": "Naval News",
       "categories": [
-        "conflict"
-      ]
-    },
-    {
-      "title": "Hanwha Ocean Debuts Dual-Use Vessel for Drone and Strike Roles",
-      "link": "https://www.navalnews.com/event-news/sea-air-space-2026/2026/04/hanwha-ocean-debuts-dual-use-vessel-for-drone-and-strike-roles/",
-      "published": "Thu, 23 Apr 2026 19:13:13 +0000",
-      "source": "Naval News",
-      "categories": [
-        "conflict"
-      ]
-    },
-    {
-      "title": "Navy to Integrate PAC-3 Missiles on Aegis Guided-Missile Destroyers",
-      "link": "https://news.usni.org/2026/04/23/navy-to-integrate-pac-3-missiles-on-aegis-guided-missile-destroyers",
-      "published": "Thu, 23 Apr 2026 20:06:42 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment",
         "conflict"
       ]
     }
@@ -901,30 +900,21 @@
       "categories": [
         "exercise"
       ]
-    },
-    {
-      "title": "Russia could be ready for NATO conflict year after Ukraine, Dutch warn",
-      "link": "https://www.defensenews.com/global/europe/2026/04/22/russia-could-be-ready-for-nato-conflict-year-after-ukraine-dutch-warn/",
-      "published": "Wed, 22 Apr 2026 13:34:20 +0000",
-      "source": "Defense News",
-      "categories": [
-        "exercise"
-      ]
     }
   ],
   "_threat_indicators": {
     "deployment_articles": 15,
-    "conflict_articles": 7,
-    "exercise_articles": 3,
+    "conflict_articles": 9,
+    "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-04-24T12:52:19.189793+00:00",
-    "manual_override": "DEFCON_3",
+    "computed_at": "2026-04-24T14:26:12.290948+00:00",
+    "manual_override": "DEFCON_2",
     "breaking_events": [
       "[Military Times] US soldier charged with making $400,000 on Maduro removal bets",
       "[Defense News] NATO eyes Swedish-Canadian jet for AWACS role in shift away from Boeing",
       "[Naval News] Japan to Field Multiple Advanced Coastal Defense Missiles by 2032",
-      "[Military Times] Used as an ‘individual target’ by the Germans, this Medal of Honor recipient kept up the fight",
-      "[Naval News] From the Gulf to FREMM EVO: How Fincantieri is Shaping the Next Generation of Naval Air Defence"
+      "[Defense News] ArianeGroup studying ballistic-missile production in Germany: Les Echos",
+      "[USNI News] North Korea Test Launches Short Range Ballistic Missiles with Cluster Munitions"
     ]
   },
   "ground_intel": {
@@ -935,9 +925,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-04-24T12:52:19.189845+00:00",
+    "last_successful_update": "2026-04-24T14:26:12.290990+00:00",
     "article_count": 50,
-    "categorized_count": 24,
+    "categorized_count": 25,
     "freshest_source": "Military Times",
     "freshest_title": "US soldier charged with making $400,000 on Maduro removal bets",
     "freshest_published": "Fri, 24 Apr 2026 01:32:45 +0000"
