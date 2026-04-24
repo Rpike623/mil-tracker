@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-04-24T19:41:40Z",
-  "version": 1133,
+  "generated_utc": "2026-04-24T20:33:18Z",
+  "version": 1134,
   "breaking_alert": "Military Times: US soldier charged with making $400,000 on Maduro removal bets",
   "naval_deployments": [
     {
@@ -678,10 +678,10 @@
       ]
     },
     {
-      "title": "From the Gulf to FREMM EVO: How Fincantieri is Shaping the Next Generation of Naval Air Defence",
-      "link": "https://www.navalnews.com/naval-news/2026/04/from-the-gulf-to-fremm-evo-how-fincantieri-is-shaping-the-next-generation-of-naval-air-defence/",
-      "published": "Thu, 23 Apr 2026 07:38:28 +0000",
-      "source": "Naval News",
+      "title": "Remains of USS Arizona crew buried as unknowns after Pearl Harbor to be identified",
+      "link": "https://www.militarytimes.com/veterans/military-history/2026/04/24/remains-of-uss-arizona-crew-buried-as-unknowns-after-pearl-harbor-to-be-identified/",
+      "published": "Fri, 24 Apr 2026 20:00:00 +0000",
+      "source": "Military Times",
       "categories": [
         "deployment"
       ]
@@ -907,11 +907,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 17,
-    "conflict_articles": 12,
+    "deployment_articles": 18,
+    "conflict_articles": 11,
     "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-04-24T19:41:38.672701+00:00",
+    "computed_at": "2026-04-24T20:33:13.997185+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[Military Times] US soldier charged with making $400,000 on Maduro removal bets",
@@ -929,7 +929,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-04-24T19:41:38.672744+00:00",
+    "last_successful_update": "2026-04-24T20:33:13.997232+00:00",
     "article_count": 50,
     "categorized_count": 27,
     "freshest_source": "Military Times",
