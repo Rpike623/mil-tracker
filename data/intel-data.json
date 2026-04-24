@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-04-24T10:14:17Z",
-  "version": 1125,
+  "generated_utc": "2026-04-24T11:50:03Z",
+  "version": 1126,
   "breaking_alert": "Military Times: US soldier charged with making $400,000 on Maduro removal bets",
   "naval_deployments": [
     {
@@ -885,6 +885,15 @@
   ],
   "_exercise_news_refs": [
     {
+      "title": "NATO eyes Swedish-Canadian jet for AWACS role in shift away from Boeing",
+      "link": "https://www.defensenews.com/global/europe/2026/04/24/nato-eyes-swedish-canadian-jet-for-awacs-role-in-shift-away-from-boeing/",
+      "published": "Fri, 24 Apr 2026 10:26:42 +0000",
+      "source": "Defense News",
+      "categories": [
+        "exercise"
+      ]
+    },
+    {
       "title": "NATO DIANA’s Rapid Adoption Service enables first R&D contract between Allies and industry",
       "link": "https://www.navalnews.com/naval-news/2026/04/nato-dianas-rapid-adoption-service-enables-first-rd-contract-between-allies-and-industry/",
       "published": "Thu, 23 Apr 2026 13:15:24 +0000",
@@ -906,16 +915,16 @@
   "_threat_indicators": {
     "deployment_articles": 15,
     "conflict_articles": 7,
-    "exercise_articles": 2,
+    "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-04-24T10:14:12.623139+00:00",
+    "computed_at": "2026-04-24T11:49:58.001222+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Military Times] US soldier charged with making $400,000 on Maduro removal bets",
+      "[Defense News] NATO eyes Swedish-Canadian jet for AWACS role in shift away from Boeing",
       "[Military Times] Used as an ‘individual target’ by the Germans, this Medal of Honor recipient kept up the fight",
       "[Naval News] From the Gulf to FREMM EVO: How Fincantieri is Shaping the Next Generation of Naval Air Defence",
-      "[Naval News] Malaysia taps Roketsan for Atmaca anti-ship missiles",
-      "[Naval News] MACE to Become U.S. Navy’s Primary Hypersonic Strike Munition"
+      "[Naval News] Malaysia taps Roketsan for Atmaca anti-ship missiles"
     ]
   },
   "ground_intel": {
@@ -926,9 +935,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-04-24T10:14:12.623185+00:00",
+    "last_successful_update": "2026-04-24T11:49:58.001270+00:00",
     "article_count": 50,
-    "categorized_count": 23,
+    "categorized_count": 24,
     "freshest_source": "Military Times",
     "freshest_title": "US soldier charged with making $400,000 on Maduro removal bets",
     "freshest_published": "Fri, 24 Apr 2026 01:32:45 +0000"
