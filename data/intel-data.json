@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-04-25T18:31:51Z",
-  "version": 1152,
+  "generated_utc": "2026-04-25T19:36:03Z",
+  "version": 1153,
   "breaking_alert": "Defense News: NATO eyes Swedish-Canadian jet for AWACS role in shift away from Boeing",
   "naval_deployments": [
     {
@@ -907,11 +907,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 17,
+    "deployment_articles": 16,
     "conflict_articles": 11,
     "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-04-25T18:31:47.730866+00:00",
+    "computed_at": "2026-04-25T19:35:54.186446+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[Defense News] NATO eyes Swedish-Canadian jet for AWACS role in shift away from Boeing",
@@ -929,9 +929,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-04-25T18:31:47.730912+00:00",
+    "last_successful_update": "2026-04-25T19:35:54.186497+00:00",
     "article_count": 50,
-    "categorized_count": 26,
+    "categorized_count": 25,
     "freshest_source": "Defense News",
     "freshest_title": "NATO eyes Swedish-Canadian jet for AWACS role in shift away from Boeing",
     "freshest_published": "Fri, 24 Apr 2026 10:26:42 +0000"
