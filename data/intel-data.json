@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-04-24T23:29:35Z",
-  "version": 1137,
-  "breaking_alert": "Military Times: US soldier charged with making $400,000 on Maduro removal bets",
+  "generated_utc": "2026-04-25T01:11:49Z",
+  "version": 1138,
+  "breaking_alert": "Defense News: NATO eyes Swedish-Canadian jet for AWACS role in shift away from Boeing",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -594,15 +594,6 @@
   ],
   "_naval_news_refs": [
     {
-      "title": "US soldier charged with making $400,000 on Maduro removal bets",
-      "link": "https://www.militarytimes.com/news/your-military/2026/04/24/us-soldier-charged-with-making-400000-on-maduro-removal-bets/",
-      "published": "Fri, 24 Apr 2026 01:32:45 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Three’s company: Trio of US carriers operating in Middle East for first time in decades",
       "link": "https://www.defensenews.com/news/your-military/2026/04/24/threes-company-trio-of-us-carriers-operating-in-middle-east-for-first-time-in-decades/",
       "published": "Fri, 24 Apr 2026 14:47:39 +0000",
@@ -682,6 +673,15 @@
       "link": "https://www.militarytimes.com/veterans/military-history/2026/04/24/remains-of-uss-arizona-crew-buried-as-unknowns-after-pearl-harbor-to-be-identified/",
       "published": "Fri, 24 Apr 2026 20:00:00 +0000",
       "source": "Military Times",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Middle East Shipping ‘Paralyzed’ by Dueling U.S., Iranian Blockades, Analysts Say",
+      "link": "https://news.usni.org/2026/04/24/middle-east-shipping-paralyzed-by-dueling-u-s-iranian-blockades-analysts-say",
+      "published": "Fri, 24 Apr 2026 21:40:17 +0000",
+      "source": "USNI News",
       "categories": [
         "deployment"
       ]
@@ -907,18 +907,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 18,
+    "deployment_articles": 17,
     "conflict_articles": 11,
     "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-04-24T23:29:32.317550+00:00",
+    "computed_at": "2026-04-25T01:11:43.636595+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
-      "[Military Times] US soldier charged with making $400,000 on Maduro removal bets",
       "[Defense News] NATO eyes Swedish-Canadian jet for AWACS role in shift away from Boeing",
       "[Naval News] Japan to Field Multiple Advanced Coastal Defense Missiles by 2032",
       "[Defense News] ArianeGroup studying ballistic-missile production in Germany: Les Echos",
-      "[USNI News] North Korea Test Launches Short Range Ballistic Missiles with Cluster Munitions"
+      "[USNI News] North Korea Test Launches Short Range Ballistic Missiles with Cluster Munitions",
+      "[Defense News] Three’s company: Trio of US carriers operating in Middle East for first time in decades"
     ]
   },
   "ground_intel": {
@@ -929,12 +929,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-04-24T23:29:32.317592+00:00",
+    "last_successful_update": "2026-04-25T01:11:43.636640+00:00",
     "article_count": 50,
-    "categorized_count": 27,
-    "freshest_source": "Military Times",
-    "freshest_title": "US soldier charged with making $400,000 on Maduro removal bets",
-    "freshest_published": "Fri, 24 Apr 2026 01:32:45 +0000"
+    "categorized_count": 26,
+    "freshest_source": "Defense News",
+    "freshest_title": "NATO eyes Swedish-Canadian jet for AWACS role in shift away from Boeing",
+    "freshest_published": "Fri, 24 Apr 2026 10:26:42 +0000"
   },
   "_firms_hotspots": []
 }
