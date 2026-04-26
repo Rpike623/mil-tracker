@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-04-26T21:25:59Z",
-  "version": 1174,
+  "generated_utc": "2026-04-26T22:24:34Z",
+  "version": 1175,
   "breaking_alert": "Defense News: NATO eyes Swedish-Canadian jet for AWACS role in shift away from Boeing",
   "naval_deployments": [
     {
@@ -897,6 +897,15 @@
       ]
     },
     {
+      "title": "Special Operations Command lays out high-tech wish list",
+      "link": "https://taskandpurpose.com/tech-tactics/special-operations-technology-anchor-initiative/",
+      "published": "Sun, 26 Apr 2026 17:35:11 -0400",
+      "source": "Task & Purpose",
+      "categories": [
+        "exercise"
+      ]
+    },
+    {
       "title": "NATO DIANA’s Rapid Adoption Service enables first R&D contract between Allies and industry",
       "link": "https://www.navalnews.com/naval-news/2026/04/nato-dianas-rapid-adoption-service-enables-first-rd-contract-between-allies-and-industry/",
       "published": "Thu, 23 Apr 2026 13:15:24 +0000",
@@ -909,9 +918,9 @@
   "_threat_indicators": {
     "deployment_articles": 18,
     "conflict_articles": 10,
-    "exercise_articles": 2,
+    "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-04-26T21:25:54.950320+00:00",
+    "computed_at": "2026-04-26T22:24:29.365230+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[Defense News] NATO eyes Swedish-Canadian jet for AWACS role in shift away from Boeing",
@@ -929,9 +938,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-04-26T21:25:54.950365+00:00",
+    "last_successful_update": "2026-04-26T22:24:29.365276+00:00",
     "article_count": 50,
-    "categorized_count": 26,
+    "categorized_count": 27,
     "freshest_source": "Defense News",
     "freshest_title": "NATO eyes Swedish-Canadian jet for AWACS role in shift away from Boeing",
     "freshest_published": "Fri, 24 Apr 2026 10:26:42 +0000"
