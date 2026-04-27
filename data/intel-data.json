@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-04-27T19:08:31Z",
-  "version": 1185,
+  "generated_utc": "2026-04-27T20:46:57Z",
+  "version": 1186,
   "breaking_alert": "Naval News: Japan to Field Multiple Advanced Coastal Defense Missiles by 2032",
   "naval_deployments": [
     {
@@ -604,29 +604,10 @@
       ]
     },
     {
-      "title": "US sailor deploying to Middle East injured in monkey attack in Thailand",
-      "link": "https://www.militarytimes.com/news/your-military/2026/04/24/us-sailor-deploying-to-middle-east-injured-in-monkey-attack-in-thailand/",
-      "published": "Fri, 24 Apr 2026 17:05:59 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
       "title": "US Air Force aims to double F-15EX Eagle fleet",
       "link": "https://www.defensenews.com/industry/techwatch/2026/04/24/us-air-force-aims-to-double-f-15ex-eagle-fleet/",
       "published": "Fri, 24 Apr 2026 18:04:20 +0000",
       "source": "Defense News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "US Air Force aims to double F-15EX Eagle fleet",
-      "link": "https://www.militarytimes.com/industry/techwatch/2026/04/24/us-air-force-aims-to-double-f-15ex-eagle-fleet/",
-      "published": "Fri, 24 Apr 2026 18:04:20 +0000",
-      "source": "Military Times",
       "categories": [
         "deployment"
       ]
@@ -684,6 +665,25 @@
       "source": "USNI News",
       "categories": [
         "deployment"
+      ]
+    },
+    {
+      "title": "US Navy commissions newest Virginia-class submarine USS Idaho",
+      "link": "https://www.militarytimes.com/news/your-navy/2026/04/27/us-navy-commissions-newest-virginia-class-submarine-uss-idaho/",
+      "published": "Mon, 27 Apr 2026 18:08:05 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "US Air Force looks to launch cheap missiles from cargo aircraft",
+      "link": "https://www.defensenews.com/industry/techwatch/2026/04/27/us-air-force-looks-to-launch-cheap-missiles-from-cargo-aircraft/",
+      "published": "Mon, 27 Apr 2026 18:34:55 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment",
+        "conflict"
       ]
     }
   ],
@@ -867,21 +867,21 @@
       ]
     },
     {
-      "title": "US sailor deploying to Middle East injured in monkey attack in Thailand",
-      "link": "https://www.militarytimes.com/news/your-military/2026/04/24/us-sailor-deploying-to-middle-east-injured-in-monkey-attack-in-thailand/",
-      "published": "Fri, 24 Apr 2026 17:05:59 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
       "title": "U.S. Forces Kill 5 in Strikes on Suspected Narco Boats",
       "link": "https://news.usni.org/2026/04/27/u-s-forces-kill-5-in-strikes-on-suspected-narco-boats",
       "published": "Mon, 27 Apr 2026 16:45:15 +0000",
       "source": "USNI News",
       "categories": [
+        "conflict"
+      ]
+    },
+    {
+      "title": "US Air Force looks to launch cheap missiles from cargo aircraft",
+      "link": "https://www.defensenews.com/industry/techwatch/2026/04/27/us-air-force-looks-to-launch-cheap-missiles-from-cargo-aircraft/",
+      "published": "Mon, 27 Apr 2026 18:34:55 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment",
         "conflict"
       ]
     }
@@ -908,18 +908,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 18,
-    "conflict_articles": 9,
+    "deployment_articles": 15,
+    "conflict_articles": 8,
     "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-04-27T19:08:28.777771+00:00",
+    "computed_at": "2026-04-27T20:46:52.083982+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[Naval News] Japan to Field Multiple Advanced Coastal Defense Missiles by 2032",
       "[USNI News] North Korea Test Launches Short Range Ballistic Missiles with Cluster Munitions",
       "[Defense News] The US military wants a fleet of missile-killing laser drones",
-      "[Military Times] US sailor deploying to Middle East injured in monkey attack in Thailand",
-      "[Defense News] US Air Force aims to double F-15EX Eagle fleet"
+      "[Defense News] US Air Force aims to double F-15EX Eagle fleet",
+      "[Military Times] Remains of USS Arizona crew buried as unknowns after Pearl Harbor to be identified"
     ]
   },
   "ground_intel": {
@@ -930,9 +930,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-04-27T19:08:28.777810+00:00",
+    "last_successful_update": "2026-04-27T20:46:52.084026+00:00",
     "article_count": 50,
-    "categorized_count": 23,
+    "categorized_count": 20,
     "freshest_source": "Naval News",
     "freshest_title": "Japan to Field Multiple Advanced Coastal Defense Missiles by 2032",
     "freshest_published": "Fri, 24 Apr 2026 12:04:09 +0000"
