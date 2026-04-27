@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-04-27T17:57:36Z",
-  "version": 1184,
-  "breaking_alert": "Defense News: NATO eyes Swedish-Canadian jet for AWACS role in shift away from Boeing",
+  "generated_utc": "2026-04-27T19:08:31Z",
+  "version": 1185,
+  "breaking_alert": "Naval News: Japan to Field Multiple Advanced Coastal Defense Missiles by 2032",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -594,15 +594,6 @@
   ],
   "_naval_news_refs": [
     {
-      "title": "Three’s company: Trio of US carriers operating in Middle East for first time in decades",
-      "link": "https://www.defensenews.com/news/your-military/2026/04/24/threes-company-trio-of-us-carriers-operating-in-middle-east-for-first-time-in-decades/",
-      "published": "Fri, 24 Apr 2026 14:47:39 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "The US military wants a fleet of missile-killing laser drones",
       "link": "https://www.defensenews.com/industry/techwatch/2026/04/24/the-us-military-wants-a-fleet-of-missile-killing-laser-drones/",
       "published": "Fri, 24 Apr 2026 16:00:27 +0000",
@@ -610,25 +601,6 @@
       "categories": [
         "deployment",
         "conflict"
-      ]
-    },
-    {
-      "title": "The US military wants a fleet of missile-killing laser drones",
-      "link": "https://www.militarytimes.com/industry/techwatch/2026/04/24/the-us-military-wants-a-fleet-of-missile-killing-laser-drones/",
-      "published": "Fri, 24 Apr 2026 16:00:27 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
-      "title": "3 sailors injured after fire breaks out aboard USS Zumwalt",
-      "link": "https://www.militarytimes.com/news/your-military/2026/04/24/3-sailors-injured-after-fire-breaks-out-aboard-uss-zumwalt/",
-      "published": "Fri, 24 Apr 2026 16:32:54 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment"
       ]
     },
     {
@@ -681,6 +653,34 @@
       "title": "U.S. Considering Foreign Designs, Shipyards for New Navy Frigate, Destroyer Work in $1.85B Study",
       "link": "https://news.usni.org/2026/04/24/u-s-considering-foreign-designs-shipyards-for-new-navy-frigate-destroyer-work-in-1-85b-study",
       "published": "Fri, 24 Apr 2026 22:02:54 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "U.S. Navy drills in at-sea USV fueling ahead of CSG deployment",
+      "link": "https://www.navalnews.com/naval-news/2026/04/u-s-navy-drills-in-at-sea-usv-fueling-ahead-of-csg-deployment/",
+      "published": "Mon, 27 Apr 2026 10:55:00 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment",
+        "exercise"
+      ]
+    },
+    {
+      "title": "HII Builds on Submarine MUM-T Success with New Pentagon Deal",
+      "link": "https://www.navalnews.com/naval-news/2026/04/hii-builds-on-submarine-mum-t-success-with-new-pentagon-deal/",
+      "published": "Mon, 27 Apr 2026 16:41:57 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "USNI News Fleet and Marine Tracker: April, 27 2026",
+      "link": "https://news.usni.org/2026/04/27/usni-news-fleet-and-marine-tracker-april-27-2026",
+      "published": "Mon, 27 Apr 2026 17:42:17 +0000",
       "source": "USNI News",
       "categories": [
         "deployment"
@@ -848,15 +848,6 @@
       ]
     },
     {
-      "title": "ArianeGroup studying ballistic-missile production in Germany: Les Echos",
-      "link": "https://www.defensenews.com/global/europe/2026/04/24/arianegroup-studying-ballistic-missile-production-in-germany-les-echos/",
-      "published": "Fri, 24 Apr 2026 13:10:39 +0000",
-      "source": "Defense News",
-      "categories": [
-        "conflict"
-      ]
-    },
-    {
       "title": "North Korea Test Launches Short Range Ballistic Missiles with Cluster Munitions",
       "link": "https://news.usni.org/2026/04/24/north-korea-test-launches-short-range-ballistic-missiles-with-cluster-munitions",
       "published": "Fri, 24 Apr 2026 13:50:53 +0000",
@@ -876,26 +867,26 @@
       ]
     },
     {
-      "title": "The US military wants a fleet of missile-killing laser drones",
-      "link": "https://www.militarytimes.com/industry/techwatch/2026/04/24/the-us-military-wants-a-fleet-of-missile-killing-laser-drones/",
-      "published": "Fri, 24 Apr 2026 16:00:27 +0000",
+      "title": "US sailor deploying to Middle East injured in monkey attack in Thailand",
+      "link": "https://www.militarytimes.com/news/your-military/2026/04/24/us-sailor-deploying-to-middle-east-injured-in-monkey-attack-in-thailand/",
+      "published": "Fri, 24 Apr 2026 17:05:59 +0000",
       "source": "Military Times",
       "categories": [
         "deployment",
         "conflict"
       ]
+    },
+    {
+      "title": "U.S. Forces Kill 5 in Strikes on Suspected Narco Boats",
+      "link": "https://news.usni.org/2026/04/27/u-s-forces-kill-5-in-strikes-on-suspected-narco-boats",
+      "published": "Mon, 27 Apr 2026 16:45:15 +0000",
+      "source": "USNI News",
+      "categories": [
+        "conflict"
+      ]
     }
   ],
   "_exercise_news_refs": [
-    {
-      "title": "NATO eyes Swedish-Canadian jet for AWACS role in shift away from Boeing",
-      "link": "https://www.defensenews.com/global/europe/2026/04/24/nato-eyes-swedish-canadian-jet-for-awacs-role-in-shift-away-from-boeing/",
-      "published": "Fri, 24 Apr 2026 10:26:42 +0000",
-      "source": "Defense News",
-      "categories": [
-        "exercise"
-      ]
-    },
     {
       "title": "U.S. Navy drills in at-sea USV fueling ahead of CSG deployment",
       "link": "https://www.navalnews.com/naval-news/2026/04/u-s-navy-drills-in-at-sea-usv-fueling-ahead-of-csg-deployment/",
@@ -919,16 +910,16 @@
   "_threat_indicators": {
     "deployment_articles": 18,
     "conflict_articles": 9,
-    "exercise_articles": 3,
+    "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-04-27T17:57:34.460954+00:00",
+    "computed_at": "2026-04-27T19:08:28.777771+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
-      "[Defense News] NATO eyes Swedish-Canadian jet for AWACS role in shift away from Boeing",
       "[Naval News] Japan to Field Multiple Advanced Coastal Defense Missiles by 2032",
-      "[Defense News] ArianeGroup studying ballistic-missile production in Germany: Les Echos",
       "[USNI News] North Korea Test Launches Short Range Ballistic Missiles with Cluster Munitions",
-      "[Defense News] Three’s company: Trio of US carriers operating in Middle East for first time in decades"
+      "[Defense News] The US military wants a fleet of missile-killing laser drones",
+      "[Military Times] US sailor deploying to Middle East injured in monkey attack in Thailand",
+      "[Defense News] US Air Force aims to double F-15EX Eagle fleet"
     ]
   },
   "ground_intel": {
@@ -939,12 +930,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-04-27T17:57:34.460998+00:00",
+    "last_successful_update": "2026-04-27T19:08:28.777810+00:00",
     "article_count": 50,
-    "categorized_count": 25,
-    "freshest_source": "Defense News",
-    "freshest_title": "NATO eyes Swedish-Canadian jet for AWACS role in shift away from Boeing",
-    "freshest_published": "Fri, 24 Apr 2026 10:26:42 +0000"
+    "categorized_count": 23,
+    "freshest_source": "Naval News",
+    "freshest_title": "Japan to Field Multiple Advanced Coastal Defense Missiles by 2032",
+    "freshest_published": "Fri, 24 Apr 2026 12:04:09 +0000"
   },
   "_firms_hotspots": []
 }
