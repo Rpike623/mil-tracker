@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-04-27T10:02:06Z",
-  "version": 1180,
+  "generated_utc": "2026-04-27T12:14:02Z",
+  "version": 1181,
   "breaking_alert": "Defense News: NATO eyes Swedish-Canadian jet for AWACS role in shift away from Boeing",
   "naval_deployments": [
     {
@@ -897,6 +897,16 @@
       ]
     },
     {
+      "title": "U.S. Navy drills in at-sea USV fueling ahead of CSG deployment",
+      "link": "https://www.navalnews.com/naval-news/2026/04/u-s-navy-drills-in-at-sea-usv-fueling-ahead-of-csg-deployment/",
+      "published": "Mon, 27 Apr 2026 10:55:00 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment",
+        "exercise"
+      ]
+    },
+    {
       "title": "Special Operations Command lays out high-tech wish list",
       "link": "https://taskandpurpose.com/tech-tactics/special-operations-technology-anchor-initiative/",
       "published": "Sun, 26 Apr 2026 17:35:11 -0400",
@@ -909,9 +919,9 @@
   "_threat_indicators": {
     "deployment_articles": 18,
     "conflict_articles": 10,
-    "exercise_articles": 2,
+    "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-04-27T10:01:59.563060+00:00",
+    "computed_at": "2026-04-27T12:13:58.393209+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[Defense News] NATO eyes Swedish-Canadian jet for AWACS role in shift away from Boeing",
@@ -929,7 +939,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-04-27T10:01:59.563104+00:00",
+    "last_successful_update": "2026-04-27T12:13:58.393253+00:00",
     "article_count": 50,
     "categorized_count": 26,
     "freshest_source": "Defense News",
