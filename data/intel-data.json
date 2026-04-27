@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-04-27T12:14:02Z",
-  "version": 1181,
+  "generated_utc": "2026-04-27T14:53:27Z",
+  "version": 1182,
   "breaking_alert": "Defense News: NATO eyes Swedish-Canadian jet for AWACS role in shift away from Boeing",
   "naval_deployments": [
     {
@@ -603,15 +603,6 @@
       ]
     },
     {
-      "title": "Three’s company: Trio of US carriers operating in Middle East for first time in decades",
-      "link": "https://www.militarytimes.com/news/your-military/2026/04/24/threes-company-trio-of-us-carriers-operating-in-middle-east-for-first-time-in-decades/",
-      "published": "Fri, 24 Apr 2026 14:47:39 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "The US military wants a fleet of missile-killing laser drones",
       "link": "https://www.defensenews.com/industry/techwatch/2026/04/24/the-us-military-wants-a-fleet-of-missile-killing-laser-drones/",
       "published": "Fri, 24 Apr 2026 16:00:27 +0000",
@@ -681,6 +672,15 @@
       "title": "Middle East Shipping ‘Paralyzed’ by Dueling U.S., Iranian Blockades, Analysts Say",
       "link": "https://news.usni.org/2026/04/24/middle-east-shipping-paralyzed-by-dueling-u-s-iranian-blockades-analysts-say",
       "published": "Fri, 24 Apr 2026 21:40:17 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "U.S. Considering Foreign Designs, Shipyards for New Navy Frigate, Destroyer Work in $1.85B Study",
+      "link": "https://news.usni.org/2026/04/24/u-s-considering-foreign-designs-shipyards-for-new-navy-frigate-destroyer-work-in-1-85b-study",
+      "published": "Fri, 24 Apr 2026 22:02:54 +0000",
       "source": "USNI News",
       "categories": [
         "deployment"
@@ -917,11 +917,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 18,
-    "conflict_articles": 10,
+    "deployment_articles": 17,
+    "conflict_articles": 9,
     "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-04-27T12:13:58.393209+00:00",
+    "computed_at": "2026-04-27T14:53:24.202771+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[Defense News] NATO eyes Swedish-Canadian jet for AWACS role in shift away from Boeing",
@@ -939,9 +939,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-04-27T12:13:58.393253+00:00",
+    "last_successful_update": "2026-04-27T14:53:24.202818+00:00",
     "article_count": 50,
-    "categorized_count": 26,
+    "categorized_count": 24,
     "freshest_source": "Defense News",
     "freshest_title": "NATO eyes Swedish-Canadian jet for AWACS role in shift away from Boeing",
     "freshest_published": "Fri, 24 Apr 2026 10:26:42 +0000"
