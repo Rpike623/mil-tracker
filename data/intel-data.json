@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-04-28T08:00:17Z",
-  "version": 1192,
-  "breaking_alert": "Naval News: Japan to Field Multiple Advanced Coastal Defense Missiles by 2032",
+  "generated_utc": "2026-04-28T10:14:43Z",
+  "version": 1193,
+  "breaking_alert": "USNI News: North Korea Test Launches Short Range Ballistic Missiles with Cluster Munitions",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -839,15 +839,6 @@
   },
   "_conflict_news_refs": [
     {
-      "title": "Japan to Field Multiple Advanced Coastal Defense Missiles by 2032",
-      "link": "https://www.navalnews.com/naval-news/2026/04/japan-to-field-multiple-advanced-coastal-defense-missiles-by-2032/",
-      "published": "Fri, 24 Apr 2026 12:04:09 +0000",
-      "source": "Naval News",
-      "categories": [
-        "conflict"
-      ]
-    },
-    {
       "title": "North Korea Test Launches Short Range Ballistic Missiles with Cluster Munitions",
       "link": "https://news.usni.org/2026/04/24/north-korea-test-launches-short-range-ballistic-missiles-with-cluster-munitions",
       "published": "Fri, 24 Apr 2026 13:50:53 +0000",
@@ -884,6 +875,15 @@
         "deployment",
         "conflict"
       ]
+    },
+    {
+      "title": "U.S. Anti-Ship Missiles in the Philippines for Balikatan 2026",
+      "link": "https://www.navalnews.com/naval-news/2026/04/u-s-anti-ship-missiles-in-the-philippines-for-balikatan-2026/",
+      "published": "Sat, 25 Apr 2026 06:19:07 +0000",
+      "source": "Naval News",
+      "categories": [
+        "conflict"
+      ]
     }
   ],
   "_exercise_news_refs": [
@@ -909,17 +909,17 @@
   ],
   "_threat_indicators": {
     "deployment_articles": 16,
-    "conflict_articles": 7,
+    "conflict_articles": 6,
     "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-04-28T08:00:15.124289+00:00",
+    "computed_at": "2026-04-28T10:14:41.518048+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
-      "[Naval News] Japan to Field Multiple Advanced Coastal Defense Missiles by 2032",
       "[USNI News] North Korea Test Launches Short Range Ballistic Missiles with Cluster Munitions",
       "[Defense News] US Air Force aims to double F-15EX Eagle fleet",
       "[USNI News] Middle East Shipping ‘Paralyzed’ by Dueling U.S., Iranian Blockades, Analysts Say",
-      "[USNI News] U.S. Considering Foreign Designs, Shipyards for New Navy Frigate, Destroyer Work in $1.85B Study"
+      "[USNI News] U.S. Considering Foreign Designs, Shipyards for New Navy Frigate, Destroyer Work in $1.85B Study",
+      "[Naval News] U.S. Navy drills in at-sea USV fueling ahead of CSG deployment"
     ]
   },
   "ground_intel": {
@@ -930,12 +930,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-04-28T08:00:15.124335+00:00",
+    "last_successful_update": "2026-04-28T10:14:41.518093+00:00",
     "article_count": 50,
-    "categorized_count": 21,
-    "freshest_source": "Naval News",
-    "freshest_title": "Japan to Field Multiple Advanced Coastal Defense Missiles by 2032",
-    "freshest_published": "Fri, 24 Apr 2026 12:04:09 +0000"
+    "categorized_count": 20,
+    "freshest_source": "USNI News",
+    "freshest_title": "North Korea Test Launches Short Range Ballistic Missiles with Cluster Munitions",
+    "freshest_published": "Fri, 24 Apr 2026 13:50:53 +0000"
   },
   "_firms_hotspots": []
 }
