@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-04-28T10:14:43Z",
-  "version": 1193,
+  "generated_utc": "2026-04-28T12:17:57Z",
+  "version": 1194,
   "breaking_alert": "USNI News: North Korea Test Launches Short Range Ballistic Missiles with Cluster Munitions",
   "naval_deployments": [
     {
@@ -912,7 +912,7 @@
     "conflict_articles": 6,
     "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-04-28T10:14:41.518048+00:00",
+    "computed_at": "2026-04-28T12:17:50.354776+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[USNI News] North Korea Test Launches Short Range Ballistic Missiles with Cluster Munitions",
@@ -930,7 +930,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-04-28T10:14:41.518093+00:00",
+    "last_successful_update": "2026-04-28T12:17:50.354829+00:00",
     "article_count": 50,
     "categorized_count": 20,
     "freshest_source": "USNI News",
