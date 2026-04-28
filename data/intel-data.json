@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-04-28T01:28:16Z",
-  "version": 1190,
+  "generated_utc": "2026-04-28T05:18:33Z",
+  "version": 1191,
   "breaking_alert": "Naval News: Japan to Field Multiple Advanced Coastal Defense Missiles by 2032",
   "naval_deployments": [
     {
@@ -594,16 +594,6 @@
   ],
   "_naval_news_refs": [
     {
-      "title": "The US military wants a fleet of missile-killing laser drones",
-      "link": "https://www.defensenews.com/industry/techwatch/2026/04/24/the-us-military-wants-a-fleet-of-missile-killing-laser-drones/",
-      "published": "Fri, 24 Apr 2026 16:00:27 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
       "title": "US Air Force aims to double F-15EX Eagle fleet",
       "link": "https://www.defensenews.com/industry/techwatch/2026/04/24/us-air-force-aims-to-double-f-15ex-eagle-fleet/",
       "published": "Fri, 24 Apr 2026 18:04:20 +0000",
@@ -685,6 +675,15 @@
       "categories": [
         "deployment",
         "conflict"
+      ]
+    },
+    {
+      "title": "US Air Force seeks $3.9 billion to boost KC-46 fleet",
+      "link": "https://www.militarytimes.com/news/your-military/2026/04/27/us-air-force-seeks-39-billion-to-boost-kc-46-fleet/",
+      "published": "Mon, 27 Apr 2026 21:12:27 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment"
       ]
     }
   ],
@@ -858,16 +857,6 @@
       ]
     },
     {
-      "title": "The US military wants a fleet of missile-killing laser drones",
-      "link": "https://www.defensenews.com/industry/techwatch/2026/04/24/the-us-military-wants-a-fleet-of-missile-killing-laser-drones/",
-      "published": "Fri, 24 Apr 2026 16:00:27 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
       "title": "U.S. Forces Kill 5 in Strikes on Suspected Narco Boats",
       "link": "https://news.usni.org/2026/04/27/u-s-forces-kill-5-in-strikes-on-suspected-narco-boats",
       "published": "Mon, 27 Apr 2026 16:45:15 +0000",
@@ -881,6 +870,16 @@
       "link": "https://www.defensenews.com/industry/techwatch/2026/04/27/us-air-force-looks-to-launch-cheap-missiles-from-cargo-aircraft/",
       "published": "Mon, 27 Apr 2026 18:34:55 +0000",
       "source": "Defense News",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
+    },
+    {
+      "title": "US Air Force looks to launch cheap missiles from cargo aircraft",
+      "link": "https://www.militarytimes.com/industry/techwatch/2026/04/27/us-air-force-looks-to-launch-cheap-missiles-from-cargo-aircraft/",
+      "published": "Mon, 27 Apr 2026 18:34:55 +0000",
+      "source": "Military Times",
       "categories": [
         "deployment",
         "conflict"
@@ -909,18 +908,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 15,
-    "conflict_articles": 8,
+    "deployment_articles": 16,
+    "conflict_articles": 7,
     "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-04-28T01:28:13.936123+00:00",
-    "manual_override": "DEFCON_2",
+    "computed_at": "2026-04-28T05:18:28.279671+00:00",
+    "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] Japan to Field Multiple Advanced Coastal Defense Missiles by 2032",
       "[USNI News] North Korea Test Launches Short Range Ballistic Missiles with Cluster Munitions",
-      "[Defense News] The US military wants a fleet of missile-killing laser drones",
       "[Defense News] US Air Force aims to double F-15EX Eagle fleet",
-      "[USNI News] Middle East Shipping ‘Paralyzed’ by Dueling U.S., Iranian Blockades, Analysts Say"
+      "[USNI News] Middle East Shipping ‘Paralyzed’ by Dueling U.S., Iranian Blockades, Analysts Say",
+      "[USNI News] U.S. Considering Foreign Designs, Shipyards for New Navy Frigate, Destroyer Work in $1.85B Study"
     ]
   },
   "ground_intel": {
@@ -931,9 +930,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-04-28T01:28:13.936169+00:00",
+    "last_successful_update": "2026-04-28T05:18:28.279719+00:00",
     "article_count": 50,
-    "categorized_count": 20,
+    "categorized_count": 21,
     "freshest_source": "Naval News",
     "freshest_title": "Japan to Field Multiple Advanced Coastal Defense Missiles by 2032",
     "freshest_published": "Fri, 24 Apr 2026 12:04:09 +0000"
