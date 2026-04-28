@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-04-28T12:17:57Z",
-  "version": 1194,
+  "generated_utc": "2026-04-28T17:27:01Z",
+  "version": 1195,
   "breaking_alert": "USNI News: North Korea Test Launches Short Range Ballistic Missiles with Cluster Munitions",
   "naval_deployments": [
     {
@@ -594,15 +594,6 @@
   ],
   "_naval_news_refs": [
     {
-      "title": "US Air Force aims to double F-15EX Eagle fleet",
-      "link": "https://www.defensenews.com/industry/techwatch/2026/04/24/us-air-force-aims-to-double-f-15ex-eagle-fleet/",
-      "published": "Fri, 24 Apr 2026 18:04:20 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Middle East Shipping ‘Paralyzed’ by Dueling U.S., Iranian Blockades, Analysts Say",
       "link": "https://news.usni.org/2026/04/24/middle-east-shipping-paralyzed-by-dueling-u-s-iranian-blockades-analysts-say",
       "published": "Fri, 24 Apr 2026 21:40:17 +0000",
@@ -649,15 +640,6 @@
       ]
     },
     {
-      "title": "US Navy commissions newest Virginia-class submarine USS Idaho",
-      "link": "https://www.militarytimes.com/news/your-navy/2026/04/27/us-navy-commissions-newest-virginia-class-submarine-uss-idaho/",
-      "published": "Mon, 27 Apr 2026 18:08:05 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "US Air Force looks to launch cheap missiles from cargo aircraft",
       "link": "https://www.defensenews.com/industry/techwatch/2026/04/27/us-air-force-looks-to-launch-cheap-missiles-from-cargo-aircraft/",
       "published": "Mon, 27 Apr 2026 18:34:55 +0000",
@@ -682,6 +664,24 @@
       "link": "https://www.militarytimes.com/news/your-military/2026/04/27/us-air-force-seeks-39-billion-to-boost-kc-46-fleet/",
       "published": "Mon, 27 Apr 2026 21:12:27 +0000",
       "source": "Military Times",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "U.S. Navy Commissions 26th Virginia-class Submarine – USS Idaho (SSN 799)",
+      "link": "https://www.navalnews.com/naval-news/2026/04/u-s-navy-commissions-26th-virginia-class-submarine-uss-idaho-ssn-799/",
+      "published": "Sun, 26 Apr 2026 07:28:06 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "HD HHI Becomes First Korean Company to Win U.S. Office of Naval Research Project",
+      "link": "https://www.navalnews.com/naval-news/2026/04/hd-hhi-becomes-first-korean-company-to-win-u-s-office-of-naval-research-project/",
+      "published": "Sun, 26 Apr 2026 20:55:22 +0000",
+      "source": "Naval News",
       "categories": [
         "deployment"
       ]
@@ -905,21 +905,31 @@
       "categories": [
         "exercise"
       ]
+    },
+    {
+      "title": "U.S. Missiles Deploy Near Taiwan During Balikatan Exercise, Chinese Action Group Operates Nearby",
+      "link": "https://news.usni.org/2026/04/28/u-s-missiles-deploy-near-taiwan-during-balikatan-exercise-chinese-action-group-operates-nearby",
+      "published": "Tue, 28 Apr 2026 16:19:16 +0000",
+      "source": "USNI News",
+      "categories": [
+        "exercise",
+        "conflict"
+      ]
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 16,
+    "deployment_articles": 14,
     "conflict_articles": 6,
-    "exercise_articles": 2,
+    "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-04-28T12:17:50.354776+00:00",
+    "computed_at": "2026-04-28T17:26:49.113433+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[USNI News] North Korea Test Launches Short Range Ballistic Missiles with Cluster Munitions",
-      "[Defense News] US Air Force aims to double F-15EX Eagle fleet",
       "[USNI News] Middle East Shipping ‘Paralyzed’ by Dueling U.S., Iranian Blockades, Analysts Say",
       "[USNI News] U.S. Considering Foreign Designs, Shipyards for New Navy Frigate, Destroyer Work in $1.85B Study",
-      "[Naval News] U.S. Navy drills in at-sea USV fueling ahead of CSG deployment"
+      "[Naval News] U.S. Navy drills in at-sea USV fueling ahead of CSG deployment",
+      "[Naval News] HII Builds on Submarine MUM-T Success with New Pentagon Deal"
     ]
   },
   "ground_intel": {
@@ -930,9 +940,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-04-28T12:17:50.354829+00:00",
+    "last_successful_update": "2026-04-28T17:26:49.113478+00:00",
     "article_count": 50,
-    "categorized_count": 20,
+    "categorized_count": 19,
     "freshest_source": "USNI News",
     "freshest_title": "North Korea Test Launches Short Range Ballistic Missiles with Cluster Munitions",
     "freshest_published": "Fri, 24 Apr 2026 13:50:53 +0000"
