@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-04-28T05:18:33Z",
-  "version": 1191,
+  "generated_utc": "2026-04-28T08:00:17Z",
+  "version": 1192,
   "breaking_alert": "Naval News: Japan to Field Multiple Advanced Coastal Defense Missiles by 2032",
   "naval_deployments": [
     {
@@ -912,7 +912,7 @@
     "conflict_articles": 7,
     "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-04-28T05:18:28.279671+00:00",
+    "computed_at": "2026-04-28T08:00:15.124289+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] Japan to Field Multiple Advanced Coastal Defense Missiles by 2032",
@@ -930,7 +930,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-04-28T05:18:28.279719+00:00",
+    "last_successful_update": "2026-04-28T08:00:15.124335+00:00",
     "article_count": 50,
     "categorized_count": 21,
     "freshest_source": "Naval News",
