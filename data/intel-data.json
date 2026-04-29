@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-04-29T17:12:42Z",
-  "version": 1208,
+  "generated_utc": "2026-04-29T19:03:50Z",
+  "version": 1209,
   "breaking_alert": "Naval News: U.S. Navy drills in at-sea USV fueling ahead of CSG deployment",
   "naval_deployments": [
     {
@@ -892,7 +892,7 @@
     "conflict_articles": 3,
     "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-04-29T17:12:40.060711+00:00",
+    "computed_at": "2026-04-29T19:03:43.684177+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] U.S. Navy drills in at-sea USV fueling ahead of CSG deployment",
@@ -910,7 +910,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-04-29T17:12:40.060752+00:00",
+    "last_successful_update": "2026-04-29T19:03:43.684215+00:00",
     "article_count": 50,
     "categorized_count": 13,
     "freshest_source": "Naval News",
