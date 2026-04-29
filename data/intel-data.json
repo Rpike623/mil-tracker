@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-04-29T15:49:55Z",
-  "version": 1207,
-  "breaking_alert": "USNI News: U.S. Considering Foreign Designs, Shipyards for New Navy Frigate, Destroyer Work in $1.85B Study",
+  "generated_utc": "2026-04-29T17:12:42Z",
+  "version": 1208,
+  "breaking_alert": "Naval News: U.S. Navy drills in at-sea USV fueling ahead of CSG deployment",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -594,15 +594,6 @@
   ],
   "_naval_news_refs": [
     {
-      "title": "U.S. Considering Foreign Designs, Shipyards for New Navy Frigate, Destroyer Work in $1.85B Study",
-      "link": "https://news.usni.org/2026/04/24/u-s-considering-foreign-designs-shipyards-for-new-navy-frigate-destroyer-work-in-1-85b-study",
-      "published": "Fri, 24 Apr 2026 22:02:54 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "U.S. Navy drills in at-sea USV fueling ahead of CSG deployment",
       "link": "https://www.navalnews.com/naval-news/2026/04/u-s-navy-drills-in-at-sea-usv-fueling-ahead-of-csg-deployment/",
       "published": "Mon, 27 Apr 2026 10:55:00 +0000",
@@ -671,6 +662,15 @@
       "link": "https://taskandpurpose.com/news/iran-war-bunker-graffiti-artwork/",
       "published": "Wed, 29 Apr 2026 09:37:18 -0400",
       "source": "Task & Purpose",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Ship that Debuted with the Nigerian Navy will be Key for Future U.S., Australian Naval Forces",
+      "link": "https://news.usni.org/2026/04/29/ship-that-debuted-with-the-nigerian-navy-will-be-key-for-future-u-s-australian-naval-forces",
+      "published": "Wed, 29 Apr 2026 16:22:28 +0000",
+      "source": "USNI News",
       "categories": [
         "deployment"
       ]
@@ -892,14 +892,14 @@
     "conflict_articles": 3,
     "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-04-29T15:49:53.126821+00:00",
+    "computed_at": "2026-04-29T17:12:40.060711+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
-      "[USNI News] U.S. Considering Foreign Designs, Shipyards for New Navy Frigate, Destroyer Work in $1.85B Study",
       "[Naval News] U.S. Navy drills in at-sea USV fueling ahead of CSG deployment",
       "[Naval News] HII Builds on Submarine MUM-T Success with New Pentagon Deal",
       "[USNI News] U.S. Forces Kill 5 in Strikes on Suspected Narco Boats",
-      "[USNI News] USNI News Fleet and Marine Tracker: April, 27 2026"
+      "[USNI News] USNI News Fleet and Marine Tracker: April, 27 2026",
+      "[Task & Purpose] Special Operations Command lays out high-tech wish list"
     ]
   },
   "ground_intel": {
@@ -910,12 +910,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-04-29T15:49:53.126862+00:00",
+    "last_successful_update": "2026-04-29T17:12:40.060752+00:00",
     "article_count": 50,
     "categorized_count": 13,
-    "freshest_source": "USNI News",
-    "freshest_title": "U.S. Considering Foreign Designs, Shipyards for New Navy Frigate, Destroyer Work in $1.85B Study",
-    "freshest_published": "Fri, 24 Apr 2026 22:02:54 +0000"
+    "freshest_source": "Naval News",
+    "freshest_title": "U.S. Navy drills in at-sea USV fueling ahead of CSG deployment",
+    "freshest_published": "Mon, 27 Apr 2026 10:55:00 +0000"
   },
   "_firms_hotspots": []
 }
