@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-04-29T13:15:18Z",
-  "version": 1206,
-  "breaking_alert": "USNI News: Middle East Shipping ‘Paralyzed’ by Dueling U.S., Iranian Blockades, Analysts Say",
+  "generated_utc": "2026-04-29T15:49:55Z",
+  "version": 1207,
+  "breaking_alert": "USNI News: U.S. Considering Foreign Designs, Shipyards for New Navy Frigate, Destroyer Work in $1.85B Study",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -594,15 +594,6 @@
   ],
   "_naval_news_refs": [
     {
-      "title": "Middle East Shipping ‘Paralyzed’ by Dueling U.S., Iranian Blockades, Analysts Say",
-      "link": "https://news.usni.org/2026/04/24/middle-east-shipping-paralyzed-by-dueling-u-s-iranian-blockades-analysts-say",
-      "published": "Fri, 24 Apr 2026 21:40:17 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "U.S. Considering Foreign Designs, Shipyards for New Navy Frigate, Destroyer Work in $1.85B Study",
       "link": "https://news.usni.org/2026/04/24/u-s-considering-foreign-designs-shipyards-for-new-navy-frigate-destroyer-work-in-1-85b-study",
       "published": "Fri, 24 Apr 2026 22:02:54 +0000",
@@ -640,25 +631,6 @@
       ]
     },
     {
-      "title": "US Air Force looks to launch cheap missiles from cargo aircraft",
-      "link": "https://www.defensenews.com/industry/techwatch/2026/04/27/us-air-force-looks-to-launch-cheap-missiles-from-cargo-aircraft/",
-      "published": "Mon, 27 Apr 2026 18:34:55 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
-      "title": "HD HHI Becomes First Korean Company to Win U.S. Office of Naval Research Project",
-      "link": "https://www.navalnews.com/naval-news/2026/04/hd-hhi-becomes-first-korean-company-to-win-u-s-office-of-naval-research-project/",
-      "published": "Sun, 26 Apr 2026 20:55:22 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Why aircraft carriers are the best (and worst) place for laser weapons",
       "link": "https://www.defensenews.com/industry/techwatch/2026/04/28/why-aircraft-carriers-are-the-best-and-worst-place-for-laser-weapons/",
       "published": "Tue, 28 Apr 2026 01:44:19 +0000",
@@ -668,19 +640,37 @@
       ]
     },
     {
-      "title": "Why aircraft carriers are the best (and worst) place for laser weapons",
-      "link": "https://www.militarytimes.com/industry/techwatch/2026/04/28/why-aircraft-carriers-are-the-best-and-worst-place-for-laser-weapons/",
-      "published": "Tue, 28 Apr 2026 01:44:19 +0000",
+      "title": "India races to boost conventional, nuclear submarine combat punch",
+      "link": "https://www.defensenews.com/global/asia-pacific/2026/04/28/india-races-to-boost-conventional-nuclear-submarine-combat-punch/",
+      "published": "Tue, 28 Apr 2026 15:18:02 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "US soldier pleads not guilty to charges of gambling on Maduro ouster",
+      "link": "https://www.militarytimes.com/news/your-military/2026/04/28/us-soldier-pleads-not-guilty-to-charges-of-gambling-on-maduro-ouster/",
+      "published": "Tue, 28 Apr 2026 18:03:12 +0000",
       "source": "Military Times",
       "categories": [
         "deployment"
       ]
     },
     {
-      "title": "India races to boost conventional, nuclear submarine combat punch",
-      "link": "https://www.defensenews.com/global/asia-pacific/2026/04/28/india-races-to-boost-conventional-nuclear-submarine-combat-punch/",
-      "published": "Tue, 28 Apr 2026 15:18:02 +0000",
-      "source": "Defense News",
+      "title": "Amphib USS San Antonio Returns from Southern Command After More Than 8-month Deployment",
+      "link": "https://news.usni.org/2026/04/28/amphib-uss-san-antonio-returns-from-southern-command-after-more-than-8-month-deployment",
+      "published": "Tue, 28 Apr 2026 22:26:56 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Scrawled in bunkers, the ‘first military art’ of the Iran War emerges",
+      "link": "https://taskandpurpose.com/news/iran-war-bunker-graffiti-artwork/",
+      "published": "Wed, 29 Apr 2026 09:37:18 -0400",
+      "source": "Task & Purpose",
       "categories": [
         "deployment"
       ]
@@ -847,16 +837,6 @@
       ]
     },
     {
-      "title": "US Air Force looks to launch cheap missiles from cargo aircraft",
-      "link": "https://www.defensenews.com/industry/techwatch/2026/04/27/us-air-force-looks-to-launch-cheap-missiles-from-cargo-aircraft/",
-      "published": "Mon, 27 Apr 2026 18:34:55 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
       "title": "U.S. Missiles Deploy Near Taiwan During Balikatan Exercise, Chinese Action Group Operates Nearby",
       "link": "https://news.usni.org/2026/04/28/u-s-missiles-deploy-near-taiwan-during-balikatan-exercise-chinese-action-group-operates-nearby",
       "published": "Tue, 28 Apr 2026 16:19:16 +0000",
@@ -908,18 +888,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 12,
-    "conflict_articles": 4,
+    "deployment_articles": 9,
+    "conflict_articles": 3,
     "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-04-29T13:15:12.204859+00:00",
+    "computed_at": "2026-04-29T15:49:53.126821+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
-      "[USNI News] Middle East Shipping ‘Paralyzed’ by Dueling U.S., Iranian Blockades, Analysts Say",
       "[USNI News] U.S. Considering Foreign Designs, Shipyards for New Navy Frigate, Destroyer Work in $1.85B Study",
       "[Naval News] U.S. Navy drills in at-sea USV fueling ahead of CSG deployment",
       "[Naval News] HII Builds on Submarine MUM-T Success with New Pentagon Deal",
-      "[USNI News] U.S. Forces Kill 5 in Strikes on Suspected Narco Boats"
+      "[USNI News] U.S. Forces Kill 5 in Strikes on Suspected Narco Boats",
+      "[USNI News] USNI News Fleet and Marine Tracker: April, 27 2026"
     ]
   },
   "ground_intel": {
@@ -930,12 +910,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-04-29T13:15:12.204904+00:00",
+    "last_successful_update": "2026-04-29T15:49:53.126862+00:00",
     "article_count": 50,
-    "categorized_count": 16,
+    "categorized_count": 13,
     "freshest_source": "USNI News",
-    "freshest_title": "Middle East Shipping ‘Paralyzed’ by Dueling U.S., Iranian Blockades, Analysts Say",
-    "freshest_published": "Fri, 24 Apr 2026 21:40:17 +0000"
+    "freshest_title": "U.S. Considering Foreign Designs, Shipyards for New Navy Frigate, Destroyer Work in $1.85B Study",
+    "freshest_published": "Fri, 24 Apr 2026 22:02:54 +0000"
   },
   "_firms_hotspots": []
 }
