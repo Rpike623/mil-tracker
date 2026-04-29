@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-04-29T19:03:50Z",
-  "version": 1209,
+  "generated_utc": "2026-04-29T20:48:00Z",
+  "version": 1210,
   "breaking_alert": "Naval News: U.S. Navy drills in at-sea USV fueling ahead of CSG deployment",
   "naval_deployments": [
     {
@@ -622,28 +622,10 @@
       ]
     },
     {
-      "title": "Why aircraft carriers are the best (and worst) place for laser weapons",
-      "link": "https://www.defensenews.com/industry/techwatch/2026/04/28/why-aircraft-carriers-are-the-best-and-worst-place-for-laser-weapons/",
-      "published": "Tue, 28 Apr 2026 01:44:19 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "India races to boost conventional, nuclear submarine combat punch",
       "link": "https://www.defensenews.com/global/asia-pacific/2026/04/28/india-races-to-boost-conventional-nuclear-submarine-combat-punch/",
       "published": "Tue, 28 Apr 2026 15:18:02 +0000",
       "source": "Defense News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "US soldier pleads not guilty to charges of gambling on Maduro ouster",
-      "link": "https://www.militarytimes.com/news/your-military/2026/04/28/us-soldier-pleads-not-guilty-to-charges-of-gambling-on-maduro-ouster/",
-      "published": "Tue, 28 Apr 2026 18:03:12 +0000",
-      "source": "Military Times",
       "categories": [
         "deployment"
       ]
@@ -671,6 +653,24 @@
       "link": "https://news.usni.org/2026/04/29/ship-that-debuted-with-the-nigerian-navy-will-be-key-for-future-u-s-australian-naval-forces",
       "published": "Wed, 29 Apr 2026 16:22:28 +0000",
       "source": "USNI News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Iran war has cost $25 billion so far, Pentagon official says",
+      "link": "https://www.defensenews.com/news/pentagon-congress/2026/04/29/iran-war-has-cost-25-billion-so-far-pentagon-official-says/",
+      "published": "Wed, 29 Apr 2026 19:13:24 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Iran war has cost $25 billion so far, Pentagon official says",
+      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/04/29/iran-war-has-cost-25-billion-so-far-pentagon-official-says/",
+      "published": "Wed, 29 Apr 2026 19:13:24 +0000",
+      "source": "Military Times",
       "categories": [
         "deployment"
       ]
@@ -854,6 +854,24 @@
       "categories": [
         "conflict"
       ]
+    },
+    {
+      "title": "Trump says he discussed a Ukraine ceasefire with Putin",
+      "link": "https://www.defensenews.com/news/pentagon-congress/2026/04/29/trump-says-he-discussed-a-ukraine-ceasefire-with-putin/",
+      "published": "Wed, 29 Apr 2026 20:05:12 +0000",
+      "source": "Defense News",
+      "categories": [
+        "conflict"
+      ]
+    },
+    {
+      "title": "Trump says he discussed a Ukraine ceasefire with Putin",
+      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/04/29/trump-says-he-discussed-a-ukraine-ceasefire-with-putin/",
+      "published": "Wed, 29 Apr 2026 20:05:12 +0000",
+      "source": "Military Times",
+      "categories": [
+        "conflict"
+      ]
     }
   ],
   "_exercise_news_refs": [
@@ -889,10 +907,10 @@
   ],
   "_threat_indicators": {
     "deployment_articles": 9,
-    "conflict_articles": 3,
+    "conflict_articles": 5,
     "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-04-29T19:03:43.684177+00:00",
+    "computed_at": "2026-04-29T20:47:55.798264+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] U.S. Navy drills in at-sea USV fueling ahead of CSG deployment",
@@ -910,9 +928,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-04-29T19:03:43.684215+00:00",
+    "last_successful_update": "2026-04-29T20:47:55.798302+00:00",
     "article_count": 50,
-    "categorized_count": 13,
+    "categorized_count": 15,
     "freshest_source": "Naval News",
     "freshest_title": "U.S. Navy drills in at-sea USV fueling ahead of CSG deployment",
     "freshest_published": "Mon, 27 Apr 2026 10:55:00 +0000"
