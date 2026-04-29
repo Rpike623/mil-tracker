@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-04-29T11:22:08Z",
-  "version": 1205,
+  "generated_utc": "2026-04-29T13:15:18Z",
+  "version": 1206,
   "breaking_alert": "USNI News: Middle East Shipping ‘Paralyzed’ by Dueling U.S., Iranian Blockades, Analysts Say",
   "naval_deployments": [
     {
@@ -650,15 +650,6 @@
       ]
     },
     {
-      "title": "U.S. Navy Commissions 26th Virginia-class Submarine – USS Idaho (SSN 799)",
-      "link": "https://www.navalnews.com/naval-news/2026/04/u-s-navy-commissions-26th-virginia-class-submarine-uss-idaho-ssn-799/",
-      "published": "Sun, 26 Apr 2026 07:28:06 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "HD HHI Becomes First Korean Company to Win U.S. Office of Naval Research Project",
       "link": "https://www.navalnews.com/naval-news/2026/04/hd-hhi-becomes-first-korean-company-to-win-u-s-office-of-naval-research-project/",
       "published": "Sun, 26 Apr 2026 20:55:22 +0000",
@@ -681,6 +672,15 @@
       "link": "https://www.militarytimes.com/industry/techwatch/2026/04/28/why-aircraft-carriers-are-the-best-and-worst-place-for-laser-weapons/",
       "published": "Tue, 28 Apr 2026 01:44:19 +0000",
       "source": "Military Times",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "India races to boost conventional, nuclear submarine combat punch",
+      "link": "https://www.defensenews.com/global/asia-pacific/2026/04/28/india-races-to-boost-conventional-nuclear-submarine-combat-punch/",
+      "published": "Tue, 28 Apr 2026 15:18:02 +0000",
+      "source": "Defense News",
       "categories": [
         "deployment"
       ]
@@ -865,6 +865,15 @@
         "exercise",
         "conflict"
       ]
+    },
+    {
+      "title": "New CoAspire Long-Range Missile Eyes Navy, Anti-Ship Missions",
+      "link": "https://www.navalnews.com/naval-news/2026/04/new-coaspire-long-range-missile-eyes-navy-anti-ship-missions/",
+      "published": "Wed, 29 Apr 2026 12:01:34 +0000",
+      "source": "Naval News",
+      "categories": [
+        "conflict"
+      ]
     }
   ],
   "_exercise_news_refs": [
@@ -899,11 +908,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 13,
-    "conflict_articles": 3,
+    "deployment_articles": 12,
+    "conflict_articles": 4,
     "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-04-29T11:22:06.294854+00:00",
+    "computed_at": "2026-04-29T13:15:12.204859+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[USNI News] Middle East Shipping ‘Paralyzed’ by Dueling U.S., Iranian Blockades, Analysts Say",
@@ -921,7 +930,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-04-29T11:22:06.294897+00:00",
+    "last_successful_update": "2026-04-29T13:15:12.204904+00:00",
     "article_count": 50,
     "categorized_count": 16,
     "freshest_source": "USNI News",
