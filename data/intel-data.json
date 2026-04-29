@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-04-29T21:48:47Z",
-  "version": 1211,
+  "generated_utc": "2026-04-29T22:42:46Z",
+  "version": 1212,
   "breaking_alert": "Naval News: HII Builds on Submarine MUM-T Success with New Pentagon Deal",
   "naval_deployments": [
     {
@@ -603,15 +603,6 @@
       ]
     },
     {
-      "title": "USNI News Fleet and Marine Tracker: April, 27 2026",
-      "link": "https://news.usni.org/2026/04/27/usni-news-fleet-and-marine-tracker-april-27-2026",
-      "published": "Mon, 27 Apr 2026 17:42:17 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Amphib USS San Antonio Returns from Southern Command After More Than 8-month Deployment",
       "link": "https://news.usni.org/2026/04/28/amphib-uss-san-antonio-returns-from-southern-command-after-more-than-8-month-deployment",
       "published": "Tue, 28 Apr 2026 22:26:56 +0000",
@@ -670,6 +661,15 @@
       "link": "https://www.militarytimes.com/news/pentagon-congress/2026/04/29/dont-call-it-a-quagmire-defense-secretary-refuses-to-speculate-on-length-of-iran-war/",
       "published": "Wed, 29 Apr 2026 20:46:48 +0000",
       "source": "Military Times",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Marines Considering Alternative Ships for SOUTHCOM Deployments",
+      "link": "https://news.usni.org/2026/04/29/marines-considering-alternative-ships-for-southcom-deployments",
+      "published": "Wed, 29 Apr 2026 22:16:20 +0000",
+      "source": "USNI News",
       "categories": [
         "deployment"
       ]
@@ -890,14 +890,14 @@
     "conflict_articles": 4,
     "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-04-29T21:48:42.785510+00:00",
+    "computed_at": "2026-04-29T22:42:34.757313+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] HII Builds on Submarine MUM-T Success with New Pentagon Deal",
-      "[USNI News] USNI News Fleet and Marine Tracker: April, 27 2026",
       "[Task & Purpose] Special Operations Command lays out high-tech wish list",
       "[USNI News] U.S. Missiles Deploy Near Taiwan During Balikatan Exercise, Chinese Action Group Operates Nearby",
-      "[USNI News] Amphib USS San Antonio Returns from Southern Command After More Than 8-month Deployment"
+      "[USNI News] Amphib USS San Antonio Returns from Southern Command After More Than 8-month Deployment",
+      "[Task & Purpose] Scrawled in bunkers, the ‘first military art’ of the Iran War emerges"
     ]
   },
   "ground_intel": {
@@ -908,7 +908,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-04-29T21:48:42.785550+00:00",
+    "last_successful_update": "2026-04-29T22:42:34.757360+00:00",
     "article_count": 50,
     "categorized_count": 14,
     "freshest_source": "Naval News",
