@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-04-30T16:11:35Z",
-  "version": 1220,
+  "generated_utc": "2026-04-30T18:00:37Z",
+  "version": 1221,
   "breaking_alert": "Task & Purpose: Special Operations Command lays out high-tech wish list",
   "naval_deployments": [
     {
@@ -612,6 +612,15 @@
       ]
     },
     {
+      "title": "Soldier told Discord chat he planned to target Jewish worshipers, feds say",
+      "link": "https://taskandpurpose.com/news/infantryman-threats-shoot-jewish-temple/",
+      "published": "Thu, 30 Apr 2026 12:28:12 -0400",
+      "source": "Task & Purpose",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "US military commanders to brief Trump on military options against Iran",
       "link": "https://www.defensenews.com/news/pentagon-congress/2026/04/30/us-military-commanders-to-brief-trump-on-military-options-against-iran/",
       "published": "Thu, 30 Apr 2026 14:46:59 +0000",
@@ -670,15 +679,6 @@
       "link": "https://www.militarytimes.com/news/pentagon-congress/2026/04/29/iran-war-has-cost-25-billion-so-far-pentagon-official-says/",
       "published": "Wed, 29 Apr 2026 19:13:24 +0000",
       "source": "Military Times",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Don’t call it a ‘quagmire’: defense secretary refuses to speculate on length of Iran war",
-      "link": "https://www.defensenews.com/news/pentagon-congress/2026/04/29/dont-call-it-a-quagmire-defense-secretary-refuses-to-speculate-on-length-of-iran-war/",
-      "published": "Wed, 29 Apr 2026 20:46:48 +0000",
-      "source": "Defense News",
       "categories": [
         "deployment"
       ]
@@ -895,18 +895,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 12,
+    "deployment_articles": 13,
     "conflict_articles": 3,
     "exercise_articles": 3,
     "total_articles": 40,
-    "computed_at": "2026-04-30T16:11:30.847345+00:00",
+    "computed_at": "2026-04-30T18:00:32.180740+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Task & Purpose] Special Operations Command lays out high-tech wish list",
       "[Defense News] US Navy to extend service life of amphibious assault ship USS Wasp by 5 years",
       "[Military Times] US Navy to extend service life of amphibious assault ship USS Wasp by 5 years",
-      "[Defense News] US military commanders to brief Trump on military options against Iran",
-      "[Military Times] US military commanders to brief Trump on military options against Iran"
+      "[Task & Purpose] Soldier told Discord chat he planned to target Jewish worshipers, feds say",
+      "[Defense News] US military commanders to brief Trump on military options against Iran"
     ]
   },
   "ground_intel": {
@@ -917,9 +917,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-04-30T16:11:30.847385+00:00",
+    "last_successful_update": "2026-04-30T18:00:32.180780+00:00",
     "article_count": 40,
-    "categorized_count": 17,
+    "categorized_count": 18,
     "freshest_source": "Task & Purpose",
     "freshest_title": "Special Operations Command lays out high-tech wish list",
     "freshest_published": "Sun, 26 Apr 2026 17:35:11 -0400"
