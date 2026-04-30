@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-04-30T05:18:16Z",
-  "version": 1215,
-  "breaking_alert": "Naval News: HII Builds on Submarine MUM-T Success with New Pentagon Deal",
+  "generated_utc": "2026-04-30T07:57:50Z",
+  "version": 1216,
+  "breaking_alert": "Task & Purpose: Special Operations Command lays out high-tech wish list",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -594,15 +594,6 @@
   ],
   "_naval_news_refs": [
     {
-      "title": "HII Builds on Submarine MUM-T Success with New Pentagon Deal",
-      "link": "https://www.navalnews.com/naval-news/2026/04/hii-builds-on-submarine-mum-t-success-with-new-pentagon-deal/",
-      "published": "Mon, 27 Apr 2026 16:41:57 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "US Navy to extend service life of amphibious assault ship USS Wasp by 5 years",
       "link": "https://www.defensenews.com/news/your-navy/2026/04/30/us-navy-to-extend-service-life-of-amphibious-assault-ship-uss-wasp-by-5-years/",
       "published": "Thu, 30 Apr 2026 00:03:37 +0000",
@@ -679,6 +670,15 @@
       "link": "https://www.militarytimes.com/news/pentagon-congress/2026/04/29/dont-call-it-a-quagmire-defense-secretary-refuses-to-speculate-on-length-of-iran-war/",
       "published": "Wed, 29 Apr 2026 20:46:48 +0000",
       "source": "Military Times",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Marines Considering Alternative Ships for SOUTHCOM Deployments",
+      "link": "https://news.usni.org/2026/04/29/marines-considering-alternative-ships-for-southcom-deployments",
+      "published": "Wed, 29 Apr 2026 22:16:20 +0000",
+      "source": "USNI News",
       "categories": [
         "deployment"
       ]
@@ -895,18 +895,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 11,
+    "deployment_articles": 10,
     "conflict_articles": 4,
     "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-04-30T05:18:09.032950+00:00",
+    "computed_at": "2026-04-30T07:57:45.837599+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
-      "[Naval News] HII Builds on Submarine MUM-T Success with New Pentagon Deal",
       "[Task & Purpose] Special Operations Command lays out high-tech wish list",
       "[Defense News] US Navy to extend service life of amphibious assault ship USS Wasp by 5 years",
       "[Military Times] US Navy to extend service life of amphibious assault ship USS Wasp by 5 years",
-      "[USNI News] U.S. Missiles Deploy Near Taiwan During Balikatan Exercise, Chinese Action Group Operates Nearby"
+      "[USNI News] U.S. Missiles Deploy Near Taiwan During Balikatan Exercise, Chinese Action Group Operates Nearby",
+      "[USNI News] Amphib USS San Antonio Returns from Southern Command After More Than 8-month Deployment"
     ]
   },
   "ground_intel": {
@@ -917,12 +917,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-04-30T05:18:09.032991+00:00",
+    "last_successful_update": "2026-04-30T07:57:45.837642+00:00",
     "article_count": 50,
-    "categorized_count": 16,
-    "freshest_source": "Naval News",
-    "freshest_title": "HII Builds on Submarine MUM-T Success with New Pentagon Deal",
-    "freshest_published": "Mon, 27 Apr 2026 16:41:57 +0000"
+    "categorized_count": 15,
+    "freshest_source": "Task & Purpose",
+    "freshest_title": "Special Operations Command lays out high-tech wish list",
+    "freshest_published": "Sun, 26 Apr 2026 17:35:11 -0400"
   },
   "_firms_hotspots": []
 }
