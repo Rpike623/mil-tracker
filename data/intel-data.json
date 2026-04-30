@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-04-30T21:48:17Z",
-  "version": 1223,
+  "generated_utc": "2026-04-30T22:38:39Z",
+  "version": 1224,
   "breaking_alert": "Defense News: US Navy to extend service life of amphibious assault ship USS Wasp by 5 years",
   "naval_deployments": [
     {
@@ -872,7 +872,7 @@
     "conflict_articles": 1,
     "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-04-30T21:43:36.872516+00:00",
+    "computed_at": "2026-04-30T22:38:34.441549+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Defense News] US Navy to extend service life of amphibious assault ship USS Wasp by 5 years",
@@ -890,7 +890,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-04-30T21:43:36.872559+00:00",
+    "last_successful_update": "2026-04-30T22:38:34.441592+00:00",
     "article_count": 50,
     "categorized_count": 12,
     "freshest_source": "Defense News",
