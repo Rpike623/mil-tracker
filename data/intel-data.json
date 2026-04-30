@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-04-30T12:05:52Z",
-  "version": 1218,
+  "generated_utc": "2026-04-30T14:55:47Z",
+  "version": 1219,
   "breaking_alert": "Task & Purpose: Special Operations Command lays out high-tech wish list",
   "naval_deployments": [
     {
@@ -612,10 +612,19 @@
       ]
     },
     {
-      "title": "Pakistan Navy Commissions First Hangor-class Submarine in China",
-      "link": "https://www.navalnews.com/naval-news/2026/04/pakistan-navy-commissions-first-hangor-class-submarine-in-china/",
-      "published": "Thu, 30 Apr 2026 09:23:46 +0000",
-      "source": "Naval News",
+      "title": "US military commanders to brief Trump on military options against Iran",
+      "link": "https://www.defensenews.com/news/pentagon-congress/2026/04/30/us-military-commanders-to-brief-trump-on-military-options-against-iran/",
+      "published": "Thu, 30 Apr 2026 14:46:59 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "US military commanders to brief Trump on military options against Iran",
+      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/04/30/us-military-commanders-to-brief-trump-on-military-options-against-iran/",
+      "published": "Thu, 30 Apr 2026 14:46:59 +0000",
+      "source": "Military Times",
       "categories": [
         "deployment"
       ]
@@ -670,15 +679,6 @@
       "link": "https://www.defensenews.com/news/pentagon-congress/2026/04/29/dont-call-it-a-quagmire-defense-secretary-refuses-to-speculate-on-length-of-iran-war/",
       "published": "Wed, 29 Apr 2026 20:46:48 +0000",
       "source": "Defense News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Don’t call it a ‘quagmire’: defense secretary refuses to speculate on length of Iran war",
-      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/04/29/dont-call-it-a-quagmire-defense-secretary-refuses-to-speculate-on-length-of-iran-war/",
-      "published": "Wed, 29 Apr 2026 20:46:48 +0000",
-      "source": "Military Times",
       "categories": [
         "deployment"
       ]
@@ -846,15 +846,6 @@
       ]
     },
     {
-      "title": "New CoAspire Long-Range Missile Eyes Navy, Anti-Ship Missions",
-      "link": "https://www.navalnews.com/naval-news/2026/04/new-coaspire-long-range-missile-eyes-navy-anti-ship-missions/",
-      "published": "Wed, 29 Apr 2026 12:01:34 +0000",
-      "source": "Naval News",
-      "categories": [
-        "conflict"
-      ]
-    },
-    {
       "title": "Trump says he discussed a Ukraine ceasefire with Putin",
       "link": "https://www.defensenews.com/news/pentagon-congress/2026/04/29/trump-says-he-discussed-a-ukraine-ceasefire-with-putin/",
       "published": "Wed, 29 Apr 2026 20:05:12 +0000",
@@ -895,18 +886,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 11,
-    "conflict_articles": 4,
+    "deployment_articles": 12,
+    "conflict_articles": 3,
     "exercise_articles": 2,
-    "total_articles": 50,
-    "computed_at": "2026-04-30T12:05:49.232995+00:00",
+    "total_articles": 40,
+    "computed_at": "2026-04-30T14:55:44.837630+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Task & Purpose] Special Operations Command lays out high-tech wish list",
       "[Defense News] US Navy to extend service life of amphibious assault ship USS Wasp by 5 years",
       "[Military Times] US Navy to extend service life of amphibious assault ship USS Wasp by 5 years",
-      "[Naval News] Pakistan Navy Commissions First Hangor-class Submarine in China",
-      "[USNI News] U.S. Missiles Deploy Near Taiwan During Balikatan Exercise, Chinese Action Group Operates Nearby"
+      "[Defense News] US military commanders to brief Trump on military options against Iran",
+      "[Military Times] US military commanders to brief Trump on military options against Iran"
     ]
   },
   "ground_intel": {
@@ -917,8 +908,8 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-04-30T12:05:49.233039+00:00",
-    "article_count": 50,
+    "last_successful_update": "2026-04-30T14:55:44.837675+00:00",
+    "article_count": 40,
     "categorized_count": 16,
     "freshest_source": "Task & Purpose",
     "freshest_title": "Special Operations Command lays out high-tech wish list",
