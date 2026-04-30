@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-04-30T10:01:44Z",
-  "version": 1217,
+  "generated_utc": "2026-04-30T12:05:52Z",
+  "version": 1218,
   "breaking_alert": "Task & Purpose: Special Operations Command lays out high-tech wish list",
   "naval_deployments": [
     {
@@ -899,7 +899,7 @@
     "conflict_articles": 4,
     "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-04-30T10:01:36.195906+00:00",
+    "computed_at": "2026-04-30T12:05:49.232995+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Task & Purpose] Special Operations Command lays out high-tech wish list",
@@ -917,7 +917,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-04-30T10:01:36.195946+00:00",
+    "last_successful_update": "2026-04-30T12:05:49.233039+00:00",
     "article_count": 50,
     "categorized_count": 16,
     "freshest_source": "Task & Purpose",
