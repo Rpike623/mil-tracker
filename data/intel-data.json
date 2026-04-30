@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-04-30T14:55:47Z",
-  "version": 1219,
+  "generated_utc": "2026-04-30T16:11:35Z",
+  "version": 1220,
   "breaking_alert": "Task & Purpose: Special Operations Command lays out high-tech wish list",
   "naval_deployments": [
     {
@@ -875,6 +875,15 @@
       ]
     },
     {
+      "title": "U.S. Navy Declares Initial Operational Capability for Modified P-8A Poseidon Patrol Aircraft",
+      "link": "https://news.usni.org/2026/04/30/u-s-navy-declares-initial-operational-capability-for-modified-p-8a-poseidon-patrol-aircraft",
+      "published": "Thu, 30 Apr 2026 15:50:11 +0000",
+      "source": "USNI News",
+      "categories": [
+        "exercise"
+      ]
+    },
+    {
       "title": "U.S. Missiles Deploy Near Taiwan During Balikatan Exercise, Chinese Action Group Operates Nearby",
       "link": "https://news.usni.org/2026/04/28/u-s-missiles-deploy-near-taiwan-during-balikatan-exercise-chinese-action-group-operates-nearby",
       "published": "Tue, 28 Apr 2026 16:19:16 +0000",
@@ -888,9 +897,9 @@
   "_threat_indicators": {
     "deployment_articles": 12,
     "conflict_articles": 3,
-    "exercise_articles": 2,
+    "exercise_articles": 3,
     "total_articles": 40,
-    "computed_at": "2026-04-30T14:55:44.837630+00:00",
+    "computed_at": "2026-04-30T16:11:30.847345+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Task & Purpose] Special Operations Command lays out high-tech wish list",
@@ -908,9 +917,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-04-30T14:55:44.837675+00:00",
+    "last_successful_update": "2026-04-30T16:11:30.847385+00:00",
     "article_count": 40,
-    "categorized_count": 16,
+    "categorized_count": 17,
     "freshest_source": "Task & Purpose",
     "freshest_title": "Special Operations Command lays out high-tech wish list",
     "freshest_published": "Sun, 26 Apr 2026 17:35:11 -0400"
