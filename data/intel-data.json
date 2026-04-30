@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-04-30T20:02:06Z",
-  "version": 1222,
-  "breaking_alert": "Task & Purpose: Special Operations Command lays out high-tech wish list",
+  "generated_utc": "2026-04-30T21:48:17Z",
+  "version": 1223,
+  "breaking_alert": "Defense News: US Navy to extend service life of amphibious assault ship USS Wasp by 5 years",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -603,15 +603,6 @@
       ]
     },
     {
-      "title": "US Navy to extend service life of amphibious assault ship USS Wasp by 5 years",
-      "link": "https://www.militarytimes.com/news/your-navy/2026/04/30/us-navy-to-extend-service-life-of-amphibious-assault-ship-uss-wasp-by-5-years/",
-      "published": "Thu, 30 Apr 2026 00:03:37 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Pakistan Navy Commissions First Hangor-class Submarine in China",
       "link": "https://www.navalnews.com/naval-news/2026/04/pakistan-navy-commissions-first-hangor-class-submarine-in-china/",
       "published": "Thu, 30 Apr 2026 09:23:46 +0000",
@@ -678,6 +669,15 @@
       "title": "Ship that Debuted with the Nigerian Navy will be Key for Future U.S., Australian Naval Forces",
       "link": "https://news.usni.org/2026/04/29/ship-that-debuted-with-the-nigerian-navy-will-be-key-for-future-u-s-australian-naval-forces",
       "published": "Wed, 29 Apr 2026 16:22:28 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Marines Considering Alternative Ships for SOUTHCOM Deployments",
+      "link": "https://news.usni.org/2026/04/29/marines-considering-alternative-ships-for-southcom-deployments",
+      "published": "Wed, 29 Apr 2026 22:16:20 +0000",
       "source": "USNI News",
       "categories": [
         "deployment"
@@ -844,45 +844,9 @@
         "exercise",
         "conflict"
       ]
-    },
-    {
-      "title": "New CoAspire Long-Range Missile Eyes Navy, Anti-Ship Missions",
-      "link": "https://www.navalnews.com/naval-news/2026/04/new-coaspire-long-range-missile-eyes-navy-anti-ship-missions/",
-      "published": "Wed, 29 Apr 2026 12:01:34 +0000",
-      "source": "Naval News",
-      "categories": [
-        "conflict"
-      ]
-    },
-    {
-      "title": "Trump says he discussed a Ukraine ceasefire with Putin",
-      "link": "https://www.defensenews.com/news/pentagon-congress/2026/04/29/trump-says-he-discussed-a-ukraine-ceasefire-with-putin/",
-      "published": "Wed, 29 Apr 2026 20:05:12 +0000",
-      "source": "Defense News",
-      "categories": [
-        "conflict"
-      ]
-    },
-    {
-      "title": "Trump says he discussed a Ukraine ceasefire with Putin",
-      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/04/29/trump-says-he-discussed-a-ukraine-ceasefire-with-putin/",
-      "published": "Wed, 29 Apr 2026 20:05:12 +0000",
-      "source": "Military Times",
-      "categories": [
-        "conflict"
-      ]
     }
   ],
   "_exercise_news_refs": [
-    {
-      "title": "Special Operations Command lays out high-tech wish list",
-      "link": "https://taskandpurpose.com/tech-tactics/special-operations-technology-anchor-initiative/",
-      "published": "Sun, 26 Apr 2026 17:35:11 -0400",
-      "source": "Task & Purpose",
-      "categories": [
-        "exercise"
-      ]
-    },
     {
       "title": "U.S. Navy Declares Initial Operational Capability for Modified P-8A Poseidon Patrol Aircraft",
       "link": "https://news.usni.org/2026/04/30/u-s-navy-declares-initial-operational-capability-for-modified-p-8a-poseidon-patrol-aircraft",
@@ -904,18 +868,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 14,
-    "conflict_articles": 4,
-    "exercise_articles": 3,
+    "deployment_articles": 10,
+    "conflict_articles": 1,
+    "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-04-30T20:02:04.233547+00:00",
+    "computed_at": "2026-04-30T21:43:36.872516+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
-      "[Task & Purpose] Special Operations Command lays out high-tech wish list",
       "[Defense News] US Navy to extend service life of amphibious assault ship USS Wasp by 5 years",
-      "[Military Times] US Navy to extend service life of amphibious assault ship USS Wasp by 5 years",
       "[Naval News] Pakistan Navy Commissions First Hangor-class Submarine in China",
-      "[Task & Purpose] Soldier told Discord chat he planned to target Jewish worshipers, feds say"
+      "[Task & Purpose] Soldier told Discord chat he planned to target Jewish worshipers, feds say",
+      "[Naval News] TKMS and Greek Shipyard Ink Partnership for Hellenic Navy Submarines MLU",
+      "[Defense News] US military commanders to brief Trump on military options against Iran"
     ]
   },
   "ground_intel": {
@@ -926,12 +890,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-04-30T20:02:04.233589+00:00",
+    "last_successful_update": "2026-04-30T21:43:36.872559+00:00",
     "article_count": 50,
-    "categorized_count": 20,
-    "freshest_source": "Task & Purpose",
-    "freshest_title": "Special Operations Command lays out high-tech wish list",
-    "freshest_published": "Sun, 26 Apr 2026 17:35:11 -0400"
+    "categorized_count": 12,
+    "freshest_source": "Defense News",
+    "freshest_title": "US Navy to extend service life of amphibious assault ship USS Wasp by 5 years",
+    "freshest_published": "Thu, 30 Apr 2026 00:03:37 +0000"
   },
   "_firms_hotspots": []
 }
