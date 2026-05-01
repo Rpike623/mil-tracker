@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-05-01T18:52:41Z",
-  "version": 1237,
+  "generated_utc": "2026-05-01T19:58:07Z",
+  "version": 1238,
   "breaking_alert": "Naval News: India conducts first salvo launch of new NASM-SR Missile",
   "naval_deployments": [
     {
@@ -621,18 +621,18 @@
       ]
     },
     {
-      "title": "US Navy turns to AI firm Domino for options to counter Iranian mines",
-      "link": "https://www.militarytimes.com/naval/2026/05/01/us-navy-turns-to-ai-firm-domino-for-options-to-counter-iranian-mines/",
-      "published": "Fri, 01 May 2026 12:33:37 +0000",
+      "title": "A history of the War Powers Resolution and what it means for the Iran war",
+      "link": "https://www.militarytimes.com/veterans/military-history/2026/05/01/a-history-of-the-war-powers-resolution-and-what-it-means-for-the-iran-war/",
+      "published": "Fri, 01 May 2026 17:05:02 +0000",
       "source": "Military Times",
       "categories": [
         "deployment"
       ]
     },
     {
-      "title": "A history of the War Powers Resolution and what it means for the Iran war",
-      "link": "https://www.militarytimes.com/veterans/military-history/2026/05/01/a-history-of-the-war-powers-resolution-and-what-it-means-for-the-iran-war/",
-      "published": "Fri, 01 May 2026 17:05:02 +0000",
+      "title": "‘Engineering casualty’ knocks out electricity and propulsion on USS Higgins",
+      "link": "https://www.militarytimes.com/news/your-military/2026/05/01/engineering-casualty-knocks-out-electricity-and-propulsion-on-uss-higgins/",
+      "published": "Fri, 01 May 2026 18:57:44 +0000",
       "source": "Military Times",
       "categories": [
         "deployment"
@@ -881,14 +881,14 @@
     "conflict_articles": 2,
     "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-05-01T18:52:39.165677+00:00",
+    "computed_at": "2026-05-01T19:58:02.681754+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] India conducts first salvo launch of new NASM-SR Missile",
       "[Task & Purpose] Iran-linked hackers sent menacing texts to US service members",
       "[Naval News] Zumwalt-class destroyers may receive SPY-6 radars from frigates",
       "[Defense News] US Navy turns to AI firm Domino for options to counter Iranian mines",
-      "[Military Times] US Navy turns to AI firm Domino for options to counter Iranian mines"
+      "[Military Times] A history of the War Powers Resolution and what it means for the Iran war"
     ]
   },
   "ground_intel": {
@@ -899,7 +899,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-05-01T18:52:39.165720+00:00",
+    "last_successful_update": "2026-05-01T19:58:02.681788+00:00",
     "article_count": 50,
     "categorized_count": 16,
     "freshest_source": "Naval News",
