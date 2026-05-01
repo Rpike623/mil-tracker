@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-05-01T17:45:05Z",
-  "version": 1236,
+  "generated_utc": "2026-05-01T18:52:41Z",
+  "version": 1237,
   "breaking_alert": "Naval News: India conducts first salvo launch of new NASM-SR Missile",
   "naval_deployments": [
     {
@@ -676,13 +676,12 @@
       ]
     },
     {
-      "title": "Ceasefire ‘stops’ War Powers clock on Iran, Hegseth claims",
-      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/04/30/ceasefire-stops-war-powers-clock-on-iran-hegseth-claims/",
-      "published": "Thu, 30 Apr 2026 22:39:43 +0000",
-      "source": "Military Times",
+      "title": "Amphib USS San Antonio Returns from Southern Command After More Than 8-month Deployment",
+      "link": "https://news.usni.org/2026/04/28/amphib-uss-san-antonio-returns-from-southern-command-after-more-than-8-month-deployment",
+      "published": "Tue, 28 Apr 2026 22:26:56 +0000",
+      "source": "USNI News",
       "categories": [
-        "deployment",
-        "conflict"
+        "deployment"
       ]
     }
   ],
@@ -855,19 +854,18 @@
         "deployment",
         "conflict"
       ]
-    },
-    {
-      "title": "Ceasefire ‘stops’ War Powers clock on Iran, Hegseth claims",
-      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/04/30/ceasefire-stops-war-powers-clock-on-iran-hegseth-claims/",
-      "published": "Thu, 30 Apr 2026 22:39:43 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
     }
   ],
   "_exercise_news_refs": [
+    {
+      "title": "Trump nominates new chief of space operations",
+      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/05/01/trump-nominates-new-chief-of-space-operations/",
+      "published": "Fri, 01 May 2026 18:50:18 +0000",
+      "source": "Military Times",
+      "categories": [
+        "exercise"
+      ]
+    },
     {
       "title": "U.S. Navy Declares Initial Operational Capability for Modified P-8A Poseidon Patrol Aircraft",
       "link": "https://news.usni.org/2026/04/30/u-s-navy-declares-initial-operational-capability-for-modified-p-8a-poseidon-patrol-aircraft",
@@ -879,11 +877,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 14,
-    "conflict_articles": 3,
-    "exercise_articles": 1,
+    "deployment_articles": 13,
+    "conflict_articles": 2,
+    "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-05-01T17:45:03.239245+00:00",
+    "computed_at": "2026-05-01T18:52:39.165677+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] India conducts first salvo launch of new NASM-SR Missile",
@@ -901,7 +899,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-05-01T17:45:03.239287+00:00",
+    "last_successful_update": "2026-05-01T18:52:39.165720+00:00",
     "article_count": 50,
     "categorized_count": 16,
     "freshest_source": "Naval News",
