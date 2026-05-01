@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-05-01T19:58:07Z",
-  "version": 1238,
+  "generated_utc": "2026-05-01T20:44:47Z",
+  "version": 1239,
   "breaking_alert": "Naval News: India conducts first salvo launch of new NASM-SR Missile",
   "naval_deployments": [
     {
@@ -846,6 +846,24 @@
       ]
     },
     {
+      "title": "Marine Corps fields 3,500 first-person view attack drones",
+      "link": "https://www.defensenews.com/industry/techwatch/2026/05/01/marine-corps-fields-3500-first-person-view-attack-drones/",
+      "published": "Fri, 01 May 2026 20:28:43 +0000",
+      "source": "Defense News",
+      "categories": [
+        "conflict"
+      ]
+    },
+    {
+      "title": "Marine Corps fields 3,500 first-person view attack drones",
+      "link": "https://www.militarytimes.com/industry/techwatch/2026/05/01/marine-corps-fields-3500-first-person-view-attack-drones/",
+      "published": "Fri, 01 May 2026 20:28:43 +0000",
+      "source": "Military Times",
+      "categories": [
+        "conflict"
+      ]
+    },
+    {
       "title": "Ceasefire ‘stops’ War Powers clock on Iran, Hegseth claims",
       "link": "https://www.defensenews.com/news/pentagon-congress/2026/04/30/ceasefire-stops-war-powers-clock-on-iran-hegseth-claims/",
       "published": "Thu, 30 Apr 2026 22:39:43 +0000",
@@ -878,10 +896,10 @@
   ],
   "_threat_indicators": {
     "deployment_articles": 13,
-    "conflict_articles": 2,
+    "conflict_articles": 4,
     "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-05-01T19:58:02.681754+00:00",
+    "computed_at": "2026-05-01T20:44:40.935884+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] India conducts first salvo launch of new NASM-SR Missile",
@@ -899,9 +917,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-05-01T19:58:02.681788+00:00",
+    "last_successful_update": "2026-05-01T20:44:40.935923+00:00",
     "article_count": 50,
-    "categorized_count": 16,
+    "categorized_count": 18,
     "freshest_source": "Naval News",
     "freshest_title": "India conducts first salvo launch of new NASM-SR Missile",
     "freshest_published": "Fri, 01 May 2026 07:15:32 +0000"
