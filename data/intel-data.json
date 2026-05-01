@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-05-01T05:30:46Z",
-  "version": 1227,
-  "breaking_alert": "Naval News: Pakistan Navy Commissions First Hangor-class Submarine in China",
+  "generated_utc": "2026-05-01T07:56:11Z",
+  "version": 1228,
+  "breaking_alert": "Naval News: India conducts first salvo launch of new NASM-SR Missile",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -838,6 +838,15 @@
   },
   "_conflict_news_refs": [
     {
+      "title": "India conducts first salvo launch of new NASM-SR Missile",
+      "link": "https://www.navalnews.com/naval-news/2026/05/india-conducts-first-salvo-launch-of-new-nasm-sr-missile/",
+      "published": "Fri, 01 May 2026 07:15:32 +0000",
+      "source": "Naval News",
+      "categories": [
+        "conflict"
+      ]
+    },
+    {
       "title": "Ceasefire ‘stops’ War Powers clock on Iran, Hegseth claims",
       "link": "https://www.defensenews.com/news/pentagon-congress/2026/04/30/ceasefire-stops-war-powers-clock-on-iran-hegseth-claims/",
       "published": "Thu, 30 Apr 2026 22:39:43 +0000",
@@ -891,17 +900,17 @@
   ],
   "_threat_indicators": {
     "deployment_articles": 10,
-    "conflict_articles": 3,
+    "conflict_articles": 4,
     "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-05-01T05:30:42.353537+00:00",
+    "computed_at": "2026-05-01T07:56:07.941742+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
+      "[Naval News] India conducts first salvo launch of new NASM-SR Missile",
       "[Naval News] Pakistan Navy Commissions First Hangor-class Submarine in China",
       "[Task & Purpose] Soldier told Discord chat he planned to target Jewish worshipers, feds say",
       "[Naval News] TKMS and Greek Shipyard Ink Partnership for Hellenic Navy Submarines MLU",
-      "[Defense News] US military commanders to brief Trump on military options against Iran",
-      "[USNI News] U.S. Navy Declares Initial Operational Capability for Modified P-8A Poseidon Patrol Aircraft"
+      "[Defense News] US military commanders to brief Trump on military options against Iran"
     ]
   },
   "ground_intel": {
@@ -912,12 +921,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-05-01T05:30:42.353581+00:00",
+    "last_successful_update": "2026-05-01T07:56:07.941782+00:00",
     "article_count": 50,
-    "categorized_count": 12,
+    "categorized_count": 13,
     "freshest_source": "Naval News",
-    "freshest_title": "Pakistan Navy Commissions First Hangor-class Submarine in China",
-    "freshest_published": "Thu, 30 Apr 2026 09:23:46 +0000"
+    "freshest_title": "India conducts first salvo launch of new NASM-SR Missile",
+    "freshest_published": "Fri, 01 May 2026 07:15:32 +0000"
   },
   "_firms_hotspots": []
 }
