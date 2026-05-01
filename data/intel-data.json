@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-05-01T20:44:47Z",
-  "version": 1239,
+  "generated_utc": "2026-05-01T21:40:23Z",
+  "version": 1240,
   "breaking_alert": "Naval News: India conducts first salvo launch of new NASM-SR Missile",
   "naval_deployments": [
     {
@@ -639,6 +639,25 @@
       ]
     },
     {
+      "title": "Strait of Hormuz Commercial Transits at Lowest Level Since Operation Epic Fury Start, Shipping Data Shows",
+      "link": "https://news.usni.org/2026/05/01/strait-of-hormuz-commercial-transits-at-lowest-level-since-operation-epic-fury-start-shipping-data-shows",
+      "published": "Fri, 01 May 2026 21:24:19 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment",
+        "exercise"
+      ]
+    },
+    {
+      "title": "CNO: U.S. Naval Aviators Will No Longer Command Amphibious Warships",
+      "link": "https://news.usni.org/2026/05/01/cno-u-s-naval-aviators-will-no-longer-command-amphibious-warships",
+      "published": "Fri, 01 May 2026 21:29:36 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "Pakistan Navy Commissions First Hangor-class Submarine in China",
       "link": "https://www.navalnews.com/naval-news/2026/04/pakistan-navy-commissions-first-hangor-class-submarine-in-china/",
       "published": "Thu, 30 Apr 2026 09:23:46 +0000",
@@ -661,25 +680,6 @@
       "link": "https://www.navalnews.com/naval-news/2026/04/tkms-and-greek-shipyard-ink-partnership-for-hellenic-navy-submarines-mlu/",
       "published": "Thu, 30 Apr 2026 14:13:34 +0000",
       "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Ceasefire ‘stops’ War Powers clock on Iran, Hegseth claims",
-      "link": "https://www.defensenews.com/news/pentagon-congress/2026/04/30/ceasefire-stops-war-powers-clock-on-iran-hegseth-claims/",
-      "published": "Thu, 30 Apr 2026 22:39:43 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
-      "title": "Amphib USS San Antonio Returns from Southern Command After More Than 8-month Deployment",
-      "link": "https://news.usni.org/2026/04/28/amphib-uss-san-antonio-returns-from-southern-command-after-more-than-8-month-deployment",
-      "published": "Tue, 28 Apr 2026 22:26:56 +0000",
-      "source": "USNI News",
       "categories": [
         "deployment"
       ]
@@ -885,6 +885,16 @@
       ]
     },
     {
+      "title": "Strait of Hormuz Commercial Transits at Lowest Level Since Operation Epic Fury Start, Shipping Data Shows",
+      "link": "https://news.usni.org/2026/05/01/strait-of-hormuz-commercial-transits-at-lowest-level-since-operation-epic-fury-start-shipping-data-shows",
+      "published": "Fri, 01 May 2026 21:24:19 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment",
+        "exercise"
+      ]
+    },
+    {
       "title": "U.S. Navy Declares Initial Operational Capability for Modified P-8A Poseidon Patrol Aircraft",
       "link": "https://news.usni.org/2026/04/30/u-s-navy-declares-initial-operational-capability-for-modified-p-8a-poseidon-patrol-aircraft",
       "published": "Thu, 30 Apr 2026 15:50:11 +0000",
@@ -895,11 +905,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 13,
+    "deployment_articles": 14,
     "conflict_articles": 4,
-    "exercise_articles": 2,
+    "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-05-01T20:44:40.935884+00:00",
+    "computed_at": "2026-05-01T21:40:20.123415+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] India conducts first salvo launch of new NASM-SR Missile",
@@ -917,9 +927,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-05-01T20:44:40.935923+00:00",
+    "last_successful_update": "2026-05-01T21:40:20.123475+00:00",
     "article_count": 50,
-    "categorized_count": 18,
+    "categorized_count": 19,
     "freshest_source": "Naval News",
     "freshest_title": "India conducts first salvo launch of new NASM-SR Missile",
     "freshest_published": "Fri, 01 May 2026 07:15:32 +0000"
