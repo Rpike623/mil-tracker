@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-04-30T23:39:52Z",
-  "version": 1225,
+  "generated_utc": "2026-05-01T01:50:05Z",
+  "version": 1226,
   "breaking_alert": "Naval News: Pakistan Navy Commissions First Hangor-class Submarine in China",
   "naval_deployments": [
     {
@@ -894,7 +894,7 @@
     "conflict_articles": 3,
     "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-04-30T23:39:38.301635+00:00",
+    "computed_at": "2026-05-01T01:45:24.358959+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] Pakistan Navy Commissions First Hangor-class Submarine in China",
@@ -912,7 +912,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-04-30T23:39:38.301677+00:00",
+    "last_successful_update": "2026-05-01T01:45:24.359003+00:00",
     "article_count": 50,
     "categorized_count": 12,
     "freshest_source": "Naval News",
