@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-05-01T11:57:15Z",
-  "version": 1231,
+  "generated_utc": "2026-05-01T13:02:46Z",
+  "version": 1232,
   "breaking_alert": "Naval News: India conducts first salvo launch of new NASM-SR Missile",
   "naval_deployments": [
     {
@@ -603,6 +603,24 @@
       ]
     },
     {
+      "title": "US Navy turns to AI firm Domino for options to counter Iranian mines",
+      "link": "https://www.defensenews.com/naval/2026/05/01/us-navy-turns-to-ai-firm-domino-for-options-to-counter-iranian-mines/",
+      "published": "Fri, 01 May 2026 12:33:37 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "US Navy turns to AI firm Domino for options to counter Iranian mines",
+      "link": "https://www.militarytimes.com/naval/2026/05/01/us-navy-turns-to-ai-firm-domino-for-options-to-counter-iranian-mines/",
+      "published": "Fri, 01 May 2026 12:33:37 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "Pakistan Navy Commissions First Hangor-class Submarine in China",
       "link": "https://www.navalnews.com/naval-news/2026/04/pakistan-navy-commissions-first-hangor-class-submarine-in-china/",
       "published": "Thu, 30 Apr 2026 09:23:46 +0000",
@@ -662,24 +680,6 @@
       "title": "Amphib USS San Antonio Returns from Southern Command After More Than 8-month Deployment",
       "link": "https://news.usni.org/2026/04/28/amphib-uss-san-antonio-returns-from-southern-command-after-more-than-8-month-deployment",
       "published": "Tue, 28 Apr 2026 22:26:56 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Scrawled in bunkers, the ‘first military art’ of the Iran War emerges",
-      "link": "https://taskandpurpose.com/news/iran-war-bunker-graffiti-artwork/",
-      "published": "Wed, 29 Apr 2026 09:37:18 -0400",
-      "source": "Task & Purpose",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Ship that Debuted with the Nigerian Navy will be Key for Future U.S., Australian Naval Forces",
-      "link": "https://news.usni.org/2026/04/29/ship-that-debuted-with-the-nigerian-navy-will-be-key-for-future-u-s-australian-naval-forces",
-      "published": "Wed, 29 Apr 2026 16:22:28 +0000",
       "source": "USNI News",
       "categories": [
         "deployment"
@@ -899,18 +899,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 11,
+    "deployment_articles": 13,
     "conflict_articles": 4,
     "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-05-01T11:57:13.140940+00:00",
+    "computed_at": "2026-05-01T13:02:43.359694+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] India conducts first salvo launch of new NASM-SR Missile",
       "[Naval News] Zumwalt-class destroyers may receive SPY-6 radars from frigates",
-      "[Naval News] Pakistan Navy Commissions First Hangor-class Submarine in China",
-      "[Task & Purpose] Soldier told Discord chat he planned to target Jewish worshipers, feds say",
-      "[Naval News] TKMS and Greek Shipyard Ink Partnership for Hellenic Navy Submarines MLU"
+      "[Defense News] US Navy turns to AI firm Domino for options to counter Iranian mines",
+      "[Military Times] US Navy turns to AI firm Domino for options to counter Iranian mines",
+      "[Naval News] Pakistan Navy Commissions First Hangor-class Submarine in China"
     ]
   },
   "ground_intel": {
@@ -921,9 +921,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-05-01T11:57:13.140980+00:00",
+    "last_successful_update": "2026-05-01T13:02:43.359731+00:00",
     "article_count": 50,
-    "categorized_count": 14,
+    "categorized_count": 16,
     "freshest_source": "Naval News",
     "freshest_title": "India conducts first salvo launch of new NASM-SR Missile",
     "freshest_published": "Fri, 01 May 2026 07:15:32 +0000"
