@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-05-02T14:02:38Z",
-  "version": 1251,
+  "generated_utc": "2026-05-02T15:35:21Z",
+  "version": 1252,
   "breaking_alert": "Naval News: India conducts first salvo launch of new NASM-SR Missile",
   "naval_deployments": [
     {
@@ -919,7 +919,7 @@
     "conflict_articles": 4,
     "exercise_articles": 4,
     "total_articles": 50,
-    "computed_at": "2026-05-02T14:02:36.063808+00:00",
+    "computed_at": "2026-05-02T15:35:19.631406+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] India conducts first salvo launch of new NASM-SR Missile",
@@ -937,7 +937,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-05-02T14:02:36.063847+00:00",
+    "last_successful_update": "2026-05-02T15:35:19.631447+00:00",
     "article_count": 50,
     "categorized_count": 18,
     "freshest_source": "Naval News",
