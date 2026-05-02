@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-05-02T06:54:06Z",
-  "version": 1245,
+  "generated_utc": "2026-05-02T08:15:21Z",
+  "version": 1246,
   "breaking_alert": "Naval News: India conducts first salvo launch of new NASM-SR Missile",
   "naval_deployments": [
     {
@@ -895,6 +895,15 @@
       ]
     },
     {
+      "title": "Japan’s US-2 joins Balikatan exercises in South China Sea",
+      "link": "https://www.navalnews.com/naval-news/2026/05/japans-us-2-joins-balikatan-exercises-in-south-china-sea/",
+      "published": "Sat, 02 May 2026 07:05:59 +0000",
+      "source": "Naval News",
+      "categories": [
+        "exercise"
+      ]
+    },
+    {
       "title": "U.S. Navy Declares Initial Operational Capability for Modified P-8A Poseidon Patrol Aircraft",
       "link": "https://news.usni.org/2026/04/30/u-s-navy-declares-initial-operational-capability-for-modified-p-8a-poseidon-patrol-aircraft",
       "published": "Thu, 30 Apr 2026 15:50:11 +0000",
@@ -907,9 +916,9 @@
   "_threat_indicators": {
     "deployment_articles": 13,
     "conflict_articles": 4,
-    "exercise_articles": 3,
+    "exercise_articles": 4,
     "total_articles": 50,
-    "computed_at": "2026-05-02T06:54:02.449160+00:00",
+    "computed_at": "2026-05-02T08:15:16.736114+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] India conducts first salvo launch of new NASM-SR Missile",
@@ -927,9 +936,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-05-02T06:54:02.449201+00:00",
+    "last_successful_update": "2026-05-02T08:15:16.736186+00:00",
     "article_count": 50,
-    "categorized_count": 18,
+    "categorized_count": 19,
     "freshest_source": "Naval News",
     "freshest_title": "India conducts first salvo launch of new NASM-SR Missile",
     "freshest_published": "Fri, 01 May 2026 07:15:32 +0000"
