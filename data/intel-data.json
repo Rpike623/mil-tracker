@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-05-02T15:35:21Z",
-  "version": 1252,
+  "generated_utc": "2026-05-02T16:33:35Z",
+  "version": 1253,
   "breaking_alert": "Naval News: India conducts first salvo launch of new NASM-SR Missile",
   "naval_deployments": [
     {
@@ -877,6 +877,15 @@
   ],
   "_exercise_news_refs": [
     {
+      "title": "Military insiders may be betting on operations more than previously known",
+      "link": "https://taskandpurpose.com/news/military-insiders-betting-frequently/",
+      "published": "Fri, 01 May 2026 15:36:35 -0400",
+      "source": "Task & Purpose",
+      "categories": [
+        "exercise"
+      ]
+    },
+    {
       "title": "Trump nominates new chief of space operations",
       "link": "https://www.militarytimes.com/news/pentagon-congress/2026/05/01/trump-nominates-new-chief-of-space-operations/",
       "published": "Fri, 01 May 2026 18:50:18 +0000",
@@ -917,16 +926,16 @@
   "_threat_indicators": {
     "deployment_articles": 12,
     "conflict_articles": 4,
-    "exercise_articles": 4,
+    "exercise_articles": 5,
     "total_articles": 50,
-    "computed_at": "2026-05-02T15:35:19.631406+00:00",
+    "computed_at": "2026-05-02T16:33:30.206247+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] India conducts first salvo launch of new NASM-SR Missile",
       "[Task & Purpose] Iran-linked hackers sent menacing texts to US service members",
       "[Naval News] Zumwalt-class destroyers may receive SPY-6 radars from frigates",
       "[Defense News] US Navy turns to AI firm Domino for options to counter Iranian mines",
-      "[Military Times] A history of the War Powers Resolution and what it means for the Iran war"
+      "[Task & Purpose] Military insiders may be betting on operations more than previously known"
     ]
   },
   "ground_intel": {
@@ -937,9 +946,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-05-02T15:35:19.631447+00:00",
+    "last_successful_update": "2026-05-02T16:33:30.206287+00:00",
     "article_count": 50,
-    "categorized_count": 18,
+    "categorized_count": 19,
     "freshest_source": "Naval News",
     "freshest_title": "India conducts first salvo launch of new NASM-SR Missile",
     "freshest_published": "Fri, 01 May 2026 07:15:32 +0000"
