@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-05-03T10:41:31Z",
-  "version": 1265,
+  "generated_utc": "2026-05-03T11:32:59Z",
+  "version": 1266,
   "breaking_alert": "Naval News: India conducts first salvo launch of new NASM-SR Missile",
   "naval_deployments": [
     {
@@ -667,15 +667,6 @@
       ]
     },
     {
-      "title": "TKMS and Greek Shipyard Ink Partnership for Hellenic Navy Submarines MLU",
-      "link": "https://www.navalnews.com/naval-news/2026/04/tkms-and-greek-shipyard-ink-partnership-for-hellenic-navy-submarines-mlu/",
-      "published": "Thu, 30 Apr 2026 14:13:34 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Ceasefire ‘stops’ War Powers clock on Iran, Hegseth claims",
       "link": "https://www.defensenews.com/news/pentagon-congress/2026/04/30/ceasefire-stops-war-powers-clock-on-iran-hegseth-claims/",
       "published": "Thu, 30 Apr 2026 22:39:43 +0000",
@@ -683,6 +674,15 @@
       "categories": [
         "deployment",
         "conflict"
+      ]
+    },
+    {
+      "title": "Ship that Debuted with the Nigerian Navy will be Key for Future U.S., Australian Naval Forces",
+      "link": "https://news.usni.org/2026/04/29/ship-that-debuted-with-the-nigerian-navy-will-be-key-for-future-u-s-australian-naval-forces",
+      "published": "Wed, 29 Apr 2026 16:22:28 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment"
       ]
     }
   ],
@@ -924,11 +924,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 12,
+    "deployment_articles": 11,
     "conflict_articles": 4,
     "exercise_articles": 5,
     "total_articles": 50,
-    "computed_at": "2026-05-03T10:41:26.510946+00:00",
+    "computed_at": "2026-05-03T11:32:57.472442+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] India conducts first salvo launch of new NASM-SR Missile",
@@ -946,9 +946,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-05-03T10:41:26.510987+00:00",
+    "last_successful_update": "2026-05-03T11:32:57.472485+00:00",
     "article_count": 50,
-    "categorized_count": 19,
+    "categorized_count": 18,
     "freshest_source": "Naval News",
     "freshest_title": "India conducts first salvo launch of new NASM-SR Missile",
     "freshest_published": "Fri, 01 May 2026 07:15:32 +0000"
