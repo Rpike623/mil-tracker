@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-05-03T15:35:22Z",
-  "version": 1269,
+  "generated_utc": "2026-05-03T16:34:05Z",
+  "version": 1270,
   "breaking_alert": "Naval News: India conducts first salvo launch of new NASM-SR Missile",
   "naval_deployments": [
     {
@@ -621,15 +621,6 @@
       ]
     },
     {
-      "title": "A history of the War Powers Resolution and what it means for the Iran war",
-      "link": "https://www.militarytimes.com/veterans/military-history/2026/05/01/a-history-of-the-war-powers-resolution-and-what-it-means-for-the-iran-war/",
-      "published": "Fri, 01 May 2026 17:05:02 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "‘Engineering casualty’ knocks out electricity and propulsion on USS Higgins",
       "link": "https://www.militarytimes.com/news/your-military/2026/05/01/engineering-casualty-knocks-out-electricity-and-propulsion-on-uss-higgins/",
       "published": "Fri, 01 May 2026 18:57:44 +0000",
@@ -658,28 +649,18 @@
       ]
     },
     {
-      "title": "Soldier told Discord chat he planned to target Jewish worshipers, feds say",
-      "link": "https://taskandpurpose.com/news/infantryman-threats-shoot-jewish-temple/",
-      "published": "Thu, 30 Apr 2026 12:28:12 -0400",
-      "source": "Task & Purpose",
+      "title": "Ship that Debuted with the Nigerian Navy will be Key for Future U.S., Australian Naval Forces",
+      "link": "https://news.usni.org/2026/04/29/ship-that-debuted-with-the-nigerian-navy-will-be-key-for-future-u-s-australian-naval-forces",
+      "published": "Wed, 29 Apr 2026 16:22:28 +0000",
+      "source": "USNI News",
       "categories": [
         "deployment"
       ]
     },
     {
-      "title": "Ceasefire ‘stops’ War Powers clock on Iran, Hegseth claims",
-      "link": "https://www.defensenews.com/news/pentagon-congress/2026/04/30/ceasefire-stops-war-powers-clock-on-iran-hegseth-claims/",
-      "published": "Thu, 30 Apr 2026 22:39:43 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
-      "title": "Ship that Debuted with the Nigerian Navy will be Key for Future U.S., Australian Naval Forces",
-      "link": "https://news.usni.org/2026/04/29/ship-that-debuted-with-the-nigerian-navy-will-be-key-for-future-u-s-australian-naval-forces",
-      "published": "Wed, 29 Apr 2026 16:22:28 +0000",
+      "title": "Marines Considering Alternative Ships for SOUTHCOM Deployments",
+      "link": "https://news.usni.org/2026/04/29/marines-considering-alternative-ships-for-southcom-deployments",
+      "published": "Wed, 29 Apr 2026 22:16:20 +0000",
       "source": "USNI News",
       "categories": [
         "deployment"
@@ -863,16 +844,6 @@
       "categories": [
         "conflict"
       ]
-    },
-    {
-      "title": "Ceasefire ‘stops’ War Powers clock on Iran, Hegseth claims",
-      "link": "https://www.defensenews.com/news/pentagon-congress/2026/04/30/ceasefire-stops-war-powers-clock-on-iran-hegseth-claims/",
-      "published": "Thu, 30 Apr 2026 22:39:43 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
     }
   ],
   "_exercise_news_refs": [
@@ -914,21 +885,21 @@
       ]
     },
     {
-      "title": "U.S. Navy Declares Initial Operational Capability for Modified P-8A Poseidon Patrol Aircraft",
-      "link": "https://news.usni.org/2026/04/30/u-s-navy-declares-initial-operational-capability-for-modified-p-8a-poseidon-patrol-aircraft",
-      "published": "Thu, 30 Apr 2026 15:50:11 +0000",
-      "source": "USNI News",
+      "title": "Two US soldiers missing during exercises in Morocco",
+      "link": "https://taskandpurpose.com/news/missing-service-members-african-lion-morocco/",
+      "published": "Sun, 03 May 2026 12:05:18 -0400",
+      "source": "Task & Purpose",
       "categories": [
         "exercise"
       ]
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 11,
-    "conflict_articles": 4,
-    "exercise_articles": 5,
+    "deployment_articles": 8,
+    "conflict_articles": 3,
+    "exercise_articles": 8,
     "total_articles": 50,
-    "computed_at": "2026-05-03T15:35:17.064580+00:00",
+    "computed_at": "2026-05-03T16:33:59.333772+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] India conducts first salvo launch of new NASM-SR Missile",
@@ -946,7 +917,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-05-03T15:35:17.064647+00:00",
+    "last_successful_update": "2026-05-03T16:33:59.333813+00:00",
     "article_count": 50,
     "categorized_count": 18,
     "freshest_source": "Naval News",
