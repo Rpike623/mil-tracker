@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-05-03T19:43:46Z",
-  "version": 1273,
+  "generated_utc": "2026-05-03T20:29:24Z",
+  "version": 1274,
   "breaking_alert": "Naval News: India conducts first salvo launch of new NASM-SR Missile",
   "naval_deployments": [
     {
@@ -844,6 +844,16 @@
       "categories": [
         "conflict"
       ]
+    },
+    {
+      "title": "Green Berets Deploy Ship-Killing Drone in Luzon Strait Maritime Strike Exercise",
+      "link": "https://news.usni.org/2026/05/03/green-berets-deploy-ship-killing-drone-in-luzon-strait-maritime-strike-exercise",
+      "published": "Sun, 03 May 2026 20:17:59 +0000",
+      "source": "USNI News",
+      "categories": [
+        "exercise",
+        "conflict"
+      ]
     }
   ],
   "_exercise_news_refs": [
@@ -896,10 +906,10 @@
   ],
   "_threat_indicators": {
     "deployment_articles": 8,
-    "conflict_articles": 3,
-    "exercise_articles": 8,
+    "conflict_articles": 4,
+    "exercise_articles": 9,
     "total_articles": 50,
-    "computed_at": "2026-05-03T19:43:42.046166+00:00",
+    "computed_at": "2026-05-03T20:29:18.502893+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] India conducts first salvo launch of new NASM-SR Missile",
@@ -917,9 +927,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-05-03T19:43:42.046209+00:00",
+    "last_successful_update": "2026-05-03T20:29:18.502935+00:00",
     "article_count": 50,
-    "categorized_count": 18,
+    "categorized_count": 19,
     "freshest_source": "Naval News",
     "freshest_title": "India conducts first salvo launch of new NASM-SR Missile",
     "freshest_published": "Fri, 01 May 2026 07:15:32 +0000"
