@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-05-04T14:59:50Z",
-  "version": 1283,
+  "generated_utc": "2026-05-04T16:45:19Z",
+  "version": 1284,
   "breaking_alert": "Naval News: India conducts first salvo launch of new NASM-SR Missile",
   "naval_deployments": [
     {
@@ -649,12 +649,13 @@
       ]
     },
     {
-      "title": "Ship that Debuted with the Nigerian Navy will be Key for Future U.S., Australian Naval Forces",
-      "link": "https://news.usni.org/2026/04/29/ship-that-debuted-with-the-nigerian-navy-will-be-key-for-future-u-s-australian-naval-forces",
-      "published": "Wed, 29 Apr 2026 16:22:28 +0000",
-      "source": "USNI News",
+      "title": "US denies Iranian reports of strike on warship, says ships transit Hormuz",
+      "link": "https://www.militarytimes.com/news/your-military/2026/05/04/us-denies-iranian-reports-of-strike-on-warship-says-ships-transit-hormuz/",
+      "published": "Mon, 04 May 2026 14:54:15 +0000",
+      "source": "Military Times",
       "categories": [
-        "deployment"
+        "deployment",
+        "conflict"
       ]
     },
     {
@@ -846,6 +847,16 @@
       ]
     },
     {
+      "title": "US denies Iranian reports of strike on warship, says ships transit Hormuz",
+      "link": "https://www.militarytimes.com/news/your-military/2026/05/04/us-denies-iranian-reports-of-strike-on-warship-says-ships-transit-hormuz/",
+      "published": "Mon, 04 May 2026 14:54:15 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
+    },
+    {
       "title": "Green Berets Deploy Ship-Killing Drone in Luzon Strait Maritime Strike Exercise",
       "link": "https://news.usni.org/2026/05/03/green-berets-deploy-ship-killing-drone-in-luzon-strait-maritime-strike-exercise",
       "published": "Sun, 03 May 2026 20:17:59 +0000",
@@ -862,15 +873,6 @@
       "link": "https://taskandpurpose.com/news/military-insiders-betting-frequently/",
       "published": "Fri, 01 May 2026 15:36:35 -0400",
       "source": "Task & Purpose",
-      "categories": [
-        "exercise"
-      ]
-    },
-    {
-      "title": "Trump nominates new chief of space operations",
-      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/05/01/trump-nominates-new-chief-of-space-operations/",
-      "published": "Fri, 01 May 2026 18:50:18 +0000",
-      "source": "Military Times",
       "categories": [
         "exercise"
       ]
@@ -902,21 +904,30 @@
       "categories": [
         "exercise"
       ]
+    },
+    {
+      "title": "Two US soldiers missing during exercises in Morocco",
+      "link": "https://taskandpurpose.com/news/missing-service-members-african-lion-morocco/",
+      "published": "Sun, 03 May 2026 12:05:18 -0400",
+      "source": "Task & Purpose",
+      "categories": [
+        "exercise"
+      ]
     }
   ],
   "_threat_indicators": {
     "deployment_articles": 8,
-    "conflict_articles": 4,
-    "exercise_articles": 10,
+    "conflict_articles": 5,
+    "exercise_articles": 9,
     "total_articles": 50,
-    "computed_at": "2026-05-04T14:59:46.123397+00:00",
+    "computed_at": "2026-05-04T16:45:16.928179+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] India conducts first salvo launch of new NASM-SR Missile",
       "[Task & Purpose] Iran-linked hackers sent menacing texts to US service members",
       "[Naval News] Zumwalt-class destroyers may receive SPY-6 radars from frigates",
       "[Task & Purpose] Military insiders may be betting on operations more than previously known",
-      "[Military Times] Trump nominates new chief of space operations"
+      "[Military Times] ‘Engineering casualty’ knocks out electricity and propulsion on USS Higgins"
     ]
   },
   "ground_intel": {
@@ -927,9 +938,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-05-04T14:59:46.123435+00:00",
+    "last_successful_update": "2026-05-04T16:45:16.928225+00:00",
     "article_count": 50,
-    "categorized_count": 20,
+    "categorized_count": 19,
     "freshest_source": "Naval News",
     "freshest_title": "India conducts first salvo launch of new NASM-SR Missile",
     "freshest_published": "Fri, 01 May 2026 07:15:32 +0000"
