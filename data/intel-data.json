@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-05-04T12:15:40Z",
-  "version": 1282,
+  "generated_utc": "2026-05-04T14:59:50Z",
+  "version": 1283,
   "breaking_alert": "Naval News: India conducts first salvo launch of new NASM-SR Missile",
   "naval_deployments": [
     {
@@ -612,15 +612,6 @@
       ]
     },
     {
-      "title": "US Navy turns to AI firm Domino for options to counter Iranian mines",
-      "link": "https://www.defensenews.com/naval/2026/05/01/us-navy-turns-to-ai-firm-domino-for-options-to-counter-iranian-mines/",
-      "published": "Fri, 01 May 2026 12:33:37 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "‘Engineering casualty’ knocks out electricity and propulsion on USS Higgins",
       "link": "https://www.militarytimes.com/news/your-military/2026/05/01/engineering-casualty-knocks-out-electricity-and-propulsion-on-uss-higgins/",
       "published": "Fri, 01 May 2026 18:57:44 +0000",
@@ -644,6 +635,15 @@
       "link": "https://news.usni.org/2026/05/01/cno-u-s-naval-aviators-will-no-longer-command-amphibious-warships",
       "published": "Fri, 01 May 2026 21:29:36 +0000",
       "source": "USNI News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Israel to buy more F-35 and F-15 warplanes",
+      "link": "https://www.defensenews.com/global/mideast-africa/2026/05/04/israel-to-buy-more-f-35-and-f-15-warplanes/",
+      "published": "Mon, 04 May 2026 12:44:12 +0000",
+      "source": "Defense News",
       "categories": [
         "deployment"
       ]
@@ -909,14 +909,14 @@
     "conflict_articles": 4,
     "exercise_articles": 10,
     "total_articles": 50,
-    "computed_at": "2026-05-04T12:15:38.940429+00:00",
+    "computed_at": "2026-05-04T14:59:46.123397+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] India conducts first salvo launch of new NASM-SR Missile",
       "[Task & Purpose] Iran-linked hackers sent menacing texts to US service members",
       "[Naval News] Zumwalt-class destroyers may receive SPY-6 radars from frigates",
-      "[Defense News] US Navy turns to AI firm Domino for options to counter Iranian mines",
-      "[Task & Purpose] Military insiders may be betting on operations more than previously known"
+      "[Task & Purpose] Military insiders may be betting on operations more than previously known",
+      "[Military Times] Trump nominates new chief of space operations"
     ]
   },
   "ground_intel": {
@@ -927,7 +927,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-05-04T12:15:38.940470+00:00",
+    "last_successful_update": "2026-05-04T14:59:46.123435+00:00",
     "article_count": 50,
     "categorized_count": 20,
     "freshest_source": "Naval News",
