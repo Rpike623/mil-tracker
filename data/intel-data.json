@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-05-03T23:32:31Z",
-  "version": 1277,
+  "generated_utc": "2026-05-04T01:26:09Z",
+  "version": 1278,
   "breaking_alert": "Naval News: India conducts first salvo launch of new NASM-SR Missile",
   "naval_deployments": [
     {
@@ -886,19 +886,19 @@
       ]
     },
     {
-      "title": "Japan’s US-2 joins Balikatan exercises in South China Sea",
-      "link": "https://www.navalnews.com/naval-news/2026/05/japans-us-2-joins-balikatan-exercises-in-south-china-sea/",
-      "published": "Sat, 02 May 2026 07:05:59 +0000",
-      "source": "Naval News",
+      "title": "Trump says US operation will aid ships stranded in Strait of Hormuz",
+      "link": "https://www.militarytimes.com/news/your-military/2026/05/04/trump-says-us-operation-will-aid-ships-stranded-in-strait-of-hormuz/",
+      "published": "Mon, 04 May 2026 00:20:23 +0000",
+      "source": "Military Times",
       "categories": [
         "exercise"
       ]
     },
     {
-      "title": "Two US soldiers missing during exercises in Morocco",
-      "link": "https://taskandpurpose.com/news/missing-service-members-african-lion-morocco/",
-      "published": "Sun, 03 May 2026 12:05:18 -0400",
-      "source": "Task & Purpose",
+      "title": "Japan’s US-2 joins Balikatan exercises in South China Sea",
+      "link": "https://www.navalnews.com/naval-news/2026/05/japans-us-2-joins-balikatan-exercises-in-south-china-sea/",
+      "published": "Sat, 02 May 2026 07:05:59 +0000",
+      "source": "Naval News",
       "categories": [
         "exercise"
       ]
@@ -907,9 +907,9 @@
   "_threat_indicators": {
     "deployment_articles": 8,
     "conflict_articles": 4,
-    "exercise_articles": 9,
+    "exercise_articles": 10,
     "total_articles": 50,
-    "computed_at": "2026-05-03T23:32:29.278855+00:00",
+    "computed_at": "2026-05-04T01:26:07.377867+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] India conducts first salvo launch of new NASM-SR Missile",
@@ -927,9 +927,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-05-03T23:32:29.278894+00:00",
+    "last_successful_update": "2026-05-04T01:26:07.377925+00:00",
     "article_count": 50,
-    "categorized_count": 19,
+    "categorized_count": 20,
     "freshest_source": "Naval News",
     "freshest_title": "India conducts first salvo launch of new NASM-SR Missile",
     "freshest_published": "Fri, 01 May 2026 07:15:32 +0000"
