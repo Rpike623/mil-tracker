@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-05-04T20:08:37Z",
-  "version": 1286,
+  "generated_utc": "2026-05-04T21:50:10Z",
+  "version": 1287,
   "breaking_alert": "Naval News: India conducts first salvo launch of new NASM-SR Missile",
   "naval_deployments": [
     {
@@ -868,20 +868,19 @@
       ]
     },
     {
-      "title": "US destroys six Iranian small boats, shoots down missiles, drones, admiral says",
-      "link": "https://www.defensenews.com/news/pentagon-congress/2026/05/04/us-destroys-six-iranian-small-boats-shoots-down-missiles-drones-admiral-says/",
-      "published": "Mon, 04 May 2026 18:06:58 +0000",
-      "source": "Defense News",
+      "title": "Guardsmen who reacted to November attack receive medals for heroism",
+      "link": "https://taskandpurpose.com/news/west-virginia-national-guard-soldiers-airmans-medal/",
+      "published": "Mon, 04 May 2026 17:04:53 -0400",
+      "source": "Task & Purpose",
       "categories": [
-        "deployment",
         "conflict"
       ]
     },
     {
       "title": "US destroys six Iranian small boats, shoots down missiles, drones, admiral says",
-      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/05/04/us-destroys-six-iranian-small-boats-shoots-down-missiles-drones-admiral-says/",
+      "link": "https://www.defensenews.com/news/pentagon-congress/2026/05/04/us-destroys-six-iranian-small-boats-shoots-down-missiles-drones-admiral-says/",
       "published": "Mon, 04 May 2026 18:06:58 +0000",
-      "source": "Military Times",
+      "source": "Defense News",
       "categories": [
         "deployment",
         "conflict"
@@ -937,11 +936,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 13,
-    "conflict_articles": 6,
+    "deployment_articles": 15,
+    "conflict_articles": 7,
     "exercise_articles": 9,
     "total_articles": 50,
-    "computed_at": "2026-05-04T20:08:32.569875+00:00",
+    "computed_at": "2026-05-04T21:49:59.302326+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] India conducts first salvo launch of new NASM-SR Missile",
@@ -959,9 +958,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-05-04T20:08:32.569936+00:00",
+    "last_successful_update": "2026-05-04T21:49:59.302375+00:00",
     "article_count": 50,
-    "categorized_count": 23,
+    "categorized_count": 26,
     "freshest_source": "Naval News",
     "freshest_title": "India conducts first salvo launch of new NASM-SR Missile",
     "freshest_published": "Fri, 01 May 2026 07:15:32 +0000"
