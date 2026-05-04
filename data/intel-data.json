@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-05-04T16:45:19Z",
-  "version": 1284,
+  "generated_utc": "2026-05-04T18:08:35Z",
+  "version": 1285,
   "breaking_alert": "Naval News: India conducts first salvo launch of new NASM-SR Missile",
   "naval_deployments": [
     {
@@ -594,28 +594,10 @@
   ],
   "_naval_news_refs": [
     {
-      "title": "Iran-linked hackers sent menacing texts to US service members",
-      "link": "https://taskandpurpose.com/news/iran-handala-hackers-texts-troops/",
-      "published": "Fri, 01 May 2026 09:25:33 -0400",
-      "source": "Task & Purpose",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Zumwalt-class destroyers may receive SPY-6 radars from frigates",
       "link": "https://www.navalnews.com/naval-news/2026/05/zumwalt-class-destroyers-may-receive-spy-6-radars-from-frigates/",
       "published": "Fri, 01 May 2026 11:52:00 +0000",
       "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "‘Engineering casualty’ knocks out electricity and propulsion on USS Higgins",
-      "link": "https://www.militarytimes.com/news/your-military/2026/05/01/engineering-casualty-knocks-out-electricity-and-propulsion-on-uss-higgins/",
-      "published": "Fri, 01 May 2026 18:57:44 +0000",
-      "source": "Military Times",
       "categories": [
         "deployment"
       ]
@@ -649,6 +631,15 @@
       ]
     },
     {
+      "title": "US Army and Navy helicopters sink six Iranian small boats, commander says",
+      "link": "https://taskandpurpose.com/news/apaches-seahawks-sink-six-boats/",
+      "published": "Mon, 04 May 2026 13:25:34 -0400",
+      "source": "Task & Purpose",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "US denies Iranian reports of strike on warship, says ships transit Hormuz",
       "link": "https://www.militarytimes.com/news/your-military/2026/05/04/us-denies-iranian-reports-of-strike-on-warship-says-ships-transit-hormuz/",
       "published": "Mon, 04 May 2026 14:54:15 +0000",
@@ -656,6 +647,15 @@
       "categories": [
         "deployment",
         "conflict"
+      ]
+    },
+    {
+      "title": "USNI News Fleet and Marine Tracker: May 4, 2026",
+      "link": "https://news.usni.org/2026/05/04/usni-news-fleet-and-marine-tracker-may-4-2026",
+      "published": "Mon, 04 May 2026 16:53:08 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment"
       ]
     },
     {
@@ -920,14 +920,14 @@
     "conflict_articles": 5,
     "exercise_articles": 9,
     "total_articles": 50,
-    "computed_at": "2026-05-04T16:45:16.928179+00:00",
+    "computed_at": "2026-05-04T18:08:30.053956+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] India conducts first salvo launch of new NASM-SR Missile",
-      "[Task & Purpose] Iran-linked hackers sent menacing texts to US service members",
       "[Naval News] Zumwalt-class destroyers may receive SPY-6 radars from frigates",
       "[Task & Purpose] Military insiders may be betting on operations more than previously known",
-      "[Military Times] ‘Engineering casualty’ knocks out electricity and propulsion on USS Higgins"
+      "[Defense News] Marine Corps fields 3,500 first-person view attack drones",
+      "[Military Times] Marine Corps fields 3,500 first-person view attack drones"
     ]
   },
   "ground_intel": {
@@ -938,7 +938,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-05-04T16:45:16.928225+00:00",
+    "last_successful_update": "2026-05-04T18:08:30.053996+00:00",
     "article_count": 50,
     "categorized_count": 19,
     "freshest_source": "Naval News",
