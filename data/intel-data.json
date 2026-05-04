@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-05-04T18:08:35Z",
-  "version": 1285,
+  "generated_utc": "2026-05-04T20:08:37Z",
+  "version": 1286,
   "breaking_alert": "Naval News: India conducts first salvo launch of new NASM-SR Missile",
   "naval_deployments": [
     {
@@ -659,10 +659,30 @@
       ]
     },
     {
-      "title": "Marines Considering Alternative Ships for SOUTHCOM Deployments",
-      "link": "https://news.usni.org/2026/04/29/marines-considering-alternative-ships-for-southcom-deployments",
-      "published": "Wed, 29 Apr 2026 22:16:20 +0000",
-      "source": "USNI News",
+      "title": "US destroys six Iranian small boats, shoots down missiles, drones, admiral says",
+      "link": "https://www.defensenews.com/news/pentagon-congress/2026/05/04/us-destroys-six-iranian-small-boats-shoots-down-missiles-drones-admiral-says/",
+      "published": "Mon, 04 May 2026 18:06:58 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
+    },
+    {
+      "title": "US destroys six Iranian small boats, shoots down missiles, drones, admiral says",
+      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/05/04/us-destroys-six-iranian-small-boats-shoots-down-missiles-drones-admiral-says/",
+      "published": "Mon, 04 May 2026 18:06:58 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
+    },
+    {
+      "title": "Career submariner selected to perform duties of under secretary of the Navy",
+      "link": "https://www.defensenews.com/news/pentagon-congress/2026/05/04/career-submariner-selected-to-perform-duties-of-under-secretary-of-the-navy/",
+      "published": "Mon, 04 May 2026 18:25:21 +0000",
+      "source": "Defense News",
       "categories": [
         "deployment"
       ]
@@ -838,15 +858,6 @@
       ]
     },
     {
-      "title": "Marine Corps fields 3,500 first-person view attack drones",
-      "link": "https://www.militarytimes.com/industry/techwatch/2026/05/01/marine-corps-fields-3500-first-person-view-attack-drones/",
-      "published": "Fri, 01 May 2026 20:28:43 +0000",
-      "source": "Military Times",
-      "categories": [
-        "conflict"
-      ]
-    },
-    {
       "title": "US denies Iranian reports of strike on warship, says ships transit Hormuz",
       "link": "https://www.militarytimes.com/news/your-military/2026/05/04/us-denies-iranian-reports-of-strike-on-warship-says-ships-transit-hormuz/",
       "published": "Mon, 04 May 2026 14:54:15 +0000",
@@ -857,12 +868,22 @@
       ]
     },
     {
-      "title": "Green Berets Deploy Ship-Killing Drone in Luzon Strait Maritime Strike Exercise",
-      "link": "https://news.usni.org/2026/05/03/green-berets-deploy-ship-killing-drone-in-luzon-strait-maritime-strike-exercise",
-      "published": "Sun, 03 May 2026 20:17:59 +0000",
-      "source": "USNI News",
+      "title": "US destroys six Iranian small boats, shoots down missiles, drones, admiral says",
+      "link": "https://www.defensenews.com/news/pentagon-congress/2026/05/04/us-destroys-six-iranian-small-boats-shoots-down-missiles-drones-admiral-says/",
+      "published": "Mon, 04 May 2026 18:06:58 +0000",
+      "source": "Defense News",
       "categories": [
-        "exercise",
+        "deployment",
+        "conflict"
+      ]
+    },
+    {
+      "title": "US destroys six Iranian small boats, shoots down missiles, drones, admiral says",
+      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/05/04/us-destroys-six-iranian-small-boats-shoots-down-missiles-drones-admiral-says/",
+      "published": "Mon, 04 May 2026 18:06:58 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment",
         "conflict"
       ]
     }
@@ -916,18 +937,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 8,
-    "conflict_articles": 5,
+    "deployment_articles": 13,
+    "conflict_articles": 6,
     "exercise_articles": 9,
     "total_articles": 50,
-    "computed_at": "2026-05-04T18:08:30.053956+00:00",
+    "computed_at": "2026-05-04T20:08:32.569875+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] India conducts first salvo launch of new NASM-SR Missile",
       "[Naval News] Zumwalt-class destroyers may receive SPY-6 radars from frigates",
       "[Task & Purpose] Military insiders may be betting on operations more than previously known",
       "[Defense News] Marine Corps fields 3,500 first-person view attack drones",
-      "[Military Times] Marine Corps fields 3,500 first-person view attack drones"
+      "[USNI News] Strait of Hormuz Commercial Transits at Lowest Level Since Operation Epic Fury Start, Shipping Data Shows"
     ]
   },
   "ground_intel": {
@@ -938,9 +959,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-05-04T18:08:30.053996+00:00",
+    "last_successful_update": "2026-05-04T20:08:32.569936+00:00",
     "article_count": 50,
-    "categorized_count": 19,
+    "categorized_count": 23,
     "freshest_source": "Naval News",
     "freshest_title": "India conducts first salvo launch of new NASM-SR Missile",
     "freshest_published": "Fri, 01 May 2026 07:15:32 +0000"
