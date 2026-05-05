@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-05-05T15:40:08Z",
-  "version": 1296,
-  "breaking_alert": "Naval News: Zumwalt-class destroyers may receive SPY-6 radars from frigates",
+  "generated_utc": "2026-05-05T17:12:14Z",
+  "version": 1297,
+  "breaking_alert": "USNI News: Strait of Hormuz Commercial Transits at Lowest Level Since Operation Epic Fury Start, Shipping Data Shows",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -594,15 +594,6 @@
   ],
   "_naval_news_refs": [
     {
-      "title": "Zumwalt-class destroyers may receive SPY-6 radars from frigates",
-      "link": "https://www.navalnews.com/naval-news/2026/05/zumwalt-class-destroyers-may-receive-spy-6-radars-from-frigates/",
-      "published": "Fri, 01 May 2026 11:52:00 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Strait of Hormuz Commercial Transits at Lowest Level Since Operation Epic Fury Start, Shipping Data Shows",
       "link": "https://news.usni.org/2026/05/01/strait-of-hormuz-commercial-transits-at-lowest-level-since-operation-epic-fury-start-shipping-data-shows",
       "published": "Fri, 01 May 2026 21:24:19 +0000",
@@ -617,15 +608,6 @@
       "link": "https://news.usni.org/2026/05/01/cno-u-s-naval-aviators-will-no-longer-command-amphibious-warships",
       "published": "Fri, 01 May 2026 21:29:36 +0000",
       "source": "USNI News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Israel to buy more F-35 and F-15 warplanes",
-      "link": "https://www.defensenews.com/global/mideast-africa/2026/05/04/israel-to-buy-more-f-35-and-f-15-warplanes/",
-      "published": "Mon, 04 May 2026 12:44:12 +0000",
-      "source": "Defense News",
       "categories": [
         "deployment"
       ]
@@ -659,16 +641,6 @@
       ]
     },
     {
-      "title": "US destroys six Iranian small boats, shoots down missiles, drones, admiral says",
-      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/05/04/us-destroys-six-iranian-small-boats-shoots-down-missiles-drones-admiral-says/",
-      "published": "Mon, 04 May 2026 18:06:58 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
       "title": "Career submariner selected to perform duties of under secretary of the Navy",
       "link": "https://www.defensenews.com/news/pentagon-congress/2026/05/04/career-submariner-selected-to-perform-duties-of-under-secretary-of-the-navy/",
       "published": "Mon, 04 May 2026 18:25:21 +0000",
@@ -678,9 +650,36 @@
       ]
     },
     {
-      "title": "Career submariner selected to perform duties of under secretary of the Navy",
-      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/05/04/career-submariner-selected-to-perform-duties-of-under-secretary-of-the-navy/",
-      "published": "Mon, 04 May 2026 18:25:21 +0000",
+      "title": "Carrier USS Gerald R. Ford Operating in the Mediterranean Sea",
+      "link": "https://news.usni.org/2026/05/04/carrier-uss-gerald-r-ford-operating-in-the-mediterranean-sea",
+      "published": "Mon, 04 May 2026 19:49:00 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Royal Navy Plans to Use Hybrid Fleet to Keep Pace with Russia in High North",
+      "link": "https://news.usni.org/2026/05/04/royal-navy-to-use-hybrid-fleet-to-keep-pace-with-russia-in-high-north",
+      "published": "Mon, 04 May 2026 19:56:12 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "US military accompanies commercial carrier through Strait of Hormuz",
+      "link": "https://www.defensenews.com/news/your-military/2026/05/04/us-military-accompanies-commercial-carrier-through-strait-of-hormuz/",
+      "published": "Mon, 04 May 2026 21:23:48 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "US military accompanies commercial carrier through Strait of Hormuz",
+      "link": "https://www.militarytimes.com/news/your-military/2026/05/04/us-military-accompanies-commercial-carrier-through-strait-of-hormuz/",
+      "published": "Mon, 04 May 2026 21:23:48 +0000",
       "source": "Military Times",
       "categories": [
         "deployment"
@@ -858,16 +857,6 @@
       ]
     },
     {
-      "title": "US destroys six Iranian small boats, shoots down missiles, drones, admiral says",
-      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/05/04/us-destroys-six-iranian-small-boats-shoots-down-missiles-drones-admiral-says/",
-      "published": "Mon, 04 May 2026 18:06:58 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
       "title": "Green Berets Deploy Ship-Killing Drone in Luzon Strait Maritime Strike Exercise",
       "link": "https://news.usni.org/2026/05/03/green-berets-deploy-ship-killing-drone-in-luzon-strait-maritime-strike-exercise",
       "published": "Sun, 03 May 2026 20:17:59 +0000",
@@ -885,18 +874,18 @@
       "categories": [
         "conflict"
       ]
+    },
+    {
+      "title": "US Army fires Tomahawk missile from new Typhon launcher during Philippines drill",
+      "link": "https://www.militarytimes.com/global/asia-pacific/2026/05/05/us-army-fires-tomahawk-missile-from-new-typhon-launcher-during-philippines-drill/",
+      "published": "Tue, 05 May 2026 08:47:12 +0000",
+      "source": "Military Times",
+      "categories": [
+        "conflict"
+      ]
     }
   ],
   "_exercise_news_refs": [
-    {
-      "title": "Military insiders may be betting on operations more than previously known",
-      "link": "https://taskandpurpose.com/news/military-insiders-betting-frequently/",
-      "published": "Fri, 01 May 2026 15:36:35 -0400",
-      "source": "Task & Purpose",
-      "categories": [
-        "exercise"
-      ]
-    },
     {
       "title": "Strait of Hormuz Commercial Transits at Lowest Level Since Operation Epic Fury Start, Shipping Data Shows",
       "link": "https://news.usni.org/2026/05/01/strait-of-hormuz-commercial-transits-at-lowest-level-since-operation-epic-fury-start-shipping-data-shows",
@@ -934,21 +923,30 @@
         "exercise",
         "conflict"
       ]
+    },
+    {
+      "title": "Chinese Navy, Anti-Ship Bombers Stage Against Balikatan Drills",
+      "link": "https://www.navalnews.com/naval-news/2026/05/chinese-navy-anti-ship-bombers-stage-against-balikatan-drills/",
+      "published": "Tue, 05 May 2026 05:28:00 +0000",
+      "source": "Naval News",
+      "categories": [
+        "exercise"
+      ]
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 16,
-    "conflict_articles": 10,
-    "exercise_articles": 6,
+    "deployment_articles": 14,
+    "conflict_articles": 11,
+    "exercise_articles": 7,
     "total_articles": 50,
-    "computed_at": "2026-05-05T15:40:00.944046+00:00",
+    "computed_at": "2026-05-05T17:12:09.178416+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
-      "[Naval News] Zumwalt-class destroyers may receive SPY-6 radars from frigates",
-      "[Task & Purpose] Military insiders may be betting on operations more than previously known",
       "[USNI News] Strait of Hormuz Commercial Transits at Lowest Level Since Operation Epic Fury Start, Shipping Data Shows",
       "[USNI News] CNO: U.S. Naval Aviators Will No Longer Command Amphibious Warships",
-      "[Defense News] Israel to buy more F-35 and F-15 warplanes"
+      "[Task & Purpose] US Army and Navy helicopters sink six Iranian small boats, commander says",
+      "[USNI News] USNI News Fleet and Marine Tracker: May 4, 2026",
+      "[Task & Purpose] Guardsmen who reacted to November attack receive medals for heroism"
     ]
   },
   "ground_intel": {
@@ -959,12 +957,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-05-05T15:40:00.944088+00:00",
+    "last_successful_update": "2026-05-05T17:12:09.178451+00:00",
     "article_count": 50,
     "categorized_count": 26,
-    "freshest_source": "Naval News",
-    "freshest_title": "Zumwalt-class destroyers may receive SPY-6 radars from frigates",
-    "freshest_published": "Fri, 01 May 2026 11:52:00 +0000"
+    "freshest_source": "USNI News",
+    "freshest_title": "Strait of Hormuz Commercial Transits at Lowest Level Since Operation Epic Fury Start, Shipping Data Shows",
+    "freshest_published": "Fri, 01 May 2026 21:24:19 +0000"
   },
   "_firms_hotspots": []
 }
