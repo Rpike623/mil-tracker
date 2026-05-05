@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-05-05T19:00:59Z",
-  "version": 1298,
+  "generated_utc": "2026-05-05T20:49:26Z",
+  "version": 1299,
   "breaking_alert": "USNI News: Strait of Hormuz Commercial Transits at Lowest Level Since Operation Epic Fury Start, Shipping Data Shows",
   "naval_deployments": [
     {
@@ -631,15 +631,6 @@
       ]
     },
     {
-      "title": "Career submariner selected to perform duties of under secretary of the Navy",
-      "link": "https://www.defensenews.com/news/pentagon-congress/2026/05/04/career-submariner-selected-to-perform-duties-of-under-secretary-of-the-navy/",
-      "published": "Mon, 04 May 2026 18:25:21 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Carrier USS Gerald R. Ford Operating in the Mediterranean Sea",
       "link": "https://news.usni.org/2026/05/04/carrier-uss-gerald-r-ford-operating-in-the-mediterranean-sea",
       "published": "Mon, 04 May 2026 19:49:00 +0000",
@@ -680,6 +671,16 @@
       "title": "US, Iran launch new attacks as they wrestle for control of Gulf waters",
       "link": "https://www.militarytimes.com/news/pentagon-congress/2026/05/05/us-iran-launch-new-attacks-as-they-wrestle-for-control-of-gulf-waters/",
       "published": "Tue, 05 May 2026 12:08:43 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
+    },
+    {
+      "title": "Pentagon says Iran ceasefire holds despite exchanges in Strait of Hormuz",
+      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/05/05/pentagon-says-iran-ceasefire-holds-despite-exchanges-in-strait-of-hormuz/",
+      "published": "Tue, 05 May 2026 15:49:52 +0000",
       "source": "Military Times",
       "categories": [
         "deployment",
@@ -867,20 +868,21 @@
       ]
     },
     {
-      "title": "US Army fires Tomahawk missile from new Typhon launcher during Philippines drill",
-      "link": "https://www.militarytimes.com/global/asia-pacific/2026/05/05/us-army-fires-tomahawk-missile-from-new-typhon-launcher-during-philippines-drill/",
-      "published": "Tue, 05 May 2026 08:47:12 +0000",
-      "source": "Military Times",
-      "categories": [
-        "conflict"
-      ]
-    },
-    {
       "title": "German defense minister laments long-range strike ‘gap’ caused by planned US drawdown",
       "link": "https://www.defensenews.com/global/europe/2026/05/05/german-defense-minister-laments-long-range-strike-gap-caused-by-planned-us-drawdown/",
       "published": "Tue, 05 May 2026 11:53:25 +0000",
       "source": "Defense News",
       "categories": [
+        "conflict"
+      ]
+    },
+    {
+      "title": "US, Iran launch new attacks as they wrestle for control of Gulf waters",
+      "link": "https://www.defensenews.com/news/pentagon-congress/2026/05/05/us-iran-launch-new-attacks-as-they-wrestle-for-control-of-gulf-waters/",
+      "published": "Tue, 05 May 2026 12:08:43 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment",
         "conflict"
       ]
     }
@@ -936,10 +938,10 @@
   ],
   "_threat_indicators": {
     "deployment_articles": 12,
-    "conflict_articles": 10,
+    "conflict_articles": 9,
     "exercise_articles": 9,
     "total_articles": 50,
-    "computed_at": "2026-05-05T19:00:53.825713+00:00",
+    "computed_at": "2026-05-05T20:49:21.267449+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[USNI News] Strait of Hormuz Commercial Transits at Lowest Level Since Operation Epic Fury Start, Shipping Data Shows",
@@ -957,9 +959,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-05-05T19:00:53.825755+00:00",
+    "last_successful_update": "2026-05-05T20:49:21.267491+00:00",
     "article_count": 50,
-    "categorized_count": 26,
+    "categorized_count": 25,
     "freshest_source": "USNI News",
     "freshest_title": "Strait of Hormuz Commercial Transits at Lowest Level Since Operation Epic Fury Start, Shipping Data Shows",
     "freshest_published": "Fri, 01 May 2026 21:24:19 +0000"
