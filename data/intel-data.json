@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-05-05T04:50:16Z",
-  "version": 1291,
-  "breaking_alert": "Naval News: India conducts first salvo launch of new NASM-SR Missile",
+  "generated_utc": "2026-05-05T07:09:20Z",
+  "version": 1292,
+  "breaking_alert": "Naval News: Zumwalt-class destroyers may receive SPY-6 radars from frigates",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -840,15 +840,6 @@
   },
   "_conflict_news_refs": [
     {
-      "title": "India conducts first salvo launch of new NASM-SR Missile",
-      "link": "https://www.navalnews.com/naval-news/2026/05/india-conducts-first-salvo-launch-of-new-nasm-sr-missile/",
-      "published": "Fri, 01 May 2026 07:15:32 +0000",
-      "source": "Naval News",
-      "categories": [
-        "conflict"
-      ]
-    },
-    {
       "title": "US denies Iranian reports of strike on warship, says ships transit Hormuz",
       "link": "https://www.militarytimes.com/news/your-military/2026/05/04/us-denies-iranian-reports-of-strike-on-warship-says-ships-transit-hormuz/",
       "published": "Mon, 04 May 2026 14:54:15 +0000",
@@ -884,6 +875,16 @@
       "source": "Military Times",
       "categories": [
         "deployment",
+        "conflict"
+      ]
+    },
+    {
+      "title": "Green Berets Deploy Ship-Killing Drone in Luzon Strait Maritime Strike Exercise",
+      "link": "https://news.usni.org/2026/05/03/green-berets-deploy-ship-killing-drone-in-luzon-strait-maritime-strike-exercise",
+      "published": "Sun, 03 May 2026 20:17:59 +0000",
+      "source": "USNI News",
+      "categories": [
+        "exercise",
         "conflict"
       ]
     }
@@ -938,17 +939,17 @@
   ],
   "_threat_indicators": {
     "deployment_articles": 15,
-    "conflict_articles": 6,
-    "exercise_articles": 7,
+    "conflict_articles": 5,
+    "exercise_articles": 8,
     "total_articles": 50,
-    "computed_at": "2026-05-05T04:50:13.227917+00:00",
+    "computed_at": "2026-05-05T07:09:16.958731+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
-      "[Naval News] India conducts first salvo launch of new NASM-SR Missile",
       "[Naval News] Zumwalt-class destroyers may receive SPY-6 radars from frigates",
       "[Task & Purpose] Military insiders may be betting on operations more than previously known",
       "[USNI News] Strait of Hormuz Commercial Transits at Lowest Level Since Operation Epic Fury Start, Shipping Data Shows",
-      "[USNI News] CNO: U.S. Naval Aviators Will No Longer Command Amphibious Warships"
+      "[USNI News] CNO: U.S. Naval Aviators Will No Longer Command Amphibious Warships",
+      "[Defense News] Israel to buy more F-35 and F-15 warplanes"
     ]
   },
   "ground_intel": {
@@ -959,12 +960,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-05-05T04:50:13.227959+00:00",
+    "last_successful_update": "2026-05-05T07:09:16.958773+00:00",
     "article_count": 50,
     "categorized_count": 23,
     "freshest_source": "Naval News",
-    "freshest_title": "India conducts first salvo launch of new NASM-SR Missile",
-    "freshest_published": "Fri, 01 May 2026 07:15:32 +0000"
+    "freshest_title": "Zumwalt-class destroyers may receive SPY-6 radars from frigates",
+    "freshest_published": "Fri, 01 May 2026 11:52:00 +0000"
   },
   "_firms_hotspots": []
 }
