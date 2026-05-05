@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-05-05T17:12:14Z",
-  "version": 1297,
+  "generated_utc": "2026-05-05T19:00:59Z",
+  "version": 1298,
   "breaking_alert": "USNI News: Strait of Hormuz Commercial Transits at Lowest Level Since Operation Epic Fury Start, Shipping Data Shows",
   "naval_deployments": [
     {
@@ -631,16 +631,6 @@
       ]
     },
     {
-      "title": "US destroys six Iranian small boats, shoots down missiles, drones, admiral says",
-      "link": "https://www.defensenews.com/news/pentagon-congress/2026/05/04/us-destroys-six-iranian-small-boats-shoots-down-missiles-drones-admiral-says/",
-      "published": "Mon, 04 May 2026 18:06:58 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
       "title": "Career submariner selected to perform duties of under secretary of the Navy",
       "link": "https://www.defensenews.com/news/pentagon-congress/2026/05/04/career-submariner-selected-to-perform-duties-of-under-secretary-of-the-navy/",
       "published": "Mon, 04 May 2026 18:25:21 +0000",
@@ -677,12 +667,23 @@
       ]
     },
     {
-      "title": "US military accompanies commercial carrier through Strait of Hormuz",
-      "link": "https://www.militarytimes.com/news/your-military/2026/05/04/us-military-accompanies-commercial-carrier-through-strait-of-hormuz/",
-      "published": "Mon, 04 May 2026 21:23:48 +0000",
+      "title": "US, Iran launch new attacks as they wrestle for control of Gulf waters",
+      "link": "https://www.defensenews.com/news/pentagon-congress/2026/05/05/us-iran-launch-new-attacks-as-they-wrestle-for-control-of-gulf-waters/",
+      "published": "Tue, 05 May 2026 12:08:43 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
+    },
+    {
+      "title": "US, Iran launch new attacks as they wrestle for control of Gulf waters",
+      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/05/05/us-iran-launch-new-attacks-as-they-wrestle-for-control-of-gulf-waters/",
+      "published": "Tue, 05 May 2026 12:08:43 +0000",
       "source": "Military Times",
       "categories": [
-        "deployment"
+        "deployment",
+        "conflict"
       ]
     }
   ],
@@ -847,16 +848,6 @@
       ]
     },
     {
-      "title": "US destroys six Iranian small boats, shoots down missiles, drones, admiral says",
-      "link": "https://www.defensenews.com/news/pentagon-congress/2026/05/04/us-destroys-six-iranian-small-boats-shoots-down-missiles-drones-admiral-says/",
-      "published": "Mon, 04 May 2026 18:06:58 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
       "title": "Green Berets Deploy Ship-Killing Drone in Luzon Strait Maritime Strike Exercise",
       "link": "https://news.usni.org/2026/05/03/green-berets-deploy-ship-killing-drone-in-luzon-strait-maritime-strike-exercise",
       "published": "Sun, 03 May 2026 20:17:59 +0000",
@@ -880,6 +871,15 @@
       "link": "https://www.militarytimes.com/global/asia-pacific/2026/05/05/us-army-fires-tomahawk-missile-from-new-typhon-launcher-during-philippines-drill/",
       "published": "Tue, 05 May 2026 08:47:12 +0000",
       "source": "Military Times",
+      "categories": [
+        "conflict"
+      ]
+    },
+    {
+      "title": "German defense minister laments long-range strike ‘gap’ caused by planned US drawdown",
+      "link": "https://www.defensenews.com/global/europe/2026/05/05/german-defense-minister-laments-long-range-strike-gap-caused-by-planned-us-drawdown/",
+      "published": "Tue, 05 May 2026 11:53:25 +0000",
+      "source": "Defense News",
       "categories": [
         "conflict"
       ]
@@ -935,11 +935,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 14,
-    "conflict_articles": 11,
-    "exercise_articles": 7,
+    "deployment_articles": 12,
+    "conflict_articles": 10,
+    "exercise_articles": 9,
     "total_articles": 50,
-    "computed_at": "2026-05-05T17:12:09.178416+00:00",
+    "computed_at": "2026-05-05T19:00:53.825713+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[USNI News] Strait of Hormuz Commercial Transits at Lowest Level Since Operation Epic Fury Start, Shipping Data Shows",
@@ -957,7 +957,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-05-05T17:12:09.178451+00:00",
+    "last_successful_update": "2026-05-05T19:00:53.825755+00:00",
     "article_count": 50,
     "categorized_count": 26,
     "freshest_source": "USNI News",
