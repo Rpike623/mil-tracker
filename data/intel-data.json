@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-05-05T21:50:16Z",
-  "version": 1300,
-  "breaking_alert": "USNI News: Strait of Hormuz Commercial Transits at Lowest Level Since Operation Epic Fury Start, Shipping Data Shows",
+  "generated_utc": "2026-05-05T22:42:26Z",
+  "version": 1301,
+  "breaking_alert": "USNI News: CNO: U.S. Naval Aviators Will No Longer Command Amphibious Warships",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -594,16 +594,6 @@
   ],
   "_naval_news_refs": [
     {
-      "title": "Strait of Hormuz Commercial Transits at Lowest Level Since Operation Epic Fury Start, Shipping Data Shows",
-      "link": "https://news.usni.org/2026/05/01/strait-of-hormuz-commercial-transits-at-lowest-level-since-operation-epic-fury-start-shipping-data-shows",
-      "published": "Fri, 01 May 2026 21:24:19 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment",
-        "exercise"
-      ]
-    },
-    {
       "title": "CNO: U.S. Naval Aviators Will No Longer Command Amphibious Warships",
       "link": "https://news.usni.org/2026/05/01/cno-u-s-naval-aviators-will-no-longer-command-amphibious-warships",
       "published": "Fri, 01 May 2026 21:29:36 +0000",
@@ -668,16 +658,6 @@
       ]
     },
     {
-      "title": "US, Iran launch new attacks as they wrestle for control of Gulf waters",
-      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/05/05/us-iran-launch-new-attacks-as-they-wrestle-for-control-of-gulf-waters/",
-      "published": "Tue, 05 May 2026 12:08:43 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
       "title": "Pentagon says Iran ceasefire holds despite exchanges in Strait of Hormuz",
       "link": "https://www.militarytimes.com/news/pentagon-congress/2026/05/05/pentagon-says-iran-ceasefire-holds-despite-exchanges-in-strait-of-hormuz/",
       "published": "Tue, 05 May 2026 15:49:52 +0000",
@@ -685,6 +665,24 @@
       "categories": [
         "deployment",
         "conflict"
+      ]
+    },
+    {
+      "title": "ASELSAN at SAHA 2026: Building a Global Benchmark in Unmanned Naval Warfare",
+      "link": "https://www.navalnews.com/naval-news/2026/05/aselsan-at-saha-2026-building-a-global-benchmark-in-unmanned-naval-warfare/",
+      "published": "Tue, 05 May 2026 16:41:59 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "U.S. Tests Using Drones to Track, Target Suspected Narco Boats",
+      "link": "https://news.usni.org/2026/05/05/u-s-tests-using-drones-to-track-target-suspected-narco-boats",
+      "published": "Tue, 05 May 2026 20:29:59 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment"
       ]
     }
   ],
@@ -889,16 +887,6 @@
   ],
   "_exercise_news_refs": [
     {
-      "title": "Strait of Hormuz Commercial Transits at Lowest Level Since Operation Epic Fury Start, Shipping Data Shows",
-      "link": "https://news.usni.org/2026/05/01/strait-of-hormuz-commercial-transits-at-lowest-level-since-operation-epic-fury-start-shipping-data-shows",
-      "published": "Fri, 01 May 2026 21:24:19 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment",
-        "exercise"
-      ]
-    },
-    {
       "title": "Japan’s US-2 joins Balikatan exercises in South China Sea",
       "link": "https://www.navalnews.com/naval-news/2026/05/japans-us-2-joins-balikatan-exercises-in-south-china-sea/",
       "published": "Sat, 02 May 2026 07:05:59 +0000",
@@ -934,21 +922,30 @@
       "categories": [
         "exercise"
       ]
+    },
+    {
+      "title": "NATO nations size up an interceptor-drone bazaar where low price is everything",
+      "link": "https://www.defensenews.com/global/europe/2026/05/05/nato-nations-size-up-an-interceptor-drone-bazaar-where-low-price-is-everything/",
+      "published": "Tue, 05 May 2026 15:56:16 +0000",
+      "source": "Defense News",
+      "categories": [
+        "exercise"
+      ]
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 12,
-    "conflict_articles": 9,
-    "exercise_articles": 9,
+    "deployment_articles": 10,
+    "conflict_articles": 8,
+    "exercise_articles": 8,
     "total_articles": 50,
-    "computed_at": "2026-05-05T21:50:11.608313+00:00",
+    "computed_at": "2026-05-05T22:42:20.630922+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
-      "[USNI News] Strait of Hormuz Commercial Transits at Lowest Level Since Operation Epic Fury Start, Shipping Data Shows",
       "[USNI News] CNO: U.S. Naval Aviators Will No Longer Command Amphibious Warships",
       "[Task & Purpose] US Army and Navy helicopters sink six Iranian small boats, commander says",
       "[USNI News] USNI News Fleet and Marine Tracker: May 4, 2026",
-      "[Task & Purpose] Guardsmen who reacted to November attack receive medals for heroism"
+      "[Task & Purpose] Guardsmen who reacted to November attack receive medals for heroism",
+      "[USNI News] Carrier USS Gerald R. Ford Operating in the Mediterranean Sea"
     ]
   },
   "ground_intel": {
@@ -959,12 +956,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-05-05T21:50:11.608376+00:00",
+    "last_successful_update": "2026-05-05T22:42:20.630955+00:00",
     "article_count": 50,
-    "categorized_count": 25,
+    "categorized_count": 23,
     "freshest_source": "USNI News",
-    "freshest_title": "Strait of Hormuz Commercial Transits at Lowest Level Since Operation Epic Fury Start, Shipping Data Shows",
-    "freshest_published": "Fri, 01 May 2026 21:24:19 +0000"
+    "freshest_title": "CNO: U.S. Naval Aviators Will No Longer Command Amphibious Warships",
+    "freshest_published": "Fri, 01 May 2026 21:29:36 +0000"
   },
   "_firms_hotspots": []
 }
