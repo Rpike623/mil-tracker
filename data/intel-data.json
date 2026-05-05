@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-05-05T07:09:20Z",
-  "version": 1292,
+  "generated_utc": "2026-05-05T09:48:51Z",
+  "version": 1293,
   "breaking_alert": "Naval News: Zumwalt-class destroyers may receive SPY-6 radars from frigates",
   "naval_deployments": [
     {
@@ -939,10 +939,10 @@
   ],
   "_threat_indicators": {
     "deployment_articles": 15,
-    "conflict_articles": 5,
+    "conflict_articles": 7,
     "exercise_articles": 8,
     "total_articles": 50,
-    "computed_at": "2026-05-05T07:09:16.958731+00:00",
+    "computed_at": "2026-05-05T09:48:47.607922+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] Zumwalt-class destroyers may receive SPY-6 radars from frigates",
@@ -960,9 +960,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-05-05T07:09:16.958773+00:00",
+    "last_successful_update": "2026-05-05T09:48:47.607962+00:00",
     "article_count": 50,
-    "categorized_count": 23,
+    "categorized_count": 25,
     "freshest_source": "Naval News",
     "freshest_title": "Zumwalt-class destroyers may receive SPY-6 radars from frigates",
     "freshest_published": "Fri, 01 May 2026 11:52:00 +0000"
