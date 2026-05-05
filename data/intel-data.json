@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-05-05T11:07:38Z",
-  "version": 1294,
+  "generated_utc": "2026-05-05T13:03:17Z",
+  "version": 1295,
   "breaking_alert": "Naval News: Zumwalt-class destroyers may receive SPY-6 radars from frigates",
   "naval_deployments": [
     {
@@ -640,16 +640,6 @@
       ]
     },
     {
-      "title": "US denies Iranian reports of strike on warship, says ships transit Hormuz",
-      "link": "https://www.militarytimes.com/news/your-military/2026/05/04/us-denies-iranian-reports-of-strike-on-warship-says-ships-transit-hormuz/",
-      "published": "Mon, 04 May 2026 14:54:15 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
       "title": "USNI News Fleet and Marine Tracker: May 4, 2026",
       "link": "https://news.usni.org/2026/05/04/usni-news-fleet-and-marine-tracker-may-4-2026",
       "published": "Mon, 04 May 2026 16:53:08 +0000",
@@ -683,6 +673,15 @@
       "link": "https://www.defensenews.com/news/pentagon-congress/2026/05/04/career-submariner-selected-to-perform-duties-of-under-secretary-of-the-navy/",
       "published": "Mon, 04 May 2026 18:25:21 +0000",
       "source": "Defense News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Career submariner selected to perform duties of under secretary of the Navy",
+      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/05/04/career-submariner-selected-to-perform-duties-of-under-secretary-of-the-navy/",
+      "published": "Mon, 04 May 2026 18:25:21 +0000",
+      "source": "Military Times",
       "categories": [
         "deployment"
       ]
@@ -840,16 +839,6 @@
   },
   "_conflict_news_refs": [
     {
-      "title": "US denies Iranian reports of strike on warship, says ships transit Hormuz",
-      "link": "https://www.militarytimes.com/news/your-military/2026/05/04/us-denies-iranian-reports-of-strike-on-warship-says-ships-transit-hormuz/",
-      "published": "Mon, 04 May 2026 14:54:15 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
       "title": "Guardsmen who reacted to November attack receive medals for heroism",
       "link": "https://taskandpurpose.com/news/west-virginia-national-guard-soldiers-airmans-medal/",
       "published": "Mon, 04 May 2026 17:04:53 -0400",
@@ -885,6 +874,15 @@
       "source": "USNI News",
       "categories": [
         "exercise",
+        "conflict"
+      ]
+    },
+    {
+      "title": "US Army fires Tomahawk missile from new Typhon launcher during Philippines drill",
+      "link": "https://www.defensenews.com/global/asia-pacific/2026/05/05/us-army-fires-tomahawk-missile-from-new-typhon-launcher-during-philippines-drill/",
+      "published": "Tue, 05 May 2026 08:47:12 +0000",
+      "source": "Defense News",
+      "categories": [
         "conflict"
       ]
     }
@@ -928,22 +926,23 @@
       ]
     },
     {
-      "title": "2 US troops reported missing amid African Lion exercise",
-      "link": "https://www.defensenews.com/news/your-military/2026/05/03/2-us-troops-reported-missing-amid-africa-lion-exercise/",
-      "published": "Sun, 03 May 2026 16:14:18 +0000",
-      "source": "Defense News",
+      "title": "Green Berets Deploy Ship-Killing Drone in Luzon Strait Maritime Strike Exercise",
+      "link": "https://news.usni.org/2026/05/03/green-berets-deploy-ship-killing-drone-in-luzon-strait-maritime-strike-exercise",
+      "published": "Sun, 03 May 2026 20:17:59 +0000",
+      "source": "USNI News",
       "categories": [
-        "exercise"
+        "exercise",
+        "conflict"
       ]
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 15,
-    "conflict_articles": 7,
-    "exercise_articles": 8,
+    "deployment_articles": 16,
+    "conflict_articles": 9,
+    "exercise_articles": 7,
     "total_articles": 50,
-    "computed_at": "2026-05-05T11:07:35.404315+00:00",
-    "manual_override": "DEFCON_3",
+    "computed_at": "2026-05-05T13:03:12.072426+00:00",
+    "manual_override": "DEFCON_2",
     "breaking_events": [
       "[Naval News] Zumwalt-class destroyers may receive SPY-6 radars from frigates",
       "[Task & Purpose] Military insiders may be betting on operations more than previously known",
@@ -960,9 +959,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-05-05T11:07:35.404360+00:00",
+    "last_successful_update": "2026-05-05T13:03:12.072467+00:00",
     "article_count": 50,
-    "categorized_count": 25,
+    "categorized_count": 26,
     "freshest_source": "Naval News",
     "freshest_title": "Zumwalt-class destroyers may receive SPY-6 radars from frigates",
     "freshest_published": "Fri, 01 May 2026 11:52:00 +0000"
