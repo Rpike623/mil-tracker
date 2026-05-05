@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-05-05T20:49:26Z",
-  "version": 1299,
+  "generated_utc": "2026-05-05T21:50:16Z",
+  "version": 1300,
   "breaking_alert": "USNI News: Strait of Hormuz Commercial Transits at Lowest Level Since Operation Epic Fury Start, Shipping Data Shows",
   "naval_deployments": [
     {
@@ -941,7 +941,7 @@
     "conflict_articles": 9,
     "exercise_articles": 9,
     "total_articles": 50,
-    "computed_at": "2026-05-05T20:49:21.267449+00:00",
+    "computed_at": "2026-05-05T21:50:11.608313+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[USNI News] Strait of Hormuz Commercial Transits at Lowest Level Since Operation Epic Fury Start, Shipping Data Shows",
@@ -959,7 +959,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-05-05T20:49:21.267491+00:00",
+    "last_successful_update": "2026-05-05T21:50:11.608376+00:00",
     "article_count": 50,
     "categorized_count": 25,
     "freshest_source": "USNI News",
