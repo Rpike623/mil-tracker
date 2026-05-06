@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-05-06T19:16:03Z",
-  "version": 1309,
+  "generated_utc": "2026-05-06T20:59:44Z",
+  "version": 1310,
   "breaking_alert": "Task & Purpose: US Army and Navy helicopters sink six Iranian small boats, commander says",
   "naval_deployments": [
     {
@@ -603,15 +603,6 @@
       ]
     },
     {
-      "title": "USNI News Fleet and Marine Tracker: May 4, 2026",
-      "link": "https://news.usni.org/2026/05/04/usni-news-fleet-and-marine-tracker-may-4-2026",
-      "published": "Mon, 04 May 2026 16:53:08 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Carrier USS Gerald R. Ford Operating in the Mediterranean Sea",
       "link": "https://news.usni.org/2026/05/04/carrier-uss-gerald-r-ford-operating-in-the-mediterranean-sea",
       "published": "Mon, 04 May 2026 19:49:00 +0000",
@@ -679,6 +670,15 @@
       "link": "https://news.usni.org/2026/05/06/carrier-uss-gerald-r-ford-is-now-in-the-atlantic",
       "published": "Wed, 06 May 2026 11:32:53 +0000",
       "source": "USNI News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Air Force transit hub stored weapons shipments in unguarded building, IG finds",
+      "link": "https://taskandpurpose.com/news/air-force-weapons-storage/",
+      "published": "Wed, 06 May 2026 15:47:07 -0400",
+      "source": "Task & Purpose",
       "categories": [
         "deployment"
       ]
@@ -875,15 +875,6 @@
   ],
   "_exercise_news_refs": [
     {
-      "title": "Two US soldiers missing during exercises in Morocco",
-      "link": "https://taskandpurpose.com/news/missing-service-members-african-lion-morocco/",
-      "published": "Sun, 03 May 2026 12:05:18 -0400",
-      "source": "Task & Purpose",
-      "categories": [
-        "exercise"
-      ]
-    },
-    {
       "title": "Chinese Navy, Anti-Ship Bombers Stage Against Balikatan Drills",
       "link": "https://www.navalnews.com/naval-news/2026/05/chinese-navy-anti-ship-bombers-stage-against-balikatan-drills/",
       "published": "Tue, 05 May 2026 05:28:00 +0000",
@@ -902,15 +893,6 @@
       ]
     },
     {
-      "title": "Policies needed to share AI-generated intel across NATO countries, official says",
-      "link": "https://www.militarytimes.com/global/europe/2026/05/05/policies-needed-to-share-ai-generated-intel-across-nato-countries-official-says/",
-      "published": "Tue, 05 May 2026 18:20:22 +0000",
-      "source": "Military Times",
-      "categories": [
-        "exercise"
-      ]
-    },
-    {
       "title": "Turkish exercise sees Libya’s rival forces train together for second time within weeks",
       "link": "https://www.defensenews.com/global/mideast-africa/2026/05/06/turkish-exercise-sees-libyas-rival-forces-train-together-for-second-time-within-weeks/",
       "published": "Wed, 06 May 2026 12:26:49 +0000",
@@ -921,18 +903,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 17,
+    "deployment_articles": 19,
     "conflict_articles": 4,
-    "exercise_articles": 5,
+    "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-05-06T19:16:00.210090+00:00",
+    "computed_at": "2026-05-06T20:59:41.029691+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Task & Purpose] US Army and Navy helicopters sink six Iranian small boats, commander says",
-      "[USNI News] USNI News Fleet and Marine Tracker: May 4, 2026",
       "[Task & Purpose] Guardsmen who reacted to November attack receive medals for heroism",
       "[USNI News] Carrier USS Gerald R. Ford Operating in the Mediterranean Sea",
-      "[USNI News] Royal Navy Plans to Use Hybrid Fleet to Keep Pace with Russia in High North"
+      "[USNI News] Royal Navy Plans to Use Hybrid Fleet to Keep Pace with Russia in High North",
+      "[Naval News] Chinese Navy, Anti-Ship Bombers Stage Against Balikatan Drills"
     ]
   },
   "ground_intel": {
@@ -943,7 +925,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-05-06T19:16:00.210132+00:00",
+    "last_successful_update": "2026-05-06T20:59:41.029733+00:00",
     "article_count": 50,
     "categorized_count": 25,
     "freshest_source": "Task & Purpose",
