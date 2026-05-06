@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-05-06T05:16:21Z",
-  "version": 1304,
+  "generated_utc": "2026-05-06T10:52:44Z",
+  "version": 1305,
   "breaking_alert": "USNI News: CNO: U.S. Naval Aviators Will No Longer Command Amphibious Warships",
   "naval_deployments": [
     {
@@ -639,15 +639,6 @@
       ]
     },
     {
-      "title": "US military accompanies commercial carrier through Strait of Hormuz",
-      "link": "https://www.defensenews.com/news/your-military/2026/05/04/us-military-accompanies-commercial-carrier-through-strait-of-hormuz/",
-      "published": "Mon, 04 May 2026 21:23:48 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "US, Iran launch new attacks as they wrestle for control of Gulf waters",
       "link": "https://www.defensenews.com/news/pentagon-congress/2026/05/05/us-iran-launch-new-attacks-as-they-wrestle-for-control-of-gulf-waters/",
       "published": "Tue, 05 May 2026 12:08:43 +0000",
@@ -681,6 +672,15 @@
       "link": "https://news.usni.org/2026/05/05/u-s-tests-using-drones-to-track-target-suspected-narco-boats",
       "published": "Tue, 05 May 2026 20:29:59 +0000",
       "source": "USNI News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Japan, Philippines Launch Working Group on Transfer of Abukuma-class Destroyer Escorts",
+      "link": "https://www.navalnews.com/naval-news/2026/05/japan-philippines-launch-working-group-on-transfer-of-abukuma-class-destroyer-escorts/",
+      "published": "Wed, 06 May 2026 07:20:50 +0000",
+      "source": "Naval News",
       "categories": [
         "deployment"
       ]
@@ -887,15 +887,6 @@
   ],
   "_exercise_news_refs": [
     {
-      "title": "Japan’s US-2 joins Balikatan exercises in South China Sea",
-      "link": "https://www.navalnews.com/naval-news/2026/05/japans-us-2-joins-balikatan-exercises-in-south-china-sea/",
-      "published": "Sat, 02 May 2026 07:05:59 +0000",
-      "source": "Naval News",
-      "categories": [
-        "exercise"
-      ]
-    },
-    {
       "title": "Two US soldiers missing during exercises in Morocco",
       "link": "https://taskandpurpose.com/news/missing-service-members-african-lion-morocco/",
       "published": "Sun, 03 May 2026 12:05:18 -0400",
@@ -931,14 +922,23 @@
       "categories": [
         "exercise"
       ]
+    },
+    {
+      "title": "NATO nations size up an interceptor-drone bazaar where low price is everything",
+      "link": "https://www.militarytimes.com/global/europe/2026/05/05/nato-nations-size-up-an-interceptor-drone-bazaar-where-low-price-is-everything/",
+      "published": "Tue, 05 May 2026 15:56:16 +0000",
+      "source": "Military Times",
+      "categories": [
+        "exercise"
+      ]
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 10,
+    "deployment_articles": 12,
     "conflict_articles": 8,
-    "exercise_articles": 8,
+    "exercise_articles": 7,
     "total_articles": 50,
-    "computed_at": "2026-05-06T05:16:18.964288+00:00",
+    "computed_at": "2026-05-06T10:52:41.828138+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[USNI News] CNO: U.S. Naval Aviators Will No Longer Command Amphibious Warships",
@@ -956,9 +956,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-05-06T05:16:18.964329+00:00",
+    "last_successful_update": "2026-05-06T10:52:41.828184+00:00",
     "article_count": 50,
-    "categorized_count": 23,
+    "categorized_count": 24,
     "freshest_source": "USNI News",
     "freshest_title": "CNO: U.S. Naval Aviators Will No Longer Command Amphibious Warships",
     "freshest_published": "Fri, 01 May 2026 21:29:36 +0000"
