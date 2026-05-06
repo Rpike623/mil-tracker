@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-05-05T23:37:09Z",
-  "version": 1302,
+  "generated_utc": "2026-05-06T01:24:12Z",
+  "version": 1303,
   "breaking_alert": "USNI News: CNO: U.S. Naval Aviators Will No Longer Command Amphibious Warships",
   "naval_deployments": [
     {
@@ -938,7 +938,7 @@
     "conflict_articles": 8,
     "exercise_articles": 8,
     "total_articles": 50,
-    "computed_at": "2026-05-05T23:37:06.537859+00:00",
+    "computed_at": "2026-05-06T01:24:10.438269+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[USNI News] CNO: U.S. Naval Aviators Will No Longer Command Amphibious Warships",
@@ -956,7 +956,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-05-05T23:37:06.537902+00:00",
+    "last_successful_update": "2026-05-06T01:24:10.438311+00:00",
     "article_count": 50,
     "categorized_count": 23,
     "freshest_source": "USNI News",
