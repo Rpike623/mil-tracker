@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-05-06T17:18:40Z",
-  "version": 1308,
+  "generated_utc": "2026-05-06T19:16:03Z",
+  "version": 1309,
   "breaking_alert": "Task & Purpose: US Army and Navy helicopters sink six Iranian small boats, commander says",
   "naval_deployments": [
     {
@@ -861,6 +861,16 @@
       "categories": [
         "conflict"
       ]
+    },
+    {
+      "title": "French Carrier Strike Group Transits Suez Amid Hormuz Tensions",
+      "link": "https://www.navalnews.com/naval-news/2026/05/french-carrier-strike-group-transits-suez-amid-hormuz-tensions/",
+      "published": "Wed, 06 May 2026 17:52:39 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
     }
   ],
   "_exercise_news_refs": [
@@ -883,15 +893,6 @@
       ]
     },
     {
-      "title": "NATO nations size up an interceptor-drone bazaar where low price is everything",
-      "link": "https://www.defensenews.com/global/europe/2026/05/05/nato-nations-size-up-an-interceptor-drone-bazaar-where-low-price-is-everything/",
-      "published": "Tue, 05 May 2026 15:56:16 +0000",
-      "source": "Defense News",
-      "categories": [
-        "exercise"
-      ]
-    },
-    {
       "title": "Policies needed to share AI-generated intel across NATO countries, official says",
       "link": "https://www.defensenews.com/global/europe/2026/05/05/policies-needed-to-share-ai-generated-intel-across-nato-countries-official-says/",
       "published": "Tue, 05 May 2026 18:20:22 +0000",
@@ -908,14 +909,23 @@
       "categories": [
         "exercise"
       ]
+    },
+    {
+      "title": "Turkish exercise sees Libya’s rival forces train together for second time within weeks",
+      "link": "https://www.defensenews.com/global/mideast-africa/2026/05/06/turkish-exercise-sees-libyas-rival-forces-train-together-for-second-time-within-weeks/",
+      "published": "Wed, 06 May 2026 12:26:49 +0000",
+      "source": "Defense News",
+      "categories": [
+        "exercise"
+      ]
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 11,
-    "conflict_articles": 3,
-    "exercise_articles": 6,
+    "deployment_articles": 17,
+    "conflict_articles": 4,
+    "exercise_articles": 5,
     "total_articles": 50,
-    "computed_at": "2026-05-06T17:18:38.109869+00:00",
+    "computed_at": "2026-05-06T19:16:00.210090+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Task & Purpose] US Army and Navy helicopters sink six Iranian small boats, commander says",
@@ -933,9 +943,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-05-06T17:18:38.109911+00:00",
+    "last_successful_update": "2026-05-06T19:16:00.210132+00:00",
     "article_count": 50,
-    "categorized_count": 20,
+    "categorized_count": 25,
     "freshest_source": "Task & Purpose",
     "freshest_title": "US Army and Navy helicopters sink six Iranian small boats, commander says",
     "freshest_published": "Mon, 04 May 2026 13:25:34 -0400"
