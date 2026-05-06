@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-05-06T10:52:44Z",
-  "version": 1305,
-  "breaking_alert": "USNI News: CNO: U.S. Naval Aviators Will No Longer Command Amphibious Warships",
+  "generated_utc": "2026-05-06T12:21:00Z",
+  "version": 1306,
+  "breaking_alert": "Task & Purpose: US Army and Navy helicopters sink six Iranian small boats, commander says",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -594,15 +594,6 @@
   ],
   "_naval_news_refs": [
     {
-      "title": "CNO: U.S. Naval Aviators Will No Longer Command Amphibious Warships",
-      "link": "https://news.usni.org/2026/05/01/cno-u-s-naval-aviators-will-no-longer-command-amphibious-warships",
-      "published": "Fri, 01 May 2026 21:29:36 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "US Army and Navy helicopters sink six Iranian small boats, commander says",
       "link": "https://taskandpurpose.com/news/apaches-seahawks-sink-six-boats/",
       "published": "Mon, 04 May 2026 13:25:34 -0400",
@@ -680,6 +671,15 @@
       "title": "Japan, Philippines Launch Working Group on Transfer of Abukuma-class Destroyer Escorts",
       "link": "https://www.navalnews.com/naval-news/2026/05/japan-philippines-launch-working-group-on-transfer-of-abukuma-class-destroyer-escorts/",
       "published": "Wed, 06 May 2026 07:20:50 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "New Details Of Russia’s Super-Weapon Submarine ‘Khabarovsk’",
+      "link": "https://www.navalnews.com/naval-news/2026/05/new-details-of-russias-super-weapon-submarine-khabarovsk/",
+      "published": "Wed, 06 May 2026 08:29:00 +0000",
       "source": "Naval News",
       "categories": [
         "deployment"
@@ -938,14 +938,14 @@
     "conflict_articles": 8,
     "exercise_articles": 7,
     "total_articles": 50,
-    "computed_at": "2026-05-06T10:52:41.828138+00:00",
+    "computed_at": "2026-05-06T12:20:55.809876+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
-      "[USNI News] CNO: U.S. Naval Aviators Will No Longer Command Amphibious Warships",
       "[Task & Purpose] US Army and Navy helicopters sink six Iranian small boats, commander says",
       "[USNI News] USNI News Fleet and Marine Tracker: May 4, 2026",
       "[Task & Purpose] Guardsmen who reacted to November attack receive medals for heroism",
-      "[USNI News] Carrier USS Gerald R. Ford Operating in the Mediterranean Sea"
+      "[USNI News] Carrier USS Gerald R. Ford Operating in the Mediterranean Sea",
+      "[USNI News] Royal Navy Plans to Use Hybrid Fleet to Keep Pace with Russia in High North"
     ]
   },
   "ground_intel": {
@@ -956,12 +956,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-05-06T10:52:41.828184+00:00",
+    "last_successful_update": "2026-05-06T12:20:55.809912+00:00",
     "article_count": 50,
     "categorized_count": 24,
-    "freshest_source": "USNI News",
-    "freshest_title": "CNO: U.S. Naval Aviators Will No Longer Command Amphibious Warships",
-    "freshest_published": "Fri, 01 May 2026 21:29:36 +0000"
+    "freshest_source": "Task & Purpose",
+    "freshest_title": "US Army and Navy helicopters sink six Iranian small boats, commander says",
+    "freshest_published": "Mon, 04 May 2026 13:25:34 -0400"
   },
   "_firms_hotspots": []
 }
