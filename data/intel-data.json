@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-05-07T12:25:08Z",
-  "version": 1318,
+  "generated_utc": "2026-05-07T15:23:02Z",
+  "version": 1319,
   "breaking_alert": "Task & Purpose: US Army and Navy helicopters sink six Iranian small boats, commander says",
   "naval_deployments": [
     {
@@ -908,7 +908,7 @@
     "conflict_articles": 6,
     "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-05-07T12:25:05.180164+00:00",
+    "computed_at": "2026-05-07T15:23:00.349301+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Task & Purpose] US Army and Navy helicopters sink six Iranian small boats, commander says",
@@ -926,7 +926,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-05-07T12:25:05.180207+00:00",
+    "last_successful_update": "2026-05-07T15:23:00.349344+00:00",
     "article_count": 50,
     "categorized_count": 24,
     "freshest_source": "Task & Purpose",
