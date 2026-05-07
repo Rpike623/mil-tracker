@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-05-07T15:23:02Z",
-  "version": 1319,
+  "generated_utc": "2026-05-07T17:29:03Z",
+  "version": 1320,
   "breaking_alert": "Task & Purpose: US Army and Navy helicopters sink six Iranian small boats, commander says",
   "naval_deployments": [
     {
@@ -603,18 +603,36 @@
       ]
     },
     {
-      "title": "Carrier USS Gerald R. Ford Operating in the Mediterranean Sea",
-      "link": "https://news.usni.org/2026/05/04/carrier-uss-gerald-r-ford-operating-in-the-mediterranean-sea",
-      "published": "Mon, 04 May 2026 19:49:00 +0000",
+      "title": "Royal Navy Plans to Use Hybrid Fleet to Keep Pace with Russia in High North",
+      "link": "https://news.usni.org/2026/05/04/royal-navy-to-use-hybrid-fleet-to-keep-pace-with-russia-in-high-north",
+      "published": "Mon, 04 May 2026 19:56:12 +0000",
       "source": "USNI News",
       "categories": [
         "deployment"
       ]
     },
     {
-      "title": "Royal Navy Plans to Use Hybrid Fleet to Keep Pace with Russia in High North",
-      "link": "https://news.usni.org/2026/05/04/royal-navy-to-use-hybrid-fleet-to-keep-pace-with-russia-in-high-north",
-      "published": "Mon, 04 May 2026 19:56:12 +0000",
+      "title": "Pentagon turns to AI targeting to help troops shoot drones",
+      "link": "https://www.defensenews.com/industry/2026/05/07/pentagon-turns-to-ai-targeting-to-help-troops-shoot-drones/",
+      "published": "Thu, 07 May 2026 15:28:25 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Pentagon turns to AI targeting to help troops shoot drones",
+      "link": "https://www.militarytimes.com/industry/2026/05/07/pentagon-turns-to-ai-targeting-to-help-troops-shoot-drones/",
+      "published": "Thu, 07 May 2026 15:28:25 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "U.S. Tomahawk Hits Target 390 Miles Away in Land Test of New Launch System",
+      "link": "https://news.usni.org/2026/05/07/u-s-tomahawk-hits-target-390-miles-away-in-land-test-of-new-launch-system",
+      "published": "Thu, 07 May 2026 17:06:08 +0000",
       "source": "USNI News",
       "categories": [
         "deployment"
@@ -648,15 +666,6 @@
       ]
     },
     {
-      "title": "Pakistan’s first Chinese submarine set to boost naval capability",
-      "link": "https://www.defensenews.com/global/asia-pacific/2026/05/06/pakistans-first-chinese-submarine-set-to-boost-naval-capability/",
-      "published": "Wed, 06 May 2026 10:22:03 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Carrier USS Gerald R. Ford is Now in the Atlantic",
       "link": "https://news.usni.org/2026/05/06/carrier-uss-gerald-r-ford-is-now-in-the-atlantic",
       "published": "Wed, 06 May 2026 11:32:53 +0000",
@@ -670,15 +679,6 @@
       "link": "https://taskandpurpose.com/news/air-force-weapons-storage/",
       "published": "Wed, 06 May 2026 15:47:07 -0400",
       "source": "Task & Purpose",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "France moves carrier into Red Sea ahead of potential Hormuz mission",
-      "link": "https://www.defensenews.com/global/europe/2026/05/06/france-moves-carrier-into-red-sea-ahead-of-potential-hormuz-mission/",
-      "published": "Wed, 06 May 2026 16:20:21 +0000",
-      "source": "Defense News",
       "categories": [
         "deployment"
       ]
@@ -892,30 +892,21 @@
         "exercise",
         "conflict"
       ]
-    },
-    {
-      "title": "Turkish exercise sees Libya’s rival forces train together for second time within weeks",
-      "link": "https://www.defensenews.com/global/mideast-africa/2026/05/06/turkish-exercise-sees-libyas-rival-forces-train-together-for-second-time-within-weeks/",
-      "published": "Wed, 06 May 2026 12:26:49 +0000",
-      "source": "Defense News",
-      "categories": [
-        "exercise"
-      ]
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 18,
+    "deployment_articles": 19,
     "conflict_articles": 6,
-    "exercise_articles": 2,
+    "exercise_articles": 1,
     "total_articles": 50,
-    "computed_at": "2026-05-07T15:23:00.349301+00:00",
+    "computed_at": "2026-05-07T17:28:57.110441+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Task & Purpose] US Army and Navy helicopters sink six Iranian small boats, commander says",
       "[Task & Purpose] Guardsmen who reacted to November attack receive medals for heroism",
-      "[USNI News] Carrier USS Gerald R. Ford Operating in the Mediterranean Sea",
       "[USNI News] Royal Navy Plans to Use Hybrid Fleet to Keep Pace with Russia in High North",
-      "[Naval News] U.S. Army Island Hops Missile Launcher Near SCS at Balikatan"
+      "[Naval News] U.S. Army Island Hops Missile Launcher Near SCS at Balikatan",
+      "[Naval News] Japan fires Type 88 anti-ship missile in Philippine exercise"
     ]
   },
   "ground_intel": {
@@ -926,7 +917,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-05-07T15:23:00.349344+00:00",
+    "last_successful_update": "2026-05-07T17:28:57.110485+00:00",
     "article_count": 50,
     "categorized_count": 24,
     "freshest_source": "Task & Purpose",
