@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-05-07T08:08:36Z",
-  "version": 1316,
+  "generated_utc": "2026-05-07T10:56:52Z",
+  "version": 1317,
   "breaking_alert": "Task & Purpose: US Army and Navy helicopters sink six Iranian small boats, commander says",
   "naval_deployments": [
     {
@@ -854,10 +854,20 @@
       ]
     },
     {
-      "title": "US fires Tomahawk missile from Typhon launcher in Philippines for the first time",
-      "link": "https://www.navalnews.com/naval-news/2026/05/us-fires-tomahawk-missile-from-typhon-launcher-in-philippines-for-the-first-time/",
-      "published": "Tue, 05 May 2026 14:02:44 +0000",
+      "title": "Japan fires Type 88 anti-ship missile in Philippine exercise",
+      "link": "https://www.navalnews.com/naval-news/2026/05/japan-fires-type-88-anti-ship-missile-in-philippine-exercise/",
+      "published": "Thu, 07 May 2026 08:28:00 +0000",
       "source": "Naval News",
+      "categories": [
+        "exercise",
+        "conflict"
+      ]
+    },
+    {
+      "title": "Dueling Victory Day ceasefires for war in Ukraine collapse almost immediately",
+      "link": "https://www.defensenews.com/global/europe/2026/05/07/dueling-victory-day-ceasefires-for-war-in-ukraine-collapse-almost-immediately/",
+      "published": "Thu, 07 May 2026 09:18:05 +0000",
+      "source": "Defense News",
       "categories": [
         "conflict"
       ]
@@ -870,26 +880,17 @@
       "categories": [
         "conflict"
       ]
-    },
-    {
-      "title": "French Carrier Strike Group Transits Suez Amid Hormuz Tensions",
-      "link": "https://www.navalnews.com/naval-news/2026/05/french-carrier-strike-group-transits-suez-amid-hormuz-tensions/",
-      "published": "Wed, 06 May 2026 17:52:39 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
     }
   ],
   "_exercise_news_refs": [
     {
-      "title": "Policies needed to share AI-generated intel across NATO countries, official says",
-      "link": "https://www.defensenews.com/global/europe/2026/05/05/policies-needed-to-share-ai-generated-intel-across-nato-countries-official-says/",
-      "published": "Tue, 05 May 2026 18:20:22 +0000",
-      "source": "Defense News",
+      "title": "Japan fires Type 88 anti-ship missile in Philippine exercise",
+      "link": "https://www.navalnews.com/naval-news/2026/05/japan-fires-type-88-anti-ship-missile-in-philippine-exercise/",
+      "published": "Thu, 07 May 2026 08:28:00 +0000",
+      "source": "Naval News",
       "categories": [
-        "exercise"
+        "exercise",
+        "conflict"
       ]
     },
     {
@@ -904,10 +905,10 @@
   ],
   "_threat_indicators": {
     "deployment_articles": 19,
-    "conflict_articles": 5,
+    "conflict_articles": 6,
     "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-05-07T08:08:33.006774+00:00",
+    "computed_at": "2026-05-07T10:56:47.106529+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Task & Purpose] US Army and Navy helicopters sink six Iranian small boats, commander says",
@@ -925,7 +926,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-05-07T08:08:33.006823+00:00",
+    "last_successful_update": "2026-05-07T10:56:47.106572+00:00",
     "article_count": 50,
     "categorized_count": 25,
     "freshest_source": "Task & Purpose",
