@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-05-07T10:56:52Z",
-  "version": 1317,
+  "generated_utc": "2026-05-07T12:25:08Z",
+  "version": 1318,
   "breaking_alert": "Task & Purpose: US Army and Navy helicopters sink six Iranian small boats, commander says",
   "naval_deployments": [
     {
@@ -621,15 +621,6 @@
       ]
     },
     {
-      "title": "ASELSAN at SAHA 2026: Building a Global Benchmark in Unmanned Naval Warfare",
-      "link": "https://www.navalnews.com/naval-news/2026/05/aselsan-at-saha-2026-building-a-global-benchmark-in-unmanned-naval-warfare/",
-      "published": "Tue, 05 May 2026 16:41:59 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "U.S. Tests Using Drones to Track, Target Suspected Narco Boats",
       "link": "https://news.usni.org/2026/05/05/u-s-tests-using-drones-to-track-target-suspected-narco-boats",
       "published": "Tue, 05 May 2026 20:29:59 +0000",
@@ -679,6 +670,15 @@
       "link": "https://taskandpurpose.com/news/air-force-weapons-storage/",
       "published": "Wed, 06 May 2026 15:47:07 -0400",
       "source": "Task & Purpose",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "France moves carrier into Red Sea ahead of potential Hormuz mission",
+      "link": "https://www.defensenews.com/global/europe/2026/05/06/france-moves-carrier-into-red-sea-ahead-of-potential-hormuz-mission/",
+      "published": "Wed, 06 May 2026 16:20:21 +0000",
+      "source": "Defense News",
       "categories": [
         "deployment"
       ]
@@ -904,11 +904,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 19,
+    "deployment_articles": 18,
     "conflict_articles": 6,
     "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-05-07T10:56:47.106529+00:00",
+    "computed_at": "2026-05-07T12:25:05.180164+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Task & Purpose] US Army and Navy helicopters sink six Iranian small boats, commander says",
@@ -926,9 +926,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-05-07T10:56:47.106572+00:00",
+    "last_successful_update": "2026-05-07T12:25:05.180207+00:00",
     "article_count": 50,
-    "categorized_count": 25,
+    "categorized_count": 24,
     "freshest_source": "Task & Purpose",
     "freshest_title": "US Army and Navy helicopters sink six Iranian small boats, commander says",
     "freshest_published": "Mon, 04 May 2026 13:25:34 -0400"
