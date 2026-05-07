@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-05-07T05:19:17Z",
-  "version": 1315,
+  "generated_utc": "2026-05-07T08:08:36Z",
+  "version": 1316,
   "breaking_alert": "Task & Purpose: US Army and Navy helicopters sink six Iranian small boats, commander says",
   "naval_deployments": [
     {
@@ -845,6 +845,15 @@
       ]
     },
     {
+      "title": "U.S. Army Island Hops Missile Launcher Near SCS at Balikatan",
+      "link": "https://www.navalnews.com/naval-news/2026/05/u-s-army-island-hops-missile-launcher-near-scs-at-balikatan/",
+      "published": "Thu, 07 May 2026 06:15:42 +0000",
+      "source": "Naval News",
+      "categories": [
+        "conflict"
+      ]
+    },
+    {
       "title": "US fires Tomahawk missile from Typhon launcher in Philippines for the first time",
       "link": "https://www.navalnews.com/naval-news/2026/05/us-fires-tomahawk-missile-from-typhon-launcher-in-philippines-for-the-first-time/",
       "published": "Tue, 05 May 2026 14:02:44 +0000",
@@ -875,15 +884,6 @@
   ],
   "_exercise_news_refs": [
     {
-      "title": "Chinese Navy, Anti-Ship Bombers Stage Against Balikatan Drills",
-      "link": "https://www.navalnews.com/naval-news/2026/05/chinese-navy-anti-ship-bombers-stage-against-balikatan-drills/",
-      "published": "Tue, 05 May 2026 05:28:00 +0000",
-      "source": "Naval News",
-      "categories": [
-        "exercise"
-      ]
-    },
-    {
       "title": "Policies needed to share AI-generated intel across NATO countries, official says",
       "link": "https://www.defensenews.com/global/europe/2026/05/05/policies-needed-to-share-ai-generated-intel-across-nato-countries-official-says/",
       "published": "Tue, 05 May 2026 18:20:22 +0000",
@@ -904,17 +904,17 @@
   ],
   "_threat_indicators": {
     "deployment_articles": 19,
-    "conflict_articles": 4,
-    "exercise_articles": 3,
+    "conflict_articles": 5,
+    "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-05-07T05:19:13.529413+00:00",
+    "computed_at": "2026-05-07T08:08:33.006774+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Task & Purpose] US Army and Navy helicopters sink six Iranian small boats, commander says",
       "[Task & Purpose] Guardsmen who reacted to November attack receive medals for heroism",
       "[USNI News] Carrier USS Gerald R. Ford Operating in the Mediterranean Sea",
       "[USNI News] Royal Navy Plans to Use Hybrid Fleet to Keep Pace with Russia in High North",
-      "[Naval News] Chinese Navy, Anti-Ship Bombers Stage Against Balikatan Drills"
+      "[Naval News] U.S. Army Island Hops Missile Launcher Near SCS at Balikatan"
     ]
   },
   "ground_intel": {
@@ -925,7 +925,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-05-07T05:19:13.529456+00:00",
+    "last_successful_update": "2026-05-07T08:08:33.006823+00:00",
     "article_count": 50,
     "categorized_count": 25,
     "freshest_source": "Task & Purpose",
