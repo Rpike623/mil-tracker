@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-05-06T23:38:20Z",
-  "version": 1313,
+  "generated_utc": "2026-05-07T01:29:17Z",
+  "version": 1314,
   "breaking_alert": "Task & Purpose: US Army and Navy helicopters sink six Iranian small boats, commander says",
   "naval_deployments": [
     {
@@ -675,7 +675,7 @@
       ]
     },
     {
-      "title": "Air Force transit hub stored weapons shipments in unguarded building, IG finds",
+      "title": "Air Force cargo hub stored weapons in unguarded building, IG finds",
       "link": "https://taskandpurpose.com/news/air-force-weapons-storage/",
       "published": "Wed, 06 May 2026 15:47:07 -0400",
       "source": "Task & Purpose",
@@ -907,7 +907,7 @@
     "conflict_articles": 4,
     "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-05-06T23:38:14.719280+00:00",
+    "computed_at": "2026-05-07T01:29:13.283373+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Task & Purpose] US Army and Navy helicopters sink six Iranian small boats, commander says",
@@ -925,7 +925,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-05-06T23:38:14.719322+00:00",
+    "last_successful_update": "2026-05-07T01:29:13.283415+00:00",
     "article_count": 50,
     "categorized_count": 25,
     "freshest_source": "Task & Purpose",
