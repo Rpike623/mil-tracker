@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-05-07T17:29:03Z",
-  "version": 1320,
+  "generated_utc": "2026-05-07T19:21:17Z",
+  "version": 1321,
   "breaking_alert": "Task & Purpose: US Army and Navy helicopters sink six Iranian small boats, commander says",
   "naval_deployments": [
     {
@@ -603,15 +603,6 @@
       ]
     },
     {
-      "title": "Royal Navy Plans to Use Hybrid Fleet to Keep Pace with Russia in High North",
-      "link": "https://news.usni.org/2026/05/04/royal-navy-to-use-hybrid-fleet-to-keep-pace-with-russia-in-high-north",
-      "published": "Mon, 04 May 2026 19:56:12 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Pentagon turns to AI targeting to help troops shoot drones",
       "link": "https://www.defensenews.com/industry/2026/05/07/pentagon-turns-to-ai-targeting-to-help-troops-shoot-drones/",
       "published": "Thu, 07 May 2026 15:28:25 +0000",
@@ -639,19 +630,29 @@
       ]
     },
     {
-      "title": "U.S. Tests Using Drones to Track, Target Suspected Narco Boats",
-      "link": "https://news.usni.org/2026/05/05/u-s-tests-using-drones-to-track-target-suspected-narco-boats",
-      "published": "Tue, 05 May 2026 20:29:59 +0000",
+      "title": "French Carrier Strike Group Now Operating in the Middle East",
+      "link": "https://news.usni.org/2026/05/07/french-carrier-strike-group-now-operating-in-the-middle-east",
+      "published": "Thu, 07 May 2026 18:45:17 +0000",
       "source": "USNI News",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
+    },
+    {
+      "title": "Naples naval installation verifies presence of radon in buildings",
+      "link": "https://www.militarytimes.com/news/your-navy/2026/05/07/naples-naval-installation-verifies-presence-of-radon-in-buildings/",
+      "published": "Thu, 07 May 2026 18:50:47 +0000",
+      "source": "Military Times",
       "categories": [
         "deployment"
       ]
     },
     {
-      "title": "Japan, Philippines Launch Working Group on Transfer of Abukuma-class Destroyer Escorts",
-      "link": "https://www.navalnews.com/naval-news/2026/05/japan-philippines-launch-working-group-on-transfer-of-abukuma-class-destroyer-escorts/",
-      "published": "Wed, 06 May 2026 07:20:50 +0000",
-      "source": "Naval News",
+      "title": "U.S. Tests Using Drones to Track, Target Suspected Narco Boats",
+      "link": "https://news.usni.org/2026/05/05/u-s-tests-using-drones-to-track-target-suspected-narco-boats",
+      "published": "Tue, 05 May 2026 20:29:59 +0000",
+      "source": "USNI News",
       "categories": [
         "deployment"
       ]
@@ -873,11 +874,12 @@
       ]
     },
     {
-      "title": "UPDATED: U.S. Strikes in Caribbean, Eastern Pacific Kill 5",
-      "link": "https://news.usni.org/2026/05/05/u-s-forces-kill-2-in-caribbean-strike-against-suspected-narco-boat",
-      "published": "Tue, 05 May 2026 16:19:57 +0000",
+      "title": "French Carrier Strike Group Now Operating in the Middle East",
+      "link": "https://news.usni.org/2026/05/07/french-carrier-strike-group-now-operating-in-the-middle-east",
+      "published": "Thu, 07 May 2026 18:45:17 +0000",
       "source": "USNI News",
       "categories": [
+        "deployment",
         "conflict"
       ]
     }
@@ -895,18 +897,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 19,
-    "conflict_articles": 6,
+    "deployment_articles": 18,
+    "conflict_articles": 7,
     "exercise_articles": 1,
     "total_articles": 50,
-    "computed_at": "2026-05-07T17:28:57.110441+00:00",
+    "computed_at": "2026-05-07T19:21:14.712303+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Task & Purpose] US Army and Navy helicopters sink six Iranian small boats, commander says",
       "[Task & Purpose] Guardsmen who reacted to November attack receive medals for heroism",
-      "[USNI News] Royal Navy Plans to Use Hybrid Fleet to Keep Pace with Russia in High North",
       "[Naval News] U.S. Army Island Hops Missile Launcher Near SCS at Balikatan",
-      "[Naval News] Japan fires Type 88 anti-ship missile in Philippine exercise"
+      "[Naval News] Japan fires Type 88 anti-ship missile in Philippine exercise",
+      "[Defense News] Dueling Victory Day ceasefires for war in Ukraine collapse almost immediately"
     ]
   },
   "ground_intel": {
@@ -917,9 +919,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-05-07T17:28:57.110485+00:00",
+    "last_successful_update": "2026-05-07T19:21:14.712346+00:00",
     "article_count": 50,
-    "categorized_count": 24,
+    "categorized_count": 23,
     "freshest_source": "Task & Purpose",
     "freshest_title": "US Army and Navy helicopters sink six Iranian small boats, commander says",
     "freshest_published": "Mon, 04 May 2026 13:25:34 -0400"
