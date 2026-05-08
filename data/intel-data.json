@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-05-08T14:28:11Z",
-  "version": 1332,
+  "generated_utc": "2026-05-08T16:06:14Z",
+  "version": 1333,
   "breaking_alert": "Naval News: Taiwan‘s New Submarine Launches MK 48 Torpedo for the First Time",
   "naval_deployments": [
     {
@@ -603,6 +603,15 @@
       ]
     },
     {
+      "title": "Japan-based Carrier Air Wing 5 Begins Training Ahead of Next Patrol",
+      "link": "https://news.usni.org/2026/05/08/japan-based-carrier-air-wing-5-begins-training-ahead-of-next-patrol",
+      "published": "Fri, 08 May 2026 15:04:28 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "Pentagon turns to AI targeting to help troops shoot drones",
       "link": "https://www.defensenews.com/industry/2026/05/07/pentagon-turns-to-ai-targeting-to-help-troops-shoot-drones/",
       "published": "Thu, 07 May 2026 15:28:25 +0000",
@@ -628,15 +637,6 @@
       "categories": [
         "deployment",
         "conflict"
-      ]
-    },
-    {
-      "title": "Naples naval installation verifies presence of radon in buildings",
-      "link": "https://www.militarytimes.com/news/your-navy/2026/05/07/naples-naval-installation-verifies-presence-of-radon-in-buildings/",
-      "published": "Thu, 07 May 2026 18:50:47 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment"
       ]
     },
     {
@@ -897,18 +897,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 12,
-    "conflict_articles": 6,
+    "deployment_articles": 11,
+    "conflict_articles": 5,
     "exercise_articles": 1,
     "total_articles": 50,
-    "computed_at": "2026-05-08T14:28:08.941729+00:00",
+    "computed_at": "2026-05-08T16:06:12.135752+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] Taiwan‘s New Submarine Launches MK 48 Torpedo for the First Time",
       "[Defense News] Turkey touts propellant breakthrough for Yıldırımhan long-range ballistic missile",
+      "[USNI News] Japan-based Carrier Air Wing 5 Begins Training Ahead of Next Patrol",
       "[Task & Purpose] Guardsmen who reacted to November attack receive medals for heroism",
-      "[Naval News] Japan fires Type 88 anti-ship missile in Philippine exercise",
-      "[Defense News] Dueling Victory Day ceasefires for war in Ukraine collapse almost immediately"
+      "[Naval News] Japan fires Type 88 anti-ship missile in Philippine exercise"
     ]
   },
   "ground_intel": {
@@ -919,9 +919,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-05-08T14:28:08.941772+00:00",
+    "last_successful_update": "2026-05-08T16:06:12.135799+00:00",
     "article_count": 50,
-    "categorized_count": 17,
+    "categorized_count": 15,
     "freshest_source": "Naval News",
     "freshest_title": "Taiwan‘s New Submarine Launches MK 48 Torpedo for the First Time",
     "freshest_published": "Fri, 08 May 2026 05:28:00 +0000"
