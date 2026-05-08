@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-05-08T16:06:14Z",
-  "version": 1333,
+  "generated_utc": "2026-05-08T18:01:59Z",
+  "version": 1334,
   "breaking_alert": "Naval News: Taiwan‘s New Submarine Launches MK 48 Torpedo for the First Time",
   "naval_deployments": [
     {
@@ -612,6 +612,24 @@
       ]
     },
     {
+      "title": "US forces disable Iranian-flagged tankers trying to cross blockade",
+      "link": "https://www.defensenews.com/news/your-navy/2026/05/08/us-forces-disable-iranian-flagged-tankers-trying-to-cross-blockade/",
+      "published": "Fri, 08 May 2026 16:28:20 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "US forces disable Iranian-flagged tankers trying to cross blockade",
+      "link": "https://www.militarytimes.com/news/your-navy/2026/05/08/us-forces-disable-iranian-flagged-tankers-trying-to-cross-blockade/",
+      "published": "Fri, 08 May 2026 16:28:20 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "Pentagon turns to AI targeting to help troops shoot drones",
       "link": "https://www.defensenews.com/industry/2026/05/07/pentagon-turns-to-ai-targeting-to-help-troops-shoot-drones/",
       "published": "Thu, 07 May 2026 15:28:25 +0000",
@@ -662,24 +680,6 @@
       "link": "https://news.usni.org/2026/05/05/u-s-tests-using-drones-to-track-target-suspected-narco-boats",
       "published": "Tue, 05 May 2026 20:29:59 +0000",
       "source": "USNI News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Carrier USS Gerald R. Ford is Now in the Atlantic",
-      "link": "https://news.usni.org/2026/05/06/carrier-uss-gerald-r-ford-is-now-in-the-atlantic",
-      "published": "Wed, 06 May 2026 11:32:53 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Air Force cargo hub stored weapons in unguarded building, IG finds",
-      "link": "https://taskandpurpose.com/news/air-force-weapons-storage/",
-      "published": "Wed, 06 May 2026 15:47:07 -0400",
-      "source": "Task & Purpose",
       "categories": [
         "deployment"
       ]
@@ -846,30 +846,12 @@
       ]
     },
     {
-      "title": "Guardsmen who reacted to November attack receive medals for heroism",
-      "link": "https://taskandpurpose.com/news/west-virginia-national-guard-soldiers-airmans-medal/",
-      "published": "Mon, 04 May 2026 17:04:53 -0400",
-      "source": "Task & Purpose",
-      "categories": [
-        "conflict"
-      ]
-    },
-    {
       "title": "Japan fires Type 88 anti-ship missile in Philippine exercise",
       "link": "https://www.navalnews.com/naval-news/2026/05/japan-fires-type-88-anti-ship-missile-in-philippine-exercise/",
       "published": "Thu, 07 May 2026 08:28:00 +0000",
       "source": "Naval News",
       "categories": [
         "exercise",
-        "conflict"
-      ]
-    },
-    {
-      "title": "Dueling Victory Day ceasefires for war in Ukraine collapse almost immediately",
-      "link": "https://www.defensenews.com/global/europe/2026/05/07/dueling-victory-day-ceasefires-for-war-in-ukraine-collapse-almost-immediately/",
-      "published": "Thu, 07 May 2026 09:18:05 +0000",
-      "source": "Defense News",
-      "categories": [
         "conflict"
       ]
     },
@@ -897,18 +879,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 11,
-    "conflict_articles": 5,
+    "deployment_articles": 13,
+    "conflict_articles": 3,
     "exercise_articles": 1,
     "total_articles": 50,
-    "computed_at": "2026-05-08T16:06:12.135752+00:00",
+    "computed_at": "2026-05-08T18:01:49.999176+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] Taiwan‘s New Submarine Launches MK 48 Torpedo for the First Time",
       "[Defense News] Turkey touts propellant breakthrough for Yıldırımhan long-range ballistic missile",
       "[USNI News] Japan-based Carrier Air Wing 5 Begins Training Ahead of Next Patrol",
-      "[Task & Purpose] Guardsmen who reacted to November attack receive medals for heroism",
-      "[Naval News] Japan fires Type 88 anti-ship missile in Philippine exercise"
+      "[Defense News] US forces disable Iranian-flagged tankers trying to cross blockade",
+      "[Military Times] US forces disable Iranian-flagged tankers trying to cross blockade"
     ]
   },
   "ground_intel": {
@@ -919,7 +901,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-05-08T16:06:12.135799+00:00",
+    "last_successful_update": "2026-05-08T18:01:49.999211+00:00",
     "article_count": 50,
     "categorized_count": 15,
     "freshest_source": "Naval News",
