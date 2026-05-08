@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-05-07T23:41:14Z",
-  "version": 1325,
+  "generated_utc": "2026-05-08T01:45:31Z",
+  "version": 1326,
   "breaking_alert": "Task & Purpose: Guardsmen who reacted to November attack receive medals for heroism",
   "naval_deployments": [
     {
@@ -603,15 +603,6 @@
       ]
     },
     {
-      "title": "Pentagon turns to AI targeting to help troops shoot drones",
-      "link": "https://www.militarytimes.com/industry/2026/05/07/pentagon-turns-to-ai-targeting-to-help-troops-shoot-drones/",
-      "published": "Thu, 07 May 2026 15:28:25 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "U.S. Tomahawk Hits Target 390 Miles Away in Land Test of New Launch System",
       "link": "https://news.usni.org/2026/05/07/u-s-tomahawk-hits-target-390-miles-away-in-land-test-of-new-launch-system",
       "published": "Thu, 07 May 2026 17:06:08 +0000",
@@ -634,6 +625,24 @@
       "title": "Naples naval installation verifies presence of radon in buildings",
       "link": "https://www.militarytimes.com/news/your-navy/2026/05/07/naples-naval-installation-verifies-presence-of-radon-in-buildings/",
       "published": "Thu, 07 May 2026 18:50:47 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "US and Iran exchange fire as Trump says war will ‘be over quickly’",
+      "link": "https://www.defensenews.com/news/your-navy/2026/05/07/us-and-iran-exchange-fire-as-trump-says-war-will-be-over-quickly/",
+      "published": "Thu, 07 May 2026 23:49:00 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "US and Iran exchange fire as Trump says war will ‘be over quickly’",
+      "link": "https://www.militarytimes.com/news/your-navy/2026/05/07/us-and-iran-exchange-fire-as-trump-says-war-will-be-over-quickly/",
+      "published": "Thu, 07 May 2026 23:49:00 +0000",
       "source": "Military Times",
       "categories": [
         "deployment"
@@ -671,15 +680,6 @@
       "link": "https://taskandpurpose.com/news/air-force-weapons-storage/",
       "published": "Wed, 06 May 2026 15:47:07 -0400",
       "source": "Task & Purpose",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "France moves carrier into Red Sea ahead of potential Hormuz mission",
-      "link": "https://www.defensenews.com/global/europe/2026/05/06/france-moves-carrier-into-red-sea-ahead-of-potential-hormuz-mission/",
-      "published": "Wed, 06 May 2026 16:20:21 +0000",
-      "source": "Defense News",
       "categories": [
         "deployment"
       ]
@@ -901,7 +901,7 @@
     "conflict_articles": 7,
     "exercise_articles": 1,
     "total_articles": 50,
-    "computed_at": "2026-05-07T23:41:08.731697+00:00",
+    "computed_at": "2026-05-08T01:45:28.311461+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Task & Purpose] Guardsmen who reacted to November attack receive medals for heroism",
@@ -919,7 +919,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-05-07T23:41:08.731735+00:00",
+    "last_successful_update": "2026-05-08T01:45:28.311498+00:00",
     "article_count": 50,
     "categorized_count": 19,
     "freshest_source": "Task & Purpose",
