@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-05-08T04:45:08Z",
-  "version": 1327,
-  "breaking_alert": "Task & Purpose: Guardsmen who reacted to November attack receive medals for heroism",
+  "generated_utc": "2026-05-08T06:25:51Z",
+  "version": 1328,
+  "breaking_alert": "Naval News: Taiwan‘s New Submarine Launches MK 48 Torpedo for the First Time",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -594,6 +594,15 @@
   ],
   "_naval_news_refs": [
     {
+      "title": "Taiwan‘s New Submarine Launches MK 48 Torpedo for the First Time",
+      "link": "https://www.navalnews.com/naval-news/2026/05/taiwans-new-submarine-launches-mk-48-torpedo-for-the-first-time/",
+      "published": "Fri, 08 May 2026 05:28:00 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "Pentagon turns to AI targeting to help troops shoot drones",
       "link": "https://www.defensenews.com/industry/2026/05/07/pentagon-turns-to-ai-targeting-to-help-troops-shoot-drones/",
       "published": "Thu, 07 May 2026 15:28:25 +0000",
@@ -653,15 +662,6 @@
       "link": "https://news.usni.org/2026/05/05/u-s-tests-using-drones-to-track-target-suspected-narco-boats",
       "published": "Tue, 05 May 2026 20:29:59 +0000",
       "source": "USNI News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "New Details Of Russia’s Super-Weapon Submarine ‘Khabarovsk’",
-      "link": "https://www.navalnews.com/naval-news/2026/05/new-details-of-russias-super-weapon-submarine-khabarovsk/",
-      "published": "Wed, 06 May 2026 08:29:00 +0000",
-      "source": "Naval News",
       "categories": [
         "deployment"
       ]
@@ -901,14 +901,14 @@
     "conflict_articles": 7,
     "exercise_articles": 1,
     "total_articles": 50,
-    "computed_at": "2026-05-08T04:45:05.198438+00:00",
+    "computed_at": "2026-05-08T06:25:45.499079+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
+      "[Naval News] Taiwan‘s New Submarine Launches MK 48 Torpedo for the First Time",
       "[Task & Purpose] Guardsmen who reacted to November attack receive medals for heroism",
       "[Naval News] U.S. Army Island Hops Missile Launcher Near SCS at Balikatan",
       "[Naval News] Japan fires Type 88 anti-ship missile in Philippine exercise",
-      "[Defense News] Dueling Victory Day ceasefires for war in Ukraine collapse almost immediately",
-      "[Defense News] Pentagon turns to AI targeting to help troops shoot drones"
+      "[Defense News] Dueling Victory Day ceasefires for war in Ukraine collapse almost immediately"
     ]
   },
   "ground_intel": {
@@ -919,12 +919,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-05-08T04:45:05.198474+00:00",
+    "last_successful_update": "2026-05-08T06:25:45.499116+00:00",
     "article_count": 50,
     "categorized_count": 19,
-    "freshest_source": "Task & Purpose",
-    "freshest_title": "Guardsmen who reacted to November attack receive medals for heroism",
-    "freshest_published": "Mon, 04 May 2026 17:04:53 -0400"
+    "freshest_source": "Naval News",
+    "freshest_title": "Taiwan‘s New Submarine Launches MK 48 Torpedo for the First Time",
+    "freshest_published": "Fri, 08 May 2026 05:28:00 +0000"
   },
   "_firms_hotspots": []
 }
