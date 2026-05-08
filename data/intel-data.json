@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-05-08T01:45:31Z",
-  "version": 1326,
+  "generated_utc": "2026-05-08T04:45:08Z",
+  "version": 1327,
   "breaking_alert": "Task & Purpose: Guardsmen who reacted to November attack receive medals for heroism",
   "naval_deployments": [
     {
@@ -901,7 +901,7 @@
     "conflict_articles": 7,
     "exercise_articles": 1,
     "total_articles": 50,
-    "computed_at": "2026-05-08T01:45:28.311461+00:00",
+    "computed_at": "2026-05-08T04:45:05.198438+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Task & Purpose] Guardsmen who reacted to November attack receive medals for heroism",
@@ -919,7 +919,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-05-08T01:45:28.311498+00:00",
+    "last_successful_update": "2026-05-08T04:45:05.198474+00:00",
     "article_count": 50,
     "categorized_count": 19,
     "freshest_source": "Task & Purpose",
