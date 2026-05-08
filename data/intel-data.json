@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-05-08T18:01:59Z",
-  "version": 1334,
+  "generated_utc": "2026-05-08T20:01:21Z",
+  "version": 1335,
   "breaking_alert": "Naval News: Taiwan‘s New Submarine Launches MK 48 Torpedo for the First Time",
   "naval_deployments": [
     {
@@ -630,10 +630,19 @@
       ]
     },
     {
-      "title": "Pentagon turns to AI targeting to help troops shoot drones",
-      "link": "https://www.defensenews.com/industry/2026/05/07/pentagon-turns-to-ai-targeting-to-help-troops-shoot-drones/",
-      "published": "Thu, 07 May 2026 15:28:25 +0000",
-      "source": "Defense News",
+      "title": "Strait of Hormuz Shipping in State of Confusion as Industry Watches U.S., Iranian Actions",
+      "link": "https://news.usni.org/2026/05/08/strait-of-hormuz-shipping-in-state-of-confusion-as-industry-watches-u-s-iranian-actions",
+      "published": "Fri, 08 May 2026 19:21:28 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Future Aircraft Carrier Doris Miller Delayed by 2 Years",
+      "link": "https://news.usni.org/2026/05/08/future-aircraft-carrier-doris-miller-delayed-by-2-years",
+      "published": "Fri, 08 May 2026 19:21:39 +0000",
+      "source": "USNI News",
       "categories": [
         "deployment"
       ]
@@ -671,15 +680,6 @@
       "link": "https://www.militarytimes.com/news/your-navy/2026/05/07/us-and-iran-exchange-fire-as-trump-says-war-will-be-over-quickly/",
       "published": "Thu, 07 May 2026 23:49:00 +0000",
       "source": "Military Times",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "U.S. Tests Using Drones to Track, Target Suspected Narco Boats",
-      "link": "https://news.usni.org/2026/05/05/u-s-tests-using-drones-to-track-target-suspected-narco-boats",
-      "published": "Tue, 05 May 2026 20:29:59 +0000",
-      "source": "USNI News",
       "categories": [
         "deployment"
       ]
@@ -883,7 +883,7 @@
     "conflict_articles": 3,
     "exercise_articles": 1,
     "total_articles": 50,
-    "computed_at": "2026-05-08T18:01:49.999176+00:00",
+    "computed_at": "2026-05-08T20:01:19.370101+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] Taiwan‘s New Submarine Launches MK 48 Torpedo for the First Time",
@@ -901,7 +901,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-05-08T18:01:49.999211+00:00",
+    "last_successful_update": "2026-05-08T20:01:19.370159+00:00",
     "article_count": 50,
     "categorized_count": 15,
     "freshest_source": "Naval News",
