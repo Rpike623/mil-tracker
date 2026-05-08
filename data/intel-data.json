@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-05-08T10:13:47Z",
-  "version": 1330,
+  "generated_utc": "2026-05-08T12:02:19Z",
+  "version": 1331,
   "breaking_alert": "Naval News: Taiwan‘s New Submarine Launches MK 48 Torpedo for the First Time",
   "naval_deployments": [
     {
@@ -837,19 +837,19 @@
   },
   "_conflict_news_refs": [
     {
-      "title": "Guardsmen who reacted to November attack receive medals for heroism",
-      "link": "https://taskandpurpose.com/news/west-virginia-national-guard-soldiers-airmans-medal/",
-      "published": "Mon, 04 May 2026 17:04:53 -0400",
-      "source": "Task & Purpose",
+      "title": "Turkey touts propellant breakthrough for Yıldırımhan long-range ballistic missile",
+      "link": "https://www.defensenews.com/global/europe/2026/05/08/turkey-touts-propellant-breakthrough-for-yildirimhan-long-range-ballistic-missile/",
+      "published": "Fri, 08 May 2026 11:14:37 +0000",
+      "source": "Defense News",
       "categories": [
         "conflict"
       ]
     },
     {
-      "title": "U.S. Army Island Hops Missile Launcher Near SCS at Balikatan",
-      "link": "https://www.navalnews.com/naval-news/2026/05/u-s-army-island-hops-missile-launcher-near-scs-at-balikatan/",
-      "published": "Thu, 07 May 2026 06:15:42 +0000",
-      "source": "Naval News",
+      "title": "Guardsmen who reacted to November attack receive medals for heroism",
+      "link": "https://taskandpurpose.com/news/west-virginia-national-guard-soldiers-airmans-medal/",
+      "published": "Mon, 04 May 2026 17:04:53 -0400",
+      "source": "Task & Purpose",
       "categories": [
         "conflict"
       ]
@@ -901,12 +901,12 @@
     "conflict_articles": 6,
     "exercise_articles": 1,
     "total_articles": 50,
-    "computed_at": "2026-05-08T10:13:44.742063+00:00",
+    "computed_at": "2026-05-08T12:02:16.744823+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] Taiwan‘s New Submarine Launches MK 48 Torpedo for the First Time",
+      "[Defense News] Turkey touts propellant breakthrough for Yıldırımhan long-range ballistic missile",
       "[Task & Purpose] Guardsmen who reacted to November attack receive medals for heroism",
-      "[Naval News] U.S. Army Island Hops Missile Launcher Near SCS at Balikatan",
       "[Naval News] Japan fires Type 88 anti-ship missile in Philippine exercise",
       "[Defense News] Dueling Victory Day ceasefires for war in Ukraine collapse almost immediately"
     ]
@@ -919,7 +919,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-05-08T10:13:44.742106+00:00",
+    "last_successful_update": "2026-05-08T12:02:16.744872+00:00",
     "article_count": 50,
     "categorized_count": 18,
     "freshest_source": "Naval News",
