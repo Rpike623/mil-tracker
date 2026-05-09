@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-05-09T07:03:58Z",
-  "version": 1341,
+  "generated_utc": "2026-05-09T09:04:34Z",
+  "version": 1342,
   "breaking_alert": "Naval News: Taiwan‘s New Submarine Launches MK 48 Torpedo for the First Time",
   "naval_deployments": [
     {
@@ -657,6 +657,15 @@
       ]
     },
     {
+      "title": "Rheinmetall Plans to Acquire German Naval Yards Kiel",
+      "link": "https://www.navalnews.com/naval-news/2026/05/rheinmetall-plans-to-acquire-german-naval-yards-kiel/",
+      "published": "Sat, 09 May 2026 08:28:00 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "U.S. Tomahawk Hits Target 390 Miles Away in Land Test of New Launch System",
       "link": "https://news.usni.org/2026/05/07/u-s-tomahawk-hits-target-390-miles-away-in-land-test-of-new-launch-system",
       "published": "Thu, 07 May 2026 17:06:08 +0000",
@@ -673,15 +682,6 @@
       "categories": [
         "deployment",
         "conflict"
-      ]
-    },
-    {
-      "title": "US and Iran exchange fire as Trump says war will ‘be over quickly’",
-      "link": "https://www.defensenews.com/news/your-navy/2026/05/07/us-and-iran-exchange-fire-as-trump-says-war-will-be-over-quickly/",
-      "published": "Thu, 07 May 2026 23:49:00 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment"
       ]
     }
   ],
@@ -864,16 +864,6 @@
       ]
     },
     {
-      "title": "Japan fires Type 88 anti-ship missile in Philippine exercise",
-      "link": "https://www.navalnews.com/naval-news/2026/05/japan-fires-type-88-anti-ship-missile-in-philippine-exercise/",
-      "published": "Thu, 07 May 2026 08:28:00 +0000",
-      "source": "Naval News",
-      "categories": [
-        "exercise",
-        "conflict"
-      ]
-    },
-    {
       "title": "French Carrier Strike Group Now Operating in the Middle East",
       "link": "https://news.usni.org/2026/05/07/french-carrier-strike-group-now-operating-in-the-middle-east",
       "published": "Thu, 07 May 2026 18:45:17 +0000",
@@ -884,24 +874,13 @@
       ]
     }
   ],
-  "_exercise_news_refs": [
-    {
-      "title": "Japan fires Type 88 anti-ship missile in Philippine exercise",
-      "link": "https://www.navalnews.com/naval-news/2026/05/japan-fires-type-88-anti-ship-missile-in-philippine-exercise/",
-      "published": "Thu, 07 May 2026 08:28:00 +0000",
-      "source": "Naval News",
-      "categories": [
-        "exercise",
-        "conflict"
-      ]
-    }
-  ],
+  "_exercise_news_refs": [],
   "_threat_indicators": {
-    "deployment_articles": 12,
-    "conflict_articles": 5,
-    "exercise_articles": 1,
+    "deployment_articles": 13,
+    "conflict_articles": 4,
+    "exercise_articles": 0,
     "total_articles": 50,
-    "computed_at": "2026-05-09T07:03:52.693384+00:00",
+    "computed_at": "2026-05-09T09:04:32.815472+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] Taiwan‘s New Submarine Launches MK 48 Torpedo for the First Time",
@@ -919,7 +898,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-05-09T07:03:52.693430+00:00",
+    "last_successful_update": "2026-05-09T09:04:32.815515+00:00",
     "article_count": 50,
     "categorized_count": 16,
     "freshest_source": "Naval News",
