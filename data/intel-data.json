@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-05-09T04:57:39Z",
-  "version": 1340,
+  "generated_utc": "2026-05-09T07:03:58Z",
+  "version": 1341,
   "breaking_alert": "Naval News: Taiwan‘s New Submarine Launches MK 48 Torpedo for the First Time",
   "naval_deployments": [
     {
@@ -648,6 +648,15 @@
       ]
     },
     {
+      "title": "Vietnam Slated to Order BrahMos and Naval Vessels from India",
+      "link": "https://www.navalnews.com/naval-news/2026/05/vietnam-slated-to-order-brahmos-and-naval-vessels-from-india/",
+      "published": "Sat, 09 May 2026 05:28:00 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "U.S. Tomahawk Hits Target 390 Miles Away in Land Test of New Launch System",
       "link": "https://news.usni.org/2026/05/07/u-s-tomahawk-hits-target-390-miles-away-in-land-test-of-new-launch-system",
       "published": "Thu, 07 May 2026 17:06:08 +0000",
@@ -671,15 +680,6 @@
       "link": "https://www.defensenews.com/news/your-navy/2026/05/07/us-and-iran-exchange-fire-as-trump-says-war-will-be-over-quickly/",
       "published": "Thu, 07 May 2026 23:49:00 +0000",
       "source": "Defense News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Air Force cargo hub stored weapons in unguarded building, IG finds",
-      "link": "https://taskandpurpose.com/news/air-force-weapons-storage/",
-      "published": "Wed, 06 May 2026 15:47:07 -0400",
-      "source": "Task & Purpose",
       "categories": [
         "deployment"
       ]
@@ -897,11 +897,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 11,
+    "deployment_articles": 12,
     "conflict_articles": 5,
     "exercise_articles": 1,
     "total_articles": 50,
-    "computed_at": "2026-05-09T04:57:34.094137+00:00",
+    "computed_at": "2026-05-09T07:03:52.693384+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] Taiwan‘s New Submarine Launches MK 48 Torpedo for the First Time",
@@ -919,9 +919,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-05-09T04:57:34.094182+00:00",
+    "last_successful_update": "2026-05-09T07:03:52.693430+00:00",
     "article_count": 50,
-    "categorized_count": 15,
+    "categorized_count": 16,
     "freshest_source": "Naval News",
     "freshest_title": "Taiwan‘s New Submarine Launches MK 48 Torpedo for the First Time",
     "freshest_published": "Fri, 08 May 2026 05:28:00 +0000"
