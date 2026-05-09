@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-05-09T16:38:08Z",
-  "version": 1348,
+  "generated_utc": "2026-05-09T17:39:13Z",
+  "version": 1349,
   "breaking_alert": "Naval News: Taiwan‘s New Submarine Launches MK 48 Torpedo for the First Time",
   "naval_deployments": [
     {
@@ -864,6 +864,15 @@
       ]
     },
     {
+      "title": "DATUM Introduces Strike-Capable Sinarit XLUUV",
+      "link": "https://www.navalnews.com/naval-news/2026/05/datum-introduces-strike-capable-sinarit-xluuv/",
+      "published": "Sat, 09 May 2026 17:03:16 +0000",
+      "source": "Naval News",
+      "categories": [
+        "conflict"
+      ]
+    },
+    {
       "title": "French Carrier Strike Group Now Operating in the Middle East",
       "link": "https://news.usni.org/2026/05/07/french-carrier-strike-group-now-operating-in-the-middle-east",
       "published": "Thu, 07 May 2026 18:45:17 +0000",
@@ -877,10 +886,10 @@
   "_exercise_news_refs": [],
   "_threat_indicators": {
     "deployment_articles": 13,
-    "conflict_articles": 4,
+    "conflict_articles": 5,
     "exercise_articles": 0,
     "total_articles": 50,
-    "computed_at": "2026-05-09T16:38:06.150297+00:00",
+    "computed_at": "2026-05-09T17:39:09.652840+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] Taiwan‘s New Submarine Launches MK 48 Torpedo for the First Time",
@@ -898,9 +907,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-05-09T16:38:06.150342+00:00",
+    "last_successful_update": "2026-05-09T17:39:09.652886+00:00",
     "article_count": 50,
-    "categorized_count": 16,
+    "categorized_count": 17,
     "freshest_source": "Naval News",
     "freshest_title": "Taiwan‘s New Submarine Launches MK 48 Torpedo for the First Time",
     "freshest_published": "Fri, 08 May 2026 05:28:00 +0000"
