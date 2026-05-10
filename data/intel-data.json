@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-05-10T05:25:04Z",
-  "version": 1357,
+  "generated_utc": "2026-05-10T07:51:24Z",
+  "version": 1358,
   "breaking_alert": "Naval News: Taiwan‘s New Submarine Launches MK 48 Torpedo for the First Time",
   "naval_deployments": [
     {
@@ -666,22 +666,21 @@
       ]
     },
     {
+      "title": "UK Re-deploys Destroyer Dragon to Middle East for Potential Hormuz Mission",
+      "link": "https://www.navalnews.com/naval-news/2026/05/uk-re-deploys-destroyer-dragon-to-middle-east-for-potential-hormuz-mission/",
+      "published": "Sun, 10 May 2026 06:28:00 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "U.S. Tomahawk Hits Target 390 Miles Away in Land Test of New Launch System",
       "link": "https://news.usni.org/2026/05/07/u-s-tomahawk-hits-target-390-miles-away-in-land-test-of-new-launch-system",
       "published": "Thu, 07 May 2026 17:06:08 +0000",
       "source": "USNI News",
       "categories": [
         "deployment"
-      ]
-    },
-    {
-      "title": "French Carrier Strike Group Now Operating in the Middle East",
-      "link": "https://news.usni.org/2026/05/07/french-carrier-strike-group-now-operating-in-the-middle-east",
-      "published": "Thu, 07 May 2026 18:45:17 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment",
-        "conflict"
       ]
     }
   ],
@@ -885,11 +884,11 @@
   ],
   "_exercise_news_refs": [],
   "_threat_indicators": {
-    "deployment_articles": 13,
+    "deployment_articles": 14,
     "conflict_articles": 5,
     "exercise_articles": 0,
     "total_articles": 50,
-    "computed_at": "2026-05-10T05:25:00.808792+00:00",
+    "computed_at": "2026-05-10T07:51:18.805136+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] Taiwan‘s New Submarine Launches MK 48 Torpedo for the First Time",
@@ -907,9 +906,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-05-10T05:25:00.808838+00:00",
+    "last_successful_update": "2026-05-10T07:51:18.805175+00:00",
     "article_count": 50,
-    "categorized_count": 17,
+    "categorized_count": 18,
     "freshest_source": "Naval News",
     "freshest_title": "Taiwan‘s New Submarine Launches MK 48 Torpedo for the First Time",
     "freshest_published": "Fri, 08 May 2026 05:28:00 +0000"
