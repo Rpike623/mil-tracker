@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-05-10T21:36:05Z",
-  "version": 1370,
+  "generated_utc": "2026-05-10T22:33:36Z",
+  "version": 1371,
   "breaking_alert": "Naval News: Taiwan‘s New Submarine Launches MK 48 Torpedo for the First Time",
   "naval_deployments": [
     {
@@ -898,7 +898,7 @@
     "conflict_articles": 5,
     "exercise_articles": 1,
     "total_articles": 50,
-    "computed_at": "2026-05-10T21:36:02.258170+00:00",
+    "computed_at": "2026-05-10T22:33:32.461558+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] Taiwan‘s New Submarine Launches MK 48 Torpedo for the First Time",
@@ -916,7 +916,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-05-10T21:36:02.258216+00:00",
+    "last_successful_update": "2026-05-10T22:33:32.461603+00:00",
     "article_count": 50,
     "categorized_count": 18,
     "freshest_source": "Naval News",
