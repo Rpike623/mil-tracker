@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-05-11T19:22:45Z",
-  "version": 1379,
+  "generated_utc": "2026-05-11T21:07:22Z",
+  "version": 1380,
   "breaking_alert": "USNI News: Japan-based Carrier Air Wing 5 Begins Training Ahead of Next Patrol",
   "naval_deployments": [
     {
@@ -675,10 +675,10 @@
       ]
     },
     {
-      "title": "Vietnam Slated to Order BrahMos and Naval Vessels from India",
-      "link": "https://www.navalnews.com/naval-news/2026/05/vietnam-slated-to-order-brahmos-and-naval-vessels-from-india/",
-      "published": "Sat, 09 May 2026 05:28:00 +0000",
-      "source": "Naval News",
+      "title": "10-ship Russian Convoy Transits Japan’s Tsushima Strait",
+      "link": "https://news.usni.org/2026/05/11/10-ship-russian-convoy-transits-japans-tsushima-strait",
+      "published": "Mon, 11 May 2026 20:24:19 +0000",
+      "source": "USNI News",
       "categories": [
         "deployment"
       ]
@@ -894,10 +894,10 @@
   ],
   "_threat_indicators": {
     "deployment_articles": 14,
-    "conflict_articles": 9,
+    "conflict_articles": 8,
     "exercise_articles": 1,
     "total_articles": 50,
-    "computed_at": "2026-05-11T19:22:43.358151+00:00",
+    "computed_at": "2026-05-11T21:07:19.660493+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[USNI News] Japan-based Carrier Air Wing 5 Begins Training Ahead of Next Patrol",
@@ -915,7 +915,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-05-11T19:22:43.358203+00:00",
+    "last_successful_update": "2026-05-11T21:07:19.660540+00:00",
     "article_count": 50,
     "categorized_count": 23,
     "freshest_source": "USNI News",
