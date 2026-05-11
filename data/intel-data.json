@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-05-11T11:53:40Z",
-  "version": 1376,
+  "generated_utc": "2026-05-11T14:17:33Z",
+  "version": 1377,
   "breaking_alert": "Defense News: Turkey touts propellant breakthrough for Yıldırımhan long-range ballistic missile",
   "naval_deployments": [
     {
@@ -897,7 +897,7 @@
     "conflict_articles": 7,
     "exercise_articles": 1,
     "total_articles": 50,
-    "computed_at": "2026-05-11T11:53:34.903572+00:00",
+    "computed_at": "2026-05-11T14:17:31.550735+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Defense News] Turkey touts propellant breakthrough for Yıldırımhan long-range ballistic missile",
@@ -915,7 +915,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-05-11T11:53:34.903617+00:00",
+    "last_successful_update": "2026-05-11T14:17:31.550779+00:00",
     "article_count": 50,
     "categorized_count": 19,
     "freshest_source": "Defense News",
