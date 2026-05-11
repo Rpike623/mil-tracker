@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-05-11T08:56:50Z",
-  "version": 1375,
+  "generated_utc": "2026-05-11T11:53:40Z",
+  "version": 1376,
   "breaking_alert": "Defense News: Turkey touts propellant breakthrough for Yıldırımhan long-range ballistic missile",
   "naval_deployments": [
     {
@@ -639,6 +639,15 @@
       ]
     },
     {
+      "title": "DANAE project: A fleet of Armed USV for the French Navy by 2027",
+      "link": "https://www.navalnews.com/naval-news/2026/05/danae-project-a-fleet-of-armed-usv-for-the-french-navy-by-2027/",
+      "published": "Mon, 11 May 2026 10:20:12 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "Vietnam Slated to Order BrahMos and Naval Vessels from India",
       "link": "https://www.navalnews.com/naval-news/2026/05/vietnam-slated-to-order-brahmos-and-naval-vessels-from-india/",
       "published": "Sat, 09 May 2026 05:28:00 +0000",
@@ -672,16 +681,6 @@
       "source": "USNI News",
       "categories": [
         "deployment"
-      ]
-    },
-    {
-      "title": "French Carrier Strike Group Now Operating in the Middle East",
-      "link": "https://news.usni.org/2026/05/07/french-carrier-strike-group-now-operating-in-the-middle-east",
-      "published": "Thu, 07 May 2026 18:45:17 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment",
-        "conflict"
       ]
     }
   ],
@@ -873,10 +872,10 @@
       ]
     },
     {
-      "title": "DATUM Introduces Strike-Capable Sinarit XLUUV",
-      "link": "https://www.navalnews.com/naval-news/2026/05/datum-introduces-strike-capable-sinarit-xluuv/",
-      "published": "Sat, 09 May 2026 17:03:16 +0000",
-      "source": "Naval News",
+      "title": "Ukrainian drone strike on empty Baltic fuel depot prompts top-level resignation – in Latvia",
+      "link": "https://www.defensenews.com/global/europe/2026/05/11/ukrainian-drone-strike-on-empty-baltic-fuel-depot-prompts-top-level-resignation-in-latvia/",
+      "published": "Mon, 11 May 2026 10:32:34 +0000",
+      "source": "Defense News",
       "categories": [
         "conflict"
       ]
@@ -895,10 +894,10 @@
   ],
   "_threat_indicators": {
     "deployment_articles": 12,
-    "conflict_articles": 6,
+    "conflict_articles": 7,
     "exercise_articles": 1,
     "total_articles": 50,
-    "computed_at": "2026-05-11T08:52:09.769783+00:00",
+    "computed_at": "2026-05-11T11:53:34.903572+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Defense News] Turkey touts propellant breakthrough for Yıldırımhan long-range ballistic missile",
@@ -916,9 +915,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-05-11T08:52:09.769832+00:00",
+    "last_successful_update": "2026-05-11T11:53:34.903617+00:00",
     "article_count": 50,
-    "categorized_count": 18,
+    "categorized_count": 19,
     "freshest_source": "Defense News",
     "freshest_title": "Turkey touts propellant breakthrough for Yıldırımhan long-range ballistic missile",
     "freshest_published": "Fri, 08 May 2026 11:14:37 +0000"
