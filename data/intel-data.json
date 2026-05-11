@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-05-11T05:46:06Z",
-  "version": 1374,
-  "breaking_alert": "Naval News: Taiwan‘s New Submarine Launches MK 48 Torpedo for the First Time",
+  "generated_utc": "2026-05-11T08:56:50Z",
+  "version": 1375,
+  "breaking_alert": "Defense News: Turkey touts propellant breakthrough for Yıldırımhan long-range ballistic missile",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -594,15 +594,6 @@
   ],
   "_naval_news_refs": [
     {
-      "title": "Taiwan‘s New Submarine Launches MK 48 Torpedo for the First Time",
-      "link": "https://www.navalnews.com/naval-news/2026/05/taiwans-new-submarine-launches-mk-48-torpedo-for-the-first-time/",
-      "published": "Fri, 08 May 2026 05:28:00 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Japan-based Carrier Air Wing 5 Begins Training Ahead of Next Patrol",
       "link": "https://news.usni.org/2026/05/08/japan-based-carrier-air-wing-5-begins-training-ahead-of-next-patrol",
       "published": "Fri, 08 May 2026 15:04:28 +0000",
@@ -681,6 +672,16 @@
       "source": "USNI News",
       "categories": [
         "deployment"
+      ]
+    },
+    {
+      "title": "French Carrier Strike Group Now Operating in the Middle East",
+      "link": "https://news.usni.org/2026/05/07/french-carrier-strike-group-now-operating-in-the-middle-east",
+      "published": "Thu, 07 May 2026 18:45:17 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment",
+        "conflict"
       ]
     }
   ],
@@ -863,21 +864,20 @@
       ]
     },
     {
-      "title": "DATUM Introduces Strike-Capable Sinarit XLUUV",
-      "link": "https://www.navalnews.com/naval-news/2026/05/datum-introduces-strike-capable-sinarit-xluuv/",
-      "published": "Sat, 09 May 2026 17:03:16 +0000",
+      "title": "Italian Navy in the Pacific with MPCS Bande Nere to test ballistic missile defence",
+      "link": "https://www.navalnews.com/naval-news/2026/05/italian-navy-in-the-pacific-with-mpcs-bande-nere-to-test-ballistic-missile-defence/",
+      "published": "Mon, 11 May 2026 08:32:28 +0000",
       "source": "Naval News",
       "categories": [
         "conflict"
       ]
     },
     {
-      "title": "French Carrier Strike Group Now Operating in the Middle East",
-      "link": "https://news.usni.org/2026/05/07/french-carrier-strike-group-now-operating-in-the-middle-east",
-      "published": "Thu, 07 May 2026 18:45:17 +0000",
-      "source": "USNI News",
+      "title": "DATUM Introduces Strike-Capable Sinarit XLUUV",
+      "link": "https://www.navalnews.com/naval-news/2026/05/datum-introduces-strike-capable-sinarit-xluuv/",
+      "published": "Sat, 09 May 2026 17:03:16 +0000",
+      "source": "Naval News",
       "categories": [
-        "deployment",
         "conflict"
       ]
     }
@@ -894,18 +894,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 13,
-    "conflict_articles": 5,
+    "deployment_articles": 12,
+    "conflict_articles": 6,
     "exercise_articles": 1,
     "total_articles": 50,
-    "computed_at": "2026-05-11T05:46:01.865063+00:00",
+    "computed_at": "2026-05-11T08:52:09.769783+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
-      "[Naval News] Taiwan‘s New Submarine Launches MK 48 Torpedo for the First Time",
       "[Defense News] Turkey touts propellant breakthrough for Yıldırımhan long-range ballistic missile",
       "[USNI News] Japan-based Carrier Air Wing 5 Begins Training Ahead of Next Patrol",
       "[Defense News] US forces disable Iranian-flagged tankers trying to cross blockade",
-      "[Military Times] US forces disable Iranian-flagged tankers trying to cross blockade"
+      "[Military Times] US forces disable Iranian-flagged tankers trying to cross blockade",
+      "[USNI News] Strait of Hormuz Shipping in State of Confusion as Industry Watches U.S., Iranian Actions"
     ]
   },
   "ground_intel": {
@@ -916,12 +916,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-05-11T05:46:01.865107+00:00",
+    "last_successful_update": "2026-05-11T08:52:09.769832+00:00",
     "article_count": 50,
     "categorized_count": 18,
-    "freshest_source": "Naval News",
-    "freshest_title": "Taiwan‘s New Submarine Launches MK 48 Torpedo for the First Time",
-    "freshest_published": "Fri, 08 May 2026 05:28:00 +0000"
+    "freshest_source": "Defense News",
+    "freshest_title": "Turkey touts propellant breakthrough for Yıldırımhan long-range ballistic missile",
+    "freshest_published": "Fri, 08 May 2026 11:14:37 +0000"
   },
   "_firms_hotspots": []
 }
