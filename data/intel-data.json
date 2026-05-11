@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-05-10T23:38:13Z",
-  "version": 1372,
+  "generated_utc": "2026-05-11T01:49:16Z",
+  "version": 1373,
   "breaking_alert": "Naval News: Taiwan‘s New Submarine Launches MK 48 Torpedo for the First Time",
   "naval_deployments": [
     {
@@ -884,7 +884,7 @@
   ],
   "_exercise_news_refs": [
     {
-      "title": "Six F-16 Pilots awarded Distinguished Flying Crosses for Operation Midnight Hammer",
+      "title": "Six F-16 pilots awarded Distinguished Flying Crosses for Operation Midnight Hammer",
       "link": "https://taskandpurpose.com/news/air-force-distinguished-flying-cross-midnight-hammer/",
       "published": "Sun, 10 May 2026 12:41:09 -0400",
       "source": "Task & Purpose",
@@ -898,7 +898,7 @@
     "conflict_articles": 5,
     "exercise_articles": 1,
     "total_articles": 50,
-    "computed_at": "2026-05-10T23:38:11.795718+00:00",
+    "computed_at": "2026-05-11T01:49:13.570950+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] Taiwan‘s New Submarine Launches MK 48 Torpedo for the First Time",
@@ -916,7 +916,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-05-10T23:38:11.795763+00:00",
+    "last_successful_update": "2026-05-11T01:49:13.570993+00:00",
     "article_count": 50,
     "categorized_count": 18,
     "freshest_source": "Naval News",
