@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-05-11T17:15:22Z",
-  "version": 1378,
+  "generated_utc": "2026-05-11T19:22:45Z",
+  "version": 1379,
   "breaking_alert": "USNI News: Japan-based Carrier Air Wing 5 Begins Training Ahead of Next Patrol",
   "naval_deployments": [
     {
@@ -666,18 +666,18 @@
       ]
     },
     {
-      "title": "Vietnam Slated to Order BrahMos and Naval Vessels from India",
-      "link": "https://www.navalnews.com/naval-news/2026/05/vietnam-slated-to-order-brahmos-and-naval-vessels-from-india/",
-      "published": "Sat, 09 May 2026 05:28:00 +0000",
-      "source": "Naval News",
+      "title": "Trump says war on Iran not ‘done’ — but concerns rise about munitions shortages",
+      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/05/11/trump-says-war-on-iran-not-done-but-concerns-rise-about-munitions-shortages/",
+      "published": "Mon, 11 May 2026 18:49:54 +0000",
+      "source": "Military Times",
       "categories": [
         "deployment"
       ]
     },
     {
-      "title": "Rheinmetall Plans to Acquire German Naval Yards Kiel",
-      "link": "https://www.navalnews.com/naval-news/2026/05/rheinmetall-plans-to-acquire-german-naval-yards-kiel/",
-      "published": "Sat, 09 May 2026 08:28:00 +0000",
+      "title": "Vietnam Slated to Order BrahMos and Naval Vessels from India",
+      "link": "https://www.navalnews.com/naval-news/2026/05/vietnam-slated-to-order-brahmos-and-naval-vessels-from-india/",
+      "published": "Sat, 09 May 2026 05:28:00 +0000",
       "source": "Naval News",
       "categories": [
         "deployment"
@@ -893,11 +893,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 13,
+    "deployment_articles": 14,
     "conflict_articles": 9,
     "exercise_articles": 1,
     "total_articles": 50,
-    "computed_at": "2026-05-11T17:15:16.404916+00:00",
+    "computed_at": "2026-05-11T19:22:43.358151+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[USNI News] Japan-based Carrier Air Wing 5 Begins Training Ahead of Next Patrol",
@@ -915,9 +915,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-05-11T17:15:16.404962+00:00",
+    "last_successful_update": "2026-05-11T19:22:43.358203+00:00",
     "article_count": 50,
-    "categorized_count": 22,
+    "categorized_count": 23,
     "freshest_source": "USNI News",
     "freshest_title": "Japan-based Carrier Air Wing 5 Begins Training Ahead of Next Patrol",
     "freshest_published": "Fri, 08 May 2026 15:04:28 +0000"
