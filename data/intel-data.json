@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-05-12T13:35:17Z",
-  "version": 1387,
+  "generated_utc": "2026-05-12T16:10:04Z",
+  "version": 1388,
   "breaking_alert": "USNI News: Japan-based Carrier Air Wing 5 Begins Training Ahead of Next Patrol",
   "naval_deployments": [
     {
@@ -845,15 +845,6 @@
       ]
     },
     {
-      "title": "Ukrainian drone strike on empty Baltic fuel depot prompts top-level resignation – in Latvia",
-      "link": "https://www.defensenews.com/global/europe/2026/05/11/ukrainian-drone-strike-on-empty-baltic-fuel-depot-prompts-top-level-resignation-in-latvia/",
-      "published": "Mon, 11 May 2026 10:32:34 +0000",
-      "source": "Defense News",
-      "categories": [
-        "conflict"
-      ]
-    },
-    {
       "title": "Ukraine and Russia fight on despite US-mediated ceasefire",
       "link": "https://www.defensenews.com/news/pentagon-congress/2026/05/11/ukraine-and-russia-fight-on-despite-us-mediated-ceasefire/",
       "published": "Mon, 11 May 2026 15:22:54 +0000",
@@ -876,6 +867,15 @@
       "link": "https://news.usni.org/2026/05/11/2-dead-1-survivor-in-friday-strike-on-suspected-nacro-boat",
       "published": "Mon, 11 May 2026 15:43:56 +0000",
       "source": "USNI News",
+      "categories": [
+        "conflict"
+      ]
+    },
+    {
+      "title": "DATUM Introduces Strike-Capable Sinarit XLUUV",
+      "link": "https://www.navalnews.com/naval-news/2026/05/datum-introduces-strike-capable-sinarit-xluuv/",
+      "published": "Sat, 09 May 2026 17:03:16 +0000",
+      "source": "Naval News",
       "categories": [
         "conflict"
       ]
@@ -908,14 +908,23 @@
       "categories": [
         "exercise"
       ]
+    },
+    {
+      "title": "NATO to cultivate vetted counter-drone vendor pool for nations to pick and choose",
+      "link": "https://www.defensenews.com/global/europe/2026/05/12/nato-to-cultivate-vetted-counter-drone-vendor-pool-for-nations-to-pick-and-choose/",
+      "published": "Tue, 12 May 2026 14:16:03 +0000",
+      "source": "Defense News",
+      "categories": [
+        "exercise"
+      ]
     }
   ],
   "_threat_indicators": {
     "deployment_articles": 13,
-    "conflict_articles": 6,
-    "exercise_articles": 3,
+    "conflict_articles": 5,
+    "exercise_articles": 4,
     "total_articles": 50,
-    "computed_at": "2026-05-12T13:30:36.371036+00:00",
+    "computed_at": "2026-05-12T16:10:01.923040+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[USNI News] Japan-based Carrier Air Wing 5 Begins Training Ahead of Next Patrol",
@@ -933,7 +942,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-05-12T13:30:36.371077+00:00",
+    "last_successful_update": "2026-05-12T16:10:01.923084+00:00",
     "article_count": 50,
     "categorized_count": 22,
     "freshest_source": "USNI News",
