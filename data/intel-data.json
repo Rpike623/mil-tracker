@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-05-12T18:27:53Z",
-  "version": 1389,
+  "generated_utc": "2026-05-12T20:22:50Z",
+  "version": 1390,
   "breaking_alert": "USNI News: Japan-based Carrier Air Wing 5 Begins Training Ahead of Next Patrol",
   "naval_deployments": [
     {
@@ -854,15 +854,6 @@
       ]
     },
     {
-      "title": "Ukraine and Russia fight on despite US-mediated ceasefire",
-      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/05/11/ukraine-and-russia-fight-on-despite-us-mediated-ceasefire/",
-      "published": "Mon, 11 May 2026 15:22:54 +0000",
-      "source": "Military Times",
-      "categories": [
-        "conflict"
-      ]
-    },
-    {
       "title": "2 Dead, 1 Survivor in Friday Strike on Suspected Narco Boat",
       "link": "https://news.usni.org/2026/05/11/2-dead-1-survivor-in-friday-strike-on-suspected-nacro-boat",
       "published": "Mon, 11 May 2026 15:43:56 +0000",
@@ -920,11 +911,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 14,
-    "conflict_articles": 5,
+    "deployment_articles": 16,
+    "conflict_articles": 4,
     "exercise_articles": 4,
     "total_articles": 50,
-    "computed_at": "2026-05-12T18:27:50.591005+00:00",
+    "computed_at": "2026-05-12T20:22:48.000487+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[USNI News] Japan-based Carrier Air Wing 5 Begins Training Ahead of Next Patrol",
@@ -942,9 +933,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-05-12T18:27:50.591048+00:00",
+    "last_successful_update": "2026-05-12T20:22:48.000533+00:00",
     "article_count": 50,
-    "categorized_count": 23,
+    "categorized_count": 24,
     "freshest_source": "USNI News",
     "freshest_title": "Japan-based Carrier Air Wing 5 Begins Training Ahead of Next Patrol",
     "freshest_published": "Fri, 08 May 2026 15:04:28 +0000"
