@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-05-12T22:59:21Z",
-  "version": 1392,
+  "generated_utc": "2026-05-12T23:58:12Z",
+  "version": 1393,
   "breaking_alert": "USNI News: Future Aircraft Carrier Doris Miller Delayed by 2 Years",
   "naval_deployments": [
     {
@@ -924,7 +924,7 @@
     "conflict_articles": 6,
     "exercise_articles": 4,
     "total_articles": 50,
-    "computed_at": "2026-05-12T22:59:16.004080+00:00",
+    "computed_at": "2026-05-12T23:58:06.890975+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[USNI News] Future Aircraft Carrier Doris Miller Delayed by 2 Years",
@@ -942,7 +942,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-05-12T22:59:16.004124+00:00",
+    "last_successful_update": "2026-05-12T23:58:06.891017+00:00",
     "article_count": 50,
     "categorized_count": 21,
     "freshest_source": "USNI News",
