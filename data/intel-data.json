@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-05-12T05:27:26Z",
-  "version": 1384,
+  "generated_utc": "2026-05-12T08:17:17Z",
+  "version": 1385,
   "breaking_alert": "USNI News: Japan-based Carrier Air Wing 5 Begins Training Ahead of Next Patrol",
   "naval_deployments": [
     {
@@ -911,11 +911,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 14,
+    "deployment_articles": 13,
     "conflict_articles": 7,
     "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-05-12T05:27:24.230463+00:00",
+    "computed_at": "2026-05-12T08:17:15.601234+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[USNI News] Japan-based Carrier Air Wing 5 Begins Training Ahead of Next Patrol",
@@ -933,9 +933,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-05-12T05:27:24.230508+00:00",
+    "last_successful_update": "2026-05-12T08:17:15.601279+00:00",
     "article_count": 50,
-    "categorized_count": 24,
+    "categorized_count": 23,
     "freshest_source": "USNI News",
     "freshest_title": "Japan-based Carrier Air Wing 5 Begins Training Ahead of Next Patrol",
     "freshest_published": "Fri, 08 May 2026 15:04:28 +0000"
