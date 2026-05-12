@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-05-12T11:08:26Z",
-  "version": 1386,
+  "generated_utc": "2026-05-12T13:35:17Z",
+  "version": 1387,
   "breaking_alert": "USNI News: Japan-based Carrier Air Wing 5 Begins Training Ahead of Next Patrol",
   "naval_deployments": [
     {
@@ -836,15 +836,6 @@
   },
   "_conflict_news_refs": [
     {
-      "title": "Russia, Ukraine to enter temporary ceasefire with prisoner exchange, Trump says",
-      "link": "https://www.defensenews.com/flashpoints/ukraine/2026/05/08/russia-ukraine-to-enter-temporary-ceasefire-with-prisoner-exchange-trump-says/",
-      "published": "Fri, 08 May 2026 20:42:03 +0000",
-      "source": "Defense News",
-      "categories": [
-        "conflict"
-      ]
-    },
-    {
       "title": "Italian Navy in the Pacific with MPCS Bande Nere to test ballistic missile defence",
       "link": "https://www.navalnews.com/naval-news/2026/05/italian-navy-in-the-pacific-with-mpcs-bande-nere-to-test-ballistic-missile-defence/",
       "published": "Mon, 11 May 2026 08:32:28 +0000",
@@ -876,6 +867,15 @@
       "link": "https://www.militarytimes.com/news/pentagon-congress/2026/05/11/ukraine-and-russia-fight-on-despite-us-mediated-ceasefire/",
       "published": "Mon, 11 May 2026 15:22:54 +0000",
       "source": "Military Times",
+      "categories": [
+        "conflict"
+      ]
+    },
+    {
+      "title": "2 Dead, 1 Survivor in Friday Strike on Suspected Narco Boat",
+      "link": "https://news.usni.org/2026/05/11/2-dead-1-survivor-in-friday-strike-on-suspected-nacro-boat",
+      "published": "Mon, 11 May 2026 15:43:56 +0000",
+      "source": "USNI News",
       "categories": [
         "conflict"
       ]
@@ -912,17 +912,17 @@
   ],
   "_threat_indicators": {
     "deployment_articles": 13,
-    "conflict_articles": 7,
+    "conflict_articles": 6,
     "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-05-12T11:08:24.292294+00:00",
+    "computed_at": "2026-05-12T13:30:36.371036+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[USNI News] Japan-based Carrier Air Wing 5 Begins Training Ahead of Next Patrol",
       "[USNI News] Strait of Hormuz Shipping in State of Confusion as Industry Watches U.S., Iranian Actions",
       "[USNI News] Future Aircraft Carrier Doris Miller Delayed by 2 Years",
-      "[Defense News] Russia, Ukraine to enter temporary ceasefire with prisoner exchange, Trump says",
-      "[Naval News] Italian Navy in the Pacific with MPCS Bande Nere to test ballistic missile defence"
+      "[Naval News] Italian Navy in the Pacific with MPCS Bande Nere to test ballistic missile defence",
+      "[Naval News] DANAE project: A fleet of Armed USV for the French Navy by 2027"
     ]
   },
   "ground_intel": {
@@ -933,9 +933,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-05-12T11:08:24.292335+00:00",
+    "last_successful_update": "2026-05-12T13:30:36.371077+00:00",
     "article_count": 50,
-    "categorized_count": 23,
+    "categorized_count": 22,
     "freshest_source": "USNI News",
     "freshest_title": "Japan-based Carrier Air Wing 5 Begins Training Ahead of Next Patrol",
     "freshest_published": "Fri, 08 May 2026 15:04:28 +0000"
