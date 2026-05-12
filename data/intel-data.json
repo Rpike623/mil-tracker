@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-05-12T21:59:26Z",
-  "version": 1391,
+  "generated_utc": "2026-05-12T22:59:21Z",
+  "version": 1392,
   "breaking_alert": "USNI News: Future Aircraft Carrier Doris Miller Delayed by 2 Years",
   "naval_deployments": [
     {
@@ -639,15 +639,6 @@
       ]
     },
     {
-      "title": "Poll: Americans don’t think Trump has explained Iran war goals",
-      "link": "https://www.militarytimes.com/news/your-military/2026/05/11/poll-americans-dont-think-trump-has-explained-iran-war-goals/",
-      "published": "Mon, 11 May 2026 21:05:49 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "UK Re-deploys Destroyer Dragon to Middle East for Potential Hormuz Mission",
       "link": "https://www.navalnews.com/naval-news/2026/05/uk-re-deploys-destroyer-dragon-to-middle-east-for-potential-hormuz-mission/",
       "published": "Sun, 10 May 2026 06:28:00 +0000",
@@ -678,6 +669,15 @@
       "title": "Pentagon seeks additional funding as cost of Iran war tops $29 billion",
       "link": "https://www.militarytimes.com/news/pentagon-congress/2026/05/12/pentagon-seeks-additional-funding-as-cost-of-iran-war-tops-29-billon/",
       "published": "Tue, 12 May 2026 16:19:00 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Arcade games satirizing Iran war appear at DC War Memorial",
+      "link": "https://www.militarytimes.com/news/your-military/2026/05/12/arcade-games-satirizing-iran-war-appear-at-dc-war-memorial/",
+      "published": "Tue, 12 May 2026 18:50:48 +0000",
       "source": "Military Times",
       "categories": [
         "deployment"
@@ -870,6 +870,15 @@
       "categories": [
         "conflict"
       ]
+    },
+    {
+      "title": "Trump’s Golden Dome missile shield estimated to cost $1.2 trillion",
+      "link": "https://www.defensenews.com/news/pentagon-congress/2026/05/12/trumps-golden-dome-missile-shield-estimated-to-cost-12-trillion/",
+      "published": "Tue, 12 May 2026 22:16:44 +0000",
+      "source": "Defense News",
+      "categories": [
+        "conflict"
+      ]
     }
   ],
   "_exercise_news_refs": [
@@ -911,11 +920,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 12,
-    "conflict_articles": 4,
+    "deployment_articles": 11,
+    "conflict_articles": 6,
     "exercise_articles": 4,
     "total_articles": 50,
-    "computed_at": "2026-05-12T21:59:22.003506+00:00",
+    "computed_at": "2026-05-12T22:59:16.004080+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[USNI News] Future Aircraft Carrier Doris Miller Delayed by 2 Years",
@@ -933,9 +942,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-05-12T21:59:22.003541+00:00",
+    "last_successful_update": "2026-05-12T22:59:16.004124+00:00",
     "article_count": 50,
-    "categorized_count": 20,
+    "categorized_count": 21,
     "freshest_source": "USNI News",
     "freshest_title": "Future Aircraft Carrier Doris Miller Delayed by 2 Years",
     "freshest_published": "Fri, 08 May 2026 19:21:39 +0000"
