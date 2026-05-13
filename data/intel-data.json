@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-05-13T06:14:40Z",
-  "version": 1395,
+  "generated_utc": "2026-05-13T09:32:58Z",
+  "version": 1396,
   "breaking_alert": "USNI News: Future Aircraft Carrier Doris Miller Delayed by 2 Years",
   "naval_deployments": [
     {
@@ -639,15 +639,6 @@
       ]
     },
     {
-      "title": "UK Re-deploys Destroyer Dragon to Middle East for Potential Hormuz Mission",
-      "link": "https://www.navalnews.com/naval-news/2026/05/uk-re-deploys-destroyer-dragon-to-middle-east-for-potential-hormuz-mission/",
-      "published": "Sun, 10 May 2026 06:28:00 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "U.S. Navy wants new LRAW Stand-off Anti-Submarine Weapon",
       "link": "https://www.navalnews.com/naval-news/2026/05/u-s-navy-wants-new-lraw-stand-off-anti-submarine-weapon/",
       "published": "Tue, 12 May 2026 12:42:13 +0000",
@@ -678,6 +669,15 @@
       "title": "Arcade games satirizing Iran war appear at DC War Memorial",
       "link": "https://www.militarytimes.com/news/your-military/2026/05/12/arcade-games-satirizing-iran-war-appear-at-dc-war-memorial/",
       "published": "Tue, 12 May 2026 18:50:48 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Army plans summer deployments to southern border",
+      "link": "https://www.militarytimes.com/news/your-army/2026/05/12/army-plans-summer-deployments-to-southern-border/",
+      "published": "Tue, 12 May 2026 19:31:37 +0000",
       "source": "Military Times",
       "categories": [
         "deployment"
@@ -845,15 +845,6 @@
       ]
     },
     {
-      "title": "Ukraine and Russia fight on despite US-mediated ceasefire",
-      "link": "https://www.defensenews.com/news/pentagon-congress/2026/05/11/ukraine-and-russia-fight-on-despite-us-mediated-ceasefire/",
-      "published": "Mon, 11 May 2026 15:22:54 +0000",
-      "source": "Defense News",
-      "categories": [
-        "conflict"
-      ]
-    },
-    {
       "title": "2 Dead, 1 Survivor in Friday Strike on Suspected Narco Boat",
       "link": "https://news.usni.org/2026/05/11/2-dead-1-survivor-in-friday-strike-on-suspected-nacro-boat",
       "published": "Mon, 11 May 2026 15:43:56 +0000",
@@ -863,19 +854,19 @@
       ]
     },
     {
-      "title": "DATUM Introduces Strike-Capable Sinarit XLUUV",
-      "link": "https://www.navalnews.com/naval-news/2026/05/datum-introduces-strike-capable-sinarit-xluuv/",
-      "published": "Sat, 09 May 2026 17:03:16 +0000",
-      "source": "Naval News",
+      "title": "Trump’s Golden Dome missile shield estimated to cost $1.2 trillion",
+      "link": "https://www.defensenews.com/news/pentagon-congress/2026/05/12/trumps-golden-dome-missile-shield-estimated-to-cost-12-trillion/",
+      "published": "Tue, 12 May 2026 22:16:44 +0000",
+      "source": "Defense News",
       "categories": [
         "conflict"
       ]
     },
     {
       "title": "Trump’s Golden Dome missile shield estimated to cost $1.2 trillion",
-      "link": "https://www.defensenews.com/news/pentagon-congress/2026/05/12/trumps-golden-dome-missile-shield-estimated-to-cost-12-trillion/",
+      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/05/12/trumps-golden-dome-missile-shield-estimated-to-cost-12-trillion/",
       "published": "Tue, 12 May 2026 22:16:44 +0000",
-      "source": "Defense News",
+      "source": "Military Times",
       "categories": [
         "conflict"
       ]
@@ -911,18 +902,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 11,
-    "conflict_articles": 6,
+    "deployment_articles": 13,
+    "conflict_articles": 4,
     "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-05-13T06:14:37.565163+00:00",
+    "computed_at": "2026-05-13T09:32:55.984663+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[USNI News] Future Aircraft Carrier Doris Miller Delayed by 2 Years",
       "[Naval News] Italian Navy in the Pacific with MPCS Bande Nere to test ballistic missile defence",
       "[Naval News] DANAE project: A fleet of Armed USV for the French Navy by 2027",
-      "[Defense News] Ukraine and Russia fight on despite US-mediated ceasefire",
-      "[USNI News] 2 Dead, 1 Survivor in Friday Strike on Suspected Narco Boat"
+      "[USNI News] 2 Dead, 1 Survivor in Friday Strike on Suspected Narco Boat",
+      "[USNI News] USNI News Fleet and Marine Tracker: May 11, 2026"
     ]
   },
   "ground_intel": {
@@ -933,7 +924,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-05-13T06:14:37.565206+00:00",
+    "last_successful_update": "2026-05-13T09:32:55.984709+00:00",
     "article_count": 50,
     "categorized_count": 20,
     "freshest_source": "USNI News",
