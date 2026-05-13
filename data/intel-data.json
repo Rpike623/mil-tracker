@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-05-13T11:52:38Z",
-  "version": 1397,
+  "generated_utc": "2026-05-13T13:58:29Z",
+  "version": 1398,
   "breaking_alert": "USNI News: Future Aircraft Carrier Doris Miller Delayed by 2 Years",
   "naval_deployments": [
     {
@@ -603,15 +603,6 @@
       ]
     },
     {
-      "title": "DANAE project: A fleet of Armed USV for the French Navy by 2027",
-      "link": "https://www.navalnews.com/naval-news/2026/05/danae-project-a-fleet-of-armed-usv-for-the-french-navy-by-2027/",
-      "published": "Mon, 11 May 2026 10:20:12 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "USNI News Fleet and Marine Tracker: May 11, 2026",
       "link": "https://news.usni.org/2026/05/11/usni-news-fleet-and-marine-tracker-may-11-2026",
       "published": "Mon, 11 May 2026 16:59:33 +0000",
@@ -679,6 +670,15 @@
       "link": "https://www.militarytimes.com/news/your-army/2026/05/12/army-plans-summer-deployments-to-southern-border/",
       "published": "Tue, 12 May 2026 19:31:37 +0000",
       "source": "Military Times",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Navantia progresses with BAM-IS Submarine Rescue Vessel construction",
+      "link": "https://www.navalnews.com/naval-news/2026/05/navantia-with-bam-is-submarine-rescue-vessel-construction/",
+      "published": "Wed, 13 May 2026 07:14:18 +0000",
+      "source": "Naval News",
       "categories": [
         "deployment"
       ]
@@ -836,15 +836,6 @@
   },
   "_conflict_news_refs": [
     {
-      "title": "Italian Navy in the Pacific with MPCS Bande Nere to test ballistic missile defence",
-      "link": "https://www.navalnews.com/naval-news/2026/05/italian-navy-in-the-pacific-with-mpcs-bande-nere-to-test-ballistic-missile-defence/",
-      "published": "Mon, 11 May 2026 08:32:28 +0000",
-      "source": "Naval News",
-      "categories": [
-        "conflict"
-      ]
-    },
-    {
       "title": "2 Dead, 1 Survivor in Friday Strike on Suspected Narco Boat",
       "link": "https://news.usni.org/2026/05/11/2-dead-1-survivor-in-friday-strike-on-suspected-nacro-boat",
       "published": "Mon, 11 May 2026 15:43:56 +0000",
@@ -903,17 +894,17 @@
   ],
   "_threat_indicators": {
     "deployment_articles": 13,
-    "conflict_articles": 4,
+    "conflict_articles": 3,
     "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-05-13T11:52:32.752602+00:00",
+    "computed_at": "2026-05-13T13:58:27.243092+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[USNI News] Future Aircraft Carrier Doris Miller Delayed by 2 Years",
-      "[Naval News] Italian Navy in the Pacific with MPCS Bande Nere to test ballistic missile defence",
-      "[Naval News] DANAE project: A fleet of Armed USV for the French Navy by 2027",
       "[USNI News] 2 Dead, 1 Survivor in Friday Strike on Suspected Narco Boat",
-      "[USNI News] USNI News Fleet and Marine Tracker: May 11, 2026"
+      "[USNI News] USNI News Fleet and Marine Tracker: May 11, 2026",
+      "[USNI News] 10-ship Russian Convoy Transits Japan’s Tsushima Strait",
+      "[USNI News] New Navy Shipbuilding Plan: Trump-class Battleship will be Nuclear-powered, Carrier Design is Under Review"
     ]
   },
   "ground_intel": {
@@ -924,9 +915,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-05-13T11:52:32.752642+00:00",
+    "last_successful_update": "2026-05-13T13:58:27.243137+00:00",
     "article_count": 50,
-    "categorized_count": 20,
+    "categorized_count": 19,
     "freshest_source": "USNI News",
     "freshest_title": "Future Aircraft Carrier Doris Miller Delayed by 2 Years",
     "freshest_published": "Fri, 08 May 2026 19:21:39 +0000"
