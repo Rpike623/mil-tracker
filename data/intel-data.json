@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-05-13T22:02:14Z",
-  "version": 1402,
+  "generated_utc": "2026-05-13T23:45:10Z",
+  "version": 1403,
   "breaking_alert": "USNI News: USNI News Fleet and Marine Tracker: May 11, 2026",
   "naval_deployments": [
     {
@@ -836,15 +836,6 @@
   },
   "_conflict_news_refs": [
     {
-      "title": "Trump’s Golden Dome missile shield estimated to cost $1.2 trillion",
-      "link": "https://www.defensenews.com/news/pentagon-congress/2026/05/12/trumps-golden-dome-missile-shield-estimated-to-cost-12-trillion/",
-      "published": "Tue, 12 May 2026 22:16:44 +0000",
-      "source": "Defense News",
-      "categories": [
-        "conflict"
-      ]
-    },
-    {
       "title": "Pentagon reaches agreements with defense firms on containerized missiles",
       "link": "https://www.defensenews.com/industry/techwatch/2026/05/13/pentagon-reaches-agreements-with-defense-firms-on-containerized-missiles/",
       "published": "Wed, 13 May 2026 15:00:05 +0000",
@@ -874,28 +865,29 @@
       ]
     },
     {
-      "title": "US special operations leaders frustrated by inability to modify their own equipment",
-      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/05/13/us-special-operations-leaders-frustrated-by-inability-to-modify-their-own-equipment/",
-      "published": "Wed, 13 May 2026 14:28:26 +0000",
+      "title": "Energy secretary: Iran ‘frighteningly close’ to nuclear weapon despite Operation Epic Fury",
+      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/05/13/energy-secretary-iran-frighteningly-close-to-nuclear-weapon-despite-operation-epic-fury/",
+      "published": "Wed, 13 May 2026 22:51:03 +0000",
       "source": "Military Times",
       "categories": [
+        "deployment",
         "exercise"
       ]
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 17,
-    "conflict_articles": 3,
+    "deployment_articles": 19,
+    "conflict_articles": 2,
     "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-05-13T22:02:10.540831+00:00",
+    "computed_at": "2026-05-13T23:45:08.161820+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[USNI News] USNI News Fleet and Marine Tracker: May 11, 2026",
       "[USNI News] 10-ship Russian Convoy Transits Japan’s Tsushima Strait",
       "[USNI News] New Navy Shipbuilding Plan: Trump-class Battleship will be Nuclear-powered, Carrier Design is Under Review",
       "[Naval News] U.S. Navy wants new LRAW Stand-off Anti-Submarine Weapon",
-      "[Defense News] Trump’s Golden Dome missile shield estimated to cost $1.2 trillion"
+      "[Naval News] Navantia progresses with BAM-IS Submarine Rescue Vessel construction"
     ]
   },
   "ground_intel": {
@@ -906,7 +898,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-05-13T22:02:10.540867+00:00",
+    "last_successful_update": "2026-05-13T23:45:08.161861+00:00",
     "article_count": 50,
     "categorized_count": 22,
     "freshest_source": "USNI News",
