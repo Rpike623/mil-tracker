@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-05-13T16:15:30Z",
-  "version": 1399,
+  "generated_utc": "2026-05-13T18:50:53Z",
+  "version": 1400,
   "breaking_alert": "USNI News: 2 Dead, 1 Survivor in Friday Strike on Suspected Narco Boat",
   "naval_deployments": [
     {
@@ -639,15 +639,6 @@
       ]
     },
     {
-      "title": "Army plans summer deployments to southern border",
-      "link": "https://www.militarytimes.com/news/your-army/2026/05/12/army-plans-summer-deployments-to-southern-border/",
-      "published": "Tue, 12 May 2026 19:31:37 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Navantia progresses with BAM-IS Submarine Rescue Vessel construction",
       "link": "https://www.navalnews.com/naval-news/2026/05/navantia-with-bam-is-submarine-rescue-vessel-construction/",
       "published": "Wed, 13 May 2026 07:14:18 +0000",
@@ -670,6 +661,15 @@
       "link": "https://www.navalnews.com/naval-news/2026/05/russian-nuclear-submarines-thousands-of-miles-from-ukraine-get-anti-drone-defenses/",
       "published": "Wed, 13 May 2026 08:29:00 +0000",
       "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Mental crisis didn’t cause airman to self-immolate in protest of Israel, Air Force found",
+      "link": "https://taskandpurpose.com/news/airman-bushnell-immolation-protest-israel/",
+      "published": "Wed, 13 May 2026 13:36:48 -0400",
+      "source": "Task & Purpose",
       "categories": [
         "deployment"
       ]
@@ -892,15 +892,6 @@
       ]
     },
     {
-      "title": "NATO to cultivate vetted counter-drone vendor pool for nations to pick and choose",
-      "link": "https://www.defensenews.com/global/europe/2026/05/12/nato-to-cultivate-vetted-counter-drone-vendor-pool-for-nations-to-pick-and-choose/",
-      "published": "Tue, 12 May 2026 14:16:03 +0000",
-      "source": "Defense News",
-      "categories": [
-        "exercise"
-      ]
-    },
-    {
       "title": "US special operations leaders frustrated by inability to modify their own equipment",
       "link": "https://www.defensenews.com/news/pentagon-congress/2026/05/13/us-special-operations-leaders-frustrated-by-inability-to-modify-their-own-equipment/",
       "published": "Wed, 13 May 2026 14:28:26 +0000",
@@ -920,11 +911,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 10,
+    "deployment_articles": 14,
     "conflict_articles": 5,
-    "exercise_articles": 4,
+    "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-05-13T16:15:28.151900+00:00",
+    "computed_at": "2026-05-13T18:50:46.158336+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[USNI News] 2 Dead, 1 Survivor in Friday Strike on Suspected Narco Boat",
@@ -942,9 +933,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-05-13T16:15:28.151949+00:00",
+    "last_successful_update": "2026-05-13T18:50:46.158382+00:00",
     "article_count": 50,
-    "categorized_count": 19,
+    "categorized_count": 22,
     "freshest_source": "USNI News",
     "freshest_title": "2 Dead, 1 Survivor in Friday Strike on Suspected Narco Boat",
     "freshest_published": "Mon, 11 May 2026 15:43:56 +0000"
