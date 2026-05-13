@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-05-13T18:50:53Z",
-  "version": 1400,
+  "generated_utc": "2026-05-13T20:25:21Z",
+  "version": 1401,
   "breaking_alert": "USNI News: 2 Dead, 1 Survivor in Friday Strike on Suspected Narco Boat",
   "naval_deployments": [
     {
@@ -883,15 +883,6 @@
   ],
   "_exercise_news_refs": [
     {
-      "title": "Six F-16 pilots awarded Distinguished Flying Crosses for Operation Midnight Hammer",
-      "link": "https://taskandpurpose.com/news/air-force-distinguished-flying-cross-midnight-hammer/",
-      "published": "Sun, 10 May 2026 12:41:09 -0400",
-      "source": "Task & Purpose",
-      "categories": [
-        "exercise"
-      ]
-    },
-    {
       "title": "US special operations leaders frustrated by inability to modify their own equipment",
       "link": "https://www.defensenews.com/news/pentagon-congress/2026/05/13/us-special-operations-leaders-frustrated-by-inability-to-modify-their-own-equipment/",
       "published": "Wed, 13 May 2026 14:28:26 +0000",
@@ -911,18 +902,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 14,
+    "deployment_articles": 16,
     "conflict_articles": 5,
-    "exercise_articles": 3,
+    "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-05-13T18:50:46.158336+00:00",
+    "computed_at": "2026-05-13T20:25:19.457521+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[USNI News] 2 Dead, 1 Survivor in Friday Strike on Suspected Narco Boat",
       "[USNI News] USNI News Fleet and Marine Tracker: May 11, 2026",
       "[USNI News] 10-ship Russian Convoy Transits Japan’s Tsushima Strait",
       "[USNI News] New Navy Shipbuilding Plan: Trump-class Battleship will be Nuclear-powered, Carrier Design is Under Review",
-      "[Task & Purpose] Six F-16 pilots awarded Distinguished Flying Crosses for Operation Midnight Hammer"
+      "[Naval News] U.S. Navy wants new LRAW Stand-off Anti-Submarine Weapon"
     ]
   },
   "ground_intel": {
@@ -933,9 +924,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-05-13T18:50:46.158382+00:00",
+    "last_successful_update": "2026-05-13T20:25:19.457567+00:00",
     "article_count": 50,
-    "categorized_count": 22,
+    "categorized_count": 23,
     "freshest_source": "USNI News",
     "freshest_title": "2 Dead, 1 Survivor in Friday Strike on Suspected Narco Boat",
     "freshest_published": "Mon, 11 May 2026 15:43:56 +0000"
