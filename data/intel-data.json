@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-05-14T08:22:28Z",
-  "version": 1406,
+  "generated_utc": "2026-05-14T11:06:19Z",
+  "version": 1407,
   "breaking_alert": "USNI News: USNI News Fleet and Marine Tracker: May 11, 2026",
   "naval_deployments": [
     {
@@ -639,15 +639,6 @@
       ]
     },
     {
-      "title": "Navantia progresses with BAM-IS Submarine Rescue Vessel construction",
-      "link": "https://www.navalnews.com/naval-news/2026/05/navantia-with-bam-is-submarine-rescue-vessel-construction/",
-      "published": "Wed, 13 May 2026 07:14:18 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "U.S. Navy reveals future plans for it’s aircraft carrier fleet",
       "link": "https://www.navalnews.com/naval-news/2026/05/u-s-navy-reveals-future-plans-for-its-aircraft-carrier-fleet/",
       "published": "Wed, 13 May 2026 07:55:12 +0000",
@@ -679,6 +670,15 @@
       "link": "https://www.navalnews.com/naval-news/2026/05/ecuador-commissions-its-largest-naval-vessel-bae-jambeli/",
       "published": "Wed, 13 May 2026 13:55:12 +0000",
       "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Pentagon cancels Army unit’s deployment to Europe with soldiers already in Poland",
+      "link": "https://taskandpurpose.com/news/army-cancels-deployment-soldiers-europe/",
+      "published": "Wed, 13 May 2026 15:31:51 -0400",
+      "source": "Task & Purpose",
       "categories": [
         "deployment"
       ]
@@ -885,11 +885,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 20,
+    "deployment_articles": 19,
     "conflict_articles": 1,
     "exercise_articles": 4,
     "total_articles": 50,
-    "computed_at": "2026-05-14T08:22:22.551922+00:00",
+    "computed_at": "2026-05-14T11:06:17.392401+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[USNI News] USNI News Fleet and Marine Tracker: May 11, 2026",
@@ -907,9 +907,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-05-14T08:22:22.551968+00:00",
+    "last_successful_update": "2026-05-14T11:06:17.392445+00:00",
     "article_count": 50,
-    "categorized_count": 24,
+    "categorized_count": 23,
     "freshest_source": "USNI News",
     "freshest_title": "USNI News Fleet and Marine Tracker: May 11, 2026",
     "freshest_published": "Mon, 11 May 2026 16:59:33 +0000"
