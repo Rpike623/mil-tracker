@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-05-14T11:06:19Z",
-  "version": 1407,
+  "generated_utc": "2026-05-14T13:22:11Z",
+  "version": 1408,
   "breaking_alert": "USNI News: USNI News Fleet and Marine Tracker: May 11, 2026",
   "naval_deployments": [
     {
@@ -639,6 +639,15 @@
       ]
     },
     {
+      "title": "U.S. Navy goes All In on Submarines in Released Shipbuilding Plan",
+      "link": "https://www.navalnews.com/naval-news/2026/05/u-s-navy-goes-all-in-on-submarines-in-released-shipbuilding-plan/",
+      "published": "Thu, 14 May 2026 12:57:38 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "U.S. Navy reveals future plans for it’s aircraft carrier fleet",
       "link": "https://www.navalnews.com/naval-news/2026/05/u-s-navy-reveals-future-plans-for-its-aircraft-carrier-fleet/",
       "published": "Wed, 13 May 2026 07:55:12 +0000",
@@ -670,15 +679,6 @@
       "link": "https://www.navalnews.com/naval-news/2026/05/ecuador-commissions-its-largest-naval-vessel-bae-jambeli/",
       "published": "Wed, 13 May 2026 13:55:12 +0000",
       "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Pentagon cancels Army unit’s deployment to Europe with soldiers already in Poland",
-      "link": "https://taskandpurpose.com/news/army-cancels-deployment-soldiers-europe/",
-      "published": "Wed, 13 May 2026 15:31:51 -0400",
-      "source": "Task & Purpose",
       "categories": [
         "deployment"
       ]
@@ -836,6 +836,15 @@
   },
   "_conflict_news_refs": [
     {
+      "title": "Japan fires first-ever missiles from Philippine soil",
+      "link": "https://www.defensenews.com/global/asia-pacific/2026/05/14/japan-fires-first-ever-missiles-from-philippine-soil/",
+      "published": "Thu, 14 May 2026 11:28:03 +0000",
+      "source": "Defense News",
+      "categories": [
+        "conflict"
+      ]
+    },
+    {
       "title": "Pentagon reaches agreements with defense firms on containerized missiles",
       "link": "https://www.defensenews.com/industry/techwatch/2026/05/13/pentagon-reaches-agreements-with-defense-firms-on-containerized-missiles/",
       "published": "Wed, 13 May 2026 15:00:05 +0000",
@@ -885,11 +894,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 19,
-    "conflict_articles": 1,
+    "deployment_articles": 20,
+    "conflict_articles": 2,
     "exercise_articles": 4,
     "total_articles": 50,
-    "computed_at": "2026-05-14T11:06:17.392401+00:00",
+    "computed_at": "2026-05-14T13:22:08.786893+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[USNI News] USNI News Fleet and Marine Tracker: May 11, 2026",
@@ -907,9 +916,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-05-14T11:06:17.392445+00:00",
+    "last_successful_update": "2026-05-14T13:22:08.786939+00:00",
     "article_count": 50,
-    "categorized_count": 23,
+    "categorized_count": 25,
     "freshest_source": "USNI News",
     "freshest_title": "USNI News Fleet and Marine Tracker: May 11, 2026",
     "freshest_published": "Mon, 11 May 2026 16:59:33 +0000"
