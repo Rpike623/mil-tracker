@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-05-13T23:45:10Z",
-  "version": 1403,
+  "generated_utc": "2026-05-14T01:52:31Z",
+  "version": 1404,
   "breaking_alert": "USNI News: USNI News Fleet and Marine Tracker: May 11, 2026",
   "naval_deployments": [
     {
@@ -843,18 +843,27 @@
       "categories": [
         "conflict"
       ]
-    },
-    {
-      "title": "Pentagon reaches agreements with defense firms on containerized missiles",
-      "link": "https://www.militarytimes.com/industry/techwatch/2026/05/13/pentagon-reaches-agreements-with-defense-firms-on-containerized-missiles/",
-      "published": "Wed, 13 May 2026 15:00:05 +0000",
-      "source": "Military Times",
-      "categories": [
-        "conflict"
-      ]
     }
   ],
   "_exercise_news_refs": [
+    {
+      "title": "US Army recovers remains of second soldier reported missing during Moroccan exercise",
+      "link": "https://www.defensenews.com/news/your-military/2026/05/14/us-army-recovers-remains-of-second-soldier-reported-missing-during-moroccan-exercise/",
+      "published": "Thu, 14 May 2026 00:38:08 +0000",
+      "source": "Defense News",
+      "categories": [
+        "exercise"
+      ]
+    },
+    {
+      "title": "US Army recovers remains of second soldier reported missing during Moroccan exercise",
+      "link": "https://www.militarytimes.com/news/your-military/2026/05/14/us-army-recovers-remains-of-second-soldier-reported-missing-during-moroccan-exercise/",
+      "published": "Thu, 14 May 2026 00:38:08 +0000",
+      "source": "Military Times",
+      "categories": [
+        "exercise"
+      ]
+    },
     {
       "title": "US special operations leaders frustrated by inability to modify their own equipment",
       "link": "https://www.defensenews.com/news/pentagon-congress/2026/05/13/us-special-operations-leaders-frustrated-by-inability-to-modify-their-own-equipment/",
@@ -877,17 +886,17 @@
   ],
   "_threat_indicators": {
     "deployment_articles": 19,
-    "conflict_articles": 2,
-    "exercise_articles": 2,
+    "conflict_articles": 1,
+    "exercise_articles": 4,
     "total_articles": 50,
-    "computed_at": "2026-05-13T23:45:08.161820+00:00",
+    "computed_at": "2026-05-14T01:52:25.382924+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[USNI News] USNI News Fleet and Marine Tracker: May 11, 2026",
       "[USNI News] 10-ship Russian Convoy Transits Japan’s Tsushima Strait",
       "[USNI News] New Navy Shipbuilding Plan: Trump-class Battleship will be Nuclear-powered, Carrier Design is Under Review",
-      "[Naval News] U.S. Navy wants new LRAW Stand-off Anti-Submarine Weapon",
-      "[Naval News] Navantia progresses with BAM-IS Submarine Rescue Vessel construction"
+      "[Defense News] US Army recovers remains of second soldier reported missing during Moroccan exercise",
+      "[Military Times] US Army recovers remains of second soldier reported missing during Moroccan exercise"
     ]
   },
   "ground_intel": {
@@ -898,9 +907,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-05-13T23:45:08.161861+00:00",
+    "last_successful_update": "2026-05-14T01:52:25.382970+00:00",
     "article_count": 50,
-    "categorized_count": 22,
+    "categorized_count": 23,
     "freshest_source": "USNI News",
     "freshest_title": "USNI News Fleet and Marine Tracker: May 11, 2026",
     "freshest_published": "Mon, 11 May 2026 16:59:33 +0000"
