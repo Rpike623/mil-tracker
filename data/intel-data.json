@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-05-14T21:57:51Z",
-  "version": 1412,
-  "breaking_alert": "USNI News: 10-ship Russian Convoy Transits Japan’s Tsushima Strait",
+  "generated_utc": "2026-05-14T22:52:11Z",
+  "version": 1413,
+  "breaking_alert": "USNI News: New Navy Shipbuilding Plan: Trump-class Battleship will be Nuclear-powered, Carrier Design is Under Review",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -594,15 +594,6 @@
   ],
   "_naval_news_refs": [
     {
-      "title": "10-ship Russian Convoy Transits Japan’s Tsushima Strait",
-      "link": "https://news.usni.org/2026/05/11/10-ship-russian-convoy-transits-japans-tsushima-strait",
-      "published": "Mon, 11 May 2026 20:24:19 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "New Navy Shipbuilding Plan: Trump-class Battleship will be Nuclear-powered, Carrier Design is Under Review",
       "link": "https://news.usni.org/2026/05/11/new-navy-shipbuilding-plan-trump-class-battleship-will-be-nuclear-powered-carrier-design-is-under-review",
       "published": "Mon, 11 May 2026 20:45:05 +0000",
@@ -673,6 +664,15 @@
       "categories": [
         "deployment",
         "conflict"
+      ]
+    },
+    {
+      "title": "Iran’s Plan to Charge for Strait of Hormuz Transits Could Spread to Other Regions, Experts Warn",
+      "link": "https://news.usni.org/2026/05/14/irans-plan-to-charge-for-strait-of-hormuz-transits-could-spread-to-other-regions-experts-warn",
+      "published": "Thu, 14 May 2026 22:14:29 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment"
       ]
     },
     {
@@ -891,14 +891,14 @@
     "conflict_articles": 2,
     "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-05-14T21:57:45.959332+00:00",
+    "computed_at": "2026-05-14T22:52:07.809611+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
-      "[USNI News] 10-ship Russian Convoy Transits Japan’s Tsushima Strait",
       "[USNI News] New Navy Shipbuilding Plan: Trump-class Battleship will be Nuclear-powered, Carrier Design is Under Review",
       "[Defense News] US Army recovers remains of second soldier reported missing during Moroccan exercise",
       "[Military Times] US Army recovers remains of second soldier reported missing during Moroccan exercise",
-      "[Naval News] Saab and PGZ Group establish strategic naval domain collaboration"
+      "[Naval News] Saab and PGZ Group establish strategic naval domain collaboration",
+      "[Naval News] Indonesia Confirms Mogami Frigates and Submarine Offers from Japan"
     ]
   },
   "ground_intel": {
@@ -909,12 +909,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-05-14T21:57:45.959378+00:00",
+    "last_successful_update": "2026-05-14T22:52:07.809657+00:00",
     "article_count": 50,
     "categorized_count": 23,
     "freshest_source": "USNI News",
-    "freshest_title": "10-ship Russian Convoy Transits Japan’s Tsushima Strait",
-    "freshest_published": "Mon, 11 May 2026 20:24:19 +0000"
+    "freshest_title": "New Navy Shipbuilding Plan: Trump-class Battleship will be Nuclear-powered, Carrier Design is Under Review",
+    "freshest_published": "Mon, 11 May 2026 20:45:05 +0000"
   },
   "_firms_hotspots": []
 }
