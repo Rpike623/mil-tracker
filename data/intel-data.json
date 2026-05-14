@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-05-14T05:37:19Z",
-  "version": 1405,
+  "generated_utc": "2026-05-14T08:22:28Z",
+  "version": 1406,
   "breaking_alert": "USNI News: USNI News Fleet and Marine Tracker: May 11, 2026",
   "naval_deployments": [
     {
@@ -621,9 +621,18 @@
       ]
     },
     {
-      "title": "U.S. Navy wants new LRAW Stand-off Anti-Submarine Weapon",
-      "link": "https://www.navalnews.com/naval-news/2026/05/u-s-navy-wants-new-lraw-stand-off-anti-submarine-weapon/",
-      "published": "Tue, 12 May 2026 12:42:13 +0000",
+      "title": "Saab and PGZ Group establish strategic naval domain collaboration",
+      "link": "https://www.navalnews.com/naval-news/2026/05/saab-and-pgz-group-establish-strategic-naval-domain-collaboration/",
+      "published": "Thu, 14 May 2026 07:31:05 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Indonesia Confirms Mogami Frigates and Submarine Offers from Japan",
+      "link": "https://www.navalnews.com/naval-news/2026/05/indonesia-confirms-mogami-frigates-and-submarine-offers-from-japan/",
+      "published": "Thu, 14 May 2026 07:45:56 +0000",
       "source": "Naval News",
       "categories": [
         "deployment"
@@ -670,15 +679,6 @@
       "link": "https://www.navalnews.com/naval-news/2026/05/ecuador-commissions-its-largest-naval-vessel-bae-jambeli/",
       "published": "Wed, 13 May 2026 13:55:12 +0000",
       "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Pentagon cancels Army unit’s deployment to Europe with soldiers already in Poland",
-      "link": "https://taskandpurpose.com/news/army-cancels-deployment-soldiers-europe/",
-      "published": "Wed, 13 May 2026 15:31:51 -0400",
-      "source": "Task & Purpose",
       "categories": [
         "deployment"
       ]
@@ -885,11 +885,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 19,
+    "deployment_articles": 20,
     "conflict_articles": 1,
     "exercise_articles": 4,
     "total_articles": 50,
-    "computed_at": "2026-05-14T05:37:17.051299+00:00",
+    "computed_at": "2026-05-14T08:22:22.551922+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[USNI News] USNI News Fleet and Marine Tracker: May 11, 2026",
@@ -907,9 +907,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-05-14T05:37:17.051344+00:00",
+    "last_successful_update": "2026-05-14T08:22:22.551968+00:00",
     "article_count": 50,
-    "categorized_count": 23,
+    "categorized_count": 24,
     "freshest_source": "USNI News",
     "freshest_title": "USNI News Fleet and Marine Tracker: May 11, 2026",
     "freshest_published": "Mon, 11 May 2026 16:59:33 +0000"
