@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-05-14T18:30:55Z",
-  "version": 1410,
+  "generated_utc": "2026-05-14T20:21:27Z",
+  "version": 1411,
   "breaking_alert": "USNI News: USNI News Fleet and Marine Tracker: May 11, 2026",
   "naval_deployments": [
     {
@@ -657,28 +657,28 @@
       ]
     },
     {
+      "title": "Iran military threat is diminished but not eliminated, CENTCOM chief says",
+      "link": "https://www.defensenews.com/news/pentagon-congress/2026/05/14/iran-military-threat-is-diminished-but-not-eliminated-centcom-chief-says/",
+      "published": "Thu, 14 May 2026 19:57:59 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Iran military threat is diminished but not eliminated, CENTCOM chief says",
+      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/05/14/iran-military-threat-is-diminished-but-not-eliminated-centcom-chief-says/",
+      "published": "Thu, 14 May 2026 19:57:59 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "U.S. Navy reveals future plans for it’s aircraft carrier fleet",
       "link": "https://www.navalnews.com/naval-news/2026/05/u-s-navy-reveals-future-plans-for-its-aircraft-carrier-fleet/",
       "published": "Wed, 13 May 2026 07:55:12 +0000",
       "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Russian Nuclear Submarines, Thousands of Miles From Ukraine, Get Anti-Drone Defenses",
-      "link": "https://www.navalnews.com/naval-news/2026/05/russian-nuclear-submarines-thousands-of-miles-from-ukraine-get-anti-drone-defenses/",
-      "published": "Wed, 13 May 2026 08:29:00 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Mental crisis didn’t cause airman to self-immolate in protest of Israel, Air Force found",
-      "link": "https://taskandpurpose.com/news/airman-bushnell-immolation-protest-israel/",
-      "published": "Wed, 13 May 2026 13:36:48 -0400",
-      "source": "Task & Purpose",
       "categories": [
         "deployment"
       ]
@@ -880,7 +880,7 @@
     "conflict_articles": 1,
     "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-05-14T18:26:15.124245+00:00",
+    "computed_at": "2026-05-14T20:21:22.000237+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[USNI News] USNI News Fleet and Marine Tracker: May 11, 2026",
@@ -898,7 +898,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-05-14T18:26:15.124296+00:00",
+    "last_successful_update": "2026-05-14T20:21:22.000284+00:00",
     "article_count": 50,
     "categorized_count": 24,
     "freshest_source": "USNI News",
