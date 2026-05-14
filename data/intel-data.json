@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-05-14T13:22:11Z",
-  "version": 1408,
+  "generated_utc": "2026-05-14T16:01:53Z",
+  "version": 1409,
   "breaking_alert": "USNI News: USNI News Fleet and Marine Tracker: May 11, 2026",
   "naval_deployments": [
     {
@@ -648,6 +648,15 @@
       ]
     },
     {
+      "title": "Israel to extend F-35I range amid war with Iran",
+      "link": "https://www.defensenews.com/global/mideast-africa/2026/05/14/israel-to-extend-f-35i-range-amid-war-with-iran/",
+      "published": "Thu, 14 May 2026 13:46:32 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "U.S. Navy reveals future plans for it’s aircraft carrier fleet",
       "link": "https://www.navalnews.com/naval-news/2026/05/u-s-navy-reveals-future-plans-for-its-aircraft-carrier-fleet/",
       "published": "Wed, 13 May 2026 07:55:12 +0000",
@@ -670,15 +679,6 @@
       "link": "https://taskandpurpose.com/news/airman-bushnell-immolation-protest-israel/",
       "published": "Wed, 13 May 2026 13:36:48 -0400",
       "source": "Task & Purpose",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Ecuador Commissions Its Largest Naval Vessel: BAE Jambeli",
-      "link": "https://www.navalnews.com/naval-news/2026/05/ecuador-commissions-its-largest-naval-vessel-bae-jambeli/",
-      "published": "Wed, 13 May 2026 13:55:12 +0000",
-      "source": "Naval News",
       "categories": [
         "deployment"
       ]
@@ -843,15 +843,6 @@
       "categories": [
         "conflict"
       ]
-    },
-    {
-      "title": "Pentagon reaches agreements with defense firms on containerized missiles",
-      "link": "https://www.defensenews.com/industry/techwatch/2026/05/13/pentagon-reaches-agreements-with-defense-firms-on-containerized-missiles/",
-      "published": "Wed, 13 May 2026 15:00:05 +0000",
-      "source": "Defense News",
-      "categories": [
-        "conflict"
-      ]
     }
   ],
   "_exercise_news_refs": [
@@ -874,15 +865,6 @@
       ]
     },
     {
-      "title": "US special operations leaders frustrated by inability to modify their own equipment",
-      "link": "https://www.defensenews.com/news/pentagon-congress/2026/05/13/us-special-operations-leaders-frustrated-by-inability-to-modify-their-own-equipment/",
-      "published": "Wed, 13 May 2026 14:28:26 +0000",
-      "source": "Defense News",
-      "categories": [
-        "exercise"
-      ]
-    },
-    {
       "title": "Energy secretary: Iran ‘frighteningly close’ to nuclear weapon despite Operation Epic Fury",
       "link": "https://www.militarytimes.com/news/pentagon-congress/2026/05/13/energy-secretary-iran-frighteningly-close-to-nuclear-weapon-despite-operation-epic-fury/",
       "published": "Wed, 13 May 2026 22:51:03 +0000",
@@ -894,11 +876,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 20,
-    "conflict_articles": 2,
-    "exercise_articles": 4,
+    "deployment_articles": 21,
+    "conflict_articles": 1,
+    "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-05-14T13:22:08.786893+00:00",
+    "computed_at": "2026-05-14T16:01:51.576412+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[USNI News] USNI News Fleet and Marine Tracker: May 11, 2026",
@@ -916,9 +898,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-05-14T13:22:08.786939+00:00",
+    "last_successful_update": "2026-05-14T16:01:51.576458+00:00",
     "article_count": 50,
-    "categorized_count": 25,
+    "categorized_count": 24,
     "freshest_source": "USNI News",
     "freshest_title": "USNI News Fleet and Marine Tracker: May 11, 2026",
     "freshest_published": "Mon, 11 May 2026 16:59:33 +0000"
