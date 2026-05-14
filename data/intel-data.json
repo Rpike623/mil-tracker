@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-05-14T20:21:27Z",
-  "version": 1411,
-  "breaking_alert": "USNI News: USNI News Fleet and Marine Tracker: May 11, 2026",
+  "generated_utc": "2026-05-14T21:57:51Z",
+  "version": 1412,
+  "breaking_alert": "USNI News: 10-ship Russian Convoy Transits Japan’s Tsushima Strait",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -594,15 +594,6 @@
   ],
   "_naval_news_refs": [
     {
-      "title": "USNI News Fleet and Marine Tracker: May 11, 2026",
-      "link": "https://news.usni.org/2026/05/11/usni-news-fleet-and-marine-tracker-may-11-2026",
-      "published": "Mon, 11 May 2026 16:59:33 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "10-ship Russian Convoy Transits Japan’s Tsushima Strait",
       "link": "https://news.usni.org/2026/05/11/10-ship-russian-convoy-transits-japans-tsushima-strait",
       "published": "Mon, 11 May 2026 20:24:19 +0000",
@@ -672,6 +663,16 @@
       "source": "Military Times",
       "categories": [
         "deployment"
+      ]
+    },
+    {
+      "title": "Norway Cancels Kongsberg-Malaysian Government Contract for Naval Strike Missiles, Launchers",
+      "link": "https://news.usni.org/2026/05/14/norway-cancels-kongsberg-malaysian-government-contract-for-naval-strike-missiles-launchers",
+      "published": "Thu, 14 May 2026 21:22:01 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment",
+        "conflict"
       ]
     },
     {
@@ -843,6 +844,16 @@
       "categories": [
         "conflict"
       ]
+    },
+    {
+      "title": "Norway Cancels Kongsberg-Malaysian Government Contract for Naval Strike Missiles, Launchers",
+      "link": "https://news.usni.org/2026/05/14/norway-cancels-kongsberg-malaysian-government-contract-for-naval-strike-missiles-launchers",
+      "published": "Thu, 14 May 2026 21:22:01 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
     }
   ],
   "_exercise_news_refs": [
@@ -876,18 +887,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 21,
-    "conflict_articles": 1,
+    "deployment_articles": 20,
+    "conflict_articles": 2,
     "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-05-14T20:21:22.000237+00:00",
+    "computed_at": "2026-05-14T21:57:45.959332+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
-      "[USNI News] USNI News Fleet and Marine Tracker: May 11, 2026",
       "[USNI News] 10-ship Russian Convoy Transits Japan’s Tsushima Strait",
       "[USNI News] New Navy Shipbuilding Plan: Trump-class Battleship will be Nuclear-powered, Carrier Design is Under Review",
       "[Defense News] US Army recovers remains of second soldier reported missing during Moroccan exercise",
-      "[Military Times] US Army recovers remains of second soldier reported missing during Moroccan exercise"
+      "[Military Times] US Army recovers remains of second soldier reported missing during Moroccan exercise",
+      "[Naval News] Saab and PGZ Group establish strategic naval domain collaboration"
     ]
   },
   "ground_intel": {
@@ -898,12 +909,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-05-14T20:21:22.000284+00:00",
+    "last_successful_update": "2026-05-14T21:57:45.959378+00:00",
     "article_count": 50,
-    "categorized_count": 24,
+    "categorized_count": 23,
     "freshest_source": "USNI News",
-    "freshest_title": "USNI News Fleet and Marine Tracker: May 11, 2026",
-    "freshest_published": "Mon, 11 May 2026 16:59:33 +0000"
+    "freshest_title": "10-ship Russian Convoy Transits Japan’s Tsushima Strait",
+    "freshest_published": "Mon, 11 May 2026 20:24:19 +0000"
   },
   "_firms_hotspots": []
 }
