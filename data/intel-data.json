@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-05-14T16:01:53Z",
-  "version": 1409,
+  "generated_utc": "2026-05-14T18:30:55Z",
+  "version": 1410,
   "breaking_alert": "USNI News: USNI News Fleet and Marine Tracker: May 11, 2026",
   "naval_deployments": [
     {
@@ -880,7 +880,7 @@
     "conflict_articles": 1,
     "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-05-14T16:01:51.576412+00:00",
+    "computed_at": "2026-05-14T18:26:15.124245+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[USNI News] USNI News Fleet and Marine Tracker: May 11, 2026",
@@ -898,7 +898,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-05-14T16:01:51.576458+00:00",
+    "last_successful_update": "2026-05-14T18:26:15.124296+00:00",
     "article_count": 50,
     "categorized_count": 24,
     "freshest_source": "USNI News",
