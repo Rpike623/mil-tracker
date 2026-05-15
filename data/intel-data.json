@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-05-15T20:46:54Z",
-  "version": 1423,
+  "generated_utc": "2026-05-15T21:44:48Z",
+  "version": 1424,
   "breaking_alert": "Naval News: Australia and Norway ink missile manufacturing MoU",
   "naval_deployments": [
     {
@@ -649,6 +649,15 @@
       ]
     },
     {
+      "title": "Middle East Conflict Costs Could Prevent Flow of Sailors to A-Schools, Reenlistment Bonuses Without Supplemental, Says CNO",
+      "link": "https://news.usni.org/2026/05/15/middle-east-conflict-costs-could-prevent-flow-of-sailors-to-a-schools-reenlistment-bonuses-without-supplemental-says-cno",
+      "published": "Fri, 15 May 2026 21:37:30 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "Saab and PGZ Group establish strategic naval domain collaboration",
       "link": "https://www.navalnews.com/naval-news/2026/05/saab-and-pgz-group-establish-strategic-naval-domain-collaboration/",
       "published": "Thu, 14 May 2026 07:31:05 +0000",
@@ -673,16 +682,6 @@
       "source": "Naval News",
       "categories": [
         "deployment"
-      ]
-    },
-    {
-      "title": "Norway Cancels Kongsberg-Malaysian Government Contract for Naval Strike Missiles, Launchers",
-      "link": "https://news.usni.org/2026/05/14/norway-cancels-kongsberg-malaysian-government-contract-for-naval-strike-missiles-launchers",
-      "published": "Thu, 14 May 2026 21:22:01 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment",
-        "conflict"
       ]
     }
   ],
@@ -934,11 +933,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 15,
+    "deployment_articles": 16,
     "conflict_articles": 6,
-    "exercise_articles": 5,
+    "exercise_articles": 6,
     "total_articles": 50,
-    "computed_at": "2026-05-15T20:46:52.500704+00:00",
+    "computed_at": "2026-05-15T21:44:42.435569+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] Australia and Norway ink missile manufacturing MoU",
@@ -956,9 +955,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-05-15T20:46:52.500743+00:00",
+    "last_successful_update": "2026-05-15T21:44:42.435608+00:00",
     "article_count": 50,
-    "categorized_count": 23,
+    "categorized_count": 25,
     "freshest_source": "Naval News",
     "freshest_title": "Australia and Norway ink missile manufacturing MoU",
     "freshest_published": "Fri, 15 May 2026 07:15:39 +0000"
