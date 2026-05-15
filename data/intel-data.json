@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-05-14T23:42:56Z",
-  "version": 1414,
+  "generated_utc": "2026-05-15T01:50:32Z",
+  "version": 1415,
   "breaking_alert": "USNI News: New Navy Shipbuilding Plan: Trump-class Battleship will be Nuclear-powered, Carrier Design is Under Review",
   "naval_deployments": [
     {
@@ -891,7 +891,7 @@
     "conflict_articles": 2,
     "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-05-14T23:42:53.731886+00:00",
+    "computed_at": "2026-05-15T01:50:26.373856+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[USNI News] New Navy Shipbuilding Plan: Trump-class Battleship will be Nuclear-powered, Carrier Design is Under Review",
@@ -909,7 +909,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-05-14T23:42:53.731928+00:00",
+    "last_successful_update": "2026-05-15T01:50:26.373899+00:00",
     "article_count": 50,
     "categorized_count": 20,
     "freshest_source": "USNI News",
