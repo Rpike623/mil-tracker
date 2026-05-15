@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-05-15T05:43:20Z",
-  "version": 1416,
-  "breaking_alert": "USNI News: New Navy Shipbuilding Plan: Trump-class Battleship will be Nuclear-powered, Carrier Design is Under Review",
+  "generated_utc": "2026-05-15T08:34:00Z",
+  "version": 1417,
+  "breaking_alert": "Naval News: Australia and Norway ink missile manufacturing MoU",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -676,9 +676,9 @@
       ]
     },
     {
-      "title": "U.S. Navy reveals future plans for it’s aircraft carrier fleet",
-      "link": "https://www.navalnews.com/naval-news/2026/05/u-s-navy-reveals-future-plans-for-its-aircraft-carrier-fleet/",
-      "published": "Wed, 13 May 2026 07:55:12 +0000",
+      "title": "Russian Nuclear Submarines, Thousands of Miles From Ukraine, Get Anti-Drone Defenses",
+      "link": "https://www.navalnews.com/naval-news/2026/05/russian-nuclear-submarines-thousands-of-miles-from-ukraine-get-anti-drone-defenses/",
+      "published": "Wed, 13 May 2026 08:29:00 +0000",
       "source": "Naval News",
       "categories": [
         "deployment"
@@ -837,6 +837,15 @@
   },
   "_conflict_news_refs": [
     {
+      "title": "Australia and Norway ink missile manufacturing MoU",
+      "link": "https://www.navalnews.com/naval-news/2026/05/australia-and-norway-ink-missile-manufacturing-mou/",
+      "published": "Fri, 15 May 2026 07:15:39 +0000",
+      "source": "Naval News",
+      "categories": [
+        "conflict"
+      ]
+    },
+    {
       "title": "Japan fires first-ever missiles from Philippine soil",
       "link": "https://www.defensenews.com/global/asia-pacific/2026/05/14/japan-fires-first-ever-missiles-from-philippine-soil/",
       "published": "Thu, 14 May 2026 11:28:03 +0000",
@@ -887,18 +896,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 17,
-    "conflict_articles": 2,
+    "deployment_articles": 16,
+    "conflict_articles": 3,
     "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-05-15T05:43:18.186154+00:00",
+    "computed_at": "2026-05-15T08:33:58.240061+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
+      "[Naval News] Australia and Norway ink missile manufacturing MoU",
       "[USNI News] New Navy Shipbuilding Plan: Trump-class Battleship will be Nuclear-powered, Carrier Design is Under Review",
       "[Defense News] US Army recovers remains of second soldier reported missing during Moroccan exercise",
       "[Military Times] US Army recovers remains of second soldier reported missing during Moroccan exercise",
-      "[Naval News] Saab and PGZ Group establish strategic naval domain collaboration",
-      "[Naval News] Indonesia Confirms Mogami Frigates and Submarine Offers from Japan"
+      "[Naval News] Saab and PGZ Group establish strategic naval domain collaboration"
     ]
   },
   "ground_intel": {
@@ -909,12 +918,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-05-15T05:43:18.186197+00:00",
+    "last_successful_update": "2026-05-15T08:33:58.240104+00:00",
     "article_count": 50,
     "categorized_count": 20,
-    "freshest_source": "USNI News",
-    "freshest_title": "New Navy Shipbuilding Plan: Trump-class Battleship will be Nuclear-powered, Carrier Design is Under Review",
-    "freshest_published": "Mon, 11 May 2026 20:45:05 +0000"
+    "freshest_source": "Naval News",
+    "freshest_title": "Australia and Norway ink missile manufacturing MoU",
+    "freshest_published": "Fri, 15 May 2026 07:15:39 +0000"
   },
   "_firms_hotspots": []
 }
