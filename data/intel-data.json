@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-05-15T22:41:23Z",
-  "version": 1425,
+  "generated_utc": "2026-05-15T23:42:05Z",
+  "version": 1426,
   "breaking_alert": "Naval News: Australia and Norway ink missile manufacturing MoU",
   "naval_deployments": [
     {
@@ -937,7 +937,7 @@
     "conflict_articles": 6,
     "exercise_articles": 5,
     "total_articles": 50,
-    "computed_at": "2026-05-15T22:41:17.241992+00:00",
+    "computed_at": "2026-05-15T23:42:02.341728+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] Australia and Norway ink missile manufacturing MoU",
@@ -955,7 +955,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-05-15T22:41:17.242027+00:00",
+    "last_successful_update": "2026-05-15T23:42:02.341790+00:00",
     "article_count": 50,
     "categorized_count": 24,
     "freshest_source": "Naval News",
