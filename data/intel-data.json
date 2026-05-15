@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-05-15T17:18:21Z",
-  "version": 1421,
+  "generated_utc": "2026-05-15T19:10:51Z",
+  "version": 1422,
   "breaking_alert": "Naval News: Australia and Norway ink missile manufacturing MoU",
   "naval_deployments": [
     {
@@ -603,6 +603,42 @@
       ]
     },
     {
+      "title": "USS Gerald R. Ford to return from 11-month deployment on Saturday",
+      "link": "https://www.defensenews.com/news/your-navy/2026/05/15/uss-gerald-r-ford-to-return-from-11-month-deployment-on-saturday/",
+      "published": "Fri, 15 May 2026 18:04:32 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "USS Gerald R. Ford to return from 11-month deployment on Saturday",
+      "link": "https://www.militarytimes.com/news/your-navy/2026/05/15/uss-gerald-r-ford-to-return-from-11-month-deployment-on-saturday/",
+      "published": "Fri, 15 May 2026 18:04:32 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Army leaders in hot seat over Poland deployment cancellation",
+      "link": "https://www.defensenews.com/news/your-military/2026/05/15/army-leaders-in-hot-seat-over-poland-deployment-cancellation/",
+      "published": "Fri, 15 May 2026 19:06:19 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Army leaders in hot seat over Poland deployment cancellation",
+      "link": "https://www.militarytimes.com/news/your-military/2026/05/15/army-leaders-in-hot-seat-over-poland-deployment-cancellation/",
+      "published": "Fri, 15 May 2026 19:06:19 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "Saab and PGZ Group establish strategic naval domain collaboration",
       "link": "https://www.navalnews.com/naval-news/2026/05/saab-and-pgz-group-establish-strategic-naval-domain-collaboration/",
       "published": "Thu, 14 May 2026 07:31:05 +0000",
@@ -630,28 +666,10 @@
       ]
     },
     {
-      "title": "Israel to extend F-35I range amid war with Iran",
-      "link": "https://www.defensenews.com/global/mideast-africa/2026/05/14/israel-to-extend-f-35i-range-amid-war-with-iran/",
-      "published": "Thu, 14 May 2026 13:46:32 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Iran military threat is diminished but not eliminated, CENTCOM chief says",
       "link": "https://www.defensenews.com/news/pentagon-congress/2026/05/14/iran-military-threat-is-diminished-but-not-eliminated-centcom-chief-says/",
       "published": "Thu, 14 May 2026 19:57:59 +0000",
       "source": "Defense News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Iran military threat is diminished but not eliminated, CENTCOM chief says",
-      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/05/14/iran-military-threat-is-diminished-but-not-eliminated-centcom-chief-says/",
-      "published": "Thu, 14 May 2026 19:57:59 +0000",
-      "source": "Military Times",
       "categories": [
         "deployment"
       ]
@@ -664,24 +682,6 @@
       "categories": [
         "deployment",
         "conflict"
-      ]
-    },
-    {
-      "title": "Iran’s Plan to Charge for Strait of Hormuz Transits Could Spread to Other Regions, Experts Warn",
-      "link": "https://news.usni.org/2026/05/14/irans-plan-to-charge-for-strait-of-hormuz-transits-could-spread-to-other-regions-experts-warn",
-      "published": "Thu, 14 May 2026 22:14:29 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Mental crisis didn’t cause airman to self-immolate in protest of Israel, Air Force found",
-      "link": "https://taskandpurpose.com/news/airman-bushnell-immolation-protest-israel/",
-      "published": "Wed, 13 May 2026 13:36:48 -0400",
-      "source": "Task & Purpose",
-      "categories": [
-        "deployment"
       ]
     }
   ],
@@ -856,15 +856,6 @@
       ]
     },
     {
-      "title": "Japan fires first-ever missiles from Philippine soil",
-      "link": "https://www.defensenews.com/global/asia-pacific/2026/05/14/japan-fires-first-ever-missiles-from-philippine-soil/",
-      "published": "Thu, 14 May 2026 11:28:03 +0000",
-      "source": "Defense News",
-      "categories": [
-        "conflict"
-      ]
-    },
-    {
       "title": "Norway Cancels Kongsberg-Malaysian Government Contract for Naval Strike Missiles, Launchers",
       "link": "https://news.usni.org/2026/05/14/norway-cancels-kongsberg-malaysian-government-contract-for-naval-strike-missiles-launchers",
       "published": "Thu, 14 May 2026 21:22:01 +0000",
@@ -924,11 +915,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 13,
-    "conflict_articles": 4,
+    "deployment_articles": 15,
+    "conflict_articles": 3,
     "exercise_articles": 5,
     "total_articles": 50,
-    "computed_at": "2026-05-15T17:18:18.791457+00:00",
+    "computed_at": "2026-05-15T19:10:48.470932+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] Australia and Norway ink missile manufacturing MoU",
@@ -946,9 +937,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-05-15T17:18:18.791512+00:00",
+    "last_successful_update": "2026-05-15T19:10:48.470973+00:00",
     "article_count": 50,
-    "categorized_count": 20,
+    "categorized_count": 21,
     "freshest_source": "Naval News",
     "freshest_title": "Australia and Norway ink missile manufacturing MoU",
     "freshest_published": "Fri, 15 May 2026 07:15:39 +0000"
