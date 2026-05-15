@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-05-15T08:34:00Z",
-  "version": 1417,
+  "generated_utc": "2026-05-15T11:09:31Z",
+  "version": 1418,
   "breaking_alert": "Naval News: Australia and Norway ink missile manufacturing MoU",
   "naval_deployments": [
     {
@@ -676,10 +676,10 @@
       ]
     },
     {
-      "title": "Russian Nuclear Submarines, Thousands of Miles From Ukraine, Get Anti-Drone Defenses",
-      "link": "https://www.navalnews.com/naval-news/2026/05/russian-nuclear-submarines-thousands-of-miles-from-ukraine-get-anti-drone-defenses/",
-      "published": "Wed, 13 May 2026 08:29:00 +0000",
-      "source": "Naval News",
+      "title": "Mental crisis didn’t cause airman to self-immolate in protest of Israel, Air Force found",
+      "link": "https://taskandpurpose.com/news/airman-bushnell-immolation-protest-israel/",
+      "published": "Wed, 13 May 2026 13:36:48 -0400",
+      "source": "Task & Purpose",
       "categories": [
         "deployment"
       ]
@@ -846,6 +846,16 @@
       ]
     },
     {
+      "title": "U.S. Missile Surge, Reach Showcased at Philippine Balikatan Drills",
+      "link": "https://www.navalnews.com/naval-news/2026/05/u-s-missile-surge-reach-showcased-at-philippine-balikatan-drills/",
+      "published": "Fri, 15 May 2026 09:44:31 +0000",
+      "source": "Naval News",
+      "categories": [
+        "exercise",
+        "conflict"
+      ]
+    },
+    {
       "title": "Japan fires first-ever missiles from Philippine soil",
       "link": "https://www.defensenews.com/global/asia-pacific/2026/05/14/japan-fires-first-ever-missiles-from-philippine-soil/",
       "published": "Thu, 14 May 2026 11:28:03 +0000",
@@ -867,6 +877,34 @@
   ],
   "_exercise_news_refs": [
     {
+      "title": "U.S. Missile Surge, Reach Showcased at Philippine Balikatan Drills",
+      "link": "https://www.navalnews.com/naval-news/2026/05/u-s-missile-surge-reach-showcased-at-philippine-balikatan-drills/",
+      "published": "Fri, 15 May 2026 09:44:31 +0000",
+      "source": "Naval News",
+      "categories": [
+        "exercise",
+        "conflict"
+      ]
+    },
+    {
+      "title": "Near Russian border, NATO grapples with ground robots in combat",
+      "link": "https://www.defensenews.com/global/europe/2026/05/15/near-russian-border-nato-grapples-with-ground-robots-in-combat/",
+      "published": "Fri, 15 May 2026 10:01:25 +0000",
+      "source": "Defense News",
+      "categories": [
+        "exercise"
+      ]
+    },
+    {
+      "title": "Near Russian border, NATO grapples with ground robots in combat",
+      "link": "https://www.militarytimes.com/global/europe/2026/05/15/near-russian-border-nato-grapples-with-ground-robots-in-combat/",
+      "published": "Fri, 15 May 2026 10:01:25 +0000",
+      "source": "Military Times",
+      "categories": [
+        "exercise"
+      ]
+    },
+    {
       "title": "US Army recovers remains of second soldier reported missing during Moroccan exercise",
       "link": "https://www.defensenews.com/news/your-military/2026/05/14/us-army-recovers-remains-of-second-soldier-reported-missing-during-moroccan-exercise/",
       "published": "Thu, 14 May 2026 00:38:08 +0000",
@@ -883,31 +921,21 @@
       "categories": [
         "exercise"
       ]
-    },
-    {
-      "title": "Energy secretary: Iran ‘frighteningly close’ to nuclear weapon despite Operation Epic Fury",
-      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/05/13/energy-secretary-iran-frighteningly-close-to-nuclear-weapon-despite-operation-epic-fury/",
-      "published": "Wed, 13 May 2026 22:51:03 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment",
-        "exercise"
-      ]
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 16,
-    "conflict_articles": 3,
-    "exercise_articles": 3,
+    "deployment_articles": 13,
+    "conflict_articles": 4,
+    "exercise_articles": 5,
     "total_articles": 50,
-    "computed_at": "2026-05-15T08:33:58.240061+00:00",
+    "computed_at": "2026-05-15T11:09:27.863598+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] Australia and Norway ink missile manufacturing MoU",
-      "[USNI News] New Navy Shipbuilding Plan: Trump-class Battleship will be Nuclear-powered, Carrier Design is Under Review",
-      "[Defense News] US Army recovers remains of second soldier reported missing during Moroccan exercise",
-      "[Military Times] US Army recovers remains of second soldier reported missing during Moroccan exercise",
-      "[Naval News] Saab and PGZ Group establish strategic naval domain collaboration"
+      "[Naval News] U.S. Missile Surge, Reach Showcased at Philippine Balikatan Drills",
+      "[Defense News] Near Russian border, NATO grapples with ground robots in combat",
+      "[Military Times] Near Russian border, NATO grapples with ground robots in combat",
+      "[USNI News] New Navy Shipbuilding Plan: Trump-class Battleship will be Nuclear-powered, Carrier Design is Under Review"
     ]
   },
   "ground_intel": {
@@ -918,7 +946,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-05-15T08:33:58.240104+00:00",
+    "last_successful_update": "2026-05-15T11:09:27.863639+00:00",
     "article_count": 50,
     "categorized_count": 20,
     "freshest_source": "Naval News",
