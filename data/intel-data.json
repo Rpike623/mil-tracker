@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-05-15T19:10:51Z",
-  "version": 1422,
+  "generated_utc": "2026-05-15T20:46:54Z",
+  "version": 1423,
   "breaking_alert": "Naval News: Australia and Norway ink missile manufacturing MoU",
   "naval_deployments": [
     {
@@ -594,6 +594,16 @@
   ],
   "_naval_news_refs": [
     {
+      "title": "Pentagon cancels planned deployment of long-range missile unit to Germany",
+      "link": "https://taskandpurpose.com/news/army-missile-germany-deployment-canceled/",
+      "published": "Fri, 15 May 2026 15:31:25 -0400",
+      "source": "Task & Purpose",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
+    },
+    {
       "title": "Future aircraft carrier Doris Miller delayed until 2034",
       "link": "https://www.militarytimes.com/news/your-navy/2026/05/15/future-aircraft-carrier-doris-miller-delayed-until-2034/",
       "published": "Fri, 15 May 2026 16:50:31 +0000",
@@ -661,15 +671,6 @@
       "link": "https://www.navalnews.com/naval-news/2026/05/u-s-navy-goes-all-in-on-submarines-in-released-shipbuilding-plan/",
       "published": "Thu, 14 May 2026 12:57:38 +0000",
       "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Iran military threat is diminished but not eliminated, CENTCOM chief says",
-      "link": "https://www.defensenews.com/news/pentagon-congress/2026/05/14/iran-military-threat-is-diminished-but-not-eliminated-centcom-chief-says/",
-      "published": "Thu, 14 May 2026 19:57:59 +0000",
-      "source": "Defense News",
       "categories": [
         "deployment"
       ]
@@ -856,12 +857,30 @@
       ]
     },
     {
-      "title": "Norway Cancels Kongsberg-Malaysian Government Contract for Naval Strike Missiles, Launchers",
-      "link": "https://news.usni.org/2026/05/14/norway-cancels-kongsberg-malaysian-government-contract-for-naval-strike-missiles-launchers",
-      "published": "Thu, 14 May 2026 21:22:01 +0000",
-      "source": "USNI News",
+      "title": "Pentagon cancels planned deployment of long-range missile unit to Germany",
+      "link": "https://taskandpurpose.com/news/army-missile-germany-deployment-canceled/",
+      "published": "Fri, 15 May 2026 15:31:25 -0400",
+      "source": "Task & Purpose",
       "categories": [
         "deployment",
+        "conflict"
+      ]
+    },
+    {
+      "title": "US Army to receive thousands of Barracuda-500M cruise missiles in Anduril deal",
+      "link": "https://www.defensenews.com/industry/techwatch/2026/05/15/us-army-to-receive-thousands-of-barracuda-500m-cruise-missiles-in-anduril-deal/",
+      "published": "Fri, 15 May 2026 19:27:58 +0000",
+      "source": "Defense News",
+      "categories": [
+        "conflict"
+      ]
+    },
+    {
+      "title": "US Army to receive thousands of Barracuda-500M cruise missiles in Anduril deal",
+      "link": "https://www.militarytimes.com/industry/techwatch/2026/05/15/us-army-to-receive-thousands-of-barracuda-500m-cruise-missiles-in-anduril-deal/",
+      "published": "Fri, 15 May 2026 19:27:58 +0000",
+      "source": "Military Times",
+      "categories": [
         "conflict"
       ]
     }
@@ -916,17 +935,17 @@
   ],
   "_threat_indicators": {
     "deployment_articles": 15,
-    "conflict_articles": 3,
+    "conflict_articles": 6,
     "exercise_articles": 5,
     "total_articles": 50,
-    "computed_at": "2026-05-15T19:10:48.470932+00:00",
+    "computed_at": "2026-05-15T20:46:52.500704+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] Australia and Norway ink missile manufacturing MoU",
       "[Naval News] U.S. Missile Surge, Reach Showcased at Philippine Balikatan Drills",
       "[Defense News] Near Russian border, NATO grapples with ground robots in combat",
       "[Military Times] Near Russian border, NATO grapples with ground robots in combat",
-      "[Defense News] US Marines practice seizing remote islands in Philippine exercise"
+      "[Task & Purpose] Pentagon cancels planned deployment of long-range missile unit to Germany"
     ]
   },
   "ground_intel": {
@@ -937,9 +956,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-05-15T19:10:48.470973+00:00",
+    "last_successful_update": "2026-05-15T20:46:52.500743+00:00",
     "article_count": 50,
-    "categorized_count": 21,
+    "categorized_count": 23,
     "freshest_source": "Naval News",
     "freshest_title": "Australia and Norway ink missile manufacturing MoU",
     "freshest_published": "Fri, 15 May 2026 07:15:39 +0000"
