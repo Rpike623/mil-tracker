@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-05-15T21:44:48Z",
-  "version": 1424,
+  "generated_utc": "2026-05-15T22:41:23Z",
+  "version": 1425,
   "breaking_alert": "Naval News: Australia and Norway ink missile manufacturing MoU",
   "naval_deployments": [
     {
@@ -905,15 +905,6 @@
       ]
     },
     {
-      "title": "Near Russian border, NATO grapples with ground robots in combat",
-      "link": "https://www.militarytimes.com/global/europe/2026/05/15/near-russian-border-nato-grapples-with-ground-robots-in-combat/",
-      "published": "Fri, 15 May 2026 10:01:25 +0000",
-      "source": "Military Times",
-      "categories": [
-        "exercise"
-      ]
-    },
-    {
       "title": "US Marines practice seizing remote islands in Philippine exercise",
       "link": "https://www.defensenews.com/global/asia-pacific/2026/05/15/us-marines-practice-seizing-remote-islands-in-philippine-exercise/",
       "published": "Fri, 15 May 2026 16:31:01 +0000",
@@ -930,21 +921,30 @@
       "categories": [
         "exercise"
       ]
+    },
+    {
+      "title": "Senators introduce bill to abolish military draft agency",
+      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/05/15/senators-introduce-bill-to-abolish-military-draft-agency/",
+      "published": "Fri, 15 May 2026 21:34:33 +0000",
+      "source": "Military Times",
+      "categories": [
+        "exercise"
+      ]
     }
   ],
   "_threat_indicators": {
     "deployment_articles": 16,
     "conflict_articles": 6,
-    "exercise_articles": 6,
+    "exercise_articles": 5,
     "total_articles": 50,
-    "computed_at": "2026-05-15T21:44:42.435569+00:00",
+    "computed_at": "2026-05-15T22:41:17.241992+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] Australia and Norway ink missile manufacturing MoU",
       "[Naval News] U.S. Missile Surge, Reach Showcased at Philippine Balikatan Drills",
       "[Defense News] Near Russian border, NATO grapples with ground robots in combat",
-      "[Military Times] Near Russian border, NATO grapples with ground robots in combat",
-      "[Task & Purpose] Pentagon cancels planned deployment of long-range missile unit to Germany"
+      "[Task & Purpose] Pentagon cancels planned deployment of long-range missile unit to Germany",
+      "[Defense News] US Marines practice seizing remote islands in Philippine exercise"
     ]
   },
   "ground_intel": {
@@ -955,9 +955,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-05-15T21:44:42.435608+00:00",
+    "last_successful_update": "2026-05-15T22:41:17.242027+00:00",
     "article_count": 50,
-    "categorized_count": 25,
+    "categorized_count": 24,
     "freshest_source": "Naval News",
     "freshest_title": "Australia and Norway ink missile manufacturing MoU",
     "freshest_published": "Fri, 15 May 2026 07:15:39 +0000"
