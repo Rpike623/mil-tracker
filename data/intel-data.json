@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-05-16T14:16:05Z",
-  "version": 1434,
+  "generated_utc": "2026-05-16T15:44:21Z",
+  "version": 1435,
   "breaking_alert": "Naval News: Australia and Norway ink missile manufacturing MoU",
   "naval_deployments": [
     {
@@ -667,9 +667,9 @@
       ]
     },
     {
-      "title": "Indonesia Confirms Mogami Frigates and Submarine Offers from Japan",
-      "link": "https://www.navalnews.com/naval-news/2026/05/indonesia-confirms-mogami-frigates-and-submarine-offers-from-japan/",
-      "published": "Thu, 14 May 2026 07:45:56 +0000",
+      "title": "Türkiye Starts Work on HÜRJET Naval Variant for Aircraft Carrier",
+      "link": "https://www.navalnews.com/naval-news/2026/05/turkiye-starts-work-on-hurjet-naval-variant-for-aircraft-carrier/",
+      "published": "Sat, 16 May 2026 14:47:32 +0000",
       "source": "Naval News",
       "categories": [
         "deployment"
@@ -937,7 +937,7 @@
     "conflict_articles": 6,
     "exercise_articles": 5,
     "total_articles": 50,
-    "computed_at": "2026-05-16T14:16:00.194682+00:00",
+    "computed_at": "2026-05-16T15:44:19.260019+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] Australia and Norway ink missile manufacturing MoU",
@@ -955,7 +955,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-05-16T14:16:00.194720+00:00",
+    "last_successful_update": "2026-05-16T15:44:19.260062+00:00",
     "article_count": 50,
     "categorized_count": 23,
     "freshest_source": "Naval News",
