@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-05-16T18:43:46Z",
-  "version": 1438,
+  "generated_utc": "2026-05-16T19:54:00Z",
+  "version": 1439,
   "breaking_alert": "Naval News: Australia and Norway ink missile manufacturing MoU",
   "naval_deployments": [
     {
@@ -676,12 +676,13 @@
       ]
     },
     {
-      "title": "U.S. Navy goes All In on Submarines in Released Shipbuilding Plan",
-      "link": "https://www.navalnews.com/naval-news/2026/05/u-s-navy-goes-all-in-on-submarines-in-released-shipbuilding-plan/",
-      "published": "Thu, 14 May 2026 12:57:38 +0000",
-      "source": "Naval News",
+      "title": "Ford Carrier Strike Group awarded rare Presidential Unit Citation for Iran War",
+      "link": "https://taskandpurpose.com/news/ford-carrier-group-presidential-unit-citation/",
+      "published": "Sat, 16 May 2026 15:35:05 -0400",
+      "source": "Task & Purpose",
       "categories": [
-        "deployment"
+        "deployment",
+        "conflict"
       ]
     }
   ],
@@ -933,11 +934,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 15,
-    "conflict_articles": 6,
+    "deployment_articles": 16,
+    "conflict_articles": 7,
     "exercise_articles": 5,
     "total_articles": 50,
-    "computed_at": "2026-05-16T18:43:40.093470+00:00",
+    "computed_at": "2026-05-16T19:53:54.289627+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] Australia and Norway ink missile manufacturing MoU",
@@ -955,9 +956,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-05-16T18:43:40.093510+00:00",
+    "last_successful_update": "2026-05-16T19:53:54.289667+00:00",
     "article_count": 50,
-    "categorized_count": 23,
+    "categorized_count": 24,
     "freshest_source": "Naval News",
     "freshest_title": "Australia and Norway ink missile manufacturing MoU",
     "freshest_published": "Fri, 15 May 2026 07:15:39 +0000"
