@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-05-17T20:41:18Z",
-  "version": 1456,
+  "generated_utc": "2026-05-17T21:42:07Z",
+  "version": 1457,
   "breaking_alert": "Defense News: Near Russian border, NATO grapples with ground robots in combat",
   "naval_deployments": [
     {
@@ -935,11 +935,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 16,
+    "deployment_articles": 17,
     "conflict_articles": 5,
     "exercise_articles": 5,
     "total_articles": 50,
-    "computed_at": "2026-05-17T20:41:16.408671+00:00",
+    "computed_at": "2026-05-17T21:41:58.909995+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Defense News] Near Russian border, NATO grapples with ground robots in combat",
@@ -957,9 +957,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-05-17T20:41:16.408716+00:00",
+    "last_successful_update": "2026-05-17T21:41:58.910029+00:00",
     "article_count": 50,
-    "categorized_count": 22,
+    "categorized_count": 23,
     "freshest_source": "Defense News",
     "freshest_title": "Near Russian border, NATO grapples with ground robots in combat",
     "freshest_published": "Fri, 15 May 2026 10:01:25 +0000"
