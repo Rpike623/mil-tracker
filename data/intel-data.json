@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-05-17T19:57:29Z",
-  "version": 1455,
-  "breaking_alert": "Naval News: U.S. Missile Surge, Reach Showcased at Philippine Balikatan Drills",
+  "generated_utc": "2026-05-17T20:41:18Z",
+  "version": 1456,
+  "breaking_alert": "Defense News: Near Russian border, NATO grapples with ground robots in combat",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -838,16 +838,6 @@
   },
   "_conflict_news_refs": [
     {
-      "title": "U.S. Missile Surge, Reach Showcased at Philippine Balikatan Drills",
-      "link": "https://www.navalnews.com/naval-news/2026/05/u-s-missile-surge-reach-showcased-at-philippine-balikatan-drills/",
-      "published": "Fri, 15 May 2026 09:44:31 +0000",
-      "source": "Naval News",
-      "categories": [
-        "exercise",
-        "conflict"
-      ]
-    },
-    {
       "title": "Pentagon cancels planned deployment of long-range missile unit to Germany",
       "link": "https://taskandpurpose.com/news/army-missile-germany-deployment-canceled/",
       "published": "Fri, 15 May 2026 15:31:25 -0400",
@@ -884,19 +874,19 @@
         "deployment",
         "conflict"
       ]
+    },
+    {
+      "title": "Norway Cancels Kongsberg-Malaysian Government Contract for Naval Strike Missiles, Launchers",
+      "link": "https://news.usni.org/2026/05/14/norway-cancels-kongsberg-malaysian-government-contract-for-naval-strike-missiles-launchers",
+      "published": "Thu, 14 May 2026 21:22:01 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
     }
   ],
   "_exercise_news_refs": [
-    {
-      "title": "U.S. Missile Surge, Reach Showcased at Philippine Balikatan Drills",
-      "link": "https://www.navalnews.com/naval-news/2026/05/u-s-missile-surge-reach-showcased-at-philippine-balikatan-drills/",
-      "published": "Fri, 15 May 2026 09:44:31 +0000",
-      "source": "Naval News",
-      "categories": [
-        "exercise",
-        "conflict"
-      ]
-    },
     {
       "title": "Near Russian border, NATO grapples with ground robots in combat",
       "link": "https://www.defensenews.com/global/europe/2026/05/15/near-russian-border-nato-grapples-with-ground-robots-in-combat/",
@@ -932,21 +922,31 @@
       "categories": [
         "exercise"
       ]
+    },
+    {
+      "title": "Indonesia prepares for carrier operations ahead of Garibaldi transfer",
+      "link": "https://www.navalnews.com/naval-news/2026/05/indonesia-prepares-for-carrier-operations-ahead-of-garibaldi-transfer/",
+      "published": "Sun, 17 May 2026 08:01:36 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment",
+        "exercise"
+      ]
     }
   ],
   "_threat_indicators": {
     "deployment_articles": 16,
-    "conflict_articles": 6,
-    "exercise_articles": 6,
+    "conflict_articles": 5,
+    "exercise_articles": 5,
     "total_articles": 50,
-    "computed_at": "2026-05-17T19:57:26.457082+00:00",
+    "computed_at": "2026-05-17T20:41:16.408671+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
-      "[Naval News] U.S. Missile Surge, Reach Showcased at Philippine Balikatan Drills",
       "[Defense News] Near Russian border, NATO grapples with ground robots in combat",
       "[Task & Purpose] Pentagon cancels planned deployment of long-range missile unit to Germany",
       "[Defense News] US Marines practice seizing remote islands in Philippine exercise",
-      "[Military Times] US Marines practice seizing remote islands in Philippine exercise"
+      "[Military Times] US Marines practice seizing remote islands in Philippine exercise",
+      "[Military Times] Future aircraft carrier Doris Miller delayed until 2034"
     ]
   },
   "ground_intel": {
@@ -957,12 +957,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-05-17T19:57:26.457121+00:00",
+    "last_successful_update": "2026-05-17T20:41:16.408716+00:00",
     "article_count": 50,
-    "categorized_count": 23,
-    "freshest_source": "Naval News",
-    "freshest_title": "U.S. Missile Surge, Reach Showcased at Philippine Balikatan Drills",
-    "freshest_published": "Fri, 15 May 2026 09:44:31 +0000"
+    "categorized_count": 22,
+    "freshest_source": "Defense News",
+    "freshest_title": "Near Russian border, NATO grapples with ground robots in combat",
+    "freshest_published": "Fri, 15 May 2026 10:01:25 +0000"
   },
   "_firms_hotspots": []
 }
