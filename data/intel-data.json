@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-05-17T14:18:23Z",
-  "version": 1450,
-  "breaking_alert": "Naval News: Australia and Norway ink missile manufacturing MoU",
+  "generated_utc": "2026-05-17T15:46:46Z",
+  "version": 1451,
+  "breaking_alert": "Naval News: U.S. Missile Surge, Reach Showcased at Philippine Balikatan Drills",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -838,15 +838,6 @@
   },
   "_conflict_news_refs": [
     {
-      "title": "Australia and Norway ink missile manufacturing MoU",
-      "link": "https://www.navalnews.com/naval-news/2026/05/australia-and-norway-ink-missile-manufacturing-mou/",
-      "published": "Fri, 15 May 2026 07:15:39 +0000",
-      "source": "Naval News",
-      "categories": [
-        "conflict"
-      ]
-    },
-    {
       "title": "U.S. Missile Surge, Reach Showcased at Philippine Balikatan Drills",
       "link": "https://www.navalnews.com/naval-news/2026/05/u-s-missile-surge-reach-showcased-at-philippine-balikatan-drills/",
       "published": "Fri, 15 May 2026 09:44:31 +0000",
@@ -881,6 +872,16 @@
       "published": "Fri, 15 May 2026 19:27:58 +0000",
       "source": "Military Times",
       "categories": [
+        "conflict"
+      ]
+    },
+    {
+      "title": "Ford Carrier Strike Group awarded rare Presidential Unit Citation for Iran War",
+      "link": "https://taskandpurpose.com/news/ford-carrier-group-presidential-unit-citation/",
+      "published": "Sat, 16 May 2026 15:35:05 -0400",
+      "source": "Task & Purpose",
+      "categories": [
+        "deployment",
         "conflict"
       ]
     }
@@ -935,17 +936,17 @@
   ],
   "_threat_indicators": {
     "deployment_articles": 17,
-    "conflict_articles": 7,
+    "conflict_articles": 6,
     "exercise_articles": 6,
     "total_articles": 50,
-    "computed_at": "2026-05-17T14:18:20.923617+00:00",
+    "computed_at": "2026-05-17T15:46:41.700080+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
-      "[Naval News] Australia and Norway ink missile manufacturing MoU",
       "[Naval News] U.S. Missile Surge, Reach Showcased at Philippine Balikatan Drills",
       "[Defense News] Near Russian border, NATO grapples with ground robots in combat",
       "[Task & Purpose] Pentagon cancels planned deployment of long-range missile unit to Germany",
-      "[Defense News] US Marines practice seizing remote islands in Philippine exercise"
+      "[Defense News] US Marines practice seizing remote islands in Philippine exercise",
+      "[Military Times] US Marines practice seizing remote islands in Philippine exercise"
     ]
   },
   "ground_intel": {
@@ -956,12 +957,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-05-17T14:18:20.923650+00:00",
+    "last_successful_update": "2026-05-17T15:46:41.700121+00:00",
     "article_count": 50,
-    "categorized_count": 25,
+    "categorized_count": 24,
     "freshest_source": "Naval News",
-    "freshest_title": "Australia and Norway ink missile manufacturing MoU",
-    "freshest_published": "Fri, 15 May 2026 07:15:39 +0000"
+    "freshest_title": "U.S. Missile Surge, Reach Showcased at Philippine Balikatan Drills",
+    "freshest_published": "Fri, 15 May 2026 09:44:31 +0000"
   },
   "_firms_hotspots": []
 }
