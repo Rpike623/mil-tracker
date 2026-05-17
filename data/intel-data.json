@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-05-17T18:47:57Z",
-  "version": 1454,
+  "generated_utc": "2026-05-17T19:57:29Z",
+  "version": 1455,
   "breaking_alert": "Naval News: U.S. Missile Surge, Reach Showcased at Philippine Balikatan Drills",
   "naval_deployments": [
     {
@@ -935,11 +935,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 17,
+    "deployment_articles": 16,
     "conflict_articles": 6,
     "exercise_articles": 6,
     "total_articles": 50,
-    "computed_at": "2026-05-17T18:47:51.712233+00:00",
+    "computed_at": "2026-05-17T19:57:26.457082+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] U.S. Missile Surge, Reach Showcased at Philippine Balikatan Drills",
@@ -957,9 +957,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-05-17T18:47:51.712275+00:00",
+    "last_successful_update": "2026-05-17T19:57:26.457121+00:00",
     "article_count": 50,
-    "categorized_count": 24,
+    "categorized_count": 23,
     "freshest_source": "Naval News",
     "freshest_title": "U.S. Missile Surge, Reach Showcased at Philippine Balikatan Drills",
     "freshest_published": "Fri, 15 May 2026 09:44:31 +0000"
