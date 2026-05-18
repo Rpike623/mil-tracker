@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-05-18T17:22:22Z",
-  "version": 1464,
+  "generated_utc": "2026-05-18T19:19:34Z",
+  "version": 1465,
   "breaking_alert": "Task & Purpose: Pentagon cancels planned deployment of long-range missile unit to Germany",
   "naval_deployments": [
     {
@@ -622,15 +622,6 @@
       ]
     },
     {
-      "title": "Army leaders in hot seat over Poland deployment cancellation",
-      "link": "https://www.militarytimes.com/news/your-military/2026/05/15/army-leaders-in-hot-seat-over-poland-deployment-cancellation/",
-      "published": "Fri, 15 May 2026 19:06:19 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Middle East Conflict Costs Could Prevent Flow of Sailors to A-Schools, Reenlistment Bonuses Without Supplemental, Says CNO",
       "link": "https://news.usni.org/2026/05/15/middle-east-conflict-costs-could-prevent-flow-of-sailors-to-a-schools-reenlistment-bonuses-without-supplemental-says-cno",
       "published": "Fri, 15 May 2026 21:37:30 +0000",
@@ -667,19 +658,29 @@
       ]
     },
     {
-      "title": "USS Gerald R. Ford Comes Home",
-      "link": "https://news.usni.org/2026/05/16/uss-gerald-r-ford-comes-home",
-      "published": "Sat, 16 May 2026 12:57:25 +0000",
+      "title": "Ford Carrier Strike Group receives Presidential Unit Citation after historic deployment",
+      "link": "https://www.militarytimes.com/news/your-navy/2026/05/18/ford-carrier-strike-group-receives-presidential-unit-citation-after-historic-deployment/",
+      "published": "Mon, 18 May 2026 18:26:06 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
+    },
+    {
+      "title": "USNI News Fleet and Marine Tracker: May 18, 2026",
+      "link": "https://news.usni.org/2026/05/18/usni-news-fleet-and-marine-tracker-may-18-2026",
+      "published": "Mon, 18 May 2026 18:58:44 +0000",
       "source": "USNI News",
       "categories": [
         "deployment"
       ]
     },
     {
-      "title": "Türkiye Starts Work on HÜRJET Naval Variant for Aircraft Carrier",
-      "link": "https://www.navalnews.com/naval-news/2026/05/turkiye-starts-work-on-hurjet-naval-variant-for-aircraft-carrier/",
-      "published": "Sat, 16 May 2026 14:47:32 +0000",
-      "source": "Naval News",
+      "title": "USS Gerald R. Ford Comes Home",
+      "link": "https://news.usni.org/2026/05/16/uss-gerald-r-ford-comes-home",
+      "published": "Sat, 16 May 2026 12:57:25 +0000",
+      "source": "USNI News",
       "categories": [
         "deployment"
       ]
@@ -856,20 +857,21 @@
       ]
     },
     {
-      "title": "US Army to receive thousands of Barracuda-500M cruise missiles in Anduril deal",
-      "link": "https://www.militarytimes.com/industry/techwatch/2026/05/15/us-army-to-receive-thousands-of-barracuda-500m-cruise-missiles-in-anduril-deal/",
-      "published": "Fri, 15 May 2026 19:27:58 +0000",
+      "title": "Historian’s nearly two decade quest to piece together America’s last major offensive in Vietnam",
+      "link": "https://www.militarytimes.com/veterans/military-history/2026/05/18/historians-nearly-two-decade-quest-to-piece-together-americas-last-major-offensive-in-vietnam/",
+      "published": "Mon, 18 May 2026 16:45:05 +0000",
       "source": "Military Times",
       "categories": [
         "conflict"
       ]
     },
     {
-      "title": "Historian’s nearly two decade quest to piece together America’s last major offensive in Vietnam",
-      "link": "https://www.militarytimes.com/veterans/military-history/2026/05/18/historians-nearly-two-decade-quest-to-piece-together-americas-last-major-offensive-in-vietnam/",
-      "published": "Mon, 18 May 2026 16:45:05 +0000",
+      "title": "Ford Carrier Strike Group receives Presidential Unit Citation after historic deployment",
+      "link": "https://www.militarytimes.com/news/your-navy/2026/05/18/ford-carrier-strike-group-receives-presidential-unit-citation-after-historic-deployment/",
+      "published": "Mon, 18 May 2026 18:26:06 +0000",
       "source": "Military Times",
       "categories": [
+        "deployment",
         "conflict"
       ]
     },
@@ -895,15 +897,6 @@
       ]
     },
     {
-      "title": "Senators introduce bill to abolish military draft agency",
-      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/05/15/senators-introduce-bill-to-abolish-military-draft-agency/",
-      "published": "Fri, 15 May 2026 21:34:33 +0000",
-      "source": "Military Times",
-      "categories": [
-        "exercise"
-      ]
-    },
-    {
       "title": "Indonesia prepares for carrier operations ahead of Garibaldi transfer",
       "link": "https://www.navalnews.com/naval-news/2026/05/indonesia-prepares-for-carrier-operations-ahead-of-garibaldi-transfer/",
       "published": "Sun, 17 May 2026 08:01:36 +0000",
@@ -917,16 +910,16 @@
   "_threat_indicators": {
     "deployment_articles": 18,
     "conflict_articles": 6,
-    "exercise_articles": 3,
+    "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-05-18T17:22:16.629508+00:00",
+    "computed_at": "2026-05-18T19:19:32.504579+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Task & Purpose] Pentagon cancels planned deployment of long-range missile unit to Germany",
       "[Defense News] US Marines practice seizing remote islands in Philippine exercise",
       "[Defense News] USS Gerald R. Ford to return from 11-month deployment on Saturday",
       "[Defense News] Army leaders in hot seat over Poland deployment cancellation",
-      "[Military Times] Army leaders in hot seat over Poland deployment cancellation"
+      "[Defense News] US Army to receive thousands of Barracuda-500M cruise missiles in Anduril deal"
     ]
   },
   "ground_intel": {
@@ -937,9 +930,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-05-18T17:22:16.629554+00:00",
+    "last_successful_update": "2026-05-18T19:19:32.504622+00:00",
     "article_count": 50,
-    "categorized_count": 23,
+    "categorized_count": 21,
     "freshest_source": "Task & Purpose",
     "freshest_title": "Pentagon cancels planned deployment of long-range missile unit to Germany",
     "freshest_published": "Fri, 15 May 2026 15:31:25 -0400"
