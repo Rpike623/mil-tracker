@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-05-18T01:56:21Z",
-  "version": 1460,
+  "generated_utc": "2026-05-18T06:04:04Z",
+  "version": 1461,
   "breaking_alert": "Defense News: Near Russian border, NATO grapples with ground robots in combat",
   "naval_deployments": [
     {
@@ -658,6 +658,15 @@
       ]
     },
     {
+      "title": "Italy is forward-deploying mine countermeasures assets in the Middle East",
+      "link": "https://www.navalnews.com/naval-news/2026/05/italy-is-forward-deploying-mine-countermeasures-assets-in-the-middle-east/",
+      "published": "Mon, 18 May 2026 05:58:00 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "USS Gerald R. Ford Comes Home",
       "link": "https://news.usni.org/2026/05/16/uss-gerald-r-ford-comes-home",
       "published": "Sat, 16 May 2026 12:57:25 +0000",
@@ -673,16 +682,6 @@
       "source": "Naval News",
       "categories": [
         "deployment"
-      ]
-    },
-    {
-      "title": "Ford Carrier Strike Group awarded rare Presidential Unit Citation for Iran War",
-      "link": "https://taskandpurpose.com/news/ford-carrier-group-presidential-unit-citation/",
-      "published": "Sat, 16 May 2026 15:35:05 -0400",
-      "source": "Task & Purpose",
-      "categories": [
-        "deployment",
-        "conflict"
       ]
     }
   ],
@@ -935,11 +934,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 17,
+    "deployment_articles": 18,
     "conflict_articles": 5,
     "exercise_articles": 5,
     "total_articles": 50,
-    "computed_at": "2026-05-18T01:56:18.277369+00:00",
+    "computed_at": "2026-05-18T06:03:55.401211+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Defense News] Near Russian border, NATO grapples with ground robots in combat",
@@ -957,9 +956,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-05-18T01:56:18.277409+00:00",
+    "last_successful_update": "2026-05-18T06:03:55.401249+00:00",
     "article_count": 50,
-    "categorized_count": 23,
+    "categorized_count": 24,
     "freshest_source": "Defense News",
     "freshest_title": "Near Russian border, NATO grapples with ground robots in combat",
     "freshest_published": "Fri, 15 May 2026 10:01:25 +0000"
