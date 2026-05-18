@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-05-18T14:21:43Z",
-  "version": 1463,
-  "breaking_alert": "Defense News: Near Russian border, NATO grapples with ground robots in combat",
+  "generated_utc": "2026-05-18T17:22:22Z",
+  "version": 1464,
+  "breaking_alert": "Task & Purpose: Pentagon cancels planned deployment of long-range missile unit to Germany",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -613,15 +613,6 @@
       ]
     },
     {
-      "title": "USS Gerald R. Ford to return from 11-month deployment on Saturday",
-      "link": "https://www.militarytimes.com/news/your-navy/2026/05/15/uss-gerald-r-ford-to-return-from-11-month-deployment-on-saturday/",
-      "published": "Fri, 15 May 2026 18:04:32 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Army leaders in hot seat over Poland deployment cancellation",
       "link": "https://www.defensenews.com/news/your-military/2026/05/15/army-leaders-in-hot-seat-over-poland-deployment-cancellation/",
       "published": "Fri, 15 May 2026 19:06:19 +0000",
@@ -658,6 +649,24 @@
       ]
     },
     {
+      "title": "VIDEO: Navy’s Final Freedom-class Littoral Combat Ship Joins the Fleet",
+      "link": "https://news.usni.org/2026/05/18/video-navys-final-freedom-class-littoral-combat-ship-joins-the-fleet",
+      "published": "Mon, 18 May 2026 15:33:01 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Video: France’s Second FDI Frigate Launched by Naval Group",
+      "link": "https://www.navalnews.com/naval-news/2026/05/video-frances-second-fdi-frigate-launched-by-naval-group/",
+      "published": "Mon, 18 May 2026 17:14:54 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "USS Gerald R. Ford Comes Home",
       "link": "https://news.usni.org/2026/05/16/uss-gerald-r-ford-comes-home",
       "published": "Sat, 16 May 2026 12:57:25 +0000",
@@ -673,16 +682,6 @@
       "source": "Naval News",
       "categories": [
         "deployment"
-      ]
-    },
-    {
-      "title": "Ford Carrier Strike Group awarded rare Presidential Unit Citation for Iran War",
-      "link": "https://taskandpurpose.com/news/ford-carrier-group-presidential-unit-citation/",
-      "published": "Sat, 16 May 2026 15:35:05 -0400",
-      "source": "Task & Purpose",
-      "categories": [
-        "deployment",
-        "conflict"
       ]
     }
   ],
@@ -866,6 +865,15 @@
       ]
     },
     {
+      "title": "Historian’s nearly two decade quest to piece together America’s last major offensive in Vietnam",
+      "link": "https://www.militarytimes.com/veterans/military-history/2026/05/18/historians-nearly-two-decade-quest-to-piece-together-americas-last-major-offensive-in-vietnam/",
+      "published": "Mon, 18 May 2026 16:45:05 +0000",
+      "source": "Military Times",
+      "categories": [
+        "conflict"
+      ]
+    },
+    {
       "title": "Ford Carrier Strike Group awarded rare Presidential Unit Citation for Iran War",
       "link": "https://taskandpurpose.com/news/ford-carrier-group-presidential-unit-citation/",
       "published": "Sat, 16 May 2026 15:35:05 -0400",
@@ -874,28 +882,9 @@
         "deployment",
         "conflict"
       ]
-    },
-    {
-      "title": "Norway Cancels Kongsberg-Malaysian Government Contract for Naval Strike Missiles, Launchers",
-      "link": "https://news.usni.org/2026/05/14/norway-cancels-kongsberg-malaysian-government-contract-for-naval-strike-missiles-launchers",
-      "published": "Thu, 14 May 2026 21:22:01 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
     }
   ],
   "_exercise_news_refs": [
-    {
-      "title": "Near Russian border, NATO grapples with ground robots in combat",
-      "link": "https://www.defensenews.com/global/europe/2026/05/15/near-russian-border-nato-grapples-with-ground-robots-in-combat/",
-      "published": "Fri, 15 May 2026 10:01:25 +0000",
-      "source": "Defense News",
-      "categories": [
-        "exercise"
-      ]
-    },
     {
       "title": "US Marines practice seizing remote islands in Philippine exercise",
       "link": "https://www.defensenews.com/global/asia-pacific/2026/05/15/us-marines-practice-seizing-remote-islands-in-philippine-exercise/",
@@ -926,18 +915,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 17,
-    "conflict_articles": 5,
-    "exercise_articles": 4,
+    "deployment_articles": 18,
+    "conflict_articles": 6,
+    "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-05-18T14:21:41.316770+00:00",
+    "computed_at": "2026-05-18T17:22:16.629508+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
-      "[Defense News] Near Russian border, NATO grapples with ground robots in combat",
       "[Task & Purpose] Pentagon cancels planned deployment of long-range missile unit to Germany",
       "[Defense News] US Marines practice seizing remote islands in Philippine exercise",
       "[Defense News] USS Gerald R. Ford to return from 11-month deployment on Saturday",
-      "[Military Times] USS Gerald R. Ford to return from 11-month deployment on Saturday"
+      "[Defense News] Army leaders in hot seat over Poland deployment cancellation",
+      "[Military Times] Army leaders in hot seat over Poland deployment cancellation"
     ]
   },
   "ground_intel": {
@@ -948,12 +937,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-05-18T14:21:41.316811+00:00",
+    "last_successful_update": "2026-05-18T17:22:16.629554+00:00",
     "article_count": 50,
-    "categorized_count": 22,
-    "freshest_source": "Defense News",
-    "freshest_title": "Near Russian border, NATO grapples with ground robots in combat",
-    "freshest_published": "Fri, 15 May 2026 10:01:25 +0000"
+    "categorized_count": 23,
+    "freshest_source": "Task & Purpose",
+    "freshest_title": "Pentagon cancels planned deployment of long-range missile unit to Germany",
+    "freshest_published": "Fri, 15 May 2026 15:31:25 -0400"
   },
   "_firms_hotspots": []
 }
