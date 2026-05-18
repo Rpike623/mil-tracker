@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-05-18T19:19:34Z",
-  "version": 1465,
+  "generated_utc": "2026-05-18T20:59:13Z",
+  "version": 1466,
   "breaking_alert": "Task & Purpose: Pentagon cancels planned deployment of long-range missile unit to Germany",
   "naval_deployments": [
     {
@@ -649,6 +649,15 @@
       ]
     },
     {
+      "title": "SOCOM wants to move fast on new tech: ‘We’re not building aircraft carriers here’",
+      "link": "https://taskandpurpose.com/tech-tactics/socom-new-technology/",
+      "published": "Mon, 18 May 2026 15:44:28 -0400",
+      "source": "Task & Purpose",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "Video: France’s Second FDI Frigate Launched by Naval Group",
       "link": "https://www.navalnews.com/naval-news/2026/05/video-frances-second-fdi-frigate-launched-by-naval-group/",
       "published": "Mon, 18 May 2026 17:14:54 +0000",
@@ -671,15 +680,6 @@
       "title": "USNI News Fleet and Marine Tracker: May 18, 2026",
       "link": "https://news.usni.org/2026/05/18/usni-news-fleet-and-marine-tracker-may-18-2026",
       "published": "Mon, 18 May 2026 18:58:44 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "USS Gerald R. Ford Comes Home",
-      "link": "https://news.usni.org/2026/05/16/uss-gerald-r-ford-comes-home",
-      "published": "Sat, 16 May 2026 12:57:25 +0000",
       "source": "USNI News",
       "categories": [
         "deployment"
@@ -908,11 +908,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 18,
+    "deployment_articles": 19,
     "conflict_articles": 6,
     "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-05-18T19:19:32.504579+00:00",
+    "computed_at": "2026-05-18T20:59:11.632242+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Task & Purpose] Pentagon cancels planned deployment of long-range missile unit to Germany",
@@ -930,9 +930,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-05-18T19:19:32.504622+00:00",
+    "last_successful_update": "2026-05-18T20:59:11.632285+00:00",
     "article_count": 50,
-    "categorized_count": 21,
+    "categorized_count": 22,
     "freshest_source": "Task & Purpose",
     "freshest_title": "Pentagon cancels planned deployment of long-range missile unit to Germany",
     "freshest_published": "Fri, 15 May 2026 15:31:25 -0400"
