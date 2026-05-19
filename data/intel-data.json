@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-05-18T23:52:56Z",
-  "version": 1468,
+  "generated_utc": "2026-05-19T01:56:37Z",
+  "version": 1469,
   "breaking_alert": "Task & Purpose: Pentagon cancels planned deployment of long-range missile unit to Germany",
   "naval_deployments": [
     {
@@ -902,7 +902,7 @@
     "conflict_articles": 8,
     "exercise_articles": 1,
     "total_articles": 50,
-    "computed_at": "2026-05-18T23:52:51.750729+00:00",
+    "computed_at": "2026-05-19T01:56:35.605833+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[Task & Purpose] Pentagon cancels planned deployment of long-range missile unit to Germany",
@@ -920,7 +920,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-05-18T23:52:51.750773+00:00",
+    "last_successful_update": "2026-05-19T01:56:35.605879+00:00",
     "article_count": 50,
     "categorized_count": 23,
     "freshest_source": "Task & Purpose",
