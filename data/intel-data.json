@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-05-19T18:29:38Z",
-  "version": 1474,
+  "generated_utc": "2026-05-19T20:21:34Z",
+  "version": 1475,
   "breaking_alert": "Task & Purpose: Pentagon cancels planned deployment of long-range missile unit to Germany",
   "naval_deployments": [
     {
@@ -857,15 +857,6 @@
       ]
     },
     {
-      "title": "ISIS leader killed in Africa as US commander raises force reduction concerns",
-      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/05/18/isis-leader-killed-in-africa-as-us-commander-raises-force-reduction-concerns/",
-      "published": "Mon, 18 May 2026 23:02:20 +0000",
-      "source": "Military Times",
-      "categories": [
-        "conflict"
-      ]
-    },
-    {
       "title": "Ford Carrier Strike Group awarded rare Presidential Unit Citation for Iran War",
       "link": "https://taskandpurpose.com/news/ford-carrier-group-presidential-unit-citation/",
       "published": "Sat, 16 May 2026 15:35:05 -0400",
@@ -883,6 +874,15 @@
       "categories": [
         "conflict"
       ]
+    },
+    {
+      "title": "Massive U.S. Missile Order May Expand American Anti-Ship Arsenal",
+      "link": "https://www.navalnews.com/naval-news/2026/05/massive-u-s-missile-order-may-expand-american-anti-ship-arsenal/",
+      "published": "Tue, 19 May 2026 11:28:00 +0000",
+      "source": "Naval News",
+      "categories": [
+        "conflict"
+      ]
     }
   ],
   "_exercise_news_refs": [
@@ -891,15 +891,6 @@
       "link": "https://www.defensenews.com/global/europe/2026/05/19/germany-to-deploy-patriot-battery-to-turkey-relieving-us-forces-on-natos-southeastern-flank/",
       "published": "Tue, 19 May 2026 09:52:33 +0000",
       "source": "Defense News",
-      "categories": [
-        "exercise"
-      ]
-    },
-    {
-      "title": "Special operations need ‘PhDs who can win a bar fight,’ SOCOM commander says",
-      "link": "https://taskandpurpose.com/tech-tactics/special-operations-command-recruitment/",
-      "published": "Tue, 19 May 2026 10:50:38 -0400",
-      "source": "Task & Purpose",
       "categories": [
         "exercise"
       ]
@@ -934,11 +925,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 15,
+    "deployment_articles": 17,
     "conflict_articles": 7,
-    "exercise_articles": 5,
+    "exercise_articles": 4,
     "total_articles": 50,
-    "computed_at": "2026-05-19T18:29:32.658157+00:00",
+    "computed_at": "2026-05-19T20:21:32.062377+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Task & Purpose] Pentagon cancels planned deployment of long-range missile unit to Germany",
@@ -956,7 +947,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-05-19T18:29:32.658204+00:00",
+    "last_successful_update": "2026-05-19T20:21:32.062423+00:00",
     "article_count": 50,
     "categorized_count": 24,
     "freshest_source": "Task & Purpose",
