@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-05-19T20:21:34Z",
-  "version": 1475,
-  "breaking_alert": "Task & Purpose: Pentagon cancels planned deployment of long-range missile unit to Germany",
+  "generated_utc": "2026-05-19T22:02:39Z",
+  "version": 1476,
+  "breaking_alert": "USNI News: Middle East Conflict Costs Could Prevent Flow of Sailors to A-Schools, Reenlistment Bonuses Without Supplemental, Says CNO",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -594,16 +594,6 @@
   ],
   "_naval_news_refs": [
     {
-      "title": "Pentagon cancels planned deployment of long-range missile unit to Germany",
-      "link": "https://taskandpurpose.com/news/army-missile-germany-deployment-canceled/",
-      "published": "Fri, 15 May 2026 15:31:25 -0400",
-      "source": "Task & Purpose",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
       "title": "Middle East Conflict Costs Could Prevent Flow of Sailors to A-Schools, Reenlistment Bonuses Without Supplemental, Says CNO",
       "link": "https://news.usni.org/2026/05/15/middle-east-conflict-costs-could-prevent-flow-of-sailors-to-a-schools-reenlistment-bonuses-without-supplemental-says-cno",
       "published": "Fri, 15 May 2026 21:37:30 +0000",
@@ -681,6 +671,15 @@
       "link": "https://taskandpurpose.com/news/uss-cleveland-commissions-last-littoral-combat-ship/",
       "published": "Sun, 17 May 2026 08:37:00 -0400",
       "source": "Task & Purpose",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Naval Aviators Safe After EA-18G Growlers Crash at Idaho Air Show",
+      "link": "https://news.usni.org/2026/05/17/naval-aviators-safe-after-ea-18g-growlers-crash-at-idaho-air-show",
+      "published": "Sun, 17 May 2026 21:03:11 +0000",
+      "source": "USNI News",
       "categories": [
         "deployment"
       ]
@@ -838,16 +837,6 @@
   },
   "_conflict_news_refs": [
     {
-      "title": "Pentagon cancels planned deployment of long-range missile unit to Germany",
-      "link": "https://taskandpurpose.com/news/army-missile-germany-deployment-canceled/",
-      "published": "Fri, 15 May 2026 15:31:25 -0400",
-      "source": "Task & Purpose",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
       "title": "ISIS leader killed in Africa as US commander raises force reduction concerns",
       "link": "https://www.defensenews.com/news/pentagon-congress/2026/05/18/isis-leader-killed-in-africa-as-us-commander-raises-force-reduction-concerns/",
       "published": "Mon, 18 May 2026 23:02:20 +0000",
@@ -881,6 +870,16 @@
       "published": "Tue, 19 May 2026 11:28:00 +0000",
       "source": "Naval News",
       "categories": [
+        "conflict"
+      ]
+    },
+    {
+      "title": "NATO jet shoots down Ukrainian drone over Estonia in escalation of airspace violations",
+      "link": "https://www.defensenews.com/global/europe/2026/05/19/nato-jet-shoots-down-ukrainian-drone-over-estonia-in-escalation-of-airspace-violations/",
+      "published": "Tue, 19 May 2026 12:06:11 +0000",
+      "source": "Defense News",
+      "categories": [
+        "exercise",
         "conflict"
       ]
     }
@@ -922,21 +921,31 @@
       "categories": [
         "exercise"
       ]
+    },
+    {
+      "title": "T-38 Talon flight operations halted fleetwide amid crash investigation",
+      "link": "https://www.militarytimes.com/news/your-military/2026/05/19/t-38-talon-flight-operations-halted-fleetwide-amid-crash-investigation/",
+      "published": "Tue, 19 May 2026 20:55:38 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment",
+        "exercise"
+      ]
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 17,
-    "conflict_articles": 7,
-    "exercise_articles": 4,
+    "deployment_articles": 18,
+    "conflict_articles": 6,
+    "exercise_articles": 7,
     "total_articles": 50,
-    "computed_at": "2026-05-19T20:21:32.062377+00:00",
+    "computed_at": "2026-05-19T22:02:34.907248+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
-      "[Task & Purpose] Pentagon cancels planned deployment of long-range missile unit to Germany",
       "[USNI News] Middle East Conflict Costs Could Prevent Flow of Sailors to A-Schools, Reenlistment Bonuses Without Supplemental, Says CNO",
       "[Naval News] Italy is forward-deploying mine countermeasures assets in the Middle East",
       "[USNI News] VIDEO: Navy’s Final Freedom-class Littoral Combat Ship Joins the Fleet",
-      "[Task & Purpose] SOCOM wants to move fast on new tech: ‘We’re not building aircraft carriers here’"
+      "[Task & Purpose] SOCOM wants to move fast on new tech: ‘We’re not building aircraft carriers here’",
+      "[Naval News] Video: France’s Second FDI Frigate Launched by Naval Group"
     ]
   },
   "ground_intel": {
@@ -947,12 +956,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-05-19T20:21:32.062423+00:00",
+    "last_successful_update": "2026-05-19T22:02:34.907298+00:00",
     "article_count": 50,
-    "categorized_count": 24,
-    "freshest_source": "Task & Purpose",
-    "freshest_title": "Pentagon cancels planned deployment of long-range missile unit to Germany",
-    "freshest_published": "Fri, 15 May 2026 15:31:25 -0400"
+    "categorized_count": 27,
+    "freshest_source": "USNI News",
+    "freshest_title": "Middle East Conflict Costs Could Prevent Flow of Sailors to A-Schools, Reenlistment Bonuses Without Supplemental, Says CNO",
+    "freshest_published": "Fri, 15 May 2026 21:37:30 +0000"
   },
   "_firms_hotspots": []
 }
