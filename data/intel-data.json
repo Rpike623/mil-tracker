@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-05-19T16:12:28Z",
-  "version": 1473,
+  "generated_utc": "2026-05-19T18:29:38Z",
+  "version": 1474,
   "breaking_alert": "Task & Purpose: Pentagon cancels planned deployment of long-range missile unit to Germany",
   "naval_deployments": [
     {
@@ -649,16 +649,6 @@
       ]
     },
     {
-      "title": "Ford Carrier Strike Group receives Presidential Unit Citation after historic deployment",
-      "link": "https://www.militarytimes.com/news/your-navy/2026/05/18/ford-carrier-strike-group-receives-presidential-unit-citation-after-historic-deployment/",
-      "published": "Mon, 18 May 2026 18:26:06 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
       "title": "USNI News Fleet and Marine Tracker: May 18, 2026",
       "link": "https://news.usni.org/2026/05/18/usni-news-fleet-and-marine-tracker-may-18-2026",
       "published": "Mon, 18 May 2026 18:58:44 +0000",
@@ -684,6 +674,15 @@
       "categories": [
         "deployment",
         "conflict"
+      ]
+    },
+    {
+      "title": "Navy commissions the USS Cleveland, the last littoral combat ship",
+      "link": "https://taskandpurpose.com/news/uss-cleveland-commissions-last-littoral-combat-ship/",
+      "published": "Sun, 17 May 2026 08:37:00 -0400",
+      "source": "Task & Purpose",
+      "categories": [
+        "deployment"
       ]
     }
   ],
@@ -849,16 +848,6 @@
       ]
     },
     {
-      "title": "Ford Carrier Strike Group receives Presidential Unit Citation after historic deployment",
-      "link": "https://www.militarytimes.com/news/your-navy/2026/05/18/ford-carrier-strike-group-receives-presidential-unit-citation-after-historic-deployment/",
-      "published": "Mon, 18 May 2026 18:26:06 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
       "title": "ISIS leader killed in Africa as US commander raises force reduction concerns",
       "link": "https://www.defensenews.com/news/pentagon-congress/2026/05/18/isis-leader-killed-in-africa-as-us-commander-raises-force-reduction-concerns/",
       "published": "Mon, 18 May 2026 23:02:20 +0000",
@@ -883,6 +872,15 @@
       "source": "Task & Purpose",
       "categories": [
         "deployment",
+        "conflict"
+      ]
+    },
+    {
+      "title": "Germany orders more JSM missiles from KONGSBERG",
+      "link": "https://www.navalnews.com/naval-news/2026/05/germany-orders-more-jsm-missiles-from-kongsberg/",
+      "published": "Tue, 19 May 2026 05:25:00 +0000",
+      "source": "Naval News",
+      "categories": [
         "conflict"
       ]
     }
@@ -915,15 +913,33 @@
         "exercise",
         "conflict"
       ]
+    },
+    {
+      "title": "More US troop withdrawals from Europe expected, NATO commander says",
+      "link": "https://www.defensenews.com/news/your-military/2026/05/19/more-us-troop-withdrawals-from-europe-expected-nato-commander-says/",
+      "published": "Tue, 19 May 2026 17:09:41 +0000",
+      "source": "Defense News",
+      "categories": [
+        "exercise"
+      ]
+    },
+    {
+      "title": "More US troop withdrawals from Europe expected, NATO commander says",
+      "link": "https://www.militarytimes.com/news/your-military/2026/05/19/more-us-troop-withdrawals-from-europe-expected-nato-commander-says/",
+      "published": "Tue, 19 May 2026 17:09:41 +0000",
+      "source": "Military Times",
+      "categories": [
+        "exercise"
+      ]
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 16,
-    "conflict_articles": 8,
-    "exercise_articles": 3,
+    "deployment_articles": 15,
+    "conflict_articles": 7,
+    "exercise_articles": 5,
     "total_articles": 50,
-    "computed_at": "2026-05-19T16:12:23.786334+00:00",
-    "manual_override": "DEFCON_2",
+    "computed_at": "2026-05-19T18:29:32.658157+00:00",
+    "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Task & Purpose] Pentagon cancels planned deployment of long-range missile unit to Germany",
       "[USNI News] Middle East Conflict Costs Could Prevent Flow of Sailors to A-Schools, Reenlistment Bonuses Without Supplemental, Says CNO",
@@ -940,9 +956,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-05-19T16:12:23.786401+00:00",
+    "last_successful_update": "2026-05-19T18:29:32.658204+00:00",
     "article_count": 50,
-    "categorized_count": 23,
+    "categorized_count": 24,
     "freshest_source": "Task & Purpose",
     "freshest_title": "Pentagon cancels planned deployment of long-range missile unit to Germany",
     "freshest_published": "Fri, 15 May 2026 15:31:25 -0400"
