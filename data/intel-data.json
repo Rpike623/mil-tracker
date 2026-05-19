@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-05-19T09:38:26Z",
-  "version": 1471,
+  "generated_utc": "2026-05-19T12:31:50Z",
+  "version": 1472,
   "breaking_alert": "Task & Purpose: Pentagon cancels planned deployment of long-range missile unit to Germany",
   "naval_deployments": [
     {
@@ -604,24 +604,6 @@
       ]
     },
     {
-      "title": "USS Gerald R. Ford to return from 11-month deployment on Saturday",
-      "link": "https://www.defensenews.com/news/your-navy/2026/05/15/uss-gerald-r-ford-to-return-from-11-month-deployment-on-saturday/",
-      "published": "Fri, 15 May 2026 18:04:32 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Army leaders in hot seat over Poland deployment cancellation",
-      "link": "https://www.defensenews.com/news/your-military/2026/05/15/army-leaders-in-hot-seat-over-poland-deployment-cancellation/",
-      "published": "Fri, 15 May 2026 19:06:19 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Middle East Conflict Costs Could Prevent Flow of Sailors to A-Schools, Reenlistment Bonuses Without Supplemental, Says CNO",
       "link": "https://news.usni.org/2026/05/15/middle-east-conflict-costs-could-prevent-flow-of-sailors-to-a-schools-reenlistment-bonuses-without-supplemental-says-cno",
       "published": "Fri, 15 May 2026 21:37:30 +0000",
@@ -683,6 +665,25 @@
       "source": "USNI News",
       "categories": [
         "deployment"
+      ]
+    },
+    {
+      "title": "USS Gerald R. Ford Comes Home",
+      "link": "https://news.usni.org/2026/05/16/uss-gerald-r-ford-comes-home",
+      "published": "Sat, 16 May 2026 12:57:25 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Ford Carrier Strike Group awarded rare Presidential Unit Citation for Iran War",
+      "link": "https://taskandpurpose.com/news/ford-carrier-group-presidential-unit-citation/",
+      "published": "Sat, 16 May 2026 15:35:05 -0400",
+      "source": "Task & Purpose",
+      "categories": [
+        "deployment",
+        "conflict"
       ]
     }
   ],
@@ -887,29 +888,38 @@
   ],
   "_exercise_news_refs": [
     {
-      "title": "Indonesia prepares for carrier operations ahead of Garibaldi transfer",
-      "link": "https://www.navalnews.com/naval-news/2026/05/indonesia-prepares-for-carrier-operations-ahead-of-garibaldi-transfer/",
-      "published": "Sun, 17 May 2026 08:01:36 +0000",
-      "source": "Naval News",
+      "title": "Germany to deploy Patriot battery to Turkey, relieving US forces on NATO’s southeastern flank",
+      "link": "https://www.defensenews.com/global/europe/2026/05/19/germany-to-deploy-patriot-battery-to-turkey-relieving-us-forces-on-natos-southeastern-flank/",
+      "published": "Tue, 19 May 2026 09:52:33 +0000",
+      "source": "Defense News",
       "categories": [
-        "deployment",
         "exercise"
+      ]
+    },
+    {
+      "title": "NATO jet shoots down Ukrainian drone over Estonia in escalation of airspace violations",
+      "link": "https://www.defensenews.com/global/europe/2026/05/19/nato-jet-shoots-down-ukrainian-drone-over-estonia-in-escalation-of-airspace-violations/",
+      "published": "Tue, 19 May 2026 12:06:11 +0000",
+      "source": "Defense News",
+      "categories": [
+        "exercise",
+        "conflict"
       ]
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 20,
-    "conflict_articles": 9,
-    "exercise_articles": 1,
+    "deployment_articles": 17,
+    "conflict_articles": 11,
+    "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-05-19T09:38:23.010105+00:00",
+    "computed_at": "2026-05-19T12:31:47.946264+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[Task & Purpose] Pentagon cancels planned deployment of long-range missile unit to Germany",
-      "[Defense News] USS Gerald R. Ford to return from 11-month deployment on Saturday",
-      "[Defense News] Army leaders in hot seat over Poland deployment cancellation",
       "[Defense News] US Army to receive thousands of Barracuda-500M cruise missiles in Anduril deal",
-      "[USNI News] Middle East Conflict Costs Could Prevent Flow of Sailors to A-Schools, Reenlistment Bonuses Without Supplemental, Says CNO"
+      "[USNI News] Middle East Conflict Costs Could Prevent Flow of Sailors to A-Schools, Reenlistment Bonuses Without Supplemental, Says CNO",
+      "[Naval News] Italy is forward-deploying mine countermeasures assets in the Middle East",
+      "[USNI News] VIDEO: Navy’s Final Freedom-class Littoral Combat Ship Joins the Fleet"
     ]
   },
   "ground_intel": {
@@ -920,7 +930,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-05-19T09:38:23.010148+00:00",
+    "last_successful_update": "2026-05-19T12:31:47.946308+00:00",
     "article_count": 50,
     "categorized_count": 25,
     "freshest_source": "Task & Purpose",
