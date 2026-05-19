@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-05-19T12:31:50Z",
-  "version": 1472,
+  "generated_utc": "2026-05-19T16:12:28Z",
+  "version": 1473,
   "breaking_alert": "Task & Purpose: Pentagon cancels planned deployment of long-range missile unit to Germany",
   "naval_deployments": [
     {
@@ -849,24 +849,6 @@
       ]
     },
     {
-      "title": "US Army to receive thousands of Barracuda-500M cruise missiles in Anduril deal",
-      "link": "https://www.defensenews.com/industry/techwatch/2026/05/15/us-army-to-receive-thousands-of-barracuda-500m-cruise-missiles-in-anduril-deal/",
-      "published": "Fri, 15 May 2026 19:27:58 +0000",
-      "source": "Defense News",
-      "categories": [
-        "conflict"
-      ]
-    },
-    {
-      "title": "Historian’s nearly two decade quest to piece together America’s last major offensive in Vietnam",
-      "link": "https://www.militarytimes.com/veterans/military-history/2026/05/18/historians-nearly-two-decade-quest-to-piece-together-americas-last-major-offensive-in-vietnam/",
-      "published": "Mon, 18 May 2026 16:45:05 +0000",
-      "source": "Military Times",
-      "categories": [
-        "conflict"
-      ]
-    },
-    {
       "title": "Ford Carrier Strike Group receives Presidential Unit Citation after historic deployment",
       "link": "https://www.militarytimes.com/news/your-navy/2026/05/18/ford-carrier-strike-group-receives-presidential-unit-citation-after-historic-deployment/",
       "published": "Mon, 18 May 2026 18:26:06 +0000",
@@ -884,6 +866,25 @@
       "categories": [
         "conflict"
       ]
+    },
+    {
+      "title": "ISIS leader killed in Africa as US commander raises force reduction concerns",
+      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/05/18/isis-leader-killed-in-africa-as-us-commander-raises-force-reduction-concerns/",
+      "published": "Mon, 18 May 2026 23:02:20 +0000",
+      "source": "Military Times",
+      "categories": [
+        "conflict"
+      ]
+    },
+    {
+      "title": "Ford Carrier Strike Group awarded rare Presidential Unit Citation for Iran War",
+      "link": "https://taskandpurpose.com/news/ford-carrier-group-presidential-unit-citation/",
+      "published": "Sat, 16 May 2026 15:35:05 -0400",
+      "source": "Task & Purpose",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
     }
   ],
   "_exercise_news_refs": [
@@ -892,6 +893,15 @@
       "link": "https://www.defensenews.com/global/europe/2026/05/19/germany-to-deploy-patriot-battery-to-turkey-relieving-us-forces-on-natos-southeastern-flank/",
       "published": "Tue, 19 May 2026 09:52:33 +0000",
       "source": "Defense News",
+      "categories": [
+        "exercise"
+      ]
+    },
+    {
+      "title": "Special operations need ‘PhDs who can win a bar fight,’ SOCOM commander says",
+      "link": "https://taskandpurpose.com/tech-tactics/special-operations-command-recruitment/",
+      "published": "Tue, 19 May 2026 10:50:38 -0400",
+      "source": "Task & Purpose",
       "categories": [
         "exercise"
       ]
@@ -908,18 +918,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 17,
-    "conflict_articles": 11,
-    "exercise_articles": 2,
+    "deployment_articles": 16,
+    "conflict_articles": 8,
+    "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-05-19T12:31:47.946264+00:00",
+    "computed_at": "2026-05-19T16:12:23.786334+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[Task & Purpose] Pentagon cancels planned deployment of long-range missile unit to Germany",
-      "[Defense News] US Army to receive thousands of Barracuda-500M cruise missiles in Anduril deal",
       "[USNI News] Middle East Conflict Costs Could Prevent Flow of Sailors to A-Schools, Reenlistment Bonuses Without Supplemental, Says CNO",
       "[Naval News] Italy is forward-deploying mine countermeasures assets in the Middle East",
-      "[USNI News] VIDEO: Navy’s Final Freedom-class Littoral Combat Ship Joins the Fleet"
+      "[USNI News] VIDEO: Navy’s Final Freedom-class Littoral Combat Ship Joins the Fleet",
+      "[Task & Purpose] SOCOM wants to move fast on new tech: ‘We’re not building aircraft carriers here’"
     ]
   },
   "ground_intel": {
@@ -930,9 +940,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-05-19T12:31:47.946308+00:00",
+    "last_successful_update": "2026-05-19T16:12:23.786401+00:00",
     "article_count": 50,
-    "categorized_count": 25,
+    "categorized_count": 23,
     "freshest_source": "Task & Purpose",
     "freshest_title": "Pentagon cancels planned deployment of long-range missile unit to Germany",
     "freshest_published": "Fri, 15 May 2026 15:31:25 -0400"
