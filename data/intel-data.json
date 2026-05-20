@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-05-20T17:48:03Z",
-  "version": 1483,
+  "generated_utc": "2026-05-20T19:58:30Z",
+  "version": 1484,
   "breaking_alert": "Naval News: Italy is forward-deploying mine countermeasures assets in the Middle East",
   "naval_deployments": [
     {
@@ -639,15 +639,6 @@
       ]
     },
     {
-      "title": "Naval Aviators Safe After EA-18G Growlers Crash at Idaho Air Show",
-      "link": "https://news.usni.org/2026/05/17/naval-aviators-safe-after-ea-18g-growlers-crash-at-idaho-air-show",
-      "published": "Sun, 17 May 2026 21:03:11 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Sweden Selects Naval Group’s FDI for Future Luleå-class Frigates",
       "link": "https://www.navalnews.com/naval-news/2026/05/sweden-selects-naval-groups-fdi-for-future-lulea-class-frigates/",
       "published": "Tue, 19 May 2026 08:23:05 +0000",
@@ -675,13 +666,22 @@
       ]
     },
     {
-      "title": "Trump edges toward new strikes on Iran",
-      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/05/19/trump-edges-toward-new-strikes-on-iran/",
-      "published": "Tue, 19 May 2026 19:57:27 +0000",
+      "title": "T-38 Talon flight operations halted fleetwide amid crash investigation",
+      "link": "https://www.militarytimes.com/news/your-military/2026/05/19/t-38-talon-flight-operations-halted-fleetwide-amid-crash-investigation/",
+      "published": "Tue, 19 May 2026 20:55:38 +0000",
       "source": "Military Times",
       "categories": [
         "deployment",
-        "conflict"
+        "exercise"
+      ]
+    },
+    {
+      "title": "Toilet issues on USS Gerald R. Ford are ‘highly exaggerated,’ says CNO",
+      "link": "https://www.militarytimes.com/news/your-navy/2026/05/19/toilet-issues-on-uss-gerald-r-ford-are-highly-exaggerated-says-cno/",
+      "published": "Tue, 19 May 2026 21:25:38 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment"
       ]
     }
   ],
@@ -855,16 +855,6 @@
       ]
     },
     {
-      "title": "Trump edges toward new strikes on Iran",
-      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/05/19/trump-edges-toward-new-strikes-on-iran/",
-      "published": "Tue, 19 May 2026 19:57:27 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
       "title": "Doctor recalls treating dozens after Tower 22 drone attack",
       "link": "https://taskandpurpose.com/news/doctor-tower-22-tbi-purple-heart/",
       "published": "Wed, 20 May 2026 08:00:00 -0400",
@@ -933,10 +923,10 @@
   ],
   "_threat_indicators": {
     "deployment_articles": 14,
-    "conflict_articles": 5,
+    "conflict_articles": 4,
     "exercise_articles": 8,
     "total_articles": 50,
-    "computed_at": "2026-05-20T17:48:00.489591+00:00",
+    "computed_at": "2026-05-20T19:58:20.906842+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] Italy is forward-deploying mine countermeasures assets in the Middle East",
@@ -954,7 +944,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-05-20T17:48:00.489638+00:00",
+    "last_successful_update": "2026-05-20T19:58:20.906885+00:00",
     "article_count": 50,
     "categorized_count": 24,
     "freshest_source": "Naval News",
