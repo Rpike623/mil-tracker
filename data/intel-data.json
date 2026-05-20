@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-05-20T11:41:06Z",
-  "version": 1481,
-  "breaking_alert": "USNI News: Middle East Conflict Costs Could Prevent Flow of Sailors to A-Schools, Reenlistment Bonuses Without Supplemental, Says CNO",
+  "generated_utc": "2026-05-20T14:27:13Z",
+  "version": 1482,
+  "breaking_alert": "Naval News: Italy is forward-deploying mine countermeasures assets in the Middle East",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -594,15 +594,6 @@
   ],
   "_naval_news_refs": [
     {
-      "title": "Middle East Conflict Costs Could Prevent Flow of Sailors to A-Schools, Reenlistment Bonuses Without Supplemental, Says CNO",
-      "link": "https://news.usni.org/2026/05/15/middle-east-conflict-costs-could-prevent-flow-of-sailors-to-a-schools-reenlistment-bonuses-without-supplemental-says-cno",
-      "published": "Fri, 15 May 2026 21:37:30 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Italy is forward-deploying mine countermeasures assets in the Middle East",
       "link": "https://www.navalnews.com/naval-news/2026/05/italy-is-forward-deploying-mine-countermeasures-assets-in-the-middle-east/",
       "published": "Mon, 18 May 2026 05:58:00 +0000",
@@ -657,16 +648,6 @@
       ]
     },
     {
-      "title": "Ford Carrier Strike Group awarded rare Presidential Unit Citation for Iran War",
-      "link": "https://taskandpurpose.com/news/ford-carrier-group-presidential-unit-citation/",
-      "published": "Sat, 16 May 2026 15:35:05 -0400",
-      "source": "Task & Purpose",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
       "title": "Navy commissions the USS Cleveland, the last littoral combat ship",
       "link": "https://taskandpurpose.com/news/uss-cleveland-commissions-last-littoral-combat-ship/",
       "published": "Sun, 17 May 2026 08:37:00 -0400",
@@ -680,6 +661,24 @@
       "link": "https://news.usni.org/2026/05/17/naval-aviators-safe-after-ea-18g-growlers-crash-at-idaho-air-show",
       "published": "Sun, 17 May 2026 21:03:11 +0000",
       "source": "USNI News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Sweden Selects Naval Group’s FDI for Future Luleå-class Frigates",
+      "link": "https://www.navalnews.com/naval-news/2026/05/sweden-selects-naval-groups-fdi-for-future-lulea-class-frigates/",
+      "published": "Tue, 19 May 2026 08:23:05 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Drones could mean the end of sprawling bases seen during Iraq and Afghanistan Wars",
+      "link": "https://taskandpurpose.com/tech-tactics/drones-bases-iraq-afghanistan-wars/",
+      "published": "Tue, 19 May 2026 16:22:19 -0400",
+      "source": "Task & Purpose",
       "categories": [
         "deployment"
       ]
@@ -837,16 +836,6 @@
   },
   "_conflict_news_refs": [
     {
-      "title": "Ford Carrier Strike Group awarded rare Presidential Unit Citation for Iran War",
-      "link": "https://taskandpurpose.com/news/ford-carrier-group-presidential-unit-citation/",
-      "published": "Sat, 16 May 2026 15:35:05 -0400",
-      "source": "Task & Purpose",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
       "title": "Germany orders more JSM missiles from KONGSBERG",
       "link": "https://www.navalnews.com/naval-news/2026/05/germany-orders-more-jsm-missiles-from-kongsberg/",
       "published": "Tue, 19 May 2026 05:25:00 +0000",
@@ -865,16 +854,6 @@
       ]
     },
     {
-      "title": "NATO jet shoots down Ukrainian drone over Estonia in escalation of airspace violations",
-      "link": "https://www.defensenews.com/global/europe/2026/05/19/nato-jet-shoots-down-ukrainian-drone-over-estonia-in-escalation-of-airspace-violations/",
-      "published": "Tue, 19 May 2026 12:06:11 +0000",
-      "source": "Defense News",
-      "categories": [
-        "exercise",
-        "conflict"
-      ]
-    },
-    {
       "title": "Trump edges toward new strikes on Iran",
       "link": "https://www.militarytimes.com/news/pentagon-congress/2026/05/19/trump-edges-toward-new-strikes-on-iran/",
       "published": "Tue, 19 May 2026 19:57:27 +0000",
@@ -883,33 +862,32 @@
         "deployment",
         "conflict"
       ]
-    }
-  ],
-  "_exercise_news_refs": [
+    },
     {
-      "title": "NATO jet shoots down Ukrainian drone over Estonia in escalation of airspace violations",
-      "link": "https://www.defensenews.com/global/europe/2026/05/19/nato-jet-shoots-down-ukrainian-drone-over-estonia-in-escalation-of-airspace-violations/",
-      "published": "Tue, 19 May 2026 12:06:11 +0000",
-      "source": "Defense News",
+      "title": "Doctor recalls treating dozens after Tower 22 drone attack",
+      "link": "https://taskandpurpose.com/news/doctor-tower-22-tbi-purple-heart/",
+      "published": "Wed, 20 May 2026 08:00:00 -0400",
+      "source": "Task & Purpose",
       "categories": [
-        "exercise",
         "conflict"
       ]
     },
+    {
+      "title": "Pentagon watchdog evaluating US military’s strikes on alleged drug boats",
+      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/05/20/pentagon-watchdog-evaluating-us-militarys-strikes-on-alleged-drug-boats/",
+      "published": "Wed, 20 May 2026 13:56:29 +0000",
+      "source": "Military Times",
+      "categories": [
+        "conflict"
+      ]
+    }
+  ],
+  "_exercise_news_refs": [
     {
       "title": "More US troop withdrawals from Europe expected, NATO commander says",
       "link": "https://www.defensenews.com/news/your-military/2026/05/19/more-us-troop-withdrawals-from-europe-expected-nato-commander-says/",
       "published": "Tue, 19 May 2026 17:09:41 +0000",
       "source": "Defense News",
-      "categories": [
-        "exercise"
-      ]
-    },
-    {
-      "title": "More US troop withdrawals from Europe expected, NATO commander says",
-      "link": "https://www.militarytimes.com/news/your-military/2026/05/19/more-us-troop-withdrawals-from-europe-expected-nato-commander-says/",
-      "published": "Tue, 19 May 2026 17:09:41 +0000",
-      "source": "Military Times",
       "categories": [
         "exercise"
       ]
@@ -932,21 +910,39 @@
       "categories": [
         "exercise"
       ]
+    },
+    {
+      "title": "US plans to shrink forces available to NATO during crises, sources say",
+      "link": "https://www.militarytimes.com/global/europe/2026/05/19/us-plans-to-shrink-forces-available-to-nato-during-crises-sources-say/",
+      "published": "Tue, 19 May 2026 21:47:23 +0000",
+      "source": "Military Times",
+      "categories": [
+        "exercise"
+      ]
+    },
+    {
+      "title": "NATO eastern deterrence strategy takes shape around ‘autonomous zone’",
+      "link": "https://www.defensenews.com/global/europe/2026/05/20/nato-eastern-deterrence-strategy-takes-shape-around-autonomous-zone/",
+      "published": "Wed, 20 May 2026 08:09:03 +0000",
+      "source": "Defense News",
+      "categories": [
+        "exercise"
+      ]
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 17,
+    "deployment_articles": 16,
     "conflict_articles": 5,
-    "exercise_articles": 8,
+    "exercise_articles": 9,
     "total_articles": 50,
-    "computed_at": "2026-05-20T11:41:04.139355+00:00",
+    "computed_at": "2026-05-20T14:27:11.850927+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
-      "[USNI News] Middle East Conflict Costs Could Prevent Flow of Sailors to A-Schools, Reenlistment Bonuses Without Supplemental, Says CNO",
       "[Naval News] Italy is forward-deploying mine countermeasures assets in the Middle East",
       "[USNI News] VIDEO: Navy’s Final Freedom-class Littoral Combat Ship Joins the Fleet",
       "[Task & Purpose] SOCOM wants to move fast on new tech: ‘We’re not building aircraft carriers here’",
-      "[Naval News] Video: France’s Second FDI Frigate Launched by Naval Group"
+      "[Naval News] Video: France’s Second FDI Frigate Launched by Naval Group",
+      "[USNI News] USNI News Fleet and Marine Tracker: May 18, 2026"
     ]
   },
   "ground_intel": {
@@ -957,12 +953,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-05-20T11:41:04.139406+00:00",
+    "last_successful_update": "2026-05-20T14:27:11.850976+00:00",
     "article_count": 50,
-    "categorized_count": 26,
-    "freshest_source": "USNI News",
-    "freshest_title": "Middle East Conflict Costs Could Prevent Flow of Sailors to A-Schools, Reenlistment Bonuses Without Supplemental, Says CNO",
-    "freshest_published": "Fri, 15 May 2026 21:37:30 +0000"
+    "categorized_count": 27,
+    "freshest_source": "Naval News",
+    "freshest_title": "Italy is forward-deploying mine countermeasures assets in the Middle East",
+    "freshest_published": "Mon, 18 May 2026 05:58:00 +0000"
   },
   "_firms_hotspots": []
 }
