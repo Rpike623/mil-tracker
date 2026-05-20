@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-05-20T14:27:13Z",
-  "version": 1482,
+  "generated_utc": "2026-05-20T17:48:03Z",
+  "version": 1483,
   "breaking_alert": "Naval News: Italy is forward-deploying mine countermeasures assets in the Middle East",
   "naval_deployments": [
     {
@@ -639,24 +639,6 @@
       ]
     },
     {
-      "title": "USS Gerald R. Ford Comes Home",
-      "link": "https://news.usni.org/2026/05/16/uss-gerald-r-ford-comes-home",
-      "published": "Sat, 16 May 2026 12:57:25 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Navy commissions the USS Cleveland, the last littoral combat ship",
-      "link": "https://taskandpurpose.com/news/uss-cleveland-commissions-last-littoral-combat-ship/",
-      "published": "Sun, 17 May 2026 08:37:00 -0400",
-      "source": "Task & Purpose",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Naval Aviators Safe After EA-18G Growlers Crash at Idaho Air Show",
       "link": "https://news.usni.org/2026/05/17/naval-aviators-safe-after-ea-18g-growlers-crash-at-idaho-air-show",
       "published": "Sun, 17 May 2026 21:03:11 +0000",
@@ -681,6 +663,25 @@
       "source": "Task & Purpose",
       "categories": [
         "deployment"
+      ]
+    },
+    {
+      "title": "MQ-25A Stingray cleared for deployment, says Cao",
+      "link": "https://www.defensenews.com/news/your-military/2026/05/19/mq-25a-stingray-cleared-for-deployment-says-cao/",
+      "published": "Tue, 19 May 2026 18:31:56 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Trump edges toward new strikes on Iran",
+      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/05/19/trump-edges-toward-new-strikes-on-iran/",
+      "published": "Tue, 19 May 2026 19:57:27 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment",
+        "conflict"
       ]
     }
   ],
@@ -884,15 +885,6 @@
   ],
   "_exercise_news_refs": [
     {
-      "title": "More US troop withdrawals from Europe expected, NATO commander says",
-      "link": "https://www.defensenews.com/news/your-military/2026/05/19/more-us-troop-withdrawals-from-europe-expected-nato-commander-says/",
-      "published": "Tue, 19 May 2026 17:09:41 +0000",
-      "source": "Defense News",
-      "categories": [
-        "exercise"
-      ]
-    },
-    {
       "title": "T-38 Talon flight operations halted fleetwide amid crash investigation",
       "link": "https://www.militarytimes.com/news/your-military/2026/05/19/t-38-talon-flight-operations-halted-fleetwide-amid-crash-investigation/",
       "published": "Tue, 19 May 2026 20:55:38 +0000",
@@ -928,14 +920,23 @@
       "categories": [
         "exercise"
       ]
+    },
+    {
+      "title": "Russia launches unannounced nuclear exercise, including Belarusian launch sites",
+      "link": "https://www.defensenews.com/global/europe/2026/05/20/russia-launches-unannounced-nuclear-exercise-including-belarusian-launch-sites/",
+      "published": "Wed, 20 May 2026 08:31:29 +0000",
+      "source": "Defense News",
+      "categories": [
+        "exercise"
+      ]
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 16,
+    "deployment_articles": 14,
     "conflict_articles": 5,
-    "exercise_articles": 9,
+    "exercise_articles": 8,
     "total_articles": 50,
-    "computed_at": "2026-05-20T14:27:11.850927+00:00",
+    "computed_at": "2026-05-20T17:48:00.489591+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] Italy is forward-deploying mine countermeasures assets in the Middle East",
@@ -953,9 +954,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-05-20T14:27:11.850976+00:00",
+    "last_successful_update": "2026-05-20T17:48:00.489638+00:00",
     "article_count": 50,
-    "categorized_count": 27,
+    "categorized_count": 24,
     "freshest_source": "Naval News",
     "freshest_title": "Italy is forward-deploying mine countermeasures assets in the Middle East",
     "freshest_published": "Mon, 18 May 2026 05:58:00 +0000"
