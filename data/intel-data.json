@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-05-20T21:47:50Z",
-  "version": 1485,
+  "generated_utc": "2026-05-20T23:01:30Z",
+  "version": 1486,
   "breaking_alert": "Naval News: Italy is forward-deploying mine countermeasures assets in the Middle East",
   "naval_deployments": [
     {
@@ -925,7 +925,7 @@
     "conflict_articles": 4,
     "exercise_articles": 7,
     "total_articles": 50,
-    "computed_at": "2026-05-20T21:47:48.741376+00:00",
+    "computed_at": "2026-05-20T23:01:27.762235+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] Italy is forward-deploying mine countermeasures assets in the Middle East",
@@ -943,7 +943,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-05-20T21:47:48.741425+00:00",
+    "last_successful_update": "2026-05-20T23:01:27.762281+00:00",
     "article_count": 50,
     "categorized_count": 23,
     "freshest_source": "Naval News",
