@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-05-20T19:58:30Z",
-  "version": 1484,
+  "generated_utc": "2026-05-20T21:47:50Z",
+  "version": 1485,
   "breaking_alert": "Naval News: Italy is forward-deploying mine countermeasures assets in the Middle East",
   "naval_deployments": [
     {
@@ -666,9 +666,9 @@
       ]
     },
     {
-      "title": "T-38 Talon flight operations halted fleetwide amid crash investigation",
-      "link": "https://www.militarytimes.com/news/your-military/2026/05/19/t-38-talon-flight-operations-halted-fleetwide-amid-crash-investigation/",
-      "published": "Tue, 19 May 2026 20:55:38 +0000",
+      "title": "Pentagon policy isn’t keeping pace with autonomous weapons, senators argue",
+      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/05/20/pentagon-policy-isnt-keeping-pace-with-autonomous-weapons-senators-argue/",
+      "published": "Wed, 20 May 2026 12:00:01 +0000",
       "source": "Military Times",
       "categories": [
         "deployment",
@@ -676,10 +676,10 @@
       ]
     },
     {
-      "title": "Toilet issues on USS Gerald R. Ford are ‘highly exaggerated,’ says CNO",
-      "link": "https://www.militarytimes.com/news/your-navy/2026/05/19/toilet-issues-on-uss-gerald-r-ford-are-highly-exaggerated-says-cno/",
-      "published": "Tue, 19 May 2026 21:25:38 +0000",
-      "source": "Military Times",
+      "title": "Japan’s Largest Warship Preparing for F-35B Training with U.S. Marines",
+      "link": "https://news.usni.org/2026/05/20/japans-largest-warship-preparing-for-f-35b-training-with-u-s-marines",
+      "published": "Wed, 20 May 2026 15:52:16 +0000",
+      "source": "USNI News",
       "categories": [
         "deployment"
       ]
@@ -875,16 +875,6 @@
   ],
   "_exercise_news_refs": [
     {
-      "title": "T-38 Talon flight operations halted fleetwide amid crash investigation",
-      "link": "https://www.militarytimes.com/news/your-military/2026/05/19/t-38-talon-flight-operations-halted-fleetwide-amid-crash-investigation/",
-      "published": "Tue, 19 May 2026 20:55:38 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment",
-        "exercise"
-      ]
-    },
-    {
       "title": "US plans to shrink forces available to NATO during crises, sources say",
       "link": "https://www.defensenews.com/global/europe/2026/05/19/us-plans-to-shrink-forces-available-to-nato-during-crises-sources-say/",
       "published": "Tue, 19 May 2026 21:47:23 +0000",
@@ -919,14 +909,23 @@
       "categories": [
         "exercise"
       ]
+    },
+    {
+      "title": "AI in special operations will always have ‘a human in the loop,’ top officer says",
+      "link": "https://taskandpurpose.com/tech-tactics/artificial-intelligence-special-operations/",
+      "published": "Wed, 20 May 2026 10:14:47 -0400",
+      "source": "Task & Purpose",
+      "categories": [
+        "exercise"
+      ]
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 14,
+    "deployment_articles": 13,
     "conflict_articles": 4,
-    "exercise_articles": 8,
+    "exercise_articles": 7,
     "total_articles": 50,
-    "computed_at": "2026-05-20T19:58:20.906842+00:00",
+    "computed_at": "2026-05-20T21:47:48.741376+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] Italy is forward-deploying mine countermeasures assets in the Middle East",
@@ -944,9 +943,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-05-20T19:58:20.906885+00:00",
+    "last_successful_update": "2026-05-20T21:47:48.741425+00:00",
     "article_count": 50,
-    "categorized_count": 24,
+    "categorized_count": 23,
     "freshest_source": "Naval News",
     "freshest_title": "Italy is forward-deploying mine countermeasures assets in the Middle East",
     "freshest_published": "Mon, 18 May 2026 05:58:00 +0000"
