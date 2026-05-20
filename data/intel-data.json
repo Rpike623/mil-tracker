@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-05-20T05:57:21Z",
-  "version": 1479,
+  "generated_utc": "2026-05-20T08:55:56Z",
+  "version": 1480,
   "breaking_alert": "USNI News: Middle East Conflict Costs Could Prevent Flow of Sailors to A-Schools, Reenlistment Bonuses Without Supplemental, Says CNO",
   "naval_deployments": [
     {
@@ -837,15 +837,6 @@
   },
   "_conflict_news_refs": [
     {
-      "title": "ISIS leader killed in Africa as US commander raises force reduction concerns",
-      "link": "https://www.defensenews.com/news/pentagon-congress/2026/05/18/isis-leader-killed-in-africa-as-us-commander-raises-force-reduction-concerns/",
-      "published": "Mon, 18 May 2026 23:02:20 +0000",
-      "source": "Defense News",
-      "categories": [
-        "conflict"
-      ]
-    },
-    {
       "title": "Ford Carrier Strike Group awarded rare Presidential Unit Citation for Iran War",
       "link": "https://taskandpurpose.com/news/ford-carrier-group-presidential-unit-citation/",
       "published": "Sat, 16 May 2026 15:35:05 -0400",
@@ -882,18 +873,19 @@
         "exercise",
         "conflict"
       ]
+    },
+    {
+      "title": "Trump edges toward new strikes on Iran",
+      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/05/19/trump-edges-toward-new-strikes-on-iran/",
+      "published": "Tue, 19 May 2026 19:57:27 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
     }
   ],
   "_exercise_news_refs": [
-    {
-      "title": "Germany to deploy Patriot battery to Turkey, relieving US forces on NATO’s southeastern flank",
-      "link": "https://www.defensenews.com/global/europe/2026/05/19/germany-to-deploy-patriot-battery-to-turkey-relieving-us-forces-on-natos-southeastern-flank/",
-      "published": "Tue, 19 May 2026 09:52:33 +0000",
-      "source": "Defense News",
-      "categories": [
-        "exercise"
-      ]
-    },
     {
       "title": "NATO jet shoots down Ukrainian drone over Estonia in escalation of airspace violations",
       "link": "https://www.defensenews.com/global/europe/2026/05/19/nato-jet-shoots-down-ukrainian-drone-over-estonia-in-escalation-of-airspace-violations/",
@@ -931,14 +923,23 @@
         "deployment",
         "exercise"
       ]
+    },
+    {
+      "title": "US plans to shrink forces available to NATO during crises, sources say",
+      "link": "https://www.defensenews.com/global/europe/2026/05/19/us-plans-to-shrink-forces-available-to-nato-during-crises-sources-say/",
+      "published": "Tue, 19 May 2026 21:47:23 +0000",
+      "source": "Defense News",
+      "categories": [
+        "exercise"
+      ]
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 18,
-    "conflict_articles": 6,
-    "exercise_articles": 7,
+    "deployment_articles": 17,
+    "conflict_articles": 5,
+    "exercise_articles": 8,
     "total_articles": 50,
-    "computed_at": "2026-05-20T05:57:16.885848+00:00",
+    "computed_at": "2026-05-20T08:55:54.273176+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[USNI News] Middle East Conflict Costs Could Prevent Flow of Sailors to A-Schools, Reenlistment Bonuses Without Supplemental, Says CNO",
@@ -956,9 +957,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-05-20T05:57:16.885899+00:00",
+    "last_successful_update": "2026-05-20T08:55:54.273224+00:00",
     "article_count": 50,
-    "categorized_count": 27,
+    "categorized_count": 26,
     "freshest_source": "USNI News",
     "freshest_title": "Middle East Conflict Costs Could Prevent Flow of Sailors to A-Schools, Reenlistment Bonuses Without Supplemental, Says CNO",
     "freshest_published": "Fri, 15 May 2026 21:37:30 +0000"
