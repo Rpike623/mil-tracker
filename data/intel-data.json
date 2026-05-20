@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-05-20T08:55:56Z",
-  "version": 1480,
+  "generated_utc": "2026-05-20T11:41:06Z",
+  "version": 1481,
   "breaking_alert": "USNI News: Middle East Conflict Costs Could Prevent Flow of Sailors to A-Schools, Reenlistment Bonuses Without Supplemental, Says CNO",
   "naval_deployments": [
     {
@@ -939,7 +939,7 @@
     "conflict_articles": 5,
     "exercise_articles": 8,
     "total_articles": 50,
-    "computed_at": "2026-05-20T08:55:54.273176+00:00",
+    "computed_at": "2026-05-20T11:41:04.139355+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[USNI News] Middle East Conflict Costs Could Prevent Flow of Sailors to A-Schools, Reenlistment Bonuses Without Supplemental, Says CNO",
@@ -957,7 +957,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-05-20T08:55:54.273224+00:00",
+    "last_successful_update": "2026-05-20T11:41:04.139406+00:00",
     "article_count": 50,
     "categorized_count": 26,
     "freshest_source": "USNI News",
