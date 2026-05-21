@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-05-20T23:01:30Z",
-  "version": 1486,
+  "generated_utc": "2026-05-21T01:55:21Z",
+  "version": 1487,
   "breaking_alert": "Naval News: Italy is forward-deploying mine countermeasures assets in the Middle East",
   "naval_deployments": [
     {
@@ -657,15 +657,6 @@
       ]
     },
     {
-      "title": "MQ-25A Stingray cleared for deployment, says Cao",
-      "link": "https://www.defensenews.com/news/your-military/2026/05/19/mq-25a-stingray-cleared-for-deployment-says-cao/",
-      "published": "Tue, 19 May 2026 18:31:56 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Pentagon policy isn’t keeping pace with autonomous weapons, senators argue",
       "link": "https://www.militarytimes.com/news/pentagon-congress/2026/05/20/pentagon-policy-isnt-keeping-pace-with-autonomous-weapons-senators-argue/",
       "published": "Wed, 20 May 2026 12:00:01 +0000",
@@ -680,6 +671,15 @@
       "link": "https://news.usni.org/2026/05/20/japans-largest-warship-preparing-for-f-35b-training-with-u-s-marines",
       "published": "Wed, 20 May 2026 15:52:16 +0000",
       "source": "USNI News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "U.S. Navy’s First Carrier Operated Unmanned Tanker Cleared for Production",
+      "link": "https://www.navalnews.com/naval-news/2026/05/u-s-navys-first-carrier-operated-unmanned-tanker-cleared-for-production/",
+      "published": "Wed, 20 May 2026 18:13:03 +0000",
+      "source": "Naval News",
       "categories": [
         "deployment"
       ]
@@ -884,15 +884,6 @@
       ]
     },
     {
-      "title": "US plans to shrink forces available to NATO during crises, sources say",
-      "link": "https://www.militarytimes.com/global/europe/2026/05/19/us-plans-to-shrink-forces-available-to-nato-during-crises-sources-say/",
-      "published": "Tue, 19 May 2026 21:47:23 +0000",
-      "source": "Military Times",
-      "categories": [
-        "exercise"
-      ]
-    },
-    {
       "title": "NATO eastern deterrence strategy takes shape around ‘autonomous zone’",
       "link": "https://www.defensenews.com/global/europe/2026/05/20/nato-eastern-deterrence-strategy-takes-shape-around-autonomous-zone/",
       "published": "Wed, 20 May 2026 08:09:03 +0000",
@@ -918,14 +909,24 @@
       "categories": [
         "exercise"
       ]
+    },
+    {
+      "title": "Pentagon policy isn’t keeping pace with autonomous weapons, senators argue",
+      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/05/20/pentagon-policy-isnt-keeping-pace-with-autonomous-weapons-senators-argue/",
+      "published": "Wed, 20 May 2026 12:00:01 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment",
+        "exercise"
+      ]
     }
   ],
   "_threat_indicators": {
     "deployment_articles": 13,
     "conflict_articles": 4,
-    "exercise_articles": 7,
+    "exercise_articles": 6,
     "total_articles": 50,
-    "computed_at": "2026-05-20T23:01:27.762235+00:00",
+    "computed_at": "2026-05-21T01:55:18.893930+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] Italy is forward-deploying mine countermeasures assets in the Middle East",
@@ -943,9 +944,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-05-20T23:01:27.762281+00:00",
+    "last_successful_update": "2026-05-21T01:55:18.893977+00:00",
     "article_count": 50,
-    "categorized_count": 23,
+    "categorized_count": 22,
     "freshest_source": "Naval News",
     "freshest_title": "Italy is forward-deploying mine countermeasures assets in the Middle East",
     "freshest_published": "Mon, 18 May 2026 05:58:00 +0000"
