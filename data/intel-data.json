@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-05-21T18:49:26Z",
-  "version": 1492,
+  "generated_utc": "2026-05-21T20:27:42Z",
+  "version": 1493,
   "breaking_alert": "Naval News: Video: France’s Second FDI Frigate Launched by Naval Group",
   "naval_deployments": [
     {
@@ -613,6 +613,33 @@
       ]
     },
     {
+      "title": "The US Navy is full speed ahead on building a laser fleet",
+      "link": "https://www.defensenews.com/industry/techwatch/2026/05/21/the-us-navy-is-full-speed-ahead-on-building-a-laser-fleet/",
+      "published": "Thu, 21 May 2026 18:51:44 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "The US Navy is full speed ahead on building a laser fleet",
+      "link": "https://www.militarytimes.com/industry/techwatch/2026/05/21/the-us-navy-is-full-speed-ahead-on-building-a-laser-fleet/",
+      "published": "Thu, 21 May 2026 18:51:44 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "USS Nimitz arrives in Caribbean as US-Cuba tension mounts",
+      "link": "https://www.militarytimes.com/news/your-navy/2026/05/21/uss-nimitz-arrives-in-caribbean-as-us-cuba-tension-mounts/",
+      "published": "Thu, 21 May 2026 19:20:31 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "Sweden Selects Naval Group’s FDI for Future Luleå-class Frigates",
       "link": "https://www.navalnews.com/naval-news/2026/05/sweden-selects-naval-groups-fdi-for-future-lulea-class-frigates/",
       "published": "Tue, 19 May 2026 08:23:05 +0000",
@@ -644,24 +671,6 @@
       "link": "https://www.navalnews.com/naval-news/2026/05/u-s-navys-first-carrier-operated-unmanned-tanker-cleared-for-production/",
       "published": "Wed, 20 May 2026 18:13:03 +0000",
       "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Michael Bay slated to direct film on rescue of F-15 crew in Iran",
-      "link": "https://www.militarytimes.com/news/your-military/2026/05/20/michael-bay-slated-to-direct-film-on-rescue-of-f-15-crew-in-iran/",
-      "published": "Wed, 20 May 2026 20:53:44 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Charges grow against Army OB-GYN as victim count rises to nearly 100",
-      "link": "https://www.militarytimes.com/news/your-military/2026/05/20/charges-grow-against-army-ob-gyn-as-victim-count-rises-to-nearly-100/",
-      "published": "Wed, 20 May 2026 22:59:51 +0000",
-      "source": "Military Times",
       "categories": [
         "deployment"
       ]
@@ -867,6 +876,15 @@
       ]
     },
     {
+      "title": "Administration budget maneuvers could affect Army barracks, family housing projects",
+      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/05/21/administration-budget-maneuvers-could-affect-army-barracks-family-housing-projects/",
+      "published": "Thu, 21 May 2026 18:51:43 +0000",
+      "source": "Military Times",
+      "categories": [
+        "exercise"
+      ]
+    },
+    {
       "title": "NATO eastern deterrence strategy takes shape around ‘autonomous zone’",
       "link": "https://www.defensenews.com/global/europe/2026/05/20/nato-eastern-deterrence-strategy-takes-shape-around-autonomous-zone/",
       "published": "Wed, 20 May 2026 08:09:03 +0000",
@@ -892,30 +910,21 @@
       "categories": [
         "exercise"
       ]
-    },
-    {
-      "title": "Report to Congress on U.S. Aircraft Combat Losses in Operation Epic Fury",
-      "link": "https://news.usni.org/2026/05/20/report-to-congress-on-u-s-aircraft-combat-losses-in-operation-epic-fury",
-      "published": "Wed, 20 May 2026 13:03:22 +0000",
-      "source": "USNI News",
-      "categories": [
-        "exercise"
-      ]
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 8,
+    "deployment_articles": 9,
     "conflict_articles": 4,
-    "exercise_articles": 5,
+    "exercise_articles": 6,
     "total_articles": 50,
-    "computed_at": "2026-05-21T18:49:24.885230+00:00",
+    "computed_at": "2026-05-21T20:27:40.499459+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] Video: France’s Second FDI Frigate Launched by Naval Group",
       "[Defense News] Turkey to buy 100 one-way explosive naval drones for swarm attacks",
       "[USNI News] Russian Surveillance Ship Spotted Near NATO Sub Drills",
-      "[Naval News] Germany orders more JSM missiles from KONGSBERG",
-      "[Naval News] Sweden Selects Naval Group’s FDI for Future Luleå-class Frigates"
+      "[Military Times] Administration budget maneuvers could affect Army barracks, family housing projects",
+      "[Defense News] The US Navy is full speed ahead on building a laser fleet"
     ]
   },
   "ground_intel": {
@@ -926,9 +935,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-05-21T18:49:24.885276+00:00",
+    "last_successful_update": "2026-05-21T20:27:40.499503+00:00",
     "article_count": 50,
-    "categorized_count": 16,
+    "categorized_count": 18,
     "freshest_source": "Naval News",
     "freshest_title": "Video: France’s Second FDI Frigate Launched by Naval Group",
     "freshest_published": "Mon, 18 May 2026 17:14:54 +0000"
