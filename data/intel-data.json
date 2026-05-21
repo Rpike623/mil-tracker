@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-05-21T20:27:42Z",
-  "version": 1493,
+  "generated_utc": "2026-05-21T22:07:50Z",
+  "version": 1494,
   "breaking_alert": "Naval News: Video: France’s Second FDI Frigate Launched by Naval Group",
   "naval_deployments": [
     {
@@ -640,6 +640,24 @@
       ]
     },
     {
+      "title": "Poland joins Pentagon’s counter-drone marketplace amid unexpected US deployment cancellation",
+      "link": "https://www.defensenews.com/news/your-military/2026/05/21/poland-joins-pentagons-counter-drone-marketplace-amid-unexpected-us-deployment-cancellation/",
+      "published": "Thu, 21 May 2026 21:05:59 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Poland joins Pentagon’s counter-drone marketplace amid unexpected US deployment cancellation",
+      "link": "https://www.militarytimes.com/news/your-military/2026/05/21/poland-joins-pentagons-counter-drone-marketplace-amid-unexpected-us-deployment-cancellation/",
+      "published": "Thu, 21 May 2026 21:05:59 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "Sweden Selects Naval Group’s FDI for Future Luleå-class Frigates",
       "link": "https://www.navalnews.com/naval-news/2026/05/sweden-selects-naval-groups-fdi-for-future-lulea-class-frigates/",
       "published": "Tue, 19 May 2026 08:23:05 +0000",
@@ -662,15 +680,6 @@
       "link": "https://news.usni.org/2026/05/20/japans-largest-warship-preparing-for-f-35b-training-with-u-s-marines",
       "published": "Wed, 20 May 2026 15:52:16 +0000",
       "source": "USNI News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "U.S. Navy’s First Carrier Operated Unmanned Tanker Cleared for Production",
-      "link": "https://www.navalnews.com/naval-news/2026/05/u-s-navys-first-carrier-operated-unmanned-tanker-cleared-for-production/",
-      "published": "Wed, 20 May 2026 18:13:03 +0000",
-      "source": "Naval News",
       "categories": [
         "deployment"
       ]
@@ -885,15 +894,6 @@
       ]
     },
     {
-      "title": "NATO eastern deterrence strategy takes shape around ‘autonomous zone’",
-      "link": "https://www.defensenews.com/global/europe/2026/05/20/nato-eastern-deterrence-strategy-takes-shape-around-autonomous-zone/",
-      "published": "Wed, 20 May 2026 08:09:03 +0000",
-      "source": "Defense News",
-      "categories": [
-        "exercise"
-      ]
-    },
-    {
       "title": "Russia launches unannounced nuclear exercise, including Belarusian launch sites",
       "link": "https://www.defensenews.com/global/europe/2026/05/20/russia-launches-unannounced-nuclear-exercise-including-belarusian-launch-sites/",
       "published": "Wed, 20 May 2026 08:31:29 +0000",
@@ -910,14 +910,23 @@
       "categories": [
         "exercise"
       ]
+    },
+    {
+      "title": "Report to Congress on U.S. Aircraft Combat Losses in Operation Epic Fury",
+      "link": "https://news.usni.org/2026/05/20/report-to-congress-on-u-s-aircraft-combat-losses-in-operation-epic-fury",
+      "published": "Wed, 20 May 2026 13:03:22 +0000",
+      "source": "USNI News",
+      "categories": [
+        "exercise"
+      ]
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 9,
+    "deployment_articles": 11,
     "conflict_articles": 4,
-    "exercise_articles": 6,
+    "exercise_articles": 5,
     "total_articles": 50,
-    "computed_at": "2026-05-21T20:27:40.499459+00:00",
+    "computed_at": "2026-05-21T22:07:47.174518+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] Video: France’s Second FDI Frigate Launched by Naval Group",
@@ -935,9 +944,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-05-21T20:27:40.499503+00:00",
+    "last_successful_update": "2026-05-21T22:07:47.174562+00:00",
     "article_count": 50,
-    "categorized_count": 18,
+    "categorized_count": 19,
     "freshest_source": "Naval News",
     "freshest_title": "Video: France’s Second FDI Frigate Launched by Naval Group",
     "freshest_published": "Mon, 18 May 2026 17:14:54 +0000"
