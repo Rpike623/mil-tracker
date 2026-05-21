@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-05-21T12:37:07Z",
-  "version": 1490,
-  "breaking_alert": "USNI News: VIDEO: Navy’s Final Freedom-class Littoral Combat Ship Joins the Fleet",
+  "generated_utc": "2026-05-21T16:10:22Z",
+  "version": 1491,
+  "breaking_alert": "Task & Purpose: SOCOM wants to move fast on new tech: ‘We’re not building aircraft carriers here’",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -594,15 +594,6 @@
   ],
   "_naval_news_refs": [
     {
-      "title": "VIDEO: Navy’s Final Freedom-class Littoral Combat Ship Joins the Fleet",
-      "link": "https://news.usni.org/2026/05/18/video-navys-final-freedom-class-littoral-combat-ship-joins-the-fleet",
-      "published": "Mon, 18 May 2026 15:33:01 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "SOCOM wants to move fast on new tech: ‘We’re not building aircraft carriers here’",
       "link": "https://taskandpurpose.com/tech-tactics/socom-new-technology/",
       "published": "Mon, 18 May 2026 15:44:28 -0400",
@@ -658,16 +649,6 @@
       ]
     },
     {
-      "title": "Pentagon policy isn’t keeping pace with autonomous weapons, senators argue",
-      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/05/20/pentagon-policy-isnt-keeping-pace-with-autonomous-weapons-senators-argue/",
-      "published": "Wed, 20 May 2026 12:00:01 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment",
-        "exercise"
-      ]
-    },
-    {
       "title": "Japan’s Largest Warship Preparing for F-35B Training with U.S. Marines",
       "link": "https://news.usni.org/2026/05/20/japans-largest-warship-preparing-for-f-35b-training-with-u-s-marines",
       "published": "Wed, 20 May 2026 15:52:16 +0000",
@@ -681,6 +662,24 @@
       "link": "https://www.navalnews.com/naval-news/2026/05/u-s-navys-first-carrier-operated-unmanned-tanker-cleared-for-production/",
       "published": "Wed, 20 May 2026 18:13:03 +0000",
       "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "US Marines board and redirect Iranian-flagged tanker amid ongoing blockade",
+      "link": "https://www.militarytimes.com/news/your-navy/2026/05/20/us-marines-board-and-redirect-iranian-flagged-tanker-amid-ongoing-blockade/",
+      "published": "Wed, 20 May 2026 18:22:19 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Michael Bay slated to direct film on rescue of F-15 crew in Iran",
+      "link": "https://www.militarytimes.com/news/your-military/2026/05/20/michael-bay-slated-to-direct-film-on-rescue-of-f-15-crew-in-iran/",
+      "published": "Wed, 20 May 2026 20:53:44 +0000",
+      "source": "Military Times",
       "categories": [
         "deployment"
       ]
@@ -873,15 +872,6 @@
       "categories": [
         "conflict"
       ]
-    },
-    {
-      "title": "Pentagon watchdog evaluating US military’s strikes on alleged drug boats",
-      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/05/20/pentagon-watchdog-evaluating-us-militarys-strikes-on-alleged-drug-boats/",
-      "published": "Wed, 20 May 2026 13:56:29 +0000",
-      "source": "Military Times",
-      "categories": [
-        "conflict"
-      ]
     }
   ],
   "_exercise_news_refs": [
@@ -922,29 +912,28 @@
       ]
     },
     {
-      "title": "Pentagon policy isn’t keeping pace with autonomous weapons, senators argue",
-      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/05/20/pentagon-policy-isnt-keeping-pace-with-autonomous-weapons-senators-argue/",
-      "published": "Wed, 20 May 2026 12:00:01 +0000",
-      "source": "Military Times",
+      "title": "Report to Congress on U.S. Aircraft Combat Losses in Operation Epic Fury",
+      "link": "https://news.usni.org/2026/05/20/report-to-congress-on-u-s-aircraft-combat-losses-in-operation-epic-fury",
+      "published": "Wed, 20 May 2026 13:03:22 +0000",
+      "source": "USNI News",
       "categories": [
-        "deployment",
         "exercise"
       ]
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 13,
-    "conflict_articles": 5,
-    "exercise_articles": 6,
+    "deployment_articles": 11,
+    "conflict_articles": 4,
+    "exercise_articles": 5,
     "total_articles": 50,
-    "computed_at": "2026-05-21T12:37:04.426762+00:00",
+    "computed_at": "2026-05-21T16:10:20.103989+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
-      "[USNI News] VIDEO: Navy’s Final Freedom-class Littoral Combat Ship Joins the Fleet",
       "[Task & Purpose] SOCOM wants to move fast on new tech: ‘We’re not building aircraft carriers here’",
       "[Naval News] Video: France’s Second FDI Frigate Launched by Naval Group",
       "[USNI News] USNI News Fleet and Marine Tracker: May 18, 2026",
-      "[Defense News] Turkey to buy 100 one-way explosive naval drones for swarm attacks"
+      "[Defense News] Turkey to buy 100 one-way explosive naval drones for swarm attacks",
+      "[Naval News] Germany orders more JSM missiles from KONGSBERG"
     ]
   },
   "ground_intel": {
@@ -955,12 +944,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-05-21T12:37:04.426810+00:00",
+    "last_successful_update": "2026-05-21T16:10:20.104033+00:00",
     "article_count": 50,
-    "categorized_count": 22,
-    "freshest_source": "USNI News",
-    "freshest_title": "VIDEO: Navy’s Final Freedom-class Littoral Combat Ship Joins the Fleet",
-    "freshest_published": "Mon, 18 May 2026 15:33:01 +0000"
+    "categorized_count": 19,
+    "freshest_source": "Task & Purpose",
+    "freshest_title": "SOCOM wants to move fast on new tech: ‘We’re not building aircraft carriers here’",
+    "freshest_published": "Mon, 18 May 2026 15:44:28 -0400"
   },
   "_firms_hotspots": []
 }
