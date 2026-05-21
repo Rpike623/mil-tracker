@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-05-21T05:59:01Z",
-  "version": 1488,
-  "breaking_alert": "Naval News: Italy is forward-deploying mine countermeasures assets in the Middle East",
+  "generated_utc": "2026-05-21T09:35:48Z",
+  "version": 1489,
+  "breaking_alert": "USNI News: VIDEO: Navy’s Final Freedom-class Littoral Combat Ship Joins the Fleet",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -594,15 +594,6 @@
   ],
   "_naval_news_refs": [
     {
-      "title": "Italy is forward-deploying mine countermeasures assets in the Middle East",
-      "link": "https://www.navalnews.com/naval-news/2026/05/italy-is-forward-deploying-mine-countermeasures-assets-in-the-middle-east/",
-      "published": "Mon, 18 May 2026 05:58:00 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "VIDEO: Navy’s Final Freedom-class Littoral Combat Ship Joins the Fleet",
       "link": "https://news.usni.org/2026/05/18/video-navys-final-freedom-class-littoral-combat-ship-joins-the-fleet",
       "published": "Mon, 18 May 2026 15:33:01 +0000",
@@ -680,6 +671,15 @@
       "link": "https://www.navalnews.com/naval-news/2026/05/u-s-navys-first-carrier-operated-unmanned-tanker-cleared-for-production/",
       "published": "Wed, 20 May 2026 18:13:03 +0000",
       "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "US Marines board and redirect Iranian-flagged tanker amid ongoing blockade",
+      "link": "https://www.militarytimes.com/news/your-navy/2026/05/20/us-marines-board-and-redirect-iranian-flagged-tanker-amid-ongoing-blockade/",
+      "published": "Wed, 20 May 2026 18:22:19 +0000",
+      "source": "Military Times",
       "categories": [
         "deployment"
       ]
@@ -922,18 +922,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 13,
+    "deployment_articles": 12,
     "conflict_articles": 4,
     "exercise_articles": 6,
     "total_articles": 50,
-    "computed_at": "2026-05-21T05:58:56.559931+00:00",
+    "computed_at": "2026-05-21T09:35:45.795579+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
-      "[Naval News] Italy is forward-deploying mine countermeasures assets in the Middle East",
       "[USNI News] VIDEO: Navy’s Final Freedom-class Littoral Combat Ship Joins the Fleet",
       "[Task & Purpose] SOCOM wants to move fast on new tech: ‘We’re not building aircraft carriers here’",
       "[Naval News] Video: France’s Second FDI Frigate Launched by Naval Group",
-      "[USNI News] USNI News Fleet and Marine Tracker: May 18, 2026"
+      "[USNI News] USNI News Fleet and Marine Tracker: May 18, 2026",
+      "[Naval News] Germany orders more JSM missiles from KONGSBERG"
     ]
   },
   "ground_intel": {
@@ -944,12 +944,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-05-21T05:58:56.559978+00:00",
+    "last_successful_update": "2026-05-21T09:35:45.795632+00:00",
     "article_count": 50,
-    "categorized_count": 22,
-    "freshest_source": "Naval News",
-    "freshest_title": "Italy is forward-deploying mine countermeasures assets in the Middle East",
-    "freshest_published": "Mon, 18 May 2026 05:58:00 +0000"
+    "categorized_count": 21,
+    "freshest_source": "USNI News",
+    "freshest_title": "VIDEO: Navy’s Final Freedom-class Littoral Combat Ship Joins the Fleet",
+    "freshest_published": "Mon, 18 May 2026 15:33:01 +0000"
   },
   "_firms_hotspots": []
 }
