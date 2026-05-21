@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-05-21T22:07:50Z",
-  "version": 1494,
+  "generated_utc": "2026-05-21T23:45:22Z",
+  "version": 1495,
   "breaking_alert": "Naval News: Video: France’s Second FDI Frigate Launched by Naval Group",
   "naval_deployments": [
     {
@@ -926,7 +926,7 @@
     "conflict_articles": 4,
     "exercise_articles": 5,
     "total_articles": 50,
-    "computed_at": "2026-05-21T22:07:47.174518+00:00",
+    "computed_at": "2026-05-21T23:45:19.580129+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] Video: France’s Second FDI Frigate Launched by Naval Group",
@@ -944,7 +944,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-05-21T22:07:47.174562+00:00",
+    "last_successful_update": "2026-05-21T23:45:19.580174+00:00",
     "article_count": 50,
     "categorized_count": 19,
     "freshest_source": "Naval News",
