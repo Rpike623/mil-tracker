@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-05-22T14:08:19Z",
-  "version": 1500,
+  "generated_utc": "2026-05-22T17:00:36Z",
+  "version": 1501,
   "breaking_alert": "Defense News: In shift, Trump announces deployment of 5,000 US troops to Poland",
   "naval_deployments": [
     {
@@ -621,6 +621,25 @@
       ]
     },
     {
+      "title": "Libya and Syria join Turkey’s flagship military exercise in historic firsts",
+      "link": "https://www.defensenews.com/global/europe/2026/05/22/libya-and-syria-join-turkeys-flagship-military-exercise-in-historic-firsts/",
+      "published": "Fri, 22 May 2026 15:26:06 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment",
+        "exercise"
+      ]
+    },
+    {
+      "title": "USS Nimitz claims title of longest-serving aircraft carrier from ‘Big E’",
+      "link": "https://www.militarytimes.com/news/your-navy/2026/05/22/uss-nimitz-claims-title-of-longest-serving-aircraft-carrier-from-big-e/",
+      "published": "Fri, 22 May 2026 16:52:32 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "Video: France’s Second FDI Frigate Launched by Naval Group",
       "link": "https://www.navalnews.com/naval-news/2026/05/video-frances-second-fdi-frigate-launched-by-naval-group/",
       "published": "Mon, 18 May 2026 17:14:54 +0000",
@@ -661,24 +680,6 @@
       "title": "USS Nimitz arrives in Caribbean as US-Cuba tension mounts",
       "link": "https://www.militarytimes.com/news/your-navy/2026/05/21/uss-nimitz-arrives-in-caribbean-as-us-cuba-tension-mounts/",
       "published": "Thu, 21 May 2026 19:20:31 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Poland joins Pentagon’s counter-drone marketplace amid unexpected US deployment cancellation",
-      "link": "https://www.defensenews.com/news/your-military/2026/05/21/poland-joins-pentagons-counter-drone-marketplace-amid-unexpected-us-deployment-cancellation/",
-      "published": "Thu, 21 May 2026 21:05:59 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Poland joins Pentagon’s counter-drone marketplace amid unexpected US deployment cancellation",
-      "link": "https://www.militarytimes.com/news/your-military/2026/05/21/poland-joins-pentagons-counter-drone-marketplace-amid-unexpected-us-deployment-cancellation/",
-      "published": "Thu, 21 May 2026 21:05:59 +0000",
       "source": "Military Times",
       "categories": [
         "deployment"
@@ -885,19 +886,20 @@
       ]
     },
     {
-      "title": "Russian Surveillance Ship Spotted Near NATO Sub Drills",
-      "link": "https://news.usni.org/2026/05/21/russian-surveillance-ship-spotted-near-nato-sub-drills",
-      "published": "Thu, 21 May 2026 18:11:27 +0000",
-      "source": "USNI News",
+      "title": "Libya and Syria join Turkey’s flagship military exercise in historic firsts",
+      "link": "https://www.defensenews.com/global/europe/2026/05/22/libya-and-syria-join-turkeys-flagship-military-exercise-in-historic-firsts/",
+      "published": "Fri, 22 May 2026 15:26:06 +0000",
+      "source": "Defense News",
       "categories": [
+        "deployment",
         "exercise"
       ]
     },
     {
-      "title": "Administration budget maneuvers could affect Army barracks, family housing projects",
-      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/05/21/administration-budget-maneuvers-could-affect-army-barracks-family-housing-projects/",
-      "published": "Thu, 21 May 2026 18:51:43 +0000",
-      "source": "Military Times",
+      "title": "Russian Surveillance Ship Spotted Near NATO Sub Drills",
+      "link": "https://news.usni.org/2026/05/21/russian-surveillance-ship-spotted-near-nato-sub-drills",
+      "published": "Thu, 21 May 2026 18:11:27 +0000",
+      "source": "USNI News",
       "categories": [
         "exercise"
       ]
@@ -922,18 +924,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 14,
+    "deployment_articles": 16,
     "conflict_articles": 4,
     "exercise_articles": 5,
     "total_articles": 50,
-    "computed_at": "2026-05-22T14:08:12.118908+00:00",
+    "computed_at": "2026-05-22T17:00:34.495356+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Defense News] In shift, Trump announces deployment of 5,000 US troops to Poland",
       "[Military Times] In shift, Trump announces deployment of 5,000 US troops to Poland",
       "[Naval News] Australia begins life extension effort for Collins submarines, announces A$11 billion cost over ten years",
       "[Naval News] Japan Commissions Ninth Mogami-class Frigate ‘Natori’ 「なとり」",
-      "[Naval News] Video: France’s Second FDI Frigate Launched by Naval Group"
+      "[Defense News] Libya and Syria join Turkey’s flagship military exercise in historic firsts"
     ]
   },
   "ground_intel": {
@@ -944,9 +946,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-05-22T14:08:12.118957+00:00",
+    "last_successful_update": "2026-05-22T17:00:34.495404+00:00",
     "article_count": 50,
-    "categorized_count": 22,
+    "categorized_count": 23,
     "freshest_source": "Defense News",
     "freshest_title": "In shift, Trump announces deployment of 5,000 US troops to Poland",
     "freshest_published": "Fri, 22 May 2026 00:13:47 +0000"
