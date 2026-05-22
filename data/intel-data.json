@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-05-22T17:00:36Z",
-  "version": 1501,
+  "generated_utc": "2026-05-22T19:18:55Z",
+  "version": 1502,
   "breaking_alert": "Defense News: In shift, Trump announces deployment of 5,000 US troops to Poland",
   "naval_deployments": [
     {
@@ -621,6 +621,15 @@
       ]
     },
     {
+      "title": "Unaccredited VA claims company charged veteran $21,000 in violation of federal law, judge rules",
+      "link": "https://taskandpurpose.com/news/va-claim-shark-court-ruling/",
+      "published": "Fri, 22 May 2026 14:52:28 -0400",
+      "source": "Task & Purpose",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "Libya and Syria join Turkey’s flagship military exercise in historic firsts",
       "link": "https://www.defensenews.com/global/europe/2026/05/22/libya-and-syria-join-turkeys-flagship-military-exercise-in-historic-firsts/",
       "published": "Fri, 22 May 2026 15:26:06 +0000",
@@ -668,19 +677,10 @@
       ]
     },
     {
-      "title": "The US Navy is full speed ahead on building a laser fleet",
-      "link": "https://www.militarytimes.com/industry/techwatch/2026/05/21/the-us-navy-is-full-speed-ahead-on-building-a-laser-fleet/",
-      "published": "Thu, 21 May 2026 18:51:44 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "USS Nimitz arrives in Caribbean as US-Cuba tension mounts",
-      "link": "https://www.militarytimes.com/news/your-navy/2026/05/21/uss-nimitz-arrives-in-caribbean-as-us-cuba-tension-mounts/",
-      "published": "Thu, 21 May 2026 19:20:31 +0000",
-      "source": "Military Times",
+      "title": "Poland joins Pentagon’s counter-drone marketplace amid unexpected US deployment cancellation",
+      "link": "https://www.defensenews.com/news/your-military/2026/05/21/poland-joins-pentagons-counter-drone-marketplace-amid-unexpected-us-deployment-cancellation/",
+      "published": "Thu, 21 May 2026 21:05:59 +0000",
+      "source": "Defense News",
       "categories": [
         "deployment"
       ]
@@ -896,6 +896,24 @@
       ]
     },
     {
+      "title": "Congressional report tallies 42 US aircraft lost or damaged in Operation Epic Fury",
+      "link": "https://www.defensenews.com/news/pentagon-congress/2026/05/22/congressional-report-tallies-42-us-aircraft-lost-or-damaged-in-operation-epic-fury/",
+      "published": "Fri, 22 May 2026 17:49:18 +0000",
+      "source": "Defense News",
+      "categories": [
+        "exercise"
+      ]
+    },
+    {
+      "title": "Congressional report tallies 42 US aircraft lost or damaged in Operation Epic Fury",
+      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/05/22/congressional-report-tallies-42-us-aircraft-lost-or-damaged-in-operation-epic-fury/",
+      "published": "Fri, 22 May 2026 17:49:18 +0000",
+      "source": "Military Times",
+      "categories": [
+        "exercise"
+      ]
+    },
+    {
       "title": "Russian Surveillance Ship Spotted Near NATO Sub Drills",
       "link": "https://news.usni.org/2026/05/21/russian-surveillance-ship-spotted-near-nato-sub-drills",
       "published": "Thu, 21 May 2026 18:11:27 +0000",
@@ -903,39 +921,21 @@
       "categories": [
         "exercise"
       ]
-    },
-    {
-      "title": "AI in special operations will always have ‘a human in the loop,’ top officer says",
-      "link": "https://taskandpurpose.com/tech-tactics/artificial-intelligence-special-operations/",
-      "published": "Wed, 20 May 2026 10:14:47 -0400",
-      "source": "Task & Purpose",
-      "categories": [
-        "exercise"
-      ]
-    },
-    {
-      "title": "Report to Congress on U.S. Aircraft Combat Losses in Operation Epic Fury",
-      "link": "https://news.usni.org/2026/05/20/report-to-congress-on-u-s-aircraft-combat-losses-in-operation-epic-fury",
-      "published": "Wed, 20 May 2026 13:03:22 +0000",
-      "source": "USNI News",
-      "categories": [
-        "exercise"
-      ]
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 16,
+    "deployment_articles": 14,
     "conflict_articles": 4,
-    "exercise_articles": 5,
+    "exercise_articles": 7,
     "total_articles": 50,
-    "computed_at": "2026-05-22T17:00:34.495356+00:00",
+    "computed_at": "2026-05-22T19:18:53.769916+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Defense News] In shift, Trump announces deployment of 5,000 US troops to Poland",
       "[Military Times] In shift, Trump announces deployment of 5,000 US troops to Poland",
       "[Naval News] Australia begins life extension effort for Collins submarines, announces A$11 billion cost over ten years",
       "[Naval News] Japan Commissions Ninth Mogami-class Frigate ‘Natori’ 「なとり」",
-      "[Defense News] Libya and Syria join Turkey’s flagship military exercise in historic firsts"
+      "[Task & Purpose] Unaccredited VA claims company charged veteran $21,000 in violation of federal law, judge rules"
     ]
   },
   "ground_intel": {
@@ -946,7 +946,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-05-22T17:00:34.495404+00:00",
+    "last_successful_update": "2026-05-22T19:18:53.769962+00:00",
     "article_count": 50,
     "categorized_count": 23,
     "freshest_source": "Defense News",
