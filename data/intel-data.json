@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-05-22T19:18:55Z",
-  "version": 1502,
+  "generated_utc": "2026-05-22T21:01:28Z",
+  "version": 1503,
   "breaking_alert": "Defense News: In shift, Trump announces deployment of 5,000 US troops to Poland",
   "naval_deployments": [
     {
@@ -603,15 +603,6 @@
       ]
     },
     {
-      "title": "In shift, Trump announces deployment of 5,000 US troops to Poland",
-      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/05/22/in-shift-trump-announces-deployment-of-5000-us-troops-to-poland/",
-      "published": "Fri, 22 May 2026 00:13:47 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Australia begins life extension effort for Collins submarines, announces A$11 billion cost over ten years",
       "link": "https://www.navalnews.com/naval-news/2026/05/australia-spends-big-on-lote-life-extension-for-collins-submarines/",
       "published": "Fri, 22 May 2026 07:09:47 +0000",
@@ -649,19 +640,10 @@
       ]
     },
     {
-      "title": "Video: France’s Second FDI Frigate Launched by Naval Group",
-      "link": "https://www.navalnews.com/naval-news/2026/05/video-frances-second-fdi-frigate-launched-by-naval-group/",
-      "published": "Mon, 18 May 2026 17:14:54 +0000",
+      "title": "Dragon Adds More Air-Defence Firepower to French Carrier Strike Group",
+      "link": "https://www.navalnews.com/naval-news/2026/05/dragon-adds-more-air-defence-firepower-to-french-carrier-strike-group/",
+      "published": "Fri, 22 May 2026 19:38:45 +0000",
       "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Turkey to buy 100 one-way explosive naval drones for swarm attacks",
-      "link": "https://www.defensenews.com/global/europe/2026/05/21/turkey-to-buy-100-one-way-explosive-naval-drones-for-swarm-attacks/",
-      "published": "Thu, 21 May 2026 12:32:23 +0000",
-      "source": "Defense News",
       "categories": [
         "deployment",
         "conflict"
@@ -681,6 +663,24 @@
       "link": "https://www.defensenews.com/news/your-military/2026/05/21/poland-joins-pentagons-counter-drone-marketplace-amid-unexpected-us-deployment-cancellation/",
       "published": "Thu, 21 May 2026 21:05:59 +0000",
       "source": "Defense News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Sweden Selects Naval Group’s FDI for Future Luleå-class Frigates",
+      "link": "https://www.navalnews.com/naval-news/2026/05/sweden-selects-naval-groups-fdi-for-future-lulea-class-frigates/",
+      "published": "Tue, 19 May 2026 08:23:05 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Drones could mean the end of sprawling bases seen during Iraq and Afghanistan Wars",
+      "link": "https://taskandpurpose.com/tech-tactics/drones-bases-iraq-afghanistan-wars/",
+      "published": "Tue, 19 May 2026 16:22:19 -0400",
+      "source": "Task & Purpose",
       "categories": [
         "deployment"
       ]
@@ -838,10 +838,10 @@
   },
   "_conflict_news_refs": [
     {
-      "title": "Turkey to buy 100 one-way explosive naval drones for swarm attacks",
-      "link": "https://www.defensenews.com/global/europe/2026/05/21/turkey-to-buy-100-one-way-explosive-naval-drones-for-swarm-attacks/",
-      "published": "Thu, 21 May 2026 12:32:23 +0000",
-      "source": "Defense News",
+      "title": "Dragon Adds More Air-Defence Firepower to French Carrier Strike Group",
+      "link": "https://www.navalnews.com/naval-news/2026/05/dragon-adds-more-air-defence-firepower-to-french-carrier-strike-group/",
+      "published": "Fri, 22 May 2026 19:38:45 +0000",
+      "source": "Naval News",
       "categories": [
         "deployment",
         "conflict"
@@ -914,28 +914,28 @@
       ]
     },
     {
-      "title": "Russian Surveillance Ship Spotted Near NATO Sub Drills",
-      "link": "https://news.usni.org/2026/05/21/russian-surveillance-ship-spotted-near-nato-sub-drills",
-      "published": "Thu, 21 May 2026 18:11:27 +0000",
-      "source": "USNI News",
+      "title": "Rubio ratchets up pressure on NATO at key summit",
+      "link": "https://www.defensenews.com/news/pentagon-congress/2026/05/22/rubio-ratchets-up-pressure-on-nato-at-key-summit/",
+      "published": "Fri, 22 May 2026 20:15:15 +0000",
+      "source": "Defense News",
       "categories": [
         "exercise"
       ]
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 14,
+    "deployment_articles": 12,
     "conflict_articles": 4,
-    "exercise_articles": 7,
+    "exercise_articles": 9,
     "total_articles": 50,
-    "computed_at": "2026-05-22T19:18:53.769916+00:00",
+    "computed_at": "2026-05-22T21:01:25.633173+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Defense News] In shift, Trump announces deployment of 5,000 US troops to Poland",
-      "[Military Times] In shift, Trump announces deployment of 5,000 US troops to Poland",
       "[Naval News] Australia begins life extension effort for Collins submarines, announces A$11 billion cost over ten years",
       "[Naval News] Japan Commissions Ninth Mogami-class Frigate ‘Natori’ 「なとり」",
-      "[Task & Purpose] Unaccredited VA claims company charged veteran $21,000 in violation of federal law, judge rules"
+      "[Task & Purpose] Unaccredited VA claims company charged veteran $21,000 in violation of federal law, judge rules",
+      "[Defense News] Libya and Syria join Turkey’s flagship military exercise in historic firsts"
     ]
   },
   "ground_intel": {
@@ -946,7 +946,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-05-22T19:18:53.769962+00:00",
+    "last_successful_update": "2026-05-22T21:01:25.633218+00:00",
     "article_count": 50,
     "categorized_count": 23,
     "freshest_source": "Defense News",
