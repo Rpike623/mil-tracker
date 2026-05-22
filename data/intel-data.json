@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-05-22T21:01:28Z",
-  "version": 1503,
+  "generated_utc": "2026-05-22T22:45:19Z",
+  "version": 1504,
   "breaking_alert": "Defense News: In shift, Trump announces deployment of 5,000 US troops to Poland",
   "naval_deployments": [
     {
@@ -650,6 +650,15 @@
       ]
     },
     {
+      "title": "Russian Crude Exports Increase as Other Strait of Hormuz Transits Remain Low",
+      "link": "https://news.usni.org/2026/05/22/russian-crude-exports-increase-as-other-strait-of-hormuz-transits-remain-low",
+      "published": "Fri, 22 May 2026 21:08:06 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "The US Navy is full speed ahead on building a laser fleet",
       "link": "https://www.defensenews.com/industry/techwatch/2026/05/21/the-us-navy-is-full-speed-ahead-on-building-a-laser-fleet/",
       "published": "Thu, 21 May 2026 18:51:44 +0000",
@@ -672,15 +681,6 @@
       "link": "https://www.navalnews.com/naval-news/2026/05/sweden-selects-naval-groups-fdi-for-future-lulea-class-frigates/",
       "published": "Tue, 19 May 2026 08:23:05 +0000",
       "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Drones could mean the end of sprawling bases seen during Iraq and Afghanistan Wars",
-      "link": "https://taskandpurpose.com/tech-tactics/drones-bases-iraq-afghanistan-wars/",
-      "published": "Tue, 19 May 2026 16:22:19 -0400",
-      "source": "Task & Purpose",
       "categories": [
         "deployment"
       ]
@@ -924,11 +924,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 12,
+    "deployment_articles": 13,
     "conflict_articles": 4,
-    "exercise_articles": 9,
+    "exercise_articles": 8,
     "total_articles": 50,
-    "computed_at": "2026-05-22T21:01:25.633173+00:00",
+    "computed_at": "2026-05-22T22:45:17.667298+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Defense News] In shift, Trump announces deployment of 5,000 US troops to Poland",
@@ -946,7 +946,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-05-22T21:01:25.633218+00:00",
+    "last_successful_update": "2026-05-22T22:45:17.667345+00:00",
     "article_count": 50,
     "categorized_count": 23,
     "freshest_source": "Defense News",
