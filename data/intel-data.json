@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-05-21T23:45:22Z",
-  "version": 1495,
-  "breaking_alert": "Naval News: Video: France’s Second FDI Frigate Launched by Naval Group",
+  "generated_utc": "2026-05-22T01:56:54Z",
+  "version": 1496,
+  "breaking_alert": "Defense News: In shift, Trump announces deployment of 5,000 US troops to Poland",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -594,6 +594,24 @@
   ],
   "_naval_news_refs": [
     {
+      "title": "In shift, Trump announces deployment of 5,000 US troops to Poland",
+      "link": "https://www.defensenews.com/news/pentagon-congress/2026/05/22/in-shift-trump-announces-deployment-of-5000-us-troops-to-poland/",
+      "published": "Fri, 22 May 2026 00:13:47 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "In shift, Trump announces deployment of 5,000 US troops to Poland",
+      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/05/22/in-shift-trump-announces-deployment-of-5000-us-troops-to-poland/",
+      "published": "Fri, 22 May 2026 00:13:47 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "Video: France’s Second FDI Frigate Launched by Naval Group",
       "link": "https://www.navalnews.com/naval-news/2026/05/video-frances-second-fdi-frigate-launched-by-naval-group/",
       "published": "Mon, 18 May 2026 17:14:54 +0000",
@@ -662,24 +680,6 @@
       "link": "https://www.navalnews.com/naval-news/2026/05/sweden-selects-naval-groups-fdi-for-future-lulea-class-frigates/",
       "published": "Tue, 19 May 2026 08:23:05 +0000",
       "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Drones could mean the end of sprawling bases seen during Iraq and Afghanistan Wars",
-      "link": "https://taskandpurpose.com/tech-tactics/drones-bases-iraq-afghanistan-wars/",
-      "published": "Tue, 19 May 2026 16:22:19 -0400",
-      "source": "Task & Purpose",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Japan’s Largest Warship Preparing for F-35B Training with U.S. Marines",
-      "link": "https://news.usni.org/2026/05/20/japans-largest-warship-preparing-for-f-35b-training-with-u-s-marines",
-      "published": "Wed, 20 May 2026 15:52:16 +0000",
-      "source": "USNI News",
       "categories": [
         "deployment"
       ]
@@ -894,15 +894,6 @@
       ]
     },
     {
-      "title": "Russia launches unannounced nuclear exercise, including Belarusian launch sites",
-      "link": "https://www.defensenews.com/global/europe/2026/05/20/russia-launches-unannounced-nuclear-exercise-including-belarusian-launch-sites/",
-      "published": "Wed, 20 May 2026 08:31:29 +0000",
-      "source": "Defense News",
-      "categories": [
-        "exercise"
-      ]
-    },
-    {
       "title": "AI in special operations will always have ‘a human in the loop,’ top officer says",
       "link": "https://taskandpurpose.com/tech-tactics/artificial-intelligence-special-operations/",
       "published": "Wed, 20 May 2026 10:14:47 -0400",
@@ -922,18 +913,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 11,
+    "deployment_articles": 13,
     "conflict_articles": 4,
-    "exercise_articles": 5,
+    "exercise_articles": 4,
     "total_articles": 50,
-    "computed_at": "2026-05-21T23:45:19.580129+00:00",
+    "computed_at": "2026-05-22T01:56:48.235951+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
+      "[Defense News] In shift, Trump announces deployment of 5,000 US troops to Poland",
+      "[Military Times] In shift, Trump announces deployment of 5,000 US troops to Poland",
       "[Naval News] Video: France’s Second FDI Frigate Launched by Naval Group",
       "[Defense News] Turkey to buy 100 one-way explosive naval drones for swarm attacks",
-      "[USNI News] Russian Surveillance Ship Spotted Near NATO Sub Drills",
-      "[Military Times] Administration budget maneuvers could affect Army barracks, family housing projects",
-      "[Defense News] The US Navy is full speed ahead on building a laser fleet"
+      "[USNI News] Russian Surveillance Ship Spotted Near NATO Sub Drills"
     ]
   },
   "ground_intel": {
@@ -944,12 +935,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-05-21T23:45:19.580174+00:00",
+    "last_successful_update": "2026-05-22T01:56:48.235996+00:00",
     "article_count": 50,
-    "categorized_count": 19,
-    "freshest_source": "Naval News",
-    "freshest_title": "Video: France’s Second FDI Frigate Launched by Naval Group",
-    "freshest_published": "Mon, 18 May 2026 17:14:54 +0000"
+    "categorized_count": 20,
+    "freshest_source": "Defense News",
+    "freshest_title": "In shift, Trump announces deployment of 5,000 US troops to Poland",
+    "freshest_published": "Fri, 22 May 2026 00:13:47 +0000"
   },
   "_firms_hotspots": []
 }
