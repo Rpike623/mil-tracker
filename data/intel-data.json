@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-05-22T08:57:13Z",
-  "version": 1498,
+  "generated_utc": "2026-05-22T11:39:05Z",
+  "version": 1499,
   "breaking_alert": "Defense News: In shift, Trump announces deployment of 5,000 US troops to Poland",
   "naval_deployments": [
     {
@@ -876,6 +876,15 @@
   ],
   "_exercise_news_refs": [
     {
+      "title": "Japan Commissions Ninth Mogami-class Frigate ‘Natori’ 「なとり」",
+      "link": "https://www.navalnews.com/naval-news/2026/05/japan-commissions-ninth-mogami-class-frigate-natori-%e3%80%8c%e3%81%aa%e3%81%a8%e3%82%8a%e3%80%8d/",
+      "published": "Fri, 22 May 2026 11:18:45 +0000",
+      "source": "Naval News",
+      "categories": [
+        "exercise"
+      ]
+    },
+    {
       "title": "Russian Surveillance Ship Spotted Near NATO Sub Drills",
       "link": "https://news.usni.org/2026/05/21/russian-surveillance-ship-spotted-near-nato-sub-drills",
       "published": "Thu, 21 May 2026 18:11:27 +0000",
@@ -915,16 +924,16 @@
   "_threat_indicators": {
     "deployment_articles": 14,
     "conflict_articles": 4,
-    "exercise_articles": 4,
+    "exercise_articles": 5,
     "total_articles": 50,
-    "computed_at": "2026-05-22T08:57:11.962357+00:00",
+    "computed_at": "2026-05-22T11:38:59.820349+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Defense News] In shift, Trump announces deployment of 5,000 US troops to Poland",
       "[Military Times] In shift, Trump announces deployment of 5,000 US troops to Poland",
       "[Naval News] Australia begins life extension effort for Collins submarines, announces A$11 billion cost over ten years",
-      "[Naval News] Video: France’s Second FDI Frigate Launched by Naval Group",
-      "[Defense News] Turkey to buy 100 one-way explosive naval drones for swarm attacks"
+      "[Naval News] Japan Commissions Ninth Mogami-class Frigate ‘Natori’ 「なとり」",
+      "[Naval News] Video: France’s Second FDI Frigate Launched by Naval Group"
     ]
   },
   "ground_intel": {
@@ -935,9 +944,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-05-22T08:57:11.962426+00:00",
+    "last_successful_update": "2026-05-22T11:38:59.820392+00:00",
     "article_count": 50,
-    "categorized_count": 21,
+    "categorized_count": 22,
     "freshest_source": "Defense News",
     "freshest_title": "In shift, Trump announces deployment of 5,000 US troops to Poland",
     "freshest_published": "Fri, 22 May 2026 00:13:47 +0000"
