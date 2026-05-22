@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-05-22T05:58:55Z",
-  "version": 1497,
+  "generated_utc": "2026-05-22T08:57:13Z",
+  "version": 1498,
   "breaking_alert": "Defense News: In shift, Trump announces deployment of 5,000 US troops to Poland",
   "naval_deployments": [
     {
@@ -612,6 +612,15 @@
       ]
     },
     {
+      "title": "Australia begins life extension effort for Collins submarines, announces A$11 billion cost over ten years",
+      "link": "https://www.navalnews.com/naval-news/2026/05/australia-spends-big-on-lote-life-extension-for-collins-submarines/",
+      "published": "Fri, 22 May 2026 07:09:47 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "Video: France’s Second FDI Frigate Launched by Naval Group",
       "link": "https://www.navalnews.com/naval-news/2026/05/video-frances-second-fdi-frigate-launched-by-naval-group/",
       "published": "Mon, 18 May 2026 17:14:54 +0000",
@@ -671,15 +680,6 @@
       "link": "https://www.militarytimes.com/news/your-military/2026/05/21/poland-joins-pentagons-counter-drone-marketplace-amid-unexpected-us-deployment-cancellation/",
       "published": "Thu, 21 May 2026 21:05:59 +0000",
       "source": "Military Times",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Sweden Selects Naval Group’s FDI for Future Luleå-class Frigates",
-      "link": "https://www.navalnews.com/naval-news/2026/05/sweden-selects-naval-groups-fdi-for-future-lulea-class-frigates/",
-      "published": "Tue, 19 May 2026 08:23:05 +0000",
-      "source": "Naval News",
       "categories": [
         "deployment"
       ]
@@ -913,18 +913,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 13,
+    "deployment_articles": 14,
     "conflict_articles": 4,
     "exercise_articles": 4,
     "total_articles": 50,
-    "computed_at": "2026-05-22T05:58:52.970414+00:00",
+    "computed_at": "2026-05-22T08:57:11.962357+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Defense News] In shift, Trump announces deployment of 5,000 US troops to Poland",
       "[Military Times] In shift, Trump announces deployment of 5,000 US troops to Poland",
+      "[Naval News] Australia begins life extension effort for Collins submarines, announces A$11 billion cost over ten years",
       "[Naval News] Video: France’s Second FDI Frigate Launched by Naval Group",
-      "[Defense News] Turkey to buy 100 one-way explosive naval drones for swarm attacks",
-      "[USNI News] Russian Surveillance Ship Spotted Near NATO Sub Drills"
+      "[Defense News] Turkey to buy 100 one-way explosive naval drones for swarm attacks"
     ]
   },
   "ground_intel": {
@@ -935,9 +935,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-05-22T05:58:52.970459+00:00",
+    "last_successful_update": "2026-05-22T08:57:11.962426+00:00",
     "article_count": 50,
-    "categorized_count": 20,
+    "categorized_count": 21,
     "freshest_source": "Defense News",
     "freshest_title": "In shift, Trump announces deployment of 5,000 US troops to Poland",
     "freshest_published": "Fri, 22 May 2026 00:13:47 +0000"
