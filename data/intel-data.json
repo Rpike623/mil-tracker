@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-05-23T10:18:45Z",
-  "version": 1509,
+  "generated_utc": "2026-05-23T11:51:48Z",
+  "version": 1510,
   "breaking_alert": "Defense News: In shift, Trump announces deployment of 5,000 US troops to Poland",
   "naval_deployments": [
     {
@@ -919,7 +919,7 @@
     "conflict_articles": 3,
     "exercise_articles": 8,
     "total_articles": 50,
-    "computed_at": "2026-05-23T10:18:43.341470+00:00",
+    "computed_at": "2026-05-23T11:51:46.055182+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Defense News] In shift, Trump announces deployment of 5,000 US troops to Poland",
@@ -937,7 +937,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-05-23T10:18:43.341521+00:00",
+    "last_successful_update": "2026-05-23T11:51:46.055236+00:00",
     "article_count": 50,
     "categorized_count": 22,
     "freshest_source": "Defense News",
