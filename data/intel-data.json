@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-05-23T18:49:54Z",
-  "version": 1516,
+  "generated_utc": "2026-05-23T19:58:45Z",
+  "version": 1517,
   "breaking_alert": "Defense News: In shift, Trump announces deployment of 5,000 US troops to Poland",
   "naval_deployments": [
     {
@@ -659,6 +659,15 @@
       ]
     },
     {
+      "title": "Nimitz carrier group arrives in Caribbean amid Cuba tensions",
+      "link": "https://taskandpurpose.com/news/uss-nimitz-caribbean-cuba/",
+      "published": "Sat, 23 May 2026 15:17:02 -0400",
+      "source": "Task & Purpose",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "The US Navy is full speed ahead on building a laser fleet",
       "link": "https://www.defensenews.com/industry/techwatch/2026/05/21/the-us-navy-is-full-speed-ahead-on-building-a-laser-fleet/",
       "published": "Thu, 21 May 2026 18:51:44 +0000",
@@ -672,15 +681,6 @@
       "link": "https://www.defensenews.com/news/your-military/2026/05/21/poland-joins-pentagons-counter-drone-marketplace-amid-unexpected-us-deployment-cancellation/",
       "published": "Thu, 21 May 2026 21:05:59 +0000",
       "source": "Defense News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Sweden Selects Naval Group’s FDI for Future Luleå-class Frigates",
-      "link": "https://www.navalnews.com/naval-news/2026/05/sweden-selects-naval-groups-fdi-for-future-lulea-class-frigates/",
-      "published": "Tue, 19 May 2026 08:23:05 +0000",
-      "source": "Naval News",
       "categories": [
         "deployment"
       ]
@@ -919,7 +919,7 @@
     "conflict_articles": 3,
     "exercise_articles": 8,
     "total_articles": 50,
-    "computed_at": "2026-05-23T18:49:48.843237+00:00",
+    "computed_at": "2026-05-23T19:58:42.540089+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Defense News] In shift, Trump announces deployment of 5,000 US troops to Poland",
@@ -937,7 +937,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-05-23T18:49:48.843281+00:00",
+    "last_successful_update": "2026-05-23T19:58:42.540138+00:00",
     "article_count": 50,
     "categorized_count": 22,
     "freshest_source": "Defense News",
