@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-05-23T20:46:08Z",
-  "version": 1518,
+  "generated_utc": "2026-05-23T21:41:28Z",
+  "version": 1519,
   "breaking_alert": "Defense News: In shift, Trump announces deployment of 5,000 US troops to Poland",
   "naval_deployments": [
     {
@@ -855,15 +855,6 @@
       "categories": [
         "conflict"
       ]
-    },
-    {
-      "title": "Doctor recalls treating dozens after Tower 22 drone attack",
-      "link": "https://taskandpurpose.com/news/doctor-tower-22-tbi-purple-heart/",
-      "published": "Wed, 20 May 2026 08:00:00 -0400",
-      "source": "Task & Purpose",
-      "categories": [
-        "conflict"
-      ]
     }
   ],
   "_exercise_news_refs": [
@@ -916,10 +907,10 @@
   ],
   "_threat_indicators": {
     "deployment_articles": 13,
-    "conflict_articles": 3,
+    "conflict_articles": 2,
     "exercise_articles": 8,
     "total_articles": 50,
-    "computed_at": "2026-05-23T20:46:05.977520+00:00",
+    "computed_at": "2026-05-23T21:41:26.431673+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Defense News] In shift, Trump announces deployment of 5,000 US troops to Poland",
@@ -937,9 +928,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-05-23T20:46:05.977569+00:00",
+    "last_successful_update": "2026-05-23T21:41:26.431721+00:00",
     "article_count": 50,
-    "categorized_count": 22,
+    "categorized_count": 21,
     "freshest_source": "Defense News",
     "freshest_title": "In shift, Trump announces deployment of 5,000 US troops to Poland",
     "freshest_published": "Fri, 22 May 2026 00:13:47 +0000"
