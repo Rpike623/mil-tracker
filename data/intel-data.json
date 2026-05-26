@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-05-26T17:49:15Z",
-  "version": 1551,
+  "generated_utc": "2026-05-26T19:49:58Z",
+  "version": 1552,
   "breaking_alert": "Naval News: Australia begins life extension effort for Collins submarines, announces A$11 billion cost over ten years",
   "naval_deployments": [
     {
@@ -612,16 +612,6 @@
       ]
     },
     {
-      "title": "Libya and Syria join Turkey’s flagship military exercise in historic firsts",
-      "link": "https://www.defensenews.com/global/europe/2026/05/22/libya-and-syria-join-turkeys-flagship-military-exercise-in-historic-firsts/",
-      "published": "Fri, 22 May 2026 15:26:06 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment",
-        "exercise"
-      ]
-    },
-    {
       "title": "Dragon Adds More Air-Defence Firepower to French Carrier Strike Group",
       "link": "https://www.navalnews.com/naval-news/2026/05/dragon-adds-more-air-defence-firepower-to-french-carrier-strike-group/",
       "published": "Fri, 22 May 2026 19:38:45 +0000",
@@ -682,6 +672,15 @@
       "link": "https://www.defensenews.com/global/asia-pacific/2026/05/26/australia-starts-high-risk-life-extension-of-its-submarine-fleet/",
       "published": "Tue, 26 May 2026 14:16:09 +0000",
       "source": "Defense News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Sapper-turned-influencer charged for bomb-making tutorials",
+      "link": "https://www.militarytimes.com/veterans/2026/05/26/sapper-turned-influencer-charged-for-bomb-making-tutorials/",
+      "published": "Tue, 26 May 2026 15:10:08 +0000",
+      "source": "Military Times",
       "categories": [
         "deployment"
       ]
@@ -897,16 +896,6 @@
       ]
     },
     {
-      "title": "Libya and Syria join Turkey’s flagship military exercise in historic firsts",
-      "link": "https://www.defensenews.com/global/europe/2026/05/22/libya-and-syria-join-turkeys-flagship-military-exercise-in-historic-firsts/",
-      "published": "Fri, 22 May 2026 15:26:06 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment",
-        "exercise"
-      ]
-    },
-    {
       "title": "Congressional report tallies 42 US aircraft lost or damaged in Operation Epic Fury",
       "link": "https://www.defensenews.com/news/pentagon-congress/2026/05/22/congressional-report-tallies-42-us-aircraft-lost-or-damaged-in-operation-epic-fury/",
       "published": "Fri, 22 May 2026 17:49:18 +0000",
@@ -932,21 +921,30 @@
       "categories": [
         "exercise"
       ]
+    },
+    {
+      "title": "Japan Announces 2 Major Western Pacific Exercises with U.S.",
+      "link": "https://news.usni.org/2026/05/25/japan-announces-2-major-western-pacific-exercises-with-u-s",
+      "published": "Mon, 25 May 2026 13:01:22 +0000",
+      "source": "USNI News",
+      "categories": [
+        "exercise"
+      ]
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 12,
-    "conflict_articles": 5,
-    "exercise_articles": 10,
+    "deployment_articles": 16,
+    "conflict_articles": 7,
+    "exercise_articles": 9,
     "total_articles": 50,
-    "computed_at": "2026-05-26T17:49:09.854964+00:00",
+    "computed_at": "2026-05-26T19:49:52.930820+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] Australia begins life extension effort for Collins submarines, announces A$11 billion cost over ten years",
       "[Naval News] Japan Commissions Ninth Mogami-class Frigate ‘Natori’ 「なとり」",
       "[Task & Purpose] Unaccredited VA claims company charged veteran $21,000 in violation of federal law, judge rules",
-      "[Defense News] Libya and Syria join Turkey’s flagship military exercise in historic firsts",
-      "[Defense News] Congressional report tallies 42 US aircraft lost or damaged in Operation Epic Fury"
+      "[Defense News] Congressional report tallies 42 US aircraft lost or damaged in Operation Epic Fury",
+      "[Naval News] Dragon Adds More Air-Defence Firepower to French Carrier Strike Group"
     ]
   },
   "ground_intel": {
@@ -957,9 +955,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-05-26T17:49:09.855018+00:00",
+    "last_successful_update": "2026-05-26T19:49:52.930866+00:00",
     "article_count": 50,
-    "categorized_count": 24,
+    "categorized_count": 28,
     "freshest_source": "Naval News",
     "freshest_title": "Australia begins life extension effort for Collins submarines, announces A$11 billion cost over ten years",
     "freshest_published": "Fri, 22 May 2026 07:09:47 +0000"
