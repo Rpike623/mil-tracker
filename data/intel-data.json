@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-05-26T19:49:58Z",
-  "version": 1552,
+  "generated_utc": "2026-05-26T21:24:16Z",
+  "version": 1553,
   "breaking_alert": "Naval News: Australia begins life extension effort for Collins submarines, announces A$11 billion cost over ten years",
   "naval_deployments": [
     {
@@ -896,28 +896,10 @@
       ]
     },
     {
-      "title": "Congressional report tallies 42 US aircraft lost or damaged in Operation Epic Fury",
-      "link": "https://www.defensenews.com/news/pentagon-congress/2026/05/22/congressional-report-tallies-42-us-aircraft-lost-or-damaged-in-operation-epic-fury/",
-      "published": "Fri, 22 May 2026 17:49:18 +0000",
-      "source": "Defense News",
-      "categories": [
-        "exercise"
-      ]
-    },
-    {
       "title": "Rubio ratchets up pressure on NATO at key summit",
       "link": "https://www.defensenews.com/news/pentagon-congress/2026/05/22/rubio-ratchets-up-pressure-on-nato-at-key-summit/",
       "published": "Fri, 22 May 2026 20:15:15 +0000",
       "source": "Defense News",
-      "categories": [
-        "exercise"
-      ]
-    },
-    {
-      "title": "Rubio ratchets up pressure on NATO at key summit",
-      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/05/22/rubio-ratchets-up-pressure-on-nato-at-key-summit/",
-      "published": "Fri, 22 May 2026 20:15:15 +0000",
-      "source": "Military Times",
       "categories": [
         "exercise"
       ]
@@ -930,21 +912,39 @@
       "categories": [
         "exercise"
       ]
+    },
+    {
+      "title": "Thales enhances the operational effectiveness and readiness of Hellenic Navy’s Hydra-class frigates",
+      "link": "https://www.navalnews.com/naval-news/2026/05/thales-enhances-the-operational-effectiveness-and-readiness-of-hellenic-navys-hydra-class-frigates/",
+      "published": "Tue, 26 May 2026 06:46:04 +0000",
+      "source": "Naval News",
+      "categories": [
+        "exercise"
+      ]
+    },
+    {
+      "title": "Green Berets tested glider drones for supply drops during a massive special operations exercise",
+      "link": "https://taskandpurpose.com/tech-tactics/glider-drones-green-berets-trojan-footprint/",
+      "published": "Tue, 26 May 2026 08:28:00 -0400",
+      "source": "Task & Purpose",
+      "categories": [
+        "exercise"
+      ]
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 16,
+    "deployment_articles": 19,
     "conflict_articles": 7,
-    "exercise_articles": 9,
+    "exercise_articles": 8,
     "total_articles": 50,
-    "computed_at": "2026-05-26T19:49:52.930820+00:00",
+    "computed_at": "2026-05-26T21:24:14.070590+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] Australia begins life extension effort for Collins submarines, announces A$11 billion cost over ten years",
       "[Naval News] Japan Commissions Ninth Mogami-class Frigate ‘Natori’ 「なとり」",
       "[Task & Purpose] Unaccredited VA claims company charged veteran $21,000 in violation of federal law, judge rules",
-      "[Defense News] Congressional report tallies 42 US aircraft lost or damaged in Operation Epic Fury",
-      "[Naval News] Dragon Adds More Air-Defence Firepower to French Carrier Strike Group"
+      "[Naval News] Dragon Adds More Air-Defence Firepower to French Carrier Strike Group",
+      "[Defense News] Rubio ratchets up pressure on NATO at key summit"
     ]
   },
   "ground_intel": {
@@ -955,9 +955,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-05-26T19:49:52.930866+00:00",
+    "last_successful_update": "2026-05-26T21:24:14.070638+00:00",
     "article_count": 50,
-    "categorized_count": 28,
+    "categorized_count": 30,
     "freshest_source": "Naval News",
     "freshest_title": "Australia begins life extension effort for Collins submarines, announces A$11 billion cost over ten years",
     "freshest_published": "Fri, 22 May 2026 07:09:47 +0000"
