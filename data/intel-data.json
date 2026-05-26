@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-05-26T00:01:04Z",
-  "version": 1547,
+  "generated_utc": "2026-05-26T04:54:22Z",
+  "version": 1548,
   "breaking_alert": "Defense News: In shift, Trump announces deployment of 5,000 US troops to Poland",
   "naval_deployments": [
     {
@@ -668,19 +668,20 @@
       ]
     },
     {
+      "title": "US forces strike Iranian boats, launch sites in Bandar Abbas",
+      "link": "https://taskandpurpose.com/news/us-strikes-iran-bandar-abbas/",
+      "published": "Mon, 25 May 2026 20:43:56 -0400",
+      "source": "Task & Purpose",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
+    },
+    {
       "title": "Nimitz carrier group arrives in Caribbean amid Cuba tensions",
       "link": "https://taskandpurpose.com/news/uss-nimitz-caribbean-cuba/",
       "published": "Sat, 23 May 2026 15:17:02 -0400",
       "source": "Task & Purpose",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Poland joins Pentagon’s counter-drone marketplace amid unexpected US deployment cancellation",
-      "link": "https://www.defensenews.com/news/your-military/2026/05/21/poland-joins-pentagons-counter-drone-marketplace-amid-unexpected-us-deployment-cancellation/",
-      "published": "Thu, 21 May 2026 21:05:59 +0000",
-      "source": "Defense News",
       "categories": [
         "deployment"
       ]
@@ -855,6 +856,16 @@
       "categories": [
         "conflict"
       ]
+    },
+    {
+      "title": "US forces strike Iranian boats, launch sites in Bandar Abbas",
+      "link": "https://taskandpurpose.com/news/us-strikes-iran-bandar-abbas/",
+      "published": "Mon, 25 May 2026 20:43:56 -0400",
+      "source": "Task & Purpose",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
     }
   ],
   "_exercise_news_refs": [
@@ -906,11 +917,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 11,
-    "conflict_articles": 2,
+    "deployment_articles": 12,
+    "conflict_articles": 3,
     "exercise_articles": 8,
     "total_articles": 50,
-    "computed_at": "2026-05-26T00:00:59.858147+00:00",
+    "computed_at": "2026-05-26T04:54:20.576369+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Defense News] In shift, Trump announces deployment of 5,000 US troops to Poland",
@@ -928,9 +939,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-05-26T00:00:59.858196+00:00",
+    "last_successful_update": "2026-05-26T04:54:20.576421+00:00",
     "article_count": 50,
-    "categorized_count": 19,
+    "categorized_count": 20,
     "freshest_source": "Defense News",
     "freshest_title": "In shift, Trump announces deployment of 5,000 US troops to Poland",
     "freshest_published": "Fri, 22 May 2026 00:13:47 +0000"
