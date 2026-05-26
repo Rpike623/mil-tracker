@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-05-26T21:24:16Z",
-  "version": 1553,
-  "breaking_alert": "Naval News: Australia begins life extension effort for Collins submarines, announces A$11 billion cost over ten years",
+  "generated_utc": "2026-05-26T23:02:40Z",
+  "version": 1554,
+  "breaking_alert": "Naval News: Japan Commissions Ninth Mogami-class Frigate ‘Natori’ 「なとり」",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -594,15 +594,6 @@
   ],
   "_naval_news_refs": [
     {
-      "title": "Australia begins life extension effort for Collins submarines, announces A$11 billion cost over ten years",
-      "link": "https://www.navalnews.com/naval-news/2026/05/australia-spends-big-on-lote-life-extension-for-collins-submarines/",
-      "published": "Fri, 22 May 2026 07:09:47 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Unaccredited VA claims company charged veteran $21,000 in violation of federal law, judge rules",
       "link": "https://taskandpurpose.com/news/va-claim-shark-court-ruling/",
       "published": "Fri, 22 May 2026 14:52:28 -0400",
@@ -681,6 +672,15 @@
       "link": "https://www.militarytimes.com/veterans/2026/05/26/sapper-turned-influencer-charged-for-bomb-making-tutorials/",
       "published": "Tue, 26 May 2026 15:10:08 +0000",
       "source": "Military Times",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "USNI News Fleet and Marine Tracker: May 26, 2026",
+      "link": "https://news.usni.org/2026/05/26/usni-news-fleet-and-marine-tracker-may-26-2026",
+      "published": "Tue, 26 May 2026 17:21:50 +0000",
+      "source": "USNI News",
       "categories": [
         "deployment"
       ]
@@ -933,18 +933,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 19,
-    "conflict_articles": 7,
+    "deployment_articles": 20,
+    "conflict_articles": 8,
     "exercise_articles": 8,
     "total_articles": 50,
-    "computed_at": "2026-05-26T21:24:14.070590+00:00",
-    "manual_override": "DEFCON_3",
+    "computed_at": "2026-05-26T22:57:59.096644+00:00",
+    "manual_override": "DEFCON_2",
     "breaking_events": [
-      "[Naval News] Australia begins life extension effort for Collins submarines, announces A$11 billion cost over ten years",
       "[Naval News] Japan Commissions Ninth Mogami-class Frigate ‘Natori’ 「なとり」",
       "[Task & Purpose] Unaccredited VA claims company charged veteran $21,000 in violation of federal law, judge rules",
       "[Naval News] Dragon Adds More Air-Defence Firepower to French Carrier Strike Group",
-      "[Defense News] Rubio ratchets up pressure on NATO at key summit"
+      "[Defense News] Rubio ratchets up pressure on NATO at key summit",
+      "[USNI News] Russian Crude Exports Increase as Strait of Hormuz Transits Remain Low"
     ]
   },
   "ground_intel": {
@@ -955,12 +955,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-05-26T21:24:14.070638+00:00",
+    "last_successful_update": "2026-05-26T22:57:59.096690+00:00",
     "article_count": 50,
-    "categorized_count": 30,
+    "categorized_count": 31,
     "freshest_source": "Naval News",
-    "freshest_title": "Australia begins life extension effort for Collins submarines, announces A$11 billion cost over ten years",
-    "freshest_published": "Fri, 22 May 2026 07:09:47 +0000"
+    "freshest_title": "Japan Commissions Ninth Mogami-class Frigate ‘Natori’ 「なとり」",
+    "freshest_published": "Fri, 22 May 2026 11:18:45 +0000"
   },
   "_firms_hotspots": []
 }
