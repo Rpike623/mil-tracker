@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-05-26T14:29:57Z",
-  "version": 1550,
+  "generated_utc": "2026-05-26T17:49:15Z",
+  "version": 1551,
   "breaking_alert": "Naval News: Australia begins life extension effort for Collins submarines, announces A$11 billion cost over ten years",
   "naval_deployments": [
     {
@@ -622,15 +622,6 @@
       ]
     },
     {
-      "title": "USS Nimitz claims title of longest-serving aircraft carrier from ‘Big E’",
-      "link": "https://www.militarytimes.com/news/your-navy/2026/05/22/uss-nimitz-claims-title-of-longest-serving-aircraft-carrier-from-big-e/",
-      "published": "Fri, 22 May 2026 16:52:32 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Dragon Adds More Air-Defence Firepower to French Carrier Strike Group",
       "link": "https://www.navalnews.com/naval-news/2026/05/dragon-adds-more-air-defence-firepower-to-french-carrier-strike-group/",
       "published": "Fri, 22 May 2026 19:38:45 +0000",
@@ -682,6 +673,15 @@
       "link": "https://www.navalnews.com/naval-news/2026/05/south-korea-unveils-historic-plan-to-build-first-nuclear-powered-submarine/",
       "published": "Tue, 26 May 2026 08:43:32 +0000",
       "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Australia starts ‘high-risk’ life extension of its submarine fleet",
+      "link": "https://www.defensenews.com/global/asia-pacific/2026/05/26/australia-starts-high-risk-life-extension-of-its-submarine-fleet/",
+      "published": "Tue, 26 May 2026 14:16:09 +0000",
+      "source": "Defense News",
       "categories": [
         "deployment"
       ]
@@ -875,6 +875,15 @@
       "categories": [
         "conflict"
       ]
+    },
+    {
+      "title": "South Korea Announces Plan to Build Domestic Nuclear Attack Boat",
+      "link": "https://news.usni.org/2026/05/26/south-korea-announces-plan-to-build-domestic-nuclear-attack-boat",
+      "published": "Tue, 26 May 2026 16:46:37 +0000",
+      "source": "USNI News",
+      "categories": [
+        "conflict"
+      ]
     }
   ],
   "_exercise_news_refs": [
@@ -907,15 +916,6 @@
       ]
     },
     {
-      "title": "Congressional report tallies 42 US aircraft lost or damaged in Operation Epic Fury",
-      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/05/22/congressional-report-tallies-42-us-aircraft-lost-or-damaged-in-operation-epic-fury/",
-      "published": "Fri, 22 May 2026 17:49:18 +0000",
-      "source": "Military Times",
-      "categories": [
-        "exercise"
-      ]
-    },
-    {
       "title": "Rubio ratchets up pressure on NATO at key summit",
       "link": "https://www.defensenews.com/news/pentagon-congress/2026/05/22/rubio-ratchets-up-pressure-on-nato-at-key-summit/",
       "published": "Fri, 22 May 2026 20:15:15 +0000",
@@ -923,21 +923,30 @@
       "categories": [
         "exercise"
       ]
+    },
+    {
+      "title": "Rubio ratchets up pressure on NATO at key summit",
+      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/05/22/rubio-ratchets-up-pressure-on-nato-at-key-summit/",
+      "published": "Fri, 22 May 2026 20:15:15 +0000",
+      "source": "Military Times",
+      "categories": [
+        "exercise"
+      ]
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 11,
-    "conflict_articles": 4,
+    "deployment_articles": 12,
+    "conflict_articles": 5,
     "exercise_articles": 10,
     "total_articles": 50,
-    "computed_at": "2026-05-26T14:29:53.958173+00:00",
+    "computed_at": "2026-05-26T17:49:09.854964+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] Australia begins life extension effort for Collins submarines, announces A$11 billion cost over ten years",
       "[Naval News] Japan Commissions Ninth Mogami-class Frigate ‘Natori’ 「なとり」",
       "[Task & Purpose] Unaccredited VA claims company charged veteran $21,000 in violation of federal law, judge rules",
       "[Defense News] Libya and Syria join Turkey’s flagship military exercise in historic firsts",
-      "[Military Times] USS Nimitz claims title of longest-serving aircraft carrier from ‘Big E’"
+      "[Defense News] Congressional report tallies 42 US aircraft lost or damaged in Operation Epic Fury"
     ]
   },
   "ground_intel": {
@@ -948,9 +957,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-05-26T14:29:53.958227+00:00",
+    "last_successful_update": "2026-05-26T17:49:09.855018+00:00",
     "article_count": 50,
-    "categorized_count": 22,
+    "categorized_count": 24,
     "freshest_source": "Naval News",
     "freshest_title": "Australia begins life extension effort for Collins submarines, announces A$11 billion cost over ten years",
     "freshest_published": "Fri, 22 May 2026 07:09:47 +0000"
