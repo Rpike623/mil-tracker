@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-05-26T08:24:18Z",
-  "version": 1549,
-  "breaking_alert": "Defense News: In shift, Trump announces deployment of 5,000 US troops to Poland",
+  "generated_utc": "2026-05-26T14:29:57Z",
+  "version": 1550,
+  "breaking_alert": "Naval News: Australia begins life extension effort for Collins submarines, announces A$11 billion cost over ten years",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -594,15 +594,6 @@
   ],
   "_naval_news_refs": [
     {
-      "title": "In shift, Trump announces deployment of 5,000 US troops to Poland",
-      "link": "https://www.defensenews.com/news/pentagon-congress/2026/05/22/in-shift-trump-announces-deployment-of-5000-us-troops-to-poland/",
-      "published": "Fri, 22 May 2026 00:13:47 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Australia begins life extension effort for Collins submarines, announces A$11 billion cost over ten years",
       "link": "https://www.navalnews.com/naval-news/2026/05/australia-spends-big-on-lote-life-extension-for-collins-submarines/",
       "published": "Fri, 22 May 2026 07:09:47 +0000",
@@ -682,6 +673,15 @@
       "link": "https://taskandpurpose.com/news/uss-nimitz-caribbean-cuba/",
       "published": "Sat, 23 May 2026 15:17:02 -0400",
       "source": "Task & Purpose",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "South Korea Unveils Historic Plan to Build First Nuclear-Powered Submarine",
+      "link": "https://www.navalnews.com/naval-news/2026/05/south-korea-unveils-historic-plan-to-build-first-nuclear-powered-submarine/",
+      "published": "Tue, 26 May 2026 08:43:32 +0000",
+      "source": "Naval News",
       "categories": [
         "deployment"
       ]
@@ -866,6 +866,15 @@
         "deployment",
         "conflict"
       ]
+    },
+    {
+      "title": "India boosts drone warfare capability with compact missile",
+      "link": "https://www.defensenews.com/global/asia-pacific/2026/05/26/india-boosts-drone-warfare-capability-with-compact-missile/",
+      "published": "Tue, 26 May 2026 12:56:11 +0000",
+      "source": "Defense News",
+      "categories": [
+        "conflict"
+      ]
     }
   ],
   "_exercise_news_refs": [
@@ -918,17 +927,17 @@
   ],
   "_threat_indicators": {
     "deployment_articles": 11,
-    "conflict_articles": 3,
-    "exercise_articles": 9,
+    "conflict_articles": 4,
+    "exercise_articles": 10,
     "total_articles": 50,
-    "computed_at": "2026-05-26T08:24:13.408350+00:00",
+    "computed_at": "2026-05-26T14:29:53.958173+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
-      "[Defense News] In shift, Trump announces deployment of 5,000 US troops to Poland",
       "[Naval News] Australia begins life extension effort for Collins submarines, announces A$11 billion cost over ten years",
       "[Naval News] Japan Commissions Ninth Mogami-class Frigate ‘Natori’ 「なとり」",
       "[Task & Purpose] Unaccredited VA claims company charged veteran $21,000 in violation of federal law, judge rules",
-      "[Defense News] Libya and Syria join Turkey’s flagship military exercise in historic firsts"
+      "[Defense News] Libya and Syria join Turkey’s flagship military exercise in historic firsts",
+      "[Military Times] USS Nimitz claims title of longest-serving aircraft carrier from ‘Big E’"
     ]
   },
   "ground_intel": {
@@ -939,12 +948,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-05-26T08:24:13.408403+00:00",
+    "last_successful_update": "2026-05-26T14:29:53.958227+00:00",
     "article_count": 50,
-    "categorized_count": 20,
-    "freshest_source": "Defense News",
-    "freshest_title": "In shift, Trump announces deployment of 5,000 US troops to Poland",
-    "freshest_published": "Fri, 22 May 2026 00:13:47 +0000"
+    "categorized_count": 22,
+    "freshest_source": "Naval News",
+    "freshest_title": "Australia begins life extension effort for Collins submarines, announces A$11 billion cost over ten years",
+    "freshest_published": "Fri, 22 May 2026 07:09:47 +0000"
   },
   "_firms_hotspots": []
 }
