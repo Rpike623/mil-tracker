@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-05-27T11:25:24Z",
-  "version": 1558,
+  "generated_utc": "2026-05-27T14:47:44Z",
+  "version": 1559,
   "breaking_alert": "Task & Purpose: Unaccredited VA claims company charged veteran $21,000 in violation of federal law, judge rules",
   "naval_deployments": [
     {
@@ -613,15 +613,6 @@
       ]
     },
     {
-      "title": "Russian Crude Exports Increase as Strait of Hormuz Transits Remain Low",
-      "link": "https://news.usni.org/2026/05/22/russian-crude-exports-increase-as-other-strait-of-hormuz-transits-remain-low",
-      "published": "Fri, 22 May 2026 21:08:06 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "South Korea’s First Trans-Pacific Submarine Deployment Reaches Canada",
       "link": "https://www.navalnews.com/naval-news/2026/05/south-koreas-first-trans-pacific-submarine-deployment-reaches-canada/",
       "published": "Mon, 25 May 2026 08:34:22 +0000",
@@ -683,6 +674,16 @@
       "source": "USNI News",
       "categories": [
         "deployment"
+      ]
+    },
+    {
+      "title": "US launches ‘self-defense’ strikes against Iran amid ongoing ceasefire",
+      "link": "https://www.defensenews.com/news/your-navy/2026/05/26/us-launches-self-defense-strikes-against-iran-amid-ongoing-ceasefire/",
+      "published": "Tue, 26 May 2026 19:02:11 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment",
+        "conflict"
       ]
     }
   ],
@@ -921,30 +922,21 @@
       "categories": [
         "exercise"
       ]
-    },
-    {
-      "title": "Report: US to cut strategic bombers and warships available to NATO in a crisis",
-      "link": "https://www.militarytimes.com/global/europe/2026/05/26/report-us-to-cut-strategic-bombers-and-warships-available-to-nato-in-a-crisis/",
-      "published": "Tue, 26 May 2026 14:32:12 +0000",
-      "source": "Military Times",
-      "categories": [
-        "exercise"
-      ]
     }
   ],
   "_threat_indicators": {
     "deployment_articles": 21,
     "conflict_articles": 8,
-    "exercise_articles": 6,
+    "exercise_articles": 4,
     "total_articles": 50,
-    "computed_at": "2026-05-27T11:25:22.724630+00:00",
+    "computed_at": "2026-05-27T14:47:42.489722+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[Task & Purpose] Unaccredited VA claims company charged veteran $21,000 in violation of federal law, judge rules",
       "[Naval News] Dragon Adds More Air-Defence Firepower to French Carrier Strike Group",
-      "[USNI News] Russian Crude Exports Increase as Strait of Hormuz Transits Remain Low",
       "[Naval News] South Korea’s First Trans-Pacific Submarine Deployment Reaches Canada",
-      "[USNI News] Report to Congress on China’s Nuclear and Missile Proliferation"
+      "[USNI News] Report to Congress on China’s Nuclear and Missile Proliferation",
+      "[USNI News] Japan Announces 2 Major Western Pacific Exercises with U.S."
     ]
   },
   "ground_intel": {
@@ -955,9 +947,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-05-27T11:25:22.724677+00:00",
+    "last_successful_update": "2026-05-27T14:47:42.489769+00:00",
     "article_count": 50,
-    "categorized_count": 30,
+    "categorized_count": 28,
     "freshest_source": "Task & Purpose",
     "freshest_title": "Unaccredited VA claims company charged veteran $21,000 in violation of federal law, judge rules",
     "freshest_published": "Fri, 22 May 2026 14:52:28 -0400"
