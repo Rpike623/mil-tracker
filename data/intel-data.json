@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-05-27T19:54:51Z",
-  "version": 1561,
-  "breaking_alert": "Naval News: Dragon Adds More Air-Defence Firepower to French Carrier Strike Group",
+  "generated_utc": "2026-05-27T21:48:21Z",
+  "version": 1562,
+  "breaking_alert": "Naval News: South Korea’s First Trans-Pacific Submarine Deployment Reaches Canada",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -594,16 +594,6 @@
   ],
   "_naval_news_refs": [
     {
-      "title": "Dragon Adds More Air-Defence Firepower to French Carrier Strike Group",
-      "link": "https://www.navalnews.com/naval-news/2026/05/dragon-adds-more-air-defence-firepower-to-french-carrier-strike-group/",
-      "published": "Fri, 22 May 2026 19:38:45 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
       "title": "South Korea’s First Trans-Pacific Submarine Deployment Reaches Canada",
       "link": "https://www.navalnews.com/naval-news/2026/05/south-koreas-first-trans-pacific-submarine-deployment-reaches-canada/",
       "published": "Mon, 25 May 2026 08:34:22 +0000",
@@ -659,15 +649,6 @@
       ]
     },
     {
-      "title": "Pentagon spars with SpaceX over Starlink price hike during Iran war",
-      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/05/26/pentagon-spars-with-spacex-over-starlink-price-hike-during-iran-war/",
-      "published": "Tue, 26 May 2026 19:19:53 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "House Wants Funding for a Second Arleigh Burke Destroyer in Next Fiscal Year",
       "link": "https://news.usni.org/2026/05/26/house-wants-funding-for-a-second-arleigh-burke-destroyer-in-next-fiscal-year",
       "published": "Tue, 26 May 2026 21:06:14 +0000",
@@ -678,11 +659,30 @@
     },
     {
       "title": "US lawmakers weigh aviation fuel cost increase from Iran war in fiscal 2027 defense hearing",
-      "link": "https://www.defensenews.com/news/pentagon-congress/2026/05/26/us-lawmakers-weigh-aviation-fuel-cost-increase-from-iran-war-in-fiscal-2027-defense-hearing/",
+      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/05/26/us-lawmakers-weigh-aviation-fuel-cost-increase-from-iran-war-in-fiscal-2027-defense-hearing/",
       "published": "Tue, 26 May 2026 21:12:48 +0000",
-      "source": "Defense News",
+      "source": "Military Times",
       "categories": [
         "deployment"
+      ]
+    },
+    {
+      "title": "2 Naval Aviators Safe After T-45C Goshawk Crashes in Mississippi, Some Training Flights Paused",
+      "link": "https://news.usni.org/2026/05/26/2-naval-aviators-safe-after-t-45c-goshawk-crashes-in-mississippi-some-training-flights-paused",
+      "published": "Tue, 26 May 2026 21:36:22 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "China’s New Type 054B Frigate Makes Carrier Strike Group Debut in Western Pacific",
+      "link": "https://www.navalnews.com/naval-news/2026/05/chinas-new-type-054b-frigate-makes-carrier-strike-group-debut-in-western-pacific/",
+      "published": "Tue, 26 May 2026 21:49:15 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment",
+        "conflict"
       ]
     }
   ],
@@ -838,16 +838,6 @@
   },
   "_conflict_news_refs": [
     {
-      "title": "Dragon Adds More Air-Defence Firepower to French Carrier Strike Group",
-      "link": "https://www.navalnews.com/naval-news/2026/05/dragon-adds-more-air-defence-firepower-to-french-carrier-strike-group/",
-      "published": "Fri, 22 May 2026 19:38:45 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
       "title": "US forces strike Iranian boats, launch sites in Bandar Abbas",
       "link": "https://taskandpurpose.com/news/us-strikes-iran-bandar-abbas/",
       "published": "Mon, 25 May 2026 20:43:56 -0400",
@@ -884,18 +874,18 @@
       "categories": [
         "conflict"
       ]
+    },
+    {
+      "title": "North Korea Tests New Lightweight Launch System and Tactical Cruise Missiles",
+      "link": "https://news.usni.org/2026/05/27/north-korea-tests-new-lightweight-launch-system-and-tactical-cruise-missiles",
+      "published": "Wed, 27 May 2026 19:55:47 +0000",
+      "source": "USNI News",
+      "categories": [
+        "conflict"
+      ]
     }
   ],
   "_exercise_news_refs": [
-    {
-      "title": "Japan Announces 2 Major Western Pacific Exercises with U.S.",
-      "link": "https://news.usni.org/2026/05/25/japan-announces-2-major-western-pacific-exercises-with-u-s",
-      "published": "Mon, 25 May 2026 13:01:22 +0000",
-      "source": "USNI News",
-      "categories": [
-        "exercise"
-      ]
-    },
     {
       "title": "Thales enhances the operational effectiveness and readiness of Hellenic Navy’s Hydra-class frigates",
       "link": "https://www.navalnews.com/naval-news/2026/05/thales-enhances-the-operational-effectiveness-and-readiness-of-hellenic-navys-hydra-class-frigates/",
@@ -916,18 +906,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 18,
+    "deployment_articles": 15,
     "conflict_articles": 5,
-    "exercise_articles": 3,
+    "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-05-27T19:54:47.883170+00:00",
+    "computed_at": "2026-05-27T21:48:11.466349+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
-      "[Naval News] Dragon Adds More Air-Defence Firepower to French Carrier Strike Group",
       "[Naval News] South Korea’s First Trans-Pacific Submarine Deployment Reaches Canada",
-      "[USNI News] Japan Announces 2 Major Western Pacific Exercises with U.S.",
       "[Task & Purpose] US forces strike Iranian boats, launch sites in Bandar Abbas",
-      "[Task & Purpose] Nimitz carrier group arrives in Caribbean amid Cuba tensions"
+      "[Task & Purpose] Nimitz carrier group arrives in Caribbean amid Cuba tensions",
+      "[Naval News] Thales enhances the operational effectiveness and readiness of Hellenic Navy’s Hydra-class frigates",
+      "[Task & Purpose] Green Berets tested glider drones for supply drops during a massive special operations exercise"
     ]
   },
   "ground_intel": {
@@ -938,12 +928,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-05-27T19:54:47.883213+00:00",
+    "last_successful_update": "2026-05-27T21:48:11.466392+00:00",
     "article_count": 50,
-    "categorized_count": 23,
+    "categorized_count": 20,
     "freshest_source": "Naval News",
-    "freshest_title": "Dragon Adds More Air-Defence Firepower to French Carrier Strike Group",
-    "freshest_published": "Fri, 22 May 2026 19:38:45 +0000"
+    "freshest_title": "South Korea’s First Trans-Pacific Submarine Deployment Reaches Canada",
+    "freshest_published": "Mon, 25 May 2026 08:34:22 +0000"
   },
   "_firms_hotspots": []
 }
