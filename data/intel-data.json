@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-05-27T21:48:21Z",
-  "version": 1562,
+  "generated_utc": "2026-05-27T23:06:11Z",
+  "version": 1563,
   "breaking_alert": "Naval News: South Korea’s First Trans-Pacific Submarine Deployment Reaches Canada",
   "naval_deployments": [
     {
@@ -910,7 +910,7 @@
     "conflict_articles": 5,
     "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-05-27T21:48:11.466349+00:00",
+    "computed_at": "2026-05-27T23:06:06.445200+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] South Korea’s First Trans-Pacific Submarine Deployment Reaches Canada",
@@ -928,7 +928,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-05-27T21:48:11.466392+00:00",
+    "last_successful_update": "2026-05-27T23:06:06.445245+00:00",
     "article_count": 50,
     "categorized_count": 20,
     "freshest_source": "Naval News",
