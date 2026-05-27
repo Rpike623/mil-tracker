@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-05-27T07:53:34Z",
-  "version": 1557,
-  "breaking_alert": "Naval News: Japan Commissions Ninth Mogami-class Frigate ‘Natori’ 「なとり」",
+  "generated_utc": "2026-05-27T11:25:24Z",
+  "version": 1558,
+  "breaking_alert": "Task & Purpose: Unaccredited VA claims company charged veteran $21,000 in violation of federal law, judge rules",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -887,15 +887,6 @@
   ],
   "_exercise_news_refs": [
     {
-      "title": "Japan Commissions Ninth Mogami-class Frigate ‘Natori’ 「なとり」",
-      "link": "https://www.navalnews.com/naval-news/2026/05/japan-commissions-ninth-mogami-class-frigate-natori-%e3%80%8c%e3%81%aa%e3%81%a8%e3%82%8a%e3%80%8d/",
-      "published": "Fri, 22 May 2026 11:18:45 +0000",
-      "source": "Naval News",
-      "categories": [
-        "exercise"
-      ]
-    },
-    {
       "title": "Japan Announces 2 Major Western Pacific Exercises with U.S.",
       "link": "https://news.usni.org/2026/05/25/japan-announces-2-major-western-pacific-exercises-with-u-s",
       "published": "Mon, 25 May 2026 13:01:22 +0000",
@@ -930,21 +921,30 @@
       "categories": [
         "exercise"
       ]
+    },
+    {
+      "title": "Report: US to cut strategic bombers and warships available to NATO in a crisis",
+      "link": "https://www.militarytimes.com/global/europe/2026/05/26/report-us-to-cut-strategic-bombers-and-warships-available-to-nato-in-a-crisis/",
+      "published": "Tue, 26 May 2026 14:32:12 +0000",
+      "source": "Military Times",
+      "categories": [
+        "exercise"
+      ]
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 20,
+    "deployment_articles": 21,
     "conflict_articles": 8,
-    "exercise_articles": 7,
+    "exercise_articles": 6,
     "total_articles": 50,
-    "computed_at": "2026-05-27T07:53:24.929423+00:00",
+    "computed_at": "2026-05-27T11:25:22.724630+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
-      "[Naval News] Japan Commissions Ninth Mogami-class Frigate ‘Natori’ 「なとり」",
       "[Task & Purpose] Unaccredited VA claims company charged veteran $21,000 in violation of federal law, judge rules",
       "[Naval News] Dragon Adds More Air-Defence Firepower to French Carrier Strike Group",
       "[USNI News] Russian Crude Exports Increase as Strait of Hormuz Transits Remain Low",
-      "[Naval News] South Korea’s First Trans-Pacific Submarine Deployment Reaches Canada"
+      "[Naval News] South Korea’s First Trans-Pacific Submarine Deployment Reaches Canada",
+      "[USNI News] Report to Congress on China’s Nuclear and Missile Proliferation"
     ]
   },
   "ground_intel": {
@@ -955,12 +955,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-05-27T07:53:24.929461+00:00",
+    "last_successful_update": "2026-05-27T11:25:22.724677+00:00",
     "article_count": 50,
     "categorized_count": 30,
-    "freshest_source": "Naval News",
-    "freshest_title": "Japan Commissions Ninth Mogami-class Frigate ‘Natori’ 「なとり」",
-    "freshest_published": "Fri, 22 May 2026 11:18:45 +0000"
+    "freshest_source": "Task & Purpose",
+    "freshest_title": "Unaccredited VA claims company charged veteran $21,000 in violation of federal law, judge rules",
+    "freshest_published": "Fri, 22 May 2026 14:52:28 -0400"
   },
   "_firms_hotspots": []
 }
