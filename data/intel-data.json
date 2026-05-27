@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-05-27T14:47:44Z",
-  "version": 1559,
+  "generated_utc": "2026-05-27T17:49:09Z",
+  "version": 1560,
   "breaking_alert": "Task & Purpose: Unaccredited VA claims company charged veteran $21,000 in violation of federal law, judge rules",
   "naval_deployments": [
     {
@@ -650,24 +650,6 @@
       ]
     },
     {
-      "title": "Australia starts ‘high-risk’ life extension of its submarine fleet",
-      "link": "https://www.defensenews.com/global/asia-pacific/2026/05/26/australia-starts-high-risk-life-extension-of-its-submarine-fleet/",
-      "published": "Tue, 26 May 2026 14:16:09 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Sapper-turned-influencer charged for bomb-making tutorials",
-      "link": "https://www.militarytimes.com/veterans/2026/05/26/sapper-turned-influencer-charged-for-bomb-making-tutorials/",
-      "published": "Tue, 26 May 2026 15:10:08 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "USNI News Fleet and Marine Tracker: May 26, 2026",
       "link": "https://news.usni.org/2026/05/26/usni-news-fleet-and-marine-tracker-may-26-2026",
       "published": "Tue, 26 May 2026 17:21:50 +0000",
@@ -684,6 +666,25 @@
       "categories": [
         "deployment",
         "conflict"
+      ]
+    },
+    {
+      "title": "US launches ‘self-defense’ strikes against Iran amid ongoing ceasefire",
+      "link": "https://www.militarytimes.com/news/your-navy/2026/05/26/us-launches-self-defense-strikes-against-iran-amid-ongoing-ceasefire/",
+      "published": "Tue, 26 May 2026 19:02:11 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
+    },
+    {
+      "title": "Chinese Carrier Liaoning Near Philippines, USS George Washington Leaves Yokosuka Ahead of Spring Patrol",
+      "link": "https://news.usni.org/2026/05/26/chinese-carrier-liaoning-near-philippines-uss-george-washington-leaves-yokosuka-ahead-of-spring-patrol",
+      "published": "Tue, 26 May 2026 19:13:55 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment"
       ]
     }
   ],
@@ -868,20 +869,21 @@
       ]
     },
     {
-      "title": "India boosts drone warfare capability with compact missile",
-      "link": "https://www.defensenews.com/global/asia-pacific/2026/05/26/india-boosts-drone-warfare-capability-with-compact-missile/",
-      "published": "Tue, 26 May 2026 12:56:11 +0000",
-      "source": "Defense News",
-      "categories": [
-        "conflict"
-      ]
-    },
-    {
       "title": "South Korea Announces Plan to Build Domestic Nuclear Attack Boat",
       "link": "https://news.usni.org/2026/05/26/south-korea-announces-plan-to-build-domestic-nuclear-attack-boat",
       "published": "Tue, 26 May 2026 16:46:37 +0000",
       "source": "USNI News",
       "categories": [
+        "conflict"
+      ]
+    },
+    {
+      "title": "US launches ‘self-defense’ strikes against Iran amid ongoing ceasefire",
+      "link": "https://www.defensenews.com/news/your-navy/2026/05/26/us-launches-self-defense-strikes-against-iran-amid-ongoing-ceasefire/",
+      "published": "Tue, 26 May 2026 19:02:11 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment",
         "conflict"
       ]
     }
@@ -925,11 +927,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 21,
+    "deployment_articles": 19,
     "conflict_articles": 8,
     "exercise_articles": 4,
     "total_articles": 50,
-    "computed_at": "2026-05-27T14:47:42.489722+00:00",
+    "computed_at": "2026-05-27T17:49:06.092149+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[Task & Purpose] Unaccredited VA claims company charged veteran $21,000 in violation of federal law, judge rules",
@@ -947,9 +949,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-05-27T14:47:42.489769+00:00",
+    "last_successful_update": "2026-05-27T17:49:06.092194+00:00",
     "article_count": 50,
-    "categorized_count": 28,
+    "categorized_count": 26,
     "freshest_source": "Task & Purpose",
     "freshest_title": "Unaccredited VA claims company charged veteran $21,000 in violation of federal law, judge rules",
     "freshest_published": "Fri, 22 May 2026 14:52:28 -0400"
