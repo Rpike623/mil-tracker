@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-05-27T03:51:16Z",
-  "version": 1556,
+  "generated_utc": "2026-05-27T07:53:34Z",
+  "version": 1557,
   "breaking_alert": "Naval News: Japan Commissions Ninth Mogami-class Frigate ‘Natori’ 「なとり」",
   "naval_deployments": [
     {
@@ -896,15 +896,6 @@
       ]
     },
     {
-      "title": "Rubio ratchets up pressure on NATO at key summit",
-      "link": "https://www.defensenews.com/news/pentagon-congress/2026/05/22/rubio-ratchets-up-pressure-on-nato-at-key-summit/",
-      "published": "Fri, 22 May 2026 20:15:15 +0000",
-      "source": "Defense News",
-      "categories": [
-        "exercise"
-      ]
-    },
-    {
       "title": "Japan Announces 2 Major Western Pacific Exercises with U.S.",
       "link": "https://news.usni.org/2026/05/25/japan-announces-2-major-western-pacific-exercises-with-u-s",
       "published": "Mon, 25 May 2026 13:01:22 +0000",
@@ -930,21 +921,30 @@
       "categories": [
         "exercise"
       ]
+    },
+    {
+      "title": "Report: US to cut strategic bombers and warships available to NATO in a crisis",
+      "link": "https://www.defensenews.com/global/europe/2026/05/26/report-us-to-cut-strategic-bombers-and-warships-available-to-nato-in-a-crisis/",
+      "published": "Tue, 26 May 2026 14:32:12 +0000",
+      "source": "Defense News",
+      "categories": [
+        "exercise"
+      ]
     }
   ],
   "_threat_indicators": {
     "deployment_articles": 20,
     "conflict_articles": 8,
-    "exercise_articles": 8,
+    "exercise_articles": 7,
     "total_articles": 50,
-    "computed_at": "2026-05-27T03:51:10.958302+00:00",
+    "computed_at": "2026-05-27T07:53:24.929423+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[Naval News] Japan Commissions Ninth Mogami-class Frigate ‘Natori’ 「なとり」",
       "[Task & Purpose] Unaccredited VA claims company charged veteran $21,000 in violation of federal law, judge rules",
       "[Naval News] Dragon Adds More Air-Defence Firepower to French Carrier Strike Group",
-      "[Defense News] Rubio ratchets up pressure on NATO at key summit",
-      "[USNI News] Russian Crude Exports Increase as Strait of Hormuz Transits Remain Low"
+      "[USNI News] Russian Crude Exports Increase as Strait of Hormuz Transits Remain Low",
+      "[Naval News] South Korea’s First Trans-Pacific Submarine Deployment Reaches Canada"
     ]
   },
   "ground_intel": {
@@ -955,9 +955,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-05-27T03:51:10.958347+00:00",
+    "last_successful_update": "2026-05-27T07:53:24.929461+00:00",
     "article_count": 50,
-    "categorized_count": 31,
+    "categorized_count": 30,
     "freshest_source": "Naval News",
     "freshest_title": "Japan Commissions Ninth Mogami-class Frigate ‘Natori’ 「なとり」",
     "freshest_published": "Fri, 22 May 2026 11:18:45 +0000"
