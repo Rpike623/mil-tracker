@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-05-26T23:02:40Z",
-  "version": 1554,
+  "generated_utc": "2026-05-27T00:04:35Z",
+  "version": 1555,
   "breaking_alert": "Naval News: Japan Commissions Ninth Mogami-class Frigate ‘Natori’ 「なとり」",
   "naval_deployments": [
     {
@@ -937,7 +937,7 @@
     "conflict_articles": 8,
     "exercise_articles": 8,
     "total_articles": 50,
-    "computed_at": "2026-05-26T22:57:59.096644+00:00",
+    "computed_at": "2026-05-26T23:59:54.939357+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[Naval News] Japan Commissions Ninth Mogami-class Frigate ‘Natori’ 「なとり」",
@@ -955,7 +955,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-05-26T22:57:59.096690+00:00",
+    "last_successful_update": "2026-05-26T23:59:54.939401+00:00",
     "article_count": 50,
     "categorized_count": 31,
     "freshest_source": "Naval News",
