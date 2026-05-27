@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-05-27T17:49:09Z",
-  "version": 1560,
-  "breaking_alert": "Task & Purpose: Unaccredited VA claims company charged veteran $21,000 in violation of federal law, judge rules",
+  "generated_utc": "2026-05-27T19:54:51Z",
+  "version": 1561,
+  "breaking_alert": "Naval News: Dragon Adds More Air-Defence Firepower to French Carrier Strike Group",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -594,15 +594,6 @@
   ],
   "_naval_news_refs": [
     {
-      "title": "Unaccredited VA claims company charged veteran $21,000 in violation of federal law, judge rules",
-      "link": "https://taskandpurpose.com/news/va-claim-shark-court-ruling/",
-      "published": "Fri, 22 May 2026 14:52:28 -0400",
-      "source": "Task & Purpose",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Dragon Adds More Air-Defence Firepower to French Carrier Strike Group",
       "link": "https://www.navalnews.com/naval-news/2026/05/dragon-adds-more-air-defence-firepower-to-french-carrier-strike-group/",
       "published": "Fri, 22 May 2026 19:38:45 +0000",
@@ -659,30 +650,37 @@
       ]
     },
     {
-      "title": "US launches ‘self-defense’ strikes against Iran amid ongoing ceasefire",
-      "link": "https://www.defensenews.com/news/your-navy/2026/05/26/us-launches-self-defense-strikes-against-iran-amid-ongoing-ceasefire/",
-      "published": "Tue, 26 May 2026 19:02:11 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
-      "title": "US launches ‘self-defense’ strikes against Iran amid ongoing ceasefire",
-      "link": "https://www.militarytimes.com/news/your-navy/2026/05/26/us-launches-self-defense-strikes-against-iran-amid-ongoing-ceasefire/",
-      "published": "Tue, 26 May 2026 19:02:11 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
       "title": "Chinese Carrier Liaoning Near Philippines, USS George Washington Leaves Yokosuka Ahead of Spring Patrol",
       "link": "https://news.usni.org/2026/05/26/chinese-carrier-liaoning-near-philippines-uss-george-washington-leaves-yokosuka-ahead-of-spring-patrol",
       "published": "Tue, 26 May 2026 19:13:55 +0000",
       "source": "USNI News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Pentagon spars with SpaceX over Starlink price hike during Iran war",
+      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/05/26/pentagon-spars-with-spacex-over-starlink-price-hike-during-iran-war/",
+      "published": "Tue, 26 May 2026 19:19:53 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "House Wants Funding for a Second Arleigh Burke Destroyer in Next Fiscal Year",
+      "link": "https://news.usni.org/2026/05/26/house-wants-funding-for-a-second-arleigh-burke-destroyer-in-next-fiscal-year",
+      "published": "Tue, 26 May 2026 21:06:14 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "US lawmakers weigh aviation fuel cost increase from Iran war in fiscal 2027 defense hearing",
+      "link": "https://www.defensenews.com/news/pentagon-congress/2026/05/26/us-lawmakers-weigh-aviation-fuel-cost-increase-from-iran-war-in-fiscal-2027-defense-hearing/",
+      "published": "Tue, 26 May 2026 21:12:48 +0000",
+      "source": "Defense News",
       "categories": [
         "deployment"
       ]
@@ -850,15 +848,6 @@
       ]
     },
     {
-      "title": "Report to Congress on China’s Nuclear and Missile Proliferation",
-      "link": "https://news.usni.org/2026/05/25/report-to-congress-on-chinas-nuclear-and-missile-proliferation-2",
-      "published": "Mon, 25 May 2026 10:44:07 +0000",
-      "source": "USNI News",
-      "categories": [
-        "conflict"
-      ]
-    },
-    {
       "title": "US forces strike Iranian boats, launch sites in Bandar Abbas",
       "link": "https://taskandpurpose.com/news/us-strikes-iran-bandar-abbas/",
       "published": "Mon, 25 May 2026 20:43:56 -0400",
@@ -878,12 +867,21 @@
       ]
     },
     {
-      "title": "US launches ‘self-defense’ strikes against Iran amid ongoing ceasefire",
-      "link": "https://www.defensenews.com/news/your-navy/2026/05/26/us-launches-self-defense-strikes-against-iran-amid-ongoing-ceasefire/",
-      "published": "Tue, 26 May 2026 19:02:11 +0000",
-      "source": "Defense News",
+      "title": "China’s New Type 054B Frigate Makes Carrier Strike Group Debut in Western Pacific",
+      "link": "https://www.navalnews.com/naval-news/2026/05/chinas-new-type-054b-frigate-makes-carrier-strike-group-debut-in-western-pacific/",
+      "published": "Tue, 26 May 2026 21:49:15 +0000",
+      "source": "Naval News",
       "categories": [
         "deployment",
+        "conflict"
+      ]
+    },
+    {
+      "title": "Chinese Use Electronic Warfare Attacks on Dutch Warship in South China Sea, Says PLA",
+      "link": "https://news.usni.org/2026/05/27/chinese-use-electronic-warfare-attacks-on-dutch-warship-in-south-china-sea-says-pla",
+      "published": "Wed, 27 May 2026 15:45:14 +0000",
+      "source": "USNI News",
+      "categories": [
         "conflict"
       ]
     }
@@ -915,30 +913,21 @@
       "categories": [
         "exercise"
       ]
-    },
-    {
-      "title": "Report: US to cut strategic bombers and warships available to NATO in a crisis",
-      "link": "https://www.defensenews.com/global/europe/2026/05/26/report-us-to-cut-strategic-bombers-and-warships-available-to-nato-in-a-crisis/",
-      "published": "Tue, 26 May 2026 14:32:12 +0000",
-      "source": "Defense News",
-      "categories": [
-        "exercise"
-      ]
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 19,
-    "conflict_articles": 8,
-    "exercise_articles": 4,
+    "deployment_articles": 18,
+    "conflict_articles": 5,
+    "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-05-27T17:49:06.092149+00:00",
-    "manual_override": "DEFCON_2",
+    "computed_at": "2026-05-27T19:54:47.883170+00:00",
+    "manual_override": "DEFCON_3",
     "breaking_events": [
-      "[Task & Purpose] Unaccredited VA claims company charged veteran $21,000 in violation of federal law, judge rules",
       "[Naval News] Dragon Adds More Air-Defence Firepower to French Carrier Strike Group",
       "[Naval News] South Korea’s First Trans-Pacific Submarine Deployment Reaches Canada",
-      "[USNI News] Report to Congress on China’s Nuclear and Missile Proliferation",
-      "[USNI News] Japan Announces 2 Major Western Pacific Exercises with U.S."
+      "[USNI News] Japan Announces 2 Major Western Pacific Exercises with U.S.",
+      "[Task & Purpose] US forces strike Iranian boats, launch sites in Bandar Abbas",
+      "[Task & Purpose] Nimitz carrier group arrives in Caribbean amid Cuba tensions"
     ]
   },
   "ground_intel": {
@@ -949,12 +938,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-05-27T17:49:06.092194+00:00",
+    "last_successful_update": "2026-05-27T19:54:47.883213+00:00",
     "article_count": 50,
-    "categorized_count": 26,
-    "freshest_source": "Task & Purpose",
-    "freshest_title": "Unaccredited VA claims company charged veteran $21,000 in violation of federal law, judge rules",
-    "freshest_published": "Fri, 22 May 2026 14:52:28 -0400"
+    "categorized_count": 23,
+    "freshest_source": "Naval News",
+    "freshest_title": "Dragon Adds More Air-Defence Firepower to French Carrier Strike Group",
+    "freshest_published": "Fri, 22 May 2026 19:38:45 +0000"
   },
   "_firms_hotspots": []
 }
