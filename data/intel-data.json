@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-05-28T16:49:59Z",
-  "version": 1568,
+  "generated_utc": "2026-05-28T19:31:05Z",
+  "version": 1569,
   "breaking_alert": "Task & Purpose: US forces strike Iranian boats, launch sites in Bandar Abbas",
   "naval_deployments": [
     {
@@ -679,10 +679,10 @@
       ]
     },
     {
-      "title": "Chinese Carrier Liaoning Near Philippines, USS George Washington Leaves Yokosuka Ahead of Spring Patrol",
-      "link": "https://news.usni.org/2026/05/26/chinese-carrier-liaoning-near-philippines-uss-george-washington-leaves-yokosuka-ahead-of-spring-patrol",
-      "published": "Tue, 26 May 2026 19:13:55 +0000",
-      "source": "USNI News",
+      "title": "22nd MEU, Iwo Jima ARG head home after 10-month deployment",
+      "link": "https://www.militarytimes.com/news/your-military/2026/05/28/22nd-meu-iwo-jima-arg-head-home-after-10-month-deployment/",
+      "published": "Thu, 28 May 2026 16:58:57 +0000",
+      "source": "Military Times",
       "categories": [
         "deployment"
       ]
@@ -905,7 +905,7 @@
     "conflict_articles": 8,
     "exercise_articles": 1,
     "total_articles": 50,
-    "computed_at": "2026-05-28T16:49:53.950053+00:00",
+    "computed_at": "2026-05-28T19:31:03.076775+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[Task & Purpose] US forces strike Iranian boats, launch sites in Bandar Abbas",
@@ -923,7 +923,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-05-28T16:49:53.950099+00:00",
+    "last_successful_update": "2026-05-28T19:31:03.076837+00:00",
     "article_count": 50,
     "categorized_count": 22,
     "freshest_source": "Task & Purpose",
