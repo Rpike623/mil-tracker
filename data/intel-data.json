@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-05-27T23:06:11Z",
-  "version": 1563,
+  "generated_utc": "2026-05-28T01:44:54Z",
+  "version": 1564,
   "breaking_alert": "Naval News: South Korea’s First Trans-Pacific Submarine Deployment Reaches Canada",
   "naval_deployments": [
     {
@@ -622,6 +622,16 @@
       ]
     },
     {
+      "title": "US carries out new strikes in Iran against military site, official says",
+      "link": "https://www.militarytimes.com/breaking-news/2026/05/28/us-carries-out-new-strikes-in-iran-against-military-site-official-says/",
+      "published": "Thu, 28 May 2026 00:40:49 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
+    },
+    {
       "title": "South Korea Unveils Historic Plan to Build First Nuclear-Powered Submarine",
       "link": "https://www.navalnews.com/naval-news/2026/05/south-korea-unveils-historic-plan-to-build-first-nuclear-powered-submarine/",
       "published": "Tue, 26 May 2026 08:43:32 +0000",
@@ -653,15 +663,6 @@
       "link": "https://news.usni.org/2026/05/26/house-wants-funding-for-a-second-arleigh-burke-destroyer-in-next-fiscal-year",
       "published": "Tue, 26 May 2026 21:06:14 +0000",
       "source": "USNI News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "US lawmakers weigh aviation fuel cost increase from Iran war in fiscal 2027 defense hearing",
-      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/05/26/us-lawmakers-weigh-aviation-fuel-cost-increase-from-iran-war-in-fiscal-2027-defense-hearing/",
-      "published": "Tue, 26 May 2026 21:12:48 +0000",
-      "source": "Military Times",
       "categories": [
         "deployment"
       ]
@@ -848,6 +849,16 @@
       ]
     },
     {
+      "title": "US carries out new strikes in Iran against military site, official says",
+      "link": "https://www.militarytimes.com/breaking-news/2026/05/28/us-carries-out-new-strikes-in-iran-against-military-site-official-says/",
+      "published": "Thu, 28 May 2026 00:40:49 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
+    },
+    {
       "title": "South Korea Announces Plan to Build Domestic Nuclear Attack Boat",
       "link": "https://news.usni.org/2026/05/26/south-korea-announces-plan-to-build-domestic-nuclear-attack-boat",
       "published": "Tue, 26 May 2026 16:46:37 +0000",
@@ -870,15 +881,6 @@
       "title": "Chinese Use Electronic Warfare Attacks on Dutch Warship in South China Sea, Says PLA",
       "link": "https://news.usni.org/2026/05/27/chinese-use-electronic-warfare-attacks-on-dutch-warship-in-south-china-sea-says-pla",
       "published": "Wed, 27 May 2026 15:45:14 +0000",
-      "source": "USNI News",
-      "categories": [
-        "conflict"
-      ]
-    },
-    {
-      "title": "North Korea Tests New Lightweight Launch System and Tactical Cruise Missiles",
-      "link": "https://news.usni.org/2026/05/27/north-korea-tests-new-lightweight-launch-system-and-tactical-cruise-missiles",
-      "published": "Wed, 27 May 2026 19:55:47 +0000",
       "source": "USNI News",
       "categories": [
         "conflict"
@@ -907,17 +909,17 @@
   ],
   "_threat_indicators": {
     "deployment_articles": 15,
-    "conflict_articles": 5,
+    "conflict_articles": 6,
     "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-05-27T23:06:06.445200+00:00",
+    "computed_at": "2026-05-28T01:44:52.840967+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] South Korea’s First Trans-Pacific Submarine Deployment Reaches Canada",
       "[Task & Purpose] US forces strike Iranian boats, launch sites in Bandar Abbas",
       "[Task & Purpose] Nimitz carrier group arrives in Caribbean amid Cuba tensions",
-      "[Naval News] Thales enhances the operational effectiveness and readiness of Hellenic Navy’s Hydra-class frigates",
-      "[Task & Purpose] Green Berets tested glider drones for supply drops during a massive special operations exercise"
+      "[Military Times] US carries out new strikes in Iran against military site, official says",
+      "[Naval News] Thales enhances the operational effectiveness and readiness of Hellenic Navy’s Hydra-class frigates"
     ]
   },
   "ground_intel": {
@@ -928,7 +930,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-05-27T23:06:06.445245+00:00",
+    "last_successful_update": "2026-05-28T01:44:52.841013+00:00",
     "article_count": 50,
     "categorized_count": 20,
     "freshest_source": "Naval News",
