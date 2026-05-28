@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-05-28T19:31:05Z",
-  "version": 1569,
+  "generated_utc": "2026-05-28T21:47:24Z",
+  "version": 1570,
   "breaking_alert": "Task & Purpose: US forces strike Iranian boats, launch sites in Bandar Abbas",
   "naval_deployments": [
     {
@@ -901,12 +901,12 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 18,
-    "conflict_articles": 8,
+    "deployment_articles": 17,
+    "conflict_articles": 7,
     "exercise_articles": 1,
     "total_articles": 50,
-    "computed_at": "2026-05-28T19:31:03.076775+00:00",
-    "manual_override": "DEFCON_2",
+    "computed_at": "2026-05-28T21:47:22.057736+00:00",
+    "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Task & Purpose] US forces strike Iranian boats, launch sites in Bandar Abbas",
       "[Military Times] US carries out new strikes in Iran against military site, official says",
@@ -923,9 +923,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-05-28T19:31:03.076837+00:00",
+    "last_successful_update": "2026-05-28T21:47:22.057781+00:00",
     "article_count": 50,
-    "categorized_count": 22,
+    "categorized_count": 21,
     "freshest_source": "Task & Purpose",
     "freshest_title": "US forces strike Iranian boats, launch sites in Bandar Abbas",
     "freshest_published": "Mon, 25 May 2026 20:43:56 -0400"
