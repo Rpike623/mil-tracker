@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-05-28T23:04:50Z",
-  "version": 1571,
+  "generated_utc": "2026-05-29T01:53:57Z",
+  "version": 1572,
   "breaking_alert": "Task & Purpose: US forces strike Iranian boats, launch sites in Bandar Abbas",
   "naval_deployments": [
     {
@@ -905,7 +905,7 @@
     "conflict_articles": 7,
     "exercise_articles": 1,
     "total_articles": 50,
-    "computed_at": "2026-05-28T23:04:48.519350+00:00",
+    "computed_at": "2026-05-29T01:53:55.121086+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Task & Purpose] US forces strike Iranian boats, launch sites in Bandar Abbas",
@@ -923,7 +923,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-05-28T23:04:48.519394+00:00",
+    "last_successful_update": "2026-05-29T01:53:55.121129+00:00",
     "article_count": 50,
     "categorized_count": 20,
     "freshest_source": "Task & Purpose",
