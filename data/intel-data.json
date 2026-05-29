@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-05-29T20:02:44Z",
-  "version": 1577,
-  "breaking_alert": "Defense News: At French Army FPV competition, NATO soldiers race drones and swap tips",
+  "generated_utc": "2026-05-29T22:22:28Z",
+  "version": 1578,
+  "breaking_alert": "Defense News: Romania says Russian drone hit apartment block, NATO vows to defend alliance territory",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -621,16 +621,6 @@
       ]
     },
     {
-      "title": "US forces strike Iranian boats, launch sites in Bandar Abbas",
-      "link": "https://taskandpurpose.com/news/us-strikes-iran-bandar-abbas/",
-      "published": "Mon, 25 May 2026 20:43:56 -0400",
-      "source": "Task & Purpose",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
       "title": "Thales to supply S2087 / CAPTAS-4 Sonar for Canada’s River-class Destroyers",
       "link": "https://www.navalnews.com/naval-news/2026/05/thales-to-supply-s2087-captas-4-sonar-for-canadas-river-class-destroyers/",
       "published": "Thu, 28 May 2026 09:14:11 +0000",
@@ -657,15 +647,6 @@
       "categories": [
         "deployment",
         "conflict"
-      ]
-    },
-    {
-      "title": "2 Naval Aviators Safe After T-45C Goshawk Crashes in Mississippi, Some Training Flights Paused",
-      "link": "https://news.usni.org/2026/05/26/2-naval-aviators-safe-after-t-45c-goshawk-crashes-in-mississippi-some-training-flights-paused",
-      "published": "Tue, 26 May 2026 21:36:22 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment"
       ]
     },
     {
@@ -839,12 +820,20 @@
       ]
     },
     {
-      "title": "US forces strike Iranian boats, launch sites in Bandar Abbas",
-      "link": "https://taskandpurpose.com/news/us-strikes-iran-bandar-abbas/",
-      "published": "Mon, 25 May 2026 20:43:56 -0400",
-      "source": "Task & Purpose",
+      "title": "Nearly 500,000 Russian soldiers killed in Ukraine, top UK intel chief says",
+      "link": "https://www.defensenews.com/global/europe/2026/05/29/nearly-500000-russian-soldiers-killed-in-ukraine-top-uk-intel-chief-says/",
+      "published": "Fri, 29 May 2026 21:47:10 +0000",
+      "source": "Defense News",
       "categories": [
-        "deployment",
+        "conflict"
+      ]
+    },
+    {
+      "title": "Nearly 500,000 Russian soldiers killed in Ukraine, top UK intel chief says",
+      "link": "https://www.militarytimes.com/global/europe/2026/05/29/nearly-500000-russian-soldiers-killed-in-ukraine-top-uk-intel-chief-says/",
+      "published": "Fri, 29 May 2026 21:47:10 +0000",
+      "source": "Military Times",
+      "categories": [
         "conflict"
       ]
     },
@@ -866,28 +855,9 @@
       "categories": [
         "conflict"
       ]
-    },
-    {
-      "title": "South Korean Attack Boat Arrives in Canada Ahead of Submarine Program Decision",
-      "link": "https://news.usni.org/2026/05/28/south-korean-attack-boat-arrives-in-canada-ahead-of-submarine-program-decision",
-      "published": "Thu, 28 May 2026 15:45:22 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
     }
   ],
   "_exercise_news_refs": [
-    {
-      "title": "At French Army FPV competition, NATO soldiers race drones and swap tips",
-      "link": "https://www.defensenews.com/global/europe/2026/05/29/at-french-army-fpv-competition-nato-soldiers-race-drones-and-swap-tips/",
-      "published": "Fri, 29 May 2026 08:58:06 +0000",
-      "source": "Defense News",
-      "categories": [
-        "exercise"
-      ]
-    },
     {
       "title": "Romania says Russian drone hit apartment block, NATO vows to defend alliance territory",
       "link": "https://www.defensenews.com/global/europe/2026/05/29/romania-says-russian-drone-hit-apartment-block-nato-vows-to-defend-alliance-territory/",
@@ -908,18 +878,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 9,
-    "conflict_articles": 7,
-    "exercise_articles": 3,
+    "deployment_articles": 7,
+    "conflict_articles": 8,
+    "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-05-29T20:02:41.419256+00:00",
-    "manual_override": "DEFCON_3",
+    "computed_at": "2026-05-29T22:22:23.163431+00:00",
+    "manual_override": "DEFCON_2",
     "breaking_events": [
-      "[Defense News] At French Army FPV competition, NATO soldiers race drones and swap tips",
       "[Defense News] Romania says Russian drone hit apartment block, NATO vows to defend alliance territory",
       "[Defense News] China is building launch pads near its nuclear missile silos",
       "[Defense News] How far is there to go until the US and Iran end the war?",
-      "[Defense News] US Navy to explore powering shore installations with aircraft carriers"
+      "[Defense News] US Navy to explore powering shore installations with aircraft carriers",
+      "[Military Times] US Navy to explore powering shore installations with aircraft carriers"
     ]
   },
   "ground_intel": {
@@ -930,12 +900,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-05-29T20:02:41.419296+00:00",
+    "last_successful_update": "2026-05-29T22:22:23.163474+00:00",
     "article_count": 50,
-    "categorized_count": 16,
+    "categorized_count": 15,
     "freshest_source": "Defense News",
-    "freshest_title": "At French Army FPV competition, NATO soldiers race drones and swap tips",
-    "freshest_published": "Fri, 29 May 2026 08:58:06 +0000"
+    "freshest_title": "Romania says Russian drone hit apartment block, NATO vows to defend alliance territory",
+    "freshest_published": "Fri, 29 May 2026 13:44:06 +0000"
   },
   "_firms_hotspots": []
 }
