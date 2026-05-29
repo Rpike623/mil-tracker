@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-05-29T13:51:29Z",
-  "version": 1575,
+  "generated_utc": "2026-05-29T17:23:45Z",
+  "version": 1576,
   "breaking_alert": "Defense News: At French Army FPV competition, NATO soldiers race drones and swap tips",
   "naval_deployments": [
     {
@@ -594,20 +594,28 @@
   ],
   "_naval_news_refs": [
     {
+      "title": "How far is there to go until the US and Iran end the war?",
+      "link": "https://www.defensenews.com/news/pentagon-congress/2026/05/29/how-far-is-there-to-go-until-the-us-and-iran-end-the-war/",
+      "published": "Fri, 29 May 2026 15:16:12 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "How far is there to go until the US and Iran end the war?",
+      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/05/29/how-far-is-there-to-go-until-the-us-and-iran-end-the-war/",
+      "published": "Fri, 29 May 2026 15:16:12 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "US forces strike Iranian boats, launch sites in Bandar Abbas",
       "link": "https://taskandpurpose.com/news/us-strikes-iran-bandar-abbas/",
       "published": "Mon, 25 May 2026 20:43:56 -0400",
       "source": "Task & Purpose",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
-      "title": "US carries out new strikes in Iran against military site, official says",
-      "link": "https://www.militarytimes.com/breaking-news/2026/05/28/us-carries-out-new-strikes-in-iran-against-military-site-official-says/",
-      "published": "Thu, 28 May 2026 00:40:49 +0000",
-      "source": "Military Times",
       "categories": [
         "deployment",
         "conflict"
@@ -633,24 +641,6 @@
       ]
     },
     {
-      "title": "US troops are reportedly being targeted using location data, Pentagon says",
-      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/05/28/us-troops-are-reportedly-being-targeted-using-location-data-pentagon-says/",
-      "published": "Thu, 28 May 2026 12:15:57 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Germany’s defense minister makes rare personal pitch for submarine deal in Ottawa",
-      "link": "https://www.defensenews.com/naval/2026/05/28/germanys-defense-minister-makes-rare-personal-pitch-for-submarine-deal-in-ottawa/",
-      "published": "Thu, 28 May 2026 12:50:06 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "South Korean Attack Boat Arrives in Canada Ahead of Submarine Program Decision",
       "link": "https://news.usni.org/2026/05/28/south-korean-attack-boat-arrives-in-canada-ahead-of-submarine-program-decision",
       "published": "Thu, 28 May 2026 15:45:22 +0000",
@@ -661,27 +651,27 @@
       ]
     },
     {
-      "title": "22nd MEU, Iwo Jima ARG head home after 10-month deployment",
-      "link": "https://www.militarytimes.com/news/your-military/2026/05/28/22nd-meu-iwo-jima-arg-head-home-after-10-month-deployment/",
-      "published": "Thu, 28 May 2026 16:58:57 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "House Wants Funding for a Second Arleigh Burke Destroyer in Next Fiscal Year",
-      "link": "https://news.usni.org/2026/05/26/house-wants-funding-for-a-second-arleigh-burke-destroyer-in-next-fiscal-year",
-      "published": "Tue, 26 May 2026 21:06:14 +0000",
+      "title": "2 Naval Aviators Safe After T-45C Goshawk Crashes in Mississippi, Some Training Flights Paused",
+      "link": "https://news.usni.org/2026/05/26/2-naval-aviators-safe-after-t-45c-goshawk-crashes-in-mississippi-some-training-flights-paused",
+      "published": "Tue, 26 May 2026 21:36:22 +0000",
       "source": "USNI News",
       "categories": [
         "deployment"
       ]
     },
     {
-      "title": "2 Naval Aviators Safe After T-45C Goshawk Crashes in Mississippi, Some Training Flights Paused",
-      "link": "https://news.usni.org/2026/05/26/2-naval-aviators-safe-after-t-45c-goshawk-crashes-in-mississippi-some-training-flights-paused",
-      "published": "Tue, 26 May 2026 21:36:22 +0000",
+      "title": "Republic of Korea’s Nuclear-powered Submarine Initiative",
+      "link": "https://news.usni.org/2026/05/27/republic-of-koreas-nuclear-powered-submarine-initiative",
+      "published": "Wed, 27 May 2026 14:21:13 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Iwo Jima ARG, 22nd MEU are Heading Home After 10 Months",
+      "link": "https://news.usni.org/2026/05/27/iwo-jima-arg-22nd-meu-are-heading-home-after-10-months",
+      "published": "Wed, 27 May 2026 18:02:32 +0000",
       "source": "USNI News",
       "categories": [
         "deployment"
@@ -840,6 +830,33 @@
   },
   "_conflict_news_refs": [
     {
+      "title": "My grandpa was killed in World War II. I met him through his letters home.",
+      "link": "https://www.militarytimes.com/opinion/commentary/2026/05/29/my-grandpa-was-killed-in-world-war-ii-i-met-him-through-his-letters-home/",
+      "published": "Fri, 29 May 2026 14:10:31 +0000",
+      "source": "Military Times",
+      "categories": [
+        "conflict"
+      ]
+    },
+    {
+      "title": "China is building launch pads near its nuclear missile silos",
+      "link": "https://www.defensenews.com/global/asia-pacific/2026/05/29/china-is-building-launch-pads-near-its-nuclear-missile-silos/",
+      "published": "Fri, 29 May 2026 15:02:15 +0000",
+      "source": "Defense News",
+      "categories": [
+        "conflict"
+      ]
+    },
+    {
+      "title": "China is building launch pads near its nuclear missile silos",
+      "link": "https://www.militarytimes.com/global/asia-pacific/2026/05/29/china-is-building-launch-pads-near-its-nuclear-missile-silos/",
+      "published": "Fri, 29 May 2026 15:02:15 +0000",
+      "source": "Military Times",
+      "categories": [
+        "conflict"
+      ]
+    },
+    {
       "title": "US forces strike Iranian boats, launch sites in Bandar Abbas",
       "link": "https://taskandpurpose.com/news/us-strikes-iran-bandar-abbas/",
       "published": "Mon, 25 May 2026 20:43:56 -0400",
@@ -850,39 +867,10 @@
       ]
     },
     {
-      "title": "US carries out new strikes in Iran against military site, official says",
-      "link": "https://www.militarytimes.com/breaking-news/2026/05/28/us-carries-out-new-strikes-in-iran-against-military-site-official-says/",
-      "published": "Thu, 28 May 2026 00:40:49 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
       "title": "Fighting between US and Iran continues amid ‘ceasefire’",
       "link": "https://taskandpurpose.com/news/us-iran-ceasefire-2026/",
       "published": "Thu, 28 May 2026 11:35:50 -0400",
       "source": "Task & Purpose",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
-      "title": "2 Killed in Eastern Pacific Strike on Suspected Narco Boat",
-      "link": "https://news.usni.org/2026/05/28/2-killed-in-eastern-pacific-strike-on-suspected-narco-boat-2",
-      "published": "Thu, 28 May 2026 15:01:09 +0000",
-      "source": "USNI News",
-      "categories": [
-        "conflict"
-      ]
-    },
-    {
-      "title": "South Korean Attack Boat Arrives in Canada Ahead of Submarine Program Decision",
-      "link": "https://news.usni.org/2026/05/28/south-korean-attack-boat-arrives-in-canada-ahead-of-submarine-program-decision",
-      "published": "Thu, 28 May 2026 15:45:22 +0000",
-      "source": "USNI News",
       "categories": [
         "deployment",
         "conflict"
@@ -919,18 +907,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 13,
-    "conflict_articles": 7,
+    "deployment_articles": 9,
+    "conflict_articles": 9,
     "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-05-29T13:51:25.875457+00:00",
-    "manual_override": "DEFCON_3",
+    "computed_at": "2026-05-29T17:23:40.750709+00:00",
+    "manual_override": "DEFCON_2",
     "breaking_events": [
       "[Defense News] At French Army FPV competition, NATO soldiers race drones and swap tips",
       "[Defense News] Romania says Russian drone hit apartment block, NATO vows to defend alliance territory",
-      "[Task & Purpose] US forces strike Iranian boats, launch sites in Bandar Abbas",
-      "[Military Times] US carries out new strikes in Iran against military site, official says",
-      "[Naval News] Thales to supply S2087 / CAPTAS-4 Sonar for Canada’s River-class Destroyers"
+      "[Military Times] My grandpa was killed in World War II. I met him through his letters home.",
+      "[Defense News] China is building launch pads near its nuclear missile silos",
+      "[Military Times] China is building launch pads near its nuclear missile silos"
     ]
   },
   "ground_intel": {
@@ -941,9 +929,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-05-29T13:51:25.875506+00:00",
+    "last_successful_update": "2026-05-29T17:23:40.750750+00:00",
     "article_count": 50,
-    "categorized_count": 19,
+    "categorized_count": 18,
     "freshest_source": "Defense News",
     "freshest_title": "At French Army FPV competition, NATO soldiers race drones and swap tips",
     "freshest_published": "Fri, 29 May 2026 08:58:06 +0000"
