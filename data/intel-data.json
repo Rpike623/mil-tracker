@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-05-29T06:00:59Z",
-  "version": 1573,
-  "breaking_alert": "Task & Purpose: US forces strike Iranian boats, launch sites in Bandar Abbas",
+  "generated_utc": "2026-05-29T10:36:04Z",
+  "version": 1574,
+  "breaking_alert": "Defense News: At French Army FPV competition, NATO soldiers race drones and swap tips",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -891,6 +891,15 @@
   ],
   "_exercise_news_refs": [
     {
+      "title": "At French Army FPV competition, NATO soldiers race drones and swap tips",
+      "link": "https://www.defensenews.com/global/europe/2026/05/29/at-french-army-fpv-competition-nato-soldiers-race-drones-and-swap-tips/",
+      "published": "Fri, 29 May 2026 08:58:06 +0000",
+      "source": "Defense News",
+      "categories": [
+        "exercise"
+      ]
+    },
+    {
       "title": "Green Berets tested glider drones for supply drops during a massive special operations exercise",
       "link": "https://taskandpurpose.com/tech-tactics/glider-drones-green-berets-trojan-footprint/",
       "published": "Tue, 26 May 2026 08:28:00 -0400",
@@ -903,16 +912,16 @@
   "_threat_indicators": {
     "deployment_articles": 16,
     "conflict_articles": 7,
-    "exercise_articles": 1,
+    "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-05-29T06:00:57.386614+00:00",
+    "computed_at": "2026-05-29T10:36:01.872823+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
+      "[Defense News] At French Army FPV competition, NATO soldiers race drones and swap tips",
       "[Task & Purpose] US forces strike Iranian boats, launch sites in Bandar Abbas",
       "[Military Times] US carries out new strikes in Iran against military site, official says",
       "[Naval News] HII Showcased ROMULUS 151 at Combined Naval Event 2026",
-      "[Naval News] Thales to supply S2087 / CAPTAS-4 Sonar for Canada’s River-class Destroyers",
-      "[Task & Purpose] Fighting between US and Iran continues amid ‘ceasefire’"
+      "[Naval News] Thales to supply S2087 / CAPTAS-4 Sonar for Canada’s River-class Destroyers"
     ]
   },
   "ground_intel": {
@@ -923,12 +932,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-05-29T06:00:57.386687+00:00",
+    "last_successful_update": "2026-05-29T10:36:01.872869+00:00",
     "article_count": 50,
-    "categorized_count": 20,
-    "freshest_source": "Task & Purpose",
-    "freshest_title": "US forces strike Iranian boats, launch sites in Bandar Abbas",
-    "freshest_published": "Mon, 25 May 2026 20:43:56 -0400"
+    "categorized_count": 21,
+    "freshest_source": "Defense News",
+    "freshest_title": "At French Army FPV competition, NATO soldiers race drones and swap tips",
+    "freshest_published": "Fri, 29 May 2026 08:58:06 +0000"
   },
   "_firms_hotspots": []
 }
