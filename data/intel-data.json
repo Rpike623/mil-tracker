@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-05-29T22:22:28Z",
-  "version": 1578,
+  "generated_utc": "2026-05-29T23:59:19Z",
+  "version": 1579,
   "breaking_alert": "Defense News: Romania says Russian drone hit apartment block, NATO vows to defend alliance territory",
   "naval_deployments": [
     {
@@ -868,6 +868,15 @@
       ]
     },
     {
+      "title": "How Russia is turning Ukraine’s drones against NATO",
+      "link": "https://www.defensenews.com/global/europe/2026/05/29/how-russia-is-turning-ukraines-drones-against-nato/",
+      "published": "Fri, 29 May 2026 23:36:27 +0000",
+      "source": "Defense News",
+      "categories": [
+        "exercise"
+      ]
+    },
+    {
       "title": "Green Berets tested glider drones for supply drops during a massive special operations exercise",
       "link": "https://taskandpurpose.com/tech-tactics/glider-drones-green-berets-trojan-footprint/",
       "published": "Tue, 26 May 2026 08:28:00 -0400",
@@ -880,9 +889,9 @@
   "_threat_indicators": {
     "deployment_articles": 7,
     "conflict_articles": 8,
-    "exercise_articles": 2,
+    "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-05-29T22:22:23.163431+00:00",
+    "computed_at": "2026-05-29T23:59:16.382597+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[Defense News] Romania says Russian drone hit apartment block, NATO vows to defend alliance territory",
@@ -900,9 +909,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-05-29T22:22:23.163474+00:00",
+    "last_successful_update": "2026-05-29T23:59:16.382637+00:00",
     "article_count": 50,
-    "categorized_count": 15,
+    "categorized_count": 16,
     "freshest_source": "Defense News",
     "freshest_title": "Romania says Russian drone hit apartment block, NATO vows to defend alliance territory",
     "freshest_published": "Fri, 29 May 2026 13:44:06 +0000"
