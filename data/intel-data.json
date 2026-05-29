@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-05-29T17:23:45Z",
-  "version": 1576,
+  "generated_utc": "2026-05-29T20:02:44Z",
+  "version": 1577,
   "breaking_alert": "Defense News: At French Army FPV competition, NATO soldiers race drones and swap tips",
   "naval_deployments": [
     {
@@ -603,9 +603,18 @@
       ]
     },
     {
-      "title": "How far is there to go until the US and Iran end the war?",
-      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/05/29/how-far-is-there-to-go-until-the-us-and-iran-end-the-war/",
-      "published": "Fri, 29 May 2026 15:16:12 +0000",
+      "title": "US Navy to explore powering shore installations with aircraft carriers",
+      "link": "https://www.defensenews.com/news/your-military/2026/05/29/us-navy-to-explore-powering-shore-installations-with-aircraft-carriers/",
+      "published": "Fri, 29 May 2026 17:26:16 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "US Navy to explore powering shore installations with aircraft carriers",
+      "link": "https://www.militarytimes.com/news/your-military/2026/05/29/us-navy-to-explore-powering-shore-installations-with-aircraft-carriers/",
+      "published": "Fri, 29 May 2026 17:26:16 +0000",
       "source": "Military Times",
       "categories": [
         "deployment"
@@ -663,15 +672,6 @@
       "title": "Republic of Korea’s Nuclear-powered Submarine Initiative",
       "link": "https://news.usni.org/2026/05/27/republic-of-koreas-nuclear-powered-submarine-initiative",
       "published": "Wed, 27 May 2026 14:21:13 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Iwo Jima ARG, 22nd MEU are Heading Home After 10 Months",
-      "link": "https://news.usni.org/2026/05/27/iwo-jima-arg-22nd-meu-are-heading-home-after-10-months",
-      "published": "Wed, 27 May 2026 18:02:32 +0000",
       "source": "USNI News",
       "categories": [
         "deployment"
@@ -830,28 +830,10 @@
   },
   "_conflict_news_refs": [
     {
-      "title": "My grandpa was killed in World War II. I met him through his letters home.",
-      "link": "https://www.militarytimes.com/opinion/commentary/2026/05/29/my-grandpa-was-killed-in-world-war-ii-i-met-him-through-his-letters-home/",
-      "published": "Fri, 29 May 2026 14:10:31 +0000",
-      "source": "Military Times",
-      "categories": [
-        "conflict"
-      ]
-    },
-    {
       "title": "China is building launch pads near its nuclear missile silos",
       "link": "https://www.defensenews.com/global/asia-pacific/2026/05/29/china-is-building-launch-pads-near-its-nuclear-missile-silos/",
       "published": "Fri, 29 May 2026 15:02:15 +0000",
       "source": "Defense News",
-      "categories": [
-        "conflict"
-      ]
-    },
-    {
-      "title": "China is building launch pads near its nuclear missile silos",
-      "link": "https://www.militarytimes.com/global/asia-pacific/2026/05/29/china-is-building-launch-pads-near-its-nuclear-missile-silos/",
-      "published": "Fri, 29 May 2026 15:02:15 +0000",
-      "source": "Military Times",
       "categories": [
         "conflict"
       ]
@@ -871,6 +853,25 @@
       "link": "https://taskandpurpose.com/news/us-iran-ceasefire-2026/",
       "published": "Thu, 28 May 2026 11:35:50 -0400",
       "source": "Task & Purpose",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
+    },
+    {
+      "title": "2 Killed in Eastern Pacific Strike on Suspected Narco Boat",
+      "link": "https://news.usni.org/2026/05/28/2-killed-in-eastern-pacific-strike-on-suspected-narco-boat-2",
+      "published": "Thu, 28 May 2026 15:01:09 +0000",
+      "source": "USNI News",
+      "categories": [
+        "conflict"
+      ]
+    },
+    {
+      "title": "South Korean Attack Boat Arrives in Canada Ahead of Submarine Program Decision",
+      "link": "https://news.usni.org/2026/05/28/south-korean-attack-boat-arrives-in-canada-ahead-of-submarine-program-decision",
+      "published": "Thu, 28 May 2026 15:45:22 +0000",
+      "source": "USNI News",
       "categories": [
         "deployment",
         "conflict"
@@ -908,17 +909,17 @@
   ],
   "_threat_indicators": {
     "deployment_articles": 9,
-    "conflict_articles": 9,
+    "conflict_articles": 7,
     "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-05-29T17:23:40.750709+00:00",
-    "manual_override": "DEFCON_2",
+    "computed_at": "2026-05-29T20:02:41.419256+00:00",
+    "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Defense News] At French Army FPV competition, NATO soldiers race drones and swap tips",
       "[Defense News] Romania says Russian drone hit apartment block, NATO vows to defend alliance territory",
-      "[Military Times] My grandpa was killed in World War II. I met him through his letters home.",
       "[Defense News] China is building launch pads near its nuclear missile silos",
-      "[Military Times] China is building launch pads near its nuclear missile silos"
+      "[Defense News] How far is there to go until the US and Iran end the war?",
+      "[Defense News] US Navy to explore powering shore installations with aircraft carriers"
     ]
   },
   "ground_intel": {
@@ -929,9 +930,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-05-29T17:23:40.750750+00:00",
+    "last_successful_update": "2026-05-29T20:02:41.419296+00:00",
     "article_count": 50,
-    "categorized_count": 18,
+    "categorized_count": 16,
     "freshest_source": "Defense News",
     "freshest_title": "At French Army FPV competition, NATO soldiers race drones and swap tips",
     "freshest_published": "Fri, 29 May 2026 08:58:06 +0000"
