@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-05-30T18:54:22Z",
-  "version": 1589,
+  "generated_utc": "2026-05-30T20:00:09Z",
+  "version": 1590,
   "breaking_alert": "Defense News: Romania says Russian drone hit apartment block, NATO vows to defend alliance territory",
   "naval_deployments": [
     {
@@ -847,21 +847,21 @@
       ]
     },
     {
+      "title": "US forces fire Hellfire missile to disable ship trying to break its blockade",
+      "link": "https://taskandpurpose.com/news/us-hellfire-missile-blockade-gulf-oman/",
+      "published": "Sat, 30 May 2026 15:32:44 -0400",
+      "source": "Task & Purpose",
+      "categories": [
+        "conflict"
+      ]
+    },
+    {
       "title": "Fighting between US and Iran continues amid ‘ceasefire’",
       "link": "https://taskandpurpose.com/news/us-iran-ceasefire-2026/",
       "published": "Thu, 28 May 2026 11:35:50 -0400",
       "source": "Task & Purpose",
       "categories": [
         "deployment",
-        "conflict"
-      ]
-    },
-    {
-      "title": "2 Killed in Eastern Pacific Strike on Suspected Narco Boat",
-      "link": "https://news.usni.org/2026/05/28/2-killed-in-eastern-pacific-strike-on-suspected-narco-boat-2",
-      "published": "Thu, 28 May 2026 15:01:09 +0000",
-      "source": "USNI News",
-      "categories": [
         "conflict"
       ]
     }
@@ -888,10 +888,10 @@
   ],
   "_threat_indicators": {
     "deployment_articles": 8,
-    "conflict_articles": 8,
+    "conflict_articles": 9,
     "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-05-30T18:54:19.387135+00:00",
+    "computed_at": "2026-05-30T20:00:07.557311+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[Defense News] Romania says Russian drone hit apartment block, NATO vows to defend alliance territory",
@@ -909,9 +909,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-05-30T18:54:19.387179+00:00",
+    "last_successful_update": "2026-05-30T20:00:07.557352+00:00",
     "article_count": 50,
-    "categorized_count": 16,
+    "categorized_count": 17,
     "freshest_source": "Defense News",
     "freshest_title": "Romania says Russian drone hit apartment block, NATO vows to defend alliance territory",
     "freshest_published": "Fri, 29 May 2026 13:44:06 +0000"
