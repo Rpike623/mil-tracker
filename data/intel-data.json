@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-05-30T21:58:45Z",
-  "version": 1592,
+  "generated_utc": "2026-05-30T22:55:23Z",
+  "version": 1593,
   "breaking_alert": "Defense News: Romania says Russian drone hit apartment block, NATO vows to defend alliance territory",
   "naval_deployments": [
     {
@@ -657,15 +657,6 @@
         "deployment",
         "conflict"
       ]
-    },
-    {
-      "title": "Republic of Korea’s Nuclear-powered Submarine Initiative",
-      "link": "https://news.usni.org/2026/05/27/republic-of-koreas-nuclear-powered-submarine-initiative",
-      "published": "Wed, 27 May 2026 14:21:13 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment"
-      ]
     }
   ],
   "centcom_assets": {
@@ -887,11 +878,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 8,
+    "deployment_articles": 7,
     "conflict_articles": 9,
     "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-05-30T21:58:43.622764+00:00",
+    "computed_at": "2026-05-30T22:55:21.004427+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[Defense News] Romania says Russian drone hit apartment block, NATO vows to defend alliance territory",
@@ -909,9 +900,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-05-30T21:58:43.622806+00:00",
+    "last_successful_update": "2026-05-30T22:55:21.004470+00:00",
     "article_count": 50,
-    "categorized_count": 17,
+    "categorized_count": 16,
     "freshest_source": "Defense News",
     "freshest_title": "Romania says Russian drone hit apartment block, NATO vows to defend alliance territory",
     "freshest_published": "Fri, 29 May 2026 13:44:06 +0000"
