@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-05-30T16:51:24Z",
-  "version": 1587,
+  "generated_utc": "2026-05-30T17:54:27Z",
+  "version": 1588,
   "breaking_alert": "Defense News: Romania says Russian drone hit apartment block, NATO vows to defend alliance territory",
   "naval_deployments": [
     {
@@ -621,6 +621,15 @@
       ]
     },
     {
+      "title": "F-35 pilots receive Distinguished Flying Crosses for Midnight Hammer, missions in Yemen",
+      "link": "https://taskandpurpose.com/news/f-35-airmen-distinguished-flying-cross-midnight-hammer/",
+      "published": "Sat, 30 May 2026 13:24:53 -0400",
+      "source": "Task & Purpose",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "Thales to supply S2087 / CAPTAS-4 Sonar for Canada’s River-class Destroyers",
       "link": "https://www.navalnews.com/naval-news/2026/05/thales-to-supply-s2087-captas-4-sonar-for-canadas-river-class-destroyers/",
       "published": "Thu, 28 May 2026 09:14:11 +0000",
@@ -875,23 +884,14 @@
       "categories": [
         "exercise"
       ]
-    },
-    {
-      "title": "Green Berets tested glider drones for supply drops during a massive special operations exercise",
-      "link": "https://taskandpurpose.com/tech-tactics/glider-drones-green-berets-trojan-footprint/",
-      "published": "Tue, 26 May 2026 08:28:00 -0400",
-      "source": "Task & Purpose",
-      "categories": [
-        "exercise"
-      ]
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 7,
+    "deployment_articles": 8,
     "conflict_articles": 8,
-    "exercise_articles": 3,
+    "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-05-30T16:51:18.658648+00:00",
+    "computed_at": "2026-05-30T17:54:25.118523+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[Defense News] Romania says Russian drone hit apartment block, NATO vows to defend alliance territory",
@@ -909,7 +909,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-05-30T16:51:18.658693+00:00",
+    "last_successful_update": "2026-05-30T17:54:25.118567+00:00",
     "article_count": 50,
     "categorized_count": 16,
     "freshest_source": "Defense News",
