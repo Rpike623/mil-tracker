@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-05-30T22:55:23Z",
-  "version": 1593,
+  "generated_utc": "2026-05-30T23:48:57Z",
+  "version": 1594,
   "breaking_alert": "Defense News: Romania says Russian drone hit apartment block, NATO vows to defend alliance territory",
   "naval_deployments": [
     {
@@ -882,7 +882,7 @@
     "conflict_articles": 9,
     "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-05-30T22:55:21.004427+00:00",
+    "computed_at": "2026-05-30T23:48:55.374649+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[Defense News] Romania says Russian drone hit apartment block, NATO vows to defend alliance territory",
@@ -900,7 +900,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-05-30T22:55:21.004470+00:00",
+    "last_successful_update": "2026-05-30T23:48:55.374693+00:00",
     "article_count": 50,
     "categorized_count": 16,
     "freshest_source": "Defense News",
