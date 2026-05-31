@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-05-31T02:01:37Z",
-  "version": 1595,
+  "generated_utc": "2026-05-31T06:43:58Z",
+  "version": 1596,
   "breaking_alert": "Defense News: Romania says Russian drone hit apartment block, NATO vows to defend alliance territory",
   "naval_deployments": [
     {
@@ -630,15 +630,6 @@
       ]
     },
     {
-      "title": "Thales to supply S2087 / CAPTAS-4 Sonar for Canada’s River-class Destroyers",
-      "link": "https://www.navalnews.com/naval-news/2026/05/thales-to-supply-s2087-captas-4-sonar-for-canadas-river-class-destroyers/",
-      "published": "Thu, 28 May 2026 09:14:11 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Fighting between US and Iran continues amid ‘ceasefire’",
       "link": "https://taskandpurpose.com/news/us-iran-ceasefire-2026/",
       "published": "Thu, 28 May 2026 11:35:50 -0400",
@@ -878,11 +869,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 7,
+    "deployment_articles": 6,
     "conflict_articles": 9,
     "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-05-31T02:01:32.679750+00:00",
+    "computed_at": "2026-05-31T06:43:54.430489+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[Defense News] Romania says Russian drone hit apartment block, NATO vows to defend alliance territory",
@@ -900,9 +891,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-05-31T02:01:32.679777+00:00",
+    "last_successful_update": "2026-05-31T06:43:54.430530+00:00",
     "article_count": 50,
-    "categorized_count": 16,
+    "categorized_count": 15,
     "freshest_source": "Defense News",
     "freshest_title": "Romania says Russian drone hit apartment block, NATO vows to defend alliance territory",
     "freshest_published": "Fri, 29 May 2026 13:44:06 +0000"
