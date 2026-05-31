@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-05-31T20:03:51Z",
-  "version": 1604,
+  "generated_utc": "2026-05-31T21:44:39Z",
+  "version": 1605,
   "breaking_alert": "Defense News: Romania says Russian drone hit apartment block, NATO vows to defend alliance territory",
   "naval_deployments": [
     {
@@ -630,6 +630,15 @@
       ]
     },
     {
+      "title": "AUKUS Partners Announce Changes To Submarine Agreement, Launch Joint Development For Underwater Drone Payloads",
+      "link": "https://www.navalnews.com/naval-news/2026/05/aukus-partners-announce-changes-to-submarine-agreement-launch-joint-development-for-underwater-drone-payloads/",
+      "published": "Sun, 31 May 2026 20:40:24 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "Fighting between US and Iran continues amid ‘ceasefire’",
       "link": "https://taskandpurpose.com/news/us-iran-ceasefire-2026/",
       "published": "Thu, 28 May 2026 11:35:50 -0400",
@@ -868,11 +877,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 6,
+    "deployment_articles": 7,
     "conflict_articles": 10,
     "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-05-31T20:03:45.784947+00:00",
+    "computed_at": "2026-05-31T21:44:36.265183+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[Defense News] Romania says Russian drone hit apartment block, NATO vows to defend alliance territory",
@@ -890,9 +899,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-05-31T20:03:45.784989+00:00",
+    "last_successful_update": "2026-05-31T21:44:36.265217+00:00",
     "article_count": 50,
-    "categorized_count": 16,
+    "categorized_count": 17,
     "freshest_source": "Defense News",
     "freshest_title": "Romania says Russian drone hit apartment block, NATO vows to defend alliance territory",
     "freshest_published": "Fri, 29 May 2026 13:44:06 +0000"
