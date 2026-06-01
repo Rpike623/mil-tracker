@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-06-01T14:43:20Z",
-  "version": 1610,
-  "breaking_alert": "Defense News: China is building launch pads near its nuclear missile silos",
+  "generated_utc": "2026-06-01T19:48:43Z",
+  "version": 1611,
+  "breaking_alert": "Defense News: US Navy to explore powering shore installations with aircraft carriers",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -594,28 +594,10 @@
   ],
   "_naval_news_refs": [
     {
-      "title": "How far is there to go until the US and Iran end the war?",
-      "link": "https://www.defensenews.com/news/pentagon-congress/2026/05/29/how-far-is-there-to-go-until-the-us-and-iran-end-the-war/",
-      "published": "Fri, 29 May 2026 15:16:12 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "US Navy to explore powering shore installations with aircraft carriers",
       "link": "https://www.defensenews.com/news/your-military/2026/05/29/us-navy-to-explore-powering-shore-installations-with-aircraft-carriers/",
       "published": "Fri, 29 May 2026 17:26:16 +0000",
       "source": "Defense News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "US Navy to explore powering shore installations with aircraft carriers",
-      "link": "https://www.militarytimes.com/news/your-military/2026/05/29/us-navy-to-explore-powering-shore-installations-with-aircraft-carriers/",
-      "published": "Fri, 29 May 2026 17:26:16 +0000",
-      "source": "Military Times",
       "categories": [
         "deployment"
       ]
@@ -637,6 +619,34 @@
       "categories": [
         "deployment",
         "conflict"
+      ]
+    },
+    {
+      "title": "US military continues self-defense strikes against Iran, intercepts missiles",
+      "link": "https://www.militarytimes.com/news/your-navy/2026/06/01/us-military-continues-self-defense-strikes-against-iran-intercepts-missiles/",
+      "published": "Mon, 01 Jun 2026 15:06:50 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
+    },
+    {
+      "title": "USNI News Fleet and Marine Tracker: June 1, 2026",
+      "link": "https://news.usni.org/2026/06/01/usni-news-fleet-and-marine-tracker-june-1-2026",
+      "published": "Mon, 01 Jun 2026 17:16:11 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "South Korea goes full steam ahead on nuclear-powered submarines",
+      "link": "https://www.defensenews.com/naval/2026/06/01/south-korea-goes-full-steam-ahead-on-nuclear-powered-submarines/",
+      "published": "Mon, 01 Jun 2026 17:34:50 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment"
       ]
     },
     {
@@ -830,15 +840,6 @@
   },
   "_conflict_news_refs": [
     {
-      "title": "China is building launch pads near its nuclear missile silos",
-      "link": "https://www.defensenews.com/global/asia-pacific/2026/05/29/china-is-building-launch-pads-near-its-nuclear-missile-silos/",
-      "published": "Fri, 29 May 2026 15:02:15 +0000",
-      "source": "Defense News",
-      "categories": [
-        "conflict"
-      ]
-    },
-    {
       "title": "Nearly 500,000 Russian soldiers killed in Ukraine, top UK intel chief says",
       "link": "https://www.defensenews.com/global/europe/2026/05/29/nearly-500000-russian-soldiers-killed-in-ukraine-top-uk-intel-chief-says/",
       "published": "Fri, 29 May 2026 21:47:10 +0000",
@@ -867,10 +868,20 @@
       ]
     },
     {
-      "title": "US forces fire Hellfire missile to disable ship trying to break its blockade",
-      "link": "https://taskandpurpose.com/news/us-hellfire-missile-blockade-gulf-oman/",
-      "published": "Sat, 30 May 2026 15:32:44 -0400",
-      "source": "Task & Purpose",
+      "title": "US military continues self-defense strikes against Iran, intercepts missiles",
+      "link": "https://www.militarytimes.com/news/your-navy/2026/06/01/us-military-continues-self-defense-strikes-against-iran-intercepts-missiles/",
+      "published": "Mon, 01 Jun 2026 15:06:50 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
+    },
+    {
+      "title": "US military seeks cultural advisors in Somalia amid regional strikes",
+      "link": "https://www.defensenews.com/news/your-military/2026/06/01/us-military-seeks-cultural-advisors-in-somalia-amid-regional-strikes/",
+      "published": "Mon, 01 Jun 2026 16:36:26 +0000",
+      "source": "Defense News",
       "categories": [
         "conflict"
       ]
@@ -888,18 +899,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 9,
-    "conflict_articles": 10,
+    "deployment_articles": 10,
+    "conflict_articles": 11,
     "exercise_articles": 1,
     "total_articles": 50,
-    "computed_at": "2026-06-01T14:43:14.692344+00:00",
+    "computed_at": "2026-06-01T19:48:38.160887+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
-      "[Defense News] China is building launch pads near its nuclear missile silos",
-      "[Defense News] How far is there to go until the US and Iran end the war?",
       "[Defense News] US Navy to explore powering shore installations with aircraft carriers",
-      "[Military Times] US Navy to explore powering shore installations with aircraft carriers",
-      "[Defense News] Nearly 500,000 Russian soldiers killed in Ukraine, top UK intel chief says"
+      "[Defense News] Nearly 500,000 Russian soldiers killed in Ukraine, top UK intel chief says",
+      "[Military Times] Nearly 500,000 Russian soldiers killed in Ukraine, top UK intel chief says",
+      "[Defense News] How Russia is turning Ukraine’s drones against NATO",
+      "[Naval News] Type 212CD: Germany and Norway ready to transfer submarines to Canada"
     ]
   },
   "ground_intel": {
@@ -910,12 +921,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-06-01T14:43:14.692386+00:00",
+    "last_successful_update": "2026-06-01T19:48:38.160931+00:00",
     "article_count": 50,
-    "categorized_count": 17,
+    "categorized_count": 18,
     "freshest_source": "Defense News",
-    "freshest_title": "China is building launch pads near its nuclear missile silos",
-    "freshest_published": "Fri, 29 May 2026 15:02:15 +0000"
+    "freshest_title": "US Navy to explore powering shore installations with aircraft carriers",
+    "freshest_published": "Fri, 29 May 2026 17:26:16 +0000"
   },
   "_firms_hotspots": []
 }
