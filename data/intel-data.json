@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-06-01T08:17:19Z",
-  "version": 1609,
-  "breaking_alert": "Defense News: Romania says Russian drone hit apartment block, NATO vows to defend alliance territory",
+  "generated_utc": "2026-06-01T14:43:20Z",
+  "version": 1610,
+  "breaking_alert": "Defense News: China is building launch pads near its nuclear missile silos",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -621,6 +621,25 @@
       ]
     },
     {
+      "title": "Type 212CD: Germany and Norway ready to transfer submarines to Canada",
+      "link": "https://www.navalnews.com/naval-news/2026/06/type-212cd-germany-and-norway-ready-to-transfer-submarines-to-canada/",
+      "published": "Mon, 01 Jun 2026 08:30:30 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Iranian missiles target U.S. base in Kuwait as both sides keep trading fire",
+      "link": "https://taskandpurpose.com/news/military-us-iran-strikes/",
+      "published": "Mon, 01 Jun 2026 10:26:54 -0400",
+      "source": "Task & Purpose",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
+    },
+    {
       "title": "F-35 pilots receive Distinguished Flying Crosses for Midnight Hammer, missions in Yemen",
       "link": "https://taskandpurpose.com/news/f-35-airmen-distinguished-flying-cross-midnight-hammer/",
       "published": "Sat, 30 May 2026 13:24:53 -0400",
@@ -838,6 +857,16 @@
       ]
     },
     {
+      "title": "Iranian missiles target U.S. base in Kuwait as both sides keep trading fire",
+      "link": "https://taskandpurpose.com/news/military-us-iran-strikes/",
+      "published": "Mon, 01 Jun 2026 10:26:54 -0400",
+      "source": "Task & Purpose",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
+    },
+    {
       "title": "US forces fire Hellfire missile to disable ship trying to break its blockade",
       "link": "https://taskandpurpose.com/news/us-hellfire-missile-blockade-gulf-oman/",
       "published": "Sat, 30 May 2026 15:32:44 -0400",
@@ -845,27 +874,9 @@
       "categories": [
         "conflict"
       ]
-    },
-    {
-      "title": "Death toll from US strikes on suspected drug boats passes 200",
-      "link": "https://taskandpurpose.com/news/us-boat-strikes-southern-spear-200/",
-      "published": "Sun, 31 May 2026 15:24:53 -0400",
-      "source": "Task & Purpose",
-      "categories": [
-        "conflict"
-      ]
     }
   ],
   "_exercise_news_refs": [
-    {
-      "title": "Romania says Russian drone hit apartment block, NATO vows to defend alliance territory",
-      "link": "https://www.defensenews.com/global/europe/2026/05/29/romania-says-russian-drone-hit-apartment-block-nato-vows-to-defend-alliance-territory/",
-      "published": "Fri, 29 May 2026 13:44:06 +0000",
-      "source": "Defense News",
-      "categories": [
-        "exercise"
-      ]
-    },
     {
       "title": "How Russia is turning Ukraine’s drones against NATO",
       "link": "https://www.defensenews.com/global/europe/2026/05/29/how-russia-is-turning-ukraines-drones-against-nato/",
@@ -877,18 +888,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 7,
-    "conflict_articles": 9,
-    "exercise_articles": 2,
+    "deployment_articles": 9,
+    "conflict_articles": 10,
+    "exercise_articles": 1,
     "total_articles": 50,
-    "computed_at": "2026-06-01T08:17:14.485199+00:00",
+    "computed_at": "2026-06-01T14:43:14.692344+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
-      "[Defense News] Romania says Russian drone hit apartment block, NATO vows to defend alliance territory",
       "[Defense News] China is building launch pads near its nuclear missile silos",
       "[Defense News] How far is there to go until the US and Iran end the war?",
       "[Defense News] US Navy to explore powering shore installations with aircraft carriers",
-      "[Military Times] US Navy to explore powering shore installations with aircraft carriers"
+      "[Military Times] US Navy to explore powering shore installations with aircraft carriers",
+      "[Defense News] Nearly 500,000 Russian soldiers killed in Ukraine, top UK intel chief says"
     ]
   },
   "ground_intel": {
@@ -899,12 +910,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-06-01T08:17:14.485240+00:00",
+    "last_successful_update": "2026-06-01T14:43:14.692386+00:00",
     "article_count": 50,
-    "categorized_count": 16,
+    "categorized_count": 17,
     "freshest_source": "Defense News",
-    "freshest_title": "Romania says Russian drone hit apartment block, NATO vows to defend alliance territory",
-    "freshest_published": "Fri, 29 May 2026 13:44:06 +0000"
+    "freshest_title": "China is building launch pads near its nuclear missile silos",
+    "freshest_published": "Fri, 29 May 2026 15:02:15 +0000"
   },
   "_firms_hotspots": []
 }
