@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-06-01T19:48:43Z",
-  "version": 1611,
-  "breaking_alert": "Defense News: US Navy to explore powering shore installations with aircraft carriers",
+  "generated_utc": "2026-06-01T22:27:16Z",
+  "version": 1612,
+  "breaking_alert": "Defense News: Nearly 500,000 Russian soldiers killed in Ukraine, top UK intel chief says",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -594,15 +594,6 @@
   ],
   "_naval_news_refs": [
     {
-      "title": "US Navy to explore powering shore installations with aircraft carriers",
-      "link": "https://www.defensenews.com/news/your-military/2026/05/29/us-navy-to-explore-powering-shore-installations-with-aircraft-carriers/",
-      "published": "Fri, 29 May 2026 17:26:16 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Type 212CD: Germany and Norway ready to transfer submarines to Canada",
       "link": "https://www.navalnews.com/naval-news/2026/06/type-212cd-germany-and-norway-ready-to-transfer-submarines-to-canada/",
       "published": "Mon, 01 Jun 2026 08:30:30 +0000",
@@ -665,26 +656,6 @@
       "source": "Naval News",
       "categories": [
         "deployment"
-      ]
-    },
-    {
-      "title": "Fighting between US and Iran continues amid ‘ceasefire’",
-      "link": "https://taskandpurpose.com/news/us-iran-ceasefire-2026/",
-      "published": "Thu, 28 May 2026 11:35:50 -0400",
-      "source": "Task & Purpose",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
-      "title": "South Korean Attack Boat Arrives in Canada Ahead of Submarine Program Decision",
-      "link": "https://news.usni.org/2026/05/28/south-korean-attack-boat-arrives-in-canada-ahead-of-submarine-program-decision",
-      "published": "Thu, 28 May 2026 15:45:22 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment",
-        "conflict"
       ]
     }
   ],
@@ -899,18 +870,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 10,
-    "conflict_articles": 11,
+    "deployment_articles": 7,
+    "conflict_articles": 9,
     "exercise_articles": 1,
     "total_articles": 50,
-    "computed_at": "2026-06-01T19:48:38.160887+00:00",
+    "computed_at": "2026-06-01T22:27:14.507932+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
-      "[Defense News] US Navy to explore powering shore installations with aircraft carriers",
       "[Defense News] Nearly 500,000 Russian soldiers killed in Ukraine, top UK intel chief says",
       "[Military Times] Nearly 500,000 Russian soldiers killed in Ukraine, top UK intel chief says",
       "[Defense News] How Russia is turning Ukraine’s drones against NATO",
-      "[Naval News] Type 212CD: Germany and Norway ready to transfer submarines to Canada"
+      "[Naval News] Type 212CD: Germany and Norway ready to transfer submarines to Canada",
+      "[Task & Purpose] Iranian missiles target U.S. base in Kuwait as both sides keep trading fire"
     ]
   },
   "ground_intel": {
@@ -921,12 +892,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-06-01T19:48:38.160931+00:00",
+    "last_successful_update": "2026-06-01T22:27:14.507979+00:00",
     "article_count": 50,
-    "categorized_count": 18,
+    "categorized_count": 15,
     "freshest_source": "Defense News",
-    "freshest_title": "US Navy to explore powering shore installations with aircraft carriers",
-    "freshest_published": "Fri, 29 May 2026 17:26:16 +0000"
+    "freshest_title": "Nearly 500,000 Russian soldiers killed in Ukraine, top UK intel chief says",
+    "freshest_published": "Fri, 29 May 2026 21:47:10 +0000"
   },
   "_firms_hotspots": []
 }
