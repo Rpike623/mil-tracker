@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-06-02T00:02:57Z",
-  "version": 1613,
+  "generated_utc": "2026-06-02T05:23:38Z",
+  "version": 1614,
   "breaking_alert": "Defense News: Nearly 500,000 Russian soldiers killed in Ukraine, top UK intel chief says",
   "naval_deployments": [
     {
@@ -874,7 +874,7 @@
     "conflict_articles": 9,
     "exercise_articles": 1,
     "total_articles": 50,
-    "computed_at": "2026-06-02T00:02:55.030702+00:00",
+    "computed_at": "2026-06-02T05:18:57.854726+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[Defense News] Nearly 500,000 Russian soldiers killed in Ukraine, top UK intel chief says",
@@ -892,7 +892,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-06-02T00:02:55.030749+00:00",
+    "last_successful_update": "2026-06-02T05:18:57.854771+00:00",
     "article_count": 50,
     "categorized_count": 15,
     "freshest_source": "Defense News",
