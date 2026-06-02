@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-06-02T13:45:37Z",
-  "version": 1616,
-  "breaking_alert": "Military Times: Nearly 500,000 Russian soldiers killed in Ukraine, top UK intel chief says",
+  "generated_utc": "2026-06-02T17:57:15Z",
+  "version": 1617,
+  "breaking_alert": "Naval News: Type 212CD: Germany and Norway ready to transfer submarines to Canada",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -613,16 +613,6 @@
       ]
     },
     {
-      "title": "US military continues self-defense strikes against Iran, intercepts missiles",
-      "link": "https://www.militarytimes.com/news/your-navy/2026/06/01/us-military-continues-self-defense-strikes-against-iran-intercepts-missiles/",
-      "published": "Mon, 01 Jun 2026 15:06:50 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
       "title": "USNI News Fleet and Marine Tracker: June 1, 2026",
       "link": "https://news.usni.org/2026/06/01/usni-news-fleet-and-marine-tracker-june-1-2026",
       "published": "Mon, 01 Jun 2026 17:16:11 +0000",
@@ -656,6 +646,35 @@
       "source": "Naval News",
       "categories": [
         "deployment"
+      ]
+    },
+    {
+      "title": "Navy researchers find wreck of World War II submarine that vanished 82 years ago",
+      "link": "https://taskandpurpose.com/history/world-war-ii-submarine-herring-wreck-found/",
+      "published": "Tue, 02 Jun 2026 10:30:00 -0400",
+      "source": "Task & Purpose",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "France restricts Israeli presence at Europe’s biggest defense show",
+      "link": "https://www.defensenews.com/global/europe/2026/06/02/france-restricts-israeli-presence-at-europes-biggest-defense-show/",
+      "published": "Tue, 02 Jun 2026 15:25:27 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Chinese Carrier Strike Group Conducts 170 Sorties During Drills in Philippine Sea",
+      "link": "https://news.usni.org/2026/06/02/chinese-carrier-strike-group-conducts-170-sorties-during-drills-in-philippine-sea",
+      "published": "Tue, 02 Jun 2026 16:00:00 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment",
+        "exercise",
+        "conflict"
       ]
     }
   ],
@@ -811,29 +830,10 @@
   },
   "_conflict_news_refs": [
     {
-      "title": "Nearly 500,000 Russian soldiers killed in Ukraine, top UK intel chief says",
-      "link": "https://www.militarytimes.com/global/europe/2026/05/29/nearly-500000-russian-soldiers-killed-in-ukraine-top-uk-intel-chief-says/",
-      "published": "Fri, 29 May 2026 21:47:10 +0000",
-      "source": "Military Times",
-      "categories": [
-        "conflict"
-      ]
-    },
-    {
       "title": "Iranian missiles target U.S. base in Kuwait as both sides keep trading fire",
       "link": "https://taskandpurpose.com/news/military-us-iran-strikes/",
       "published": "Mon, 01 Jun 2026 10:26:54 -0400",
       "source": "Task & Purpose",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
-      "title": "US military continues self-defense strikes against Iran, intercepts missiles",
-      "link": "https://www.militarytimes.com/news/your-navy/2026/06/01/us-military-continues-self-defense-strikes-against-iran-intercepts-missiles/",
-      "published": "Mon, 01 Jun 2026 15:06:50 +0000",
-      "source": "Military Times",
       "categories": [
         "deployment",
         "conflict"
@@ -849,10 +849,28 @@
       ]
     },
     {
-      "title": "US military seeks cultural advisors in Somalia amid regional strikes",
-      "link": "https://www.militarytimes.com/news/your-military/2026/06/01/us-military-seeks-cultural-advisors-in-somalia-amid-regional-strikes/",
-      "published": "Mon, 01 Jun 2026 16:36:26 +0000",
-      "source": "Military Times",
+      "title": "At Least 200 People Killed in U.S. Strikes on Suspected Drug Boats",
+      "link": "https://news.usni.org/2026/06/01/at-least-200-people-killed-in-u-s-strikes-on-suspected-drug-boats",
+      "published": "Mon, 01 Jun 2026 19:54:28 +0000",
+      "source": "USNI News",
+      "categories": [
+        "conflict"
+      ]
+    },
+    {
+      "title": "US forces fire Hellfire missile to disable ship trying to break its blockade",
+      "link": "https://taskandpurpose.com/news/us-hellfire-missile-blockade-gulf-oman/",
+      "published": "Sat, 30 May 2026 15:32:44 -0400",
+      "source": "Task & Purpose",
+      "categories": [
+        "conflict"
+      ]
+    },
+    {
+      "title": "Death toll from US strikes on suspected drug boats passes 200",
+      "link": "https://taskandpurpose.com/news/us-boat-strikes-southern-spear-200/",
+      "published": "Sun, 31 May 2026 15:24:53 -0400",
+      "source": "Task & Purpose",
       "categories": [
         "conflict"
       ]
@@ -876,21 +894,41 @@
       "categories": [
         "exercise"
       ]
+    },
+    {
+      "title": "US, NATO allies to launch scaled-back Baltic Sea drills",
+      "link": "https://www.defensenews.com/global/europe/2026/06/02/us-nato-allies-to-launch-scaled-back-baltic-sea-drills/",
+      "published": "Tue, 02 Jun 2026 14:51:22 +0000",
+      "source": "Defense News",
+      "categories": [
+        "exercise"
+      ]
+    },
+    {
+      "title": "Chinese Carrier Strike Group Conducts 170 Sorties During Drills in Philippine Sea",
+      "link": "https://news.usni.org/2026/06/02/chinese-carrier-strike-group-conducts-170-sorties-during-drills-in-philippine-sea",
+      "published": "Tue, 02 Jun 2026 16:00:00 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment",
+        "exercise",
+        "conflict"
+      ]
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 7,
-    "conflict_articles": 8,
-    "exercise_articles": 2,
+    "deployment_articles": 9,
+    "conflict_articles": 6,
+    "exercise_articles": 4,
     "total_articles": 50,
-    "computed_at": "2026-06-02T13:45:33.972718+00:00",
-    "manual_override": "DEFCON_2",
+    "computed_at": "2026-06-02T17:57:09.346188+00:00",
+    "manual_override": "DEFCON_3",
     "breaking_events": [
-      "[Military Times] Nearly 500,000 Russian soldiers killed in Ukraine, top UK intel chief says",
       "[Naval News] Type 212CD: Germany and Norway ready to transfer submarines to Canada",
       "[Task & Purpose] Iranian missiles target U.S. base in Kuwait as both sides keep trading fire",
-      "[Military Times] US military continues self-defense strikes against Iran, intercepts missiles",
-      "[Defense News] US military seeks cultural advisors in Somalia amid regional strikes"
+      "[Defense News] US military seeks cultural advisors in Somalia amid regional strikes",
+      "[USNI News] USNI News Fleet and Marine Tracker: June 1, 2026",
+      "[Defense News] South Korea goes full steam ahead on nuclear-powered submarines"
     ]
   },
   "ground_intel": {
@@ -901,12 +939,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-06-02T13:45:33.972761+00:00",
+    "last_successful_update": "2026-06-02T17:57:09.346216+00:00",
     "article_count": 50,
-    "categorized_count": 15,
-    "freshest_source": "Military Times",
-    "freshest_title": "Nearly 500,000 Russian soldiers killed in Ukraine, top UK intel chief says",
-    "freshest_published": "Fri, 29 May 2026 21:47:10 +0000"
+    "categorized_count": 16,
+    "freshest_source": "Naval News",
+    "freshest_title": "Type 212CD: Germany and Norway ready to transfer submarines to Canada",
+    "freshest_published": "Mon, 01 Jun 2026 08:30:30 +0000"
   },
   "_firms_hotspots": []
 }
