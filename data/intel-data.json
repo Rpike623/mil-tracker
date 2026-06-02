@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-06-02T05:23:38Z",
-  "version": 1614,
-  "breaking_alert": "Defense News: Nearly 500,000 Russian soldiers killed in Ukraine, top UK intel chief says",
+  "generated_utc": "2026-06-02T09:55:50Z",
+  "version": 1615,
+  "breaking_alert": "Military Times: Nearly 500,000 Russian soldiers killed in Ukraine, top UK intel chief says",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -812,15 +812,6 @@
   "_conflict_news_refs": [
     {
       "title": "Nearly 500,000 Russian soldiers killed in Ukraine, top UK intel chief says",
-      "link": "https://www.defensenews.com/global/europe/2026/05/29/nearly-500000-russian-soldiers-killed-in-ukraine-top-uk-intel-chief-says/",
-      "published": "Fri, 29 May 2026 21:47:10 +0000",
-      "source": "Defense News",
-      "categories": [
-        "conflict"
-      ]
-    },
-    {
-      "title": "Nearly 500,000 Russian soldiers killed in Ukraine, top UK intel chief says",
       "link": "https://www.militarytimes.com/global/europe/2026/05/29/nearly-500000-russian-soldiers-killed-in-ukraine-top-uk-intel-chief-says/",
       "published": "Fri, 29 May 2026 21:47:10 +0000",
       "source": "Military Times",
@@ -856,6 +847,15 @@
       "categories": [
         "conflict"
       ]
+    },
+    {
+      "title": "US military seeks cultural advisors in Somalia amid regional strikes",
+      "link": "https://www.militarytimes.com/news/your-military/2026/06/01/us-military-seeks-cultural-advisors-in-somalia-amid-regional-strikes/",
+      "published": "Mon, 01 Jun 2026 16:36:26 +0000",
+      "source": "Military Times",
+      "categories": [
+        "conflict"
+      ]
     }
   ],
   "_exercise_news_refs": [
@@ -867,21 +867,39 @@
       "categories": [
         "exercise"
       ]
+    },
+    {
+      "title": "NATO in Hormuz is not mission creep",
+      "link": "https://www.defensenews.com/opinion/2026/06/02/nato-in-hormuz-is-not-mission-creep/",
+      "published": "Tue, 02 Jun 2026 09:40:04 +0000",
+      "source": "Defense News",
+      "categories": [
+        "exercise"
+      ]
+    },
+    {
+      "title": "NATO in Hormuz is not mission creep",
+      "link": "https://www.militarytimes.com/opinion/2026/06/02/nato-in-hormuz-is-not-mission-creep/",
+      "published": "Tue, 02 Jun 2026 09:40:04 +0000",
+      "source": "Military Times",
+      "categories": [
+        "exercise"
+      ]
     }
   ],
   "_threat_indicators": {
     "deployment_articles": 7,
-    "conflict_articles": 9,
-    "exercise_articles": 1,
+    "conflict_articles": 8,
+    "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-06-02T05:18:57.854726+00:00",
+    "computed_at": "2026-06-02T09:55:44.934580+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
-      "[Defense News] Nearly 500,000 Russian soldiers killed in Ukraine, top UK intel chief says",
       "[Military Times] Nearly 500,000 Russian soldiers killed in Ukraine, top UK intel chief says",
       "[Defense News] How Russia is turning Ukraine’s drones against NATO",
       "[Naval News] Type 212CD: Germany and Norway ready to transfer submarines to Canada",
-      "[Task & Purpose] Iranian missiles target U.S. base in Kuwait as both sides keep trading fire"
+      "[Task & Purpose] Iranian missiles target U.S. base in Kuwait as both sides keep trading fire",
+      "[Military Times] US military continues self-defense strikes against Iran, intercepts missiles"
     ]
   },
   "ground_intel": {
@@ -892,10 +910,10 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-06-02T05:18:57.854771+00:00",
+    "last_successful_update": "2026-06-02T09:55:44.934625+00:00",
     "article_count": 50,
-    "categorized_count": 15,
-    "freshest_source": "Defense News",
+    "categorized_count": 16,
+    "freshest_source": "Military Times",
     "freshest_title": "Nearly 500,000 Russian soldiers killed in Ukraine, top UK intel chief says",
     "freshest_published": "Fri, 29 May 2026 21:47:10 +0000"
   },
