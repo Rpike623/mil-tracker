@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-06-02T09:55:50Z",
-  "version": 1615,
+  "generated_utc": "2026-06-02T13:45:37Z",
+  "version": 1616,
   "breaking_alert": "Military Times: Nearly 500,000 Russian soldiers killed in Ukraine, top UK intel chief says",
   "naval_deployments": [
     {
@@ -860,15 +860,6 @@
   ],
   "_exercise_news_refs": [
     {
-      "title": "How Russia is turning Ukraine’s drones against NATO",
-      "link": "https://www.defensenews.com/global/europe/2026/05/29/how-russia-is-turning-ukraines-drones-against-nato/",
-      "published": "Fri, 29 May 2026 23:36:27 +0000",
-      "source": "Defense News",
-      "categories": [
-        "exercise"
-      ]
-    },
-    {
       "title": "NATO in Hormuz is not mission creep",
       "link": "https://www.defensenews.com/opinion/2026/06/02/nato-in-hormuz-is-not-mission-creep/",
       "published": "Tue, 02 Jun 2026 09:40:04 +0000",
@@ -890,16 +881,16 @@
   "_threat_indicators": {
     "deployment_articles": 7,
     "conflict_articles": 8,
-    "exercise_articles": 3,
+    "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-06-02T09:55:44.934580+00:00",
+    "computed_at": "2026-06-02T13:45:33.972718+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[Military Times] Nearly 500,000 Russian soldiers killed in Ukraine, top UK intel chief says",
-      "[Defense News] How Russia is turning Ukraine’s drones against NATO",
       "[Naval News] Type 212CD: Germany and Norway ready to transfer submarines to Canada",
       "[Task & Purpose] Iranian missiles target U.S. base in Kuwait as both sides keep trading fire",
-      "[Military Times] US military continues self-defense strikes against Iran, intercepts missiles"
+      "[Military Times] US military continues self-defense strikes against Iran, intercepts missiles",
+      "[Defense News] US military seeks cultural advisors in Somalia amid regional strikes"
     ]
   },
   "ground_intel": {
@@ -910,9 +901,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-06-02T09:55:44.934625+00:00",
+    "last_successful_update": "2026-06-02T13:45:33.972761+00:00",
     "article_count": 50,
-    "categorized_count": 16,
+    "categorized_count": 15,
     "freshest_source": "Military Times",
     "freshest_title": "Nearly 500,000 Russian soldiers killed in Ukraine, top UK intel chief says",
     "freshest_published": "Fri, 29 May 2026 21:47:10 +0000"
