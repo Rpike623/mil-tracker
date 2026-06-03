@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-06-02T22:52:36Z",
-  "version": 1619,
+  "generated_utc": "2026-06-03T00:21:21Z",
+  "version": 1620,
   "breaking_alert": "Naval News: Type 212CD: Germany and Norway ready to transfer submarines to Canada",
   "naval_deployments": [
     {
@@ -849,15 +849,6 @@
       ]
     },
     {
-      "title": "US military seeks cultural advisors in Somalia amid regional strikes",
-      "link": "https://www.defensenews.com/news/your-military/2026/06/01/us-military-seeks-cultural-advisors-in-somalia-amid-regional-strikes/",
-      "published": "Mon, 01 Jun 2026 16:36:26 +0000",
-      "source": "Defense News",
-      "categories": [
-        "conflict"
-      ]
-    },
-    {
       "title": "At Least 200 People Killed in U.S. Strikes on Suspected Drug Boats",
       "link": "https://news.usni.org/2026/06/01/at-least-200-people-killed-in-u-s-strikes-on-suspected-drug-boats",
       "published": "Mon, 01 Jun 2026 19:54:28 +0000",
@@ -883,6 +874,17 @@
       "categories": [
         "conflict"
       ]
+    },
+    {
+      "title": "Chinese Carrier Strike Group Conducts 170 Sorties During Drills in Philippine Sea",
+      "link": "https://news.usni.org/2026/06/02/chinese-carrier-strike-group-conducts-170-sorties-during-drills-in-philippine-sea",
+      "published": "Tue, 02 Jun 2026 16:00:00 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment",
+        "exercise",
+        "conflict"
+      ]
     }
   ],
   "_exercise_news_refs": [
@@ -891,15 +893,6 @@
       "link": "https://www.defensenews.com/opinion/2026/06/02/nato-in-hormuz-is-not-mission-creep/",
       "published": "Tue, 02 Jun 2026 09:40:04 +0000",
       "source": "Defense News",
-      "categories": [
-        "exercise"
-      ]
-    },
-    {
-      "title": "NATO in Hormuz is not mission creep",
-      "link": "https://www.militarytimes.com/opinion/2026/06/02/nato-in-hormuz-is-not-mission-creep/",
-      "published": "Tue, 02 Jun 2026 09:40:04 +0000",
-      "source": "Military Times",
       "categories": [
         "exercise"
       ]
@@ -926,18 +919,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 11,
-    "conflict_articles": 7,
-    "exercise_articles": 4,
+    "deployment_articles": 12,
+    "conflict_articles": 6,
+    "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-06-02T22:52:34.673003+00:00",
+    "computed_at": "2026-06-03T00:21:19.995193+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] Type 212CD: Germany and Norway ready to transfer submarines to Canada",
       "[Task & Purpose] Iranian missiles target U.S. base in Kuwait as both sides keep trading fire",
-      "[Defense News] US military seeks cultural advisors in Somalia amid regional strikes",
       "[USNI News] USNI News Fleet and Marine Tracker: June 1, 2026",
-      "[Defense News] South Korea goes full steam ahead on nuclear-powered submarines"
+      "[Defense News] South Korea goes full steam ahead on nuclear-powered submarines",
+      "[USNI News] At Least 200 People Killed in U.S. Strikes on Suspected Drug Boats"
     ]
   },
   "ground_intel": {
@@ -948,9 +941,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-06-02T22:52:34.673048+00:00",
+    "last_successful_update": "2026-06-03T00:21:19.995237+00:00",
     "article_count": 50,
-    "categorized_count": 18,
+    "categorized_count": 17,
     "freshest_source": "Naval News",
     "freshest_title": "Type 212CD: Germany and Norway ready to transfer submarines to Canada",
     "freshest_published": "Mon, 01 Jun 2026 08:30:30 +0000"
