@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-06-03T15:27:05Z",
-  "version": 1623,
+  "generated_utc": "2026-06-03T19:38:51Z",
+  "version": 1624,
   "breaking_alert": "Naval News: Type 212CD: Germany and Norway ready to transfer submarines to Canada",
   "naval_deployments": [
     {
@@ -859,15 +859,6 @@
       ]
     },
     {
-      "title": "Death toll from US strikes on suspected drug boats passes 200",
-      "link": "https://taskandpurpose.com/news/us-boat-strikes-southern-spear-200/",
-      "published": "Sun, 31 May 2026 15:24:53 -0400",
-      "source": "Task & Purpose",
-      "categories": [
-        "conflict"
-      ]
-    },
-    {
       "title": "Chinese Carrier Strike Group Conducts 170 Sorties During Drills in Philippine Sea",
       "link": "https://news.usni.org/2026/06/02/chinese-carrier-strike-group-conducts-170-sorties-during-drills-in-philippine-sea",
       "published": "Tue, 02 Jun 2026 16:00:00 +0000",
@@ -887,18 +878,18 @@
         "deployment",
         "conflict"
       ]
+    },
+    {
+      "title": "Army consolidates air and missile defense roles into new MOS",
+      "link": "https://www.militarytimes.com/news/your-military/2026/06/03/army-consolidates-air-and-missile-defense-roles-into-new-mos/",
+      "published": "Wed, 03 Jun 2026 12:31:59 +0000",
+      "source": "Military Times",
+      "categories": [
+        "conflict"
+      ]
     }
   ],
   "_exercise_news_refs": [
-    {
-      "title": "NATO in Hormuz is not mission creep",
-      "link": "https://www.defensenews.com/opinion/2026/06/02/nato-in-hormuz-is-not-mission-creep/",
-      "published": "Tue, 02 Jun 2026 09:40:04 +0000",
-      "source": "Defense News",
-      "categories": [
-        "exercise"
-      ]
-    },
     {
       "title": "US, NATO allies to launch scaled-back Baltic Sea drills",
       "link": "https://www.defensenews.com/global/europe/2026/06/02/us-nato-allies-to-launch-scaled-back-baltic-sea-drills/",
@@ -927,21 +918,41 @@
       "categories": [
         "exercise"
       ]
+    },
+    {
+      "title": "US tells Europe, Canada to boost NATO air and naval forces",
+      "link": "https://www.defensenews.com/global/europe/2026/06/03/us-tells-europe-canada-to-boost-nato-air-and-naval-forces/",
+      "published": "Wed, 03 Jun 2026 15:55:26 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment",
+        "exercise"
+      ]
+    },
+    {
+      "title": "US tells Europe, Canada to boost NATO air and naval forces",
+      "link": "https://www.militarytimes.com/global/europe/2026/06/03/us-tells-europe-canada-to-boost-nato-air-and-naval-forces/",
+      "published": "Wed, 03 Jun 2026 15:55:26 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment",
+        "exercise"
+      ]
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 13,
-    "conflict_articles": 8,
-    "exercise_articles": 4,
+    "deployment_articles": 16,
+    "conflict_articles": 10,
+    "exercise_articles": 5,
     "total_articles": 50,
-    "computed_at": "2026-06-03T15:22:24.712402+00:00",
+    "computed_at": "2026-06-03T19:38:48.111573+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[Naval News] Type 212CD: Germany and Norway ready to transfer submarines to Canada",
       "[Task & Purpose] Iranian missiles target U.S. base in Kuwait as both sides keep trading fire",
       "[USNI News] USNI News Fleet and Marine Tracker: June 1, 2026",
       "[USNI News] At Least 200 People Killed in U.S. Strikes on Suspected Drug Boats",
-      "[Task & Purpose] Death toll from US strikes on suspected drug boats passes 200"
+      "[Task & Purpose] Navy researchers find wreck of World War II submarine that vanished 82 years ago"
     ]
   },
   "ground_intel": {
@@ -952,9 +963,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-06-03T15:22:24.712450+00:00",
+    "last_successful_update": "2026-06-03T19:38:48.111614+00:00",
     "article_count": 50,
-    "categorized_count": 19,
+    "categorized_count": 23,
     "freshest_source": "Naval News",
     "freshest_title": "Type 212CD: Germany and Norway ready to transfer submarines to Canada",
     "freshest_published": "Mon, 01 Jun 2026 08:30:30 +0000"
