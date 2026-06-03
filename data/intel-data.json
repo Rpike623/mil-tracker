@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-06-03T05:52:27Z",
-  "version": 1621,
+  "generated_utc": "2026-06-03T10:27:26Z",
+  "version": 1622,
   "breaking_alert": "Naval News: Type 212CD: Germany and Norway ready to transfer submarines to Canada",
   "naval_deployments": [
     {
@@ -631,24 +631,6 @@
       ]
     },
     {
-      "title": "F-35 pilots receive Distinguished Flying Crosses for Midnight Hammer, missions in Yemen",
-      "link": "https://taskandpurpose.com/news/f-35-airmen-distinguished-flying-cross-midnight-hammer/",
-      "published": "Sat, 30 May 2026 13:24:53 -0400",
-      "source": "Task & Purpose",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "AUKUS Partners Announce Changes To Submarine Agreement, Launch Joint Development For Underwater Drone Payloads",
-      "link": "https://www.navalnews.com/naval-news/2026/05/aukus-partners-announce-changes-to-submarine-agreement-launch-joint-development-for-underwater-drone-payloads/",
-      "published": "Sun, 31 May 2026 20:40:24 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Navy researchers find wreck of World War II submarine that vanished 82 years ago",
       "link": "https://taskandpurpose.com/history/world-war-ii-submarine-herring-wreck-found/",
       "published": "Tue, 02 Jun 2026 10:30:00 -0400",
@@ -678,10 +660,29 @@
       ]
     },
     {
-      "title": "RNZN outlines fleet renewal priorities at CNE 2026",
+      "title": "Royal New Zealand Navy outlines fleet renewal priorities",
       "link": "https://www.navalnews.com/event-news/cne-2026/2026/06/rnzn-outlines-fleet-renewal-priorities-at-cne-2026/",
       "published": "Tue, 02 Jun 2026 20:59:42 +0000",
       "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Rubio faces lawmakers as Iran ceasefire hangs in the balance",
+      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/06/02/rubio-faces-lawmakers-as-iran-ceasefire-hangs-in-the-balance/",
+      "published": "Tue, 02 Jun 2026 21:25:27 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
+    },
+    {
+      "title": "National Guard’s DC deployment has had no ‘measurable effect’ on violent crime: Report",
+      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/06/02/national-guards-dc-deployment-has-had-no-measurable-effect-on-violent-crime-report/",
+      "published": "Tue, 02 Jun 2026 23:59:29 +0000",
+      "source": "Military Times",
       "categories": [
         "deployment"
       ]
@@ -923,7 +924,7 @@
     "conflict_articles": 6,
     "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-06-03T05:52:21.705236+00:00",
+    "computed_at": "2026-06-03T10:27:24.144696+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] Type 212CD: Germany and Norway ready to transfer submarines to Canada",
@@ -941,7 +942,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-06-03T05:52:21.705279+00:00",
+    "last_successful_update": "2026-06-03T10:27:24.144739+00:00",
     "article_count": 50,
     "categorized_count": 17,
     "freshest_source": "Naval News",
