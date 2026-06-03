@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-06-03T19:38:51Z",
-  "version": 1624,
+  "generated_utc": "2026-06-03T22:20:11Z",
+  "version": 1625,
   "breaking_alert": "Naval News: Type 212CD: Germany and Norway ready to transfer submarines to Canada",
   "naval_deployments": [
     {
@@ -613,15 +613,6 @@
       ]
     },
     {
-      "title": "USNI News Fleet and Marine Tracker: June 1, 2026",
-      "link": "https://news.usni.org/2026/06/01/usni-news-fleet-and-marine-tracker-june-1-2026",
-      "published": "Mon, 01 Jun 2026 17:16:11 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Navy researchers find wreck of World War II submarine that vanished 82 years ago",
       "link": "https://taskandpurpose.com/history/world-war-ii-submarine-herring-wreck-found/",
       "published": "Tue, 02 Jun 2026 10:30:00 -0400",
@@ -660,31 +651,41 @@
       ]
     },
     {
-      "title": "Rubio faces lawmakers as Iran ceasefire hangs in the balance",
-      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/06/02/rubio-faces-lawmakers-as-iran-ceasefire-hangs-in-the-balance/",
-      "published": "Tue, 02 Jun 2026 21:25:27 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
-      "title": "National Guard’s DC deployment has had no ‘measurable effect’ on violent crime: Report",
-      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/06/02/national-guards-dc-deployment-has-had-no-measurable-effect-on-violent-crime-report/",
-      "published": "Tue, 02 Jun 2026 23:59:29 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "HD Hyundai Heavy Industries Partners with Greece’s Maritime Power for Naval Defense",
       "link": "https://www.navalnews.com/naval-news/2026/06/hd-hyundai-heavy-industries-partners-with-greeces-maritime-power-for-naval-defense/",
       "published": "Wed, 03 Jun 2026 07:42:09 +0000",
       "source": "Naval News",
       "categories": [
         "deployment"
+      ]
+    },
+    {
+      "title": "New Mystery Submarine Signals China’s Rapid Undersea Expansion",
+      "link": "https://www.navalnews.com/naval-news/2026/06/new-mystery-submarine-signals-chinas-rapid-undersea-expansion/",
+      "published": "Wed, 03 Jun 2026 09:17:15 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Gulf tensions escalate as Iran hits Kuwait, US strikes near Hormuz",
+      "link": "https://www.defensenews.com/news/your-military/2026/06/03/gulf-tensions-escalate-as-iran-hits-kuwait-us-strikes-near-hormuz/",
+      "published": "Wed, 03 Jun 2026 15:09:44 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
+    },
+    {
+      "title": "US tells Europe, Canada to boost NATO air and naval forces",
+      "link": "https://www.defensenews.com/global/europe/2026/06/03/us-tells-europe-canada-to-boost-nato-air-and-naval-forces/",
+      "published": "Wed, 03 Jun 2026 15:55:26 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment",
+        "exercise"
       ]
     }
   ],
@@ -870,20 +871,20 @@
       ]
     },
     {
-      "title": "Rubio faces lawmakers as Iran ceasefire hangs in the balance",
-      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/06/02/rubio-faces-lawmakers-as-iran-ceasefire-hangs-in-the-balance/",
-      "published": "Tue, 02 Jun 2026 21:25:27 +0000",
-      "source": "Military Times",
+      "title": "Gulf tensions escalate as Iran hits Kuwait, US strikes near Hormuz",
+      "link": "https://www.defensenews.com/news/your-military/2026/06/03/gulf-tensions-escalate-as-iran-hits-kuwait-us-strikes-near-hormuz/",
+      "published": "Wed, 03 Jun 2026 15:09:44 +0000",
+      "source": "Defense News",
       "categories": [
         "deployment",
         "conflict"
       ]
     },
     {
-      "title": "Army consolidates air and missile defense roles into new MOS",
-      "link": "https://www.militarytimes.com/news/your-military/2026/06/03/army-consolidates-air-and-missile-defense-roles-into-new-mos/",
-      "published": "Wed, 03 Jun 2026 12:31:59 +0000",
-      "source": "Military Times",
+      "title": "Lockheed’s GRIZZLY C-UAS system downs attack drone in live-fire demo",
+      "link": "https://www.defensenews.com/news/your-military/2026/06/03/lockheeds-grizzly-c-uas-system-downs-attack-drone-in-live-fire-demo/",
+      "published": "Wed, 03 Jun 2026 15:34:13 +0000",
+      "source": "Defense News",
       "categories": [
         "conflict"
       ]
@@ -941,18 +942,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 16,
-    "conflict_articles": 10,
+    "deployment_articles": 13,
+    "conflict_articles": 7,
     "exercise_articles": 5,
     "total_articles": 50,
-    "computed_at": "2026-06-03T19:38:48.111573+00:00",
-    "manual_override": "DEFCON_2",
+    "computed_at": "2026-06-03T22:20:09.616937+00:00",
+    "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] Type 212CD: Germany and Norway ready to transfer submarines to Canada",
       "[Task & Purpose] Iranian missiles target U.S. base in Kuwait as both sides keep trading fire",
-      "[USNI News] USNI News Fleet and Marine Tracker: June 1, 2026",
       "[USNI News] At Least 200 People Killed in U.S. Strikes on Suspected Drug Boats",
-      "[Task & Purpose] Navy researchers find wreck of World War II submarine that vanished 82 years ago"
+      "[Task & Purpose] Navy researchers find wreck of World War II submarine that vanished 82 years ago",
+      "[Defense News] US, NATO allies to launch scaled-back Baltic Sea drills"
     ]
   },
   "ground_intel": {
@@ -963,9 +964,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-06-03T19:38:48.111614+00:00",
+    "last_successful_update": "2026-06-03T22:20:09.616983+00:00",
     "article_count": 50,
-    "categorized_count": 23,
+    "categorized_count": 19,
     "freshest_source": "Naval News",
     "freshest_title": "Type 212CD: Germany and Norway ready to transfer submarines to Canada",
     "freshest_published": "Mon, 01 Jun 2026 08:30:30 +0000"
