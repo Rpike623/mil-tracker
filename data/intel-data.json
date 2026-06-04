@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-06-04T05:30:05Z",
-  "version": 1627,
-  "breaking_alert": "Naval News: Type 212CD: Germany and Norway ready to transfer submarines to Canada",
+  "generated_utc": "2026-06-04T09:38:14Z",
+  "version": 1628,
+  "breaking_alert": "Task & Purpose: Iranian missiles target U.S. base in Kuwait as both sides keep trading fire",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -594,15 +594,6 @@
   ],
   "_naval_news_refs": [
     {
-      "title": "Type 212CD: Germany and Norway ready to transfer submarines to Canada",
-      "link": "https://www.navalnews.com/naval-news/2026/06/type-212cd-germany-and-norway-ready-to-transfer-submarines-to-canada/",
-      "published": "Mon, 01 Jun 2026 08:30:30 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Iranian missiles target U.S. base in Kuwait as both sides keep trading fire",
       "link": "https://taskandpurpose.com/news/military-us-iran-strikes/",
       "published": "Mon, 01 Jun 2026 10:26:54 -0400",
@@ -685,6 +676,16 @@
       "categories": [
         "deployment",
         "conflict"
+      ]
+    },
+    {
+      "title": "US tells Europe, Canada to boost NATO air and naval forces",
+      "link": "https://www.defensenews.com/global/europe/2026/06/03/us-tells-europe-canada-to-boost-nato-air-and-naval-forces/",
+      "published": "Wed, 03 Jun 2026 15:55:26 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment",
+        "exercise"
       ]
     }
   ],
@@ -859,6 +860,15 @@
       ]
     },
     {
+      "title": "Ukrainian drones strike Russian corvette RFS Boiky near Saint Petersburg",
+      "link": "https://www.navalnews.com/naval-news/2026/06/ukrainian-drones-strike-russian-corvette-rfs-boiky-near-saint-petersburg/",
+      "published": "Thu, 04 Jun 2026 08:29:05 +0000",
+      "source": "Naval News",
+      "categories": [
+        "conflict"
+      ]
+    },
+    {
       "title": "Chinese Carrier Strike Group Conducts 170 Sorties During Drills in Philippine Sea",
       "link": "https://news.usni.org/2026/06/02/chinese-carrier-strike-group-conducts-170-sorties-during-drills-in-philippine-sea",
       "published": "Tue, 02 Jun 2026 16:00:00 +0000",
@@ -876,15 +886,6 @@
       "source": "Defense News",
       "categories": [
         "deployment",
-        "conflict"
-      ]
-    },
-    {
-      "title": "Lockheed’s GRIZZLY C-UAS system downs attack drone in live-fire demo",
-      "link": "https://www.defensenews.com/news/your-military/2026/06/03/lockheeds-grizzly-c-uas-system-downs-attack-drone-in-live-fire-demo/",
-      "published": "Wed, 03 Jun 2026 15:34:13 +0000",
-      "source": "Defense News",
-      "categories": [
         "conflict"
       ]
     }
@@ -941,17 +942,17 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 14,
-    "conflict_articles": 6,
+    "deployment_articles": 13,
+    "conflict_articles": 7,
     "exercise_articles": 5,
     "total_articles": 50,
-    "computed_at": "2026-06-04T05:30:03.307369+00:00",
+    "computed_at": "2026-06-04T09:38:08.811569+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
-      "[Naval News] Type 212CD: Germany and Norway ready to transfer submarines to Canada",
       "[Task & Purpose] Iranian missiles target U.S. base in Kuwait as both sides keep trading fire",
       "[USNI News] At Least 200 People Killed in U.S. Strikes on Suspected Drug Boats",
       "[Military Times] Army identifies soldier who died in training accident in Iraq",
+      "[Naval News] Ukrainian drones strike Russian corvette RFS Boiky near Saint Petersburg",
       "[Task & Purpose] Navy researchers find wreck of World War II submarine that vanished 82 years ago"
     ]
   },
@@ -963,12 +964,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-06-04T05:30:03.307415+00:00",
+    "last_successful_update": "2026-06-04T09:38:08.811622+00:00",
     "article_count": 50,
     "categorized_count": 19,
-    "freshest_source": "Naval News",
-    "freshest_title": "Type 212CD: Germany and Norway ready to transfer submarines to Canada",
-    "freshest_published": "Mon, 01 Jun 2026 08:30:30 +0000"
+    "freshest_source": "Task & Purpose",
+    "freshest_title": "Iranian missiles target U.S. base in Kuwait as both sides keep trading fire",
+    "freshest_published": "Mon, 01 Jun 2026 10:26:54 -0400"
   },
   "_firms_hotspots": []
 }
