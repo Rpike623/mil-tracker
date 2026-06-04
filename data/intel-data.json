@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-06-04T12:34:35Z",
-  "version": 1629,
+  "generated_utc": "2026-06-04T16:14:19Z",
+  "version": 1630,
   "breaking_alert": "USNI News: At Least 200 People Killed in U.S. Strikes on Suspected Drug Boats",
   "naval_deployments": [
     {
@@ -603,19 +603,46 @@
       ]
     },
     {
-      "title": "Navy researchers find wreck of World War II submarine that vanished 82 years ago",
-      "link": "https://taskandpurpose.com/history/world-war-ii-submarine-herring-wreck-found/",
-      "published": "Tue, 02 Jun 2026 10:30:00 -0400",
-      "source": "Task & Purpose",
+      "title": "Hidden chemical weapons sites emerge in Syria amid fragile security transition",
+      "link": "https://www.defensenews.com/global/mideast-africa/2026/06/04/hidden-chemical-weapons-sites-emerge-in-syria-amid-fragile-security-transition/",
+      "published": "Thu, 04 Jun 2026 15:02:01 +0000",
+      "source": "Defense News",
       "categories": [
         "deployment"
       ]
     },
     {
-      "title": "France restricts Israeli presence at Europe’s biggest defense show",
-      "link": "https://www.defensenews.com/global/europe/2026/06/02/france-restricts-israeli-presence-at-europes-biggest-defense-show/",
-      "published": "Tue, 02 Jun 2026 15:25:27 +0000",
-      "source": "Defense News",
+      "title": "Hidden chemical weapons sites emerge in Syria amid fragile security transition",
+      "link": "https://www.militarytimes.com/global/mideast-africa/2026/06/04/hidden-chemical-weapons-sites-emerge-in-syria-amid-fragile-security-transition/",
+      "published": "Thu, 04 Jun 2026 15:02:01 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Navy recognizes USS Carl Vinson with Battle ‘E’ award",
+      "link": "https://www.militarytimes.com/news/your-navy/2026/06/04/navy-recognizes-uss-carl-vinson-with-battle-e-award/",
+      "published": "Thu, 04 Jun 2026 15:22:34 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Task Force Ashland Returns to California from 4-month Indo-Pacific Deployment",
+      "link": "https://news.usni.org/2026/06/04/task-force-ashland-returns-to-california-from-4-month-indo-pacific-deployment",
+      "published": "Thu, 04 Jun 2026 15:50:44 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Navy researchers find wreck of World War II submarine that vanished 82 years ago",
+      "link": "https://taskandpurpose.com/history/world-war-ii-submarine-herring-wreck-found/",
+      "published": "Tue, 02 Jun 2026 10:30:00 -0400",
+      "source": "Task & Purpose",
       "categories": [
         "deployment"
       ]
@@ -656,36 +683,6 @@
       "source": "Naval News",
       "categories": [
         "deployment"
-      ]
-    },
-    {
-      "title": "Gulf tensions escalate as Iran hits Kuwait, US strikes near Hormuz",
-      "link": "https://www.defensenews.com/news/your-military/2026/06/03/gulf-tensions-escalate-as-iran-hits-kuwait-us-strikes-near-hormuz/",
-      "published": "Wed, 03 Jun 2026 15:09:44 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
-      "title": "US tells Europe, Canada to boost NATO air and naval forces",
-      "link": "https://www.defensenews.com/global/europe/2026/06/03/us-tells-europe-canada-to-boost-nato-air-and-naval-forces/",
-      "published": "Wed, 03 Jun 2026 15:55:26 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment",
-        "exercise"
-      ]
-    },
-    {
-      "title": "US tells Europe, Canada to boost NATO air and naval forces",
-      "link": "https://www.militarytimes.com/global/europe/2026/06/03/us-tells-europe-canada-to-boost-nato-air-and-naval-forces/",
-      "published": "Wed, 03 Jun 2026 15:55:26 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment",
-        "exercise"
       ]
     }
   ],
@@ -919,31 +916,21 @@
         "deployment",
         "exercise"
       ]
-    },
-    {
-      "title": "US tells Europe, Canada to boost NATO air and naval forces",
-      "link": "https://www.militarytimes.com/global/europe/2026/06/03/us-tells-europe-canada-to-boost-nato-air-and-naval-forces/",
-      "published": "Wed, 03 Jun 2026 15:55:26 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment",
-        "exercise"
-      ]
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 12,
+    "deployment_articles": 13,
     "conflict_articles": 6,
-    "exercise_articles": 4,
+    "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-06-04T12:34:29.514049+00:00",
+    "computed_at": "2026-06-04T16:14:12.224214+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[USNI News] At Least 200 People Killed in U.S. Strikes on Suspected Drug Boats",
       "[Military Times] Army identifies soldier who died in training accident in Iraq",
       "[Naval News] Ukrainian drones strike Russian corvette RFS Boiky near Saint Petersburg",
-      "[Task & Purpose] Navy researchers find wreck of World War II submarine that vanished 82 years ago",
-      "[Defense News] France restricts Israeli presence at Europe’s biggest defense show"
+      "[Defense News] Hidden chemical weapons sites emerge in Syria amid fragile security transition",
+      "[Military Times] Hidden chemical weapons sites emerge in Syria amid fragile security transition"
     ]
   },
   "ground_intel": {
@@ -954,9 +941,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-06-04T12:34:29.514094+00:00",
+    "last_successful_update": "2026-06-04T16:14:12.224256+00:00",
     "article_count": 50,
-    "categorized_count": 17,
+    "categorized_count": 18,
     "freshest_source": "USNI News",
     "freshest_title": "At Least 200 People Killed in U.S. Strikes on Suspected Drug Boats",
     "freshest_published": "Mon, 01 Jun 2026 19:54:28 +0000"
