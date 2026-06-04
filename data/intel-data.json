@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-06-03T22:20:11Z",
-  "version": 1625,
+  "generated_utc": "2026-06-04T00:23:04Z",
+  "version": 1626,
   "breaking_alert": "Naval News: Type 212CD: Germany and Norway ready to transfer submarines to Canada",
   "naval_deployments": [
     {
@@ -946,7 +946,7 @@
     "conflict_articles": 7,
     "exercise_articles": 5,
     "total_articles": 50,
-    "computed_at": "2026-06-03T22:20:09.616937+00:00",
+    "computed_at": "2026-06-04T00:23:02.522073+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] Type 212CD: Germany and Norway ready to transfer submarines to Canada",
@@ -964,7 +964,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-06-03T22:20:09.616983+00:00",
+    "last_successful_update": "2026-06-04T00:23:02.522119+00:00",
     "article_count": 50,
     "categorized_count": 19,
     "freshest_source": "Naval News",
