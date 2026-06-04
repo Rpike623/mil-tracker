@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-06-04T19:10:11Z",
-  "version": 1631,
+  "generated_utc": "2026-06-04T21:19:54Z",
+  "version": 1632,
   "breaking_alert": "Military Times: Army identifies soldier who died in training accident in Iraq",
   "naval_deployments": [
     {
@@ -888,6 +888,15 @@
   ],
   "_exercise_news_refs": [
     {
+      "title": "Army’s plan for military death row executions is named ‘Operation Resolute Justice’",
+      "link": "https://taskandpurpose.com/news/military-prisoners-death-row/",
+      "published": "Thu, 04 Jun 2026 16:58:30 -0400",
+      "source": "Task & Purpose",
+      "categories": [
+        "exercise"
+      ]
+    },
+    {
       "title": "Chinese Carrier Strike Group Conducts 170 Sorties During Drills in Philippine Sea",
       "link": "https://news.usni.org/2026/06/02/chinese-carrier-strike-group-conducts-170-sorties-during-drills-in-philippine-sea",
       "published": "Tue, 02 Jun 2026 16:00:00 +0000",
@@ -921,9 +930,9 @@
   "_threat_indicators": {
     "deployment_articles": 13,
     "conflict_articles": 6,
-    "exercise_articles": 3,
+    "exercise_articles": 4,
     "total_articles": 50,
-    "computed_at": "2026-06-04T19:10:05.719177+00:00",
+    "computed_at": "2026-06-04T21:19:47.255067+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Military Times] Army identifies soldier who died in training accident in Iraq",
@@ -941,9 +950,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-06-04T19:10:05.719226+00:00",
+    "last_successful_update": "2026-06-04T21:19:47.255109+00:00",
     "article_count": 50,
-    "categorized_count": 18,
+    "categorized_count": 19,
     "freshest_source": "Military Times",
     "freshest_title": "Army identifies soldier who died in training accident in Iraq",
     "freshest_published": "Thu, 04 Jun 2026 01:36:20 +0000"
