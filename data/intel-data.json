@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-06-04T09:38:14Z",
-  "version": 1628,
-  "breaking_alert": "Task & Purpose: Iranian missiles target U.S. base in Kuwait as both sides keep trading fire",
+  "generated_utc": "2026-06-04T12:34:35Z",
+  "version": 1629,
+  "breaking_alert": "USNI News: At Least 200 People Killed in U.S. Strikes on Suspected Drug Boats",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -594,16 +594,6 @@
   ],
   "_naval_news_refs": [
     {
-      "title": "Iranian missiles target U.S. base in Kuwait as both sides keep trading fire",
-      "link": "https://taskandpurpose.com/news/military-us-iran-strikes/",
-      "published": "Mon, 01 Jun 2026 10:26:54 -0400",
-      "source": "Task & Purpose",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
       "title": "Army identifies soldier who died in training accident in Iraq",
       "link": "https://www.militarytimes.com/news/your-military/2026/06/04/army-identifies-soldier-who-died-in-training-accident-in-iraq/",
       "published": "Thu, 04 Jun 2026 01:36:20 +0000",
@@ -683,6 +673,16 @@
       "link": "https://www.defensenews.com/global/europe/2026/06/03/us-tells-europe-canada-to-boost-nato-air-and-naval-forces/",
       "published": "Wed, 03 Jun 2026 15:55:26 +0000",
       "source": "Defense News",
+      "categories": [
+        "deployment",
+        "exercise"
+      ]
+    },
+    {
+      "title": "US tells Europe, Canada to boost NATO air and naval forces",
+      "link": "https://www.militarytimes.com/global/europe/2026/06/03/us-tells-europe-canada-to-boost-nato-air-and-naval-forces/",
+      "published": "Wed, 03 Jun 2026 15:55:26 +0000",
+      "source": "Military Times",
       "categories": [
         "deployment",
         "exercise"
@@ -841,16 +841,6 @@
   },
   "_conflict_news_refs": [
     {
-      "title": "Iranian missiles target U.S. base in Kuwait as both sides keep trading fire",
-      "link": "https://taskandpurpose.com/news/military-us-iran-strikes/",
-      "published": "Mon, 01 Jun 2026 10:26:54 -0400",
-      "source": "Task & Purpose",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
       "title": "At Least 200 People Killed in U.S. Strikes on Suspected Drug Boats",
       "link": "https://news.usni.org/2026/06/01/at-least-200-people-killed-in-u-s-strikes-on-suspected-drug-boats",
       "published": "Mon, 01 Jun 2026 19:54:28 +0000",
@@ -888,18 +878,18 @@
         "deployment",
         "conflict"
       ]
+    },
+    {
+      "title": "Lockheed’s GRIZZLY C-UAS system downs attack drone in live-fire demo",
+      "link": "https://www.defensenews.com/news/your-military/2026/06/03/lockheeds-grizzly-c-uas-system-downs-attack-drone-in-live-fire-demo/",
+      "published": "Wed, 03 Jun 2026 15:34:13 +0000",
+      "source": "Defense News",
+      "categories": [
+        "conflict"
+      ]
     }
   ],
   "_exercise_news_refs": [
-    {
-      "title": "US, NATO allies to launch scaled-back Baltic Sea drills",
-      "link": "https://www.defensenews.com/global/europe/2026/06/02/us-nato-allies-to-launch-scaled-back-baltic-sea-drills/",
-      "published": "Tue, 02 Jun 2026 14:51:22 +0000",
-      "source": "Defense News",
-      "categories": [
-        "exercise"
-      ]
-    },
     {
       "title": "Chinese Carrier Strike Group Conducts 170 Sorties During Drills in Philippine Sea",
       "link": "https://news.usni.org/2026/06/02/chinese-carrier-strike-group-conducts-170-sorties-during-drills-in-philippine-sea",
@@ -942,18 +932,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 13,
-    "conflict_articles": 7,
-    "exercise_articles": 5,
+    "deployment_articles": 12,
+    "conflict_articles": 6,
+    "exercise_articles": 4,
     "total_articles": 50,
-    "computed_at": "2026-06-04T09:38:08.811569+00:00",
+    "computed_at": "2026-06-04T12:34:29.514049+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
-      "[Task & Purpose] Iranian missiles target U.S. base in Kuwait as both sides keep trading fire",
       "[USNI News] At Least 200 People Killed in U.S. Strikes on Suspected Drug Boats",
       "[Military Times] Army identifies soldier who died in training accident in Iraq",
       "[Naval News] Ukrainian drones strike Russian corvette RFS Boiky near Saint Petersburg",
-      "[Task & Purpose] Navy researchers find wreck of World War II submarine that vanished 82 years ago"
+      "[Task & Purpose] Navy researchers find wreck of World War II submarine that vanished 82 years ago",
+      "[Defense News] France restricts Israeli presence at Europe’s biggest defense show"
     ]
   },
   "ground_intel": {
@@ -964,12 +954,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-06-04T09:38:08.811622+00:00",
+    "last_successful_update": "2026-06-04T12:34:29.514094+00:00",
     "article_count": 50,
-    "categorized_count": 19,
-    "freshest_source": "Task & Purpose",
-    "freshest_title": "Iranian missiles target U.S. base in Kuwait as both sides keep trading fire",
-    "freshest_published": "Mon, 01 Jun 2026 10:26:54 -0400"
+    "categorized_count": 17,
+    "freshest_source": "USNI News",
+    "freshest_title": "At Least 200 People Killed in U.S. Strikes on Suspected Drug Boats",
+    "freshest_published": "Mon, 01 Jun 2026 19:54:28 +0000"
   },
   "_firms_hotspots": []
 }
