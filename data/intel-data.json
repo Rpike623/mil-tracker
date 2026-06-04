@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-06-04T16:14:19Z",
-  "version": 1630,
-  "breaking_alert": "USNI News: At Least 200 People Killed in U.S. Strikes on Suspected Drug Boats",
+  "generated_utc": "2026-06-04T19:10:11Z",
+  "version": 1631,
+  "breaking_alert": "Military Times: Army identifies soldier who died in training accident in Iraq",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -838,19 +838,19 @@
   },
   "_conflict_news_refs": [
     {
-      "title": "At Least 200 People Killed in U.S. Strikes on Suspected Drug Boats",
-      "link": "https://news.usni.org/2026/06/01/at-least-200-people-killed-in-u-s-strikes-on-suspected-drug-boats",
-      "published": "Mon, 01 Jun 2026 19:54:28 +0000",
-      "source": "USNI News",
+      "title": "Ukrainian drones strike Russian corvette RFS Boiky near Saint Petersburg",
+      "link": "https://www.navalnews.com/naval-news/2026/06/ukrainian-drones-strike-russian-corvette-rfs-boiky-near-saint-petersburg/",
+      "published": "Thu, 04 Jun 2026 08:29:05 +0000",
+      "source": "Naval News",
       "categories": [
         "conflict"
       ]
     },
     {
-      "title": "Ukrainian drones strike Russian corvette RFS Boiky near Saint Petersburg",
-      "link": "https://www.navalnews.com/naval-news/2026/06/ukrainian-drones-strike-russian-corvette-rfs-boiky-near-saint-petersburg/",
-      "published": "Thu, 04 Jun 2026 08:29:05 +0000",
-      "source": "Naval News",
+      "title": "Two Men Killed in Strike On Suspected Drug Boat, First in June",
+      "link": "https://news.usni.org/2026/06/04/two-men-killed-in-strike-on-suspected-drug-boat-first-in-june",
+      "published": "Thu, 04 Jun 2026 18:37:30 +0000",
+      "source": "USNI News",
       "categories": [
         "conflict"
       ]
@@ -923,14 +923,14 @@
     "conflict_articles": 6,
     "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-06-04T16:14:12.224214+00:00",
+    "computed_at": "2026-06-04T19:10:05.719177+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
-      "[USNI News] At Least 200 People Killed in U.S. Strikes on Suspected Drug Boats",
       "[Military Times] Army identifies soldier who died in training accident in Iraq",
       "[Naval News] Ukrainian drones strike Russian corvette RFS Boiky near Saint Petersburg",
       "[Defense News] Hidden chemical weapons sites emerge in Syria amid fragile security transition",
-      "[Military Times] Hidden chemical weapons sites emerge in Syria amid fragile security transition"
+      "[Military Times] Hidden chemical weapons sites emerge in Syria amid fragile security transition",
+      "[Military Times] Navy recognizes USS Carl Vinson with Battle ‘E’ award"
     ]
   },
   "ground_intel": {
@@ -941,12 +941,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-06-04T16:14:12.224256+00:00",
+    "last_successful_update": "2026-06-04T19:10:05.719226+00:00",
     "article_count": 50,
     "categorized_count": 18,
-    "freshest_source": "USNI News",
-    "freshest_title": "At Least 200 People Killed in U.S. Strikes on Suspected Drug Boats",
-    "freshest_published": "Mon, 01 Jun 2026 19:54:28 +0000"
+    "freshest_source": "Military Times",
+    "freshest_title": "Army identifies soldier who died in training accident in Iraq",
+    "freshest_published": "Thu, 04 Jun 2026 01:36:20 +0000"
   },
   "_firms_hotspots": []
 }
