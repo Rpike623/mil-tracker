@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-06-04T00:23:04Z",
-  "version": 1626,
+  "generated_utc": "2026-06-04T05:30:05Z",
+  "version": 1627,
   "breaking_alert": "Naval News: Type 212CD: Germany and Norway ready to transfer submarines to Canada",
   "naval_deployments": [
     {
@@ -613,6 +613,15 @@
       ]
     },
     {
+      "title": "Army identifies soldier who died in training accident in Iraq",
+      "link": "https://www.militarytimes.com/news/your-military/2026/06/04/army-identifies-soldier-who-died-in-training-accident-in-iraq/",
+      "published": "Thu, 04 Jun 2026 01:36:20 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "Navy researchers find wreck of World War II submarine that vanished 82 years ago",
       "link": "https://taskandpurpose.com/history/world-war-ii-submarine-herring-wreck-found/",
       "published": "Tue, 02 Jun 2026 10:30:00 -0400",
@@ -676,16 +685,6 @@
       "categories": [
         "deployment",
         "conflict"
-      ]
-    },
-    {
-      "title": "US tells Europe, Canada to boost NATO air and naval forces",
-      "link": "https://www.defensenews.com/global/europe/2026/06/03/us-tells-europe-canada-to-boost-nato-air-and-naval-forces/",
-      "published": "Wed, 03 Jun 2026 15:55:26 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment",
-        "exercise"
       ]
     }
   ],
@@ -942,18 +941,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 13,
-    "conflict_articles": 7,
+    "deployment_articles": 14,
+    "conflict_articles": 6,
     "exercise_articles": 5,
     "total_articles": 50,
-    "computed_at": "2026-06-04T00:23:02.522073+00:00",
+    "computed_at": "2026-06-04T05:30:03.307369+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] Type 212CD: Germany and Norway ready to transfer submarines to Canada",
       "[Task & Purpose] Iranian missiles target U.S. base in Kuwait as both sides keep trading fire",
       "[USNI News] At Least 200 People Killed in U.S. Strikes on Suspected Drug Boats",
-      "[Task & Purpose] Navy researchers find wreck of World War II submarine that vanished 82 years ago",
-      "[Defense News] US, NATO allies to launch scaled-back Baltic Sea drills"
+      "[Military Times] Army identifies soldier who died in training accident in Iraq",
+      "[Task & Purpose] Navy researchers find wreck of World War II submarine that vanished 82 years ago"
     ]
   },
   "ground_intel": {
@@ -964,7 +963,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-06-04T00:23:02.522119+00:00",
+    "last_successful_update": "2026-06-04T05:30:03.307415+00:00",
     "article_count": 50,
     "categorized_count": 19,
     "freshest_source": "Naval News",
