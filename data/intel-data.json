@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-06-05T05:06:24Z",
-  "version": 1635,
-  "breaking_alert": "Military Times: Army identifies soldier who died in training accident in Iraq",
+  "generated_utc": "2026-06-05T08:59:31Z",
+  "version": 1636,
+  "breaking_alert": "Naval News: Japan is developing a new unmanned AAV which will bring MUM-T to Amphibious Operations",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -888,6 +888,15 @@
   ],
   "_exercise_news_refs": [
     {
+      "title": "Japan is developing a new unmanned AAV which will bring MUM-T to Amphibious Operations",
+      "link": "https://www.navalnews.com/naval-news/2026/06/japan-is-developing-a-new-unmanned-aav-which-will-bring-mum-t-to-amphibious-operations/",
+      "published": "Fri, 05 Jun 2026 07:48:48 +0000",
+      "source": "Naval News",
+      "categories": [
+        "exercise"
+      ]
+    },
+    {
       "title": "Army’s plan for military death row executions is named ‘Operation Resolute Justice’",
       "link": "https://taskandpurpose.com/news/military-prisoners-death-row/",
       "published": "Thu, 04 Jun 2026 16:58:30 -0400",
@@ -930,16 +939,16 @@
   "_threat_indicators": {
     "deployment_articles": 14,
     "conflict_articles": 6,
-    "exercise_articles": 4,
+    "exercise_articles": 5,
     "total_articles": 50,
-    "computed_at": "2026-06-05T05:06:16.657220+00:00",
+    "computed_at": "2026-06-05T08:59:28.258753+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
+      "[Naval News] Japan is developing a new unmanned AAV which will bring MUM-T to Amphibious Operations",
       "[Military Times] Army identifies soldier who died in training accident in Iraq",
       "[Naval News] Ukrainian drones strike Russian corvette RFS Boiky near Saint Petersburg",
       "[Defense News] Hidden chemical weapons sites emerge in Syria amid fragile security transition",
-      "[Military Times] Hidden chemical weapons sites emerge in Syria amid fragile security transition",
-      "[Military Times] Navy recognizes USS Carl Vinson with Battle ‘E’ award"
+      "[Military Times] Hidden chemical weapons sites emerge in Syria amid fragile security transition"
     ]
   },
   "ground_intel": {
@@ -950,12 +959,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-06-05T05:06:16.657266+00:00",
+    "last_successful_update": "2026-06-05T08:59:28.258800+00:00",
     "article_count": 50,
-    "categorized_count": 20,
-    "freshest_source": "Military Times",
-    "freshest_title": "Army identifies soldier who died in training accident in Iraq",
-    "freshest_published": "Thu, 04 Jun 2026 01:36:20 +0000"
+    "categorized_count": 21,
+    "freshest_source": "Naval News",
+    "freshest_title": "Japan is developing a new unmanned AAV which will bring MUM-T to Amphibious Operations",
+    "freshest_published": "Fri, 05 Jun 2026 07:48:48 +0000"
   },
   "_firms_hotspots": []
 }
