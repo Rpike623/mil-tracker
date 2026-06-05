@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-06-05T12:07:16Z",
-  "version": 1637,
+  "generated_utc": "2026-06-05T15:45:09Z",
+  "version": 1638,
   "breaking_alert": "Naval News: Japan is developing a new unmanned AAV which will bring MUM-T to Amphibious Operations",
   "naval_deployments": [
     {
@@ -594,10 +594,10 @@
   ],
   "_naval_news_refs": [
     {
-      "title": "Army identifies soldier who died in training accident in Iraq",
-      "link": "https://www.militarytimes.com/news/your-military/2026/06/04/army-identifies-soldier-who-died-in-training-accident-in-iraq/",
-      "published": "Thu, 04 Jun 2026 01:36:20 +0000",
-      "source": "Military Times",
+      "title": "Royal Navy progresses towards Project Vanquish demo from aircraft carrier",
+      "link": "https://www.navalnews.com/event-news/cne-2026/2026/06/royal-navy-progresses-towards-fixed-wing-acp-demonstration-from-aircraft-carrier/",
+      "published": "Fri, 05 Jun 2026 12:44:44 +0000",
+      "source": "Naval News",
       "categories": [
         "deployment"
       ]
@@ -607,24 +607,6 @@
       "link": "https://www.defensenews.com/global/mideast-africa/2026/06/04/hidden-chemical-weapons-sites-emerge-in-syria-amid-fragile-security-transition/",
       "published": "Thu, 04 Jun 2026 15:02:01 +0000",
       "source": "Defense News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Hidden chemical weapons sites emerge in Syria amid fragile security transition",
-      "link": "https://www.militarytimes.com/global/mideast-africa/2026/06/04/hidden-chemical-weapons-sites-emerge-in-syria-amid-fragile-security-transition/",
-      "published": "Thu, 04 Jun 2026 15:02:01 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Navy recognizes USS Carl Vinson with Battle ‘E’ award",
-      "link": "https://www.militarytimes.com/news/your-navy/2026/06/04/navy-recognizes-uss-carl-vinson-with-battle-e-award/",
-      "published": "Thu, 04 Jun 2026 15:22:34 +0000",
-      "source": "Military Times",
       "categories": [
         "deployment"
       ]
@@ -668,19 +650,38 @@
       ]
     },
     {
-      "title": "Royal New Zealand Navy outlines fleet renewal priorities",
-      "link": "https://www.navalnews.com/event-news/cne-2026/2026/06/rnzn-outlines-fleet-renewal-priorities-at-cne-2026/",
-      "published": "Tue, 02 Jun 2026 20:59:42 +0000",
+      "title": "HD Hyundai Heavy Industries Partners with Greece’s Maritime Power for Naval Defense",
+      "link": "https://www.navalnews.com/naval-news/2026/06/hd-hyundai-heavy-industries-partners-with-greeces-maritime-power-for-naval-defense/",
+      "published": "Wed, 03 Jun 2026 07:42:09 +0000",
       "source": "Naval News",
       "categories": [
         "deployment"
       ]
     },
     {
-      "title": "HD Hyundai Heavy Industries Partners with Greece’s Maritime Power for Naval Defense",
-      "link": "https://www.navalnews.com/naval-news/2026/06/hd-hyundai-heavy-industries-partners-with-greeces-maritime-power-for-naval-defense/",
-      "published": "Wed, 03 Jun 2026 07:42:09 +0000",
+      "title": "New Mystery Submarine Signals China’s Rapid Undersea Expansion",
+      "link": "https://www.navalnews.com/naval-news/2026/06/new-mystery-submarine-signals-chinas-rapid-undersea-expansion/",
+      "published": "Wed, 03 Jun 2026 09:17:15 +0000",
       "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "US tells Europe, Canada to boost NATO air and naval forces",
+      "link": "https://www.defensenews.com/global/europe/2026/06/03/us-tells-europe-canada-to-boost-nato-air-and-naval-forces/",
+      "published": "Wed, 03 Jun 2026 15:55:26 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment",
+        "exercise"
+      ]
+    },
+    {
+      "title": "Philippines Progresses Japanese Destroyer Transfer Talks, Receives American Cutter at Shangri-La",
+      "link": "https://news.usni.org/2026/06/03/philippines-progresses-japanese-destroyer-transfer-talks-receives-american-cutter-at-shangri-la",
+      "published": "Wed, 03 Jun 2026 21:14:47 +0000",
+      "source": "USNI News",
       "categories": [
         "deployment"
       ]
@@ -838,6 +839,24 @@
   },
   "_conflict_news_refs": [
     {
+      "title": "The US Army wants thousands of air defense missiles to replace the Stinger",
+      "link": "https://www.defensenews.com/industry/techwatch/2026/06/05/the-us-army-wants-thousands-of-air-defense-missiles-to-replace-the-stinger/",
+      "published": "Fri, 05 Jun 2026 12:10:45 +0000",
+      "source": "Defense News",
+      "categories": [
+        "conflict"
+      ]
+    },
+    {
+      "title": "The US Army wants thousands of air defense missiles to replace the Stinger",
+      "link": "https://www.militarytimes.com/industry/techwatch/2026/06/05/the-us-army-wants-thousands-of-air-defense-missiles-to-replace-the-stinger/",
+      "published": "Fri, 05 Jun 2026 12:10:45 +0000",
+      "source": "Military Times",
+      "categories": [
+        "conflict"
+      ]
+    },
+    {
       "title": "Ukrainian drones strike Russian corvette RFS Boiky near Saint Petersburg",
       "link": "https://www.navalnews.com/naval-news/2026/06/ukrainian-drones-strike-russian-corvette-rfs-boiky-near-saint-petersburg/",
       "published": "Thu, 04 Jun 2026 08:29:05 +0000",
@@ -863,25 +882,6 @@
       "categories": [
         "deployment",
         "exercise",
-        "conflict"
-      ]
-    },
-    {
-      "title": "Gulf tensions escalate as Iran hits Kuwait, US strikes near Hormuz",
-      "link": "https://www.defensenews.com/news/your-military/2026/06/03/gulf-tensions-escalate-as-iran-hits-kuwait-us-strikes-near-hormuz/",
-      "published": "Wed, 03 Jun 2026 15:09:44 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
-      "title": "Lockheed’s GRIZZLY C-UAS system downs attack drone in live-fire demo",
-      "link": "https://www.defensenews.com/news/your-military/2026/06/03/lockheeds-grizzly-c-uas-system-downs-attack-drone-in-live-fire-demo/",
-      "published": "Wed, 03 Jun 2026 15:34:13 +0000",
-      "source": "Defense News",
-      "categories": [
         "conflict"
       ]
     }
@@ -917,15 +917,6 @@
       ]
     },
     {
-      "title": "At a NATO range in Latvia, hits and misses mark Europe’s counter-drone journey",
-      "link": "https://www.defensenews.com/global/europe/2026/06/03/at-a-nato-range-in-latvia-hits-and-misses-mark-europes-counter-drone-journey/",
-      "published": "Wed, 03 Jun 2026 11:33:30 +0000",
-      "source": "Defense News",
-      "categories": [
-        "exercise"
-      ]
-    },
-    {
       "title": "US tells Europe, Canada to boost NATO air and naval forces",
       "link": "https://www.defensenews.com/global/europe/2026/06/03/us-tells-europe-canada-to-boost-nato-air-and-naval-forces/",
       "published": "Wed, 03 Jun 2026 15:55:26 +0000",
@@ -937,18 +928,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 14,
-    "conflict_articles": 6,
-    "exercise_articles": 5,
+    "deployment_articles": 10,
+    "conflict_articles": 7,
+    "exercise_articles": 4,
     "total_articles": 50,
-    "computed_at": "2026-06-05T12:07:14.786223+00:00",
+    "computed_at": "2026-06-05T15:45:07.154035+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] Japan is developing a new unmanned AAV which will bring MUM-T to Amphibious Operations",
-      "[Military Times] Army identifies soldier who died in training accident in Iraq",
-      "[Naval News] Ukrainian drones strike Russian corvette RFS Boiky near Saint Petersburg",
-      "[Defense News] Hidden chemical weapons sites emerge in Syria amid fragile security transition",
-      "[Military Times] Hidden chemical weapons sites emerge in Syria amid fragile security transition"
+      "[Defense News] The US Army wants thousands of air defense missiles to replace the Stinger",
+      "[Military Times] The US Army wants thousands of air defense missiles to replace the Stinger",
+      "[Naval News] Royal Navy progresses towards Project Vanquish demo from aircraft carrier",
+      "[Naval News] Ukrainian drones strike Russian corvette RFS Boiky near Saint Petersburg"
     ]
   },
   "ground_intel": {
@@ -959,9 +950,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-06-05T12:07:14.786268+00:00",
+    "last_successful_update": "2026-06-05T15:45:07.154080+00:00",
     "article_count": 50,
-    "categorized_count": 21,
+    "categorized_count": 18,
     "freshest_source": "Naval News",
     "freshest_title": "Japan is developing a new unmanned AAV which will bring MUM-T to Amphibious Operations",
     "freshest_published": "Fri, 05 Jun 2026 07:48:48 +0000"
