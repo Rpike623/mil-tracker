@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-06-05T00:02:17Z",
-  "version": 1634,
+  "generated_utc": "2026-06-05T05:06:24Z",
+  "version": 1635,
   "breaking_alert": "Military Times: Army identifies soldier who died in training accident in Iraq",
   "naval_deployments": [
     {
@@ -932,7 +932,7 @@
     "conflict_articles": 6,
     "exercise_articles": 4,
     "total_articles": 50,
-    "computed_at": "2026-06-05T00:02:11.147901+00:00",
+    "computed_at": "2026-06-05T05:06:16.657220+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Military Times] Army identifies soldier who died in training accident in Iraq",
@@ -950,7 +950,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-06-05T00:02:11.147948+00:00",
+    "last_successful_update": "2026-06-05T05:06:16.657266+00:00",
     "article_count": 50,
     "categorized_count": 20,
     "freshest_source": "Military Times",
