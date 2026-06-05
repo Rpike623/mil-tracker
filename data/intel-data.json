@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-06-05T17:43:35Z",
-  "version": 1639,
+  "generated_utc": "2026-06-05T19:30:40Z",
+  "version": 1640,
   "breaking_alert": "Naval News: Japan is developing a new unmanned AAV which will bring MUM-T to Amphibious Operations",
   "naval_deployments": [
     {
@@ -639,17 +639,6 @@
       ]
     },
     {
-      "title": "Chinese Carrier Strike Group Conducts 170 Sorties During Drills in Philippine Sea",
-      "link": "https://news.usni.org/2026/06/02/chinese-carrier-strike-group-conducts-170-sorties-during-drills-in-philippine-sea",
-      "published": "Tue, 02 Jun 2026 16:00:00 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment",
-        "exercise",
-        "conflict"
-      ]
-    },
-    {
       "title": "HD Hyundai Heavy Industries Partners with Greece’s Maritime Power for Naval Defense",
       "link": "https://www.navalnews.com/naval-news/2026/06/hd-hyundai-heavy-industries-partners-with-greeces-maritime-power-for-naval-defense/",
       "published": "Wed, 03 Jun 2026 07:42:09 +0000",
@@ -857,6 +846,15 @@
       ]
     },
     {
+      "title": "Ottawa Wants Future Canadian Army HIMARS to Deploy Long-range Anti-ship Missiles",
+      "link": "https://news.usni.org/2026/06/05/ottawa-wants-future-canadian-army-himars-to-deploy-long-range-anti-ship-missiles",
+      "published": "Fri, 05 Jun 2026 19:22:23 +0000",
+      "source": "USNI News",
+      "categories": [
+        "conflict"
+      ]
+    },
+    {
       "title": "Ukrainian drones strike Russian corvette RFS Boiky near Saint Petersburg",
       "link": "https://www.navalnews.com/naval-news/2026/06/ukrainian-drones-strike-russian-corvette-rfs-boiky-near-saint-petersburg/",
       "published": "Thu, 04 Jun 2026 08:29:05 +0000",
@@ -871,17 +869,6 @@
       "published": "Thu, 04 Jun 2026 18:37:30 +0000",
       "source": "USNI News",
       "categories": [
-        "conflict"
-      ]
-    },
-    {
-      "title": "Chinese Carrier Strike Group Conducts 170 Sorties During Drills in Philippine Sea",
-      "link": "https://news.usni.org/2026/06/02/chinese-carrier-strike-group-conducts-170-sorties-during-drills-in-philippine-sea",
-      "published": "Tue, 02 Jun 2026 16:00:00 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment",
-        "exercise",
         "conflict"
       ]
     }
@@ -906,17 +893,6 @@
       ]
     },
     {
-      "title": "Chinese Carrier Strike Group Conducts 170 Sorties During Drills in Philippine Sea",
-      "link": "https://news.usni.org/2026/06/02/chinese-carrier-strike-group-conducts-170-sorties-during-drills-in-philippine-sea",
-      "published": "Tue, 02 Jun 2026 16:00:00 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment",
-        "exercise",
-        "conflict"
-      ]
-    },
-    {
       "title": "US tells Europe, Canada to boost NATO air and naval forces",
       "link": "https://www.defensenews.com/global/europe/2026/06/03/us-tells-europe-canada-to-boost-nato-air-and-naval-forces/",
       "published": "Wed, 03 Jun 2026 15:55:26 +0000",
@@ -928,11 +904,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 10,
+    "deployment_articles": 9,
     "conflict_articles": 7,
-    "exercise_articles": 4,
+    "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-06-05T17:43:33.257208+00:00",
+    "computed_at": "2026-06-05T19:25:59.199159+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] Japan is developing a new unmanned AAV which will bring MUM-T to Amphibious Operations",
@@ -950,7 +926,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-06-05T17:43:33.257254+00:00",
+    "last_successful_update": "2026-06-05T19:25:59.199203+00:00",
     "article_count": 50,
     "categorized_count": 18,
     "freshest_source": "Naval News",
