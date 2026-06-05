@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-06-05T19:30:40Z",
-  "version": 1640,
+  "generated_utc": "2026-06-05T21:13:36Z",
+  "version": 1641,
   "breaking_alert": "Naval News: Japan is developing a new unmanned AAV which will bring MUM-T to Amphibious Operations",
   "naval_deployments": [
     {
@@ -612,6 +612,15 @@
       ]
     },
     {
+      "title": "Indonesia Eyes JMSDF Asagiri-Class Destroyers as Japan Tailors Warship Transfers to Southeast Asian Partners",
+      "link": "https://www.navalnews.com/naval-news/2026/06/indonesia-eyes-jmsdf-asagiri-class-destroyers-as-japan-tailors-warship-transfers-to-southeast-asian-partners/",
+      "published": "Fri, 05 Jun 2026 20:03:00 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "Hidden chemical weapons sites emerge in Syria amid fragile security transition",
       "link": "https://www.defensenews.com/global/mideast-africa/2026/06/04/hidden-chemical-weapons-sites-emerge-in-syria-amid-fragile-security-transition/",
       "published": "Thu, 04 Jun 2026 15:02:01 +0000",
@@ -625,24 +634,6 @@
       "link": "https://news.usni.org/2026/06/04/task-force-ashland-returns-to-california-from-4-month-indo-pacific-deployment",
       "published": "Thu, 04 Jun 2026 15:50:44 +0000",
       "source": "USNI News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "The US needs drones, not Trump-class battleships, Democrats argue",
-      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/06/04/the-us-needs-drones-not-trump-class-battleships-democrats-argue/",
-      "published": "Thu, 04 Jun 2026 23:19:21 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "HD Hyundai Heavy Industries Partners with Greece’s Maritime Power for Naval Defense",
-      "link": "https://www.navalnews.com/naval-news/2026/06/hd-hyundai-heavy-industries-partners-with-greeces-maritime-power-for-naval-defense/",
-      "published": "Wed, 03 Jun 2026 07:42:09 +0000",
-      "source": "Naval News",
       "categories": [
         "deployment"
       ]
@@ -837,15 +828,6 @@
       ]
     },
     {
-      "title": "The US Army wants thousands of air defense missiles to replace the Stinger",
-      "link": "https://www.militarytimes.com/industry/techwatch/2026/06/05/the-us-army-wants-thousands-of-air-defense-missiles-to-replace-the-stinger/",
-      "published": "Fri, 05 Jun 2026 12:10:45 +0000",
-      "source": "Military Times",
-      "categories": [
-        "conflict"
-      ]
-    },
-    {
       "title": "Ottawa Wants Future Canadian Army HIMARS to Deploy Long-range Anti-ship Missiles",
       "link": "https://news.usni.org/2026/06/05/ottawa-wants-future-canadian-army-himars-to-deploy-long-range-anti-ship-missiles",
       "published": "Fri, 05 Jun 2026 19:22:23 +0000",
@@ -867,6 +849,15 @@
       "title": "Two Men Killed in Strike On Suspected Drug Boat, First in June",
       "link": "https://news.usni.org/2026/06/04/two-men-killed-in-strike-on-suspected-drug-boat-first-in-june",
       "published": "Thu, 04 Jun 2026 18:37:30 +0000",
+      "source": "USNI News",
+      "categories": [
+        "conflict"
+      ]
+    },
+    {
+      "title": "Report to Congress on North Korea’s Nuclear Weapons and Missile Programs",
+      "link": "https://news.usni.org/2026/06/03/report-to-congress-on-north-koreas-nuclear-weapons-and-missile-programs-4",
+      "published": "Wed, 03 Jun 2026 17:38:06 +0000",
       "source": "USNI News",
       "categories": [
         "conflict"
@@ -904,18 +895,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 9,
-    "conflict_articles": 7,
+    "deployment_articles": 8,
+    "conflict_articles": 5,
     "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-06-05T19:25:59.199159+00:00",
+    "computed_at": "2026-06-05T21:13:34.609718+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] Japan is developing a new unmanned AAV which will bring MUM-T to Amphibious Operations",
       "[Defense News] The US Army wants thousands of air defense missiles to replace the Stinger",
-      "[Military Times] The US Army wants thousands of air defense missiles to replace the Stinger",
       "[Naval News] Royal Navy progresses towards Project Vanquish demo from aircraft carrier",
-      "[Military Times] Pentagon must divulge cost of Iran war under House proposal"
+      "[Military Times] Pentagon must divulge cost of Iran war under House proposal",
+      "[USNI News] Ottawa Wants Future Canadian Army HIMARS to Deploy Long-range Anti-ship Missiles"
     ]
   },
   "ground_intel": {
@@ -926,9 +917,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-06-05T19:25:59.199203+00:00",
+    "last_successful_update": "2026-06-05T21:13:34.609761+00:00",
     "article_count": 50,
-    "categorized_count": 18,
+    "categorized_count": 15,
     "freshest_source": "Naval News",
     "freshest_title": "Japan is developing a new unmanned AAV which will bring MUM-T to Amphibious Operations",
     "freshest_published": "Fri, 05 Jun 2026 07:48:48 +0000"
