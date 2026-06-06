@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-06-06T06:17:48Z",
-  "version": 1645,
+  "generated_utc": "2026-06-06T09:15:01Z",
+  "version": 1646,
   "breaking_alert": "Naval News: Japan is developing a new unmanned AAV which will bring MUM-T to Amphibious Operations",
   "naval_deployments": [
     {
@@ -657,16 +657,6 @@
       ]
     },
     {
-      "title": "US tells Europe, Canada to boost NATO air and naval forces",
-      "link": "https://www.defensenews.com/global/europe/2026/06/03/us-tells-europe-canada-to-boost-nato-air-and-naval-forces/",
-      "published": "Wed, 03 Jun 2026 15:55:26 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment",
-        "exercise"
-      ]
-    },
-    {
       "title": "Philippines Progresses Japanese Destroyer Transfer Talks, Receives American Cutter at Shangri-La",
       "link": "https://news.usni.org/2026/06/03/philippines-progresses-japanese-destroyer-transfer-talks-receives-american-cutter-at-shangri-la",
       "published": "Wed, 03 Jun 2026 21:14:47 +0000",
@@ -884,6 +874,15 @@
       ]
     },
     {
+      "title": "France to test its own AI-powered battlefield command in June NATO exercise",
+      "link": "https://www.defensenews.com/global/europe/2026/06/06/france-to-test-its-own-ai-powered-battlefield-command-in-june-nato-exercise/",
+      "published": "Sat, 06 Jun 2026 06:50:38 +0000",
+      "source": "Defense News",
+      "categories": [
+        "exercise"
+      ]
+    },
+    {
       "title": "Army’s plan for military death row executions is named ‘Operation Resolute Justice’",
       "link": "https://taskandpurpose.com/news/military-prisoners-death-row/",
       "published": "Thu, 04 Jun 2026 16:58:30 -0400",
@@ -891,24 +890,14 @@
       "categories": [
         "exercise"
       ]
-    },
-    {
-      "title": "US tells Europe, Canada to boost NATO air and naval forces",
-      "link": "https://www.defensenews.com/global/europe/2026/06/03/us-tells-europe-canada-to-boost-nato-air-and-naval-forces/",
-      "published": "Wed, 03 Jun 2026 15:55:26 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment",
-        "exercise"
-      ]
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 9,
+    "deployment_articles": 8,
     "conflict_articles": 5,
     "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-06-06T06:17:45.781916+00:00",
+    "computed_at": "2026-06-06T09:14:58.893796+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] Japan is developing a new unmanned AAV which will bring MUM-T to Amphibious Operations",
@@ -926,7 +915,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-06-06T06:17:45.781959+00:00",
+    "last_successful_update": "2026-06-06T09:14:58.893843+00:00",
     "article_count": 50,
     "categorized_count": 16,
     "freshest_source": "Naval News",
