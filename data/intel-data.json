@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-06-07T20:56:50Z",
-  "version": 1665,
+  "generated_utc": "2026-06-07T21:58:16Z",
+  "version": 1666,
   "breaking_alert": "Naval News: Japan is developing a new unmanned AAV which will bring MUM-T to Amphibious Operations",
   "naval_deployments": [
     {
@@ -907,6 +907,15 @@
       ]
     },
     {
+      "title": "The Philippines meets its NMESIS in Balikatan exercise",
+      "link": "https://www.navalnews.com/naval-news/2026/06/the-philippines-meets-its-nmesis-in-balikatan-exercise/",
+      "published": "Sun, 07 Jun 2026 20:59:54 +0000",
+      "source": "Naval News",
+      "categories": [
+        "exercise"
+      ]
+    },
+    {
       "title": "Army’s plan for military death row executions is named ‘Operation Resolute Justice’",
       "link": "https://taskandpurpose.com/news/military-prisoners-death-row/",
       "published": "Thu, 04 Jun 2026 16:58:30 -0400",
@@ -917,11 +926,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 13,
+    "deployment_articles": 12,
     "conflict_articles": 8,
-    "exercise_articles": 3,
+    "exercise_articles": 4,
     "total_articles": 50,
-    "computed_at": "2026-06-07T20:56:47.837849+00:00",
+    "computed_at": "2026-06-07T21:58:12.559479+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[Naval News] Japan is developing a new unmanned AAV which will bring MUM-T to Amphibious Operations",
@@ -939,7 +948,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-06-07T20:56:47.837893+00:00",
+    "last_successful_update": "2026-06-07T21:58:12.559524+00:00",
     "article_count": 50,
     "categorized_count": 21,
     "freshest_source": "Naval News",
