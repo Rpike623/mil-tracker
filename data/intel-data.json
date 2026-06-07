@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-06-07T06:59:04Z",
-  "version": 1658,
+  "generated_utc": "2026-06-07T09:53:23Z",
+  "version": 1659,
   "breaking_alert": "Naval News: Japan is developing a new unmanned AAV which will bring MUM-T to Amphibious Operations",
   "naval_deployments": [
     {
@@ -650,6 +650,15 @@
       ]
     },
     {
+      "title": "Turkish Navy Confirms 2032 Delivery Date for MUGEM Aircraft Carrier",
+      "link": "https://www.navalnews.com/event-news/cne-2026/2026/06/turkish-navy-confirms-2032-delivery-date-for-mugem-aircraft-carrier/",
+      "published": "Sun, 07 Jun 2026 08:21:27 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "Hidden chemical weapons sites emerge in Syria amid fragile security transition",
       "link": "https://www.defensenews.com/global/mideast-africa/2026/06/04/hidden-chemical-weapons-sites-emerge-in-syria-amid-fragile-security-transition/",
       "published": "Thu, 04 Jun 2026 15:02:01 +0000",
@@ -672,15 +681,6 @@
       "link": "https://www.navalnews.com/naval-news/2026/06/new-mystery-submarine-signals-chinas-rapid-undersea-expansion/",
       "published": "Wed, 03 Jun 2026 09:17:15 +0000",
       "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Philippines Progresses Japanese Destroyer Transfer Talks, Receives American Cutter at Shangri-La",
-      "link": "https://news.usni.org/2026/06/03/philippines-progresses-japanese-destroyer-transfer-talks-receives-american-cutter-at-shangri-la",
-      "published": "Wed, 03 Jun 2026 21:14:47 +0000",
-      "source": "USNI News",
       "categories": [
         "deployment"
       ]
@@ -915,11 +915,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 10,
+    "deployment_articles": 11,
     "conflict_articles": 7,
     "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-06-07T06:54:23.990887+00:00",
+    "computed_at": "2026-06-07T09:53:21.411810+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] Japan is developing a new unmanned AAV which will bring MUM-T to Amphibious Operations",
@@ -937,9 +937,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-06-07T06:54:23.990931+00:00",
+    "last_successful_update": "2026-06-07T09:53:21.411855+00:00",
     "article_count": 50,
-    "categorized_count": 18,
+    "categorized_count": 19,
     "freshest_source": "Naval News",
     "freshest_title": "Japan is developing a new unmanned AAV which will bring MUM-T to Amphibious Operations",
     "freshest_published": "Fri, 05 Jun 2026 07:48:48 +0000"
