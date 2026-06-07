@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-06-07T11:39:50Z",
-  "version": 1660,
+  "generated_utc": "2026-06-07T13:13:17Z",
+  "version": 1661,
   "breaking_alert": "Naval News: Japan is developing a new unmanned AAV which will bring MUM-T to Amphibious Operations",
   "naval_deployments": [
     {
@@ -650,6 +650,16 @@
       ]
     },
     {
+      "title": "The Army’s latest anti-drone tool fires missiles from a cargo container",
+      "link": "https://taskandpurpose.com/tech-tactics/army-grizzily-anti-drone-container/",
+      "published": "Sun, 07 Jun 2026 07:59:00 -0400",
+      "source": "Task & Purpose",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
+    },
+    {
       "title": "Turkish Navy Confirms 2032 Delivery Date for MUGEM Aircraft Carrier",
       "link": "https://www.navalnews.com/event-news/cne-2026/2026/06/turkish-navy-confirms-2032-delivery-date-for-mugem-aircraft-carrier/",
       "published": "Sun, 07 Jun 2026 08:21:27 +0000",
@@ -672,15 +682,6 @@
       "link": "https://news.usni.org/2026/06/04/task-force-ashland-returns-to-california-from-4-month-indo-pacific-deployment",
       "published": "Thu, 04 Jun 2026 15:50:44 +0000",
       "source": "USNI News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "New Mystery Submarine Signals China’s Rapid Undersea Expansion",
-      "link": "https://www.navalnews.com/naval-news/2026/06/new-mystery-submarine-signals-chinas-rapid-undersea-expansion/",
-      "published": "Wed, 03 Jun 2026 09:17:15 +0000",
-      "source": "Naval News",
       "categories": [
         "deployment"
       ]
@@ -876,11 +877,12 @@
       ]
     },
     {
-      "title": "Ukrainian drones strike Russian corvette RFS Boiky near Saint Petersburg",
-      "link": "https://www.navalnews.com/naval-news/2026/06/ukrainian-drones-strike-russian-corvette-rfs-boiky-near-saint-petersburg/",
-      "published": "Thu, 04 Jun 2026 08:29:05 +0000",
-      "source": "Naval News",
+      "title": "The Army’s latest anti-drone tool fires missiles from a cargo container",
+      "link": "https://taskandpurpose.com/tech-tactics/army-grizzily-anti-drone-container/",
+      "published": "Sun, 07 Jun 2026 07:59:00 -0400",
+      "source": "Task & Purpose",
       "categories": [
+        "deployment",
         "conflict"
       ]
     }
@@ -915,12 +917,12 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 11,
-    "conflict_articles": 7,
+    "deployment_articles": 12,
+    "conflict_articles": 8,
     "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-06-07T11:39:44.889608+00:00",
-    "manual_override": "DEFCON_3",
+    "computed_at": "2026-06-07T13:13:15.123455+00:00",
+    "manual_override": "DEFCON_2",
     "breaking_events": [
       "[Naval News] Japan is developing a new unmanned AAV which will bring MUM-T to Amphibious Operations",
       "[Defense News] The US Army wants thousands of air defense missiles to replace the Stinger",
@@ -937,9 +939,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-06-07T11:39:44.889648+00:00",
+    "last_successful_update": "2026-06-07T13:13:15.123498+00:00",
     "article_count": 50,
-    "categorized_count": 19,
+    "categorized_count": 20,
     "freshest_source": "Naval News",
     "freshest_title": "Japan is developing a new unmanned AAV which will bring MUM-T to Amphibious Operations",
     "freshest_published": "Fri, 05 Jun 2026 07:48:48 +0000"
