@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-06-08T10:10:22Z",
-  "version": 1670,
+  "generated_utc": "2026-06-08T14:40:51Z",
+  "version": 1671,
   "breaking_alert": "Naval News: Japan is developing a new unmanned AAV which will bring MUM-T to Amphibious Operations",
   "naval_deployments": [
     {
@@ -927,11 +927,11 @@
   ],
   "_threat_indicators": {
     "deployment_articles": 12,
-    "conflict_articles": 8,
+    "conflict_articles": 7,
     "exercise_articles": 4,
     "total_articles": 50,
-    "computed_at": "2026-06-08T10:10:19.420374+00:00",
-    "manual_override": "DEFCON_2",
+    "computed_at": "2026-06-08T14:40:40.561527+00:00",
+    "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] Japan is developing a new unmanned AAV which will bring MUM-T to Amphibious Operations",
       "[Defense News] The US Army wants thousands of air defense missiles to replace the Stinger",
@@ -948,9 +948,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-06-08T10:10:19.420415+00:00",
+    "last_successful_update": "2026-06-08T14:40:40.561568+00:00",
     "article_count": 50,
-    "categorized_count": 21,
+    "categorized_count": 20,
     "freshest_source": "Naval News",
     "freshest_title": "Japan is developing a new unmanned AAV which will bring MUM-T to Amphibious Operations",
     "freshest_published": "Fri, 05 Jun 2026 07:48:48 +0000"
