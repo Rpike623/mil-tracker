@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-06-08T17:41:12Z",
-  "version": 1672,
+  "generated_utc": "2026-06-08T19:56:09Z",
+  "version": 1673,
   "breaking_alert": "Naval News: Japan is developing a new unmanned AAV which will bring MUM-T to Amphibious Operations",
   "naval_deployments": [
     {
@@ -630,10 +630,29 @@
       ]
     },
     {
-      "title": "Sailor Dead After Shooting Aboard Carrier JFK, One Sailor in Custody",
+      "title": "UPDATED: Navy IDs Sailor Killed in Saturday Shooting Aboard Carrier JFK",
       "link": "https://news.usni.org/2026/06/08/sailor-dead-after-shooting-board-carrier-jfk-one-sailor-in-custody",
       "published": "Mon, 08 Jun 2026 15:56:28 +0000",
       "source": "USNI News",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
+    },
+    {
+      "title": "USNI News Fleet and Marine Tracker: June 8, 2026",
+      "link": "https://news.usni.org/2026/06/08/usni-news-fleet-and-marine-tracker-june-8-2026",
+      "published": "Mon, 08 Jun 2026 17:48:30 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Navy investigating shooting death of sailor aboard USS John F. Kennedy",
+      "link": "https://www.militarytimes.com/news/your-navy/2026/06/08/navy-investigating-shooting-death-of-sailor-aboard-uss-john-f-kennedy/",
+      "published": "Mon, 08 Jun 2026 18:53:24 +0000",
+      "source": "Military Times",
       "categories": [
         "deployment"
       ]
@@ -666,24 +685,6 @@
       "categories": [
         "deployment",
         "conflict"
-      ]
-    },
-    {
-      "title": "Turkish Navy Confirms 2032 Delivery Date for MUGEM Aircraft Carrier",
-      "link": "https://www.navalnews.com/event-news/cne-2026/2026/06/turkish-navy-confirms-2032-delivery-date-for-mugem-aircraft-carrier/",
-      "published": "Sun, 07 Jun 2026 08:21:27 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "US troops, families adjust to new normal of Iran war",
-      "link": "https://www.militarytimes.com/news/your-military/2026/06/07/us-troops-families-adjust-to-new-normal-of-iran-war/",
-      "published": "Sun, 07 Jun 2026 13:57:08 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment"
       ]
     }
   ],
@@ -857,6 +858,16 @@
       ]
     },
     {
+      "title": "UPDATED: Navy IDs Sailor Killed in Saturday Shooting Aboard Carrier JFK",
+      "link": "https://news.usni.org/2026/06/08/sailor-dead-after-shooting-board-carrier-jfk-one-sailor-in-custody",
+      "published": "Mon, 08 Jun 2026 15:56:28 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
+    },
+    {
       "title": "US Navy F/A-18 Super Hornet strikes, disables oil tanker in Gulf of Oman",
       "link": "https://www.defensenews.com/flashpoints/2026/06/08/us-navy-fa-18-super-hornet-strikes-disables-oil-tanker-in-gulf-of-oman/",
       "published": "Mon, 08 Jun 2026 17:16:38 +0000",
@@ -871,16 +882,6 @@
       "published": "Mon, 08 Jun 2026 17:16:38 +0000",
       "source": "Military Times",
       "categories": [
-        "conflict"
-      ]
-    },
-    {
-      "title": "US strikes Iranian sites after Iran launches drones, in latest Gulf flare-up",
-      "link": "https://www.defensenews.com/flashpoints/middle-east/2026/06/06/us-strikes-iranian-sites-after-iran-launches-drones-in-latest-gulf-flare-up/",
-      "published": "Sat, 06 Jun 2026 15:00:51 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment",
         "conflict"
       ]
     }
@@ -933,11 +934,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 12,
-    "conflict_articles": 8,
+    "deployment_articles": 13,
+    "conflict_articles": 9,
     "exercise_articles": 5,
     "total_articles": 50,
-    "computed_at": "2026-06-08T17:41:09.515077+00:00",
+    "computed_at": "2026-06-08T19:56:06.937328+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[Naval News] Japan is developing a new unmanned AAV which will bring MUM-T to Amphibious Operations",
@@ -955,9 +956,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-06-08T17:41:09.515119+00:00",
+    "last_successful_update": "2026-06-08T19:56:06.937371+00:00",
     "article_count": 50,
-    "categorized_count": 22,
+    "categorized_count": 23,
     "freshest_source": "Naval News",
     "freshest_title": "Japan is developing a new unmanned AAV which will bring MUM-T to Amphibious Operations",
     "freshest_published": "Fri, 05 Jun 2026 07:48:48 +0000"
