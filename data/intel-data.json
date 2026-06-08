@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-06-08T19:56:09Z",
-  "version": 1673,
+  "generated_utc": "2026-06-08T21:43:23Z",
+  "version": 1674,
   "breaking_alert": "Naval News: Japan is developing a new unmanned AAV which will bring MUM-T to Amphibious Operations",
   "naval_deployments": [
     {
@@ -658,6 +658,16 @@
       ]
     },
     {
+      "title": "Carrier USS Theodore Roosevelt to Lead 2026 Rim of the Pacific Exercise",
+      "link": "https://news.usni.org/2026/06/08/carrier-uss-theodore-roosevelt-to-lead-2026-rim-of-the-pacific-exercise",
+      "published": "Mon, 08 Jun 2026 20:31:00 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment",
+        "exercise"
+      ]
+    },
+    {
       "title": "US strikes Iranian sites after Iran launches drones, in latest Gulf flare-up",
       "link": "https://www.defensenews.com/flashpoints/middle-east/2026/06/06/us-strikes-iranian-sites-after-iran-launches-drones-in-latest-gulf-flare-up/",
       "published": "Sat, 06 Jun 2026 15:00:51 +0000",
@@ -672,16 +682,6 @@
       "link": "https://www.militarytimes.com/flashpoints/middle-east/2026/06/06/us-strikes-iranian-sites-after-iran-launches-drones-in-latest-gulf-flare-up/",
       "published": "Sat, 06 Jun 2026 15:00:51 +0000",
       "source": "Military Times",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
-      "title": "The Army’s latest anti-drone tool fires missiles from a cargo container",
-      "link": "https://taskandpurpose.com/tech-tactics/army-grizzily-anti-drone-container/",
-      "published": "Sun, 07 Jun 2026 07:59:00 -0400",
-      "source": "Task & Purpose",
       "categories": [
         "deployment",
         "conflict"
@@ -906,6 +906,16 @@
       ]
     },
     {
+      "title": "Carrier USS Theodore Roosevelt to Lead 2026 Rim of the Pacific Exercise",
+      "link": "https://news.usni.org/2026/06/08/carrier-uss-theodore-roosevelt-to-lead-2026-rim-of-the-pacific-exercise",
+      "published": "Mon, 08 Jun 2026 20:31:00 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment",
+        "exercise"
+      ]
+    },
+    {
       "title": "France to test its own AI-powered battlefield command in June NATO exercise",
       "link": "https://www.defensenews.com/global/europe/2026/06/06/france-to-test-its-own-ai-powered-battlefield-command-in-june-nato-exercise/",
       "published": "Sat, 06 Jun 2026 06:50:38 +0000",
@@ -922,23 +932,14 @@
       "categories": [
         "exercise"
       ]
-    },
-    {
-      "title": "Army’s plan for military death row executions is named ‘Operation Resolute Justice’",
-      "link": "https://taskandpurpose.com/news/military-prisoners-death-row/",
-      "published": "Thu, 04 Jun 2026 16:58:30 -0400",
-      "source": "Task & Purpose",
-      "categories": [
-        "exercise"
-      ]
     }
   ],
   "_threat_indicators": {
     "deployment_articles": 13,
     "conflict_articles": 9,
-    "exercise_articles": 5,
+    "exercise_articles": 6,
     "total_articles": 50,
-    "computed_at": "2026-06-08T19:56:06.937328+00:00",
+    "computed_at": "2026-06-08T21:43:20.945101+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[Naval News] Japan is developing a new unmanned AAV which will bring MUM-T to Amphibious Operations",
@@ -956,7 +957,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-06-08T19:56:06.937371+00:00",
+    "last_successful_update": "2026-06-08T21:43:20.945147+00:00",
     "article_count": 50,
     "categorized_count": 23,
     "freshest_source": "Naval News",
