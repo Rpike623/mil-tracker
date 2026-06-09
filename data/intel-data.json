@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-06-09T06:01:30Z",
-  "version": 1677,
-  "breaking_alert": "Naval News: Japan is developing a new unmanned AAV which will bring MUM-T to Amphibious Operations",
+  "generated_utc": "2026-06-09T09:25:40Z",
+  "version": 1678,
+  "breaking_alert": "Naval News: Royal Navy progresses towards Project Vanquish demo from aircraft carrier",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -668,7 +668,7 @@
       ]
     },
     {
-      "title": "Sailor charged with attempting to finance ISIS attack on US troops",
+      "title": "Former sailor charged with attempting to finance ISIS attack on US troops",
       "link": "https://www.militarytimes.com/news/your-navy/2026/06/08/sailor-charged-for-isis-conspiracy-to-kill-us-troops/",
       "published": "Mon, 08 Jun 2026 23:15:36 +0000",
       "source": "Military Times",
@@ -888,15 +888,6 @@
   ],
   "_exercise_news_refs": [
     {
-      "title": "Japan is developing a new unmanned AAV which will bring MUM-T to Amphibious Operations",
-      "link": "https://www.navalnews.com/naval-news/2026/06/japan-is-developing-a-new-unmanned-aav-which-will-bring-mum-t-to-amphibious-operations/",
-      "published": "Fri, 05 Jun 2026 07:48:48 +0000",
-      "source": "Naval News",
-      "categories": [
-        "exercise"
-      ]
-    },
-    {
       "title": "French jet on NATO mission shoots down drone in Latvian airspace",
       "link": "https://www.defensenews.com/global/europe/2026/06/08/french-jet-on-nato-mission-shoots-down-drone-in-latvian-airspace/",
       "published": "Mon, 08 Jun 2026 14:39:28 +0000",
@@ -932,21 +923,30 @@
       "categories": [
         "exercise"
       ]
+    },
+    {
+      "title": "Army’s plan for military death row executions is named ‘Operation Resolute Justice’",
+      "link": "https://taskandpurpose.com/news/military-prisoners-death-row/",
+      "published": "Thu, 04 Jun 2026 16:58:30 -0400",
+      "source": "Task & Purpose",
+      "categories": [
+        "exercise"
+      ]
     }
   ],
   "_threat_indicators": {
     "deployment_articles": 13,
     "conflict_articles": 9,
-    "exercise_articles": 6,
+    "exercise_articles": 5,
     "total_articles": 50,
-    "computed_at": "2026-06-09T05:56:50.050379+00:00",
+    "computed_at": "2026-06-09T09:25:36.989034+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
-      "[Naval News] Japan is developing a new unmanned AAV which will bring MUM-T to Amphibious Operations",
       "[Naval News] Royal Navy progresses towards Project Vanquish demo from aircraft carrier",
       "[USNI News] Ottawa Wants Future Canadian Army HIMARS to Deploy Long-range Anti-ship Missiles",
       "[Naval News] Indonesia Eyes JMSDF Asagiri-Class Destroyers as Japan Tailors Warship Transfers to Southeast Asian Partners",
-      "[USNI News] U.S. Forces Interdict Ship Connected to Iran in Indian Ocean, Iranian Oil Exports See Decrease"
+      "[USNI News] U.S. Forces Interdict Ship Connected to Iran in Indian Ocean, Iranian Oil Exports See Decrease",
+      "[Task & Purpose] Navy veteran accused of trying to use crypto to send ISIS money for drone, RPG attack on US troops"
     ]
   },
   "ground_intel": {
@@ -957,12 +957,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-06-09T05:56:50.050425+00:00",
+    "last_successful_update": "2026-06-09T09:25:36.989082+00:00",
     "article_count": 50,
-    "categorized_count": 23,
+    "categorized_count": 22,
     "freshest_source": "Naval News",
-    "freshest_title": "Japan is developing a new unmanned AAV which will bring MUM-T to Amphibious Operations",
-    "freshest_published": "Fri, 05 Jun 2026 07:48:48 +0000"
+    "freshest_title": "Royal Navy progresses towards Project Vanquish demo from aircraft carrier",
+    "freshest_published": "Fri, 05 Jun 2026 12:44:44 +0000"
   },
   "_firms_hotspots": []
 }
