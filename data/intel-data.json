@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-06-09T21:31:11Z",
-  "version": 1683,
+  "generated_utc": "2026-06-09T23:06:55Z",
+  "version": 1684,
   "breaking_alert": "USNI News: U.S. Forces Interdict Ship Connected to Iran in Indian Ocean, Iranian Oil Exports See Decrease",
   "naval_deployments": [
     {
@@ -632,16 +632,6 @@
       ]
     },
     {
-      "title": "Former sailor charged with attempting to finance ISIS attack on US troops",
-      "link": "https://www.militarytimes.com/news/your-navy/2026/06/08/sailor-charged-for-isis-conspiracy-to-kill-us-troops/",
-      "published": "Mon, 08 Jun 2026 23:15:36 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
       "title": "The Army’s latest anti-drone tool fires missiles from a cargo container",
       "link": "https://taskandpurpose.com/tech-tactics/army-grizzily-anti-drone-container/",
       "published": "Sun, 07 Jun 2026 07:59:00 -0400",
@@ -687,6 +677,15 @@
       "categories": [
         "deployment",
         "conflict"
+      ]
+    },
+    {
+      "title": "Saronic USV Rescues Two U.S. Army Pilots Downed by Iran",
+      "link": "https://www.navalnews.com/naval-news/2026/06/saronic-usv-rescues-two-u-s-army-pilots-downed-by-iran/",
+      "published": "Tue, 09 Jun 2026 20:49:53 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment"
       ]
     }
   ],
@@ -870,22 +869,21 @@
       ]
     },
     {
-      "title": "Former sailor charged with attempting to finance ISIS attack on US troops",
-      "link": "https://www.militarytimes.com/news/your-navy/2026/06/08/sailor-charged-for-isis-conspiracy-to-kill-us-troops/",
-      "published": "Mon, 08 Jun 2026 23:15:36 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
       "title": "The Army’s latest anti-drone tool fires missiles from a cargo container",
       "link": "https://taskandpurpose.com/tech-tactics/army-grizzily-anti-drone-container/",
       "published": "Sun, 07 Jun 2026 07:59:00 -0400",
       "source": "Task & Purpose",
       "categories": [
         "deployment",
+        "conflict"
+      ]
+    },
+    {
+      "title": "Pentagon reveals preferred munitions for one-way attack drones",
+      "link": "https://www.defensenews.com/industry/techwatch/2026/06/09/pentagon-reveals-preferred-munitions-for-one-way-attack-drones/",
+      "published": "Tue, 09 Jun 2026 13:56:44 +0000",
+      "source": "Defense News",
+      "categories": [
         "conflict"
       ]
     }
@@ -922,11 +920,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 11,
-    "conflict_articles": 8,
+    "deployment_articles": 13,
+    "conflict_articles": 9,
     "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-06-09T21:26:30.654131+00:00",
+    "computed_at": "2026-06-09T23:06:51.791971+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[USNI News] U.S. Forces Interdict Ship Connected to Iran in Indian Ocean, Iranian Oil Exports See Decrease",
@@ -944,9 +942,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-06-09T21:26:30.654175+00:00",
+    "last_successful_update": "2026-06-09T23:06:51.792031+00:00",
     "article_count": 50,
-    "categorized_count": 16,
+    "categorized_count": 18,
     "freshest_source": "USNI News",
     "freshest_title": "U.S. Forces Interdict Ship Connected to Iran in Indian Ocean, Iranian Oil Exports See Decrease",
     "freshest_published": "Fri, 05 Jun 2026 21:57:22 +0000"
