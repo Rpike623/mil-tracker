@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-06-08T23:05:09Z",
-  "version": 1675,
+  "generated_utc": "2026-06-09T01:49:12Z",
+  "version": 1676,
   "breaking_alert": "Naval News: Japan is developing a new unmanned AAV which will bring MUM-T to Amphibious Operations",
   "naval_deployments": [
     {
@@ -668,10 +668,10 @@
       ]
     },
     {
-      "title": "US strikes Iranian sites after Iran launches drones, in latest Gulf flare-up",
-      "link": "https://www.defensenews.com/flashpoints/middle-east/2026/06/06/us-strikes-iranian-sites-after-iran-launches-drones-in-latest-gulf-flare-up/",
-      "published": "Sat, 06 Jun 2026 15:00:51 +0000",
-      "source": "Defense News",
+      "title": "Sailor charged with attempting to finance ISIS attack on US troops",
+      "link": "https://www.militarytimes.com/news/your-navy/2026/06/08/sailor-charged-for-isis-conspiracy-to-kill-us-troops/",
+      "published": "Mon, 08 Jun 2026 23:15:36 +0000",
+      "source": "Military Times",
       "categories": [
         "deployment",
         "conflict"
@@ -679,9 +679,9 @@
     },
     {
       "title": "US strikes Iranian sites after Iran launches drones, in latest Gulf flare-up",
-      "link": "https://www.militarytimes.com/flashpoints/middle-east/2026/06/06/us-strikes-iranian-sites-after-iran-launches-drones-in-latest-gulf-flare-up/",
+      "link": "https://www.defensenews.com/flashpoints/middle-east/2026/06/06/us-strikes-iranian-sites-after-iran-launches-drones-in-latest-gulf-flare-up/",
       "published": "Sat, 06 Jun 2026 15:00:51 +0000",
-      "source": "Military Times",
+      "source": "Defense News",
       "categories": [
         "deployment",
         "conflict"
@@ -939,7 +939,7 @@
     "conflict_articles": 9,
     "exercise_articles": 6,
     "total_articles": 50,
-    "computed_at": "2026-06-08T23:05:06.691036+00:00",
+    "computed_at": "2026-06-09T01:49:07.283055+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[Naval News] Japan is developing a new unmanned AAV which will bring MUM-T to Amphibious Operations",
@@ -957,7 +957,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-06-08T23:05:06.691078+00:00",
+    "last_successful_update": "2026-06-09T01:49:07.283099+00:00",
     "article_count": 50,
     "categorized_count": 23,
     "freshest_source": "Naval News",
