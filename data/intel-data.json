@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-06-09T09:25:40Z",
-  "version": 1678,
+  "generated_utc": "2026-06-09T12:28:02Z",
+  "version": 1679,
   "breaking_alert": "Naval News: Royal Navy progresses towards Project Vanquish demo from aircraft carrier",
   "naval_deployments": [
     {
@@ -936,10 +936,10 @@
   ],
   "_threat_indicators": {
     "deployment_articles": 13,
-    "conflict_articles": 9,
+    "conflict_articles": 8,
     "exercise_articles": 5,
     "total_articles": 50,
-    "computed_at": "2026-06-09T09:25:36.989034+00:00",
+    "computed_at": "2026-06-09T12:27:59.898973+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[Naval News] Royal Navy progresses towards Project Vanquish demo from aircraft carrier",
@@ -957,9 +957,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-06-09T09:25:36.989082+00:00",
+    "last_successful_update": "2026-06-09T12:27:59.899019+00:00",
     "article_count": 50,
-    "categorized_count": 22,
+    "categorized_count": 21,
     "freshest_source": "Naval News",
     "freshest_title": "Royal Navy progresses towards Project Vanquish demo from aircraft carrier",
     "freshest_published": "Fri, 05 Jun 2026 12:44:44 +0000"
