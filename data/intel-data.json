@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-06-09T17:49:19Z",
-  "version": 1681,
+  "generated_utc": "2026-06-09T19:51:47Z",
+  "version": 1682,
   "breaking_alert": "USNI News: U.S. Forces Interdict Ship Connected to Iran in Indian Ocean, Iranian Oil Exports See Decrease",
   "naval_deployments": [
     {
@@ -661,15 +661,6 @@
       ]
     },
     {
-      "title": "Turkish Navy Confirms 2032 Delivery Date for MUGEM Aircraft Carrier",
-      "link": "https://www.navalnews.com/event-news/cne-2026/2026/06/turkish-navy-confirms-2032-delivery-date-for-mugem-aircraft-carrier/",
-      "published": "Sun, 07 Jun 2026 08:21:27 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Trump says Iran shot down Apache helicopter, vows response",
       "link": "https://taskandpurpose.com/news/apache-crew-rescue-coast-oman/",
       "published": "Tue, 09 Jun 2026 13:32:24 -0400",
@@ -685,6 +676,16 @@
       "source": "USNI News",
       "categories": [
         "deployment"
+      ]
+    },
+    {
+      "title": "‘Flashpoint Campaigns: Cold War’ is the ultimate OODA Loop wargame",
+      "link": "https://www.militarytimes.com/news/your-military/2026/06/09/flashpoint-campaigns-cold-war-is-the-ultimate-ooda-loop-wargame/",
+      "published": "Tue, 09 Jun 2026 17:05:05 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment",
+        "exercise"
       ]
     }
   ],
@@ -921,11 +922,11 @@
   ],
   "_threat_indicators": {
     "deployment_articles": 11,
-    "conflict_articles": 7,
+    "conflict_articles": 8,
     "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-06-09T17:49:17.499463+00:00",
-    "manual_override": "DEFCON_3",
+    "computed_at": "2026-06-09T19:51:41.695412+00:00",
+    "manual_override": "DEFCON_2",
     "breaking_events": [
       "[USNI News] U.S. Forces Interdict Ship Connected to Iran in Indian Ocean, Iranian Oil Exports See Decrease",
       "[Task & Purpose] Navy veteran accused of trying to use crypto to send ISIS money for drone, RPG attack on US troops",
@@ -942,7 +943,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-06-09T17:49:17.499510+00:00",
+    "last_successful_update": "2026-06-09T19:51:41.695456+00:00",
     "article_count": 50,
     "categorized_count": 16,
     "freshest_source": "USNI News",
