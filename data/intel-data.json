@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-06-09T01:49:12Z",
-  "version": 1676,
+  "generated_utc": "2026-06-09T06:01:30Z",
+  "version": 1677,
   "breaking_alert": "Naval News: Japan is developing a new unmanned AAV which will bring MUM-T to Amphibious Operations",
   "naval_deployments": [
     {
@@ -939,7 +939,7 @@
     "conflict_articles": 9,
     "exercise_articles": 6,
     "total_articles": 50,
-    "computed_at": "2026-06-09T01:49:07.283055+00:00",
+    "computed_at": "2026-06-09T05:56:50.050379+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[Naval News] Japan is developing a new unmanned AAV which will bring MUM-T to Amphibious Operations",
@@ -957,7 +957,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-06-09T01:49:07.283099+00:00",
+    "last_successful_update": "2026-06-09T05:56:50.050425+00:00",
     "article_count": 50,
     "categorized_count": 23,
     "freshest_source": "Naval News",
