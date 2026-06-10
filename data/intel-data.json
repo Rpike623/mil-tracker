@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-06-10T20:10:57Z",
-  "version": 1690,
+  "generated_utc": "2026-06-10T22:44:44Z",
+  "version": 1691,
   "breaking_alert": "Task & Purpose: Navy veteran accused of trying to use crypto to send ISIS money for drone, RPG attack on US troops",
   "naval_deployments": [
     {
@@ -594,25 +594,6 @@
   ],
   "_naval_news_refs": [
     {
-      "title": "USNI News Fleet and Marine Tracker: June 8, 2026",
-      "link": "https://news.usni.org/2026/06/08/usni-news-fleet-and-marine-tracker-june-8-2026",
-      "published": "Mon, 08 Jun 2026 17:48:30 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Carrier USS Theodore Roosevelt to Lead 2026 Rim of the Pacific Exercise",
-      "link": "https://news.usni.org/2026/06/08/carrier-uss-theodore-roosevelt-to-lead-2026-rim-of-the-pacific-exercise",
-      "published": "Mon, 08 Jun 2026 20:31:00 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment",
-        "exercise"
-      ]
-    },
-    {
       "title": "Trump says Iran shot down Apache helicopter, vows response",
       "link": "https://taskandpurpose.com/news/apache-crew-rescue-coast-oman/",
       "published": "Tue, 09 Jun 2026 13:32:24 -0400",
@@ -669,20 +650,37 @@
       ]
     },
     {
-      "title": "US launches new strikes on Iran after helicopter downed",
-      "link": "https://www.militarytimes.com/news/your-military/2026/06/09/us-launches-new-strikes-on-iran-after-helicopter-downed/",
-      "published": "Tue, 09 Jun 2026 21:51:07 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
       "title": "German air show opens under shadow of Iran war, fighter project collapse",
       "link": "https://www.defensenews.com/global/europe/2026/06/10/german-air-show-opens-under-shadow-of-iran-war-fighter-project-collapse/",
       "published": "Wed, 10 Jun 2026 13:21:24 +0000",
       "source": "Defense News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Iraq and Afghanistan veterans are retiring. How will new leaders inherit their lessons learned?",
+      "link": "https://www.militarytimes.com/news/your-military/2026/06/10/iraq-and-afghanistan-veterans-are-retiring-how-will-new-leaders-inherit-their-lessons-learned/",
+      "published": "Wed, 10 Jun 2026 18:38:06 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "US Navy stands up naval support activity in Western Australia",
+      "link": "https://www.defensenews.com/news/your-navy/2026/06/10/us-navy-stands-up-naval-support-activity-in-western-australia/",
+      "published": "Wed, 10 Jun 2026 19:06:50 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "US Navy stands up naval support activity in Western Australia",
+      "link": "https://www.militarytimes.com/news/your-navy/2026/06/10/us-navy-stands-up-naval-support-activity-in-western-australia/",
+      "published": "Wed, 10 Jun 2026 19:06:50 +0000",
+      "source": "Military Times",
       "categories": [
         "deployment"
       ]
@@ -878,10 +876,10 @@
       ]
     },
     {
-      "title": "US launches new strikes on Iran after helicopter downed",
-      "link": "https://www.militarytimes.com/news/your-military/2026/06/09/us-launches-new-strikes-on-iran-after-helicopter-downed/",
-      "published": "Tue, 09 Jun 2026 21:51:07 +0000",
-      "source": "Military Times",
+      "title": "New Look at America’s Next Ballistic Missile Submarine",
+      "link": "https://www.navalnews.com/naval-news/2026/06/new-look-at-americas-next-ballistic-missile-submarine/",
+      "published": "Wed, 10 Jun 2026 20:39:42 +0000",
+      "source": "Naval News",
       "categories": [
         "deployment",
         "conflict"
@@ -890,29 +888,28 @@
   ],
   "_exercise_news_refs": [
     {
-      "title": "Carrier USS Theodore Roosevelt to Lead 2026 Rim of the Pacific Exercise",
-      "link": "https://news.usni.org/2026/06/08/carrier-uss-theodore-roosevelt-to-lead-2026-rim-of-the-pacific-exercise",
-      "published": "Mon, 08 Jun 2026 20:31:00 +0000",
+      "title": "BALTOPS 2026 Exercise Begins",
+      "link": "https://news.usni.org/2026/06/10/baltops-2026-exercise-begins",
+      "published": "Wed, 10 Jun 2026 21:14:40 +0000",
       "source": "USNI News",
       "categories": [
-        "deployment",
         "exercise"
       ]
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 14,
-    "conflict_articles": 5,
+    "deployment_articles": 13,
+    "conflict_articles": 6,
     "exercise_articles": 1,
     "total_articles": 50,
-    "computed_at": "2026-06-10T20:06:16.694164+00:00",
+    "computed_at": "2026-06-10T22:44:39.002164+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Task & Purpose] Navy veteran accused of trying to use crypto to send ISIS money for drone, RPG attack on US troops",
-      "[USNI News] USNI News Fleet and Marine Tracker: June 8, 2026",
-      "[USNI News] Carrier USS Theodore Roosevelt to Lead 2026 Rim of the Pacific Exercise",
       "[Task & Purpose] Trump says Iran shot down Apache helicopter, vows response",
-      "[Defense News] Pentagon reveals preferred munitions for one-way attack drones"
+      "[Defense News] Pentagon reveals preferred munitions for one-way attack drones",
+      "[USNI News] New 3rd Fleet Commander, Joint Staff Director Nominated",
+      "[Naval News] German F125 frigates are to receive 32 Iris-T SLM Naval missiles"
     ]
   },
   "ground_intel": {
@@ -923,7 +920,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-06-10T20:06:16.694204+00:00",
+    "last_successful_update": "2026-06-10T22:44:39.002202+00:00",
     "article_count": 50,
     "categorized_count": 16,
     "freshest_source": "Task & Purpose",
