@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-06-10T17:47:25Z",
-  "version": 1689,
+  "generated_utc": "2026-06-10T20:10:57Z",
+  "version": 1690,
   "breaking_alert": "Task & Purpose: Navy veteran accused of trying to use crypto to send ISIS money for drone, RPG attack on US troops",
   "naval_deployments": [
     {
@@ -594,16 +594,6 @@
   ],
   "_naval_news_refs": [
     {
-      "title": "UPDATED: Navy IDs Sailor Killed in Saturday Shooting Aboard Carrier JFK",
-      "link": "https://news.usni.org/2026/06/08/sailor-dead-after-shooting-board-carrier-jfk-one-sailor-in-custody",
-      "published": "Mon, 08 Jun 2026 15:56:28 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
       "title": "USNI News Fleet and Marine Tracker: June 8, 2026",
       "link": "https://news.usni.org/2026/06/08/usni-news-fleet-and-marine-tracker-june-8-2026",
       "published": "Mon, 08 Jun 2026 17:48:30 +0000",
@@ -638,16 +628,6 @@
       "source": "USNI News",
       "categories": [
         "deployment"
-      ]
-    },
-    {
-      "title": "‘Flashpoint Campaigns: Cold War’ is the ultimate OODA Loop wargame",
-      "link": "https://www.militarytimes.com/news/your-military/2026/06/09/flashpoint-campaigns-cold-war-is-the-ultimate-ooda-loop-wargame/",
-      "published": "Tue, 09 Jun 2026 17:05:05 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment",
-        "exercise"
       ]
     },
     {
@@ -686,6 +666,25 @@
       "categories": [
         "deployment",
         "conflict"
+      ]
+    },
+    {
+      "title": "US launches new strikes on Iran after helicopter downed",
+      "link": "https://www.militarytimes.com/news/your-military/2026/06/09/us-launches-new-strikes-on-iran-after-helicopter-downed/",
+      "published": "Tue, 09 Jun 2026 21:51:07 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
+    },
+    {
+      "title": "German air show opens under shadow of Iran war, fighter project collapse",
+      "link": "https://www.defensenews.com/global/europe/2026/06/10/german-air-show-opens-under-shadow-of-iran-war-fighter-project-collapse/",
+      "published": "Wed, 10 Jun 2026 13:21:24 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment"
       ]
     }
   ],
@@ -850,16 +849,6 @@
       ]
     },
     {
-      "title": "UPDATED: Navy IDs Sailor Killed in Saturday Shooting Aboard Carrier JFK",
-      "link": "https://news.usni.org/2026/06/08/sailor-dead-after-shooting-board-carrier-jfk-one-sailor-in-custody",
-      "published": "Mon, 08 Jun 2026 15:56:28 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
       "title": "Pentagon reveals preferred munitions for one-way attack drones",
       "link": "https://www.defensenews.com/industry/techwatch/2026/06/09/pentagon-reveals-preferred-munitions-for-one-way-attack-drones/",
       "published": "Tue, 09 Jun 2026 13:56:44 +0000",
@@ -887,6 +876,16 @@
         "deployment",
         "conflict"
       ]
+    },
+    {
+      "title": "US launches new strikes on Iran after helicopter downed",
+      "link": "https://www.militarytimes.com/news/your-military/2026/06/09/us-launches-new-strikes-on-iran-after-helicopter-downed/",
+      "published": "Tue, 09 Jun 2026 21:51:07 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
     }
   ],
   "_exercise_news_refs": [
@@ -899,40 +898,21 @@
         "deployment",
         "exercise"
       ]
-    },
-    {
-      "title": "‘Flashpoint Campaigns: Cold War’ is the ultimate OODA Loop wargame",
-      "link": "https://www.militarytimes.com/news/your-military/2026/06/09/flashpoint-campaigns-cold-war-is-the-ultimate-ooda-loop-wargame/",
-      "published": "Tue, 09 Jun 2026 17:05:05 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment",
-        "exercise"
-      ]
-    },
-    {
-      "title": "Senator warns of government shutdown over dispute on fiscal 2027 defense budget",
-      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/06/09/senator-warns-of-government-shutdown-over-dispute-on-fiscal-2027-defense-budget/",
-      "published": "Tue, 09 Jun 2026 20:00:59 +0000",
-      "source": "Military Times",
-      "categories": [
-        "exercise"
-      ]
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 12,
-    "conflict_articles": 6,
-    "exercise_articles": 3,
+    "deployment_articles": 14,
+    "conflict_articles": 5,
+    "exercise_articles": 1,
     "total_articles": 50,
-    "computed_at": "2026-06-10T17:47:18.195533+00:00",
+    "computed_at": "2026-06-10T20:06:16.694164+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Task & Purpose] Navy veteran accused of trying to use crypto to send ISIS money for drone, RPG attack on US troops",
-      "[USNI News] UPDATED: Navy IDs Sailor Killed in Saturday Shooting Aboard Carrier JFK",
       "[USNI News] USNI News Fleet and Marine Tracker: June 8, 2026",
       "[USNI News] Carrier USS Theodore Roosevelt to Lead 2026 Rim of the Pacific Exercise",
-      "[Task & Purpose] Trump says Iran shot down Apache helicopter, vows response"
+      "[Task & Purpose] Trump says Iran shot down Apache helicopter, vows response",
+      "[Defense News] Pentagon reveals preferred munitions for one-way attack drones"
     ]
   },
   "ground_intel": {
@@ -943,9 +923,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-06-10T17:47:18.195576+00:00",
+    "last_successful_update": "2026-06-10T20:06:16.694204+00:00",
     "article_count": 50,
-    "categorized_count": 15,
+    "categorized_count": 16,
     "freshest_source": "Task & Purpose",
     "freshest_title": "Navy veteran accused of trying to use crypto to send ISIS money for drone, RPG attack on US troops",
     "freshest_published": "Mon, 08 Jun 2026 13:22:20 -0400"
