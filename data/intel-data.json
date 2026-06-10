@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-06-10T10:45:10Z",
-  "version": 1687,
-  "breaking_alert": "USNI News: U.S. Forces Interdict Ship Connected to Iran in Indian Ocean, Iranian Oil Exports See Decrease",
+  "generated_utc": "2026-06-10T14:13:07Z",
+  "version": 1688,
+  "breaking_alert": "Task & Purpose: Navy veteran accused of trying to use crypto to send ISIS money for drone, RPG attack on US troops",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -594,15 +594,6 @@
   ],
   "_naval_news_refs": [
     {
-      "title": "U.S. Forces Interdict Ship Connected to Iran in Indian Ocean, Iranian Oil Exports See Decrease",
-      "link": "https://news.usni.org/2026/06/05/u-s-forces-interdict-ship-connected-to-iran-in-indian-ocean-iranian-oil-exports-see-decrease",
-      "published": "Fri, 05 Jun 2026 21:57:22 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "UPDATED: Navy IDs Sailor Killed in Saturday Shooting Aboard Carrier JFK",
       "link": "https://news.usni.org/2026/06/08/sailor-dead-after-shooting-board-carrier-jfk-one-sailor-in-custody",
       "published": "Mon, 08 Jun 2026 15:56:28 +0000",
@@ -684,6 +675,15 @@
       "link": "https://www.navalnews.com/naval-news/2026/06/saronic-usv-rescues-two-u-s-army-pilots-downed-by-iran/",
       "published": "Tue, 09 Jun 2026 20:49:53 +0000",
       "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Upcoming U.S. Depot in the Philippines to Support Fueling of Navy Destroyers, Combat Logistics Force Ships",
+      "link": "https://news.usni.org/2026/06/09/upcoming-u-s-depot-in-the-philippines-to-support-fueling-of-navy-destroyers-combat-logistics-force-ships",
+      "published": "Tue, 09 Jun 2026 21:31:22 +0000",
+      "source": "USNI News",
       "categories": [
         "deployment"
       ]
@@ -924,14 +924,14 @@
     "conflict_articles": 9,
     "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-06-10T10:45:08.804203+00:00",
+    "computed_at": "2026-06-10T14:13:02.349493+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
-      "[USNI News] U.S. Forces Interdict Ship Connected to Iran in Indian Ocean, Iranian Oil Exports See Decrease",
       "[Task & Purpose] Navy veteran accused of trying to use crypto to send ISIS money for drone, RPG attack on US troops",
       "[USNI News] UPDATED: Navy IDs Sailor Killed in Saturday Shooting Aboard Carrier JFK",
       "[Defense News] US Navy F/A-18 Super Hornet strikes, disables oil tanker in Gulf of Oman",
-      "[USNI News] USNI News Fleet and Marine Tracker: June 8, 2026"
+      "[USNI News] USNI News Fleet and Marine Tracker: June 8, 2026",
+      "[USNI News] Carrier USS Theodore Roosevelt to Lead 2026 Rim of the Pacific Exercise"
     ]
   },
   "ground_intel": {
@@ -942,12 +942,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-06-10T10:45:08.804243+00:00",
+    "last_successful_update": "2026-06-10T14:13:02.349539+00:00",
     "article_count": 50,
     "categorized_count": 18,
-    "freshest_source": "USNI News",
-    "freshest_title": "U.S. Forces Interdict Ship Connected to Iran in Indian Ocean, Iranian Oil Exports See Decrease",
-    "freshest_published": "Fri, 05 Jun 2026 21:57:22 +0000"
+    "freshest_source": "Task & Purpose",
+    "freshest_title": "Navy veteran accused of trying to use crypto to send ISIS money for drone, RPG attack on US troops",
+    "freshest_published": "Mon, 08 Jun 2026 13:22:20 -0400"
   },
   "_firms_hotspots": []
 }
