@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-06-10T06:24:28Z",
-  "version": 1686,
+  "generated_utc": "2026-06-10T10:45:10Z",
+  "version": 1687,
   "breaking_alert": "USNI News: U.S. Forces Interdict Ship Connected to Iran in Indian Ocean, Iranian Oil Exports See Decrease",
   "naval_deployments": [
     {
@@ -924,7 +924,7 @@
     "conflict_articles": 9,
     "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-06-10T06:24:26.612784+00:00",
+    "computed_at": "2026-06-10T10:45:08.804203+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[USNI News] U.S. Forces Interdict Ship Connected to Iran in Indian Ocean, Iranian Oil Exports See Decrease",
@@ -942,7 +942,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-06-10T06:24:26.612840+00:00",
+    "last_successful_update": "2026-06-10T10:45:08.804243+00:00",
     "article_count": 50,
     "categorized_count": 18,
     "freshest_source": "USNI News",
