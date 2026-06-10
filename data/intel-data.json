@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-06-10T14:13:07Z",
-  "version": 1688,
+  "generated_utc": "2026-06-10T17:47:25Z",
+  "version": 1689,
   "breaking_alert": "Task & Purpose: Navy veteran accused of trying to use crypto to send ISIS money for drone, RPG attack on US troops",
   "naval_deployments": [
     {
@@ -623,16 +623,6 @@
       ]
     },
     {
-      "title": "The Army’s latest anti-drone tool fires missiles from a cargo container",
-      "link": "https://taskandpurpose.com/tech-tactics/army-grizzily-anti-drone-container/",
-      "published": "Sun, 07 Jun 2026 07:59:00 -0400",
-      "source": "Task & Purpose",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
       "title": "Trump says Iran shot down Apache helicopter, vows response",
       "link": "https://taskandpurpose.com/news/apache-crew-rescue-coast-oman/",
       "published": "Tue, 09 Jun 2026 13:32:24 -0400",
@@ -686,6 +676,16 @@
       "source": "USNI News",
       "categories": [
         "deployment"
+      ]
+    },
+    {
+      "title": "US launches new strikes on Iran after helicopter downed",
+      "link": "https://www.defensenews.com/news/your-military/2026/06/09/us-launches-new-strikes-on-iran-after-helicopter-downed/",
+      "published": "Tue, 09 Jun 2026 21:51:07 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment",
+        "conflict"
       ]
     }
   ],
@@ -860,30 +860,31 @@
       ]
     },
     {
-      "title": "US Navy F/A-18 Super Hornet strikes, disables oil tanker in Gulf of Oman",
-      "link": "https://www.defensenews.com/flashpoints/2026/06/08/us-navy-fa-18-super-hornet-strikes-disables-oil-tanker-in-gulf-of-oman/",
-      "published": "Mon, 08 Jun 2026 17:16:38 +0000",
+      "title": "Pentagon reveals preferred munitions for one-way attack drones",
+      "link": "https://www.defensenews.com/industry/techwatch/2026/06/09/pentagon-reveals-preferred-munitions-for-one-way-attack-drones/",
+      "published": "Tue, 09 Jun 2026 13:56:44 +0000",
       "source": "Defense News",
       "categories": [
         "conflict"
       ]
     },
     {
-      "title": "The Army’s latest anti-drone tool fires missiles from a cargo container",
-      "link": "https://taskandpurpose.com/tech-tactics/army-grizzily-anti-drone-container/",
-      "published": "Sun, 07 Jun 2026 07:59:00 -0400",
-      "source": "Task & Purpose",
+      "title": "German F125 frigates are to receive 32 Iris-T SLM Naval missiles",
+      "link": "https://www.navalnews.com/naval-news/2026/06/german-f125-frigates-are-to-receive-32-iris-t-slm-naval-missiles/",
+      "published": "Tue, 09 Jun 2026 18:55:37 +0000",
+      "source": "Naval News",
       "categories": [
         "deployment",
         "conflict"
       ]
     },
     {
-      "title": "Pentagon reveals preferred munitions for one-way attack drones",
-      "link": "https://www.defensenews.com/industry/techwatch/2026/06/09/pentagon-reveals-preferred-munitions-for-one-way-attack-drones/",
-      "published": "Tue, 09 Jun 2026 13:56:44 +0000",
+      "title": "US launches new strikes on Iran after helicopter downed",
+      "link": "https://www.defensenews.com/news/your-military/2026/06/09/us-launches-new-strikes-on-iran-after-helicopter-downed/",
+      "published": "Tue, 09 Jun 2026 21:51:07 +0000",
       "source": "Defense News",
       "categories": [
+        "deployment",
         "conflict"
       ]
     }
@@ -920,18 +921,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 13,
-    "conflict_articles": 9,
+    "deployment_articles": 12,
+    "conflict_articles": 6,
     "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-06-10T14:13:02.349493+00:00",
-    "manual_override": "DEFCON_2",
+    "computed_at": "2026-06-10T17:47:18.195533+00:00",
+    "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Task & Purpose] Navy veteran accused of trying to use crypto to send ISIS money for drone, RPG attack on US troops",
       "[USNI News] UPDATED: Navy IDs Sailor Killed in Saturday Shooting Aboard Carrier JFK",
-      "[Defense News] US Navy F/A-18 Super Hornet strikes, disables oil tanker in Gulf of Oman",
       "[USNI News] USNI News Fleet and Marine Tracker: June 8, 2026",
-      "[USNI News] Carrier USS Theodore Roosevelt to Lead 2026 Rim of the Pacific Exercise"
+      "[USNI News] Carrier USS Theodore Roosevelt to Lead 2026 Rim of the Pacific Exercise",
+      "[Task & Purpose] Trump says Iran shot down Apache helicopter, vows response"
     ]
   },
   "ground_intel": {
@@ -942,9 +943,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-06-10T14:13:02.349539+00:00",
+    "last_successful_update": "2026-06-10T17:47:18.195576+00:00",
     "article_count": 50,
-    "categorized_count": 18,
+    "categorized_count": 15,
     "freshest_source": "Task & Purpose",
     "freshest_title": "Navy veteran accused of trying to use crypto to send ISIS money for drone, RPG attack on US troops",
     "freshest_published": "Mon, 08 Jun 2026 13:22:20 -0400"
