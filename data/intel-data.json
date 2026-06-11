@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-06-11T09:58:25Z",
-  "version": 1694,
+  "generated_utc": "2026-06-11T13:55:19Z",
+  "version": 1695,
   "breaking_alert": "Task & Purpose: Navy veteran accused of trying to use crypto to send ISIS money for drone, RPG attack on US troops",
   "naval_deployments": [
     {
@@ -603,6 +603,15 @@
       ]
     },
     {
+      "title": "U.S. Pacific Fleet Chief Reviews New Naval Aviation Capabilities",
+      "link": "https://www.navalnews.com/naval-news/2026/06/u-s-pacific-fleet-chief-reviews-new-naval-aviation-capabilities/",
+      "published": "Thu, 11 Jun 2026 13:41:59 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "Trump says Iran shot down Apache helicopter, vows response",
       "link": "https://taskandpurpose.com/news/apache-crew-rescue-coast-oman/",
       "published": "Tue, 09 Jun 2026 13:32:24 -0400",
@@ -672,15 +681,6 @@
       "link": "https://www.militarytimes.com/news/your-military/2026/06/10/iraq-and-afghanistan-veterans-are-retiring-how-will-new-leaders-inherit-their-lessons-learned/",
       "published": "Wed, 10 Jun 2026 18:38:06 +0000",
       "source": "Military Times",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "US Navy stands up naval support activity in Western Australia",
-      "link": "https://www.defensenews.com/news/your-navy/2026/06/10/us-navy-stands-up-naval-support-activity-in-western-australia/",
-      "published": "Wed, 10 Jun 2026 19:06:50 +0000",
-      "source": "Defense News",
       "categories": [
         "deployment"
       ]
@@ -898,18 +898,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 14,
+    "deployment_articles": 15,
     "conflict_articles": 6,
     "exercise_articles": 1,
     "total_articles": 50,
-    "computed_at": "2026-06-11T09:58:19.299240+00:00",
+    "computed_at": "2026-06-11T13:55:17.192319+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Task & Purpose] Navy veteran accused of trying to use crypto to send ISIS money for drone, RPG attack on US troops",
       "[Naval News] Hanwha Ocean Selected for South Korea’s KDDX Destroyer Program",
+      "[Naval News] U.S. Pacific Fleet Chief Reviews New Naval Aviation Capabilities",
       "[Task & Purpose] Trump says Iran shot down Apache helicopter, vows response",
-      "[Defense News] Pentagon reveals preferred munitions for one-way attack drones",
-      "[USNI News] New 3rd Fleet Commander, Joint Staff Director Nominated"
+      "[Defense News] Pentagon reveals preferred munitions for one-way attack drones"
     ]
   },
   "ground_intel": {
@@ -920,9 +920,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-06-11T09:58:19.299286+00:00",
+    "last_successful_update": "2026-06-11T13:55:17.192365+00:00",
     "article_count": 50,
-    "categorized_count": 17,
+    "categorized_count": 18,
     "freshest_source": "Task & Purpose",
     "freshest_title": "Navy veteran accused of trying to use crypto to send ISIS money for drone, RPG attack on US troops",
     "freshest_published": "Mon, 08 Jun 2026 13:22:20 -0400"
