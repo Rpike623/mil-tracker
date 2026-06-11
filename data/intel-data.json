@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-06-11T17:30:30Z",
-  "version": 1696,
+  "generated_utc": "2026-06-11T20:05:14Z",
+  "version": 1697,
   "breaking_alert": "Naval News: Hanwha Ocean Selected for South Korea’s KDDX Destroyer Program",
   "naval_deployments": [
     {
@@ -612,10 +612,46 @@
       ]
     },
     {
+      "title": "The US would need at least 1,200 troops to take Kharg Island, experts say",
+      "link": "https://taskandpurpose.com/news/military-kharg-island-trump/",
+      "published": "Thu, 11 Jun 2026 15:21:18 -0400",
+      "source": "Task & Purpose",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "France Issues RFI for Future Collaborative Combat UAV with Carrier-Capable Focus",
       "link": "https://www.navalnews.com/naval-news/2026/06/france-issues-rfi-for-future-collaborative-combat-uav-with-carrier-capable-focus/",
       "published": "Thu, 11 Jun 2026 15:57:56 +0000",
       "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "In US Air Force first, commandos complete grueling Argentine mountain warfare course",
+      "link": "https://www.militarytimes.com/news/your-military/2026/06/11/in-us-air-force-first-commandos-complete-grueling-argentine-mountain-warfare-course/",
+      "published": "Thu, 11 Jun 2026 17:34:15 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Trump vows to seize Iran’s Kharg Island",
+      "link": "https://www.defensenews.com/news/pentagon-congress/2026/06/11/trump-vows-to-seize-irans-kharg-island/",
+      "published": "Thu, 11 Jun 2026 17:50:37 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Trump vows to seize Iran’s Kharg Island",
+      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/06/11/trump-vows-to-seize-irans-kharg-island/",
+      "published": "Thu, 11 Jun 2026 17:50:37 +0000",
+      "source": "Military Times",
       "categories": [
         "deployment"
       ]
@@ -643,43 +679,6 @@
       "link": "https://www.navalnews.com/naval-news/2026/06/saronic-usv-rescues-two-u-s-army-pilots-downed-by-iran/",
       "published": "Tue, 09 Jun 2026 20:49:53 +0000",
       "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Upcoming U.S. Depot in the Philippines to Support Fueling of Navy Destroyers, Combat Logistics Force Ships",
-      "link": "https://news.usni.org/2026/06/09/upcoming-u-s-depot-in-the-philippines-to-support-fueling-of-navy-destroyers-combat-logistics-force-ships",
-      "published": "Tue, 09 Jun 2026 21:31:22 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "US launches new strikes on Iran after helicopter downed",
-      "link": "https://www.defensenews.com/news/your-military/2026/06/09/us-launches-new-strikes-on-iran-after-helicopter-downed/",
-      "published": "Tue, 09 Jun 2026 21:51:07 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
-      "title": "German air show opens under shadow of Iran war, fighter project collapse",
-      "link": "https://www.defensenews.com/global/europe/2026/06/10/german-air-show-opens-under-shadow-of-iran-war-fighter-project-collapse/",
-      "published": "Wed, 10 Jun 2026 13:21:24 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "US Navy stands up naval support activity in Western Australia",
-      "link": "https://www.defensenews.com/news/your-navy/2026/06/10/us-navy-stands-up-naval-support-activity-in-western-australia/",
-      "published": "Wed, 10 Jun 2026 19:06:50 +0000",
-      "source": "Defense News",
       "categories": [
         "deployment"
       ]
@@ -837,16 +836,6 @@
   },
   "_conflict_news_refs": [
     {
-      "title": "US launches new strikes on Iran after helicopter downed",
-      "link": "https://www.defensenews.com/news/your-military/2026/06/09/us-launches-new-strikes-on-iran-after-helicopter-downed/",
-      "published": "Tue, 09 Jun 2026 21:51:07 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
       "title": "New Look at America’s Next Ballistic Missile Submarine",
       "link": "https://www.navalnews.com/naval-news/2026/06/new-look-at-americas-next-ballistic-missile-submarine/",
       "published": "Wed, 10 Jun 2026 20:39:42 +0000",
@@ -879,18 +868,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 14,
-    "conflict_articles": 3,
+    "deployment_articles": 16,
+    "conflict_articles": 2,
     "exercise_articles": 1,
     "total_articles": 50,
-    "computed_at": "2026-06-11T17:30:27.955332+00:00",
+    "computed_at": "2026-06-11T20:05:09.622969+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] Hanwha Ocean Selected for South Korea’s KDDX Destroyer Program",
       "[Naval News] U.S. Pacific Fleet Chief Reviews New Naval Aviation Capabilities",
+      "[Task & Purpose] The US would need at least 1,200 troops to take Kharg Island, experts say",
       "[Naval News] France Issues RFI for Future Collaborative Combat UAV with Carrier-Capable Focus",
-      "[Task & Purpose] Trump says Iran shot down Apache helicopter, vows response",
-      "[USNI News] New 3rd Fleet Commander, Joint Staff Director Nominated"
+      "[Military Times] In US Air Force first, commandos complete grueling Argentine mountain warfare course"
     ]
   },
   "ground_intel": {
@@ -901,9 +890,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-06-11T17:30:27.955379+00:00",
+    "last_successful_update": "2026-06-11T20:05:09.623017+00:00",
     "article_count": 50,
-    "categorized_count": 15,
+    "categorized_count": 17,
     "freshest_source": "Naval News",
     "freshest_title": "Hanwha Ocean Selected for South Korea’s KDDX Destroyer Program",
     "freshest_published": "Thu, 11 Jun 2026 09:38:40 +0000"
