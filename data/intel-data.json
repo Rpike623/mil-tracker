@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-06-11T20:05:14Z",
-  "version": 1697,
+  "generated_utc": "2026-06-11T22:44:22Z",
+  "version": 1698,
   "breaking_alert": "Naval News: Hanwha Ocean Selected for South Korea’s KDDX Destroyer Program",
   "naval_deployments": [
     {
@@ -657,19 +657,20 @@
       ]
     },
     {
+      "title": "U.S. Disables 3 Tankers As Part of Iranian Blockade, 3 Mariners Killed in Tuesday Strike",
+      "link": "https://news.usni.org/2026/06/11/u-s-disables-3-tankers-as-part-of-iranian-blockade-3-mariners-killed-in-tuesday-strike",
+      "published": "Thu, 11 Jun 2026 22:13:36 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
+    },
+    {
       "title": "Trump says Iran shot down Apache helicopter, vows response",
       "link": "https://taskandpurpose.com/news/apache-crew-rescue-coast-oman/",
       "published": "Tue, 09 Jun 2026 13:32:24 -0400",
       "source": "Task & Purpose",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "New 3rd Fleet Commander, Joint Staff Director Nominated",
-      "link": "https://news.usni.org/2026/06/09/new-3rd-fleet-commander-joint-staff-director-nominated",
-      "published": "Tue, 09 Jun 2026 16:35:03 +0000",
-      "source": "USNI News",
       "categories": [
         "deployment"
       ]
@@ -836,6 +837,26 @@
   },
   "_conflict_news_refs": [
     {
+      "title": "U.S. Disables 3 Tankers As Part of Iranian Blockade, 3 Mariners Killed in Tuesday Strike",
+      "link": "https://news.usni.org/2026/06/11/u-s-disables-3-tankers-as-part-of-iranian-blockade-3-mariners-killed-in-tuesday-strike",
+      "published": "Thu, 11 Jun 2026 22:13:36 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
+    },
+    {
+      "title": "Taiwan Tests HIMARS Missiles on Island’s West Coast in Major Live-fire Drills",
+      "link": "https://news.usni.org/2026/06/11/taiwan-tests-himars-missiles-on-islands-west-coast-in-major-live-fire-drills",
+      "published": "Thu, 11 Jun 2026 22:21:54 +0000",
+      "source": "USNI News",
+      "categories": [
+        "exercise",
+        "conflict"
+      ]
+    },
+    {
       "title": "New Look at America’s Next Ballistic Missile Submarine",
       "link": "https://www.navalnews.com/naval-news/2026/06/new-look-at-americas-next-ballistic-missile-submarine/",
       "published": "Wed, 10 Jun 2026 20:39:42 +0000",
@@ -858,6 +879,16 @@
   ],
   "_exercise_news_refs": [
     {
+      "title": "Taiwan Tests HIMARS Missiles on Island’s West Coast in Major Live-fire Drills",
+      "link": "https://news.usni.org/2026/06/11/taiwan-tests-himars-missiles-on-islands-west-coast-in-major-live-fire-drills",
+      "published": "Thu, 11 Jun 2026 22:21:54 +0000",
+      "source": "USNI News",
+      "categories": [
+        "exercise",
+        "conflict"
+      ]
+    },
+    {
       "title": "BALTOPS 2026 Exercise Begins",
       "link": "https://news.usni.org/2026/06/10/baltops-2026-exercise-begins",
       "published": "Wed, 10 Jun 2026 21:14:40 +0000",
@@ -869,10 +900,10 @@
   ],
   "_threat_indicators": {
     "deployment_articles": 16,
-    "conflict_articles": 2,
-    "exercise_articles": 1,
+    "conflict_articles": 4,
+    "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-06-11T20:05:09.622969+00:00",
+    "computed_at": "2026-06-11T22:44:11.788744+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] Hanwha Ocean Selected for South Korea’s KDDX Destroyer Program",
@@ -890,9 +921,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-06-11T20:05:09.623017+00:00",
+    "last_successful_update": "2026-06-11T22:44:11.788789+00:00",
     "article_count": 50,
-    "categorized_count": 17,
+    "categorized_count": 18,
     "freshest_source": "Naval News",
     "freshest_title": "Hanwha Ocean Selected for South Korea’s KDDX Destroyer Program",
     "freshest_published": "Thu, 11 Jun 2026 09:38:40 +0000"
