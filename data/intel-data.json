@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-06-11T13:55:19Z",
-  "version": 1695,
-  "breaking_alert": "Task & Purpose: Navy veteran accused of trying to use crypto to send ISIS money for drone, RPG attack on US troops",
+  "generated_utc": "2026-06-11T17:30:30Z",
+  "version": 1696,
+  "breaking_alert": "Naval News: Hanwha Ocean Selected for South Korea’s KDDX Destroyer Program",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -612,6 +612,15 @@
       ]
     },
     {
+      "title": "France Issues RFI for Future Collaborative Combat UAV with Carrier-Capable Focus",
+      "link": "https://www.navalnews.com/naval-news/2026/06/france-issues-rfi-for-future-collaborative-combat-uav-with-carrier-capable-focus/",
+      "published": "Thu, 11 Jun 2026 15:57:56 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "Trump says Iran shot down Apache helicopter, vows response",
       "link": "https://taskandpurpose.com/news/apache-crew-rescue-coast-oman/",
       "published": "Tue, 09 Jun 2026 13:32:24 -0400",
@@ -627,16 +636,6 @@
       "source": "USNI News",
       "categories": [
         "deployment"
-      ]
-    },
-    {
-      "title": "German F125 frigates are to receive 32 Iris-T SLM Naval missiles",
-      "link": "https://www.navalnews.com/naval-news/2026/06/german-f125-frigates-are-to-receive-32-iris-t-slm-naval-missiles/",
-      "published": "Tue, 09 Jun 2026 18:55:37 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment",
-        "conflict"
       ]
     },
     {
@@ -677,10 +676,10 @@
       ]
     },
     {
-      "title": "Iraq and Afghanistan veterans are retiring. How will new leaders inherit their lessons learned?",
-      "link": "https://www.militarytimes.com/news/your-military/2026/06/10/iraq-and-afghanistan-veterans-are-retiring-how-will-new-leaders-inherit-their-lessons-learned/",
-      "published": "Wed, 10 Jun 2026 18:38:06 +0000",
-      "source": "Military Times",
+      "title": "US Navy stands up naval support activity in Western Australia",
+      "link": "https://www.defensenews.com/news/your-navy/2026/06/10/us-navy-stands-up-naval-support-activity-in-western-australia/",
+      "published": "Wed, 10 Jun 2026 19:06:50 +0000",
+      "source": "Defense News",
       "categories": [
         "deployment"
       ]
@@ -838,34 +837,6 @@
   },
   "_conflict_news_refs": [
     {
-      "title": "Navy veteran accused of trying to use crypto to send ISIS money for drone, RPG attack on US troops",
-      "link": "https://taskandpurpose.com/news/navy-veteran-isis-arrest/",
-      "published": "Mon, 08 Jun 2026 13:22:20 -0400",
-      "source": "Task & Purpose",
-      "categories": [
-        "conflict"
-      ]
-    },
-    {
-      "title": "Pentagon reveals preferred munitions for one-way attack drones",
-      "link": "https://www.defensenews.com/industry/techwatch/2026/06/09/pentagon-reveals-preferred-munitions-for-one-way-attack-drones/",
-      "published": "Tue, 09 Jun 2026 13:56:44 +0000",
-      "source": "Defense News",
-      "categories": [
-        "conflict"
-      ]
-    },
-    {
-      "title": "German F125 frigates are to receive 32 Iris-T SLM Naval missiles",
-      "link": "https://www.navalnews.com/naval-news/2026/06/german-f125-frigates-are-to-receive-32-iris-t-slm-naval-missiles/",
-      "published": "Tue, 09 Jun 2026 18:55:37 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
       "title": "US launches new strikes on Iran after helicopter downed",
       "link": "https://www.defensenews.com/news/your-military/2026/06/09/us-launches-new-strikes-on-iran-after-helicopter-downed/",
       "published": "Tue, 09 Jun 2026 21:51:07 +0000",
@@ -884,6 +855,16 @@
         "deployment",
         "conflict"
       ]
+    },
+    {
+      "title": "Taiwanese Forces Deploy American-made Attack Drones Against Maritime Targets",
+      "link": "https://news.usni.org/2026/06/10/taiwanese-forces-deploy-american-made-attack-drones-against-maritime-targets",
+      "published": "Wed, 10 Jun 2026 22:14:43 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
     }
   ],
   "_exercise_news_refs": [
@@ -898,18 +879,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 15,
-    "conflict_articles": 6,
+    "deployment_articles": 14,
+    "conflict_articles": 3,
     "exercise_articles": 1,
     "total_articles": 50,
-    "computed_at": "2026-06-11T13:55:17.192319+00:00",
+    "computed_at": "2026-06-11T17:30:27.955332+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
-      "[Task & Purpose] Navy veteran accused of trying to use crypto to send ISIS money for drone, RPG attack on US troops",
       "[Naval News] Hanwha Ocean Selected for South Korea’s KDDX Destroyer Program",
       "[Naval News] U.S. Pacific Fleet Chief Reviews New Naval Aviation Capabilities",
+      "[Naval News] France Issues RFI for Future Collaborative Combat UAV with Carrier-Capable Focus",
       "[Task & Purpose] Trump says Iran shot down Apache helicopter, vows response",
-      "[Defense News] Pentagon reveals preferred munitions for one-way attack drones"
+      "[USNI News] New 3rd Fleet Commander, Joint Staff Director Nominated"
     ]
   },
   "ground_intel": {
@@ -920,12 +901,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-06-11T13:55:17.192365+00:00",
+    "last_successful_update": "2026-06-11T17:30:27.955379+00:00",
     "article_count": 50,
-    "categorized_count": 18,
-    "freshest_source": "Task & Purpose",
-    "freshest_title": "Navy veteran accused of trying to use crypto to send ISIS money for drone, RPG attack on US troops",
-    "freshest_published": "Mon, 08 Jun 2026 13:22:20 -0400"
+    "categorized_count": 15,
+    "freshest_source": "Naval News",
+    "freshest_title": "Hanwha Ocean Selected for South Korea’s KDDX Destroyer Program",
+    "freshest_published": "Thu, 11 Jun 2026 09:38:40 +0000"
   },
   "_firms_hotspots": []
 }
