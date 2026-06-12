@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-06-12T12:45:58Z",
-  "version": 1702,
+  "generated_utc": "2026-06-12T16:08:24Z",
+  "version": 1703,
   "breaking_alert": "Naval News: French DGA commissions MBDA to develop ASN4G hypersonic missile",
   "naval_deployments": [
     {
@@ -594,6 +594,15 @@
   ],
   "_naval_news_refs": [
     {
+      "title": "Navy Wants Sailors to Do Less Supplemental Work on USS Harry S. Truman Overhaul",
+      "link": "https://news.usni.org/2026/06/12/navy-wants-sailors-to-do-less-supplemental-work-on-uss-harry-s-truman-overhaul",
+      "published": "Fri, 12 Jun 2026 15:14:07 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "Hanwha Ocean Selected for South Korea’s KDDX Destroyer Program",
       "link": "https://www.navalnews.com/naval-news/2026/06/hanwha-ocean-selected-for-south-koreas-kddx-destroyer-program/",
       "published": "Thu, 11 Jun 2026 09:38:40 +0000",
@@ -671,15 +680,6 @@
       "link": "https://news.usni.org/2026/06/09/upcoming-u-s-depot-in-the-philippines-to-support-fueling-of-navy-destroyers-combat-logistics-force-ships",
       "published": "Tue, 09 Jun 2026 21:31:22 +0000",
       "source": "USNI News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "US Navy stands up naval support activity in Western Australia",
-      "link": "https://www.defensenews.com/news/your-navy/2026/06/10/us-navy-stands-up-naval-support-activity-in-western-australia/",
-      "published": "Wed, 10 Jun 2026 19:06:50 +0000",
-      "source": "Defense News",
       "categories": [
         "deployment"
       ]
@@ -866,16 +866,6 @@
       ]
     },
     {
-      "title": "New Look at America’s Next Ballistic Missile Submarine",
-      "link": "https://www.navalnews.com/naval-news/2026/06/new-look-at-americas-next-ballistic-missile-submarine/",
-      "published": "Wed, 10 Jun 2026 20:39:42 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
       "title": "Taiwanese Forces Deploy American-made Attack Drones Against Maritime Targets",
       "link": "https://news.usni.org/2026/06/10/taiwanese-forces-deploy-american-made-attack-drones-against-maritime-targets",
       "published": "Wed, 10 Jun 2026 22:14:43 +0000",
@@ -887,6 +877,24 @@
     }
   ],
   "_exercise_news_refs": [
+    {
+      "title": "US plans major cut to jets, warships for NATO operations in Europe, NYT reports",
+      "link": "https://www.defensenews.com/pentagon/2026/06/12/us-plans-major-cut-to-jets-warships-for-nato-operations-in-europe-nyt-reports/",
+      "published": "Fri, 12 Jun 2026 13:05:31 +0000",
+      "source": "Defense News",
+      "categories": [
+        "exercise"
+      ]
+    },
+    {
+      "title": "US plans major cut to jets, warships for NATO operations in Europe, NYT reports",
+      "link": "https://www.militarytimes.com/pentagon/2026/06/12/us-plans-major-cut-to-jets-warships-for-nato-operations-in-europe-nyt-reports/",
+      "published": "Fri, 12 Jun 2026 13:05:31 +0000",
+      "source": "Military Times",
+      "categories": [
+        "exercise"
+      ]
+    },
     {
       "title": "Taiwan Tests HIMARS Missiles on Island’s West Coast in Major Live-fire Drills",
       "link": "https://news.usni.org/2026/06/11/taiwan-tests-himars-missiles-on-islands-west-coast-in-major-live-fire-drills",
@@ -909,17 +917,17 @@
   ],
   "_threat_indicators": {
     "deployment_articles": 13,
-    "conflict_articles": 5,
-    "exercise_articles": 2,
+    "conflict_articles": 4,
+    "exercise_articles": 4,
     "total_articles": 50,
-    "computed_at": "2026-06-12T12:45:53.097756+00:00",
+    "computed_at": "2026-06-12T16:08:22.292308+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] French DGA commissions MBDA to develop ASN4G hypersonic missile",
-      "[Naval News] Hanwha Ocean Selected for South Korea’s KDDX Destroyer Program",
-      "[Naval News] U.S. Pacific Fleet Chief Reviews New Naval Aviation Capabilities",
-      "[Task & Purpose] The US would need at least 1,200 troops to take Kharg Island, experts say",
-      "[Military Times] In US Air Force first, commandos complete grueling Argentine mountain warfare course"
+      "[Defense News] US plans major cut to jets, warships for NATO operations in Europe, NYT reports",
+      "[Military Times] US plans major cut to jets, warships for NATO operations in Europe, NYT reports",
+      "[USNI News] Navy Wants Sailors to Do Less Supplemental Work on USS Harry S. Truman Overhaul",
+      "[Naval News] Hanwha Ocean Selected for South Korea’s KDDX Destroyer Program"
     ]
   },
   "ground_intel": {
@@ -930,9 +938,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-06-12T12:45:53.097795+00:00",
+    "last_successful_update": "2026-06-12T16:08:22.292355+00:00",
     "article_count": 50,
-    "categorized_count": 16,
+    "categorized_count": 18,
     "freshest_source": "Naval News",
     "freshest_title": "French DGA commissions MBDA to develop ASN4G hypersonic missile",
     "freshest_published": "Fri, 12 Jun 2026 08:02:22 +0000"
