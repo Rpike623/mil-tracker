@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-06-12T18:55:19Z",
-  "version": 1704,
+  "generated_utc": "2026-06-12T20:58:28Z",
+  "version": 1705,
   "breaking_alert": "Naval News: French DGA commissions MBDA to develop ASN4G hypersonic missile",
   "naval_deployments": [
     {
@@ -676,10 +676,10 @@
       ]
     },
     {
-      "title": "Upcoming U.S. Depot in the Philippines to Support Fueling of Navy Destroyers, Combat Logistics Force Ships",
-      "link": "https://news.usni.org/2026/06/09/upcoming-u-s-depot-in-the-philippines-to-support-fueling-of-navy-destroyers-combat-logistics-force-ships",
-      "published": "Tue, 09 Jun 2026 21:31:22 +0000",
-      "source": "USNI News",
+      "title": "US Navy stands up naval support activity in Western Australia",
+      "link": "https://www.defensenews.com/news/your-navy/2026/06/10/us-navy-stands-up-naval-support-activity-in-western-australia/",
+      "published": "Wed, 10 Jun 2026 19:06:50 +0000",
+      "source": "Defense News",
       "categories": [
         "deployment"
       ]
@@ -916,11 +916,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 13,
+    "deployment_articles": 12,
     "conflict_articles": 4,
     "exercise_articles": 4,
     "total_articles": 50,
-    "computed_at": "2026-06-12T18:55:17.511487+00:00",
+    "computed_at": "2026-06-12T20:58:22.675195+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] French DGA commissions MBDA to develop ASN4G hypersonic missile",
@@ -938,9 +938,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-06-12T18:55:17.511536+00:00",
+    "last_successful_update": "2026-06-12T20:58:22.675241+00:00",
     "article_count": 50,
-    "categorized_count": 18,
+    "categorized_count": 17,
     "freshest_source": "Naval News",
     "freshest_title": "French DGA commissions MBDA to develop ASN4G hypersonic missile",
     "freshest_published": "Fri, 12 Jun 2026 08:02:22 +0000"
