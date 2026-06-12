@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-06-12T09:50:50Z",
-  "version": 1701,
+  "generated_utc": "2026-06-12T12:45:58Z",
+  "version": 1702,
   "breaking_alert": "Naval News: French DGA commissions MBDA to develop ASN4G hypersonic missile",
   "naval_deployments": [
     {
@@ -676,9 +676,9 @@
       ]
     },
     {
-      "title": "German air show opens under shadow of Iran war, fighter project collapse",
-      "link": "https://www.defensenews.com/global/europe/2026/06/10/german-air-show-opens-under-shadow-of-iran-war-fighter-project-collapse/",
-      "published": "Wed, 10 Jun 2026 13:21:24 +0000",
+      "title": "US Navy stands up naval support activity in Western Australia",
+      "link": "https://www.defensenews.com/news/your-navy/2026/06/10/us-navy-stands-up-naval-support-activity-in-western-australia/",
+      "published": "Wed, 10 Jun 2026 19:06:50 +0000",
       "source": "Defense News",
       "categories": [
         "deployment"
@@ -908,11 +908,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 14,
+    "deployment_articles": 13,
     "conflict_articles": 5,
     "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-06-12T09:50:47.833125+00:00",
+    "computed_at": "2026-06-12T12:45:53.097756+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] French DGA commissions MBDA to develop ASN4G hypersonic missile",
@@ -930,9 +930,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-06-12T09:50:47.833171+00:00",
+    "last_successful_update": "2026-06-12T12:45:53.097795+00:00",
     "article_count": 50,
-    "categorized_count": 17,
+    "categorized_count": 16,
     "freshest_source": "Naval News",
     "freshest_title": "French DGA commissions MBDA to develop ASN4G hypersonic missile",
     "freshest_published": "Fri, 12 Jun 2026 08:02:22 +0000"
