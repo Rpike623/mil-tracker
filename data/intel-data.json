@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-06-11T22:44:22Z",
-  "version": 1698,
+  "generated_utc": "2026-06-12T00:11:47Z",
+  "version": 1699,
   "breaking_alert": "Naval News: Hanwha Ocean Selected for South Korea’s KDDX Destroyer Program",
   "naval_deployments": [
     {
@@ -903,7 +903,7 @@
     "conflict_articles": 4,
     "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-06-11T22:44:11.788744+00:00",
+    "computed_at": "2026-06-12T00:11:35.797656+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] Hanwha Ocean Selected for South Korea’s KDDX Destroyer Program",
@@ -921,7 +921,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-06-11T22:44:11.788789+00:00",
+    "last_successful_update": "2026-06-12T00:11:35.797704+00:00",
     "article_count": 50,
     "categorized_count": 18,
     "freshest_source": "Naval News",
