@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-06-12T20:58:28Z",
-  "version": 1705,
+  "generated_utc": "2026-06-12T22:21:24Z",
+  "version": 1706,
   "breaking_alert": "Naval News: French DGA commissions MBDA to develop ASN4G hypersonic missile",
   "naval_deployments": [
     {
@@ -639,15 +639,6 @@
       ]
     },
     {
-      "title": "In US Air Force first, commandos complete grueling Argentine mountain warfare course",
-      "link": "https://www.militarytimes.com/news/your-military/2026/06/11/in-us-air-force-first-commandos-complete-grueling-argentine-mountain-warfare-course/",
-      "published": "Thu, 11 Jun 2026 17:34:15 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Trump vows to seize Iran’s Kharg Island",
       "link": "https://www.defensenews.com/news/pentagon-congress/2026/06/11/trump-vows-to-seize-irans-kharg-island/",
       "published": "Thu, 11 Jun 2026 17:50:37 +0000",
@@ -676,12 +667,22 @@
       ]
     },
     {
-      "title": "US Navy stands up naval support activity in Western Australia",
-      "link": "https://www.defensenews.com/news/your-navy/2026/06/10/us-navy-stands-up-naval-support-activity-in-western-australia/",
-      "published": "Wed, 10 Jun 2026 19:06:50 +0000",
-      "source": "Defense News",
+      "title": "Sailors Involved in JFK Shooting Were Part of Carrier’s In-Port Security Force",
+      "link": "https://news.usni.org/2026/06/10/sailors-involved-in-jfk-shooting-were-part-of-carriers-in-port-security-force",
+      "published": "Wed, 10 Jun 2026 19:27:53 +0000",
+      "source": "USNI News",
       "categories": [
         "deployment"
+      ]
+    },
+    {
+      "title": "Taiwanese Forces Deploy American-made Attack Drones Against Maritime Targets",
+      "link": "https://news.usni.org/2026/06/10/taiwanese-forces-deploy-american-made-attack-drones-against-maritime-targets",
+      "published": "Wed, 10 Jun 2026 22:14:43 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment",
+        "conflict"
       ]
     }
   ],
@@ -916,11 +917,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 12,
+    "deployment_articles": 10,
     "conflict_articles": 4,
     "exercise_articles": 4,
     "total_articles": 50,
-    "computed_at": "2026-06-12T20:58:22.675195+00:00",
+    "computed_at": "2026-06-12T22:21:22.029833+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] French DGA commissions MBDA to develop ASN4G hypersonic missile",
@@ -938,9 +939,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-06-12T20:58:22.675241+00:00",
+    "last_successful_update": "2026-06-12T22:21:22.029882+00:00",
     "article_count": 50,
-    "categorized_count": 17,
+    "categorized_count": 15,
     "freshest_source": "Naval News",
     "freshest_title": "French DGA commissions MBDA to develop ASN4G hypersonic missile",
     "freshest_published": "Fri, 12 Jun 2026 08:02:22 +0000"
