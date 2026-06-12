@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-06-12T05:22:53Z",
-  "version": 1700,
-  "breaking_alert": "Naval News: Hanwha Ocean Selected for South Korea’s KDDX Destroyer Program",
+  "generated_utc": "2026-06-12T09:50:50Z",
+  "version": 1701,
+  "breaking_alert": "Naval News: French DGA commissions MBDA to develop ASN4G hypersonic missile",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -621,15 +621,6 @@
       ]
     },
     {
-      "title": "France Issues RFI for Future Collaborative Combat UAV with Carrier-Capable Focus",
-      "link": "https://www.navalnews.com/naval-news/2026/06/france-issues-rfi-for-future-collaborative-combat-uav-with-carrier-capable-focus/",
-      "published": "Thu, 11 Jun 2026 15:57:56 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "In US Air Force first, commandos complete grueling Argentine mountain warfare course",
       "link": "https://www.militarytimes.com/news/your-military/2026/06/11/in-us-air-force-first-commandos-complete-grueling-argentine-mountain-warfare-course/",
       "published": "Thu, 11 Jun 2026 17:34:15 +0000",
@@ -676,10 +667,19 @@
       ]
     },
     {
-      "title": "Saronic USV Rescues Two U.S. Army Pilots Downed by Iran",
-      "link": "https://www.navalnews.com/naval-news/2026/06/saronic-usv-rescues-two-u-s-army-pilots-downed-by-iran/",
-      "published": "Tue, 09 Jun 2026 20:49:53 +0000",
-      "source": "Naval News",
+      "title": "Upcoming U.S. Depot in the Philippines to Support Fueling of Navy Destroyers, Combat Logistics Force Ships",
+      "link": "https://news.usni.org/2026/06/09/upcoming-u-s-depot-in-the-philippines-to-support-fueling-of-navy-destroyers-combat-logistics-force-ships",
+      "published": "Tue, 09 Jun 2026 21:31:22 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "German air show opens under shadow of Iran war, fighter project collapse",
+      "link": "https://www.defensenews.com/global/europe/2026/06/10/german-air-show-opens-under-shadow-of-iran-war-fighter-project-collapse/",
+      "published": "Wed, 10 Jun 2026 13:21:24 +0000",
+      "source": "Defense News",
       "categories": [
         "deployment"
       ]
@@ -837,6 +837,15 @@
   },
   "_conflict_news_refs": [
     {
+      "title": "French DGA commissions MBDA to develop ASN4G hypersonic missile",
+      "link": "https://www.navalnews.com/naval-news/2026/06/french-dga-commissions-mbda-to-develop-asn4g-hypersonic-missile/",
+      "published": "Fri, 12 Jun 2026 08:02:22 +0000",
+      "source": "Naval News",
+      "categories": [
+        "conflict"
+      ]
+    },
+    {
       "title": "U.S. Disables 3 Tankers As Part of Iranian Blockade, 3 Mariners Killed in Tuesday Strike",
       "link": "https://news.usni.org/2026/06/11/u-s-disables-3-tankers-as-part-of-iranian-blockade-3-mariners-killed-in-tuesday-strike",
       "published": "Thu, 11 Jun 2026 22:13:36 +0000",
@@ -899,17 +908,17 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 16,
-    "conflict_articles": 4,
+    "deployment_articles": 14,
+    "conflict_articles": 5,
     "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-06-12T05:22:50.250123+00:00",
+    "computed_at": "2026-06-12T09:50:47.833125+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
+      "[Naval News] French DGA commissions MBDA to develop ASN4G hypersonic missile",
       "[Naval News] Hanwha Ocean Selected for South Korea’s KDDX Destroyer Program",
       "[Naval News] U.S. Pacific Fleet Chief Reviews New Naval Aviation Capabilities",
       "[Task & Purpose] The US would need at least 1,200 troops to take Kharg Island, experts say",
-      "[Naval News] France Issues RFI for Future Collaborative Combat UAV with Carrier-Capable Focus",
       "[Military Times] In US Air Force first, commandos complete grueling Argentine mountain warfare course"
     ]
   },
@@ -921,12 +930,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-06-12T05:22:50.250168+00:00",
+    "last_successful_update": "2026-06-12T09:50:47.833171+00:00",
     "article_count": 50,
-    "categorized_count": 18,
+    "categorized_count": 17,
     "freshest_source": "Naval News",
-    "freshest_title": "Hanwha Ocean Selected for South Korea’s KDDX Destroyer Program",
-    "freshest_published": "Thu, 11 Jun 2026 09:38:40 +0000"
+    "freshest_title": "French DGA commissions MBDA to develop ASN4G hypersonic missile",
+    "freshest_published": "Fri, 12 Jun 2026 08:02:22 +0000"
   },
   "_firms_hotspots": []
 }
