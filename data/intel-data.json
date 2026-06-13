@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-06-13T00:09:59Z",
-  "version": 1707,
+  "generated_utc": "2026-06-13T05:11:53Z",
+  "version": 1708,
   "breaking_alert": "Naval News: French DGA commissions MBDA to develop ASN4G hypersonic missile",
   "naval_deployments": [
     {
@@ -847,6 +847,15 @@
       ]
     },
     {
+      "title": "Head of Tren de Aragua gang killed in US strike in Venezuela, Trump says",
+      "link": "https://taskandpurpose.com/news/us-strike-venezuela-tren-de-aragua/",
+      "published": "Fri, 12 Jun 2026 22:37:31 -0400",
+      "source": "Task & Purpose",
+      "categories": [
+        "conflict"
+      ]
+    },
+    {
       "title": "U.S. Disables 3 Tankers As Part of Iranian Blockade, 3 Mariners Killed in Tuesday Strike",
       "link": "https://news.usni.org/2026/06/11/u-s-disables-3-tankers-as-part-of-iranian-blockade-3-mariners-killed-in-tuesday-strike",
       "published": "Thu, 11 Jun 2026 22:13:36 +0000",
@@ -918,10 +927,10 @@
   ],
   "_threat_indicators": {
     "deployment_articles": 10,
-    "conflict_articles": 4,
+    "conflict_articles": 5,
     "exercise_articles": 4,
     "total_articles": 50,
-    "computed_at": "2026-06-13T00:09:56.177364+00:00",
+    "computed_at": "2026-06-13T05:11:51.655976+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] French DGA commissions MBDA to develop ASN4G hypersonic missile",
@@ -939,9 +948,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-06-13T00:09:56.177410+00:00",
+    "last_successful_update": "2026-06-13T05:11:51.656025+00:00",
     "article_count": 50,
-    "categorized_count": 15,
+    "categorized_count": 16,
     "freshest_source": "Naval News",
     "freshest_title": "French DGA commissions MBDA to develop ASN4G hypersonic missile",
     "freshest_published": "Fri, 12 Jun 2026 08:02:22 +0000"
