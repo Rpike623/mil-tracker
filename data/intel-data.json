@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-06-13T13:17:15Z",
-  "version": 1711,
+  "generated_utc": "2026-06-13T15:23:20Z",
+  "version": 1712,
   "breaking_alert": "Naval News: French DGA commissions MBDA to develop ASN4G hypersonic missile",
   "naval_deployments": [
     {
@@ -905,6 +905,15 @@
       ]
     },
     {
+      "title": "US to cut fighters, warships from NATO mission in Europe",
+      "link": "https://taskandpurpose.com/news/us-cuts-fighters-warships-nato-europe/",
+      "published": "Sat, 13 Jun 2026 11:20:03 -0400",
+      "source": "Task & Purpose",
+      "categories": [
+        "exercise"
+      ]
+    },
+    {
       "title": "Taiwan Tests HIMARS Missiles on Island’s West Coast in Major Live-fire Drills",
       "link": "https://news.usni.org/2026/06/11/taiwan-tests-himars-missiles-on-islands-west-coast-in-major-live-fire-drills",
       "published": "Thu, 11 Jun 2026 22:21:54 +0000",
@@ -927,9 +936,9 @@
   "_threat_indicators": {
     "deployment_articles": 11,
     "conflict_articles": 5,
-    "exercise_articles": 4,
+    "exercise_articles": 5,
     "total_articles": 50,
-    "computed_at": "2026-06-13T13:17:13.256441+00:00",
+    "computed_at": "2026-06-13T15:23:14.541914+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] French DGA commissions MBDA to develop ASN4G hypersonic missile",
@@ -947,9 +956,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-06-13T13:17:13.256489+00:00",
+    "last_successful_update": "2026-06-13T15:23:14.541959+00:00",
     "article_count": 50,
-    "categorized_count": 17,
+    "categorized_count": 18,
     "freshest_source": "Naval News",
     "freshest_title": "French DGA commissions MBDA to develop ASN4G hypersonic missile",
     "freshest_published": "Fri, 12 Jun 2026 08:02:22 +0000"
