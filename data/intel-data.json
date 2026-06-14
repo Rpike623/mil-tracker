@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-06-14T22:01:47Z",
-  "version": 1726,
+  "generated_utc": "2026-06-14T23:57:40Z",
+  "version": 1727,
   "breaking_alert": "Naval News: French DGA commissions MBDA to develop ASN4G hypersonic missile",
   "naval_deployments": [
     {
@@ -621,6 +621,15 @@
       ]
     },
     {
+      "title": "US to lift Strait of Hormuz blockade as peace agreement with Iran reached",
+      "link": "https://taskandpurpose.com/news/us-iran-deal-blockade-strait-of-hormuz/",
+      "published": "Sun, 14 Jun 2026 18:43:52 -0400",
+      "source": "Task & Purpose",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "Hanwha Ocean Selected for South Korea’s KDDX Destroyer Program",
       "link": "https://www.navalnews.com/naval-news/2026/06/hanwha-ocean-selected-for-south-koreas-kddx-destroyer-program/",
       "published": "Thu, 11 Jun 2026 09:38:40 +0000",
@@ -673,16 +682,6 @@
       "source": "USNI News",
       "categories": [
         "deployment"
-      ]
-    },
-    {
-      "title": "Taiwanese Forces Deploy American-made Attack Drones Against Maritime Targets",
-      "link": "https://news.usni.org/2026/06/10/taiwanese-forces-deploy-american-made-attack-drones-against-maritime-targets",
-      "published": "Wed, 10 Jun 2026 22:14:43 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment",
-        "conflict"
       ]
     }
   ],
@@ -933,11 +932,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 10,
+    "deployment_articles": 11,
     "conflict_articles": 7,
     "exercise_articles": 5,
     "total_articles": 50,
-    "computed_at": "2026-06-14T22:01:44.464730+00:00",
+    "computed_at": "2026-06-14T23:57:34.315897+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] French DGA commissions MBDA to develop ASN4G hypersonic missile",
@@ -955,9 +954,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-06-14T22:01:44.464776+00:00",
+    "last_successful_update": "2026-06-14T23:57:34.315934+00:00",
     "article_count": 50,
-    "categorized_count": 19,
+    "categorized_count": 20,
     "freshest_source": "Naval News",
     "freshest_title": "French DGA commissions MBDA to develop ASN4G hypersonic missile",
     "freshest_published": "Fri, 12 Jun 2026 08:02:22 +0000"
