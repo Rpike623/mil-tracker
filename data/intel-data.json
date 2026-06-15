@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-06-15T03:30:37Z",
-  "version": 1728,
+  "generated_utc": "2026-06-15T09:48:07Z",
+  "version": 1729,
   "breaking_alert": "Naval News: French DGA commissions MBDA to develop ASN4G hypersonic missile",
   "naval_deployments": [
     {
@@ -612,6 +612,15 @@
       ]
     },
     {
+      "title": "UK Conducts First Boarding of Russian Shadow Fleet Ship",
+      "link": "https://www.navalnews.com/naval-news/2026/06/uk-conducts-first-boarding-of-russian-shadow-fleet-ship/",
+      "published": "Mon, 15 Jun 2026 08:48:39 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "Canada celebrates keel laying for the first River-class destroyer",
       "link": "https://www.navalnews.com/naval-news/2026/06/canada-celebrates-keel-laying-for-the-first-river-class-destroyer/",
       "published": "Sat, 13 Jun 2026 12:20:30 +0000",
@@ -625,15 +634,6 @@
       "link": "https://taskandpurpose.com/news/us-iran-deal-blockade-strait-of-hormuz/",
       "published": "Sun, 14 Jun 2026 18:43:52 -0400",
       "source": "Task & Purpose",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Hanwha Ocean Selected for South Korea’s KDDX Destroyer Program",
-      "link": "https://www.navalnews.com/naval-news/2026/06/hanwha-ocean-selected-for-south-koreas-kddx-destroyer-program/",
-      "published": "Thu, 11 Jun 2026 09:38:40 +0000",
-      "source": "Naval News",
       "categories": [
         "deployment"
       ]
@@ -657,15 +657,6 @@
       ]
     },
     {
-      "title": "Trump vows to seize Iran’s Kharg Island",
-      "link": "https://www.defensenews.com/news/pentagon-congress/2026/06/11/trump-vows-to-seize-irans-kharg-island/",
-      "published": "Thu, 11 Jun 2026 17:50:37 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "U.S. Disables 3 Tankers As Part of Iranian Blockade, 3 Mariners Killed in Tuesday Strike",
       "link": "https://news.usni.org/2026/06/11/u-s-disables-3-tankers-as-part-of-iranian-blockade-3-mariners-killed-in-tuesday-strike",
       "published": "Thu, 11 Jun 2026 22:13:36 +0000",
@@ -682,6 +673,16 @@
       "source": "USNI News",
       "categories": [
         "deployment"
+      ]
+    },
+    {
+      "title": "Taiwanese Forces Deploy American-made Attack Drones Against Maritime Targets",
+      "link": "https://news.usni.org/2026/06/10/taiwanese-forces-deploy-american-made-attack-drones-against-maritime-targets",
+      "published": "Wed, 10 Jun 2026 22:14:43 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment",
+        "conflict"
       ]
     }
   ],
@@ -932,11 +933,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 11,
+    "deployment_articles": 10,
     "conflict_articles": 7,
     "exercise_articles": 5,
     "total_articles": 50,
-    "computed_at": "2026-06-15T03:30:35.351658+00:00",
+    "computed_at": "2026-06-15T09:48:05.735577+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] French DGA commissions MBDA to develop ASN4G hypersonic missile",
@@ -954,9 +955,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-06-15T03:30:35.351707+00:00",
+    "last_successful_update": "2026-06-15T09:48:05.735624+00:00",
     "article_count": 50,
-    "categorized_count": 20,
+    "categorized_count": 19,
     "freshest_source": "Naval News",
     "freshest_title": "French DGA commissions MBDA to develop ASN4G hypersonic missile",
     "freshest_published": "Fri, 12 Jun 2026 08:02:22 +0000"
