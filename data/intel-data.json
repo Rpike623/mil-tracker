@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-06-15T15:38:01Z",
-  "version": 1730,
+  "generated_utc": "2026-06-15T19:35:09Z",
+  "version": 1731,
   "breaking_alert": "Naval News: French DGA commissions MBDA to develop ASN4G hypersonic missile",
   "naval_deployments": [
     {
@@ -594,15 +594,6 @@
   ],
   "_naval_news_refs": [
     {
-      "title": "Iraq and Afghanistan veterans say memorial design is ‘disconnected from the experience’",
-      "link": "https://taskandpurpose.com/news/global-war-on-terror-memorial-veterans/",
-      "published": "Fri, 12 Jun 2026 12:06:00 -0400",
-      "source": "Task & Purpose",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Navy Wants Sailors to Do Less Supplemental Work on USS Harry S. Truman Overhaul",
       "link": "https://news.usni.org/2026/06/12/navy-wants-sailors-to-do-less-supplemental-work-on-uss-harry-s-truman-overhaul",
       "published": "Fri, 12 Jun 2026 15:14:07 +0000",
@@ -649,6 +640,24 @@
       ]
     },
     {
+      "title": "Last living USS Indianapolis survivor turns 99",
+      "link": "https://www.militarytimes.com/veterans/military-history/2026/06/15/last-living-uss-indianapolis-survivor-turns-99/",
+      "published": "Mon, 15 Jun 2026 16:51:01 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "USNI News Fleet and Marine Tracker: June 15, 2026",
+      "link": "https://news.usni.org/2026/06/15/usni-news-fleet-and-marine-tracker-june-15-2026",
+      "published": "Mon, 15 Jun 2026 17:03:39 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "Canada celebrates keel laying for the first River-class destroyer",
       "link": "https://www.navalnews.com/naval-news/2026/06/canada-celebrates-keel-laying-for-the-first-river-class-destroyer/",
       "published": "Sat, 13 Jun 2026 12:20:30 +0000",
@@ -674,15 +683,6 @@
       "categories": [
         "deployment",
         "conflict"
-      ]
-    },
-    {
-      "title": "Sailors Involved in JFK Shooting Were Part of Carrier’s In-Port Security Force",
-      "link": "https://news.usni.org/2026/06/10/sailors-involved-in-jfk-shooting-were-part-of-carriers-in-port-security-force",
-      "published": "Wed, 10 Jun 2026 19:27:53 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment"
       ]
     }
   ],
@@ -885,21 +885,30 @@
   ],
   "_exercise_news_refs": [
     {
-      "title": "US plans major cut to jets, warships for NATO operations in Europe, NYT reports",
-      "link": "https://www.militarytimes.com/pentagon/2026/06/12/us-plans-major-cut-to-jets-warships-for-nato-operations-in-europe-nyt-reports/",
-      "published": "Fri, 12 Jun 2026 13:05:31 +0000",
-      "source": "Military Times",
-      "categories": [
-        "exercise"
-      ]
-    },
-    {
       "title": "U.S. Navy Looks to Fleet-wide Expeditionary Mine Warfare in Wake of Operation Epic Fury",
       "link": "https://www.navalnews.com/naval-news/2026/06/u-s-navy-looks-to-fleet-wide-expeditionary-mine-warfare-in-wake-of-operation-epic-fury/",
       "published": "Mon, 15 Jun 2026 12:10:03 +0000",
       "source": "Naval News",
       "categories": [
         "deployment",
+        "exercise"
+      ]
+    },
+    {
+      "title": "Russian strategic bomber crashes in Siberia during training exercise",
+      "link": "https://www.defensenews.com/global/europe/2026/06/15/russian-strategic-bomber-crashes-in-siberia-during-training-exercise/",
+      "published": "Mon, 15 Jun 2026 15:59:42 +0000",
+      "source": "Defense News",
+      "categories": [
+        "exercise"
+      ]
+    },
+    {
+      "title": "Exail introduces new inertial navigation system for amphibious operations",
+      "link": "https://www.navalnews.com/naval-news/2026/06/exail-introduces-new-inertial-navigation-system-for-amphibious-operations/",
+      "published": "Mon, 15 Jun 2026 17:33:21 +0000",
+      "source": "Naval News",
+      "categories": [
         "exercise"
       ]
     },
@@ -921,15 +930,6 @@
         "exercise",
         "conflict"
       ]
-    },
-    {
-      "title": "BALTOPS 2026 Exercise Begins",
-      "link": "https://news.usni.org/2026/06/10/baltops-2026-exercise-begins",
-      "published": "Wed, 10 Jun 2026 21:14:40 +0000",
-      "source": "USNI News",
-      "categories": [
-        "exercise"
-      ]
     }
   ],
   "_threat_indicators": {
@@ -937,14 +937,14 @@
     "conflict_articles": 8,
     "exercise_articles": 5,
     "total_articles": 50,
-    "computed_at": "2026-06-15T15:33:20.591399+00:00",
+    "computed_at": "2026-06-15T19:35:06.102420+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[Naval News] French DGA commissions MBDA to develop ASN4G hypersonic missile",
-      "[Task & Purpose] Iraq and Afghanistan veterans say memorial design is ‘disconnected from the experience’",
-      "[Military Times] US plans major cut to jets, warships for NATO operations in Europe, NYT reports",
       "[USNI News] Navy Wants Sailors to Do Less Supplemental Work on USS Harry S. Truman Overhaul",
-      "[Task & Purpose] Head of Tren de Aragua gang killed in US strike in Venezuela, Trump says"
+      "[Task & Purpose] Head of Tren de Aragua gang killed in US strike in Venezuela, Trump says",
+      "[Task & Purpose] National Guard troops fly HIMARS 2,000 miles for rapid strike training",
+      "[Naval News] UK Conducts First Boarding of Russian Shadow Fleet Ship"
     ]
   },
   "ground_intel": {
@@ -955,7 +955,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-06-15T15:33:20.591442+00:00",
+    "last_successful_update": "2026-06-15T19:35:06.102455+00:00",
     "article_count": 50,
     "categorized_count": 20,
     "freshest_source": "Naval News",
