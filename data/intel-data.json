@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-06-15T19:35:09Z",
-  "version": 1731,
+  "generated_utc": "2026-06-15T22:06:53Z",
+  "version": 1732,
   "breaking_alert": "Naval News: French DGA commissions MBDA to develop ASN4G hypersonic missile",
   "naval_deployments": [
     {
@@ -658,31 +658,30 @@
       ]
     },
     {
+      "title": "Naval Blockade to Remain In Effect Until Official Agreement is Signed by Iran, U.S.",
+      "link": "https://news.usni.org/2026/06/15/naval-blockade-to-remain-in-effect-until-official-agreement-is-signed-by-iran-u-s",
+      "published": "Mon, 15 Jun 2026 21:23:10 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "US won’t soften military posture in Middle East despite Iran agreement",
+      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/06/15/us-wont-soften-military-posture-in-middle-east-despite-iran-agreement/",
+      "published": "Mon, 15 Jun 2026 21:31:23 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "Canada celebrates keel laying for the first River-class destroyer",
       "link": "https://www.navalnews.com/naval-news/2026/06/canada-celebrates-keel-laying-for-the-first-river-class-destroyer/",
       "published": "Sat, 13 Jun 2026 12:20:30 +0000",
       "source": "Naval News",
       "categories": [
         "deployment"
-      ]
-    },
-    {
-      "title": "US to lift Strait of Hormuz blockade as peace agreement with Iran reached",
-      "link": "https://taskandpurpose.com/news/us-iran-deal-blockade-strait-of-hormuz/",
-      "published": "Sun, 14 Jun 2026 18:43:52 -0400",
-      "source": "Task & Purpose",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "U.S. Disables 3 Tankers As Part of Iranian Blockade, 3 Mariners Killed in Tuesday Strike",
-      "link": "https://news.usni.org/2026/06/11/u-s-disables-3-tankers-as-part-of-iranian-blockade-3-mariners-killed-in-tuesday-strike",
-      "published": "Thu, 11 Jun 2026 22:13:36 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment",
-        "conflict"
       ]
     }
   ],
@@ -933,12 +932,12 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 11,
-    "conflict_articles": 8,
+    "deployment_articles": 12,
+    "conflict_articles": 7,
     "exercise_articles": 5,
     "total_articles": 50,
-    "computed_at": "2026-06-15T19:35:06.102420+00:00",
-    "manual_override": "DEFCON_2",
+    "computed_at": "2026-06-15T22:06:51.333023+00:00",
+    "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] French DGA commissions MBDA to develop ASN4G hypersonic missile",
       "[USNI News] Navy Wants Sailors to Do Less Supplemental Work on USS Harry S. Truman Overhaul",
@@ -955,9 +954,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-06-15T19:35:06.102455+00:00",
+    "last_successful_update": "2026-06-15T22:06:51.333082+00:00",
     "article_count": 50,
-    "categorized_count": 20,
+    "categorized_count": 21,
     "freshest_source": "Naval News",
     "freshest_title": "French DGA commissions MBDA to develop ASN4G hypersonic missile",
     "freshest_published": "Fri, 12 Jun 2026 08:02:22 +0000"
