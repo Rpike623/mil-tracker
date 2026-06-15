@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-06-14T23:57:40Z",
-  "version": 1727,
+  "generated_utc": "2026-06-15T03:30:37Z",
+  "version": 1728,
   "breaking_alert": "Naval News: French DGA commissions MBDA to develop ASN4G hypersonic missile",
   "naval_deployments": [
     {
@@ -936,7 +936,7 @@
     "conflict_articles": 7,
     "exercise_articles": 5,
     "total_articles": 50,
-    "computed_at": "2026-06-14T23:57:34.315897+00:00",
+    "computed_at": "2026-06-15T03:30:35.351658+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] French DGA commissions MBDA to develop ASN4G hypersonic missile",
@@ -954,7 +954,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-06-14T23:57:34.315934+00:00",
+    "last_successful_update": "2026-06-15T03:30:35.351707+00:00",
     "article_count": 50,
     "categorized_count": 20,
     "freshest_source": "Naval News",
