@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-06-16T06:19:24Z",
-  "version": 1734,
+  "generated_utc": "2026-06-16T11:58:51Z",
+  "version": 1735,
   "breaking_alert": "Naval News: French DGA commissions MBDA to develop ASN4G hypersonic missile",
   "naval_deployments": [
     {
@@ -865,19 +865,20 @@
     },
     {
       "title": "US strike kills leader of Venezuela’s Tren de Aragua gang, White House says",
-      "link": "https://www.defensenews.com/flashpoints/2026/06/13/us-strike-kills-leader-of-venezuelas-tren-de-aragua-gang-white-house-says/",
+      "link": "https://www.militarytimes.com/flashpoints/2026/06/13/us-strike-kills-leader-of-venezuelas-tren-de-aragua-gang-white-house-says/",
       "published": "Sat, 13 Jun 2026 15:40:03 +0000",
-      "source": "Defense News",
+      "source": "Military Times",
       "categories": [
         "conflict"
       ]
     },
     {
-      "title": "US strike kills leader of Venezuela’s Tren de Aragua gang, White House says",
-      "link": "https://www.militarytimes.com/flashpoints/2026/06/13/us-strike-kills-leader-of-venezuelas-tren-de-aragua-gang-white-house-says/",
-      "published": "Sat, 13 Jun 2026 15:40:03 +0000",
-      "source": "Military Times",
+      "title": "U.S. Disables 3 Tankers As Part of Iranian Blockade, 3 Mariners Killed in Tuesday Strike",
+      "link": "https://news.usni.org/2026/06/11/u-s-disables-3-tankers-as-part-of-iranian-blockade-3-mariners-killed-in-tuesday-strike",
+      "published": "Thu, 11 Jun 2026 22:13:36 +0000",
+      "source": "USNI News",
       "categories": [
+        "deployment",
         "conflict"
       ]
     }
@@ -932,11 +933,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 12,
-    "conflict_articles": 10,
+    "deployment_articles": 13,
+    "conflict_articles": 9,
     "exercise_articles": 5,
     "total_articles": 50,
-    "computed_at": "2026-06-16T06:19:22.317858+00:00",
+    "computed_at": "2026-06-16T11:58:45.171172+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[Naval News] French DGA commissions MBDA to develop ASN4G hypersonic missile",
@@ -954,7 +955,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-06-16T06:19:22.317903+00:00",
+    "last_successful_update": "2026-06-16T11:58:45.171211+00:00",
     "article_count": 50,
     "categorized_count": 24,
     "freshest_source": "Naval News",
