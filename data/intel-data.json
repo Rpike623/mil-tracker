@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-06-16T11:58:51Z",
-  "version": 1735,
-  "breaking_alert": "Naval News: French DGA commissions MBDA to develop ASN4G hypersonic missile",
+  "generated_utc": "2026-06-16T16:44:50Z",
+  "version": 1736,
+  "breaking_alert": "USNI News: Navy Wants Sailors to Do Less Supplemental Work on USS Harry S. Truman Overhaul",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -631,15 +631,6 @@
       ]
     },
     {
-      "title": "Iran, US agree to halt war and reopen Hormuz",
-      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/06/15/iran-us-agree-to-halt-war-and-reopen-hormuz/",
-      "published": "Mon, 15 Jun 2026 13:59:25 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Last living USS Indianapolis survivor turns 99",
       "link": "https://www.militarytimes.com/veterans/military-history/2026/06/15/last-living-uss-indianapolis-survivor-turns-99/",
       "published": "Mon, 15 Jun 2026 16:51:01 +0000",
@@ -680,6 +671,15 @@
       "link": "https://www.navalnews.com/naval-news/2026/06/canada-celebrates-keel-laying-for-the-first-river-class-destroyer/",
       "published": "Sat, 13 Jun 2026 12:20:30 +0000",
       "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "US to lift Strait of Hormuz blockade as peace agreement with Iran reached",
+      "link": "https://taskandpurpose.com/news/us-iran-deal-blockade-strait-of-hormuz/",
+      "published": "Sun, 14 Jun 2026 18:43:52 -0400",
+      "source": "Task & Purpose",
       "categories": [
         "deployment"
       ]
@@ -837,37 +837,10 @@
   },
   "_conflict_news_refs": [
     {
-      "title": "French DGA commissions MBDA to develop ASN4G hypersonic missile",
-      "link": "https://www.navalnews.com/naval-news/2026/06/french-dga-commissions-mbda-to-develop-asn4g-hypersonic-missile/",
-      "published": "Fri, 12 Jun 2026 08:02:22 +0000",
-      "source": "Naval News",
-      "categories": [
-        "conflict"
-      ]
-    },
-    {
-      "title": "Head of Tren de Aragua gang killed in US strike in Venezuela, Trump says",
-      "link": "https://taskandpurpose.com/news/us-strike-venezuela-tren-de-aragua/",
-      "published": "Fri, 12 Jun 2026 22:37:31 -0400",
-      "source": "Task & Purpose",
-      "categories": [
-        "conflict"
-      ]
-    },
-    {
       "title": "National Guard troops fly HIMARS 2,000 miles for rapid strike training",
       "link": "https://taskandpurpose.com/news/national-guard-himars-rapid-deployment/",
       "published": "Mon, 15 Jun 2026 08:00:00 -0400",
       "source": "Task & Purpose",
-      "categories": [
-        "conflict"
-      ]
-    },
-    {
-      "title": "US strike kills leader of Venezuela’s Tren de Aragua gang, White House says",
-      "link": "https://www.militarytimes.com/flashpoints/2026/06/13/us-strike-kills-leader-of-venezuelas-tren-de-aragua-gang-white-house-says/",
-      "published": "Sat, 13 Jun 2026 15:40:03 +0000",
-      "source": "Military Times",
       "categories": [
         "conflict"
       ]
@@ -879,6 +852,34 @@
       "source": "USNI News",
       "categories": [
         "deployment",
+        "conflict"
+      ]
+    },
+    {
+      "title": "Taiwan Tests HIMARS Missiles on Island’s West Coast in Major Live-fire Drills",
+      "link": "https://news.usni.org/2026/06/11/taiwan-tests-himars-missiles-on-islands-west-coast-in-major-live-fire-drills",
+      "published": "Thu, 11 Jun 2026 22:21:54 +0000",
+      "source": "USNI News",
+      "categories": [
+        "exercise",
+        "conflict"
+      ]
+    },
+    {
+      "title": "8 people killed in B-52 bomber crash at California base, officials confirm",
+      "link": "https://www.militarytimes.com/news/your-military/2026/06/16/8-people-killed-in-b-52-bomber-crash-at-california-base-officials-confirm/",
+      "published": "Tue, 16 Jun 2026 03:09:47 +0000",
+      "source": "Military Times",
+      "categories": [
+        "conflict"
+      ]
+    },
+    {
+      "title": "India Conducts Spate of Tests for Anti-Ship, Land Attack, BMD And Hypersonic Ground Attack Missiles",
+      "link": "https://www.navalnews.com/naval-news/2026/06/india-conducts-spate-of-tests-for-anti-ship-land-attack-bmd-and-hypersonic-ground-attack-missiles/",
+      "published": "Tue, 16 Jun 2026 05:00:00 +0000",
+      "source": "Naval News",
+      "categories": [
         "conflict"
       ]
     }
@@ -913,15 +914,6 @@
       ]
     },
     {
-      "title": "US to cut fighters, warships from NATO mission in Europe",
-      "link": "https://taskandpurpose.com/news/us-cuts-fighters-warships-nato-europe/",
-      "published": "Sat, 13 Jun 2026 11:20:03 -0400",
-      "source": "Task & Purpose",
-      "categories": [
-        "exercise"
-      ]
-    },
-    {
       "title": "Taiwan Tests HIMARS Missiles on Island’s West Coast in Major Live-fire Drills",
       "link": "https://news.usni.org/2026/06/11/taiwan-tests-himars-missiles-on-islands-west-coast-in-major-live-fire-drills",
       "published": "Thu, 11 Jun 2026 22:21:54 +0000",
@@ -933,18 +925,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 13,
+    "deployment_articles": 14,
     "conflict_articles": 9,
-    "exercise_articles": 5,
+    "exercise_articles": 4,
     "total_articles": 50,
-    "computed_at": "2026-06-16T11:58:45.171172+00:00",
+    "computed_at": "2026-06-16T16:44:47.135156+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
-      "[Naval News] French DGA commissions MBDA to develop ASN4G hypersonic missile",
       "[USNI News] Navy Wants Sailors to Do Less Supplemental Work on USS Harry S. Truman Overhaul",
-      "[Task & Purpose] Head of Tren de Aragua gang killed in US strike in Venezuela, Trump says",
       "[Task & Purpose] National Guard troops fly HIMARS 2,000 miles for rapid strike training",
-      "[Naval News] UK Conducts First Boarding of Russian Shadow Fleet Ship"
+      "[Naval News] UK Conducts First Boarding of Russian Shadow Fleet Ship",
+      "[Naval News] U.S. Navy Looks to Fleet-wide Expeditionary Mine Warfare in Wake of Operation Epic Fury",
+      "[Defense News] Iran, US agree to halt war and reopen Hormuz"
     ]
   },
   "ground_intel": {
@@ -955,12 +947,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-06-16T11:58:45.171211+00:00",
+    "last_successful_update": "2026-06-16T16:44:47.135199+00:00",
     "article_count": 50,
-    "categorized_count": 24,
-    "freshest_source": "Naval News",
-    "freshest_title": "French DGA commissions MBDA to develop ASN4G hypersonic missile",
-    "freshest_published": "Fri, 12 Jun 2026 08:02:22 +0000"
+    "categorized_count": 23,
+    "freshest_source": "USNI News",
+    "freshest_title": "Navy Wants Sailors to Do Less Supplemental Work on USS Harry S. Truman Overhaul",
+    "freshest_published": "Fri, 12 Jun 2026 15:14:07 +0000"
   },
   "_firms_hotspots": []
 }
