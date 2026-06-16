@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-06-16T16:44:50Z",
-  "version": 1736,
+  "generated_utc": "2026-06-16T19:59:12Z",
+  "version": 1737,
   "breaking_alert": "USNI News: Navy Wants Sailors to Do Less Supplemental Work on USS Harry S. Truman Overhaul",
   "naval_deployments": [
     {
@@ -631,15 +631,6 @@
       ]
     },
     {
-      "title": "Last living USS Indianapolis survivor turns 99",
-      "link": "https://www.militarytimes.com/veterans/military-history/2026/06/15/last-living-uss-indianapolis-survivor-turns-99/",
-      "published": "Mon, 15 Jun 2026 16:51:01 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "USNI News Fleet and Marine Tracker: June 15, 2026",
       "link": "https://news.usni.org/2026/06/15/usni-news-fleet-and-marine-tracker-june-15-2026",
       "published": "Mon, 15 Jun 2026 17:03:39 +0000",
@@ -680,6 +671,15 @@
       "link": "https://taskandpurpose.com/news/us-iran-deal-blockade-strait-of-hormuz/",
       "published": "Sun, 14 Jun 2026 18:43:52 -0400",
       "source": "Task & Purpose",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Ukraine’s demand for tiny drone laser-targeting systems spurs new product launches",
+      "link": "https://www.defensenews.com/global/europe/2026/06/16/ukraines-demand-for-tiny-drone-laser-targeting-systems-spurs-new-product-launches/",
+      "published": "Tue, 16 Jun 2026 06:36:16 +0000",
+      "source": "Defense News",
       "categories": [
         "deployment"
       ]
@@ -846,26 +846,6 @@
       ]
     },
     {
-      "title": "U.S. Disables 3 Tankers As Part of Iranian Blockade, 3 Mariners Killed in Tuesday Strike",
-      "link": "https://news.usni.org/2026/06/11/u-s-disables-3-tankers-as-part-of-iranian-blockade-3-mariners-killed-in-tuesday-strike",
-      "published": "Thu, 11 Jun 2026 22:13:36 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
-      "title": "Taiwan Tests HIMARS Missiles on Island’s West Coast in Major Live-fire Drills",
-      "link": "https://news.usni.org/2026/06/11/taiwan-tests-himars-missiles-on-islands-west-coast-in-major-live-fire-drills",
-      "published": "Thu, 11 Jun 2026 22:21:54 +0000",
-      "source": "USNI News",
-      "categories": [
-        "exercise",
-        "conflict"
-      ]
-    },
-    {
       "title": "8 people killed in B-52 bomber crash at California base, officials confirm",
       "link": "https://www.militarytimes.com/news/your-military/2026/06/16/8-people-killed-in-b-52-bomber-crash-at-california-base-officials-confirm/",
       "published": "Tue, 16 Jun 2026 03:09:47 +0000",
@@ -879,6 +859,24 @@
       "link": "https://www.navalnews.com/naval-news/2026/06/india-conducts-spate-of-tests-for-anti-ship-land-attack-bmd-and-hypersonic-ground-attack-missiles/",
       "published": "Tue, 16 Jun 2026 05:00:00 +0000",
       "source": "Naval News",
+      "categories": [
+        "conflict"
+      ]
+    },
+    {
+      "title": "India touts new ballistic missile defense prowess after tests",
+      "link": "https://www.defensenews.com/global/asia-pacific/2026/06/16/india-touts-new-ballistic-missile-defense-prowess-after-tests/",
+      "published": "Tue, 16 Jun 2026 05:38:37 +0000",
+      "source": "Defense News",
+      "categories": [
+        "conflict"
+      ]
+    },
+    {
+      "title": "Rheinmetall pitches shipping container that can spit out swarms of attack drones",
+      "link": "https://www.defensenews.com/global/europe/2026/06/16/rheinmetall-pitches-shipping-container-that-can-spit-out-swarms-of-attack-drones/",
+      "published": "Tue, 16 Jun 2026 14:31:21 +0000",
+      "source": "Defense News",
       "categories": [
         "conflict"
       ]
@@ -912,25 +910,15 @@
       "categories": [
         "exercise"
       ]
-    },
-    {
-      "title": "Taiwan Tests HIMARS Missiles on Island’s West Coast in Major Live-fire Drills",
-      "link": "https://news.usni.org/2026/06/11/taiwan-tests-himars-missiles-on-islands-west-coast-in-major-live-fire-drills",
-      "published": "Thu, 11 Jun 2026 22:21:54 +0000",
-      "source": "USNI News",
-      "categories": [
-        "exercise",
-        "conflict"
-      ]
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 14,
-    "conflict_articles": 9,
-    "exercise_articles": 4,
+    "deployment_articles": 13,
+    "conflict_articles": 7,
+    "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-06-16T16:44:47.135156+00:00",
-    "manual_override": "DEFCON_2",
+    "computed_at": "2026-06-16T19:59:09.929204+00:00",
+    "manual_override": "DEFCON_3",
     "breaking_events": [
       "[USNI News] Navy Wants Sailors to Do Less Supplemental Work on USS Harry S. Truman Overhaul",
       "[Task & Purpose] National Guard troops fly HIMARS 2,000 miles for rapid strike training",
@@ -947,9 +935,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-06-16T16:44:47.135199+00:00",
+    "last_successful_update": "2026-06-16T19:59:09.929268+00:00",
     "article_count": 50,
-    "categorized_count": 23,
+    "categorized_count": 21,
     "freshest_source": "USNI News",
     "freshest_title": "Navy Wants Sailors to Do Less Supplemental Work on USS Harry S. Truman Overhaul",
     "freshest_published": "Fri, 12 Jun 2026 15:14:07 +0000"
