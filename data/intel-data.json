@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-06-17T10:20:59Z",
-  "version": 1741,
+  "generated_utc": "2026-06-17T14:20:19Z",
+  "version": 1742,
   "breaking_alert": "USNI News: Navy Wants Sailors to Do Less Supplemental Work on USS Harry S. Truman Overhaul",
   "naval_deployments": [
     {
@@ -667,15 +667,6 @@
       ]
     },
     {
-      "title": "Navy officer, 67, becomes oldest on record to earn Fleet Marine Force pin",
-      "link": "https://www.militarytimes.com/news/your-military/2026/06/16/navy-officer-67-becomes-oldest-on-record-to-earn-fleet-marine-force-pin/",
-      "published": "Tue, 16 Jun 2026 12:53:24 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "MBDA advances land version of its naval missile as European strike weapon",
       "link": "https://www.defensenews.com/global/europe/2026/06/16/mbda-advances-land-version-of-its-naval-missile-as-european-strike-weapon/",
       "published": "Tue, 16 Jun 2026 14:40:32 +0000",
@@ -683,6 +674,15 @@
       "categories": [
         "deployment",
         "conflict"
+      ]
+    },
+    {
+      "title": "Dutch MoD and Naval Group Ink F21 Torpedo Procurement Contract",
+      "link": "https://www.navalnews.com/naval-news/2026/06/dutch-mod-and-naval-group-ink-f21-torpedo-procurement-contract/",
+      "published": "Tue, 16 Jun 2026 19:00:27 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment"
       ]
     }
   ],
@@ -847,15 +847,6 @@
       ]
     },
     {
-      "title": "8 people killed in B-52 bomber crash at California base, officials confirm",
-      "link": "https://www.militarytimes.com/news/your-military/2026/06/16/8-people-killed-in-b-52-bomber-crash-at-california-base-officials-confirm/",
-      "published": "Tue, 16 Jun 2026 03:09:47 +0000",
-      "source": "Military Times",
-      "categories": [
-        "conflict"
-      ]
-    },
-    {
       "title": "India Conducts Spate of Tests for Anti-Ship, Land Attack, BMD And Hypersonic Ground Attack Missiles",
       "link": "https://www.navalnews.com/naval-news/2026/06/india-conducts-spate-of-tests-for-anti-ship-land-attack-bmd-and-hypersonic-ground-attack-missiles/",
       "published": "Tue, 16 Jun 2026 05:00:00 +0000",
@@ -865,19 +856,29 @@
       ]
     },
     {
-      "title": "India touts new ballistic missile defense prowess after tests",
-      "link": "https://www.defensenews.com/global/asia-pacific/2026/06/16/india-touts-new-ballistic-missile-defense-prowess-after-tests/",
-      "published": "Tue, 16 Jun 2026 05:38:37 +0000",
+      "title": "Rheinmetall pitches shipping container that can spit out swarms of attack drones",
+      "link": "https://www.defensenews.com/global/europe/2026/06/16/rheinmetall-pitches-shipping-container-that-can-spit-out-swarms-of-attack-drones/",
+      "published": "Tue, 16 Jun 2026 14:31:21 +0000",
       "source": "Defense News",
       "categories": [
         "conflict"
       ]
     },
     {
-      "title": "Rheinmetall pitches shipping container that can spit out swarms of attack drones",
-      "link": "https://www.defensenews.com/global/europe/2026/06/16/rheinmetall-pitches-shipping-container-that-can-spit-out-swarms-of-attack-drones/",
-      "published": "Tue, 16 Jun 2026 14:31:21 +0000",
+      "title": "MBDA advances land version of its naval missile as European strike weapon",
+      "link": "https://www.defensenews.com/global/europe/2026/06/16/mbda-advances-land-version-of-its-naval-missile-as-european-strike-weapon/",
+      "published": "Tue, 16 Jun 2026 14:40:32 +0000",
       "source": "Defense News",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
+    },
+    {
+      "title": "2 Boeing employees among 8 killed in B-52 crash",
+      "link": "https://www.militarytimes.com/news/your-military/2026/06/16/2-boeing-employees-among-8-killed-in-b-52-crash/",
+      "published": "Tue, 16 Jun 2026 15:45:27 +0000",
+      "source": "Military Times",
       "categories": [
         "conflict"
       ]
@@ -905,11 +906,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 12,
-    "conflict_articles": 7,
+    "deployment_articles": 11,
+    "conflict_articles": 5,
     "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-06-17T10:20:56.480233+00:00",
+    "computed_at": "2026-06-17T14:20:16.527307+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[USNI News] Navy Wants Sailors to Do Less Supplemental Work on USS Harry S. Truman Overhaul",
@@ -927,9 +928,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-06-17T10:20:56.480278+00:00",
+    "last_successful_update": "2026-06-17T14:20:16.527354+00:00",
     "article_count": 50,
-    "categorized_count": 19,
+    "categorized_count": 16,
     "freshest_source": "USNI News",
     "freshest_title": "Navy Wants Sailors to Do Less Supplemental Work on USS Harry S. Truman Overhaul",
     "freshest_published": "Fri, 12 Jun 2026 15:14:07 +0000"
