@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-06-17T17:41:01Z",
-  "version": 1743,
-  "breaking_alert": "Task & Purpose: National Guard troops fly HIMARS 2,000 miles for rapid strike training",
+  "generated_utc": "2026-06-17T19:53:29Z",
+  "version": 1744,
+  "breaking_alert": "Naval News: UK Conducts First Boarding of Russian Shadow Fleet Ship",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -613,15 +613,6 @@
       ]
     },
     {
-      "title": "USNI News Fleet and Marine Tracker: June 15, 2026",
-      "link": "https://news.usni.org/2026/06/15/usni-news-fleet-and-marine-tracker-june-15-2026",
-      "published": "Mon, 15 Jun 2026 17:03:39 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Naval Blockade to Remain In Effect Until Official Agreement is Signed by Iran, U.S.",
       "link": "https://news.usni.org/2026/06/15/naval-blockade-to-remain-in-effect-until-official-agreement-is-signed-by-iran-u-s",
       "published": "Mon, 15 Jun 2026 21:23:10 +0000",
@@ -635,15 +626,6 @@
       "link": "https://www.navalnews.com/naval-news/2026/06/canada-celebrates-keel-laying-for-the-first-river-class-destroyer/",
       "published": "Sat, 13 Jun 2026 12:20:30 +0000",
       "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "US to lift Strait of Hormuz blockade as peace agreement with Iran reached",
-      "link": "https://taskandpurpose.com/news/us-iran-deal-blockade-strait-of-hormuz/",
-      "published": "Sun, 14 Jun 2026 18:43:52 -0400",
-      "source": "Task & Purpose",
       "categories": [
         "deployment"
       ]
@@ -672,6 +654,25 @@
       "link": "https://www.navalnews.com/naval-news/2026/06/naval-groups-mpls-close-in-weapon-system-becomes-rampart/",
       "published": "Wed, 17 Jun 2026 07:00:00 +0000",
       "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "George Washington Carrier Strike Group in Guam for First Port Call of Spring Patrol",
+      "link": "https://news.usni.org/2026/06/17/george-washington-carrier-strike-group-in-guam-for-first-port-call-of-spring-patrol",
+      "published": "Wed, 17 Jun 2026 18:02:35 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
+    },
+    {
+      "title": "Destroyer USS Mitscher Returns Home From 11-month Deployment",
+      "link": "https://news.usni.org/2026/06/17/destroyer-uss-mitscher-returns-home-from-11-month-deployment",
+      "published": "Wed, 17 Jun 2026 19:47:03 +0000",
+      "source": "USNI News",
       "categories": [
         "deployment"
       ]
@@ -829,15 +830,6 @@
   },
   "_conflict_news_refs": [
     {
-      "title": "National Guard troops fly HIMARS 2,000 miles for rapid strike training",
-      "link": "https://taskandpurpose.com/news/national-guard-himars-rapid-deployment/",
-      "published": "Mon, 15 Jun 2026 08:00:00 -0400",
-      "source": "Task & Purpose",
-      "categories": [
-        "conflict"
-      ]
-    },
-    {
       "title": "India Conducts Spate of Tests for Anti-Ship, Land Attack, BMD And Hypersonic Ground Attack Missiles",
       "link": "https://www.navalnews.com/naval-news/2026/06/india-conducts-spate-of-tests-for-anti-ship-land-attack-bmd-and-hypersonic-ground-attack-missiles/",
       "published": "Tue, 16 Jun 2026 05:00:00 +0000",
@@ -860,6 +852,25 @@
       "link": "https://www.defensenews.com/global/europe/2026/06/16/mbda-advances-land-version-of-its-naval-missile-as-european-strike-weapon/",
       "published": "Tue, 16 Jun 2026 14:40:32 +0000",
       "source": "Defense News",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
+    },
+    {
+      "title": "Air Force identifies crew members killed in California B-52 crash",
+      "link": "https://taskandpurpose.com/news/air-force-b-52-identified/",
+      "published": "Wed, 17 Jun 2026 13:52:07 -0400",
+      "source": "Task & Purpose",
+      "categories": [
+        "conflict"
+      ]
+    },
+    {
+      "title": "George Washington Carrier Strike Group in Guam for First Port Call of Spring Patrol",
+      "link": "https://news.usni.org/2026/06/17/george-washington-carrier-strike-group-in-guam-for-first-port-call-of-spring-patrol",
+      "published": "Wed, 17 Jun 2026 18:02:35 +0000",
+      "source": "USNI News",
       "categories": [
         "deployment",
         "conflict"
@@ -889,17 +900,17 @@
   ],
   "_threat_indicators": {
     "deployment_articles": 9,
-    "conflict_articles": 4,
+    "conflict_articles": 7,
     "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-06-17T17:40:52.142612+00:00",
+    "computed_at": "2026-06-17T19:53:17.655247+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
-      "[Task & Purpose] National Guard troops fly HIMARS 2,000 miles for rapid strike training",
       "[Naval News] UK Conducts First Boarding of Russian Shadow Fleet Ship",
       "[Naval News] U.S. Navy Looks to Fleet-wide Expeditionary Mine Warfare in Wake of Operation Epic Fury",
-      "[USNI News] USNI News Fleet and Marine Tracker: June 15, 2026",
-      "[Naval News] Exail introduces new inertial navigation system for amphibious operations"
+      "[Naval News] Exail introduces new inertial navigation system for amphibious operations",
+      "[USNI News] Naval Blockade to Remain In Effect Until Official Agreement is Signed by Iran, U.S.",
+      "[Naval News] Canada celebrates keel laying for the first River-class destroyer"
     ]
   },
   "ground_intel": {
@@ -910,12 +921,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-06-17T17:40:52.142660+00:00",
+    "last_successful_update": "2026-06-17T19:53:17.655291+00:00",
     "article_count": 50,
-    "categorized_count": 13,
-    "freshest_source": "Task & Purpose",
-    "freshest_title": "National Guard troops fly HIMARS 2,000 miles for rapid strike training",
-    "freshest_published": "Mon, 15 Jun 2026 08:00:00 -0400"
+    "categorized_count": 15,
+    "freshest_source": "Naval News",
+    "freshest_title": "UK Conducts First Boarding of Russian Shadow Fleet Ship",
+    "freshest_published": "Mon, 15 Jun 2026 08:48:39 +0000"
   },
   "_firms_hotspots": []
 }
