@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-06-17T14:20:19Z",
-  "version": 1742,
-  "breaking_alert": "USNI News: Navy Wants Sailors to Do Less Supplemental Work on USS Harry S. Truman Overhaul",
+  "generated_utc": "2026-06-17T17:41:01Z",
+  "version": 1743,
+  "breaking_alert": "Task & Purpose: National Guard troops fly HIMARS 2,000 miles for rapid strike training",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -594,15 +594,6 @@
   ],
   "_naval_news_refs": [
     {
-      "title": "Navy Wants Sailors to Do Less Supplemental Work on USS Harry S. Truman Overhaul",
-      "link": "https://news.usni.org/2026/06/12/navy-wants-sailors-to-do-less-supplemental-work-on-uss-harry-s-truman-overhaul",
-      "published": "Fri, 12 Jun 2026 15:14:07 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "UK Conducts First Boarding of Russian Shadow Fleet Ship",
       "link": "https://www.navalnews.com/naval-news/2026/06/uk-conducts-first-boarding-of-russian-shadow-fleet-ship/",
       "published": "Mon, 15 Jun 2026 08:48:39 +0000",
@@ -658,15 +649,6 @@
       ]
     },
     {
-      "title": "Ukraine’s demand for tiny drone laser-targeting systems spurs new product launches",
-      "link": "https://www.defensenews.com/global/europe/2026/06/16/ukraines-demand-for-tiny-drone-laser-targeting-systems-spurs-new-product-launches/",
-      "published": "Tue, 16 Jun 2026 06:36:16 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "MBDA advances land version of its naval missile as European strike weapon",
       "link": "https://www.defensenews.com/global/europe/2026/06/16/mbda-advances-land-version-of-its-naval-missile-as-european-strike-weapon/",
       "published": "Tue, 16 Jun 2026 14:40:32 +0000",
@@ -680,6 +662,15 @@
       "title": "Dutch MoD and Naval Group Ink F21 Torpedo Procurement Contract",
       "link": "https://www.navalnews.com/naval-news/2026/06/dutch-mod-and-naval-group-ink-f21-torpedo-procurement-contract/",
       "published": "Tue, 16 Jun 2026 19:00:27 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Naval Group’s MPLS Close-In Weapon System Becomes ‘Rampart’",
+      "link": "https://www.navalnews.com/naval-news/2026/06/naval-groups-mpls-close-in-weapon-system-becomes-rampart/",
+      "published": "Wed, 17 Jun 2026 07:00:00 +0000",
       "source": "Naval News",
       "categories": [
         "deployment"
@@ -873,15 +864,6 @@
         "deployment",
         "conflict"
       ]
-    },
-    {
-      "title": "2 Boeing employees among 8 killed in B-52 crash",
-      "link": "https://www.militarytimes.com/news/your-military/2026/06/16/2-boeing-employees-among-8-killed-in-b-52-crash/",
-      "published": "Tue, 16 Jun 2026 15:45:27 +0000",
-      "source": "Military Times",
-      "categories": [
-        "conflict"
-      ]
     }
   ],
   "_exercise_news_refs": [
@@ -906,18 +888,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 11,
-    "conflict_articles": 5,
+    "deployment_articles": 9,
+    "conflict_articles": 4,
     "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-06-17T14:20:16.527307+00:00",
+    "computed_at": "2026-06-17T17:40:52.142612+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
-      "[USNI News] Navy Wants Sailors to Do Less Supplemental Work on USS Harry S. Truman Overhaul",
       "[Task & Purpose] National Guard troops fly HIMARS 2,000 miles for rapid strike training",
       "[Naval News] UK Conducts First Boarding of Russian Shadow Fleet Ship",
       "[Naval News] U.S. Navy Looks to Fleet-wide Expeditionary Mine Warfare in Wake of Operation Epic Fury",
-      "[USNI News] USNI News Fleet and Marine Tracker: June 15, 2026"
+      "[USNI News] USNI News Fleet and Marine Tracker: June 15, 2026",
+      "[Naval News] Exail introduces new inertial navigation system for amphibious operations"
     ]
   },
   "ground_intel": {
@@ -928,12 +910,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-06-17T14:20:16.527354+00:00",
+    "last_successful_update": "2026-06-17T17:40:52.142660+00:00",
     "article_count": 50,
-    "categorized_count": 16,
-    "freshest_source": "USNI News",
-    "freshest_title": "Navy Wants Sailors to Do Less Supplemental Work on USS Harry S. Truman Overhaul",
-    "freshest_published": "Fri, 12 Jun 2026 15:14:07 +0000"
+    "categorized_count": 13,
+    "freshest_source": "Task & Purpose",
+    "freshest_title": "National Guard troops fly HIMARS 2,000 miles for rapid strike training",
+    "freshest_published": "Mon, 15 Jun 2026 08:00:00 -0400"
   },
   "_firms_hotspots": []
 }
