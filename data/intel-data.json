@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-06-17T05:55:21Z",
-  "version": 1740,
+  "generated_utc": "2026-06-17T10:20:59Z",
+  "version": 1741,
   "breaking_alert": "USNI News: Navy Wants Sailors to Do Less Supplemental Work on USS Harry S. Truman Overhaul",
   "naval_deployments": [
     {
@@ -622,15 +622,6 @@
       ]
     },
     {
-      "title": "Iran, US agree to halt war and reopen Hormuz",
-      "link": "https://www.defensenews.com/news/pentagon-congress/2026/06/15/iran-us-agree-to-halt-war-and-reopen-hormuz/",
-      "published": "Mon, 15 Jun 2026 13:59:25 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "USNI News Fleet and Marine Tracker: June 15, 2026",
       "link": "https://news.usni.org/2026/06/15/usni-news-fleet-and-marine-tracker-june-15-2026",
       "published": "Mon, 15 Jun 2026 17:03:39 +0000",
@@ -682,6 +673,16 @@
       "source": "Military Times",
       "categories": [
         "deployment"
+      ]
+    },
+    {
+      "title": "MBDA advances land version of its naval missile as European strike weapon",
+      "link": "https://www.defensenews.com/global/europe/2026/06/16/mbda-advances-land-version-of-its-naval-missile-as-european-strike-weapon/",
+      "published": "Tue, 16 Jun 2026 14:40:32 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment",
+        "conflict"
       ]
     }
   ],
@@ -894,15 +895,6 @@
       ]
     },
     {
-      "title": "Russian strategic bomber crashes in Siberia during training exercise",
-      "link": "https://www.defensenews.com/global/europe/2026/06/15/russian-strategic-bomber-crashes-in-siberia-during-training-exercise/",
-      "published": "Mon, 15 Jun 2026 15:59:42 +0000",
-      "source": "Defense News",
-      "categories": [
-        "exercise"
-      ]
-    },
-    {
       "title": "Exail introduces new inertial navigation system for amphibious operations",
       "link": "https://www.navalnews.com/naval-news/2026/06/exail-introduces-new-inertial-navigation-system-for-amphibious-operations/",
       "published": "Mon, 15 Jun 2026 17:33:21 +0000",
@@ -915,16 +907,16 @@
   "_threat_indicators": {
     "deployment_articles": 12,
     "conflict_articles": 7,
-    "exercise_articles": 3,
+    "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-06-17T05:55:17.663103+00:00",
+    "computed_at": "2026-06-17T10:20:56.480233+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[USNI News] Navy Wants Sailors to Do Less Supplemental Work on USS Harry S. Truman Overhaul",
       "[Task & Purpose] National Guard troops fly HIMARS 2,000 miles for rapid strike training",
       "[Naval News] UK Conducts First Boarding of Russian Shadow Fleet Ship",
       "[Naval News] U.S. Navy Looks to Fleet-wide Expeditionary Mine Warfare in Wake of Operation Epic Fury",
-      "[Defense News] Iran, US agree to halt war and reopen Hormuz"
+      "[USNI News] USNI News Fleet and Marine Tracker: June 15, 2026"
     ]
   },
   "ground_intel": {
@@ -935,9 +927,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-06-17T05:55:17.663141+00:00",
+    "last_successful_update": "2026-06-17T10:20:56.480278+00:00",
     "article_count": 50,
-    "categorized_count": 20,
+    "categorized_count": 19,
     "freshest_source": "USNI News",
     "freshest_title": "Navy Wants Sailors to Do Less Supplemental Work on USS Harry S. Truman Overhaul",
     "freshest_published": "Fri, 12 Jun 2026 15:14:07 +0000"
