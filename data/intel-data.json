@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-06-17T19:53:29Z",
-  "version": 1744,
+  "generated_utc": "2026-06-17T21:49:38Z",
+  "version": 1745,
   "breaking_alert": "Naval News: UK Conducts First Boarding of Russian Shadow Fleet Ship",
   "naval_deployments": [
     {
@@ -676,6 +676,15 @@
       "categories": [
         "deployment"
       ]
+    },
+    {
+      "title": "Read the 14-point memorandum of understanding between the United States and Iran",
+      "link": "https://www.defensenews.com/news/pentagon-congress/2026/06/17/read-the-14-point-memorandum-of-understanding-between-the-united-states-and-iran/",
+      "published": "Wed, 17 Jun 2026 20:02:22 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment"
+      ]
     }
   ],
   "centcom_assets": {
@@ -899,11 +908,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 9,
+    "deployment_articles": 11,
     "conflict_articles": 7,
     "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-06-17T19:53:17.655247+00:00",
+    "computed_at": "2026-06-17T21:49:32.424596+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] UK Conducts First Boarding of Russian Shadow Fleet Ship",
@@ -921,9 +930,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-06-17T19:53:17.655291+00:00",
+    "last_successful_update": "2026-06-17T21:49:32.424666+00:00",
     "article_count": 50,
-    "categorized_count": 15,
+    "categorized_count": 17,
     "freshest_source": "Naval News",
     "freshest_title": "UK Conducts First Boarding of Russian Shadow Fleet Ship",
     "freshest_published": "Mon, 15 Jun 2026 08:48:39 +0000"
