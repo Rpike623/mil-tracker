@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-06-18T17:51:12Z",
-  "version": 1751,
-  "breaking_alert": "Naval News: Exail introduces new inertial navigation system for amphibious operations",
+  "generated_utc": "2026-06-18T20:08:33Z",
+  "version": 1752,
+  "breaking_alert": "Naval News: Fincantieri and REPUBLIKORP Establish Strategic Partnership for Multi-role Naval Shipbuilding in Indonesia",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -594,19 +594,37 @@
   ],
   "_naval_news_refs": [
     {
-      "title": "Before we move on: 2 painful lessons from the Iran war",
-      "link": "https://www.militarytimes.com/opinion/2026/06/18/before-we-move-on-2-painful-lessons-from-the-iran-war/",
-      "published": "Thu, 18 Jun 2026 00:00:00 +0000",
+      "title": "Fincantieri and REPUBLIKORP Establish Strategic Partnership for Multi-role Naval Shipbuilding in Indonesia",
+      "link": "https://www.navalnews.com/naval-news/2026/06/fincantieri-and-republikorp-establish-strategic-partnership-for-multi-role-naval-shipbuilding-in-indonesia/",
+      "published": "Thu, 18 Jun 2026 08:55:41 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Republicans blast Iran agreement as details emerge",
+      "link": "https://www.defensenews.com/news/pentagon-congress/2026/06/18/republicans-blast-iran-agreement-as-details-emerge/",
+      "published": "Thu, 18 Jun 2026 19:35:56 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Republicans blast Iran agreement as details emerge",
+      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/06/18/republicans-blast-iran-agreement-as-details-emerge/",
+      "published": "Thu, 18 Jun 2026 19:35:56 +0000",
       "source": "Military Times",
       "categories": [
         "deployment"
       ]
     },
     {
-      "title": "Fincantieri and REPUBLIKORP Establish Strategic Partnership for Multi-role Naval Shipbuilding in Indonesia",
-      "link": "https://www.navalnews.com/naval-news/2026/06/fincantieri-and-republikorp-establish-strategic-partnership-for-multi-role-naval-shipbuilding-in-indonesia/",
-      "published": "Thu, 18 Jun 2026 08:55:41 +0000",
-      "source": "Naval News",
+      "title": "SASC Wants Navy to Develop New DDG(X) Destroyer in Tandem with Trump Battleship",
+      "link": "https://news.usni.org/2026/06/18/sasc-wants-navy-to-develop-new-ddgx-destroyer-in-tandem-with-trump-battleship",
+      "published": "Thu, 18 Jun 2026 19:44:51 +0000",
+      "source": "USNI News",
       "categories": [
         "deployment"
       ]
@@ -858,15 +876,6 @@
   ],
   "_exercise_news_refs": [
     {
-      "title": "Exail introduces new inertial navigation system for amphibious operations",
-      "link": "https://www.navalnews.com/naval-news/2026/06/exail-introduces-new-inertial-navigation-system-for-amphibious-operations/",
-      "published": "Mon, 15 Jun 2026 17:33:21 +0000",
-      "source": "Naval News",
-      "categories": [
-        "exercise"
-      ]
-    },
-    {
       "title": "U.S. Marines Kick Off Kamandag 10 Exercise in the Philippines",
       "link": "https://news.usni.org/2026/06/18/u-s-marines-kick-off-kamandag-10-exercise-in-the-philippines",
       "published": "Thu, 18 Jun 2026 16:31:18 +0000",
@@ -886,18 +895,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 7,
+    "deployment_articles": 9,
     "conflict_articles": 6,
-    "exercise_articles": 3,
+    "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-06-18T17:51:07.112294+00:00",
+    "computed_at": "2026-06-18T20:03:52.719315+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
-      "[Naval News] Exail introduces new inertial navigation system for amphibious operations",
-      "[Military Times] Before we move on: 2 painful lessons from the Iran war",
       "[Naval News] Fincantieri and REPUBLIKORP Establish Strategic Partnership for Multi-role Naval Shipbuilding in Indonesia",
       "[USNI News] U.S. Marines Kick Off Kamandag 10 Exercise in the Philippines",
-      "[Defense News] Ukraine hits Moscow refinery in major drone attack on Russian capital"
+      "[Defense News] Ukraine hits Moscow refinery in major drone attack on Russian capital",
+      "[Military Times] Ukraine hits Moscow refinery in major drone attack on Russian capital",
+      "[Military Times] VA eliminates gender-identity initiatives, reclassifies LGBTQ+ care coordinators"
     ]
   },
   "ground_intel": {
@@ -908,12 +917,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-06-18T17:51:07.112335+00:00",
+    "last_successful_update": "2026-06-18T20:03:52.719358+00:00",
     "article_count": 50,
-    "categorized_count": 15,
+    "categorized_count": 16,
     "freshest_source": "Naval News",
-    "freshest_title": "Exail introduces new inertial navigation system for amphibious operations",
-    "freshest_published": "Mon, 15 Jun 2026 17:33:21 +0000"
+    "freshest_title": "Fincantieri and REPUBLIKORP Establish Strategic Partnership for Multi-role Naval Shipbuilding in Indonesia",
+    "freshest_published": "Thu, 18 Jun 2026 08:55:41 +0000"
   },
   "_firms_hotspots": []
 }
