@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-06-17T23:13:06Z",
-  "version": 1746,
+  "generated_utc": "2026-06-18T02:11:47Z",
+  "version": 1747,
   "breaking_alert": "Naval News: UK Conducts First Boarding of Russian Shadow Fleet Ship",
   "naval_deployments": [
     {
@@ -631,6 +631,15 @@
       ]
     },
     {
+      "title": "Before we move on: 2 painful lessons from the Iran war",
+      "link": "https://www.militarytimes.com/opinion/2026/06/18/before-we-move-on-2-painful-lessons-from-the-iran-war/",
+      "published": "Thu, 18 Jun 2026 00:00:00 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "MBDA advances land version of its naval missile as European strike weapon",
       "link": "https://www.defensenews.com/global/europe/2026/06/16/mbda-advances-land-version-of-its-naval-missile-as-european-strike-weapon/",
       "published": "Tue, 16 Jun 2026 14:40:32 +0000",
@@ -673,15 +682,6 @@
       "link": "https://news.usni.org/2026/06/17/destroyer-uss-mitscher-returns-home-from-11-month-deployment",
       "published": "Wed, 17 Jun 2026 19:47:03 +0000",
       "source": "USNI News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Read the 14-point memorandum of understanding between the United States and Iran",
-      "link": "https://www.defensenews.com/news/pentagon-congress/2026/06/17/read-the-14-point-memorandum-of-understanding-between-the-united-states-and-iran/",
-      "published": "Wed, 17 Jun 2026 20:02:22 +0000",
-      "source": "Defense News",
       "categories": [
         "deployment"
       ]
@@ -908,11 +908,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 11,
+    "deployment_articles": 12,
     "conflict_articles": 7,
     "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-06-17T23:13:00.946301+00:00",
+    "computed_at": "2026-06-18T02:11:40.065063+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] UK Conducts First Boarding of Russian Shadow Fleet Ship",
@@ -930,9 +930,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-06-17T23:13:00.946347+00:00",
+    "last_successful_update": "2026-06-18T02:11:40.065109+00:00",
     "article_count": 50,
-    "categorized_count": 17,
+    "categorized_count": 18,
     "freshest_source": "Naval News",
     "freshest_title": "UK Conducts First Boarding of Russian Shadow Fleet Ship",
     "freshest_published": "Mon, 15 Jun 2026 08:48:39 +0000"
