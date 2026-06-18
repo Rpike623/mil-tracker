@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-06-18T20:08:33Z",
-  "version": 1752,
+  "generated_utc": "2026-06-18T22:48:36Z",
+  "version": 1753,
   "breaking_alert": "Naval News: Fincantieri and REPUBLIKORP Establish Strategic Partnership for Multi-role Naval Shipbuilding in Indonesia",
   "naval_deployments": [
     {
@@ -630,6 +630,35 @@
       ]
     },
     {
+      "title": "Senate eyes Hegseth travel cuts without probes into Iran school bombing, boat strikes",
+      "link": "https://www.defensenews.com/news/pentagon-congress/2026/06/18/senate-eyes-hegseth-travel-cuts-without-probes-into-iran-school-bombing-boat-strikes/",
+      "published": "Thu, 18 Jun 2026 21:13:54 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
+    },
+    {
+      "title": "Senate eyes Hegseth travel cuts without probes into Iran school bombing, boat strikes",
+      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/06/18/senate-eyes-hegseth-travel-cuts-without-probes-into-iran-school-bombing-boat-strikes/",
+      "published": "Thu, 18 Jun 2026 21:13:54 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
+    },
+    {
+      "title": "U.S. Ends Naval Blockade of Iran",
+      "link": "https://news.usni.org/2026/06/18/u-s-ends-naval-blockade-of-iran",
+      "published": "Thu, 18 Jun 2026 22:30:53 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "Dutch MoD and Naval Group Ink F21 Torpedo Procurement Contract",
       "link": "https://www.navalnews.com/naval-news/2026/06/dutch-mod-and-naval-group-ink-f21-torpedo-procurement-contract/",
       "published": "Tue, 16 Jun 2026 19:00:27 +0000",
@@ -655,24 +684,6 @@
       "categories": [
         "deployment",
         "conflict"
-      ]
-    },
-    {
-      "title": "Destroyer USS Mitscher Returns Home From 11-month Deployment",
-      "link": "https://news.usni.org/2026/06/17/destroyer-uss-mitscher-returns-home-from-11-month-deployment",
-      "published": "Wed, 17 Jun 2026 19:47:03 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Read the 14-point memorandum of understanding between the United States and Iran",
-      "link": "https://www.defensenews.com/news/pentagon-congress/2026/06/17/read-the-14-point-memorandum-of-understanding-between-the-united-states-and-iran/",
-      "published": "Wed, 17 Jun 2026 20:02:22 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment"
       ]
     }
   ],
@@ -846,30 +857,31 @@
       ]
     },
     {
+      "title": "Senate eyes Hegseth travel cuts without probes into Iran school bombing, boat strikes",
+      "link": "https://www.defensenews.com/news/pentagon-congress/2026/06/18/senate-eyes-hegseth-travel-cuts-without-probes-into-iran-school-bombing-boat-strikes/",
+      "published": "Thu, 18 Jun 2026 21:13:54 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
+    },
+    {
+      "title": "Senate eyes Hegseth travel cuts without probes into Iran school bombing, boat strikes",
+      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/06/18/senate-eyes-hegseth-travel-cuts-without-probes-into-iran-school-bombing-boat-strikes/",
+      "published": "Thu, 18 Jun 2026 21:13:54 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
+    },
+    {
       "title": "India Conducts Spate of Tests for Anti-Ship, Land Attack, BMD And Hypersonic Ground Attack Missiles",
       "link": "https://www.navalnews.com/naval-news/2026/06/india-conducts-spate-of-tests-for-anti-ship-land-attack-bmd-and-hypersonic-ground-attack-missiles/",
       "published": "Tue, 16 Jun 2026 05:00:00 +0000",
       "source": "Naval News",
       "categories": [
-        "conflict"
-      ]
-    },
-    {
-      "title": "Air Force identifies crew members killed in California B-52 crash",
-      "link": "https://taskandpurpose.com/news/air-force-b-52-identified/",
-      "published": "Wed, 17 Jun 2026 13:52:07 -0400",
-      "source": "Task & Purpose",
-      "categories": [
-        "conflict"
-      ]
-    },
-    {
-      "title": "George Washington Carrier Strike Group in Guam for First Port Call of Spring Patrol",
-      "link": "https://news.usni.org/2026/06/17/george-washington-carrier-strike-group-in-guam-for-first-port-call-of-spring-patrol",
-      "published": "Wed, 17 Jun 2026 18:02:35 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment",
         "conflict"
       ]
     }
@@ -895,12 +907,12 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 9,
-    "conflict_articles": 6,
+    "deployment_articles": 12,
+    "conflict_articles": 8,
     "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-06-18T20:03:52.719315+00:00",
-    "manual_override": "DEFCON_3",
+    "computed_at": "2026-06-18T22:48:33.068405+00:00",
+    "manual_override": "DEFCON_2",
     "breaking_events": [
       "[Naval News] Fincantieri and REPUBLIKORP Establish Strategic Partnership for Multi-role Naval Shipbuilding in Indonesia",
       "[USNI News] U.S. Marines Kick Off Kamandag 10 Exercise in the Philippines",
@@ -917,9 +929,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-06-18T20:03:52.719358+00:00",
+    "last_successful_update": "2026-06-18T22:48:33.068470+00:00",
     "article_count": 50,
-    "categorized_count": 16,
+    "categorized_count": 19,
     "freshest_source": "Naval News",
     "freshest_title": "Fincantieri and REPUBLIKORP Establish Strategic Partnership for Multi-role Naval Shipbuilding in Indonesia",
     "freshest_published": "Thu, 18 Jun 2026 08:55:41 +0000"
