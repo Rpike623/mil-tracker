@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-06-19T19:20:43Z",
-  "version": 1759,
+  "generated_utc": "2026-06-19T20:58:03Z",
+  "version": 1760,
   "breaking_alert": "Naval News: Naval Group, MESKO and TELESYSTEM sign a sea firing trials agreement for demonstration",
   "naval_deployments": [
     {
@@ -612,6 +612,24 @@
       ]
     },
     {
+      "title": "Pentagon tells lawmakers it needs $80 billion for Iran war, other expenses: WSJ",
+      "link": "https://www.defensenews.com/news/pentagon-congress/2026/06/19/pentagon-tells-lawmakers-it-needs-80-billion-for-iran-war-other-expenses-wsj/",
+      "published": "Fri, 19 Jun 2026 20:23:18 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Pentagon tells lawmakers it needs $80 billion for Iran war, other expenses: WSJ",
+      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/06/19/pentagon-tells-lawmakers-it-needs-80-billion-for-iran-war-other-expenses-wsj/",
+      "published": "Fri, 19 Jun 2026 20:23:18 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "Fincantieri and REPUBLIKORP Establish Strategic Partnership for Multi-role Naval Shipbuilding in Indonesia",
       "link": "https://www.navalnews.com/naval-news/2026/06/fincantieri-and-republikorp-establish-strategic-partnership-for-multi-role-naval-shipbuilding-in-indonesia/",
       "published": "Thu, 18 Jun 2026 08:55:41 +0000",
@@ -625,15 +643,6 @@
       "link": "https://www.defensenews.com/news/pentagon-congress/2026/06/18/republicans-blast-iran-agreement-as-details-emerge/",
       "published": "Thu, 18 Jun 2026 19:35:56 +0000",
       "source": "Defense News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Republicans blast Iran agreement as details emerge",
-      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/06/18/republicans-blast-iran-agreement-as-details-emerge/",
-      "published": "Thu, 18 Jun 2026 19:35:56 +0000",
-      "source": "Military Times",
       "categories": [
         "deployment"
       ]
@@ -672,15 +681,6 @@
       "link": "https://news.usni.org/2026/06/18/u-s-ends-naval-blockade-of-iran",
       "published": "Thu, 18 Jun 2026 22:30:53 +0000",
       "source": "USNI News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Dutch MoD and Naval Group Ink F21 Torpedo Procurement Contract",
-      "link": "https://www.navalnews.com/naval-news/2026/06/dutch-mod-and-naval-group-ink-f21-torpedo-procurement-contract/",
-      "published": "Tue, 16 Jun 2026 19:00:27 +0000",
-      "source": "Naval News",
       "categories": [
         "deployment"
       ]
@@ -897,18 +897,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 12,
+    "deployment_articles": 13,
     "conflict_articles": 5,
     "exercise_articles": 1,
     "total_articles": 50,
-    "computed_at": "2026-06-19T19:20:39.234091+00:00",
+    "computed_at": "2026-06-19T20:58:01.392229+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] Naval Group, MESKO and TELESYSTEM sign a sea firing trials agreement for demonstration",
       "[USNI News] Three Killed in Latest U.S. Strike on Suspected Drug Boat",
       "[Military Times] ‘Hell ship’ responsible for the largest single-day loss of Allied POWs discovered after more than 80 years",
-      "[Naval News] Fincantieri and REPUBLIKORP Establish Strategic Partnership for Multi-role Naval Shipbuilding in Indonesia",
-      "[USNI News] U.S. Marines Kick Off Kamandag 10 Exercise in the Philippines"
+      "[Defense News] Pentagon tells lawmakers it needs $80 billion for Iran war, other expenses: WSJ",
+      "[Military Times] Pentagon tells lawmakers it needs $80 billion for Iran war, other expenses: WSJ"
     ]
   },
   "ground_intel": {
@@ -919,9 +919,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-06-19T19:20:39.234140+00:00",
+    "last_successful_update": "2026-06-19T20:58:01.392276+00:00",
     "article_count": 50,
-    "categorized_count": 16,
+    "categorized_count": 17,
     "freshest_source": "Naval News",
     "freshest_title": "Naval Group, MESKO and TELESYSTEM sign a sea firing trials agreement for demonstration",
     "freshest_published": "Fri, 19 Jun 2026 12:41:19 +0000"
