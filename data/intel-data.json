@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-06-19T20:58:03Z",
-  "version": 1760,
+  "generated_utc": "2026-06-19T22:00:25Z",
+  "version": 1761,
   "breaking_alert": "Naval News: Naval Group, MESKO and TELESYSTEM sign a sea firing trials agreement for demonstration",
   "naval_deployments": [
     {
@@ -847,15 +847,6 @@
       ]
     },
     {
-      "title": "Ukraine hits Moscow refinery in major drone attack on Russian capital",
-      "link": "https://www.defensenews.com/global/europe/2026/06/18/ukraine-hits-moscow-refinery-in-major-drone-attack-on-russian-capital/",
-      "published": "Thu, 18 Jun 2026 16:38:59 +0000",
-      "source": "Defense News",
-      "categories": [
-        "conflict"
-      ]
-    },
-    {
       "title": "Senate eyes Hegseth travel cuts without probes into Iran school bombing, boat strikes",
       "link": "https://www.defensenews.com/news/pentagon-congress/2026/06/18/senate-eyes-hegseth-travel-cuts-without-probes-into-iran-school-bombing-boat-strikes/",
       "published": "Thu, 18 Jun 2026 21:13:54 +0000",
@@ -898,10 +889,10 @@
   ],
   "_threat_indicators": {
     "deployment_articles": 13,
-    "conflict_articles": 5,
+    "conflict_articles": 4,
     "exercise_articles": 1,
     "total_articles": 50,
-    "computed_at": "2026-06-19T20:58:01.392229+00:00",
+    "computed_at": "2026-06-19T22:00:22.979419+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] Naval Group, MESKO and TELESYSTEM sign a sea firing trials agreement for demonstration",
@@ -919,9 +910,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-06-19T20:58:01.392276+00:00",
+    "last_successful_update": "2026-06-19T22:00:22.979467+00:00",
     "article_count": 50,
-    "categorized_count": 17,
+    "categorized_count": 16,
     "freshest_source": "Naval News",
     "freshest_title": "Naval Group, MESKO and TELESYSTEM sign a sea firing trials agreement for demonstration",
     "freshest_published": "Fri, 19 Jun 2026 12:41:19 +0000"
