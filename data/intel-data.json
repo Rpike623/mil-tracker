@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-06-19T22:00:25Z",
-  "version": 1761,
+  "generated_utc": "2026-06-19T23:55:47Z",
+  "version": 1762,
   "breaking_alert": "Naval News: Naval Group, MESKO and TELESYSTEM sign a sea firing trials agreement for demonstration",
   "naval_deployments": [
     {
@@ -630,6 +630,15 @@
       ]
     },
     {
+      "title": "Trump heads to Camp David as questions swirl over Iran deal",
+      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/06/19/trump-heads-to-camp-david-as-questions-swirl-over-iran-deal/",
+      "published": "Fri, 19 Jun 2026 22:49:13 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "Fincantieri and REPUBLIKORP Establish Strategic Partnership for Multi-role Naval Shipbuilding in Indonesia",
       "link": "https://www.navalnews.com/naval-news/2026/06/fincantieri-and-republikorp-establish-strategic-partnership-for-multi-role-naval-shipbuilding-in-indonesia/",
       "published": "Thu, 18 Jun 2026 08:55:41 +0000",
@@ -661,16 +670,6 @@
       "link": "https://www.defensenews.com/news/pentagon-congress/2026/06/18/senate-eyes-hegseth-travel-cuts-without-probes-into-iran-school-bombing-boat-strikes/",
       "published": "Thu, 18 Jun 2026 21:13:54 +0000",
       "source": "Defense News",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
-      "title": "Senate eyes Hegseth travel cuts without probes into Iran school bombing, boat strikes",
-      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/06/18/senate-eyes-hegseth-travel-cuts-without-probes-into-iran-school-bombing-boat-strikes/",
-      "published": "Thu, 18 Jun 2026 21:13:54 +0000",
-      "source": "Military Times",
       "categories": [
         "deployment",
         "conflict"
@@ -857,16 +856,6 @@
       ]
     },
     {
-      "title": "Senate eyes Hegseth travel cuts without probes into Iran school bombing, boat strikes",
-      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/06/18/senate-eyes-hegseth-travel-cuts-without-probes-into-iran-school-bombing-boat-strikes/",
-      "published": "Thu, 18 Jun 2026 21:13:54 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
       "title": "Air Force identifies crew members killed in California B-52 crash",
       "link": "https://taskandpurpose.com/news/air-force-b-52-identified/",
       "published": "Wed, 17 Jun 2026 13:52:07 -0400",
@@ -877,6 +866,24 @@
     }
   ],
   "_exercise_news_refs": [
+    {
+      "title": "Highway patrol: US Marine F-35s conduct flight operations on Finnish roads",
+      "link": "https://www.defensenews.com/news/your-military/2026/06/19/highway-patrol-us-marine-f-35s-conduct-flight-operations-on-finnish-roads/",
+      "published": "Fri, 19 Jun 2026 22:02:21 +0000",
+      "source": "Defense News",
+      "categories": [
+        "exercise"
+      ]
+    },
+    {
+      "title": "Highway patrol: US Marine F-35s conduct flight operations on Finnish roads",
+      "link": "https://www.militarytimes.com/news/your-military/2026/06/19/highway-patrol-us-marine-f-35s-conduct-flight-operations-on-finnish-roads/",
+      "published": "Fri, 19 Jun 2026 22:02:21 +0000",
+      "source": "Military Times",
+      "categories": [
+        "exercise"
+      ]
+    },
     {
       "title": "U.S. Marines Kick Off Kamandag 10 Exercise in the Philippines",
       "link": "https://news.usni.org/2026/06/18/u-s-marines-kick-off-kamandag-10-exercise-in-the-philippines",
@@ -889,10 +896,10 @@
   ],
   "_threat_indicators": {
     "deployment_articles": 13,
-    "conflict_articles": 4,
-    "exercise_articles": 1,
+    "conflict_articles": 3,
+    "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-06-19T22:00:22.979419+00:00",
+    "computed_at": "2026-06-19T23:55:42.176572+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] Naval Group, MESKO and TELESYSTEM sign a sea firing trials agreement for demonstration",
@@ -910,9 +917,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-06-19T22:00:22.979467+00:00",
+    "last_successful_update": "2026-06-19T23:55:42.176622+00:00",
     "article_count": 50,
-    "categorized_count": 16,
+    "categorized_count": 18,
     "freshest_source": "Naval News",
     "freshest_title": "Naval Group, MESKO and TELESYSTEM sign a sea firing trials agreement for demonstration",
     "freshest_published": "Fri, 19 Jun 2026 12:41:19 +0000"
