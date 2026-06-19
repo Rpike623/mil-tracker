@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-06-19T00:17:26Z",
-  "version": 1754,
+  "generated_utc": "2026-06-19T06:03:37Z",
+  "version": 1755,
   "breaking_alert": "Naval News: Fincantieri and REPUBLIKORP Establish Strategic Partnership for Multi-role Naval Shipbuilding in Indonesia",
   "naval_deployments": [
     {
@@ -911,7 +911,7 @@
     "conflict_articles": 8,
     "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-06-19T00:17:20.894773+00:00",
+    "computed_at": "2026-06-19T06:03:34.068317+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[Naval News] Fincantieri and REPUBLIKORP Establish Strategic Partnership for Multi-role Naval Shipbuilding in Indonesia",
@@ -929,7 +929,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-06-19T00:17:20.894809+00:00",
+    "last_successful_update": "2026-06-19T06:03:34.068359+00:00",
     "article_count": 50,
     "categorized_count": 19,
     "freshest_source": "Naval News",
