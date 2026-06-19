@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-06-19T14:35:07Z",
-  "version": 1757,
+  "generated_utc": "2026-06-19T17:08:16Z",
+  "version": 1758,
   "breaking_alert": "Naval News: Naval Group, MESKO and TELESYSTEM sign a sea firing trials agreement for demonstration",
   "naval_deployments": [
     {
@@ -838,6 +838,15 @@
   },
   "_conflict_news_refs": [
     {
+      "title": "Three Killed in Latest U.S. Strike on Suspected Drug Boat",
+      "link": "https://news.usni.org/2026/06/19/three-killed-in-latest-u-s-strike-on-suspected-drug-boat",
+      "published": "Fri, 19 Jun 2026 14:44:57 +0000",
+      "source": "USNI News",
+      "categories": [
+        "conflict"
+      ]
+    },
+    {
       "title": "Ukraine hits Moscow refinery in major drone attack on Russian capital",
       "link": "https://www.defensenews.com/global/europe/2026/06/18/ukraine-hits-moscow-refinery-in-major-drone-attack-on-russian-capital/",
       "published": "Thu, 18 Jun 2026 16:38:59 +0000",
@@ -874,16 +883,6 @@
       "categories": [
         "conflict"
       ]
-    },
-    {
-      "title": "George Washington Carrier Strike Group in Guam for First Port Call of Spring Patrol",
-      "link": "https://news.usni.org/2026/06/17/george-washington-carrier-strike-group-in-guam-for-first-port-call-of-spring-patrol",
-      "published": "Wed, 17 Jun 2026 18:02:35 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
     }
   ],
   "_exercise_news_refs": [
@@ -895,30 +894,21 @@
       "categories": [
         "exercise"
       ]
-    },
-    {
-      "title": "VA eliminates gender-identity initiatives, reclassifies LGBTQ+ care coordinators",
-      "link": "https://www.militarytimes.com/veterans/2026/06/18/va-eliminates-gender-identity-initiatives-reclassifies-lgbtq-care-coordinators/",
-      "published": "Thu, 18 Jun 2026 17:30:59 +0000",
-      "source": "Military Times",
-      "categories": [
-        "exercise"
-      ]
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 12,
-    "conflict_articles": 6,
-    "exercise_articles": 2,
+    "deployment_articles": 11,
+    "conflict_articles": 5,
+    "exercise_articles": 1,
     "total_articles": 50,
-    "computed_at": "2026-06-19T14:35:03.326192+00:00",
+    "computed_at": "2026-06-19T17:08:13.942117+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] Naval Group, MESKO and TELESYSTEM sign a sea firing trials agreement for demonstration",
+      "[USNI News] Three Killed in Latest U.S. Strike on Suspected Drug Boat",
       "[Naval News] Fincantieri and REPUBLIKORP Establish Strategic Partnership for Multi-role Naval Shipbuilding in Indonesia",
       "[USNI News] U.S. Marines Kick Off Kamandag 10 Exercise in the Philippines",
-      "[Defense News] Ukraine hits Moscow refinery in major drone attack on Russian capital",
-      "[Military Times] VA eliminates gender-identity initiatives, reclassifies LGBTQ+ care coordinators"
+      "[Defense News] Ukraine hits Moscow refinery in major drone attack on Russian capital"
     ]
   },
   "ground_intel": {
@@ -929,9 +919,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-06-19T14:35:03.326239+00:00",
+    "last_successful_update": "2026-06-19T17:08:13.942160+00:00",
     "article_count": 50,
-    "categorized_count": 17,
+    "categorized_count": 15,
     "freshest_source": "Naval News",
     "freshest_title": "Naval Group, MESKO and TELESYSTEM sign a sea firing trials agreement for demonstration",
     "freshest_published": "Fri, 19 Jun 2026 12:41:19 +0000"
