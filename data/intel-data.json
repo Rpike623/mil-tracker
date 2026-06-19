@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-06-19T17:08:16Z",
-  "version": 1758,
+  "generated_utc": "2026-06-19T19:20:43Z",
+  "version": 1759,
   "breaking_alert": "Naval News: Naval Group, MESKO and TELESYSTEM sign a sea firing trials agreement for demonstration",
   "naval_deployments": [
     {
@@ -603,6 +603,15 @@
       ]
     },
     {
+      "title": "‘Hell ship’ responsible for the largest single-day loss of Allied POWs discovered after more than 80 years",
+      "link": "https://www.militarytimes.com/veterans/military-history/2026/06/19/hell-ship-responsible-for-the-largest-single-day-loss-of-allied-pows-discovered-after-more-than-80-years/",
+      "published": "Fri, 19 Jun 2026 18:56:18 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "Fincantieri and REPUBLIKORP Establish Strategic Partnership for Multi-role Naval Shipbuilding in Indonesia",
       "link": "https://www.navalnews.com/naval-news/2026/06/fincantieri-and-republikorp-establish-strategic-partnership-for-multi-role-naval-shipbuilding-in-indonesia/",
       "published": "Thu, 18 Jun 2026 08:55:41 +0000",
@@ -671,15 +680,6 @@
       "title": "Dutch MoD and Naval Group Ink F21 Torpedo Procurement Contract",
       "link": "https://www.navalnews.com/naval-news/2026/06/dutch-mod-and-naval-group-ink-f21-torpedo-procurement-contract/",
       "published": "Tue, 16 Jun 2026 19:00:27 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Naval Group’s MPLS Close-In Weapon System Becomes ‘Rampart’",
-      "link": "https://www.navalnews.com/naval-news/2026/06/naval-groups-mpls-close-in-weapon-system-becomes-rampart/",
-      "published": "Wed, 17 Jun 2026 07:00:00 +0000",
       "source": "Naval News",
       "categories": [
         "deployment"
@@ -897,18 +897,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 11,
+    "deployment_articles": 12,
     "conflict_articles": 5,
     "exercise_articles": 1,
     "total_articles": 50,
-    "computed_at": "2026-06-19T17:08:13.942117+00:00",
+    "computed_at": "2026-06-19T19:20:39.234091+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] Naval Group, MESKO and TELESYSTEM sign a sea firing trials agreement for demonstration",
       "[USNI News] Three Killed in Latest U.S. Strike on Suspected Drug Boat",
+      "[Military Times] ‘Hell ship’ responsible for the largest single-day loss of Allied POWs discovered after more than 80 years",
       "[Naval News] Fincantieri and REPUBLIKORP Establish Strategic Partnership for Multi-role Naval Shipbuilding in Indonesia",
-      "[USNI News] U.S. Marines Kick Off Kamandag 10 Exercise in the Philippines",
-      "[Defense News] Ukraine hits Moscow refinery in major drone attack on Russian capital"
+      "[USNI News] U.S. Marines Kick Off Kamandag 10 Exercise in the Philippines"
     ]
   },
   "ground_intel": {
@@ -919,9 +919,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-06-19T17:08:13.942160+00:00",
+    "last_successful_update": "2026-06-19T19:20:39.234140+00:00",
     "article_count": 50,
-    "categorized_count": 15,
+    "categorized_count": 16,
     "freshest_source": "Naval News",
     "freshest_title": "Naval Group, MESKO and TELESYSTEM sign a sea firing trials agreement for demonstration",
     "freshest_published": "Fri, 19 Jun 2026 12:41:19 +0000"
