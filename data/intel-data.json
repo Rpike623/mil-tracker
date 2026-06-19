@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-06-19T11:09:37Z",
-  "version": 1756,
-  "breaking_alert": "Naval News: Fincantieri and REPUBLIKORP Establish Strategic Partnership for Multi-role Naval Shipbuilding in Indonesia",
+  "generated_utc": "2026-06-19T14:35:07Z",
+  "version": 1757,
+  "breaking_alert": "Naval News: Naval Group, MESKO and TELESYSTEM sign a sea firing trials agreement for demonstration",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -594,6 +594,15 @@
   ],
   "_naval_news_refs": [
     {
+      "title": "Naval Group, MESKO and TELESYSTEM sign a sea firing trials agreement for demonstration",
+      "link": "https://www.navalnews.com/naval-news/2026/06/naval-group-mesko-and-telesystem-sign-a-sea-firing-trials-agreement-for-demonstration/",
+      "published": "Fri, 19 Jun 2026 12:41:19 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "Fincantieri and REPUBLIKORP Establish Strategic Partnership for Multi-role Naval Shipbuilding in Indonesia",
       "link": "https://www.navalnews.com/naval-news/2026/06/fincantieri-and-republikorp-establish-strategic-partnership-for-multi-role-naval-shipbuilding-in-indonesia/",
       "published": "Thu, 18 Jun 2026 08:55:41 +0000",
@@ -674,16 +683,6 @@
       "source": "Naval News",
       "categories": [
         "deployment"
-      ]
-    },
-    {
-      "title": "George Washington Carrier Strike Group in Guam for First Port Call of Spring Patrol",
-      "link": "https://news.usni.org/2026/06/17/george-washington-carrier-strike-group-in-guam-for-first-port-call-of-spring-patrol",
-      "published": "Wed, 17 Jun 2026 18:02:35 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment",
-        "conflict"
       ]
     }
   ],
@@ -848,15 +847,6 @@
       ]
     },
     {
-      "title": "Ukraine hits Moscow refinery in major drone attack on Russian capital",
-      "link": "https://www.militarytimes.com/global/europe/2026/06/18/ukraine-hits-moscow-refinery-in-major-drone-attack-on-russian-capital/",
-      "published": "Thu, 18 Jun 2026 16:38:59 +0000",
-      "source": "Military Times",
-      "categories": [
-        "conflict"
-      ]
-    },
-    {
       "title": "Senate eyes Hegseth travel cuts without probes into Iran school bombing, boat strikes",
       "link": "https://www.defensenews.com/news/pentagon-congress/2026/06/18/senate-eyes-hegseth-travel-cuts-without-probes-into-iran-school-bombing-boat-strikes/",
       "published": "Thu, 18 Jun 2026 21:13:54 +0000",
@@ -884,6 +874,16 @@
       "categories": [
         "conflict"
       ]
+    },
+    {
+      "title": "George Washington Carrier Strike Group in Guam for First Port Call of Spring Patrol",
+      "link": "https://news.usni.org/2026/06/17/george-washington-carrier-strike-group-in-guam-for-first-port-call-of-spring-patrol",
+      "published": "Wed, 17 Jun 2026 18:02:35 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
     }
   ],
   "_exercise_news_refs": [
@@ -908,16 +908,16 @@
   ],
   "_threat_indicators": {
     "deployment_articles": 12,
-    "conflict_articles": 7,
+    "conflict_articles": 6,
     "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-06-19T11:09:31.376961+00:00",
+    "computed_at": "2026-06-19T14:35:03.326192+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
+      "[Naval News] Naval Group, MESKO and TELESYSTEM sign a sea firing trials agreement for demonstration",
       "[Naval News] Fincantieri and REPUBLIKORP Establish Strategic Partnership for Multi-role Naval Shipbuilding in Indonesia",
       "[USNI News] U.S. Marines Kick Off Kamandag 10 Exercise in the Philippines",
       "[Defense News] Ukraine hits Moscow refinery in major drone attack on Russian capital",
-      "[Military Times] Ukraine hits Moscow refinery in major drone attack on Russian capital",
       "[Military Times] VA eliminates gender-identity initiatives, reclassifies LGBTQ+ care coordinators"
     ]
   },
@@ -929,12 +929,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-06-19T11:09:31.377000+00:00",
+    "last_successful_update": "2026-06-19T14:35:03.326239+00:00",
     "article_count": 50,
-    "categorized_count": 18,
+    "categorized_count": 17,
     "freshest_source": "Naval News",
-    "freshest_title": "Fincantieri and REPUBLIKORP Establish Strategic Partnership for Multi-role Naval Shipbuilding in Indonesia",
-    "freshest_published": "Thu, 18 Jun 2026 08:55:41 +0000"
+    "freshest_title": "Naval Group, MESKO and TELESYSTEM sign a sea firing trials agreement for demonstration",
+    "freshest_published": "Fri, 19 Jun 2026 12:41:19 +0000"
   },
   "_firms_hotspots": []
 }
