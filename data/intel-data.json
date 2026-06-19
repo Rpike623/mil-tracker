@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-06-19T06:03:37Z",
-  "version": 1755,
+  "generated_utc": "2026-06-19T11:09:37Z",
+  "version": 1756,
   "breaking_alert": "Naval News: Fincantieri and REPUBLIKORP Establish Strategic Partnership for Multi-role Naval Shipbuilding in Indonesia",
   "naval_deployments": [
     {
@@ -877,10 +877,10 @@
       ]
     },
     {
-      "title": "India Conducts Spate of Tests for Anti-Ship, Land Attack, BMD And Hypersonic Ground Attack Missiles",
-      "link": "https://www.navalnews.com/naval-news/2026/06/india-conducts-spate-of-tests-for-anti-ship-land-attack-bmd-and-hypersonic-ground-attack-missiles/",
-      "published": "Tue, 16 Jun 2026 05:00:00 +0000",
-      "source": "Naval News",
+      "title": "Air Force identifies crew members killed in California B-52 crash",
+      "link": "https://taskandpurpose.com/news/air-force-b-52-identified/",
+      "published": "Wed, 17 Jun 2026 13:52:07 -0400",
+      "source": "Task & Purpose",
       "categories": [
         "conflict"
       ]
@@ -908,11 +908,11 @@
   ],
   "_threat_indicators": {
     "deployment_articles": 12,
-    "conflict_articles": 8,
+    "conflict_articles": 7,
     "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-06-19T06:03:34.068317+00:00",
-    "manual_override": "DEFCON_2",
+    "computed_at": "2026-06-19T11:09:31.376961+00:00",
+    "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] Fincantieri and REPUBLIKORP Establish Strategic Partnership for Multi-role Naval Shipbuilding in Indonesia",
       "[USNI News] U.S. Marines Kick Off Kamandag 10 Exercise in the Philippines",
@@ -929,9 +929,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-06-19T06:03:34.068359+00:00",
+    "last_successful_update": "2026-06-19T11:09:31.377000+00:00",
     "article_count": 50,
-    "categorized_count": 19,
+    "categorized_count": 18,
     "freshest_source": "Naval News",
     "freshest_title": "Fincantieri and REPUBLIKORP Establish Strategic Partnership for Multi-role Naval Shipbuilding in Indonesia",
     "freshest_published": "Thu, 18 Jun 2026 08:55:41 +0000"
