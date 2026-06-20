@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-06-19T23:55:47Z",
-  "version": 1762,
+  "generated_utc": "2026-06-20T02:07:32Z",
+  "version": 1763,
   "breaking_alert": "Naval News: Naval Group, MESKO and TELESYSTEM sign a sea firing trials agreement for demonstration",
   "naval_deployments": [
     {
@@ -899,7 +899,7 @@
     "conflict_articles": 3,
     "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-06-19T23:55:42.176572+00:00",
+    "computed_at": "2026-06-20T02:07:30.041044+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] Naval Group, MESKO and TELESYSTEM sign a sea firing trials agreement for demonstration",
@@ -917,7 +917,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-06-19T23:55:42.176622+00:00",
+    "last_successful_update": "2026-06-20T02:07:30.041094+00:00",
     "article_count": 50,
     "categorized_count": 18,
     "freshest_source": "Naval News",
