@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-06-20T19:04:18Z",
-  "version": 1770,
+  "generated_utc": "2026-06-20T21:00:16Z",
+  "version": 1771,
   "breaking_alert": "Naval News: Naval Group, MESKO and TELESYSTEM sign a sea firing trials agreement for demonstration",
   "naval_deployments": [
     {
@@ -603,7 +603,7 @@
       ]
     },
     {
-      "title": "‘Hell ship’ responsible for the largest single-day loss of Allied POWs discovered after more than 80 years",
+      "title": "‘Hell ship’ responsible for one of the largest single-day loss of Allied POWs discovered after more than 80 years",
       "link": "https://www.militarytimes.com/veterans/military-history/2026/06/19/hell-ship-responsible-for-the-largest-single-day-loss-of-allied-pows-discovered-after-more-than-80-years/",
       "published": "Fri, 19 Jun 2026 18:56:18 +0000",
       "source": "Military Times",
@@ -899,12 +899,12 @@
     "conflict_articles": 3,
     "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-06-20T19:04:15.233512+00:00",
+    "computed_at": "2026-06-20T21:00:11.591483+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] Naval Group, MESKO and TELESYSTEM sign a sea firing trials agreement for demonstration",
       "[USNI News] Three Killed in Latest U.S. Strike on Suspected Drug Boat",
-      "[Military Times] ‘Hell ship’ responsible for the largest single-day loss of Allied POWs discovered after more than 80 years",
+      "[Military Times] ‘Hell ship’ responsible for one of the largest single-day loss of Allied POWs discovered after more than 80 years",
       "[Defense News] Pentagon tells lawmakers it needs $80 billion for Iran war, other expenses: WSJ",
       "[Military Times] Pentagon tells lawmakers it needs $80 billion for Iran war, other expenses: WSJ"
     ]
@@ -917,7 +917,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-06-20T19:04:15.233560+00:00",
+    "last_successful_update": "2026-06-20T21:00:11.591531+00:00",
     "article_count": 50,
     "categorized_count": 18,
     "freshest_source": "Naval News",
