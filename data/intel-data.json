@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-06-21T17:14:19Z",
-  "version": 1779,
+  "generated_utc": "2026-06-21T19:08:31Z",
+  "version": 1780,
   "breaking_alert": "Naval News: Naval Group, MESKO and TELESYSTEM sign a sea firing trials agreement for demonstration",
   "naval_deployments": [
     {
@@ -854,15 +854,6 @@
         "deployment",
         "conflict"
       ]
-    },
-    {
-      "title": "Air Force identifies crew members killed in California B-52 crash",
-      "link": "https://taskandpurpose.com/news/air-force-b-52-identified/",
-      "published": "Wed, 17 Jun 2026 13:52:07 -0400",
-      "source": "Task & Purpose",
-      "categories": [
-        "conflict"
-      ]
     }
   ],
   "_exercise_news_refs": [
@@ -896,10 +887,10 @@
   ],
   "_threat_indicators": {
     "deployment_articles": 12,
-    "conflict_articles": 3,
+    "conflict_articles": 2,
     "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-06-21T17:14:12.135537+00:00",
+    "computed_at": "2026-06-21T19:08:25.460089+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] Naval Group, MESKO and TELESYSTEM sign a sea firing trials agreement for demonstration",
@@ -917,9 +908,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-06-21T17:14:12.135586+00:00",
+    "last_successful_update": "2026-06-21T19:08:25.460136+00:00",
     "article_count": 50,
-    "categorized_count": 17,
+    "categorized_count": 16,
     "freshest_source": "Naval News",
     "freshest_title": "Naval Group, MESKO and TELESYSTEM sign a sea firing trials agreement for demonstration",
     "freshest_published": "Fri, 19 Jun 2026 12:41:19 +0000"
