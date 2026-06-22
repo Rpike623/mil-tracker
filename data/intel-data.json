@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-06-22T17:21:30Z",
-  "version": 1786,
+  "generated_utc": "2026-06-22T20:27:40Z",
+  "version": 1787,
   "breaking_alert": "Naval News: Naval Group, MESKO and TELESYSTEM sign a sea firing trials agreement for demonstration",
   "naval_deployments": [
     {
@@ -621,12 +621,22 @@
       ]
     },
     {
-      "title": "Fincantieri and REPUBLIKORP Establish Strategic Partnership for Multi-role Naval Shipbuilding in Indonesia",
-      "link": "https://www.navalnews.com/naval-news/2026/06/fincantieri-and-republikorp-establish-strategic-partnership-for-multi-role-naval-shipbuilding-in-indonesia/",
-      "published": "Thu, 18 Jun 2026 08:55:41 +0000",
-      "source": "Naval News",
+      "title": "USNI News Fleet and Marine Tracker: June 22, 2026",
+      "link": "https://news.usni.org/2026/06/22/usni-news-fleet-and-marine-tracker-june-22-2026",
+      "published": "Mon, 22 Jun 2026 18:46:33 +0000",
+      "source": "USNI News",
       "categories": [
         "deployment"
+      ]
+    },
+    {
+      "title": "China’s Liaoning Carrier Strike Group Concludes 40-day Deployment to South China, Philippine Seas",
+      "link": "https://news.usni.org/2026/06/22/chinas-liaoning-carrier-strike-group-concludes-40-day-deployment-to-south-china-philippine-seas",
+      "published": "Mon, 22 Jun 2026 19:44:26 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment",
+        "conflict"
       ]
     },
     {
@@ -893,11 +903,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 6,
-    "conflict_articles": 5,
-    "exercise_articles": 6,
+    "deployment_articles": 7,
+    "conflict_articles": 7,
+    "exercise_articles": 5,
     "total_articles": 50,
-    "computed_at": "2026-06-22T17:21:28.567148+00:00",
+    "computed_at": "2026-06-22T20:27:37.745974+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] Naval Group, MESKO and TELESYSTEM sign a sea firing trials agreement for demonstration",
@@ -915,9 +925,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-06-22T17:21:28.567189+00:00",
+    "last_successful_update": "2026-06-22T20:27:37.746021+00:00",
     "article_count": 50,
-    "categorized_count": 17,
+    "categorized_count": 18,
     "freshest_source": "Naval News",
     "freshest_title": "Naval Group, MESKO and TELESYSTEM sign a sea firing trials agreement for demonstration",
     "freshest_published": "Fri, 19 Jun 2026 12:41:19 +0000"
