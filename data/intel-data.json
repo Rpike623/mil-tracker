@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-06-22T20:27:40Z",
-  "version": 1787,
+  "generated_utc": "2026-06-22T22:33:24Z",
+  "version": 1788,
   "breaking_alert": "Naval News: Naval Group, MESKO and TELESYSTEM sign a sea firing trials agreement for demonstration",
   "naval_deployments": [
     {
@@ -640,15 +640,6 @@
       ]
     },
     {
-      "title": "SASC Wants Navy to Develop New DDG(X) Destroyer in Tandem with Trump Battleship",
-      "link": "https://news.usni.org/2026/06/18/sasc-wants-navy-to-develop-new-ddgx-destroyer-in-tandem-with-trump-battleship",
-      "published": "Thu, 18 Jun 2026 19:44:51 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "U.S. Ends Naval Blockade of Iran",
       "link": "https://news.usni.org/2026/06/18/u-s-ends-naval-blockade-of-iran",
       "published": "Thu, 18 Jun 2026 22:30:53 +0000",
@@ -866,15 +857,6 @@
       ]
     },
     {
-      "title": "Highway patrol: US Marine F-35s conduct flight operations on Finnish roads",
-      "link": "https://www.militarytimes.com/news/your-military/2026/06/19/highway-patrol-us-marine-f-35s-conduct-flight-operations-on-finnish-roads/",
-      "published": "Fri, 19 Jun 2026 22:02:21 +0000",
-      "source": "Military Times",
-      "categories": [
-        "exercise"
-      ]
-    },
-    {
       "title": "The unlikely role of Operation Epic Fury in a Mississippi AI data center lawsuit",
       "link": "https://www.militarytimes.com/news/your-military/2026/06/22/the-unlikely-role-of-operation-epic-fury-in-a-mississippi-ai-data-center-lawsuit/",
       "published": "Mon, 22 Jun 2026 15:08:06 +0000",
@@ -903,18 +885,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 7,
+    "deployment_articles": 6,
     "conflict_articles": 7,
-    "exercise_articles": 5,
+    "exercise_articles": 4,
     "total_articles": 50,
-    "computed_at": "2026-06-22T20:27:37.745974+00:00",
+    "computed_at": "2026-06-22T22:28:43.607285+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] Naval Group, MESKO and TELESYSTEM sign a sea firing trials agreement for demonstration",
       "[USNI News] Three Killed in Latest U.S. Strike on Suspected Drug Boat",
       "[Defense News] Pentagon tells lawmakers it needs $80 billion for Iran war, other expenses: WSJ",
       "[Defense News] Highway patrol: US Marine F-35s conduct flight operations on Finnish roads",
-      "[Military Times] Highway patrol: US Marine F-35s conduct flight operations on Finnish roads"
+      "[Military Times] Trump heads to Camp David as questions swirl over Iran deal"
     ]
   },
   "ground_intel": {
@@ -925,9 +907,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-06-22T20:27:37.746021+00:00",
+    "last_successful_update": "2026-06-22T22:28:43.607328+00:00",
     "article_count": 50,
-    "categorized_count": 18,
+    "categorized_count": 16,
     "freshest_source": "Naval News",
     "freshest_title": "Naval Group, MESKO and TELESYSTEM sign a sea firing trials agreement for demonstration",
     "freshest_published": "Fri, 19 Jun 2026 12:41:19 +0000"
