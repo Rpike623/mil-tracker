@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-06-22T06:15:40Z",
-  "version": 1784,
+  "generated_utc": "2026-06-22T12:39:14Z",
+  "version": 1785,
   "breaking_alert": "Naval News: Naval Group, MESKO and TELESYSTEM sign a sea firing trials agreement for demonstration",
   "naval_deployments": [
     {
@@ -648,15 +648,6 @@
       ]
     },
     {
-      "title": "Republicans blast Iran agreement as details emerge",
-      "link": "https://www.defensenews.com/news/pentagon-congress/2026/06/18/republicans-blast-iran-agreement-as-details-emerge/",
-      "published": "Thu, 18 Jun 2026 19:35:56 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "SASC Wants Navy to Develop New DDG(X) Destroyer in Tandem with Trump Battleship",
       "link": "https://news.usni.org/2026/06/18/sasc-wants-navy-to-develop-new-ddgx-destroyer-in-tandem-with-trump-battleship",
       "published": "Thu, 18 Jun 2026 19:44:51 +0000",
@@ -679,6 +670,15 @@
       "title": "U.S. Ends Naval Blockade of Iran",
       "link": "https://news.usni.org/2026/06/18/u-s-ends-naval-blockade-of-iran",
       "published": "Thu, 18 Jun 2026 22:30:53 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Destroyer USS Mitscher Returns Home From 11-month Deployment",
+      "link": "https://news.usni.org/2026/06/17/destroyer-uss-mitscher-returns-home-from-11-month-deployment",
+      "published": "Wed, 17 Jun 2026 19:47:03 +0000",
       "source": "USNI News",
       "categories": [
         "deployment"
@@ -846,6 +846,33 @@
       ]
     },
     {
+      "title": "US carries out days of airstrikes in Somalia after a month’s pause",
+      "link": "https://taskandpurpose.com/news/us-renews-airstrikes-somalia/",
+      "published": "Mon, 22 Jun 2026 08:00:00 -0400",
+      "source": "Task & Purpose",
+      "categories": [
+        "conflict"
+      ]
+    },
+    {
+      "title": "Can China’s latest air-to-air missile take on its US equivalent? Definitely maybe, experts say.",
+      "link": "https://www.defensenews.com/global/asia-pacific/2026/06/22/can-chinas-latest-air-to-air-missile-take-on-its-us-equivalent-definitely-maybe-experts-say/",
+      "published": "Mon, 22 Jun 2026 12:20:33 +0000",
+      "source": "Defense News",
+      "categories": [
+        "conflict"
+      ]
+    },
+    {
+      "title": "Can China’s latest air-to-air missile take on its US equivalent? Definitely maybe, experts say.",
+      "link": "https://www.militarytimes.com/global/asia-pacific/2026/06/22/can-chinas-latest-air-to-air-missile-take-on-its-us-equivalent-definitely-maybe-experts-say/",
+      "published": "Mon, 22 Jun 2026 12:20:33 +0000",
+      "source": "Military Times",
+      "categories": [
+        "conflict"
+      ]
+    },
+    {
       "title": "Senate eyes Hegseth travel cuts without probes into Iran school bombing, boat strikes",
       "link": "https://www.defensenews.com/news/pentagon-congress/2026/06/18/senate-eyes-hegseth-travel-cuts-without-probes-into-iran-school-bombing-boat-strikes/",
       "published": "Thu, 18 Jun 2026 21:13:54 +0000",
@@ -886,11 +913,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 12,
-    "conflict_articles": 2,
+    "deployment_articles": 10,
+    "conflict_articles": 5,
     "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-06-22T06:15:36.865639+00:00",
+    "computed_at": "2026-06-22T12:39:08.781214+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] Naval Group, MESKO and TELESYSTEM sign a sea firing trials agreement for demonstration",
@@ -908,9 +935,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-06-22T06:15:36.865687+00:00",
+    "last_successful_update": "2026-06-22T12:39:08.781267+00:00",
     "article_count": 50,
-    "categorized_count": 16,
+    "categorized_count": 17,
     "freshest_source": "Naval News",
     "freshest_title": "Naval Group, MESKO and TELESYSTEM sign a sea firing trials agreement for demonstration",
     "freshest_published": "Fri, 19 Jun 2026 12:41:19 +0000"
