@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-06-22T12:39:14Z",
-  "version": 1785,
+  "generated_utc": "2026-06-22T17:21:30Z",
+  "version": 1786,
   "breaking_alert": "Naval News: Naval Group, MESKO and TELESYSTEM sign a sea firing trials agreement for demonstration",
   "naval_deployments": [
     {
@@ -603,28 +603,10 @@
       ]
     },
     {
-      "title": "‘Hell ship’ responsible for one of the largest single-day loss of Allied POWs discovered after more than 80 years",
-      "link": "https://www.militarytimes.com/veterans/military-history/2026/06/19/hell-ship-responsible-for-the-largest-single-day-loss-of-allied-pows-discovered-after-more-than-80-years/",
-      "published": "Fri, 19 Jun 2026 18:56:18 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Pentagon tells lawmakers it needs $80 billion for Iran war, other expenses: WSJ",
       "link": "https://www.defensenews.com/news/pentagon-congress/2026/06/19/pentagon-tells-lawmakers-it-needs-80-billion-for-iran-war-other-expenses-wsj/",
       "published": "Fri, 19 Jun 2026 20:23:18 +0000",
       "source": "Defense News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Pentagon tells lawmakers it needs $80 billion for Iran war, other expenses: WSJ",
-      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/06/19/pentagon-tells-lawmakers-it-needs-80-billion-for-iran-war-other-expenses-wsj/",
-      "published": "Fri, 19 Jun 2026 20:23:18 +0000",
-      "source": "Military Times",
       "categories": [
         "deployment"
       ]
@@ -657,28 +639,9 @@
       ]
     },
     {
-      "title": "Senate eyes Hegseth travel cuts without probes into Iran school bombing, boat strikes",
-      "link": "https://www.defensenews.com/news/pentagon-congress/2026/06/18/senate-eyes-hegseth-travel-cuts-without-probes-into-iran-school-bombing-boat-strikes/",
-      "published": "Thu, 18 Jun 2026 21:13:54 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
       "title": "U.S. Ends Naval Blockade of Iran",
       "link": "https://news.usni.org/2026/06/18/u-s-ends-naval-blockade-of-iran",
       "published": "Thu, 18 Jun 2026 22:30:53 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Destroyer USS Mitscher Returns Home From 11-month Deployment",
-      "link": "https://news.usni.org/2026/06/17/destroyer-uss-mitscher-returns-home-from-11-month-deployment",
-      "published": "Wed, 17 Jun 2026 19:47:03 +0000",
       "source": "USNI News",
       "categories": [
         "deployment"
@@ -873,12 +836,11 @@
       ]
     },
     {
-      "title": "Senate eyes Hegseth travel cuts without probes into Iran school bombing, boat strikes",
-      "link": "https://www.defensenews.com/news/pentagon-congress/2026/06/18/senate-eyes-hegseth-travel-cuts-without-probes-into-iran-school-bombing-boat-strikes/",
-      "published": "Thu, 18 Jun 2026 21:13:54 +0000",
-      "source": "Defense News",
+      "title": "U.S. Army Stands Up New Command to Counter China’s Area Denial Strategy with Lethal Drones, Long-Range Missiles",
+      "link": "https://news.usni.org/2026/06/22/u-s-army-stands-up-new-command-to-counter-chinas-area-denial-strategy-with-lethal-drones-long-range-missiles",
+      "published": "Mon, 22 Jun 2026 14:21:55 +0000",
+      "source": "USNI News",
       "categories": [
-        "deployment",
         "conflict"
       ]
     }
@@ -903,28 +865,46 @@
       ]
     },
     {
-      "title": "U.S. Marines Kick Off Kamandag 10 Exercise in the Philippines",
-      "link": "https://news.usni.org/2026/06/18/u-s-marines-kick-off-kamandag-10-exercise-in-the-philippines",
-      "published": "Thu, 18 Jun 2026 16:31:18 +0000",
-      "source": "USNI News",
+      "title": "The unlikely role of Operation Epic Fury in a Mississippi AI data center lawsuit",
+      "link": "https://www.militarytimes.com/news/your-military/2026/06/22/the-unlikely-role-of-operation-epic-fury-in-a-mississippi-ai-data-center-lawsuit/",
+      "published": "Mon, 22 Jun 2026 15:08:06 +0000",
+      "source": "Military Times",
+      "categories": [
+        "exercise"
+      ]
+    },
+    {
+      "title": "US Army tests autonomous boats during Philippine exercise",
+      "link": "https://www.defensenews.com/news/your-military/2026/06/22/us-army-tests-autonomous-boats-during-philippine-exercise/",
+      "published": "Mon, 22 Jun 2026 16:00:31 +0000",
+      "source": "Defense News",
+      "categories": [
+        "exercise"
+      ]
+    },
+    {
+      "title": "US Army tests autonomous boats during Philippine exercise",
+      "link": "https://www.militarytimes.com/news/your-military/2026/06/22/us-army-tests-autonomous-boats-during-philippine-exercise/",
+      "published": "Mon, 22 Jun 2026 16:00:31 +0000",
+      "source": "Military Times",
       "categories": [
         "exercise"
       ]
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 10,
+    "deployment_articles": 6,
     "conflict_articles": 5,
-    "exercise_articles": 3,
+    "exercise_articles": 6,
     "total_articles": 50,
-    "computed_at": "2026-06-22T12:39:08.781214+00:00",
+    "computed_at": "2026-06-22T17:21:28.567148+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] Naval Group, MESKO and TELESYSTEM sign a sea firing trials agreement for demonstration",
       "[USNI News] Three Killed in Latest U.S. Strike on Suspected Drug Boat",
-      "[Military Times] ‘Hell ship’ responsible for one of the largest single-day loss of Allied POWs discovered after more than 80 years",
       "[Defense News] Pentagon tells lawmakers it needs $80 billion for Iran war, other expenses: WSJ",
-      "[Military Times] Pentagon tells lawmakers it needs $80 billion for Iran war, other expenses: WSJ"
+      "[Defense News] Highway patrol: US Marine F-35s conduct flight operations on Finnish roads",
+      "[Military Times] Highway patrol: US Marine F-35s conduct flight operations on Finnish roads"
     ]
   },
   "ground_intel": {
@@ -935,7 +915,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-06-22T12:39:08.781267+00:00",
+    "last_successful_update": "2026-06-22T17:21:28.567189+00:00",
     "article_count": 50,
     "categorized_count": 17,
     "freshest_source": "Naval News",
