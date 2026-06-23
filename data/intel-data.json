@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-06-23T16:17:02Z",
-  "version": 1794,
-  "breaking_alert": "USNI News: Three Killed in Latest U.S. Strike on Suspected Drug Boat",
+  "generated_utc": "2026-06-23T18:58:35Z",
+  "version": 1795,
+  "breaking_alert": "Defense News: Highway patrol: US Marine F-35s conduct flight operations on Finnish roads",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -648,6 +648,15 @@
         "deployment",
         "exercise"
       ]
+    },
+    {
+      "title": "Just one in four Americans believes the Iran war was worth its costs",
+      "link": "https://www.militarytimes.com/news/your-military/2026/06/23/just-one-in-four-americans-believes-the-war-with-iran-was-worth-its-costs/",
+      "published": "Tue, 23 Jun 2026 18:06:00 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment"
+      ]
     }
   ],
   "centcom_assets": {
@@ -802,15 +811,6 @@
   },
   "_conflict_news_refs": [
     {
-      "title": "Three Killed in Latest U.S. Strike on Suspected Drug Boat",
-      "link": "https://news.usni.org/2026/06/19/three-killed-in-latest-u-s-strike-on-suspected-drug-boat",
-      "published": "Fri, 19 Jun 2026 14:44:57 +0000",
-      "source": "USNI News",
-      "categories": [
-        "conflict"
-      ]
-    },
-    {
       "title": "US carries out days of airstrikes in Somalia after a month’s pause",
       "link": "https://taskandpurpose.com/news/us-renews-airstrikes-somalia/",
       "published": "Mon, 22 Jun 2026 08:00:00 -0400",
@@ -846,6 +846,15 @@
         "deployment",
         "conflict"
       ]
+    },
+    {
+      "title": "Two Men Killed in U.S. Strike on Suspected Drug Boat in the Caribbean",
+      "link": "https://news.usni.org/2026/06/22/two-men-killed-in-u-s-strike-on-suspected-drug-boat-in-the-caribbean",
+      "published": "Mon, 22 Jun 2026 20:10:41 +0000",
+      "source": "USNI News",
+      "categories": [
+        "conflict"
+      ]
     }
   ],
   "_exercise_news_refs": [
@@ -854,15 +863,6 @@
       "link": "https://www.defensenews.com/news/your-military/2026/06/19/highway-patrol-us-marine-f-35s-conduct-flight-operations-on-finnish-roads/",
       "published": "Fri, 19 Jun 2026 22:02:21 +0000",
       "source": "Defense News",
-      "categories": [
-        "exercise"
-      ]
-    },
-    {
-      "title": "The unlikely role of Operation Epic Fury in a Mississippi AI data center lawsuit",
-      "link": "https://www.militarytimes.com/news/your-military/2026/06/22/the-unlikely-role-of-operation-epic-fury-in-a-mississippi-ai-data-center-lawsuit/",
-      "published": "Mon, 22 Jun 2026 15:08:06 +0000",
-      "source": "Military Times",
       "categories": [
         "exercise"
       ]
@@ -894,21 +894,30 @@
         "deployment",
         "exercise"
       ]
+    },
+    {
+      "title": "U.S. Kicks Off Western Pacific Exercises Valiant Shield, Resolute Dragon",
+      "link": "https://news.usni.org/2026/06/23/u-s-kicks-off-western-pacific-exercises-valiant-shield-resolute-dragon",
+      "published": "Tue, 23 Jun 2026 17:34:07 +0000",
+      "source": "USNI News",
+      "categories": [
+        "exercise"
+      ]
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 6,
-    "conflict_articles": 8,
+    "deployment_articles": 7,
+    "conflict_articles": 7,
     "exercise_articles": 5,
     "total_articles": 50,
-    "computed_at": "2026-06-23T16:16:59.600672+00:00",
-    "manual_override": "DEFCON_2",
+    "computed_at": "2026-06-23T18:58:32.788697+00:00",
+    "manual_override": "DEFCON_3",
     "breaking_events": [
-      "[USNI News] Three Killed in Latest U.S. Strike on Suspected Drug Boat",
       "[Defense News] Highway patrol: US Marine F-35s conduct flight operations on Finnish roads",
       "[Task & Purpose] US carries out days of airstrikes in Somalia after a month’s pause",
       "[Defense News] Can China’s latest air-to-air missile take on its US equivalent? Definitely maybe, experts say.",
-      "[USNI News] U.S. Army Stands Up New Command to Counter China’s Area Denial Strategy with Lethal Drones, Long-Range Missiles"
+      "[USNI News] U.S. Army Stands Up New Command to Counter China’s Area Denial Strategy with Lethal Drones, Long-Range Missiles",
+      "[Defense News] US Army tests autonomous boats during Philippine exercise"
     ]
   },
   "ground_intel": {
@@ -919,12 +928,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-06-23T16:16:59.600723+00:00",
+    "last_successful_update": "2026-06-23T18:58:32.788752+00:00",
     "article_count": 50,
     "categorized_count": 17,
-    "freshest_source": "USNI News",
-    "freshest_title": "Three Killed in Latest U.S. Strike on Suspected Drug Boat",
-    "freshest_published": "Fri, 19 Jun 2026 14:44:57 +0000"
+    "freshest_source": "Defense News",
+    "freshest_title": "Highway patrol: US Marine F-35s conduct flight operations on Finnish roads",
+    "freshest_published": "Fri, 19 Jun 2026 22:02:21 +0000"
   },
   "_firms_hotspots": []
 }
