@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-06-23T22:09:50Z",
-  "version": 1797,
+  "generated_utc": "2026-06-23T23:44:55Z",
+  "version": 1798,
   "breaking_alert": "Task & Purpose: US carries out days of airstrikes in Somalia after a month’s pause",
   "naval_deployments": [
     {
@@ -892,7 +892,7 @@
     "conflict_articles": 7,
     "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-06-23T22:09:47.116307+00:00",
+    "computed_at": "2026-06-23T23:44:50.567351+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Task & Purpose] US carries out days of airstrikes in Somalia after a month’s pause",
@@ -910,7 +910,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-06-23T22:09:47.116357+00:00",
+    "last_successful_update": "2026-06-23T23:44:50.567399+00:00",
     "article_count": 50,
     "categorized_count": 15,
     "freshest_source": "Task & Purpose",
