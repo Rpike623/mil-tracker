@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-06-23T06:36:08Z",
-  "version": 1791,
+  "generated_utc": "2026-06-23T10:24:56Z",
+  "version": 1792,
   "breaking_alert": "Naval News: Naval Group, MESKO and TELESYSTEM sign a sea firing trials agreement for demonstration",
   "naval_deployments": [
     {
@@ -603,15 +603,6 @@
       ]
     },
     {
-      "title": "Pentagon tells lawmakers it needs $80 billion for Iran war, other expenses: WSJ",
-      "link": "https://www.defensenews.com/news/pentagon-congress/2026/06/19/pentagon-tells-lawmakers-it-needs-80-billion-for-iran-war-other-expenses-wsj/",
-      "published": "Fri, 19 Jun 2026 20:23:18 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "USNI News Fleet and Marine Tracker: June 22, 2026",
       "link": "https://news.usni.org/2026/06/22/usni-news-fleet-and-marine-tracker-june-22-2026",
       "published": "Mon, 22 Jun 2026 18:46:33 +0000",
@@ -635,6 +626,15 @@
       "link": "https://news.usni.org/2026/06/18/u-s-ends-naval-blockade-of-iran",
       "published": "Thu, 18 Jun 2026 22:30:53 +0000",
       "source": "USNI News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "U.S. Navy Sets Sights on 10 Commercial Tankers To Rapidly Expand Logistics Fleet",
+      "link": "https://www.navalnews.com/naval-news/2026/06/u-s-navy-sets-sights-on-10-commercial-tankers-to-rapidly-expand-logistics-fleet/",
+      "published": "Tue, 23 Jun 2026 08:30:56 +0000",
+      "source": "Naval News",
       "categories": [
         "deployment"
       ]
@@ -877,17 +877,17 @@
   ],
   "_threat_indicators": {
     "deployment_articles": 5,
-    "conflict_articles": 7,
+    "conflict_articles": 8,
     "exercise_articles": 4,
     "total_articles": 50,
-    "computed_at": "2026-06-23T06:36:05.823075+00:00",
-    "manual_override": "DEFCON_3",
+    "computed_at": "2026-06-23T10:24:53.739667+00:00",
+    "manual_override": "DEFCON_2",
     "breaking_events": [
       "[Naval News] Naval Group, MESKO and TELESYSTEM sign a sea firing trials agreement for demonstration",
       "[USNI News] Three Killed in Latest U.S. Strike on Suspected Drug Boat",
-      "[Defense News] Pentagon tells lawmakers it needs $80 billion for Iran war, other expenses: WSJ",
       "[Defense News] Highway patrol: US Marine F-35s conduct flight operations on Finnish roads",
-      "[Task & Purpose] US carries out days of airstrikes in Somalia after a month’s pause"
+      "[Task & Purpose] US carries out days of airstrikes in Somalia after a month’s pause",
+      "[Defense News] Can China’s latest air-to-air missile take on its US equivalent? Definitely maybe, experts say."
     ]
   },
   "ground_intel": {
@@ -898,9 +898,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-06-23T06:36:05.823124+00:00",
+    "last_successful_update": "2026-06-23T10:24:53.739717+00:00",
     "article_count": 50,
-    "categorized_count": 15,
+    "categorized_count": 16,
     "freshest_source": "Naval News",
     "freshest_title": "Naval Group, MESKO and TELESYSTEM sign a sea firing trials agreement for demonstration",
     "freshest_published": "Fri, 19 Jun 2026 12:41:19 +0000"
