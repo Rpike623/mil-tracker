@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-06-24T18:25:16Z",
-  "version": 1805,
+  "generated_utc": "2026-06-24T20:25:12Z",
+  "version": 1806,
   "breaking_alert": "USNI News: China’s Liaoning Carrier Strike Group Concludes 40-day Deployment to South China, Philippine Seas",
   "naval_deployments": [
     {
@@ -650,15 +650,6 @@
       ]
     },
     {
-      "title": "US Senate joins House in voting to halt Iran war",
-      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/06/24/us-senate-joins-house-in-voting-to-halt-iran-war/",
-      "published": "Wed, 24 Jun 2026 03:50:50 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "China Now Leads World Submarine Construction",
       "link": "https://www.navalnews.com/naval-news/2026/06/china-now-leads-world-submarine-construction/",
       "published": "Wed, 24 Jun 2026 08:29:00 +0000",
@@ -681,6 +672,16 @@
       "link": "https://www.defensenews.com/news/your-military/2026/06/24/airstrike-killed-senior-isis-commander-in-syria-centcom-says/",
       "published": "Wed, 24 Jun 2026 16:09:06 +0000",
       "source": "Defense News",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
+    },
+    {
+      "title": "Airstrike killed senior ISIS commander in Syria, CENTCOM says",
+      "link": "https://www.militarytimes.com/news/your-military/2026/06/24/airstrike-killed-senior-isis-commander-in-syria-centcom-says/",
+      "published": "Wed, 24 Jun 2026 16:09:06 +0000",
+      "source": "Military Times",
       "categories": [
         "deployment",
         "conflict"
@@ -907,11 +908,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 14,
+    "deployment_articles": 13,
     "conflict_articles": 7,
     "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-06-24T18:25:10.511498+00:00",
+    "computed_at": "2026-06-24T20:24:48.006834+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[USNI News] China’s Liaoning Carrier Strike Group Concludes 40-day Deployment to South China, Philippine Seas",
@@ -929,9 +930,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-06-24T18:25:10.511543+00:00",
+    "last_successful_update": "2026-06-24T20:24:48.006880+00:00",
     "article_count": 50,
-    "categorized_count": 19,
+    "categorized_count": 18,
     "freshest_source": "USNI News",
     "freshest_title": "China’s Liaoning Carrier Strike Group Concludes 40-day Deployment to South China, Philippine Seas",
     "freshest_published": "Mon, 22 Jun 2026 19:44:26 +0000"
