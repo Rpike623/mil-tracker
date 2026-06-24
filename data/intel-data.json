@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-06-24T08:49:01Z",
-  "version": 1801,
+  "generated_utc": "2026-06-24T11:35:51Z",
+  "version": 1802,
   "breaking_alert": "Task & Purpose: US carries out days of airstrikes in Somalia after a month’s pause",
   "naval_deployments": [
     {
@@ -847,15 +847,6 @@
       ]
     },
     {
-      "title": "Can China’s latest air-to-air missile take on its US equivalent? Definitely maybe, experts say.",
-      "link": "https://www.defensenews.com/global/asia-pacific/2026/06/22/can-chinas-latest-air-to-air-missile-take-on-its-us-equivalent-definitely-maybe-experts-say/",
-      "published": "Mon, 22 Jun 2026 12:20:33 +0000",
-      "source": "Defense News",
-      "categories": [
-        "conflict"
-      ]
-    },
-    {
       "title": "U.S. Army Stands Up New Command to Counter China’s Area Denial Strategy with Lethal Drones, Long-Range Missiles",
       "link": "https://news.usni.org/2026/06/22/u-s-army-stands-up-new-command-to-counter-chinas-area-denial-strategy-with-lethal-drones-long-range-missiles",
       "published": "Mon, 22 Jun 2026 14:21:55 +0000",
@@ -879,6 +870,15 @@
       "link": "https://news.usni.org/2026/06/22/two-men-killed-in-u-s-strike-on-suspected-drug-boat-in-the-caribbean",
       "published": "Mon, 22 Jun 2026 20:10:41 +0000",
       "source": "USNI News",
+      "categories": [
+        "conflict"
+      ]
+    },
+    {
+      "title": "Indonesia’s First Two Scorpene Evolved Will Have Missile Launch Capability",
+      "link": "https://www.navalnews.com/naval-news/2026/06/indonesias-first-two-scorpene-evolved-will-have-missile-launch-capability/",
+      "published": "Tue, 23 Jun 2026 09:54:45 +0000",
+      "source": "Naval News",
       "categories": [
         "conflict"
       ]
@@ -925,17 +925,17 @@
   ],
   "_threat_indicators": {
     "deployment_articles": 10,
-    "conflict_articles": 7,
+    "conflict_articles": 6,
     "exercise_articles": 4,
     "total_articles": 50,
-    "computed_at": "2026-06-24T08:48:58.865929+00:00",
+    "computed_at": "2026-06-24T11:35:45.579029+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Task & Purpose] US carries out days of airstrikes in Somalia after a month’s pause",
-      "[Defense News] Can China’s latest air-to-air missile take on its US equivalent? Definitely maybe, experts say.",
       "[USNI News] U.S. Army Stands Up New Command to Counter China’s Area Denial Strategy with Lethal Drones, Long-Range Missiles",
       "[Defense News] US Army tests autonomous boats during Philippine exercise",
-      "[USNI News] USNI News Fleet and Marine Tracker: June 22, 2026"
+      "[USNI News] USNI News Fleet and Marine Tracker: June 22, 2026",
+      "[USNI News] China’s Liaoning Carrier Strike Group Concludes 40-day Deployment to South China, Philippine Seas"
     ]
   },
   "ground_intel": {
@@ -946,9 +946,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-06-24T08:48:58.865976+00:00",
+    "last_successful_update": "2026-06-24T11:35:45.579075+00:00",
     "article_count": 50,
-    "categorized_count": 19,
+    "categorized_count": 18,
     "freshest_source": "Task & Purpose",
     "freshest_title": "US carries out days of airstrikes in Somalia after a month’s pause",
     "freshest_published": "Mon, 22 Jun 2026 08:00:00 -0400"
