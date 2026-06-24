@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-06-23T23:44:55Z",
-  "version": 1798,
+  "generated_utc": "2026-06-24T01:53:38Z",
+  "version": 1799,
   "breaking_alert": "Task & Purpose: US carries out days of airstrikes in Somalia after a month’s pause",
   "naval_deployments": [
     {
@@ -885,14 +885,23 @@
       "categories": [
         "exercise"
       ]
+    },
+    {
+      "title": "Marines expand use of Maven with new AI operational reporting tool",
+      "link": "https://www.militarytimes.com/news/your-marine-corps/2026/06/23/marines-expand-use-of-maven-with-new-ai-operational-reporting-tool/",
+      "published": "Tue, 23 Jun 2026 23:41:55 +0000",
+      "source": "Military Times",
+      "categories": [
+        "exercise"
+      ]
     }
   ],
   "_threat_indicators": {
     "deployment_articles": 7,
     "conflict_articles": 7,
-    "exercise_articles": 3,
+    "exercise_articles": 4,
     "total_articles": 50,
-    "computed_at": "2026-06-23T23:44:50.567351+00:00",
+    "computed_at": "2026-06-24T01:53:32.694339+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Task & Purpose] US carries out days of airstrikes in Somalia after a month’s pause",
@@ -910,9 +919,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-06-23T23:44:50.567399+00:00",
+    "last_successful_update": "2026-06-24T01:53:32.694393+00:00",
     "article_count": 50,
-    "categorized_count": 15,
+    "categorized_count": 16,
     "freshest_source": "Task & Purpose",
     "freshest_title": "US carries out days of airstrikes in Somalia after a month’s pause",
     "freshest_published": "Mon, 22 Jun 2026 08:00:00 -0400"
