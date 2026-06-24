@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-06-24T05:55:24Z",
-  "version": 1800,
+  "generated_utc": "2026-06-24T08:49:01Z",
+  "version": 1801,
   "breaking_alert": "Task & Purpose: US carries out days of airstrikes in Somalia after a month’s pause",
   "naval_deployments": [
     {
@@ -675,6 +675,15 @@
       "categories": [
         "deployment"
       ]
+    },
+    {
+      "title": "China Now Leads World Submarine Construction",
+      "link": "https://www.navalnews.com/naval-news/2026/06/china-now-leads-world-submarine-construction/",
+      "published": "Wed, 24 Jun 2026 08:29:00 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
     }
   ],
   "centcom_assets": {
@@ -915,11 +924,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 9,
+    "deployment_articles": 10,
     "conflict_articles": 7,
     "exercise_articles": 4,
     "total_articles": 50,
-    "computed_at": "2026-06-24T05:55:22.176631+00:00",
+    "computed_at": "2026-06-24T08:48:58.865929+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Task & Purpose] US carries out days of airstrikes in Somalia after a month’s pause",
@@ -937,9 +946,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-06-24T05:55:22.176680+00:00",
+    "last_successful_update": "2026-06-24T08:48:58.865976+00:00",
     "article_count": 50,
-    "categorized_count": 18,
+    "categorized_count": 19,
     "freshest_source": "Task & Purpose",
     "freshest_title": "US carries out days of airstrikes in Somalia after a month’s pause",
     "freshest_published": "Mon, 22 Jun 2026 08:00:00 -0400"
