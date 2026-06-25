@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-06-25T01:57:48Z",
-  "version": 1809,
+  "generated_utc": "2026-06-25T05:59:57Z",
+  "version": 1810,
   "breaking_alert": "USNI News: China’s Liaoning Carrier Strike Group Concludes 40-day Deployment to South China, Philippine Seas",
   "naval_deployments": [
     {
@@ -613,15 +613,6 @@
       ]
     },
     {
-      "title": "Frustrating Israel, fiber-optic killer drone technology has arrived in southern Lebanon",
-      "link": "https://www.defensenews.com/global/mideast-africa/2026/06/23/frustrating-israel-fiber-optic-killer-drone-technology-has-arrived-in-southern-lebanon/",
-      "published": "Tue, 23 Jun 2026 14:43:45 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Shield AI’s V-BAT to support Polish naval operations",
       "link": "https://www.navalnews.com/naval-news/2026/06/shield-ais-v-bat-to-support-polish-naval-operations/",
       "published": "Tue, 23 Jun 2026 16:13:47 +0000",
@@ -669,19 +660,28 @@
       ]
     },
     {
-      "title": "F-35 program chief warns fleet has outgrown its support system amid record-low readiness",
-      "link": "https://www.militarytimes.com/news/your-military/2026/06/24/f-35-program-chief-warns-fleet-has-outgrown-its-support-system-amid-record-low-readiness/",
-      "published": "Wed, 24 Jun 2026 16:56:41 +0000",
+      "title": "Missing sailor found dead near Naval Station Norfolk",
+      "link": "https://www.militarytimes.com/news/your-navy/2026/06/24/missing-sailor-found-dead-near-naval-station-norfolk/",
+      "published": "Wed, 24 Jun 2026 17:04:03 +0000",
       "source": "Military Times",
       "categories": [
         "deployment"
       ]
     },
     {
-      "title": "Missing sailor found dead near Naval Station Norfolk",
-      "link": "https://www.militarytimes.com/news/your-navy/2026/06/24/missing-sailor-found-dead-near-naval-station-norfolk/",
-      "published": "Wed, 24 Jun 2026 17:04:03 +0000",
-      "source": "Military Times",
+      "title": "North Korea Commissions First-in-class Destroyer Choe Hyon",
+      "link": "https://news.usni.org/2026/06/24/north-korea-commissions-first-in-class-destroyer-choe-hyon",
+      "published": "Wed, 24 Jun 2026 17:25:39 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "White House asks Congress for $87.6 billion, mostly for Iran war",
+      "link": "https://www.defensenews.com/news/pentagon-congress/2026/06/24/white-house-asks-congress-for-876-billion-mostly-for-iran-war/",
+      "published": "Wed, 24 Jun 2026 21:30:14 +0000",
+      "source": "Defense News",
       "categories": [
         "deployment"
       ]
@@ -907,18 +907,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 13,
+    "deployment_articles": 11,
     "conflict_articles": 6,
     "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-06-25T01:57:25.887748+00:00",
+    "computed_at": "2026-06-25T05:59:51.280226+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[USNI News] China’s Liaoning Carrier Strike Group Concludes 40-day Deployment to South China, Philippine Seas",
       "[USNI News] Two Men Killed in U.S. Strike on Suspected Drug Boat in the Caribbean",
       "[Naval News] U.S. Navy Sets Sights on 10 Commercial Tankers To Rapidly Expand Logistics Fleet",
       "[Naval News] Indonesia’s First Two Scorpene Evolved Will Have Missile Launch Capability",
-      "[Defense News] Frustrating Israel, fiber-optic killer drone technology has arrived in southern Lebanon"
+      "[USNI News] U.S. Asymmetric Aid Program Transfers Unmanned Vessels to the Philippines, Plans Attack Drone Transfer by 2027"
     ]
   },
   "ground_intel": {
@@ -929,9 +929,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-06-25T01:57:25.887797+00:00",
+    "last_successful_update": "2026-06-25T05:59:51.280272+00:00",
     "article_count": 50,
-    "categorized_count": 18,
+    "categorized_count": 16,
     "freshest_source": "USNI News",
     "freshest_title": "China’s Liaoning Carrier Strike Group Concludes 40-day Deployment to South China, Philippine Seas",
     "freshest_published": "Mon, 22 Jun 2026 19:44:26 +0000"
