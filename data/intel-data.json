@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-06-25T17:59:00Z",
-  "version": 1814,
+  "generated_utc": "2026-06-25T19:59:55Z",
+  "version": 1815,
   "breaking_alert": "Defense News: Poland buys V-BAT drones to boost Baltic Sea naval operations",
   "naval_deployments": [
     {
@@ -659,6 +659,16 @@
       ]
     },
     {
+      "title": "Air Force Wants New 1,000-Nautical Mile Range Missile for Air, Sea Targets",
+      "link": "https://news.usni.org/2026/06/25/air-force-wants-new-1000-nautical-mile-range-missile-for-air-sea-targets",
+      "published": "Thu, 25 Jun 2026 19:00:42 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
+    },
+    {
       "title": "Shield AI’s V-BAT to support Polish naval operations",
       "link": "https://www.navalnews.com/naval-news/2026/06/shield-ais-v-bat-to-support-polish-naval-operations/",
       "published": "Tue, 23 Jun 2026 16:13:47 +0000",
@@ -673,15 +683,6 @@
       "link": "https://www.navalnews.com/naval-news/2026/06/china-now-leads-world-submarine-construction/",
       "published": "Wed, 24 Jun 2026 08:29:00 +0000",
       "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Naval Academy brings back short haircuts for new female midshipmen",
-      "link": "https://taskandpurpose.com/news/naval-academy-female-haircuts/",
-      "published": "Wed, 24 Jun 2026 14:04:44 -0400",
-      "source": "Task & Purpose",
       "categories": [
         "deployment"
       ]
@@ -849,6 +850,16 @@
       ]
     },
     {
+      "title": "Air Force Wants New 1,000-Nautical Mile Range Missile for Air, Sea Targets",
+      "link": "https://news.usni.org/2026/06/25/air-force-wants-new-1000-nautical-mile-range-missile-for-air-sea-targets",
+      "published": "Thu, 25 Jun 2026 19:00:42 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
+    },
+    {
       "title": "U.S. Asymmetric Aid Program Transfers Unmanned Vessels to the Philippines, Plans Attack Drone Transfer by 2027",
       "link": "https://news.usni.org/2026/06/23/u-s-asymmetric-aid-program-transfers-unmanned-vessels-to-the-philippines-plans-attack-drone-transfer-by-2027",
       "published": "Tue, 23 Jun 2026 15:42:24 +0000",
@@ -900,10 +911,10 @@
   ],
   "_threat_indicators": {
     "deployment_articles": 13,
-    "conflict_articles": 3,
+    "conflict_articles": 4,
     "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-06-25T17:58:54.398059+00:00",
+    "computed_at": "2026-06-25T19:55:14.500066+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Defense News] Poland buys V-BAT drones to boost Baltic Sea naval operations",
@@ -921,7 +932,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-06-25T17:58:54.398103+00:00",
+    "last_successful_update": "2026-06-25T19:55:14.500110+00:00",
     "article_count": 50,
     "categorized_count": 16,
     "freshest_source": "Defense News",
