@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-06-25T19:59:55Z",
-  "version": 1815,
+  "generated_utc": "2026-06-25T21:19:22Z",
+  "version": 1816,
   "breaking_alert": "Defense News: Poland buys V-BAT drones to boost Baltic Sea naval operations",
   "naval_deployments": [
     {
@@ -860,19 +860,28 @@
       ]
     },
     {
-      "title": "U.S. Asymmetric Aid Program Transfers Unmanned Vessels to the Philippines, Plans Attack Drone Transfer by 2027",
-      "link": "https://news.usni.org/2026/06/23/u-s-asymmetric-aid-program-transfers-unmanned-vessels-to-the-philippines-plans-attack-drone-transfer-by-2027",
-      "published": "Tue, 23 Jun 2026 15:42:24 +0000",
-      "source": "USNI News",
+      "title": "Ukraine’s newest strike weapon drifts into Russia on the wind",
+      "link": "https://www.defensenews.com/global/europe/2026/06/25/ukraines-newest-strike-weapon-drifts-into-russia-on-the-wind/",
+      "published": "Thu, 25 Jun 2026 20:28:05 +0000",
+      "source": "Defense News",
       "categories": [
         "conflict"
       ]
     },
     {
-      "title": "Taiwan Budget Calls for $6.6B for Attack Drones, Unmanned Surface Vessels",
-      "link": "https://news.usni.org/2026/06/24/taiwan-budget-calls-for-6-6b-for-attack-drones-unmanned-surface-vessels",
-      "published": "Wed, 24 Jun 2026 15:11:48 +0000",
-      "source": "USNI News",
+      "title": "Ukraine’s newest strike weapon drifts into Russia on the wind",
+      "link": "https://www.militarytimes.com/global/europe/2026/06/25/ukraines-newest-strike-weapon-drifts-into-russia-on-the-wind/",
+      "published": "Thu, 25 Jun 2026 20:28:05 +0000",
+      "source": "Military Times",
+      "categories": [
+        "conflict"
+      ]
+    },
+    {
+      "title": "Ukraine’s top strike-drone maker moves into ballistic missile defense",
+      "link": "https://www.defensenews.com/unmanned/2026/06/25/ukraines-top-strike-drone-maker-moves-into-ballistic-missile-defense/",
+      "published": "Thu, 25 Jun 2026 20:59:02 +0000",
+      "source": "Defense News",
       "categories": [
         "conflict"
       ]
@@ -910,12 +919,12 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 13,
-    "conflict_articles": 4,
+    "deployment_articles": 12,
+    "conflict_articles": 8,
     "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-06-25T19:55:14.500066+00:00",
-    "manual_override": "DEFCON_3",
+    "computed_at": "2026-06-25T21:19:19.643658+00:00",
+    "manual_override": "DEFCON_2",
     "breaking_events": [
       "[Defense News] Poland buys V-BAT drones to boost Baltic Sea naval operations",
       "[Task & Purpose] Fire breaks out aboard USS Indianapolis, leaving 7 with minor injuries",
@@ -932,9 +941,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-06-25T19:55:14.500110+00:00",
+    "last_successful_update": "2026-06-25T21:19:19.643700+00:00",
     "article_count": 50,
-    "categorized_count": 16,
+    "categorized_count": 19,
     "freshest_source": "Defense News",
     "freshest_title": "Poland buys V-BAT drones to boost Baltic Sea naval operations",
     "freshest_published": "Thu, 25 Jun 2026 08:20:43 +0000"
