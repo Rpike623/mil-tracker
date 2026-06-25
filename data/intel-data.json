@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-06-25T15:34:26Z",
-  "version": 1813,
+  "generated_utc": "2026-06-25T17:59:00Z",
+  "version": 1814,
   "breaking_alert": "Defense News: Poland buys V-BAT drones to boost Baltic Sea naval operations",
   "naval_deployments": [
     {
@@ -641,6 +641,24 @@
       ]
     },
     {
+      "title": "Seven sailors injured during fire aboard USS Indianapolis",
+      "link": "https://www.militarytimes.com/news/your-navy/2026/06/25/seven-sailors-injured-during-fire-aboard-uss-indianapolis/",
+      "published": "Thu, 25 Jun 2026 17:19:22 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Incoming female students at US Naval Academy must cut hair below chin",
+      "link": "https://www.militarytimes.com/news/your-navy/2026/06/25/incoming-female-students-at-us-naval-academy-must-cut-hair-below-chin/",
+      "published": "Thu, 25 Jun 2026 17:24:15 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "Shield AI’s V-BAT to support Polish naval operations",
       "link": "https://www.navalnews.com/naval-news/2026/06/shield-ais-v-bat-to-support-polish-naval-operations/",
       "published": "Tue, 23 Jun 2026 16:13:47 +0000",
@@ -664,25 +682,6 @@
       "link": "https://taskandpurpose.com/news/naval-academy-female-haircuts/",
       "published": "Wed, 24 Jun 2026 14:04:44 -0400",
       "source": "Task & Purpose",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Airstrike killed senior ISIS commander in Syria, CENTCOM says",
-      "link": "https://www.defensenews.com/news/your-military/2026/06/24/airstrike-killed-senior-isis-commander-in-syria-centcom-says/",
-      "published": "Wed, 24 Jun 2026 16:09:06 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
-      "title": "North Korea Commissions First-in-class Destroyer Choe Hyon",
-      "link": "https://news.usni.org/2026/06/24/north-korea-commissions-first-in-class-destroyer-choe-hyon",
-      "published": "Wed, 24 Jun 2026 17:25:39 +0000",
-      "source": "USNI News",
       "categories": [
         "deployment"
       ]
@@ -866,16 +865,6 @@
       "categories": [
         "conflict"
       ]
-    },
-    {
-      "title": "Airstrike killed senior ISIS commander in Syria, CENTCOM says",
-      "link": "https://www.defensenews.com/news/your-military/2026/06/24/airstrike-killed-senior-isis-commander-in-syria-centcom-says/",
-      "published": "Wed, 24 Jun 2026 16:09:06 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
     }
   ],
   "_exercise_news_refs": [
@@ -910,11 +899,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 12,
-    "conflict_articles": 4,
+    "deployment_articles": 13,
+    "conflict_articles": 3,
     "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-06-25T15:34:21.741467+00:00",
+    "computed_at": "2026-06-25T17:58:54.398059+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Defense News] Poland buys V-BAT drones to boost Baltic Sea naval operations",
@@ -932,9 +921,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-06-25T15:34:21.741512+00:00",
+    "last_successful_update": "2026-06-25T17:58:54.398103+00:00",
     "article_count": 50,
-    "categorized_count": 15,
+    "categorized_count": 16,
     "freshest_source": "Defense News",
     "freshest_title": "Poland buys V-BAT drones to boost Baltic Sea naval operations",
     "freshest_published": "Thu, 25 Jun 2026 08:20:43 +0000"
