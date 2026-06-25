@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-06-25T05:59:57Z",
-  "version": 1810,
+  "generated_utc": "2026-06-25T09:21:55Z",
+  "version": 1811,
   "breaking_alert": "USNI News: China’s Liaoning Carrier Strike Group Concludes 40-day Deployment to South China, Philippine Seas",
   "naval_deployments": [
     {
@@ -604,6 +604,16 @@
       ]
     },
     {
+      "title": "Poland buys V-BAT drones to boost Baltic Sea naval operations",
+      "link": "https://www.defensenews.com/global/europe/2026/06/25/poland-buys-v-bat-drones-to-boost-baltic-sea-naval-operations/",
+      "published": "Thu, 25 Jun 2026 08:20:43 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment",
+        "exercise"
+      ]
+    },
+    {
       "title": "U.S. Navy Sets Sights on 10 Commercial Tankers To Rapidly Expand Logistics Fleet",
       "link": "https://www.navalnews.com/naval-news/2026/06/u-s-navy-sets-sights-on-10-commercial-tankers-to-rapidly-expand-logistics-fleet/",
       "published": "Tue, 23 Jun 2026 08:30:56 +0000",
@@ -620,15 +630,6 @@
       "categories": [
         "deployment",
         "exercise"
-      ]
-    },
-    {
-      "title": "US Senate joins House in voting to halt Iran war",
-      "link": "https://www.defensenews.com/news/pentagon-congress/2026/06/24/us-senate-joins-house-in-voting-to-halt-iran-war/",
-      "published": "Wed, 24 Jun 2026 03:50:50 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment"
       ]
     },
     {
@@ -887,6 +888,16 @@
   ],
   "_exercise_news_refs": [
     {
+      "title": "Poland buys V-BAT drones to boost Baltic Sea naval operations",
+      "link": "https://www.defensenews.com/global/europe/2026/06/25/poland-buys-v-bat-drones-to-boost-baltic-sea-naval-operations/",
+      "published": "Thu, 25 Jun 2026 08:20:43 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment",
+        "exercise"
+      ]
+    },
+    {
       "title": "Shield AI’s V-BAT to support Polish naval operations",
       "link": "https://www.navalnews.com/naval-news/2026/06/shield-ais-v-bat-to-support-polish-naval-operations/",
       "published": "Tue, 23 Jun 2026 16:13:47 +0000",
@@ -909,16 +920,16 @@
   "_threat_indicators": {
     "deployment_articles": 11,
     "conflict_articles": 6,
-    "exercise_articles": 2,
+    "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-06-25T05:59:51.280226+00:00",
+    "computed_at": "2026-06-25T09:21:19.655791+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[USNI News] China’s Liaoning Carrier Strike Group Concludes 40-day Deployment to South China, Philippine Seas",
       "[USNI News] Two Men Killed in U.S. Strike on Suspected Drug Boat in the Caribbean",
+      "[Defense News] Poland buys V-BAT drones to boost Baltic Sea naval operations",
       "[Naval News] U.S. Navy Sets Sights on 10 Commercial Tankers To Rapidly Expand Logistics Fleet",
-      "[Naval News] Indonesia’s First Two Scorpene Evolved Will Have Missile Launch Capability",
-      "[USNI News] U.S. Asymmetric Aid Program Transfers Unmanned Vessels to the Philippines, Plans Attack Drone Transfer by 2027"
+      "[Naval News] Indonesia’s First Two Scorpene Evolved Will Have Missile Launch Capability"
     ]
   },
   "ground_intel": {
@@ -929,7 +940,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-06-25T05:59:51.280272+00:00",
+    "last_successful_update": "2026-06-25T09:21:19.655841+00:00",
     "article_count": 50,
     "categorized_count": 16,
     "freshest_source": "USNI News",
