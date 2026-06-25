@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-06-25T09:21:55Z",
-  "version": 1811,
+  "generated_utc": "2026-06-25T12:09:44Z",
+  "version": 1812,
   "breaking_alert": "USNI News: China’s Liaoning Carrier Strike Group Concludes 40-day Deployment to South China, Philippine Seas",
   "naval_deployments": [
     {
@@ -922,7 +922,7 @@
     "conflict_articles": 6,
     "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-06-25T09:21:19.655791+00:00",
+    "computed_at": "2026-06-25T12:09:38.664265+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[USNI News] China’s Liaoning Carrier Strike Group Concludes 40-day Deployment to South China, Philippine Seas",
@@ -940,7 +940,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-06-25T09:21:19.655841+00:00",
+    "last_successful_update": "2026-06-25T12:09:38.664314+00:00",
     "article_count": 50,
     "categorized_count": 16,
     "freshest_source": "USNI News",
