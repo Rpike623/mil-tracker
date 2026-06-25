@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-06-25T12:09:44Z",
-  "version": 1812,
-  "breaking_alert": "USNI News: China’s Liaoning Carrier Strike Group Concludes 40-day Deployment to South China, Philippine Seas",
+  "generated_utc": "2026-06-25T15:34:26Z",
+  "version": 1813,
+  "breaking_alert": "Defense News: Poland buys V-BAT drones to boost Baltic Sea naval operations",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -594,16 +594,6 @@
   ],
   "_naval_news_refs": [
     {
-      "title": "China’s Liaoning Carrier Strike Group Concludes 40-day Deployment to South China, Philippine Seas",
-      "link": "https://news.usni.org/2026/06/22/chinas-liaoning-carrier-strike-group-concludes-40-day-deployment-to-south-china-philippine-seas",
-      "published": "Mon, 22 Jun 2026 19:44:26 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
       "title": "Poland buys V-BAT drones to boost Baltic Sea naval operations",
       "link": "https://www.defensenews.com/global/europe/2026/06/25/poland-buys-v-bat-drones-to-boost-baltic-sea-naval-operations/",
       "published": "Thu, 25 Jun 2026 08:20:43 +0000",
@@ -614,10 +604,38 @@
       ]
     },
     {
-      "title": "U.S. Navy Sets Sights on 10 Commercial Tankers To Rapidly Expand Logistics Fleet",
-      "link": "https://www.navalnews.com/naval-news/2026/06/u-s-navy-sets-sights-on-10-commercial-tankers-to-rapidly-expand-logistics-fleet/",
-      "published": "Tue, 23 Jun 2026 08:30:56 +0000",
+      "title": "Fire breaks out aboard USS Indianapolis, leaving 7 with minor injuries",
+      "link": "https://taskandpurpose.com/news/navy-indianapolis-fire-2026/",
+      "published": "Thu, 25 Jun 2026 11:02:20 -0400",
+      "source": "Task & Purpose",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "North Korea Commissions First Guided-Missile Destroyer, Plans Cruiser",
+      "link": "https://www.navalnews.com/naval-news/2026/06/north-korea-commissions-first-guided-missile-destroyer-plans-cruiser/",
+      "published": "Thu, 25 Jun 2026 14:31:23 +0000",
       "source": "Naval News",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
+    },
+    {
+      "title": "USS Indianapolis Suffers Fire, 7 Sailors Treated for Minor Injuries",
+      "link": "https://news.usni.org/2026/06/25/uss-indianapolis-suffers-fire-7-sailors-treated-for-minor-injuries",
+      "published": "Thu, 25 Jun 2026 14:31:32 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Philippines deploys US-made Triton naval drones in its western waters to scout for intruders",
+      "link": "https://www.defensenews.com/global/asia-pacific/2026/06/25/philippines-deploys-us-made-triton-naval-drones-in-its-western-waters-to-scout-for-intruders/",
+      "published": "Thu, 25 Jun 2026 14:32:31 +0000",
+      "source": "Defense News",
       "categories": [
         "deployment"
       ]
@@ -661,28 +679,10 @@
       ]
     },
     {
-      "title": "Missing sailor found dead near Naval Station Norfolk",
-      "link": "https://www.militarytimes.com/news/your-navy/2026/06/24/missing-sailor-found-dead-near-naval-station-norfolk/",
-      "published": "Wed, 24 Jun 2026 17:04:03 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "North Korea Commissions First-in-class Destroyer Choe Hyon",
       "link": "https://news.usni.org/2026/06/24/north-korea-commissions-first-in-class-destroyer-choe-hyon",
       "published": "Wed, 24 Jun 2026 17:25:39 +0000",
       "source": "USNI News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "White House asks Congress for $87.6 billion, mostly for Iran war",
-      "link": "https://www.defensenews.com/news/pentagon-congress/2026/06/24/white-house-asks-congress-for-876-billion-mostly-for-iran-war/",
-      "published": "Wed, 24 Jun 2026 21:30:14 +0000",
-      "source": "Defense News",
       "categories": [
         "deployment"
       ]
@@ -840,30 +840,12 @@
   },
   "_conflict_news_refs": [
     {
-      "title": "China’s Liaoning Carrier Strike Group Concludes 40-day Deployment to South China, Philippine Seas",
-      "link": "https://news.usni.org/2026/06/22/chinas-liaoning-carrier-strike-group-concludes-40-day-deployment-to-south-china-philippine-seas",
-      "published": "Mon, 22 Jun 2026 19:44:26 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
-      "title": "Two Men Killed in U.S. Strike on Suspected Drug Boat in the Caribbean",
-      "link": "https://news.usni.org/2026/06/22/two-men-killed-in-u-s-strike-on-suspected-drug-boat-in-the-caribbean",
-      "published": "Mon, 22 Jun 2026 20:10:41 +0000",
-      "source": "USNI News",
-      "categories": [
-        "conflict"
-      ]
-    },
-    {
-      "title": "Indonesia’s First Two Scorpene Evolved Will Have Missile Launch Capability",
-      "link": "https://www.navalnews.com/naval-news/2026/06/indonesias-first-two-scorpene-evolved-will-have-missile-launch-capability/",
-      "published": "Tue, 23 Jun 2026 09:54:45 +0000",
+      "title": "North Korea Commissions First Guided-Missile Destroyer, Plans Cruiser",
+      "link": "https://www.navalnews.com/naval-news/2026/06/north-korea-commissions-first-guided-missile-destroyer-plans-cruiser/",
+      "published": "Thu, 25 Jun 2026 14:31:23 +0000",
       "source": "Naval News",
       "categories": [
+        "deployment",
         "conflict"
       ]
     },
@@ -882,6 +864,16 @@
       "published": "Wed, 24 Jun 2026 15:11:48 +0000",
       "source": "USNI News",
       "categories": [
+        "conflict"
+      ]
+    },
+    {
+      "title": "Airstrike killed senior ISIS commander in Syria, CENTCOM says",
+      "link": "https://www.defensenews.com/news/your-military/2026/06/24/airstrike-killed-senior-isis-commander-in-syria-centcom-says/",
+      "published": "Wed, 24 Jun 2026 16:09:06 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment",
         "conflict"
       ]
     }
@@ -918,18 +910,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 11,
-    "conflict_articles": 6,
+    "deployment_articles": 12,
+    "conflict_articles": 4,
     "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-06-25T12:09:38.664265+00:00",
+    "computed_at": "2026-06-25T15:34:21.741467+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
-      "[USNI News] China’s Liaoning Carrier Strike Group Concludes 40-day Deployment to South China, Philippine Seas",
-      "[USNI News] Two Men Killed in U.S. Strike on Suspected Drug Boat in the Caribbean",
       "[Defense News] Poland buys V-BAT drones to boost Baltic Sea naval operations",
-      "[Naval News] U.S. Navy Sets Sights on 10 Commercial Tankers To Rapidly Expand Logistics Fleet",
-      "[Naval News] Indonesia’s First Two Scorpene Evolved Will Have Missile Launch Capability"
+      "[Task & Purpose] Fire breaks out aboard USS Indianapolis, leaving 7 with minor injuries",
+      "[Naval News] North Korea Commissions First Guided-Missile Destroyer, Plans Cruiser",
+      "[USNI News] USS Indianapolis Suffers Fire, 7 Sailors Treated for Minor Injuries",
+      "[Defense News] Philippines deploys US-made Triton naval drones in its western waters to scout for intruders"
     ]
   },
   "ground_intel": {
@@ -940,12 +932,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-06-25T12:09:38.664314+00:00",
+    "last_successful_update": "2026-06-25T15:34:21.741512+00:00",
     "article_count": 50,
-    "categorized_count": 16,
-    "freshest_source": "USNI News",
-    "freshest_title": "China’s Liaoning Carrier Strike Group Concludes 40-day Deployment to South China, Philippine Seas",
-    "freshest_published": "Mon, 22 Jun 2026 19:44:26 +0000"
+    "categorized_count": 15,
+    "freshest_source": "Defense News",
+    "freshest_title": "Poland buys V-BAT drones to boost Baltic Sea naval operations",
+    "freshest_published": "Thu, 25 Jun 2026 08:20:43 +0000"
   },
   "_firms_hotspots": []
 }
