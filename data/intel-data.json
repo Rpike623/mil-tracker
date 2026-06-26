@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-06-26T01:59:04Z",
-  "version": 1818,
+  "generated_utc": "2026-06-26T06:12:58Z",
+  "version": 1819,
   "breaking_alert": "Defense News: Poland buys V-BAT drones to boost Baltic Sea naval operations",
   "naval_deployments": [
     {
@@ -923,7 +923,7 @@
     "conflict_articles": 8,
     "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-06-26T01:59:01.342852+00:00",
+    "computed_at": "2026-06-26T06:08:18.039538+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[Defense News] Poland buys V-BAT drones to boost Baltic Sea naval operations",
@@ -941,7 +941,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-06-26T01:59:01.342893+00:00",
+    "last_successful_update": "2026-06-26T06:08:18.039581+00:00",
     "article_count": 50,
     "categorized_count": 19,
     "freshest_source": "Defense News",
