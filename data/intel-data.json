@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-06-26T16:04:10Z",
-  "version": 1822,
+  "generated_utc": "2026-06-26T18:19:18Z",
+  "version": 1823,
   "breaking_alert": "Naval News: Naval Group delivers 4th Barracuda type submarine",
   "naval_deployments": [
     {
@@ -667,15 +667,6 @@
       ]
     },
     {
-      "title": "Incoming female students at US Naval Academy must cut hair below chin",
-      "link": "https://www.militarytimes.com/news/your-navy/2026/06/25/incoming-female-students-at-us-naval-academy-must-cut-hair-below-chin/",
-      "published": "Thu, 25 Jun 2026 17:24:15 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Air Force Wants New 1,000-Nautical Mile Range Missile for Air, Sea Targets",
       "link": "https://news.usni.org/2026/06/25/air-force-wants-new-1000-nautical-mile-range-missile-for-air-sea-targets",
       "published": "Thu, 25 Jun 2026 19:00:42 +0000",
@@ -683,6 +674,15 @@
       "categories": [
         "deployment",
         "conflict"
+      ]
+    },
+    {
+      "title": "China Now Leads World Submarine Construction",
+      "link": "https://www.navalnews.com/naval-news/2026/06/china-now-leads-world-submarine-construction/",
+      "published": "Wed, 24 Jun 2026 08:29:00 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment"
       ]
     }
   ],
@@ -885,13 +885,41 @@
       ]
     }
   ],
-  "_exercise_news_refs": [],
+  "_exercise_news_refs": [
+    {
+      "title": "Army launches new branch for military space operations",
+      "link": "https://www.militarytimes.com/news/your-military/2026/06/26/army-launches-new-branch-for-military-space-operations/",
+      "published": "Fri, 26 Jun 2026 17:33:11 +0000",
+      "source": "Military Times",
+      "categories": [
+        "exercise"
+      ]
+    },
+    {
+      "title": "NATO allies promised Trump they’d secure the Arctic; they’ve got work to do",
+      "link": "https://www.defensenews.com/opinion/commentary/2026/06/26/nato-allies-promised-trump-theyd-secure-the-arctic-theyve-got-work-to-do/",
+      "published": "Fri, 26 Jun 2026 17:53:46 +0000",
+      "source": "Defense News",
+      "categories": [
+        "exercise"
+      ]
+    },
+    {
+      "title": "NATO allies promised Trump they’d secure the Arctic; they’ve got work to do",
+      "link": "https://www.militarytimes.com/opinion/commentary/2026/06/26/nato-allies-promised-trump-theyd-secure-the-arctic-theyve-got-work-to-do/",
+      "published": "Fri, 26 Jun 2026 17:53:46 +0000",
+      "source": "Military Times",
+      "categories": [
+        "exercise"
+      ]
+    }
+  ],
   "_threat_indicators": {
-    "deployment_articles": 13,
+    "deployment_articles": 12,
     "conflict_articles": 8,
-    "exercise_articles": 0,
+    "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-06-26T16:04:00.365441+00:00",
+    "computed_at": "2026-06-26T18:19:15.539003+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[Naval News] Naval Group delivers 4th Barracuda type submarine",
@@ -909,9 +937,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-06-26T16:04:00.365474+00:00",
+    "last_successful_update": "2026-06-26T18:19:15.539043+00:00",
     "article_count": 50,
-    "categorized_count": 19,
+    "categorized_count": 21,
     "freshest_source": "Naval News",
     "freshest_title": "Naval Group delivers 4th Barracuda type submarine",
     "freshest_published": "Fri, 26 Jun 2026 06:23:37 +0000"
