@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-06-26T22:03:12Z",
-  "version": 1825,
+  "generated_utc": "2026-06-26T23:07:14Z",
+  "version": 1826,
   "breaking_alert": "Naval News: Naval Group delivers 4th Barracuda type submarine",
   "naval_deployments": [
     {
@@ -649,6 +649,26 @@
       ]
     },
     {
+      "title": "US strikes Iranian missile, drone, radar sites",
+      "link": "https://www.defensenews.com/news/your-military/2026/06/26/us-resumes-attacks-on-iran/",
+      "published": "Fri, 26 Jun 2026 22:08:28 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
+    },
+    {
+      "title": "US strikes Iranian missile, drone, radar sites",
+      "link": "https://www.militarytimes.com/news/your-military/2026/06/26/us-resumes-attacks-on-iran/",
+      "published": "Fri, 26 Jun 2026 22:08:28 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
+    },
+    {
       "title": "Fire breaks out aboard USS Indianapolis, leaving 7 with minor injuries",
       "link": "https://taskandpurpose.com/news/navy-indianapolis-fire-2026/",
       "published": "Thu, 25 Jun 2026 11:02:20 -0400",
@@ -665,24 +685,6 @@
       "categories": [
         "deployment",
         "conflict"
-      ]
-    },
-    {
-      "title": "USS Indianapolis Suffers Fire, 7 Sailors Treated for Minor Injuries",
-      "link": "https://news.usni.org/2026/06/25/uss-indianapolis-suffers-fire-7-sailors-treated-for-minor-injuries",
-      "published": "Thu, 25 Jun 2026 14:31:32 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Philippines deploys US-made Triton naval drones in its western waters to scout for intruders",
-      "link": "https://www.defensenews.com/global/asia-pacific/2026/06/25/philippines-deploys-us-made-triton-naval-drones-in-its-western-waters-to-scout-for-intruders/",
-      "published": "Thu, 25 Jun 2026 14:32:31 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment"
       ]
     }
   ],
@@ -857,31 +859,32 @@
       ]
     },
     {
+      "title": "US strikes Iranian missile, drone, radar sites",
+      "link": "https://www.defensenews.com/news/your-military/2026/06/26/us-resumes-attacks-on-iran/",
+      "published": "Fri, 26 Jun 2026 22:08:28 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
+    },
+    {
+      "title": "US strikes Iranian missile, drone, radar sites",
+      "link": "https://www.militarytimes.com/news/your-military/2026/06/26/us-resumes-attacks-on-iran/",
+      "published": "Fri, 26 Jun 2026 22:08:28 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
+    },
+    {
       "title": "North Korea Commissions First Guided-Missile Destroyer, Plans Cruiser",
       "link": "https://www.navalnews.com/naval-news/2026/06/north-korea-commissions-first-guided-missile-destroyer-plans-cruiser/",
       "published": "Thu, 25 Jun 2026 14:31:23 +0000",
       "source": "Naval News",
       "categories": [
         "deployment",
-        "conflict"
-      ]
-    },
-    {
-      "title": "Air Force Wants New 1,000-Nautical Mile Range Missile for Air, Sea Targets",
-      "link": "https://news.usni.org/2026/06/25/air-force-wants-new-1000-nautical-mile-range-missile-for-air-sea-targets",
-      "published": "Thu, 25 Jun 2026 19:00:42 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
-      "title": "Ukraine’s newest strike weapon drifts into Russia on the wind",
-      "link": "https://www.defensenews.com/global/europe/2026/06/25/ukraines-newest-strike-weapon-drifts-into-russia-on-the-wind/",
-      "published": "Thu, 25 Jun 2026 20:28:05 +0000",
-      "source": "Defense News",
-      "categories": [
         "conflict"
       ]
     }
@@ -925,12 +928,12 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 14,
-    "conflict_articles": 7,
+    "deployment_articles": 15,
+    "conflict_articles": 9,
     "exercise_articles": 4,
     "total_articles": 50,
-    "computed_at": "2026-06-26T21:58:31.528308+00:00",
-    "manual_override": "DEFCON_3",
+    "computed_at": "2026-06-26T23:02:34.009370+00:00",
+    "manual_override": "DEFCON_2",
     "breaking_events": [
       "[Naval News] Naval Group delivers 4th Barracuda type submarine",
       "[Naval News] Hanwha Unveils Striker MUSV Family at Eurosatory 2026",
@@ -947,9 +950,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-06-26T21:58:31.528348+00:00",
+    "last_successful_update": "2026-06-26T23:02:34.009412+00:00",
     "article_count": 50,
-    "categorized_count": 22,
+    "categorized_count": 23,
     "freshest_source": "Naval News",
     "freshest_title": "Naval Group delivers 4th Barracuda type submarine",
     "freshest_published": "Fri, 26 Jun 2026 06:23:37 +0000"
