@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-06-26T10:11:10Z",
-  "version": 1820,
+  "generated_utc": "2026-06-26T13:01:03Z",
+  "version": 1821,
   "breaking_alert": "Naval News: Naval Group delivers 4th Barracuda type submarine",
   "naval_deployments": [
     {
@@ -603,6 +603,15 @@
       ]
     },
     {
+      "title": "Amphib USS Fort Lauderdale, LCS USS Billings Headed to Venezuela",
+      "link": "https://news.usni.org/2026/06/26/amphib-uss-fort-lauderdale-lcs-uss-billings-headed-to-venezuela",
+      "published": "Fri, 26 Jun 2026 12:56:01 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "Poland buys V-BAT drones to boost Baltic Sea naval operations",
       "link": "https://www.defensenews.com/global/europe/2026/06/25/poland-buys-v-bat-drones-to-boost-baltic-sea-naval-operations/",
       "published": "Thu, 25 Jun 2026 08:20:43 +0000",
@@ -675,16 +684,6 @@
       "categories": [
         "deployment",
         "conflict"
-      ]
-    },
-    {
-      "title": "Shield AI’s V-BAT to support Polish naval operations",
-      "link": "https://www.navalnews.com/naval-news/2026/06/shield-ais-v-bat-to-support-polish-naval-operations/",
-      "published": "Tue, 23 Jun 2026 16:13:47 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment",
-        "exercise"
       ]
     }
   ],
@@ -897,40 +896,21 @@
         "deployment",
         "exercise"
       ]
-    },
-    {
-      "title": "Shield AI’s V-BAT to support Polish naval operations",
-      "link": "https://www.navalnews.com/naval-news/2026/06/shield-ais-v-bat-to-support-polish-naval-operations/",
-      "published": "Tue, 23 Jun 2026 16:13:47 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment",
-        "exercise"
-      ]
-    },
-    {
-      "title": "U.S. Kicks Off Western Pacific Exercises Valiant Shield, Resolute Dragon",
-      "link": "https://news.usni.org/2026/06/23/u-s-kicks-off-western-pacific-exercises-valiant-shield-resolute-dragon",
-      "published": "Tue, 23 Jun 2026 17:34:07 +0000",
-      "source": "USNI News",
-      "categories": [
-        "exercise"
-      ]
     }
   ],
   "_threat_indicators": {
     "deployment_articles": 13,
-    "conflict_articles": 9,
-    "exercise_articles": 3,
+    "conflict_articles": 8,
+    "exercise_articles": 1,
     "total_articles": 50,
-    "computed_at": "2026-06-26T10:10:52.079879+00:00",
+    "computed_at": "2026-06-26T13:00:57.188389+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[Naval News] Naval Group delivers 4th Barracuda type submarine",
       "[Naval News] Hanwha Unveils Striker MUSV Family at Eurosatory 2026",
+      "[USNI News] Amphib USS Fort Lauderdale, LCS USS Billings Headed to Venezuela",
       "[Defense News] Poland buys V-BAT drones to boost Baltic Sea naval operations",
-      "[Task & Purpose] Fire breaks out aboard USS Indianapolis, leaving 7 with minor injuries",
-      "[Naval News] North Korea Commissions First Guided-Missile Destroyer, Plans Cruiser"
+      "[Task & Purpose] Fire breaks out aboard USS Indianapolis, leaving 7 with minor injuries"
     ]
   },
   "ground_intel": {
@@ -941,9 +921,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-06-26T10:10:52.079921+00:00",
+    "last_successful_update": "2026-06-26T13:00:57.188431+00:00",
     "article_count": 50,
-    "categorized_count": 21,
+    "categorized_count": 19,
     "freshest_source": "Naval News",
     "freshest_title": "Naval Group delivers 4th Barracuda type submarine",
     "freshest_published": "Fri, 26 Jun 2026 06:23:37 +0000"
