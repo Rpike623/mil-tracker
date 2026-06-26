@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-06-26T06:12:58Z",
-  "version": 1819,
-  "breaking_alert": "Defense News: Poland buys V-BAT drones to boost Baltic Sea naval operations",
+  "generated_utc": "2026-06-26T10:11:10Z",
+  "version": 1820,
+  "breaking_alert": "Naval News: Naval Group delivers 4th Barracuda type submarine",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -594,6 +594,15 @@
   ],
   "_naval_news_refs": [
     {
+      "title": "Naval Group delivers 4th Barracuda type submarine",
+      "link": "https://www.navalnews.com/naval-news/2026/06/naval-group-delivers-4th-barracuda-type-submarine/",
+      "published": "Fri, 26 Jun 2026 06:23:37 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "Poland buys V-BAT drones to boost Baltic Sea naval operations",
       "link": "https://www.defensenews.com/global/europe/2026/06/25/poland-buys-v-bat-drones-to-boost-baltic-sea-naval-operations/",
       "published": "Thu, 25 Jun 2026 08:20:43 +0000",
@@ -676,15 +685,6 @@
       "categories": [
         "deployment",
         "exercise"
-      ]
-    },
-    {
-      "title": "China Now Leads World Submarine Construction",
-      "link": "https://www.navalnews.com/naval-news/2026/06/china-now-leads-world-submarine-construction/",
-      "published": "Wed, 24 Jun 2026 08:29:00 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment"
       ]
     }
   ],
@@ -840,6 +840,15 @@
   },
   "_conflict_news_refs": [
     {
+      "title": "Hanwha Unveils Striker MUSV Family at Eurosatory 2026",
+      "link": "https://www.navalnews.com/naval-news/2026/06/hanwha-unveils-striker-musv-family-at-eurosatory-2026/",
+      "published": "Fri, 26 Jun 2026 09:34:56 +0000",
+      "source": "Naval News",
+      "categories": [
+        "conflict"
+      ]
+    },
+    {
       "title": "North Korea Commissions First Guided-Missile Destroyer, Plans Cruiser",
       "link": "https://www.navalnews.com/naval-news/2026/06/north-korea-commissions-first-guided-missile-destroyer-plans-cruiser/",
       "published": "Thu, 25 Jun 2026 14:31:23 +0000",
@@ -873,15 +882,6 @@
       "link": "https://www.militarytimes.com/global/europe/2026/06/25/ukraines-newest-strike-weapon-drifts-into-russia-on-the-wind/",
       "published": "Thu, 25 Jun 2026 20:28:05 +0000",
       "source": "Military Times",
-      "categories": [
-        "conflict"
-      ]
-    },
-    {
-      "title": "Ukraine’s top strike-drone maker moves into ballistic missile defense",
-      "link": "https://www.defensenews.com/unmanned/2026/06/25/ukraines-top-strike-drone-maker-moves-into-ballistic-missile-defense/",
-      "published": "Thu, 25 Jun 2026 20:59:02 +0000",
-      "source": "Defense News",
       "categories": [
         "conflict"
       ]
@@ -919,18 +919,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 12,
-    "conflict_articles": 8,
+    "deployment_articles": 13,
+    "conflict_articles": 9,
     "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-06-26T06:08:18.039538+00:00",
+    "computed_at": "2026-06-26T10:10:52.079879+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
+      "[Naval News] Naval Group delivers 4th Barracuda type submarine",
+      "[Naval News] Hanwha Unveils Striker MUSV Family at Eurosatory 2026",
       "[Defense News] Poland buys V-BAT drones to boost Baltic Sea naval operations",
       "[Task & Purpose] Fire breaks out aboard USS Indianapolis, leaving 7 with minor injuries",
-      "[Naval News] North Korea Commissions First Guided-Missile Destroyer, Plans Cruiser",
-      "[USNI News] USS Indianapolis Suffers Fire, 7 Sailors Treated for Minor Injuries",
-      "[Defense News] Philippines deploys US-made Triton naval drones in its western waters to scout for intruders"
+      "[Naval News] North Korea Commissions First Guided-Missile Destroyer, Plans Cruiser"
     ]
   },
   "ground_intel": {
@@ -941,12 +941,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-06-26T06:08:18.039581+00:00",
+    "last_successful_update": "2026-06-26T10:10:52.079921+00:00",
     "article_count": 50,
-    "categorized_count": 19,
-    "freshest_source": "Defense News",
-    "freshest_title": "Poland buys V-BAT drones to boost Baltic Sea naval operations",
-    "freshest_published": "Thu, 25 Jun 2026 08:20:43 +0000"
+    "categorized_count": 21,
+    "freshest_source": "Naval News",
+    "freshest_title": "Naval Group delivers 4th Barracuda type submarine",
+    "freshest_published": "Fri, 26 Jun 2026 06:23:37 +0000"
   },
   "_firms_hotspots": []
 }
