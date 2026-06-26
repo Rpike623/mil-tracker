@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-06-26T13:01:03Z",
-  "version": 1821,
+  "generated_utc": "2026-06-26T16:04:10Z",
+  "version": 1822,
   "breaking_alert": "Naval News: Naval Group delivers 4th Barracuda type submarine",
   "naval_deployments": [
     {
@@ -612,13 +612,21 @@
       ]
     },
     {
-      "title": "Poland buys V-BAT drones to boost Baltic Sea naval operations",
-      "link": "https://www.defensenews.com/global/europe/2026/06/25/poland-buys-v-bat-drones-to-boost-baltic-sea-naval-operations/",
-      "published": "Thu, 25 Jun 2026 08:20:43 +0000",
+      "title": "French Seizes 5th Russian Shadow Fleet Tanker",
+      "link": "https://news.usni.org/2026/06/26/french-seizes-5th-russian-shadow-fleet-tanker",
+      "published": "Fri, 26 Jun 2026 14:02:28 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Romania bolsters Black Sea fleet with Turkish-built corvette",
+      "link": "https://www.defensenews.com/global/europe/2026/06/26/romania-bolsters-black-sea-fleet-with-turkish-built-corvette/",
+      "published": "Fri, 26 Jun 2026 15:58:22 +0000",
       "source": "Defense News",
       "categories": [
-        "deployment",
-        "exercise"
+        "deployment"
       ]
     },
     {
@@ -654,15 +662,6 @@
       "link": "https://www.defensenews.com/global/asia-pacific/2026/06/25/philippines-deploys-us-made-triton-naval-drones-in-its-western-waters-to-scout-for-intruders/",
       "published": "Thu, 25 Jun 2026 14:32:31 +0000",
       "source": "Defense News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Seven sailors injured during fire aboard USS Indianapolis",
-      "link": "https://www.militarytimes.com/news/your-navy/2026/06/25/seven-sailors-injured-during-fire-aboard-uss-indianapolis/",
-      "published": "Thu, 25 Jun 2026 17:19:22 +0000",
-      "source": "Military Times",
       "categories": [
         "deployment"
       ]
@@ -886,31 +885,20 @@
       ]
     }
   ],
-  "_exercise_news_refs": [
-    {
-      "title": "Poland buys V-BAT drones to boost Baltic Sea naval operations",
-      "link": "https://www.defensenews.com/global/europe/2026/06/25/poland-buys-v-bat-drones-to-boost-baltic-sea-naval-operations/",
-      "published": "Thu, 25 Jun 2026 08:20:43 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment",
-        "exercise"
-      ]
-    }
-  ],
+  "_exercise_news_refs": [],
   "_threat_indicators": {
     "deployment_articles": 13,
     "conflict_articles": 8,
-    "exercise_articles": 1,
+    "exercise_articles": 0,
     "total_articles": 50,
-    "computed_at": "2026-06-26T13:00:57.188389+00:00",
+    "computed_at": "2026-06-26T16:04:00.365441+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[Naval News] Naval Group delivers 4th Barracuda type submarine",
       "[Naval News] Hanwha Unveils Striker MUSV Family at Eurosatory 2026",
       "[USNI News] Amphib USS Fort Lauderdale, LCS USS Billings Headed to Venezuela",
-      "[Defense News] Poland buys V-BAT drones to boost Baltic Sea naval operations",
-      "[Task & Purpose] Fire breaks out aboard USS Indianapolis, leaving 7 with minor injuries"
+      "[USNI News] French Seizes 5th Russian Shadow Fleet Tanker",
+      "[Defense News] Romania bolsters Black Sea fleet with Turkish-built corvette"
     ]
   },
   "ground_intel": {
@@ -921,7 +909,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-06-26T13:00:57.188431+00:00",
+    "last_successful_update": "2026-06-26T16:04:00.365474+00:00",
     "article_count": 50,
     "categorized_count": 19,
     "freshest_source": "Naval News",
