@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-06-27T22:49:51Z",
-  "version": 1839,
+  "generated_utc": "2026-06-27T23:50:00Z",
+  "version": 1840,
   "breaking_alert": "Naval News: Naval Group delivers 4th Barracuda type submarine",
   "naval_deployments": [
     {
@@ -932,7 +932,7 @@
     "conflict_articles": 9,
     "exercise_articles": 4,
     "total_articles": 50,
-    "computed_at": "2026-06-27T22:49:45.614137+00:00",
+    "computed_at": "2026-06-27T23:49:55.071058+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[Naval News] Naval Group delivers 4th Barracuda type submarine",
@@ -950,7 +950,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-06-27T22:49:45.614173+00:00",
+    "last_successful_update": "2026-06-27T23:49:55.071095+00:00",
     "article_count": 50,
     "categorized_count": 22,
     "freshest_source": "Naval News",
