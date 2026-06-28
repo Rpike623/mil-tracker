@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-06-28T06:49:47Z",
-  "version": 1842,
+  "generated_utc": "2026-06-28T09:54:10Z",
+  "version": 1843,
   "breaking_alert": "Naval News: Naval Group delivers 4th Barracuda type submarine",
   "naval_deployments": [
     {
@@ -669,22 +669,21 @@
       ]
     },
     {
+      "title": "Airbus signs MoU to explore Japanese anti-submarine variant of the Eurodrone",
+      "link": "https://www.navalnews.com/naval-news/2026/06/airbus-signs-mou-to-explore-japanese-anti-submarine-variant-of-the-eurodrone/",
+      "published": "Sun, 28 Jun 2026 07:25:23 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "Fire breaks out aboard USS Indianapolis, leaving 7 with minor injuries",
       "link": "https://taskandpurpose.com/news/navy-indianapolis-fire-2026/",
       "published": "Thu, 25 Jun 2026 11:02:20 -0400",
       "source": "Task & Purpose",
       "categories": [
         "deployment"
-      ]
-    },
-    {
-      "title": "North Korea Commissions First Guided-Missile Destroyer, Plans Cruiser",
-      "link": "https://www.navalnews.com/naval-news/2026/06/north-korea-commissions-first-guided-missile-destroyer-plans-cruiser/",
-      "published": "Thu, 25 Jun 2026 14:31:23 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment",
-        "conflict"
       ]
     }
   ],
@@ -932,7 +931,7 @@
     "conflict_articles": 9,
     "exercise_articles": 4,
     "total_articles": 50,
-    "computed_at": "2026-06-28T06:49:41.493810+00:00",
+    "computed_at": "2026-06-28T09:49:29.747078+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[Naval News] Naval Group delivers 4th Barracuda type submarine",
@@ -950,7 +949,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-06-28T06:49:41.493848+00:00",
+    "last_successful_update": "2026-06-28T09:49:29.747120+00:00",
     "article_count": 50,
     "categorized_count": 22,
     "freshest_source": "Naval News",
