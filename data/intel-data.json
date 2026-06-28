@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-06-28T17:56:04Z",
-  "version": 1848,
+  "generated_utc": "2026-06-28T19:00:53Z",
+  "version": 1849,
   "breaking_alert": "Naval News: Naval Group delivers 4th Barracuda type submarine",
   "naval_deployments": [
     {
@@ -603,15 +603,6 @@
       ]
     },
     {
-      "title": "Amphib USS Fort Lauderdale, LCS USS Billings Headed to Venezuela",
-      "link": "https://news.usni.org/2026/06/26/amphib-uss-fort-lauderdale-lcs-uss-billings-headed-to-venezuela",
-      "published": "Fri, 26 Jun 2026 12:56:01 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "French Seizes 5th Russian Shadow Fleet Tanker",
       "link": "https://news.usni.org/2026/06/26/french-seizes-5th-russian-shadow-fleet-tanker",
       "published": "Fri, 26 Jun 2026 14:02:28 +0000",
@@ -684,6 +675,16 @@
       "source": "Task & Purpose",
       "categories": [
         "deployment"
+      ]
+    },
+    {
+      "title": "North Korea Commissions First Guided-Missile Destroyer, Plans Cruiser",
+      "link": "https://www.navalnews.com/naval-news/2026/06/north-korea-commissions-first-guided-missile-destroyer-plans-cruiser/",
+      "published": "Thu, 25 Jun 2026 14:31:23 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment",
+        "conflict"
       ]
     }
   ],
@@ -926,18 +927,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 14,
+    "deployment_articles": 13,
     "conflict_articles": 10,
     "exercise_articles": 4,
     "total_articles": 50,
-    "computed_at": "2026-06-28T17:56:02.235168+00:00",
+    "computed_at": "2026-06-28T19:00:49.675368+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[Naval News] Naval Group delivers 4th Barracuda type submarine",
       "[Naval News] Hanwha Unveils Striker MUSV Family at Eurosatory 2026",
-      "[USNI News] Amphib USS Fort Lauderdale, LCS USS Billings Headed to Venezuela",
       "[USNI News] French Seizes 5th Russian Shadow Fleet Tanker",
-      "[Defense News] Romania bolsters Black Sea fleet with Turkish-built corvette"
+      "[Defense News] Romania bolsters Black Sea fleet with Turkish-built corvette",
+      "[Task & Purpose] An Air Force special operations prop plane crashed after pilot turned off fuel"
     ]
   },
   "ground_intel": {
@@ -948,9 +949,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-06-28T17:56:02.235209+00:00",
+    "last_successful_update": "2026-06-28T19:00:49.675409+00:00",
     "article_count": 50,
-    "categorized_count": 23,
+    "categorized_count": 22,
     "freshest_source": "Naval News",
     "freshest_title": "Naval Group delivers 4th Barracuda type submarine",
     "freshest_published": "Fri, 26 Jun 2026 06:23:37 +0000"
