@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-06-28T11:29:17Z",
-  "version": 1844,
+  "generated_utc": "2026-06-28T13:07:05Z",
+  "version": 1845,
   "breaking_alert": "Naval News: Naval Group delivers 4th Barracuda type submarine",
   "naval_deployments": [
     {
@@ -878,12 +878,11 @@
       ]
     },
     {
-      "title": "North Korea Commissions First Guided-Missile Destroyer, Plans Cruiser",
-      "link": "https://www.navalnews.com/naval-news/2026/06/north-korea-commissions-first-guided-missile-destroyer-plans-cruiser/",
-      "published": "Thu, 25 Jun 2026 14:31:23 +0000",
+      "title": "U.S. Stations Marine Anti-Ship Missiles in the Western Pacific",
+      "link": "https://www.navalnews.com/naval-news/2026/06/u-s-stations-marine-anti-ship-missiles-in-the-western-pacific/",
+      "published": "Sun, 28 Jun 2026 11:39:00 +0000",
       "source": "Naval News",
       "categories": [
-        "deployment",
         "conflict"
       ]
     }
@@ -928,10 +927,10 @@
   ],
   "_threat_indicators": {
     "deployment_articles": 14,
-    "conflict_articles": 9,
+    "conflict_articles": 10,
     "exercise_articles": 4,
     "total_articles": 50,
-    "computed_at": "2026-06-28T11:29:14.613816+00:00",
+    "computed_at": "2026-06-28T13:07:03.095363+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[Naval News] Naval Group delivers 4th Barracuda type submarine",
@@ -949,9 +948,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-06-28T11:29:14.613857+00:00",
+    "last_successful_update": "2026-06-28T13:07:03.095400+00:00",
     "article_count": 50,
-    "categorized_count": 22,
+    "categorized_count": 23,
     "freshest_source": "Naval News",
     "freshest_title": "Naval Group delivers 4th Barracuda type submarine",
     "freshest_published": "Fri, 26 Jun 2026 06:23:37 +0000"
