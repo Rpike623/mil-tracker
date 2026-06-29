@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-06-29T07:22:31Z",
-  "version": 1855,
+  "generated_utc": "2026-06-29T12:19:17Z",
+  "version": 1856,
   "breaking_alert": "Naval News: Naval Group delivers 4th Barracuda type submarine",
   "naval_deployments": [
     {
@@ -660,31 +660,30 @@
       ]
     },
     {
+      "title": "Saab receives order for three A26 submarines for Poland",
+      "link": "https://www.navalnews.com/naval-news/2026/06/saab-receives-order-for-three-a26-submarines-for-poland/",
+      "published": "Mon, 29 Jun 2026 11:53:15 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Israel sells Spyder air defense systems to Romania for $2.3 billion",
+      "link": "https://www.defensenews.com/global/mideast-africa/2026/06/29/israel-sells-spyder-air-defense-systems-to-romania-for-23-billion/",
+      "published": "Mon, 29 Jun 2026 12:09:19 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "Airbus signs MoU to explore Japanese anti-submarine variant of the Eurodrone",
       "link": "https://www.navalnews.com/naval-news/2026/06/airbus-signs-mou-to-explore-japanese-anti-submarine-variant-of-the-eurodrone/",
       "published": "Sun, 28 Jun 2026 07:25:23 +0000",
       "source": "Naval News",
       "categories": [
         "deployment"
-      ]
-    },
-    {
-      "title": "Fire breaks out aboard USS Indianapolis, leaving 7 with minor injuries",
-      "link": "https://taskandpurpose.com/news/navy-indianapolis-fire-2026/",
-      "published": "Thu, 25 Jun 2026 11:02:20 -0400",
-      "source": "Task & Purpose",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "North Korea Commissions First Guided-Missile Destroyer, Plans Cruiser",
-      "link": "https://www.navalnews.com/naval-news/2026/06/north-korea-commissions-first-guided-missile-destroyer-plans-cruiser/",
-      "published": "Thu, 25 Jun 2026 14:31:23 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment",
-        "conflict"
       ]
     }
   ],
@@ -927,11 +926,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 13,
+    "deployment_articles": 15,
     "conflict_articles": 10,
     "exercise_articles": 4,
     "total_articles": 50,
-    "computed_at": "2026-06-29T07:17:50.963058+00:00",
+    "computed_at": "2026-06-29T12:19:13.917922+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[Naval News] Naval Group delivers 4th Barracuda type submarine",
@@ -949,9 +948,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-06-29T07:17:50.963099+00:00",
+    "last_successful_update": "2026-06-29T12:19:13.917972+00:00",
     "article_count": 50,
-    "categorized_count": 22,
+    "categorized_count": 24,
     "freshest_source": "Naval News",
     "freshest_title": "Naval Group delivers 4th Barracuda type submarine",
     "freshest_published": "Fri, 26 Jun 2026 06:23:37 +0000"
