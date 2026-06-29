@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-06-29T12:19:17Z",
-  "version": 1856,
+  "generated_utc": "2026-06-29T16:30:06Z",
+  "version": 1857,
   "breaking_alert": "Naval News: Naval Group delivers 4th Barracuda type submarine",
   "naval_deployments": [
     {
@@ -678,10 +678,10 @@
       ]
     },
     {
-      "title": "Airbus signs MoU to explore Japanese anti-submarine variant of the Eurodrone",
-      "link": "https://www.navalnews.com/naval-news/2026/06/airbus-signs-mou-to-explore-japanese-anti-submarine-variant-of-the-eurodrone/",
-      "published": "Sun, 28 Jun 2026 07:25:23 +0000",
-      "source": "Naval News",
+      "title": "Poland awards $4.8 billion A26 submarine deal to Saab",
+      "link": "https://www.defensenews.com/global/europe/2026/06/29/poland-awards-48-billion-a26-submarine-deal-to-saab/",
+      "published": "Mon, 29 Jun 2026 14:37:55 +0000",
+      "source": "Defense News",
       "categories": [
         "deployment"
       ]
@@ -878,11 +878,12 @@
       ]
     },
     {
-      "title": "U.S. Stations Marine Anti-Ship Missiles in the Western Pacific",
-      "link": "https://www.navalnews.com/naval-news/2026/06/u-s-stations-marine-anti-ship-missiles-in-the-western-pacific/",
-      "published": "Sun, 28 Jun 2026 11:39:00 +0000",
-      "source": "Naval News",
+      "title": "Former U.S. Amphib Sunk in Pacific Maritime Strike Drills",
+      "link": "https://news.usni.org/2026/06/29/former-u-s-amphib-sunk-in-pacific-maritime-strike-drills",
+      "published": "Mon, 29 Jun 2026 15:56:32 +0000",
+      "source": "USNI News",
       "categories": [
+        "exercise",
         "conflict"
       ]
     }
@@ -923,14 +924,24 @@
       "categories": [
         "exercise"
       ]
+    },
+    {
+      "title": "Former U.S. Amphib Sunk in Pacific Maritime Strike Drills",
+      "link": "https://news.usni.org/2026/06/29/former-u-s-amphib-sunk-in-pacific-maritime-strike-drills",
+      "published": "Mon, 29 Jun 2026 15:56:32 +0000",
+      "source": "USNI News",
+      "categories": [
+        "exercise",
+        "conflict"
+      ]
     }
   ],
   "_threat_indicators": {
     "deployment_articles": 15,
-    "conflict_articles": 10,
-    "exercise_articles": 4,
+    "conflict_articles": 9,
+    "exercise_articles": 5,
     "total_articles": 50,
-    "computed_at": "2026-06-29T12:19:13.917922+00:00",
+    "computed_at": "2026-06-29T16:30:02.841918+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[Naval News] Naval Group delivers 4th Barracuda type submarine",
@@ -948,9 +959,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-06-29T12:19:13.917972+00:00",
+    "last_successful_update": "2026-06-29T16:30:02.841958+00:00",
     "article_count": 50,
-    "categorized_count": 24,
+    "categorized_count": 23,
     "freshest_source": "Naval News",
     "freshest_title": "Naval Group delivers 4th Barracuda type submarine",
     "freshest_published": "Fri, 26 Jun 2026 06:23:37 +0000"
