@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-06-30T06:05:50Z",
-  "version": 1863,
-  "breaking_alert": "Naval News: Naval Group delivers 4th Barracuda type submarine",
+  "generated_utc": "2026-06-30T10:20:03Z",
+  "version": 1864,
+  "breaking_alert": "USNI News: France Seizes 5th Russian Shadow Fleet Tanker",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -594,15 +594,6 @@
   ],
   "_naval_news_refs": [
     {
-      "title": "Naval Group delivers 4th Barracuda type submarine",
-      "link": "https://www.navalnews.com/naval-news/2026/06/naval-group-delivers-4th-barracuda-type-submarine/",
-      "published": "Fri, 26 Jun 2026 06:23:37 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "France Seizes 5th Russian Shadow Fleet Tanker",
       "link": "https://news.usni.org/2026/06/26/french-seizes-5th-russian-shadow-fleet-tanker",
       "published": "Fri, 26 Jun 2026 14:02:28 +0000",
@@ -680,6 +671,15 @@
       "title": "Marine Missing from USS Anchorage Declared Lost at Sea",
       "link": "https://news.usni.org/2026/06/29/marine-missing-from-uss-anchorage-declared-lost-at-sea",
       "published": "Mon, 29 Jun 2026 16:45:59 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "USNI News Fleet and Marine Tracker: June 29, 2026",
+      "link": "https://news.usni.org/2026/06/29/usni-news-fleet-and-marine-tracker-june-29-2026",
+      "published": "Mon, 29 Jun 2026 17:00:52 +0000",
       "source": "USNI News",
       "categories": [
         "deployment"
@@ -838,15 +838,6 @@
   },
   "_conflict_news_refs": [
     {
-      "title": "Hanwha Unveils Striker MUSV Family at Eurosatory 2026",
-      "link": "https://www.navalnews.com/naval-news/2026/06/hanwha-unveils-striker-musv-family-at-eurosatory-2026/",
-      "published": "Fri, 26 Jun 2026 09:34:56 +0000",
-      "source": "Naval News",
-      "categories": [
-        "conflict"
-      ]
-    },
-    {
       "title": "US strikes Iranian drone, missile sites after cargo ship attack",
       "link": "https://taskandpurpose.com/news/us-strikes-iran-cargo-ship/",
       "published": "Fri, 26 Jun 2026 17:22:24 -0400",
@@ -884,6 +875,16 @@
       "categories": [
         "conflict"
       ]
+    },
+    {
+      "title": "Air Force Wants New 1,000-Nautical Mile Range Missile for Air, Sea Targets",
+      "link": "https://news.usni.org/2026/06/25/air-force-wants-new-1000-nautical-mile-range-missile-for-air-sea-targets",
+      "published": "Thu, 25 Jun 2026 19:00:42 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
     }
   ],
   "_exercise_news_refs": [
@@ -917,18 +918,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 15,
-    "conflict_articles": 7,
+    "deployment_articles": 13,
+    "conflict_articles": 5,
     "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-06-30T06:05:44.157227+00:00",
+    "computed_at": "2026-06-30T10:20:01.094903+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
-      "[Naval News] Naval Group delivers 4th Barracuda type submarine",
-      "[Naval News] Hanwha Unveils Striker MUSV Family at Eurosatory 2026",
       "[USNI News] France Seizes 5th Russian Shadow Fleet Tanker",
       "[Defense News] Romania bolsters Black Sea fleet with Turkish-built corvette",
-      "[Task & Purpose] An Air Force special operations prop plane crashed after pilot turned off fuel"
+      "[Task & Purpose] An Air Force special operations prop plane crashed after pilot turned off fuel",
+      "[Task & Purpose] US strikes Iranian drone, missile sites after cargo ship attack",
+      "[Defense News] NATO allies promised Trump they’d secure the Arctic; they’ve got work to do"
     ]
   },
   "ground_intel": {
@@ -939,12 +940,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-06-30T06:05:44.157269+00:00",
+    "last_successful_update": "2026-06-30T10:20:01.094945+00:00",
     "article_count": 50,
-    "categorized_count": 20,
-    "freshest_source": "Naval News",
-    "freshest_title": "Naval Group delivers 4th Barracuda type submarine",
-    "freshest_published": "Fri, 26 Jun 2026 06:23:37 +0000"
+    "categorized_count": 17,
+    "freshest_source": "USNI News",
+    "freshest_title": "France Seizes 5th Russian Shadow Fleet Tanker",
+    "freshest_published": "Fri, 26 Jun 2026 14:02:28 +0000"
   },
   "_firms_hotspots": []
 }
