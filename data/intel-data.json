@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-06-30T13:00:50Z",
-  "version": 1865,
+  "generated_utc": "2026-06-30T16:13:05Z",
+  "version": 1866,
   "breaking_alert": "USNI News: France Seizes 5th Russian Shadow Fleet Tanker",
   "naval_deployments": [
     {
@@ -603,15 +603,6 @@
       ]
     },
     {
-      "title": "Romania bolsters Black Sea fleet with Turkish-built corvette",
-      "link": "https://www.defensenews.com/global/europe/2026/06/26/romania-bolsters-black-sea-fleet-with-turkish-built-corvette/",
-      "published": "Fri, 26 Jun 2026 15:58:22 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "US strikes Iranian drone, missile sites after cargo ship attack",
       "link": "https://taskandpurpose.com/news/us-strikes-iran-cargo-ship/",
       "published": "Fri, 26 Jun 2026 17:22:24 -0400",
@@ -681,6 +672,15 @@
       "link": "https://news.usni.org/2026/06/29/usni-news-fleet-and-marine-tracker-june-29-2026",
       "published": "Mon, 29 Jun 2026 17:00:52 +0000",
       "source": "USNI News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "US Marine declared dead after being reported missing from USS Anchorage",
+      "link": "https://www.militarytimes.com/news/your-military/2026/06/29/us-marine-declared-dead-after-being-reported-missing-from-uss-anchorage/",
+      "published": "Mon, 29 Jun 2026 19:02:18 +0000",
+      "source": "Military Times",
       "categories": [
         "deployment"
       ]
@@ -877,12 +877,11 @@
       ]
     },
     {
-      "title": "Air Force Wants New 1,000-Nautical Mile Range Missile for Air, Sea Targets",
-      "link": "https://news.usni.org/2026/06/25/air-force-wants-new-1000-nautical-mile-range-missile-for-air-sea-targets",
-      "published": "Thu, 25 Jun 2026 19:00:42 +0000",
+      "title": "U.S. Marines Use Commercial Ferries to Haul Anti-ship Missiles Across the Philippines",
+      "link": "https://news.usni.org/2026/06/30/u-s-marines-use-commercial-ferries-to-haul-anti-ship-missiles-across-the-philippines",
+      "published": "Tue, 30 Jun 2026 16:02:59 +0000",
       "source": "USNI News",
       "categories": [
-        "deployment",
         "conflict"
       ]
     }
@@ -915,21 +914,30 @@
         "exercise",
         "conflict"
       ]
+    },
+    {
+      "title": "GAO Report on Reorganization of the DoD’s Office of the Director, Operational Test and Evaluation",
+      "link": "https://news.usni.org/2026/06/30/gao-report-on-reorganization-of-the-dods-office-of-the-director-operational-test-and-evaluation",
+      "published": "Tue, 30 Jun 2026 14:03:54 +0000",
+      "source": "USNI News",
+      "categories": [
+        "exercise"
+      ]
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 13,
+    "deployment_articles": 12,
     "conflict_articles": 5,
-    "exercise_articles": 3,
+    "exercise_articles": 4,
     "total_articles": 50,
-    "computed_at": "2026-06-30T13:00:43.181097+00:00",
+    "computed_at": "2026-06-30T16:12:57.939505+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[USNI News] France Seizes 5th Russian Shadow Fleet Tanker",
-      "[Defense News] Romania bolsters Black Sea fleet with Turkish-built corvette",
       "[Task & Purpose] An Air Force special operations prop plane crashed after pilot turned off fuel",
       "[Task & Purpose] US strikes Iranian drone, missile sites after cargo ship attack",
-      "[Defense News] NATO allies promised Trump they’d secure the Arctic; they’ve got work to do"
+      "[Defense News] NATO allies promised Trump they’d secure the Arctic; they’ve got work to do",
+      "[Naval News] U.S. Navy Accepts Two Modernized Destroyers Ahead of Schedule"
     ]
   },
   "ground_intel": {
@@ -940,9 +948,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-06-30T13:00:43.181148+00:00",
+    "last_successful_update": "2026-06-30T16:12:57.939554+00:00",
     "article_count": 50,
-    "categorized_count": 17,
+    "categorized_count": 18,
     "freshest_source": "USNI News",
     "freshest_title": "France Seizes 5th Russian Shadow Fleet Tanker",
     "freshest_published": "Fri, 26 Jun 2026 14:02:28 +0000"
