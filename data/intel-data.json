@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-06-30T10:20:03Z",
-  "version": 1864,
+  "generated_utc": "2026-06-30T13:00:50Z",
+  "version": 1865,
   "breaking_alert": "USNI News: France Seizes 5th Russian Shadow Fleet Tanker",
   "naval_deployments": [
     {
@@ -922,7 +922,7 @@
     "conflict_articles": 5,
     "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-06-30T10:20:01.094903+00:00",
+    "computed_at": "2026-06-30T13:00:43.181097+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[USNI News] France Seizes 5th Russian Shadow Fleet Tanker",
@@ -940,7 +940,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-06-30T10:20:01.094945+00:00",
+    "last_successful_update": "2026-06-30T13:00:43.181148+00:00",
     "article_count": 50,
     "categorized_count": 17,
     "freshest_source": "USNI News",
