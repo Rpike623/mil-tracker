@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-06-30T20:48:13Z",
-  "version": 1868,
+  "generated_utc": "2026-06-30T22:10:07Z",
+  "version": 1869,
   "breaking_alert": "USNI News: France Seizes 5th Russian Shadow Fleet Tanker",
   "naval_deployments": [
     {
@@ -868,15 +868,6 @@
   ],
   "_exercise_news_refs": [
     {
-      "title": "An Air Force special operations prop plane crashed after pilot turned off fuel",
-      "link": "https://taskandpurpose.com/news/air-force-skyraider-crash-fuel-report/",
-      "published": "Fri, 26 Jun 2026 16:41:11 -0400",
-      "source": "Task & Purpose",
-      "categories": [
-        "exercise"
-      ]
-    },
-    {
       "title": "Former U.S. Amphib Sunk in Pacific Maritime Strike Drills",
       "link": "https://news.usni.org/2026/06/29/former-u-s-amphib-sunk-in-pacific-maritime-strike-drills",
       "published": "Mon, 29 Jun 2026 15:56:32 +0000",
@@ -917,16 +908,16 @@
   "_threat_indicators": {
     "deployment_articles": 9,
     "conflict_articles": 4,
-    "exercise_articles": 5,
+    "exercise_articles": 4,
     "total_articles": 50,
-    "computed_at": "2026-06-30T20:48:10.829061+00:00",
+    "computed_at": "2026-06-30T22:05:26.523908+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[USNI News] France Seizes 5th Russian Shadow Fleet Tanker",
-      "[Task & Purpose] An Air Force special operations prop plane crashed after pilot turned off fuel",
       "[Task & Purpose] US strikes Iranian drone, missile sites after cargo ship attack",
       "[Naval News] Saab receives order for three A26 submarines for Poland",
-      "[Defense News] Poland awards $4.8 billion A26 submarine deal to Saab"
+      "[Defense News] Poland awards $4.8 billion A26 submarine deal to Saab",
+      "[USNI News] Former U.S. Amphib Sunk in Pacific Maritime Strike Drills"
     ]
   },
   "ground_intel": {
@@ -937,9 +928,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-06-30T20:48:10.829103+00:00",
+    "last_successful_update": "2026-06-30T22:05:26.523949+00:00",
     "article_count": 50,
-    "categorized_count": 16,
+    "categorized_count": 15,
     "freshest_source": "USNI News",
     "freshest_title": "France Seizes 5th Russian Shadow Fleet Tanker",
     "freshest_published": "Fri, 26 Jun 2026 14:02:28 +0000"
