@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-06-30T18:26:07Z",
-  "version": 1867,
+  "generated_utc": "2026-06-30T20:48:13Z",
+  "version": 1868,
   "breaking_alert": "USNI News: France Seizes 5th Russian Shadow Fleet Tanker",
   "naval_deployments": [
     {
@@ -613,15 +613,6 @@
       ]
     },
     {
-      "title": "U.S. Navy Accepts Two Modernized Destroyers Ahead of Schedule",
-      "link": "https://www.navalnews.com/naval-news/2026/06/u-s-navy-accepts-two-modernized-destroyers-ahead-of-schedule/",
-      "published": "Fri, 26 Jun 2026 20:12:48 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Saab receives order for three A26 submarines for Poland",
       "link": "https://www.navalnews.com/naval-news/2026/06/saab-receives-order-for-three-a26-submarines-for-poland/",
       "published": "Mon, 29 Jun 2026 11:53:15 +0000",
@@ -671,6 +662,15 @@
       "link": "https://taskandpurpose.com/news/navy-juneau-sunk-2026/",
       "published": "Tue, 30 Jun 2026 11:33:57 -0400",
       "source": "Task & Purpose",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "USS San Antonio Leaves Norfolk for Deployment",
+      "link": "https://news.usni.org/2026/06/30/uss-san-antonio-leaves-norfolk-for-deployment",
+      "published": "Tue, 30 Jun 2026 20:13:03 +0000",
+      "source": "USNI News",
       "categories": [
         "deployment"
       ]
@@ -919,14 +919,14 @@
     "conflict_articles": 4,
     "exercise_articles": 5,
     "total_articles": 50,
-    "computed_at": "2026-06-30T18:26:03.172723+00:00",
+    "computed_at": "2026-06-30T20:48:10.829061+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[USNI News] France Seizes 5th Russian Shadow Fleet Tanker",
       "[Task & Purpose] An Air Force special operations prop plane crashed after pilot turned off fuel",
       "[Task & Purpose] US strikes Iranian drone, missile sites after cargo ship attack",
-      "[Naval News] U.S. Navy Accepts Two Modernized Destroyers Ahead of Schedule",
-      "[Naval News] Saab receives order for three A26 submarines for Poland"
+      "[Naval News] Saab receives order for three A26 submarines for Poland",
+      "[Defense News] Poland awards $4.8 billion A26 submarine deal to Saab"
     ]
   },
   "ground_intel": {
@@ -937,7 +937,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-06-30T18:26:03.172760+00:00",
+    "last_successful_update": "2026-06-30T20:48:10.829103+00:00",
     "article_count": 50,
     "categorized_count": 16,
     "freshest_source": "USNI News",
