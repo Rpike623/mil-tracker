@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-06-30T16:13:05Z",
-  "version": 1866,
+  "generated_utc": "2026-06-30T18:26:07Z",
+  "version": 1867,
   "breaking_alert": "USNI News: France Seizes 5th Russian Shadow Fleet Tanker",
   "naval_deployments": [
     {
@@ -622,29 +622,10 @@
       ]
     },
     {
-      "title": "US strikes Iranian missile, drone, radar sites",
-      "link": "https://www.defensenews.com/news/your-military/2026/06/26/us-resumes-attacks-on-iran/",
-      "published": "Fri, 26 Jun 2026 22:08:28 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
       "title": "Saab receives order for three A26 submarines for Poland",
       "link": "https://www.navalnews.com/naval-news/2026/06/saab-receives-order-for-three-a26-submarines-for-poland/",
       "published": "Mon, 29 Jun 2026 11:53:15 +0000",
       "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Israel sells Spyder air defense systems to Romania for $2.3 billion",
-      "link": "https://www.defensenews.com/global/mideast-africa/2026/06/29/israel-sells-spyder-air-defense-systems-to-romania-for-23-billion/",
-      "published": "Mon, 29 Jun 2026 12:09:19 +0000",
-      "source": "Defense News",
       "categories": [
         "deployment"
       ]
@@ -677,10 +658,19 @@
       ]
     },
     {
-      "title": "US Marine declared dead after being reported missing from USS Anchorage",
-      "link": "https://www.militarytimes.com/news/your-military/2026/06/29/us-marine-declared-dead-after-being-reported-missing-from-uss-anchorage/",
-      "published": "Mon, 29 Jun 2026 19:02:18 +0000",
-      "source": "Military Times",
+      "title": "Airbus signs MoU to explore Japanese anti-submarine variant of the Eurodrone",
+      "link": "https://www.navalnews.com/naval-news/2026/06/airbus-signs-mou-to-explore-japanese-anti-submarine-variant-of-the-eurodrone/",
+      "published": "Sun, 28 Jun 2026 07:25:23 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "This is the moment the Navy’s USS Juneau was sunk in the name of training",
+      "link": "https://taskandpurpose.com/news/navy-juneau-sunk-2026/",
+      "published": "Tue, 30 Jun 2026 11:33:57 -0400",
+      "source": "Task & Purpose",
       "categories": [
         "deployment"
       ]
@@ -848,16 +838,6 @@
       ]
     },
     {
-      "title": "US strikes Iranian missile, drone, radar sites",
-      "link": "https://www.defensenews.com/news/your-military/2026/06/26/us-resumes-attacks-on-iran/",
-      "published": "Fri, 26 Jun 2026 22:08:28 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
       "title": "Former U.S. Amphib Sunk in Pacific Maritime Strike Drills",
       "link": "https://news.usni.org/2026/06/29/former-u-s-amphib-sunk-in-pacific-maritime-strike-drills",
       "published": "Mon, 29 Jun 2026 15:56:32 +0000",
@@ -897,15 +877,6 @@
       ]
     },
     {
-      "title": "NATO allies promised Trump they’d secure the Arctic; they’ve got work to do",
-      "link": "https://www.defensenews.com/opinion/commentary/2026/06/26/nato-allies-promised-trump-theyd-secure-the-arctic-theyve-got-work-to-do/",
-      "published": "Fri, 26 Jun 2026 17:53:46 +0000",
-      "source": "Defense News",
-      "categories": [
-        "exercise"
-      ]
-    },
-    {
       "title": "Former U.S. Amphib Sunk in Pacific Maritime Strike Drills",
       "link": "https://news.usni.org/2026/06/29/former-u-s-amphib-sunk-in-pacific-maritime-strike-drills",
       "published": "Mon, 29 Jun 2026 15:56:32 +0000",
@@ -923,21 +894,39 @@
       "categories": [
         "exercise"
       ]
+    },
+    {
+      "title": "Japanese torpedo sends US ship to the ocean floor during Valiant Shield exercise",
+      "link": "https://www.defensenews.com/news/your-navy/2026/06/30/japanese-torpedo-sends-us-ship-to-the-ocean-floor-during-valiant-shield-exercise/",
+      "published": "Tue, 30 Jun 2026 17:39:18 +0000",
+      "source": "Defense News",
+      "categories": [
+        "exercise"
+      ]
+    },
+    {
+      "title": "Japanese torpedo sends US ship to the ocean floor during Valiant Shield exercise",
+      "link": "https://www.militarytimes.com/news/your-navy/2026/06/30/japanese-torpedo-sends-us-ship-to-the-ocean-floor-during-valiant-shield-exercise/",
+      "published": "Tue, 30 Jun 2026 17:39:18 +0000",
+      "source": "Military Times",
+      "categories": [
+        "exercise"
+      ]
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 12,
-    "conflict_articles": 5,
-    "exercise_articles": 4,
+    "deployment_articles": 9,
+    "conflict_articles": 4,
+    "exercise_articles": 5,
     "total_articles": 50,
-    "computed_at": "2026-06-30T16:12:57.939505+00:00",
+    "computed_at": "2026-06-30T18:26:03.172723+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[USNI News] France Seizes 5th Russian Shadow Fleet Tanker",
       "[Task & Purpose] An Air Force special operations prop plane crashed after pilot turned off fuel",
       "[Task & Purpose] US strikes Iranian drone, missile sites after cargo ship attack",
-      "[Defense News] NATO allies promised Trump they’d secure the Arctic; they’ve got work to do",
-      "[Naval News] U.S. Navy Accepts Two Modernized Destroyers Ahead of Schedule"
+      "[Naval News] U.S. Navy Accepts Two Modernized Destroyers Ahead of Schedule",
+      "[Naval News] Saab receives order for three A26 submarines for Poland"
     ]
   },
   "ground_intel": {
@@ -948,9 +937,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-06-30T16:12:57.939554+00:00",
+    "last_successful_update": "2026-06-30T18:26:03.172760+00:00",
     "article_count": 50,
-    "categorized_count": 18,
+    "categorized_count": 16,
     "freshest_source": "USNI News",
     "freshest_title": "France Seizes 5th Russian Shadow Fleet Tanker",
     "freshest_published": "Fri, 26 Jun 2026 14:02:28 +0000"
