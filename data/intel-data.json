@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-07-01T18:52:42Z",
-  "version": 1876,
+  "generated_utc": "2026-07-01T20:43:37Z",
+  "version": 1877,
   "breaking_alert": "Naval News: Saab receives order for three A26 submarines for Poland",
   "naval_deployments": [
     {
@@ -603,15 +603,6 @@
       ]
     },
     {
-      "title": "Marine Missing from USS Anchorage Declared Lost at Sea",
-      "link": "https://news.usni.org/2026/06/29/marine-missing-from-uss-anchorage-declared-lost-at-sea",
-      "published": "Mon, 29 Jun 2026 16:45:59 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "USNI News Fleet and Marine Tracker: June 29, 2026",
       "link": "https://news.usni.org/2026/06/29/usni-news-fleet-and-marine-tracker-june-29-2026",
       "published": "Mon, 29 Jun 2026 17:00:52 +0000",
@@ -681,6 +672,15 @@
       "title": "64 sailors sickened by diesel exhaust fumes from USS Nebraska",
       "link": "https://www.militarytimes.com/news/your-navy/2026/07/01/64-sailors-sickened-by-diesel-exhaust-fumes-from-uss-nebraska/",
       "published": "Wed, 01 Jul 2026 16:59:10 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "US Navy aviator missing after helicopter makes emergency landing in Arabian Sea",
+      "link": "https://www.militarytimes.com/news/your-navy/2026/07/01/us-navy-aviator-missing-after-helicopter-makes-emergency-landing-in-arabian-sea/",
+      "published": "Wed, 01 Jul 2026 17:34:55 +0000",
       "source": "Military Times",
       "categories": [
         "deployment"
@@ -889,15 +889,6 @@
       ]
     },
     {
-      "title": "Japanese torpedo sends US ship to the ocean floor during Valiant Shield exercise",
-      "link": "https://www.defensenews.com/news/your-navy/2026/06/30/japanese-torpedo-sends-us-ship-to-the-ocean-floor-during-valiant-shield-exercise/",
-      "published": "Tue, 30 Jun 2026 17:39:18 +0000",
-      "source": "Defense News",
-      "categories": [
-        "exercise"
-      ]
-    },
-    {
       "title": "Israel tests Iron Dome with Iron Beam, pairing missiles with laser pulses for air defense",
       "link": "https://www.defensenews.com/global/mideast-africa/2026/07/01/israel-tests-iron-dome-with-iron-beam-pairing-missiles-with-laser-pulses-for-air-defense/",
       "published": "Wed, 01 Jul 2026 08:58:40 +0000",
@@ -907,21 +898,30 @@
         "exercise",
         "conflict"
       ]
+    },
+    {
+      "title": "U.S., Partners Wrap Exercise Valiant Shield",
+      "link": "https://news.usni.org/2026/07/01/u-s-partners-wrap-exercise-valiant-shield",
+      "published": "Wed, 01 Jul 2026 19:18:45 +0000",
+      "source": "USNI News",
+      "categories": [
+        "exercise"
+      ]
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 12,
+    "deployment_articles": 13,
     "conflict_articles": 4,
     "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-07-01T18:52:35.634192+00:00",
+    "computed_at": "2026-07-01T20:43:31.322507+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] Saab receives order for three A26 submarines for Poland",
-      "[USNI News] Marine Missing from USS Anchorage Declared Lost at Sea",
       "[USNI News] USNI News Fleet and Marine Tracker: June 29, 2026",
       "[Task & Purpose] This is the moment the Navy’s USS Juneau was sunk in the name of training",
-      "[USNI News] GAO Report on Reorganization of the DoD’s Office of the Director, Operational Test and Evaluation"
+      "[USNI News] GAO Report on Reorganization of the DoD’s Office of the Director, Operational Test and Evaluation",
+      "[USNI News] U.S. Marines Use Commercial Ferries to Haul Anti-ship Missiles Across the Philippines"
     ]
   },
   "ground_intel": {
@@ -932,9 +932,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-07-01T18:52:35.634239+00:00",
+    "last_successful_update": "2026-07-01T20:43:31.322554+00:00",
     "article_count": 50,
-    "categorized_count": 16,
+    "categorized_count": 17,
     "freshest_source": "Naval News",
     "freshest_title": "Saab receives order for three A26 submarines for Poland",
     "freshest_published": "Mon, 29 Jun 2026 11:53:15 +0000"
