@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-07-01T13:29:02Z",
-  "version": 1874,
-  "breaking_alert": "USNI News: France Seizes 5th Russian Shadow Fleet Tanker",
+  "generated_utc": "2026-07-01T16:12:46Z",
+  "version": 1875,
+  "breaking_alert": "Naval News: Saab receives order for three A26 submarines for Poland",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -594,15 +594,6 @@
   ],
   "_naval_news_refs": [
     {
-      "title": "France Seizes 5th Russian Shadow Fleet Tanker",
-      "link": "https://news.usni.org/2026/06/26/french-seizes-5th-russian-shadow-fleet-tanker",
-      "published": "Fri, 26 Jun 2026 14:02:28 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Saab receives order for three A26 submarines for Poland",
       "link": "https://www.navalnews.com/naval-news/2026/06/saab-receives-order-for-three-a26-submarines-for-poland/",
       "published": "Mon, 29 Jun 2026 11:53:15 +0000",
@@ -930,18 +921,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 9,
+    "deployment_articles": 8,
     "conflict_articles": 6,
     "exercise_articles": 5,
     "total_articles": 50,
-    "computed_at": "2026-07-01T13:28:56.537187+00:00",
+    "computed_at": "2026-07-01T16:12:40.565750+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
-      "[USNI News] France Seizes 5th Russian Shadow Fleet Tanker",
       "[Naval News] Saab receives order for three A26 submarines for Poland",
       "[USNI News] Former U.S. Amphib Sunk in Pacific Maritime Strike Drills",
       "[USNI News] Marine Missing from USS Anchorage Declared Lost at Sea",
-      "[USNI News] USNI News Fleet and Marine Tracker: June 29, 2026"
+      "[USNI News] USNI News Fleet and Marine Tracker: June 29, 2026",
+      "[Task & Purpose] This is the moment the Navy’s USS Juneau was sunk in the name of training"
     ]
   },
   "ground_intel": {
@@ -952,12 +943,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-07-01T13:28:56.537227+00:00",
+    "last_successful_update": "2026-07-01T16:12:40.565791+00:00",
     "article_count": 50,
-    "categorized_count": 16,
-    "freshest_source": "USNI News",
-    "freshest_title": "France Seizes 5th Russian Shadow Fleet Tanker",
-    "freshest_published": "Fri, 26 Jun 2026 14:02:28 +0000"
+    "categorized_count": 15,
+    "freshest_source": "Naval News",
+    "freshest_title": "Saab receives order for three A26 submarines for Poland",
+    "freshest_published": "Mon, 29 Jun 2026 11:53:15 +0000"
   },
   "_firms_hotspots": []
 }
