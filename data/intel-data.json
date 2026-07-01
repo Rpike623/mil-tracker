@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-07-01T10:45:35Z",
-  "version": 1873,
+  "generated_utc": "2026-07-01T13:29:02Z",
+  "version": 1874,
   "breaking_alert": "USNI News: France Seizes 5th Russian Shadow Fleet Tanker",
   "naval_deployments": [
     {
@@ -603,16 +603,6 @@
       ]
     },
     {
-      "title": "US strikes Iranian drone, missile sites after cargo ship attack",
-      "link": "https://taskandpurpose.com/news/us-strikes-iran-cargo-ship/",
-      "published": "Fri, 26 Jun 2026 17:22:24 -0400",
-      "source": "Task & Purpose",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
       "title": "Saab receives order for three A26 submarines for Poland",
       "link": "https://www.navalnews.com/naval-news/2026/06/saab-receives-order-for-three-a26-submarines-for-poland/",
       "published": "Mon, 29 Jun 2026 11:53:15 +0000",
@@ -665,6 +655,25 @@
       "categories": [
         "deployment",
         "exercise",
+        "conflict"
+      ]
+    },
+    {
+      "title": "UK DIP Details Platform Types to Underpin Royal Navy Hybrid Force Structure and Atlantic Fleet Series",
+      "link": "https://www.navalnews.com/naval-news/2026/07/uk-dip-details-platform-types-to-underpin-royal-navy-hybrid-force-structure-and-atlantic-fleet-series/",
+      "published": "Wed, 01 Jul 2026 11:33:05 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Germany expands its exoatmospheric missile shield with second Arrow-3 deployment",
+      "link": "https://www.defensenews.com/global/europe/2026/07/01/germany-expands-its-exoatmospheric-missile-shield-with-second-arrow-3-deployment/",
+      "published": "Wed, 01 Jul 2026 11:40:11 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment",
         "conflict"
       ]
     }
@@ -821,16 +830,6 @@
   },
   "_conflict_news_refs": [
     {
-      "title": "US strikes Iranian drone, missile sites after cargo ship attack",
-      "link": "https://taskandpurpose.com/news/us-strikes-iran-cargo-ship/",
-      "published": "Fri, 26 Jun 2026 17:22:24 -0400",
-      "source": "Task & Purpose",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
       "title": "Former U.S. Amphib Sunk in Pacific Maritime Strike Drills",
       "link": "https://news.usni.org/2026/06/29/former-u-s-amphib-sunk-in-pacific-maritime-strike-drills",
       "published": "Mon, 29 Jun 2026 15:56:32 +0000",
@@ -857,6 +856,25 @@
       "categories": [
         "deployment",
         "exercise",
+        "conflict"
+      ]
+    },
+    {
+      "title": "Germany expands its exoatmospheric missile shield with second Arrow-3 deployment",
+      "link": "https://www.defensenews.com/global/europe/2026/07/01/germany-expands-its-exoatmospheric-missile-shield-with-second-arrow-3-deployment/",
+      "published": "Wed, 01 Jul 2026 11:40:11 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
+    },
+    {
+      "title": "Ukraine is launching strike-drones from everything – including Black Sea robo-boats",
+      "link": "https://www.defensenews.com/global/europe/2026/07/01/ukraine-is-launching-strike-drones-from-everything-including-black-sea-robo-boats/",
+      "published": "Wed, 01 Jul 2026 12:45:55 +0000",
+      "source": "Defense News",
+      "categories": [
         "conflict"
       ]
     }
@@ -912,18 +930,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 8,
-    "conflict_articles": 4,
+    "deployment_articles": 9,
+    "conflict_articles": 6,
     "exercise_articles": 5,
     "total_articles": 50,
-    "computed_at": "2026-07-01T10:40:54.622962+00:00",
+    "computed_at": "2026-07-01T13:28:56.537187+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[USNI News] France Seizes 5th Russian Shadow Fleet Tanker",
-      "[Task & Purpose] US strikes Iranian drone, missile sites after cargo ship attack",
       "[Naval News] Saab receives order for three A26 submarines for Poland",
       "[USNI News] Former U.S. Amphib Sunk in Pacific Maritime Strike Drills",
-      "[USNI News] Marine Missing from USS Anchorage Declared Lost at Sea"
+      "[USNI News] Marine Missing from USS Anchorage Declared Lost at Sea",
+      "[USNI News] USNI News Fleet and Marine Tracker: June 29, 2026"
     ]
   },
   "ground_intel": {
@@ -934,9 +952,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-07-01T10:40:54.623003+00:00",
+    "last_successful_update": "2026-07-01T13:28:56.537227+00:00",
     "article_count": 50,
-    "categorized_count": 13,
+    "categorized_count": 16,
     "freshest_source": "USNI News",
     "freshest_title": "France Seizes 5th Russian Shadow Fleet Tanker",
     "freshest_published": "Fri, 26 Jun 2026 14:02:28 +0000"
