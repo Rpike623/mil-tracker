@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-07-02T20:12:37Z",
-  "version": 1887,
+  "generated_utc": "2026-07-02T21:55:16Z",
+  "version": 1888,
   "breaking_alert": "Naval News: Video: MBDA’s New LCM Mk2 Sovereign Deep Strike Cruise Missile",
   "naval_deployments": [
     {
@@ -657,15 +657,6 @@
       ]
     },
     {
-      "title": "The US military wants a fleet of laser trucks. Here’s what they might look like.",
-      "link": "https://www.militarytimes.com/industry/techwatch/2026/07/01/the-us-military-wants-a-fleet-of-laser-trucks-heres-what-they-might-look-like/",
-      "published": "Wed, 01 Jul 2026 19:47:37 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "HII Begins Fabrication of Flight III Destroyer John F. Lehman (DDG 137)",
       "link": "https://www.navalnews.com/naval-news/2026/07/hii-begins-fabrication-of-flight-iii-destroyer-john-f-lehman-ddg-137/",
       "published": "Wed, 01 Jul 2026 20:46:03 +0000",
@@ -893,11 +884,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 9,
+    "deployment_articles": 8,
     "conflict_articles": 5,
     "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-07-02T20:12:34.667313+00:00",
+    "computed_at": "2026-07-02T21:55:13.618122+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] Video: MBDA’s New LCM Mk2 Sovereign Deep Strike Cruise Missile",
@@ -915,9 +906,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-07-02T20:12:34.667357+00:00",
+    "last_successful_update": "2026-07-02T21:55:13.618167+00:00",
     "article_count": 50,
-    "categorized_count": 16,
+    "categorized_count": 15,
     "freshest_source": "Naval News",
     "freshest_title": "Video: MBDA’s New LCM Mk2 Sovereign Deep Strike Cruise Missile",
     "freshest_published": "Thu, 02 Jul 2026 09:22:03 +0000"
