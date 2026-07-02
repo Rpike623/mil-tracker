@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-07-02T18:20:56Z",
-  "version": 1886,
+  "generated_utc": "2026-07-02T20:12:37Z",
+  "version": 1887,
   "breaking_alert": "Naval News: Video: MBDA’s New LCM Mk2 Sovereign Deep Strike Cruise Missile",
   "naval_deployments": [
     {
@@ -883,15 +883,6 @@
       ]
     },
     {
-      "title": "GAO Report on Reorganization of the DoD’s Office of the Director, Operational Test and Evaluation",
-      "link": "https://news.usni.org/2026/06/30/gao-report-on-reorganization-of-the-dods-office-of-the-director-operational-test-and-evaluation",
-      "published": "Tue, 30 Jun 2026 14:03:54 +0000",
-      "source": "USNI News",
-      "categories": [
-        "exercise"
-      ]
-    },
-    {
       "title": "U.S., Partners Wrap Exercise Valiant Shield",
       "link": "https://news.usni.org/2026/07/01/u-s-partners-wrap-exercise-valiant-shield",
       "published": "Wed, 01 Jul 2026 19:18:45 +0000",
@@ -904,9 +895,9 @@
   "_threat_indicators": {
     "deployment_articles": 9,
     "conflict_articles": 5,
-    "exercise_articles": 3,
+    "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-07-02T18:20:53.118524+00:00",
+    "computed_at": "2026-07-02T20:12:34.667313+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] Video: MBDA’s New LCM Mk2 Sovereign Deep Strike Cruise Missile",
@@ -924,9 +915,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-07-02T18:20:53.118571+00:00",
+    "last_successful_update": "2026-07-02T20:12:34.667357+00:00",
     "article_count": 50,
-    "categorized_count": 17,
+    "categorized_count": 16,
     "freshest_source": "Naval News",
     "freshest_title": "Video: MBDA’s New LCM Mk2 Sovereign Deep Strike Cruise Missile",
     "freshest_published": "Thu, 02 Jul 2026 09:22:03 +0000"
