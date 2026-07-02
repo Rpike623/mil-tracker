@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-07-02T16:00:43Z",
-  "version": 1885,
+  "generated_utc": "2026-07-02T18:20:56Z",
+  "version": 1886,
   "breaking_alert": "Naval News: Video: MBDA’s New LCM Mk2 Sovereign Deep Strike Cruise Missile",
   "naval_deployments": [
     {
@@ -630,29 +630,10 @@
       ]
     },
     {
-      "title": "Germany expands its exoatmospheric missile shield with second Arrow-3 deployment",
-      "link": "https://www.defensenews.com/global/europe/2026/07/01/germany-expands-its-exoatmospheric-missile-shield-with-second-arrow-3-deployment/",
-      "published": "Wed, 01 Jul 2026 11:40:11 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
       "title": "Search underway for missing crew member after helicopter crashes in Arabian Sea",
       "link": "https://taskandpurpose.com/news/navy-heliciopter-crash-2026/",
       "published": "Wed, 01 Jul 2026 14:14:51 -0400",
       "source": "Task & Purpose",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "US Navy aviator missing after helicopter makes emergency landing in Arabian Sea",
-      "link": "https://www.militarytimes.com/news/your-navy/2026/07/01/us-navy-aviator-missing-after-helicopter-makes-emergency-landing-in-arabian-sea/",
-      "published": "Wed, 01 Jul 2026 17:34:55 +0000",
-      "source": "Military Times",
       "categories": [
         "deployment"
       ]
@@ -680,6 +661,15 @@
       "link": "https://www.militarytimes.com/industry/techwatch/2026/07/01/the-us-military-wants-a-fleet-of-laser-trucks-heres-what-they-might-look-like/",
       "published": "Wed, 01 Jul 2026 19:47:37 +0000",
       "source": "Military Times",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "HII Begins Fabrication of Flight III Destroyer John F. Lehman (DDG 137)",
+      "link": "https://www.navalnews.com/naval-news/2026/07/hii-begins-fabrication-of-flight-iii-destroyer-john-f-lehman-ddg-137/",
+      "published": "Wed, 01 Jul 2026 20:46:03 +0000",
+      "source": "Naval News",
       "categories": [
         "deployment"
       ]
@@ -864,6 +854,15 @@
       ]
     },
     {
+      "title": "Russia bombards Kyiv in one of war’s biggest strikes, at least 21 people killed",
+      "link": "https://www.defensenews.com/global/europe/2026/07/02/russia-bombards-kyiv-in-one-of-wars-biggest-strikes-at-least-21-people-killed/",
+      "published": "Thu, 02 Jul 2026 16:02:42 +0000",
+      "source": "Defense News",
+      "categories": [
+        "conflict"
+      ]
+    },
+    {
       "title": "U.S. Marines Use Commercial Ferries to Haul Anti-ship Missiles Across the Philippines",
       "link": "https://news.usni.org/2026/06/30/u-s-marines-use-commercial-ferries-to-haul-anti-ship-missiles-across-the-philippines",
       "published": "Tue, 30 Jun 2026 16:02:59 +0000",
@@ -871,19 +870,18 @@
       "categories": [
         "conflict"
       ]
-    },
-    {
-      "title": "Germany expands its exoatmospheric missile shield with second Arrow-3 deployment",
-      "link": "https://www.defensenews.com/global/europe/2026/07/01/germany-expands-its-exoatmospheric-missile-shield-with-second-arrow-3-deployment/",
-      "published": "Wed, 01 Jul 2026 11:40:11 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
     }
   ],
   "_exercise_news_refs": [
+    {
+      "title": "Marines Deploy Iron Dome Air Defense Systems to the Western Pacific",
+      "link": "https://news.usni.org/2026/07/02/marines-deploy-iron-dome-air-defense-systems-to-the-western-pacific",
+      "published": "Thu, 02 Jul 2026 16:42:52 +0000",
+      "source": "USNI News",
+      "categories": [
+        "exercise"
+      ]
+    },
     {
       "title": "GAO Report on Reorganization of the DoD’s Office of the Director, Operational Test and Evaluation",
       "link": "https://news.usni.org/2026/06/30/gao-report-on-reorganization-of-the-dods-office-of-the-director-operational-test-and-evaluation",
@@ -904,18 +902,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 11,
-    "conflict_articles": 6,
-    "exercise_articles": 2,
+    "deployment_articles": 9,
+    "conflict_articles": 5,
+    "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-07-02T16:00:40.198319+00:00",
+    "computed_at": "2026-07-02T18:20:53.118524+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] Video: MBDA’s New LCM Mk2 Sovereign Deep Strike Cruise Missile",
       "[Military Times] Proposed ‘Honor and Remember’ flag resembles communist imagery, Vietnam veterans argue",
       "[Defense News] US Navy seeks to boost production of new anti-radar missile",
       "[Military Times] US Navy seeks to boost production of new anti-radar missile",
-      "[Task & Purpose] This is the moment the Navy’s USS Juneau was sunk in the name of training"
+      "[Defense News] Russia bombards Kyiv in one of war’s biggest strikes, at least 21 people killed"
     ]
   },
   "ground_intel": {
@@ -926,9 +924,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-07-02T16:00:40.198364+00:00",
+    "last_successful_update": "2026-07-02T18:20:53.118571+00:00",
     "article_count": 50,
-    "categorized_count": 18,
+    "categorized_count": 17,
     "freshest_source": "Naval News",
     "freshest_title": "Video: MBDA’s New LCM Mk2 Sovereign Deep Strike Cruise Missile",
     "freshest_published": "Thu, 02 Jul 2026 09:22:03 +0000"
