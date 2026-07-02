@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-07-02T07:01:51Z",
-  "version": 1881,
+  "generated_utc": "2026-07-02T09:54:18Z",
+  "version": 1882,
   "breaking_alert": "USNI News: USNI News Fleet and Marine Tracker: June 29, 2026",
   "naval_deployments": [
     {
@@ -839,6 +839,15 @@
   },
   "_conflict_news_refs": [
     {
+      "title": "Video: MBDA’s New LCM Mk2 Sovereign Deep Strike Cruise Missile",
+      "link": "https://www.navalnews.com/naval-news/2026/07/video-mbdas-new-lcm-mk2-sovereign-deep-strike-cruise-missile/",
+      "published": "Thu, 02 Jul 2026 09:22:03 +0000",
+      "source": "Naval News",
+      "categories": [
+        "conflict"
+      ]
+    },
+    {
       "title": "U.S. Marines Use Commercial Ferries to Haul Anti-ship Missiles Across the Philippines",
       "link": "https://news.usni.org/2026/06/30/u-s-marines-use-commercial-ferries-to-haul-anti-ship-missiles-across-the-philippines",
       "published": "Tue, 30 Jun 2026 16:02:59 +0000",
@@ -911,17 +920,17 @@
   ],
   "_threat_indicators": {
     "deployment_articles": 13,
-    "conflict_articles": 4,
+    "conflict_articles": 5,
     "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-07-02T06:57:11.013657+00:00",
+    "computed_at": "2026-07-02T09:54:16.211512+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[USNI News] USNI News Fleet and Marine Tracker: June 29, 2026",
+      "[Naval News] Video: MBDA’s New LCM Mk2 Sovereign Deep Strike Cruise Missile",
       "[Task & Purpose] This is the moment the Navy’s USS Juneau was sunk in the name of training",
       "[USNI News] GAO Report on Reorganization of the DoD’s Office of the Director, Operational Test and Evaluation",
-      "[USNI News] U.S. Marines Use Commercial Ferries to Haul Anti-ship Missiles Across the Philippines",
-      "[USNI News] USS San Antonio Leaves Norfolk for Deployment"
+      "[USNI News] U.S. Marines Use Commercial Ferries to Haul Anti-ship Missiles Across the Philippines"
     ]
   },
   "ground_intel": {
@@ -932,9 +941,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-07-02T06:57:11.013705+00:00",
+    "last_successful_update": "2026-07-02T09:54:16.211559+00:00",
     "article_count": 50,
-    "categorized_count": 17,
+    "categorized_count": 18,
     "freshest_source": "USNI News",
     "freshest_title": "USNI News Fleet and Marine Tracker: June 29, 2026",
     "freshest_published": "Mon, 29 Jun 2026 17:00:52 +0000"
