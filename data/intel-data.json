@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-07-03T20:09:36Z",
-  "version": 1899,
+  "generated_utc": "2026-07-03T21:52:32Z",
+  "version": 1900,
   "breaking_alert": "USNI News: FLEETEX250: ‘They’re Here, We Might as Well Train’",
   "naval_deployments": [
     {
@@ -825,15 +825,6 @@
       "categories": [
         "conflict"
       ]
-    },
-    {
-      "title": "Russia bombards Kyiv in one of war’s biggest strikes, at least 21 people killed",
-      "link": "https://www.defensenews.com/global/europe/2026/07/02/russia-bombards-kyiv-in-one-of-wars-biggest-strikes-at-least-21-people-killed/",
-      "published": "Thu, 02 Jul 2026 16:02:42 +0000",
-      "source": "Defense News",
-      "categories": [
-        "conflict"
-      ]
     }
   ],
   "_exercise_news_refs": [
@@ -856,18 +847,27 @@
       ]
     },
     {
-      "title": "Marines Deploy Iron Dome Air Defense Systems to the Western Pacific",
-      "link": "https://news.usni.org/2026/07/02/marines-deploy-iron-dome-air-defense-systems-to-the-western-pacific",
-      "published": "Thu, 02 Jul 2026 16:42:52 +0000",
-      "source": "USNI News",
+      "title": "US withdrew forces from Nigeria after operation against ISIS, AFRICOM chief says",
+      "link": "https://www.defensenews.com/news/pentagon-congress/2026/07/03/us-withdrew-forces-from-nigeria-after-operation-against-isis-africom-chief-says/",
+      "published": "Fri, 03 Jul 2026 21:09:56 +0000",
+      "source": "Defense News",
       "categories": [
         "exercise"
       ]
     },
     {
-      "title": "U.S., Partners Wrap Exercise Valiant Shield",
-      "link": "https://news.usni.org/2026/07/01/u-s-partners-wrap-exercise-valiant-shield",
-      "published": "Wed, 01 Jul 2026 19:18:45 +0000",
+      "title": "US withdrew forces from Nigeria after operation against ISIS, AFRICOM chief says",
+      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/07/03/us-withdrew-forces-from-nigeria-after-operation-against-isis-africom-chief-says/",
+      "published": "Fri, 03 Jul 2026 21:09:56 +0000",
+      "source": "Military Times",
+      "categories": [
+        "exercise"
+      ]
+    },
+    {
+      "title": "Marines Deploy Iron Dome Air Defense Systems to the Western Pacific",
+      "link": "https://news.usni.org/2026/07/02/marines-deploy-iron-dome-air-defense-systems-to-the-western-pacific",
+      "published": "Thu, 02 Jul 2026 16:42:52 +0000",
       "source": "USNI News",
       "categories": [
         "exercise"
@@ -876,10 +876,10 @@
   ],
   "_threat_indicators": {
     "deployment_articles": 8,
-    "conflict_articles": 2,
-    "exercise_articles": 4,
+    "conflict_articles": 1,
+    "exercise_articles": 6,
     "total_articles": 50,
-    "computed_at": "2026-07-03T20:09:30.677921+00:00",
+    "computed_at": "2026-07-03T21:52:25.713878+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[USNI News] FLEETEX250: ‘They’re Here, We Might as Well Train’",
@@ -897,9 +897,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-07-03T20:09:30.677977+00:00",
+    "last_successful_update": "2026-07-03T21:52:25.713925+00:00",
     "article_count": 50,
-    "categorized_count": 14,
+    "categorized_count": 15,
     "freshest_source": "USNI News",
     "freshest_title": "FLEETEX250: ‘They’re Here, We Might as Well Train’",
     "freshest_published": "Fri, 03 Jul 2026 01:28:00 +0000"
