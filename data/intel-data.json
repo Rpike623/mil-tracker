@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-07-03T13:27:00Z",
-  "version": 1895,
+  "generated_utc": "2026-07-03T15:46:01Z",
+  "version": 1896,
   "breaking_alert": "USNI News: FLEETEX250: ‘They’re Here, We Might as Well Train’",
   "naval_deployments": [
     {
@@ -612,10 +612,10 @@
       ]
     },
     {
-      "title": "Proposed ‘Honor and Remember’ flag resembles communist imagery, Vietnam veterans argue",
-      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/07/02/proposed-honor-and-remember-flag-resembles-communist-imagery-vietnam-veterans-argue/",
-      "published": "Thu, 02 Jul 2026 15:13:40 +0000",
-      "source": "Military Times",
+      "title": "America’s Navy at 250: A Naval History and Heritage Command Publication",
+      "link": "https://news.usni.org/2026/07/03/americas-navy-at-250-a-naval-history-and-heritage-command-publication",
+      "published": "Fri, 03 Jul 2026 13:30:51 +0000",
+      "source": "USNI News",
       "categories": [
         "deployment"
       ]
@@ -856,6 +856,24 @@
   ],
   "_exercise_news_refs": [
     {
+      "title": "Europeans to fill almost all gaps left by US in NATO defense plans, source says",
+      "link": "https://www.defensenews.com/global/europe/2026/07/03/europeans-to-fill-almost-all-gaps-left-by-us-in-nato-defense-plans-source-says/",
+      "published": "Fri, 03 Jul 2026 14:00:00 +0000",
+      "source": "Defense News",
+      "categories": [
+        "exercise"
+      ]
+    },
+    {
+      "title": "Europeans to fill almost all gaps left by US in NATO defense plans, source says",
+      "link": "https://www.militarytimes.com/global/europe/2026/07/03/europeans-to-fill-almost-all-gaps-left-by-us-in-nato-defense-plans-source-says/",
+      "published": "Fri, 03 Jul 2026 14:00:00 +0000",
+      "source": "Military Times",
+      "categories": [
+        "exercise"
+      ]
+    },
+    {
       "title": "Marines Deploy Iron Dome Air Defense Systems to the Western Pacific",
       "link": "https://news.usni.org/2026/07/02/marines-deploy-iron-dome-air-defense-systems-to-the-western-pacific",
       "published": "Thu, 02 Jul 2026 16:42:52 +0000",
@@ -877,16 +895,16 @@
   "_threat_indicators": {
     "deployment_articles": 8,
     "conflict_articles": 4,
-    "exercise_articles": 2,
+    "exercise_articles": 4,
     "total_articles": 50,
-    "computed_at": "2026-07-03T13:26:57.628284+00:00",
+    "computed_at": "2026-07-03T15:45:55.080258+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[USNI News] FLEETEX250: ‘They’re Here, We Might as Well Train’",
       "[USNI News] USS Nimitz: An Aircraft Carrier’s Final Journey",
-      "[Naval News] Video: MBDA’s New LCM Mk2 Sovereign Deep Strike Cruise Missile",
-      "[Military Times] Proposed ‘Honor and Remember’ flag resembles communist imagery, Vietnam veterans argue",
-      "[Defense News] US Navy seeks to boost production of new anti-radar missile"
+      "[USNI News] America’s Navy at 250: A Naval History and Heritage Command Publication",
+      "[Defense News] Europeans to fill almost all gaps left by US in NATO defense plans, source says",
+      "[Military Times] Europeans to fill almost all gaps left by US in NATO defense plans, source says"
     ]
   },
   "ground_intel": {
@@ -897,9 +915,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-07-03T13:26:57.628329+00:00",
+    "last_successful_update": "2026-07-03T15:45:55.080297+00:00",
     "article_count": 50,
-    "categorized_count": 14,
+    "categorized_count": 16,
     "freshest_source": "USNI News",
     "freshest_title": "FLEETEX250: ‘They’re Here, We Might as Well Train’",
     "freshest_published": "Fri, 03 Jul 2026 01:28:00 +0000"
