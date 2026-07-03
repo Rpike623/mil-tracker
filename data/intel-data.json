@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-07-03T15:46:01Z",
-  "version": 1896,
+  "generated_utc": "2026-07-03T17:07:53Z",
+  "version": 1897,
   "breaking_alert": "USNI News: FLEETEX250: ‘They’re Here, We Might as Well Train’",
   "naval_deployments": [
     {
@@ -621,6 +621,15 @@
       ]
     },
     {
+      "title": "U.S. Navy Eyes CPS Deployment from New VLS, Containers",
+      "link": "https://www.navalnews.com/naval-news/2026/07/u-s-navy-eyes-cps-deployment-from-new-vls-containers/",
+      "published": "Fri, 03 Jul 2026 16:33:15 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "This is the moment the Navy’s USS Juneau was sunk in the name of training",
       "link": "https://taskandpurpose.com/news/navy-juneau-sunk-2026/",
       "published": "Tue, 30 Jun 2026 11:33:57 -0400",
@@ -828,15 +837,6 @@
     },
     {
       "title": "US Navy seeks to boost production of new anti-radar missile",
-      "link": "https://www.defensenews.com/industry/techwatch/2026/07/02/us-navy-seeks-to-boost-production-of-new-anti-radar-missile/",
-      "published": "Thu, 02 Jul 2026 15:37:04 +0000",
-      "source": "Defense News",
-      "categories": [
-        "conflict"
-      ]
-    },
-    {
-      "title": "US Navy seeks to boost production of new anti-radar missile",
       "link": "https://www.militarytimes.com/industry/techwatch/2026/07/02/us-navy-seeks-to-boost-production-of-new-anti-radar-missile/",
       "published": "Thu, 02 Jul 2026 15:37:04 +0000",
       "source": "Military Times",
@@ -893,11 +893,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 8,
-    "conflict_articles": 4,
+    "deployment_articles": 9,
+    "conflict_articles": 3,
     "exercise_articles": 4,
     "total_articles": 50,
-    "computed_at": "2026-07-03T15:45:55.080258+00:00",
+    "computed_at": "2026-07-03T17:07:50.628029+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[USNI News] FLEETEX250: ‘They’re Here, We Might as Well Train’",
@@ -915,7 +915,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-07-03T15:45:55.080297+00:00",
+    "last_successful_update": "2026-07-03T17:07:50.628071+00:00",
     "article_count": 50,
     "categorized_count": 16,
     "freshest_source": "USNI News",
