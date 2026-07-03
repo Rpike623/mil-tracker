@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-07-03T01:27:59Z",
-  "version": 1891,
-  "breaking_alert": "Naval News: Video: MBDA’s New LCM Mk2 Sovereign Deep Strike Cruise Missile",
+  "generated_utc": "2026-07-03T05:38:55Z",
+  "version": 1892,
+  "breaking_alert": "USNI News: FLEETEX250: ‘They’re Here, We Might as Well Train’",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -594,6 +594,15 @@
   ],
   "_naval_news_refs": [
     {
+      "title": "FLEETEX250: ‘They’re Here, We Might as Well Train’",
+      "link": "https://news.usni.org/2026/07/02/theyre-here-we-might-as-well-train",
+      "published": "Fri, 03 Jul 2026 01:28:00 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "Proposed ‘Honor and Remember’ flag resembles communist imagery, Vietnam veterans argue",
       "link": "https://www.militarytimes.com/news/pentagon-congress/2026/07/02/proposed-honor-and-remember-flag-resembles-communist-imagery-vietnam-veterans-argue/",
       "published": "Thu, 02 Jul 2026 15:13:40 +0000",
@@ -843,15 +852,6 @@
       "categories": [
         "conflict"
       ]
-    },
-    {
-      "title": "U.S. Marines Use Commercial Ferries to Haul Anti-ship Missiles Across the Philippines",
-      "link": "https://news.usni.org/2026/06/30/u-s-marines-use-commercial-ferries-to-haul-anti-ship-missiles-across-the-philippines",
-      "published": "Tue, 30 Jun 2026 16:02:59 +0000",
-      "source": "USNI News",
-      "categories": [
-        "conflict"
-      ]
     }
   ],
   "_exercise_news_refs": [
@@ -875,18 +875,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 7,
-    "conflict_articles": 5,
+    "deployment_articles": 8,
+    "conflict_articles": 4,
     "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-07-03T01:27:55.506303+00:00",
+    "computed_at": "2026-07-03T05:38:52.728019+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
+      "[USNI News] FLEETEX250: ‘They’re Here, We Might as Well Train’",
       "[Naval News] Video: MBDA’s New LCM Mk2 Sovereign Deep Strike Cruise Missile",
       "[Military Times] Proposed ‘Honor and Remember’ flag resembles communist imagery, Vietnam veterans argue",
       "[Defense News] US Navy seeks to boost production of new anti-radar missile",
-      "[Military Times] US Navy seeks to boost production of new anti-radar missile",
-      "[Defense News] Russia bombards Kyiv in one of war’s biggest strikes, at least 21 people killed"
+      "[Military Times] US Navy seeks to boost production of new anti-radar missile"
     ]
   },
   "ground_intel": {
@@ -897,12 +897,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-07-03T01:27:55.506349+00:00",
+    "last_successful_update": "2026-07-03T05:38:52.728063+00:00",
     "article_count": 50,
     "categorized_count": 14,
-    "freshest_source": "Naval News",
-    "freshest_title": "Video: MBDA’s New LCM Mk2 Sovereign Deep Strike Cruise Missile",
-    "freshest_published": "Thu, 02 Jul 2026 09:22:03 +0000"
+    "freshest_source": "USNI News",
+    "freshest_title": "FLEETEX250: ‘They’re Here, We Might as Well Train’",
+    "freshest_published": "Fri, 03 Jul 2026 01:28:00 +0000"
   },
   "_firms_hotspots": []
 }
