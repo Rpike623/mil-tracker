@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-07-03T11:22:01Z",
-  "version": 1894,
+  "generated_utc": "2026-07-03T13:27:00Z",
+  "version": 1895,
   "breaking_alert": "USNI News: FLEETEX250: ‘They’re Here, We Might as Well Train’",
   "naval_deployments": [
     {
@@ -603,6 +603,15 @@
       ]
     },
     {
+      "title": "USS Nimitz: An Aircraft Carrier’s Final Journey",
+      "link": "https://news.usni.org/2026/07/03/uss-nimitz-an-aircraft-carriers-final-journey",
+      "published": "Fri, 03 Jul 2026 12:57:35 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "Proposed ‘Honor and Remember’ flag resembles communist imagery, Vietnam veterans argue",
       "link": "https://www.militarytimes.com/news/pentagon-congress/2026/07/02/proposed-honor-and-remember-flag-resembles-communist-imagery-vietnam-veterans-argue/",
       "published": "Thu, 02 Jul 2026 15:13:40 +0000",
@@ -616,15 +625,6 @@
       "link": "https://taskandpurpose.com/news/navy-juneau-sunk-2026/",
       "published": "Tue, 30 Jun 2026 11:33:57 -0400",
       "source": "Task & Purpose",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "USS San Antonio Leaves Norfolk for Deployment",
-      "link": "https://news.usni.org/2026/06/30/uss-san-antonio-leaves-norfolk-for-deployment",
-      "published": "Tue, 30 Jun 2026 20:13:03 +0000",
-      "source": "USNI News",
       "categories": [
         "deployment"
       ]
@@ -879,14 +879,14 @@
     "conflict_articles": 4,
     "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-07-03T11:21:58.721557+00:00",
+    "computed_at": "2026-07-03T13:26:57.628284+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[USNI News] FLEETEX250: ‘They’re Here, We Might as Well Train’",
+      "[USNI News] USS Nimitz: An Aircraft Carrier’s Final Journey",
       "[Naval News] Video: MBDA’s New LCM Mk2 Sovereign Deep Strike Cruise Missile",
       "[Military Times] Proposed ‘Honor and Remember’ flag resembles communist imagery, Vietnam veterans argue",
-      "[Defense News] US Navy seeks to boost production of new anti-radar missile",
-      "[Military Times] US Navy seeks to boost production of new anti-radar missile"
+      "[Defense News] US Navy seeks to boost production of new anti-radar missile"
     ]
   },
   "ground_intel": {
@@ -897,7 +897,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-07-03T11:21:58.721601+00:00",
+    "last_successful_update": "2026-07-03T13:26:57.628329+00:00",
     "article_count": 50,
     "categorized_count": 14,
     "freshest_source": "USNI News",
