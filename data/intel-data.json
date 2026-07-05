@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-07-05T14:22:28Z",
-  "version": 1923,
+  "generated_utc": "2026-07-05T15:57:50Z",
+  "version": 1924,
   "breaking_alert": "USNI News: FLEETEX250: ‘They’re Here, We Might as Well Train’",
   "naval_deployments": [
     {
@@ -899,7 +899,7 @@
     "conflict_articles": 2,
     "exercise_articles": 6,
     "total_articles": 50,
-    "computed_at": "2026-07-05T14:22:23.619705+00:00",
+    "computed_at": "2026-07-05T15:57:43.905301+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[USNI News] FLEETEX250: ‘They’re Here, We Might as Well Train’",
@@ -917,7 +917,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-07-05T14:22:23.619750+00:00",
+    "last_successful_update": "2026-07-05T15:57:43.905347+00:00",
     "article_count": 50,
     "categorized_count": 16,
     "freshest_source": "USNI News",
