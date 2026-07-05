@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-07-05T17:01:49Z",
-  "version": 1925,
+  "generated_utc": "2026-07-05T18:59:08Z",
+  "version": 1926,
   "breaking_alert": "USNI News: FLEETEX250: ‘They’re Here, We Might as Well Train’",
   "naval_deployments": [
     {
@@ -640,6 +640,15 @@
       ]
     },
     {
+      "title": "Navy halts search for sailor missing in the Arabian Sea",
+      "link": "https://taskandpurpose.com/news/navy-suspends-search-arabian-sea/",
+      "published": "Sun, 05 Jul 2026 13:26:52 -0400",
+      "source": "Task & Purpose",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "UK DIP Details Platform Types to Underpin Royal Navy Hybrid Force Structure and Atlantic Fleet Series",
       "link": "https://www.navalnews.com/naval-news/2026/07/uk-dip-details-platform-types-to-underpin-royal-navy-hybrid-force-structure-and-atlantic-fleet-series/",
       "published": "Wed, 01 Jul 2026 11:33:05 +0000",
@@ -895,11 +904,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 9,
+    "deployment_articles": 10,
     "conflict_articles": 2,
     "exercise_articles": 6,
     "total_articles": 50,
-    "computed_at": "2026-07-05T17:01:44.070086+00:00",
+    "computed_at": "2026-07-05T18:54:27.856752+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[USNI News] FLEETEX250: ‘They’re Here, We Might as Well Train’",
@@ -917,9 +926,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-07-05T17:01:44.070124+00:00",
+    "last_successful_update": "2026-07-05T18:54:27.856796+00:00",
     "article_count": 50,
-    "categorized_count": 16,
+    "categorized_count": 17,
     "freshest_source": "USNI News",
     "freshest_title": "FLEETEX250: ‘They’re Here, We Might as Well Train’",
     "freshest_published": "Fri, 03 Jul 2026 01:28:00 +0000"
