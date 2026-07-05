@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-07-05T05:50:42Z",
-  "version": 1919,
+  "generated_utc": "2026-07-05T08:35:06Z",
+  "version": 1920,
   "breaking_alert": "USNI News: FLEETEX250: ‘They’re Here, We Might as Well Train’",
   "naval_deployments": [
     {
@@ -630,6 +630,16 @@
       ]
     },
     {
+      "title": "Naval Strike Missile Appears in Ukrainian Service for the First Time",
+      "link": "https://www.navalnews.com/naval-news/2026/07/naval-strike-missile-appears-in-ukrainian-service-for-the-first-time/",
+      "published": "Sun, 05 Jul 2026 08:28:12 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
+    },
+    {
       "title": "UK DIP Details Platform Types to Underpin Royal Navy Hybrid Force Structure and Atlantic Fleet Series",
       "link": "https://www.navalnews.com/naval-news/2026/07/uk-dip-details-platform-types-to-underpin-royal-navy-hybrid-force-structure-and-atlantic-fleet-series/",
       "published": "Wed, 01 Jul 2026 11:33:05 +0000",
@@ -818,6 +828,16 @@
   },
   "_conflict_news_refs": [
     {
+      "title": "Naval Strike Missile Appears in Ukrainian Service for the First Time",
+      "link": "https://www.navalnews.com/naval-news/2026/07/naval-strike-missile-appears-in-ukrainian-service-for-the-first-time/",
+      "published": "Sun, 05 Jul 2026 08:28:12 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
+    },
+    {
       "title": "Video: MBDA’s New LCM Mk2 Sovereign Deep Strike Cruise Missile",
       "link": "https://www.navalnews.com/naval-news/2026/07/video-mbdas-new-lcm-mk2-sovereign-deep-strike-cruise-missile/",
       "published": "Thu, 02 Jul 2026 09:22:03 +0000",
@@ -875,11 +895,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 8,
-    "conflict_articles": 1,
+    "deployment_articles": 9,
+    "conflict_articles": 2,
     "exercise_articles": 6,
     "total_articles": 50,
-    "computed_at": "2026-07-05T05:50:34.039404+00:00",
+    "computed_at": "2026-07-05T08:35:00.669486+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[USNI News] FLEETEX250: ‘They’re Here, We Might as Well Train’",
@@ -897,9 +917,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-07-05T05:50:34.039451+00:00",
+    "last_successful_update": "2026-07-05T08:35:00.669533+00:00",
     "article_count": 50,
-    "categorized_count": 15,
+    "categorized_count": 16,
     "freshest_source": "USNI News",
     "freshest_title": "FLEETEX250: ‘They’re Here, We Might as Well Train’",
     "freshest_published": "Fri, 03 Jul 2026 01:28:00 +0000"
