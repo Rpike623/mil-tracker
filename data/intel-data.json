@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-07-06T21:16:52Z",
-  "version": 1937,
+  "generated_utc": "2026-07-06T22:56:57Z",
+  "version": 1938,
   "breaking_alert": "USNI News: FLEETEX250: ‘They’re Here, We Might as Well Train’",
   "naval_deployments": [
     {
@@ -880,15 +880,6 @@
       ]
     },
     {
-      "title": "Europeans to fill almost all gaps left by US in NATO defense plans, source says",
-      "link": "https://www.militarytimes.com/global/europe/2026/07/03/europeans-to-fill-almost-all-gaps-left-by-us-in-nato-defense-plans-source-says/",
-      "published": "Fri, 03 Jul 2026 14:00:00 +0000",
-      "source": "Military Times",
-      "categories": [
-        "exercise"
-      ]
-    },
-    {
       "title": "US withdrew forces from Nigeria after operation against ISIS, AFRICOM chief says",
       "link": "https://www.defensenews.com/news/pentagon-congress/2026/07/03/us-withdrew-forces-from-nigeria-after-operation-against-isis-africom-chief-says/",
       "published": "Fri, 03 Jul 2026 21:09:56 +0000",
@@ -914,21 +905,30 @@
       "categories": [
         "exercise"
       ]
+    },
+    {
+      "title": "Two retired warships to be sunk during Rim of the Pacific exercise",
+      "link": "https://www.militarytimes.com/news/your-military/2026/07/06/two-retired-warships-to-be-sunk-during-rim-of-the-pacific-exercise/",
+      "published": "Mon, 06 Jul 2026 19:08:25 +0000",
+      "source": "Military Times",
+      "categories": [
+        "exercise"
+      ]
     }
   ],
   "_threat_indicators": {
     "deployment_articles": 11,
     "conflict_articles": 3,
-    "exercise_articles": 8,
+    "exercise_articles": 7,
     "total_articles": 50,
-    "computed_at": "2026-07-06T21:16:48.540090+00:00",
+    "computed_at": "2026-07-06T22:56:51.302087+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[USNI News] FLEETEX250: ‘They’re Here, We Might as Well Train’",
       "[USNI News] USS Nimitz: An Aircraft Carrier’s Final Journey",
       "[USNI News] America’s Navy at 250: A Naval History and Heritage Command Publication",
       "[Defense News] Europeans to fill almost all gaps left by US in NATO defense plans, source says",
-      "[Military Times] Europeans to fill almost all gaps left by US in NATO defense plans, source says"
+      "[Naval News] U.S. Navy Eyes CPS Deployment from New VLS, Containers"
     ]
   },
   "ground_intel": {
@@ -939,9 +939,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-07-06T21:16:48.540137+00:00",
+    "last_successful_update": "2026-07-06T22:56:51.302121+00:00",
     "article_count": 50,
-    "categorized_count": 19,
+    "categorized_count": 18,
     "freshest_source": "USNI News",
     "freshest_title": "FLEETEX250: ‘They’re Here, We Might as Well Train’",
     "freshest_published": "Fri, 03 Jul 2026 01:28:00 +0000"
