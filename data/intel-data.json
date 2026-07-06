@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-07-06T19:26:44Z",
-  "version": 1936,
+  "generated_utc": "2026-07-06T21:16:52Z",
+  "version": 1937,
   "breaking_alert": "USNI News: FLEETEX250: ‘They’re Here, We Might as Well Train’",
   "naval_deployments": [
     {
@@ -666,6 +666,17 @@
       ]
     },
     {
+      "title": "China Tests Submarine-launched Ballistic Missile, Kicks Off Annual Exercise With Russia",
+      "link": "https://news.usni.org/2026/07/06/china-tests-submarine-launched-ballistic-missile-kicks-off-annual-exercise-with-russia",
+      "published": "Mon, 06 Jul 2026 20:25:53 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment",
+        "exercise",
+        "conflict"
+      ]
+    },
+    {
       "title": "Naval Strike Missile Appears in Ukrainian Service for the First Time",
       "link": "https://www.navalnews.com/naval-news/2026/07/naval-strike-missile-appears-in-ukrainian-service-for-the-first-time/",
       "published": "Sun, 05 Jul 2026 08:28:12 +0000",
@@ -673,15 +684,6 @@
       "categories": [
         "deployment",
         "conflict"
-      ]
-    },
-    {
-      "title": "Navy halts search for sailor missing in the Arabian Sea",
-      "link": "https://taskandpurpose.com/news/navy-suspends-search-arabian-sea/",
-      "published": "Sun, 05 Jul 2026 13:26:52 -0400",
-      "source": "Task & Purpose",
-      "categories": [
-        "deployment"
       ]
     }
   ],
@@ -846,6 +848,17 @@
       ]
     },
     {
+      "title": "China Tests Submarine-launched Ballistic Missile, Kicks Off Annual Exercise With Russia",
+      "link": "https://news.usni.org/2026/07/06/china-tests-submarine-launched-ballistic-missile-kicks-off-annual-exercise-with-russia",
+      "published": "Mon, 06 Jul 2026 20:25:53 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment",
+        "exercise",
+        "conflict"
+      ]
+    },
+    {
       "title": "Naval Strike Missile Appears in Ukrainian Service for the First Time",
       "link": "https://www.navalnews.com/naval-news/2026/07/naval-strike-missile-appears-in-ukrainian-service-for-the-first-time/",
       "published": "Sun, 05 Jul 2026 08:28:12 +0000",
@@ -904,11 +917,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 10,
-    "conflict_articles": 2,
-    "exercise_articles": 7,
+    "deployment_articles": 11,
+    "conflict_articles": 3,
+    "exercise_articles": 8,
     "total_articles": 50,
-    "computed_at": "2026-07-06T19:26:41.168401+00:00",
+    "computed_at": "2026-07-06T21:16:48.540090+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[USNI News] FLEETEX250: ‘They’re Here, We Might as Well Train’",
@@ -926,9 +939,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-07-06T19:26:41.168448+00:00",
+    "last_successful_update": "2026-07-06T21:16:48.540137+00:00",
     "article_count": 50,
-    "categorized_count": 18,
+    "categorized_count": 19,
     "freshest_source": "USNI News",
     "freshest_title": "FLEETEX250: ‘They’re Here, We Might as Well Train’",
     "freshest_published": "Fri, 03 Jul 2026 01:28:00 +0000"
