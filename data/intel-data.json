@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-07-06T17:36:22Z",
-  "version": 1935,
+  "generated_utc": "2026-07-06T19:26:44Z",
+  "version": 1936,
   "breaking_alert": "USNI News: FLEETEX250: ‘They’re Here, We Might as Well Train’",
   "naval_deployments": [
     {
@@ -657,6 +657,15 @@
       ]
     },
     {
+      "title": "Navy Ends Search for Missing George H.W. Bush Sailor in Arabian Sea",
+      "link": "https://news.usni.org/2026/07/06/navy-ends-search-for-missing-george-h-w-bush-sailor-in-arabian-sea",
+      "published": "Mon, 06 Jul 2026 18:36:59 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "Naval Strike Missile Appears in Ukrainian Service for the First Time",
       "link": "https://www.navalnews.com/naval-news/2026/07/naval-strike-missile-appears-in-ukrainian-service-for-the-first-time/",
       "published": "Sun, 05 Jul 2026 08:28:12 +0000",
@@ -671,15 +680,6 @@
       "link": "https://taskandpurpose.com/news/navy-suspends-search-arabian-sea/",
       "published": "Sun, 05 Jul 2026 13:26:52 -0400",
       "source": "Task & Purpose",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Sailor Missing After Helo Assigned to USS George H.W. Bush Ditches in Arabian Sea",
-      "link": "https://news.usni.org/2026/07/01/sailor-missing-after-helo-assigned-to-uss-george-h-w-bush-ditches-in-arabian-sea",
-      "published": "Wed, 01 Jul 2026 17:59:42 +0000",
-      "source": "USNI News",
       "categories": [
         "deployment"
       ]
@@ -908,7 +908,7 @@
     "conflict_articles": 2,
     "exercise_articles": 7,
     "total_articles": 50,
-    "computed_at": "2026-07-06T17:31:41.959472+00:00",
+    "computed_at": "2026-07-06T19:26:41.168401+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[USNI News] FLEETEX250: ‘They’re Here, We Might as Well Train’",
@@ -926,7 +926,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-07-06T17:31:41.959523+00:00",
+    "last_successful_update": "2026-07-06T19:26:41.168448+00:00",
     "article_count": 50,
     "categorized_count": 18,
     "freshest_source": "USNI News",
