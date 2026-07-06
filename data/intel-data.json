@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-07-06T01:47:50Z",
-  "version": 1931,
+  "generated_utc": "2026-07-06T06:13:15Z",
+  "version": 1932,
   "breaking_alert": "USNI News: FLEETEX250: ‘They’re Here, We Might as Well Train’",
   "naval_deployments": [
     {
@@ -630,6 +630,15 @@
       ]
     },
     {
+      "title": "India and Japan to Co-develop Naval Radio Antenna Based on UNICORN",
+      "link": "https://www.navalnews.com/naval-news/2026/07/india-and-japan-to-co-develop-naval-radio-antenna-based-on-unicorn/",
+      "published": "Mon, 06 Jul 2026 05:28:00 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "Naval Strike Missile Appears in Ukrainian Service for the First Time",
       "link": "https://www.navalnews.com/naval-news/2026/07/naval-strike-missile-appears-in-ukrainian-service-for-the-first-time/",
       "published": "Sun, 05 Jul 2026 08:28:12 +0000",
@@ -671,15 +680,6 @@
       "link": "https://news.usni.org/2026/07/01/sailor-missing-after-helo-assigned-to-uss-george-h-w-bush-ditches-in-arabian-sea",
       "published": "Wed, 01 Jul 2026 17:59:42 +0000",
       "source": "USNI News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "HII Begins Fabrication of Flight III Destroyer John F. Lehman (DDG 137)",
-      "link": "https://www.navalnews.com/naval-news/2026/07/hii-begins-fabrication-of-flight-iii-destroyer-john-f-lehman-ddg-137/",
-      "published": "Wed, 01 Jul 2026 20:46:03 +0000",
-      "source": "Naval News",
       "categories": [
         "deployment"
       ]
@@ -904,11 +904,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 10,
+    "deployment_articles": 11,
     "conflict_articles": 2,
     "exercise_articles": 6,
     "total_articles": 50,
-    "computed_at": "2026-07-06T01:47:48.108951+00:00",
+    "computed_at": "2026-07-06T06:13:12.709428+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[USNI News] FLEETEX250: ‘They’re Here, We Might as Well Train’",
@@ -926,9 +926,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-07-06T01:47:48.109000+00:00",
+    "last_successful_update": "2026-07-06T06:13:12.709474+00:00",
     "article_count": 50,
-    "categorized_count": 17,
+    "categorized_count": 18,
     "freshest_source": "USNI News",
     "freshest_title": "FLEETEX250: ‘They’re Here, We Might as Well Train’",
     "freshest_published": "Fri, 03 Jul 2026 01:28:00 +0000"
