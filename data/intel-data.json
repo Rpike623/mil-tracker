@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-07-06T14:49:27Z",
-  "version": 1934,
+  "generated_utc": "2026-07-06T17:36:22Z",
+  "version": 1935,
   "breaking_alert": "USNI News: FLEETEX250: ‘They’re Here, We Might as Well Train’",
   "naval_deployments": [
     {
@@ -837,6 +837,15 @@
   },
   "_conflict_news_refs": [
     {
+      "title": "Russian strikes kill 20, exposing Ukraine’s air-defense shortage",
+      "link": "https://www.defensenews.com/global/europe/2026/07/06/russian-strikes-kill-20-exposing-ukraines-air-defense-shortage/",
+      "published": "Mon, 06 Jul 2026 15:05:12 +0000",
+      "source": "Defense News",
+      "categories": [
+        "conflict"
+      ]
+    },
+    {
       "title": "Naval Strike Missile Appears in Ukrainian Service for the First Time",
       "link": "https://www.navalnews.com/naval-news/2026/07/naval-strike-missile-appears-in-ukrainian-service-for-the-first-time/",
       "published": "Sun, 05 Jul 2026 08:28:12 +0000",
@@ -896,10 +905,10 @@
   ],
   "_threat_indicators": {
     "deployment_articles": 10,
-    "conflict_articles": 1,
+    "conflict_articles": 2,
     "exercise_articles": 7,
     "total_articles": 50,
-    "computed_at": "2026-07-06T14:49:22.522183+00:00",
+    "computed_at": "2026-07-06T17:31:41.959472+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[USNI News] FLEETEX250: ‘They’re Here, We Might as Well Train’",
@@ -917,9 +926,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-07-06T14:49:22.522228+00:00",
+    "last_successful_update": "2026-07-06T17:31:41.959523+00:00",
     "article_count": 50,
-    "categorized_count": 17,
+    "categorized_count": 18,
     "freshest_source": "USNI News",
     "freshest_title": "FLEETEX250: ‘They’re Here, We Might as Well Train’",
     "freshest_published": "Fri, 03 Jul 2026 01:28:00 +0000"
