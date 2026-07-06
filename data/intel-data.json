@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-07-06T06:13:15Z",
-  "version": 1932,
+  "generated_utc": "2026-07-06T11:18:57Z",
+  "version": 1933,
   "breaking_alert": "USNI News: FLEETEX250: ‘They’re Here, We Might as Well Train’",
   "naval_deployments": [
     {
@@ -639,6 +639,15 @@
       ]
     },
     {
+      "title": "Communication starts with us – SEICAM® and TRITON® II for the Next Generation of Submarines",
+      "link": "https://www.navalnews.com/naval-news/2026/07/communication-starts-with-us-seicam-and-triton-ii-for-the-next-generation-of-submarines/",
+      "published": "Mon, 06 Jul 2026 08:29:00 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "Naval Strike Missile Appears in Ukrainian Service for the First Time",
       "link": "https://www.navalnews.com/naval-news/2026/07/naval-strike-missile-appears-in-ukrainian-service-for-the-first-time/",
       "published": "Sun, 05 Jul 2026 08:28:12 +0000",
@@ -653,15 +662,6 @@
       "link": "https://taskandpurpose.com/news/navy-suspends-search-arabian-sea/",
       "published": "Sun, 05 Jul 2026 13:26:52 -0400",
       "source": "Task & Purpose",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "UK DIP Details Platform Types to Underpin Royal Navy Hybrid Force Structure and Atlantic Fleet Series",
-      "link": "https://www.navalnews.com/naval-news/2026/07/uk-dip-details-platform-types-to-underpin-royal-navy-hybrid-force-structure-and-atlantic-fleet-series/",
-      "published": "Wed, 01 Jul 2026 11:33:05 +0000",
-      "source": "Naval News",
       "categories": [
         "deployment"
       ]
@@ -908,7 +908,7 @@
     "conflict_articles": 2,
     "exercise_articles": 6,
     "total_articles": 50,
-    "computed_at": "2026-07-06T06:13:12.709428+00:00",
+    "computed_at": "2026-07-06T11:18:54.530319+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[USNI News] FLEETEX250: ‘They’re Here, We Might as Well Train’",
@@ -926,7 +926,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-07-06T06:13:12.709474+00:00",
+    "last_successful_update": "2026-07-06T11:18:54.530367+00:00",
     "article_count": 50,
     "categorized_count": 18,
     "freshest_source": "USNI News",
