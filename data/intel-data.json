@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-07-07T18:57:10Z",
-  "version": 1945,
-  "breaking_alert": "USNI News: FLEETEX250: ‘They’re Here, We Might as Well Train’",
+  "generated_utc": "2026-07-07T20:42:51Z",
+  "version": 1946,
+  "breaking_alert": "USNI News: USS Nimitz: An Aircraft Carrier’s Final Journey",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -594,15 +594,6 @@
   ],
   "_naval_news_refs": [
     {
-      "title": "FLEETEX250: ‘They’re Here, We Might as Well Train’",
-      "link": "https://news.usni.org/2026/07/02/theyre-here-we-might-as-well-train",
-      "published": "Fri, 03 Jul 2026 01:28:00 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "USS Nimitz: An Aircraft Carrier’s Final Journey",
       "link": "https://news.usni.org/2026/07/03/uss-nimitz-an-aircraft-carriers-final-journey",
       "published": "Fri, 03 Jul 2026 12:57:35 +0000",
@@ -616,24 +607,6 @@
       "link": "https://news.usni.org/2026/07/03/americas-navy-at-250-a-naval-history-and-heritage-command-publication",
       "published": "Fri, 03 Jul 2026 13:30:51 +0000",
       "source": "USNI News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Communication starts with us – SEICAM® and TRITON® II for the Next Generation of Submarines",
-      "link": "https://www.navalnews.com/naval-news/2026/07/communication-starts-with-us-seicam-and-triton-ii-for-the-next-generation-of-submarines/",
-      "published": "Mon, 06 Jul 2026 08:29:00 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "US Navy suspends search for missing aviator in Arabian Sea",
-      "link": "https://www.militarytimes.com/news/your-navy/2026/07/06/us-navy-suspends-search-for-missing-aviator-in-arabian-sea/",
-      "published": "Mon, 06 Jul 2026 14:37:35 +0000",
-      "source": "Military Times",
       "categories": [
         "deployment"
       ]
@@ -681,6 +654,33 @@
       "link": "https://www.navalnews.com/naval-news/2026/07/canada-selects-tkms-cpsp-submarine-project/",
       "published": "Tue, 07 Jul 2026 05:24:11 +0000",
       "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "US troops could restart Poland deployments in the ‘coming weeks’",
+      "link": "https://taskandpurpose.com/news/us-troops-restart-poland-deployments/",
+      "published": "Tue, 07 Jul 2026 10:14:29 -0400",
+      "source": "Task & Purpose",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Finland Signs Multi-Million Euro Framework Agreement for Forcit Blocker Naval Mines",
+      "link": "https://www.navalnews.com/naval-news/2026/07/finland-leads-joint-procurement-forcit-blocker-naval-mines/",
+      "published": "Tue, 07 Jul 2026 12:01:46 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "USNI News Fleet and Marine Tracker: July 7, 2026",
+      "link": "https://news.usni.org/2026/07/07/usni-news-fleet-and-marine-tracker-july-7-2026",
+      "published": "Tue, 07 Jul 2026 19:10:30 +0000",
+      "source": "USNI News",
       "categories": [
         "deployment"
       ]
@@ -935,18 +935,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 12,
-    "conflict_articles": 6,
+    "deployment_articles": 10,
+    "conflict_articles": 8,
     "exercise_articles": 6,
     "total_articles": 50,
-    "computed_at": "2026-07-07T18:52:29.084045+00:00",
-    "manual_override": "DEFCON_3",
+    "computed_at": "2026-07-07T20:42:43.534891+00:00",
+    "manual_override": "DEFCON_2",
     "breaking_events": [
-      "[USNI News] FLEETEX250: ‘They’re Here, We Might as Well Train’",
       "[USNI News] USS Nimitz: An Aircraft Carrier’s Final Journey",
       "[USNI News] America’s Navy at 250: A Naval History and Heritage Command Publication",
-      "[Naval News] Communication starts with us – SEICAM® and TRITON® II for the Next Generation of Submarines",
-      "[Military Times] US Navy suspends search for missing aviator in Arabian Sea"
+      "[Defense News] Russian strikes kill 20, exposing Ukraine’s air-defense shortage",
+      "[USNI News] Navy Ends Search for Missing George H.W. Bush Sailor in Arabian Sea",
+      "[Military Times] Two retired warships to be sunk during Rim of the Pacific exercise"
     ]
   },
   "ground_intel": {
@@ -957,12 +957,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-07-07T18:52:29.084080+00:00",
+    "last_successful_update": "2026-07-07T20:42:43.534937+00:00",
     "article_count": 50,
     "categorized_count": 22,
     "freshest_source": "USNI News",
-    "freshest_title": "FLEETEX250: ‘They’re Here, We Might as Well Train’",
-    "freshest_published": "Fri, 03 Jul 2026 01:28:00 +0000"
+    "freshest_title": "USS Nimitz: An Aircraft Carrier’s Final Journey",
+    "freshest_published": "Fri, 03 Jul 2026 12:57:35 +0000"
   },
   "_firms_hotspots": []
 }
