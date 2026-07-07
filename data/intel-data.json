@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-07-07T10:41:51Z",
-  "version": 1942,
+  "generated_utc": "2026-07-07T13:11:07Z",
+  "version": 1943,
   "breaking_alert": "USNI News: FLEETEX250: ‘They’re Here, We Might as Well Train’",
   "naval_deployments": [
     {
@@ -668,20 +668,19 @@
       ]
     },
     {
-      "title": "Naval Strike Missile Appears in Ukrainian Service for the First Time",
-      "link": "https://www.navalnews.com/naval-news/2026/07/naval-strike-missile-appears-in-ukrainian-service-for-the-first-time/",
-      "published": "Sun, 05 Jul 2026 08:28:12 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
       "title": "Navy halts search for sailor missing in the Arabian Sea",
       "link": "https://taskandpurpose.com/news/navy-suspends-search-arabian-sea/",
       "published": "Sun, 05 Jul 2026 13:26:52 -0400",
       "source": "Task & Purpose",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Canada picks Germany’s TKMS for historic submarine buy, in nod to Europe",
+      "link": "https://www.defensenews.com/global/europe/2026/07/07/canada-picks-germanys-tkms-for-historic-submarine-buy-in-nod-to-europe/",
+      "published": "Tue, 07 Jul 2026 04:59:44 +0000",
+      "source": "Defense News",
       "categories": [
         "deployment"
       ]
@@ -859,16 +858,6 @@
       ]
     },
     {
-      "title": "Naval Strike Missile Appears in Ukrainian Service for the First Time",
-      "link": "https://www.navalnews.com/naval-news/2026/07/naval-strike-missile-appears-in-ukrainian-service-for-the-first-time/",
-      "published": "Sun, 05 Jul 2026 08:28:12 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
       "title": "Indonesia Signs BrahMos Missile Deal with India",
       "link": "https://www.navalnews.com/naval-news/2026/07/indonesia-signs-brahmos-missile-deal-with-india/",
       "published": "Tue, 07 Jul 2026 06:59:51 +0000",
@@ -885,18 +874,18 @@
       "categories": [
         "conflict"
       ]
+    },
+    {
+      "title": "Germany set to become first international site for ATACMS missile production",
+      "link": "https://www.defensenews.com/global/europe/2026/07/07/germany-set-to-become-first-international-site-for-atacms-missile-production/",
+      "published": "Tue, 07 Jul 2026 11:54:05 +0000",
+      "source": "Defense News",
+      "categories": [
+        "conflict"
+      ]
     }
   ],
   "_exercise_news_refs": [
-    {
-      "title": "US withdrew forces from Nigeria after operation against ISIS, AFRICOM chief says",
-      "link": "https://www.defensenews.com/news/pentagon-congress/2026/07/03/us-withdrew-forces-from-nigeria-after-operation-against-isis-africom-chief-says/",
-      "published": "Fri, 03 Jul 2026 21:09:56 +0000",
-      "source": "Defense News",
-      "categories": [
-        "exercise"
-      ]
-    },
     {
       "title": "US withdrew forces from Nigeria after operation against ISIS, AFRICOM chief says",
       "link": "https://www.militarytimes.com/news/pentagon-congress/2026/07/03/us-withdrew-forces-from-nigeria-after-operation-against-isis-africom-chief-says/",
@@ -934,21 +923,30 @@
         "exercise",
         "conflict"
       ]
+    },
+    {
+      "title": "Marines Deploy Iron Dome Air Defense Systems to the Western Pacific",
+      "link": "https://news.usni.org/2026/07/02/marines-deploy-iron-dome-air-defense-systems-to-the-western-pacific",
+      "published": "Thu, 02 Jul 2026 16:42:52 +0000",
+      "source": "USNI News",
+      "categories": [
+        "exercise"
+      ]
     }
   ],
   "_threat_indicators": {
     "deployment_articles": 12,
     "conflict_articles": 5,
-    "exercise_articles": 8,
+    "exercise_articles": 7,
     "total_articles": 50,
-    "computed_at": "2026-07-07T10:41:45.606803+00:00",
+    "computed_at": "2026-07-07T13:08:42.834639+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[USNI News] FLEETEX250: ‘They’re Here, We Might as Well Train’",
       "[USNI News] USS Nimitz: An Aircraft Carrier’s Final Journey",
       "[USNI News] America’s Navy at 250: A Naval History and Heritage Command Publication",
-      "[Defense News] US withdrew forces from Nigeria after operation against ISIS, AFRICOM chief says",
-      "[Military Times] US withdrew forces from Nigeria after operation against ISIS, AFRICOM chief says"
+      "[Military Times] US withdrew forces from Nigeria after operation against ISIS, AFRICOM chief says",
+      "[Naval News] India and Japan to Co-develop Naval Radio Antenna Based on UNICORN"
     ]
   },
   "ground_intel": {
@@ -959,7 +957,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-07-07T10:41:45.606845+00:00",
+    "last_successful_update": "2026-07-07T13:08:42.834707+00:00",
     "article_count": 50,
     "categorized_count": 22,
     "freshest_source": "USNI News",
