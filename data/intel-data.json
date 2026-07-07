@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-07-07T20:42:51Z",
-  "version": 1946,
+  "generated_utc": "2026-07-07T22:02:32Z",
+  "version": 1947,
   "breaking_alert": "USNI News: USS Nimitz: An Aircraft Carrier’s Final Journey",
   "naval_deployments": [
     {
@@ -838,15 +838,6 @@
   },
   "_conflict_news_refs": [
     {
-      "title": "Russian strikes kill 20, exposing Ukraine’s air-defense shortage",
-      "link": "https://www.defensenews.com/global/europe/2026/07/06/russian-strikes-kill-20-exposing-ukraines-air-defense-shortage/",
-      "published": "Mon, 06 Jul 2026 15:05:12 +0000",
-      "source": "Defense News",
-      "categories": [
-        "conflict"
-      ]
-    },
-    {
       "title": "China Tests Submarine-launched Ballistic Missile, Kicks Off Annual Exercise With Russia",
       "link": "https://news.usni.org/2026/07/06/china-tests-submarine-launched-ballistic-missile-kicks-off-annual-exercise-with-russia",
       "published": "Mon, 06 Jul 2026 20:25:53 +0000",
@@ -879,6 +870,15 @@
       "title": "Germany set to become first international site for ATACMS missile production",
       "link": "https://www.defensenews.com/global/europe/2026/07/07/germany-set-to-become-first-international-site-for-atacms-missile-production/",
       "published": "Tue, 07 Jul 2026 11:54:05 +0000",
+      "source": "Defense News",
+      "categories": [
+        "conflict"
+      ]
+    },
+    {
+      "title": "Chinese ballistic missile test is said to undermine nuclear weapons-free zone in South Pacific",
+      "link": "https://www.defensenews.com/global/asia-pacific/2026/07/07/chinese-ballistic-missile-test-is-said-to-undermine-nuclear-weapons-free-zone-in-south-pacific/",
+      "published": "Tue, 07 Jul 2026 14:49:04 +0000",
       "source": "Defense News",
       "categories": [
         "conflict"
@@ -935,18 +935,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 10,
-    "conflict_articles": 8,
+    "deployment_articles": 11,
+    "conflict_articles": 7,
     "exercise_articles": 6,
     "total_articles": 50,
-    "computed_at": "2026-07-07T20:42:43.534891+00:00",
-    "manual_override": "DEFCON_2",
+    "computed_at": "2026-07-07T22:02:30.419911+00:00",
+    "manual_override": "DEFCON_3",
     "breaking_events": [
       "[USNI News] USS Nimitz: An Aircraft Carrier’s Final Journey",
       "[USNI News] America’s Navy at 250: A Naval History and Heritage Command Publication",
-      "[Defense News] Russian strikes kill 20, exposing Ukraine’s air-defense shortage",
       "[USNI News] Navy Ends Search for Missing George H.W. Bush Sailor in Arabian Sea",
-      "[Military Times] Two retired warships to be sunk during Rim of the Pacific exercise"
+      "[Military Times] Two retired warships to be sunk during Rim of the Pacific exercise",
+      "[USNI News] China Tests Submarine-launched Ballistic Missile, Kicks Off Annual Exercise With Russia"
     ]
   },
   "ground_intel": {
@@ -957,7 +957,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-07-07T20:42:43.534937+00:00",
+    "last_successful_update": "2026-07-07T22:02:30.419956+00:00",
     "article_count": 50,
     "categorized_count": 22,
     "freshest_source": "USNI News",
