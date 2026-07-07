@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-07-07T13:11:07Z",
-  "version": 1943,
+  "generated_utc": "2026-07-07T16:14:15Z",
+  "version": 1944,
   "breaking_alert": "USNI News: FLEETEX250: ‘They’re Here, We Might as Well Train’",
   "naval_deployments": [
     {
@@ -621,15 +621,6 @@
       ]
     },
     {
-      "title": "India and Japan to Co-develop Naval Radio Antenna Based on UNICORN",
-      "link": "https://www.navalnews.com/naval-news/2026/07/india-and-japan-to-co-develop-naval-radio-antenna-based-on-unicorn/",
-      "published": "Mon, 06 Jul 2026 05:28:00 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Communication starts with us – SEICAM® and TRITON® II for the Next Generation of Submarines",
       "link": "https://www.navalnews.com/naval-news/2026/07/communication-starts-with-us-seicam-and-triton-ii-for-the-next-generation-of-submarines/",
       "published": "Mon, 06 Jul 2026 08:29:00 +0000",
@@ -681,6 +672,15 @@
       "link": "https://www.defensenews.com/global/europe/2026/07/07/canada-picks-germanys-tkms-for-historic-submarine-buy-in-nod-to-europe/",
       "published": "Tue, 07 Jul 2026 04:59:44 +0000",
       "source": "Defense News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Canada Selects TKMS as Preferred Bidder for CPSP Submarine Program",
+      "link": "https://www.navalnews.com/naval-news/2026/07/canada-selects-tkms-cpsp-submarine-project/",
+      "published": "Tue, 07 Jul 2026 05:24:11 +0000",
+      "source": "Naval News",
       "categories": [
         "deployment"
       ]
@@ -887,24 +887,6 @@
   ],
   "_exercise_news_refs": [
     {
-      "title": "US withdrew forces from Nigeria after operation against ISIS, AFRICOM chief says",
-      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/07/03/us-withdrew-forces-from-nigeria-after-operation-against-isis-africom-chief-says/",
-      "published": "Fri, 03 Jul 2026 21:09:56 +0000",
-      "source": "Military Times",
-      "categories": [
-        "exercise"
-      ]
-    },
-    {
-      "title": "NATO summit host Turkey sees its alliance clout rising amid war raging nearby",
-      "link": "https://www.defensenews.com/global/europe/2026/07/06/nato-summit-host-turkey-sees-its-alliance-clout-rising-amid-war-raging-nearby/",
-      "published": "Mon, 06 Jul 2026 12:31:33 +0000",
-      "source": "Defense News",
-      "categories": [
-        "exercise"
-      ]
-    },
-    {
       "title": "Two retired warships to be sunk during Rim of the Pacific exercise",
       "link": "https://www.militarytimes.com/news/your-military/2026/07/06/two-retired-warships-to-be-sunk-during-rim-of-the-pacific-exercise/",
       "published": "Mon, 06 Jul 2026 19:08:25 +0000",
@@ -925,9 +907,27 @@
       ]
     },
     {
-      "title": "Marines Deploy Iron Dome Air Defense Systems to the Western Pacific",
-      "link": "https://news.usni.org/2026/07/02/marines-deploy-iron-dome-air-defense-systems-to-the-western-pacific",
-      "published": "Thu, 02 Jul 2026 16:42:52 +0000",
+      "title": "Four NATO Allies to Procure Up to Five MQ-4C Triton HALE UAVs",
+      "link": "https://www.navalnews.com/naval-news/2026/07/nato-mq-4c-triton-procurement-uav-isr/",
+      "published": "Tue, 07 Jul 2026 08:28:14 +0000",
+      "source": "Naval News",
+      "categories": [
+        "exercise"
+      ]
+    },
+    {
+      "title": "NATO to add up to five Northrop Grumman Triton drones for maritime surveillance",
+      "link": "https://www.defensenews.com/global/europe/2026/07/07/nato-to-add-up-to-five-northrop-grumman-triton-drones-for-maritime-surveillance/",
+      "published": "Tue, 07 Jul 2026 09:42:08 +0000",
+      "source": "Defense News",
+      "categories": [
+        "exercise"
+      ]
+    },
+    {
+      "title": "U.S. Marines Demonstrate Dual MEF Strategy in Western Pacific Drills",
+      "link": "https://news.usni.org/2026/07/07/u-s-marines-demonstrate-dual-mef-strategy-in-western-pacific-drills",
+      "published": "Tue, 07 Jul 2026 14:36:28 +0000",
       "source": "USNI News",
       "categories": [
         "exercise"
@@ -936,17 +936,17 @@
   ],
   "_threat_indicators": {
     "deployment_articles": 12,
-    "conflict_articles": 5,
-    "exercise_articles": 7,
+    "conflict_articles": 6,
+    "exercise_articles": 6,
     "total_articles": 50,
-    "computed_at": "2026-07-07T13:08:42.834639+00:00",
+    "computed_at": "2026-07-07T16:14:12.887889+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[USNI News] FLEETEX250: ‘They’re Here, We Might as Well Train’",
       "[USNI News] USS Nimitz: An Aircraft Carrier’s Final Journey",
       "[USNI News] America’s Navy at 250: A Naval History and Heritage Command Publication",
-      "[Military Times] US withdrew forces from Nigeria after operation against ISIS, AFRICOM chief says",
-      "[Naval News] India and Japan to Co-develop Naval Radio Antenna Based on UNICORN"
+      "[Naval News] Communication starts with us – SEICAM® and TRITON® II for the Next Generation of Submarines",
+      "[Military Times] US Navy suspends search for missing aviator in Arabian Sea"
     ]
   },
   "ground_intel": {
@@ -957,7 +957,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-07-07T13:08:42.834707+00:00",
+    "last_successful_update": "2026-07-07T16:14:12.887938+00:00",
     "article_count": 50,
     "categorized_count": 22,
     "freshest_source": "USNI News",
