@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-07-07T03:19:04Z",
-  "version": 1940,
+  "generated_utc": "2026-07-07T07:25:00Z",
+  "version": 1941,
   "breaking_alert": "USNI News: FLEETEX250: ‘They’re Here, We Might as Well Train’",
   "naval_deployments": [
     {
@@ -621,15 +621,6 @@
       ]
     },
     {
-      "title": "U.S. Navy Eyes CPS Deployment from New VLS, Containers",
-      "link": "https://www.navalnews.com/naval-news/2026/07/u-s-navy-eyes-cps-deployment-from-new-vls-containers/",
-      "published": "Fri, 03 Jul 2026 16:33:15 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "India and Japan to Co-develop Naval Radio Antenna Based on UNICORN",
       "link": "https://www.navalnews.com/naval-news/2026/07/india-and-japan-to-co-develop-naval-radio-antenna-based-on-unicorn/",
       "published": "Mon, 06 Jul 2026 05:28:00 +0000",
@@ -684,6 +675,15 @@
       "categories": [
         "deployment",
         "conflict"
+      ]
+    },
+    {
+      "title": "Navy halts search for sailor missing in the Arabian Sea",
+      "link": "https://taskandpurpose.com/news/navy-suspends-search-arabian-sea/",
+      "published": "Sun, 05 Jul 2026 13:26:52 -0400",
+      "source": "Task & Purpose",
+      "categories": [
+        "deployment"
       ]
     }
   ],
@@ -867,18 +867,18 @@
         "deployment",
         "conflict"
       ]
+    },
+    {
+      "title": "Indonesia Signs BrahMos Missile Deal with India",
+      "link": "https://www.navalnews.com/naval-news/2026/07/indonesia-signs-brahmos-missile-deal-with-india/",
+      "published": "Tue, 07 Jul 2026 06:59:51 +0000",
+      "source": "Naval News",
+      "categories": [
+        "conflict"
+      ]
     }
   ],
   "_exercise_news_refs": [
-    {
-      "title": "Europeans to fill almost all gaps left by US in NATO defense plans, source says",
-      "link": "https://www.defensenews.com/global/europe/2026/07/03/europeans-to-fill-almost-all-gaps-left-by-us-in-nato-defense-plans-source-says/",
-      "published": "Fri, 03 Jul 2026 14:00:00 +0000",
-      "source": "Defense News",
-      "categories": [
-        "exercise"
-      ]
-    },
     {
       "title": "US withdrew forces from Nigeria after operation against ISIS, AFRICOM chief says",
       "link": "https://www.defensenews.com/news/pentagon-congress/2026/07/03/us-withdrew-forces-from-nigeria-after-operation-against-isis-africom-chief-says/",
@@ -914,21 +914,32 @@
       "categories": [
         "exercise"
       ]
+    },
+    {
+      "title": "China Tests Submarine-launched Ballistic Missile, Kicks Off Annual Exercise With Russia",
+      "link": "https://news.usni.org/2026/07/06/china-tests-submarine-launched-ballistic-missile-kicks-off-annual-exercise-with-russia",
+      "published": "Mon, 06 Jul 2026 20:25:53 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment",
+        "exercise",
+        "conflict"
+      ]
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 11,
-    "conflict_articles": 3,
-    "exercise_articles": 7,
+    "deployment_articles": 12,
+    "conflict_articles": 4,
+    "exercise_articles": 6,
     "total_articles": 50,
-    "computed_at": "2026-07-07T03:19:01.656872+00:00",
+    "computed_at": "2026-07-07T07:24:54.274335+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[USNI News] FLEETEX250: ‘They’re Here, We Might as Well Train’",
       "[USNI News] USS Nimitz: An Aircraft Carrier’s Final Journey",
       "[USNI News] America’s Navy at 250: A Naval History and Heritage Command Publication",
-      "[Defense News] Europeans to fill almost all gaps left by US in NATO defense plans, source says",
-      "[Naval News] U.S. Navy Eyes CPS Deployment from New VLS, Containers"
+      "[Defense News] US withdrew forces from Nigeria after operation against ISIS, AFRICOM chief says",
+      "[Military Times] US withdrew forces from Nigeria after operation against ISIS, AFRICOM chief says"
     ]
   },
   "ground_intel": {
@@ -939,9 +950,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-07-07T03:19:01.656917+00:00",
+    "last_successful_update": "2026-07-07T07:24:54.274409+00:00",
     "article_count": 50,
-    "categorized_count": 18,
+    "categorized_count": 19,
     "freshest_source": "USNI News",
     "freshest_title": "FLEETEX250: ‘They’re Here, We Might as Well Train’",
     "freshest_published": "Fri, 03 Jul 2026 01:28:00 +0000"
