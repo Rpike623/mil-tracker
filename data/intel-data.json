@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-07-08T20:51:48Z",
-  "version": 1957,
+  "generated_utc": "2026-07-08T21:55:10Z",
+  "version": 1958,
   "breaking_alert": "USNI News: Navy Ends Search for Missing George H.W. Bush Sailor in Arabian Sea",
   "naval_deployments": [
     {
@@ -932,7 +932,7 @@
     "conflict_articles": 6,
     "exercise_articles": 6,
     "total_articles": 50,
-    "computed_at": "2026-07-08T20:51:45.656941+00:00",
+    "computed_at": "2026-07-08T21:55:04.271511+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[USNI News] Navy Ends Search for Missing George H.W. Bush Sailor in Arabian Sea",
@@ -950,7 +950,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-07-08T20:51:45.656989+00:00",
+    "last_successful_update": "2026-07-08T21:55:04.271556+00:00",
     "article_count": 50,
     "categorized_count": 18,
     "freshest_source": "USNI News",
