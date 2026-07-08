@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-07-08T17:14:44Z",
-  "version": 1955,
+  "generated_utc": "2026-07-08T19:00:36Z",
+  "version": 1956,
   "breaking_alert": "USNI News: Navy Ends Search for Missing George H.W. Bush Sailor in Arabian Sea",
   "naval_deployments": [
     {
@@ -676,6 +676,15 @@
       "categories": [
         "deployment"
       ]
+    },
+    {
+      "title": "Salesforce security platform tapped to manage Air Force global vehicle fleet",
+      "link": "https://www.militarytimes.com/industry/techwatch/2026/07/08/salesforce-security-platform-tapped-to-manage-air-force-global-vehicle-fleet/",
+      "published": "Wed, 08 Jul 2026 16:06:10 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment"
+      ]
     }
   ],
   "centcom_assets": {
@@ -928,11 +937,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 9,
+    "deployment_articles": 10,
     "conflict_articles": 5,
     "exercise_articles": 6,
-    "total_articles": 40,
-    "computed_at": "2026-07-08T17:14:42.007223+00:00",
+    "total_articles": 50,
+    "computed_at": "2026-07-08T19:00:30.365795+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[USNI News] Navy Ends Search for Missing George H.W. Bush Sailor in Arabian Sea",
@@ -950,9 +959,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-07-08T17:14:42.007278+00:00",
-    "article_count": 40,
-    "categorized_count": 17,
+    "last_successful_update": "2026-07-08T19:00:30.365834+00:00",
+    "article_count": 50,
+    "categorized_count": 18,
     "freshest_source": "USNI News",
     "freshest_title": "Navy Ends Search for Missing George H.W. Bush Sailor in Arabian Sea",
     "freshest_published": "Mon, 06 Jul 2026 18:36:59 +0000"
