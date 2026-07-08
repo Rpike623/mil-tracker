@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-07-08T01:18:33Z",
-  "version": 1949,
+  "generated_utc": "2026-07-08T04:59:01Z",
+  "version": 1950,
   "breaking_alert": "USNI News: USS Nimitz: An Aircraft Carrier’s Final Journey",
   "naval_deployments": [
     {
@@ -939,7 +939,7 @@
     "conflict_articles": 9,
     "exercise_articles": 5,
     "total_articles": 50,
-    "computed_at": "2026-07-08T01:18:31.548277+00:00",
+    "computed_at": "2026-07-08T04:54:20.794152+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[USNI News] USS Nimitz: An Aircraft Carrier’s Final Journey",
@@ -957,7 +957,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-07-08T01:18:31.548320+00:00",
+    "last_successful_update": "2026-07-08T04:54:20.794199+00:00",
     "article_count": 50,
     "categorized_count": 23,
     "freshest_source": "USNI News",
