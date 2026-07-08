@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-07-08T10:02:21Z",
-  "version": 1952,
+  "generated_utc": "2026-07-08T12:10:45Z",
+  "version": 1953,
   "breaking_alert": "USNI News: USS Nimitz: An Aircraft Carrier’s Final Journey",
   "naval_deployments": [
     {
@@ -650,15 +650,6 @@
       ]
     },
     {
-      "title": "Canada Selects TKMS as Preferred Bidder for CPSP Submarine Program",
-      "link": "https://www.navalnews.com/naval-news/2026/07/canada-selects-tkms-cpsp-submarine-project/",
-      "published": "Tue, 07 Jul 2026 05:24:11 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "US troops could restart Poland deployments in the ‘coming weeks’",
       "link": "https://taskandpurpose.com/news/us-troops-restart-poland-deployments/",
       "published": "Tue, 07 Jul 2026 10:14:29 -0400",
@@ -681,6 +672,15 @@
       "link": "https://news.usni.org/2026/07/07/usni-news-fleet-and-marine-tracker-july-7-2026",
       "published": "Tue, 07 Jul 2026 19:10:30 +0000",
       "source": "USNI News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Philippines Confirms Deal to Acquire Five Japanese Abukuma-class Destroyer Escorts",
+      "link": "https://www.navalnews.com/naval-news/2026/07/philippines-confirms-deal-to-acquire-five-japanese-abukuma-class-destroyer-escorts/",
+      "published": "Tue, 07 Jul 2026 20:59:00 +0000",
+      "source": "Naval News",
       "categories": [
         "deployment"
       ]
@@ -935,11 +935,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 13,
+    "deployment_articles": 12,
     "conflict_articles": 11,
     "exercise_articles": 6,
     "total_articles": 50,
-    "computed_at": "2026-07-08T10:02:19.833401+00:00",
+    "computed_at": "2026-07-08T12:10:37.393871+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[USNI News] USS Nimitz: An Aircraft Carrier’s Final Journey",
@@ -957,9 +957,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-07-08T10:02:19.833444+00:00",
+    "last_successful_update": "2026-07-08T12:10:37.393917+00:00",
     "article_count": 50,
-    "categorized_count": 27,
+    "categorized_count": 26,
     "freshest_source": "USNI News",
     "freshest_title": "USS Nimitz: An Aircraft Carrier’s Final Journey",
     "freshest_published": "Fri, 03 Jul 2026 12:57:35 +0000"
