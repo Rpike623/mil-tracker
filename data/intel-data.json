@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-07-08T19:00:36Z",
-  "version": 1956,
+  "generated_utc": "2026-07-08T20:51:48Z",
+  "version": 1957,
   "breaking_alert": "USNI News: Navy Ends Search for Missing George H.W. Bush Sailor in Arabian Sea",
   "naval_deployments": [
     {
@@ -623,15 +623,6 @@
       ]
     },
     {
-      "title": "Finland Signs Multi-Million Euro Framework Agreement for Forcit Blocker Naval Mines",
-      "link": "https://www.navalnews.com/naval-news/2026/07/finland-leads-joint-procurement-forcit-blocker-naval-mines/",
-      "published": "Tue, 07 Jul 2026 12:01:46 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "USNI News Fleet and Marine Tracker: July 7, 2026",
       "link": "https://news.usni.org/2026/07/07/usni-news-fleet-and-marine-tracker-july-7-2026",
       "published": "Tue, 07 Jul 2026 19:10:30 +0000",
@@ -937,18 +928,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 10,
-    "conflict_articles": 5,
+    "deployment_articles": 9,
+    "conflict_articles": 6,
     "exercise_articles": 6,
     "total_articles": 50,
-    "computed_at": "2026-07-08T19:00:30.365795+00:00",
+    "computed_at": "2026-07-08T20:51:45.656941+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[USNI News] Navy Ends Search for Missing George H.W. Bush Sailor in Arabian Sea",
       "[USNI News] China Tests Submarine-launched Ballistic Missile, Kicks Off Annual Exercise With Russia",
       "[Task & Purpose] US troops could restart Poland deployments in the ‘coming weeks’",
-      "[Naval News] Finland Signs Multi-Million Euro Framework Agreement for Forcit Blocker Naval Mines",
-      "[USNI News] U.S. Marines Demonstrate Dual MEF Strategy in Western Pacific Drills"
+      "[USNI News] U.S. Marines Demonstrate Dual MEF Strategy in Western Pacific Drills",
+      "[Defense News] Chinese ballistic missile test is said to undermine nuclear weapons-free zone in South Pacific"
     ]
   },
   "ground_intel": {
@@ -959,7 +950,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-07-08T19:00:30.365834+00:00",
+    "last_successful_update": "2026-07-08T20:51:45.656989+00:00",
     "article_count": 50,
     "categorized_count": 18,
     "freshest_source": "USNI News",
