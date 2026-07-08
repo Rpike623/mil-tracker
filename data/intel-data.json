@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-07-08T15:04:36Z",
-  "version": 1954,
-  "breaking_alert": "USNI News: USS Nimitz: An Aircraft Carrier’s Final Journey",
+  "generated_utc": "2026-07-08T17:14:44Z",
+  "version": 1955,
+  "breaking_alert": "USNI News: Navy Ends Search for Missing George H.W. Bush Sailor in Arabian Sea",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -594,24 +594,6 @@
   ],
   "_naval_news_refs": [
     {
-      "title": "USS Nimitz: An Aircraft Carrier’s Final Journey",
-      "link": "https://news.usni.org/2026/07/03/uss-nimitz-an-aircraft-carriers-final-journey",
-      "published": "Fri, 03 Jul 2026 12:57:35 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "America’s Navy at 250: A Naval History and Heritage Command Publication",
-      "link": "https://news.usni.org/2026/07/03/americas-navy-at-250-a-naval-history-and-heritage-command-publication",
-      "published": "Fri, 03 Jul 2026 13:30:51 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Navy Ends Search for Missing George H.W. Bush Sailor in Arabian Sea",
       "link": "https://news.usni.org/2026/07/06/navy-ends-search-for-missing-george-h-w-bush-sailor-in-arabian-sea",
       "published": "Mon, 06 Jul 2026 18:36:59 +0000",
@@ -668,20 +650,29 @@
       ]
     },
     {
-      "title": "US launches new strikes on Iran after reinstating oil sanctions over shipping attacks",
-      "link": "https://www.militarytimes.com/news/your-military/2026/07/07/us-launches-new-strikes-on-iran-after-reinstating-oil-sanctions-over-shipping-attacks/",
-      "published": "Tue, 07 Jul 2026 23:16:49 +0000",
-      "source": "Military Times",
+      "title": "Türkiye’s TAYFUN Block-3 ASBM Scores Direct Hit on Moving Sea Target",
+      "link": "https://www.navalnews.com/naval-news/2026/07/turkiyes-tayfun-block-3-asbm-scores-direct-hit-on-moving-sea-target/",
+      "published": "Wed, 08 Jul 2026 08:09:03 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "US strikes more than 80 targets as Trump calls Iran ceasefire ‘over’",
+      "link": "https://taskandpurpose.com/news/military-iran-ceasefire-over/",
+      "published": "Wed, 08 Jul 2026 09:05:09 -0400",
+      "source": "Task & Purpose",
       "categories": [
         "deployment",
         "conflict"
       ]
     },
     {
-      "title": "Türkiye’s TAYFUN Block-3 ASBM Scores Direct Hit on Moving Sea Target",
-      "link": "https://www.navalnews.com/naval-news/2026/07/turkiyes-tayfun-block-3-asbm-scores-direct-hit-on-moving-sea-target/",
-      "published": "Wed, 08 Jul 2026 08:09:03 +0000",
-      "source": "Naval News",
+      "title": "Navy Identifies Helicopter Squadron Commander As Missing Sailor in Arabian Sea",
+      "link": "https://news.usni.org/2026/07/08/navy-identifies-helicopter-squadron-commander-as-missing-sailor-in-arabian-sea",
+      "published": "Wed, 08 Jul 2026 15:21:01 +0000",
+      "source": "USNI News",
       "categories": [
         "deployment"
       ]
@@ -850,24 +841,6 @@
       ]
     },
     {
-      "title": "Polish defense giant PGZ to produce Anduril’s Barracuda cruise missile",
-      "link": "https://www.defensenews.com/global/europe/2026/07/07/polish-defense-giant-pgz-to-produce-andurils-barracuda-cruise-missile/",
-      "published": "Tue, 07 Jul 2026 10:33:42 +0000",
-      "source": "Defense News",
-      "categories": [
-        "conflict"
-      ]
-    },
-    {
-      "title": "Germany set to become first international site for ATACMS missile production",
-      "link": "https://www.defensenews.com/global/europe/2026/07/07/germany-set-to-become-first-international-site-for-atacms-missile-production/",
-      "published": "Tue, 07 Jul 2026 11:54:05 +0000",
-      "source": "Defense News",
-      "categories": [
-        "conflict"
-      ]
-    },
-    {
       "title": "Chinese ballistic missile test is said to undermine nuclear weapons-free zone in South Pacific",
       "link": "https://www.defensenews.com/global/asia-pacific/2026/07/07/chinese-ballistic-missile-test-is-said-to-undermine-nuclear-weapons-free-zone-in-south-pacific/",
       "published": "Tue, 07 Jul 2026 14:49:04 +0000",
@@ -882,6 +855,25 @@
       "published": "Tue, 07 Jul 2026 19:10:20 +0000",
       "source": "Defense News",
       "categories": [
+        "conflict"
+      ]
+    },
+    {
+      "title": "China shows snazzy clip of DF-17 missile on state TV in show of force",
+      "link": "https://www.defensenews.com/global/asia-pacific/2026/07/08/china-shows-snazzy-clip-of-df-17-missile-on-state-tv-in-show-of-force/",
+      "published": "Wed, 08 Jul 2026 08:49:14 +0000",
+      "source": "Defense News",
+      "categories": [
+        "conflict"
+      ]
+    },
+    {
+      "title": "US strikes more than 80 targets as Trump calls Iran ceasefire ‘over’",
+      "link": "https://taskandpurpose.com/news/military-iran-ceasefire-over/",
+      "published": "Wed, 08 Jul 2026 09:05:09 -0400",
+      "source": "Task & Purpose",
+      "categories": [
+        "deployment",
         "conflict"
       ]
     }
@@ -936,18 +928,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 11,
-    "conflict_articles": 11,
-    "exercise_articles": 7,
-    "total_articles": 50,
-    "computed_at": "2026-07-08T15:04:33.205962+00:00",
-    "manual_override": "DEFCON_2",
+    "deployment_articles": 9,
+    "conflict_articles": 5,
+    "exercise_articles": 6,
+    "total_articles": 40,
+    "computed_at": "2026-07-08T17:14:42.007223+00:00",
+    "manual_override": "DEFCON_3",
     "breaking_events": [
-      "[USNI News] USS Nimitz: An Aircraft Carrier’s Final Journey",
-      "[USNI News] America’s Navy at 250: A Naval History and Heritage Command Publication",
       "[USNI News] Navy Ends Search for Missing George H.W. Bush Sailor in Arabian Sea",
       "[USNI News] China Tests Submarine-launched Ballistic Missile, Kicks Off Annual Exercise With Russia",
-      "[Task & Purpose] US troops could restart Poland deployments in the ‘coming weeks’"
+      "[Task & Purpose] US troops could restart Poland deployments in the ‘coming weeks’",
+      "[Naval News] Finland Signs Multi-Million Euro Framework Agreement for Forcit Blocker Naval Mines",
+      "[USNI News] U.S. Marines Demonstrate Dual MEF Strategy in Western Pacific Drills"
     ]
   },
   "ground_intel": {
@@ -958,12 +950,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-07-08T15:04:33.206012+00:00",
-    "article_count": 50,
-    "categorized_count": 25,
+    "last_successful_update": "2026-07-08T17:14:42.007278+00:00",
+    "article_count": 40,
+    "categorized_count": 17,
     "freshest_source": "USNI News",
-    "freshest_title": "USS Nimitz: An Aircraft Carrier’s Final Journey",
-    "freshest_published": "Fri, 03 Jul 2026 12:57:35 +0000"
+    "freshest_title": "Navy Ends Search for Missing George H.W. Bush Sailor in Arabian Sea",
+    "freshest_published": "Mon, 06 Jul 2026 18:36:59 +0000"
   },
   "_firms_hotspots": []
 }
