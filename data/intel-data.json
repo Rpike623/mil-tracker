@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-07-09T22:14:49Z",
-  "version": 1968,
+  "generated_utc": "2026-07-09T23:55:13Z",
+  "version": 1969,
   "breaking_alert": "Defense News: UK eyes $50 billion in pooled NATO funds for new long-range strike initiative",
   "naval_deployments": [
     {
@@ -630,6 +630,15 @@
       ]
     },
     {
+      "title": "Australian Naval Shipbuilding At The Henderson Defence Precinct – A Naval News Outline",
+      "link": "https://www.navalnews.com/naval-news/2026/07/australian-naval-shipbuilding-at-the-henderson-defence-precinct/",
+      "published": "Thu, 09 Jul 2026 22:39:08 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "US troops could restart Poland deployments in the ‘coming weeks’",
       "link": "https://taskandpurpose.com/news/us-troops-restart-poland-deployments/",
       "published": "Tue, 07 Jul 2026 10:14:29 -0400",
@@ -888,11 +897,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 8,
+    "deployment_articles": 9,
     "conflict_articles": 4,
     "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-07-09T22:10:08.676263+00:00",
+    "computed_at": "2026-07-09T23:55:10.669754+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Defense News] UK eyes $50 billion in pooled NATO funds for new long-range strike initiative",
@@ -910,9 +919,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-07-09T22:10:08.676299+00:00",
+    "last_successful_update": "2026-07-09T23:55:10.669795+00:00",
     "article_count": 50,
-    "categorized_count": 13,
+    "categorized_count": 14,
     "freshest_source": "Defense News",
     "freshest_title": "UK eyes $50 billion in pooled NATO funds for new long-range strike initiative",
     "freshest_published": "Thu, 09 Jul 2026 14:33:09 +0000"
