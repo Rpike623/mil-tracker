@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-07-09T10:15:34Z",
-  "version": 1963,
+  "generated_utc": "2026-07-09T13:39:25Z",
+  "version": 1964,
   "breaking_alert": "USNI News: Navy Ends Search for Missing George H.W. Bush Sailor in Arabian Sea",
   "naval_deployments": [
     {
@@ -900,19 +900,19 @@
       ]
     },
     {
-      "title": "ADVENT CMS Enters Service with a NATO Navy For the First Time",
-      "link": "https://www.navalnews.com/naval-news/2026/07/advent-cms-enters-service-with-a-nato-navy-for-the-first-time/",
-      "published": "Wed, 08 Jul 2026 07:33:01 +0000",
-      "source": "Naval News",
+      "title": "Trump turns on Spain and demands Greenland as NATO summit exposes cracks",
+      "link": "https://www.defensenews.com/global/europe/2026/07/08/trump-turns-on-spain-and-demands-greenland-as-nato-summit-exposes-cracks/",
+      "published": "Wed, 08 Jul 2026 12:40:31 +0000",
+      "source": "Defense News",
       "categories": [
         "exercise"
       ]
     },
     {
-      "title": "Trump turns on Spain and demands Greenland as NATO summit exposes cracks",
-      "link": "https://www.defensenews.com/global/europe/2026/07/08/trump-turns-on-spain-and-demands-greenland-as-nato-summit-exposes-cracks/",
-      "published": "Wed, 08 Jul 2026 12:40:31 +0000",
-      "source": "Defense News",
+      "title": "Report to Congress on Issues for NATO at the Ankara Summit",
+      "link": "https://news.usni.org/2026/07/08/report-to-congress-on-issues-for-nato-at-the-ankara-summit",
+      "published": "Wed, 08 Jul 2026 13:19:06 +0000",
+      "source": "USNI News",
       "categories": [
         "exercise"
       ]
@@ -921,9 +921,9 @@
   "_threat_indicators": {
     "deployment_articles": 8,
     "conflict_articles": 6,
-    "exercise_articles": 6,
+    "exercise_articles": 5,
     "total_articles": 50,
-    "computed_at": "2026-07-09T10:15:30.903838+00:00",
+    "computed_at": "2026-07-09T13:39:19.450451+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[USNI News] Navy Ends Search for Missing George H.W. Bush Sailor in Arabian Sea",
@@ -941,9 +941,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-07-09T10:15:30.903887+00:00",
+    "last_successful_update": "2026-07-09T13:39:19.450497+00:00",
     "article_count": 50,
-    "categorized_count": 17,
+    "categorized_count": 16,
     "freshest_source": "USNI News",
     "freshest_title": "Navy Ends Search for Missing George H.W. Bush Sailor in Arabian Sea",
     "freshest_published": "Mon, 06 Jul 2026 18:36:59 +0000"
