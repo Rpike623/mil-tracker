@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-07-09T20:29:44Z",
-  "version": 1967,
-  "breaking_alert": "USNI News: China Tests Submarine-launched Ballistic Missile, Kicks Off Annual Exercise With Russia",
+  "generated_utc": "2026-07-09T22:14:49Z",
+  "version": 1968,
+  "breaking_alert": "Defense News: UK eyes $50 billion in pooled NATO funds for new long-range strike initiative",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -594,17 +594,6 @@
   ],
   "_naval_news_refs": [
     {
-      "title": "China Tests Submarine-launched Ballistic Missile, Kicks Off Annual Exercise With Russia",
-      "link": "https://news.usni.org/2026/07/06/china-tests-submarine-launched-ballistic-missile-kicks-off-annual-exercise-with-russia",
-      "published": "Mon, 06 Jul 2026 20:25:53 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment",
-        "exercise",
-        "conflict"
-      ]
-    },
-    {
       "title": "J.A. Solutions Introduces Automatic Deployment System for USVs and Surface Vessels",
       "link": "https://www.navalnews.com/naval-news/2026/07/j-a-solutions-introduces-automatic-deployment-system-for-usvs-and-surface-vessels/",
       "published": "Thu, 09 Jul 2026 15:35:01 +0000",
@@ -627,6 +616,15 @@
       "link": "https://www.militarytimes.com/news/your-navy/2026/07/09/uss-gerald-r-ford-to-undergo-maintenance-after-onboard-fire-and-plumbing-issues/",
       "published": "Thu, 09 Jul 2026 18:52:25 +0000",
       "source": "Military Times",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "USS Nimitz Arrives in Norfolk for Homeport Shift",
+      "link": "https://news.usni.org/2026/07/09/uss-nimitz-arrives-in-norfolk-for-homeport-shift",
+      "published": "Thu, 09 Jul 2026 20:44:06 +0000",
+      "source": "USNI News",
       "categories": [
         "deployment"
       ]
@@ -821,17 +819,6 @@
   },
   "_conflict_news_refs": [
     {
-      "title": "China Tests Submarine-launched Ballistic Missile, Kicks Off Annual Exercise With Russia",
-      "link": "https://news.usni.org/2026/07/06/china-tests-submarine-launched-ballistic-missile-kicks-off-annual-exercise-with-russia",
-      "published": "Mon, 06 Jul 2026 20:25:53 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment",
-        "exercise",
-        "conflict"
-      ]
-    },
-    {
       "title": "UK eyes $50 billion in pooled NATO funds for new long-range strike initiative",
       "link": "https://www.defensenews.com/global/europe/2026/07/09/uk-eyes-50-billion-in-pooled-nato-funds-for-new-long-range-strike-initiative/",
       "published": "Thu, 09 Jul 2026 14:33:09 +0000",
@@ -872,17 +859,6 @@
   ],
   "_exercise_news_refs": [
     {
-      "title": "China Tests Submarine-launched Ballistic Missile, Kicks Off Annual Exercise With Russia",
-      "link": "https://news.usni.org/2026/07/06/china-tests-submarine-launched-ballistic-missile-kicks-off-annual-exercise-with-russia",
-      "published": "Mon, 06 Jul 2026 20:25:53 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment",
-        "exercise",
-        "conflict"
-      ]
-    },
-    {
       "title": "UK eyes $50 billion in pooled NATO funds for new long-range strike initiative",
       "link": "https://www.defensenews.com/global/europe/2026/07/09/uk-eyes-50-billion-in-pooled-nato-funds-for-new-long-range-strike-initiative/",
       "published": "Thu, 09 Jul 2026 14:33:09 +0000",
@@ -890,15 +866,6 @@
       "categories": [
         "exercise",
         "conflict"
-      ]
-    },
-    {
-      "title": "U.S. Marines Demonstrate Dual MEF Strategy in Western Pacific Drills",
-      "link": "https://news.usni.org/2026/07/07/u-s-marines-demonstrate-dual-mef-strategy-in-western-pacific-drills",
-      "published": "Tue, 07 Jul 2026 14:36:28 +0000",
-      "source": "USNI News",
-      "categories": [
-        "exercise"
       ]
     },
     {
@@ -922,17 +889,17 @@
   ],
   "_threat_indicators": {
     "deployment_articles": 8,
-    "conflict_articles": 5,
-    "exercise_articles": 5,
+    "conflict_articles": 4,
+    "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-07-09T20:29:42.689182+00:00",
+    "computed_at": "2026-07-09T22:10:08.676263+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
-      "[USNI News] China Tests Submarine-launched Ballistic Missile, Kicks Off Annual Exercise With Russia",
       "[Defense News] UK eyes $50 billion in pooled NATO funds for new long-range strike initiative",
       "[Naval News] J.A. Solutions Introduces Automatic Deployment System for USVs and Surface Vessels",
       "[Military Times] The Indiana forest that keeps the USS Constitution afloat",
-      "[Military Times] USS Gerald R. Ford to undergo maintenance after onboard fire and plumbing issues"
+      "[Military Times] USS Gerald R. Ford to undergo maintenance after onboard fire and plumbing issues",
+      "[USNI News] USS Nimitz Arrives in Norfolk for Homeport Shift"
     ]
   },
   "ground_intel": {
@@ -943,12 +910,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-07-09T20:29:42.689227+00:00",
+    "last_successful_update": "2026-07-09T22:10:08.676299+00:00",
     "article_count": 50,
-    "categorized_count": 14,
-    "freshest_source": "USNI News",
-    "freshest_title": "China Tests Submarine-launched Ballistic Missile, Kicks Off Annual Exercise With Russia",
-    "freshest_published": "Mon, 06 Jul 2026 20:25:53 +0000"
+    "categorized_count": 13,
+    "freshest_source": "Defense News",
+    "freshest_title": "UK eyes $50 billion in pooled NATO funds for new long-range strike initiative",
+    "freshest_published": "Thu, 09 Jul 2026 14:33:09 +0000"
   },
   "_firms_hotspots": []
 }
