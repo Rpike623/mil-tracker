@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-07-09T13:39:25Z",
-  "version": 1964,
+  "generated_utc": "2026-07-09T16:18:42Z",
+  "version": 1965,
   "breaking_alert": "USNI News: Navy Ends Search for Missing George H.W. Bush Sailor in Arabian Sea",
   "naval_deployments": [
     {
@@ -614,6 +614,15 @@
       ]
     },
     {
+      "title": "J.A. Solutions Introduces Automatic Deployment System for USVs and Surface Vessels",
+      "link": "https://www.navalnews.com/naval-news/2026/07/j-a-solutions-introduces-automatic-deployment-system-for-usvs-and-surface-vessels/",
+      "published": "Thu, 09 Jul 2026 15:35:01 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "US troops could restart Poland deployments in the ‘coming weeks’",
       "link": "https://taskandpurpose.com/news/us-troops-restart-poland-deployments/",
       "published": "Tue, 07 Jul 2026 10:14:29 -0400",
@@ -627,15 +636,6 @@
       "link": "https://news.usni.org/2026/07/07/usni-news-fleet-and-marine-tracker-july-7-2026",
       "published": "Tue, 07 Jul 2026 19:10:30 +0000",
       "source": "USNI News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Türkiye’s TAYFUN Block-3 ASBM Scores Direct Hit on Moving Sea Target",
-      "link": "https://www.navalnews.com/naval-news/2026/07/turkiyes-tayfun-block-3-asbm-scores-direct-hit-on-moving-sea-target/",
-      "published": "Wed, 08 Jul 2026 08:09:03 +0000",
-      "source": "Naval News",
       "categories": [
         "deployment"
       ]
@@ -655,15 +655,6 @@
       "link": "https://news.usni.org/2026/07/08/navy-identifies-helicopter-squadron-commander-as-missing-sailor-in-arabian-sea",
       "published": "Wed, 08 Jul 2026 15:21:01 +0000",
       "source": "USNI News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Salesforce security platform tapped to manage Air Force global vehicle fleet",
-      "link": "https://www.militarytimes.com/industry/techwatch/2026/07/08/salesforce-security-platform-tapped-to-manage-air-force-global-vehicle-fleet/",
-      "published": "Wed, 08 Jul 2026 16:06:10 +0000",
-      "source": "Military Times",
       "categories": [
         "deployment"
       ]
@@ -832,20 +823,12 @@
       ]
     },
     {
-      "title": "Chinese ballistic missile test is said to undermine nuclear weapons-free zone in South Pacific",
-      "link": "https://www.defensenews.com/global/asia-pacific/2026/07/07/chinese-ballistic-missile-test-is-said-to-undermine-nuclear-weapons-free-zone-in-south-pacific/",
-      "published": "Tue, 07 Jul 2026 14:49:04 +0000",
+      "title": "UK eyes $50 billion in pooled NATO funds for new long-range strike initiative",
+      "link": "https://www.defensenews.com/global/europe/2026/07/09/uk-eyes-50-billion-in-pooled-nato-funds-for-new-long-range-strike-initiative/",
+      "published": "Thu, 09 Jul 2026 14:33:09 +0000",
       "source": "Defense News",
       "categories": [
-        "conflict"
-      ]
-    },
-    {
-      "title": "US Navy fears ballistic missile subs can be hit by drones, anti-tank rockets",
-      "link": "https://www.defensenews.com/industry/techwatch/2026/07/07/us-navy-fears-ballistic-missile-subs-can-be-hit-by-drones-anti-tank-rockets/",
-      "published": "Tue, 07 Jul 2026 19:10:20 +0000",
-      "source": "Defense News",
-      "categories": [
+        "exercise",
         "conflict"
       ]
     },
@@ -867,6 +850,15 @@
         "deployment",
         "conflict"
       ]
+    },
+    {
+      "title": "Canada Selects German Firm to Build 12 Attack Boats for Royal Canadian Navy",
+      "link": "https://news.usni.org/2026/07/08/canada-selects-german-firm-to-build-12-attack-boats-for-royal-canadian-navy",
+      "published": "Wed, 08 Jul 2026 20:40:10 +0000",
+      "source": "USNI News",
+      "categories": [
+        "conflict"
+      ]
     }
   ],
   "_exercise_news_refs": [
@@ -882,19 +874,20 @@
       ]
     },
     {
+      "title": "UK eyes $50 billion in pooled NATO funds for new long-range strike initiative",
+      "link": "https://www.defensenews.com/global/europe/2026/07/09/uk-eyes-50-billion-in-pooled-nato-funds-for-new-long-range-strike-initiative/",
+      "published": "Thu, 09 Jul 2026 14:33:09 +0000",
+      "source": "Defense News",
+      "categories": [
+        "exercise",
+        "conflict"
+      ]
+    },
+    {
       "title": "U.S. Marines Demonstrate Dual MEF Strategy in Western Pacific Drills",
       "link": "https://news.usni.org/2026/07/07/u-s-marines-demonstrate-dual-mef-strategy-in-western-pacific-drills",
       "published": "Tue, 07 Jul 2026 14:36:28 +0000",
       "source": "USNI News",
-      "categories": [
-        "exercise"
-      ]
-    },
-    {
-      "title": "Eight NATO allies launch HALO satellite constellation initiative",
-      "link": "https://www.defensenews.com/space/2026/07/07/eight-nato-allies-launch-halo-satellite-constellation-initiative/",
-      "published": "Tue, 07 Jul 2026 15:30:56 +0000",
-      "source": "Defense News",
       "categories": [
         "exercise"
       ]
@@ -919,18 +912,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 8,
-    "conflict_articles": 6,
+    "deployment_articles": 7,
+    "conflict_articles": 5,
     "exercise_articles": 5,
     "total_articles": 50,
-    "computed_at": "2026-07-09T13:39:19.450451+00:00",
+    "computed_at": "2026-07-09T16:18:35.816741+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[USNI News] Navy Ends Search for Missing George H.W. Bush Sailor in Arabian Sea",
       "[USNI News] China Tests Submarine-launched Ballistic Missile, Kicks Off Annual Exercise With Russia",
-      "[Task & Purpose] US troops could restart Poland deployments in the ‘coming weeks’",
-      "[USNI News] U.S. Marines Demonstrate Dual MEF Strategy in Western Pacific Drills",
-      "[Defense News] Chinese ballistic missile test is said to undermine nuclear weapons-free zone in South Pacific"
+      "[Defense News] UK eyes $50 billion in pooled NATO funds for new long-range strike initiative",
+      "[Naval News] J.A. Solutions Introduces Automatic Deployment System for USVs and Surface Vessels",
+      "[Task & Purpose] US troops could restart Poland deployments in the ‘coming weeks’"
     ]
   },
   "ground_intel": {
@@ -941,9 +934,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-07-09T13:39:19.450497+00:00",
+    "last_successful_update": "2026-07-09T16:18:35.816786+00:00",
     "article_count": 50,
-    "categorized_count": 16,
+    "categorized_count": 13,
     "freshest_source": "USNI News",
     "freshest_title": "Navy Ends Search for Missing George H.W. Bush Sailor in Arabian Sea",
     "freshest_published": "Mon, 06 Jul 2026 18:36:59 +0000"
