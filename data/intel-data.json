@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-07-09T06:30:23Z",
-  "version": 1962,
+  "generated_utc": "2026-07-09T10:15:34Z",
+  "version": 1963,
   "breaking_alert": "USNI News: Navy Ends Search for Missing George H.W. Bush Sailor in Arabian Sea",
   "naval_deployments": [
     {
@@ -632,15 +632,6 @@
       ]
     },
     {
-      "title": "Philippines Confirms Deal to Acquire Five Japanese Abukuma-class Destroyer Escorts",
-      "link": "https://www.navalnews.com/naval-news/2026/07/philippines-confirms-deal-to-acquire-five-japanese-abukuma-class-destroyer-escorts/",
-      "published": "Tue, 07 Jul 2026 20:59:00 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Türkiye’s TAYFUN Block-3 ASBM Scores Direct Hit on Moving Sea Target",
       "link": "https://www.navalnews.com/naval-news/2026/07/turkiyes-tayfun-block-3-asbm-scores-direct-hit-on-moving-sea-target/",
       "published": "Wed, 08 Jul 2026 08:09:03 +0000",
@@ -928,11 +919,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 9,
+    "deployment_articles": 8,
     "conflict_articles": 6,
     "exercise_articles": 6,
     "total_articles": 50,
-    "computed_at": "2026-07-09T06:30:20.385912+00:00",
+    "computed_at": "2026-07-09T10:15:30.903838+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[USNI News] Navy Ends Search for Missing George H.W. Bush Sailor in Arabian Sea",
@@ -950,9 +941,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-07-09T06:30:20.385958+00:00",
+    "last_successful_update": "2026-07-09T10:15:30.903887+00:00",
     "article_count": 50,
-    "categorized_count": 18,
+    "categorized_count": 17,
     "freshest_source": "USNI News",
     "freshest_title": "Navy Ends Search for Missing George H.W. Bush Sailor in Arabian Sea",
     "freshest_published": "Mon, 06 Jul 2026 18:36:59 +0000"
