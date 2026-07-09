@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-07-09T16:18:42Z",
-  "version": 1965,
-  "breaking_alert": "USNI News: Navy Ends Search for Missing George H.W. Bush Sailor in Arabian Sea",
+  "generated_utc": "2026-07-09T18:44:05Z",
+  "version": 1966,
+  "breaking_alert": "USNI News: China Tests Submarine-launched Ballistic Missile, Kicks Off Annual Exercise With Russia",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -594,15 +594,6 @@
   ],
   "_naval_news_refs": [
     {
-      "title": "Navy Ends Search for Missing George H.W. Bush Sailor in Arabian Sea",
-      "link": "https://news.usni.org/2026/07/06/navy-ends-search-for-missing-george-h-w-bush-sailor-in-arabian-sea",
-      "published": "Mon, 06 Jul 2026 18:36:59 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "China Tests Submarine-launched Ballistic Missile, Kicks Off Annual Exercise With Russia",
       "link": "https://news.usni.org/2026/07/06/china-tests-submarine-launched-ballistic-missile-kicks-off-annual-exercise-with-russia",
       "published": "Mon, 06 Jul 2026 20:25:53 +0000",
@@ -618,6 +609,15 @@
       "link": "https://www.navalnews.com/naval-news/2026/07/j-a-solutions-introduces-automatic-deployment-system-for-usvs-and-surface-vessels/",
       "published": "Thu, 09 Jul 2026 15:35:01 +0000",
       "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "The Indiana forest that keeps the USS Constitution afloat",
+      "link": "https://www.militarytimes.com/veterans/military-history/2026/07/09/the-indiana-forest-that-keeps-the-uss-constitution-afloat/",
+      "published": "Thu, 09 Jul 2026 18:14:34 +0000",
+      "source": "Military Times",
       "categories": [
         "deployment"
       ]
@@ -916,13 +916,13 @@
     "conflict_articles": 5,
     "exercise_articles": 5,
     "total_articles": 50,
-    "computed_at": "2026-07-09T16:18:35.816741+00:00",
+    "computed_at": "2026-07-09T18:44:02.550360+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
-      "[USNI News] Navy Ends Search for Missing George H.W. Bush Sailor in Arabian Sea",
       "[USNI News] China Tests Submarine-launched Ballistic Missile, Kicks Off Annual Exercise With Russia",
       "[Defense News] UK eyes $50 billion in pooled NATO funds for new long-range strike initiative",
       "[Naval News] J.A. Solutions Introduces Automatic Deployment System for USVs and Surface Vessels",
+      "[Military Times] The Indiana forest that keeps the USS Constitution afloat",
       "[Task & Purpose] US troops could restart Poland deployments in the ‘coming weeks’"
     ]
   },
@@ -934,12 +934,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-07-09T16:18:35.816786+00:00",
+    "last_successful_update": "2026-07-09T18:44:02.550405+00:00",
     "article_count": 50,
     "categorized_count": 13,
     "freshest_source": "USNI News",
-    "freshest_title": "Navy Ends Search for Missing George H.W. Bush Sailor in Arabian Sea",
-    "freshest_published": "Mon, 06 Jul 2026 18:36:59 +0000"
+    "freshest_title": "China Tests Submarine-launched Ballistic Missile, Kicks Off Annual Exercise With Russia",
+    "freshest_published": "Mon, 06 Jul 2026 20:25:53 +0000"
   },
   "_firms_hotspots": []
 }
