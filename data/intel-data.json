@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-07-10T08:54:34Z",
-  "version": 1972,
+  "generated_utc": "2026-07-10T11:39:18Z",
+  "version": 1973,
   "breaking_alert": "Naval News: U.S. Navy Eyes South Korean Yards for Tankers and Destroyers",
   "naval_deployments": [
     {
@@ -878,15 +878,6 @@
       ]
     },
     {
-      "title": "Trump turns on Spain and demands Greenland as NATO summit exposes cracks",
-      "link": "https://www.defensenews.com/global/europe/2026/07/08/trump-turns-on-spain-and-demands-greenland-as-nato-summit-exposes-cracks/",
-      "published": "Wed, 08 Jul 2026 12:40:31 +0000",
-      "source": "Defense News",
-      "categories": [
-        "exercise"
-      ]
-    },
-    {
       "title": "Report to Congress on Issues for NATO at the Ankara Summit",
       "link": "https://news.usni.org/2026/07/08/report-to-congress-on-issues-for-nato-at-the-ankara-summit",
       "published": "Wed, 08 Jul 2026 13:19:06 +0000",
@@ -899,9 +890,9 @@
   "_threat_indicators": {
     "deployment_articles": 10,
     "conflict_articles": 3,
-    "exercise_articles": 3,
+    "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-07-10T08:54:28.729713+00:00",
+    "computed_at": "2026-07-10T11:39:12.714990+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] U.S. Navy Eyes South Korean Yards for Tankers and Destroyers",
@@ -919,9 +910,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-07-10T08:54:28.729758+00:00",
+    "last_successful_update": "2026-07-10T11:39:12.715033+00:00",
     "article_count": 50,
-    "categorized_count": 14,
+    "categorized_count": 13,
     "freshest_source": "Naval News",
     "freshest_title": "U.S. Navy Eyes South Korean Yards for Tankers and Destroyers",
     "freshest_published": "Fri, 10 Jul 2026 08:34:48 +0000"
