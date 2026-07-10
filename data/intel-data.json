@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-07-10T05:53:06Z",
-  "version": 1971,
-  "breaking_alert": "Defense News: UK eyes $50 billion in pooled NATO funds for new long-range strike initiative",
+  "generated_utc": "2026-07-10T08:54:34Z",
+  "version": 1972,
+  "breaking_alert": "Naval News: U.S. Navy Eyes South Korean Yards for Tankers and Destroyers",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -594,6 +594,15 @@
   ],
   "_naval_news_refs": [
     {
+      "title": "U.S. Navy Eyes South Korean Yards for Tankers and Destroyers",
+      "link": "https://www.navalnews.com/naval-news/2026/07/us-navy-rfi-south-korea-shipbuilding-destroyers/",
+      "published": "Fri, 10 Jul 2026 08:34:48 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "J.A. Solutions Introduces Automatic Deployment System for USVs and Surface Vessels",
       "link": "https://www.navalnews.com/naval-news/2026/07/j-a-solutions-introduces-automatic-deployment-system-for-usvs-and-surface-vessels/",
       "published": "Thu, 09 Jul 2026 15:35:01 +0000",
@@ -838,15 +847,6 @@
       ]
     },
     {
-      "title": "China shows snazzy clip of DF-17 missile on state TV in show of force",
-      "link": "https://www.defensenews.com/global/asia-pacific/2026/07/08/china-shows-snazzy-clip-of-df-17-missile-on-state-tv-in-show-of-force/",
-      "published": "Wed, 08 Jul 2026 08:49:14 +0000",
-      "source": "Defense News",
-      "categories": [
-        "conflict"
-      ]
-    },
-    {
       "title": "US strikes more than 80 targets as Trump calls Iran ceasefire ‘over’",
       "link": "https://taskandpurpose.com/news/military-iran-ceasefire-over/",
       "published": "Wed, 08 Jul 2026 09:05:09 -0400",
@@ -897,18 +897,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 9,
-    "conflict_articles": 4,
+    "deployment_articles": 10,
+    "conflict_articles": 3,
     "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-07-10T05:48:25.954642+00:00",
+    "computed_at": "2026-07-10T08:54:28.729713+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
+      "[Naval News] U.S. Navy Eyes South Korean Yards for Tankers and Destroyers",
       "[Defense News] UK eyes $50 billion in pooled NATO funds for new long-range strike initiative",
       "[Naval News] J.A. Solutions Introduces Automatic Deployment System for USVs and Surface Vessels",
       "[Military Times] The Indiana forest that keeps the USS Constitution afloat",
-      "[Military Times] USS Gerald R. Ford to undergo maintenance after onboard fire and plumbing issues",
-      "[USNI News] USS Nimitz Arrives in Norfolk for Homeport Shift"
+      "[Military Times] USS Gerald R. Ford to undergo maintenance after onboard fire and plumbing issues"
     ]
   },
   "ground_intel": {
@@ -919,12 +919,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-07-10T05:48:25.954690+00:00",
+    "last_successful_update": "2026-07-10T08:54:28.729758+00:00",
     "article_count": 50,
     "categorized_count": 14,
-    "freshest_source": "Defense News",
-    "freshest_title": "UK eyes $50 billion in pooled NATO funds for new long-range strike initiative",
-    "freshest_published": "Thu, 09 Jul 2026 14:33:09 +0000"
+    "freshest_source": "Naval News",
+    "freshest_title": "U.S. Navy Eyes South Korean Yards for Tankers and Destroyers",
+    "freshest_published": "Fri, 10 Jul 2026 08:34:48 +0000"
   },
   "_firms_hotspots": []
 }
