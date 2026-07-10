@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-07-10T16:10:44Z",
-  "version": 1975,
+  "generated_utc": "2026-07-10T18:18:53Z",
+  "version": 1976,
   "breaking_alert": "Naval News: U.S. Navy Eyes South Korean Yards for Tankers and Destroyers",
   "naval_deployments": [
     {
@@ -810,6 +810,24 @@
   },
   "_conflict_news_refs": [
     {
+      "title": "Zelenskyy taps European allies to build Freya, a cheaper Patriot-alternative to Russia’s ballistic missiles",
+      "link": "https://www.defensenews.com/industry/techwatch/2026/07/10/zelenskyy-taps-european-allies-to-build-freya-a-cheaper-patriot-alternative-to-russias-ballistic-missiles/",
+      "published": "Fri, 10 Jul 2026 17:33:27 +0000",
+      "source": "Defense News",
+      "categories": [
+        "conflict"
+      ]
+    },
+    {
+      "title": "Zelenskyy taps European allies to build Freya, a cheaper Patriot-alternative to Russia’s ballistic missiles",
+      "link": "https://www.militarytimes.com/industry/techwatch/2026/07/10/zelenskyy-taps-european-allies-to-build-freya-a-cheaper-patriot-alternative-to-russias-ballistic-missiles/",
+      "published": "Fri, 10 Jul 2026 17:33:27 +0000",
+      "source": "Military Times",
+      "categories": [
+        "conflict"
+      ]
+    },
+    {
       "title": "UK eyes $50 billion in pooled NATO funds for new long-range strike initiative",
       "link": "https://www.defensenews.com/global/europe/2026/07/09/uk-eyes-50-billion-in-pooled-nato-funds-for-new-long-range-strike-initiative/",
       "published": "Thu, 09 Jul 2026 14:33:09 +0000",
@@ -871,17 +889,17 @@
   ],
   "_threat_indicators": {
     "deployment_articles": 7,
-    "conflict_articles": 3,
+    "conflict_articles": 5,
     "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-07-10T16:10:36.033154+00:00",
+    "computed_at": "2026-07-10T18:14:12.451244+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] U.S. Navy Eyes South Korean Yards for Tankers and Destroyers",
       "[Task & Purpose] The last Marine Corps AAV had its final field exercise",
-      "[Defense News] UK eyes $50 billion in pooled NATO funds for new long-range strike initiative",
-      "[Naval News] J.A. Solutions Introduces Automatic Deployment System for USVs and Surface Vessels",
-      "[USNI News] USS Nimitz Arrives in Norfolk for Homeport Shift"
+      "[Defense News] Zelenskyy taps European allies to build Freya, a cheaper Patriot-alternative to Russia’s ballistic missiles",
+      "[Military Times] Zelenskyy taps European allies to build Freya, a cheaper Patriot-alternative to Russia’s ballistic missiles",
+      "[Defense News] UK eyes $50 billion in pooled NATO funds for new long-range strike initiative"
     ]
   },
   "ground_intel": {
@@ -892,9 +910,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-07-10T16:10:36.033211+00:00",
+    "last_successful_update": "2026-07-10T18:14:12.451292+00:00",
     "article_count": 50,
-    "categorized_count": 11,
+    "categorized_count": 13,
     "freshest_source": "Naval News",
     "freshest_title": "U.S. Navy Eyes South Korean Yards for Tankers and Destroyers",
     "freshest_published": "Fri, 10 Jul 2026 08:34:48 +0000"
