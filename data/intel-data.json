@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-07-10T22:46:00Z",
-  "version": 1979,
+  "generated_utc": "2026-07-10T23:44:09Z",
+  "version": 1980,
   "breaking_alert": "Naval News: U.S. Navy Eyes South Korean Yards for Tankers and Destroyers",
   "naval_deployments": [
     {
@@ -603,6 +603,15 @@
       ]
     },
     {
+      "title": "F-16 pilot awarded Distinguished Flying Cross for mission in Yemen",
+      "link": "https://taskandpurpose.com/news/f16-icarus-yemen-distinguished-flying-cross/",
+      "published": "Fri, 10 Jul 2026 19:05:35 -0400",
+      "source": "Task & Purpose",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "Hormuz Sees Traffic Bump Despite Ongoing Iranian Attacks",
       "link": "https://news.usni.org/2026/07/10/hormuz-sees-traffic-bump-despite-ongoing-iranian-attacks",
       "published": "Fri, 10 Jul 2026 21:08:41 +0000",
@@ -881,18 +890,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 7,
+    "deployment_articles": 8,
     "conflict_articles": 6,
     "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-07-10T22:45:55.336417+00:00",
+    "computed_at": "2026-07-10T23:44:06.841715+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] U.S. Navy Eyes South Korean Yards for Tankers and Destroyers",
       "[Task & Purpose] The last Marine Corps AAV had its final field exercise",
       "[Defense News] Zelenskyy taps European allies to build Freya, a cheaper Patriot-alternative to Russia’s ballistic missiles",
       "[Military Times] Zelenskyy taps European allies to build Freya, a cheaper Patriot-alternative to Russia’s ballistic missiles",
-      "[USNI News] Hormuz Sees Traffic Bump Despite Ongoing Iranian Attacks"
+      "[Task & Purpose] F-16 pilot awarded Distinguished Flying Cross for mission in Yemen"
     ]
   },
   "ground_intel": {
@@ -903,9 +912,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-07-10T22:45:55.336465+00:00",
+    "last_successful_update": "2026-07-10T23:44:06.841761+00:00",
     "article_count": 50,
-    "categorized_count": 12,
+    "categorized_count": 13,
     "freshest_source": "Naval News",
     "freshest_title": "U.S. Navy Eyes South Korean Yards for Tankers and Destroyers",
     "freshest_published": "Fri, 10 Jul 2026 08:34:48 +0000"
