@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-07-10T13:48:56Z",
-  "version": 1974,
+  "generated_utc": "2026-07-10T16:10:44Z",
+  "version": 1975,
   "breaking_alert": "Naval News: U.S. Navy Eyes South Korean Yards for Tankers and Destroyers",
   "naval_deployments": [
     {
@@ -612,24 +612,6 @@
       ]
     },
     {
-      "title": "The Indiana forest that keeps the USS Constitution afloat",
-      "link": "https://www.militarytimes.com/veterans/military-history/2026/07/09/the-indiana-forest-that-keeps-the-uss-constitution-afloat/",
-      "published": "Thu, 09 Jul 2026 18:14:34 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "USS Gerald R. Ford to undergo maintenance after onboard fire and plumbing issues",
-      "link": "https://www.militarytimes.com/news/your-navy/2026/07/09/uss-gerald-r-ford-to-undergo-maintenance-after-onboard-fire-and-plumbing-issues/",
-      "published": "Thu, 09 Jul 2026 18:52:25 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "USS Nimitz Arrives in Norfolk for Homeport Shift",
       "link": "https://news.usni.org/2026/07/09/uss-nimitz-arrives-in-norfolk-for-homeport-shift",
       "published": "Thu, 09 Jul 2026 20:44:06 +0000",
@@ -643,15 +625,6 @@
       "link": "https://www.navalnews.com/naval-news/2026/07/australian-naval-shipbuilding-at-the-henderson-defence-precinct/",
       "published": "Thu, 09 Jul 2026 22:39:08 +0000",
       "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "US troops could restart Poland deployments in the ‘coming weeks’",
-      "link": "https://taskandpurpose.com/news/us-troops-restart-poland-deployments/",
-      "published": "Tue, 07 Jul 2026 10:14:29 -0400",
-      "source": "Task & Purpose",
       "categories": [
         "deployment"
       ]
@@ -868,6 +841,15 @@
   ],
   "_exercise_news_refs": [
     {
+      "title": "The last Marine Corps AAV had its final field exercise",
+      "link": "https://taskandpurpose.com/news/marines-aav-2026/",
+      "published": "Fri, 10 Jul 2026 11:01:53 -0400",
+      "source": "Task & Purpose",
+      "categories": [
+        "exercise"
+      ]
+    },
+    {
       "title": "UK eyes $50 billion in pooled NATO funds for new long-range strike initiative",
       "link": "https://www.defensenews.com/global/europe/2026/07/09/uk-eyes-50-billion-in-pooled-nato-funds-for-new-long-range-strike-initiative/",
       "published": "Thu, 09 Jul 2026 14:33:09 +0000",
@@ -888,18 +870,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 10,
+    "deployment_articles": 7,
     "conflict_articles": 3,
-    "exercise_articles": 2,
+    "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-07-10T13:48:51.329691+00:00",
+    "computed_at": "2026-07-10T16:10:36.033154+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] U.S. Navy Eyes South Korean Yards for Tankers and Destroyers",
+      "[Task & Purpose] The last Marine Corps AAV had its final field exercise",
       "[Defense News] UK eyes $50 billion in pooled NATO funds for new long-range strike initiative",
       "[Naval News] J.A. Solutions Introduces Automatic Deployment System for USVs and Surface Vessels",
-      "[Military Times] The Indiana forest that keeps the USS Constitution afloat",
-      "[Military Times] USS Gerald R. Ford to undergo maintenance after onboard fire and plumbing issues"
+      "[USNI News] USS Nimitz Arrives in Norfolk for Homeport Shift"
     ]
   },
   "ground_intel": {
@@ -910,9 +892,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-07-10T13:48:51.329734+00:00",
+    "last_successful_update": "2026-07-10T16:10:36.033211+00:00",
     "article_count": 50,
-    "categorized_count": 13,
+    "categorized_count": 11,
     "freshest_source": "Naval News",
     "freshest_title": "U.S. Navy Eyes South Korean Yards for Tankers and Destroyers",
     "freshest_published": "Fri, 10 Jul 2026 08:34:48 +0000"
