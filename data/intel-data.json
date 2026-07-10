@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-07-09T23:55:13Z",
-  "version": 1969,
+  "generated_utc": "2026-07-10T01:23:41Z",
+  "version": 1970,
   "breaking_alert": "Defense News: UK eyes $50 billion in pooled NATO funds for new long-range strike initiative",
   "naval_deployments": [
     {
@@ -901,7 +901,7 @@
     "conflict_articles": 4,
     "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-07-09T23:55:10.669754+00:00",
+    "computed_at": "2026-07-10T01:23:40.192755+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Defense News] UK eyes $50 billion in pooled NATO funds for new long-range strike initiative",
@@ -919,7 +919,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-07-09T23:55:10.669795+00:00",
+    "last_successful_update": "2026-07-10T01:23:40.192795+00:00",
     "article_count": 50,
     "categorized_count": 14,
     "freshest_source": "Defense News",
