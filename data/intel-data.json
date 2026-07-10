@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-07-10T20:10:04Z",
-  "version": 1977,
+  "generated_utc": "2026-07-10T21:47:21Z",
+  "version": 1978,
   "breaking_alert": "Naval News: U.S. Navy Eyes South Korean Yards for Tankers and Destroyers",
   "naval_deployments": [
     {
@@ -603,6 +603,16 @@
       ]
     },
     {
+      "title": "Hormuz Sees Traffic Bump Despite Ongoing Iranian Attacks",
+      "link": "https://news.usni.org/2026/07/10/hormuz-sees-traffic-bump-despite-ongoing-iranian-attacks",
+      "published": "Fri, 10 Jul 2026 21:08:41 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
+    },
+    {
       "title": "J.A. Solutions Introduces Automatic Deployment System for USVs and Surface Vessels",
       "link": "https://www.navalnews.com/naval-news/2026/07/j-a-solutions-introduces-automatic-deployment-system-for-usvs-and-surface-vessels/",
       "published": "Thu, 09 Jul 2026 15:35:01 +0000",
@@ -819,6 +829,16 @@
       ]
     },
     {
+      "title": "Hormuz Sees Traffic Bump Despite Ongoing Iranian Attacks",
+      "link": "https://news.usni.org/2026/07/10/hormuz-sees-traffic-bump-despite-ongoing-iranian-attacks",
+      "published": "Fri, 10 Jul 2026 21:08:41 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
+    },
+    {
       "title": "UK eyes $50 billion in pooled NATO funds for new long-range strike initiative",
       "link": "https://www.defensenews.com/global/europe/2026/07/09/uk-eyes-50-billion-in-pooled-nato-funds-for-new-long-range-strike-initiative/",
       "published": "Thu, 09 Jul 2026 14:33:09 +0000",
@@ -835,15 +855,6 @@
       "source": "Task & Purpose",
       "categories": [
         "deployment",
-        "conflict"
-      ]
-    },
-    {
-      "title": "Canada Selects German Firm to Build 12 Attack Boats for Royal Canadian Navy",
-      "link": "https://news.usni.org/2026/07/08/canada-selects-german-firm-to-build-12-attack-boats-for-royal-canadian-navy",
-      "published": "Wed, 08 Jul 2026 20:40:10 +0000",
-      "source": "USNI News",
-      "categories": [
         "conflict"
       ]
     }
@@ -867,30 +878,21 @@
         "exercise",
         "conflict"
       ]
-    },
-    {
-      "title": "Report to Congress on Issues for NATO at the Ankara Summit",
-      "link": "https://news.usni.org/2026/07/08/report-to-congress-on-issues-for-nato-at-the-ankara-summit",
-      "published": "Wed, 08 Jul 2026 13:19:06 +0000",
-      "source": "USNI News",
-      "categories": [
-        "exercise"
-      ]
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 6,
-    "conflict_articles": 5,
-    "exercise_articles": 3,
+    "deployment_articles": 7,
+    "conflict_articles": 6,
+    "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-07-10T20:09:57.497216+00:00",
+    "computed_at": "2026-07-10T21:47:14.804389+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] U.S. Navy Eyes South Korean Yards for Tankers and Destroyers",
       "[Task & Purpose] The last Marine Corps AAV had its final field exercise",
       "[Defense News] Zelenskyy taps European allies to build Freya, a cheaper Patriot-alternative to Russia’s ballistic missiles",
       "[Military Times] Zelenskyy taps European allies to build Freya, a cheaper Patriot-alternative to Russia’s ballistic missiles",
-      "[Defense News] UK eyes $50 billion in pooled NATO funds for new long-range strike initiative"
+      "[USNI News] Hormuz Sees Traffic Bump Despite Ongoing Iranian Attacks"
     ]
   },
   "ground_intel": {
@@ -901,7 +903,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-07-10T20:09:57.497261+00:00",
+    "last_successful_update": "2026-07-10T21:47:14.804432+00:00",
     "article_count": 50,
     "categorized_count": 12,
     "freshest_source": "Naval News",
