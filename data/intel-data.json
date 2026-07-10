@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-07-10T18:18:53Z",
-  "version": 1976,
+  "generated_utc": "2026-07-10T20:10:04Z",
+  "version": 1977,
   "breaking_alert": "Naval News: U.S. Navy Eyes South Korean Yards for Tankers and Destroyers",
   "naval_deployments": [
     {
@@ -630,15 +630,6 @@
       ]
     },
     {
-      "title": "USNI News Fleet and Marine Tracker: July 7, 2026",
-      "link": "https://news.usni.org/2026/07/07/usni-news-fleet-and-marine-tracker-july-7-2026",
-      "published": "Tue, 07 Jul 2026 19:10:30 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "US strikes more than 80 targets as Trump calls Iran ceasefire ‘over’",
       "link": "https://taskandpurpose.com/news/military-iran-ceasefire-over/",
       "published": "Wed, 08 Jul 2026 09:05:09 -0400",
@@ -888,11 +879,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 7,
+    "deployment_articles": 6,
     "conflict_articles": 5,
     "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-07-10T18:14:12.451244+00:00",
+    "computed_at": "2026-07-10T20:09:57.497216+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] U.S. Navy Eyes South Korean Yards for Tankers and Destroyers",
@@ -910,9 +901,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-07-10T18:14:12.451292+00:00",
+    "last_successful_update": "2026-07-10T20:09:57.497261+00:00",
     "article_count": 50,
-    "categorized_count": 13,
+    "categorized_count": 12,
     "freshest_source": "Naval News",
     "freshest_title": "U.S. Navy Eyes South Korean Yards for Tankers and Destroyers",
     "freshest_published": "Fri, 10 Jul 2026 08:34:48 +0000"
