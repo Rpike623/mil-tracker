@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-07-12T15:44:49Z",
-  "version": 2005,
+  "generated_utc": "2026-07-12T16:41:14Z",
+  "version": 2006,
   "breaking_alert": "Naval News: U.S. Navy Eyes South Korean Yards for Tankers and Destroyers",
   "naval_deployments": [
     {
@@ -622,6 +622,15 @@
       ]
     },
     {
+      "title": "US hits more than 100 sites in Iran, Tehran targets Gulf bases",
+      "link": "https://taskandpurpose.com/news/us-iran-ceasefire-gulf-bases/",
+      "published": "Sun, 12 Jul 2026 12:36:19 -0400",
+      "source": "Task & Purpose",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "J.A. Solutions Introduces Automatic Deployment System for USVs and Surface Vessels",
       "link": "https://www.navalnews.com/naval-news/2026/07/j-a-solutions-introduces-automatic-deployment-system-for-usvs-and-surface-vessels/",
       "published": "Thu, 09 Jul 2026 15:35:01 +0000",
@@ -646,16 +655,6 @@
       "source": "Naval News",
       "categories": [
         "deployment"
-      ]
-    },
-    {
-      "title": "US strikes more than 80 targets as Trump calls Iran ceasefire ‘over’",
-      "link": "https://taskandpurpose.com/news/military-iran-ceasefire-over/",
-      "published": "Wed, 08 Jul 2026 09:05:09 -0400",
-      "source": "Task & Purpose",
-      "categories": [
-        "deployment",
-        "conflict"
       ]
     },
     {
@@ -858,12 +857,11 @@
       ]
     },
     {
-      "title": "US strikes more than 80 targets as Trump calls Iran ceasefire ‘over’",
-      "link": "https://taskandpurpose.com/news/military-iran-ceasefire-over/",
-      "published": "Wed, 08 Jul 2026 09:05:09 -0400",
-      "source": "Task & Purpose",
+      "title": "Canada Selects German Firm to Build 12 Attack Boats for Royal Canadian Navy",
+      "link": "https://news.usni.org/2026/07/08/canada-selects-german-firm-to-build-12-attack-boats-for-royal-canadian-navy",
+      "published": "Wed, 08 Jul 2026 20:40:10 +0000",
+      "source": "USNI News",
       "categories": [
-        "deployment",
         "conflict"
       ]
     }
@@ -891,10 +889,10 @@
   ],
   "_threat_indicators": {
     "deployment_articles": 8,
-    "conflict_articles": 6,
+    "conflict_articles": 5,
     "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-07-12T15:44:47.632640+00:00",
+    "computed_at": "2026-07-12T16:41:05.549437+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] U.S. Navy Eyes South Korean Yards for Tankers and Destroyers",
@@ -912,7 +910,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-07-12T15:44:47.632689+00:00",
+    "last_successful_update": "2026-07-12T16:41:05.549482+00:00",
     "article_count": 50,
     "categorized_count": 13,
     "freshest_source": "Naval News",
