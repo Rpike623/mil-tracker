@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-07-12T14:20:09Z",
-  "version": 2004,
+  "generated_utc": "2026-07-12T15:44:49Z",
+  "version": 2005,
   "breaking_alert": "Naval News: U.S. Navy Eyes South Korean Yards for Tankers and Destroyers",
   "naval_deployments": [
     {
@@ -603,7 +603,7 @@
       ]
     },
     {
-      "title": "F-16 pilot awarded Distinguished Flying Cross for mission in Yemen",
+      "title": "Air Force ‘Wild Weasel’ pilot receives top flying award for Yemen mission",
       "link": "https://taskandpurpose.com/news/f16-icarus-yemen-distinguished-flying-cross/",
       "published": "Fri, 10 Jul 2026 19:05:35 -0400",
       "source": "Task & Purpose",
@@ -894,14 +894,14 @@
     "conflict_articles": 6,
     "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-07-12T14:20:03.645126+00:00",
+    "computed_at": "2026-07-12T15:44:47.632640+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] U.S. Navy Eyes South Korean Yards for Tankers and Destroyers",
       "[Task & Purpose] The last Marine Corps AAV had its final field exercise",
       "[Defense News] Zelenskyy taps European allies to build Freya, a cheaper Patriot-alternative to Russia’s ballistic missiles",
       "[Military Times] Zelenskyy taps European allies to build Freya, a cheaper Patriot-alternative to Russia’s ballistic missiles",
-      "[Task & Purpose] F-16 pilot awarded Distinguished Flying Cross for mission in Yemen"
+      "[Task & Purpose] Air Force ‘Wild Weasel’ pilot receives top flying award for Yemen mission"
     ]
   },
   "ground_intel": {
@@ -912,7 +912,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-07-12T14:20:03.645173+00:00",
+    "last_successful_update": "2026-07-12T15:44:47.632689+00:00",
     "article_count": 50,
     "categorized_count": 13,
     "freshest_source": "Naval News",
