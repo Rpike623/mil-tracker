@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-07-12T22:34:18Z",
-  "version": 2012,
+  "generated_utc": "2026-07-12T23:43:56Z",
+  "version": 2013,
   "breaking_alert": "Naval News: U.S. Navy Eyes South Korean Yards for Tankers and Destroyers",
   "naval_deployments": [
     {
@@ -622,22 +622,22 @@
       ]
     },
     {
-      "title": "US hits more than 100 sites in Iran as U.S. bases attacked",
-      "link": "https://taskandpurpose.com/news/us-iran-ceasefire-gulf-bases/",
-      "published": "Sun, 12 Jul 2026 12:36:19 -0400",
-      "source": "Task & Purpose",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
       "title": "80 years ago, the military tested nukes on a fleet",
       "link": "https://taskandpurpose.com/history/operation-crossroads-nuclear-test-fleet/",
       "published": "Sun, 12 Jul 2026 16:25:12 -0400",
       "source": "Task & Purpose",
       "categories": [
         "deployment"
+      ]
+    },
+    {
+      "title": "US and Iran trade more blows in escalating weekend fighting",
+      "link": "https://taskandpurpose.com/news/us-iran-ceasefire-gulf-bases/",
+      "published": "Sun, 12 Jul 2026 19:17:56 -0400",
+      "source": "Task & Purpose",
+      "categories": [
+        "deployment",
+        "conflict"
       ]
     },
     {
@@ -857,9 +857,9 @@
       ]
     },
     {
-      "title": "US hits more than 100 sites in Iran as U.S. bases attacked",
+      "title": "US and Iran trade more blows in escalating weekend fighting",
       "link": "https://taskandpurpose.com/news/us-iran-ceasefire-gulf-bases/",
-      "published": "Sun, 12 Jul 2026 12:36:19 -0400",
+      "published": "Sun, 12 Jul 2026 19:17:56 -0400",
       "source": "Task & Purpose",
       "categories": [
         "deployment",
@@ -903,7 +903,7 @@
     "conflict_articles": 6,
     "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-07-12T22:34:12.918958+00:00",
+    "computed_at": "2026-07-12T23:39:15.819720+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] U.S. Navy Eyes South Korean Yards for Tankers and Destroyers",
@@ -921,7 +921,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-07-12T22:34:12.919008+00:00",
+    "last_successful_update": "2026-07-12T23:39:15.819770+00:00",
     "article_count": 50,
     "categorized_count": 14,
     "freshest_source": "Naval News",
