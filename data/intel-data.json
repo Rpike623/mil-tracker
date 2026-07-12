@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-07-12T19:58:11Z",
-  "version": 2009,
+  "generated_utc": "2026-07-12T20:38:22Z",
+  "version": 2010,
   "breaking_alert": "Naval News: U.S. Navy Eyes South Korean Yards for Tankers and Destroyers",
   "naval_deployments": [
     {
@@ -632,6 +632,15 @@
       ]
     },
     {
+      "title": "80 years ago, the military tested nukes on a fleet",
+      "link": "https://taskandpurpose.com/history/operation-crossroads-nuclear-test-fleet/",
+      "published": "Sun, 12 Jul 2026 16:25:12 -0400",
+      "source": "Task & Purpose",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "J.A. Solutions Introduces Automatic Deployment System for USVs and Surface Vessels",
       "link": "https://www.navalnews.com/naval-news/2026/07/j-a-solutions-introduces-automatic-deployment-system-for-usvs-and-surface-vessels/",
       "published": "Thu, 09 Jul 2026 15:35:01 +0000",
@@ -890,11 +899,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 8,
+    "deployment_articles": 9,
     "conflict_articles": 6,
     "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-07-12T19:58:04.829252+00:00",
+    "computed_at": "2026-07-12T20:38:18.561241+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] U.S. Navy Eyes South Korean Yards for Tankers and Destroyers",
@@ -912,9 +921,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-07-12T19:58:04.829304+00:00",
+    "last_successful_update": "2026-07-12T20:38:18.561281+00:00",
     "article_count": 50,
-    "categorized_count": 13,
+    "categorized_count": 14,
     "freshest_source": "Naval News",
     "freshest_title": "U.S. Navy Eyes South Korean Yards for Tankers and Destroyers",
     "freshest_published": "Fri, 10 Jul 2026 08:34:48 +0000"
