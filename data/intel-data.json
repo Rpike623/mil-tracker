@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-07-12T16:41:14Z",
-  "version": 2006,
+  "generated_utc": "2026-07-12T17:46:48Z",
+  "version": 2007,
   "breaking_alert": "Naval News: U.S. Navy Eyes South Korean Yards for Tankers and Destroyers",
   "naval_deployments": [
     {
@@ -622,12 +622,13 @@
       ]
     },
     {
-      "title": "US hits more than 100 sites in Iran, Tehran targets Gulf bases",
+      "title": "US hits more than 100 sites in Iran as U.S. bases attacked",
       "link": "https://taskandpurpose.com/news/us-iran-ceasefire-gulf-bases/",
       "published": "Sun, 12 Jul 2026 12:36:19 -0400",
       "source": "Task & Purpose",
       "categories": [
-        "deployment"
+        "deployment",
+        "conflict"
       ]
     },
     {
@@ -847,21 +848,22 @@
       ]
     },
     {
+      "title": "US hits more than 100 sites in Iran as U.S. bases attacked",
+      "link": "https://taskandpurpose.com/news/us-iran-ceasefire-gulf-bases/",
+      "published": "Sun, 12 Jul 2026 12:36:19 -0400",
+      "source": "Task & Purpose",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
+    },
+    {
       "title": "UK eyes $50 billion in pooled NATO funds for new long-range strike initiative",
       "link": "https://www.defensenews.com/global/europe/2026/07/09/uk-eyes-50-billion-in-pooled-nato-funds-for-new-long-range-strike-initiative/",
       "published": "Thu, 09 Jul 2026 14:33:09 +0000",
       "source": "Defense News",
       "categories": [
         "exercise",
-        "conflict"
-      ]
-    },
-    {
-      "title": "Canada Selects German Firm to Build 12 Attack Boats for Royal Canadian Navy",
-      "link": "https://news.usni.org/2026/07/08/canada-selects-german-firm-to-build-12-attack-boats-for-royal-canadian-navy",
-      "published": "Wed, 08 Jul 2026 20:40:10 +0000",
-      "source": "USNI News",
-      "categories": [
         "conflict"
       ]
     }
@@ -889,10 +891,10 @@
   ],
   "_threat_indicators": {
     "deployment_articles": 8,
-    "conflict_articles": 5,
+    "conflict_articles": 6,
     "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-07-12T16:41:05.549437+00:00",
+    "computed_at": "2026-07-12T17:46:42.598323+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] U.S. Navy Eyes South Korean Yards for Tankers and Destroyers",
@@ -910,7 +912,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-07-12T16:41:05.549482+00:00",
+    "last_successful_update": "2026-07-12T17:46:42.598369+00:00",
     "article_count": 50,
     "categorized_count": 13,
     "freshest_source": "Naval News",
