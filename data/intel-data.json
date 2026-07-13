@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-07-13T18:24:00Z",
-  "version": 2020,
+  "generated_utc": "2026-07-13T20:04:33Z",
+  "version": 2021,
   "breaking_alert": "Naval News: U.S. Navy Eyes South Korean Yards for Tankers and Destroyers",
   "naval_deployments": [
     {
@@ -641,6 +641,15 @@
       ]
     },
     {
+      "title": "US to restart blockade of Strait of Hormuz, may charge major toll",
+      "link": "https://taskandpurpose.com/news/us-iran-new-blockade-hormuz/",
+      "published": "Mon, 13 Jul 2026 15:32:05 -0400",
+      "source": "Task & Purpose",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "F-16 pilot awarded Distinguished Flying Cross for bravery in Saudi Arabia deployment",
       "link": "https://www.militarytimes.com/news/your-military/2026/07/13/f-16-pilot-awarded-distinguished-flying-cross-for-bravery-in-saudi-arabia-deployment/",
       "published": "Mon, 13 Jul 2026 15:53:13 +0000",
@@ -673,16 +682,6 @@
       "link": "https://www.militarytimes.com/news/your-military/2026/07/13/sea-drones-strike-iranian-port-in-combat-first-for-us-navy/",
       "published": "Mon, 13 Jul 2026 17:07:19 +0000",
       "source": "Military Times",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
-      "title": "VIDEO: 3 Lethal U.S. Drones Attack Iranian Sub, Port Facility",
-      "link": "https://news.usni.org/2026/07/13/video-3-lethal-u-s-drones-attack-iranian-sub-port-facility",
-      "published": "Mon, 13 Jul 2026 17:10:12 +0000",
-      "source": "USNI News",
       "categories": [
         "deployment",
         "conflict"
@@ -850,15 +849,6 @@
       ]
     },
     {
-      "title": "Zelenskyy taps European allies to build Freya, a cheaper Patriot-alternative to Russia’s ballistic missiles",
-      "link": "https://www.militarytimes.com/industry/techwatch/2026/07/10/zelenskyy-taps-european-allies-to-build-freya-a-cheaper-patriot-alternative-to-russias-ballistic-missiles/",
-      "published": "Fri, 10 Jul 2026 17:33:27 +0000",
-      "source": "Military Times",
-      "categories": [
-        "conflict"
-      ]
-    },
-    {
       "title": "Hormuz Sees Traffic Bump Despite Ongoing Iranian Attacks",
       "link": "https://news.usni.org/2026/07/10/hormuz-sees-traffic-bump-despite-ongoing-iranian-attacks",
       "published": "Fri, 10 Jul 2026 21:08:41 +0000",
@@ -886,6 +876,16 @@
       "categories": [
         "conflict"
       ]
+    },
+    {
+      "title": "Sea drones strike Iranian port in combat first for US",
+      "link": "https://www.defensenews.com/news/your-military/2026/07/13/sea-drones-strike-iranian-port-in-combat-first-for-us-navy/",
+      "published": "Mon, 13 Jul 2026 17:07:19 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
     }
   ],
   "_exercise_news_refs": [
@@ -897,21 +897,30 @@
       "categories": [
         "exercise"
       ]
+    },
+    {
+      "title": "Lindsey Graham, senator and retired Air Force Reserve colonel, remembered for relishing challenges of public life",
+      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/07/13/lindsey-graham-senator-and-retired-air-force-reserve-colonel-remembered-for-relishing-challenges-of-public-life/",
+      "published": "Mon, 13 Jul 2026 18:47:17 +0000",
+      "source": "Military Times",
+      "categories": [
+        "exercise"
+      ]
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 16,
-    "conflict_articles": 9,
-    "exercise_articles": 1,
+    "deployment_articles": 19,
+    "conflict_articles": 8,
+    "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-07-13T18:23:57.000326+00:00",
+    "computed_at": "2026-07-13T20:04:31.030014+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[Naval News] U.S. Navy Eyes South Korean Yards for Tankers and Destroyers",
       "[Task & Purpose] The last Marine Corps AAV had its final field exercise",
       "[Defense News] Zelenskyy taps European allies to build Freya, a cheaper Patriot-alternative to Russia’s ballistic missiles",
-      "[Military Times] Zelenskyy taps European allies to build Freya, a cheaper Patriot-alternative to Russia’s ballistic missiles",
-      "[Task & Purpose] Air Force ‘Wild Weasel’ pilot receives top flying award for Yemen mission"
+      "[Task & Purpose] Air Force ‘Wild Weasel’ pilot receives top flying award for Yemen mission",
+      "[USNI News] Hormuz Sees Traffic Bump Despite Ongoing Iranian Attacks"
     ]
   },
   "ground_intel": {
@@ -922,9 +931,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-07-13T18:23:57.000362+00:00",
+    "last_successful_update": "2026-07-13T20:04:31.030061+00:00",
     "article_count": 50,
-    "categorized_count": 20,
+    "categorized_count": 23,
     "freshest_source": "Naval News",
     "freshest_title": "U.S. Navy Eyes South Korean Yards for Tankers and Destroyers",
     "freshest_published": "Fri, 10 Jul 2026 08:34:48 +0000"
