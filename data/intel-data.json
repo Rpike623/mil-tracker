@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-07-13T11:46:35Z",
-  "version": 2017,
+  "generated_utc": "2026-07-13T13:53:56Z",
+  "version": 2018,
   "breaking_alert": "Naval News: U.S. Navy Eyes South Korean Yards for Tankers and Destroyers",
   "naval_deployments": [
     {
@@ -857,21 +857,21 @@
       ]
     },
     {
+      "title": "USMC Eyes General Atomics’ Bullseye Cruise Missile to Counter China",
+      "link": "https://www.navalnews.com/naval-news/2026/07/usmc-general-atomics-bullseye-missile-china/",
+      "published": "Mon, 13 Jul 2026 12:50:17 +0000",
+      "source": "Naval News",
+      "categories": [
+        "conflict"
+      ]
+    },
+    {
       "title": "US and Iran trade more blows in escalating weekend fighting",
       "link": "https://taskandpurpose.com/news/us-iran-ceasefire-gulf-bases/",
       "published": "Sun, 12 Jul 2026 19:17:56 -0400",
       "source": "Task & Purpose",
       "categories": [
         "deployment",
-        "conflict"
-      ]
-    },
-    {
-      "title": "Canada Selects German Firm to Build 12 Attack Boats for Royal Canadian Navy",
-      "link": "https://news.usni.org/2026/07/08/canada-selects-german-firm-to-build-12-attack-boats-for-royal-canadian-navy",
-      "published": "Wed, 08 Jul 2026 20:40:10 +0000",
-      "source": "USNI News",
-      "categories": [
         "conflict"
       ]
     }
@@ -889,10 +889,10 @@
   ],
   "_threat_indicators": {
     "deployment_articles": 9,
-    "conflict_articles": 5,
+    "conflict_articles": 6,
     "exercise_articles": 1,
     "total_articles": 50,
-    "computed_at": "2026-07-13T11:46:30.283876+00:00",
+    "computed_at": "2026-07-13T13:53:53.595038+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] U.S. Navy Eyes South Korean Yards for Tankers and Destroyers",
@@ -910,9 +910,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-07-13T11:46:30.283924+00:00",
+    "last_successful_update": "2026-07-13T13:53:53.595083+00:00",
     "article_count": 50,
-    "categorized_count": 13,
+    "categorized_count": 14,
     "freshest_source": "Naval News",
     "freshest_title": "U.S. Navy Eyes South Korean Yards for Tankers and Destroyers",
     "freshest_published": "Fri, 10 Jul 2026 08:34:48 +0000"
