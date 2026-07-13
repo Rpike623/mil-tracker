@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-07-13T13:53:56Z",
-  "version": 2018,
+  "generated_utc": "2026-07-13T16:17:01Z",
+  "version": 2019,
   "breaking_alert": "Naval News: U.S. Navy Eyes South Korean Yards for Tankers and Destroyers",
   "naval_deployments": [
     {
@@ -622,6 +622,34 @@
       ]
     },
     {
+      "title": "The Army is cutting back legal help for soldiers fighting medical discharge",
+      "link": "https://taskandpurpose.com/news/army-cuts-disability-representation/",
+      "published": "Mon, 13 Jul 2026 11:09:04 -0400",
+      "source": "Task & Purpose",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "US uses one-way attack sea drones for the first time in Iran strikes",
+      "link": "https://taskandpurpose.com/news/military-sea-drones-iran-2026/",
+      "published": "Mon, 13 Jul 2026 11:28:41 -0400",
+      "source": "Task & Purpose",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
+    },
+    {
+      "title": "F-16 pilot awarded Distinguished Flying Cross for bravery in Saudi Arabia deployment",
+      "link": "https://www.militarytimes.com/news/your-military/2026/07/13/f-16-pilot-awarded-distinguished-flying-cross-for-bravery-in-saudi-arabia-deployment/",
+      "published": "Mon, 13 Jul 2026 15:53:13 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "80 years ago, the military tested nukes on a fleet",
       "link": "https://taskandpurpose.com/history/operation-crossroads-nuclear-test-fleet/",
       "published": "Sun, 12 Jul 2026 16:25:12 -0400",
@@ -653,24 +681,6 @@
       "title": "USS Nimitz Arrives in Norfolk for Homeport Shift",
       "link": "https://news.usni.org/2026/07/09/uss-nimitz-arrives-in-norfolk-for-homeport-shift",
       "published": "Thu, 09 Jul 2026 20:44:06 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Australian Naval Shipbuilding At The Henderson Defence Precinct – A Naval News Outline",
-      "link": "https://www.navalnews.com/naval-news/2026/07/australian-naval-shipbuilding-at-the-henderson-defence-precinct/",
-      "published": "Thu, 09 Jul 2026 22:39:08 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Navy Identifies Helicopter Squadron Commander As Missing Sailor in Arabian Sea",
-      "link": "https://news.usni.org/2026/07/08/navy-identifies-helicopter-squadron-commander-as-missing-sailor-in-arabian-sea",
-      "published": "Wed, 08 Jul 2026 15:21:01 +0000",
       "source": "USNI News",
       "categories": [
         "deployment"
@@ -857,21 +867,21 @@
       ]
     },
     {
+      "title": "US uses one-way attack sea drones for the first time in Iran strikes",
+      "link": "https://taskandpurpose.com/news/military-sea-drones-iran-2026/",
+      "published": "Mon, 13 Jul 2026 11:28:41 -0400",
+      "source": "Task & Purpose",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
+    },
+    {
       "title": "USMC Eyes General Atomics’ Bullseye Cruise Missile to Counter China",
       "link": "https://www.navalnews.com/naval-news/2026/07/usmc-general-atomics-bullseye-missile-china/",
       "published": "Mon, 13 Jul 2026 12:50:17 +0000",
       "source": "Naval News",
       "categories": [
-        "conflict"
-      ]
-    },
-    {
-      "title": "US and Iran trade more blows in escalating weekend fighting",
-      "link": "https://taskandpurpose.com/news/us-iran-ceasefire-gulf-bases/",
-      "published": "Sun, 12 Jul 2026 19:17:56 -0400",
-      "source": "Task & Purpose",
-      "categories": [
-        "deployment",
         "conflict"
       ]
     }
@@ -888,11 +898,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 9,
-    "conflict_articles": 6,
+    "deployment_articles": 11,
+    "conflict_articles": 7,
     "exercise_articles": 1,
     "total_articles": 50,
-    "computed_at": "2026-07-13T13:53:53.595038+00:00",
+    "computed_at": "2026-07-13T16:16:56.813380+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] U.S. Navy Eyes South Korean Yards for Tankers and Destroyers",
@@ -910,9 +920,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-07-13T13:53:53.595083+00:00",
+    "last_successful_update": "2026-07-13T16:16:56.813426+00:00",
     "article_count": 50,
-    "categorized_count": 14,
+    "categorized_count": 16,
     "freshest_source": "Naval News",
     "freshest_title": "U.S. Navy Eyes South Korean Yards for Tankers and Destroyers",
     "freshest_published": "Fri, 10 Jul 2026 08:34:48 +0000"
