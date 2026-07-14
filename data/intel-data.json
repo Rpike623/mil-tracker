@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-07-14T17:53:55Z",
-  "version": 2033,
+  "generated_utc": "2026-07-14T19:00:42Z",
+  "version": 2034,
   "breaking_alert": "Naval News: U.S. Navy Eyes South Korean Yards for Tankers and Destroyers",
   "naval_deployments": [
     {
@@ -891,15 +891,6 @@
   ],
   "_exercise_news_refs": [
     {
-      "title": "Lindsey Graham, senator and retired Air Force Reserve colonel, remembered for relishing challenges of public life",
-      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/07/13/lindsey-graham-senator-and-retired-air-force-reserve-colonel-remembered-for-relishing-challenges-of-public-life/",
-      "published": "Mon, 13 Jul 2026 18:47:17 +0000",
-      "source": "Military Times",
-      "categories": [
-        "exercise"
-      ]
-    },
-    {
       "title": "Europe’s defense build-up is delivering for NATO — and America",
       "link": "https://www.defensenews.com/opinion/2026/07/14/europes-defense-build-up-is-delivering-for-nato-and-america/",
       "published": "Tue, 14 Jul 2026 12:22:25 +0000",
@@ -910,11 +901,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 16,
+    "deployment_articles": 17,
     "conflict_articles": 8,
-    "exercise_articles": 2,
+    "exercise_articles": 1,
     "total_articles": 50,
-    "computed_at": "2026-07-14T17:53:52.512942+00:00",
+    "computed_at": "2026-07-14T18:56:01.293892+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[Naval News] U.S. Navy Eyes South Korean Yards for Tankers and Destroyers",
@@ -932,7 +923,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-07-14T17:53:52.512977+00:00",
+    "last_successful_update": "2026-07-14T18:56:01.293935+00:00",
     "article_count": 50,
     "categorized_count": 19,
     "freshest_source": "Naval News",
