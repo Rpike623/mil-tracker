@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-07-14T04:36:13Z",
-  "version": 2026,
+  "generated_utc": "2026-07-14T07:00:08Z",
+  "version": 2027,
   "breaking_alert": "Naval News: U.S. Navy Eyes South Korean Yards for Tankers and Destroyers",
   "naval_deployments": [
     {
@@ -913,7 +913,7 @@
     "conflict_articles": 9,
     "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-07-14T04:36:11.603132+00:00",
+    "computed_at": "2026-07-14T07:00:05.135452+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[Naval News] U.S. Navy Eyes South Korean Yards for Tankers and Destroyers",
@@ -931,7 +931,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-07-14T04:36:11.603181+00:00",
+    "last_successful_update": "2026-07-14T07:00:05.135498+00:00",
     "article_count": 50,
     "categorized_count": 24,
     "freshest_source": "Naval News",
