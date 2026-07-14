@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-07-14T07:00:08Z",
-  "version": 2027,
+  "generated_utc": "2026-07-14T09:04:11Z",
+  "version": 2028,
   "breaking_alert": "Naval News: U.S. Navy Eyes South Korean Yards for Tankers and Destroyers",
   "naval_deployments": [
     {
@@ -840,15 +840,6 @@
   },
   "_conflict_news_refs": [
     {
-      "title": "Zelenskyy taps European allies to build Freya, a cheaper Patriot-alternative to Russia’s ballistic missiles",
-      "link": "https://www.defensenews.com/industry/techwatch/2026/07/10/zelenskyy-taps-european-allies-to-build-freya-a-cheaper-patriot-alternative-to-russias-ballistic-missiles/",
-      "published": "Fri, 10 Jul 2026 17:33:27 +0000",
-      "source": "Defense News",
-      "categories": [
-        "conflict"
-      ]
-    },
-    {
       "title": "Hormuz Sees Traffic Bump Despite Ongoing Iranian Attacks",
       "link": "https://news.usni.org/2026/07/10/hormuz-sees-traffic-bump-despite-ongoing-iranian-attacks",
       "published": "Fri, 10 Jul 2026 21:08:41 +0000",
@@ -886,6 +877,16 @@
         "deployment",
         "conflict"
       ]
+    },
+    {
+      "title": "VIDEO: 3 Lethal U.S. Drones Attack Iranian Sub, Port Facility",
+      "link": "https://news.usni.org/2026/07/13/video-3-lethal-u-s-drones-attack-iranian-sub-port-facility",
+      "published": "Mon, 13 Jul 2026 17:10:12 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
     }
   ],
   "_exercise_news_refs": [
@@ -910,17 +911,17 @@
   ],
   "_threat_indicators": {
     "deployment_articles": 20,
-    "conflict_articles": 9,
+    "conflict_articles": 8,
     "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-07-14T07:00:05.135452+00:00",
+    "computed_at": "2026-07-14T09:04:08.824823+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[Naval News] U.S. Navy Eyes South Korean Yards for Tankers and Destroyers",
       "[Task & Purpose] The last Marine Corps AAV had its final field exercise",
-      "[Defense News] Zelenskyy taps European allies to build Freya, a cheaper Patriot-alternative to Russia’s ballistic missiles",
       "[Task & Purpose] Air Force ‘Wild Weasel’ pilot receives top flying award for Yemen mission",
-      "[USNI News] Hormuz Sees Traffic Bump Despite Ongoing Iranian Attacks"
+      "[USNI News] Hormuz Sees Traffic Bump Despite Ongoing Iranian Attacks",
+      "[Task & Purpose] The Army is cutting back legal help for soldiers fighting medical discharge"
     ]
   },
   "ground_intel": {
@@ -931,9 +932,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-07-14T07:00:05.135498+00:00",
+    "last_successful_update": "2026-07-14T09:04:08.824871+00:00",
     "article_count": 50,
-    "categorized_count": 24,
+    "categorized_count": 23,
     "freshest_source": "Naval News",
     "freshest_title": "U.S. Navy Eyes South Korean Yards for Tankers and Destroyers",
     "freshest_published": "Fri, 10 Jul 2026 08:34:48 +0000"
