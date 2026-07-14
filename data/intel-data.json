@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-07-14T11:14:23Z",
-  "version": 2029,
+  "generated_utc": "2026-07-14T12:58:44Z",
+  "version": 2030,
   "breaking_alert": "Naval News: U.S. Navy Eyes South Korean Yards for Tankers and Destroyers",
   "naval_deployments": [
     {
@@ -907,14 +907,23 @@
       "categories": [
         "exercise"
       ]
+    },
+    {
+      "title": "Europe’s defense build-up is delivering for NATO — and America",
+      "link": "https://www.defensenews.com/opinion/2026/07/14/europes-defense-build-up-is-delivering-for-nato-and-america/",
+      "published": "Tue, 14 Jul 2026 12:22:25 +0000",
+      "source": "Defense News",
+      "categories": [
+        "exercise"
+      ]
     }
   ],
   "_threat_indicators": {
     "deployment_articles": 20,
     "conflict_articles": 8,
-    "exercise_articles": 2,
+    "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-07-14T11:14:16.308632+00:00",
+    "computed_at": "2026-07-14T12:58:42.047098+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[Naval News] U.S. Navy Eyes South Korean Yards for Tankers and Destroyers",
@@ -932,9 +941,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-07-14T11:14:16.308677+00:00",
+    "last_successful_update": "2026-07-14T12:58:42.047142+00:00",
     "article_count": 50,
-    "categorized_count": 23,
+    "categorized_count": 24,
     "freshest_source": "Naval News",
     "freshest_title": "U.S. Navy Eyes South Korean Yards for Tankers and Destroyers",
     "freshest_published": "Fri, 10 Jul 2026 08:34:48 +0000"
