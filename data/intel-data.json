@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-07-14T01:14:52Z",
-  "version": 2025,
+  "generated_utc": "2026-07-14T04:36:13Z",
+  "version": 2026,
   "breaking_alert": "Naval News: U.S. Navy Eyes South Korean Yards for Tankers and Destroyers",
   "naval_deployments": [
     {
@@ -669,16 +669,6 @@
       ]
     },
     {
-      "title": "Sea drones strike Iranian port in combat first for US",
-      "link": "https://www.militarytimes.com/news/your-military/2026/07/13/sea-drones-strike-iranian-port-in-combat-first-for-us-navy/",
-      "published": "Mon, 13 Jul 2026 17:07:19 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
       "title": "VIDEO: 3 Lethal U.S. Drones Attack Iranian Sub, Port Facility",
       "link": "https://news.usni.org/2026/07/13/video-3-lethal-u-s-drones-attack-iranian-sub-port-facility",
       "published": "Mon, 13 Jul 2026 17:10:12 +0000",
@@ -686,6 +676,15 @@
       "categories": [
         "deployment",
         "conflict"
+      ]
+    },
+    {
+      "title": "Navy christens Flight III Arleigh Burke-class destroyer after Korean War hero",
+      "link": "https://www.militarytimes.com/news/your-military/2026/07/13/navy-christens-flight-iii-arleigh-burke-class-destroyer-after-korean-war-hero/",
+      "published": "Mon, 13 Jul 2026 17:45:22 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment"
       ]
     }
   ],
@@ -910,11 +909,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 21,
-    "conflict_articles": 10,
+    "deployment_articles": 20,
+    "conflict_articles": 9,
     "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-07-14T01:10:11.716168+00:00",
+    "computed_at": "2026-07-14T04:36:11.603132+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[Naval News] U.S. Navy Eyes South Korean Yards for Tankers and Destroyers",
@@ -932,9 +931,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-07-14T01:10:11.716217+00:00",
+    "last_successful_update": "2026-07-14T04:36:11.603181+00:00",
     "article_count": 50,
-    "categorized_count": 25,
+    "categorized_count": 24,
     "freshest_source": "Naval News",
     "freshest_title": "U.S. Navy Eyes South Korean Yards for Tankers and Destroyers",
     "freshest_published": "Fri, 10 Jul 2026 08:34:48 +0000"
