@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-07-14T12:58:44Z",
-  "version": 2030,
+  "generated_utc": "2026-07-14T14:45:54Z",
+  "version": 2031,
   "breaking_alert": "Naval News: U.S. Navy Eyes South Korean Yards for Tankers and Destroyers",
   "naval_deployments": [
     {
@@ -891,15 +891,6 @@
   ],
   "_exercise_news_refs": [
     {
-      "title": "The last Marine Corps AAV had its final field exercise",
-      "link": "https://taskandpurpose.com/news/marines-aav-2026/",
-      "published": "Fri, 10 Jul 2026 11:01:53 -0400",
-      "source": "Task & Purpose",
-      "categories": [
-        "exercise"
-      ]
-    },
-    {
       "title": "Lindsey Graham, senator and retired Air Force Reserve colonel, remembered for relishing challenges of public life",
       "link": "https://www.militarytimes.com/news/pentagon-congress/2026/07/13/lindsey-graham-senator-and-retired-air-force-reserve-colonel-remembered-for-relishing-challenges-of-public-life/",
       "published": "Mon, 13 Jul 2026 18:47:17 +0000",
@@ -919,18 +910,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 20,
+    "deployment_articles": 19,
     "conflict_articles": 8,
-    "exercise_articles": 3,
+    "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-07-14T12:58:42.047098+00:00",
+    "computed_at": "2026-07-14T14:45:51.866362+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[Naval News] U.S. Navy Eyes South Korean Yards for Tankers and Destroyers",
-      "[Task & Purpose] The last Marine Corps AAV had its final field exercise",
       "[Task & Purpose] Air Force ‘Wild Weasel’ pilot receives top flying award for Yemen mission",
       "[USNI News] Hormuz Sees Traffic Bump Despite Ongoing Iranian Attacks",
-      "[Task & Purpose] The Army is cutting back legal help for soldiers fighting medical discharge"
+      "[Task & Purpose] The Army is cutting back legal help for soldiers fighting medical discharge",
+      "[Task & Purpose] US uses drone boats for first time in latest Iran strikes"
     ]
   },
   "ground_intel": {
@@ -941,9 +932,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-07-14T12:58:42.047142+00:00",
+    "last_successful_update": "2026-07-14T14:45:51.866408+00:00",
     "article_count": 50,
-    "categorized_count": 24,
+    "categorized_count": 22,
     "freshest_source": "Naval News",
     "freshest_title": "U.S. Navy Eyes South Korean Yards for Tankers and Destroyers",
     "freshest_published": "Fri, 10 Jul 2026 08:34:48 +0000"
