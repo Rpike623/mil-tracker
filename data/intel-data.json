@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-07-15T19:58:40Z",
-  "version": 2048,
+  "generated_utc": "2026-07-15T20:56:39Z",
+  "version": 2049,
   "breaking_alert": "Task & Purpose: The Army is cutting back legal help for soldiers fighting medical discharge",
   "naval_deployments": [
     {
@@ -631,16 +631,6 @@
       ]
     },
     {
-      "title": "VIDEO: 3 Lethal U.S. Drones Attack Iranian Sub, Port Facility",
-      "link": "https://news.usni.org/2026/07/13/video-3-lethal-u-s-drones-attack-iranian-sub-port-facility",
-      "published": "Mon, 13 Jul 2026 17:10:12 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
       "title": "USNI News Fleet and Marine Tracker: July 13, 2026",
       "link": "https://news.usni.org/2026/07/13/usni-news-fleet-and-marine-tracker-july-13-2026",
       "published": "Mon, 13 Jul 2026 17:51:07 +0000",
@@ -680,6 +670,15 @@
       "title": "The US Navy is eyeing next-gen carrier-based drones. Here’s what they might do.",
       "link": "https://www.defensenews.com/news/your-navy/2026/07/14/the-us-navy-is-eyeing-next-gen-carrier-based-drones-heres-what-they-might-do/",
       "published": "Tue, 14 Jul 2026 23:56:55 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Israeli firm wants to convert commercial ships into floating drone bases",
+      "link": "https://www.defensenews.com/global/mideast-africa/2026/07/15/israeli-firm-wants-to-convert-commercial-ships-into-floating-drone-bases/",
+      "published": "Wed, 15 Jul 2026 10:27:52 +0000",
       "source": "Defense News",
       "categories": [
         "deployment"
@@ -857,16 +856,6 @@
       ]
     },
     {
-      "title": "VIDEO: 3 Lethal U.S. Drones Attack Iranian Sub, Port Facility",
-      "link": "https://news.usni.org/2026/07/13/video-3-lethal-u-s-drones-attack-iranian-sub-port-facility",
-      "published": "Mon, 13 Jul 2026 17:10:12 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
       "title": "US launches new round of strikes against Iran",
       "link": "https://www.defensenews.com/flashpoints/2026/07/15/us-launches-new-round-of-strikes-against-iran/",
       "published": "Wed, 15 Jul 2026 14:20:46 +0000",
@@ -885,6 +874,15 @@
         "deployment",
         "conflict"
       ]
+    },
+    {
+      "title": "Taiwan Mobilizes HIMARS, Anti-ship Missiles For Major Defense Drill",
+      "link": "https://news.usni.org/2026/07/15/taiwan-mobilizes-himars-anti-ship-missiles-for-major-defense-drill",
+      "published": "Wed, 15 Jul 2026 16:25:37 +0000",
+      "source": "USNI News",
+      "categories": [
+        "conflict"
+      ]
     }
   ],
   "_exercise_news_refs": [
@@ -899,12 +897,12 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 14,
-    "conflict_articles": 8,
+    "deployment_articles": 13,
+    "conflict_articles": 7,
     "exercise_articles": 1,
     "total_articles": 50,
-    "computed_at": "2026-07-15T19:58:37.982745+00:00",
-    "manual_override": "DEFCON_2",
+    "computed_at": "2026-07-15T20:56:35.054320+00:00",
+    "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Task & Purpose] The Army is cutting back legal help for soldiers fighting medical discharge",
       "[Task & Purpose] US uses drone boats for first time in latest Iran strikes",
@@ -921,9 +919,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-07-15T19:58:37.982790+00:00",
+    "last_successful_update": "2026-07-15T20:56:35.054363+00:00",
     "article_count": 50,
-    "categorized_count": 19,
+    "categorized_count": 18,
     "freshest_source": "Task & Purpose",
     "freshest_title": "The Army is cutting back legal help for soldiers fighting medical discharge",
     "freshest_published": "Mon, 13 Jul 2026 11:09:04 -0400"
