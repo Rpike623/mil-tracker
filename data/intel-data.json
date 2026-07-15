@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-07-15T09:45:25Z",
-  "version": 2042,
+  "generated_utc": "2026-07-15T11:17:53Z",
+  "version": 2043,
   "breaking_alert": "USNI News: Hormuz Sees Traffic Bump Despite Ongoing Iranian Attacks",
   "naval_deployments": [
     {
@@ -641,16 +641,6 @@
       ]
     },
     {
-      "title": "Sea drones strike Iranian port in combat first for US",
-      "link": "https://www.defensenews.com/news/your-military/2026/07/13/sea-drones-strike-iranian-port-in-combat-first-for-us-navy/",
-      "published": "Mon, 13 Jul 2026 17:07:19 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
       "title": "VIDEO: 3 Lethal U.S. Drones Attack Iranian Sub, Port Facility",
       "link": "https://news.usni.org/2026/07/13/video-3-lethal-u-s-drones-attack-iranian-sub-port-facility",
       "published": "Mon, 13 Jul 2026 17:10:12 +0000",
@@ -686,6 +676,15 @@
       "categories": [
         "deployment",
         "conflict"
+      ]
+    },
+    {
+      "title": "U.S. Reinstates Naval Blockade in Strait of Hormuz",
+      "link": "https://news.usni.org/2026/07/13/u-s-reinstates-naval-blockade-in-strait-of-hormuz",
+      "published": "Mon, 13 Jul 2026 20:46:40 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment"
       ]
     }
   ],
@@ -870,20 +869,20 @@
       ]
     },
     {
-      "title": "Sea drones strike Iranian port in combat first for US",
-      "link": "https://www.defensenews.com/news/your-military/2026/07/13/sea-drones-strike-iranian-port-in-combat-first-for-us-navy/",
-      "published": "Mon, 13 Jul 2026 17:07:19 +0000",
-      "source": "Defense News",
+      "title": "VIDEO: 3 Lethal U.S. Drones Attack Iranian Sub, Port Facility",
+      "link": "https://news.usni.org/2026/07/13/video-3-lethal-u-s-drones-attack-iranian-sub-port-facility",
+      "published": "Mon, 13 Jul 2026 17:10:12 +0000",
+      "source": "USNI News",
       "categories": [
         "deployment",
         "conflict"
       ]
     },
     {
-      "title": "VIDEO: 3 Lethal U.S. Drones Attack Iranian Sub, Port Facility",
-      "link": "https://news.usni.org/2026/07/13/video-3-lethal-u-s-drones-attack-iranian-sub-port-facility",
-      "published": "Mon, 13 Jul 2026 17:10:12 +0000",
-      "source": "USNI News",
+      "title": "Lawmakers demand Pentagon release findings from probe of Iran school strike",
+      "link": "https://www.defensenews.com/news/pentagon-congress/2026/07/13/lawmakers-demand-pentagon-release-findings-from-probe-of-iran-school-strike/",
+      "published": "Mon, 13 Jul 2026 20:35:10 +0000",
+      "source": "Defense News",
       "categories": [
         "deployment",
         "conflict"
@@ -912,11 +911,11 @@
   ],
   "_threat_indicators": {
     "deployment_articles": 17,
-    "conflict_articles": 8,
+    "conflict_articles": 7,
     "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-07-15T09:45:17.772270+00:00",
-    "manual_override": "DEFCON_2",
+    "computed_at": "2026-07-15T11:17:47.031822+00:00",
+    "manual_override": "DEFCON_3",
     "breaking_events": [
       "[USNI News] Hormuz Sees Traffic Bump Despite Ongoing Iranian Attacks",
       "[Task & Purpose] The Army is cutting back legal help for soldiers fighting medical discharge",
@@ -933,7 +932,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-07-15T09:45:17.772304+00:00",
+    "last_successful_update": "2026-07-15T11:17:47.031867+00:00",
     "article_count": 50,
     "categorized_count": 21,
     "freshest_source": "USNI News",
