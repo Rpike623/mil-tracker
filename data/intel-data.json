@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-07-15T20:56:39Z",
-  "version": 2049,
+  "generated_utc": "2026-07-15T21:53:41Z",
+  "version": 2050,
   "breaking_alert": "Task & Purpose: The Army is cutting back legal help for soldiers fighting medical discharge",
   "naval_deployments": [
     {
@@ -901,7 +901,7 @@
     "conflict_articles": 7,
     "exercise_articles": 1,
     "total_articles": 50,
-    "computed_at": "2026-07-15T20:56:35.054320+00:00",
+    "computed_at": "2026-07-15T21:49:01.024156+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Task & Purpose] The Army is cutting back legal help for soldiers fighting medical discharge",
@@ -919,7 +919,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-07-15T20:56:35.054363+00:00",
+    "last_successful_update": "2026-07-15T21:49:01.024196+00:00",
     "article_count": 50,
     "categorized_count": 18,
     "freshest_source": "Task & Purpose",
