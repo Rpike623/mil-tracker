@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-07-15T11:17:53Z",
-  "version": 2043,
+  "generated_utc": "2026-07-15T13:02:14Z",
+  "version": 2044,
   "breaking_alert": "USNI News: Hormuz Sees Traffic Bump Despite Ongoing Iranian Attacks",
   "naval_deployments": [
     {
@@ -914,7 +914,7 @@
     "conflict_articles": 7,
     "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-07-15T11:17:47.031822+00:00",
+    "computed_at": "2026-07-15T13:02:09.330188+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[USNI News] Hormuz Sees Traffic Bump Despite Ongoing Iranian Attacks",
@@ -932,7 +932,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-07-15T11:17:47.031867+00:00",
+    "last_successful_update": "2026-07-15T13:02:09.330232+00:00",
     "article_count": 50,
     "categorized_count": 21,
     "freshest_source": "USNI News",
