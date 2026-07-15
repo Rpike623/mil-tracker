@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-07-15T18:49:37Z",
-  "version": 2047,
+  "generated_utc": "2026-07-15T19:58:40Z",
+  "version": 2048,
   "breaking_alert": "Task & Purpose: The Army is cutting back legal help for soldiers fighting medical discharge",
   "naval_deployments": [
     {
@@ -867,15 +867,6 @@
       ]
     },
     {
-      "title": "Space Force agency awards tech companies $1.75 billion contract for missile warning, tracking satellites",
-      "link": "https://www.militarytimes.com/industry/techwatch/2026/07/14/space-force-agency-awards-tech-companies-175-billion-contract-for-missile-warning-tracking-satellites/",
-      "published": "Tue, 14 Jul 2026 19:38:52 +0000",
-      "source": "Military Times",
-      "categories": [
-        "conflict"
-      ]
-    },
-    {
       "title": "US launches new round of strikes against Iran",
       "link": "https://www.defensenews.com/flashpoints/2026/07/15/us-launches-new-round-of-strikes-against-iran/",
       "published": "Wed, 15 Jul 2026 14:20:46 +0000",
@@ -884,18 +875,19 @@
         "deployment",
         "conflict"
       ]
+    },
+    {
+      "title": "US launches new round of strikes against Iran",
+      "link": "https://www.militarytimes.com/flashpoints/2026/07/15/us-launches-new-round-of-strikes-against-iran/",
+      "published": "Wed, 15 Jul 2026 14:20:46 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
     }
   ],
   "_exercise_news_refs": [
-    {
-      "title": "Europe’s defense build-up is delivering for NATO — and America",
-      "link": "https://www.defensenews.com/opinion/2026/07/14/europes-defense-build-up-is-delivering-for-nato-and-america/",
-      "published": "Tue, 14 Jul 2026 12:22:25 +0000",
-      "source": "Defense News",
-      "categories": [
-        "exercise"
-      ]
-    },
     {
       "title": "Operation Firecrest: HMS Prince of Wales Demonstrates Royal Navy’s ‘Hybrid’ Shift",
       "link": "https://www.navalnews.com/naval-news/2026/07/operation-firecrest-hms-prince-of-wales-hybrid-navy/",
@@ -908,11 +900,11 @@
   ],
   "_threat_indicators": {
     "deployment_articles": 14,
-    "conflict_articles": 7,
-    "exercise_articles": 2,
+    "conflict_articles": 8,
+    "exercise_articles": 1,
     "total_articles": 50,
-    "computed_at": "2026-07-15T18:49:29.095458+00:00",
-    "manual_override": "DEFCON_3",
+    "computed_at": "2026-07-15T19:58:37.982745+00:00",
+    "manual_override": "DEFCON_2",
     "breaking_events": [
       "[Task & Purpose] The Army is cutting back legal help for soldiers fighting medical discharge",
       "[Task & Purpose] US uses drone boats for first time in latest Iran strikes",
@@ -929,7 +921,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-07-15T18:49:29.095501+00:00",
+    "last_successful_update": "2026-07-15T19:58:37.982790+00:00",
     "article_count": 50,
     "categorized_count": 19,
     "freshest_source": "Task & Purpose",
