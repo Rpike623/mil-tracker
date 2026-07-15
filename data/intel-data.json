@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-07-15T21:53:41Z",
-  "version": 2050,
+  "generated_utc": "2026-07-15T22:44:45Z",
+  "version": 2051,
   "breaking_alert": "Task & Purpose: The Army is cutting back legal help for soldiers fighting medical discharge",
   "naval_deployments": [
     {
@@ -631,15 +631,6 @@
       ]
     },
     {
-      "title": "USNI News Fleet and Marine Tracker: July 13, 2026",
-      "link": "https://news.usni.org/2026/07/13/usni-news-fleet-and-marine-tracker-july-13-2026",
-      "published": "Mon, 13 Jul 2026 17:51:07 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "U.S. Reinstates Naval Blockade in Strait of Hormuz",
       "link": "https://news.usni.org/2026/07/13/u-s-reinstates-naval-blockade-in-strait-of-hormuz",
       "published": "Mon, 13 Jul 2026 20:46:40 +0000",
@@ -682,6 +673,16 @@
       "source": "Defense News",
       "categories": [
         "deployment"
+      ]
+    },
+    {
+      "title": "US launches new round of strikes against Iran",
+      "link": "https://www.defensenews.com/flashpoints/2026/07/15/us-launches-new-round-of-strikes-against-iran/",
+      "published": "Wed, 15 Jul 2026 14:20:46 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment",
+        "conflict"
       ]
     }
   ],
@@ -901,7 +902,7 @@
     "conflict_articles": 7,
     "exercise_articles": 1,
     "total_articles": 50,
-    "computed_at": "2026-07-15T21:49:01.024156+00:00",
+    "computed_at": "2026-07-15T22:44:37.269643+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Task & Purpose] The Army is cutting back legal help for soldiers fighting medical discharge",
@@ -919,7 +920,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-07-15T21:49:01.024196+00:00",
+    "last_successful_update": "2026-07-15T22:44:37.269679+00:00",
     "article_count": 50,
     "categorized_count": 18,
     "freshest_source": "Task & Purpose",
