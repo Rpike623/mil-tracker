@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-07-15T07:03:38Z",
-  "version": 2041,
-  "breaking_alert": "Naval News: U.S. Navy Eyes South Korean Yards for Tankers and Destroyers",
+  "generated_utc": "2026-07-15T09:45:25Z",
+  "version": 2042,
+  "breaking_alert": "USNI News: Hormuz Sees Traffic Bump Despite Ongoing Iranian Attacks",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -594,15 +594,6 @@
   ],
   "_naval_news_refs": [
     {
-      "title": "U.S. Navy Eyes South Korean Yards for Tankers and Destroyers",
-      "link": "https://www.navalnews.com/naval-news/2026/07/us-navy-rfi-south-korea-shipbuilding-destroyers/",
-      "published": "Fri, 10 Jul 2026 08:34:48 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Hormuz Sees Traffic Bump Despite Ongoing Iranian Attacks",
       "link": "https://news.usni.org/2026/07/10/hormuz-sees-traffic-bump-despite-ongoing-iranian-attacks",
       "published": "Fri, 10 Jul 2026 21:08:41 +0000",
@@ -685,6 +676,16 @@
       "source": "Defense News",
       "categories": [
         "deployment"
+      ]
+    },
+    {
+      "title": "Lawmakers demand Pentagon release findings from probe of Iran school strike",
+      "link": "https://www.defensenews.com/news/pentagon-congress/2026/07/13/lawmakers-demand-pentagon-release-findings-from-probe-of-iran-school-strike/",
+      "published": "Mon, 13 Jul 2026 20:35:10 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment",
+        "conflict"
       ]
     }
   ],
@@ -898,21 +899,30 @@
       "categories": [
         "exercise"
       ]
+    },
+    {
+      "title": "Operation Firecrest: HMS Prince of Wales Demonstrates Royal Navy’s ‘Hybrid’ Shift",
+      "link": "https://www.navalnews.com/naval-news/2026/07/operation-firecrest-hms-prince-of-wales-hybrid-navy/",
+      "published": "Wed, 15 Jul 2026 09:02:51 +0000",
+      "source": "Naval News",
+      "categories": [
+        "exercise"
+      ]
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 18,
+    "deployment_articles": 17,
     "conflict_articles": 8,
-    "exercise_articles": 1,
+    "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-07-15T07:03:35.217726+00:00",
+    "computed_at": "2026-07-15T09:45:17.772270+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
-      "[Naval News] U.S. Navy Eyes South Korean Yards for Tankers and Destroyers",
       "[USNI News] Hormuz Sees Traffic Bump Despite Ongoing Iranian Attacks",
       "[Task & Purpose] The Army is cutting back legal help for soldiers fighting medical discharge",
       "[Task & Purpose] US uses drone boats for first time in latest Iran strikes",
-      "[Naval News] USMC Eyes General Atomics’ Bullseye Cruise Missile to Counter China"
+      "[Naval News] USMC Eyes General Atomics’ Bullseye Cruise Missile to Counter China",
+      "[Task & Purpose] US to restart blockade of Strait of Hormuz, may charge major toll"
     ]
   },
   "ground_intel": {
@@ -923,12 +933,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-07-15T07:03:35.217772+00:00",
+    "last_successful_update": "2026-07-15T09:45:17.772304+00:00",
     "article_count": 50,
     "categorized_count": 21,
-    "freshest_source": "Naval News",
-    "freshest_title": "U.S. Navy Eyes South Korean Yards for Tankers and Destroyers",
-    "freshest_published": "Fri, 10 Jul 2026 08:34:48 +0000"
+    "freshest_source": "USNI News",
+    "freshest_title": "Hormuz Sees Traffic Bump Despite Ongoing Iranian Attacks",
+    "freshest_published": "Fri, 10 Jul 2026 21:08:41 +0000"
   },
   "_firms_hotspots": []
 }
