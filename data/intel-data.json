@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-07-16T07:12:00Z",
-  "version": 2055,
+  "generated_utc": "2026-07-16T09:51:57Z",
+  "version": 2056,
   "breaking_alert": "Task & Purpose: The Army is cutting back legal help for soldiers fighting medical discharge",
   "naval_deployments": [
     {
@@ -640,6 +640,15 @@
       ]
     },
     {
+      "title": "Typhoon USV Completes First-Ever At-Sea Resupply with USS Essex",
+      "link": "https://www.navalnews.com/naval-news/2026/07/typhoon-usv-uss-essex-at-sea-resupply/",
+      "published": "Thu, 16 Jul 2026 08:40:43 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "Carrier USS Gerald R. Ford Starts First Major Post-Deployment Maintenance Period",
       "link": "https://news.usni.org/2026/07/14/carrier-uss-gerald-r-ford-starts-first-major-post-deployment-maintenance-period",
       "published": "Tue, 14 Jul 2026 18:12:16 +0000",
@@ -673,16 +682,6 @@
       "source": "Defense News",
       "categories": [
         "deployment"
-      ]
-    },
-    {
-      "title": "US launches new round of strikes against Iran",
-      "link": "https://www.defensenews.com/flashpoints/2026/07/15/us-launches-new-round-of-strikes-against-iran/",
-      "published": "Wed, 15 Jul 2026 14:20:46 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment",
-        "conflict"
       ]
     }
   ],
@@ -898,11 +897,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 13,
+    "deployment_articles": 14,
     "conflict_articles": 7,
     "exercise_articles": 1,
     "total_articles": 50,
-    "computed_at": "2026-07-16T07:11:57.782730+00:00",
+    "computed_at": "2026-07-16T09:51:51.619293+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Task & Purpose] The Army is cutting back legal help for soldiers fighting medical discharge",
@@ -920,9 +919,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-07-16T07:11:57.782774+00:00",
+    "last_successful_update": "2026-07-16T09:51:51.619329+00:00",
     "article_count": 50,
-    "categorized_count": 18,
+    "categorized_count": 19,
     "freshest_source": "Task & Purpose",
     "freshest_title": "The Army is cutting back legal help for soldiers fighting medical discharge",
     "freshest_published": "Mon, 13 Jul 2026 11:09:04 -0400"
