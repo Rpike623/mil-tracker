@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-07-16T18:07:34Z",
-  "version": 2061,
+  "generated_utc": "2026-07-16T19:53:11Z",
+  "version": 2062,
   "breaking_alert": "Naval News: USMC Eyes General Atomics’ Bullseye Cruise Missile to Counter China",
   "naval_deployments": [
     {
@@ -872,15 +872,6 @@
       "categories": [
         "conflict"
       ]
-    },
-    {
-      "title": "US Air Force turns to cheaper cruise missiles it can buy by the thousands",
-      "link": "https://www.militarytimes.com/industry/techwatch/2026/07/15/us-air-force-turns-to-cheaper-cruise-missiles-it-can-buy-by-the-thousand/",
-      "published": "Wed, 15 Jul 2026 19:48:09 +0000",
-      "source": "Military Times",
-      "categories": [
-        "conflict"
-      ]
     }
   ],
   "_exercise_news_refs": [
@@ -914,10 +905,10 @@
   ],
   "_threat_indicators": {
     "deployment_articles": 10,
-    "conflict_articles": 5,
+    "conflict_articles": 4,
     "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-07-16T18:02:53.434139+00:00",
+    "computed_at": "2026-07-16T19:53:08.835906+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] USMC Eyes General Atomics’ Bullseye Cruise Missile to Counter China",
@@ -935,9 +926,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-07-16T18:02:53.434185+00:00",
+    "last_successful_update": "2026-07-16T19:53:08.835952+00:00",
     "article_count": 50,
-    "categorized_count": 17,
+    "categorized_count": 16,
     "freshest_source": "Naval News",
     "freshest_title": "USMC Eyes General Atomics’ Bullseye Cruise Missile to Counter China",
     "freshest_published": "Mon, 13 Jul 2026 12:50:17 +0000"
