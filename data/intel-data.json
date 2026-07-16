@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-07-16T15:22:29Z",
-  "version": 2059,
-  "breaking_alert": "Task & Purpose: US uses drone boats for first time in latest Iran strikes",
+  "generated_utc": "2026-07-16T16:58:38Z",
+  "version": 2060,
+  "breaking_alert": "Naval News: USMC Eyes General Atomics’ Bullseye Cruise Missile to Counter China",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -594,16 +594,6 @@
   ],
   "_naval_news_refs": [
     {
-      "title": "US uses drone boats for first time in latest Iran strikes",
-      "link": "https://taskandpurpose.com/news/military-sea-drones-iran-2026/",
-      "published": "Mon, 13 Jul 2026 11:28:41 -0400",
-      "source": "Task & Purpose",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
       "title": "US to restart blockade of Strait of Hormuz, may charge major toll",
       "link": "https://taskandpurpose.com/news/us-iran-new-blockade-hormuz/",
       "published": "Mon, 13 Jul 2026 15:32:05 -0400",
@@ -677,13 +667,21 @@
       ]
     },
     {
-      "title": "US launches new round of strikes against Iran",
-      "link": "https://www.militarytimes.com/flashpoints/2026/07/15/us-launches-new-round-of-strikes-against-iran/",
-      "published": "Wed, 15 Jul 2026 14:20:46 +0000",
+      "title": "Cahill Takes Command of U.S. Naval Surface Force",
+      "link": "https://news.usni.org/2026/07/15/cahill-takes-command-of-u-s-naval-surface-force",
+      "published": "Wed, 15 Jul 2026 20:44:34 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "USS Sampson spills roughly 2,000 gallons of diesel fuel into Seattle harbor",
+      "link": "https://www.militarytimes.com/news/your-navy/2026/07/15/uss-sampson-spills-roughly-2000-gallons-of-diesel-fuel-into-seattle-harbor/",
+      "published": "Wed, 15 Jul 2026 21:54:31 +0000",
       "source": "Military Times",
       "categories": [
-        "deployment",
-        "conflict"
+        "deployment"
       ]
     }
   ],
@@ -839,16 +837,6 @@
   },
   "_conflict_news_refs": [
     {
-      "title": "US uses drone boats for first time in latest Iran strikes",
-      "link": "https://taskandpurpose.com/news/military-sea-drones-iran-2026/",
-      "published": "Mon, 13 Jul 2026 11:28:41 -0400",
-      "source": "Task & Purpose",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
       "title": "USMC Eyes General Atomics’ Bullseye Cruise Missile to Counter China",
       "link": "https://www.navalnews.com/naval-news/2026/07/usmc-general-atomics-bullseye-missile-china/",
       "published": "Mon, 13 Jul 2026 12:50:17 +0000",
@@ -868,20 +856,28 @@
       ]
     },
     {
-      "title": "US launches new round of strikes against Iran",
-      "link": "https://www.militarytimes.com/flashpoints/2026/07/15/us-launches-new-round-of-strikes-against-iran/",
-      "published": "Wed, 15 Jul 2026 14:20:46 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
       "title": "Taiwan Mobilizes HIMARS, Anti-ship Missiles For Major Defense Drill",
       "link": "https://news.usni.org/2026/07/15/taiwan-mobilizes-himars-anti-ship-missiles-for-major-defense-drill",
       "published": "Wed, 15 Jul 2026 16:25:37 +0000",
       "source": "USNI News",
+      "categories": [
+        "conflict"
+      ]
+    },
+    {
+      "title": "US Air Force turns to cheaper cruise missiles it can buy by the thousands",
+      "link": "https://www.defensenews.com/industry/techwatch/2026/07/15/us-air-force-turns-to-cheaper-cruise-missiles-it-can-buy-by-the-thousand/",
+      "published": "Wed, 15 Jul 2026 19:48:09 +0000",
+      "source": "Defense News",
+      "categories": [
+        "conflict"
+      ]
+    },
+    {
+      "title": "US Air Force turns to cheaper cruise missiles it can buy by the thousands",
+      "link": "https://www.militarytimes.com/industry/techwatch/2026/07/15/us-air-force-turns-to-cheaper-cruise-missiles-it-can-buy-by-the-thousand/",
+      "published": "Wed, 15 Jul 2026 19:48:09 +0000",
+      "source": "Military Times",
       "categories": [
         "conflict"
       ]
@@ -898,6 +894,15 @@
       ]
     },
     {
+      "title": "Senators question whether military pharmacy program is the best deal for beneficiaries",
+      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/07/16/senators-question-whether-military-pharmacy-program-is-the-best-deal-for-beneficiaries/",
+      "published": "Thu, 16 Jul 2026 15:46:49 +0000",
+      "source": "Military Times",
+      "categories": [
+        "exercise"
+      ]
+    },
+    {
       "title": "Operation Firecrest: HMS Prince of Wales Demonstrates Royal Navy’s ‘Hybrid’ Shift",
       "link": "https://www.navalnews.com/naval-news/2026/07/operation-firecrest-hms-prince-of-wales-hybrid-navy/",
       "published": "Wed, 15 Jul 2026 09:02:51 +0000",
@@ -908,18 +913,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 12,
-    "conflict_articles": 7,
-    "exercise_articles": 2,
+    "deployment_articles": 10,
+    "conflict_articles": 5,
+    "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-07-16T15:22:26.438415+00:00",
+    "computed_at": "2026-07-16T16:58:32.195788+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
-      "[Task & Purpose] US uses drone boats for first time in latest Iran strikes",
       "[Naval News] USMC Eyes General Atomics’ Bullseye Cruise Missile to Counter China",
       "[Task & Purpose] US to restart blockade of Strait of Hormuz, may charge major toll",
       "[Naval News] CENTCOM Deploys Saronic Corsair USV Against Iranian Submarine At Bandar Abbas",
-      "[Task & Purpose] Veterans in VA care targeted by inmate in elaborate phone scam"
+      "[Task & Purpose] Veterans in VA care targeted by inmate in elaborate phone scam",
+      "[Naval News] Typhoon USV Completes First-Ever At-Sea Resupply with USS Essex"
     ]
   },
   "ground_intel": {
@@ -930,12 +935,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-07-16T15:22:26.438460+00:00",
+    "last_successful_update": "2026-07-16T16:58:32.195831+00:00",
     "article_count": 50,
-    "categorized_count": 18,
-    "freshest_source": "Task & Purpose",
-    "freshest_title": "US uses drone boats for first time in latest Iran strikes",
-    "freshest_published": "Mon, 13 Jul 2026 11:28:41 -0400"
+    "categorized_count": 17,
+    "freshest_source": "Naval News",
+    "freshest_title": "USMC Eyes General Atomics’ Bullseye Cruise Missile to Counter China",
+    "freshest_published": "Mon, 13 Jul 2026 12:50:17 +0000"
   },
   "_firms_hotspots": []
 }
