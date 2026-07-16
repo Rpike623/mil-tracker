@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-07-16T20:40:57Z",
-  "version": 2063,
+  "generated_utc": "2026-07-16T21:56:59Z",
+  "version": 2064,
   "breaking_alert": "Naval News: USMC Eyes General Atomics’ Bullseye Cruise Missile to Counter China",
   "naval_deployments": [
     {
@@ -621,18 +621,18 @@
       ]
     },
     {
-      "title": "Carrier USS Gerald R. Ford Starts First Major Post-Deployment Maintenance Period",
-      "link": "https://news.usni.org/2026/07/14/carrier-uss-gerald-r-ford-starts-first-major-post-deployment-maintenance-period",
-      "published": "Tue, 14 Jul 2026 18:12:16 +0000",
+      "title": "Coast Guard Ends Middle East Mission, Moves Cutter Squadron to Western Pacific",
+      "link": "https://news.usni.org/2026/07/16/coast-guard-ends-middle-east-mission-moves-cutter-squadron-to-western-pacific",
+      "published": "Thu, 16 Jul 2026 20:49:40 +0000",
       "source": "USNI News",
       "categories": [
         "deployment"
       ]
     },
     {
-      "title": "USS Essex at the Center of Additive Manufacturing Trials During RIMPAC 26",
-      "link": "https://news.usni.org/2026/07/14/uss-essex-at-the-center-of-additive-manufacturing-trials-during-rimpac-26",
-      "published": "Tue, 14 Jul 2026 18:54:21 +0000",
+      "title": "USS Fort Lauderdale Returns from 11-month Deployment to the Caribbean",
+      "link": "https://news.usni.org/2026/07/16/uss-fort-lauderdale-returns-from-11-month-deployment-to-the-caribbean",
+      "published": "Thu, 16 Jul 2026 21:45:04 +0000",
       "source": "USNI News",
       "categories": [
         "deployment"
@@ -885,6 +885,15 @@
       ]
     },
     {
+      "title": "Pentagon’s testosterone program builds on ‘operator syndrome’ worries in special operations",
+      "link": "https://taskandpurpose.com/news/pentagon-testosterone-treatment/",
+      "published": "Thu, 16 Jul 2026 16:08:51 -0400",
+      "source": "Task & Purpose",
+      "categories": [
+        "exercise"
+      ]
+    },
+    {
       "title": "Operation Firecrest: HMS Prince of Wales Demonstrates Royal Navy’s ‘Hybrid’ Shift",
       "link": "https://www.navalnews.com/naval-news/2026/07/operation-firecrest-hms-prince-of-wales-hybrid-navy/",
       "published": "Wed, 15 Jul 2026 09:02:51 +0000",
@@ -897,9 +906,9 @@
   "_threat_indicators": {
     "deployment_articles": 9,
     "conflict_articles": 4,
-    "exercise_articles": 3,
+    "exercise_articles": 4,
     "total_articles": 50,
-    "computed_at": "2026-07-16T20:40:50.115920+00:00",
+    "computed_at": "2026-07-16T21:52:18.653764+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] USMC Eyes General Atomics’ Bullseye Cruise Missile to Counter China",
@@ -917,9 +926,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-07-16T20:40:50.115963+00:00",
+    "last_successful_update": "2026-07-16T21:52:18.653806+00:00",
     "article_count": 50,
-    "categorized_count": 15,
+    "categorized_count": 16,
     "freshest_source": "Naval News",
     "freshest_title": "USMC Eyes General Atomics’ Bullseye Cruise Missile to Counter China",
     "freshest_published": "Mon, 13 Jul 2026 12:50:17 +0000"
