@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-07-16T22:44:09Z",
-  "version": 2065,
+  "generated_utc": "2026-07-16T23:49:32Z",
+  "version": 2066,
   "breaking_alert": "Naval News: USMC Eyes General Atomics’ Bullseye Cruise Missile to Counter China",
   "naval_deployments": [
     {
@@ -656,15 +656,6 @@
       "categories": [
         "deployment"
       ]
-    },
-    {
-      "title": "USS Sampson spills roughly 2,000 gallons of diesel fuel into Seattle harbor",
-      "link": "https://www.militarytimes.com/news/your-navy/2026/07/15/uss-sampson-spills-roughly-2000-gallons-of-diesel-fuel-into-seattle-harbor/",
-      "published": "Wed, 15 Jul 2026 21:54:31 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment"
-      ]
     }
   ],
   "centcom_assets": {
@@ -895,11 +886,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 8,
+    "deployment_articles": 7,
     "conflict_articles": 4,
     "exercise_articles": 4,
     "total_articles": 50,
-    "computed_at": "2026-07-16T22:44:05.022962+00:00",
+    "computed_at": "2026-07-16T23:44:51.888782+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] USMC Eyes General Atomics’ Bullseye Cruise Missile to Counter China",
@@ -917,9 +908,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-07-16T22:44:05.023003+00:00",
+    "last_successful_update": "2026-07-16T23:44:51.888824+00:00",
     "article_count": 50,
-    "categorized_count": 15,
+    "categorized_count": 14,
     "freshest_source": "Naval News",
     "freshest_title": "USMC Eyes General Atomics’ Bullseye Cruise Missile to Counter China",
     "freshest_published": "Mon, 13 Jul 2026 12:50:17 +0000"
