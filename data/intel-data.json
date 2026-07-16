@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-07-16T19:53:11Z",
-  "version": 2062,
+  "generated_utc": "2026-07-16T20:40:57Z",
+  "version": 2063,
   "breaking_alert": "Naval News: USMC Eyes General Atomics’ Bullseye Cruise Missile to Counter China",
   "naval_deployments": [
     {
@@ -594,15 +594,6 @@
   ],
   "_naval_news_refs": [
     {
-      "title": "US to restart blockade of Strait of Hormuz, may charge major toll",
-      "link": "https://taskandpurpose.com/news/us-iran-new-blockade-hormuz/",
-      "published": "Mon, 13 Jul 2026 15:32:05 -0400",
-      "source": "Task & Purpose",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "CENTCOM Deploys Saronic Corsair USV Against Iranian Submarine At Bandar Abbas",
       "link": "https://www.navalnews.com/naval-news/2026/07/centcom-saronic-corsair-usv-strike-iran-submarine-bandar-abbas/",
       "published": "Mon, 13 Jul 2026 16:49:42 +0000",
@@ -904,18 +895,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 10,
+    "deployment_articles": 9,
     "conflict_articles": 4,
     "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-07-16T19:53:08.835906+00:00",
+    "computed_at": "2026-07-16T20:40:50.115920+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] USMC Eyes General Atomics’ Bullseye Cruise Missile to Counter China",
-      "[Task & Purpose] US to restart blockade of Strait of Hormuz, may charge major toll",
       "[Naval News] CENTCOM Deploys Saronic Corsair USV Against Iranian Submarine At Bandar Abbas",
       "[Task & Purpose] Veterans in VA care targeted by inmate in elaborate phone scam",
-      "[Naval News] Typhoon USV Completes First-Ever At-Sea Resupply with USS Essex"
+      "[Naval News] Typhoon USV Completes First-Ever At-Sea Resupply with USS Essex",
+      "[Defense News] Franco-German defense cooperation under strain as Macron, Merz meet"
     ]
   },
   "ground_intel": {
@@ -926,9 +917,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-07-16T19:53:08.835952+00:00",
+    "last_successful_update": "2026-07-16T20:40:50.115963+00:00",
     "article_count": 50,
-    "categorized_count": 16,
+    "categorized_count": 15,
     "freshest_source": "Naval News",
     "freshest_title": "USMC Eyes General Atomics’ Bullseye Cruise Missile to Counter China",
     "freshest_published": "Mon, 13 Jul 2026 12:50:17 +0000"
