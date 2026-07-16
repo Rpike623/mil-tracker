@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-07-16T09:51:57Z",
-  "version": 2056,
-  "breaking_alert": "Task & Purpose: The Army is cutting back legal help for soldiers fighting medical discharge",
+  "generated_utc": "2026-07-16T11:23:31Z",
+  "version": 2057,
+  "breaking_alert": "Task & Purpose: US uses drone boats for first time in latest Iran strikes",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -594,15 +594,6 @@
   ],
   "_naval_news_refs": [
     {
-      "title": "The Army is cutting back legal help for soldiers fighting medical discharge",
-      "link": "https://taskandpurpose.com/news/army-cuts-disability-representation/",
-      "published": "Mon, 13 Jul 2026 11:09:04 -0400",
-      "source": "Task & Purpose",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "US uses drone boats for first time in latest Iran strikes",
       "link": "https://taskandpurpose.com/news/military-sea-drones-iran-2026/",
       "published": "Mon, 13 Jul 2026 11:28:41 -0400",
@@ -682,6 +673,16 @@
       "source": "Defense News",
       "categories": [
         "deployment"
+      ]
+    },
+    {
+      "title": "US launches new round of strikes against Iran",
+      "link": "https://www.defensenews.com/flashpoints/2026/07/15/us-launches-new-round-of-strikes-against-iran/",
+      "published": "Wed, 15 Jul 2026 14:20:46 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment",
+        "conflict"
       ]
     }
   ],
@@ -897,18 +898,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 14,
+    "deployment_articles": 13,
     "conflict_articles": 7,
     "exercise_articles": 1,
     "total_articles": 50,
-    "computed_at": "2026-07-16T09:51:51.619293+00:00",
+    "computed_at": "2026-07-16T11:23:28.471275+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
-      "[Task & Purpose] The Army is cutting back legal help for soldiers fighting medical discharge",
       "[Task & Purpose] US uses drone boats for first time in latest Iran strikes",
       "[Naval News] USMC Eyes General Atomics’ Bullseye Cruise Missile to Counter China",
       "[Task & Purpose] US to restart blockade of Strait of Hormuz, may charge major toll",
-      "[Naval News] CENTCOM Deploys Saronic Corsair USV Against Iranian Submarine At Bandar Abbas"
+      "[Naval News] CENTCOM Deploys Saronic Corsair USV Against Iranian Submarine At Bandar Abbas",
+      "[USNI News] U.S. Reinstates Naval Blockade in Strait of Hormuz"
     ]
   },
   "ground_intel": {
@@ -919,12 +920,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-07-16T09:51:51.619329+00:00",
+    "last_successful_update": "2026-07-16T11:23:28.471326+00:00",
     "article_count": 50,
-    "categorized_count": 19,
+    "categorized_count": 18,
     "freshest_source": "Task & Purpose",
-    "freshest_title": "The Army is cutting back legal help for soldiers fighting medical discharge",
-    "freshest_published": "Mon, 13 Jul 2026 11:09:04 -0400"
+    "freshest_title": "US uses drone boats for first time in latest Iran strikes",
+    "freshest_published": "Mon, 13 Jul 2026 11:28:41 -0400"
   },
   "_firms_hotspots": []
 }
