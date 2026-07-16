@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-07-16T11:23:31Z",
-  "version": 2057,
+  "generated_utc": "2026-07-16T13:10:25Z",
+  "version": 2058,
   "breaking_alert": "Task & Purpose: US uses drone boats for first time in latest Iran strikes",
   "naval_deployments": [
     {
@@ -902,7 +902,7 @@
     "conflict_articles": 7,
     "exercise_articles": 1,
     "total_articles": 50,
-    "computed_at": "2026-07-16T11:23:28.471275+00:00",
+    "computed_at": "2026-07-16T13:10:17.997428+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Task & Purpose] US uses drone boats for first time in latest Iran strikes",
@@ -920,7 +920,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-07-16T11:23:28.471326+00:00",
+    "last_successful_update": "2026-07-16T13:10:17.997472+00:00",
     "article_count": 50,
     "categorized_count": 18,
     "freshest_source": "Task & Purpose",
