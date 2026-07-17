@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-07-16T23:49:32Z",
-  "version": 2066,
+  "generated_utc": "2026-07-17T01:24:31Z",
+  "version": 2067,
   "breaking_alert": "Naval News: USMC Eyes General Atomics’ Bullseye Cruise Missile to Counter China",
   "naval_deployments": [
     {
@@ -890,7 +890,7 @@
     "conflict_articles": 4,
     "exercise_articles": 4,
     "total_articles": 50,
-    "computed_at": "2026-07-16T23:44:51.888782+00:00",
+    "computed_at": "2026-07-17T01:19:50.707860+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] USMC Eyes General Atomics’ Bullseye Cruise Missile to Counter China",
@@ -908,7 +908,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-07-16T23:44:51.888824+00:00",
+    "last_successful_update": "2026-07-17T01:19:50.707902+00:00",
     "article_count": 50,
     "categorized_count": 14,
     "freshest_source": "Naval News",
