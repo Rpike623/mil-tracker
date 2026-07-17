@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-07-17T14:22:34Z",
-  "version": 2073,
+  "generated_utc": "2026-07-17T16:05:48Z",
+  "version": 2074,
   "breaking_alert": "USNI News: U.S. Air Force Increases Stealthy Cruise, Anti-ship Missile Production",
   "naval_deployments": [
     {
@@ -820,19 +820,19 @@
   ],
   "_exercise_news_refs": [
     {
-      "title": "Franco-German defense cooperation under strain as Macron, Merz meet",
-      "link": "https://www.defensenews.com/global/europe/2026/07/16/franco-german-defense-cooperation-under-strain-as-macron-merz-meet/",
-      "published": "Thu, 16 Jul 2026 13:47:38 +0000",
-      "source": "Defense News",
+      "title": "Spanish Navy to Lead NATO’s Atlantic Task Force Until June 2027",
+      "link": "https://news.usni.org/2026/07/17/spanish-navy-to-lead-natos-atlantic-task-force-until-june-2027",
+      "published": "Fri, 17 Jul 2026 15:18:23 +0000",
+      "source": "USNI News",
       "categories": [
         "exercise"
       ]
     },
     {
-      "title": "Senators question whether military pharmacy program is the best deal for beneficiaries",
-      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/07/16/senators-question-whether-military-pharmacy-program-is-the-best-deal-for-beneficiaries/",
-      "published": "Thu, 16 Jul 2026 15:46:49 +0000",
-      "source": "Military Times",
+      "title": "Franco-German defense cooperation under strain as Macron, Merz meet",
+      "link": "https://www.defensenews.com/global/europe/2026/07/16/franco-german-defense-cooperation-under-strain-as-macron-merz-meet/",
+      "published": "Thu, 16 Jul 2026 13:47:38 +0000",
+      "source": "Defense News",
       "categories": [
         "exercise"
       ]
@@ -861,14 +861,14 @@
     "conflict_articles": 3,
     "exercise_articles": 4,
     "total_articles": 50,
-    "computed_at": "2026-07-17T14:22:26.700046+00:00",
+    "computed_at": "2026-07-17T16:05:05.971972+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[USNI News] U.S. Air Force Increases Stealthy Cruise, Anti-ship Missile Production",
+      "[USNI News] Spanish Navy to Lead NATO’s Atlantic Task Force Until June 2027",
       "[Task & Purpose] Veterans in VA care targeted by inmate in elaborate phone scam",
       "[Naval News] Typhoon USV Completes First-Ever At-Sea Resupply with USS Essex",
-      "[Defense News] Franco-German defense cooperation under strain as Macron, Merz meet",
-      "[Military Times] Senators question whether military pharmacy program is the best deal for beneficiaries"
+      "[Defense News] Franco-German defense cooperation under strain as Macron, Merz meet"
     ]
   },
   "ground_intel": {
@@ -879,7 +879,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-07-17T14:22:26.700132+00:00",
+    "last_successful_update": "2026-07-17T16:05:05.972030+00:00",
     "article_count": 50,
     "categorized_count": 12,
     "freshest_source": "USNI News",
