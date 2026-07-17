@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-07-17T11:11:28Z",
-  "version": 2071,
-  "breaking_alert": "Naval News: CENTCOM Deploys Saronic Corsair USV Against Iranian Submarine At Bandar Abbas",
+  "generated_utc": "2026-07-17T12:55:10Z",
+  "version": 2072,
+  "breaking_alert": "Task & Purpose: Veterans in VA care targeted by inmate in elaborate phone scam",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -594,15 +594,6 @@
   ],
   "_naval_news_refs": [
     {
-      "title": "CENTCOM Deploys Saronic Corsair USV Against Iranian Submarine At Bandar Abbas",
-      "link": "https://www.navalnews.com/naval-news/2026/07/centcom-saronic-corsair-usv-strike-iran-submarine-bandar-abbas/",
-      "published": "Mon, 13 Jul 2026 16:49:42 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Veterans in VA care targeted by inmate in elaborate phone scam",
       "link": "https://taskandpurpose.com/field-guide/jail-va-phone-scam/",
       "published": "Thu, 16 Jul 2026 06:30:00 -0400",
@@ -636,16 +627,6 @@
       "source": "USNI News",
       "categories": [
         "deployment"
-      ]
-    },
-    {
-      "title": "US launches new round of strikes against Iran",
-      "link": "https://www.defensenews.com/flashpoints/2026/07/15/us-launches-new-round-of-strikes-against-iran/",
-      "published": "Wed, 15 Jul 2026 14:20:46 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment",
-        "conflict"
       ]
     },
     {
@@ -810,16 +791,6 @@
   },
   "_conflict_news_refs": [
     {
-      "title": "US launches new round of strikes against Iran",
-      "link": "https://www.defensenews.com/flashpoints/2026/07/15/us-launches-new-round-of-strikes-against-iran/",
-      "published": "Wed, 15 Jul 2026 14:20:46 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
       "title": "Taiwan Mobilizes HIMARS, Anti-ship Missiles For Major Defense Drill",
       "link": "https://news.usni.org/2026/07/15/taiwan-mobilizes-himars-anti-ship-missiles-for-major-defense-drill",
       "published": "Wed, 15 Jul 2026 16:25:37 +0000",
@@ -877,18 +848,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 7,
-    "conflict_articles": 3,
+    "deployment_articles": 5,
+    "conflict_articles": 2,
     "exercise_articles": 4,
     "total_articles": 50,
-    "computed_at": "2026-07-17T11:11:22.513029+00:00",
-    "manual_override": "DEFCON_3",
+    "computed_at": "2026-07-17T12:55:02.194964+00:00",
+    "manual_override": "DEFCON_4",
     "breaking_events": [
-      "[Naval News] CENTCOM Deploys Saronic Corsair USV Against Iranian Submarine At Bandar Abbas",
       "[Task & Purpose] Veterans in VA care targeted by inmate in elaborate phone scam",
       "[Naval News] Typhoon USV Completes First-Ever At-Sea Resupply with USS Essex",
       "[Defense News] Franco-German defense cooperation under strain as Macron, Merz meet",
-      "[Military Times] Senators question whether military pharmacy program is the best deal for beneficiaries"
+      "[Military Times] Senators question whether military pharmacy program is the best deal for beneficiaries",
+      "[Task & Purpose] Pentagon’s testosterone program builds on ‘operator syndrome’ worries in special operations"
     ]
   },
   "ground_intel": {
@@ -899,12 +870,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-07-17T11:11:22.513072+00:00",
+    "last_successful_update": "2026-07-17T12:55:02.195009+00:00",
     "article_count": 50,
-    "categorized_count": 13,
-    "freshest_source": "Naval News",
-    "freshest_title": "CENTCOM Deploys Saronic Corsair USV Against Iranian Submarine At Bandar Abbas",
-    "freshest_published": "Mon, 13 Jul 2026 16:49:42 +0000"
+    "categorized_count": 11,
+    "freshest_source": "Task & Purpose",
+    "freshest_title": "Veterans in VA care targeted by inmate in elaborate phone scam",
+    "freshest_published": "Thu, 16 Jul 2026 06:30:00 -0400"
   },
   "_firms_hotspots": []
 }
