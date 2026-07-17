@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-07-17T09:42:02Z",
-  "version": 2070,
+  "generated_utc": "2026-07-17T11:11:28Z",
+  "version": 2071,
   "breaking_alert": "Naval News: CENTCOM Deploys Saronic Corsair USV Against Iranian Submarine At Bandar Abbas",
   "naval_deployments": [
     {
@@ -881,7 +881,7 @@
     "conflict_articles": 3,
     "exercise_articles": 4,
     "total_articles": 50,
-    "computed_at": "2026-07-17T09:42:00.302586+00:00",
+    "computed_at": "2026-07-17T11:11:22.513029+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] CENTCOM Deploys Saronic Corsair USV Against Iranian Submarine At Bandar Abbas",
@@ -899,7 +899,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-07-17T09:42:00.302628+00:00",
+    "last_successful_update": "2026-07-17T11:11:22.513072+00:00",
     "article_count": 50,
     "categorized_count": 13,
     "freshest_source": "Naval News",
