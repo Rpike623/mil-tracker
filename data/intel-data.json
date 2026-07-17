@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-07-17T07:06:57Z",
-  "version": 2069,
-  "breaking_alert": "Naval News: USMC Eyes General Atomics’ Bullseye Cruise Missile to Counter China",
+  "generated_utc": "2026-07-17T09:42:02Z",
+  "version": 2070,
+  "breaking_alert": "Naval News: CENTCOM Deploys Saronic Corsair USV Against Iranian Submarine At Bandar Abbas",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -810,15 +810,6 @@
   },
   "_conflict_news_refs": [
     {
-      "title": "USMC Eyes General Atomics’ Bullseye Cruise Missile to Counter China",
-      "link": "https://www.navalnews.com/naval-news/2026/07/usmc-general-atomics-bullseye-missile-china/",
-      "published": "Mon, 13 Jul 2026 12:50:17 +0000",
-      "source": "Naval News",
-      "categories": [
-        "conflict"
-      ]
-    },
-    {
       "title": "US launches new round of strikes against Iran",
       "link": "https://www.defensenews.com/flashpoints/2026/07/15/us-launches-new-round-of-strikes-against-iran/",
       "published": "Wed, 15 Jul 2026 14:20:46 +0000",
@@ -887,17 +878,17 @@
   ],
   "_threat_indicators": {
     "deployment_articles": 7,
-    "conflict_articles": 4,
+    "conflict_articles": 3,
     "exercise_articles": 4,
     "total_articles": 50,
-    "computed_at": "2026-07-17T07:06:54.388265+00:00",
+    "computed_at": "2026-07-17T09:42:00.302586+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
-      "[Naval News] USMC Eyes General Atomics’ Bullseye Cruise Missile to Counter China",
       "[Naval News] CENTCOM Deploys Saronic Corsair USV Against Iranian Submarine At Bandar Abbas",
       "[Task & Purpose] Veterans in VA care targeted by inmate in elaborate phone scam",
       "[Naval News] Typhoon USV Completes First-Ever At-Sea Resupply with USS Essex",
-      "[Defense News] Franco-German defense cooperation under strain as Macron, Merz meet"
+      "[Defense News] Franco-German defense cooperation under strain as Macron, Merz meet",
+      "[Military Times] Senators question whether military pharmacy program is the best deal for beneficiaries"
     ]
   },
   "ground_intel": {
@@ -908,12 +899,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-07-17T07:06:54.388308+00:00",
+    "last_successful_update": "2026-07-17T09:42:00.302628+00:00",
     "article_count": 50,
-    "categorized_count": 14,
+    "categorized_count": 13,
     "freshest_source": "Naval News",
-    "freshest_title": "USMC Eyes General Atomics’ Bullseye Cruise Missile to Counter China",
-    "freshest_published": "Mon, 13 Jul 2026 12:50:17 +0000"
+    "freshest_title": "CENTCOM Deploys Saronic Corsair USV Against Iranian Submarine At Bandar Abbas",
+    "freshest_published": "Mon, 13 Jul 2026 16:49:42 +0000"
   },
   "_firms_hotspots": []
 }
