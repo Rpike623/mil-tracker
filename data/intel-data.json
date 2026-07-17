@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-07-17T17:54:22Z",
-  "version": 2075,
+  "generated_utc": "2026-07-17T18:47:51Z",
+  "version": 2076,
   "breaking_alert": "USNI News: U.S. Air Force Increases Stealthy Cruise, Anti-ship Missile Production",
   "naval_deployments": [
     {
@@ -594,6 +594,24 @@
   ],
   "_naval_news_refs": [
     {
+      "title": "U.S. Disables Ship a Day Into Blockade, Strait of Hormuz Transits Hit Low As Risk Appetite Falls",
+      "link": "https://news.usni.org/2026/07/17/u-s-disables-ship-a-day-into-blockade-strait-of-hormuz-transits-hit-low-as-risk-appetite-falls",
+      "published": "Fri, 17 Jul 2026 18:33:30 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "230 troops discharged for refusing COVID-19 vaccine have rejoined, Pentagon says",
+      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/07/17/230-troops-discharged-for-refusing-covid-19-vaccine-have-rejoined-pentagon-says/",
+      "published": "Fri, 17 Jul 2026 18:44:04 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "Veterans in VA care targeted by inmate in elaborate phone scam",
       "link": "https://taskandpurpose.com/field-guide/jail-va-phone-scam/",
       "published": "Thu, 16 Jul 2026 06:30:00 -0400",
@@ -800,15 +818,6 @@
       ]
     },
     {
-      "title": "Taiwan Mobilizes HIMARS, Anti-ship Missiles For Major Defense Drill",
-      "link": "https://news.usni.org/2026/07/15/taiwan-mobilizes-himars-anti-ship-missiles-for-major-defense-drill",
-      "published": "Wed, 15 Jul 2026 16:25:37 +0000",
-      "source": "USNI News",
-      "categories": [
-        "conflict"
-      ]
-    },
-    {
       "title": "US Air Force turns to cheaper cruise missiles it can buy by the thousands",
       "link": "https://www.defensenews.com/industry/techwatch/2026/07/15/us-air-force-turns-to-cheaper-cruise-missiles-it-can-buy-by-the-thousand/",
       "published": "Wed, 15 Jul 2026 19:48:09 +0000",
@@ -857,18 +866,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 5,
-    "conflict_articles": 3,
+    "deployment_articles": 7,
+    "conflict_articles": 2,
     "exercise_articles": 4,
     "total_articles": 50,
-    "computed_at": "2026-07-17T17:54:17.266905+00:00",
-    "manual_override": "DEFCON_3",
+    "computed_at": "2026-07-17T18:47:43.913755+00:00",
+    "manual_override": "DEFCON_4",
     "breaking_events": [
       "[USNI News] U.S. Air Force Increases Stealthy Cruise, Anti-ship Missile Production",
       "[USNI News] Spanish Navy to Lead NATO’s Atlantic Task Force Until June 2027",
-      "[Task & Purpose] Veterans in VA care targeted by inmate in elaborate phone scam",
-      "[Naval News] Typhoon USV Completes First-Ever At-Sea Resupply with USS Essex",
-      "[Defense News] Franco-German defense cooperation under strain as Macron, Merz meet"
+      "[USNI News] U.S. Disables Ship a Day Into Blockade, Strait of Hormuz Transits Hit Low As Risk Appetite Falls",
+      "[Military Times] 230 troops discharged for refusing COVID-19 vaccine have rejoined, Pentagon says",
+      "[Task & Purpose] Veterans in VA care targeted by inmate in elaborate phone scam"
     ]
   },
   "ground_intel": {
@@ -879,9 +888,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-07-17T17:54:17.266945+00:00",
+    "last_successful_update": "2026-07-17T18:47:43.913799+00:00",
     "article_count": 50,
-    "categorized_count": 12,
+    "categorized_count": 13,
     "freshest_source": "USNI News",
     "freshest_title": "U.S. Air Force Increases Stealthy Cruise, Anti-ship Missile Production",
     "freshest_published": "Fri, 17 Jul 2026 13:49:01 +0000"
