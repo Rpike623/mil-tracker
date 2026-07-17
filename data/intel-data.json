@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-07-17T12:55:10Z",
-  "version": 2072,
-  "breaking_alert": "Task & Purpose: Veterans in VA care targeted by inmate in elaborate phone scam",
+  "generated_utc": "2026-07-17T14:22:34Z",
+  "version": 2073,
+  "breaking_alert": "USNI News: U.S. Air Force Increases Stealthy Cruise, Anti-ship Missile Production",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -791,6 +791,15 @@
   },
   "_conflict_news_refs": [
     {
+      "title": "U.S. Air Force Increases Stealthy Cruise, Anti-ship Missile Production",
+      "link": "https://news.usni.org/2026/07/17/u-s-air-force-increases-stealthy-cruise-anti-ship-missile-production",
+      "published": "Fri, 17 Jul 2026 13:49:01 +0000",
+      "source": "USNI News",
+      "categories": [
+        "conflict"
+      ]
+    },
+    {
       "title": "Taiwan Mobilizes HIMARS, Anti-ship Missiles For Major Defense Drill",
       "link": "https://news.usni.org/2026/07/15/taiwan-mobilizes-himars-anti-ship-missiles-for-major-defense-drill",
       "published": "Wed, 15 Jul 2026 16:25:37 +0000",
@@ -849,17 +858,17 @@
   ],
   "_threat_indicators": {
     "deployment_articles": 5,
-    "conflict_articles": 2,
+    "conflict_articles": 3,
     "exercise_articles": 4,
     "total_articles": 50,
-    "computed_at": "2026-07-17T12:55:02.194964+00:00",
-    "manual_override": "DEFCON_4",
+    "computed_at": "2026-07-17T14:22:26.700046+00:00",
+    "manual_override": "DEFCON_3",
     "breaking_events": [
+      "[USNI News] U.S. Air Force Increases Stealthy Cruise, Anti-ship Missile Production",
       "[Task & Purpose] Veterans in VA care targeted by inmate in elaborate phone scam",
       "[Naval News] Typhoon USV Completes First-Ever At-Sea Resupply with USS Essex",
       "[Defense News] Franco-German defense cooperation under strain as Macron, Merz meet",
-      "[Military Times] Senators question whether military pharmacy program is the best deal for beneficiaries",
-      "[Task & Purpose] Pentagon’s testosterone program builds on ‘operator syndrome’ worries in special operations"
+      "[Military Times] Senators question whether military pharmacy program is the best deal for beneficiaries"
     ]
   },
   "ground_intel": {
@@ -870,12 +879,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-07-17T12:55:02.195009+00:00",
+    "last_successful_update": "2026-07-17T14:22:26.700132+00:00",
     "article_count": 50,
-    "categorized_count": 11,
-    "freshest_source": "Task & Purpose",
-    "freshest_title": "Veterans in VA care targeted by inmate in elaborate phone scam",
-    "freshest_published": "Thu, 16 Jul 2026 06:30:00 -0400"
+    "categorized_count": 12,
+    "freshest_source": "USNI News",
+    "freshest_title": "U.S. Air Force Increases Stealthy Cruise, Anti-ship Missile Production",
+    "freshest_published": "Fri, 17 Jul 2026 13:49:01 +0000"
   },
   "_firms_hotspots": []
 }
