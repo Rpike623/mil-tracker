@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-07-17T16:05:48Z",
-  "version": 2074,
+  "generated_utc": "2026-07-17T17:54:22Z",
+  "version": 2075,
   "breaking_alert": "USNI News: U.S. Air Force Increases Stealthy Cruise, Anti-ship Missile Production",
   "naval_deployments": [
     {
@@ -861,7 +861,7 @@
     "conflict_articles": 3,
     "exercise_articles": 4,
     "total_articles": 50,
-    "computed_at": "2026-07-17T16:05:05.971972+00:00",
+    "computed_at": "2026-07-17T17:54:17.266905+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[USNI News] U.S. Air Force Increases Stealthy Cruise, Anti-ship Missile Production",
@@ -879,7 +879,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-07-17T16:05:05.972030+00:00",
+    "last_successful_update": "2026-07-17T17:54:17.266945+00:00",
     "article_count": 50,
     "categorized_count": 12,
     "freshest_source": "USNI News",
