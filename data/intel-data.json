@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-07-19T17:45:43Z",
-  "version": 2107,
+  "generated_utc": "2026-07-19T18:43:47Z",
+  "version": 2108,
   "breaking_alert": "USNI News: U.S. Air Force Increases Stealthy Cruise, Anti-ship Missile Production",
   "naval_deployments": [
     {
@@ -671,18 +671,18 @@
       ]
     },
     {
-      "title": "Coast Guard Ends Middle East Mission, Moves Cutter Squadron to Western Pacific",
-      "link": "https://news.usni.org/2026/07/16/coast-guard-ends-middle-east-mission-moves-cutter-squadron-to-western-pacific",
-      "published": "Thu, 16 Jul 2026 20:49:40 +0000",
-      "source": "USNI News",
+      "title": "Typhoon USV Completes First-Ever At-Sea Resupply with USS Essex",
+      "link": "https://www.navalnews.com/naval-news/2026/07/typhoon-usv-uss-essex-at-sea-resupply/",
+      "published": "Thu, 16 Jul 2026 08:40:43 +0000",
+      "source": "Naval News",
       "categories": [
         "deployment"
       ]
     },
     {
-      "title": "USS Fort Lauderdale Returns from 11-month Deployment to the Caribbean",
-      "link": "https://news.usni.org/2026/07/16/uss-fort-lauderdale-returns-from-11-month-deployment-to-the-caribbean",
-      "published": "Thu, 16 Jul 2026 21:45:04 +0000",
+      "title": "Coast Guard Ends Middle East Mission, Moves Cutter Squadron to Western Pacific",
+      "link": "https://news.usni.org/2026/07/16/coast-guard-ends-middle-east-mission-moves-cutter-squadron-to-western-pacific",
+      "published": "Thu, 16 Jul 2026 20:49:40 +0000",
       "source": "USNI News",
       "categories": [
         "deployment"
@@ -915,14 +915,23 @@
       "categories": [
         "exercise"
       ]
+    },
+    {
+      "title": "Operation Firecrest: HMS Prince of Wales Demonstrates Royal Navy’s ‘Hybrid’ Shift",
+      "link": "https://www.navalnews.com/naval-news/2026/07/operation-firecrest-hms-prince-of-wales-hybrid-navy/",
+      "published": "Wed, 15 Jul 2026 09:02:51 +0000",
+      "source": "Naval News",
+      "categories": [
+        "exercise"
+      ]
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 10,
-    "conflict_articles": 8,
-    "exercise_articles": 3,
-    "total_articles": 40,
-    "computed_at": "2026-07-19T17:45:34.613294+00:00",
+    "deployment_articles": 11,
+    "conflict_articles": 9,
+    "exercise_articles": 4,
+    "total_articles": 50,
+    "computed_at": "2026-07-19T18:43:39.004462+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[USNI News] U.S. Air Force Increases Stealthy Cruise, Anti-ship Missile Production",
@@ -940,9 +949,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-07-19T17:45:34.613343+00:00",
-    "article_count": 40,
-    "categorized_count": 16,
+    "last_successful_update": "2026-07-19T18:43:39.004501+00:00",
+    "article_count": 50,
+    "categorized_count": 19,
     "freshest_source": "USNI News",
     "freshest_title": "U.S. Air Force Increases Stealthy Cruise, Anti-ship Missile Production",
     "freshest_published": "Fri, 17 Jul 2026 13:49:01 +0000"
