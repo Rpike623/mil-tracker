@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-07-19T19:59:22Z",
-  "version": 2109,
+  "generated_utc": "2026-07-19T20:43:26Z",
+  "version": 2110,
   "breaking_alert": "USNI News: U.S. Air Force Increases Stealthy Cruise, Anti-ship Missile Production",
   "naval_deployments": [
     {
@@ -681,12 +681,13 @@
       ]
     },
     {
-      "title": "Typhoon USV Completes First-Ever At-Sea Resupply with USS Essex",
-      "link": "https://www.navalnews.com/naval-news/2026/07/typhoon-usv-uss-essex-at-sea-resupply/",
-      "published": "Thu, 16 Jul 2026 08:40:43 +0000",
-      "source": "Naval News",
+      "title": "US service member killed in northern Iraq, US Central Command says",
+      "link": "https://www.defensenews.com/news/your-military/2026/07/19/us-service-member-killed-in-northern-iraq-us-central-command-says/",
+      "published": "Sun, 19 Jul 2026 20:33:04 +0000",
+      "source": "Defense News",
       "categories": [
-        "deployment"
+        "deployment",
+        "conflict"
       ]
     }
   ],
@@ -919,11 +920,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 12,
-    "conflict_articles": 10,
+    "deployment_articles": 14,
+    "conflict_articles": 12,
     "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-07-19T19:59:17.020971+00:00",
+    "computed_at": "2026-07-19T20:43:24.448104+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[USNI News] U.S. Air Force Increases Stealthy Cruise, Anti-ship Missile Production",
@@ -941,9 +942,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-07-19T19:59:17.021009+00:00",
+    "last_successful_update": "2026-07-19T20:43:24.448155+00:00",
     "article_count": 50,
-    "categorized_count": 19,
+    "categorized_count": 21,
     "freshest_source": "USNI News",
     "freshest_title": "U.S. Air Force Increases Stealthy Cruise, Anti-ship Missile Production",
     "freshest_published": "Fri, 17 Jul 2026 13:49:01 +0000"
