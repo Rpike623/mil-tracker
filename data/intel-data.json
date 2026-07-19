@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-07-19T20:43:26Z",
-  "version": 2110,
+  "generated_utc": "2026-07-19T21:38:58Z",
+  "version": 2111,
   "breaking_alert": "USNI News: U.S. Air Force Increases Stealthy Cruise, Anti-ship Missile Production",
   "naval_deployments": [
     {
@@ -908,23 +908,14 @@
       "categories": [
         "exercise"
       ]
-    },
-    {
-      "title": "Operation Firecrest: HMS Prince of Wales Demonstrates Royal Navy’s ‘Hybrid’ Shift",
-      "link": "https://www.navalnews.com/naval-news/2026/07/operation-firecrest-hms-prince-of-wales-hybrid-navy/",
-      "published": "Wed, 15 Jul 2026 09:02:51 +0000",
-      "source": "Naval News",
-      "categories": [
-        "exercise"
-      ]
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 14,
-    "conflict_articles": 12,
-    "exercise_articles": 3,
-    "total_articles": 50,
-    "computed_at": "2026-07-19T20:43:24.448104+00:00",
+    "deployment_articles": 13,
+    "conflict_articles": 11,
+    "exercise_articles": 2,
+    "total_articles": 40,
+    "computed_at": "2026-07-19T21:38:53.192784+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[USNI News] U.S. Air Force Increases Stealthy Cruise, Anti-ship Missile Production",
@@ -942,9 +933,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-07-19T20:43:24.448155+00:00",
-    "article_count": 50,
-    "categorized_count": 21,
+    "last_successful_update": "2026-07-19T21:38:53.192829+00:00",
+    "article_count": 40,
+    "categorized_count": 18,
     "freshest_source": "USNI News",
     "freshest_title": "U.S. Air Force Increases Stealthy Cruise, Anti-ship Missile Production",
     "freshest_published": "Fri, 17 Jul 2026 13:49:01 +0000"
