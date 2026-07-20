@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-07-20T19:19:21Z",
-  "version": 2121,
+  "generated_utc": "2026-07-20T20:56:54Z",
+  "version": 2122,
   "breaking_alert": "USNI News: U.S. Air Force Increases Stealthy Cruise, Anti-ship Missile Production",
   "naval_deployments": [
     {
@@ -678,13 +678,12 @@
       ]
     },
     {
-      "title": "Two US troops killed, one missing in Iranian attack on Jordan",
-      "link": "https://taskandpurpose.com/news/two-troops-killed-iran-jordan/",
-      "published": "Sat, 18 Jul 2026 13:59:18 -0400",
-      "source": "Task & Purpose",
+      "title": "USNI News Fleet and Marine Tracker: July 20, 2026",
+      "link": "https://news.usni.org/2026/07/20/usni-news-fleet-and-marine-tracker-july-20-2026",
+      "published": "Mon, 20 Jul 2026 19:35:42 +0000",
+      "source": "USNI News",
       "categories": [
-        "deployment",
-        "conflict"
+        "deployment"
       ]
     }
   ],
@@ -868,9 +867,9 @@
       ]
     },
     {
-      "title": "US Air Force seeking air defense missile system to protect air bases",
-      "link": "https://www.defensenews.com/industry/techwatch/2026/07/20/us-air-force-seeking-air-defense-missile-system-to-protect-air-bases/",
-      "published": "Mon, 20 Jul 2026 11:30:00 +0000",
+      "title": "Thunderstruck: Anduril unveils autonomous attack rotorcraft",
+      "link": "https://www.defensenews.com/industry/techwatch/2026/07/20/thunderstruck-anduril-unveils-autonomous-attack-rotorcraft/",
+      "published": "Mon, 20 Jul 2026 14:01:14 +0000",
       "source": "Defense News",
       "categories": [
         "conflict"
@@ -878,9 +877,9 @@
     },
     {
       "title": "Thunderstruck: Anduril unveils autonomous attack rotorcraft",
-      "link": "https://www.defensenews.com/industry/techwatch/2026/07/20/thunderstruck-anduril-unveils-autonomous-attack-rotorcraft/",
+      "link": "https://www.militarytimes.com/industry/techwatch/2026/07/20/thunderstruck-anduril-unveils-autonomous-attack-rotorcraft/",
       "published": "Mon, 20 Jul 2026 14:01:14 +0000",
-      "source": "Defense News",
+      "source": "Military Times",
       "categories": [
         "conflict"
       ]
@@ -899,10 +898,10 @@
   ],
   "_threat_indicators": {
     "deployment_articles": 14,
-    "conflict_articles": 14,
+    "conflict_articles": 13,
     "exercise_articles": 1,
     "total_articles": 50,
-    "computed_at": "2026-07-20T19:19:19.432866+00:00",
+    "computed_at": "2026-07-20T20:56:50.707758+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[USNI News] U.S. Air Force Increases Stealthy Cruise, Anti-ship Missile Production",
@@ -920,9 +919,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-07-20T19:19:19.432915+00:00",
+    "last_successful_update": "2026-07-20T20:56:50.707811+00:00",
     "article_count": 50,
-    "categorized_count": 24,
+    "categorized_count": 23,
     "freshest_source": "USNI News",
     "freshest_title": "U.S. Air Force Increases Stealthy Cruise, Anti-ship Missile Production",
     "freshest_published": "Fri, 17 Jul 2026 13:49:01 +0000"
