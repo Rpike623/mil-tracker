@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-07-20T13:40:58Z",
-  "version": 2118,
+  "generated_utc": "2026-07-20T15:41:28Z",
+  "version": 2119,
   "breaking_alert": "USNI News: U.S. Air Force Increases Stealthy Cruise, Anti-ship Missile Production",
   "naval_deployments": [
     {
@@ -603,26 +603,6 @@
       ]
     },
     {
-      "title": "US Navy 2 years behind on hypersonic missile installation on Zumwalt destroyers",
-      "link": "https://www.defensenews.com/industry/techwatch/2026/07/17/us-navy-2-years-behind-on-hypersonic-missile-installation-on-zumwalt-destroyers/",
-      "published": "Fri, 17 Jul 2026 19:45:15 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
-      "title": "US Navy 2 years behind on hypersonic missile installation on Zumwalt destroyers",
-      "link": "https://www.militarytimes.com/industry/techwatch/2026/07/17/us-navy-2-years-behind-on-hypersonic-missile-installation-on-zumwalt-destroyers/",
-      "published": "Fri, 17 Jul 2026 19:45:15 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
       "title": "Royal Netherlands Navy Integrates Uncrewed Systems into Fleet Combat Management System",
       "link": "https://www.navalnews.com/naval-news/2026/07/dutch-navy-integrates-uncrewed-systems-cms/",
       "published": "Mon, 20 Jul 2026 08:27:09 +0000",
@@ -641,6 +621,16 @@
       ]
     },
     {
+      "title": "Pentagon identifies 2 of the US soldiers killed in Iranian strike on Jordan base",
+      "link": "https://taskandpurpose.com/news/jordan-iran-strike-feehan-gonzales/",
+      "published": "Mon, 20 Jul 2026 09:45:54 -0400",
+      "source": "Task & Purpose",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
+    },
+    {
       "title": "Indonesia Set to Receive Ex-Italian Aircraft Carrier Garibaldi on Sept 20",
       "link": "https://www.navalnews.com/naval-news/2026/07/indonesia-italian-aircraft-carrier-garibaldi-september-arrival/",
       "published": "Mon, 20 Jul 2026 10:39:05 +0000",
@@ -654,6 +644,15 @@
       "link": "https://www.defensenews.com/industry/2026/07/20/israels-iai-unveils-hypnosis-system-for-confusing-enemy-drone-swarms/",
       "published": "Mon, 20 Jul 2026 13:26:51 +0000",
       "source": "Defense News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Canada Awards Babcock $1.1 Billion Contract Extension for Victoria-class Submarine Support",
+      "link": "https://www.navalnews.com/naval-news/2026/07/canada-babcock-victoria-class-submarine-support-contract/",
+      "published": "Mon, 20 Jul 2026 14:57:54 +0000",
+      "source": "Naval News",
       "categories": [
         "deployment"
       ]
@@ -679,13 +678,12 @@
       ]
     },
     {
-      "title": "2 US troops killed, 1 missing after Iranian missile, drone attack in Jordan",
-      "link": "https://www.militarytimes.com/flashpoints/2026/07/18/2-us-troops-killed-1-missing-after-iranian-missile-drone-attack-in-jordan/",
-      "published": "Sat, 18 Jul 2026 18:00:58 +0000",
-      "source": "Military Times",
+      "title": "Coast Guard shifts cutter squadron from Middle East to Pacific",
+      "link": "https://taskandpurpose.com/news/coast-guard-cutters-pacific-middle-east/",
+      "published": "Sun, 19 Jul 2026 12:41:33 -0400",
+      "source": "Task & Purpose",
       "categories": [
-        "deployment",
-        "conflict"
+        "deployment"
       ]
     }
   ],
@@ -850,26 +848,6 @@
       ]
     },
     {
-      "title": "US Navy 2 years behind on hypersonic missile installation on Zumwalt destroyers",
-      "link": "https://www.defensenews.com/industry/techwatch/2026/07/17/us-navy-2-years-behind-on-hypersonic-missile-installation-on-zumwalt-destroyers/",
-      "published": "Fri, 17 Jul 2026 19:45:15 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
-      "title": "US Navy 2 years behind on hypersonic missile installation on Zumwalt destroyers",
-      "link": "https://www.militarytimes.com/industry/techwatch/2026/07/17/us-navy-2-years-behind-on-hypersonic-missile-installation-on-zumwalt-destroyers/",
-      "published": "Fri, 17 Jul 2026 19:45:15 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
       "title": "Philly Shipyard to Build ‘Golden Defender’ Ship as part of New Missile Defense Program",
       "link": "https://news.usni.org/2026/07/17/philly-shipyard-to-build-golden-defender-ship-as-part-of-new-missile-defense-program",
       "published": "Fri, 17 Jul 2026 20:41:34 +0000",
@@ -879,10 +857,29 @@
       ]
     },
     {
+      "title": "Pentagon identifies 2 of the US soldiers killed in Iranian strike on Jordan base",
+      "link": "https://taskandpurpose.com/news/jordan-iran-strike-feehan-gonzales/",
+      "published": "Mon, 20 Jul 2026 09:45:54 -0400",
+      "source": "Task & Purpose",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
+    },
+    {
       "title": "US Air Force seeking air defense missile system to protect air bases",
       "link": "https://www.defensenews.com/industry/techwatch/2026/07/20/us-air-force-seeking-air-defense-missile-system-to-protect-air-bases/",
       "published": "Mon, 20 Jul 2026 11:30:00 +0000",
       "source": "Defense News",
+      "categories": [
+        "conflict"
+      ]
+    },
+    {
+      "title": "US Air Force seeking air defense missile system to protect air bases",
+      "link": "https://www.militarytimes.com/industry/techwatch/2026/07/20/us-air-force-seeking-air-defense-missile-system-to-protect-air-bases/",
+      "published": "Mon, 20 Jul 2026 11:30:00 +0000",
+      "source": "Military Times",
       "categories": [
         "conflict"
       ]
@@ -900,18 +897,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 17,
-    "conflict_articles": 14,
+    "deployment_articles": 15,
+    "conflict_articles": 16,
     "exercise_articles": 1,
     "total_articles": 50,
-    "computed_at": "2026-07-20T13:40:56.381765+00:00",
+    "computed_at": "2026-07-20T15:41:26.222965+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[USNI News] U.S. Air Force Increases Stealthy Cruise, Anti-ship Missile Production",
       "[USNI News] Spanish Navy to Lead NATO’s Atlantic Task Force Until June 2027",
       "[USNI News] U.S. Disables Ship a Day Into Blockade, Strait of Hormuz Transits Hit Low As Risk Appetite Falls",
-      "[Defense News] US Navy 2 years behind on hypersonic missile installation on Zumwalt destroyers",
-      "[Military Times] US Navy 2 years behind on hypersonic missile installation on Zumwalt destroyers"
+      "[USNI News] Philly Shipyard to Build ‘Golden Defender’ Ship as part of New Missile Defense Program",
+      "[Naval News] Royal Netherlands Navy Integrates Uncrewed Systems into Fleet Combat Management System"
     ]
   },
   "ground_intel": {
@@ -922,9 +919,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-07-20T13:40:56.381814+00:00",
+    "last_successful_update": "2026-07-20T15:41:26.223015+00:00",
     "article_count": 50,
-    "categorized_count": 24,
+    "categorized_count": 26,
     "freshest_source": "USNI News",
     "freshest_title": "U.S. Air Force Increases Stealthy Cruise, Anti-ship Missile Production",
     "freshest_published": "Fri, 17 Jul 2026 13:49:01 +0000"
