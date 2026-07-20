@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-07-20T11:36:12Z",
-  "version": 2117,
+  "generated_utc": "2026-07-20T13:40:58Z",
+  "version": 2118,
   "breaking_alert": "USNI News: U.S. Air Force Increases Stealthy Cruise, Anti-ship Missile Production",
   "naval_deployments": [
     {
@@ -603,15 +603,6 @@
       ]
     },
     {
-      "title": "230 troops discharged for refusing COVID-19 vaccine have rejoined, Pentagon says",
-      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/07/17/230-troops-discharged-for-refusing-covid-19-vaccine-have-rejoined-pentagon-says/",
-      "published": "Fri, 17 Jul 2026 18:44:04 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "US Navy 2 years behind on hypersonic missile installation on Zumwalt destroyers",
       "link": "https://www.defensenews.com/industry/techwatch/2026/07/17/us-navy-2-years-behind-on-hypersonic-missile-installation-on-zumwalt-destroyers/",
       "published": "Fri, 17 Jul 2026 19:45:15 +0000",
@@ -641,7 +632,7 @@
       ]
     },
     {
-      "title": "Oiler USNS Kanawha Receives Presidential Unit Citation for Unprecidented Middle East Deployment",
+      "title": "Oiler USNS Kanawha Receives Presidential Unit Citation for Unprecedented Middle East Deployment",
       "link": "https://news.usni.org/2026/07/20/oiler-usns-kanawha-receives-presidential-unit-citation-for-unprecidented-middle-east-deployment",
       "published": "Mon, 20 Jul 2026 09:15:21 +0000",
       "source": "USNI News",
@@ -654,6 +645,15 @@
       "link": "https://www.navalnews.com/naval-news/2026/07/indonesia-italian-aircraft-carrier-garibaldi-september-arrival/",
       "published": "Mon, 20 Jul 2026 10:39:05 +0000",
       "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Israel’s IAI unveils ‘Hypnosis’ system for confusing enemy drone swarms",
+      "link": "https://www.defensenews.com/industry/2026/07/20/israels-iai-unveils-hypnosis-system-for-confusing-enemy-drone-swarms/",
+      "published": "Mon, 20 Jul 2026 13:26:51 +0000",
+      "source": "Defense News",
       "categories": [
         "deployment"
       ]
@@ -879,10 +879,10 @@
       ]
     },
     {
-      "title": "Space Force identifies airman killed in accident at Vandenberg",
-      "link": "https://taskandpurpose.com/news/space-force-identifies-cedric-eneluna-vandenberg/",
-      "published": "Sat, 18 Jul 2026 11:31:51 -0400",
-      "source": "Task & Purpose",
+      "title": "US Air Force seeking air defense missile system to protect air bases",
+      "link": "https://www.defensenews.com/industry/techwatch/2026/07/20/us-air-force-seeking-air-defense-missile-system-to-protect-air-bases/",
+      "published": "Mon, 20 Jul 2026 11:30:00 +0000",
+      "source": "Defense News",
       "categories": [
         "conflict"
       ]
@@ -897,30 +897,21 @@
       "categories": [
         "exercise"
       ]
-    },
-    {
-      "title": "Franco-German defense cooperation under strain as Macron, Merz meet",
-      "link": "https://www.defensenews.com/global/europe/2026/07/16/franco-german-defense-cooperation-under-strain-as-macron-merz-meet/",
-      "published": "Thu, 16 Jul 2026 13:47:38 +0000",
-      "source": "Defense News",
-      "categories": [
-        "exercise"
-      ]
     }
   ],
   "_threat_indicators": {
     "deployment_articles": 17,
-    "conflict_articles": 12,
-    "exercise_articles": 2,
+    "conflict_articles": 14,
+    "exercise_articles": 1,
     "total_articles": 50,
-    "computed_at": "2026-07-20T11:31:31.307551+00:00",
+    "computed_at": "2026-07-20T13:40:56.381765+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[USNI News] U.S. Air Force Increases Stealthy Cruise, Anti-ship Missile Production",
       "[USNI News] Spanish Navy to Lead NATO’s Atlantic Task Force Until June 2027",
       "[USNI News] U.S. Disables Ship a Day Into Blockade, Strait of Hormuz Transits Hit Low As Risk Appetite Falls",
-      "[Military Times] 230 troops discharged for refusing COVID-19 vaccine have rejoined, Pentagon says",
-      "[Defense News] US Navy 2 years behind on hypersonic missile installation on Zumwalt destroyers"
+      "[Defense News] US Navy 2 years behind on hypersonic missile installation on Zumwalt destroyers",
+      "[Military Times] US Navy 2 years behind on hypersonic missile installation on Zumwalt destroyers"
     ]
   },
   "ground_intel": {
@@ -931,9 +922,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-07-20T11:31:31.307594+00:00",
+    "last_successful_update": "2026-07-20T13:40:56.381814+00:00",
     "article_count": 50,
-    "categorized_count": 23,
+    "categorized_count": 24,
     "freshest_source": "USNI News",
     "freshest_title": "U.S. Air Force Increases Stealthy Cruise, Anti-ship Missile Production",
     "freshest_published": "Fri, 17 Jul 2026 13:49:01 +0000"
