@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-07-20T05:25:01Z",
-  "version": 2115,
+  "generated_utc": "2026-07-20T08:31:35Z",
+  "version": 2116,
   "breaking_alert": "USNI News: U.S. Air Force Increases Stealthy Cruise, Anti-ship Missile Production",
   "naval_deployments": [
     {
@@ -632,6 +632,15 @@
       ]
     },
     {
+      "title": "Royal Netherlands Navy Integrates Uncrewed Systems into Fleet Combat Management System",
+      "link": "https://www.navalnews.com/naval-news/2026/07/dutch-navy-integrates-uncrewed-systems-cms/",
+      "published": "Mon, 20 Jul 2026 08:27:09 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "Two US troops killed, one missing in Iranian attack on Jordan",
       "link": "https://taskandpurpose.com/news/two-troops-killed-iran-jordan/",
       "published": "Sat, 18 Jul 2026 13:59:18 -0400",
@@ -675,16 +684,6 @@
       "link": "https://taskandpurpose.com/news/us-service-member-killed-iran-iraq/",
       "published": "Sun, 19 Jul 2026 15:47:26 -0400",
       "source": "Task & Purpose",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
-      "title": "US service member killed in northern Iraq, US Central Command says",
-      "link": "https://www.defensenews.com/news/your-military/2026/07/19/us-service-member-killed-in-northern-iraq-us-central-command-says/",
-      "published": "Sun, 19 Jul 2026 20:33:04 +0000",
-      "source": "Defense News",
       "categories": [
         "deployment",
         "conflict"
@@ -920,11 +919,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 14,
+    "deployment_articles": 15,
     "conflict_articles": 12,
     "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-07-20T05:24:55.879023+00:00",
+    "computed_at": "2026-07-20T08:31:32.792955+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[USNI News] U.S. Air Force Increases Stealthy Cruise, Anti-ship Missile Production",
@@ -942,9 +941,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-07-20T05:24:55.879070+00:00",
+    "last_successful_update": "2026-07-20T08:31:32.793004+00:00",
     "article_count": 50,
-    "categorized_count": 21,
+    "categorized_count": 22,
     "freshest_source": "USNI News",
     "freshest_title": "U.S. Air Force Increases Stealthy Cruise, Anti-ship Missile Production",
     "freshest_published": "Fri, 17 Jul 2026 13:49:01 +0000"
