@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-07-20T08:31:35Z",
-  "version": 2116,
+  "generated_utc": "2026-07-20T11:36:12Z",
+  "version": 2117,
   "breaking_alert": "USNI News: U.S. Air Force Increases Stealthy Cruise, Anti-ship Missile Production",
   "naval_deployments": [
     {
@@ -641,6 +641,24 @@
       ]
     },
     {
+      "title": "Oiler USNS Kanawha Receives Presidential Unit Citation for Unprecidented Middle East Deployment",
+      "link": "https://news.usni.org/2026/07/20/oiler-usns-kanawha-receives-presidential-unit-citation-for-unprecidented-middle-east-deployment",
+      "published": "Mon, 20 Jul 2026 09:15:21 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Indonesia Set to Receive Ex-Italian Aircraft Carrier Garibaldi on Sept 20",
+      "link": "https://www.navalnews.com/naval-news/2026/07/indonesia-italian-aircraft-carrier-garibaldi-september-arrival/",
+      "published": "Mon, 20 Jul 2026 10:39:05 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "Two US troops killed, one missing in Iranian attack on Jordan",
       "link": "https://taskandpurpose.com/news/two-troops-killed-iran-jordan/",
       "published": "Sat, 18 Jul 2026 13:59:18 -0400",
@@ -665,25 +683,6 @@
       "link": "https://www.militarytimes.com/flashpoints/2026/07/18/2-us-troops-killed-1-missing-after-iranian-missile-drone-attack-in-jordan/",
       "published": "Sat, 18 Jul 2026 18:00:58 +0000",
       "source": "Military Times",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
-      "title": "Coast Guard shifts cutter squadron from Middle East to Pacific",
-      "link": "https://taskandpurpose.com/news/coast-guard-cutters-pacific-middle-east/",
-      "published": "Sun, 19 Jul 2026 12:41:33 -0400",
-      "source": "Task & Purpose",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "US service member killed in Iraq during a ‘controlled detonation’ of an Iranian munition",
-      "link": "https://taskandpurpose.com/news/us-service-member-killed-iran-iraq/",
-      "published": "Sun, 19 Jul 2026 15:47:26 -0400",
-      "source": "Task & Purpose",
       "categories": [
         "deployment",
         "conflict"
@@ -907,23 +906,14 @@
       "categories": [
         "exercise"
       ]
-    },
-    {
-      "title": "Operation Firecrest: HMS Prince of Wales Demonstrates Royal Navy’s ‘Hybrid’ Shift",
-      "link": "https://www.navalnews.com/naval-news/2026/07/operation-firecrest-hms-prince-of-wales-hybrid-navy/",
-      "published": "Wed, 15 Jul 2026 09:02:51 +0000",
-      "source": "Naval News",
-      "categories": [
-        "exercise"
-      ]
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 15,
+    "deployment_articles": 17,
     "conflict_articles": 12,
-    "exercise_articles": 3,
+    "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-07-20T08:31:32.792955+00:00",
+    "computed_at": "2026-07-20T11:31:31.307551+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[USNI News] U.S. Air Force Increases Stealthy Cruise, Anti-ship Missile Production",
@@ -941,9 +931,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-07-20T08:31:32.793004+00:00",
+    "last_successful_update": "2026-07-20T11:31:31.307594+00:00",
     "article_count": 50,
-    "categorized_count": 22,
+    "categorized_count": 23,
     "freshest_source": "USNI News",
     "freshest_title": "U.S. Air Force Increases Stealthy Cruise, Anti-ship Missile Production",
     "freshest_published": "Fri, 17 Jul 2026 13:49:01 +0000"
