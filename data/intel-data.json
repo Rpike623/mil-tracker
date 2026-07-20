@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-07-20T15:41:28Z",
-  "version": 2119,
+  "generated_utc": "2026-07-20T17:13:23Z",
+  "version": 2120,
   "breaking_alert": "USNI News: U.S. Air Force Increases Stealthy Cruise, Anti-ship Missile Production",
   "naval_deployments": [
     {
@@ -658,19 +658,9 @@
       ]
     },
     {
-      "title": "Two US troops killed, one missing in Iranian attack on Jordan",
-      "link": "https://taskandpurpose.com/news/two-troops-killed-iran-jordan/",
-      "published": "Sat, 18 Jul 2026 13:59:18 -0400",
-      "source": "Task & Purpose",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
-      "title": "2 US troops killed, 1 missing after Iranian missile, drone attack in Jordan",
-      "link": "https://www.defensenews.com/flashpoints/2026/07/18/2-us-troops-killed-1-missing-after-iranian-missile-drone-attack-in-jordan/",
-      "published": "Sat, 18 Jul 2026 18:00:58 +0000",
+      "title": "Pentagon identifies American soliders killed in Iranian attack in Jordan",
+      "link": "https://www.defensenews.com/flashpoints/middle-east/2026/07/20/pentagon-identifies-american-soliders-killed-in-iranian-attack-in-jordan/",
+      "published": "Mon, 20 Jul 2026 15:47:49 +0000",
       "source": "Defense News",
       "categories": [
         "deployment",
@@ -678,12 +668,23 @@
       ]
     },
     {
-      "title": "Coast Guard shifts cutter squadron from Middle East to Pacific",
-      "link": "https://taskandpurpose.com/news/coast-guard-cutters-pacific-middle-east/",
-      "published": "Sun, 19 Jul 2026 12:41:33 -0400",
+      "title": "Pentagon identifies American soliders killed in Iranian attack in Jordan",
+      "link": "https://www.militarytimes.com/flashpoints/middle-east/2026/07/20/pentagon-identifies-american-soliders-killed-in-iranian-attack-in-jordan/",
+      "published": "Mon, 20 Jul 2026 15:47:49 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
+    },
+    {
+      "title": "Two US troops killed, one missing in Iranian attack on Jordan",
+      "link": "https://taskandpurpose.com/news/two-troops-killed-iran-jordan/",
+      "published": "Sat, 18 Jul 2026 13:59:18 -0400",
       "source": "Task & Purpose",
       "categories": [
-        "deployment"
+        "deployment",
+        "conflict"
       ]
     }
   ],
@@ -876,10 +877,10 @@
       ]
     },
     {
-      "title": "US Air Force seeking air defense missile system to protect air bases",
-      "link": "https://www.militarytimes.com/industry/techwatch/2026/07/20/us-air-force-seeking-air-defense-missile-system-to-protect-air-bases/",
-      "published": "Mon, 20 Jul 2026 11:30:00 +0000",
-      "source": "Military Times",
+      "title": "Thunderstruck: Anduril unveils autonomous attack rotorcraft",
+      "link": "https://www.defensenews.com/industry/techwatch/2026/07/20/thunderstruck-anduril-unveils-autonomous-attack-rotorcraft/",
+      "published": "Mon, 20 Jul 2026 14:01:14 +0000",
+      "source": "Defense News",
       "categories": [
         "conflict"
       ]
@@ -897,11 +898,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 15,
-    "conflict_articles": 16,
+    "deployment_articles": 14,
+    "conflict_articles": 14,
     "exercise_articles": 1,
     "total_articles": 50,
-    "computed_at": "2026-07-20T15:41:26.222965+00:00",
+    "computed_at": "2026-07-20T17:13:13.268595+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[USNI News] U.S. Air Force Increases Stealthy Cruise, Anti-ship Missile Production",
@@ -919,9 +920,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-07-20T15:41:26.223015+00:00",
+    "last_successful_update": "2026-07-20T17:13:13.268641+00:00",
     "article_count": 50,
-    "categorized_count": 26,
+    "categorized_count": 24,
     "freshest_source": "USNI News",
     "freshest_title": "U.S. Air Force Increases Stealthy Cruise, Anti-ship Missile Production",
     "freshest_published": "Fri, 17 Jul 2026 13:49:01 +0000"
