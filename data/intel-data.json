@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-07-21T07:25:25Z",
-  "version": 2128,
+  "generated_utc": "2026-07-21T10:10:26Z",
+  "version": 2129,
   "breaking_alert": "USNI News: U.S. Air Force Increases Stealthy Cruise, Anti-ship Missile Production",
   "naval_deployments": [
     {
@@ -876,10 +876,10 @@
       ]
     },
     {
-      "title": "Thunderstruck: Anduril unveils autonomous attack rotorcraft",
-      "link": "https://www.militarytimes.com/industry/techwatch/2026/07/20/thunderstruck-anduril-unveils-autonomous-attack-rotorcraft/",
-      "published": "Mon, 20 Jul 2026 14:01:14 +0000",
-      "source": "Military Times",
+      "title": "Lockheed Martin announces cheaper Patriot interceptor missile",
+      "link": "https://www.defensenews.com/news/your-military/2026/07/20/lockheed-martin-announces-cheaper-patriot-interceptor-missile/",
+      "published": "Mon, 20 Jul 2026 14:44:54 +0000",
+      "source": "Defense News",
       "categories": [
         "conflict"
       ]
@@ -897,11 +897,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 15,
-    "conflict_articles": 13,
+    "deployment_articles": 16,
+    "conflict_articles": 12,
     "exercise_articles": 1,
     "total_articles": 50,
-    "computed_at": "2026-07-21T07:25:13.649034+00:00",
+    "computed_at": "2026-07-21T10:10:23.462165+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[USNI News] U.S. Air Force Increases Stealthy Cruise, Anti-ship Missile Production",
@@ -919,7 +919,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-07-21T07:25:13.649083+00:00",
+    "last_successful_update": "2026-07-21T10:10:23.462216+00:00",
     "article_count": 50,
     "categorized_count": 24,
     "freshest_source": "USNI News",
