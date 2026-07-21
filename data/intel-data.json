@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-07-21T14:51:46Z",
-  "version": 2131,
-  "breaking_alert": "USNI News: U.S. Air Force Increases Stealthy Cruise, Anti-ship Missile Production",
+  "generated_utc": "2026-07-21T16:16:03Z",
+  "version": 2132,
+  "breaking_alert": "USNI News: Spanish Navy to Lead NATO’s Atlantic Task Force Until June 2027",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -649,16 +649,6 @@
       ]
     },
     {
-      "title": "Pentagon identifies American soldiers killed in Iranian attack in Jordan",
-      "link": "https://www.militarytimes.com/flashpoints/middle-east/2026/07/20/pentagon-identifies-american-soliders-killed-in-iranian-attack-in-jordan/",
-      "published": "Mon, 20 Jul 2026 15:47:49 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
       "title": "USNI News Fleet and Marine Tracker: July 20, 2026",
       "link": "https://news.usni.org/2026/07/20/usni-news-fleet-and-marine-tracker-july-20-2026",
       "published": "Mon, 20 Jul 2026 19:35:42 +0000",
@@ -684,6 +674,16 @@
       "source": "Task & Purpose",
       "categories": [
         "deployment"
+      ]
+    },
+    {
+      "title": "US service member killed in Iraq during a ‘controlled detonation’ of an Iranian munition",
+      "link": "https://taskandpurpose.com/news/us-service-member-killed-iran-iraq/",
+      "published": "Sun, 19 Jul 2026 15:47:26 -0400",
+      "source": "Task & Purpose",
+      "categories": [
+        "deployment",
+        "conflict"
       ]
     }
   ],
@@ -839,15 +839,6 @@
   },
   "_conflict_news_refs": [
     {
-      "title": "U.S. Air Force Increases Stealthy Cruise, Anti-ship Missile Production",
-      "link": "https://news.usni.org/2026/07/17/u-s-air-force-increases-stealthy-cruise-anti-ship-missile-production",
-      "published": "Fri, 17 Jul 2026 13:49:01 +0000",
-      "source": "USNI News",
-      "categories": [
-        "conflict"
-      ]
-    },
-    {
       "title": "Philly Shipyard to Build ‘Golden Defender’ Ship as part of New Missile Defense Program",
       "link": "https://news.usni.org/2026/07/17/philly-shipyard-to-build-golden-defender-ship-as-part-of-new-missile-defense-program",
       "published": "Fri, 17 Jul 2026 20:41:34 +0000",
@@ -867,21 +858,31 @@
       ]
     },
     {
-      "title": "Pentagon identifies American soldiers killed in Iranian attack in Jordan",
-      "link": "https://www.militarytimes.com/flashpoints/middle-east/2026/07/20/pentagon-identifies-american-soliders-killed-in-iranian-attack-in-jordan/",
-      "published": "Mon, 20 Jul 2026 15:47:49 +0000",
-      "source": "Military Times",
+      "title": "Space Force identifies airman killed in accident at Vandenberg",
+      "link": "https://taskandpurpose.com/news/space-force-identifies-cedric-eneluna-vandenberg/",
+      "published": "Sat, 18 Jul 2026 11:31:51 -0400",
+      "source": "Task & Purpose",
+      "categories": [
+        "conflict"
+      ]
+    },
+    {
+      "title": "Two US troops killed, one missing in Iranian attack on Jordan",
+      "link": "https://taskandpurpose.com/news/two-troops-killed-iran-jordan/",
+      "published": "Sat, 18 Jul 2026 13:59:18 -0400",
+      "source": "Task & Purpose",
       "categories": [
         "deployment",
         "conflict"
       ]
     },
     {
-      "title": "Space Force identifies airman killed in accident at Vandenberg",
-      "link": "https://taskandpurpose.com/news/space-force-identifies-cedric-eneluna-vandenberg/",
-      "published": "Sat, 18 Jul 2026 11:31:51 -0400",
+      "title": "US service member killed in Iraq during a ‘controlled detonation’ of an Iranian munition",
+      "link": "https://taskandpurpose.com/news/us-service-member-killed-iran-iraq/",
+      "published": "Sun, 19 Jul 2026 15:47:26 -0400",
       "source": "Task & Purpose",
       "categories": [
+        "deployment",
         "conflict"
       ]
     }
@@ -907,18 +908,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 17,
-    "conflict_articles": 10,
+    "deployment_articles": 15,
+    "conflict_articles": 12,
     "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-07-21T14:51:43.033971+00:00",
+    "computed_at": "2026-07-21T16:11:22.030516+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
-      "[USNI News] U.S. Air Force Increases Stealthy Cruise, Anti-ship Missile Production",
       "[USNI News] Spanish Navy to Lead NATO’s Atlantic Task Force Until June 2027",
       "[USNI News] U.S. Disables Ship a Day Into Blockade, Strait of Hormuz Transits Hit Low As Risk Appetite Falls",
       "[USNI News] Philly Shipyard to Build ‘Golden Defender’ Ship as part of New Missile Defense Program",
-      "[Naval News] Royal Netherlands Navy Integrates Uncrewed Systems into Fleet Combat Management System"
+      "[Naval News] Royal Netherlands Navy Integrates Uncrewed Systems into Fleet Combat Management System",
+      "[USNI News] Oiler USNS Kanawha Receives Presidential Unit Citation for Unprecedented Middle East Deployment"
     ]
   },
   "ground_intel": {
@@ -929,12 +930,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-07-21T14:51:43.034011+00:00",
+    "last_successful_update": "2026-07-21T16:11:22.030564+00:00",
     "article_count": 50,
-    "categorized_count": 22,
+    "categorized_count": 23,
     "freshest_source": "USNI News",
-    "freshest_title": "U.S. Air Force Increases Stealthy Cruise, Anti-ship Missile Production",
-    "freshest_published": "Fri, 17 Jul 2026 13:49:01 +0000"
+    "freshest_title": "Spanish Navy to Lead NATO’s Atlantic Task Force Until June 2027",
+    "freshest_published": "Fri, 17 Jul 2026 15:18:23 +0000"
   },
   "_firms_hotspots": []
 }
