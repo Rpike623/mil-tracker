@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-07-21T18:05:31Z",
-  "version": 2133,
-  "breaking_alert": "USNI News: U.S. Disables Ship a Day Into Blockade, Strait of Hormuz Transits Hit Low As Risk Appetite Falls",
+  "generated_utc": "2026-07-21T20:09:40Z",
+  "version": 2134,
+  "breaking_alert": "USNI News: Philly Shipyard to Build ‘Golden Defender’ Ship as part of New Missile Defense Program",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -594,15 +594,6 @@
   ],
   "_naval_news_refs": [
     {
-      "title": "U.S. Disables Ship a Day Into Blockade, Strait of Hormuz Transits Hit Low As Risk Appetite Falls",
-      "link": "https://news.usni.org/2026/07/17/u-s-disables-ship-a-day-into-blockade-strait-of-hormuz-transits-hit-low-as-risk-appetite-falls",
-      "published": "Fri, 17 Jul 2026 18:33:30 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Oiler USNS Kanawha Receives Presidential Unit Citation for Unprecedented Middle East Deployment",
       "link": "https://news.usni.org/2026/07/20/oiler-usns-kanawha-receives-presidential-unit-citation-for-unprecidented-middle-east-deployment",
       "published": "Mon, 20 Jul 2026 09:15:21 +0000",
@@ -681,6 +672,15 @@
       "title": "BAE Systems secures 40Mk4 naval gun order from Brazil",
       "link": "https://www.navalnews.com/naval-news/2026/07/bae-systems-secures-40mk4-naval-gun-order-from-brazil/",
       "published": "Tue, 21 Jul 2026 06:16:50 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Naval Group Selects Saft Next-Gen Li-ion Batteries for Submarines",
+      "link": "https://www.navalnews.com/naval-news/2026/07/naval-group-selects-saft-next-gen-li-ion-batteries-for-submarines/",
+      "published": "Tue, 21 Jul 2026 07:57:42 +0000",
       "source": "Naval News",
       "categories": [
         "deployment"
@@ -933,14 +933,14 @@
     "conflict_articles": 11,
     "exercise_articles": 4,
     "total_articles": 50,
-    "computed_at": "2026-07-21T18:05:25.442422+00:00",
+    "computed_at": "2026-07-21T20:09:38.412674+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
-      "[USNI News] U.S. Disables Ship a Day Into Blockade, Strait of Hormuz Transits Hit Low As Risk Appetite Falls",
       "[USNI News] Philly Shipyard to Build ‘Golden Defender’ Ship as part of New Missile Defense Program",
       "[USNI News] Oiler USNS Kanawha Receives Presidential Unit Citation for Unprecedented Middle East Deployment",
       "[Task & Purpose] Pentagon identifies 2 of the US soldiers killed in Iranian strike on Jordan base",
-      "[Naval News] Indonesia Set to Receive Ex-Italian Aircraft Carrier Garibaldi on Sept 20"
+      "[Naval News] Indonesia Set to Receive Ex-Italian Aircraft Carrier Garibaldi on Sept 20",
+      "[Naval News] Canada Awards Babcock $1.1 Billion Contract Extension for Victoria-class Submarine Support"
     ]
   },
   "ground_intel": {
@@ -951,12 +951,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-07-21T18:05:25.442465+00:00",
+    "last_successful_update": "2026-07-21T20:09:38.412739+00:00",
     "article_count": 50,
     "categorized_count": 24,
     "freshest_source": "USNI News",
-    "freshest_title": "U.S. Disables Ship a Day Into Blockade, Strait of Hormuz Transits Hit Low As Risk Appetite Falls",
-    "freshest_published": "Fri, 17 Jul 2026 18:33:30 +0000"
+    "freshest_title": "Philly Shipyard to Build ‘Golden Defender’ Ship as part of New Missile Defense Program",
+    "freshest_published": "Fri, 17 Jul 2026 20:41:34 +0000"
   },
   "_firms_hotspots": []
 }
