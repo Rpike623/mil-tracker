@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-07-22T14:50:51Z",
-  "version": 2143,
-  "breaking_alert": "USNI News: Philly Shipyard to Build ‘Golden Defender’ Ship as part of New Missile Defense Program",
+  "generated_utc": "2026-07-22T16:11:03Z",
+  "version": 2144,
+  "breaking_alert": "USNI News: Oiler USNS Kanawha Receives Presidential Unit Citation for Unprecedented Middle East Deployment",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -840,15 +840,6 @@
   },
   "_conflict_news_refs": [
     {
-      "title": "Philly Shipyard to Build ‘Golden Defender’ Ship as part of New Missile Defense Program",
-      "link": "https://news.usni.org/2026/07/17/philly-shipyard-to-build-golden-defender-ship-as-part-of-new-missile-defense-program",
-      "published": "Fri, 17 Jul 2026 20:41:34 +0000",
-      "source": "USNI News",
-      "categories": [
-        "conflict"
-      ]
-    },
-    {
       "title": "US service member killed in Iraq during a ‘controlled detonation’ of an Iranian munition",
       "link": "https://taskandpurpose.com/news/us-service-member-killed-iran-iraq/",
       "published": "Sun, 19 Jul 2026 15:47:26 -0400",
@@ -882,6 +873,15 @@
       "link": "https://www.defensenews.com/pentagon/2026/07/21/hanwha-philly-shipyard-awarded-2-billion-to-build-2-missile-tracking-vessels/",
       "published": "Tue, 21 Jul 2026 15:14:41 +0000",
       "source": "Defense News",
+      "categories": [
+        "conflict"
+      ]
+    },
+    {
+      "title": "Taiwan President Pushes $6.6B Attack Drone Plan",
+      "link": "https://news.usni.org/2026/07/21/taiwan-president-pushes-6-6b-attack-drone-plan",
+      "published": "Tue, 21 Jul 2026 15:34:25 +0000",
+      "source": "USNI News",
       "categories": [
         "conflict"
       ]
@@ -939,17 +939,17 @@
   ],
   "_threat_indicators": {
     "deployment_articles": 16,
-    "conflict_articles": 9,
-    "exercise_articles": 6,
+    "conflict_articles": 8,
+    "exercise_articles": 7,
     "total_articles": 50,
-    "computed_at": "2026-07-22T14:50:47.007947+00:00",
+    "computed_at": "2026-07-22T16:10:56.383361+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
-      "[USNI News] Philly Shipyard to Build ‘Golden Defender’ Ship as part of New Missile Defense Program",
       "[USNI News] Oiler USNS Kanawha Receives Presidential Unit Citation for Unprecedented Middle East Deployment",
       "[USNI News] USNI News Fleet and Marine Tracker: July 20, 2026",
       "[Task & Purpose] Coast Guard shifts cutter squadron from Middle East to Pacific",
-      "[Task & Purpose] US service member killed in Iraq during a ‘controlled detonation’ of an Iranian munition"
+      "[Task & Purpose] US service member killed in Iraq during a ‘controlled detonation’ of an Iranian munition",
+      "[Task & Purpose] Pentagon identifies soldier killed in Iraq during controlled detonation"
     ]
   },
   "ground_intel": {
@@ -960,12 +960,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-07-22T14:50:47.007992+00:00",
+    "last_successful_update": "2026-07-22T16:10:56.383406+00:00",
     "article_count": 50,
     "categorized_count": 23,
     "freshest_source": "USNI News",
-    "freshest_title": "Philly Shipyard to Build ‘Golden Defender’ Ship as part of New Missile Defense Program",
-    "freshest_published": "Fri, 17 Jul 2026 20:41:34 +0000"
+    "freshest_title": "Oiler USNS Kanawha Receives Presidential Unit Citation for Unprecedented Middle East Deployment",
+    "freshest_published": "Mon, 20 Jul 2026 09:15:21 +0000"
   },
   "_firms_hotspots": []
 }
