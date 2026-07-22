@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-07-22T19:08:31Z",
-  "version": 2146,
+  "generated_utc": "2026-07-22T21:01:31Z",
+  "version": 2147,
   "breaking_alert": "USNI News: USNI News Fleet and Marine Tracker: July 20, 2026",
   "naval_deployments": [
     {
@@ -603,15 +603,6 @@
       ]
     },
     {
-      "title": "Coast Guard shifts cutter squadron from Middle East to Pacific",
-      "link": "https://taskandpurpose.com/news/coast-guard-cutters-pacific-middle-east/",
-      "published": "Sun, 19 Jul 2026 12:41:33 -0400",
-      "source": "Task & Purpose",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "US service member killed in Iraq during a ‘controlled detonation’ of an Iranian munition",
       "link": "https://taskandpurpose.com/news/us-service-member-killed-iran-iraq/",
       "published": "Sun, 19 Jul 2026 15:47:26 -0400",
@@ -651,15 +642,6 @@
       ]
     },
     {
-      "title": "USS Charlotte crew that reportedly sank Iranian frigate awarded Navy Unit Commendation",
-      "link": "https://www.militarytimes.com/news/your-navy/2026/07/21/uss-charlotte-crew-that-reportedly-sank-iranian-frigate-awarded-navy-unit-commendation/",
-      "published": "Tue, 21 Jul 2026 19:57:38 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Cost of Iran war rises to $37.5 billion, Pentagon requests $67.1 billion more",
       "link": "https://www.defensenews.com/news/pentagon-congress/2026/07/21/cost-of-iran-war-rises-to-375-billion-pentagon-requests-671-billion-more/",
       "published": "Tue, 21 Jul 2026 23:13:23 +0000",
@@ -669,22 +651,42 @@
       ]
     },
     {
-      "title": "Cost of Iran war rises to $37.5 billion, Pentagon requests $67.1 billion more",
-      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/07/21/cost-of-iran-war-rises-to-375-billion-pentagon-requests-671-billion-more/",
-      "published": "Tue, 21 Jul 2026 23:13:23 +0000",
-      "source": "Military Times",
+      "title": "The Netherlands and Naval Group extend the Industrial Cooperation Agreement",
+      "link": "https://www.navalnews.com/naval-news/2026/07/the-netherlands-and-naval-group-extend-the-industrial-cooperation-agreement/",
+      "published": "Wed, 22 Jul 2026 06:32:12 +0000",
+      "source": "Naval News",
       "categories": [
-        "deployment"
+        "deployment",
+        "exercise"
       ]
     },
     {
-      "title": "Pentagon identifies third American soldier killed in Iranian attack in Jordan",
-      "link": "https://www.militarytimes.com/news/your-military/2026/07/21/pentagon-identifies-third-american-soldier-killed-in-iranian-attack-in-jordan/",
-      "published": "Tue, 21 Jul 2026 23:46:05 +0000",
-      "source": "Military Times",
+      "title": "These are the 3 soldiers killed by Iran’s attack on a base in Jordan",
+      "link": "https://taskandpurpose.com/news/jordan-iran-feehan-gonzales-rampersad/",
+      "published": "Wed, 22 Jul 2026 09:29:40 -0400",
+      "source": "Task & Purpose",
       "categories": [
         "deployment",
         "conflict"
+      ]
+    },
+    {
+      "title": "Unfazed by Iran’s threats, Bulgaria moves to aid U.S. military operations",
+      "link": "https://www.defensenews.com/global/europe/2026/07/22/unfazed-by-irans-threats-bulgaria-moves-to-aid-us-military-operations/",
+      "published": "Wed, 22 Jul 2026 11:21:27 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment",
+        "exercise"
+      ]
+    },
+    {
+      "title": "HD Hyundai and SIMA Unveil HDS-MGP Submarine Vision for Peruvian Navy",
+      "link": "https://www.navalnews.com/naval-news/2026/07/hd-hyundai-and-sima-unveil-hds-mgp-submarine-vision-for-peruvian-navy/",
+      "published": "Wed, 22 Jul 2026 13:27:59 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment"
       ]
     }
   ],
@@ -869,20 +871,21 @@
       ]
     },
     {
-      "title": "Hanwha Philly Shipyard awarded $2 billion to build 2 missile-tracking vessels",
-      "link": "https://www.defensenews.com/pentagon/2026/07/21/hanwha-philly-shipyard-awarded-2-billion-to-build-2-missile-tracking-vessels/",
-      "published": "Tue, 21 Jul 2026 15:14:41 +0000",
-      "source": "Defense News",
-      "categories": [
-        "conflict"
-      ]
-    },
-    {
       "title": "Taiwan President Pushes $6.6B Attack Drone Plan",
       "link": "https://news.usni.org/2026/07/21/taiwan-president-pushes-6-6b-attack-drone-plan",
       "published": "Tue, 21 Jul 2026 15:34:25 +0000",
       "source": "USNI News",
       "categories": [
+        "conflict"
+      ]
+    },
+    {
+      "title": "These are the 3 soldiers killed by Iran’s attack on a base in Jordan",
+      "link": "https://taskandpurpose.com/news/jordan-iran-feehan-gonzales-rampersad/",
+      "published": "Wed, 22 Jul 2026 09:29:40 -0400",
+      "source": "Task & Purpose",
+      "categories": [
+        "deployment",
         "conflict"
       ]
     }
@@ -940,17 +943,17 @@
   ],
   "_threat_indicators": {
     "deployment_articles": 16,
-    "conflict_articles": 10,
+    "conflict_articles": 8,
     "exercise_articles": 5,
     "total_articles": 50,
-    "computed_at": "2026-07-22T19:08:26.019125+00:00",
+    "computed_at": "2026-07-22T21:01:20.788329+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[USNI News] USNI News Fleet and Marine Tracker: July 20, 2026",
-      "[Task & Purpose] Coast Guard shifts cutter squadron from Middle East to Pacific",
       "[Task & Purpose] US service member killed in Iraq during a ‘controlled detonation’ of an Iranian munition",
       "[Task & Purpose] Pentagon identifies soldier killed in Iraq during controlled detonation",
-      "[USNI News] GAO Report on Hypersonic Missiles on Navy Warships"
+      "[USNI News] GAO Report on Hypersonic Missiles on Navy Warships",
+      "[USNI News] Taiwan President Pushes $6.6B Attack Drone Plan"
     ]
   },
   "ground_intel": {
@@ -961,9 +964,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-07-22T19:08:26.019166+00:00",
+    "last_successful_update": "2026-07-22T21:01:20.788365+00:00",
     "article_count": 50,
-    "categorized_count": 22,
+    "categorized_count": 21,
     "freshest_source": "USNI News",
     "freshest_title": "USNI News Fleet and Marine Tracker: July 20, 2026",
     "freshest_published": "Mon, 20 Jul 2026 19:35:42 +0000"
