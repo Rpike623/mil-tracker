@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-07-22T07:31:44Z",
-  "version": 2140,
+  "generated_utc": "2026-07-22T10:09:59Z",
+  "version": 2141,
   "breaking_alert": "USNI News: Philly Shipyard to Build ‘Golden Defender’ Ship as part of New Missile Defense Program",
   "naval_deployments": [
     {
@@ -944,7 +944,7 @@
     "conflict_articles": 12,
     "exercise_articles": 5,
     "total_articles": 50,
-    "computed_at": "2026-07-22T07:27:03.655317+00:00",
+    "computed_at": "2026-07-22T10:09:48.346427+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[USNI News] Philly Shipyard to Build ‘Golden Defender’ Ship as part of New Missile Defense Program",
@@ -962,7 +962,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-07-22T07:27:03.655365+00:00",
+    "last_successful_update": "2026-07-22T10:09:48.346464+00:00",
     "article_count": 50,
     "categorized_count": 27,
     "freshest_source": "USNI News",
