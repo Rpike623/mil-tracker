@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-07-22T16:11:03Z",
-  "version": 2144,
+  "generated_utc": "2026-07-22T18:03:08Z",
+  "version": 2145,
   "breaking_alert": "USNI News: Oiler USNS Kanawha Receives Presidential Unit Citation for Unprecedented Middle East Deployment",
   "naval_deployments": [
     {
@@ -651,16 +651,6 @@
       ]
     },
     {
-      "title": "Iran warns Bulgaria against aiding US military operations",
-      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/07/21/iran-warns-bulgaria-against-aiding-us-military-operations/",
-      "published": "Tue, 21 Jul 2026 16:43:44 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment",
-        "exercise"
-      ]
-    },
-    {
       "title": "OMB Wants Battleship, Aircraft Carrier Funding Anomalies in Latest Continuing Resolution Proposal",
       "link": "https://news.usni.org/2026/07/21/omb-wants-battleship-aircraft-carrier-funding-anomalies-in-latest-continuing-resolution-proposal",
       "published": "Tue, 21 Jul 2026 17:29:28 +0000",
@@ -683,6 +673,15 @@
       "link": "https://www.defensenews.com/news/pentagon-congress/2026/07/21/cost-of-iran-war-rises-to-375-billion-pentagon-requests-671-billion-more/",
       "published": "Tue, 21 Jul 2026 23:13:23 +0000",
       "source": "Defense News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Cost of Iran war rises to $37.5 billion, Pentagon requests $67.1 billion more",
+      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/07/21/cost-of-iran-war-rises-to-375-billion-pentagon-requests-671-billion-more/",
+      "published": "Tue, 21 Jul 2026 23:13:23 +0000",
+      "source": "Military Times",
       "categories": [
         "deployment"
       ]
@@ -889,29 +888,10 @@
   ],
   "_exercise_news_refs": [
     {
-      "title": "Germany to study French cooperation offer on SAMP/T air-defense system",
-      "link": "https://www.defensenews.com/global/europe/2026/07/21/germany-to-study-french-cooperation-offer-on-sampt-air-defense-system/",
-      "published": "Tue, 21 Jul 2026 13:51:34 +0000",
-      "source": "Defense News",
-      "categories": [
-        "exercise"
-      ]
-    },
-    {
       "title": "Iran warns Bulgaria against aiding US military operations",
       "link": "https://www.defensenews.com/news/pentagon-congress/2026/07/21/iran-warns-bulgaria-against-aiding-us-military-operations/",
       "published": "Tue, 21 Jul 2026 16:43:44 +0000",
       "source": "Defense News",
-      "categories": [
-        "deployment",
-        "exercise"
-      ]
-    },
-    {
-      "title": "Iran warns Bulgaria against aiding US military operations",
-      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/07/21/iran-warns-bulgaria-against-aiding-us-military-operations/",
-      "published": "Tue, 21 Jul 2026 16:43:44 +0000",
-      "source": "Military Times",
       "categories": [
         "deployment",
         "exercise"
@@ -935,14 +915,33 @@
         "deployment",
         "exercise"
       ]
+    },
+    {
+      "title": "Unfazed by Iran’s threats, Bulgaria moves to aid U.S. military operations",
+      "link": "https://www.defensenews.com/global/europe/2026/07/22/unfazed-by-irans-threats-bulgaria-moves-to-aid-us-military-operations/",
+      "published": "Wed, 22 Jul 2026 11:21:27 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment",
+        "exercise"
+      ]
+    },
+    {
+      "title": "Republican Senators Introduce Bill to Create Service Secretary for the Coast Guard",
+      "link": "https://news.usni.org/2026/07/22/republican-senators-introduce-bill-to-create-service-secretary-for-the-coast-guard",
+      "published": "Wed, 22 Jul 2026 15:54:40 +0000",
+      "source": "USNI News",
+      "categories": [
+        "exercise"
+      ]
     }
   ],
   "_threat_indicators": {
     "deployment_articles": 16,
-    "conflict_articles": 8,
-    "exercise_articles": 7,
+    "conflict_articles": 9,
+    "exercise_articles": 5,
     "total_articles": 50,
-    "computed_at": "2026-07-22T16:10:56.383361+00:00",
+    "computed_at": "2026-07-22T17:58:27.774932+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[USNI News] Oiler USNS Kanawha Receives Presidential Unit Citation for Unprecedented Middle East Deployment",
@@ -960,9 +959,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-07-22T16:10:56.383406+00:00",
+    "last_successful_update": "2026-07-22T17:58:27.774980+00:00",
     "article_count": 50,
-    "categorized_count": 23,
+    "categorized_count": 22,
     "freshest_source": "USNI News",
     "freshest_title": "Oiler USNS Kanawha Receives Presidential Unit Citation for Unprecedented Middle East Deployment",
     "freshest_published": "Mon, 20 Jul 2026 09:15:21 +0000"
