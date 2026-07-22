@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-07-22T10:09:59Z",
-  "version": 2141,
+  "generated_utc": "2026-07-22T12:18:29Z",
+  "version": 2142,
   "breaking_alert": "USNI News: Philly Shipyard to Build ‘Golden Defender’ Ship as part of New Missile Defense Program",
   "naval_deployments": [
     {
@@ -613,15 +613,6 @@
       ]
     },
     {
-      "title": "Canada Awards Babcock $1.1 Billion Contract Extension for Victoria-class Submarine Support",
-      "link": "https://www.navalnews.com/naval-news/2026/07/canada-babcock-victoria-class-submarine-support-contract/",
-      "published": "Mon, 20 Jul 2026 14:57:54 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "USNI News Fleet and Marine Tracker: July 20, 2026",
       "link": "https://news.usni.org/2026/07/20/usni-news-fleet-and-marine-tracker-july-20-2026",
       "published": "Mon, 20 Jul 2026 19:35:42 +0000",
@@ -682,6 +673,16 @@
       "link": "https://taskandpurpose.com/news/army-iraq-soldier-identified/",
       "published": "Tue, 21 Jul 2026 09:30:33 -0400",
       "source": "Task & Purpose",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
+    },
+    {
+      "title": "Pentagon identifies soldier killed in controlled detonation of Iranian drone",
+      "link": "https://www.defensenews.com/news/your-military/2026/07/21/pentagon-identifies-soldier-killed-in-controlled-detonation-of-iranian-drone/",
+      "published": "Tue, 21 Jul 2026 13:13:51 +0000",
+      "source": "Defense News",
       "categories": [
         "deployment",
         "conflict"
@@ -940,18 +941,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 20,
-    "conflict_articles": 12,
-    "exercise_articles": 5,
+    "deployment_articles": 19,
+    "conflict_articles": 11,
+    "exercise_articles": 6,
     "total_articles": 50,
-    "computed_at": "2026-07-22T10:09:48.346427+00:00",
+    "computed_at": "2026-07-22T12:18:27.105189+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[USNI News] Philly Shipyard to Build ‘Golden Defender’ Ship as part of New Missile Defense Program",
       "[USNI News] Oiler USNS Kanawha Receives Presidential Unit Citation for Unprecedented Middle East Deployment",
       "[Task & Purpose] Pentagon identifies 2 of the US soldiers killed in Iranian strike on Jordan base",
-      "[Naval News] Canada Awards Babcock $1.1 Billion Contract Extension for Victoria-class Submarine Support",
-      "[USNI News] USNI News Fleet and Marine Tracker: July 20, 2026"
+      "[USNI News] USNI News Fleet and Marine Tracker: July 20, 2026",
+      "[Task & Purpose] Two US troops killed, one missing in Iranian attack on Jordan"
     ]
   },
   "ground_intel": {
@@ -962,9 +963,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-07-22T10:09:48.346464+00:00",
+    "last_successful_update": "2026-07-22T12:18:27.105232+00:00",
     "article_count": 50,
-    "categorized_count": 27,
+    "categorized_count": 26,
     "freshest_source": "USNI News",
     "freshest_title": "Philly Shipyard to Build ‘Golden Defender’ Ship as part of New Missile Defense Program",
     "freshest_published": "Fri, 17 Jul 2026 20:41:34 +0000"
