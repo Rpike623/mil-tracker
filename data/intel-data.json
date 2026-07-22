@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-07-22T04:54:01Z",
-  "version": 2139,
+  "generated_utc": "2026-07-22T07:31:44Z",
+  "version": 2140,
   "breaking_alert": "USNI News: Philly Shipyard to Build ‘Golden Defender’ Ship as part of New Missile Defense Program",
   "naval_deployments": [
     {
@@ -613,15 +613,6 @@
       ]
     },
     {
-      "title": "Indonesia Set to Receive Ex-Italian Aircraft Carrier Garibaldi on Sept 20",
-      "link": "https://www.navalnews.com/naval-news/2026/07/indonesia-italian-aircraft-carrier-garibaldi-september-arrival/",
-      "published": "Mon, 20 Jul 2026 10:39:05 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Canada Awards Babcock $1.1 Billion Contract Extension for Victoria-class Submarine Support",
       "link": "https://www.navalnews.com/naval-news/2026/07/canada-babcock-victoria-class-submarine-support-contract/",
       "published": "Mon, 20 Jul 2026 14:57:54 +0000",
@@ -684,6 +675,16 @@
       "source": "Naval News",
       "categories": [
         "deployment"
+      ]
+    },
+    {
+      "title": "Pentagon identifies soldier killed in Iraq during controlled detonation",
+      "link": "https://taskandpurpose.com/news/army-iraq-soldier-identified/",
+      "published": "Tue, 21 Jul 2026 09:30:33 -0400",
+      "source": "Task & Purpose",
+      "categories": [
+        "deployment",
+        "conflict"
       ]
     }
   ],
@@ -926,21 +927,31 @@
       "categories": [
         "exercise"
       ]
+    },
+    {
+      "title": "The Netherlands and Naval Group extend the Industrial Cooperation Agreement",
+      "link": "https://www.navalnews.com/naval-news/2026/07/the-netherlands-and-naval-group-extend-the-industrial-cooperation-agreement/",
+      "published": "Wed, 22 Jul 2026 06:32:12 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment",
+        "exercise"
+      ]
     }
   ],
   "_threat_indicators": {
     "deployment_articles": 20,
     "conflict_articles": 12,
-    "exercise_articles": 4,
+    "exercise_articles": 5,
     "total_articles": 50,
-    "computed_at": "2026-07-22T04:53:57.755106+00:00",
+    "computed_at": "2026-07-22T07:27:03.655317+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[USNI News] Philly Shipyard to Build ‘Golden Defender’ Ship as part of New Missile Defense Program",
       "[USNI News] Oiler USNS Kanawha Receives Presidential Unit Citation for Unprecedented Middle East Deployment",
       "[Task & Purpose] Pentagon identifies 2 of the US soldiers killed in Iranian strike on Jordan base",
-      "[Naval News] Indonesia Set to Receive Ex-Italian Aircraft Carrier Garibaldi on Sept 20",
-      "[Naval News] Canada Awards Babcock $1.1 Billion Contract Extension for Victoria-class Submarine Support"
+      "[Naval News] Canada Awards Babcock $1.1 Billion Contract Extension for Victoria-class Submarine Support",
+      "[USNI News] USNI News Fleet and Marine Tracker: July 20, 2026"
     ]
   },
   "ground_intel": {
@@ -951,7 +962,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-07-22T04:53:57.755154+00:00",
+    "last_successful_update": "2026-07-22T07:27:03.655365+00:00",
     "article_count": 50,
     "categorized_count": 27,
     "freshest_source": "USNI News",
