@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-07-22T18:03:08Z",
-  "version": 2145,
-  "breaking_alert": "USNI News: Oiler USNS Kanawha Receives Presidential Unit Citation for Unprecedented Middle East Deployment",
+  "generated_utc": "2026-07-22T19:08:31Z",
+  "version": 2146,
+  "breaking_alert": "USNI News: USNI News Fleet and Marine Tracker: July 20, 2026",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -594,15 +594,6 @@
   ],
   "_naval_news_refs": [
     {
-      "title": "Oiler USNS Kanawha Receives Presidential Unit Citation for Unprecedented Middle East Deployment",
-      "link": "https://news.usni.org/2026/07/20/oiler-usns-kanawha-receives-presidential-unit-citation-for-unprecidented-middle-east-deployment",
-      "published": "Mon, 20 Jul 2026 09:15:21 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "USNI News Fleet and Marine Tracker: July 20, 2026",
       "link": "https://news.usni.org/2026/07/20/usni-news-fleet-and-marine-tracker-july-20-2026",
       "published": "Mon, 20 Jul 2026 19:35:42 +0000",
@@ -684,6 +675,16 @@
       "source": "Military Times",
       "categories": [
         "deployment"
+      ]
+    },
+    {
+      "title": "Pentagon identifies third American soldier killed in Iranian attack in Jordan",
+      "link": "https://www.militarytimes.com/news/your-military/2026/07/21/pentagon-identifies-third-american-soldier-killed-in-iranian-attack-in-jordan/",
+      "published": "Tue, 21 Jul 2026 23:46:05 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment",
+        "conflict"
       ]
     }
   ],
@@ -898,15 +899,6 @@
       ]
     },
     {
-      "title": "Marine Corps MV-22 Osprey suffers engine fire during Air Force training exercise",
-      "link": "https://www.militarytimes.com/news/your-military/2026/07/21/marine-corps-mv-22-osprey-suffers-engine-fire-during-air-force-training-exercise/",
-      "published": "Tue, 21 Jul 2026 17:48:26 +0000",
-      "source": "Military Times",
-      "categories": [
-        "exercise"
-      ]
-    },
-    {
       "title": "The Netherlands and Naval Group extend the Industrial Cooperation Agreement",
       "link": "https://www.navalnews.com/naval-news/2026/07/the-netherlands-and-naval-group-extend-the-industrial-cooperation-agreement/",
       "published": "Wed, 22 Jul 2026 06:32:12 +0000",
@@ -934,21 +926,31 @@
       "categories": [
         "exercise"
       ]
+    },
+    {
+      "title": "U.S. Army Deploys Hypersonic Missiles in Range of China During Exercise",
+      "link": "https://news.usni.org/2026/07/22/u-s-army-deploys-hypersonic-missiles-in-range-of-china-during-exercise",
+      "published": "Wed, 22 Jul 2026 18:22:28 +0000",
+      "source": "USNI News",
+      "categories": [
+        "exercise",
+        "conflict"
+      ]
     }
   ],
   "_threat_indicators": {
     "deployment_articles": 16,
-    "conflict_articles": 9,
+    "conflict_articles": 10,
     "exercise_articles": 5,
     "total_articles": 50,
-    "computed_at": "2026-07-22T17:58:27.774932+00:00",
+    "computed_at": "2026-07-22T19:08:26.019125+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
-      "[USNI News] Oiler USNS Kanawha Receives Presidential Unit Citation for Unprecedented Middle East Deployment",
       "[USNI News] USNI News Fleet and Marine Tracker: July 20, 2026",
       "[Task & Purpose] Coast Guard shifts cutter squadron from Middle East to Pacific",
       "[Task & Purpose] US service member killed in Iraq during a ‘controlled detonation’ of an Iranian munition",
-      "[Task & Purpose] Pentagon identifies soldier killed in Iraq during controlled detonation"
+      "[Task & Purpose] Pentagon identifies soldier killed in Iraq during controlled detonation",
+      "[USNI News] GAO Report on Hypersonic Missiles on Navy Warships"
     ]
   },
   "ground_intel": {
@@ -959,12 +961,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-07-22T17:58:27.774980+00:00",
+    "last_successful_update": "2026-07-22T19:08:26.019166+00:00",
     "article_count": 50,
     "categorized_count": 22,
     "freshest_source": "USNI News",
-    "freshest_title": "Oiler USNS Kanawha Receives Presidential Unit Citation for Unprecedented Middle East Deployment",
-    "freshest_published": "Mon, 20 Jul 2026 09:15:21 +0000"
+    "freshest_title": "USNI News Fleet and Marine Tracker: July 20, 2026",
+    "freshest_published": "Mon, 20 Jul 2026 19:35:42 +0000"
   },
   "_firms_hotspots": []
 }
