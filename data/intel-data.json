@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-07-22T12:18:29Z",
-  "version": 2142,
+  "generated_utc": "2026-07-22T14:50:51Z",
+  "version": 2143,
   "breaking_alert": "USNI News: Philly Shipyard to Build ‘Golden Defender’ Ship as part of New Missile Defense Program",
   "naval_deployments": [
     {
@@ -603,32 +603,12 @@
       ]
     },
     {
-      "title": "Pentagon identifies 2 of the US soldiers killed in Iranian strike on Jordan base",
-      "link": "https://taskandpurpose.com/news/jordan-iran-strike-feehan-gonzales/",
-      "published": "Mon, 20 Jul 2026 09:45:54 -0400",
-      "source": "Task & Purpose",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
       "title": "USNI News Fleet and Marine Tracker: July 20, 2026",
       "link": "https://news.usni.org/2026/07/20/usni-news-fleet-and-marine-tracker-july-20-2026",
       "published": "Mon, 20 Jul 2026 19:35:42 +0000",
       "source": "USNI News",
       "categories": [
         "deployment"
-      ]
-    },
-    {
-      "title": "Two US troops killed, one missing in Iranian attack on Jordan",
-      "link": "https://taskandpurpose.com/news/two-troops-killed-iran-jordan/",
-      "published": "Sat, 18 Jul 2026 13:59:18 -0400",
-      "source": "Task & Purpose",
-      "categories": [
-        "deployment",
-        "conflict"
       ]
     },
     {
@@ -651,24 +631,6 @@
       ]
     },
     {
-      "title": "BAE Systems secures 40Mk4 naval gun order from Brazil",
-      "link": "https://www.navalnews.com/naval-news/2026/07/bae-systems-secures-40mk4-naval-gun-order-from-brazil/",
-      "published": "Tue, 21 Jul 2026 06:16:50 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Naval Group Selects Saft Next-Gen Li-ion Batteries for Submarines",
-      "link": "https://www.navalnews.com/naval-news/2026/07/naval-group-selects-saft-next-gen-li-ion-batteries-for-submarines/",
-      "published": "Tue, 21 Jul 2026 07:57:42 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Pentagon identifies soldier killed in Iraq during controlled detonation",
       "link": "https://taskandpurpose.com/news/army-iraq-soldier-identified/",
       "published": "Tue, 21 Jul 2026 09:30:33 -0400",
@@ -679,13 +641,50 @@
       ]
     },
     {
-      "title": "Pentagon identifies soldier killed in controlled detonation of Iranian drone",
-      "link": "https://www.defensenews.com/news/your-military/2026/07/21/pentagon-identifies-soldier-killed-in-controlled-detonation-of-iranian-drone/",
-      "published": "Tue, 21 Jul 2026 13:13:51 +0000",
+      "title": "Iran warns Bulgaria against aiding US military operations",
+      "link": "https://www.defensenews.com/news/pentagon-congress/2026/07/21/iran-warns-bulgaria-against-aiding-us-military-operations/",
+      "published": "Tue, 21 Jul 2026 16:43:44 +0000",
       "source": "Defense News",
       "categories": [
         "deployment",
-        "conflict"
+        "exercise"
+      ]
+    },
+    {
+      "title": "Iran warns Bulgaria against aiding US military operations",
+      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/07/21/iran-warns-bulgaria-against-aiding-us-military-operations/",
+      "published": "Tue, 21 Jul 2026 16:43:44 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment",
+        "exercise"
+      ]
+    },
+    {
+      "title": "OMB Wants Battleship, Aircraft Carrier Funding Anomalies in Latest Continuing Resolution Proposal",
+      "link": "https://news.usni.org/2026/07/21/omb-wants-battleship-aircraft-carrier-funding-anomalies-in-latest-continuing-resolution-proposal",
+      "published": "Tue, 21 Jul 2026 17:29:28 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "USS Charlotte crew that reportedly sank Iranian frigate awarded Navy Unit Commendation",
+      "link": "https://www.militarytimes.com/news/your-navy/2026/07/21/uss-charlotte-crew-that-reportedly-sank-iranian-frigate-awarded-navy-unit-commendation/",
+      "published": "Tue, 21 Jul 2026 19:57:38 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Cost of Iran war rises to $37.5 billion, Pentagon requests $67.1 billion more",
+      "link": "https://www.defensenews.com/news/pentagon-congress/2026/07/21/cost-of-iran-war-rises-to-375-billion-pentagon-requests-671-billion-more/",
+      "published": "Tue, 21 Jul 2026 23:13:23 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment"
       ]
     }
   ],
@@ -850,26 +849,6 @@
       ]
     },
     {
-      "title": "Pentagon identifies 2 of the US soldiers killed in Iranian strike on Jordan base",
-      "link": "https://taskandpurpose.com/news/jordan-iran-strike-feehan-gonzales/",
-      "published": "Mon, 20 Jul 2026 09:45:54 -0400",
-      "source": "Task & Purpose",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
-      "title": "Two US troops killed, one missing in Iranian attack on Jordan",
-      "link": "https://taskandpurpose.com/news/two-troops-killed-iran-jordan/",
-      "published": "Sat, 18 Jul 2026 13:59:18 -0400",
-      "source": "Task & Purpose",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
       "title": "US service member killed in Iraq during a ‘controlled detonation’ of an Iranian munition",
       "link": "https://taskandpurpose.com/news/us-service-member-killed-iran-iraq/",
       "published": "Sun, 19 Jul 2026 15:47:26 -0400",
@@ -886,6 +865,24 @@
       "source": "Task & Purpose",
       "categories": [
         "deployment",
+        "conflict"
+      ]
+    },
+    {
+      "title": "GAO Report on Hypersonic Missiles on Navy Warships",
+      "link": "https://news.usni.org/2026/07/21/gao-report-on-hypersonic-missiles-on-navy-warships",
+      "published": "Tue, 21 Jul 2026 15:13:13 +0000",
+      "source": "USNI News",
+      "categories": [
+        "conflict"
+      ]
+    },
+    {
+      "title": "Hanwha Philly Shipyard awarded $2 billion to build 2 missile-tracking vessels",
+      "link": "https://www.defensenews.com/pentagon/2026/07/21/hanwha-philly-shipyard-awarded-2-billion-to-build-2-missile-tracking-vessels/",
+      "published": "Tue, 21 Jul 2026 15:14:41 +0000",
+      "source": "Defense News",
+      "categories": [
         "conflict"
       ]
     }
@@ -941,18 +938,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 19,
-    "conflict_articles": 11,
+    "deployment_articles": 16,
+    "conflict_articles": 9,
     "exercise_articles": 6,
     "total_articles": 50,
-    "computed_at": "2026-07-22T12:18:27.105189+00:00",
+    "computed_at": "2026-07-22T14:50:47.007947+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[USNI News] Philly Shipyard to Build ‘Golden Defender’ Ship as part of New Missile Defense Program",
       "[USNI News] Oiler USNS Kanawha Receives Presidential Unit Citation for Unprecedented Middle East Deployment",
-      "[Task & Purpose] Pentagon identifies 2 of the US soldiers killed in Iranian strike on Jordan base",
       "[USNI News] USNI News Fleet and Marine Tracker: July 20, 2026",
-      "[Task & Purpose] Two US troops killed, one missing in Iranian attack on Jordan"
+      "[Task & Purpose] Coast Guard shifts cutter squadron from Middle East to Pacific",
+      "[Task & Purpose] US service member killed in Iraq during a ‘controlled detonation’ of an Iranian munition"
     ]
   },
   "ground_intel": {
@@ -963,9 +960,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-07-22T12:18:27.105232+00:00",
+    "last_successful_update": "2026-07-22T14:50:47.007992+00:00",
     "article_count": 50,
-    "categorized_count": 26,
+    "categorized_count": 23,
     "freshest_source": "USNI News",
     "freshest_title": "Philly Shipyard to Build ‘Golden Defender’ Ship as part of New Missile Defense Program",
     "freshest_published": "Fri, 17 Jul 2026 20:41:34 +0000"
