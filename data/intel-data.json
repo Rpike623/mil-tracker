@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-07-23T12:16:35Z",
-  "version": 2155,
+  "generated_utc": "2026-07-23T14:57:19Z",
+  "version": 2156,
   "breaking_alert": "USNI News: USNI News Fleet and Marine Tracker: July 20, 2026",
   "naval_deployments": [
     {
@@ -603,19 +603,27 @@
       ]
     },
     {
-      "title": "US service member killed in Iraq during a ‘controlled detonation’ of an Iranian munition",
-      "link": "https://taskandpurpose.com/news/us-service-member-killed-iran-iraq/",
-      "published": "Sun, 19 Jul 2026 15:47:26 -0400",
+      "title": "The US is in another asymmetric war in the Middle East",
+      "link": "https://taskandpurpose.com/news/military-iran-asymmetric-war/",
+      "published": "Thu, 23 Jul 2026 10:28:34 -0400",
       "source": "Task & Purpose",
       "categories": [
-        "deployment",
-        "conflict"
+        "deployment"
       ]
     },
     {
       "title": "EU naval mission will now intercept Russian shadow tankers in the Indian Ocean",
       "link": "https://www.defensenews.com/global/europe/2026/07/23/eu-naval-mission-will-now-intercept-russian-shadow-tankers-in-the-indian-ocean/",
       "published": "Thu, 23 Jul 2026 11:16:19 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Greece to buy $4 billion air defense system from Israel",
+      "link": "https://www.defensenews.com/global/europe/2026/07/23/greece-to-buy-4-billion-air-defence-system-from-israel/",
+      "published": "Thu, 23 Jul 2026 13:41:41 +0000",
       "source": "Defense News",
       "categories": [
         "deployment"
@@ -638,25 +646,6 @@
       "source": "USNI News",
       "categories": [
         "deployment"
-      ]
-    },
-    {
-      "title": "Cost of Iran war rises to $37.5 billion, Pentagon requests $67.1 billion more",
-      "link": "https://www.defensenews.com/news/pentagon-congress/2026/07/21/cost-of-iran-war-rises-to-375-billion-pentagon-requests-671-billion-more/",
-      "published": "Tue, 21 Jul 2026 23:13:23 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "The Netherlands and Naval Group extend the Industrial Cooperation Agreement",
-      "link": "https://www.navalnews.com/naval-news/2026/07/the-netherlands-and-naval-group-extend-the-industrial-cooperation-agreement/",
-      "published": "Wed, 22 Jul 2026 06:32:12 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment",
-        "exercise"
       ]
     },
     {
@@ -684,6 +673,15 @@
       "link": "https://www.navalnews.com/naval-news/2026/07/hd-hyundai-and-sima-unveil-hds-mgp-submarine-vision-for-peruvian-navy/",
       "published": "Wed, 22 Jul 2026 13:27:59 +0000",
       "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Hazing could soon become a specific charge under military law",
+      "link": "https://taskandpurpose.com/news/defense-bill-criminalize-hazing/",
+      "published": "Wed, 22 Jul 2026 15:59:26 -0400",
+      "source": "Task & Purpose",
       "categories": [
         "deployment"
       ]
@@ -841,16 +839,6 @@
   },
   "_conflict_news_refs": [
     {
-      "title": "US service member killed in Iraq during a ‘controlled detonation’ of an Iranian munition",
-      "link": "https://taskandpurpose.com/news/us-service-member-killed-iran-iraq/",
-      "published": "Sun, 19 Jul 2026 15:47:26 -0400",
-      "source": "Task & Purpose",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
       "title": "Pentagon identifies soldier killed in Iraq during controlled detonation",
       "link": "https://taskandpurpose.com/news/army-iraq-soldier-identified/",
       "published": "Tue, 21 Jul 2026 09:30:33 -0400",
@@ -887,6 +875,15 @@
         "deployment",
         "conflict"
       ]
+    },
+    {
+      "title": "US Navy Awards CoAspire $70M to Develop CHAOS Cruise Missile for Coalition Allies",
+      "link": "https://www.navalnews.com/naval-news/2026/07/us-navy-coaspire-chaos-cruise-missile-raacm-er/",
+      "published": "Wed, 22 Jul 2026 14:43:43 +0000",
+      "source": "Naval News",
+      "categories": [
+        "conflict"
+      ]
     }
   ],
   "_exercise_news_refs": [
@@ -896,16 +893,6 @@
       "published": "Thu, 23 Jul 2026 07:48:45 +0000",
       "source": "Naval News",
       "categories": [
-        "exercise"
-      ]
-    },
-    {
-      "title": "The Netherlands and Naval Group extend the Industrial Cooperation Agreement",
-      "link": "https://www.navalnews.com/naval-news/2026/07/the-netherlands-and-naval-group-extend-the-industrial-cooperation-agreement/",
-      "published": "Wed, 22 Jul 2026 06:32:12 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment",
         "exercise"
       ]
     },
@@ -940,18 +927,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 17,
-    "conflict_articles": 7,
-    "exercise_articles": 5,
+    "deployment_articles": 15,
+    "conflict_articles": 6,
+    "exercise_articles": 4,
     "total_articles": 50,
-    "computed_at": "2026-07-23T12:16:32.730631+00:00",
+    "computed_at": "2026-07-23T14:57:12.661519+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[USNI News] USNI News Fleet and Marine Tracker: July 20, 2026",
-      "[Task & Purpose] US service member killed in Iraq during a ‘controlled detonation’ of an Iranian munition",
       "[Naval News] Babcock and LIG D&A sign Strategic Cooperation Agreement to promote global capabilities",
+      "[Task & Purpose] The US is in another asymmetric war in the Middle East",
       "[Defense News] EU naval mission will now intercept Russian shadow tankers in the Indian Ocean",
-      "[Task & Purpose] Pentagon identifies soldier killed in Iraq during controlled detonation"
+      "[Defense News] Greece to buy $4 billion air defense system from Israel"
     ]
   },
   "ground_intel": {
@@ -962,9 +949,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-07-23T12:16:32.730679+00:00",
+    "last_successful_update": "2026-07-23T14:57:12.661561+00:00",
     "article_count": 50,
-    "categorized_count": 23,
+    "categorized_count": 21,
     "freshest_source": "USNI News",
     "freshest_title": "USNI News Fleet and Marine Tracker: July 20, 2026",
     "freshest_published": "Mon, 20 Jul 2026 19:35:42 +0000"
