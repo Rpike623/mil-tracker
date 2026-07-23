@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-07-23T18:05:03Z",
-  "version": 2158,
-  "breaking_alert": "USNI News: USNI News Fleet and Marine Tracker: July 20, 2026",
+  "generated_utc": "2026-07-23T20:09:36Z",
+  "version": 2159,
+  "breaking_alert": "Naval News: Babcock and LIG D&A sign Strategic Cooperation Agreement to promote global capabilities",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -594,15 +594,6 @@
   ],
   "_naval_news_refs": [
     {
-      "title": "USNI News Fleet and Marine Tracker: July 20, 2026",
-      "link": "https://news.usni.org/2026/07/20/usni-news-fleet-and-marine-tracker-july-20-2026",
-      "published": "Mon, 20 Jul 2026 19:35:42 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "The US is in another asymmetric war in the Middle East",
       "link": "https://taskandpurpose.com/news/military-iran-asymmetric-war/",
       "published": "Thu, 23 Jul 2026 10:28:34 -0400",
@@ -634,6 +625,25 @@
       "link": "https://www.militarytimes.com/news/your-military/2026/07/23/navys-dinosaur-carrier-delivery-plane-flies-into-sunset/",
       "published": "Thu, 23 Jul 2026 16:36:49 +0000",
       "source": "Military Times",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "VIDEO: Decommissioned USS Mobile Bay, USS Peleliu Sunk in RIMPAC Drills",
+      "link": "https://news.usni.org/2026/07/23/video-decommissioned-uss-mobile-bay-uss-peleliu-sunk-in-rimpac-drills",
+      "published": "Thu, 23 Jul 2026 18:11:09 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment",
+        "exercise"
+      ]
+    },
+    {
+      "title": "Taiwan Receives Latest Coast Guard Cutter from $1.3B Fleet Build-up Plan",
+      "link": "https://news.usni.org/2026/07/23/taiwan-receives-latest-coast-guard-cutter-from-1-3b-fleet-build-up-plan",
+      "published": "Thu, 23 Jul 2026 18:43:41 +0000",
+      "source": "USNI News",
       "categories": [
         "deployment"
       ]
@@ -675,15 +685,6 @@
       "categories": [
         "deployment",
         "exercise"
-      ]
-    },
-    {
-      "title": "HD Hyundai and SIMA Unveil HDS-MGP Submarine Vision for Peruvian Navy",
-      "link": "https://www.navalnews.com/naval-news/2026/07/hd-hyundai-and-sima-unveil-hds-mgp-submarine-vision-for-peruvian-navy/",
-      "published": "Wed, 22 Jul 2026 13:27:59 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment"
       ]
     }
   ],
@@ -849,24 +850,6 @@
       ]
     },
     {
-      "title": "GAO Report on Hypersonic Missiles on Navy Warships",
-      "link": "https://news.usni.org/2026/07/21/gao-report-on-hypersonic-missiles-on-navy-warships",
-      "published": "Tue, 21 Jul 2026 15:13:13 +0000",
-      "source": "USNI News",
-      "categories": [
-        "conflict"
-      ]
-    },
-    {
-      "title": "Taiwan President Pushes $6.6B Attack Drone Plan",
-      "link": "https://news.usni.org/2026/07/21/taiwan-president-pushes-6-6b-attack-drone-plan",
-      "published": "Tue, 21 Jul 2026 15:34:25 +0000",
-      "source": "USNI News",
-      "categories": [
-        "conflict"
-      ]
-    },
-    {
       "title": "These are the 3 soldiers killed by Iran’s attack on a base in Jordan",
       "link": "https://taskandpurpose.com/news/jordan-iran-feehan-gonzales-rampersad/",
       "published": "Wed, 22 Jul 2026 09:29:40 -0400",
@@ -884,6 +867,16 @@
       "categories": [
         "conflict"
       ]
+    },
+    {
+      "title": "U.S. Army Deploys Hypersonic Missiles in Range of China During Exercise",
+      "link": "https://news.usni.org/2026/07/22/u-s-army-deploys-hypersonic-missiles-in-range-of-china-during-exercise",
+      "published": "Wed, 22 Jul 2026 18:22:28 +0000",
+      "source": "USNI News",
+      "categories": [
+        "exercise",
+        "conflict"
+      ]
     }
   ],
   "_exercise_news_refs": [
@@ -892,6 +885,25 @@
       "link": "https://www.navalnews.com/naval-news/2026/07/babcock-and-lig-da-sign-strategic-cooperation-agreement-to-promote-global-capabilities/",
       "published": "Thu, 23 Jul 2026 07:48:45 +0000",
       "source": "Naval News",
+      "categories": [
+        "exercise"
+      ]
+    },
+    {
+      "title": "VIDEO: Decommissioned USS Mobile Bay, USS Peleliu Sunk in RIMPAC Drills",
+      "link": "https://news.usni.org/2026/07/23/video-decommissioned-uss-mobile-bay-uss-peleliu-sunk-in-rimpac-drills",
+      "published": "Thu, 23 Jul 2026 18:11:09 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment",
+        "exercise"
+      ]
+    },
+    {
+      "title": "F-15EX drops bombs from an operational unit for the first time",
+      "link": "https://www.militarytimes.com/news/your-military/2026/07/23/f-15ex-drops-bombs-from-an-operational-unit-for-the-first-time/",
+      "published": "Thu, 23 Jul 2026 19:01:48 +0000",
+      "source": "Military Times",
       "categories": [
         "exercise"
       ]
@@ -914,31 +926,21 @@
       "categories": [
         "exercise"
       ]
-    },
-    {
-      "title": "U.S. Army Deploys Hypersonic Missiles in Range of China During Exercise",
-      "link": "https://news.usni.org/2026/07/22/u-s-army-deploys-hypersonic-missiles-in-range-of-china-during-exercise",
-      "published": "Wed, 22 Jul 2026 18:22:28 +0000",
-      "source": "USNI News",
-      "categories": [
-        "exercise",
-        "conflict"
-      ]
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 15,
-    "conflict_articles": 6,
-    "exercise_articles": 4,
+    "deployment_articles": 16,
+    "conflict_articles": 4,
+    "exercise_articles": 6,
     "total_articles": 50,
-    "computed_at": "2026-07-23T18:04:21.610096+00:00",
+    "computed_at": "2026-07-23T20:04:55.461975+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
-      "[USNI News] USNI News Fleet and Marine Tracker: July 20, 2026",
       "[Naval News] Babcock and LIG D&A sign Strategic Cooperation Agreement to promote global capabilities",
       "[Task & Purpose] The US is in another asymmetric war in the Middle East",
       "[Defense News] EU naval mission will now intercept Russian shadow tankers in the Indian Ocean",
-      "[Defense News] Greece to buy $4 billion air defense system from Israel"
+      "[Defense News] Greece to buy $4 billion air defense system from Israel",
+      "[Military Times] Navy’s ‘dinosaur’ carrier delivery plane flies into sunset"
     ]
   },
   "ground_intel": {
@@ -949,12 +951,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-07-23T18:04:21.610141+00:00",
+    "last_successful_update": "2026-07-23T20:04:55.462028+00:00",
     "article_count": 50,
     "categorized_count": 21,
-    "freshest_source": "USNI News",
-    "freshest_title": "USNI News Fleet and Marine Tracker: July 20, 2026",
-    "freshest_published": "Mon, 20 Jul 2026 19:35:42 +0000"
+    "freshest_source": "Naval News",
+    "freshest_title": "Babcock and LIG D&A sign Strategic Cooperation Agreement to promote global capabilities",
+    "freshest_published": "Thu, 23 Jul 2026 07:48:45 +0000"
   },
   "_firms_hotspots": []
 }
