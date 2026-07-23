@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-07-23T10:08:19Z",
-  "version": 2154,
+  "generated_utc": "2026-07-23T12:16:35Z",
+  "version": 2155,
   "breaking_alert": "USNI News: USNI News Fleet and Marine Tracker: July 20, 2026",
   "naval_deployments": [
     {
@@ -613,6 +613,15 @@
       ]
     },
     {
+      "title": "EU naval mission will now intercept Russian shadow tankers in the Indian Ocean",
+      "link": "https://www.defensenews.com/global/europe/2026/07/23/eu-naval-mission-will-now-intercept-russian-shadow-tankers-in-the-indian-ocean/",
+      "published": "Thu, 23 Jul 2026 11:16:19 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "Pentagon identifies soldier killed in Iraq during controlled detonation",
       "link": "https://taskandpurpose.com/news/army-iraq-soldier-identified/",
       "published": "Tue, 21 Jul 2026 09:30:33 -0400",
@@ -620,16 +629,6 @@
       "categories": [
         "deployment",
         "conflict"
-      ]
-    },
-    {
-      "title": "Iran warns Bulgaria against aiding US military operations",
-      "link": "https://www.defensenews.com/news/pentagon-congress/2026/07/21/iran-warns-bulgaria-against-aiding-us-military-operations/",
-      "published": "Tue, 21 Jul 2026 16:43:44 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment",
-        "exercise"
       ]
     },
     {
@@ -901,16 +900,6 @@
       ]
     },
     {
-      "title": "Iran warns Bulgaria against aiding US military operations",
-      "link": "https://www.defensenews.com/news/pentagon-congress/2026/07/21/iran-warns-bulgaria-against-aiding-us-military-operations/",
-      "published": "Tue, 21 Jul 2026 16:43:44 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment",
-        "exercise"
-      ]
-    },
-    {
       "title": "The Netherlands and Naval Group extend the Industrial Cooperation Agreement",
       "link": "https://www.navalnews.com/naval-news/2026/07/the-netherlands-and-naval-group-extend-the-industrial-cooperation-agreement/",
       "published": "Wed, 22 Jul 2026 06:32:12 +0000",
@@ -938,21 +927,31 @@
       "categories": [
         "exercise"
       ]
+    },
+    {
+      "title": "U.S. Army Deploys Hypersonic Missiles in Range of China During Exercise",
+      "link": "https://news.usni.org/2026/07/22/u-s-army-deploys-hypersonic-missiles-in-range-of-china-during-exercise",
+      "published": "Wed, 22 Jul 2026 18:22:28 +0000",
+      "source": "USNI News",
+      "categories": [
+        "exercise",
+        "conflict"
+      ]
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 18,
-    "conflict_articles": 8,
-    "exercise_articles": 6,
+    "deployment_articles": 17,
+    "conflict_articles": 7,
+    "exercise_articles": 5,
     "total_articles": 50,
-    "computed_at": "2026-07-23T10:08:11.900560+00:00",
-    "manual_override": "DEFCON_2",
+    "computed_at": "2026-07-23T12:16:32.730631+00:00",
+    "manual_override": "DEFCON_3",
     "breaking_events": [
       "[USNI News] USNI News Fleet and Marine Tracker: July 20, 2026",
       "[Task & Purpose] US service member killed in Iraq during a ‘controlled detonation’ of an Iranian munition",
       "[Naval News] Babcock and LIG D&A sign Strategic Cooperation Agreement to promote global capabilities",
-      "[Task & Purpose] Pentagon identifies soldier killed in Iraq during controlled detonation",
-      "[USNI News] GAO Report on Hypersonic Missiles on Navy Warships"
+      "[Defense News] EU naval mission will now intercept Russian shadow tankers in the Indian Ocean",
+      "[Task & Purpose] Pentagon identifies soldier killed in Iraq during controlled detonation"
     ]
   },
   "ground_intel": {
@@ -963,9 +962,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-07-23T10:08:11.900605+00:00",
+    "last_successful_update": "2026-07-23T12:16:32.730679+00:00",
     "article_count": 50,
-    "categorized_count": 24,
+    "categorized_count": 23,
     "freshest_source": "USNI News",
     "freshest_title": "USNI News Fleet and Marine Tracker: July 20, 2026",
     "freshest_published": "Mon, 20 Jul 2026 19:35:42 +0000"
