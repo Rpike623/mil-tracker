@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-07-23T16:20:59Z",
-  "version": 2157,
+  "generated_utc": "2026-07-23T18:05:03Z",
+  "version": 2158,
   "breaking_alert": "USNI News: USNI News Fleet and Marine Tracker: July 20, 2026",
   "naval_deployments": [
     {
@@ -630,6 +630,15 @@
       ]
     },
     {
+      "title": "Navy’s ‘dinosaur’ carrier delivery plane flies into sunset",
+      "link": "https://www.militarytimes.com/news/your-military/2026/07/23/navys-dinosaur-carrier-delivery-plane-flies-into-sunset/",
+      "published": "Thu, 23 Jul 2026 16:36:49 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "Pentagon identifies soldier killed in Iraq during controlled detonation",
       "link": "https://taskandpurpose.com/news/army-iraq-soldier-identified/",
       "published": "Tue, 21 Jul 2026 09:30:33 -0400",
@@ -673,15 +682,6 @@
       "link": "https://www.navalnews.com/naval-news/2026/07/hd-hyundai-and-sima-unveil-hds-mgp-submarine-vision-for-peruvian-navy/",
       "published": "Wed, 22 Jul 2026 13:27:59 +0000",
       "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Hazing could soon become a specific charge under military law",
-      "link": "https://taskandpurpose.com/news/defense-bill-criminalize-hazing/",
-      "published": "Wed, 22 Jul 2026 15:59:26 -0400",
-      "source": "Task & Purpose",
       "categories": [
         "deployment"
       ]
@@ -931,7 +931,7 @@
     "conflict_articles": 6,
     "exercise_articles": 4,
     "total_articles": 50,
-    "computed_at": "2026-07-23T16:20:48.611702+00:00",
+    "computed_at": "2026-07-23T18:04:21.610096+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[USNI News] USNI News Fleet and Marine Tracker: July 20, 2026",
@@ -949,7 +949,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-07-23T16:20:48.611747+00:00",
+    "last_successful_update": "2026-07-23T18:04:21.610141+00:00",
     "article_count": 50,
     "categorized_count": 21,
     "freshest_source": "USNI News",
