@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-07-23T07:32:11Z",
-  "version": 2153,
+  "generated_utc": "2026-07-23T10:08:19Z",
+  "version": 2154,
   "breaking_alert": "USNI News: USNI News Fleet and Marine Tracker: July 20, 2026",
   "naval_deployments": [
     {
@@ -892,6 +892,15 @@
   ],
   "_exercise_news_refs": [
     {
+      "title": "Babcock and LIG D&A sign Strategic Cooperation Agreement to promote global capabilities",
+      "link": "https://www.navalnews.com/naval-news/2026/07/babcock-and-lig-da-sign-strategic-cooperation-agreement-to-promote-global-capabilities/",
+      "published": "Thu, 23 Jul 2026 07:48:45 +0000",
+      "source": "Naval News",
+      "categories": [
+        "exercise"
+      ]
+    },
+    {
       "title": "Iran warns Bulgaria against aiding US military operations",
       "link": "https://www.defensenews.com/news/pentagon-congress/2026/07/21/iran-warns-bulgaria-against-aiding-us-military-operations/",
       "published": "Tue, 21 Jul 2026 16:43:44 +0000",
@@ -929,31 +938,21 @@
       "categories": [
         "exercise"
       ]
-    },
-    {
-      "title": "U.S. Army Deploys Hypersonic Missiles in Range of China During Exercise",
-      "link": "https://news.usni.org/2026/07/22/u-s-army-deploys-hypersonic-missiles-in-range-of-china-during-exercise",
-      "published": "Wed, 22 Jul 2026 18:22:28 +0000",
-      "source": "USNI News",
-      "categories": [
-        "exercise",
-        "conflict"
-      ]
     }
   ],
   "_threat_indicators": {
     "deployment_articles": 18,
     "conflict_articles": 8,
-    "exercise_articles": 5,
+    "exercise_articles": 6,
     "total_articles": 50,
-    "computed_at": "2026-07-23T07:32:04.794497+00:00",
+    "computed_at": "2026-07-23T10:08:11.900560+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[USNI News] USNI News Fleet and Marine Tracker: July 20, 2026",
       "[Task & Purpose] US service member killed in Iraq during a ‘controlled detonation’ of an Iranian munition",
+      "[Naval News] Babcock and LIG D&A sign Strategic Cooperation Agreement to promote global capabilities",
       "[Task & Purpose] Pentagon identifies soldier killed in Iraq during controlled detonation",
-      "[USNI News] GAO Report on Hypersonic Missiles on Navy Warships",
-      "[USNI News] Taiwan President Pushes $6.6B Attack Drone Plan"
+      "[USNI News] GAO Report on Hypersonic Missiles on Navy Warships"
     ]
   },
   "ground_intel": {
@@ -964,9 +963,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-07-23T07:32:04.794533+00:00",
+    "last_successful_update": "2026-07-23T10:08:11.900605+00:00",
     "article_count": 50,
-    "categorized_count": 23,
+    "categorized_count": 24,
     "freshest_source": "USNI News",
     "freshest_title": "USNI News Fleet and Marine Tracker: July 20, 2026",
     "freshest_published": "Mon, 20 Jul 2026 19:35:42 +0000"
