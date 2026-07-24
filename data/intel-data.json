@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-07-24T14:33:25Z",
-  "version": 2168,
+  "generated_utc": "2026-07-24T18:09:54Z",
+  "version": 2169,
   "breaking_alert": "Naval News: Naval Group Offers Latest MP-OPV Design for Lithuanian Navy",
   "naval_deployments": [
     {
@@ -621,6 +621,35 @@
       ]
     },
     {
+      "title": "Selective Service System wants to wargame the draft",
+      "link": "https://www.militarytimes.com/news/your-military/2026/07/24/selective-service-system-wants-to-wargame-the-draft/",
+      "published": "Fri, 24 Jul 2026 15:16:14 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment",
+        "exercise"
+      ]
+    },
+    {
+      "title": "National Guard awards $292 million for 2,000 ‘apartment-style’ units for DC deployments",
+      "link": "https://www.militarytimes.com/news/your-military/2026/07/24/national-guard-awards-292-million-for-2000-apartment-style-units-for-dc-deployments/",
+      "published": "Fri, 24 Jul 2026 16:05:34 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "U.S. Navy Orders Low-cost Missiles to Expand Fleet, Allied Long-Range Maritime Strike Capabilities",
+      "link": "https://news.usni.org/2026/07/24/u-s-navy-orders-low-cost-missiles-to-expand-fleet-allied-long-range-maritime-strike-capabilities",
+      "published": "Fri, 24 Jul 2026 17:23:50 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
+    },
+    {
       "title": "The US is in another asymmetric war in the Middle East",
       "link": "https://taskandpurpose.com/news/military-iran-asymmetric-war/",
       "published": "Thu, 23 Jul 2026 10:28:34 -0400",
@@ -648,15 +677,6 @@
       ]
     },
     {
-      "title": "Navy’s ‘dinosaur’ carrier delivery plane flies into sunset",
-      "link": "https://www.militarytimes.com/news/your-military/2026/07/23/navys-dinosaur-carrier-delivery-plane-flies-into-sunset/",
-      "published": "Thu, 23 Jul 2026 16:36:49 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "VIDEO: Decommissioned USS Mobile Bay, USS Peleliu Sunk in RIMPAC Drills",
       "link": "https://news.usni.org/2026/07/23/video-decommissioned-uss-mobile-bay-uss-peleliu-sunk-in-rimpac-drills",
       "published": "Thu, 23 Jul 2026 18:11:09 +0000",
@@ -664,25 +684,6 @@
       "categories": [
         "deployment",
         "exercise"
-      ]
-    },
-    {
-      "title": "Taiwan Receives Latest Coast Guard Cutter from $1.3B Fleet Build-up Plan",
-      "link": "https://news.usni.org/2026/07/23/taiwan-receives-latest-coast-guard-cutter-from-1-3b-fleet-build-up-plan",
-      "published": "Thu, 23 Jul 2026 18:43:41 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Pentagon identifies soldier killed in Iraq during controlled detonation",
-      "link": "https://taskandpurpose.com/news/army-iraq-soldier-identified/",
-      "published": "Tue, 21 Jul 2026 09:30:33 -0400",
-      "source": "Task & Purpose",
-      "categories": [
-        "deployment",
-        "conflict"
       ]
     }
   ],
@@ -847,6 +848,16 @@
       ]
     },
     {
+      "title": "U.S. Navy Orders Low-cost Missiles to Expand Fleet, Allied Long-Range Maritime Strike Capabilities",
+      "link": "https://news.usni.org/2026/07/24/u-s-navy-orders-low-cost-missiles-to-expand-fleet-allied-long-range-maritime-strike-capabilities",
+      "published": "Fri, 24 Jul 2026 17:23:50 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
+    },
+    {
       "title": "Pentagon identifies soldier killed in Iraq during controlled detonation",
       "link": "https://taskandpurpose.com/news/army-iraq-soldier-identified/",
       "published": "Tue, 21 Jul 2026 09:30:33 -0400",
@@ -888,6 +899,16 @@
       ]
     },
     {
+      "title": "Selective Service System wants to wargame the draft",
+      "link": "https://www.militarytimes.com/news/your-military/2026/07/24/selective-service-system-wants-to-wargame-the-draft/",
+      "published": "Fri, 24 Jul 2026 15:16:14 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment",
+        "exercise"
+      ]
+    },
+    {
       "title": "VIDEO: Decommissioned USS Mobile Bay, USS Peleliu Sunk in RIMPAC Drills",
       "link": "https://news.usni.org/2026/07/23/video-decommissioned-uss-mobile-bay-uss-peleliu-sunk-in-rimpac-drills",
       "published": "Thu, 23 Jul 2026 18:11:09 +0000",
@@ -914,24 +935,14 @@
       "categories": [
         "exercise"
       ]
-    },
-    {
-      "title": "U.S. Army Deploys Hypersonic Missiles in Range of China During Exercise",
-      "link": "https://news.usni.org/2026/07/22/u-s-army-deploys-hypersonic-missiles-in-range-of-china-during-exercise",
-      "published": "Wed, 22 Jul 2026 18:22:28 +0000",
-      "source": "USNI News",
-      "categories": [
-        "exercise",
-        "conflict"
-      ]
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 16,
-    "conflict_articles": 4,
-    "exercise_articles": 5,
+    "deployment_articles": 17,
+    "conflict_articles": 5,
+    "exercise_articles": 6,
     "total_articles": 50,
-    "computed_at": "2026-07-24T14:30:33.308902+00:00",
+    "computed_at": "2026-07-24T18:08:08.797597+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] Naval Group Offers Latest MP-OPV Design for Lithuanian Navy",
@@ -949,9 +960,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-07-24T14:30:33.308947+00:00",
+    "last_successful_update": "2026-07-24T18:08:08.797636+00:00",
     "article_count": 50,
-    "categorized_count": 21,
+    "categorized_count": 22,
     "freshest_source": "Naval News",
     "freshest_title": "Naval Group Offers Latest MP-OPV Design for Lithuanian Navy",
     "freshest_published": "Fri, 24 Jul 2026 08:38:01 +0000"
