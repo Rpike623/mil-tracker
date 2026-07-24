@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-07-24T18:09:54Z",
-  "version": 2169,
+  "generated_utc": "2026-07-24T20:10:01Z",
+  "version": 2170,
   "breaking_alert": "Naval News: Naval Group Offers Latest MP-OPV Design for Lithuanian Navy",
   "naval_deployments": [
     {
@@ -650,6 +650,15 @@
       ]
     },
     {
+      "title": "With no Iran war end in sight, Germany pulls back two navy ships eyed for Hormuz mission",
+      "link": "https://www.defensenews.com/global/europe/2026/07/24/with-no-iran-war-end-in-sight-germany-pulls-back-two-navy-ships-eyed-for-hormuz-mission/",
+      "published": "Fri, 24 Jul 2026 18:49:10 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "The US is in another asymmetric war in the Middle East",
       "link": "https://taskandpurpose.com/news/military-iran-asymmetric-war/",
       "published": "Thu, 23 Jul 2026 10:28:34 -0400",
@@ -674,16 +683,6 @@
       "source": "Defense News",
       "categories": [
         "deployment"
-      ]
-    },
-    {
-      "title": "VIDEO: Decommissioned USS Mobile Bay, USS Peleliu Sunk in RIMPAC Drills",
-      "link": "https://news.usni.org/2026/07/23/video-decommissioned-uss-mobile-bay-uss-peleliu-sunk-in-rimpac-drills",
-      "published": "Thu, 23 Jul 2026 18:11:09 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment",
-        "exercise"
       ]
     }
   ],
@@ -858,16 +857,6 @@
       ]
     },
     {
-      "title": "Pentagon identifies soldier killed in Iraq during controlled detonation",
-      "link": "https://taskandpurpose.com/news/army-iraq-soldier-identified/",
-      "published": "Tue, 21 Jul 2026 09:30:33 -0400",
-      "source": "Task & Purpose",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
       "title": "These are the 3 soldiers killed by Iran’s attack on a base in Jordan",
       "link": "https://taskandpurpose.com/news/jordan-iran-feehan-gonzales-rampersad/",
       "published": "Wed, 22 Jul 2026 09:29:40 -0400",
@@ -919,15 +908,6 @@
       ]
     },
     {
-      "title": "F-15EX drops bombs from an operational unit for the first time",
-      "link": "https://www.militarytimes.com/news/your-military/2026/07/23/f-15ex-drops-bombs-from-an-operational-unit-for-the-first-time/",
-      "published": "Thu, 23 Jul 2026 19:01:48 +0000",
-      "source": "Military Times",
-      "categories": [
-        "exercise"
-      ]
-    },
-    {
       "title": "Republican Senators Introduce Bill to Create Service Secretary for the Coast Guard",
       "link": "https://news.usni.org/2026/07/22/republican-senators-introduce-bill-to-create-service-secretary-for-the-coast-guard",
       "published": "Wed, 22 Jul 2026 15:54:40 +0000",
@@ -935,14 +915,24 @@
       "categories": [
         "exercise"
       ]
+    },
+    {
+      "title": "U.S. Army Deploys Hypersonic Missiles in Range of China During Exercise",
+      "link": "https://news.usni.org/2026/07/22/u-s-army-deploys-hypersonic-missiles-in-range-of-china-during-exercise",
+      "published": "Wed, 22 Jul 2026 18:22:28 +0000",
+      "source": "USNI News",
+      "categories": [
+        "exercise",
+        "conflict"
+      ]
     }
   ],
   "_threat_indicators": {
     "deployment_articles": 17,
-    "conflict_articles": 5,
-    "exercise_articles": 6,
+    "conflict_articles": 4,
+    "exercise_articles": 5,
     "total_articles": 50,
-    "computed_at": "2026-07-24T18:08:08.797597+00:00",
+    "computed_at": "2026-07-24T20:07:14.893668+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] Naval Group Offers Latest MP-OPV Design for Lithuanian Navy",
@@ -960,9 +950,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-07-24T18:08:08.797636+00:00",
+    "last_successful_update": "2026-07-24T20:07:14.893704+00:00",
     "article_count": 50,
-    "categorized_count": 22,
+    "categorized_count": 21,
     "freshest_source": "Naval News",
     "freshest_title": "Naval Group Offers Latest MP-OPV Design for Lithuanian Navy",
     "freshest_published": "Fri, 24 Jul 2026 08:38:01 +0000"
