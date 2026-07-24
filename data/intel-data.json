@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-07-24T20:10:01Z",
-  "version": 2170,
+  "generated_utc": "2026-07-24T21:53:20Z",
+  "version": 2171,
   "breaking_alert": "Naval News: Naval Group Offers Latest MP-OPV Design for Lithuanian Navy",
   "naval_deployments": [
     {
@@ -659,6 +659,16 @@
       ]
     },
     {
+      "title": "Hormuz Transits Remain Low, Houthis Resume Attacks in Red Sea",
+      "link": "https://news.usni.org/2026/07/24/hormuz-transits-remain-low-houthis-resume-attacks-in-red-sea",
+      "published": "Fri, 24 Jul 2026 21:34:36 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
+    },
+    {
       "title": "The US is in another asymmetric war in the Middle East",
       "link": "https://taskandpurpose.com/news/military-iran-asymmetric-war/",
       "published": "Thu, 23 Jul 2026 10:28:34 -0400",
@@ -671,15 +681,6 @@
       "title": "EU naval mission will now intercept Russian shadow tankers in the Indian Ocean",
       "link": "https://www.defensenews.com/global/europe/2026/07/23/eu-naval-mission-will-now-intercept-russian-shadow-tankers-in-the-indian-ocean/",
       "published": "Thu, 23 Jul 2026 11:16:19 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Greece to buy $4 billion air defense system from Israel",
-      "link": "https://www.defensenews.com/global/europe/2026/07/23/greece-to-buy-4-billion-air-defence-system-from-israel/",
-      "published": "Thu, 23 Jul 2026 13:41:41 +0000",
       "source": "Defense News",
       "categories": [
         "deployment"
@@ -857,6 +858,16 @@
       ]
     },
     {
+      "title": "Hormuz Transits Remain Low, Houthis Resume Attacks in Red Sea",
+      "link": "https://news.usni.org/2026/07/24/hormuz-transits-remain-low-houthis-resume-attacks-in-red-sea",
+      "published": "Fri, 24 Jul 2026 21:34:36 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
+    },
+    {
       "title": "These are the 3 soldiers killed by Iran’s attack on a base in Jordan",
       "link": "https://taskandpurpose.com/news/jordan-iran-feehan-gonzales-rampersad/",
       "published": "Wed, 22 Jul 2026 09:29:40 -0400",
@@ -908,15 +919,6 @@
       ]
     },
     {
-      "title": "Republican Senators Introduce Bill to Create Service Secretary for the Coast Guard",
-      "link": "https://news.usni.org/2026/07/22/republican-senators-introduce-bill-to-create-service-secretary-for-the-coast-guard",
-      "published": "Wed, 22 Jul 2026 15:54:40 +0000",
-      "source": "USNI News",
-      "categories": [
-        "exercise"
-      ]
-    },
-    {
       "title": "U.S. Army Deploys Hypersonic Missiles in Range of China During Exercise",
       "link": "https://news.usni.org/2026/07/22/u-s-army-deploys-hypersonic-missiles-in-range-of-china-during-exercise",
       "published": "Wed, 22 Jul 2026 18:22:28 +0000",
@@ -929,10 +931,10 @@
   ],
   "_threat_indicators": {
     "deployment_articles": 17,
-    "conflict_articles": 4,
-    "exercise_articles": 5,
+    "conflict_articles": 5,
+    "exercise_articles": 4,
     "total_articles": 50,
-    "computed_at": "2026-07-24T20:07:14.893668+00:00",
+    "computed_at": "2026-07-24T21:51:29.679130+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] Naval Group Offers Latest MP-OPV Design for Lithuanian Navy",
@@ -950,9 +952,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-07-24T20:07:14.893704+00:00",
+    "last_successful_update": "2026-07-24T21:51:29.679172+00:00",
     "article_count": 50,
-    "categorized_count": 21,
+    "categorized_count": 20,
     "freshest_source": "Naval News",
     "freshest_title": "Naval Group Offers Latest MP-OPV Design for Lithuanian Navy",
     "freshest_published": "Fri, 24 Jul 2026 08:38:01 +0000"
