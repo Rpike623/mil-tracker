@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-07-24T07:26:31Z",
-  "version": 2165,
-  "breaking_alert": "Naval News: Babcock and LIG D&A sign Strategic Cooperation Agreement to promote global capabilities",
+  "generated_utc": "2026-07-24T10:07:36Z",
+  "version": 2166,
+  "breaking_alert": "Naval News: Naval Group Offers Latest MP-OPV Design for Lithuanian Navy",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -594,6 +594,24 @@
   ],
   "_naval_news_refs": [
     {
+      "title": "Naval Group Offers Latest MP-OPV Design for Lithuanian Navy",
+      "link": "https://www.navalnews.com/naval-news/2026/07/naval-group-offers-latest-mp-opv-design-for-lithuanian-navy/",
+      "published": "Fri, 24 Jul 2026 08:38:01 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Indonesia orders Leonardo light fighters, eyes naval helicopters",
+      "link": "https://www.defensenews.com/global/asia-pacific/2026/07/24/indonesia-orders-leonardo-light-fighters-eyes-naval-helicopters/",
+      "published": "Fri, 24 Jul 2026 09:35:20 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "The US is in another asymmetric war in the Middle East",
       "link": "https://taskandpurpose.com/news/military-iran-asymmetric-war/",
       "published": "Thu, 23 Jul 2026 10:28:34 -0400",
@@ -665,26 +683,6 @@
       "source": "USNI News",
       "categories": [
         "deployment"
-      ]
-    },
-    {
-      "title": "These are the 3 soldiers killed by Iran’s attack on a base in Jordan",
-      "link": "https://taskandpurpose.com/news/jordan-iran-feehan-gonzales-rampersad/",
-      "published": "Wed, 22 Jul 2026 09:29:40 -0400",
-      "source": "Task & Purpose",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
-      "title": "Unfazed by Iran’s threats, Bulgaria moves to aid U.S. military operations",
-      "link": "https://www.defensenews.com/global/europe/2026/07/22/unfazed-by-irans-threats-bulgaria-moves-to-aid-us-military-operations/",
-      "published": "Wed, 22 Jul 2026 11:21:27 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment",
-        "exercise"
       ]
     }
   ],
@@ -840,6 +838,15 @@
   },
   "_conflict_news_refs": [
     {
+      "title": "Malaysia moves closer to VL MICA missiles procurement for LCS",
+      "link": "https://www.navalnews.com/naval-news/2026/07/malaysia-moves-closer-to-vl-mica-missiles-procurement-for-lcs/",
+      "published": "Fri, 24 Jul 2026 09:57:49 +0000",
+      "source": "Naval News",
+      "categories": [
+        "conflict"
+      ]
+    },
+    {
       "title": "Pentagon identifies soldier killed in Iraq during controlled detonation",
       "link": "https://taskandpurpose.com/news/army-iraq-soldier-identified/",
       "published": "Tue, 21 Jul 2026 09:30:33 -0400",
@@ -909,16 +916,6 @@
       ]
     },
     {
-      "title": "Unfazed by Iran’s threats, Bulgaria moves to aid U.S. military operations",
-      "link": "https://www.defensenews.com/global/europe/2026/07/22/unfazed-by-irans-threats-bulgaria-moves-to-aid-us-military-operations/",
-      "published": "Wed, 22 Jul 2026 11:21:27 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment",
-        "exercise"
-      ]
-    },
-    {
       "title": "Republican Senators Introduce Bill to Create Service Secretary for the Coast Guard",
       "link": "https://news.usni.org/2026/07/22/republican-senators-introduce-bill-to-create-service-secretary-for-the-coast-guard",
       "published": "Wed, 22 Jul 2026 15:54:40 +0000",
@@ -926,21 +923,31 @@
       "categories": [
         "exercise"
       ]
+    },
+    {
+      "title": "U.S. Army Deploys Hypersonic Missiles in Range of China During Exercise",
+      "link": "https://news.usni.org/2026/07/22/u-s-army-deploys-hypersonic-missiles-in-range-of-china-during-exercise",
+      "published": "Wed, 22 Jul 2026 18:22:28 +0000",
+      "source": "USNI News",
+      "categories": [
+        "exercise",
+        "conflict"
+      ]
     }
   ],
   "_threat_indicators": {
     "deployment_articles": 15,
-    "conflict_articles": 4,
-    "exercise_articles": 6,
+    "conflict_articles": 5,
+    "exercise_articles": 5,
     "total_articles": 50,
-    "computed_at": "2026-07-24T07:24:51.139926+00:00",
+    "computed_at": "2026-07-24T10:02:55.165842+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
+      "[Naval News] Naval Group Offers Latest MP-OPV Design for Lithuanian Navy",
+      "[Defense News] Indonesia orders Leonardo light fighters, eyes naval helicopters",
+      "[Naval News] Malaysia moves closer to VL MICA missiles procurement for LCS",
       "[Naval News] Babcock and LIG D&A sign Strategic Cooperation Agreement to promote global capabilities",
-      "[Task & Purpose] The US is in another asymmetric war in the Middle East",
-      "[Defense News] EU naval mission will now intercept Russian shadow tankers in the Indian Ocean",
-      "[Defense News] Greece to buy $4 billion air defense system from Israel",
-      "[Military Times] Navy’s ‘dinosaur’ carrier delivery plane flies into sunset"
+      "[Task & Purpose] The US is in another asymmetric war in the Middle East"
     ]
   },
   "ground_intel": {
@@ -951,12 +958,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-07-24T07:24:51.139972+00:00",
+    "last_successful_update": "2026-07-24T10:02:55.165882+00:00",
     "article_count": 50,
-    "categorized_count": 20,
+    "categorized_count": 21,
     "freshest_source": "Naval News",
-    "freshest_title": "Babcock and LIG D&A sign Strategic Cooperation Agreement to promote global capabilities",
-    "freshest_published": "Thu, 23 Jul 2026 07:48:45 +0000"
+    "freshest_title": "Naval Group Offers Latest MP-OPV Design for Lithuanian Navy",
+    "freshest_published": "Fri, 24 Jul 2026 08:38:01 +0000"
   },
   "_firms_hotspots": []
 }
