@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-07-24T12:09:50Z",
-  "version": 2167,
+  "generated_utc": "2026-07-24T14:33:25Z",
+  "version": 2168,
   "breaking_alert": "Naval News: Naval Group Offers Latest MP-OPV Design for Lithuanian Navy",
   "naval_deployments": [
     {
@@ -612,6 +612,15 @@
       ]
     },
     {
+      "title": "TKMS and Navantia Advance Strategic Submarine Partnership with Ambition to Establish Joint Collaboration Framework by Year-End",
+      "link": "https://www.navalnews.com/naval-news/2026/07/tkms-and-navantia-advance-strategic-submarine-partnership-with-ambition-to-establish-joint-collaboration-framework-by-year-end/",
+      "published": "Fri, 24 Jul 2026 14:00:39 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "The US is in another asymmetric war in the Middle East",
       "link": "https://taskandpurpose.com/news/military-iran-asymmetric-war/",
       "published": "Thu, 23 Jul 2026 10:28:34 -0400",
@@ -674,15 +683,6 @@
       "categories": [
         "deployment",
         "conflict"
-      ]
-    },
-    {
-      "title": "OMB Wants Battleship, Aircraft Carrier Funding Anomalies in Latest Continuing Resolution Proposal",
-      "link": "https://news.usni.org/2026/07/21/omb-wants-battleship-aircraft-carrier-funding-anomalies-in-latest-continuing-resolution-proposal",
-      "published": "Tue, 21 Jul 2026 17:29:28 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment"
       ]
     }
   ],
@@ -867,15 +867,6 @@
       ]
     },
     {
-      "title": "US Navy Awards CoAspire $70M to Develop CHAOS Cruise Missile for Coalition Allies",
-      "link": "https://www.navalnews.com/naval-news/2026/07/us-navy-coaspire-chaos-cruise-missile-raacm-er/",
-      "published": "Wed, 22 Jul 2026 14:43:43 +0000",
-      "source": "Naval News",
-      "categories": [
-        "conflict"
-      ]
-    },
-    {
       "title": "U.S. Army Deploys Hypersonic Missiles in Range of China During Exercise",
       "link": "https://news.usni.org/2026/07/22/u-s-army-deploys-hypersonic-missiles-in-range-of-china-during-exercise",
       "published": "Wed, 22 Jul 2026 18:22:28 +0000",
@@ -888,9 +879,9 @@
   ],
   "_exercise_news_refs": [
     {
-      "title": "Babcock and LIG D&A sign Strategic Cooperation Agreement to promote global capabilities",
-      "link": "https://www.navalnews.com/naval-news/2026/07/babcock-and-lig-da-sign-strategic-cooperation-agreement-to-promote-global-capabilities/",
-      "published": "Thu, 23 Jul 2026 07:48:45 +0000",
+      "title": "Ultra Maritime, Anduril Track UUV Threats at US Navy Lanternfish Exercise",
+      "link": "https://www.navalnews.com/naval-news/2026/07/ultra-maritime-anduril-track-uuv-threats-at-us-navy-lanternfish-exercise/",
+      "published": "Fri, 24 Jul 2026 13:08:52 +0000",
       "source": "Naval News",
       "categories": [
         "exercise"
@@ -936,18 +927,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 15,
-    "conflict_articles": 5,
+    "deployment_articles": 16,
+    "conflict_articles": 4,
     "exercise_articles": 5,
     "total_articles": 50,
-    "computed_at": "2026-07-24T12:09:25.579556+00:00",
+    "computed_at": "2026-07-24T14:30:33.308902+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] Naval Group Offers Latest MP-OPV Design for Lithuanian Navy",
       "[Defense News] Indonesia orders Leonardo light fighters, eyes naval helicopters",
       "[Naval News] Malaysia moves closer to VL MICA missiles procurement for LCS",
-      "[Naval News] Babcock and LIG D&A sign Strategic Cooperation Agreement to promote global capabilities",
-      "[Task & Purpose] The US is in another asymmetric war in the Middle East"
+      "[Naval News] Ultra Maritime, Anduril Track UUV Threats at US Navy Lanternfish Exercise",
+      "[Naval News] TKMS and Navantia Advance Strategic Submarine Partnership with Ambition to Establish Joint Collaboration Framework by Year-End"
     ]
   },
   "ground_intel": {
@@ -958,7 +949,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-07-24T12:09:25.579598+00:00",
+    "last_successful_update": "2026-07-24T14:30:33.308947+00:00",
     "article_count": 50,
     "categorized_count": 21,
     "freshest_source": "Naval News",
