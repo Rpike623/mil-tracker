@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-07-25T04:56:21Z",
-  "version": 2175,
+  "generated_utc": "2026-07-25T07:11:21Z",
+  "version": 2176,
   "breaking_alert": "Naval News: Naval Group Offers Latest MP-OPV Design for Lithuanian Navy",
   "naval_deployments": [
     {
@@ -934,7 +934,7 @@
     "conflict_articles": 5,
     "exercise_articles": 4,
     "total_articles": 50,
-    "computed_at": "2026-07-25T04:51:40.599964+00:00",
+    "computed_at": "2026-07-25T07:06:40.204268+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] Naval Group Offers Latest MP-OPV Design for Lithuanian Navy",
@@ -952,7 +952,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-07-25T04:51:40.600008+00:00",
+    "last_successful_update": "2026-07-25T07:06:40.204312+00:00",
     "article_count": 50,
     "categorized_count": 20,
     "freshest_source": "Naval News",
