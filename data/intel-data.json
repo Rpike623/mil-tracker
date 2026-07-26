@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-07-26T12:50:54Z",
-  "version": 2195,
+  "generated_utc": "2026-07-26T14:25:20Z",
+  "version": 2196,
   "breaking_alert": "Naval News: Naval Group Offers Latest MP-OPV Design for Lithuanian Navy",
   "naval_deployments": [
     {
@@ -669,21 +669,23 @@
       ]
     },
     {
-      "title": "The US is in another asymmetric war in the Middle East",
-      "link": "https://taskandpurpose.com/news/military-iran-asymmetric-war/",
-      "published": "Thu, 23 Jul 2026 10:28:34 -0400",
-      "source": "Task & Purpose",
+      "title": "Iran says Ukrainian attack on vessel in Caspian Sea killed sailor",
+      "link": "https://www.defensenews.com/global/mideast-africa/2026/07/26/iran-says-ukrainian-attack-on-vessel-in-caspian-sea-killed-sailor/",
+      "published": "Sun, 26 Jul 2026 13:20:08 +0000",
+      "source": "Defense News",
       "categories": [
-        "deployment"
+        "deployment",
+        "conflict"
       ]
     },
     {
-      "title": "EU naval mission will now intercept Russian shadow tankers in the Indian Ocean",
-      "link": "https://www.defensenews.com/global/europe/2026/07/23/eu-naval-mission-will-now-intercept-russian-shadow-tankers-in-the-indian-ocean/",
-      "published": "Thu, 23 Jul 2026 11:16:19 +0000",
-      "source": "Defense News",
+      "title": "Iran says Ukrainian attack on vessel in Caspian Sea killed sailor",
+      "link": "https://www.militarytimes.com/global/mideast-africa/2026/07/26/iran-says-ukrainian-attack-on-vessel-in-caspian-sea-killed-sailor/",
+      "published": "Sun, 26 Jul 2026 13:20:08 +0000",
+      "source": "Military Times",
       "categories": [
-        "deployment"
+        "deployment",
+        "conflict"
       ]
     }
   ],
@@ -868,22 +870,22 @@
       ]
     },
     {
-      "title": "These are the 3 soldiers killed by Iran’s attack on a base in Jordan",
-      "link": "https://taskandpurpose.com/news/jordan-iran-feehan-gonzales-rampersad/",
-      "published": "Wed, 22 Jul 2026 09:29:40 -0400",
-      "source": "Task & Purpose",
+      "title": "Iran says Ukrainian attack on vessel in Caspian Sea killed sailor",
+      "link": "https://www.defensenews.com/global/mideast-africa/2026/07/26/iran-says-ukrainian-attack-on-vessel-in-caspian-sea-killed-sailor/",
+      "published": "Sun, 26 Jul 2026 13:20:08 +0000",
+      "source": "Defense News",
       "categories": [
         "deployment",
         "conflict"
       ]
     },
     {
-      "title": "U.S. Army Deploys Hypersonic Missiles in Range of China During Exercise",
-      "link": "https://news.usni.org/2026/07/22/u-s-army-deploys-hypersonic-missiles-in-range-of-china-during-exercise",
-      "published": "Wed, 22 Jul 2026 18:22:28 +0000",
-      "source": "USNI News",
+      "title": "Iran says Ukrainian attack on vessel in Caspian Sea killed sailor",
+      "link": "https://www.militarytimes.com/global/mideast-africa/2026/07/26/iran-says-ukrainian-attack-on-vessel-in-caspian-sea-killed-sailor/",
+      "published": "Sun, 26 Jul 2026 13:20:08 +0000",
+      "source": "Military Times",
       "categories": [
-        "exercise",
+        "deployment",
         "conflict"
       ]
     }
@@ -930,11 +932,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 17,
-    "conflict_articles": 5,
+    "deployment_articles": 19,
+    "conflict_articles": 7,
     "exercise_articles": 4,
     "total_articles": 50,
-    "computed_at": "2026-07-26T12:50:29.541475+00:00",
+    "computed_at": "2026-07-26T14:20:39.675759+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] Naval Group Offers Latest MP-OPV Design for Lithuanian Navy",
@@ -952,9 +954,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-07-26T12:50:29.541510+00:00",
+    "last_successful_update": "2026-07-26T14:20:39.675795+00:00",
     "article_count": 50,
-    "categorized_count": 20,
+    "categorized_count": 22,
     "freshest_source": "Naval News",
     "freshest_title": "Naval Group Offers Latest MP-OPV Design for Lithuanian Navy",
     "freshest_published": "Fri, 24 Jul 2026 08:38:01 +0000"
