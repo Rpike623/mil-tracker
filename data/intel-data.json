@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-07-27T15:34:08Z",
-  "version": 2209,
+  "generated_utc": "2026-07-27T17:26:14Z",
+  "version": 2210,
   "breaking_alert": "Naval News: Naval Group Offers Latest MP-OPV Design for Lithuanian Navy",
   "naval_deployments": [
     {
@@ -621,25 +621,6 @@
       ]
     },
     {
-      "title": "Selective Service System wants to wargame the draft",
-      "link": "https://www.militarytimes.com/news/your-military/2026/07/24/selective-service-system-wants-to-wargame-the-draft/",
-      "published": "Fri, 24 Jul 2026 15:16:14 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment",
-        "exercise"
-      ]
-    },
-    {
-      "title": "National Guard awards $292 million for 2,000 ‘apartment-style’ units for DC deployments",
-      "link": "https://www.militarytimes.com/news/your-military/2026/07/24/national-guard-awards-292-million-for-2000-apartment-style-units-for-dc-deployments/",
-      "published": "Fri, 24 Jul 2026 16:05:34 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "U.S. Navy Orders Low-cost Missiles to Expand Fleet, Allied Long-Range Maritime Strike Capabilities",
       "link": "https://news.usni.org/2026/07/24/u-s-navy-orders-low-cost-missiles-to-expand-fleet-allied-long-range-maritime-strike-capabilities",
       "published": "Fri, 24 Jul 2026 17:23:50 +0000",
@@ -672,6 +653,25 @@
       "title": "George Washington CSG in the South China Sea After Philippine-Chinese Clashes",
       "link": "https://news.usni.org/2026/07/27/george-washington-csg-in-the-south-china-sea-after-philippine-chinese-clashes",
       "published": "Mon, 27 Jul 2026 15:10:24 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Pentagon moves recent KIA numbers from Iran war into ‘Overseas Operations’ category",
+      "link": "https://www.militarytimes.com/news/your-military/2026/07/27/pentagon-moves-recent-kia-numbers-from-iran-war-into-overseas-operations-category/",
+      "published": "Mon, 27 Jul 2026 16:53:41 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment",
+        "exercise"
+      ]
+    },
+    {
+      "title": "USNI News Fleet and Marine Tracker: July 27, 2026",
+      "link": "https://news.usni.org/2026/07/27/usni-news-fleet-and-marine-tracker-july-27-2026",
+      "published": "Mon, 27 Jul 2026 17:16:06 +0000",
       "source": "USNI News",
       "categories": [
         "deployment"
@@ -898,16 +898,6 @@
       ]
     },
     {
-      "title": "Selective Service System wants to wargame the draft",
-      "link": "https://www.militarytimes.com/news/your-military/2026/07/24/selective-service-system-wants-to-wargame-the-draft/",
-      "published": "Fri, 24 Jul 2026 15:16:14 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment",
-        "exercise"
-      ]
-    },
-    {
       "title": "U.K., Spanish Navy Forces Wrap NATO’s Latest Neptune Strike Exercise",
       "link": "https://news.usni.org/2026/07/27/u-k-spanish-navy-forces-wrap-natos-latest-neptune-strike-exercise",
       "published": "Mon, 27 Jul 2026 14:24:48 +0000",
@@ -915,6 +905,16 @@
       "categories": [
         "exercise",
         "conflict"
+      ]
+    },
+    {
+      "title": "Pentagon moves recent KIA numbers from Iran war into ‘Overseas Operations’ category",
+      "link": "https://www.militarytimes.com/news/your-military/2026/07/27/pentagon-moves-recent-kia-numbers-from-iran-war-into-overseas-operations-category/",
+      "published": "Mon, 27 Jul 2026 16:53:41 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment",
+        "exercise"
       ]
     },
     {
@@ -929,11 +929,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 17,
+    "deployment_articles": 15,
     "conflict_articles": 8,
     "exercise_articles": 4,
     "total_articles": 50,
-    "computed_at": "2026-07-27T15:33:40.442010+00:00",
+    "computed_at": "2026-07-27T17:25:43.514669+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[Naval News] Naval Group Offers Latest MP-OPV Design for Lithuanian Navy",
@@ -951,9 +951,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-07-27T15:33:40.442053+00:00",
+    "last_successful_update": "2026-07-27T17:25:43.514713+00:00",
     "article_count": 50,
-    "categorized_count": 22,
+    "categorized_count": 20,
     "freshest_source": "Naval News",
     "freshest_title": "Naval Group Offers Latest MP-OPV Design for Lithuanian Navy",
     "freshest_published": "Fri, 24 Jul 2026 08:38:01 +0000"
