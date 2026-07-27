@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-07-27T22:01:57Z",
-  "version": 2213,
+  "generated_utc": "2026-07-27T23:01:06Z",
+  "version": 2214,
   "breaking_alert": "Defense News: Indonesia orders Leonardo light fighters, eyes naval helicopters",
   "naval_deployments": [
     {
@@ -923,7 +923,7 @@
     "conflict_articles": 10,
     "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-07-27T21:59:53.728352+00:00",
+    "computed_at": "2026-07-27T23:00:55.894310+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[Defense News] Indonesia orders Leonardo light fighters, eyes naval helicopters",
@@ -941,7 +941,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-07-27T21:59:53.728414+00:00",
+    "last_successful_update": "2026-07-27T23:00:55.894352+00:00",
     "article_count": 50,
     "categorized_count": 20,
     "freshest_source": "Defense News",
