@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-07-27T19:05:51Z",
-  "version": 2211,
-  "breaking_alert": "Naval News: Naval Group Offers Latest MP-OPV Design for Lithuanian Navy",
+  "generated_utc": "2026-07-27T20:58:05Z",
+  "version": 2212,
+  "breaking_alert": "Defense News: Indonesia orders Leonardo light fighters, eyes naval helicopters",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -594,15 +594,6 @@
   ],
   "_naval_news_refs": [
     {
-      "title": "Naval Group Offers Latest MP-OPV Design for Lithuanian Navy",
-      "link": "https://www.navalnews.com/naval-news/2026/07/naval-group-offers-latest-mp-opv-design-for-lithuanian-navy/",
-      "published": "Fri, 24 Jul 2026 08:38:01 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Indonesia orders Leonardo light fighters, eyes naval helicopters",
       "link": "https://www.defensenews.com/global/asia-pacific/2026/07/24/indonesia-orders-leonardo-light-fighters-eyes-naval-helicopters/",
       "published": "Fri, 24 Jul 2026 09:35:20 +0000",
@@ -673,6 +664,15 @@
       "link": "https://news.usni.org/2026/07/27/usni-news-fleet-and-marine-tracker-july-27-2026",
       "published": "Mon, 27 Jul 2026 17:16:06 +0000",
       "source": "USNI News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "The Cairncross Dockyard Brisbane Project And Prospects For Australian Naval Infrastructure",
+      "link": "https://www.navalnews.com/naval-news/2026/07/the-cairncross-dockyard-brisbane-project-and-prospects-for-australian-naval-infrastructure/",
+      "published": "Mon, 27 Jul 2026 20:22:48 +0000",
+      "source": "Naval News",
       "categories": [
         "deployment"
       ]
@@ -916,31 +916,21 @@
         "deployment",
         "exercise"
       ]
-    },
-    {
-      "title": "VIDEO: Decommissioned USS Mobile Bay, USS Peleliu Sunk in RIMPAC Drills",
-      "link": "https://news.usni.org/2026/07/23/video-decommissioned-uss-mobile-bay-uss-peleliu-sunk-in-rimpac-drills",
-      "published": "Thu, 23 Jul 2026 18:11:09 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment",
-        "exercise"
-      ]
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 14,
-    "conflict_articles": 10,
-    "exercise_articles": 4,
+    "deployment_articles": 12,
+    "conflict_articles": 9,
+    "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-07-27T19:05:16.478554+00:00",
+    "computed_at": "2026-07-27T20:57:46.436643+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
-      "[Naval News] Naval Group Offers Latest MP-OPV Design for Lithuanian Navy",
       "[Defense News] Indonesia orders Leonardo light fighters, eyes naval helicopters",
       "[Naval News] Malaysia moves closer to VL MICA missiles procurement for LCS",
       "[Naval News] Ultra Maritime, Anduril Track UUV Threats at US Navy Lanternfish Exercise",
-      "[Naval News] TKMS and Navantia Advance Strategic Submarine Partnership with Ambition to Establish Joint Collaboration Framework by Year-End"
+      "[Naval News] TKMS and Navantia Advance Strategic Submarine Partnership with Ambition to Establish Joint Collaboration Framework by Year-End",
+      "[USNI News] U.S. Navy Orders Low-cost Missiles to Expand Fleet, Allied Long-Range Maritime Strike Capabilities"
     ]
   },
   "ground_intel": {
@@ -951,12 +941,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-07-27T19:05:16.478614+00:00",
+    "last_successful_update": "2026-07-27T20:57:46.436690+00:00",
     "article_count": 50,
-    "categorized_count": 21,
-    "freshest_source": "Naval News",
-    "freshest_title": "Naval Group Offers Latest MP-OPV Design for Lithuanian Navy",
-    "freshest_published": "Fri, 24 Jul 2026 08:38:01 +0000"
+    "categorized_count": 19,
+    "freshest_source": "Defense News",
+    "freshest_title": "Indonesia orders Leonardo light fighters, eyes naval helicopters",
+    "freshest_published": "Fri, 24 Jul 2026 09:35:20 +0000"
   },
   "_firms_hotspots": []
 }
