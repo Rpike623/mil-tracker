@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-07-27T12:46:52Z",
-  "version": 2208,
+  "generated_utc": "2026-07-27T15:34:08Z",
+  "version": 2209,
   "breaking_alert": "Naval News: Naval Group Offers Latest MP-OPV Design for Lithuanian Navy",
   "naval_deployments": [
     {
@@ -669,20 +669,19 @@
       ]
     },
     {
-      "title": "Iran says Ukrainian attack on vessel in Caspian Sea killed sailor",
-      "link": "https://www.defensenews.com/global/mideast-africa/2026/07/26/iran-says-ukrainian-attack-on-vessel-in-caspian-sea-killed-sailor/",
-      "published": "Sun, 26 Jul 2026 13:20:08 +0000",
-      "source": "Defense News",
+      "title": "George Washington CSG in the South China Sea After Philippine-Chinese Clashes",
+      "link": "https://news.usni.org/2026/07/27/george-washington-csg-in-the-south-china-sea-after-philippine-chinese-clashes",
+      "published": "Mon, 27 Jul 2026 15:10:24 +0000",
+      "source": "USNI News",
       "categories": [
-        "deployment",
-        "conflict"
+        "deployment"
       ]
     },
     {
       "title": "Iran says Ukrainian attack on vessel in Caspian Sea killed sailor",
-      "link": "https://www.militarytimes.com/global/mideast-africa/2026/07/26/iran-says-ukrainian-attack-on-vessel-in-caspian-sea-killed-sailor/",
+      "link": "https://www.defensenews.com/global/mideast-africa/2026/07/26/iran-says-ukrainian-attack-on-vessel-in-caspian-sea-killed-sailor/",
       "published": "Sun, 26 Jul 2026 13:20:08 +0000",
-      "source": "Military Times",
+      "source": "Defense News",
       "categories": [
         "deployment",
         "conflict"
@@ -879,12 +878,11 @@
       ]
     },
     {
-      "title": "Iran says Ukrainian attack on vessel in Caspian Sea killed sailor",
-      "link": "https://www.defensenews.com/global/mideast-africa/2026/07/26/iran-says-ukrainian-attack-on-vessel-in-caspian-sea-killed-sailor/",
-      "published": "Sun, 26 Jul 2026 13:20:08 +0000",
-      "source": "Defense News",
+      "title": "Inside Ukraine’s Long-Range Strike Campaign with the AGM-188A Rusty Dagger",
+      "link": "https://www.navalnews.com/naval-news/2026/07/inside-ukraines-long-range-strike-campaign-with-the-agm-188a-rusty-dagger/",
+      "published": "Mon, 27 Jul 2026 12:58:49 +0000",
+      "source": "Naval News",
       "categories": [
-        "deployment",
         "conflict"
       ]
     }
@@ -910,6 +908,16 @@
       ]
     },
     {
+      "title": "U.K., Spanish Navy Forces Wrap NATO’s Latest Neptune Strike Exercise",
+      "link": "https://news.usni.org/2026/07/27/u-k-spanish-navy-forces-wrap-natos-latest-neptune-strike-exercise",
+      "published": "Mon, 27 Jul 2026 14:24:48 +0000",
+      "source": "USNI News",
+      "categories": [
+        "exercise",
+        "conflict"
+      ]
+    },
+    {
       "title": "VIDEO: Decommissioned USS Mobile Bay, USS Peleliu Sunk in RIMPAC Drills",
       "link": "https://news.usni.org/2026/07/23/video-decommissioned-uss-mobile-bay-uss-peleliu-sunk-in-rimpac-drills",
       "published": "Thu, 23 Jul 2026 18:11:09 +0000",
@@ -918,25 +926,15 @@
         "deployment",
         "exercise"
       ]
-    },
-    {
-      "title": "U.S. Army Deploys Hypersonic Missiles in Range of China During Exercise",
-      "link": "https://news.usni.org/2026/07/22/u-s-army-deploys-hypersonic-missiles-in-range-of-china-during-exercise",
-      "published": "Wed, 22 Jul 2026 18:22:28 +0000",
-      "source": "USNI News",
-      "categories": [
-        "exercise",
-        "conflict"
-      ]
     }
   ],
   "_threat_indicators": {
     "deployment_articles": 17,
-    "conflict_articles": 7,
+    "conflict_articles": 8,
     "exercise_articles": 4,
     "total_articles": 50,
-    "computed_at": "2026-07-27T12:46:31.977614+00:00",
-    "manual_override": "DEFCON_3",
+    "computed_at": "2026-07-27T15:33:40.442010+00:00",
+    "manual_override": "DEFCON_2",
     "breaking_events": [
       "[Naval News] Naval Group Offers Latest MP-OPV Design for Lithuanian Navy",
       "[Defense News] Indonesia orders Leonardo light fighters, eyes naval helicopters",
@@ -953,9 +951,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-07-27T12:46:31.977662+00:00",
+    "last_successful_update": "2026-07-27T15:33:40.442053+00:00",
     "article_count": 50,
-    "categorized_count": 21,
+    "categorized_count": 22,
     "freshest_source": "Naval News",
     "freshest_title": "Naval Group Offers Latest MP-OPV Design for Lithuanian Navy",
     "freshest_published": "Fri, 24 Jul 2026 08:38:01 +0000"
