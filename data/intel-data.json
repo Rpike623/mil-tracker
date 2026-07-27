@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-07-27T05:39:28Z",
-  "version": 2206,
+  "generated_utc": "2026-07-27T09:20:12Z",
+  "version": 2207,
   "breaking_alert": "Naval News: Naval Group Offers Latest MP-OPV Design for Lithuanian Navy",
   "naval_deployments": [
     {
@@ -870,20 +870,19 @@
       ]
     },
     {
-      "title": "Iran says Ukrainian attack on vessel in Caspian Sea killed sailor",
-      "link": "https://www.defensenews.com/global/mideast-africa/2026/07/26/iran-says-ukrainian-attack-on-vessel-in-caspian-sea-killed-sailor/",
-      "published": "Sun, 26 Jul 2026 13:20:08 +0000",
-      "source": "Defense News",
+      "title": "LIG D&A Begins Assembly of Prototype KSAM-II Missiles for ROK Navy",
+      "link": "https://www.navalnews.com/naval-news/2026/07/lig-da-begins-assembly-prototype-ksam-ii-missile-rok-navy/",
+      "published": "Mon, 27 Jul 2026 08:33:25 +0000",
+      "source": "Naval News",
       "categories": [
-        "deployment",
         "conflict"
       ]
     },
     {
       "title": "Iran says Ukrainian attack on vessel in Caspian Sea killed sailor",
-      "link": "https://www.militarytimes.com/global/mideast-africa/2026/07/26/iran-says-ukrainian-attack-on-vessel-in-caspian-sea-killed-sailor/",
+      "link": "https://www.defensenews.com/global/mideast-africa/2026/07/26/iran-says-ukrainian-attack-on-vessel-in-caspian-sea-killed-sailor/",
       "published": "Sun, 26 Jul 2026 13:20:08 +0000",
-      "source": "Military Times",
+      "source": "Defense News",
       "categories": [
         "deployment",
         "conflict"
@@ -933,10 +932,10 @@
   ],
   "_threat_indicators": {
     "deployment_articles": 19,
-    "conflict_articles": 6,
+    "conflict_articles": 7,
     "exercise_articles": 4,
     "total_articles": 50,
-    "computed_at": "2026-07-27T05:34:47.702164+00:00",
+    "computed_at": "2026-07-27T09:19:53.870089+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] Naval Group Offers Latest MP-OPV Design for Lithuanian Navy",
@@ -954,9 +953,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-07-27T05:34:47.702205+00:00",
+    "last_successful_update": "2026-07-27T09:19:53.870133+00:00",
     "article_count": 50,
-    "categorized_count": 22,
+    "categorized_count": 23,
     "freshest_source": "Naval News",
     "freshest_title": "Naval Group Offers Latest MP-OPV Design for Lithuanian Navy",
     "freshest_published": "Fri, 24 Jul 2026 08:38:01 +0000"
