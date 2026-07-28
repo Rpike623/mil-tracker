@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-07-28T19:02:03Z",
-  "version": 2222,
+  "generated_utc": "2026-07-28T20:54:40Z",
+  "version": 2223,
   "breaking_alert": "Naval News: Ultra Maritime, Anduril Track UUV Threats at US Navy Lanternfish Exercise",
   "naval_deployments": [
     {
@@ -650,16 +650,6 @@
       ]
     },
     {
-      "title": "USS George Washington operating in South China Sea as China-Philippines tension escalates",
-      "link": "https://www.militarytimes.com/news/your-navy/2026/07/27/uss-george-washington-operating-in-south-china-sea-as-china-philippines-tension-escalates/",
-      "published": "Mon, 27 Jul 2026 21:34:36 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
       "title": "Iran says Ukrainian attack on vessel in Caspian Sea killed sailor",
       "link": "https://www.defensenews.com/global/mideast-africa/2026/07/26/iran-says-ukrainian-attack-on-vessel-in-caspian-sea-killed-sailor/",
       "published": "Sun, 26 Jul 2026 13:20:08 +0000",
@@ -683,6 +673,15 @@
       "link": "https://www.navalnews.com/naval-news/2026/07/poland-a26-submarine-deal-weapons-interim-boat-schedule/",
       "published": "Tue, 28 Jul 2026 08:33:17 +0000",
       "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "How ‘Wild Weasel’ missions became essential in the fight with Iran",
+      "link": "https://taskandpurpose.com/news/air-force-wild-weasel-iran/",
+      "published": "Tue, 28 Jul 2026 10:14:29 -0400",
+      "source": "Task & Purpose",
       "categories": [
         "deployment"
       ]
@@ -911,11 +910,11 @@
   ],
   "_threat_indicators": {
     "deployment_articles": 12,
-    "conflict_articles": 8,
+    "conflict_articles": 7,
     "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-07-28T19:00:36.066668+00:00",
-    "manual_override": "DEFCON_2",
+    "computed_at": "2026-07-28T20:54:37.646878+00:00",
+    "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] Ultra Maritime, Anduril Track UUV Threats at US Navy Lanternfish Exercise",
       "[Naval News] TKMS and Navantia Advance Strategic Submarine Partnership with Ambition to Establish Joint Collaboration Framework by Year-End",
@@ -932,7 +931,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-07-28T19:00:36.066711+00:00",
+    "last_successful_update": "2026-07-28T20:54:37.646920+00:00",
     "article_count": 50,
     "categorized_count": 17,
     "freshest_source": "Naval News",
