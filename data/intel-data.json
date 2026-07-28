@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-07-28T12:27:58Z",
-  "version": 2219,
+  "generated_utc": "2026-07-28T15:12:47Z",
+  "version": 2220,
   "breaking_alert": "Naval News: Ultra Maritime, Anduril Track UUV Threats at US Navy Lanternfish Exercise",
   "naval_deployments": [
     {
@@ -921,11 +921,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 13,
+    "deployment_articles": 14,
     "conflict_articles": 9,
     "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-07-28T12:27:42.406710+00:00",
+    "computed_at": "2026-07-28T15:08:06.271703+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[Naval News] Ultra Maritime, Anduril Track UUV Threats at US Navy Lanternfish Exercise",
@@ -943,9 +943,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-07-28T12:27:42.406757+00:00",
+    "last_successful_update": "2026-07-28T15:08:06.271747+00:00",
     "article_count": 50,
-    "categorized_count": 19,
+    "categorized_count": 20,
     "freshest_source": "Naval News",
     "freshest_title": "Ultra Maritime, Anduril Track UUV Threats at US Navy Lanternfish Exercise",
     "freshest_published": "Fri, 24 Jul 2026 13:08:52 +0000"
