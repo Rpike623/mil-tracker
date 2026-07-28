@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-07-28T15:12:47Z",
-  "version": 2220,
+  "generated_utc": "2026-07-28T17:14:34Z",
+  "version": 2221,
   "breaking_alert": "Naval News: Ultra Maritime, Anduril Track UUV Threats at US Navy Lanternfish Exercise",
   "naval_deployments": [
     {
@@ -641,16 +641,6 @@
       ]
     },
     {
-      "title": "Pentagon moves recent KIA numbers from Iran war into ‘Overseas Operations’ category",
-      "link": "https://www.militarytimes.com/news/your-military/2026/07/27/pentagon-moves-recent-kia-numbers-from-iran-war-into-overseas-operations-category/",
-      "published": "Mon, 27 Jul 2026 16:53:41 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment",
-        "exercise"
-      ]
-    },
-    {
       "title": "USNI News Fleet and Marine Tracker: July 27, 2026",
       "link": "https://news.usni.org/2026/07/27/usni-news-fleet-and-marine-tracker-july-27-2026",
       "published": "Mon, 27 Jul 2026 17:16:06 +0000",
@@ -686,6 +676,15 @@
       "categories": [
         "deployment",
         "conflict"
+      ]
+    },
+    {
+      "title": "Pentagon reveals hundreds of new Iran war casualties",
+      "link": "https://taskandpurpose.com/news/iran-war-us-troops-casualty-numbers/",
+      "published": "Sun, 26 Jul 2026 19:35:54 -0400",
+      "source": "Task & Purpose",
+      "categories": [
+        "deployment"
       ]
     }
   ],
@@ -908,24 +907,14 @@
         "exercise",
         "conflict"
       ]
-    },
-    {
-      "title": "Pentagon moves recent KIA numbers from Iran war into ‘Overseas Operations’ category",
-      "link": "https://www.militarytimes.com/news/your-military/2026/07/27/pentagon-moves-recent-kia-numbers-from-iran-war-into-overseas-operations-category/",
-      "published": "Mon, 27 Jul 2026 16:53:41 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment",
-        "exercise"
-      ]
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 14,
+    "deployment_articles": 13,
     "conflict_articles": 9,
-    "exercise_articles": 3,
+    "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-07-28T15:08:06.271703+00:00",
+    "computed_at": "2026-07-28T17:14:27.737080+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[Naval News] Ultra Maritime, Anduril Track UUV Threats at US Navy Lanternfish Exercise",
@@ -943,9 +932,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-07-28T15:08:06.271747+00:00",
+    "last_successful_update": "2026-07-28T17:14:27.737144+00:00",
     "article_count": 50,
-    "categorized_count": 20,
+    "categorized_count": 19,
     "freshest_source": "Naval News",
     "freshest_title": "Ultra Maritime, Anduril Track UUV Threats at US Navy Lanternfish Exercise",
     "freshest_published": "Fri, 24 Jul 2026 13:08:52 +0000"
