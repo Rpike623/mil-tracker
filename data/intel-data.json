@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-07-29T15:02:23Z",
-  "version": 2232,
-  "breaking_alert": "USNI News: Hormuz Transits Remain Low, Houthis Resume Attacks in Red Sea",
+  "generated_utc": "2026-07-29T17:01:29Z",
+  "version": 2233,
+  "breaking_alert": "Naval News: LIG D&A Begins Assembly of Prototype KSAM-II Missiles for ROK Navy",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -594,16 +594,6 @@
   ],
   "_naval_news_refs": [
     {
-      "title": "Hormuz Transits Remain Low, Houthis Resume Attacks in Red Sea",
-      "link": "https://news.usni.org/2026/07/24/hormuz-transits-remain-low-houthis-resume-attacks-in-red-sea",
-      "published": "Fri, 24 Jul 2026 21:34:36 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
       "title": "George Washington CSG in the South China Sea After Philippine-Chinese Clashes",
       "link": "https://news.usni.org/2026/07/27/george-washington-csg-in-the-south-china-sea-after-philippine-chinese-clashes",
       "published": "Mon, 27 Jul 2026 15:10:24 +0000",
@@ -658,15 +648,6 @@
       ]
     },
     {
-      "title": "Job search ‘coaches’ gear up to help transitioning troops meet AI challenge",
-      "link": "https://www.militarytimes.com/veterans/2026/07/28/job-search-coaches-gear-up-to-help-transitioning-troops-meet-ai-challenge/",
-      "published": "Tue, 28 Jul 2026 19:28:15 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Final Bill for Inactivating, Scrapping Carrier Enterprise Now at $1.3B",
       "link": "https://news.usni.org/2026/07/28/final-bill-for-inactivating-scrapping-carrier-enterprise-now-at-1-3b",
       "published": "Tue, 28 Jul 2026 21:25:27 +0000",
@@ -680,6 +661,24 @@
       "link": "https://www.defensenews.com/global/europe/2026/07/29/trump-zelenskyy-discuss-patriot-deal-and-reviving-talks-with-russia/",
       "published": "Wed, 29 Jul 2026 10:36:26 +0000",
       "source": "Defense News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "House-passed defense bill includes controversial US-Israel tech measure",
+      "link": "https://www.defensenews.com/news/pentagon-congress/2026/07/29/house-passed-defense-bill-includes-controversial-us-israel-tech-measure/",
+      "published": "Wed, 29 Jul 2026 12:00:00 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "House-passed defense bill includes controversial US-Israel tech measure",
+      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/07/29/house-passed-defense-bill-includes-controversial-us-israel-tech-measure/",
+      "published": "Wed, 29 Jul 2026 12:00:00 +0000",
+      "source": "Military Times",
       "categories": [
         "deployment"
       ]
@@ -837,16 +836,6 @@
   },
   "_conflict_news_refs": [
     {
-      "title": "Hormuz Transits Remain Low, Houthis Resume Attacks in Red Sea",
-      "link": "https://news.usni.org/2026/07/24/hormuz-transits-remain-low-houthis-resume-attacks-in-red-sea",
-      "published": "Fri, 24 Jul 2026 21:34:36 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
       "title": "LIG D&A Begins Assembly of Prototype KSAM-II Missiles for ROK Navy",
       "link": "https://www.navalnews.com/naval-news/2026/07/lig-da-begins-assembly-prototype-ksam-ii-missile-rok-navy/",
       "published": "Mon, 27 Jul 2026 08:33:25 +0000",
@@ -873,15 +862,6 @@
         "exercise",
         "conflict"
       ]
-    },
-    {
-      "title": "Pentagon calls for cheaper long-range strike weapons, with testing in just 3 months",
-      "link": "https://www.defensenews.com/news/2026/07/27/pentagon-calls-for-cheaper-long-range-strike-weapons-with-testing-in-just-3-months/",
-      "published": "Mon, 27 Jul 2026 18:55:04 +0000",
-      "source": "Defense News",
-      "categories": [
-        "conflict"
-      ]
     }
   ],
   "_exercise_news_refs": [
@@ -904,21 +884,48 @@
         "deployment",
         "exercise"
       ]
+    },
+    {
+      "title": "US Navy deploys GARC uncrewed surface vessel in first live-fire training exercise",
+      "link": "https://www.defensenews.com/news/your-military/2026/07/29/us-navy-deploys-garc-uncrewed-surface-vessel-in-first-live-fire-training-exercise/",
+      "published": "Wed, 29 Jul 2026 16:16:05 +0000",
+      "source": "Defense News",
+      "categories": [
+        "exercise"
+      ]
+    },
+    {
+      "title": "US Navy deploys GARC uncrewed surface vessel in first live-fire training exercise",
+      "link": "https://www.militarytimes.com/news/your-military/2026/07/29/us-navy-deploys-garc-uncrewed-surface-vessel-in-first-live-fire-training-exercise/",
+      "published": "Wed, 29 Jul 2026 16:16:05 +0000",
+      "source": "Military Times",
+      "categories": [
+        "exercise"
+      ]
+    },
+    {
+      "title": "U.S. Reveals Coast Guard Cooperation with Taiwan",
+      "link": "https://news.usni.org/2026/07/29/u-s-reveals-coast-guard-cooperation-with-taiwan",
+      "published": "Wed, 29 Jul 2026 16:30:40 +0000",
+      "source": "USNI News",
+      "categories": [
+        "exercise"
+      ]
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 14,
-    "conflict_articles": 5,
-    "exercise_articles": 2,
+    "deployment_articles": 13,
+    "conflict_articles": 3,
+    "exercise_articles": 5,
     "total_articles": 50,
-    "computed_at": "2026-07-29T15:01:34.898182+00:00",
+    "computed_at": "2026-07-29T17:00:23.954416+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
-      "[USNI News] Hormuz Transits Remain Low, Houthis Resume Attacks in Red Sea",
       "[Naval News] LIG D&A Begins Assembly of Prototype KSAM-II Missiles for ROK Navy",
       "[Naval News] Inside Ukraine’s Long-Range Strike Campaign with the AGM-188A Rusty Dagger",
       "[USNI News] U.K., Spanish Navy Forces Wrap NATO’s Latest Neptune Strike Exercise",
-      "[USNI News] George Washington CSG in the South China Sea After Philippine-Chinese Clashes"
+      "[USNI News] George Washington CSG in the South China Sea After Philippine-Chinese Clashes",
+      "[USNI News] USNI News Fleet and Marine Tracker: July 27, 2026"
     ]
   },
   "ground_intel": {
@@ -929,12 +936,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-07-29T15:01:34.898229+00:00",
+    "last_successful_update": "2026-07-29T17:00:23.954460+00:00",
     "article_count": 50,
-    "categorized_count": 18,
-    "freshest_source": "USNI News",
-    "freshest_title": "Hormuz Transits Remain Low, Houthis Resume Attacks in Red Sea",
-    "freshest_published": "Fri, 24 Jul 2026 21:34:36 +0000"
+    "categorized_count": 19,
+    "freshest_source": "Naval News",
+    "freshest_title": "LIG D&A Begins Assembly of Prototype KSAM-II Missiles for ROK Navy",
+    "freshest_published": "Mon, 27 Jul 2026 08:33:25 +0000"
   },
   "_firms_hotspots": []
 }
