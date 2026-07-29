@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-07-29T04:59:24Z",
-  "version": 2228,
-  "breaking_alert": "Naval News: Ultra Maritime, Anduril Track UUV Threats at US Navy Lanternfish Exercise",
+  "generated_utc": "2026-07-29T07:34:46Z",
+  "version": 2229,
+  "breaking_alert": "Naval News: TKMS and Navantia Advance Strategic Submarine Partnership with Ambition to Establish Joint Collaboration Framework by Year-End",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -887,15 +887,6 @@
   ],
   "_exercise_news_refs": [
     {
-      "title": "Ultra Maritime, Anduril Track UUV Threats at US Navy Lanternfish Exercise",
-      "link": "https://www.navalnews.com/naval-news/2026/07/ultra-maritime-anduril-track-uuv-threats-at-us-navy-lanternfish-exercise/",
-      "published": "Fri, 24 Jul 2026 13:08:52 +0000",
-      "source": "Naval News",
-      "categories": [
-        "exercise"
-      ]
-    },
-    {
       "title": "U.K., Spanish Navy Forces Wrap NATO’s Latest Neptune Strike Exercise",
       "link": "https://news.usni.org/2026/07/27/u-k-spanish-navy-forces-wrap-natos-latest-neptune-strike-exercise",
       "published": "Mon, 27 Jul 2026 14:24:48 +0000",
@@ -909,16 +900,16 @@
   "_threat_indicators": {
     "deployment_articles": 12,
     "conflict_articles": 6,
-    "exercise_articles": 2,
+    "exercise_articles": 1,
     "total_articles": 50,
-    "computed_at": "2026-07-29T04:54:43.295167+00:00",
+    "computed_at": "2026-07-29T07:34:40.168674+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
-      "[Naval News] Ultra Maritime, Anduril Track UUV Threats at US Navy Lanternfish Exercise",
       "[Naval News] TKMS and Navantia Advance Strategic Submarine Partnership with Ambition to Establish Joint Collaboration Framework by Year-End",
       "[USNI News] Hormuz Transits Remain Low, Houthis Resume Attacks in Red Sea",
       "[Naval News] LIG D&A Begins Assembly of Prototype KSAM-II Missiles for ROK Navy",
-      "[Naval News] Inside Ukraine’s Long-Range Strike Campaign with the AGM-188A Rusty Dagger"
+      "[Naval News] Inside Ukraine’s Long-Range Strike Campaign with the AGM-188A Rusty Dagger",
+      "[USNI News] U.K., Spanish Navy Forces Wrap NATO’s Latest Neptune Strike Exercise"
     ]
   },
   "ground_intel": {
@@ -929,12 +920,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-07-29T04:54:43.295202+00:00",
+    "last_successful_update": "2026-07-29T07:34:40.168716+00:00",
     "article_count": 50,
-    "categorized_count": 17,
+    "categorized_count": 16,
     "freshest_source": "Naval News",
-    "freshest_title": "Ultra Maritime, Anduril Track UUV Threats at US Navy Lanternfish Exercise",
-    "freshest_published": "Fri, 24 Jul 2026 13:08:52 +0000"
+    "freshest_title": "TKMS and Navantia Advance Strategic Submarine Partnership with Ambition to Establish Joint Collaboration Framework by Year-End",
+    "freshest_published": "Fri, 24 Jul 2026 14:00:39 +0000"
   },
   "_firms_hotspots": []
 }
