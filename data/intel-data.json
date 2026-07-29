@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-07-29T17:01:29Z",
-  "version": 2233,
+  "generated_utc": "2026-07-29T18:46:57Z",
+  "version": 2234,
   "breaking_alert": "Naval News: LIG D&A Begins Assembly of Prototype KSAM-II Missiles for ROK Navy",
   "naval_deployments": [
     {
@@ -675,10 +675,10 @@
       ]
     },
     {
-      "title": "House-passed defense bill includes controversial US-Israel tech measure",
-      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/07/29/house-passed-defense-bill-includes-controversial-us-israel-tech-measure/",
-      "published": "Wed, 29 Jul 2026 12:00:00 +0000",
-      "source": "Military Times",
+      "title": "Iraq once again becomes a battlefield in the Iran war",
+      "link": "https://taskandpurpose.com/news/military-iraq-iran-war/",
+      "published": "Wed, 29 Jul 2026 12:42:25 -0400",
+      "source": "Task & Purpose",
       "categories": [
         "deployment"
       ]
@@ -852,29 +852,9 @@
       "categories": [
         "conflict"
       ]
-    },
-    {
-      "title": "U.K., Spanish Navy Forces Wrap NATO’s Latest Neptune Strike Exercise",
-      "link": "https://news.usni.org/2026/07/27/u-k-spanish-navy-forces-wrap-natos-latest-neptune-strike-exercise",
-      "published": "Mon, 27 Jul 2026 14:24:48 +0000",
-      "source": "USNI News",
-      "categories": [
-        "exercise",
-        "conflict"
-      ]
     }
   ],
   "_exercise_news_refs": [
-    {
-      "title": "U.K., Spanish Navy Forces Wrap NATO’s Latest Neptune Strike Exercise",
-      "link": "https://news.usni.org/2026/07/27/u-k-spanish-navy-forces-wrap-natos-latest-neptune-strike-exercise",
-      "published": "Mon, 27 Jul 2026 14:24:48 +0000",
-      "source": "USNI News",
-      "categories": [
-        "exercise",
-        "conflict"
-      ]
-    },
     {
       "title": "Hanwha Ocean Advances Korea-U.S. Shipbuilding Cooperation Through Naval Vessel Development and Broader Industry Collaboration",
       "link": "https://www.navalnews.com/naval-news/2026/07/hanwha-ocean-advances-korea-u-s-shipbuilding-cooperation-through-naval-vessel-development-and-broader-industry-collaboration/",
@@ -915,17 +895,17 @@
   ],
   "_threat_indicators": {
     "deployment_articles": 13,
-    "conflict_articles": 3,
-    "exercise_articles": 5,
+    "conflict_articles": 2,
+    "exercise_articles": 4,
     "total_articles": 50,
-    "computed_at": "2026-07-29T17:00:23.954416+00:00",
+    "computed_at": "2026-07-29T18:46:51.116474+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] LIG D&A Begins Assembly of Prototype KSAM-II Missiles for ROK Navy",
       "[Naval News] Inside Ukraine’s Long-Range Strike Campaign with the AGM-188A Rusty Dagger",
-      "[USNI News] U.K., Spanish Navy Forces Wrap NATO’s Latest Neptune Strike Exercise",
       "[USNI News] George Washington CSG in the South China Sea After Philippine-Chinese Clashes",
-      "[USNI News] USNI News Fleet and Marine Tracker: July 27, 2026"
+      "[USNI News] USNI News Fleet and Marine Tracker: July 27, 2026",
+      "[Naval News] The Cairncross Dockyard Brisbane Project And Prospects For Australian Naval Infrastructure"
     ]
   },
   "ground_intel": {
@@ -936,9 +916,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-07-29T17:00:23.954460+00:00",
+    "last_successful_update": "2026-07-29T18:46:51.116517+00:00",
     "article_count": 50,
-    "categorized_count": 19,
+    "categorized_count": 18,
     "freshest_source": "Naval News",
     "freshest_title": "LIG D&A Begins Assembly of Prototype KSAM-II Missiles for ROK Navy",
     "freshest_published": "Mon, 27 Jul 2026 08:33:25 +0000"
