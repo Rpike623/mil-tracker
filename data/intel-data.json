@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-07-29T07:34:46Z",
-  "version": 2229,
+  "generated_utc": "2026-07-29T10:23:36Z",
+  "version": 2230,
   "breaking_alert": "Naval News: TKMS and Navantia Advance Strategic Submarine Partnership with Ambition to Establish Joint Collaboration Framework by Year-End",
   "naval_deployments": [
     {
@@ -902,7 +902,7 @@
     "conflict_articles": 6,
     "exercise_articles": 1,
     "total_articles": 50,
-    "computed_at": "2026-07-29T07:34:40.168674+00:00",
+    "computed_at": "2026-07-29T10:23:20.777808+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] TKMS and Navantia Advance Strategic Submarine Partnership with Ambition to Establish Joint Collaboration Framework by Year-End",
@@ -920,7 +920,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-07-29T07:34:40.168716+00:00",
+    "last_successful_update": "2026-07-29T10:23:20.777853+00:00",
     "article_count": 50,
     "categorized_count": 16,
     "freshest_source": "Naval News",
