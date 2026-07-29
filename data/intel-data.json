@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-07-29T10:23:36Z",
-  "version": 2230,
-  "breaking_alert": "Naval News: TKMS and Navantia Advance Strategic Submarine Partnership with Ambition to Establish Joint Collaboration Framework by Year-End",
+  "generated_utc": "2026-07-29T12:52:31Z",
+  "version": 2231,
+  "breaking_alert": "USNI News: Hormuz Transits Remain Low, Houthis Resume Attacks in Red Sea",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -594,15 +594,6 @@
   ],
   "_naval_news_refs": [
     {
-      "title": "TKMS and Navantia Advance Strategic Submarine Partnership with Ambition to Establish Joint Collaboration Framework by Year-End",
-      "link": "https://www.navalnews.com/naval-news/2026/07/tkms-and-navantia-advance-strategic-submarine-partnership-with-ambition-to-establish-joint-collaboration-framework-by-year-end/",
-      "published": "Fri, 24 Jul 2026 14:00:39 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Hormuz Transits Remain Low, Houthis Resume Attacks in Red Sea",
       "link": "https://news.usni.org/2026/07/24/hormuz-transits-remain-low-houthis-resume-attacks-in-red-sea",
       "published": "Fri, 24 Jul 2026 21:34:36 +0000",
@@ -640,16 +631,6 @@
       ]
     },
     {
-      "title": "Iran says Ukrainian attack on vessel in Caspian Sea killed sailor",
-      "link": "https://www.defensenews.com/global/mideast-africa/2026/07/26/iran-says-ukrainian-attack-on-vessel-in-caspian-sea-killed-sailor/",
-      "published": "Sun, 26 Jul 2026 13:20:08 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
       "title": "Pentagon reveals hundreds of new Iran war casualties",
       "link": "https://taskandpurpose.com/news/iran-war-us-troops-casualty-numbers/",
       "published": "Sun, 26 Jul 2026 19:35:54 -0400",
@@ -677,10 +658,28 @@
       ]
     },
     {
-      "title": "Shrapnel, broken bones and head trauma: New records show how US troops were wounded in Iran war",
-      "link": "https://www.militarytimes.com/news/your-military/2026/07/28/shrapnel-broken-bones-and-head-trauma-new-records-show-how-us-troops-were-wounded-in-iran-war/",
-      "published": "Tue, 28 Jul 2026 14:06:02 +0000",
+      "title": "Job search ‘coaches’ gear up to help transitioning troops meet AI challenge",
+      "link": "https://www.militarytimes.com/veterans/2026/07/28/job-search-coaches-gear-up-to-help-transitioning-troops-meet-ai-challenge/",
+      "published": "Tue, 28 Jul 2026 19:28:15 +0000",
       "source": "Military Times",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Final Bill for Inactivating, Scrapping Carrier Enterprise Now at $1.3B",
+      "link": "https://news.usni.org/2026/07/28/final-bill-for-inactivating-scrapping-carrier-enterprise-now-at-1-3b",
+      "published": "Tue, 28 Jul 2026 21:25:27 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Trump, Zelenskyy discuss Patriot deal and reviving talks with Russia",
+      "link": "https://www.defensenews.com/global/europe/2026/07/29/trump-zelenskyy-discuss-patriot-deal-and-reviving-talks-with-russia/",
+      "published": "Wed, 29 Jul 2026 10:36:26 +0000",
+      "source": "Defense News",
       "categories": [
         "deployment"
       ]
@@ -898,18 +897,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 12,
-    "conflict_articles": 6,
+    "deployment_articles": 13,
+    "conflict_articles": 5,
     "exercise_articles": 1,
     "total_articles": 50,
-    "computed_at": "2026-07-29T10:23:20.777808+00:00",
+    "computed_at": "2026-07-29T12:52:28.048296+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
-      "[Naval News] TKMS and Navantia Advance Strategic Submarine Partnership with Ambition to Establish Joint Collaboration Framework by Year-End",
       "[USNI News] Hormuz Transits Remain Low, Houthis Resume Attacks in Red Sea",
       "[Naval News] LIG D&A Begins Assembly of Prototype KSAM-II Missiles for ROK Navy",
       "[Naval News] Inside Ukraine’s Long-Range Strike Campaign with the AGM-188A Rusty Dagger",
-      "[USNI News] U.K., Spanish Navy Forces Wrap NATO’s Latest Neptune Strike Exercise"
+      "[USNI News] U.K., Spanish Navy Forces Wrap NATO’s Latest Neptune Strike Exercise",
+      "[USNI News] George Washington CSG in the South China Sea After Philippine-Chinese Clashes"
     ]
   },
   "ground_intel": {
@@ -920,12 +919,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-07-29T10:23:20.777853+00:00",
+    "last_successful_update": "2026-07-29T12:52:28.048346+00:00",
     "article_count": 50,
-    "categorized_count": 16,
-    "freshest_source": "Naval News",
-    "freshest_title": "TKMS and Navantia Advance Strategic Submarine Partnership with Ambition to Establish Joint Collaboration Framework by Year-End",
-    "freshest_published": "Fri, 24 Jul 2026 14:00:39 +0000"
+    "categorized_count": 17,
+    "freshest_source": "USNI News",
+    "freshest_title": "Hormuz Transits Remain Low, Houthis Resume Attacks in Red Sea",
+    "freshest_published": "Fri, 24 Jul 2026 21:34:36 +0000"
   },
   "_firms_hotspots": []
 }
