@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-07-29T18:46:57Z",
-  "version": 2234,
+  "generated_utc": "2026-07-29T20:05:03Z",
+  "version": 2235,
   "breaking_alert": "Naval News: LIG D&A Begins Assembly of Prototype KSAM-II Missiles for ROK Navy",
   "naval_deployments": [
     {
@@ -852,6 +852,24 @@
       "categories": [
         "conflict"
       ]
+    },
+    {
+      "title": "Pentagon puts out call for robot boats that launch attack drones",
+      "link": "https://www.defensenews.com/industry/techwatch/2026/07/29/pentagon-puts-out-call-for-robot-boats-that-launch-attack-drones/",
+      "published": "Wed, 29 Jul 2026 19:22:52 +0000",
+      "source": "Defense News",
+      "categories": [
+        "conflict"
+      ]
+    },
+    {
+      "title": "Pentagon puts out call for robot boats that launch attack drones",
+      "link": "https://www.militarytimes.com/industry/techwatch/2026/07/29/pentagon-puts-out-call-for-robot-boats-that-launch-attack-drones/",
+      "published": "Wed, 29 Jul 2026 19:22:52 +0000",
+      "source": "Military Times",
+      "categories": [
+        "conflict"
+      ]
     }
   ],
   "_exercise_news_refs": [
@@ -895,10 +913,10 @@
   ],
   "_threat_indicators": {
     "deployment_articles": 13,
-    "conflict_articles": 2,
+    "conflict_articles": 4,
     "exercise_articles": 4,
     "total_articles": 50,
-    "computed_at": "2026-07-29T18:46:51.116474+00:00",
+    "computed_at": "2026-07-29T20:04:49.718126+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] LIG D&A Begins Assembly of Prototype KSAM-II Missiles for ROK Navy",
@@ -916,9 +934,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-07-29T18:46:51.116517+00:00",
+    "last_successful_update": "2026-07-29T20:04:49.718170+00:00",
     "article_count": 50,
-    "categorized_count": 18,
+    "categorized_count": 20,
     "freshest_source": "Naval News",
     "freshest_title": "LIG D&A Begins Assembly of Prototype KSAM-II Missiles for ROK Navy",
     "freshest_published": "Mon, 27 Jul 2026 08:33:25 +0000"
