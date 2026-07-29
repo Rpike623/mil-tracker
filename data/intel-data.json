@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-07-29T12:52:31Z",
-  "version": 2231,
+  "generated_utc": "2026-07-29T15:02:23Z",
+  "version": 2232,
   "breaking_alert": "USNI News: Hormuz Transits Remain Low, Houthis Resume Attacks in Red Sea",
   "naval_deployments": [
     {
@@ -894,14 +894,24 @@
         "exercise",
         "conflict"
       ]
+    },
+    {
+      "title": "Hanwha Ocean Advances Korea-U.S. Shipbuilding Cooperation Through Naval Vessel Development and Broader Industry Collaboration",
+      "link": "https://www.navalnews.com/naval-news/2026/07/hanwha-ocean-advances-korea-u-s-shipbuilding-cooperation-through-naval-vessel-development-and-broader-industry-collaboration/",
+      "published": "Wed, 29 Jul 2026 14:00:00 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment",
+        "exercise"
+      ]
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 13,
+    "deployment_articles": 14,
     "conflict_articles": 5,
-    "exercise_articles": 1,
+    "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-07-29T12:52:28.048296+00:00",
+    "computed_at": "2026-07-29T15:01:34.898182+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[USNI News] Hormuz Transits Remain Low, Houthis Resume Attacks in Red Sea",
@@ -919,9 +929,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-07-29T12:52:28.048346+00:00",
+    "last_successful_update": "2026-07-29T15:01:34.898229+00:00",
     "article_count": 50,
-    "categorized_count": 17,
+    "categorized_count": 18,
     "freshest_source": "USNI News",
     "freshest_title": "Hormuz Transits Remain Low, Houthis Resume Attacks in Red Sea",
     "freshest_published": "Fri, 24 Jul 2026 21:34:36 +0000"
