@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-07-30T01:10:03Z",
-  "version": 2239,
+  "generated_utc": "2026-07-30T04:42:35Z",
+  "version": 2240,
   "breaking_alert": "Naval News: LIG D&A Begins Assembly of Prototype KSAM-II Missiles for ROK Navy",
   "naval_deployments": [
     {
@@ -621,6 +621,15 @@
       ]
     },
     {
+      "title": "Babcock eyes naval opportunities in Asia-Pacific market",
+      "link": "https://www.navalnews.com/interviews/2026/07/babcock-eyes-naval-opportunities-in-asia-pacific-market/",
+      "published": "Thu, 30 Jul 2026 04:25:00 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "Poland’s A26 Submarine Deal: Details on Weapons Package, Interim Boat, and Delivery Schedule",
       "link": "https://www.navalnews.com/naval-news/2026/07/poland-a26-submarine-deal-weapons-interim-boat-schedule/",
       "published": "Tue, 28 Jul 2026 08:33:17 +0000",
@@ -670,15 +679,6 @@
       "link": "https://taskandpurpose.com/news/military-iraq-iran-war/",
       "published": "Wed, 29 Jul 2026 12:42:25 -0400",
       "source": "Task & Purpose",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "A Global Milestone for Rafael: 1,000th TYPHOON System Delivered to the Israeli Navy",
-      "link": "https://www.navalnews.com/naval-news/2026/07/a-global-milestone-for-rafael-1000th-typhoon-system-delivered-to-the-israeli-navy/",
-      "published": "Wed, 29 Jul 2026 12:47:49 +0000",
-      "source": "Naval News",
       "categories": [
         "deployment"
       ]
@@ -912,11 +912,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 12,
+    "deployment_articles": 13,
     "conflict_articles": 4,
     "exercise_articles": 4,
     "total_articles": 50,
-    "computed_at": "2026-07-30T01:10:01.671735+00:00",
+    "computed_at": "2026-07-30T04:42:29.126912+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] LIG D&A Begins Assembly of Prototype KSAM-II Missiles for ROK Navy",
@@ -934,9 +934,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-07-30T01:10:01.671778+00:00",
+    "last_successful_update": "2026-07-30T04:42:29.126949+00:00",
     "article_count": 50,
-    "categorized_count": 19,
+    "categorized_count": 20,
     "freshest_source": "Naval News",
     "freshest_title": "LIG D&A Begins Assembly of Prototype KSAM-II Missiles for ROK Navy",
     "freshest_published": "Mon, 27 Jul 2026 08:33:25 +0000"
