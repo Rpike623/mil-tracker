@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-07-30T07:28:47Z",
-  "version": 2241,
-  "breaking_alert": "Naval News: Inside Ukraine’s Long-Range Strike Campaign with the AGM-188A Rusty Dagger",
+  "generated_utc": "2026-07-30T10:07:27Z",
+  "version": 2242,
+  "breaking_alert": "USNI News: USNI News Fleet and Marine Tracker: July 27, 2026",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -836,15 +836,6 @@
   },
   "_conflict_news_refs": [
     {
-      "title": "Inside Ukraine’s Long-Range Strike Campaign with the AGM-188A Rusty Dagger",
-      "link": "https://www.navalnews.com/naval-news/2026/07/inside-ukraines-long-range-strike-campaign-with-the-agm-188a-rusty-dagger/",
-      "published": "Mon, 27 Jul 2026 12:58:49 +0000",
-      "source": "Naval News",
-      "categories": [
-        "conflict"
-      ]
-    },
-    {
       "title": "Pentagon puts out call for robot boats that launch attack drones",
       "link": "https://www.defensenews.com/industry/techwatch/2026/07/29/pentagon-puts-out-call-for-robot-boats-that-launch-attack-drones/",
       "published": "Wed, 29 Jul 2026 19:22:52 +0000",
@@ -904,17 +895,17 @@
   ],
   "_threat_indicators": {
     "deployment_articles": 13,
-    "conflict_articles": 3,
+    "conflict_articles": 2,
     "exercise_articles": 4,
     "total_articles": 50,
-    "computed_at": "2026-07-30T07:24:06.699713+00:00",
+    "computed_at": "2026-07-30T10:07:24.854554+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
-      "[Naval News] Inside Ukraine’s Long-Range Strike Campaign with the AGM-188A Rusty Dagger",
       "[USNI News] USNI News Fleet and Marine Tracker: July 27, 2026",
       "[Naval News] The Cairncross Dockyard Brisbane Project And Prospects For Australian Naval Infrastructure",
       "[Task & Purpose] Pentagon reveals hundreds of new Iran war casualties",
-      "[Naval News] Babcock eyes naval opportunities in Asia-Pacific market"
+      "[Naval News] Babcock eyes naval opportunities in Asia-Pacific market",
+      "[Naval News] Poland’s A26 Submarine Deal: Details on Weapons Package, Interim Boat, and Delivery Schedule"
     ]
   },
   "ground_intel": {
@@ -925,12 +916,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-07-30T07:24:06.699756+00:00",
+    "last_successful_update": "2026-07-30T10:07:24.854597+00:00",
     "article_count": 50,
-    "categorized_count": 19,
-    "freshest_source": "Naval News",
-    "freshest_title": "Inside Ukraine’s Long-Range Strike Campaign with the AGM-188A Rusty Dagger",
-    "freshest_published": "Mon, 27 Jul 2026 12:58:49 +0000"
+    "categorized_count": 18,
+    "freshest_source": "USNI News",
+    "freshest_title": "USNI News Fleet and Marine Tracker: July 27, 2026",
+    "freshest_published": "Mon, 27 Jul 2026 17:16:06 +0000"
   },
   "_firms_hotspots": []
 }
