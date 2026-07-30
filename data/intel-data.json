@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-07-30T20:09:02Z",
-  "version": 2247,
+  "generated_utc": "2026-07-30T21:54:55Z",
+  "version": 2248,
   "breaking_alert": "Naval News: Babcock eyes naval opportunities in Asia-Pacific market",
   "naval_deployments": [
     {
@@ -640,16 +640,6 @@
       ]
     },
     {
-      "title": "Iran to get Chinese shoulder-launched missile systems in weeks, sources say",
-      "link": "https://www.militarytimes.com/industry/techwatch/2026/07/30/iran-to-get-chinese-shoulder-launched-missile-systems-in-weeks-sources-say/",
-      "published": "Thu, 30 Jul 2026 15:33:20 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
       "title": "USS George Washington arrives in Vietnam amid China-Philippines strain",
       "link": "https://www.militarytimes.com/news/your-navy/2026/07/30/uss-george-washington-arrives-in-vietnam-amid-china-philippines-strain/",
       "published": "Thu, 30 Jul 2026 16:04:31 +0000",
@@ -683,6 +673,15 @@
       "link": "https://news.usni.org/2026/07/30/japanese-destroyer-launches-tomahawk-for-the-first-time-in-drill-with-u-s-navy",
       "published": "Thu, 30 Jul 2026 19:03:26 +0000",
       "source": "USNI News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Navy awards $76.6 billion for Virginia, Columbia-class submarines",
+      "link": "https://www.defensenews.com/industry/techwatch/2026/07/30/navy-awards-766-billion-for-virginia-columbia-class-submarines/",
+      "published": "Thu, 30 Jul 2026 19:19:29 +0000",
+      "source": "Defense News",
       "categories": [
         "deployment"
       ]
@@ -868,10 +867,10 @@
       ]
     },
     {
-      "title": "Iran to get Chinese shoulder-launched missile systems in weeks, sources say",
-      "link": "https://www.militarytimes.com/industry/techwatch/2026/07/30/iran-to-get-chinese-shoulder-launched-missile-systems-in-weeks-sources-say/",
-      "published": "Thu, 30 Jul 2026 15:33:20 +0000",
-      "source": "Military Times",
+      "title": "Iran war depleted US Patriot missile stockpiles, creating readiness challenges, experts say",
+      "link": "https://www.defensenews.com/news/your-military/2026/07/30/iran-war-depleted-us-patriot-missile-stockpiles-creating-readiness-challenges-experts-say/",
+      "published": "Thu, 30 Jul 2026 17:48:44 +0000",
+      "source": "Defense News",
       "categories": [
         "deployment",
         "conflict"
@@ -879,9 +878,9 @@
     },
     {
       "title": "Iran war depleted US Patriot missile stockpiles, creating readiness challenges, experts say",
-      "link": "https://www.defensenews.com/news/your-military/2026/07/30/iran-war-depleted-us-patriot-missile-stockpiles-creating-readiness-challenges-experts-say/",
+      "link": "https://www.militarytimes.com/news/your-military/2026/07/30/iran-war-depleted-us-patriot-missile-stockpiles-creating-readiness-challenges-experts-say/",
       "published": "Thu, 30 Jul 2026 17:48:44 +0000",
-      "source": "Defense News",
+      "source": "Military Times",
       "categories": [
         "deployment",
         "conflict"
@@ -900,15 +899,6 @@
       ]
     },
     {
-      "title": "US Navy deploys GARC uncrewed surface vessel in first live-fire training exercise",
-      "link": "https://www.defensenews.com/news/your-military/2026/07/29/us-navy-deploys-garc-uncrewed-surface-vessel-in-first-live-fire-training-exercise/",
-      "published": "Wed, 29 Jul 2026 16:16:05 +0000",
-      "source": "Defense News",
-      "categories": [
-        "exercise"
-      ]
-    },
-    {
       "title": "U.S. Reveals Coast Guard Cooperation with Taiwan",
       "link": "https://news.usni.org/2026/07/29/u-s-reveals-coast-guard-cooperation-with-taiwan",
       "published": "Wed, 29 Jul 2026 16:30:40 +0000",
@@ -919,11 +909,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 21,
+    "deployment_articles": 19,
     "conflict_articles": 7,
-    "exercise_articles": 3,
+    "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-07-30T20:08:55.586746+00:00",
+    "computed_at": "2026-07-30T21:54:52.291676+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] Babcock eyes naval opportunities in Asia-Pacific market",
@@ -941,9 +931,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-07-30T20:08:55.586788+00:00",
+    "last_successful_update": "2026-07-30T21:54:52.291716+00:00",
     "article_count": 50,
-    "categorized_count": 26,
+    "categorized_count": 24,
     "freshest_source": "Naval News",
     "freshest_title": "Babcock eyes naval opportunities in Asia-Pacific market",
     "freshest_published": "Thu, 30 Jul 2026 04:25:00 +0000"
