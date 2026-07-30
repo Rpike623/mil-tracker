@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-07-30T21:54:55Z",
-  "version": 2248,
+  "generated_utc": "2026-07-30T22:53:32Z",
+  "version": 2249,
   "breaking_alert": "Naval News: Babcock eyes naval opportunities in Asia-Pacific market",
   "naval_deployments": [
     {
@@ -640,15 +640,6 @@
       ]
     },
     {
-      "title": "USS George Washington arrives in Vietnam amid China-Philippines strain",
-      "link": "https://www.militarytimes.com/news/your-navy/2026/07/30/uss-george-washington-arrives-in-vietnam-amid-china-philippines-strain/",
-      "published": "Thu, 30 Jul 2026 16:04:31 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Iran war depleted US Patriot missile stockpiles, creating readiness challenges, experts say",
       "link": "https://www.defensenews.com/news/your-military/2026/07/30/iran-war-depleted-us-patriot-missile-stockpiles-creating-readiness-challenges-experts-say/",
       "published": "Thu, 30 Jul 2026 17:48:44 +0000",
@@ -682,6 +673,15 @@
       "link": "https://www.defensenews.com/industry/techwatch/2026/07/30/navy-awards-766-billion-for-virginia-columbia-class-submarines/",
       "published": "Thu, 30 Jul 2026 19:19:29 +0000",
       "source": "Defense News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Navy awards $76.6 billion for Virginia, Columbia-class submarines",
+      "link": "https://www.militarytimes.com/industry/techwatch/2026/07/30/navy-awards-766-billion-for-virginia-columbia-class-submarines/",
+      "published": "Thu, 30 Jul 2026 19:19:29 +0000",
+      "source": "Military Times",
       "categories": [
         "deployment"
       ]
@@ -889,6 +889,16 @@
   ],
   "_exercise_news_refs": [
     {
+      "title": "Review: New wargame captures uncertainty of the American Revolution",
+      "link": "https://www.militarytimes.com/veterans/military-history/2026/07/30/review-new-wargame-captures-uncertainty-of-the-american-revolution/",
+      "published": "Thu, 30 Jul 2026 22:00:00 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment",
+        "exercise"
+      ]
+    },
+    {
       "title": "Hanwha Ocean Advances Korea-U.S. Shipbuilding Cooperation Through Naval Vessel Development and Broader Industry Collaboration",
       "link": "https://www.navalnews.com/naval-news/2026/07/hanwha-ocean-advances-korea-u-s-shipbuilding-cooperation-through-naval-vessel-development-and-broader-industry-collaboration/",
       "published": "Wed, 29 Jul 2026 14:00:00 +0000",
@@ -911,9 +921,9 @@
   "_threat_indicators": {
     "deployment_articles": 19,
     "conflict_articles": 7,
-    "exercise_articles": 2,
+    "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-07-30T21:54:52.291676+00:00",
+    "computed_at": "2026-07-30T22:53:26.364297+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] Babcock eyes naval opportunities in Asia-Pacific market",
@@ -931,7 +941,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-07-30T21:54:52.291716+00:00",
+    "last_successful_update": "2026-07-30T22:53:26.364339+00:00",
     "article_count": 50,
     "categorized_count": 24,
     "freshest_source": "Naval News",
