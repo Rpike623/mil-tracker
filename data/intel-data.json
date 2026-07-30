@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-07-30T10:07:27Z",
-  "version": 2242,
-  "breaking_alert": "USNI News: USNI News Fleet and Marine Tracker: July 27, 2026",
+  "generated_utc": "2026-07-30T12:20:13Z",
+  "version": 2243,
+  "breaking_alert": "Task & Purpose: Pentagon reveals hundreds of new Iran war casualties",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -594,24 +594,6 @@
   ],
   "_naval_news_refs": [
     {
-      "title": "USNI News Fleet and Marine Tracker: July 27, 2026",
-      "link": "https://news.usni.org/2026/07/27/usni-news-fleet-and-marine-tracker-july-27-2026",
-      "published": "Mon, 27 Jul 2026 17:16:06 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "The Cairncross Dockyard Brisbane Project And Prospects For Australian Naval Infrastructure",
-      "link": "https://www.navalnews.com/naval-news/2026/07/the-cairncross-dockyard-brisbane-project-and-prospects-for-australian-naval-infrastructure/",
-      "published": "Mon, 27 Jul 2026 20:22:48 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Pentagon reveals hundreds of new Iran war casualties",
       "link": "https://taskandpurpose.com/news/iran-war-us-troops-casualty-numbers/",
       "published": "Sun, 26 Jul 2026 19:35:54 -0400",
@@ -625,6 +607,15 @@
       "link": "https://www.navalnews.com/interviews/2026/07/babcock-eyes-naval-opportunities-in-asia-pacific-market/",
       "published": "Thu, 30 Jul 2026 04:25:00 +0000",
       "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "USS George Washington Arrives in Da Nang, First Carrier Visit to Vietnam since 2023",
+      "link": "https://news.usni.org/2026/07/30/uss-george-washington-arrives-in-da-nang-first-carrier-visit-to-vietnam-since-2023",
+      "published": "Thu, 30 Jul 2026 10:51:52 +0000",
+      "source": "USNI News",
       "categories": [
         "deployment"
       ]
@@ -679,6 +670,15 @@
       "link": "https://taskandpurpose.com/news/military-iraq-iran-war/",
       "published": "Wed, 29 Jul 2026 12:42:25 -0400",
       "source": "Task & Purpose",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "A Global Milestone for Rafael: 1,000th TYPHOON System Delivered to the Israeli Navy",
+      "link": "https://www.navalnews.com/naval-news/2026/07/a-global-milestone-for-rafael-1000th-typhoon-system-delivered-to-the-israeli-navy/",
+      "published": "Wed, 29 Jul 2026 12:47:49 +0000",
+      "source": "Naval News",
       "categories": [
         "deployment"
       ]
@@ -894,18 +894,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 13,
+    "deployment_articles": 12,
     "conflict_articles": 2,
     "exercise_articles": 4,
     "total_articles": 50,
-    "computed_at": "2026-07-30T10:07:24.854554+00:00",
+    "computed_at": "2026-07-30T12:19:59.438440+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
-      "[USNI News] USNI News Fleet and Marine Tracker: July 27, 2026",
-      "[Naval News] The Cairncross Dockyard Brisbane Project And Prospects For Australian Naval Infrastructure",
       "[Task & Purpose] Pentagon reveals hundreds of new Iran war casualties",
       "[Naval News] Babcock eyes naval opportunities in Asia-Pacific market",
-      "[Naval News] Poland’s A26 Submarine Deal: Details on Weapons Package, Interim Boat, and Delivery Schedule"
+      "[USNI News] USS George Washington Arrives in Da Nang, First Carrier Visit to Vietnam since 2023",
+      "[Naval News] Poland’s A26 Submarine Deal: Details on Weapons Package, Interim Boat, and Delivery Schedule",
+      "[Task & Purpose] How ‘Wild Weasel’ missions became essential in the fight with Iran"
     ]
   },
   "ground_intel": {
@@ -916,12 +916,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-07-30T10:07:24.854597+00:00",
+    "last_successful_update": "2026-07-30T12:19:59.438490+00:00",
     "article_count": 50,
-    "categorized_count": 18,
-    "freshest_source": "USNI News",
-    "freshest_title": "USNI News Fleet and Marine Tracker: July 27, 2026",
-    "freshest_published": "Mon, 27 Jul 2026 17:16:06 +0000"
+    "categorized_count": 17,
+    "freshest_source": "Task & Purpose",
+    "freshest_title": "Pentagon reveals hundreds of new Iran war casualties",
+    "freshest_published": "Sun, 26 Jul 2026 19:35:54 -0400"
   },
   "_firms_hotspots": []
 }
