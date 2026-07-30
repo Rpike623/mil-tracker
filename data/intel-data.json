@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-07-30T15:02:52Z",
-  "version": 2244,
-  "breaking_alert": "Task & Purpose: Pentagon reveals hundreds of new Iran war casualties",
+  "generated_utc": "2026-07-30T16:22:42Z",
+  "version": 2245,
+  "breaking_alert": "Naval News: Babcock eyes naval opportunities in Asia-Pacific market",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -594,15 +594,6 @@
   ],
   "_naval_news_refs": [
     {
-      "title": "Pentagon reveals hundreds of new Iran war casualties",
-      "link": "https://taskandpurpose.com/news/iran-war-us-troops-casualty-numbers/",
-      "published": "Sun, 26 Jul 2026 19:35:54 -0400",
-      "source": "Task & Purpose",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Babcock eyes naval opportunities in Asia-Pacific market",
       "link": "https://www.navalnews.com/interviews/2026/07/babcock-eyes-naval-opportunities-in-asia-pacific-market/",
       "published": "Thu, 30 Jul 2026 04:25:00 +0000",
@@ -621,10 +612,48 @@
       ]
     },
     {
+      "title": "Tracking America’s latest conflict: The Iran war timeline",
+      "link": "https://taskandpurpose.com/news/iran-war-timeline/",
+      "published": "Thu, 30 Jul 2026 11:46:10 -0400",
+      "source": "Task & Purpose",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "Report to Congress on Red Sea Security, Yemen",
       "link": "https://news.usni.org/2026/07/30/report-to-congress-on-yemen-red-sea-security",
       "published": "Thu, 30 Jul 2026 14:04:02 +0000",
       "source": "USNI News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Iran to get Chinese shoulder-launched missile systems in weeks, sources say",
+      "link": "https://www.defensenews.com/industry/techwatch/2026/07/30/iran-to-get-chinese-shoulder-launched-missile-systems-in-weeks-sources-say/",
+      "published": "Thu, 30 Jul 2026 15:33:20 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
+    },
+    {
+      "title": "Iran to get Chinese shoulder-launched missile systems in weeks, sources say",
+      "link": "https://www.militarytimes.com/industry/techwatch/2026/07/30/iran-to-get-chinese-shoulder-launched-missile-systems-in-weeks-sources-say/",
+      "published": "Thu, 30 Jul 2026 15:33:20 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
+    },
+    {
+      "title": "USS George Washington arrives in Vietnam amid China-Philippines strain",
+      "link": "https://www.militarytimes.com/news/your-navy/2026/07/30/uss-george-washington-arrives-in-vietnam-amid-china-philippines-strain/",
+      "published": "Thu, 30 Jul 2026 16:04:31 +0000",
+      "source": "Military Times",
       "categories": [
         "deployment"
       ]
@@ -652,33 +681,6 @@
       "link": "https://news.usni.org/2026/07/28/final-bill-for-inactivating-scrapping-carrier-enterprise-now-at-1-3b",
       "published": "Tue, 28 Jul 2026 21:25:27 +0000",
       "source": "USNI News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Trump, Zelenskyy discuss Patriot deal and reviving talks with Russia",
-      "link": "https://www.defensenews.com/global/europe/2026/07/29/trump-zelenskyy-discuss-patriot-deal-and-reviving-talks-with-russia/",
-      "published": "Wed, 29 Jul 2026 10:36:26 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "House-passed defense bill includes controversial US-Israel tech measure",
-      "link": "https://www.defensenews.com/news/pentagon-congress/2026/07/29/house-passed-defense-bill-includes-controversial-us-israel-tech-measure/",
-      "published": "Wed, 29 Jul 2026 12:00:00 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Iraq once again becomes a battlefield in the Iran war",
-      "link": "https://taskandpurpose.com/news/military-iraq-iran-war/",
-      "published": "Wed, 29 Jul 2026 12:42:25 -0400",
-      "source": "Task & Purpose",
       "categories": [
         "deployment"
       ]
@@ -854,19 +856,30 @@
       ]
     },
     {
-      "title": "Pentagon puts out call for robot boats that launch attack drones",
-      "link": "https://www.defensenews.com/industry/techwatch/2026/07/29/pentagon-puts-out-call-for-robot-boats-that-launch-attack-drones/",
-      "published": "Wed, 29 Jul 2026 19:22:52 +0000",
+      "title": "Iran to get Chinese shoulder-launched missile systems in weeks, sources say",
+      "link": "https://www.defensenews.com/industry/techwatch/2026/07/30/iran-to-get-chinese-shoulder-launched-missile-systems-in-weeks-sources-say/",
+      "published": "Thu, 30 Jul 2026 15:33:20 +0000",
       "source": "Defense News",
       "categories": [
+        "deployment",
+        "conflict"
+      ]
+    },
+    {
+      "title": "Iran to get Chinese shoulder-launched missile systems in weeks, sources say",
+      "link": "https://www.militarytimes.com/industry/techwatch/2026/07/30/iran-to-get-chinese-shoulder-launched-missile-systems-in-weeks-sources-say/",
+      "published": "Thu, 30 Jul 2026 15:33:20 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment",
         "conflict"
       ]
     },
     {
       "title": "Pentagon puts out call for robot boats that launch attack drones",
-      "link": "https://www.militarytimes.com/industry/techwatch/2026/07/29/pentagon-puts-out-call-for-robot-boats-that-launch-attack-drones/",
+      "link": "https://www.defensenews.com/industry/techwatch/2026/07/29/pentagon-puts-out-call-for-robot-boats-that-launch-attack-drones/",
       "published": "Wed, 29 Jul 2026 19:22:52 +0000",
-      "source": "Military Times",
+      "source": "Defense News",
       "categories": [
         "conflict"
       ]
@@ -903,16 +916,16 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 13,
-    "conflict_articles": 4,
+    "deployment_articles": 15,
+    "conflict_articles": 6,
     "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-07-30T14:58:11.621517+00:00",
+    "computed_at": "2026-07-30T16:22:37.183549+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
-      "[Task & Purpose] Pentagon reveals hundreds of new Iran war casualties",
       "[Naval News] Babcock eyes naval opportunities in Asia-Pacific market",
       "[USNI News] USS George Washington Arrives in Da Nang, First Carrier Visit to Vietnam since 2023",
+      "[Task & Purpose] Tracking America’s latest conflict: The Iran war timeline",
       "[Defense News] US strikes $58.6 billion Patriot missile deal amid rising stockpile concerns",
       "[Military Times] US strikes $58.6 billion Patriot missile deal amid rising stockpile concerns"
     ]
@@ -925,12 +938,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-07-30T14:58:11.621556+00:00",
+    "last_successful_update": "2026-07-30T16:22:37.183587+00:00",
     "article_count": 50,
-    "categorized_count": 19,
-    "freshest_source": "Task & Purpose",
-    "freshest_title": "Pentagon reveals hundreds of new Iran war casualties",
-    "freshest_published": "Sun, 26 Jul 2026 19:35:54 -0400"
+    "categorized_count": 21,
+    "freshest_source": "Naval News",
+    "freshest_title": "Babcock eyes naval opportunities in Asia-Pacific market",
+    "freshest_published": "Thu, 30 Jul 2026 04:25:00 +0000"
   },
   "_firms_hotspots": []
 }
