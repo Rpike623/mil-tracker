@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-07-30T18:06:41Z",
-  "version": 2246,
+  "generated_utc": "2026-07-30T20:09:02Z",
+  "version": 2247,
   "breaking_alert": "Naval News: Babcock eyes naval opportunities in Asia-Pacific market",
   "naval_deployments": [
     {
@@ -679,10 +679,10 @@
       ]
     },
     {
-      "title": "Poland’s A26 Submarine Deal: Details on Weapons Package, Interim Boat, and Delivery Schedule",
-      "link": "https://www.navalnews.com/naval-news/2026/07/poland-a26-submarine-deal-weapons-interim-boat-schedule/",
-      "published": "Tue, 28 Jul 2026 08:33:17 +0000",
-      "source": "Naval News",
+      "title": "Japanese Destroyer Launches Tomahawk for the First Time in Drill with U.S. Navy",
+      "link": "https://news.usni.org/2026/07/30/japanese-destroyer-launches-tomahawk-for-the-first-time-in-drill-with-u-s-navy",
+      "published": "Thu, 30 Jul 2026 19:03:26 +0000",
+      "source": "USNI News",
       "categories": [
         "deployment"
       ]
@@ -849,10 +849,10 @@
       ]
     },
     {
-      "title": "US strikes $58.6 billion Patriot missile deal amid rising stockpile concerns",
-      "link": "https://www.militarytimes.com/industry/techwatch/2026/07/30/us-strikes-586-billion-patriot-missile-deal-amid-rising-stockpile-concerns/",
-      "published": "Thu, 30 Jul 2026 13:52:01 +0000",
-      "source": "Military Times",
+      "title": "It could take the US military 3 years to restock its missile defenses",
+      "link": "https://taskandpurpose.com/news/iran-missile-interceptors-replenish/",
+      "published": "Thu, 30 Jul 2026 14:45:54 -0400",
+      "source": "Task & Purpose",
       "categories": [
         "conflict"
       ]
@@ -919,18 +919,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 16,
+    "deployment_articles": 21,
     "conflict_articles": 7,
     "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-07-30T18:06:34.707911+00:00",
+    "computed_at": "2026-07-30T20:08:55.586746+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] Babcock eyes naval opportunities in Asia-Pacific market",
       "[USNI News] USS George Washington Arrives in Da Nang, First Carrier Visit to Vietnam since 2023",
       "[Task & Purpose] Tracking America’s latest conflict: The Iran war timeline",
       "[Defense News] US strikes $58.6 billion Patriot missile deal amid rising stockpile concerns",
-      "[Military Times] US strikes $58.6 billion Patriot missile deal amid rising stockpile concerns"
+      "[USNI News] Report to Congress on Red Sea Security, Yemen"
     ]
   },
   "ground_intel": {
@@ -941,9 +941,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-07-30T18:06:34.707946+00:00",
+    "last_successful_update": "2026-07-30T20:08:55.586788+00:00",
     "article_count": 50,
-    "categorized_count": 21,
+    "categorized_count": 26,
     "freshest_source": "Naval News",
     "freshest_title": "Babcock eyes naval opportunities in Asia-Pacific market",
     "freshest_published": "Thu, 30 Jul 2026 04:25:00 +0000"
