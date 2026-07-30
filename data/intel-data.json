@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-07-30T12:20:13Z",
-  "version": 2243,
+  "generated_utc": "2026-07-30T15:02:52Z",
+  "version": 2244,
   "breaking_alert": "Task & Purpose: Pentagon reveals hundreds of new Iran war casualties",
   "naval_deployments": [
     {
@@ -621,6 +621,15 @@
       ]
     },
     {
+      "title": "Report to Congress on Red Sea Security, Yemen",
+      "link": "https://news.usni.org/2026/07/30/report-to-congress-on-yemen-red-sea-security",
+      "published": "Thu, 30 Jul 2026 14:04:02 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "Poland’s A26 Submarine Deal: Details on Weapons Package, Interim Boat, and Delivery Schedule",
       "link": "https://www.navalnews.com/naval-news/2026/07/poland-a26-submarine-deal-weapons-interim-boat-schedule/",
       "published": "Tue, 28 Jul 2026 08:33:17 +0000",
@@ -670,15 +679,6 @@
       "link": "https://taskandpurpose.com/news/military-iraq-iran-war/",
       "published": "Wed, 29 Jul 2026 12:42:25 -0400",
       "source": "Task & Purpose",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "A Global Milestone for Rafael: 1,000th TYPHOON System Delivered to the Israeli Navy",
-      "link": "https://www.navalnews.com/naval-news/2026/07/a-global-milestone-for-rafael-1000th-typhoon-system-delivered-to-the-israeli-navy/",
-      "published": "Wed, 29 Jul 2026 12:47:49 +0000",
-      "source": "Naval News",
       "categories": [
         "deployment"
       ]
@@ -836,6 +836,24 @@
   },
   "_conflict_news_refs": [
     {
+      "title": "US strikes $58.6 billion Patriot missile deal amid rising stockpile concerns",
+      "link": "https://www.defensenews.com/industry/techwatch/2026/07/30/us-strikes-586-billion-patriot-missile-deal-amid-rising-stockpile-concerns/",
+      "published": "Thu, 30 Jul 2026 13:52:01 +0000",
+      "source": "Defense News",
+      "categories": [
+        "conflict"
+      ]
+    },
+    {
+      "title": "US strikes $58.6 billion Patriot missile deal amid rising stockpile concerns",
+      "link": "https://www.militarytimes.com/industry/techwatch/2026/07/30/us-strikes-586-billion-patriot-missile-deal-amid-rising-stockpile-concerns/",
+      "published": "Thu, 30 Jul 2026 13:52:01 +0000",
+      "source": "Military Times",
+      "categories": [
+        "conflict"
+      ]
+    },
+    {
       "title": "Pentagon puts out call for robot boats that launch attack drones",
       "link": "https://www.defensenews.com/industry/techwatch/2026/07/29/pentagon-puts-out-call-for-robot-boats-that-launch-attack-drones/",
       "published": "Wed, 29 Jul 2026 19:22:52 +0000",
@@ -875,15 +893,6 @@
       ]
     },
     {
-      "title": "US Navy deploys GARC uncrewed surface vessel in first live-fire training exercise",
-      "link": "https://www.militarytimes.com/news/your-military/2026/07/29/us-navy-deploys-garc-uncrewed-surface-vessel-in-first-live-fire-training-exercise/",
-      "published": "Wed, 29 Jul 2026 16:16:05 +0000",
-      "source": "Military Times",
-      "categories": [
-        "exercise"
-      ]
-    },
-    {
       "title": "U.S. Reveals Coast Guard Cooperation with Taiwan",
       "link": "https://news.usni.org/2026/07/29/u-s-reveals-coast-guard-cooperation-with-taiwan",
       "published": "Wed, 29 Jul 2026 16:30:40 +0000",
@@ -894,18 +903,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 12,
-    "conflict_articles": 2,
-    "exercise_articles": 4,
+    "deployment_articles": 13,
+    "conflict_articles": 4,
+    "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-07-30T12:19:59.438440+00:00",
+    "computed_at": "2026-07-30T14:58:11.621517+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Task & Purpose] Pentagon reveals hundreds of new Iran war casualties",
       "[Naval News] Babcock eyes naval opportunities in Asia-Pacific market",
       "[USNI News] USS George Washington Arrives in Da Nang, First Carrier Visit to Vietnam since 2023",
-      "[Naval News] Poland’s A26 Submarine Deal: Details on Weapons Package, Interim Boat, and Delivery Schedule",
-      "[Task & Purpose] How ‘Wild Weasel’ missions became essential in the fight with Iran"
+      "[Defense News] US strikes $58.6 billion Patriot missile deal amid rising stockpile concerns",
+      "[Military Times] US strikes $58.6 billion Patriot missile deal amid rising stockpile concerns"
     ]
   },
   "ground_intel": {
@@ -916,9 +925,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-07-30T12:19:59.438490+00:00",
+    "last_successful_update": "2026-07-30T14:58:11.621556+00:00",
     "article_count": 50,
-    "categorized_count": 17,
+    "categorized_count": 19,
     "freshest_source": "Task & Purpose",
     "freshest_title": "Pentagon reveals hundreds of new Iran war casualties",
     "freshest_published": "Sun, 26 Jul 2026 19:35:54 -0400"
