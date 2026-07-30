@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-07-30T04:42:35Z",
-  "version": 2240,
-  "breaking_alert": "Naval News: LIG D&A Begins Assembly of Prototype KSAM-II Missiles for ROK Navy",
+  "generated_utc": "2026-07-30T07:28:47Z",
+  "version": 2241,
+  "breaking_alert": "Naval News: Inside Ukraine’s Long-Range Strike Campaign with the AGM-188A Rusty Dagger",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -836,15 +836,6 @@
   },
   "_conflict_news_refs": [
     {
-      "title": "LIG D&A Begins Assembly of Prototype KSAM-II Missiles for ROK Navy",
-      "link": "https://www.navalnews.com/naval-news/2026/07/lig-da-begins-assembly-prototype-ksam-ii-missile-rok-navy/",
-      "published": "Mon, 27 Jul 2026 08:33:25 +0000",
-      "source": "Naval News",
-      "categories": [
-        "conflict"
-      ]
-    },
-    {
       "title": "Inside Ukraine’s Long-Range Strike Campaign with the AGM-188A Rusty Dagger",
       "link": "https://www.navalnews.com/naval-news/2026/07/inside-ukraines-long-range-strike-campaign-with-the-agm-188a-rusty-dagger/",
       "published": "Mon, 27 Jul 2026 12:58:49 +0000",
@@ -913,17 +904,17 @@
   ],
   "_threat_indicators": {
     "deployment_articles": 13,
-    "conflict_articles": 4,
+    "conflict_articles": 3,
     "exercise_articles": 4,
     "total_articles": 50,
-    "computed_at": "2026-07-30T04:42:29.126912+00:00",
+    "computed_at": "2026-07-30T07:24:06.699713+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
-      "[Naval News] LIG D&A Begins Assembly of Prototype KSAM-II Missiles for ROK Navy",
       "[Naval News] Inside Ukraine’s Long-Range Strike Campaign with the AGM-188A Rusty Dagger",
       "[USNI News] USNI News Fleet and Marine Tracker: July 27, 2026",
       "[Naval News] The Cairncross Dockyard Brisbane Project And Prospects For Australian Naval Infrastructure",
-      "[Task & Purpose] Pentagon reveals hundreds of new Iran war casualties"
+      "[Task & Purpose] Pentagon reveals hundreds of new Iran war casualties",
+      "[Naval News] Babcock eyes naval opportunities in Asia-Pacific market"
     ]
   },
   "ground_intel": {
@@ -934,12 +925,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-07-30T04:42:29.126949+00:00",
+    "last_successful_update": "2026-07-30T07:24:06.699756+00:00",
     "article_count": 50,
-    "categorized_count": 20,
+    "categorized_count": 19,
     "freshest_source": "Naval News",
-    "freshest_title": "LIG D&A Begins Assembly of Prototype KSAM-II Missiles for ROK Navy",
-    "freshest_published": "Mon, 27 Jul 2026 08:33:25 +0000"
+    "freshest_title": "Inside Ukraine’s Long-Range Strike Campaign with the AGM-188A Rusty Dagger",
+    "freshest_published": "Mon, 27 Jul 2026 12:58:49 +0000"
   },
   "_firms_hotspots": []
 }
