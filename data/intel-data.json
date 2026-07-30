@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-07-30T16:22:42Z",
-  "version": 2245,
+  "generated_utc": "2026-07-30T18:06:41Z",
+  "version": 2246,
   "breaking_alert": "Naval News: Babcock eyes naval opportunities in Asia-Pacific market",
   "naval_deployments": [
     {
@@ -659,28 +659,30 @@
       ]
     },
     {
+      "title": "Iran war depleted US Patriot missile stockpiles, creating readiness challenges, experts say",
+      "link": "https://www.defensenews.com/news/your-military/2026/07/30/iran-war-depleted-us-patriot-missile-stockpiles-creating-readiness-challenges-experts-say/",
+      "published": "Thu, 30 Jul 2026 17:48:44 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
+    },
+    {
+      "title": "Iran war depleted US Patriot missile stockpiles, creating readiness challenges, experts say",
+      "link": "https://www.militarytimes.com/news/your-military/2026/07/30/iran-war-depleted-us-patriot-missile-stockpiles-creating-readiness-challenges-experts-say/",
+      "published": "Thu, 30 Jul 2026 17:48:44 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
+    },
+    {
       "title": "Poland’s A26 Submarine Deal: Details on Weapons Package, Interim Boat, and Delivery Schedule",
       "link": "https://www.navalnews.com/naval-news/2026/07/poland-a26-submarine-deal-weapons-interim-boat-schedule/",
       "published": "Tue, 28 Jul 2026 08:33:17 +0000",
       "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "How ‘Wild Weasel’ missions became essential in the fight with Iran",
-      "link": "https://taskandpurpose.com/news/air-force-wild-weasel-iran/",
-      "published": "Tue, 28 Jul 2026 10:14:29 -0400",
-      "source": "Task & Purpose",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Final Bill for Inactivating, Scrapping Carrier Enterprise Now at $1.3B",
-      "link": "https://news.usni.org/2026/07/28/final-bill-for-inactivating-scrapping-carrier-enterprise-now-at-1-3b",
-      "published": "Tue, 28 Jul 2026 21:25:27 +0000",
-      "source": "USNI News",
       "categories": [
         "deployment"
       ]
@@ -876,11 +878,12 @@
       ]
     },
     {
-      "title": "Pentagon puts out call for robot boats that launch attack drones",
-      "link": "https://www.defensenews.com/industry/techwatch/2026/07/29/pentagon-puts-out-call-for-robot-boats-that-launch-attack-drones/",
-      "published": "Wed, 29 Jul 2026 19:22:52 +0000",
+      "title": "Iran war depleted US Patriot missile stockpiles, creating readiness challenges, experts say",
+      "link": "https://www.defensenews.com/news/your-military/2026/07/30/iran-war-depleted-us-patriot-missile-stockpiles-creating-readiness-challenges-experts-say/",
+      "published": "Thu, 30 Jul 2026 17:48:44 +0000",
       "source": "Defense News",
       "categories": [
+        "deployment",
         "conflict"
       ]
     }
@@ -916,11 +919,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 15,
-    "conflict_articles": 6,
+    "deployment_articles": 16,
+    "conflict_articles": 7,
     "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-07-30T16:22:37.183549+00:00",
+    "computed_at": "2026-07-30T18:06:34.707911+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] Babcock eyes naval opportunities in Asia-Pacific market",
@@ -938,7 +941,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-07-30T16:22:37.183587+00:00",
+    "last_successful_update": "2026-07-30T18:06:34.707946+00:00",
     "article_count": 50,
     "categorized_count": 21,
     "freshest_source": "Naval News",
