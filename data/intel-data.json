@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-07-31T11:18:40Z",
-  "version": 2254,
+  "generated_utc": "2026-07-31T13:23:53Z",
+  "version": 2255,
   "breaking_alert": "Naval News: Japan Tests New Air-Launched Upgraded Type 12 Anti-Ship Missile with 1,000 km Range",
   "naval_deployments": [
     {
@@ -594,6 +594,15 @@
   ],
   "_naval_news_refs": [
     {
+      "title": "Navantia conducts first dive of 2nd S80 submarine ‘Narciso Monturiol’",
+      "link": "https://www.navalnews.com/naval-news/2026/07/navantia-conducts-first-dive-of-2nd-s80-submarine-narciso-monturiol/",
+      "published": "Fri, 31 Jul 2026 13:02:29 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "Babcock eyes naval opportunities in Asia-Pacific market",
       "link": "https://www.navalnews.com/interviews/2026/07/babcock-eyes-naval-opportunities-in-asia-pacific-market/",
       "published": "Thu, 30 Jul 2026 04:25:00 +0000",
@@ -644,16 +653,6 @@
       "link": "https://www.defensenews.com/news/your-military/2026/07/30/iran-war-depleted-us-patriot-missile-stockpiles-creating-readiness-challenges-experts-say/",
       "published": "Thu, 30 Jul 2026 17:48:44 +0000",
       "source": "Defense News",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
-      "title": "Iran war depleted US Patriot missile stockpiles, creating readiness challenges, experts say",
-      "link": "https://www.militarytimes.com/news/your-military/2026/07/30/iran-war-depleted-us-patriot-missile-stockpiles-creating-readiness-challenges-experts-say/",
-      "published": "Thu, 30 Jul 2026 17:48:44 +0000",
-      "source": "Military Times",
       "categories": [
         "deployment",
         "conflict"
@@ -919,17 +918,17 @@
   ],
   "_threat_indicators": {
     "deployment_articles": 19,
-    "conflict_articles": 8,
+    "conflict_articles": 7,
     "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-07-31T11:13:59.423665+00:00",
-    "manual_override": "DEFCON_2",
+    "computed_at": "2026-07-31T13:23:47.378585+00:00",
+    "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] Japan Tests New Air-Launched Upgraded Type 12 Anti-Ship Missile with 1,000 km Range",
+      "[Naval News] Navantia conducts first dive of 2nd S80 submarine ‘Narciso Monturiol’",
       "[Naval News] Babcock eyes naval opportunities in Asia-Pacific market",
       "[USNI News] USS George Washington Arrives in Da Nang, First Carrier Visit to Vietnam since 2023",
-      "[Task & Purpose] Tracking America’s latest conflict: The Iran war timeline",
-      "[Defense News] US strikes $58.6 billion Patriot missile deal amid rising stockpile concerns"
+      "[Task & Purpose] Tracking America’s latest conflict: The Iran war timeline"
     ]
   },
   "ground_intel": {
@@ -940,7 +939,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-07-31T11:13:59.423711+00:00",
+    "last_successful_update": "2026-07-31T13:23:47.378634+00:00",
     "article_count": 50,
     "categorized_count": 25,
     "freshest_source": "Naval News",
