@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-07-31T08:26:10Z",
-  "version": 2253,
-  "breaking_alert": "Naval News: Babcock eyes naval opportunities in Asia-Pacific market",
+  "generated_utc": "2026-07-31T11:18:40Z",
+  "version": 2254,
+  "breaking_alert": "Naval News: Japan Tests New Air-Launched Upgraded Type 12 Anti-Ship Missile with 1,000 km Range",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -839,6 +839,15 @@
   },
   "_conflict_news_refs": [
     {
+      "title": "Japan Tests New Air-Launched Upgraded Type 12 Anti-Ship Missile with 1,000 km Range",
+      "link": "https://www.navalnews.com/naval-news/2026/07/japan-tests-air-launched-upgraded-type-12-anti-ship-missile/",
+      "published": "Fri, 31 Jul 2026 08:29:47 +0000",
+      "source": "Naval News",
+      "categories": [
+        "conflict"
+      ]
+    },
+    {
       "title": "US strikes $58.6 billion Patriot missile deal amid rising stockpile concerns",
       "link": "https://www.defensenews.com/industry/techwatch/2026/07/30/us-strikes-586-billion-patriot-missile-deal-amid-rising-stockpile-concerns/",
       "published": "Thu, 30 Jul 2026 13:52:01 +0000",
@@ -871,16 +880,6 @@
       "link": "https://www.defensenews.com/news/your-military/2026/07/30/iran-war-depleted-us-patriot-missile-stockpiles-creating-readiness-challenges-experts-say/",
       "published": "Thu, 30 Jul 2026 17:48:44 +0000",
       "source": "Defense News",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
-      "title": "Iran war depleted US Patriot missile stockpiles, creating readiness challenges, experts say",
-      "link": "https://www.militarytimes.com/news/your-military/2026/07/30/iran-war-depleted-us-patriot-missile-stockpiles-creating-readiness-challenges-experts-say/",
-      "published": "Thu, 30 Jul 2026 17:48:44 +0000",
-      "source": "Military Times",
       "categories": [
         "deployment",
         "conflict"
@@ -920,17 +919,17 @@
   ],
   "_threat_indicators": {
     "deployment_articles": 19,
-    "conflict_articles": 7,
+    "conflict_articles": 8,
     "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-07-31T08:26:05.037156+00:00",
-    "manual_override": "DEFCON_3",
+    "computed_at": "2026-07-31T11:13:59.423665+00:00",
+    "manual_override": "DEFCON_2",
     "breaking_events": [
+      "[Naval News] Japan Tests New Air-Launched Upgraded Type 12 Anti-Ship Missile with 1,000 km Range",
       "[Naval News] Babcock eyes naval opportunities in Asia-Pacific market",
       "[USNI News] USS George Washington Arrives in Da Nang, First Carrier Visit to Vietnam since 2023",
       "[Task & Purpose] Tracking America’s latest conflict: The Iran war timeline",
-      "[Defense News] US strikes $58.6 billion Patriot missile deal amid rising stockpile concerns",
-      "[USNI News] Report to Congress on Red Sea Security, Yemen"
+      "[Defense News] US strikes $58.6 billion Patriot missile deal amid rising stockpile concerns"
     ]
   },
   "ground_intel": {
@@ -941,12 +940,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-07-31T08:26:05.037201+00:00",
+    "last_successful_update": "2026-07-31T11:13:59.423711+00:00",
     "article_count": 50,
-    "categorized_count": 24,
+    "categorized_count": 25,
     "freshest_source": "Naval News",
-    "freshest_title": "Babcock eyes naval opportunities in Asia-Pacific market",
-    "freshest_published": "Thu, 30 Jul 2026 04:25:00 +0000"
+    "freshest_title": "Japan Tests New Air-Launched Upgraded Type 12 Anti-Ship Missile with 1,000 km Range",
+    "freshest_published": "Fri, 31 Jul 2026 08:29:47 +0000"
   },
   "_firms_hotspots": []
 }
