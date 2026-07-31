@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-07-31T05:20:20Z",
-  "version": 2252,
+  "generated_utc": "2026-07-31T08:26:10Z",
+  "version": 2253,
   "breaking_alert": "Naval News: Babcock eyes naval opportunities in Asia-Pacific market",
   "naval_deployments": [
     {
@@ -923,7 +923,7 @@
     "conflict_articles": 7,
     "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-07-31T05:20:15.177816+00:00",
+    "computed_at": "2026-07-31T08:26:05.037156+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] Babcock eyes naval opportunities in Asia-Pacific market",
@@ -941,7 +941,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-07-31T05:20:15.177862+00:00",
+    "last_successful_update": "2026-07-31T08:26:05.037201+00:00",
     "article_count": 50,
     "categorized_count": 24,
     "freshest_source": "Naval News",
