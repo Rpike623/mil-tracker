@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-07-31T17:14:18Z",
-  "version": 2257,
+  "generated_utc": "2026-07-31T19:01:45Z",
+  "version": 2258,
   "breaking_alert": "Naval News: Japan Tests New Air-Launched Upgraded Type 12 Anti-Ship Missile with 1,000 km Range",
   "naval_deployments": [
     {
@@ -630,6 +630,24 @@
       ]
     },
     {
+      "title": "Just one in three Americans back Iran war, most unsure of Trump’s goals, poll finds",
+      "link": "https://www.defensenews.com/news/pentagon-congress/2026/07/31/just-one-in-three-americans-back-iran-war-most-unsure-of-trumps-goals-poll-finds/",
+      "published": "Fri, 31 Jul 2026 17:33:29 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Just one in three Americans back Iran war, most unsure of Trump’s goals, poll finds",
+      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/07/31/just-one-in-three-americans-back-iran-war-most-unsure-of-trumps-goals-poll-finds/",
+      "published": "Fri, 31 Jul 2026 17:33:29 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "Babcock eyes naval opportunities in Asia-Pacific market",
       "link": "https://www.navalnews.com/interviews/2026/07/babcock-eyes-naval-opportunities-in-asia-pacific-market/",
       "published": "Thu, 30 Jul 2026 04:25:00 +0000",
@@ -663,26 +681,6 @@
       "source": "USNI News",
       "categories": [
         "deployment"
-      ]
-    },
-    {
-      "title": "Iran to get Chinese shoulder-launched missile systems in weeks, sources say",
-      "link": "https://www.defensenews.com/industry/techwatch/2026/07/30/iran-to-get-chinese-shoulder-launched-missile-systems-in-weeks-sources-say/",
-      "published": "Thu, 30 Jul 2026 15:33:20 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
-      "title": "Iran war depleted US Patriot missile stockpiles, creating readiness challenges, experts say",
-      "link": "https://www.defensenews.com/news/your-military/2026/07/30/iran-war-depleted-us-patriot-missile-stockpiles-creating-readiness-challenges-experts-say/",
-      "published": "Thu, 30 Jul 2026 17:48:44 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment",
-        "conflict"
       ]
     }
   ],
@@ -906,12 +904,12 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 17,
-    "conflict_articles": 8,
+    "deployment_articles": 18,
+    "conflict_articles": 7,
     "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-07-31T17:14:12.029343+00:00",
-    "manual_override": "DEFCON_2",
+    "computed_at": "2026-07-31T19:01:43.184661+00:00",
+    "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] Japan Tests New Air-Launched Upgraded Type 12 Anti-Ship Missile with 1,000 km Range",
       "[Naval News] Navantia conducts first dive of 2nd S80 submarine ‘Narciso Monturiol’",
@@ -928,7 +926,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-07-31T17:14:12.029389+00:00",
+    "last_successful_update": "2026-07-31T19:01:43.184710+00:00",
     "article_count": 50,
     "categorized_count": 24,
     "freshest_source": "Naval News",
