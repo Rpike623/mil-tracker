@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-07-31T15:56:11Z",
-  "version": 2256,
+  "generated_utc": "2026-07-31T17:14:18Z",
+  "version": 2257,
   "breaking_alert": "Naval News: Japan Tests New Air-Launched Upgraded Type 12 Anti-Ship Missile with 1,000 km Range",
   "naval_deployments": [
     {
@@ -621,6 +621,15 @@
       ]
     },
     {
+      "title": "‘Good Samaritans’ beware: Scammers ramp up targeting of troops’ goodwill",
+      "link": "https://www.militarytimes.com/pay-benefits/mil-money/2026/07/31/good-samaritans-beware-scammers-ramp-up-targeting-of-troops-goodwill/",
+      "published": "Fri, 31 Jul 2026 16:39:26 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "Babcock eyes naval opportunities in Asia-Pacific market",
       "link": "https://www.navalnews.com/interviews/2026/07/babcock-eyes-naval-opportunities-in-asia-pacific-market/",
       "published": "Thu, 30 Jul 2026 04:25:00 +0000",
@@ -674,15 +683,6 @@
       "categories": [
         "deployment",
         "conflict"
-      ]
-    },
-    {
-      "title": "Japanese Destroyer Launches Tomahawk for the First Time in Drill with U.S. Navy",
-      "link": "https://news.usni.org/2026/07/30/japanese-destroyer-launches-tomahawk-for-the-first-time-in-drill-with-u-s-navy",
-      "published": "Thu, 30 Jul 2026 19:03:26 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment"
       ]
     }
   ],
@@ -847,6 +847,15 @@
       ]
     },
     {
+      "title": "Senate Democrats press Pentagon over medical care for troops wounded in Kuwait drone strike",
+      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/07/31/senate-democrats-press-pentagon-over-medical-care-for-troops-wounded-in-kuwait-drone-strike/",
+      "published": "Fri, 31 Jul 2026 16:26:26 +0000",
+      "source": "Military Times",
+      "categories": [
+        "conflict"
+      ]
+    },
+    {
       "title": "US strikes $58.6 billion Patriot missile deal amid rising stockpile concerns",
       "link": "https://www.defensenews.com/industry/techwatch/2026/07/30/us-strikes-586-billion-patriot-missile-deal-amid-rising-stockpile-concerns/",
       "published": "Thu, 30 Jul 2026 13:52:01 +0000",
@@ -868,16 +877,6 @@
       "title": "Iran to get Chinese shoulder-launched missile systems in weeks, sources say",
       "link": "https://www.defensenews.com/industry/techwatch/2026/07/30/iran-to-get-chinese-shoulder-launched-missile-systems-in-weeks-sources-say/",
       "published": "Thu, 30 Jul 2026 15:33:20 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
-      "title": "Iran war depleted US Patriot missile stockpiles, creating readiness challenges, experts say",
-      "link": "https://www.defensenews.com/news/your-military/2026/07/30/iran-war-depleted-us-patriot-missile-stockpiles-creating-readiness-challenges-experts-say/",
-      "published": "Thu, 30 Jul 2026 17:48:44 +0000",
       "source": "Defense News",
       "categories": [
         "deployment",
@@ -907,18 +906,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 19,
-    "conflict_articles": 7,
+    "deployment_articles": 17,
+    "conflict_articles": 8,
     "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-07-31T15:51:30.755089+00:00",
-    "manual_override": "DEFCON_3",
+    "computed_at": "2026-07-31T17:14:12.029343+00:00",
+    "manual_override": "DEFCON_2",
     "breaking_events": [
       "[Naval News] Japan Tests New Air-Launched Upgraded Type 12 Anti-Ship Missile with 1,000 km Range",
       "[Naval News] Navantia conducts first dive of 2nd S80 submarine ‘Narciso Monturiol’",
       "[Naval News] New BAE Systems Defence Contract Boosts UK Nuclear Deterrent Submarine Fleet",
       "[USNI News] Chinese Navy Showcases Hypersonic Anti-ship Capability Aboard Destroyers",
-      "[Naval News] Babcock eyes naval opportunities in Asia-Pacific market"
+      "[Military Times] Senate Democrats press Pentagon over medical care for troops wounded in Kuwait drone strike"
     ]
   },
   "ground_intel": {
@@ -929,9 +928,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-07-31T15:51:30.755131+00:00",
+    "last_successful_update": "2026-07-31T17:14:12.029389+00:00",
     "article_count": 50,
-    "categorized_count": 25,
+    "categorized_count": 24,
     "freshest_source": "Naval News",
     "freshest_title": "Japan Tests New Air-Launched Upgraded Type 12 Anti-Ship Missile with 1,000 km Range",
     "freshest_published": "Fri, 31 Jul 2026 08:29:47 +0000"
