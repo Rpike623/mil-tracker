@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-07-31T13:23:53Z",
-  "version": 2255,
+  "generated_utc": "2026-07-31T15:56:11Z",
+  "version": 2256,
   "breaking_alert": "Naval News: Japan Tests New Air-Launched Upgraded Type 12 Anti-Ship Missile with 1,000 km Range",
   "naval_deployments": [
     {
@@ -603,6 +603,24 @@
       ]
     },
     {
+      "title": "New BAE Systems Defence Contract Boosts UK Nuclear Deterrent Submarine Fleet",
+      "link": "https://www.navalnews.com/naval-news/2026/07/new-bae-systems-defence-contract-boosts-uk-nuclear-deterrent-submarine-fleet/",
+      "published": "Fri, 31 Jul 2026 14:30:00 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Chinese Navy Showcases Hypersonic Anti-ship Capability Aboard Destroyers",
+      "link": "https://news.usni.org/2026/07/31/chinese-navy-showcases-hypersonic-anti-ship-capability-aboard-destroyers",
+      "published": "Fri, 31 Jul 2026 14:37:48 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "Babcock eyes naval opportunities in Asia-Pacific market",
       "link": "https://www.navalnews.com/interviews/2026/07/babcock-eyes-naval-opportunities-in-asia-pacific-market/",
       "published": "Thu, 30 Jul 2026 04:25:00 +0000",
@@ -663,24 +681,6 @@
       "link": "https://news.usni.org/2026/07/30/japanese-destroyer-launches-tomahawk-for-the-first-time-in-drill-with-u-s-navy",
       "published": "Thu, 30 Jul 2026 19:03:26 +0000",
       "source": "USNI News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Navy awards $76.6 billion for Virginia, Columbia-class submarines",
-      "link": "https://www.defensenews.com/industry/techwatch/2026/07/30/navy-awards-766-billion-for-virginia-columbia-class-submarines/",
-      "published": "Thu, 30 Jul 2026 19:19:29 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Navy awards $76.6 billion for Virginia, Columbia-class submarines",
-      "link": "https://www.militarytimes.com/industry/techwatch/2026/07/30/navy-awards-766-billion-for-virginia-columbia-class-submarines/",
-      "published": "Thu, 30 Jul 2026 19:19:29 +0000",
-      "source": "Military Times",
       "categories": [
         "deployment"
       ]
@@ -897,16 +897,6 @@
       ]
     },
     {
-      "title": "Hanwha Ocean Advances Korea-U.S. Shipbuilding Cooperation Through Naval Vessel Development and Broader Industry Collaboration",
-      "link": "https://www.navalnews.com/naval-news/2026/07/hanwha-ocean-advances-korea-u-s-shipbuilding-cooperation-through-naval-vessel-development-and-broader-industry-collaboration/",
-      "published": "Wed, 29 Jul 2026 14:00:00 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment",
-        "exercise"
-      ]
-    },
-    {
       "title": "U.S. Reveals Coast Guard Cooperation with Taiwan",
       "link": "https://news.usni.org/2026/07/29/u-s-reveals-coast-guard-cooperation-with-taiwan",
       "published": "Wed, 29 Jul 2026 16:30:40 +0000",
@@ -919,16 +909,16 @@
   "_threat_indicators": {
     "deployment_articles": 19,
     "conflict_articles": 7,
-    "exercise_articles": 3,
+    "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-07-31T13:23:47.378585+00:00",
+    "computed_at": "2026-07-31T15:51:30.755089+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] Japan Tests New Air-Launched Upgraded Type 12 Anti-Ship Missile with 1,000 km Range",
       "[Naval News] Navantia conducts first dive of 2nd S80 submarine ‘Narciso Monturiol’",
-      "[Naval News] Babcock eyes naval opportunities in Asia-Pacific market",
-      "[USNI News] USS George Washington Arrives in Da Nang, First Carrier Visit to Vietnam since 2023",
-      "[Task & Purpose] Tracking America’s latest conflict: The Iran war timeline"
+      "[Naval News] New BAE Systems Defence Contract Boosts UK Nuclear Deterrent Submarine Fleet",
+      "[USNI News] Chinese Navy Showcases Hypersonic Anti-ship Capability Aboard Destroyers",
+      "[Naval News] Babcock eyes naval opportunities in Asia-Pacific market"
     ]
   },
   "ground_intel": {
@@ -939,7 +929,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-07-31T13:23:47.378634+00:00",
+    "last_successful_update": "2026-07-31T15:51:30.755131+00:00",
     "article_count": 50,
     "categorized_count": 25,
     "freshest_source": "Naval News",
