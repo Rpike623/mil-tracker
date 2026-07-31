@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-07-31T19:01:45Z",
-  "version": 2258,
+  "generated_utc": "2026-07-31T20:53:45Z",
+  "version": 2259,
   "breaking_alert": "Naval News: Japan Tests New Air-Launched Upgraded Type 12 Anti-Ship Missile with 1,000 km Range",
   "naval_deployments": [
     {
@@ -648,6 +648,24 @@
       ]
     },
     {
+      "title": "Hormuz Traffic Levels Continue Decreasing, Houthis in Yemen Threaten Saudi Tankers",
+      "link": "https://news.usni.org/2026/07/31/hormuz-traffic-levels-continue-decreasing-houthis-in-yemen-threaten-saudi-tankers",
+      "published": "Fri, 31 Jul 2026 19:14:28 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Virginia-class submarine USS Minnesota completes first deployment",
+      "link": "https://www.militarytimes.com/news/your-navy/2026/07/31/virginia-class-submarine-uss-minnesota-completes-first-deployment/",
+      "published": "Fri, 31 Jul 2026 20:13:57 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "Babcock eyes naval opportunities in Asia-Pacific market",
       "link": "https://www.navalnews.com/interviews/2026/07/babcock-eyes-naval-opportunities-in-asia-pacific-market/",
       "published": "Thu, 30 Jul 2026 04:25:00 +0000",
@@ -660,24 +678,6 @@
       "title": "USS George Washington Arrives in Da Nang, First Carrier Visit to Vietnam since 2023",
       "link": "https://news.usni.org/2026/07/30/uss-george-washington-arrives-in-da-nang-first-carrier-visit-to-vietnam-since-2023",
       "published": "Thu, 30 Jul 2026 10:51:52 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Tracking America’s latest conflict: The Iran war timeline",
-      "link": "https://taskandpurpose.com/news/iran-war-timeline/",
-      "published": "Thu, 30 Jul 2026 11:46:10 -0400",
-      "source": "Task & Purpose",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Report to Congress on Red Sea Security, Yemen",
-      "link": "https://news.usni.org/2026/07/30/report-to-congress-on-yemen-red-sea-security",
-      "published": "Thu, 30 Jul 2026 14:04:02 +0000",
       "source": "USNI News",
       "categories": [
         "deployment"
@@ -892,23 +892,14 @@
         "deployment",
         "exercise"
       ]
-    },
-    {
-      "title": "U.S. Reveals Coast Guard Cooperation with Taiwan",
-      "link": "https://news.usni.org/2026/07/29/u-s-reveals-coast-guard-cooperation-with-taiwan",
-      "published": "Wed, 29 Jul 2026 16:30:40 +0000",
-      "source": "USNI News",
-      "categories": [
-        "exercise"
-      ]
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 18,
+    "deployment_articles": 20,
     "conflict_articles": 7,
-    "exercise_articles": 2,
+    "exercise_articles": 1,
     "total_articles": 50,
-    "computed_at": "2026-07-31T19:01:43.184661+00:00",
+    "computed_at": "2026-07-31T20:49:05.136005+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] Japan Tests New Air-Launched Upgraded Type 12 Anti-Ship Missile with 1,000 km Range",
@@ -926,9 +917,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-07-31T19:01:43.184710+00:00",
+    "last_successful_update": "2026-07-31T20:49:05.136051+00:00",
     "article_count": 50,
-    "categorized_count": 24,
+    "categorized_count": 25,
     "freshest_source": "Naval News",
     "freshest_title": "Japan Tests New Air-Launched Upgraded Type 12 Anti-Ship Missile with 1,000 km Range",
     "freshest_published": "Fri, 31 Jul 2026 08:29:47 +0000"
