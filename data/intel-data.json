@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-08-01T05:13:09Z",
-  "version": 2264,
+  "generated_utc": "2026-08-01T07:55:55Z",
+  "version": 2265,
   "breaking_alert": "Naval News: Japan Tests New Air-Launched Upgraded Type 12 Anti-Ship Missile with 1,000 km Range",
   "naval_deployments": [
     {
@@ -666,19 +666,19 @@
       ]
     },
     {
-      "title": "Babcock eyes naval opportunities in Asia-Pacific market",
-      "link": "https://www.navalnews.com/interviews/2026/07/babcock-eyes-naval-opportunities-in-asia-pacific-market/",
-      "published": "Thu, 30 Jul 2026 04:25:00 +0000",
-      "source": "Naval News",
+      "title": "USS George Washington Arrives in Da Nang, First Carrier Visit to Vietnam since 2023",
+      "link": "https://news.usni.org/2026/07/30/uss-george-washington-arrives-in-da-nang-first-carrier-visit-to-vietnam-since-2023",
+      "published": "Thu, 30 Jul 2026 10:51:52 +0000",
+      "source": "USNI News",
       "categories": [
         "deployment"
       ]
     },
     {
-      "title": "USS George Washington Arrives in Da Nang, First Carrier Visit to Vietnam since 2023",
-      "link": "https://news.usni.org/2026/07/30/uss-george-washington-arrives-in-da-nang-first-carrier-visit-to-vietnam-since-2023",
-      "published": "Thu, 30 Jul 2026 10:51:52 +0000",
-      "source": "USNI News",
+      "title": "Tracking America’s latest conflict: The Iran war timeline",
+      "link": "https://taskandpurpose.com/news/iran-war-timeline/",
+      "published": "Thu, 30 Jul 2026 11:46:10 -0400",
+      "source": "Task & Purpose",
       "categories": [
         "deployment"
       ]
@@ -895,11 +895,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 20,
+    "deployment_articles": 19,
     "conflict_articles": 7,
     "exercise_articles": 1,
     "total_articles": 50,
-    "computed_at": "2026-08-01T05:13:03.268101+00:00",
+    "computed_at": "2026-08-01T07:55:52.513974+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] Japan Tests New Air-Launched Upgraded Type 12 Anti-Ship Missile with 1,000 km Range",
@@ -917,9 +917,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-08-01T05:13:03.268140+00:00",
+    "last_successful_update": "2026-08-01T07:55:52.514024+00:00",
     "article_count": 50,
-    "categorized_count": 25,
+    "categorized_count": 24,
     "freshest_source": "Naval News",
     "freshest_title": "Japan Tests New Air-Launched Upgraded Type 12 Anti-Ship Missile with 1,000 km Range",
     "freshest_published": "Fri, 31 Jul 2026 08:29:47 +0000"
