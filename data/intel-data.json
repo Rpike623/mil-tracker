@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-08-02T20:02:35Z",
-  "version": 2289,
+  "generated_utc": "2026-08-02T21:41:31Z",
+  "version": 2290,
   "breaking_alert": "Naval News: Japan Tests New Air-Launched Upgraded Type 12 Anti-Ship Missile with 1,000 km Range",
   "naval_deployments": [
     {
@@ -675,10 +675,10 @@
       ]
     },
     {
-      "title": "USS George Washington Arrives in Da Nang, First Carrier Visit to Vietnam since 2023",
-      "link": "https://news.usni.org/2026/07/30/uss-george-washington-arrives-in-da-nang-first-carrier-visit-to-vietnam-since-2023",
-      "published": "Thu, 30 Jul 2026 10:51:52 +0000",
-      "source": "USNI News",
+      "title": "Australian steel to support Virginia-class submarine construction",
+      "link": "https://www.navalnews.com/naval-news/2026/08/australian-steel-to-support-virginia-class-submarine-construction/",
+      "published": "Sun, 02 Aug 2026 21:22:35 +0000",
+      "source": "Naval News",
       "categories": [
         "deployment"
       ]
@@ -895,11 +895,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 18,
+    "deployment_articles": 19,
     "conflict_articles": 7,
     "exercise_articles": 1,
     "total_articles": 50,
-    "computed_at": "2026-08-02T20:02:29.199495+00:00",
+    "computed_at": "2026-08-02T21:41:24.717019+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] Japan Tests New Air-Launched Upgraded Type 12 Anti-Ship Missile with 1,000 km Range",
@@ -917,9 +917,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-08-02T20:02:29.199539+00:00",
+    "last_successful_update": "2026-08-02T21:41:24.717067+00:00",
     "article_count": 50,
-    "categorized_count": 23,
+    "categorized_count": 24,
     "freshest_source": "Naval News",
     "freshest_title": "Japan Tests New Air-Launched Upgraded Type 12 Anti-Ship Missile with 1,000 km Range",
     "freshest_published": "Fri, 31 Jul 2026 08:29:47 +0000"
