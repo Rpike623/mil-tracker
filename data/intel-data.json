@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-08-02T22:46:42Z",
-  "version": 2291,
+  "generated_utc": "2026-08-02T23:46:04Z",
+  "version": 2292,
   "breaking_alert": "Naval News: Japan Tests New Air-Launched Upgraded Type 12 Anti-Ship Missile with 1,000 km Range",
   "naval_deployments": [
     {
@@ -675,10 +675,10 @@
       ]
     },
     {
-      "title": "Australian steel to support Virginia-class submarine construction",
-      "link": "https://www.navalnews.com/naval-news/2026/08/australian-steel-to-support-virginia-class-submarine-construction/",
-      "published": "Sun, 02 Aug 2026 21:22:35 +0000",
-      "source": "Naval News",
+      "title": "Navy relieves USS West Virginia submarine commander for ‘loss of confidence’",
+      "link": "https://taskandpurpose.com/news/navy-relieves-uss-west-virginia-joseph-sammur/",
+      "published": "Sun, 02 Aug 2026 19:23:59 -0400",
+      "source": "Task & Purpose",
       "categories": [
         "deployment"
       ]
@@ -899,7 +899,7 @@
     "conflict_articles": 7,
     "exercise_articles": 1,
     "total_articles": 50,
-    "computed_at": "2026-08-02T22:42:01.776268+00:00",
+    "computed_at": "2026-08-02T23:45:58.820451+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] Japan Tests New Air-Launched Upgraded Type 12 Anti-Ship Missile with 1,000 km Range",
@@ -917,7 +917,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-08-02T22:42:01.776314+00:00",
+    "last_successful_update": "2026-08-02T23:45:58.820492+00:00",
     "article_count": 50,
     "categorized_count": 24,
     "freshest_source": "Naval News",
