@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-08-03T05:25:24Z",
-  "version": 2294,
+  "generated_utc": "2026-08-03T08:54:31Z",
+  "version": 2295,
   "breaking_alert": "Naval News: Japan Tests New Air-Launched Upgraded Type 12 Anti-Ship Missile with 1,000 km Range",
   "naval_deployments": [
     {
@@ -899,7 +899,7 @@
     "conflict_articles": 7,
     "exercise_articles": 1,
     "total_articles": 50,
-    "computed_at": "2026-08-03T05:25:19.316128+00:00",
+    "computed_at": "2026-08-03T08:54:28.765971+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] Japan Tests New Air-Launched Upgraded Type 12 Anti-Ship Missile with 1,000 km Range",
@@ -917,7 +917,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-08-03T05:25:19.316177+00:00",
+    "last_successful_update": "2026-08-03T08:54:28.766014+00:00",
     "article_count": 50,
     "categorized_count": 24,
     "freshest_source": "Naval News",
