@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-08-03T15:38:24Z",
-  "version": 2297,
-  "breaking_alert": "USNI News: Chinese Navy Showcases Hypersonic Anti-ship Capability Aboard Destroyers",
+  "generated_utc": "2026-08-03T17:37:46Z",
+  "version": 2298,
+  "breaking_alert": "Naval News: Navantia conducts first dive of 2nd S80 submarine ‘Narciso Monturiol’",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -594,6 +594,24 @@
   ],
   "_naval_news_refs": [
     {
+      "title": "Navantia conducts first dive of 2nd S80 submarine ‘Narciso Monturiol’",
+      "link": "https://www.navalnews.com/naval-news/2026/07/navantia-conducts-first-dive-of-2nd-s80-submarine-narciso-monturiol/",
+      "published": "Fri, 31 Jul 2026 13:02:29 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "New BAE Systems Defence Contract Boosts UK Nuclear Deterrent Submarine Fleet",
+      "link": "https://www.navalnews.com/naval-news/2026/07/new-bae-systems-defence-contract-boosts-uk-nuclear-deterrent-submarine-fleet/",
+      "published": "Fri, 31 Jul 2026 14:30:00 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "Chinese Navy Showcases Hypersonic Anti-ship Capability Aboard Destroyers",
       "link": "https://news.usni.org/2026/07/31/chinese-navy-showcases-hypersonic-anti-ship-capability-aboard-destroyers",
       "published": "Fri, 31 Jul 2026 14:37:48 +0000",
@@ -612,7 +630,7 @@
       ]
     },
     {
-      "title": "Just one in three Americans back Iran war, most unsure of Trump’s goals, poll finds",
+      "title": "Just one in three Americans backs Iran war, most unsure of Trump’s goals, poll finds",
       "link": "https://www.defensenews.com/news/pentagon-congress/2026/07/31/just-one-in-three-americans-back-iran-war-most-unsure-of-trumps-goals-poll-finds/",
       "published": "Fri, 31 Jul 2026 17:33:29 +0000",
       "source": "Defense News",
@@ -621,7 +639,7 @@
       ]
     },
     {
-      "title": "Just one in three Americans back Iran war, most unsure of Trump’s goals, poll finds",
+      "title": "Just one in three Americans backs Iran war, most unsure of Trump’s goals, poll finds",
       "link": "https://www.militarytimes.com/news/pentagon-congress/2026/07/31/just-one-in-three-americans-back-iran-war-most-unsure-of-trumps-goals-poll-finds/",
       "published": "Fri, 31 Jul 2026 17:33:29 +0000",
       "source": "Military Times",
@@ -657,30 +675,13 @@
       ]
     },
     {
-      "title": "Navy fires commanding officer of USS West Virginia",
-      "link": "https://www.militarytimes.com/news/your-navy/2026/08/03/navy-fires-commanding-officer-of-uss-west-virginia/",
-      "published": "Mon, 03 Aug 2026 15:21:43 +0000",
-      "source": "Military Times",
+      "title": "Italian Navy Boards Sanctioned Shadow Fleet Tanker Under Operation IRINI",
+      "link": "https://www.navalnews.com/naval-news/2026/08/italian-navy-boards-sanctioned-shadow-fleet-tanker/",
+      "published": "Mon, 03 Aug 2026 12:22:03 +0000",
+      "source": "Naval News",
       "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Navy relieves USS West Virginia submarine commander for ‘loss of confidence’",
-      "link": "https://taskandpurpose.com/news/navy-relieves-uss-west-virginia-joseph-sammur/",
-      "published": "Sun, 02 Aug 2026 19:23:59 -0400",
-      "source": "Task & Purpose",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "USS George Washington Arrives in Da Nang, First Carrier Visit to Vietnam since 2023",
-      "link": "https://news.usni.org/2026/07/30/uss-george-washington-arrives-in-da-nang-first-carrier-visit-to-vietnam-since-2023",
-      "published": "Thu, 30 Jul 2026 10:51:52 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment"
+        "deployment",
+        "exercise"
       ]
     }
   ],
@@ -845,16 +846,6 @@
       ]
     },
     {
-      "title": "Iran to get Chinese shoulder-launched missile systems in weeks, sources say",
-      "link": "https://www.defensenews.com/industry/techwatch/2026/07/30/iran-to-get-chinese-shoulder-launched-missile-systems-in-weeks-sources-say/",
-      "published": "Thu, 30 Jul 2026 15:33:20 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
       "title": "Iran war depleted US Patriot missile stockpiles, creating readiness challenges, experts say",
       "link": "https://www.defensenews.com/news/your-military/2026/07/30/iran-war-depleted-us-patriot-missile-stockpiles-creating-readiness-challenges-experts-say/",
       "published": "Thu, 30 Jul 2026 17:48:44 +0000",
@@ -867,6 +858,16 @@
   ],
   "_exercise_news_refs": [
     {
+      "title": "Italian Navy Boards Sanctioned Shadow Fleet Tanker Under Operation IRINI",
+      "link": "https://www.navalnews.com/naval-news/2026/08/italian-navy-boards-sanctioned-shadow-fleet-tanker/",
+      "published": "Mon, 03 Aug 2026 12:22:03 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment",
+        "exercise"
+      ]
+    },
+    {
       "title": "Poland readies Ukraine ‘Coalition of Willing’ drills, eyes NATO support for border defense",
       "link": "https://www.defensenews.com/global/europe/2026/08/03/poland-readies-ukraine-coalition-of-willing-drills-eyes-nato-support-for-border-defense/",
       "published": "Mon, 03 Aug 2026 15:05:39 +0000",
@@ -874,21 +875,30 @@
       "categories": [
         "exercise"
       ]
+    },
+    {
+      "title": "Chinese Warships, Bombers Surge to Scarborough Shoal for Drills",
+      "link": "https://news.usni.org/2026/08/03/chinese-warships-bombers-surge-to-scarborough-shoal-for-drills",
+      "published": "Mon, 03 Aug 2026 16:50:38 +0000",
+      "source": "USNI News",
+      "categories": [
+        "exercise"
+      ]
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 16,
-    "conflict_articles": 3,
-    "exercise_articles": 1,
-    "total_articles": 40,
-    "computed_at": "2026-08-03T15:33:43.252787+00:00",
+    "deployment_articles": 21,
+    "conflict_articles": 2,
+    "exercise_articles": 3,
+    "total_articles": 50,
+    "computed_at": "2026-08-03T17:37:43.752611+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
+      "[Naval News] Navantia conducts first dive of 2nd S80 submarine ‘Narciso Monturiol’",
+      "[Naval News] New BAE Systems Defence Contract Boosts UK Nuclear Deterrent Submarine Fleet",
       "[USNI News] Chinese Navy Showcases Hypersonic Anti-ship Capability Aboard Destroyers",
       "[Military Times] Senate Democrats press Pentagon over medical care for troops wounded in Kuwait drone strike",
-      "[Military Times] ‘Good Samaritans’ beware: Scammers ramp up targeting of troops’ goodwill",
-      "[Defense News] Just one in three Americans back Iran war, most unsure of Trump’s goals, poll finds",
-      "[Military Times] Just one in three Americans back Iran war, most unsure of Trump’s goals, poll finds"
+      "[Military Times] ‘Good Samaritans’ beware: Scammers ramp up targeting of troops’ goodwill"
     ]
   },
   "ground_intel": {
@@ -899,12 +909,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-08-03T15:33:43.252838+00:00",
-    "article_count": 40,
-    "categorized_count": 18,
-    "freshest_source": "USNI News",
-    "freshest_title": "Chinese Navy Showcases Hypersonic Anti-ship Capability Aboard Destroyers",
-    "freshest_published": "Fri, 31 Jul 2026 14:37:48 +0000"
+    "last_successful_update": "2026-08-03T17:37:43.752658+00:00",
+    "article_count": 50,
+    "categorized_count": 24,
+    "freshest_source": "Naval News",
+    "freshest_title": "Navantia conducts first dive of 2nd S80 submarine ‘Narciso Monturiol’",
+    "freshest_published": "Fri, 31 Jul 2026 13:02:29 +0000"
   },
   "_firms_hotspots": []
 }
