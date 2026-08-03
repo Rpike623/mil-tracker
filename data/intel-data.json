@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-08-03T17:37:46Z",
-  "version": 2298,
+  "generated_utc": "2026-08-03T19:13:08Z",
+  "version": 2299,
   "breaking_alert": "Naval News: Navantia conducts first dive of 2nd S80 submarine ‘Narciso Monturiol’",
   "naval_deployments": [
     {
@@ -621,28 +621,10 @@
       ]
     },
     {
-      "title": "‘Good Samaritans’ beware: Scammers ramp up targeting of troops’ goodwill",
-      "link": "https://www.militarytimes.com/pay-benefits/mil-money/2026/07/31/good-samaritans-beware-scammers-ramp-up-targeting-of-troops-goodwill/",
-      "published": "Fri, 31 Jul 2026 16:39:26 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Just one in three Americans backs Iran war, most unsure of Trump’s goals, poll finds",
       "link": "https://www.defensenews.com/news/pentagon-congress/2026/07/31/just-one-in-three-americans-back-iran-war-most-unsure-of-trumps-goals-poll-finds/",
       "published": "Fri, 31 Jul 2026 17:33:29 +0000",
       "source": "Defense News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Just one in three Americans backs Iran war, most unsure of Trump’s goals, poll finds",
-      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/07/31/just-one-in-three-americans-back-iran-war-most-unsure-of-trumps-goals-poll-finds/",
-      "published": "Fri, 31 Jul 2026 17:33:29 +0000",
-      "source": "Military Times",
       "categories": [
         "deployment"
       ]
@@ -682,6 +664,24 @@
       "categories": [
         "deployment",
         "exercise"
+      ]
+    },
+    {
+      "title": "Navy fires commanding officer of USS West Virginia",
+      "link": "https://www.militarytimes.com/news/your-navy/2026/08/03/navy-fires-commanding-officer-of-uss-west-virginia/",
+      "published": "Mon, 03 Aug 2026 15:21:43 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "USNI News Fleet and Marine Tracker: Aug. 3, 2026",
+      "link": "https://news.usni.org/2026/08/03/usni-news-fleet-and-marine-tracker-aug-3-2026",
+      "published": "Mon, 03 Aug 2026 15:36:38 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment"
       ]
     }
   ],
@@ -835,27 +835,7 @@
       }
     ]
   },
-  "_conflict_news_refs": [
-    {
-      "title": "Senate Democrats press Pentagon over medical care for troops wounded in Kuwait drone strike",
-      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/07/31/senate-democrats-press-pentagon-over-medical-care-for-troops-wounded-in-kuwait-drone-strike/",
-      "published": "Fri, 31 Jul 2026 16:26:26 +0000",
-      "source": "Military Times",
-      "categories": [
-        "conflict"
-      ]
-    },
-    {
-      "title": "Iran war depleted US Patriot missile stockpiles, creating readiness challenges, experts say",
-      "link": "https://www.defensenews.com/news/your-military/2026/07/30/iran-war-depleted-us-patriot-missile-stockpiles-creating-readiness-challenges-experts-say/",
-      "published": "Thu, 30 Jul 2026 17:48:44 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    }
-  ],
+  "_conflict_news_refs": [],
   "_exercise_news_refs": [
     {
       "title": "Italian Navy Boards Sanctioned Shadow Fleet Tanker Under Operation IRINI",
@@ -887,18 +867,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 21,
-    "conflict_articles": 2,
+    "deployment_articles": 18,
+    "conflict_articles": 0,
     "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-08-03T17:37:43.752611+00:00",
+    "computed_at": "2026-08-03T19:13:04.179479+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] Navantia conducts first dive of 2nd S80 submarine ‘Narciso Monturiol’",
       "[Naval News] New BAE Systems Defence Contract Boosts UK Nuclear Deterrent Submarine Fleet",
       "[USNI News] Chinese Navy Showcases Hypersonic Anti-ship Capability Aboard Destroyers",
-      "[Military Times] Senate Democrats press Pentagon over medical care for troops wounded in Kuwait drone strike",
-      "[Military Times] ‘Good Samaritans’ beware: Scammers ramp up targeting of troops’ goodwill"
+      "[Defense News] Just one in three Americans backs Iran war, most unsure of Trump’s goals, poll finds",
+      "[USNI News] Hormuz Traffic Levels Continue Decreasing, Houthis in Yemen Threaten Saudi Tankers"
     ]
   },
   "ground_intel": {
@@ -909,9 +889,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-08-03T17:37:43.752658+00:00",
+    "last_successful_update": "2026-08-03T19:13:04.179527+00:00",
     "article_count": 50,
-    "categorized_count": 24,
+    "categorized_count": 20,
     "freshest_source": "Naval News",
     "freshest_title": "Navantia conducts first dive of 2nd S80 submarine ‘Narciso Monturiol’",
     "freshest_published": "Fri, 31 Jul 2026 13:02:29 +0000"
