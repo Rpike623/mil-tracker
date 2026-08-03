@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-08-03T12:08:34Z",
-  "version": 2296,
-  "breaking_alert": "Naval News: Japan Tests New Air-Launched Upgraded Type 12 Anti-Ship Missile with 1,000 km Range",
+  "generated_utc": "2026-08-03T15:38:24Z",
+  "version": 2297,
+  "breaking_alert": "USNI News: Chinese Navy Showcases Hypersonic Anti-ship Capability Aboard Destroyers",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -594,24 +594,6 @@
   ],
   "_naval_news_refs": [
     {
-      "title": "Navantia conducts first dive of 2nd S80 submarine ‘Narciso Monturiol’",
-      "link": "https://www.navalnews.com/naval-news/2026/07/navantia-conducts-first-dive-of-2nd-s80-submarine-narciso-monturiol/",
-      "published": "Fri, 31 Jul 2026 13:02:29 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "New BAE Systems Defence Contract Boosts UK Nuclear Deterrent Submarine Fleet",
-      "link": "https://www.navalnews.com/naval-news/2026/07/new-bae-systems-defence-contract-boosts-uk-nuclear-deterrent-submarine-fleet/",
-      "published": "Fri, 31 Jul 2026 14:30:00 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Chinese Navy Showcases Hypersonic Anti-ship Capability Aboard Destroyers",
       "link": "https://news.usni.org/2026/07/31/chinese-navy-showcases-hypersonic-anti-ship-capability-aboard-destroyers",
       "published": "Fri, 31 Jul 2026 14:37:48 +0000",
@@ -666,10 +648,19 @@
       ]
     },
     {
-      "title": "Russia Floats Out Yasen-M-class Nuclear Submarine Ulyanovsk",
-      "link": "https://www.navalnews.com/naval-news/2026/08/russia-floats-out-yasen-m-nuclear-submarine-ulyanovsk/",
-      "published": "Sun, 02 Aug 2026 08:29:07 +0000",
-      "source": "Naval News",
+      "title": "Navy christens new destroyer named for corpsman who earned Medal of Honor",
+      "link": "https://taskandpurpose.com/history/uss-william-charette-christened/",
+      "published": "Mon, 03 Aug 2026 08:53:13 -0400",
+      "source": "Task & Purpose",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Navy fires commanding officer of USS West Virginia",
+      "link": "https://www.militarytimes.com/news/your-navy/2026/08/03/navy-fires-commanding-officer-of-uss-west-virginia/",
+      "published": "Mon, 03 Aug 2026 15:21:43 +0000",
+      "source": "Military Times",
       "categories": [
         "deployment"
       ]
@@ -679,6 +670,15 @@
       "link": "https://taskandpurpose.com/news/navy-relieves-uss-west-virginia-joseph-sammur/",
       "published": "Sun, 02 Aug 2026 19:23:59 -0400",
       "source": "Task & Purpose",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "USS George Washington Arrives in Da Nang, First Carrier Visit to Vietnam since 2023",
+      "link": "https://news.usni.org/2026/07/30/uss-george-washington-arrives-in-da-nang-first-carrier-visit-to-vietnam-since-2023",
+      "published": "Thu, 30 Jul 2026 10:51:52 +0000",
+      "source": "USNI News",
       "categories": [
         "deployment"
       ]
@@ -836,37 +836,10 @@
   },
   "_conflict_news_refs": [
     {
-      "title": "Japan Tests New Air-Launched Upgraded Type 12 Anti-Ship Missile with 1,000 km Range",
-      "link": "https://www.navalnews.com/naval-news/2026/07/japan-tests-air-launched-upgraded-type-12-anti-ship-missile/",
-      "published": "Fri, 31 Jul 2026 08:29:47 +0000",
-      "source": "Naval News",
-      "categories": [
-        "conflict"
-      ]
-    },
-    {
       "title": "Senate Democrats press Pentagon over medical care for troops wounded in Kuwait drone strike",
       "link": "https://www.militarytimes.com/news/pentagon-congress/2026/07/31/senate-democrats-press-pentagon-over-medical-care-for-troops-wounded-in-kuwait-drone-strike/",
       "published": "Fri, 31 Jul 2026 16:26:26 +0000",
       "source": "Military Times",
-      "categories": [
-        "conflict"
-      ]
-    },
-    {
-      "title": "US strikes $58.6 billion Patriot missile deal amid rising stockpile concerns",
-      "link": "https://www.defensenews.com/industry/techwatch/2026/07/30/us-strikes-586-billion-patriot-missile-deal-amid-rising-stockpile-concerns/",
-      "published": "Thu, 30 Jul 2026 13:52:01 +0000",
-      "source": "Defense News",
-      "categories": [
-        "conflict"
-      ]
-    },
-    {
-      "title": "It could take the US military 3 years to restock its missile defenses",
-      "link": "https://taskandpurpose.com/news/iran-missile-interceptors-replenish/",
-      "published": "Thu, 30 Jul 2026 14:45:54 -0400",
-      "source": "Task & Purpose",
       "categories": [
         "conflict"
       ]
@@ -880,33 +853,42 @@
         "deployment",
         "conflict"
       ]
+    },
+    {
+      "title": "Iran war depleted US Patriot missile stockpiles, creating readiness challenges, experts say",
+      "link": "https://www.defensenews.com/news/your-military/2026/07/30/iran-war-depleted-us-patriot-missile-stockpiles-creating-readiness-challenges-experts-say/",
+      "published": "Thu, 30 Jul 2026 17:48:44 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
     }
   ],
   "_exercise_news_refs": [
     {
-      "title": "Review: New wargame captures uncertainty of the American Revolution",
-      "link": "https://www.militarytimes.com/veterans/military-history/2026/07/30/review-new-wargame-captures-uncertainty-of-the-american-revolution/",
-      "published": "Thu, 30 Jul 2026 22:00:00 +0000",
-      "source": "Military Times",
+      "title": "Poland readies Ukraine ‘Coalition of Willing’ drills, eyes NATO support for border defense",
+      "link": "https://www.defensenews.com/global/europe/2026/08/03/poland-readies-ukraine-coalition-of-willing-drills-eyes-nato-support-for-border-defense/",
+      "published": "Mon, 03 Aug 2026 15:05:39 +0000",
+      "source": "Defense News",
       "categories": [
-        "deployment",
         "exercise"
       ]
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 19,
-    "conflict_articles": 7,
+    "deployment_articles": 16,
+    "conflict_articles": 3,
     "exercise_articles": 1,
-    "total_articles": 50,
-    "computed_at": "2026-08-03T12:08:30.656745+00:00",
+    "total_articles": 40,
+    "computed_at": "2026-08-03T15:33:43.252787+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
-      "[Naval News] Japan Tests New Air-Launched Upgraded Type 12 Anti-Ship Missile with 1,000 km Range",
-      "[Naval News] Navantia conducts first dive of 2nd S80 submarine ‘Narciso Monturiol’",
-      "[Naval News] New BAE Systems Defence Contract Boosts UK Nuclear Deterrent Submarine Fleet",
       "[USNI News] Chinese Navy Showcases Hypersonic Anti-ship Capability Aboard Destroyers",
-      "[Military Times] Senate Democrats press Pentagon over medical care for troops wounded in Kuwait drone strike"
+      "[Military Times] Senate Democrats press Pentagon over medical care for troops wounded in Kuwait drone strike",
+      "[Military Times] ‘Good Samaritans’ beware: Scammers ramp up targeting of troops’ goodwill",
+      "[Defense News] Just one in three Americans back Iran war, most unsure of Trump’s goals, poll finds",
+      "[Military Times] Just one in three Americans back Iran war, most unsure of Trump’s goals, poll finds"
     ]
   },
   "ground_intel": {
@@ -917,12 +899,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-08-03T12:08:30.656793+00:00",
-    "article_count": 50,
-    "categorized_count": 24,
-    "freshest_source": "Naval News",
-    "freshest_title": "Japan Tests New Air-Launched Upgraded Type 12 Anti-Ship Missile with 1,000 km Range",
-    "freshest_published": "Fri, 31 Jul 2026 08:29:47 +0000"
+    "last_successful_update": "2026-08-03T15:33:43.252838+00:00",
+    "article_count": 40,
+    "categorized_count": 18,
+    "freshest_source": "USNI News",
+    "freshest_title": "Chinese Navy Showcases Hypersonic Anti-ship Capability Aboard Destroyers",
+    "freshest_published": "Fri, 31 Jul 2026 14:37:48 +0000"
   },
   "_firms_hotspots": []
 }
