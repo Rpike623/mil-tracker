@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-08-04T19:14:23Z",
-  "version": 2311,
-  "breaking_alert": "USNI News: Chinese Navy Showcases Hypersonic Anti-ship Capability Aboard Destroyers",
+  "generated_utc": "2026-08-04T21:03:28Z",
+  "version": 2312,
+  "breaking_alert": "USNI News: Hormuz Traffic Levels Continue Decreasing, Houthis in Yemen Threaten Saudi Tankers",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -594,24 +594,6 @@
   ],
   "_naval_news_refs": [
     {
-      "title": "Chinese Navy Showcases Hypersonic Anti-ship Capability Aboard Destroyers",
-      "link": "https://news.usni.org/2026/07/31/chinese-navy-showcases-hypersonic-anti-ship-capability-aboard-destroyers",
-      "published": "Fri, 31 Jul 2026 14:37:48 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Just one in three Americans backs Iran war, most unsure of Trump’s goals, poll finds",
-      "link": "https://www.defensenews.com/news/pentagon-congress/2026/07/31/just-one-in-three-americans-back-iran-war-most-unsure-of-trumps-goals-poll-finds/",
-      "published": "Fri, 31 Jul 2026 17:33:29 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Hormuz Traffic Levels Continue Decreasing, Houthis in Yemen Threaten Saudi Tankers",
       "link": "https://news.usni.org/2026/07/31/hormuz-traffic-levels-continue-decreasing-houthis-in-yemen-threaten-saudi-tankers",
       "published": "Fri, 31 Jul 2026 19:14:28 +0000",
@@ -679,6 +661,25 @@
       "link": "https://www.militarytimes.com/news/your-navy/2026/08/04/us-navy-is-reclassifying-19-virginia-class-submarines-to-reflect-increased-attack-capabilities/",
       "published": "Tue, 04 Aug 2026 01:42:12 +0000",
       "source": "Military Times",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
+    },
+    {
+      "title": "House Oversight Democrats seek records behind Pentagon changes to Iran war casualty database",
+      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/08/04/house-oversight-democrats-seek-records-behind-pentagon-changes-to-iran-war-casualty-database/",
+      "published": "Tue, 04 Aug 2026 12:00:01 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "US used ‘virtually all’ long-range precision missiles during Iran war, sources say",
+      "link": "https://www.defensenews.com/industry/techwatch/2026/08/04/us-used-virtually-all-long-range-precision-missiles-during-iran-war-sources-say/",
+      "published": "Tue, 04 Aug 2026 13:08:32 +0000",
+      "source": "Defense News",
       "categories": [
         "deployment",
         "conflict"
@@ -874,6 +875,15 @@
       "categories": [
         "conflict"
       ]
+    },
+    {
+      "title": "US Army wants a surface-to-air missile that can destroy small drones",
+      "link": "https://www.defensenews.com/industry/techwatch/2026/08/04/us-army-wants-a-surface-to-air-missile-that-can-destroy-small-drones/",
+      "published": "Tue, 04 Aug 2026 19:29:22 +0000",
+      "source": "Defense News",
+      "categories": [
+        "conflict"
+      ]
     }
   ],
   "_exercise_news_refs": [
@@ -897,18 +907,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 14,
-    "conflict_articles": 4,
+    "deployment_articles": 12,
+    "conflict_articles": 6,
     "exercise_articles": 2,
     "total_articles": 40,
-    "computed_at": "2026-08-04T19:14:17.481131+00:00",
+    "computed_at": "2026-08-04T20:58:47.847604+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
-      "[USNI News] Chinese Navy Showcases Hypersonic Anti-ship Capability Aboard Destroyers",
-      "[Defense News] Just one in three Americans backs Iran war, most unsure of Trump’s goals, poll finds",
       "[USNI News] Hormuz Traffic Levels Continue Decreasing, Houthis in Yemen Threaten Saudi Tankers",
       "[Task & Purpose] Navy christens new destroyer named for corpsman who earned Medal of Honor",
-      "[Defense News] Poland readies Ukraine ‘Coalition of Willing’ drills, eyes NATO support for border defense"
+      "[Defense News] Poland readies Ukraine ‘Coalition of Willing’ drills, eyes NATO support for border defense",
+      "[USNI News] USNI News Fleet and Marine Tracker: Aug. 3, 2026",
+      "[USNI News] Chinese Warships, Bombers Surge to Scarborough Shoal for Drills"
     ]
   },
   "ground_intel": {
@@ -919,12 +929,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-08-04T19:14:17.481178+00:00",
+    "last_successful_update": "2026-08-04T20:58:47.847642+00:00",
     "article_count": 40,
     "categorized_count": 17,
     "freshest_source": "USNI News",
-    "freshest_title": "Chinese Navy Showcases Hypersonic Anti-ship Capability Aboard Destroyers",
-    "freshest_published": "Fri, 31 Jul 2026 14:37:48 +0000"
+    "freshest_title": "Hormuz Traffic Levels Continue Decreasing, Houthis in Yemen Threaten Saudi Tankers",
+    "freshest_published": "Fri, 31 Jul 2026 19:14:28 +0000"
   },
   "_firms_hotspots": []
 }
