@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-08-03T23:56:21Z",
-  "version": 2303,
+  "generated_utc": "2026-08-04T01:24:09Z",
+  "version": 2304,
   "breaking_alert": "Naval News: Navantia conducts first dive of 2nd S80 submarine ‘Narciso Monturiol’",
   "naval_deployments": [
     {
@@ -871,7 +871,7 @@
     "conflict_articles": 0,
     "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-08-03T23:56:16.677887+00:00",
+    "computed_at": "2026-08-04T01:23:58.945246+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] Navantia conducts first dive of 2nd S80 submarine ‘Narciso Monturiol’",
@@ -889,7 +889,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-08-03T23:56:16.677927+00:00",
+    "last_successful_update": "2026-08-04T01:23:58.945293+00:00",
     "article_count": 50,
     "categorized_count": 20,
     "freshest_source": "Naval News",
