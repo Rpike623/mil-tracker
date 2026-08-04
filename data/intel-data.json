@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-08-04T07:28:11Z",
-  "version": 2306,
-  "breaking_alert": "Naval News: Navantia conducts first dive of 2nd S80 submarine ‘Narciso Monturiol’",
+  "generated_utc": "2026-08-04T10:23:18Z",
+  "version": 2307,
+  "breaking_alert": "USNI News: Chinese Navy Showcases Hypersonic Anti-ship Capability Aboard Destroyers",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -594,24 +594,6 @@
   ],
   "_naval_news_refs": [
     {
-      "title": "Navantia conducts first dive of 2nd S80 submarine ‘Narciso Monturiol’",
-      "link": "https://www.navalnews.com/naval-news/2026/07/navantia-conducts-first-dive-of-2nd-s80-submarine-narciso-monturiol/",
-      "published": "Fri, 31 Jul 2026 13:02:29 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "New BAE Systems Defence Contract Boosts UK Nuclear Deterrent Submarine Fleet",
-      "link": "https://www.navalnews.com/naval-news/2026/07/new-bae-systems-defence-contract-boosts-uk-nuclear-deterrent-submarine-fleet/",
-      "published": "Fri, 31 Jul 2026 14:30:00 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Chinese Navy Showcases Hypersonic Anti-ship Capability Aboard Destroyers",
       "link": "https://news.usni.org/2026/07/31/chinese-navy-showcases-hypersonic-anti-ship-capability-aboard-destroyers",
       "published": "Fri, 31 Jul 2026 14:37:48 +0000",
@@ -648,16 +630,6 @@
       ]
     },
     {
-      "title": "Italian Navy Boards Sanctioned Shadow Fleet Tanker Under Operation IRINI",
-      "link": "https://www.navalnews.com/naval-news/2026/08/italian-navy-boards-sanctioned-shadow-fleet-tanker/",
-      "published": "Mon, 03 Aug 2026 12:22:03 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment",
-        "exercise"
-      ]
-    },
-    {
       "title": "USNI News Fleet and Marine Tracker: Aug. 3, 2026",
       "link": "https://news.usni.org/2026/08/03/usni-news-fleet-and-marine-tracker-aug-3-2026",
       "published": "Mon, 03 Aug 2026 15:36:38 +0000",
@@ -680,6 +652,33 @@
       "link": "https://www.militarytimes.com/news/pentagon-congress/2026/08/03/trumps-new-commission-will-target-quality-of-life-for-military-spouses/",
       "published": "Mon, 03 Aug 2026 20:20:14 +0000",
       "source": "Military Times",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "A Last Look at ‘Old Salt’: Former USS Nimitz Sailors Say Goodbye",
+      "link": "https://news.usni.org/2026/08/03/a-last-look-at-old-salt-former-uss-nimitz-sailors-say-goodbye",
+      "published": "Mon, 03 Aug 2026 20:34:08 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Navy relieves USS West Virginia submarine commander for ‘loss of confidence’",
+      "link": "https://taskandpurpose.com/news/navy-relieves-uss-west-virginia-joseph-sammur/",
+      "published": "Sun, 02 Aug 2026 19:23:59 -0400",
+      "source": "Task & Purpose",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Japanese Destroyer Launches Tomahawk for the First Time in Drill with U.S. Navy",
+      "link": "https://news.usni.org/2026/07/30/japanese-destroyer-launches-tomahawk-for-the-first-time-in-drill-with-u-s-navy",
+      "published": "Thu, 30 Jul 2026 19:03:26 +0000",
+      "source": "USNI News",
       "categories": [
         "deployment"
       ]
@@ -849,16 +848,6 @@
   ],
   "_exercise_news_refs": [
     {
-      "title": "Italian Navy Boards Sanctioned Shadow Fleet Tanker Under Operation IRINI",
-      "link": "https://www.navalnews.com/naval-news/2026/08/italian-navy-boards-sanctioned-shadow-fleet-tanker/",
-      "published": "Mon, 03 Aug 2026 12:22:03 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment",
-        "exercise"
-      ]
-    },
-    {
       "title": "Poland readies Ukraine ‘Coalition of Willing’ drills, eyes NATO support for border defense",
       "link": "https://www.defensenews.com/global/europe/2026/08/03/poland-readies-ukraine-coalition-of-willing-drills-eyes-nato-support-for-border-defense/",
       "published": "Mon, 03 Aug 2026 15:05:39 +0000",
@@ -878,18 +867,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 18,
+    "deployment_articles": 13,
     "conflict_articles": 1,
-    "exercise_articles": 3,
-    "total_articles": 50,
-    "computed_at": "2026-08-04T07:28:09.600330+00:00",
+    "exercise_articles": 2,
+    "total_articles": 40,
+    "computed_at": "2026-08-04T10:23:13.256112+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
-      "[Naval News] Navantia conducts first dive of 2nd S80 submarine ‘Narciso Monturiol’",
-      "[Naval News] New BAE Systems Defence Contract Boosts UK Nuclear Deterrent Submarine Fleet",
       "[USNI News] Chinese Navy Showcases Hypersonic Anti-ship Capability Aboard Destroyers",
       "[Defense News] Just one in three Americans backs Iran war, most unsure of Trump’s goals, poll finds",
-      "[USNI News] Hormuz Traffic Levels Continue Decreasing, Houthis in Yemen Threaten Saudi Tankers"
+      "[USNI News] Hormuz Traffic Levels Continue Decreasing, Houthis in Yemen Threaten Saudi Tankers",
+      "[Task & Purpose] Navy christens new destroyer named for corpsman who earned Medal of Honor",
+      "[Defense News] Poland readies Ukraine ‘Coalition of Willing’ drills, eyes NATO support for border defense"
     ]
   },
   "ground_intel": {
@@ -900,12 +889,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-08-04T07:28:09.600376+00:00",
-    "article_count": 50,
-    "categorized_count": 20,
-    "freshest_source": "Naval News",
-    "freshest_title": "Navantia conducts first dive of 2nd S80 submarine ‘Narciso Monturiol’",
-    "freshest_published": "Fri, 31 Jul 2026 13:02:29 +0000"
+    "last_successful_update": "2026-08-04T10:23:13.256162+00:00",
+    "article_count": 40,
+    "categorized_count": 15,
+    "freshest_source": "USNI News",
+    "freshest_title": "Chinese Navy Showcases Hypersonic Anti-ship Capability Aboard Destroyers",
+    "freshest_published": "Fri, 31 Jul 2026 14:37:48 +0000"
   },
   "_firms_hotspots": []
 }
