@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-08-04T12:50:29Z",
-  "version": 2308,
+  "generated_utc": "2026-08-04T15:17:14Z",
+  "version": 2309,
   "breaking_alert": "USNI News: Chinese Navy Showcases Hypersonic Anti-ship Capability Aboard Destroyers",
   "naval_deployments": [
     {
@@ -675,9 +675,9 @@
       ]
     },
     {
-      "title": "Japanese Destroyer Launches Tomahawk for the First Time in Drill with U.S. Navy",
-      "link": "https://news.usni.org/2026/07/30/japanese-destroyer-launches-tomahawk-for-the-first-time-in-drill-with-u-s-navy",
-      "published": "Thu, 30 Jul 2026 19:03:26 +0000",
+      "title": "USS Georgia Completes Final Patrol Ahead of Inactivation, LCS Fort Worth Decommissions",
+      "link": "https://news.usni.org/2026/07/30/uss-georgia-completes-final-patrol-ahead-of-inactivation-lcs-fort-worth-decommissions",
+      "published": "Thu, 30 Jul 2026 19:42:36 +0000",
       "source": "USNI News",
       "categories": [
         "deployment"
@@ -844,6 +844,35 @@
         "deployment",
         "conflict"
       ]
+    },
+    {
+      "title": "US used ‘virtually all’ long-range precision missiles during Iran war, sources say",
+      "link": "https://www.defensenews.com/industry/techwatch/2026/08/04/us-used-virtually-all-long-range-precision-missiles-during-iran-war-sources-say/",
+      "published": "Tue, 04 Aug 2026 13:08:32 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
+    },
+    {
+      "title": "US used ‘virtually all’ long-range precision missiles during Iran war, sources say",
+      "link": "https://www.militarytimes.com/industry/techwatch/2026/08/04/us-used-virtually-all-long-range-precision-missiles-during-iran-war-sources-say/",
+      "published": "Tue, 04 Aug 2026 13:08:32 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
+    },
+    {
+      "title": "Ukraine’s Fire Point starts to integrate European tech into missile defense system",
+      "link": "https://www.defensenews.com/global/europe/2026/08/04/ukraines-fire-point-starts-to-integrate-european-tech-into-missile-defense-system/",
+      "published": "Tue, 04 Aug 2026 13:51:42 +0000",
+      "source": "Defense News",
+      "categories": [
+        "conflict"
+      ]
     }
   ],
   "_exercise_news_refs": [
@@ -868,10 +897,10 @@
   ],
   "_threat_indicators": {
     "deployment_articles": 14,
-    "conflict_articles": 1,
+    "conflict_articles": 4,
     "exercise_articles": 2,
     "total_articles": 40,
-    "computed_at": "2026-08-04T12:50:23.105306+00:00",
+    "computed_at": "2026-08-04T15:12:33.350762+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[USNI News] Chinese Navy Showcases Hypersonic Anti-ship Capability Aboard Destroyers",
@@ -889,9 +918,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-08-04T12:50:23.105377+00:00",
+    "last_successful_update": "2026-08-04T15:12:33.350812+00:00",
     "article_count": 40,
-    "categorized_count": 16,
+    "categorized_count": 17,
     "freshest_source": "USNI News",
     "freshest_title": "Chinese Navy Showcases Hypersonic Anti-ship Capability Aboard Destroyers",
     "freshest_published": "Fri, 31 Jul 2026 14:37:48 +0000"
