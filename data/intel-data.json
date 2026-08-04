@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-08-04T01:24:09Z",
-  "version": 2304,
+  "generated_utc": "2026-08-04T04:55:16Z",
+  "version": 2305,
   "breaking_alert": "Naval News: Navantia conducts first dive of 2nd S80 submarine ‘Narciso Monturiol’",
   "naval_deployments": [
     {
@@ -658,15 +658,6 @@
       ]
     },
     {
-      "title": "Navy fires commanding officer of USS West Virginia",
-      "link": "https://www.militarytimes.com/news/your-navy/2026/08/03/navy-fires-commanding-officer-of-uss-west-virginia/",
-      "published": "Mon, 03 Aug 2026 15:21:43 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "USNI News Fleet and Marine Tracker: Aug. 3, 2026",
       "link": "https://news.usni.org/2026/08/03/usni-news-fleet-and-marine-tracker-aug-3-2026",
       "published": "Mon, 03 Aug 2026 15:36:38 +0000",
@@ -680,6 +671,15 @@
       "link": "https://news.usni.org/2026/08/03/navy-relieves-commander-of-sub-uss-west-virginia",
       "published": "Mon, 03 Aug 2026 20:19:34 +0000",
       "source": "USNI News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Trump’s new commission will target quality of life for military spouses",
+      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/08/03/trumps-new-commission-will-target-quality-of-life-for-military-spouses/",
+      "published": "Mon, 03 Aug 2026 20:20:14 +0000",
+      "source": "Military Times",
       "categories": [
         "deployment"
       ]
@@ -835,7 +835,18 @@
       }
     ]
   },
-  "_conflict_news_refs": [],
+  "_conflict_news_refs": [
+    {
+      "title": "US Navy is reclassifying 19 Virginia-class submarines to reflect increased attack capabilities",
+      "link": "https://www.militarytimes.com/news/your-navy/2026/08/04/us-navy-is-reclassifying-19-virginia-class-submarines-to-reflect-increased-attack-capabilities/",
+      "published": "Tue, 04 Aug 2026 01:42:12 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
+    }
+  ],
   "_exercise_news_refs": [
     {
       "title": "Italian Navy Boards Sanctioned Shadow Fleet Tanker Under Operation IRINI",
@@ -868,10 +879,10 @@
   ],
   "_threat_indicators": {
     "deployment_articles": 18,
-    "conflict_articles": 0,
+    "conflict_articles": 1,
     "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-08-04T01:23:58.945246+00:00",
+    "computed_at": "2026-08-04T04:50:35.559655+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] Navantia conducts first dive of 2nd S80 submarine ‘Narciso Monturiol’",
@@ -889,7 +900,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-08-04T01:23:58.945293+00:00",
+    "last_successful_update": "2026-08-04T04:50:35.559702+00:00",
     "article_count": 50,
     "categorized_count": 20,
     "freshest_source": "Naval News",
