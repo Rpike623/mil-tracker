@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-08-04T10:23:18Z",
-  "version": 2307,
+  "generated_utc": "2026-08-04T12:50:29Z",
+  "version": 2308,
   "breaking_alert": "USNI News: Chinese Navy Showcases Hypersonic Anti-ship Capability Aboard Destroyers",
   "naval_deployments": [
     {
@@ -867,11 +867,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 13,
+    "deployment_articles": 14,
     "conflict_articles": 1,
     "exercise_articles": 2,
     "total_articles": 40,
-    "computed_at": "2026-08-04T10:23:13.256112+00:00",
+    "computed_at": "2026-08-04T12:50:23.105306+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[USNI News] Chinese Navy Showcases Hypersonic Anti-ship Capability Aboard Destroyers",
@@ -889,9 +889,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-08-04T10:23:13.256162+00:00",
+    "last_successful_update": "2026-08-04T12:50:23.105377+00:00",
     "article_count": 40,
-    "categorized_count": 15,
+    "categorized_count": 16,
     "freshest_source": "USNI News",
     "freshest_title": "Chinese Navy Showcases Hypersonic Anti-ship Capability Aboard Destroyers",
     "freshest_published": "Fri, 31 Jul 2026 14:37:48 +0000"
