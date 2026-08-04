@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-08-04T15:17:14Z",
-  "version": 2309,
+  "generated_utc": "2026-08-04T17:26:18Z",
+  "version": 2310,
   "breaking_alert": "USNI News: Chinese Navy Showcases Hypersonic Anti-ship Capability Aboard Destroyers",
   "naval_deployments": [
     {
@@ -675,12 +675,13 @@
       ]
     },
     {
-      "title": "USS Georgia Completes Final Patrol Ahead of Inactivation, LCS Fort Worth Decommissions",
-      "link": "https://news.usni.org/2026/07/30/uss-georgia-completes-final-patrol-ahead-of-inactivation-lcs-fort-worth-decommissions",
-      "published": "Thu, 30 Jul 2026 19:42:36 +0000",
-      "source": "USNI News",
+      "title": "US Navy is reclassifying 19 Virginia-class submarines to reflect increased attack capabilities",
+      "link": "https://www.militarytimes.com/news/your-navy/2026/08/04/us-navy-is-reclassifying-19-virginia-class-submarines-to-reflect-increased-attack-capabilities/",
+      "published": "Tue, 04 Aug 2026 01:42:12 +0000",
+      "source": "Military Times",
       "categories": [
-        "deployment"
+        "deployment",
+        "conflict"
       ]
     }
   ],
@@ -900,7 +901,7 @@
     "conflict_articles": 4,
     "exercise_articles": 2,
     "total_articles": 40,
-    "computed_at": "2026-08-04T15:12:33.350762+00:00",
+    "computed_at": "2026-08-04T17:26:12.836259+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[USNI News] Chinese Navy Showcases Hypersonic Anti-ship Capability Aboard Destroyers",
@@ -918,7 +919,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-08-04T15:12:33.350812+00:00",
+    "last_successful_update": "2026-08-04T17:26:12.836311+00:00",
     "article_count": 40,
     "categorized_count": 17,
     "freshest_source": "USNI News",
