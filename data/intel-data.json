@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-08-05T17:14:57Z",
-  "version": 2321,
-  "breaking_alert": "USNI News: Hormuz Traffic Levels Continue Decreasing, Houthis in Yemen Threaten Saudi Tankers",
+  "generated_utc": "2026-08-05T19:07:44Z",
+  "version": 2322,
+  "breaking_alert": "Task & Purpose: Navy christens new destroyer named for corpsman who earned Medal of Honor",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -594,28 +594,10 @@
   ],
   "_naval_news_refs": [
     {
-      "title": "Hormuz Traffic Levels Continue Decreasing, Houthis in Yemen Threaten Saudi Tankers",
-      "link": "https://news.usni.org/2026/07/31/hormuz-traffic-levels-continue-decreasing-houthis-in-yemen-threaten-saudi-tankers",
-      "published": "Fri, 31 Jul 2026 19:14:28 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Navy christens new destroyer named for corpsman who earned Medal of Honor",
       "link": "https://taskandpurpose.com/history/uss-william-charette-christened/",
       "published": "Mon, 03 Aug 2026 08:53:13 -0400",
       "source": "Task & Purpose",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "USNI News Fleet and Marine Tracker: Aug. 3, 2026",
-      "link": "https://news.usni.org/2026/08/03/usni-news-fleet-and-marine-tracker-aug-3-2026",
-      "published": "Mon, 03 Aug 2026 15:36:38 +0000",
-      "source": "USNI News",
       "categories": [
         "deployment"
       ]
@@ -648,16 +630,6 @@
       ]
     },
     {
-      "title": "US Navy is reclassifying 19 Virginia-class submarines to reflect increased attack capabilities",
-      "link": "https://www.militarytimes.com/news/your-navy/2026/08/04/us-navy-is-reclassifying-19-virginia-class-submarines-to-reflect-increased-attack-capabilities/",
-      "published": "Tue, 04 Aug 2026 01:42:12 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
       "title": "House Oversight Democrats seek records behind Pentagon changes to Iran war casualty database",
       "link": "https://www.militarytimes.com/news/pentagon-congress/2026/08/04/house-oversight-democrats-seek-records-behind-pentagon-changes-to-iran-war-casualty-database/",
       "published": "Tue, 04 Aug 2026 12:00:01 +0000",
@@ -684,6 +656,15 @@
       "categories": [
         "deployment",
         "conflict"
+      ]
+    },
+    {
+      "title": "European Union Naval Task Force Intercepts Suspected Russian Shadow Tanker",
+      "link": "https://news.usni.org/2026/08/04/european-union-naval-task-force-intercepts-suspected-russian-shadow-tanker",
+      "published": "Tue, 04 Aug 2026 15:53:47 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment"
       ]
     }
   ],
@@ -839,16 +820,6 @@
   },
   "_conflict_news_refs": [
     {
-      "title": "US Navy is reclassifying 19 Virginia-class submarines to reflect increased attack capabilities",
-      "link": "https://www.militarytimes.com/news/your-navy/2026/08/04/us-navy-is-reclassifying-19-virginia-class-submarines-to-reflect-increased-attack-capabilities/",
-      "published": "Tue, 04 Aug 2026 01:42:12 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
       "title": "US used ‘virtually all’ long-range precision missiles during Iran war, sources say",
       "link": "https://www.defensenews.com/industry/techwatch/2026/08/04/us-used-virtually-all-long-range-precision-missiles-during-iran-war-sources-say/",
       "published": "Tue, 04 Aug 2026 13:08:32 +0000",
@@ -885,6 +856,15 @@
       "categories": [
         "conflict"
       ]
+    },
+    {
+      "title": "US Army wants a surface-to-air missile that can destroy small drones",
+      "link": "https://www.militarytimes.com/industry/techwatch/2026/08/04/us-army-wants-a-surface-to-air-missile-that-can-destroy-small-drones/",
+      "published": "Tue, 04 Aug 2026 19:29:22 +0000",
+      "source": "Military Times",
+      "categories": [
+        "conflict"
+      ]
     }
   ],
   "_exercise_news_refs": [
@@ -899,18 +879,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 11,
-    "conflict_articles": 6,
+    "deployment_articles": 8,
+    "conflict_articles": 5,
     "exercise_articles": 1,
     "total_articles": 40,
-    "computed_at": "2026-08-05T17:14:50.395759+00:00",
+    "computed_at": "2026-08-05T19:07:42.418909+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
-      "[USNI News] Hormuz Traffic Levels Continue Decreasing, Houthis in Yemen Threaten Saudi Tankers",
       "[Task & Purpose] Navy christens new destroyer named for corpsman who earned Medal of Honor",
-      "[USNI News] USNI News Fleet and Marine Tracker: Aug. 3, 2026",
       "[USNI News] Chinese Warships, Bombers Surge to Scarborough Shoal for Drills",
-      "[USNI News] Navy Relieves Commander of Sub USS West Virginia"
+      "[USNI News] Navy Relieves Commander of Sub USS West Virginia",
+      "[USNI News] A Last Look at ‘Old Salt’: Former USS Nimitz Sailors Say Goodbye",
+      "[Task & Purpose] Navy relieves USS West Virginia submarine commander for ‘loss of confidence’"
     ]
   },
   "ground_intel": {
@@ -921,12 +901,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-08-05T17:14:50.395800+00:00",
+    "last_successful_update": "2026-08-05T19:07:42.418956+00:00",
     "article_count": 40,
-    "categorized_count": 15,
-    "freshest_source": "USNI News",
-    "freshest_title": "Hormuz Traffic Levels Continue Decreasing, Houthis in Yemen Threaten Saudi Tankers",
-    "freshest_published": "Fri, 31 Jul 2026 19:14:28 +0000"
+    "categorized_count": 12,
+    "freshest_source": "Task & Purpose",
+    "freshest_title": "Navy christens new destroyer named for corpsman who earned Medal of Honor",
+    "freshest_published": "Mon, 03 Aug 2026 08:53:13 -0400"
   },
   "_firms_hotspots": []
 }
