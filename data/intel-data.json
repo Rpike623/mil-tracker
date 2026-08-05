@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-08-05T04:50:33Z",
-  "version": 2316,
+  "generated_utc": "2026-08-05T07:28:45Z",
+  "version": 2317,
   "breaking_alert": "USNI News: Hormuz Traffic Levels Continue Decreasing, Houthis in Yemen Threaten Saudi Tankers",
   "naval_deployments": [
     {
@@ -911,7 +911,7 @@
     "conflict_articles": 6,
     "exercise_articles": 2,
     "total_articles": 40,
-    "computed_at": "2026-08-05T04:50:26.957151+00:00",
+    "computed_at": "2026-08-05T07:28:40.749445+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[USNI News] Hormuz Traffic Levels Continue Decreasing, Houthis in Yemen Threaten Saudi Tankers",
@@ -929,7 +929,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-08-05T04:50:26.957197+00:00",
+    "last_successful_update": "2026-08-05T07:28:40.749491+00:00",
     "article_count": 40,
     "categorized_count": 17,
     "freshest_source": "USNI News",
