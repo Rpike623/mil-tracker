@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-08-05T15:04:49Z",
-  "version": 2320,
+  "generated_utc": "2026-08-05T17:14:57Z",
+  "version": 2321,
   "breaking_alert": "USNI News: Hormuz Traffic Levels Continue Decreasing, Houthis in Yemen Threaten Saudi Tankers",
   "naval_deployments": [
     {
@@ -630,15 +630,6 @@
       ]
     },
     {
-      "title": "Trump’s new commission will target quality of life for military spouses",
-      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/08/03/trumps-new-commission-will-target-quality-of-life-for-military-spouses/",
-      "published": "Mon, 03 Aug 2026 20:20:14 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "A Last Look at ‘Old Salt’: Former USS Nimitz Sailors Say Goodbye",
       "link": "https://news.usni.org/2026/08/03/a-last-look-at-old-salt-former-uss-nimitz-sailors-say-goodbye",
       "published": "Mon, 03 Aug 2026 20:34:08 +0000",
@@ -680,6 +671,16 @@
       "link": "https://www.defensenews.com/industry/techwatch/2026/08/04/us-used-virtually-all-long-range-precision-missiles-during-iran-war-sources-say/",
       "published": "Tue, 04 Aug 2026 13:08:32 +0000",
       "source": "Defense News",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
+    },
+    {
+      "title": "US used ‘virtually all’ long-range precision missiles during Iran war, sources say",
+      "link": "https://www.militarytimes.com/industry/techwatch/2026/08/04/us-used-virtually-all-long-range-precision-missiles-during-iran-war-sources-say/",
+      "published": "Tue, 04 Aug 2026 13:08:32 +0000",
+      "source": "Military Times",
       "categories": [
         "deployment",
         "conflict"
@@ -898,11 +899,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 12,
+    "deployment_articles": 11,
     "conflict_articles": 6,
     "exercise_articles": 1,
     "total_articles": 40,
-    "computed_at": "2026-08-05T15:04:43.131874+00:00",
+    "computed_at": "2026-08-05T17:14:50.395759+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[USNI News] Hormuz Traffic Levels Continue Decreasing, Houthis in Yemen Threaten Saudi Tankers",
@@ -920,9 +921,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-08-05T15:04:43.131916+00:00",
+    "last_successful_update": "2026-08-05T17:14:50.395800+00:00",
     "article_count": 40,
-    "categorized_count": 16,
+    "categorized_count": 15,
     "freshest_source": "USNI News",
     "freshest_title": "Hormuz Traffic Levels Continue Decreasing, Houthis in Yemen Threaten Saudi Tankers",
     "freshest_published": "Fri, 31 Jul 2026 19:14:28 +0000"
