@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-08-05T22:02:20Z",
-  "version": 2324,
+  "generated_utc": "2026-08-05T23:43:50Z",
+  "version": 2325,
   "breaking_alert": "Task & Purpose: Navy christens new destroyer named for corpsman who earned Medal of Honor",
   "naval_deployments": [
     {
@@ -630,30 +630,28 @@
       ]
     },
     {
-      "title": "US used ‘virtually all’ long-range precision missiles during Iran war, sources say",
-      "link": "https://www.defensenews.com/industry/techwatch/2026/08/04/us-used-virtually-all-long-range-precision-missiles-during-iran-war-sources-say/",
-      "published": "Tue, 04 Aug 2026 13:08:32 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
-      "title": "US used ‘virtually all’ long-range precision missiles during Iran war, sources say",
-      "link": "https://www.militarytimes.com/industry/techwatch/2026/08/04/us-used-virtually-all-long-range-precision-missiles-during-iran-war-sources-say/",
-      "published": "Tue, 04 Aug 2026 13:08:32 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
       "title": "European Union Naval Task Force Intercepts Suspected Russian Shadow Tanker",
       "link": "https://news.usni.org/2026/08/04/european-union-naval-task-force-intercepts-suspected-russian-shadow-tanker",
       "published": "Tue, 04 Aug 2026 15:53:47 +0000",
       "source": "USNI News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Firestorm Labs builds drones aboard USS Essex without shore resupply",
+      "link": "https://www.defensenews.com/industry/techwatch/2026/08/05/firestorm-labs-builds-drones-aboard-uss-essex-without-shore-resupply/",
+      "published": "Wed, 05 Aug 2026 23:14:31 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Firestorm Labs builds drones aboard USS Essex without shore resupply",
+      "link": "https://www.militarytimes.com/industry/techwatch/2026/08/05/firestorm-labs-builds-drones-aboard-uss-essex-without-shore-resupply/",
+      "published": "Wed, 05 Aug 2026 23:14:31 +0000",
+      "source": "Military Times",
       "categories": [
         "deployment"
       ]
@@ -811,26 +809,6 @@
   },
   "_conflict_news_refs": [
     {
-      "title": "US used ‘virtually all’ long-range precision missiles during Iran war, sources say",
-      "link": "https://www.defensenews.com/industry/techwatch/2026/08/04/us-used-virtually-all-long-range-precision-missiles-during-iran-war-sources-say/",
-      "published": "Tue, 04 Aug 2026 13:08:32 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
-      "title": "US used ‘virtually all’ long-range precision missiles during Iran war, sources say",
-      "link": "https://www.militarytimes.com/industry/techwatch/2026/08/04/us-used-virtually-all-long-range-precision-missiles-during-iran-war-sources-say/",
-      "published": "Tue, 04 Aug 2026 13:08:32 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
       "title": "Ukraine’s Fire Point starts to integrate European tech into missile defense system",
       "link": "https://www.defensenews.com/global/europe/2026/08/04/ukraines-fire-point-starts-to-integrate-european-tech-into-missile-defense-system/",
       "published": "Tue, 04 Aug 2026 13:51:42 +0000",
@@ -871,10 +849,10 @@
   ],
   "_threat_indicators": {
     "deployment_articles": 7,
-    "conflict_articles": 5,
+    "conflict_articles": 3,
     "exercise_articles": 1,
     "total_articles": 40,
-    "computed_at": "2026-08-05T22:02:14.345255+00:00",
+    "computed_at": "2026-08-05T23:43:45.250828+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Task & Purpose] Navy christens new destroyer named for corpsman who earned Medal of Honor",
@@ -892,7 +870,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-08-05T22:02:14.345301+00:00",
+    "last_successful_update": "2026-08-05T23:43:45.250863+00:00",
     "article_count": 40,
     "categorized_count": 11,
     "freshest_source": "Task & Purpose",
