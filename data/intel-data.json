@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-08-05T19:07:44Z",
-  "version": 2322,
+  "generated_utc": "2026-08-05T20:52:27Z",
+  "version": 2323,
   "breaking_alert": "Task & Purpose: Navy christens new destroyer named for corpsman who earned Medal of Honor",
   "naval_deployments": [
     {
@@ -630,15 +630,6 @@
       ]
     },
     {
-      "title": "House Oversight Democrats seek records behind Pentagon changes to Iran war casualty database",
-      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/08/04/house-oversight-democrats-seek-records-behind-pentagon-changes-to-iran-war-casualty-database/",
-      "published": "Tue, 04 Aug 2026 12:00:01 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "US used ‘virtually all’ long-range precision missiles during Iran war, sources say",
       "link": "https://www.defensenews.com/industry/techwatch/2026/08/04/us-used-virtually-all-long-range-precision-missiles-during-iran-war-sources-say/",
       "published": "Tue, 04 Aug 2026 13:08:32 +0000",
@@ -879,11 +870,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 8,
+    "deployment_articles": 7,
     "conflict_articles": 5,
     "exercise_articles": 1,
     "total_articles": 40,
-    "computed_at": "2026-08-05T19:07:42.418909+00:00",
+    "computed_at": "2026-08-05T20:52:23.314397+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Task & Purpose] Navy christens new destroyer named for corpsman who earned Medal of Honor",
@@ -901,9 +892,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-08-05T19:07:42.418956+00:00",
+    "last_successful_update": "2026-08-05T20:52:23.314444+00:00",
     "article_count": 40,
-    "categorized_count": 12,
+    "categorized_count": 11,
     "freshest_source": "Task & Purpose",
     "freshest_title": "Navy christens new destroyer named for corpsman who earned Medal of Honor",
     "freshest_published": "Mon, 03 Aug 2026 08:53:13 -0400"
