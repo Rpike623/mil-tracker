@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-08-06T12:47:30Z",
-  "version": 2330,
+  "generated_utc": "2026-08-06T15:03:12Z",
+  "version": 2331,
   "breaking_alert": "Task & Purpose: Navy christens new destroyer named for corpsman who earned Medal of Honor",
   "naval_deployments": [
     {
@@ -603,15 +603,6 @@
       ]
     },
     {
-      "title": "Navy Relieves Commander of Sub USS West Virginia",
-      "link": "https://news.usni.org/2026/08/03/navy-relieves-commander-of-sub-uss-west-virginia",
-      "published": "Mon, 03 Aug 2026 20:19:34 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "A Last Look at ‘Old Salt’: Former USS Nimitz Sailors Say Goodbye",
       "link": "https://news.usni.org/2026/08/03/a-last-look-at-old-salt-former-uss-nimitz-sailors-say-goodbye",
       "published": "Mon, 03 Aug 2026 20:34:08 +0000",
@@ -809,15 +800,6 @@
   },
   "_conflict_news_refs": [
     {
-      "title": "Ukraine’s Fire Point starts to integrate European tech into missile defense system",
-      "link": "https://www.defensenews.com/global/europe/2026/08/04/ukraines-fire-point-starts-to-integrate-european-tech-into-missile-defense-system/",
-      "published": "Tue, 04 Aug 2026 13:51:42 +0000",
-      "source": "Defense News",
-      "categories": [
-        "conflict"
-      ]
-    },
-    {
       "title": "US Army wants a surface-to-air missile that can destroy small drones",
       "link": "https://www.defensenews.com/industry/techwatch/2026/08/04/us-army-wants-a-surface-to-air-missile-that-can-destroy-small-drones/",
       "published": "Tue, 04 Aug 2026 19:29:22 +0000",
@@ -825,31 +807,32 @@
       "categories": [
         "conflict"
       ]
-    },
+    }
+  ],
+  "_exercise_news_refs": [
     {
-      "title": "US Army wants a surface-to-air missile that can destroy small drones",
-      "link": "https://www.militarytimes.com/industry/techwatch/2026/08/04/us-army-wants-a-surface-to-air-missile-that-can-destroy-small-drones/",
-      "published": "Tue, 04 Aug 2026 19:29:22 +0000",
+      "title": "Senator introduces bill to stop VA from recouping military separation pay from disabled vets",
+      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/08/06/senator-introduces-bill-to-stop-va-from-recouping-military-separation-pay-from-disabled-vets/",
+      "published": "Thu, 06 Aug 2026 14:13:41 +0000",
       "source": "Military Times",
       "categories": [
-        "conflict"
+        "exercise"
       ]
     }
   ],
-  "_exercise_news_refs": [],
   "_threat_indicators": {
-    "deployment_articles": 7,
-    "conflict_articles": 3,
-    "exercise_articles": 0,
+    "deployment_articles": 6,
+    "conflict_articles": 1,
+    "exercise_articles": 1,
     "total_articles": 40,
-    "computed_at": "2026-08-06T12:47:20.828852+00:00",
-    "manual_override": "DEFCON_3",
+    "computed_at": "2026-08-06T15:03:09.152908+00:00",
+    "manual_override": "DEFCON_4",
     "breaking_events": [
       "[Task & Purpose] Navy christens new destroyer named for corpsman who earned Medal of Honor",
-      "[USNI News] Navy Relieves Commander of Sub USS West Virginia",
       "[USNI News] A Last Look at ‘Old Salt’: Former USS Nimitz Sailors Say Goodbye",
       "[Task & Purpose] Navy relieves USS West Virginia submarine commander for ‘loss of confidence’",
-      "[Defense News] Ukraine’s Fire Point starts to integrate European tech into missile defense system"
+      "[Military Times] Senator introduces bill to stop VA from recouping military separation pay from disabled vets",
+      "[USNI News] European Union Naval Task Force Intercepts Suspected Russian Shadow Tanker"
     ]
   },
   "ground_intel": {
@@ -860,9 +843,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-08-06T12:47:20.828895+00:00",
+    "last_successful_update": "2026-08-06T15:03:09.152959+00:00",
     "article_count": 40,
-    "categorized_count": 10,
+    "categorized_count": 8,
     "freshest_source": "Task & Purpose",
     "freshest_title": "Navy christens new destroyer named for corpsman who earned Medal of Honor",
     "freshest_published": "Mon, 03 Aug 2026 08:53:13 -0400"
