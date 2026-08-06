@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-08-06T15:03:12Z",
-  "version": 2331,
+  "generated_utc": "2026-08-06T23:45:49Z",
+  "version": 2332,
   "breaking_alert": "Task & Purpose: Navy christens new destroyer named for corpsman who earned Medal of Honor",
   "naval_deployments": [
     {
@@ -603,19 +603,28 @@
       ]
     },
     {
-      "title": "A Last Look at ‘Old Salt’: Former USS Nimitz Sailors Say Goodbye",
-      "link": "https://news.usni.org/2026/08/03/a-last-look-at-old-salt-former-uss-nimitz-sailors-say-goodbye",
-      "published": "Mon, 03 Aug 2026 20:34:08 +0000",
-      "source": "USNI News",
+      "title": "Iran issues warning to Gulf states: US must desist or you’ll be hit hard",
+      "link": "https://www.defensenews.com/global/mideast-africa/2026/08/06/iran-issues-warning-to-gulf-states-us-must-desist-or-youll-be-hit-hard/",
+      "published": "Thu, 06 Aug 2026 15:27:06 +0000",
+      "source": "Defense News",
       "categories": [
         "deployment"
       ]
     },
     {
-      "title": "Navy relieves USS West Virginia submarine commander for ‘loss of confidence’",
-      "link": "https://taskandpurpose.com/news/navy-relieves-uss-west-virginia-joseph-sammur/",
-      "published": "Sun, 02 Aug 2026 19:23:59 -0400",
-      "source": "Task & Purpose",
+      "title": "Iran issues warning to Gulf states: US must desist or you’ll be hit hard",
+      "link": "https://www.militarytimes.com/global/mideast-africa/2026/08/06/iran-issues-warning-to-gulf-states-us-must-desist-or-youll-be-hit-hard/",
+      "published": "Thu, 06 Aug 2026 15:27:06 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "SOUTHCOM replaces Southern Spear with Western Hemisphere task force targeting criminal networks",
+      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/08/06/southcom-replaces-southern-spear-with-western-hemisphere-task-force-targeting-criminal-networks/",
+      "published": "Thu, 06 Aug 2026 17:22:51 +0000",
+      "source": "Military Times",
       "categories": [
         "deployment"
       ]
@@ -634,15 +643,6 @@
       "link": "https://www.defensenews.com/industry/techwatch/2026/08/05/firestorm-labs-builds-drones-aboard-uss-essex-without-shore-resupply/",
       "published": "Wed, 05 Aug 2026 23:14:31 +0000",
       "source": "Defense News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Firestorm Labs builds drones aboard USS Essex without shore resupply",
-      "link": "https://www.militarytimes.com/industry/techwatch/2026/08/05/firestorm-labs-builds-drones-aboard-uss-essex-without-shore-resupply/",
-      "published": "Wed, 05 Aug 2026 23:14:31 +0000",
-      "source": "Military Times",
       "categories": [
         "deployment"
       ]
@@ -800,6 +800,15 @@
   },
   "_conflict_news_refs": [
     {
+      "title": "U.S. Navy Eyes Advanced Payload Launcher for Future Attack Boats",
+      "link": "https://news.usni.org/2026/08/06/u-s-navy-eyes-advanced-payload-launcher-for-future-attack-boats",
+      "published": "Thu, 06 Aug 2026 20:42:48 +0000",
+      "source": "USNI News",
+      "categories": [
+        "conflict"
+      ]
+    },
+    {
       "title": "US Army wants a surface-to-air missile that can destroy small drones",
       "link": "https://www.defensenews.com/industry/techwatch/2026/08/04/us-army-wants-a-surface-to-air-missile-that-can-destroy-small-drones/",
       "published": "Tue, 04 Aug 2026 19:29:22 +0000",
@@ -818,21 +827,39 @@
       "categories": [
         "exercise"
       ]
+    },
+    {
+      "title": "Special Operations Command wants a 10-pound 5.56mm machine gun",
+      "link": "https://taskandpurpose.com/news/special-operations-machine-gun/",
+      "published": "Thu, 06 Aug 2026 16:50:05 -0400",
+      "source": "Task & Purpose",
+      "categories": [
+        "exercise"
+      ]
+    },
+    {
+      "title": "Marine Corps Establishes Robotics Integration Group, Experiments with Drones in Field Operations",
+      "link": "https://news.usni.org/2026/08/06/marine-corps-establishes-robotics-integration-group-experiments-with-drones-in-field-operations",
+      "published": "Thu, 06 Aug 2026 16:59:54 +0000",
+      "source": "USNI News",
+      "categories": [
+        "exercise"
+      ]
     }
   ],
   "_threat_indicators": {
     "deployment_articles": 6,
-    "conflict_articles": 1,
-    "exercise_articles": 1,
+    "conflict_articles": 2,
+    "exercise_articles": 3,
     "total_articles": 40,
-    "computed_at": "2026-08-06T15:03:09.152908+00:00",
+    "computed_at": "2026-08-06T23:45:47.720851+00:00",
     "manual_override": "DEFCON_4",
     "breaking_events": [
       "[Task & Purpose] Navy christens new destroyer named for corpsman who earned Medal of Honor",
-      "[USNI News] A Last Look at ‘Old Salt’: Former USS Nimitz Sailors Say Goodbye",
-      "[Task & Purpose] Navy relieves USS West Virginia submarine commander for ‘loss of confidence’",
       "[Military Times] Senator introduces bill to stop VA from recouping military separation pay from disabled vets",
-      "[USNI News] European Union Naval Task Force Intercepts Suspected Russian Shadow Tanker"
+      "[Defense News] Iran issues warning to Gulf states: US must desist or you’ll be hit hard",
+      "[Military Times] Iran issues warning to Gulf states: US must desist or you’ll be hit hard",
+      "[Task & Purpose] Special Operations Command wants a 10-pound 5.56mm machine gun"
     ]
   },
   "ground_intel": {
@@ -843,9 +870,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-08-06T15:03:09.152959+00:00",
+    "last_successful_update": "2026-08-06T23:45:47.720897+00:00",
     "article_count": 40,
-    "categorized_count": 8,
+    "categorized_count": 11,
     "freshest_source": "Task & Purpose",
     "freshest_title": "Navy christens new destroyer named for corpsman who earned Medal of Honor",
     "freshest_published": "Mon, 03 Aug 2026 08:53:13 -0400"
