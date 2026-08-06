@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-08-05T23:43:50Z",
-  "version": 2325,
+  "generated_utc": "2026-08-06T01:13:01Z",
+  "version": 2326,
   "breaking_alert": "Task & Purpose: Navy christens new destroyer named for corpsman who earned Medal of Honor",
   "naval_deployments": [
     {
@@ -836,30 +836,20 @@
       ]
     }
   ],
-  "_exercise_news_refs": [
-    {
-      "title": "Chinese Warships, Bombers Surge to Scarborough Shoal for Drills",
-      "link": "https://news.usni.org/2026/08/03/chinese-warships-bombers-surge-to-scarborough-shoal-for-drills",
-      "published": "Mon, 03 Aug 2026 16:50:38 +0000",
-      "source": "USNI News",
-      "categories": [
-        "exercise"
-      ]
-    }
-  ],
+  "_exercise_news_refs": [],
   "_threat_indicators": {
     "deployment_articles": 7,
     "conflict_articles": 3,
-    "exercise_articles": 1,
+    "exercise_articles": 0,
     "total_articles": 40,
-    "computed_at": "2026-08-05T23:43:45.250828+00:00",
+    "computed_at": "2026-08-06T01:12:59.603733+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Task & Purpose] Navy christens new destroyer named for corpsman who earned Medal of Honor",
-      "[USNI News] Chinese Warships, Bombers Surge to Scarborough Shoal for Drills",
       "[USNI News] Navy Relieves Commander of Sub USS West Virginia",
       "[USNI News] A Last Look at ‘Old Salt’: Former USS Nimitz Sailors Say Goodbye",
-      "[Task & Purpose] Navy relieves USS West Virginia submarine commander for ‘loss of confidence’"
+      "[Task & Purpose] Navy relieves USS West Virginia submarine commander for ‘loss of confidence’",
+      "[Defense News] Ukraine’s Fire Point starts to integrate European tech into missile defense system"
     ]
   },
   "ground_intel": {
@@ -870,9 +860,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-08-05T23:43:45.250863+00:00",
+    "last_successful_update": "2026-08-06T01:12:59.603780+00:00",
     "article_count": 40,
-    "categorized_count": 11,
+    "categorized_count": 10,
     "freshest_source": "Task & Purpose",
     "freshest_title": "Navy christens new destroyer named for corpsman who earned Medal of Honor",
     "freshest_published": "Mon, 03 Aug 2026 08:53:13 -0400"
