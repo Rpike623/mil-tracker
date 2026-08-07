@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-08-07T12:33:29Z",
-  "version": 2340,
+  "generated_utc": "2026-08-07T14:02:27Z",
+  "version": 2341,
   "breaking_alert": "Military Times: Senator introduces bill to stop VA from recouping military separation pay from disabled vets",
   "naval_deployments": [
     {
@@ -843,7 +843,7 @@
     "conflict_articles": 2,
     "exercise_articles": 3,
     "total_articles": 40,
-    "computed_at": "2026-08-07T12:33:22.407610+00:00",
+    "computed_at": "2026-08-07T14:02:24.986511+00:00",
     "manual_override": "DEFCON_4",
     "breaking_events": [
       "[Military Times] Senator introduces bill to stop VA from recouping military separation pay from disabled vets",
@@ -861,7 +861,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-08-07T12:33:22.407664+00:00",
+    "last_successful_update": "2026-08-07T14:02:24.986559+00:00",
     "article_count": 40,
     "categorized_count": 10,
     "freshest_source": "Military Times",
