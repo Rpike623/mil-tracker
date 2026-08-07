@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-08-07T14:02:27Z",
-  "version": 2341,
-  "breaking_alert": "Military Times: Senator introduces bill to stop VA from recouping military separation pay from disabled vets",
+  "generated_utc": "2026-08-07T15:40:31Z",
+  "version": 2342,
+  "breaking_alert": "Military Times: Senate confirms new chief of space operations",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -603,28 +603,10 @@
       ]
     },
     {
-      "title": "Iran issues warning to Gulf states: US must desist or you’ll be hit hard",
-      "link": "https://www.militarytimes.com/global/mideast-africa/2026/08/06/iran-issues-warning-to-gulf-states-us-must-desist-or-youll-be-hit-hard/",
-      "published": "Thu, 06 Aug 2026 15:27:06 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "SOUTHCOM replaces Southern Spear with Western Hemisphere task force targeting criminal networks",
       "link": "https://www.militarytimes.com/news/pentagon-congress/2026/08/06/southcom-replaces-southern-spear-with-western-hemisphere-task-force-targeting-criminal-networks/",
       "published": "Thu, 06 Aug 2026 17:22:51 +0000",
       "source": "Military Times",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "European Union Naval Task Force Intercepts Suspected Russian Shadow Tanker",
-      "link": "https://news.usni.org/2026/08/04/european-union-naval-task-force-intercepts-suspected-russian-shadow-tanker",
-      "published": "Tue, 04 Aug 2026 15:53:47 +0000",
-      "source": "USNI News",
       "categories": [
         "deployment"
       ]
@@ -798,22 +780,13 @@
       "categories": [
         "conflict"
       ]
-    },
-    {
-      "title": "US Army wants a surface-to-air missile that can destroy small drones",
-      "link": "https://www.defensenews.com/industry/techwatch/2026/08/04/us-army-wants-a-surface-to-air-missile-that-can-destroy-small-drones/",
-      "published": "Tue, 04 Aug 2026 19:29:22 +0000",
-      "source": "Defense News",
-      "categories": [
-        "conflict"
-      ]
     }
   ],
   "_exercise_news_refs": [
     {
-      "title": "Senator introduces bill to stop VA from recouping military separation pay from disabled vets",
-      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/08/06/senator-introduces-bill-to-stop-va-from-recouping-military-separation-pay-from-disabled-vets/",
-      "published": "Thu, 06 Aug 2026 14:13:41 +0000",
+      "title": "Senate confirms new chief of space operations",
+      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/08/07/senate-confirms-new-chief-of-space-operations/",
+      "published": "Fri, 07 Aug 2026 14:56:39 +0000",
       "source": "Military Times",
       "categories": [
         "exercise"
@@ -839,18 +812,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 5,
-    "conflict_articles": 2,
+    "deployment_articles": 3,
+    "conflict_articles": 1,
     "exercise_articles": 3,
     "total_articles": 40,
-    "computed_at": "2026-08-07T14:02:24.986511+00:00",
+    "computed_at": "2026-08-07T15:40:25.941513+00:00",
     "manual_override": "DEFCON_4",
     "breaking_events": [
-      "[Military Times] Senator introduces bill to stop VA from recouping military separation pay from disabled vets",
+      "[Military Times] Senate confirms new chief of space operations",
       "[Defense News] Iran issues warning to Gulf states: US must desist or you’ll be hit hard",
-      "[Military Times] Iran issues warning to Gulf states: US must desist or you’ll be hit hard",
       "[Task & Purpose] Special Operations Command wants a 10-pound 5.56mm machine gun",
-      "[USNI News] Marine Corps Establishes Robotics Integration Group, Experiments with Drones in Field Operations"
+      "[USNI News] Marine Corps Establishes Robotics Integration Group, Experiments with Drones in Field Operations",
+      "[Military Times] SOUTHCOM replaces Southern Spear with Western Hemisphere task force targeting criminal networks"
     ]
   },
   "ground_intel": {
@@ -861,12 +834,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-08-07T14:02:24.986559+00:00",
+    "last_successful_update": "2026-08-07T15:40:25.941550+00:00",
     "article_count": 40,
-    "categorized_count": 10,
+    "categorized_count": 7,
     "freshest_source": "Military Times",
-    "freshest_title": "Senator introduces bill to stop VA from recouping military separation pay from disabled vets",
-    "freshest_published": "Thu, 06 Aug 2026 14:13:41 +0000"
+    "freshest_title": "Senate confirms new chief of space operations",
+    "freshest_published": "Fri, 07 Aug 2026 14:56:39 +0000"
   },
   "_firms_hotspots": []
 }
