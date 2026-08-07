@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-08-07T06:02:13Z",
-  "version": 2335,
+  "generated_utc": "2026-08-07T08:02:40Z",
+  "version": 2336,
   "breaking_alert": "Task & Purpose: Navy christens new destroyer named for corpsman who earned Medal of Honor",
   "naval_deployments": [
     {
@@ -852,7 +852,7 @@
     "conflict_articles": 2,
     "exercise_articles": 3,
     "total_articles": 40,
-    "computed_at": "2026-08-07T06:02:09.811822+00:00",
+    "computed_at": "2026-08-07T08:02:35.709832+00:00",
     "manual_override": "DEFCON_4",
     "breaking_events": [
       "[Task & Purpose] Navy christens new destroyer named for corpsman who earned Medal of Honor",
@@ -870,7 +870,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-08-07T06:02:09.811855+00:00",
+    "last_successful_update": "2026-08-07T08:02:35.709879+00:00",
     "article_count": 40,
     "categorized_count": 11,
     "freshest_source": "Task & Purpose",
