@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-08-07T18:35:05Z",
-  "version": 2345,
+  "generated_utc": "2026-08-07T19:41:09Z",
+  "version": 2346,
   "breaking_alert": "Military Times: Senate confirms new chief of space operations",
   "naval_deployments": [
     {
@@ -594,6 +594,15 @@
   ],
   "_naval_news_refs": [
     {
+      "title": "70 Ships Trapped in Persian Gulf as Iran-U.S. Conflict Nears Six Months",
+      "link": "https://news.usni.org/2026/08/07/70-ships-trapped-in-persian-gulf-as-iran-u-s-conflict-nears-six-months",
+      "published": "Fri, 07 Aug 2026 18:52:44 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "Iran issues warning to Gulf states: US must desist or you’ll be hit hard",
       "link": "https://www.defensenews.com/global/mideast-africa/2026/08/06/iran-issues-warning-to-gulf-states-us-must-desist-or-youll-be-hit-hard/",
       "published": "Thu, 06 Aug 2026 15:27:06 +0000",
@@ -812,18 +821,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 3,
+    "deployment_articles": 4,
     "conflict_articles": 1,
     "exercise_articles": 3,
     "total_articles": 40,
-    "computed_at": "2026-08-07T18:34:51.972846+00:00",
+    "computed_at": "2026-08-07T19:41:07.159033+00:00",
     "manual_override": "DEFCON_4",
     "breaking_events": [
       "[Military Times] Senate confirms new chief of space operations",
+      "[USNI News] 70 Ships Trapped in Persian Gulf as Iran-U.S. Conflict Nears Six Months",
       "[Defense News] Iran issues warning to Gulf states: US must desist or you’ll be hit hard",
       "[Task & Purpose] Special Operations Command wants a 10-pound 5.56mm machine gun",
-      "[USNI News] Marine Corps Establishes Robotics Integration Group, Experiments with Drones in Field Operations",
-      "[Military Times] SOUTHCOM replaces Southern Spear with Western Hemisphere task force targeting criminal networks"
+      "[USNI News] Marine Corps Establishes Robotics Integration Group, Experiments with Drones in Field Operations"
     ]
   },
   "ground_intel": {
@@ -834,9 +843,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-08-07T18:34:51.972892+00:00",
+    "last_successful_update": "2026-08-07T19:41:07.159076+00:00",
     "article_count": 40,
-    "categorized_count": 7,
+    "categorized_count": 8,
     "freshest_source": "Military Times",
     "freshest_title": "Senate confirms new chief of space operations",
     "freshest_published": "Fri, 07 Aug 2026 14:56:39 +0000"
