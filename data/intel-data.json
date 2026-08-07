@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-08-07T11:35:06Z",
-  "version": 2339,
-  "breaking_alert": "Task & Purpose: Navy christens new destroyer named for corpsman who earned Medal of Honor",
+  "generated_utc": "2026-08-07T12:33:29Z",
+  "version": 2340,
+  "breaking_alert": "Military Times: Senator introduces bill to stop VA from recouping military separation pay from disabled vets",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -594,15 +594,6 @@
   ],
   "_naval_news_refs": [
     {
-      "title": "Navy christens new destroyer named for corpsman who earned Medal of Honor",
-      "link": "https://taskandpurpose.com/history/uss-william-charette-christened/",
-      "published": "Mon, 03 Aug 2026 08:53:13 -0400",
-      "source": "Task & Purpose",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Iran issues warning to Gulf states: US must desist or you’ll be hit hard",
       "link": "https://www.defensenews.com/global/mideast-africa/2026/08/06/iran-issues-warning-to-gulf-states-us-must-desist-or-youll-be-hit-hard/",
       "published": "Thu, 06 Aug 2026 15:27:06 +0000",
@@ -848,18 +839,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 6,
+    "deployment_articles": 5,
     "conflict_articles": 2,
     "exercise_articles": 3,
     "total_articles": 40,
-    "computed_at": "2026-08-07T11:35:03.815077+00:00",
+    "computed_at": "2026-08-07T12:33:22.407610+00:00",
     "manual_override": "DEFCON_4",
     "breaking_events": [
-      "[Task & Purpose] Navy christens new destroyer named for corpsman who earned Medal of Honor",
       "[Military Times] Senator introduces bill to stop VA from recouping military separation pay from disabled vets",
       "[Defense News] Iran issues warning to Gulf states: US must desist or you’ll be hit hard",
       "[Military Times] Iran issues warning to Gulf states: US must desist or you’ll be hit hard",
-      "[Task & Purpose] Special Operations Command wants a 10-pound 5.56mm machine gun"
+      "[Task & Purpose] Special Operations Command wants a 10-pound 5.56mm machine gun",
+      "[USNI News] Marine Corps Establishes Robotics Integration Group, Experiments with Drones in Field Operations"
     ]
   },
   "ground_intel": {
@@ -870,12 +861,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-08-07T11:35:03.815126+00:00",
+    "last_successful_update": "2026-08-07T12:33:22.407664+00:00",
     "article_count": 40,
-    "categorized_count": 11,
-    "freshest_source": "Task & Purpose",
-    "freshest_title": "Navy christens new destroyer named for corpsman who earned Medal of Honor",
-    "freshest_published": "Mon, 03 Aug 2026 08:53:13 -0400"
+    "categorized_count": 10,
+    "freshest_source": "Military Times",
+    "freshest_title": "Senator introduces bill to stop VA from recouping military separation pay from disabled vets",
+    "freshest_published": "Thu, 06 Aug 2026 14:13:41 +0000"
   },
   "_firms_hotspots": []
 }
