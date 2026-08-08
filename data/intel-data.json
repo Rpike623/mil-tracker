@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-08-08T22:14:18Z",
-  "version": 2371,
+  "generated_utc": "2026-08-08T23:14:51Z",
+  "version": 2372,
   "breaking_alert": "Military Times: Senate confirms new chief of space operations",
   "naval_deployments": [
     {
@@ -603,7 +603,7 @@
       ]
     },
     {
-      "title": "Sailors on the USS Abraham Lincoln dealing with poor conditions, weak morale, families say",
+      "title": "Sailors on the USS Abraham Lincoln reportedly dealing with poor conditions, weak morale, families say",
       "link": "https://taskandpurpose.com/news/uss-abraham-lincoln-conditions-sailors/",
       "published": "Sat, 08 Aug 2026 15:36:59 -0400",
       "source": "Task & Purpose",
@@ -834,12 +834,12 @@
     "conflict_articles": 1,
     "exercise_articles": 3,
     "total_articles": 40,
-    "computed_at": "2026-08-08T22:14:07.971586+00:00",
+    "computed_at": "2026-08-08T23:14:48.942624+00:00",
     "manual_override": "DEFCON_4",
     "breaking_events": [
       "[Military Times] Senate confirms new chief of space operations",
       "[USNI News] 70 Ships Trapped in Persian Gulf as Iran-U.S. Conflict Nears Six Months",
-      "[Task & Purpose] Sailors on the USS Abraham Lincoln dealing with poor conditions, weak morale, families say",
+      "[Task & Purpose] Sailors on the USS Abraham Lincoln reportedly dealing with poor conditions, weak morale, families say",
       "[Defense News] Iran issues warning to Gulf states: US must desist or you’ll be hit hard",
       "[Task & Purpose] Special Operations Command wants a 10-pound 5.56mm machine gun"
     ]
@@ -852,7 +852,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-08-08T22:14:07.971634+00:00",
+    "last_successful_update": "2026-08-08T23:14:48.942671+00:00",
     "article_count": 40,
     "categorized_count": 9,
     "freshest_source": "Military Times",
