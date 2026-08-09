@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-08-09T22:15:48Z",
-  "version": 2393,
+  "generated_utc": "2026-08-09T23:17:13Z",
+  "version": 2394,
   "breaking_alert": "Military Times: Senate confirms new chief of space operations",
   "naval_deployments": [
     {
@@ -612,6 +612,15 @@
       ]
     },
     {
+      "title": "Marines can now hit targets 20 kilometers away with new FPV drones",
+      "link": "https://taskandpurpose.com/news/marines-fpv-drones-korea/",
+      "published": "Sun, 09 Aug 2026 18:50:08 -0400",
+      "source": "Task & Purpose",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "Iran issues warning to Gulf states: US must desist or you’ll be hit hard",
       "link": "https://www.defensenews.com/global/mideast-africa/2026/08/06/iran-issues-warning-to-gulf-states-us-must-desist-or-youll-be-hit-hard/",
       "published": "Thu, 06 Aug 2026 15:27:06 +0000",
@@ -830,18 +839,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 5,
+    "deployment_articles": 6,
     "conflict_articles": 1,
     "exercise_articles": 3,
     "total_articles": 40,
-    "computed_at": "2026-08-09T22:15:46.375049+00:00",
+    "computed_at": "2026-08-09T23:17:09.849089+00:00",
     "manual_override": "DEFCON_4",
     "breaking_events": [
       "[Military Times] Senate confirms new chief of space operations",
       "[USNI News] 70 Ships Trapped in Persian Gulf as Iran-U.S. Conflict Nears Six Months",
       "[Task & Purpose] Sailors on the USS Abraham Lincoln reportedly dealing with poor conditions, weak morale, families say",
-      "[Defense News] Iran issues warning to Gulf states: US must desist or you’ll be hit hard",
-      "[Task & Purpose] Special Operations Command wants a 10-pound 5.56mm machine gun"
+      "[Task & Purpose] Marines can now hit targets 20 kilometers away with new FPV drones",
+      "[Defense News] Iran issues warning to Gulf states: US must desist or you’ll be hit hard"
     ]
   },
   "ground_intel": {
@@ -852,9 +861,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-08-09T22:15:46.375094+00:00",
+    "last_successful_update": "2026-08-09T23:17:09.849127+00:00",
     "article_count": 40,
-    "categorized_count": 9,
+    "categorized_count": 10,
     "freshest_source": "Military Times",
     "freshest_title": "Senate confirms new chief of space operations",
     "freshest_published": "Fri, 07 Aug 2026 14:56:39 +0000"
