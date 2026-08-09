@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-08-09T13:38:42Z",
-  "version": 2384,
+  "generated_utc": "2026-08-09T14:21:31Z",
+  "version": 2385,
   "breaking_alert": "Military Times: Senate confirms new chief of space operations",
   "naval_deployments": [
     {
@@ -834,7 +834,7 @@
     "conflict_articles": 1,
     "exercise_articles": 3,
     "total_articles": 40,
-    "computed_at": "2026-08-09T13:38:29.878778+00:00",
+    "computed_at": "2026-08-09T14:21:28.176478+00:00",
     "manual_override": "DEFCON_4",
     "breaking_events": [
       "[Military Times] Senate confirms new chief of space operations",
@@ -852,7 +852,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-08-09T13:38:29.878822+00:00",
+    "last_successful_update": "2026-08-09T14:21:28.176525+00:00",
     "article_count": 40,
     "categorized_count": 9,
     "freshest_source": "Military Times",
