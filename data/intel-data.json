@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-08-10T15:50:17Z",
-  "version": 2404,
+  "generated_utc": "2026-08-10T16:39:14Z",
+  "version": 2405,
   "breaking_alert": "Naval News: PT PAL Cuts First Steel for Indonesia’s Scorpène Evolved Submarine",
   "naval_deployments": [
     {
@@ -854,6 +854,15 @@
       ]
     },
     {
+      "title": "Marines Learn to 3D Print Raiding Craft, Attack Drones in the Western Pacific",
+      "link": "https://news.usni.org/2026/08/10/marines-learn-to-3d-print-raiding-craft-attack-drones-in-the-western-pacific",
+      "published": "Mon, 10 Aug 2026 16:25:29 +0000",
+      "source": "USNI News",
+      "categories": [
+        "conflict"
+      ]
+    },
+    {
       "title": "U.S. Navy Eyes Advanced Payload Launcher for Future Attack Boats",
       "link": "https://news.usni.org/2026/08/06/u-s-navy-eyes-advanced-payload-launcher-for-future-attack-boats",
       "published": "Thu, 06 Aug 2026 20:42:48 +0000",
@@ -864,15 +873,6 @@
     }
   ],
   "_exercise_news_refs": [
-    {
-      "title": "Senate confirms new Chief of Space Operations",
-      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/08/07/senate-confirms-new-chief-of-space-operations/",
-      "published": "Fri, 07 Aug 2026 14:56:39 +0000",
-      "source": "Military Times",
-      "categories": [
-        "exercise"
-      ]
-    },
     {
       "title": "“MATRA” The Digital Power Behind Dynamic Maritime Operations",
       "link": "https://www.navalnews.com/naval-news/2026/08/matra-the-digital-power-behind-dynamic-maritime-operations/",
@@ -903,17 +903,17 @@
   ],
   "_threat_indicators": {
     "deployment_articles": 10,
-    "conflict_articles": 3,
-    "exercise_articles": 4,
+    "conflict_articles": 4,
+    "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-08-10T15:45:36.722350+00:00",
+    "computed_at": "2026-08-10T16:38:51.292722+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] PT PAL Cuts First Steel for Indonesia’s Scorpène Evolved Submarine",
-      "[Military Times] Senate confirms new Chief of Space Operations",
       "[USNI News] 70 Ships Trapped in Persian Gulf as Iran-U.S. Conflict Nears Six Months",
       "[Naval News] Spain’s Naval Aviation Crossroads: The F-35B, the Harrier, and a Capability Gap",
-      "[Task & Purpose] The Army wants to replace the Stinger missile"
+      "[Task & Purpose] The Army wants to replace the Stinger missile",
+      "[Task & Purpose] Navy destroyer returns home after Caribbean, Iran war deployments"
     ]
   },
   "ground_intel": {
@@ -924,7 +924,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-08-10T15:45:36.722396+00:00",
+    "last_successful_update": "2026-08-10T16:38:51.292755+00:00",
     "article_count": 50,
     "categorized_count": 17,
     "freshest_source": "Naval News",
