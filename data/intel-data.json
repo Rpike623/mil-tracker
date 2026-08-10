@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-08-10T16:39:14Z",
-  "version": 2405,
+  "generated_utc": "2026-08-10T17:40:44Z",
+  "version": 2406,
   "breaking_alert": "Naval News: PT PAL Cuts First Steel for Indonesia’s Scorpène Evolved Submarine",
   "naval_deployments": [
     {
@@ -657,6 +657,15 @@
       ]
     },
     {
+      "title": "USNI News Fleet and Marine Tracker: Aug. 10, 2026",
+      "link": "https://news.usni.org/2026/08/10/usni-news-fleet-and-marine-tracker-aug-10-2026",
+      "published": "Mon, 10 Aug 2026 17:28:48 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "Sailors on the USS Abraham Lincoln reportedly dealing with poor conditions, weak morale, families say",
       "link": "https://taskandpurpose.com/news/uss-abraham-lincoln-conditions-sailors/",
       "published": "Sat, 08 Aug 2026 15:36:59 -0400",
@@ -670,15 +679,6 @@
       "link": "https://taskandpurpose.com/news/marines-fpv-drones-korea/",
       "published": "Sun, 09 Aug 2026 18:50:08 -0400",
       "source": "Task & Purpose",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Iran issues warning to Gulf states: US must desist or you’ll be hit hard",
-      "link": "https://www.defensenews.com/global/mideast-africa/2026/08/06/iran-issues-warning-to-gulf-states-us-must-desist-or-youll-be-hit-hard/",
-      "published": "Thu, 06 Aug 2026 15:27:06 +0000",
-      "source": "Defense News",
       "categories": [
         "deployment"
       ]
@@ -902,11 +902,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 10,
+    "deployment_articles": 11,
     "conflict_articles": 4,
     "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-08-10T16:38:51.292722+00:00",
+    "computed_at": "2026-08-10T17:40:38.668922+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] PT PAL Cuts First Steel for Indonesia’s Scorpène Evolved Submarine",
@@ -924,9 +924,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-08-10T16:38:51.292755+00:00",
+    "last_successful_update": "2026-08-10T17:40:38.668970+00:00",
     "article_count": 50,
-    "categorized_count": 17,
+    "categorized_count": 18,
     "freshest_source": "Naval News",
     "freshest_title": "PT PAL Cuts First Steel for Indonesia’s Scorpène Evolved Submarine",
     "freshest_published": "Fri, 07 Aug 2026 08:30:35 +0000"
