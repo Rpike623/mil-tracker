@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-08-10T20:27:51Z",
-  "version": 2409,
+  "generated_utc": "2026-08-10T21:28:52Z",
+  "version": 2410,
   "breaking_alert": "Naval News: PT PAL Cuts First Steel for Indonesia’s Scorpène Evolved Submarine",
   "naval_deployments": [
     {
@@ -864,10 +864,19 @@
       ]
     },
     {
-      "title": "U.S. Navy Eyes Advanced Payload Launcher for Future Attack Boats",
-      "link": "https://news.usni.org/2026/08/06/u-s-navy-eyes-advanced-payload-launcher-for-future-attack-boats",
-      "published": "Thu, 06 Aug 2026 20:42:48 +0000",
-      "source": "USNI News",
+      "title": "DARPA developing hypersonic cruise missile to evade enemy air defenses",
+      "link": "https://www.defensenews.com/industry/techwatch/2026/08/10/darpa-developing-hypersonic-cruise-missile-to-evade-enemy-air-defenses/",
+      "published": "Mon, 10 Aug 2026 20:54:38 +0000",
+      "source": "Defense News",
+      "categories": [
+        "conflict"
+      ]
+    },
+    {
+      "title": "DARPA developing hypersonic cruise missile to evade enemy air defenses",
+      "link": "https://www.militarytimes.com/industry/techwatch/2026/08/10/darpa-developing-hypersonic-cruise-missile-to-evade-enemy-air-defenses/",
+      "published": "Mon, 10 Aug 2026 20:54:38 +0000",
+      "source": "Military Times",
       "categories": [
         "conflict"
       ]
@@ -879,6 +888,16 @@
       "link": "https://news.usni.org/2026/08/10/chinese-army-drones-target-unmanned-surface-vessels-in-exercises",
       "published": "Mon, 10 Aug 2026 18:59:56 +0000",
       "source": "USNI News",
+      "categories": [
+        "deployment",
+        "exercise"
+      ]
+    },
+    {
+      "title": "USS Thomas Hudner returns home from Operation Epic Fury, Southern Spear deployments",
+      "link": "https://www.militarytimes.com/news/your-navy/2026/08/10/uss-thomas-hudner-returns-home-from-operation-epic-fury-southern-spear-deployments/",
+      "published": "Mon, 10 Aug 2026 20:42:16 +0000",
+      "source": "Military Times",
       "categories": [
         "deployment",
         "exercise"
@@ -913,11 +932,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 12,
-    "conflict_articles": 4,
-    "exercise_articles": 4,
+    "deployment_articles": 13,
+    "conflict_articles": 6,
+    "exercise_articles": 5,
     "total_articles": 50,
-    "computed_at": "2026-08-10T20:27:44.441225+00:00",
+    "computed_at": "2026-08-10T21:28:49.571849+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] PT PAL Cuts First Steel for Indonesia’s Scorpène Evolved Submarine",
@@ -935,9 +954,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-08-10T20:27:44.441267+00:00",
+    "last_successful_update": "2026-08-10T21:28:49.571892+00:00",
     "article_count": 50,
-    "categorized_count": 19,
+    "categorized_count": 22,
     "freshest_source": "Naval News",
     "freshest_title": "PT PAL Cuts First Steel for Indonesia’s Scorpène Evolved Submarine",
     "freshest_published": "Fri, 07 Aug 2026 08:30:35 +0000"
