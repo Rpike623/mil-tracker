@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-08-10T11:38:28Z",
-  "version": 2401,
+  "generated_utc": "2026-08-10T12:42:03Z",
+  "version": 2402,
   "breaking_alert": "Naval News: PT PAL Cuts First Steel for Indonesia’s Scorpène Evolved Submarine",
   "naval_deployments": [
     {
@@ -657,16 +657,6 @@
       ]
     },
     {
-      "title": "Belgian MQ-9Bs deployed in the Mediterranean Sea in support of NATO operations",
-      "link": "https://www.navalnews.com/naval-news/2026/08/belgian-mq-9bs-deployed-in-the-mediterranean-sea-in-support-of-nato-operations/",
-      "published": "Wed, 05 Aug 2026 13:42:47 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment",
-        "exercise"
-      ]
-    },
-    {
       "title": "Firestorm Labs builds drones aboard USS Essex without shore resupply",
       "link": "https://www.defensenews.com/industry/techwatch/2026/08/05/firestorm-labs-builds-drones-aboard-uss-essex-without-shore-resupply/",
       "published": "Wed, 05 Aug 2026 23:14:31 +0000",
@@ -828,6 +818,15 @@
   },
   "_conflict_news_refs": [
     {
+      "title": "The Army wants to replace the Stinger missile",
+      "link": "https://taskandpurpose.com/news/army-stinger-missile-replacement/",
+      "published": "Mon, 10 Aug 2026 08:00:00 -0400",
+      "source": "Task & Purpose",
+      "categories": [
+        "conflict"
+      ]
+    },
+    {
       "title": "U.S. Navy Eyes Advanced Payload Launcher for Future Attack Boats",
       "link": "https://news.usni.org/2026/08/06/u-s-navy-eyes-advanced-payload-launcher-for-future-attack-boats",
       "published": "Thu, 06 Aug 2026 20:42:48 +0000",
@@ -875,29 +874,28 @@
       ]
     },
     {
-      "title": "Belgian MQ-9Bs deployed in the Mediterranean Sea in support of NATO operations",
-      "link": "https://www.navalnews.com/naval-news/2026/08/belgian-mq-9bs-deployed-in-the-mediterranean-sea-in-support-of-nato-operations/",
-      "published": "Wed, 05 Aug 2026 13:42:47 +0000",
+      "title": "Indonesian Navy Debuts Kamikaze USV During Major Exercise",
+      "link": "https://www.navalnews.com/naval-news/2026/08/indonesian-navy-debuts-kamikaze-usv-during-major-exercise/",
+      "published": "Wed, 05 Aug 2026 20:07:31 +0000",
       "source": "Naval News",
       "categories": [
-        "deployment",
         "exercise"
       ]
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 9,
-    "conflict_articles": 1,
-    "exercise_articles": 6,
+    "deployment_articles": 8,
+    "conflict_articles": 2,
+    "exercise_articles": 5,
     "total_articles": 50,
-    "computed_at": "2026-08-10T11:38:23.006944+00:00",
+    "computed_at": "2026-08-10T12:37:22.857377+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] PT PAL Cuts First Steel for Indonesia’s Scorpène Evolved Submarine",
       "[Military Times] Senate confirms new Chief of Space Operations",
       "[USNI News] 70 Ships Trapped in Persian Gulf as Iran-U.S. Conflict Nears Six Months",
       "[Naval News] Spain’s Naval Aviation Crossroads: The F-35B, the Harrier, and a Capability Gap",
-      "[Task & Purpose] Sailors on the USS Abraham Lincoln reportedly dealing with poor conditions, weak morale, families say"
+      "[Task & Purpose] The Army wants to replace the Stinger missile"
     ]
   },
   "ground_intel": {
@@ -908,7 +906,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-08-10T11:38:23.006988+00:00",
+    "last_successful_update": "2026-08-10T12:37:22.857426+00:00",
     "article_count": 50,
     "categorized_count": 15,
     "freshest_source": "Naval News",
