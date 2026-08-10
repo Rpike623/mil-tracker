@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-08-10T19:45:03Z",
-  "version": 2408,
+  "generated_utc": "2026-08-10T20:27:51Z",
+  "version": 2409,
   "breaking_alert": "Naval News: PT PAL Cuts First Steel for Indonesia’s Scorpène Evolved Submarine",
   "naval_deployments": [
     {
@@ -648,15 +648,6 @@
       ]
     },
     {
-      "title": "US Navy tests AI-powered submarine hunter",
-      "link": "https://www.militarytimes.com/industry/techwatch/2026/08/10/us-navy-tests-ai-powered-submarine-hunter/",
-      "published": "Mon, 10 Aug 2026 15:01:39 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "USNI News Fleet and Marine Tracker: Aug. 10, 2026",
       "link": "https://news.usni.org/2026/08/10/usni-news-fleet-and-marine-tracker-aug-10-2026",
       "published": "Mon, 10 Aug 2026 17:28:48 +0000",
@@ -680,6 +671,15 @@
       "link": "https://www.defensenews.com/news/your-military/2026/08/10/uss-theodore-roosevelt-becomes-first-carrier-with-built-in-unmanned-air-warfare-center/",
       "published": "Mon, 10 Aug 2026 19:39:58 +0000",
       "source": "Defense News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "USS Theodore Roosevelt becomes first carrier with built-in Unmanned Air Warfare Center",
+      "link": "https://www.militarytimes.com/news/your-military/2026/08/10/uss-theodore-roosevelt-becomes-first-carrier-with-built-in-unmanned-air-warfare-center/",
+      "published": "Mon, 10 Aug 2026 19:39:58 +0000",
+      "source": "Military Times",
       "categories": [
         "deployment"
       ]
@@ -917,7 +917,7 @@
     "conflict_articles": 4,
     "exercise_articles": 4,
     "total_articles": 50,
-    "computed_at": "2026-08-10T19:44:53.252173+00:00",
+    "computed_at": "2026-08-10T20:27:44.441225+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] PT PAL Cuts First Steel for Indonesia’s Scorpène Evolved Submarine",
@@ -935,7 +935,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-08-10T19:44:53.252211+00:00",
+    "last_successful_update": "2026-08-10T20:27:44.441267+00:00",
     "article_count": 50,
     "categorized_count": 19,
     "freshest_source": "Naval News",
