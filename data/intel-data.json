@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-08-10T18:38:16Z",
-  "version": 2407,
+  "generated_utc": "2026-08-10T19:45:03Z",
+  "version": 2408,
   "breaking_alert": "Naval News: PT PAL Cuts First Steel for Indonesia’s Scorpène Evolved Submarine",
   "naval_deployments": [
     {
@@ -666,19 +666,20 @@
       ]
     },
     {
-      "title": "Sailors on the USS Abraham Lincoln reportedly dealing with poor conditions, weak morale, families say",
-      "link": "https://taskandpurpose.com/news/uss-abraham-lincoln-conditions-sailors/",
-      "published": "Sat, 08 Aug 2026 15:36:59 -0400",
-      "source": "Task & Purpose",
+      "title": "Chinese Army Drones Target Unmanned Surface Vessels in Exercises",
+      "link": "https://news.usni.org/2026/08/10/chinese-army-drones-target-unmanned-surface-vessels-in-exercises",
+      "published": "Mon, 10 Aug 2026 18:59:56 +0000",
+      "source": "USNI News",
       "categories": [
-        "deployment"
+        "deployment",
+        "exercise"
       ]
     },
     {
-      "title": "Marines can now hit targets 20 kilometers away with new FPV drones",
-      "link": "https://taskandpurpose.com/news/marines-fpv-drones-korea/",
-      "published": "Sun, 09 Aug 2026 18:50:08 -0400",
-      "source": "Task & Purpose",
+      "title": "USS Theodore Roosevelt becomes first carrier with built-in Unmanned Air Warfare Center",
+      "link": "https://www.defensenews.com/news/your-military/2026/08/10/uss-theodore-roosevelt-becomes-first-carrier-with-built-in-unmanned-air-warfare-center/",
+      "published": "Mon, 10 Aug 2026 19:39:58 +0000",
+      "source": "Defense News",
       "categories": [
         "deployment"
       ]
@@ -874,6 +875,16 @@
   ],
   "_exercise_news_refs": [
     {
+      "title": "Chinese Army Drones Target Unmanned Surface Vessels in Exercises",
+      "link": "https://news.usni.org/2026/08/10/chinese-army-drones-target-unmanned-surface-vessels-in-exercises",
+      "published": "Mon, 10 Aug 2026 18:59:56 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment",
+        "exercise"
+      ]
+    },
+    {
       "title": "“MATRA” The Digital Power Behind Dynamic Maritime Operations",
       "link": "https://www.navalnews.com/naval-news/2026/08/matra-the-digital-power-behind-dynamic-maritime-operations/",
       "published": "Thu, 06 Aug 2026 13:39:28 +0000",
@@ -902,11 +913,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 10,
+    "deployment_articles": 12,
     "conflict_articles": 4,
-    "exercise_articles": 3,
+    "exercise_articles": 4,
     "total_articles": 50,
-    "computed_at": "2026-08-10T18:38:09.928100+00:00",
+    "computed_at": "2026-08-10T19:44:53.252173+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] PT PAL Cuts First Steel for Indonesia’s Scorpène Evolved Submarine",
@@ -924,9 +935,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-08-10T18:38:09.928137+00:00",
+    "last_successful_update": "2026-08-10T19:44:53.252211+00:00",
     "article_count": 50,
-    "categorized_count": 17,
+    "categorized_count": 19,
     "freshest_source": "Naval News",
     "freshest_title": "PT PAL Cuts First Steel for Indonesia’s Scorpène Evolved Submarine",
     "freshest_published": "Fri, 07 Aug 2026 08:30:35 +0000"
