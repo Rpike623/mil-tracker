@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-08-10T14:09:20Z",
-  "version": 2403,
+  "generated_utc": "2026-08-10T15:50:17Z",
+  "version": 2404,
   "breaking_alert": "Naval News: PT PAL Cuts First Steel for Indonesia’s Scorpène Evolved Submarine",
   "naval_deployments": [
     {
@@ -630,6 +630,33 @@
       ]
     },
     {
+      "title": "Tracking America’s latest conflict: The Iran war timeline",
+      "link": "https://taskandpurpose.com/news/iran-war-timeline/",
+      "published": "Mon, 10 Aug 2026 11:10:26 -0400",
+      "source": "Task & Purpose",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "US Navy tests AI-powered submarine hunter",
+      "link": "https://www.defensenews.com/industry/techwatch/2026/08/10/us-navy-tests-ai-powered-submarine-hunter/",
+      "published": "Mon, 10 Aug 2026 15:01:39 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "US Navy tests AI-powered submarine hunter",
+      "link": "https://www.militarytimes.com/industry/techwatch/2026/08/10/us-navy-tests-ai-powered-submarine-hunter/",
+      "published": "Mon, 10 Aug 2026 15:01:39 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "Sailors on the USS Abraham Lincoln reportedly dealing with poor conditions, weak morale, families say",
       "link": "https://taskandpurpose.com/news/uss-abraham-lincoln-conditions-sailors/",
       "published": "Sat, 08 Aug 2026 15:36:59 -0400",
@@ -856,15 +883,6 @@
       ]
     },
     {
-      "title": "Special Operations Command wants a 10-pound 5.56mm machine gun",
-      "link": "https://taskandpurpose.com/news/special-operations-machine-gun/",
-      "published": "Thu, 06 Aug 2026 16:50:05 -0400",
-      "source": "Task & Purpose",
-      "categories": [
-        "exercise"
-      ]
-    },
-    {
       "title": "Marine Corps Establishes Robotics Integration Group, Experiments with Drones in Field Operations",
       "link": "https://news.usni.org/2026/08/06/marine-corps-establishes-robotics-integration-group-experiments-with-drones-in-field-operations",
       "published": "Thu, 06 Aug 2026 16:59:54 +0000",
@@ -884,11 +902,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 7,
+    "deployment_articles": 10,
     "conflict_articles": 3,
-    "exercise_articles": 5,
+    "exercise_articles": 4,
     "total_articles": 50,
-    "computed_at": "2026-08-10T14:09:14.145706+00:00",
+    "computed_at": "2026-08-10T15:45:36.722350+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] PT PAL Cuts First Steel for Indonesia’s Scorpène Evolved Submarine",
@@ -906,9 +924,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-08-10T14:09:14.145751+00:00",
+    "last_successful_update": "2026-08-10T15:45:36.722396+00:00",
     "article_count": 50,
-    "categorized_count": 15,
+    "categorized_count": 17,
     "freshest_source": "Naval News",
     "freshest_title": "PT PAL Cuts First Steel for Indonesia’s Scorpène Evolved Submarine",
     "freshest_published": "Fri, 07 Aug 2026 08:30:35 +0000"
