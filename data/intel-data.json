@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-08-10T12:42:03Z",
-  "version": 2402,
+  "generated_utc": "2026-08-10T14:09:20Z",
+  "version": 2403,
   "breaking_alert": "Naval News: PT PAL Cuts First Steel for Indonesia’s Scorpène Evolved Submarine",
   "naval_deployments": [
     {
@@ -621,6 +621,15 @@
       ]
     },
     {
+      "title": "Navy destroyer returns home after Caribbean, Iran war deployments",
+      "link": "https://taskandpurpose.com/news/u-ss-thomas-hudner-returns-home-carribean-iran/",
+      "published": "Mon, 10 Aug 2026 10:00:00 -0400",
+      "source": "Task & Purpose",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "Sailors on the USS Abraham Lincoln reportedly dealing with poor conditions, weak morale, families say",
       "link": "https://taskandpurpose.com/news/uss-abraham-lincoln-conditions-sailors/",
       "published": "Sat, 08 Aug 2026 15:36:59 -0400",
@@ -642,24 +651,6 @@
       "title": "Iran issues warning to Gulf states: US must desist or you’ll be hit hard",
       "link": "https://www.defensenews.com/global/mideast-africa/2026/08/06/iran-issues-warning-to-gulf-states-us-must-desist-or-youll-be-hit-hard/",
       "published": "Thu, 06 Aug 2026 15:27:06 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "SOUTHCOM replaces Southern Spear with Western Hemisphere task force targeting criminal networks",
-      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/08/06/southcom-replaces-southern-spear-with-western-hemisphere-task-force-targeting-criminal-networks/",
-      "published": "Thu, 06 Aug 2026 17:22:51 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Firestorm Labs builds drones aboard USS Essex without shore resupply",
-      "link": "https://www.defensenews.com/industry/techwatch/2026/08/05/firestorm-labs-builds-drones-aboard-uss-essex-without-shore-resupply/",
-      "published": "Wed, 05 Aug 2026 23:14:31 +0000",
       "source": "Defense News",
       "categories": [
         "deployment"
@@ -827,6 +818,15 @@
       ]
     },
     {
+      "title": "Australia to buy sophisticated US air-to-air missiles",
+      "link": "https://www.defensenews.com/global/asia-pacific/2026/08/10/australia-to-buy-sophisticated-us-air-to-air-missiles/",
+      "published": "Mon, 10 Aug 2026 12:49:37 +0000",
+      "source": "Defense News",
+      "categories": [
+        "conflict"
+      ]
+    },
+    {
       "title": "U.S. Navy Eyes Advanced Payload Launcher for Future Attack Boats",
       "link": "https://news.usni.org/2026/08/06/u-s-navy-eyes-advanced-payload-launcher-for-future-attack-boats",
       "published": "Thu, 06 Aug 2026 20:42:48 +0000",
@@ -884,11 +884,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 8,
-    "conflict_articles": 2,
+    "deployment_articles": 7,
+    "conflict_articles": 3,
     "exercise_articles": 5,
     "total_articles": 50,
-    "computed_at": "2026-08-10T12:37:22.857377+00:00",
+    "computed_at": "2026-08-10T14:09:14.145706+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] PT PAL Cuts First Steel for Indonesia’s Scorpène Evolved Submarine",
@@ -906,7 +906,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-08-10T12:37:22.857426+00:00",
+    "last_successful_update": "2026-08-10T14:09:14.145751+00:00",
     "article_count": 50,
     "categorized_count": 15,
     "freshest_source": "Naval News",
