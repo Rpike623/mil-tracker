@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-08-10T07:01:55Z",
-  "version": 2398,
-  "breaking_alert": "Military Times: Senate confirms new Chief of Space Operations",
+  "generated_utc": "2026-08-10T09:02:46Z",
+  "version": 2399,
+  "breaking_alert": "Naval News: PT PAL Cuts First Steel for Indonesia’s Scorpène Evolved Submarine",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -594,10 +594,28 @@
   ],
   "_naval_news_refs": [
     {
+      "title": "PT PAL Cuts First Steel for Indonesia’s Scorpène Evolved Submarine",
+      "link": "https://www.navalnews.com/naval-news/2026/08/pt-pal-cuts-first-steel-for-indonesias-scorpene-evolved-submarine/",
+      "published": "Fri, 07 Aug 2026 08:30:35 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "70 Ships Trapped in Persian Gulf as Iran-U.S. Conflict Nears Six Months",
       "link": "https://news.usni.org/2026/08/07/70-ships-trapped-in-persian-gulf-as-iran-u-s-conflict-nears-six-months",
       "published": "Fri, 07 Aug 2026 18:52:44 +0000",
       "source": "USNI News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Spain’s Naval Aviation Crossroads: The F-35B, the Harrier, and a Capability Gap",
+      "link": "https://www.navalnews.com/naval-news/2026/08/spains-naval-aviation-crossroads-f35b-harrier-capability-gap/",
+      "published": "Mon, 10 Aug 2026 07:36:12 +0000",
+      "source": "Naval News",
       "categories": [
         "deployment"
       ]
@@ -636,6 +654,16 @@
       "source": "Military Times",
       "categories": [
         "deployment"
+      ]
+    },
+    {
+      "title": "Belgian MQ-9Bs deployed in the Mediterranean Sea in support of NATO operations",
+      "link": "https://www.navalnews.com/naval-news/2026/08/belgian-mq-9bs-deployed-in-the-mediterranean-sea-in-support-of-nato-operations/",
+      "published": "Wed, 05 Aug 2026 13:42:47 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment",
+        "exercise"
       ]
     },
     {
@@ -820,6 +848,15 @@
       ]
     },
     {
+      "title": "“MATRA” The Digital Power Behind Dynamic Maritime Operations",
+      "link": "https://www.navalnews.com/naval-news/2026/08/matra-the-digital-power-behind-dynamic-maritime-operations/",
+      "published": "Thu, 06 Aug 2026 13:39:28 +0000",
+      "source": "Naval News",
+      "categories": [
+        "exercise"
+      ]
+    },
+    {
       "title": "Special Operations Command wants a 10-pound 5.56mm machine gun",
       "link": "https://taskandpurpose.com/news/special-operations-machine-gun/",
       "published": "Thu, 06 Aug 2026 16:50:05 -0400",
@@ -836,21 +873,31 @@
       "categories": [
         "exercise"
       ]
+    },
+    {
+      "title": "Belgian MQ-9Bs deployed in the Mediterranean Sea in support of NATO operations",
+      "link": "https://www.navalnews.com/naval-news/2026/08/belgian-mq-9bs-deployed-in-the-mediterranean-sea-in-support-of-nato-operations/",
+      "published": "Wed, 05 Aug 2026 13:42:47 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment",
+        "exercise"
+      ]
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 6,
+    "deployment_articles": 9,
     "conflict_articles": 1,
-    "exercise_articles": 3,
-    "total_articles": 40,
-    "computed_at": "2026-08-10T07:01:47.885658+00:00",
-    "manual_override": "DEFCON_4",
+    "exercise_articles": 6,
+    "total_articles": 50,
+    "computed_at": "2026-08-10T09:02:39.195288+00:00",
+    "manual_override": "DEFCON_3",
     "breaking_events": [
+      "[Naval News] PT PAL Cuts First Steel for Indonesia’s Scorpène Evolved Submarine",
       "[Military Times] Senate confirms new Chief of Space Operations",
       "[USNI News] 70 Ships Trapped in Persian Gulf as Iran-U.S. Conflict Nears Six Months",
-      "[Task & Purpose] Sailors on the USS Abraham Lincoln reportedly dealing with poor conditions, weak morale, families say",
-      "[Task & Purpose] Marines can now hit targets 20 kilometers away with new FPV drones",
-      "[Defense News] Iran issues warning to Gulf states: US must desist or you’ll be hit hard"
+      "[Naval News] Spain’s Naval Aviation Crossroads: The F-35B, the Harrier, and a Capability Gap",
+      "[Task & Purpose] Sailors on the USS Abraham Lincoln reportedly dealing with poor conditions, weak morale, families say"
     ]
   },
   "ground_intel": {
@@ -861,12 +908,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-08-10T07:01:47.885701+00:00",
-    "article_count": 40,
-    "categorized_count": 10,
-    "freshest_source": "Military Times",
-    "freshest_title": "Senate confirms new Chief of Space Operations",
-    "freshest_published": "Fri, 07 Aug 2026 14:56:39 +0000"
+    "last_successful_update": "2026-08-10T09:02:39.195337+00:00",
+    "article_count": 50,
+    "categorized_count": 15,
+    "freshest_source": "Naval News",
+    "freshest_title": "PT PAL Cuts First Steel for Indonesia’s Scorpène Evolved Submarine",
+    "freshest_published": "Fri, 07 Aug 2026 08:30:35 +0000"
   },
   "_firms_hotspots": []
 }
