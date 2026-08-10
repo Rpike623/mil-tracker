@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-08-10T21:28:52Z",
-  "version": 2410,
+  "generated_utc": "2026-08-10T22:23:01Z",
+  "version": 2411,
   "breaking_alert": "Naval News: PT PAL Cuts First Steel for Indonesia’s Scorpène Evolved Submarine",
   "naval_deployments": [
     {
@@ -846,15 +846,6 @@
       ]
     },
     {
-      "title": "Australia to buy sophisticated US air-to-air missiles",
-      "link": "https://www.defensenews.com/global/asia-pacific/2026/08/10/australia-to-buy-sophisticated-us-air-to-air-missiles/",
-      "published": "Mon, 10 Aug 2026 12:49:37 +0000",
-      "source": "Defense News",
-      "categories": [
-        "conflict"
-      ]
-    },
-    {
       "title": "Marines Learn to 3D Print Raiding Craft, Attack Drones in the Western Pacific",
       "link": "https://news.usni.org/2026/08/10/marines-learn-to-3d-print-raiding-craft-attack-drones-in-the-western-pacific",
       "published": "Mon, 10 Aug 2026 16:25:29 +0000",
@@ -877,6 +868,15 @@
       "link": "https://www.militarytimes.com/industry/techwatch/2026/08/10/darpa-developing-hypersonic-cruise-missile-to-evade-enemy-air-defenses/",
       "published": "Mon, 10 Aug 2026 20:54:38 +0000",
       "source": "Military Times",
+      "categories": [
+        "conflict"
+      ]
+    },
+    {
+      "title": "U.S. Navy Eyes Advanced Payload Launcher for Future Attack Boats",
+      "link": "https://news.usni.org/2026/08/06/u-s-navy-eyes-advanced-payload-launcher-for-future-attack-boats",
+      "published": "Thu, 06 Aug 2026 20:42:48 +0000",
+      "source": "USNI News",
       "categories": [
         "conflict"
       ]
@@ -933,10 +933,10 @@
   ],
   "_threat_indicators": {
     "deployment_articles": 13,
-    "conflict_articles": 6,
+    "conflict_articles": 5,
     "exercise_articles": 5,
     "total_articles": 50,
-    "computed_at": "2026-08-10T21:28:49.571849+00:00",
+    "computed_at": "2026-08-10T22:22:56.024353+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] PT PAL Cuts First Steel for Indonesia’s Scorpène Evolved Submarine",
@@ -954,9 +954,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-08-10T21:28:49.571892+00:00",
+    "last_successful_update": "2026-08-10T22:22:56.024396+00:00",
     "article_count": 50,
-    "categorized_count": 22,
+    "categorized_count": 21,
     "freshest_source": "Naval News",
     "freshest_title": "PT PAL Cuts First Steel for Indonesia’s Scorpène Evolved Submarine",
     "freshest_published": "Fri, 07 Aug 2026 08:30:35 +0000"
