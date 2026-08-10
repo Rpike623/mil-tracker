@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-08-10T03:07:46Z",
-  "version": 2396,
-  "breaking_alert": "Military Times: Senate confirms new chief of space operations",
+  "generated_utc": "2026-08-10T05:17:03Z",
+  "version": 2397,
+  "breaking_alert": "Military Times: Senate confirms new Chief of Space Operations",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -811,7 +811,7 @@
   ],
   "_exercise_news_refs": [
     {
-      "title": "Senate confirms new chief of space operations",
+      "title": "Senate confirms new Chief of Space Operations",
       "link": "https://www.militarytimes.com/news/pentagon-congress/2026/08/07/senate-confirms-new-chief-of-space-operations/",
       "published": "Fri, 07 Aug 2026 14:56:39 +0000",
       "source": "Military Times",
@@ -843,10 +843,10 @@
     "conflict_articles": 1,
     "exercise_articles": 3,
     "total_articles": 40,
-    "computed_at": "2026-08-10T03:03:05.235153+00:00",
+    "computed_at": "2026-08-10T05:12:22.854054+00:00",
     "manual_override": "DEFCON_4",
     "breaking_events": [
-      "[Military Times] Senate confirms new chief of space operations",
+      "[Military Times] Senate confirms new Chief of Space Operations",
       "[USNI News] 70 Ships Trapped in Persian Gulf as Iran-U.S. Conflict Nears Six Months",
       "[Task & Purpose] Sailors on the USS Abraham Lincoln reportedly dealing with poor conditions, weak morale, families say",
       "[Task & Purpose] Marines can now hit targets 20 kilometers away with new FPV drones",
@@ -861,11 +861,11 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-08-10T03:03:05.235195+00:00",
+    "last_successful_update": "2026-08-10T05:12:22.854090+00:00",
     "article_count": 40,
     "categorized_count": 10,
     "freshest_source": "Military Times",
-    "freshest_title": "Senate confirms new chief of space operations",
+    "freshest_title": "Senate confirms new Chief of Space Operations",
     "freshest_published": "Fri, 07 Aug 2026 14:56:39 +0000"
   },
   "_firms_hotspots": []
