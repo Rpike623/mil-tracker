@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-08-11T12:34:43Z",
-  "version": 2423,
+  "generated_utc": "2026-08-11T14:09:07Z",
+  "version": 2424,
   "breaking_alert": "Naval News: PT PAL Cuts First Steel for Indonesia’s Scorpène Evolved Submarine",
   "naval_deployments": [
     {
@@ -913,10 +913,10 @@
       ]
     },
     {
-      "title": "Marine Corps Establishes Robotics Integration Group, Experiments with Drones in Field Operations",
-      "link": "https://news.usni.org/2026/08/06/marine-corps-establishes-robotics-integration-group-experiments-with-drones-in-field-operations",
-      "published": "Thu, 06 Aug 2026 16:59:54 +0000",
-      "source": "USNI News",
+      "title": "Special operations airman pulls man from burning car",
+      "link": "https://taskandpurpose.com/news/airman-car-fire-rescue/",
+      "published": "Tue, 11 Aug 2026 09:49:55 -0400",
+      "source": "Task & Purpose",
       "categories": [
         "exercise"
       ]
@@ -927,7 +927,7 @@
     "conflict_articles": 5,
     "exercise_articles": 4,
     "total_articles": 50,
-    "computed_at": "2026-08-11T12:34:32.986375+00:00",
+    "computed_at": "2026-08-11T14:08:59.680624+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] PT PAL Cuts First Steel for Indonesia’s Scorpène Evolved Submarine",
@@ -945,7 +945,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-08-11T12:34:32.986422+00:00",
+    "last_successful_update": "2026-08-11T14:08:59.680673+00:00",
     "article_count": 50,
     "categorized_count": 21,
     "freshest_source": "Naval News",
