@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-08-11T06:41:29Z",
-  "version": 2417,
+  "generated_utc": "2026-08-11T07:59:40Z",
+  "version": 2418,
   "breaking_alert": "Naval News: PT PAL Cuts First Steel for Indonesia’s Scorpène Evolved Submarine",
   "naval_deployments": [
     {
@@ -920,23 +920,14 @@
       "categories": [
         "exercise"
       ]
-    },
-    {
-      "title": "Indonesian Navy Debuts Kamikaze USV During Major Exercise",
-      "link": "https://www.navalnews.com/naval-news/2026/08/indonesian-navy-debuts-kamikaze-usv-during-major-exercise/",
-      "published": "Wed, 05 Aug 2026 20:07:31 +0000",
-      "source": "Naval News",
-      "categories": [
-        "exercise"
-      ]
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 13,
+    "deployment_articles": 14,
     "conflict_articles": 5,
-    "exercise_articles": 5,
+    "exercise_articles": 4,
     "total_articles": 50,
-    "computed_at": "2026-08-11T06:41:21.704257+00:00",
+    "computed_at": "2026-08-11T07:59:33.952692+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] PT PAL Cuts First Steel for Indonesia’s Scorpène Evolved Submarine",
@@ -954,7 +945,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-08-11T06:41:21.704305+00:00",
+    "last_successful_update": "2026-08-11T07:59:33.952739+00:00",
     "article_count": 50,
     "categorized_count": 21,
     "freshest_source": "Naval News",
