@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-08-11T14:09:07Z",
-  "version": 2424,
+  "generated_utc": "2026-08-11T15:49:44Z",
+  "version": 2425,
   "breaking_alert": "Naval News: PT PAL Cuts First Steel for Indonesia’s Scorpène Evolved Submarine",
   "naval_deployments": [
     {
@@ -904,15 +904,6 @@
       ]
     },
     {
-      "title": "“MATRA” The Digital Power Behind Dynamic Maritime Operations",
-      "link": "https://www.navalnews.com/naval-news/2026/08/matra-the-digital-power-behind-dynamic-maritime-operations/",
-      "published": "Thu, 06 Aug 2026 13:39:28 +0000",
-      "source": "Naval News",
-      "categories": [
-        "exercise"
-      ]
-    },
-    {
       "title": "Special operations airman pulls man from burning car",
       "link": "https://taskandpurpose.com/news/airman-car-fire-rescue/",
       "published": "Tue, 11 Aug 2026 09:49:55 -0400",
@@ -924,10 +915,10 @@
   ],
   "_threat_indicators": {
     "deployment_articles": 14,
-    "conflict_articles": 5,
-    "exercise_articles": 4,
+    "conflict_articles": 7,
+    "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-08-11T14:08:59.680624+00:00",
+    "computed_at": "2026-08-11T15:45:03.481484+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] PT PAL Cuts First Steel for Indonesia’s Scorpène Evolved Submarine",
@@ -945,9 +936,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-08-11T14:08:59.680673+00:00",
+    "last_successful_update": "2026-08-11T15:45:03.481529+00:00",
     "article_count": 50,
-    "categorized_count": 21,
+    "categorized_count": 22,
     "freshest_source": "Naval News",
     "freshest_title": "PT PAL Cuts First Steel for Indonesia’s Scorpène Evolved Submarine",
     "freshest_published": "Fri, 07 Aug 2026 08:30:35 +0000"
