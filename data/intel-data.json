@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-08-11T20:30:34Z",
-  "version": 2430,
+  "generated_utc": "2026-08-11T21:32:31Z",
+  "version": 2431,
   "breaking_alert": "Naval News: PT PAL Cuts First Steel for Indonesia’s Scorpène Evolved Submarine",
   "naval_deployments": [
     {
@@ -899,7 +899,7 @@
     "conflict_articles": 4,
     "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-08-11T20:30:30.663111+00:00",
+    "computed_at": "2026-08-11T21:32:20.558946+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] PT PAL Cuts First Steel for Indonesia’s Scorpène Evolved Submarine",
@@ -917,7 +917,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-08-11T20:30:30.663148+00:00",
+    "last_successful_update": "2026-08-11T21:32:20.558985+00:00",
     "article_count": 50,
     "categorized_count": 17,
     "freshest_source": "Naval News",
