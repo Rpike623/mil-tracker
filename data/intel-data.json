@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-08-11T15:49:44Z",
-  "version": 2425,
+  "generated_utc": "2026-08-11T16:42:21Z",
+  "version": 2426,
   "breaking_alert": "Naval News: PT PAL Cuts First Steel for Indonesia’s Scorpène Evolved Submarine",
   "naval_deployments": [
     {
@@ -676,12 +676,13 @@
       ]
     },
     {
-      "title": "USS Theodore Roosevelt becomes first carrier with built-in Unmanned Air Warfare Center",
-      "link": "https://www.militarytimes.com/news/your-military/2026/08/10/uss-theodore-roosevelt-becomes-first-carrier-with-built-in-unmanned-air-warfare-center/",
-      "published": "Mon, 10 Aug 2026 19:39:58 +0000",
+      "title": "USS Thomas Hudner returns home from Operation Epic Fury, Southern Spear deployments",
+      "link": "https://www.militarytimes.com/news/your-navy/2026/08/10/uss-thomas-hudner-returns-home-from-operation-epic-fury-southern-spear-deployments/",
+      "published": "Mon, 10 Aug 2026 20:42:16 +0000",
       "source": "Military Times",
       "categories": [
-        "deployment"
+        "deployment",
+        "exercise"
       ]
     }
   ],
@@ -873,10 +874,10 @@
       ]
     },
     {
-      "title": "U.S. Navy Eyes Advanced Payload Launcher for Future Attack Boats",
-      "link": "https://news.usni.org/2026/08/06/u-s-navy-eyes-advanced-payload-launcher-for-future-attack-boats",
-      "published": "Thu, 06 Aug 2026 20:42:48 +0000",
-      "source": "USNI News",
+      "title": "Lockheed Martin launches modular missile tech with dedicated ‘storefront’",
+      "link": "https://www.defensenews.com/news/your-military/2026/08/11/lockheed-martin-launches-modular-missile-tech-with-dedicated-storefront/",
+      "published": "Tue, 11 Aug 2026 14:38:29 +0000",
+      "source": "Defense News",
       "categories": [
         "conflict"
       ]
@@ -914,11 +915,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 14,
-    "conflict_articles": 7,
+    "deployment_articles": 13,
+    "conflict_articles": 6,
     "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-08-11T15:45:03.481484+00:00",
+    "computed_at": "2026-08-11T16:42:15.024028+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] PT PAL Cuts First Steel for Indonesia’s Scorpène Evolved Submarine",
@@ -936,9 +937,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-08-11T15:45:03.481529+00:00",
+    "last_successful_update": "2026-08-11T16:42:15.024075+00:00",
     "article_count": 50,
-    "categorized_count": 22,
+    "categorized_count": 20,
     "freshest_source": "Naval News",
     "freshest_title": "PT PAL Cuts First Steel for Indonesia’s Scorpène Evolved Submarine",
     "freshest_published": "Fri, 07 Aug 2026 08:30:35 +0000"
