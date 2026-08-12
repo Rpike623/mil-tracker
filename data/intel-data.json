@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-08-12T14:09:56Z",
-  "version": 2443,
+  "generated_utc": "2026-08-12T15:45:28Z",
+  "version": 2444,
   "breaking_alert": "USNI News: 70 Ships Trapped in Persian Gulf as Iran-U.S. Conflict Nears Six Months",
   "naval_deployments": [
     {
@@ -658,15 +658,6 @@
       ]
     },
     {
-      "title": "Sailors on the USS Abraham Lincoln reportedly dealing with poor conditions, weak morale, families say",
-      "link": "https://taskandpurpose.com/news/uss-abraham-lincoln-conditions-sailors/",
-      "published": "Sat, 08 Aug 2026 15:36:59 -0400",
-      "source": "Task & Purpose",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Marines can now hit targets 20 kilometers away with new FPV drones",
       "link": "https://taskandpurpose.com/news/marines-fpv-drones-korea/",
       "published": "Sun, 09 Aug 2026 18:50:08 -0400",
@@ -680,6 +671,15 @@
       "link": "https://www.navalnews.com/naval-news/2026/08/south-korea-draft-law-jangbogo-n-nuclear-submarine-program/",
       "published": "Tue, 11 Aug 2026 07:29:52 +0000",
       "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Destroyers Thomas Hudner, Pinckney Return from Deployments",
+      "link": "https://news.usni.org/2026/08/11/destroyers-thomas-hudner-pinckney-return-from-deployments",
+      "published": "Tue, 11 Aug 2026 17:36:07 +0000",
+      "source": "USNI News",
       "categories": [
         "deployment"
       ]
@@ -895,11 +895,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 12,
+    "deployment_articles": 13,
     "conflict_articles": 4,
     "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-08-12T14:09:50.453288+00:00",
+    "computed_at": "2026-08-12T15:45:24.605439+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[USNI News] 70 Ships Trapped in Persian Gulf as Iran-U.S. Conflict Nears Six Months",
@@ -917,9 +917,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-08-12T14:09:50.453333+00:00",
+    "last_successful_update": "2026-08-12T15:45:24.605486+00:00",
     "article_count": 50,
-    "categorized_count": 17,
+    "categorized_count": 18,
     "freshest_source": "USNI News",
     "freshest_title": "70 Ships Trapped in Persian Gulf as Iran-U.S. Conflict Nears Six Months",
     "freshest_published": "Fri, 07 Aug 2026 18:52:44 +0000"
