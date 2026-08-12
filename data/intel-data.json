@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-08-12T07:01:30Z",
-  "version": 2437,
-  "breaking_alert": "Naval News: PT PAL Cuts First Steel for Indonesia’s Scorpène Evolved Submarine",
+  "generated_utc": "2026-08-12T08:56:34Z",
+  "version": 2438,
+  "breaking_alert": "USNI News: 70 Ships Trapped in Persian Gulf as Iran-U.S. Conflict Nears Six Months",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -594,15 +594,6 @@
   ],
   "_naval_news_refs": [
     {
-      "title": "PT PAL Cuts First Steel for Indonesia’s Scorpène Evolved Submarine",
-      "link": "https://www.navalnews.com/naval-news/2026/08/pt-pal-cuts-first-steel-for-indonesias-scorpene-evolved-submarine/",
-      "published": "Fri, 07 Aug 2026 08:30:35 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "70 Ships Trapped in Persian Gulf as Iran-U.S. Conflict Nears Six Months",
       "link": "https://news.usni.org/2026/08/07/70-ships-trapped-in-persian-gulf-as-iran-u-s-conflict-nears-six-months",
       "published": "Fri, 07 Aug 2026 18:52:44 +0000",
@@ -680,6 +671,15 @@
       "link": "https://taskandpurpose.com/news/marines-fpv-drones-korea/",
       "published": "Sun, 09 Aug 2026 18:50:08 -0400",
       "source": "Task & Purpose",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "South Korea Issues Draft Law to Advance Jangbogo-N Nuclear Submarine Program",
+      "link": "https://www.navalnews.com/naval-news/2026/08/south-korea-draft-law-jangbogo-n-nuclear-submarine-program/",
+      "published": "Tue, 11 Aug 2026 07:29:52 +0000",
+      "source": "Naval News",
       "categories": [
         "deployment"
       ]
@@ -895,18 +895,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 13,
+    "deployment_articles": 12,
     "conflict_articles": 4,
     "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-08-12T07:01:27.314835+00:00",
+    "computed_at": "2026-08-12T08:56:28.099107+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
-      "[Naval News] PT PAL Cuts First Steel for Indonesia’s Scorpène Evolved Submarine",
       "[USNI News] 70 Ships Trapped in Persian Gulf as Iran-U.S. Conflict Nears Six Months",
       "[Naval News] Spain’s Naval Aviation Crossroads: The F-35B, the Harrier, and a Capability Gap",
       "[Task & Purpose] The Army wants to replace the Stinger missile",
-      "[Task & Purpose] Navy destroyer returns home after Caribbean, Iran war deployments"
+      "[Task & Purpose] Navy destroyer returns home after Caribbean, Iran war deployments",
+      "[Task & Purpose] Tracking America’s latest conflict: The Iran war timeline"
     ]
   },
   "ground_intel": {
@@ -917,12 +917,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-08-12T07:01:27.314902+00:00",
+    "last_successful_update": "2026-08-12T08:56:28.099149+00:00",
     "article_count": 50,
-    "categorized_count": 18,
-    "freshest_source": "Naval News",
-    "freshest_title": "PT PAL Cuts First Steel for Indonesia’s Scorpène Evolved Submarine",
-    "freshest_published": "Fri, 07 Aug 2026 08:30:35 +0000"
+    "categorized_count": 17,
+    "freshest_source": "USNI News",
+    "freshest_title": "70 Ships Trapped in Persian Gulf as Iran-U.S. Conflict Nears Six Months",
+    "freshest_published": "Fri, 07 Aug 2026 18:52:44 +0000"
   },
   "_firms_hotspots": []
 }
