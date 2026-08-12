@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-08-12T20:28:18Z",
-  "version": 2449,
-  "breaking_alert": "USNI News: 70 Ships Trapped in Persian Gulf as Iran-U.S. Conflict Nears Six Months",
+  "generated_utc": "2026-08-12T21:36:17Z",
+  "version": 2450,
+  "breaking_alert": "Naval News: Spain’s Naval Aviation Crossroads: The F-35B, the Harrier, and a Capability Gap",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -594,15 +594,6 @@
   ],
   "_naval_news_refs": [
     {
-      "title": "70 Ships Trapped in Persian Gulf as Iran-U.S. Conflict Nears Six Months",
-      "link": "https://news.usni.org/2026/08/07/70-ships-trapped-in-persian-gulf-as-iran-u-s-conflict-nears-six-months",
-      "published": "Fri, 07 Aug 2026 18:52:44 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Spain’s Naval Aviation Crossroads: The F-35B, the Harrier, and a Capability Gap",
       "link": "https://www.navalnews.com/naval-news/2026/08/spains-naval-aviation-crossroads-f35b-harrier-capability-gap/",
       "published": "Mon, 10 Aug 2026 07:36:12 +0000",
@@ -625,15 +616,6 @@
       "link": "https://taskandpurpose.com/news/iran-war-timeline/",
       "published": "Mon, 10 Aug 2026 11:10:26 -0400",
       "source": "Task & Purpose",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "USNI News Fleet and Marine Tracker: Aug. 10, 2026",
-      "link": "https://news.usni.org/2026/08/10/usni-news-fleet-and-marine-tracker-aug-10-2026",
-      "published": "Mon, 10 Aug 2026 17:28:48 +0000",
-      "source": "USNI News",
       "categories": [
         "deployment"
       ]
@@ -680,6 +662,24 @@
       "link": "https://news.usni.org/2026/08/11/destroyers-thomas-hudner-pinckney-return-from-deployments",
       "published": "Tue, 11 Aug 2026 17:36:07 +0000",
       "source": "USNI News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Multiple USS Abraham Lincoln sailors have tried to go overboard amid extended deployment, families say",
+      "link": "https://www.militarytimes.com/news/your-military/2026/08/11/multiple-uss-abraham-lincoln-sailors-have-tried-to-go-overboard-amid-extended-deployment-families-say/",
+      "published": "Tue, 11 Aug 2026 23:16:30 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Trump swaps planes via catering truck after Iranian threats, reports say",
+      "link": "https://www.defensenews.com/news/pentagon-congress/2026/08/12/trump-swaps-planes-via-catering-truck-after-iranian-threats-reports-say/",
+      "published": "Wed, 12 Aug 2026 15:13:20 +0000",
+      "source": "Defense News",
       "categories": [
         "deployment"
       ]
@@ -846,15 +846,6 @@
       ]
     },
     {
-      "title": "Marines Learn to 3D Print Raiding Craft, Attack Drones in the Western Pacific",
-      "link": "https://news.usni.org/2026/08/10/marines-learn-to-3d-print-raiding-craft-attack-drones-in-the-western-pacific",
-      "published": "Mon, 10 Aug 2026 16:25:29 +0000",
-      "source": "USNI News",
-      "categories": [
-        "conflict"
-      ]
-    },
-    {
       "title": "DARPA developing hypersonic cruise missile to evade enemy air defenses",
       "link": "https://www.defensenews.com/industry/techwatch/2026/08/10/darpa-developing-hypersonic-cruise-missile-to-evade-enemy-air-defenses/",
       "published": "Mon, 10 Aug 2026 20:54:38 +0000",
@@ -896,17 +887,17 @@
   ],
   "_threat_indicators": {
     "deployment_articles": 13,
-    "conflict_articles": 4,
+    "conflict_articles": 3,
     "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-08-12T20:28:15.683294+00:00",
+    "computed_at": "2026-08-12T21:31:36.153422+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
-      "[USNI News] 70 Ships Trapped in Persian Gulf as Iran-U.S. Conflict Nears Six Months",
       "[Naval News] Spain’s Naval Aviation Crossroads: The F-35B, the Harrier, and a Capability Gap",
       "[Task & Purpose] The Army wants to replace the Stinger missile",
       "[Task & Purpose] Navy destroyer returns home after Caribbean, Iran war deployments",
-      "[Task & Purpose] Tracking America’s latest conflict: The Iran war timeline"
+      "[Task & Purpose] Tracking America’s latest conflict: The Iran war timeline",
+      "[USNI News] Chinese Army Drones Target Unmanned Surface Vessels in Exercises"
     ]
   },
   "ground_intel": {
@@ -917,12 +908,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-08-12T20:28:15.683337+00:00",
+    "last_successful_update": "2026-08-12T21:31:36.153466+00:00",
     "article_count": 50,
-    "categorized_count": 18,
-    "freshest_source": "USNI News",
-    "freshest_title": "70 Ships Trapped in Persian Gulf as Iran-U.S. Conflict Nears Six Months",
-    "freshest_published": "Fri, 07 Aug 2026 18:52:44 +0000"
+    "categorized_count": 17,
+    "freshest_source": "Naval News",
+    "freshest_title": "Spain’s Naval Aviation Crossroads: The F-35B, the Harrier, and a Capability Gap",
+    "freshest_published": "Mon, 10 Aug 2026 07:36:12 +0000"
   },
   "_firms_hotspots": []
 }
