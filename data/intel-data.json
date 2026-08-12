@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-08-12T21:36:17Z",
-  "version": 2450,
+  "generated_utc": "2026-08-12T22:27:01Z",
+  "version": 2451,
   "breaking_alert": "Naval News: Spain’s Naval Aviation Crossroads: The F-35B, the Harrier, and a Capability Gap",
   "naval_deployments": [
     {
@@ -640,15 +640,6 @@
       ]
     },
     {
-      "title": "Marines can now hit targets 20 kilometers away with new FPV drones",
-      "link": "https://taskandpurpose.com/news/marines-fpv-drones-korea/",
-      "published": "Sun, 09 Aug 2026 18:50:08 -0400",
-      "source": "Task & Purpose",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "South Korea Issues Draft Law to Advance Jangbogo-N Nuclear Submarine Program",
       "link": "https://www.navalnews.com/naval-news/2026/08/south-korea-draft-law-jangbogo-n-nuclear-submarine-program/",
       "published": "Tue, 11 Aug 2026 07:29:52 +0000",
@@ -680,6 +671,15 @@
       "link": "https://www.defensenews.com/news/pentagon-congress/2026/08/12/trump-swaps-planes-via-catering-truck-after-iranian-threats-reports-say/",
       "published": "Wed, 12 Aug 2026 15:13:20 +0000",
       "source": "Defense News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Trump swaps planes via catering truck after Iranian threats, reports say",
+      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/08/12/trump-swaps-planes-via-catering-truck-after-iranian-threats-reports-say/",
+      "published": "Wed, 12 Aug 2026 15:13:20 +0000",
+      "source": "Military Times",
       "categories": [
         "deployment"
       ]
@@ -837,15 +837,6 @@
   },
   "_conflict_news_refs": [
     {
-      "title": "The Army wants to replace the Stinger missile",
-      "link": "https://taskandpurpose.com/news/army-stinger-missile-replacement/",
-      "published": "Mon, 10 Aug 2026 08:00:00 -0400",
-      "source": "Task & Purpose",
-      "categories": [
-        "conflict"
-      ]
-    },
-    {
       "title": "DARPA developing hypersonic cruise missile to evade enemy air defenses",
       "link": "https://www.defensenews.com/industry/techwatch/2026/08/10/darpa-developing-hypersonic-cruise-missile-to-evade-enemy-air-defenses/",
       "published": "Mon, 10 Aug 2026 20:54:38 +0000",
@@ -886,18 +877,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 13,
-    "conflict_articles": 3,
+    "deployment_articles": 12,
+    "conflict_articles": 2,
     "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-08-12T21:31:36.153422+00:00",
+    "computed_at": "2026-08-12T22:26:55.440073+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] Spain’s Naval Aviation Crossroads: The F-35B, the Harrier, and a Capability Gap",
-      "[Task & Purpose] The Army wants to replace the Stinger missile",
       "[Task & Purpose] Navy destroyer returns home after Caribbean, Iran war deployments",
       "[Task & Purpose] Tracking America’s latest conflict: The Iran war timeline",
-      "[USNI News] Chinese Army Drones Target Unmanned Surface Vessels in Exercises"
+      "[USNI News] Chinese Army Drones Target Unmanned Surface Vessels in Exercises",
+      "[Defense News] USS Theodore Roosevelt becomes first carrier with built-in Unmanned Air Warfare Center"
     ]
   },
   "ground_intel": {
@@ -908,9 +899,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-08-12T21:31:36.153466+00:00",
+    "last_successful_update": "2026-08-12T22:26:55.440118+00:00",
     "article_count": 50,
-    "categorized_count": 17,
+    "categorized_count": 15,
     "freshest_source": "Naval News",
     "freshest_title": "Spain’s Naval Aviation Crossroads: The F-35B, the Harrier, and a Capability Gap",
     "freshest_published": "Mon, 10 Aug 2026 07:36:12 +0000"
