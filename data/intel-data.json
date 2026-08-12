@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-08-12T10:47:18Z",
-  "version": 2440,
+  "generated_utc": "2026-08-12T11:40:30Z",
+  "version": 2441,
   "breaking_alert": "USNI News: 70 Ships Trapped in Persian Gulf as Iran-U.S. Conflict Nears Six Months",
   "naval_deployments": [
     {
@@ -899,7 +899,7 @@
     "conflict_articles": 4,
     "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-08-12T10:47:15.915093+00:00",
+    "computed_at": "2026-08-12T11:35:49.575112+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[USNI News] 70 Ships Trapped in Persian Gulf as Iran-U.S. Conflict Nears Six Months",
@@ -917,7 +917,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-08-12T10:47:15.915136+00:00",
+    "last_successful_update": "2026-08-12T11:35:49.575158+00:00",
     "article_count": 50,
     "categorized_count": 17,
     "freshest_source": "USNI News",
