@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-08-13T16:41:24Z",
-  "version": 2464,
-  "breaking_alert": "Task & Purpose: Navy destroyer returns home after Caribbean, Iran war deployments",
+  "generated_utc": "2026-08-13T17:50:16Z",
+  "version": 2465,
+  "breaking_alert": "Task & Purpose: Tracking America’s latest conflict: The Iran war timeline",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -594,15 +594,6 @@
   ],
   "_naval_news_refs": [
     {
-      "title": "Navy destroyer returns home after Caribbean, Iran war deployments",
-      "link": "https://taskandpurpose.com/news/u-ss-thomas-hudner-returns-home-carribean-iran/",
-      "published": "Mon, 10 Aug 2026 10:00:00 -0400",
-      "source": "Task & Purpose",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Tracking America’s latest conflict: The Iran war timeline",
       "link": "https://taskandpurpose.com/news/iran-war-timeline/",
       "published": "Mon, 10 Aug 2026 11:10:26 -0400",
@@ -631,6 +622,24 @@
       ]
     },
     {
+      "title": "USS George Washington Heading West, Lincoln Deployment Nears 9 Months",
+      "link": "https://news.usni.org/2026/08/13/uss-george-washington-heading-west-lincoln-deployment-nears-9-months",
+      "published": "Thu, 13 Aug 2026 16:58:27 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "If long deployments are the future, endurance can’t be the Navy’s only plan",
+      "link": "https://www.militarytimes.com/news/2026/08/13/if-long-deployments-are-the-future-endurance-cant-be-the-navys-only-plan/",
+      "published": "Thu, 13 Aug 2026 17:36:57 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "South Korea Issues Draft Law to Advance Jangbogo-N Nuclear Submarine Program",
       "link": "https://www.navalnews.com/naval-news/2026/08/south-korea-draft-law-jangbogo-n-nuclear-submarine-program/",
       "published": "Tue, 11 Aug 2026 07:29:52 +0000",
@@ -653,15 +662,6 @@
       "link": "https://www.defensenews.com/news/pentagon-congress/2026/08/12/trump-swaps-planes-via-catering-truck-after-iranian-threats-reports-say/",
       "published": "Wed, 12 Aug 2026 15:13:20 +0000",
       "source": "Defense News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Trump swaps planes via catering truck after Iranian threats, reports say",
-      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/08/12/trump-swaps-planes-via-catering-truck-after-iranian-threats-reports-say/",
-      "published": "Wed, 12 Aug 2026 15:13:20 +0000",
-      "source": "Military Times",
       "categories": [
         "deployment"
       ]
@@ -890,14 +890,14 @@
     "conflict_articles": 3,
     "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-08-13T16:41:18.981669+00:00",
+    "computed_at": "2026-08-13T17:45:36.040705+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
-      "[Task & Purpose] Navy destroyer returns home after Caribbean, Iran war deployments",
       "[Task & Purpose] Tracking America’s latest conflict: The Iran war timeline",
       "[Defense News] USS Theodore Roosevelt becomes first carrier with built-in Unmanned Air Warfare Center",
       "[Defense News] DARPA developing hypersonic cruise missile to evade enemy air defenses",
-      "[Military Times] Senator presses Navy for answers on USS Abraham Lincoln deployment"
+      "[Military Times] Senator presses Navy for answers on USS Abraham Lincoln deployment",
+      "[Naval News] Ukrainian Drone Strike Damages Russian Frigates in Novorossiysk"
     ]
   },
   "ground_intel": {
@@ -908,12 +908,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-08-13T16:41:18.981714+00:00",
+    "last_successful_update": "2026-08-13T17:45:36.040741+00:00",
     "article_count": 50,
     "categorized_count": 14,
     "freshest_source": "Task & Purpose",
-    "freshest_title": "Navy destroyer returns home after Caribbean, Iran war deployments",
-    "freshest_published": "Mon, 10 Aug 2026 10:00:00 -0400"
+    "freshest_title": "Tracking America’s latest conflict: The Iran war timeline",
+    "freshest_published": "Mon, 10 Aug 2026 11:10:26 -0400"
   },
   "_firms_hotspots": []
 }
