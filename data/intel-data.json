@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-08-13T19:48:12Z",
-  "version": 2467,
-  "breaking_alert": "Task & Purpose: Tracking America’s latest conflict: The Iran war timeline",
+  "generated_utc": "2026-08-13T20:26:08Z",
+  "version": 2468,
+  "breaking_alert": "Defense News: DARPA developing hypersonic cruise missile to evade enemy air defenses",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -594,15 +594,6 @@
   ],
   "_naval_news_refs": [
     {
-      "title": "Tracking America’s latest conflict: The Iran war timeline",
-      "link": "https://taskandpurpose.com/news/iran-war-timeline/",
-      "published": "Mon, 10 Aug 2026 11:10:26 -0400",
-      "source": "Task & Purpose",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Senator presses Navy for answers on USS Abraham Lincoln deployment",
       "link": "https://www.militarytimes.com/news/your-military/2026/08/13/senator-presses-navy-for-answers-on-uss-abraham-lincoln-deployment/",
       "published": "Thu, 13 Aug 2026 00:43:32 +0000",
@@ -877,18 +868,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 9,
+    "deployment_articles": 8,
     "conflict_articles": 3,
     "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-08-13T19:48:09.628851+00:00",
+    "computed_at": "2026-08-13T20:26:03.009827+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
-      "[Task & Purpose] Tracking America’s latest conflict: The Iran war timeline",
       "[Defense News] DARPA developing hypersonic cruise missile to evade enemy air defenses",
       "[Military Times] Senator presses Navy for answers on USS Abraham Lincoln deployment",
       "[Naval News] Ukrainian Drone Strike Damages Russian Frigates in Novorossiysk",
-      "[USNI News] USS George Washington Heading West, Lincoln Deployment Nears 9 Months"
+      "[USNI News] USS George Washington Heading West, Lincoln Deployment Nears 9 Months",
+      "[Military Times] If long deployments are the future, endurance can’t be the Navy’s only plan"
     ]
   },
   "ground_intel": {
@@ -899,12 +890,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-08-13T19:48:09.628895+00:00",
+    "last_successful_update": "2026-08-13T20:26:03.009869+00:00",
     "article_count": 50,
-    "categorized_count": 13,
-    "freshest_source": "Task & Purpose",
-    "freshest_title": "Tracking America’s latest conflict: The Iran war timeline",
-    "freshest_published": "Mon, 10 Aug 2026 11:10:26 -0400"
+    "categorized_count": 12,
+    "freshest_source": "Defense News",
+    "freshest_title": "DARPA developing hypersonic cruise missile to evade enemy air defenses",
+    "freshest_published": "Mon, 10 Aug 2026 20:54:38 +0000"
   },
   "_firms_hotspots": []
 }
