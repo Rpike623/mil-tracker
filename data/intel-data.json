@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-08-13T17:50:16Z",
-  "version": 2465,
+  "generated_utc": "2026-08-13T18:42:58Z",
+  "version": 2466,
   "breaking_alert": "Task & Purpose: Tracking America’s latest conflict: The Iran war timeline",
   "naval_deployments": [
     {
@@ -603,15 +603,6 @@
       ]
     },
     {
-      "title": "USS Theodore Roosevelt becomes first carrier with built-in Unmanned Air Warfare Center",
-      "link": "https://www.defensenews.com/news/your-military/2026/08/10/uss-theodore-roosevelt-becomes-first-carrier-with-built-in-unmanned-air-warfare-center/",
-      "published": "Mon, 10 Aug 2026 19:39:58 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Senator presses Navy for answers on USS Abraham Lincoln deployment",
       "link": "https://www.militarytimes.com/news/your-military/2026/08/13/senator-presses-navy-for-answers-on-uss-abraham-lincoln-deployment/",
       "published": "Thu, 13 Aug 2026 00:43:32 +0000",
@@ -886,18 +877,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 10,
+    "deployment_articles": 9,
     "conflict_articles": 3,
     "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-08-13T17:45:36.040705+00:00",
+    "computed_at": "2026-08-13T18:42:51.208094+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Task & Purpose] Tracking America’s latest conflict: The Iran war timeline",
-      "[Defense News] USS Theodore Roosevelt becomes first carrier with built-in Unmanned Air Warfare Center",
       "[Defense News] DARPA developing hypersonic cruise missile to evade enemy air defenses",
       "[Military Times] Senator presses Navy for answers on USS Abraham Lincoln deployment",
-      "[Naval News] Ukrainian Drone Strike Damages Russian Frigates in Novorossiysk"
+      "[Naval News] Ukrainian Drone Strike Damages Russian Frigates in Novorossiysk",
+      "[USNI News] USS George Washington Heading West, Lincoln Deployment Nears 9 Months"
     ]
   },
   "ground_intel": {
@@ -908,9 +899,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-08-13T17:45:36.040741+00:00",
+    "last_successful_update": "2026-08-13T18:42:51.208137+00:00",
     "article_count": 50,
-    "categorized_count": 14,
+    "categorized_count": 13,
     "freshest_source": "Task & Purpose",
     "freshest_title": "Tracking America’s latest conflict: The Iran war timeline",
     "freshest_published": "Mon, 10 Aug 2026 11:10:26 -0400"
