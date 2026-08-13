@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-08-13T12:42:44Z",
-  "version": 2461,
+  "generated_utc": "2026-08-13T14:15:56Z",
+  "version": 2462,
   "breaking_alert": "Task & Purpose: Navy destroyer returns home after Caribbean, Iran war deployments",
   "naval_deployments": [
     {
@@ -612,16 +612,6 @@
       ]
     },
     {
-      "title": "Chinese Army Drones Target Unmanned Surface Vessels in Exercises",
-      "link": "https://news.usni.org/2026/08/10/chinese-army-drones-target-unmanned-surface-vessels-in-exercises",
-      "published": "Mon, 10 Aug 2026 18:59:56 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment",
-        "exercise"
-      ]
-    },
-    {
       "title": "USS Theodore Roosevelt becomes first carrier with built-in Unmanned Air Warfare Center",
       "link": "https://www.defensenews.com/news/your-military/2026/08/10/uss-theodore-roosevelt-becomes-first-carrier-with-built-in-unmanned-air-warfare-center/",
       "published": "Mon, 10 Aug 2026 19:39:58 +0000",
@@ -681,6 +671,15 @@
       "link": "https://taskandpurpose.com/news/navy-uss-lincoln-morale-deployed/",
       "published": "Wed, 12 Aug 2026 16:33:43 -0400",
       "source": "Task & Purpose",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Carrier John F. Kennedy Leaves Newport News for Acceptance Trials, 7 Weapons Elevators Delivered",
+      "link": "https://news.usni.org/2026/08/12/carrier-john-f-kennedy-leaves-newport-news-for-acceptance-trials-7-weapons-elevators-delivered",
+      "published": "Wed, 12 Aug 2026 20:59:27 +0000",
+      "source": "USNI News",
       "categories": [
         "deployment"
       ]
@@ -867,16 +866,6 @@
   ],
   "_exercise_news_refs": [
     {
-      "title": "Chinese Army Drones Target Unmanned Surface Vessels in Exercises",
-      "link": "https://news.usni.org/2026/08/10/chinese-army-drones-target-unmanned-surface-vessels-in-exercises",
-      "published": "Mon, 10 Aug 2026 18:59:56 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment",
-        "exercise"
-      ]
-    },
-    {
       "title": "Senator presses Navy for answers on USS Abraham Lincoln deployment",
       "link": "https://www.militarytimes.com/news/your-military/2026/08/13/senator-presses-navy-for-answers-on-uss-abraham-lincoln-deployment/",
       "published": "Thu, 13 Aug 2026 00:43:32 +0000",
@@ -897,18 +886,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 11,
+    "deployment_articles": 10,
     "conflict_articles": 3,
-    "exercise_articles": 3,
+    "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-08-13T12:38:03.366449+00:00",
+    "computed_at": "2026-08-13T14:11:15.489253+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Task & Purpose] Navy destroyer returns home after Caribbean, Iran war deployments",
       "[Task & Purpose] Tracking America’s latest conflict: The Iran war timeline",
-      "[USNI News] Chinese Army Drones Target Unmanned Surface Vessels in Exercises",
       "[Defense News] USS Theodore Roosevelt becomes first carrier with built-in Unmanned Air Warfare Center",
-      "[Defense News] DARPA developing hypersonic cruise missile to evade enemy air defenses"
+      "[Defense News] DARPA developing hypersonic cruise missile to evade enemy air defenses",
+      "[Military Times] Senator presses Navy for answers on USS Abraham Lincoln deployment"
     ]
   },
   "ground_intel": {
@@ -919,9 +908,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-08-13T12:38:03.366494+00:00",
+    "last_successful_update": "2026-08-13T14:11:15.489298+00:00",
     "article_count": 50,
-    "categorized_count": 15,
+    "categorized_count": 14,
     "freshest_source": "Task & Purpose",
     "freshest_title": "Navy destroyer returns home after Caribbean, Iran war deployments",
     "freshest_published": "Mon, 10 Aug 2026 10:00:00 -0400"
