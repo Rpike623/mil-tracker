@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-08-13T11:45:37Z",
-  "version": 2460,
-  "breaking_alert": "Naval News: Spain’s Naval Aviation Crossroads: The F-35B, the Harrier, and a Capability Gap",
+  "generated_utc": "2026-08-13T12:42:44Z",
+  "version": 2461,
+  "breaking_alert": "Task & Purpose: Navy destroyer returns home after Caribbean, Iran war deployments",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -594,15 +594,6 @@
   ],
   "_naval_news_refs": [
     {
-      "title": "Spain’s Naval Aviation Crossroads: The F-35B, the Harrier, and a Capability Gap",
-      "link": "https://www.navalnews.com/naval-news/2026/08/spains-naval-aviation-crossroads-f35b-harrier-capability-gap/",
-      "published": "Mon, 10 Aug 2026 07:36:12 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Navy destroyer returns home after Caribbean, Iran war deployments",
       "link": "https://taskandpurpose.com/news/u-ss-thomas-hudner-returns-home-carribean-iran/",
       "published": "Mon, 10 Aug 2026 10:00:00 -0400",
@@ -681,6 +672,15 @@
       "link": "https://www.militarytimes.com/news/pentagon-congress/2026/08/12/trump-swaps-planes-via-catering-truck-after-iranian-threats-reports-say/",
       "published": "Wed, 12 Aug 2026 15:13:20 +0000",
       "source": "Military Times",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Navy denies reports of deteriorating mental health aboard USS Abraham Lincoln",
+      "link": "https://taskandpurpose.com/news/navy-uss-lincoln-morale-deployed/",
+      "published": "Wed, 12 Aug 2026 16:33:43 -0400",
+      "source": "Task & Purpose",
       "categories": [
         "deployment"
       ]
@@ -847,6 +847,15 @@
       ]
     },
     {
+      "title": "Ukrainian Drone Strike Damages Russian Frigates in Novorossiysk",
+      "link": "https://www.navalnews.com/naval-news/2026/08/ukrainian-drone-strike-russian-frigates-novorossiysk/",
+      "published": "Thu, 13 Aug 2026 12:01:21 +0000",
+      "source": "Naval News",
+      "categories": [
+        "conflict"
+      ]
+    },
+    {
       "title": "Lockheed Martin launches modular missile tech with dedicated ‘storefront’",
       "link": "https://www.defensenews.com/news/your-military/2026/08/11/lockheed-martin-launches-modular-missile-tech-with-dedicated-storefront/",
       "published": "Tue, 11 Aug 2026 14:38:29 +0000",
@@ -888,18 +897,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 12,
-    "conflict_articles": 2,
+    "deployment_articles": 11,
+    "conflict_articles": 3,
     "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-08-13T11:40:57.019234+00:00",
+    "computed_at": "2026-08-13T12:38:03.366449+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
-      "[Naval News] Spain’s Naval Aviation Crossroads: The F-35B, the Harrier, and a Capability Gap",
       "[Task & Purpose] Navy destroyer returns home after Caribbean, Iran war deployments",
       "[Task & Purpose] Tracking America’s latest conflict: The Iran war timeline",
       "[USNI News] Chinese Army Drones Target Unmanned Surface Vessels in Exercises",
-      "[Defense News] USS Theodore Roosevelt becomes first carrier with built-in Unmanned Air Warfare Center"
+      "[Defense News] USS Theodore Roosevelt becomes first carrier with built-in Unmanned Air Warfare Center",
+      "[Defense News] DARPA developing hypersonic cruise missile to evade enemy air defenses"
     ]
   },
   "ground_intel": {
@@ -910,12 +919,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-08-13T11:40:57.019277+00:00",
+    "last_successful_update": "2026-08-13T12:38:03.366494+00:00",
     "article_count": 50,
     "categorized_count": 15,
-    "freshest_source": "Naval News",
-    "freshest_title": "Spain’s Naval Aviation Crossroads: The F-35B, the Harrier, and a Capability Gap",
-    "freshest_published": "Mon, 10 Aug 2026 07:36:12 +0000"
+    "freshest_source": "Task & Purpose",
+    "freshest_title": "Navy destroyer returns home after Caribbean, Iran war deployments",
+    "freshest_published": "Mon, 10 Aug 2026 10:00:00 -0400"
   },
   "_firms_hotspots": []
 }
