@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-08-13T21:31:40Z",
-  "version": 2469,
+  "generated_utc": "2026-08-13T22:32:13Z",
+  "version": 2470,
   "breaking_alert": "Defense News: DARPA developing hypersonic cruise missile to evade enemy air defenses",
   "naval_deployments": [
     {
@@ -614,7 +614,7 @@
     },
     {
       "title": "If long deployments are the future, endurance can’t be the Navy’s only plan",
-      "link": "https://www.militarytimes.com/news/2026/08/13/if-long-deployments-are-the-future-endurance-cant-be-the-navys-only-plan/",
+      "link": "https://www.militarytimes.com/opinion/2026/08/13/if-long-deployments-are-the-future-endurance-cant-be-the-navys-only-plan/",
       "published": "Thu, 13 Aug 2026 17:36:57 +0000",
       "source": "Military Times",
       "categories": [
@@ -872,7 +872,7 @@
     "conflict_articles": 3,
     "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-08-13T21:31:30.424357+00:00",
+    "computed_at": "2026-08-13T22:27:33.142818+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Defense News] DARPA developing hypersonic cruise missile to evade enemy air defenses",
@@ -890,7 +890,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-08-13T21:31:30.424401+00:00",
+    "last_successful_update": "2026-08-13T22:27:33.142865+00:00",
     "article_count": 50,
     "categorized_count": 12,
     "freshest_source": "Defense News",
