@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-08-13T09:58:39Z",
-  "version": 2458,
+  "generated_utc": "2026-08-13T10:57:49Z",
+  "version": 2459,
   "breaking_alert": "Naval News: Spain’s Naval Aviation Crossroads: The F-35B, the Harrier, and a Capability Gap",
   "naval_deployments": [
     {
@@ -892,7 +892,7 @@
     "conflict_articles": 2,
     "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-08-13T09:58:34.328790+00:00",
+    "computed_at": "2026-08-13T10:57:43.204463+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] Spain’s Naval Aviation Crossroads: The F-35B, the Harrier, and a Capability Gap",
@@ -910,7 +910,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-08-13T09:58:34.328819+00:00",
+    "last_successful_update": "2026-08-13T10:57:43.204509+00:00",
     "article_count": 50,
     "categorized_count": 15,
     "freshest_source": "Naval News",
