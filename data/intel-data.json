@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-08-13T22:32:13Z",
-  "version": 2470,
+  "generated_utc": "2026-08-13T23:28:08Z",
+  "version": 2471,
   "breaking_alert": "Defense News: DARPA developing hypersonic cruise missile to evade enemy air defenses",
   "naval_deployments": [
     {
@@ -622,19 +622,19 @@
       ]
     },
     {
-      "title": "South Korea Issues Draft Law to Advance Jangbogo-N Nuclear Submarine Program",
-      "link": "https://www.navalnews.com/naval-news/2026/08/south-korea-draft-law-jangbogo-n-nuclear-submarine-program/",
-      "published": "Tue, 11 Aug 2026 07:29:52 +0000",
-      "source": "Naval News",
+      "title": "New White House Memo Calls for Foreign-Built Warships, Return to Steam Catapults on Ford Carriers",
+      "link": "https://news.usni.org/2026/08/13/new-white-house-memo-calls-for-foreign-built-warships-return-to-steam-catapults-on-ford-carriers",
+      "published": "Thu, 13 Aug 2026 23:15:54 +0000",
+      "source": "USNI News",
       "categories": [
         "deployment"
       ]
     },
     {
-      "title": "Destroyers Thomas Hudner, Pinckney Return from Deployments",
-      "link": "https://news.usni.org/2026/08/11/destroyers-thomas-hudner-pinckney-return-from-deployments",
-      "published": "Tue, 11 Aug 2026 17:36:07 +0000",
-      "source": "USNI News",
+      "title": "South Korea Issues Draft Law to Advance Jangbogo-N Nuclear Submarine Program",
+      "link": "https://www.navalnews.com/naval-news/2026/08/south-korea-draft-law-jangbogo-n-nuclear-submarine-program/",
+      "published": "Tue, 11 Aug 2026 07:29:52 +0000",
+      "source": "Naval News",
       "categories": [
         "deployment"
       ]
@@ -872,7 +872,7 @@
     "conflict_articles": 3,
     "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-08-13T22:27:33.142818+00:00",
+    "computed_at": "2026-08-13T23:27:58.600887+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Defense News] DARPA developing hypersonic cruise missile to evade enemy air defenses",
@@ -890,7 +890,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-08-13T22:27:33.142865+00:00",
+    "last_successful_update": "2026-08-13T23:27:58.600921+00:00",
     "article_count": 50,
     "categorized_count": 12,
     "freshest_source": "Defense News",
