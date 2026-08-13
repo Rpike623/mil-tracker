@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-08-12T23:27:05Z",
-  "version": 2452,
+  "generated_utc": "2026-08-13T00:51:52Z",
+  "version": 2453,
   "breaking_alert": "Naval News: Spain’s Naval Aviation Crossroads: The F-35B, the Harrier, and a Capability Gap",
   "naval_deployments": [
     {
@@ -640,6 +640,16 @@
       ]
     },
     {
+      "title": "Senator presses Navy for answers on USS Abraham Lincoln deployment",
+      "link": "https://www.militarytimes.com/news/your-military/2026/08/13/senator-presses-navy-for-answers-on-uss-abraham-lincoln-deployment/",
+      "published": "Thu, 13 Aug 2026 00:43:32 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment",
+        "exercise"
+      ]
+    },
+    {
       "title": "South Korea Issues Draft Law to Advance Jangbogo-N Nuclear Submarine Program",
       "link": "https://www.navalnews.com/naval-news/2026/08/south-korea-draft-law-jangbogo-n-nuclear-submarine-program/",
       "published": "Tue, 11 Aug 2026 07:29:52 +0000",
@@ -653,15 +663,6 @@
       "link": "https://news.usni.org/2026/08/11/destroyers-thomas-hudner-pinckney-return-from-deployments",
       "published": "Tue, 11 Aug 2026 17:36:07 +0000",
       "source": "USNI News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Multiple USS Abraham Lincoln sailors have tried to go overboard amid extended deployment, families say",
-      "link": "https://www.militarytimes.com/news/your-military/2026/08/11/multiple-uss-abraham-lincoln-sailors-have-tried-to-go-overboard-amid-extended-deployment-families-say/",
-      "published": "Tue, 11 Aug 2026 23:16:30 +0000",
-      "source": "Military Times",
       "categories": [
         "deployment"
       ]
@@ -867,6 +868,16 @@
       ]
     },
     {
+      "title": "Senator presses Navy for answers on USS Abraham Lincoln deployment",
+      "link": "https://www.militarytimes.com/news/your-military/2026/08/13/senator-presses-navy-for-answers-on-uss-abraham-lincoln-deployment/",
+      "published": "Thu, 13 Aug 2026 00:43:32 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment",
+        "exercise"
+      ]
+    },
+    {
       "title": "Special operations airman pulls man from burning car",
       "link": "https://taskandpurpose.com/news/airman-car-fire-rescue/",
       "published": "Tue, 11 Aug 2026 09:49:55 -0400",
@@ -879,9 +890,9 @@
   "_threat_indicators": {
     "deployment_articles": 12,
     "conflict_articles": 2,
-    "exercise_articles": 2,
+    "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-08-12T23:27:03.471143+00:00",
+    "computed_at": "2026-08-13T00:51:50.308606+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] Spain’s Naval Aviation Crossroads: The F-35B, the Harrier, and a Capability Gap",
@@ -899,7 +910,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-08-12T23:27:03.471190+00:00",
+    "last_successful_update": "2026-08-13T00:51:50.308649+00:00",
     "article_count": 50,
     "categorized_count": 15,
     "freshest_source": "Naval News",
