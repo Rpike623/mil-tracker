@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-08-14T14:05:35Z",
-  "version": 2481,
+  "generated_utc": "2026-08-14T15:43:07Z",
+  "version": 2482,
   "breaking_alert": "Task & Purpose: Army identifies soldiers killed in Texas Apache helicopter crash",
   "naval_deployments": [
     {
@@ -594,6 +594,26 @@
   ],
   "_naval_news_refs": [
     {
+      "title": "CENTCOM launches multinational attack drone task force",
+      "link": "https://www.defensenews.com/news/pentagon-congress/2026/08/14/centcom-launches-multinational-attack-drone-task-force/",
+      "published": "Fri, 14 Aug 2026 15:09:04 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
+    },
+    {
+      "title": "CENTCOM launches multinational attack drone task force",
+      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/08/14/centcom-launches-multinational-attack-drone-task-force/",
+      "published": "Fri, 14 Aug 2026 15:09:04 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
+    },
+    {
       "title": "Senator presses Navy for answers on USS Abraham Lincoln deployment",
       "link": "https://www.militarytimes.com/news/your-military/2026/08/13/senator-presses-navy-for-answers-on-uss-abraham-lincoln-deployment/",
       "published": "Thu, 13 Aug 2026 00:43:32 +0000",
@@ -828,11 +848,31 @@
       ]
     },
     {
-      "title": "DARPA developing hypersonic cruise missile to evade enemy air defenses",
-      "link": "https://www.defensenews.com/industry/techwatch/2026/08/10/darpa-developing-hypersonic-cruise-missile-to-evade-enemy-air-defenses/",
-      "published": "Mon, 10 Aug 2026 20:54:38 +0000",
+      "title": "Army identifies two soldiers killed in Apache crash",
+      "link": "https://www.militarytimes.com/news/your-military/2026/08/14/army-identifies-two-soldiers-killed-in-apache-crash/",
+      "published": "Fri, 14 Aug 2026 14:57:48 +0000",
+      "source": "Military Times",
+      "categories": [
+        "conflict"
+      ]
+    },
+    {
+      "title": "CENTCOM launches multinational attack drone task force",
+      "link": "https://www.defensenews.com/news/pentagon-congress/2026/08/14/centcom-launches-multinational-attack-drone-task-force/",
+      "published": "Fri, 14 Aug 2026 15:09:04 +0000",
       "source": "Defense News",
       "categories": [
+        "deployment",
+        "conflict"
+      ]
+    },
+    {
+      "title": "CENTCOM launches multinational attack drone task force",
+      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/08/14/centcom-launches-multinational-attack-drone-task-force/",
+      "published": "Fri, 14 Aug 2026 15:09:04 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment",
         "conflict"
       ]
     },
@@ -841,15 +881,6 @@
       "link": "https://www.navalnews.com/naval-news/2026/08/ukrainian-drone-strike-russian-frigates-novorossiysk/",
       "published": "Thu, 13 Aug 2026 12:01:21 +0000",
       "source": "Naval News",
-      "categories": [
-        "conflict"
-      ]
-    },
-    {
-      "title": "Lockheed Martin launches modular missile tech with dedicated ‘storefront’",
-      "link": "https://www.defensenews.com/news/your-military/2026/08/11/lockheed-martin-launches-modular-missile-tech-with-dedicated-storefront/",
-      "published": "Tue, 11 Aug 2026 14:38:29 +0000",
-      "source": "Defense News",
       "categories": [
         "conflict"
       ]
@@ -886,18 +917,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 8,
-    "conflict_articles": 4,
+    "deployment_articles": 10,
+    "conflict_articles": 6,
     "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-08-14T14:05:28.945781+00:00",
+    "computed_at": "2026-08-14T15:38:27.037900+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Task & Purpose] Army identifies soldiers killed in Texas Apache helicopter crash",
       "[Naval News] Ultra Maritime Tests Integrated ASW and Counter-UUV Sonar System During US Navy Exercise",
-      "[Defense News] DARPA developing hypersonic cruise missile to evade enemy air defenses",
-      "[Military Times] Senator presses Navy for answers on USS Abraham Lincoln deployment",
-      "[Naval News] Ukrainian Drone Strike Damages Russian Frigates in Novorossiysk"
+      "[Military Times] Army identifies two soldiers killed in Apache crash",
+      "[Defense News] CENTCOM launches multinational attack drone task force",
+      "[Military Times] CENTCOM launches multinational attack drone task force"
     ]
   },
   "ground_intel": {
@@ -908,9 +939,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-08-14T14:05:28.945828+00:00",
+    "last_successful_update": "2026-08-14T15:38:27.037956+00:00",
     "article_count": 50,
-    "categorized_count": 14,
+    "categorized_count": 16,
     "freshest_source": "Task & Purpose",
     "freshest_title": "Army identifies soldiers killed in Texas Apache helicopter crash",
     "freshest_published": "Fri, 14 Aug 2026 08:50:12 -0400"
