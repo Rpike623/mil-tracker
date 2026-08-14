@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-08-14T17:41:46Z",
-  "version": 2484,
+  "generated_utc": "2026-08-14T18:36:51Z",
+  "version": 2485,
   "breaking_alert": "Task & Purpose: Army identifies soldiers killed in Texas Apache helicopter crash",
   "naval_deployments": [
     {
@@ -632,16 +632,6 @@
       ]
     },
     {
-      "title": "Senator presses Navy for answers on USS Abraham Lincoln deployment",
-      "link": "https://www.militarytimes.com/news/your-military/2026/08/13/senator-presses-navy-for-answers-on-uss-abraham-lincoln-deployment/",
-      "published": "Thu, 13 Aug 2026 00:43:32 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment",
-        "exercise"
-      ]
-    },
-    {
       "title": "USS George Washington Heading West, Lincoln Deployment Nears 9 Months",
       "link": "https://news.usni.org/2026/08/13/uss-george-washington-heading-west-lincoln-deployment-nears-9-months",
       "published": "Thu, 13 Aug 2026 16:58:27 +0000",
@@ -682,6 +672,15 @@
       "link": "https://www.defensenews.com/news/pentagon-congress/2026/08/12/trump-swaps-planes-via-catering-truck-after-iranian-threats-reports-say/",
       "published": "Wed, 12 Aug 2026 15:13:20 +0000",
       "source": "Defense News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Navy denies reports of deteriorating mental health aboard USS Abraham Lincoln",
+      "link": "https://taskandpurpose.com/news/navy-uss-lincoln-morale-deployed/",
+      "published": "Wed, 12 Aug 2026 16:33:43 -0400",
+      "source": "Task & Purpose",
       "categories": [
         "deployment"
       ]
@@ -895,24 +894,14 @@
       "categories": [
         "exercise"
       ]
-    },
-    {
-      "title": "Senator presses Navy for answers on USS Abraham Lincoln deployment",
-      "link": "https://www.militarytimes.com/news/your-military/2026/08/13/senator-presses-navy-for-answers-on-uss-abraham-lincoln-deployment/",
-      "published": "Thu, 13 Aug 2026 00:43:32 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment",
-        "exercise"
-      ]
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 12,
+    "deployment_articles": 11,
     "conflict_articles": 6,
-    "exercise_articles": 2,
+    "exercise_articles": 1,
     "total_articles": 50,
-    "computed_at": "2026-08-14T17:41:41.528711+00:00",
+    "computed_at": "2026-08-14T18:36:43.179069+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Task & Purpose] Army identifies soldiers killed in Texas Apache helicopter crash",
@@ -930,9 +919,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-08-14T17:41:41.528777+00:00",
+    "last_successful_update": "2026-08-14T18:36:43.179102+00:00",
     "article_count": 50,
-    "categorized_count": 17,
+    "categorized_count": 16,
     "freshest_source": "Task & Purpose",
     "freshest_title": "Army identifies soldiers killed in Texas Apache helicopter crash",
     "freshest_published": "Fri, 14 Aug 2026 08:50:12 -0400"
