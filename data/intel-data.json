@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-08-14T10:49:09Z",
-  "version": 2478,
-  "breaking_alert": "Defense News: DARPA developing hypersonic cruise missile to evade enemy air defenses",
+  "generated_utc": "2026-08-14T11:38:31Z",
+  "version": 2479,
+  "breaking_alert": "Naval News: Ultra Maritime Tests Integrated ASW and Counter-UUV Sonar System During US Navy Exercise",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -848,6 +848,15 @@
   ],
   "_exercise_news_refs": [
     {
+      "title": "Ultra Maritime Tests Integrated ASW and Counter-UUV Sonar System During US Navy Exercise",
+      "link": "https://www.navalnews.com/naval-news/2026/08/ultra-maritime-tests-integrated-asw-and-counter-uuv-sonar-system-during-us-navy-exercise/",
+      "published": "Fri, 14 Aug 2026 11:29:00 +0000",
+      "source": "Naval News",
+      "categories": [
+        "exercise"
+      ]
+    },
+    {
       "title": "Senator presses Navy for answers on USS Abraham Lincoln deployment",
       "link": "https://www.militarytimes.com/news/your-military/2026/08/13/senator-presses-navy-for-answers-on-uss-abraham-lincoln-deployment/",
       "published": "Thu, 13 Aug 2026 00:43:32 +0000",
@@ -870,16 +879,16 @@
   "_threat_indicators": {
     "deployment_articles": 8,
     "conflict_articles": 3,
-    "exercise_articles": 2,
+    "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-08-14T10:44:28.433156+00:00",
+    "computed_at": "2026-08-14T11:33:51.122233+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
+      "[Naval News] Ultra Maritime Tests Integrated ASW and Counter-UUV Sonar System During US Navy Exercise",
       "[Defense News] DARPA developing hypersonic cruise missile to evade enemy air defenses",
       "[Military Times] Senator presses Navy for answers on USS Abraham Lincoln deployment",
       "[Naval News] Ukrainian Drone Strike Damages Russian Frigates in Novorossiysk",
-      "[USNI News] USS George Washington Heading West, Lincoln Deployment Nears 9 Months",
-      "[Military Times] If long deployments are the future, endurance can’t be the Navy’s only plan"
+      "[USNI News] USS George Washington Heading West, Lincoln Deployment Nears 9 Months"
     ]
   },
   "ground_intel": {
@@ -890,12 +899,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-08-14T10:44:28.433192+00:00",
+    "last_successful_update": "2026-08-14T11:33:51.122277+00:00",
     "article_count": 50,
-    "categorized_count": 12,
-    "freshest_source": "Defense News",
-    "freshest_title": "DARPA developing hypersonic cruise missile to evade enemy air defenses",
-    "freshest_published": "Mon, 10 Aug 2026 20:54:38 +0000"
+    "categorized_count": 13,
+    "freshest_source": "Naval News",
+    "freshest_title": "Ultra Maritime Tests Integrated ASW and Counter-UUV Sonar System During US Navy Exercise",
+    "freshest_published": "Fri, 14 Aug 2026 11:29:00 +0000"
   },
   "_firms_hotspots": []
 }
