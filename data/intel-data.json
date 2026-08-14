@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-08-14T15:43:07Z",
-  "version": 2482,
+  "generated_utc": "2026-08-14T16:37:19Z",
+  "version": 2483,
   "breaking_alert": "Task & Purpose: Army identifies soldiers killed in Texas Apache helicopter crash",
   "naval_deployments": [
     {
@@ -594,6 +594,15 @@
   ],
   "_naval_news_refs": [
     {
+      "title": "Navy to swap USS Abraham Lincoln for George Washington in the Middle East",
+      "link": "https://taskandpurpose.com/news/navy-abraham-lincoln-george-washington-middle-east/",
+      "published": "Fri, 14 Aug 2026 12:28:45 -0400",
+      "source": "Task & Purpose",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "CENTCOM launches multinational attack drone task force",
       "link": "https://www.defensenews.com/news/pentagon-congress/2026/08/14/centcom-launches-multinational-attack-drone-task-force/",
       "published": "Fri, 14 Aug 2026 15:09:04 +0000",
@@ -611,6 +620,15 @@
       "categories": [
         "deployment",
         "conflict"
+      ]
+    },
+    {
+      "title": "Woman charged over vandalism of World War II Memorial",
+      "link": "https://www.militarytimes.com/news/your-military/2026/08/14/woman-charged-over-vandalism-of-world-war-ii-memorial/",
+      "published": "Fri, 14 Aug 2026 16:21:16 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment"
       ]
     },
     {
@@ -664,24 +682,6 @@
       "link": "https://www.defensenews.com/news/pentagon-congress/2026/08/12/trump-swaps-planes-via-catering-truck-after-iranian-threats-reports-say/",
       "published": "Wed, 12 Aug 2026 15:13:20 +0000",
       "source": "Defense News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Navy denies reports of deteriorating mental health aboard USS Abraham Lincoln",
-      "link": "https://taskandpurpose.com/news/navy-uss-lincoln-morale-deployed/",
-      "published": "Wed, 12 Aug 2026 16:33:43 -0400",
-      "source": "Task & Purpose",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Carrier John F. Kennedy Leaves Newport News for Acceptance Trials, 7 Weapons Elevators Delivered",
-      "link": "https://news.usni.org/2026/08/12/carrier-john-f-kennedy-leaves-newport-news-for-acceptance-trials-7-weapons-elevators-delivered",
-      "published": "Wed, 12 Aug 2026 20:59:27 +0000",
-      "source": "USNI News",
       "categories": [
         "deployment"
       ]
@@ -905,30 +905,21 @@
         "deployment",
         "exercise"
       ]
-    },
-    {
-      "title": "Special operations airman pulls man from burning car",
-      "link": "https://taskandpurpose.com/news/airman-car-fire-rescue/",
-      "published": "Tue, 11 Aug 2026 09:49:55 -0400",
-      "source": "Task & Purpose",
-      "categories": [
-        "exercise"
-      ]
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 10,
+    "deployment_articles": 12,
     "conflict_articles": 6,
-    "exercise_articles": 3,
+    "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-08-14T15:38:27.037900+00:00",
+    "computed_at": "2026-08-14T16:37:04.314868+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Task & Purpose] Army identifies soldiers killed in Texas Apache helicopter crash",
       "[Naval News] Ultra Maritime Tests Integrated ASW and Counter-UUV Sonar System During US Navy Exercise",
+      "[Task & Purpose] Navy to swap USS Abraham Lincoln for George Washington in the Middle East",
       "[Military Times] Army identifies two soldiers killed in Apache crash",
-      "[Defense News] CENTCOM launches multinational attack drone task force",
-      "[Military Times] CENTCOM launches multinational attack drone task force"
+      "[Defense News] CENTCOM launches multinational attack drone task force"
     ]
   },
   "ground_intel": {
@@ -939,9 +930,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-08-14T15:38:27.037956+00:00",
+    "last_successful_update": "2026-08-14T16:37:04.314909+00:00",
     "article_count": 50,
-    "categorized_count": 16,
+    "categorized_count": 17,
     "freshest_source": "Task & Purpose",
     "freshest_title": "Army identifies soldiers killed in Texas Apache helicopter crash",
     "freshest_published": "Fri, 14 Aug 2026 08:50:12 -0400"
