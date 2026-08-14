@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-08-13T23:28:08Z",
-  "version": 2471,
+  "generated_utc": "2026-08-14T00:56:02Z",
+  "version": 2472,
   "breaking_alert": "Defense News: DARPA developing hypersonic cruise missile to evade enemy air defenses",
   "naval_deployments": [
     {
@@ -872,7 +872,7 @@
     "conflict_articles": 3,
     "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-08-13T23:27:58.600887+00:00",
+    "computed_at": "2026-08-14T00:51:21.851003+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Defense News] DARPA developing hypersonic cruise missile to evade enemy air defenses",
@@ -890,7 +890,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-08-13T23:27:58.600921+00:00",
+    "last_successful_update": "2026-08-14T00:51:21.851063+00:00",
     "article_count": 50,
     "categorized_count": 12,
     "freshest_source": "Defense News",
