@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-08-14T12:38:37Z",
-  "version": 2480,
-  "breaking_alert": "Naval News: Ultra Maritime Tests Integrated ASW and Counter-UUV Sonar System During US Navy Exercise",
+  "generated_utc": "2026-08-14T14:05:35Z",
+  "version": 2481,
+  "breaking_alert": "Task & Purpose: Army identifies soldiers killed in Texas Apache helicopter crash",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -819,6 +819,15 @@
   },
   "_conflict_news_refs": [
     {
+      "title": "Army identifies soldiers killed in Texas Apache helicopter crash",
+      "link": "https://taskandpurpose.com/news/apache-texas-soldiers-huey-olmstead/",
+      "published": "Fri, 14 Aug 2026 08:50:12 -0400",
+      "source": "Task & Purpose",
+      "categories": [
+        "conflict"
+      ]
+    },
+    {
       "title": "DARPA developing hypersonic cruise missile to evade enemy air defenses",
       "link": "https://www.defensenews.com/industry/techwatch/2026/08/10/darpa-developing-hypersonic-cruise-missile-to-evade-enemy-air-defenses/",
       "published": "Mon, 10 Aug 2026 20:54:38 +0000",
@@ -878,17 +887,17 @@
   ],
   "_threat_indicators": {
     "deployment_articles": 8,
-    "conflict_articles": 3,
+    "conflict_articles": 4,
     "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-08-14T12:33:57.141401+00:00",
+    "computed_at": "2026-08-14T14:05:28.945781+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
+      "[Task & Purpose] Army identifies soldiers killed in Texas Apache helicopter crash",
       "[Naval News] Ultra Maritime Tests Integrated ASW and Counter-UUV Sonar System During US Navy Exercise",
       "[Defense News] DARPA developing hypersonic cruise missile to evade enemy air defenses",
       "[Military Times] Senator presses Navy for answers on USS Abraham Lincoln deployment",
-      "[Naval News] Ukrainian Drone Strike Damages Russian Frigates in Novorossiysk",
-      "[USNI News] USS George Washington Heading West, Lincoln Deployment Nears 9 Months"
+      "[Naval News] Ukrainian Drone Strike Damages Russian Frigates in Novorossiysk"
     ]
   },
   "ground_intel": {
@@ -899,12 +908,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-08-14T12:33:57.141447+00:00",
+    "last_successful_update": "2026-08-14T14:05:28.945828+00:00",
     "article_count": 50,
-    "categorized_count": 13,
-    "freshest_source": "Naval News",
-    "freshest_title": "Ultra Maritime Tests Integrated ASW and Counter-UUV Sonar System During US Navy Exercise",
-    "freshest_published": "Fri, 14 Aug 2026 11:29:00 +0000"
+    "categorized_count": 14,
+    "freshest_source": "Task & Purpose",
+    "freshest_title": "Army identifies soldiers killed in Texas Apache helicopter crash",
+    "freshest_published": "Fri, 14 Aug 2026 08:50:12 -0400"
   },
   "_firms_hotspots": []
 }
