@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-08-15T02:05:36Z",
-  "version": 2492,
+  "generated_utc": "2026-08-15T03:26:50Z",
+  "version": 2493,
   "breaking_alert": "Task & Purpose: Army identifies soldiers killed in Texas Apache helicopter crash",
   "naval_deployments": [
     {
@@ -641,6 +641,15 @@
       ]
     },
     {
+      "title": "USS Benfold Was Stalled in the South China Sea for Four Days After Engineering Casualty",
+      "link": "https://news.usni.org/2026/08/14/uss-benfold-was-stalled-in-the-south-china-sea-for-four-days-after-engineering-casualty",
+      "published": "Sat, 15 Aug 2026 02:16:44 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "USS George Washington Heading West, Lincoln Deployment Nears 9 Months",
       "link": "https://news.usni.org/2026/08/13/uss-george-washington-heading-west-lincoln-deployment-nears-9-months",
       "published": "Thu, 13 Aug 2026 16:58:27 +0000",
@@ -672,15 +681,6 @@
       "link": "https://www.navalnews.com/naval-news/2026/08/south-korea-draft-law-jangbogo-n-nuclear-submarine-program/",
       "published": "Tue, 11 Aug 2026 07:29:52 +0000",
       "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Trump swaps planes via catering truck after Iranian threats, reports say",
-      "link": "https://www.defensenews.com/news/pentagon-congress/2026/08/12/trump-swaps-planes-via-catering-truck-after-iranian-threats-reports-say/",
-      "published": "Wed, 12 Aug 2026 15:13:20 +0000",
-      "source": "Defense News",
       "categories": [
         "deployment"
       ]
@@ -906,11 +906,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 11,
+    "deployment_articles": 12,
     "conflict_articles": 5,
     "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-08-15T02:05:30.449846+00:00",
+    "computed_at": "2026-08-15T03:26:48.194603+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Task & Purpose] Army identifies soldiers killed in Texas Apache helicopter crash",
@@ -928,9 +928,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-08-15T02:05:30.449886+00:00",
+    "last_successful_update": "2026-08-15T03:26:48.194643+00:00",
     "article_count": 50,
-    "categorized_count": 16,
+    "categorized_count": 17,
     "freshest_source": "Task & Purpose",
     "freshest_title": "Army identifies soldiers killed in Texas Apache helicopter crash",
     "freshest_published": "Fri, 14 Aug 2026 08:50:12 -0400"
