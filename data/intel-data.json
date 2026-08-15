@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-08-14T23:09:28Z",
-  "version": 2490,
+  "generated_utc": "2026-08-15T00:28:00Z",
+  "version": 2491,
   "breaking_alert": "Task & Purpose: Army identifies soldiers killed in Texas Apache helicopter crash",
   "naval_deployments": [
     {
@@ -910,7 +910,7 @@
     "conflict_articles": 5,
     "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-08-14T23:09:24.481979+00:00",
+    "computed_at": "2026-08-15T00:27:55.136966+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Task & Purpose] Army identifies soldiers killed in Texas Apache helicopter crash",
@@ -928,7 +928,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-08-14T23:09:24.482014+00:00",
+    "last_successful_update": "2026-08-15T00:27:55.137008+00:00",
     "article_count": 50,
     "categorized_count": 16,
     "freshest_source": "Task & Purpose",
