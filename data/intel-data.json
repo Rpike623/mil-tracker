@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-08-15T08:11:48Z",
-  "version": 2498,
+  "generated_utc": "2026-08-15T09:13:15Z",
+  "version": 2499,
   "breaking_alert": "Task & Purpose: Army identifies soldiers killed in Texas Apache helicopter crash",
   "naval_deployments": [
     {
@@ -650,6 +650,15 @@
       ]
     },
     {
+      "title": "U.S. Navy Orca XLUUV Completes 1,000-Mile Pacific Transit",
+      "link": "https://www.navalnews.com/naval-news/2026/08/u-s-navy-orca-xluuv-completes-1000-mile-pacific-transit/",
+      "published": "Sat, 15 Aug 2026 08:44:13 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "USS George Washington Heading West, Lincoln Deployment Nears 9 Months",
       "link": "https://news.usni.org/2026/08/13/uss-george-washington-heading-west-lincoln-deployment-nears-9-months",
       "published": "Thu, 13 Aug 2026 16:58:27 +0000",
@@ -672,15 +681,6 @@
       "link": "https://news.usni.org/2026/08/13/new-white-house-memo-calls-for-foreign-built-warships-return-to-steam-catapults-on-ford-carriers",
       "published": "Thu, 13 Aug 2026 23:15:54 +0000",
       "source": "USNI News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "South Korea Issues Draft Law to Advance Jangbogo-N Nuclear Submarine Program",
-      "link": "https://www.navalnews.com/naval-news/2026/08/south-korea-draft-law-jangbogo-n-nuclear-submarine-program/",
-      "published": "Tue, 11 Aug 2026 07:29:52 +0000",
-      "source": "Naval News",
       "categories": [
         "deployment"
       ]
@@ -910,7 +910,7 @@
     "conflict_articles": 5,
     "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-08-15T08:11:46.285675+00:00",
+    "computed_at": "2026-08-15T09:13:13.872291+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Task & Purpose] Army identifies soldiers killed in Texas Apache helicopter crash",
@@ -928,7 +928,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-08-15T08:11:46.285717+00:00",
+    "last_successful_update": "2026-08-15T09:13:13.872331+00:00",
     "article_count": 50,
     "categorized_count": 17,
     "freshest_source": "Task & Purpose",
