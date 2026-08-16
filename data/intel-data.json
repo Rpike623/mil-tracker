@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-08-16T19:11:20Z",
-  "version": 2532,
+  "generated_utc": "2026-08-16T20:07:05Z",
+  "version": 2533,
   "breaking_alert": "Task & Purpose: Army identifies soldiers killed in Texas Apache helicopter crash",
   "naval_deployments": [
     {
@@ -876,10 +876,10 @@
       ]
     },
     {
-      "title": "Ukrainian Drone Strike Damages Russian Frigates in Novorossiysk",
-      "link": "https://www.navalnews.com/naval-news/2026/08/ukrainian-drone-strike-russian-frigates-novorossiysk/",
-      "published": "Thu, 13 Aug 2026 12:01:21 +0000",
-      "source": "Naval News",
+      "title": "US bases ‘ill-equipped’ to stop drone attacks, NORAD deputy says",
+      "link": "https://taskandpurpose.com/tech-tactics/us-bases-ill-equipped-drone-defense/",
+      "published": "Sun, 16 Aug 2026 15:34:28 -0400",
+      "source": "Task & Purpose",
       "categories": [
         "conflict"
       ]
@@ -907,10 +907,10 @@
   ],
   "_threat_indicators": {
     "deployment_articles": 12,
-    "conflict_articles": 5,
+    "conflict_articles": 6,
     "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-08-16T19:11:15.059875+00:00",
+    "computed_at": "2026-08-16T20:06:59.699481+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Task & Purpose] Army identifies soldiers killed in Texas Apache helicopter crash",
@@ -928,9 +928,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-08-16T19:11:15.059915+00:00",
+    "last_successful_update": "2026-08-16T20:06:59.699518+00:00",
     "article_count": 50,
-    "categorized_count": 17,
+    "categorized_count": 18,
     "freshest_source": "Task & Purpose",
     "freshest_title": "Army identifies soldiers killed in Texas Apache helicopter crash",
     "freshest_published": "Fri, 14 Aug 2026 08:50:12 -0400"
