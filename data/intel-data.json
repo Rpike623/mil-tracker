@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-08-15T23:08:00Z",
-  "version": 2513,
+  "generated_utc": "2026-08-16T00:28:59Z",
+  "version": 2514,
   "breaking_alert": "Task & Purpose: Army identifies soldiers killed in Texas Apache helicopter crash",
   "naval_deployments": [
     {
@@ -659,6 +659,15 @@
       ]
     },
     {
+      "title": "Head of Central Command visits USS Abraham Lincoln amid quality of life concerns",
+      "link": "https://taskandpurpose.com/news/centcom-brad-cooper-uss-abraham-lincoln/",
+      "published": "Sat, 15 Aug 2026 19:40:58 -0400",
+      "source": "Task & Purpose",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "USS George Washington Heading West, Lincoln Deployment Nears 9 Months",
       "link": "https://news.usni.org/2026/08/13/uss-george-washington-heading-west-lincoln-deployment-nears-9-months",
       "published": "Thu, 13 Aug 2026 16:58:27 +0000",
@@ -672,15 +681,6 @@
       "link": "https://www.militarytimes.com/opinion/2026/08/13/if-long-deployments-are-the-future-endurance-cant-be-the-navys-only-plan/",
       "published": "Thu, 13 Aug 2026 17:36:57 +0000",
       "source": "Military Times",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "New White House Memo Calls for Foreign-Built Warships, Return to Steam Catapults on Ford Carriers",
-      "link": "https://news.usni.org/2026/08/13/new-white-house-memo-calls-for-foreign-built-warships-return-to-steam-catapults-on-ford-carriers",
-      "published": "Thu, 13 Aug 2026 23:15:54 +0000",
-      "source": "USNI News",
       "categories": [
         "deployment"
       ]
@@ -906,11 +906,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 11,
+    "deployment_articles": 12,
     "conflict_articles": 5,
     "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-08-15T23:07:55.104835+00:00",
+    "computed_at": "2026-08-16T00:28:50.739239+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Task & Purpose] Army identifies soldiers killed in Texas Apache helicopter crash",
@@ -928,9 +928,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-08-15T23:07:55.104868+00:00",
+    "last_successful_update": "2026-08-16T00:28:50.739282+00:00",
     "article_count": 50,
-    "categorized_count": 16,
+    "categorized_count": 17,
     "freshest_source": "Task & Purpose",
     "freshest_title": "Army identifies soldiers killed in Texas Apache helicopter crash",
     "freshest_published": "Fri, 14 Aug 2026 08:50:12 -0400"
