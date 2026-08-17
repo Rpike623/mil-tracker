@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-08-17T20:11:35Z",
-  "version": 2556,
+  "generated_utc": "2026-08-17T21:13:09Z",
+  "version": 2557,
   "breaking_alert": "Naval News: Ultra Maritime Tests Integrated ASW and Counter-UUV Sonar System During US Navy Exercise",
   "naval_deployments": [
     {
@@ -594,15 +594,6 @@
   ],
   "_naval_news_refs": [
     {
-      "title": "Navy to swap USS Abraham Lincoln for George Washington in the Middle East",
-      "link": "https://taskandpurpose.com/news/navy-abraham-lincoln-george-washington-middle-east/",
-      "published": "Fri, 14 Aug 2026 12:28:45 -0400",
-      "source": "Task & Purpose",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "CENTCOM launches multinational attack drone task force",
       "link": "https://www.defensenews.com/news/pentagon-congress/2026/08/14/centcom-launches-multinational-attack-drone-task-force/",
       "published": "Fri, 14 Aug 2026 15:09:04 +0000",
@@ -680,6 +671,15 @@
       "link": "https://www.navalnews.com/naval-news/2026/08/u-s-navy-looks-to-carrier-basing-submarine-replenishment-missions-for-uuvs/",
       "published": "Mon, 17 Aug 2026 19:58:22 +0000",
       "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "USS Benfold Was Stalled in the South China Sea for Four Days After Engineering Casualty",
+      "link": "https://news.usni.org/2026/08/14/uss-benfold-was-stalled-in-the-south-china-sea-for-four-days-after-engineering-casualty",
+      "published": "Sat, 15 Aug 2026 02:16:44 +0000",
+      "source": "USNI News",
       "categories": [
         "deployment"
       ]
@@ -892,21 +892,30 @@
       "categories": [
         "exercise"
       ]
+    },
+    {
+      "title": "Major exercise in South Korea continues after Trump orders US role curtailed",
+      "link": "https://taskandpurpose.com/news/military-trump-south-korea-2026/",
+      "published": "Mon, 17 Aug 2026 16:50:15 -0400",
+      "source": "Task & Purpose",
+      "categories": [
+        "exercise"
+      ]
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 15,
+    "deployment_articles": 14,
     "conflict_articles": 3,
-    "exercise_articles": 3,
+    "exercise_articles": 4,
     "total_articles": 50,
-    "computed_at": "2026-08-17T20:11:31.639277+00:00",
+    "computed_at": "2026-08-17T21:13:03.524388+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] Ultra Maritime Tests Integrated ASW and Counter-UUV Sonar System During US Navy Exercise",
-      "[Task & Purpose] Navy to swap USS Abraham Lincoln for George Washington in the Middle East",
       "[Defense News] CENTCOM launches multinational attack drone task force",
       "[Task & Purpose] Navy sending more mental health help to the USS Abraham Lincoln crew",
-      "[Task & Purpose] Tracking America’s latest conflict: The Iran war timeline"
+      "[Task & Purpose] Tracking America’s latest conflict: The Iran war timeline",
+      "[Defense News] Trump orders Pentagon to cut back military exercises with South Korea"
     ]
   },
   "ground_intel": {
@@ -917,7 +926,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-08-17T20:11:31.639325+00:00",
+    "last_successful_update": "2026-08-17T21:13:03.524432+00:00",
     "article_count": 50,
     "categorized_count": 20,
     "freshest_source": "Naval News",
