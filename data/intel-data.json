@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-08-17T15:13:20Z",
-  "version": 2551,
+  "generated_utc": "2026-08-17T16:11:48Z",
+  "version": 2552,
   "breaking_alert": "Task & Purpose: Army identifies soldiers killed in Texas Apache helicopter crash",
   "naval_deployments": [
     {
@@ -613,25 +613,6 @@
       ]
     },
     {
-      "title": "CENTCOM launches multinational attack drone task force",
-      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/08/14/centcom-launches-multinational-attack-drone-task-force/",
-      "published": "Fri, 14 Aug 2026 15:09:04 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
-      "title": "Woman charged over vandalism of World War II Memorial",
-      "link": "https://www.militarytimes.com/news/your-military/2026/08/14/woman-charged-over-vandalism-of-world-war-ii-memorial/",
-      "published": "Fri, 14 Aug 2026 16:21:16 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Navy sending more mental health help to the USS Abraham Lincoln crew",
       "link": "https://taskandpurpose.com/news/navy-secretary-responds-lincoln/",
       "published": "Fri, 14 Aug 2026 17:12:02 -0400",
@@ -645,6 +626,24 @@
       "link": "https://taskandpurpose.com/news/iran-war-timeline/",
       "published": "Mon, 17 Aug 2026 10:43:07 -0400",
       "source": "Task & Purpose",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "CENTCOM commander visits USS Abraham Lincoln amid mental health concerns",
+      "link": "https://www.militarytimes.com/news/your-navy/2026/08/17/centcom-commander-visits-uss-abraham-lincoln-amid-mental-health-concerns/",
+      "published": "Mon, 17 Aug 2026 15:19:27 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "USS Benfold Leaves Japan After Returning from Power Failure Repairs",
+      "link": "https://news.usni.org/2026/08/17/uss-benfold-leaves-japan-after-returning-from-power-failure-repairs",
+      "published": "Mon, 17 Aug 2026 15:41:52 +0000",
+      "source": "USNI News",
       "categories": [
         "deployment"
       ]
@@ -857,16 +856,6 @@
       ]
     },
     {
-      "title": "CENTCOM launches multinational attack drone task force",
-      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/08/14/centcom-launches-multinational-attack-drone-task-force/",
-      "published": "Fri, 14 Aug 2026 15:09:04 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
       "title": "US bases ‘ill-equipped’ to stop drone attacks, NORAD deputy says",
       "link": "https://taskandpurpose.com/tech-tactics/us-bases-ill-equipped-drone-defense/",
       "published": "Sun, 16 Aug 2026 15:34:28 -0400",
@@ -903,21 +892,39 @@
       "categories": [
         "exercise"
       ]
+    },
+    {
+      "title": "Trump orders Pentagon to cut back military exercises with South Korea",
+      "link": "https://www.defensenews.com/news/your-military/2026/08/17/trump-orders-pentagon-to-cut-back-military-exercises-with-south-korea/",
+      "published": "Mon, 17 Aug 2026 15:14:07 +0000",
+      "source": "Defense News",
+      "categories": [
+        "exercise"
+      ]
+    },
+    {
+      "title": "Trump orders Pentagon to cut back military exercises with South Korea",
+      "link": "https://www.militarytimes.com/news/your-military/2026/08/17/trump-orders-pentagon-to-cut-back-military-exercises-with-south-korea/",
+      "published": "Mon, 17 Aug 2026 15:14:07 +0000",
+      "source": "Military Times",
+      "categories": [
+        "exercise"
+      ]
     }
   ],
   "_threat_indicators": {
     "deployment_articles": 11,
-    "conflict_articles": 5,
-    "exercise_articles": 2,
+    "conflict_articles": 4,
+    "exercise_articles": 4,
     "total_articles": 50,
-    "computed_at": "2026-08-17T15:13:16.030649+00:00",
+    "computed_at": "2026-08-17T16:11:46.075238+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Task & Purpose] Army identifies soldiers killed in Texas Apache helicopter crash",
       "[Naval News] Ultra Maritime Tests Integrated ASW and Counter-UUV Sonar System During US Navy Exercise",
       "[Task & Purpose] Navy to swap USS Abraham Lincoln for George Washington in the Middle East",
       "[Defense News] CENTCOM launches multinational attack drone task force",
-      "[Military Times] CENTCOM launches multinational attack drone task force"
+      "[Task & Purpose] Navy sending more mental health help to the USS Abraham Lincoln crew"
     ]
   },
   "ground_intel": {
@@ -928,9 +935,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-08-17T15:13:16.030692+00:00",
+    "last_successful_update": "2026-08-17T16:11:46.075285+00:00",
     "article_count": 50,
-    "categorized_count": 16,
+    "categorized_count": 18,
     "freshest_source": "Task & Purpose",
     "freshest_title": "Army identifies soldiers killed in Texas Apache helicopter crash",
     "freshest_published": "Fri, 14 Aug 2026 08:50:12 -0400"
