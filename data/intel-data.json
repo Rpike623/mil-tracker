@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-08-17T12:15:45Z",
-  "version": 2548,
+  "generated_utc": "2026-08-17T13:29:48Z",
+  "version": 2549,
   "breaking_alert": "Task & Purpose: Army identifies soldiers killed in Texas Apache helicopter crash",
   "naval_deployments": [
     {
@@ -677,10 +677,10 @@
       ]
     },
     {
-      "title": "If long deployments are the future, endurance can’t be the Navy’s only plan",
-      "link": "https://www.militarytimes.com/opinion/2026/08/13/if-long-deployments-are-the-future-endurance-cant-be-the-navys-only-plan/",
-      "published": "Thu, 13 Aug 2026 17:36:57 +0000",
-      "source": "Military Times",
+      "title": "New White House Memo Calls for Foreign-Built Warships, Return to Steam Catapults on Ford Carriers",
+      "link": "https://news.usni.org/2026/08/13/new-white-house-memo-calls-for-foreign-built-warships-return-to-steam-catapults-on-ford-carriers",
+      "published": "Thu, 13 Aug 2026 23:15:54 +0000",
+      "source": "USNI News",
       "categories": [
         "deployment"
       ]
@@ -906,11 +906,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 12,
+    "deployment_articles": 11,
     "conflict_articles": 6,
     "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-08-17T12:15:43.873415+00:00",
+    "computed_at": "2026-08-17T13:29:36.623177+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Task & Purpose] Army identifies soldiers killed in Texas Apache helicopter crash",
@@ -928,9 +928,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-08-17T12:15:43.873462+00:00",
+    "last_successful_update": "2026-08-17T13:29:36.623217+00:00",
     "article_count": 50,
-    "categorized_count": 18,
+    "categorized_count": 17,
     "freshest_source": "Task & Purpose",
     "freshest_title": "Army identifies soldiers killed in Texas Apache helicopter crash",
     "freshest_published": "Fri, 14 Aug 2026 08:50:12 -0400"
