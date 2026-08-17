@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-08-17T18:17:52Z",
-  "version": 2554,
+  "generated_utc": "2026-08-17T19:22:44Z",
+  "version": 2555,
   "breaking_alert": "Naval News: Ultra Maritime Tests Integrated ASW and Counter-UUV Sonar System During US Navy Exercise",
   "naval_deployments": [
     {
@@ -658,28 +658,28 @@
       ]
     },
     {
+      "title": "US Air Force looks to acquire target drones that can mimic stealth jets",
+      "link": "https://www.defensenews.com/industry/techwatch/2026/08/17/us-air-force-looks-to-acquire-target-drones-that-can-mimic-stealth-jets/",
+      "published": "Mon, 17 Aug 2026 18:19:24 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "US Air Force looks to acquire target drones that can mimic stealth jets",
+      "link": "https://www.militarytimes.com/industry/techwatch/2026/08/17/us-air-force-looks-to-acquire-target-drones-that-can-mimic-stealth-jets/",
+      "published": "Mon, 17 Aug 2026 18:19:24 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "USS Benfold Was Stalled in the South China Sea for Four Days After Engineering Casualty",
       "link": "https://news.usni.org/2026/08/14/uss-benfold-was-stalled-in-the-south-china-sea-for-four-days-after-engineering-casualty",
       "published": "Sat, 15 Aug 2026 02:16:44 +0000",
       "source": "USNI News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "U.S. Navy Orca XLUUV Completes 1,000-Mile Pacific Transit",
-      "link": "https://www.navalnews.com/naval-news/2026/08/u-s-navy-orca-xluuv-completes-1000-mile-pacific-transit/",
-      "published": "Sat, 15 Aug 2026 08:44:13 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Head of Central Command visits USS Abraham Lincoln amid quality of life concerns",
-      "link": "https://taskandpurpose.com/news/centcom-brad-cooper-uss-abraham-lincoln/",
-      "published": "Sat, 15 Aug 2026 19:40:58 -0400",
-      "source": "Task & Purpose",
       "categories": [
         "deployment"
       ]
@@ -876,15 +876,6 @@
       ]
     },
     {
-      "title": "Operationalizing Operator Syndrome: What the Pentagon advisory council needs to get right",
-      "link": "https://www.militarytimes.com/opinion/2026/08/14/operationalizing-operator-syndrome-what-the-pentagon-advisory-council-needs-to-get-right/",
-      "published": "Fri, 14 Aug 2026 20:47:37 +0000",
-      "source": "Military Times",
-      "categories": [
-        "exercise"
-      ]
-    },
-    {
       "title": "Trump orders Pentagon to cut back military exercises with South Korea",
       "link": "https://www.defensenews.com/news/your-military/2026/08/17/trump-orders-pentagon-to-cut-back-military-exercises-with-south-korea/",
       "published": "Mon, 17 Aug 2026 15:14:07 +0000",
@@ -904,18 +895,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 12,
+    "deployment_articles": 14,
     "conflict_articles": 3,
-    "exercise_articles": 4,
+    "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-08-17T18:17:44.109607+00:00",
+    "computed_at": "2026-08-17T19:18:03.551634+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] Ultra Maritime Tests Integrated ASW and Counter-UUV Sonar System During US Navy Exercise",
       "[Task & Purpose] Navy to swap USS Abraham Lincoln for George Washington in the Middle East",
       "[Defense News] CENTCOM launches multinational attack drone task force",
       "[Task & Purpose] Navy sending more mental health help to the USS Abraham Lincoln crew",
-      "[Military Times] Operationalizing Operator Syndrome: What the Pentagon advisory council needs to get right"
+      "[Task & Purpose] Tracking America’s latest conflict: The Iran war timeline"
     ]
   },
   "ground_intel": {
@@ -926,9 +917,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-08-17T18:17:44.109652+00:00",
+    "last_successful_update": "2026-08-17T19:18:03.551681+00:00",
     "article_count": 50,
-    "categorized_count": 18,
+    "categorized_count": 19,
     "freshest_source": "Naval News",
     "freshest_title": "Ultra Maritime Tests Integrated ASW and Counter-UUV Sonar System During US Navy Exercise",
     "freshest_published": "Fri, 14 Aug 2026 11:29:00 +0000"
