@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-08-17T16:11:48Z",
-  "version": 2552,
-  "breaking_alert": "Task & Purpose: Army identifies soldiers killed in Texas Apache helicopter crash",
+  "generated_utc": "2026-08-17T17:14:28Z",
+  "version": 2553,
+  "breaking_alert": "Naval News: Ultra Maritime Tests Integrated ASW and Counter-UUV Sonar System During US Navy Exercise",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -649,6 +649,15 @@
       ]
     },
     {
+      "title": "USNI News Fleet and Marine Tracker: Aug. 17, 2026",
+      "link": "https://news.usni.org/2026/08/17/usni-news-fleet-and-marine-tracker-aug-17-2026",
+      "published": "Mon, 17 Aug 2026 16:44:25 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "USS Benfold Was Stalled in the South China Sea for Four Days After Engineering Casualty",
       "link": "https://news.usni.org/2026/08/14/uss-benfold-was-stalled-in-the-south-china-sea-for-four-days-after-engineering-casualty",
       "published": "Sat, 15 Aug 2026 02:16:44 +0000",
@@ -671,15 +680,6 @@
       "link": "https://taskandpurpose.com/news/centcom-brad-cooper-uss-abraham-lincoln/",
       "published": "Sat, 15 Aug 2026 19:40:58 -0400",
       "source": "Task & Purpose",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "USS George Washington Heading West, Lincoln Deployment Nears 9 Months",
-      "link": "https://news.usni.org/2026/08/13/uss-george-washington-heading-west-lincoln-deployment-nears-9-months",
-      "published": "Thu, 13 Aug 2026 16:58:27 +0000",
-      "source": "USNI News",
       "categories": [
         "deployment"
       ]
@@ -837,15 +837,6 @@
   },
   "_conflict_news_refs": [
     {
-      "title": "Army identifies soldiers killed in Texas Apache helicopter crash",
-      "link": "https://taskandpurpose.com/news/apache-texas-soldiers-huey-olmstead/",
-      "published": "Fri, 14 Aug 2026 08:50:12 -0400",
-      "source": "Task & Purpose",
-      "categories": [
-        "conflict"
-      ]
-    },
-    {
       "title": "CENTCOM launches multinational attack drone task force",
       "link": "https://www.defensenews.com/news/pentagon-congress/2026/08/14/centcom-launches-multinational-attack-drone-task-force/",
       "published": "Fri, 14 Aug 2026 15:09:04 +0000",
@@ -913,18 +904,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 11,
-    "conflict_articles": 4,
+    "deployment_articles": 12,
+    "conflict_articles": 3,
     "exercise_articles": 4,
     "total_articles": 50,
-    "computed_at": "2026-08-17T16:11:46.075238+00:00",
+    "computed_at": "2026-08-17T17:14:26.272066+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
-      "[Task & Purpose] Army identifies soldiers killed in Texas Apache helicopter crash",
       "[Naval News] Ultra Maritime Tests Integrated ASW and Counter-UUV Sonar System During US Navy Exercise",
       "[Task & Purpose] Navy to swap USS Abraham Lincoln for George Washington in the Middle East",
       "[Defense News] CENTCOM launches multinational attack drone task force",
-      "[Task & Purpose] Navy sending more mental health help to the USS Abraham Lincoln crew"
+      "[Task & Purpose] Navy sending more mental health help to the USS Abraham Lincoln crew",
+      "[Military Times] Operationalizing Operator Syndrome: What the Pentagon advisory council needs to get right"
     ]
   },
   "ground_intel": {
@@ -935,12 +926,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-08-17T16:11:46.075285+00:00",
+    "last_successful_update": "2026-08-17T17:14:26.272108+00:00",
     "article_count": 50,
     "categorized_count": 18,
-    "freshest_source": "Task & Purpose",
-    "freshest_title": "Army identifies soldiers killed in Texas Apache helicopter crash",
-    "freshest_published": "Fri, 14 Aug 2026 08:50:12 -0400"
+    "freshest_source": "Naval News",
+    "freshest_title": "Ultra Maritime Tests Integrated ASW and Counter-UUV Sonar System During US Navy Exercise",
+    "freshest_published": "Fri, 14 Aug 2026 11:29:00 +0000"
   },
   "_firms_hotspots": []
 }
