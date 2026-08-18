@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-08-18T16:15:16Z",
-  "version": 2575,
+  "generated_utc": "2026-08-18T17:15:44Z",
+  "version": 2576,
   "breaking_alert": "Naval News: Ultra Maritime Tests Integrated ASW and Counter-UUV Sonar System During US Navy Exercise",
   "naval_deployments": [
     {
@@ -603,15 +603,6 @@
       ]
     },
     {
-      "title": "CENTCOM commander visits USS Abraham Lincoln amid mental health concerns",
-      "link": "https://www.militarytimes.com/news/your-navy/2026/08/17/centcom-commander-visits-uss-abraham-lincoln-amid-mental-health-concerns/",
-      "published": "Mon, 17 Aug 2026 15:19:27 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "USS Benfold Leaves Japan After Returning from Power Failure Repairs",
       "link": "https://news.usni.org/2026/08/17/uss-benfold-leaves-japan-after-returning-from-power-failure-repairs",
       "published": "Mon, 17 Aug 2026 15:41:52 +0000",
@@ -679,6 +670,15 @@
       "link": "https://www.navalnews.com/naval-news/2026/08/u-s-navy-orca-xluuv-completes-1000-mile-pacific-transit/",
       "published": "Sat, 15 Aug 2026 08:44:13 +0000",
       "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Head of Central Command visits USS Abraham Lincoln amid quality of life concerns",
+      "link": "https://taskandpurpose.com/news/centcom-brad-cooper-uss-abraham-lincoln/",
+      "published": "Sat, 15 Aug 2026 19:40:58 -0400",
+      "source": "Task & Purpose",
       "categories": [
         "deployment"
       ]
@@ -893,18 +893,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 13,
+    "deployment_articles": 12,
     "conflict_articles": 3,
     "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-08-18T16:15:13.445008+00:00",
+    "computed_at": "2026-08-18T17:15:17.570509+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] Ultra Maritime Tests Integrated ASW and Counter-UUV Sonar System During US Navy Exercise",
       "[Task & Purpose] Tracking America’s latest conflict: The Iran war timeline",
       "[Defense News] Trump orders Pentagon to cut back military exercises with South Korea",
-      "[Military Times] CENTCOM commander visits USS Abraham Lincoln amid mental health concerns",
-      "[USNI News] USS Benfold Leaves Japan After Returning from Power Failure Repairs"
+      "[USNI News] USS Benfold Leaves Japan After Returning from Power Failure Repairs",
+      "[USNI News] USNI News Fleet and Marine Tracker: Aug. 17, 2026"
     ]
   },
   "ground_intel": {
@@ -915,9 +915,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-08-18T16:15:13.445044+00:00",
+    "last_successful_update": "2026-08-18T17:15:17.570554+00:00",
     "article_count": 50,
-    "categorized_count": 19,
+    "categorized_count": 18,
     "freshest_source": "Naval News",
     "freshest_title": "Ultra Maritime Tests Integrated ASW and Counter-UUV Sonar System During US Navy Exercise",
     "freshest_published": "Fri, 14 Aug 2026 11:29:00 +0000"
