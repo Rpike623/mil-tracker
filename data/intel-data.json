@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-08-18T14:19:24Z",
-  "version": 2573,
+  "generated_utc": "2026-08-18T15:18:32Z",
+  "version": 2574,
   "breaking_alert": "Naval News: Ultra Maritime Tests Integrated ASW and Counter-UUV Sonar System During US Navy Exercise",
   "naval_deployments": [
     {
@@ -843,6 +843,15 @@
       "categories": [
         "conflict"
       ]
+    },
+    {
+      "title": "Raytheon awarded 7-year contract for Tomahawk cruise missiles",
+      "link": "https://www.navalnews.com/naval-news/2026/08/raytheon-awarded-7-year-contract-for-tomahawk-cruise-missiles/",
+      "published": "Tue, 18 Aug 2026 14:56:44 +0000",
+      "source": "Naval News",
+      "categories": [
+        "conflict"
+      ]
     }
   ],
   "_exercise_news_refs": [
@@ -885,10 +894,10 @@
   ],
   "_threat_indicators": {
     "deployment_articles": 13,
-    "conflict_articles": 1,
+    "conflict_articles": 2,
     "exercise_articles": 4,
     "total_articles": 50,
-    "computed_at": "2026-08-18T14:19:10.568610+00:00",
+    "computed_at": "2026-08-18T15:18:19.270239+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] Ultra Maritime Tests Integrated ASW and Counter-UUV Sonar System During US Navy Exercise",
@@ -906,9 +915,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-08-18T14:19:10.568657+00:00",
+    "last_successful_update": "2026-08-18T15:18:19.270284+00:00",
     "article_count": 50,
-    "categorized_count": 18,
+    "categorized_count": 19,
     "freshest_source": "Naval News",
     "freshest_title": "Ultra Maritime Tests Integrated ASW and Counter-UUV Sonar System During US Navy Exercise",
     "freshest_published": "Fri, 14 Aug 2026 11:29:00 +0000"
