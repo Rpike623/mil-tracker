@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-08-18T12:18:01Z",
-  "version": 2571,
+  "generated_utc": "2026-08-18T13:37:29Z",
+  "version": 2572,
   "breaking_alert": "Naval News: Ultra Maritime Tests Integrated ASW and Counter-UUV Sonar System During US Navy Exercise",
   "naval_deployments": [
     {
@@ -594,16 +594,6 @@
   ],
   "_naval_news_refs": [
     {
-      "title": "CENTCOM launches multinational attack drone task force",
-      "link": "https://www.defensenews.com/news/pentagon-congress/2026/08/14/centcom-launches-multinational-attack-drone-task-force/",
-      "published": "Fri, 14 Aug 2026 15:09:04 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
       "title": "Navy sending more mental health help to the USS Abraham Lincoln crew",
       "link": "https://taskandpurpose.com/news/navy-secretary-responds-lincoln/",
       "published": "Fri, 14 Aug 2026 17:12:02 -0400",
@@ -680,6 +670,15 @@
       "link": "https://www.militarytimes.com/news/your-navy/2026/08/17/uss-john-f-kennedy-completes-acceptance-sea-trials/",
       "published": "Mon, 17 Aug 2026 21:40:03 +0000",
       "source": "Military Times",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "USS Benfold Was Stalled in the South China Sea for Four Days After Engineering Casualty",
+      "link": "https://news.usni.org/2026/08/14/uss-benfold-was-stalled-in-the-south-china-sea-for-four-days-after-engineering-casualty",
+      "published": "Sat, 15 Aug 2026 02:16:44 +0000",
+      "source": "USNI News",
       "categories": [
         "deployment"
       ]
@@ -837,29 +836,10 @@
   },
   "_conflict_news_refs": [
     {
-      "title": "CENTCOM launches multinational attack drone task force",
-      "link": "https://www.defensenews.com/news/pentagon-congress/2026/08/14/centcom-launches-multinational-attack-drone-task-force/",
-      "published": "Fri, 14 Aug 2026 15:09:04 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
       "title": "US bases ‘ill-equipped’ to stop drone attacks, NORAD deputy says",
       "link": "https://taskandpurpose.com/tech-tactics/us-bases-ill-equipped-drone-defense/",
       "published": "Sun, 16 Aug 2026 15:34:28 -0400",
       "source": "Task & Purpose",
-      "categories": [
-        "conflict"
-      ]
-    },
-    {
-      "title": "Ukrainian Drone Strike Damages Russian Frigates in Novorossiysk",
-      "link": "https://www.navalnews.com/naval-news/2026/08/ukrainian-drone-strike-russian-frigates-novorossiysk/",
-      "published": "Thu, 13 Aug 2026 12:01:21 +0000",
-      "source": "Naval News",
       "categories": [
         "conflict"
       ]
@@ -904,18 +884,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 14,
-    "conflict_articles": 3,
+    "deployment_articles": 13,
+    "conflict_articles": 1,
     "exercise_articles": 4,
     "total_articles": 50,
-    "computed_at": "2026-08-18T12:17:39.106777+00:00",
+    "computed_at": "2026-08-18T13:32:48.851183+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] Ultra Maritime Tests Integrated ASW and Counter-UUV Sonar System During US Navy Exercise",
-      "[Defense News] CENTCOM launches multinational attack drone task force",
       "[Task & Purpose] Navy sending more mental health help to the USS Abraham Lincoln crew",
       "[Task & Purpose] Tracking America’s latest conflict: The Iran war timeline",
-      "[Defense News] Trump orders Pentagon to cut back military exercises with South Korea"
+      "[Defense News] Trump orders Pentagon to cut back military exercises with South Korea",
+      "[Military Times] Trump orders Pentagon to cut back military exercises with South Korea"
     ]
   },
   "ground_intel": {
@@ -926,9 +906,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-08-18T12:17:39.106819+00:00",
+    "last_successful_update": "2026-08-18T13:32:48.851226+00:00",
     "article_count": 50,
-    "categorized_count": 20,
+    "categorized_count": 18,
     "freshest_source": "Naval News",
     "freshest_title": "Ultra Maritime Tests Integrated ASW and Counter-UUV Sonar System During US Navy Exercise",
     "freshest_published": "Fri, 14 Aug 2026 11:29:00 +0000"
