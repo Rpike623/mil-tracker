@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-08-18T11:13:02Z",
-  "version": 2570,
+  "generated_utc": "2026-08-18T12:18:01Z",
+  "version": 2571,
   "breaking_alert": "Naval News: Ultra Maritime Tests Integrated ASW and Counter-UUV Sonar System During US Navy Exercise",
   "naval_deployments": [
     {
@@ -908,7 +908,7 @@
     "conflict_articles": 3,
     "exercise_articles": 4,
     "total_articles": 50,
-    "computed_at": "2026-08-18T11:12:52.973490+00:00",
+    "computed_at": "2026-08-18T12:17:39.106777+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] Ultra Maritime Tests Integrated ASW and Counter-UUV Sonar System During US Navy Exercise",
@@ -926,7 +926,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-08-18T11:12:52.973536+00:00",
+    "last_successful_update": "2026-08-18T12:17:39.106819+00:00",
     "article_count": 50,
     "categorized_count": 20,
     "freshest_source": "Naval News",
