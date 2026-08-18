@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-08-18T19:23:08Z",
-  "version": 2578,
-  "breaking_alert": "Naval News: Ultra Maritime Tests Integrated ASW and Counter-UUV Sonar System During US Navy Exercise",
+  "generated_utc": "2026-08-18T20:13:28Z",
+  "version": 2579,
+  "breaking_alert": "Task & Purpose: Tracking America’s latest conflict: The Iran war timeline",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -630,15 +630,6 @@
       ]
     },
     {
-      "title": "US Air Force looks to acquire target drones that can mimic stealth jets",
-      "link": "https://www.militarytimes.com/industry/techwatch/2026/08/17/us-air-force-looks-to-acquire-target-drones-that-can-mimic-stealth-jets/",
-      "published": "Mon, 17 Aug 2026 18:19:24 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "U.S. Navy Looks to Carrier-Basing, Submarine Replenishment Missions for UUVs",
       "link": "https://www.navalnews.com/naval-news/2026/08/u-s-navy-looks-to-carrier-basing-submarine-replenishment-missions-for-uuvs/",
       "published": "Mon, 17 Aug 2026 19:58:22 +0000",
@@ -679,6 +670,15 @@
       "link": "https://taskandpurpose.com/news/centcom-brad-cooper-uss-abraham-lincoln/",
       "published": "Sat, 15 Aug 2026 19:40:58 -0400",
       "source": "Task & Purpose",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "New White House Memo Calls for Foreign-Built Warships, Return to Steam Catapults on Ford Carriers",
+      "link": "https://news.usni.org/2026/08/13/new-white-house-memo-calls-for-foreign-built-warships-return-to-steam-catapults-on-ford-carriers",
+      "published": "Thu, 13 Aug 2026 23:15:54 +0000",
+      "source": "USNI News",
       "categories": [
         "deployment"
       ]
@@ -865,15 +865,6 @@
   ],
   "_exercise_news_refs": [
     {
-      "title": "Ultra Maritime Tests Integrated ASW and Counter-UUV Sonar System During US Navy Exercise",
-      "link": "https://www.navalnews.com/naval-news/2026/08/ultra-maritime-tests-integrated-asw-and-counter-uuv-sonar-system-during-us-navy-exercise/",
-      "published": "Fri, 14 Aug 2026 11:29:00 +0000",
-      "source": "Naval News",
-      "categories": [
-        "exercise"
-      ]
-    },
-    {
       "title": "Trump orders Pentagon to cut back military exercises with South Korea",
       "link": "https://www.defensenews.com/news/your-military/2026/08/17/trump-orders-pentagon-to-cut-back-military-exercises-with-south-korea/",
       "published": "Mon, 17 Aug 2026 15:14:07 +0000",
@@ -893,18 +884,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 12,
+    "deployment_articles": 11,
     "conflict_articles": 3,
-    "exercise_articles": 3,
+    "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-08-18T19:18:27.259305+00:00",
+    "computed_at": "2026-08-18T20:08:47.759144+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
-      "[Naval News] Ultra Maritime Tests Integrated ASW and Counter-UUV Sonar System During US Navy Exercise",
       "[Task & Purpose] Tracking America’s latest conflict: The Iran war timeline",
       "[Defense News] Trump orders Pentagon to cut back military exercises with South Korea",
       "[USNI News] USS Benfold Leaves Japan After Returning from Power Failure Repairs",
-      "[USNI News] USNI News Fleet and Marine Tracker: Aug. 17, 2026"
+      "[USNI News] USNI News Fleet and Marine Tracker: Aug. 17, 2026",
+      "[Task & Purpose] Major exercise in South Korea continues after Trump orders US role curtailed"
     ]
   },
   "ground_intel": {
@@ -915,12 +906,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-08-18T19:18:27.259350+00:00",
+    "last_successful_update": "2026-08-18T20:08:47.759196+00:00",
     "article_count": 50,
-    "categorized_count": 18,
-    "freshest_source": "Naval News",
-    "freshest_title": "Ultra Maritime Tests Integrated ASW and Counter-UUV Sonar System During US Navy Exercise",
-    "freshest_published": "Fri, 14 Aug 2026 11:29:00 +0000"
+    "categorized_count": 16,
+    "freshest_source": "Task & Purpose",
+    "freshest_title": "Tracking America’s latest conflict: The Iran war timeline",
+    "freshest_published": "Mon, 17 Aug 2026 10:43:07 -0400"
   },
   "_firms_hotspots": []
 }
