@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-08-18T15:18:32Z",
-  "version": 2574,
+  "generated_utc": "2026-08-18T16:15:16Z",
+  "version": 2575,
   "breaking_alert": "Naval News: Ultra Maritime Tests Integrated ASW and Counter-UUV Sonar System During US Navy Exercise",
   "naval_deployments": [
     {
@@ -852,6 +852,15 @@
       "categories": [
         "conflict"
       ]
+    },
+    {
+      "title": "U.S., Allies Hold Major Ballistic Missile Defense Drill; New Zealand Starts Pacific Patrol",
+      "link": "https://news.usni.org/2026/08/18/u-s-allies-hold-major-ballistic-missile-defense-drill-new-zealand-starts-pacific-patrol",
+      "published": "Tue, 18 Aug 2026 15:38:18 +0000",
+      "source": "USNI News",
+      "categories": [
+        "conflict"
+      ]
     }
   ],
   "_exercise_news_refs": [
@@ -874,15 +883,6 @@
       ]
     },
     {
-      "title": "Trump orders Pentagon to cut back military exercises with South Korea",
-      "link": "https://www.militarytimes.com/news/your-military/2026/08/17/trump-orders-pentagon-to-cut-back-military-exercises-with-south-korea/",
-      "published": "Mon, 17 Aug 2026 15:14:07 +0000",
-      "source": "Military Times",
-      "categories": [
-        "exercise"
-      ]
-    },
-    {
       "title": "Major exercise in South Korea continues after Trump orders US role curtailed",
       "link": "https://taskandpurpose.com/news/military-trump-south-korea-2026/",
       "published": "Mon, 17 Aug 2026 16:50:15 -0400",
@@ -894,17 +894,17 @@
   ],
   "_threat_indicators": {
     "deployment_articles": 13,
-    "conflict_articles": 2,
-    "exercise_articles": 4,
+    "conflict_articles": 3,
+    "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-08-18T15:18:19.270239+00:00",
+    "computed_at": "2026-08-18T16:15:13.445008+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] Ultra Maritime Tests Integrated ASW and Counter-UUV Sonar System During US Navy Exercise",
       "[Task & Purpose] Tracking America’s latest conflict: The Iran war timeline",
       "[Defense News] Trump orders Pentagon to cut back military exercises with South Korea",
-      "[Military Times] Trump orders Pentagon to cut back military exercises with South Korea",
-      "[Military Times] CENTCOM commander visits USS Abraham Lincoln amid mental health concerns"
+      "[Military Times] CENTCOM commander visits USS Abraham Lincoln amid mental health concerns",
+      "[USNI News] USS Benfold Leaves Japan After Returning from Power Failure Repairs"
     ]
   },
   "ground_intel": {
@@ -915,7 +915,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-08-18T15:18:19.270284+00:00",
+    "last_successful_update": "2026-08-18T16:15:13.445044+00:00",
     "article_count": 50,
     "categorized_count": 19,
     "freshest_source": "Naval News",
