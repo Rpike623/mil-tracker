@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-08-19T18:14:05Z",
-  "version": 2600,
+  "generated_utc": "2026-08-19T19:20:12Z",
+  "version": 2601,
   "breaking_alert": "Task & Purpose: Tracking America’s latest conflict: The Iran war timeline",
   "naval_deployments": [
     {
@@ -836,15 +836,6 @@
   },
   "_conflict_news_refs": [
     {
-      "title": "US bases ‘ill-equipped’ to stop drone attacks, NORAD deputy says",
-      "link": "https://taskandpurpose.com/tech-tactics/us-bases-ill-equipped-drone-defense/",
-      "published": "Sun, 16 Aug 2026 15:34:28 -0400",
-      "source": "Task & Purpose",
-      "categories": [
-        "conflict"
-      ]
-    },
-    {
       "title": "Raytheon awarded 7-year contract for Tomahawk cruise missiles",
       "link": "https://www.navalnews.com/naval-news/2026/08/raytheon-awarded-7-year-contract-for-tomahawk-cruise-missiles/",
       "published": "Tue, 18 Aug 2026 14:56:44 +0000",
@@ -912,10 +903,10 @@
   ],
   "_threat_indicators": {
     "deployment_articles": 12,
-    "conflict_articles": 3,
+    "conflict_articles": 2,
     "exercise_articles": 5,
     "total_articles": 50,
-    "computed_at": "2026-08-19T18:14:01.009949+00:00",
+    "computed_at": "2026-08-19T19:15:32.119664+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Task & Purpose] Tracking America’s latest conflict: The Iran war timeline",
@@ -933,9 +924,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-08-19T18:14:01.009994+00:00",
+    "last_successful_update": "2026-08-19T19:15:32.119708+00:00",
     "article_count": 50,
-    "categorized_count": 20,
+    "categorized_count": 19,
     "freshest_source": "Task & Purpose",
     "freshest_title": "Tracking America’s latest conflict: The Iran war timeline",
     "freshest_published": "Mon, 17 Aug 2026 10:43:07 -0400"
