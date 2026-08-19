@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-08-19T15:17:57Z",
-  "version": 2597,
+  "generated_utc": "2026-08-19T16:15:41Z",
+  "version": 2598,
   "breaking_alert": "Task & Purpose: Tracking America’s latest conflict: The Iran war timeline",
   "naval_deployments": [
     {
@@ -648,15 +648,6 @@
       ]
     },
     {
-      "title": "Head of Central Command visits USS Abraham Lincoln amid quality of life concerns",
-      "link": "https://taskandpurpose.com/news/centcom-brad-cooper-uss-abraham-lincoln/",
-      "published": "Sat, 15 Aug 2026 19:40:58 -0400",
-      "source": "Task & Purpose",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Navy investigating power failure aboard destroyer in South China Sea",
       "link": "https://taskandpurpose.com/news/navy-uss-benfold-power-loss/",
       "published": "Tue, 18 Aug 2026 10:00:28 -0400",
@@ -679,6 +670,15 @@
       "link": "https://www.navalnews.com/naval-news/2026/08/snowbird-technologies-manufactures-stainless-steel-parts-aboard-uss-essex-during-rimpac-2026/",
       "published": "Wed, 19 Aug 2026 11:32:55 +0000",
       "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Sailor Charged with Murder in Death of Carrier John F. Kennedy Boatswain’s Mate",
+      "link": "https://news.usni.org/2026/08/19/sailor-charged-with-murder-in-death-of-carrier-john-f-kennedy-boatswains-mate",
+      "published": "Wed, 19 Aug 2026 14:38:49 +0000",
+      "source": "USNI News",
       "categories": [
         "deployment"
       ]
@@ -890,14 +890,32 @@
       "categories": [
         "exercise"
       ]
+    },
+    {
+      "title": "US, South Korea to cut length, scope of military drills after Trump order",
+      "link": "https://www.defensenews.com/news/pentagon-congress/2026/08/19/us-south-korea-to-cut-length-scope-of-military-drills-after-trump-order/",
+      "published": "Wed, 19 Aug 2026 15:23:40 +0000",
+      "source": "Defense News",
+      "categories": [
+        "exercise"
+      ]
+    },
+    {
+      "title": "US, South Korea to cut length, scope of military drills after Trump order",
+      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/08/19/us-south-korea-to-cut-length-scope-of-military-drills-after-trump-order/",
+      "published": "Wed, 19 Aug 2026 15:23:40 +0000",
+      "source": "Military Times",
+      "categories": [
+        "exercise"
+      ]
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 11,
+    "deployment_articles": 10,
     "conflict_articles": 3,
-    "exercise_articles": 3,
+    "exercise_articles": 5,
     "total_articles": 50,
-    "computed_at": "2026-08-19T15:17:51.892126+00:00",
+    "computed_at": "2026-08-19T16:15:30.919825+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Task & Purpose] Tracking America’s latest conflict: The Iran war timeline",
@@ -915,9 +933,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-08-19T15:17:51.892167+00:00",
+    "last_successful_update": "2026-08-19T16:15:30.919863+00:00",
     "article_count": 50,
-    "categorized_count": 17,
+    "categorized_count": 18,
     "freshest_source": "Task & Purpose",
     "freshest_title": "Tracking America’s latest conflict: The Iran war timeline",
     "freshest_published": "Mon, 17 Aug 2026 10:43:07 -0400"
