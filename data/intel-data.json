@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-08-19T21:13:38Z",
-  "version": 2603,
+  "generated_utc": "2026-08-19T22:11:14Z",
+  "version": 2604,
   "breaking_alert": "Task & Purpose: Tracking America’s latest conflict: The Iran war timeline",
   "naval_deployments": [
     {
@@ -639,15 +639,6 @@
       ]
     },
     {
-      "title": "USS Benfold Was Stalled in the South China Sea for Four Days After Engineering Casualty",
-      "link": "https://news.usni.org/2026/08/14/uss-benfold-was-stalled-in-the-south-china-sea-for-four-days-after-engineering-casualty",
-      "published": "Sat, 15 Aug 2026 02:16:44 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Navy investigating power failure aboard destroyer in South China Sea",
       "link": "https://taskandpurpose.com/news/navy-uss-benfold-power-loss/",
       "published": "Tue, 18 Aug 2026 10:00:28 -0400",
@@ -679,6 +670,15 @@
       "link": "https://news.usni.org/2026/08/19/sailor-charged-with-murder-in-death-of-carrier-john-f-kennedy-boatswains-mate",
       "published": "Wed, 19 Aug 2026 14:38:49 +0000",
       "source": "USNI News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "US Navy destroyer spent 4 days without power in South China Sea",
+      "link": "https://www.defensenews.com/news/your-military/2026/08/19/us-navy-destroyer-spent-4-days-without-power-in-south-china-sea/",
+      "published": "Wed, 19 Aug 2026 16:57:54 +0000",
+      "source": "Defense News",
       "categories": [
         "deployment"
       ]
@@ -902,11 +902,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 12,
+    "deployment_articles": 11,
     "conflict_articles": 2,
     "exercise_articles": 5,
     "total_articles": 50,
-    "computed_at": "2026-08-19T21:13:29.844747+00:00",
+    "computed_at": "2026-08-19T22:11:08.258587+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Task & Purpose] Tracking America’s latest conflict: The Iran war timeline",
@@ -924,9 +924,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-08-19T21:13:29.844791+00:00",
+    "last_successful_update": "2026-08-19T22:11:08.258629+00:00",
     "article_count": 50,
-    "categorized_count": 19,
+    "categorized_count": 18,
     "freshest_source": "Task & Purpose",
     "freshest_title": "Tracking America’s latest conflict: The Iran war timeline",
     "freshest_published": "Mon, 17 Aug 2026 10:43:07 -0400"
