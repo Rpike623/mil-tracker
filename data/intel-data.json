@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-08-20T19:21:20Z",
-  "version": 2624,
+  "generated_utc": "2026-08-20T20:14:04Z",
+  "version": 2625,
   "breaking_alert": "Task & Purpose: Major exercise in South Korea continues after Trump orders US role curtailed",
   "naval_deployments": [
     {
@@ -649,6 +649,15 @@
       ]
     },
     {
+      "title": "Babcock and Danske Flådeskibe deepen Anglo-Danish naval partnership on future frigates",
+      "link": "https://www.navalnews.com/naval-news/2026/08/babcock-and-danske-fladeskibe-deepen-anglo-danish-naval-partnership-on-future-frigates/",
+      "published": "Thu, 20 Aug 2026 19:52:54 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "Navy investigating power failure aboard destroyer in South China Sea",
       "link": "https://taskandpurpose.com/news/navy-uss-benfold-power-loss/",
       "published": "Tue, 18 Aug 2026 10:00:28 -0400",
@@ -671,15 +680,6 @@
       "link": "https://www.navalnews.com/naval-news/2026/08/snowbird-technologies-manufactures-stainless-steel-parts-aboard-uss-essex-during-rimpac-2026/",
       "published": "Wed, 19 Aug 2026 11:32:55 +0000",
       "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Sailor Charged with Murder in Death of Carrier John F. Kennedy Boatswain’s Mate",
-      "link": "https://news.usni.org/2026/08/19/sailor-charged-with-murder-in-death-of-carrier-john-f-kennedy-boatswains-mate",
-      "published": "Wed, 19 Aug 2026 14:38:49 +0000",
-      "source": "USNI News",
       "categories": [
         "deployment"
       ]
@@ -876,7 +876,7 @@
       ]
     },
     {
-      "title": "Gamblers have made $8 million betting on military operations",
+      "title": "Gamblers have made $8 million in Polymarket betting on military operations",
       "link": "https://taskandpurpose.com/news/polymarket-insider-bets-military/",
       "published": "Thu, 20 Aug 2026 13:05:13 -0400",
       "source": "Task & Purpose",
@@ -904,11 +904,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 12,
+    "deployment_articles": 13,
     "conflict_articles": 2,
     "exercise_articles": 6,
     "total_articles": 50,
-    "computed_at": "2026-08-20T19:21:14.653257+00:00",
+    "computed_at": "2026-08-20T20:14:00.497755+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Task & Purpose] Major exercise in South Korea continues after Trump orders US role curtailed",
@@ -926,9 +926,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-08-20T19:21:14.653301+00:00",
+    "last_successful_update": "2026-08-20T20:14:00.497796+00:00",
     "article_count": 50,
-    "categorized_count": 19,
+    "categorized_count": 20,
     "freshest_source": "Task & Purpose",
     "freshest_title": "Major exercise in South Korea continues after Trump orders US role curtailed",
     "freshest_published": "Mon, 17 Aug 2026 16:50:15 -0400"
