@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-08-20T18:18:11Z",
-  "version": 2623,
-  "breaking_alert": "Defense News: Trump orders Pentagon to cut back military exercises with South Korea",
+  "generated_utc": "2026-08-20T19:21:20Z",
+  "version": 2624,
+  "breaking_alert": "Task & Purpose: Major exercise in South Korea continues after Trump orders US role curtailed",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -857,15 +857,6 @@
   ],
   "_exercise_news_refs": [
     {
-      "title": "Trump orders Pentagon to cut back military exercises with South Korea",
-      "link": "https://www.defensenews.com/news/your-military/2026/08/17/trump-orders-pentagon-to-cut-back-military-exercises-with-south-korea/",
-      "published": "Mon, 17 Aug 2026 15:14:07 +0000",
-      "source": "Defense News",
-      "categories": [
-        "exercise"
-      ]
-    },
-    {
       "title": "Major exercise in South Korea continues after Trump orders US role curtailed",
       "link": "https://taskandpurpose.com/news/military-trump-south-korea-2026/",
       "published": "Mon, 17 Aug 2026 16:50:15 -0400",
@@ -901,21 +892,30 @@
       "categories": [
         "exercise"
       ]
+    },
+    {
+      "title": "US, South Korea to cut length, scope of military drills after Trump order",
+      "link": "https://www.defensenews.com/news/pentagon-congress/2026/08/19/us-south-korea-to-cut-length-scope-of-military-drills-after-trump-order/",
+      "published": "Wed, 19 Aug 2026 15:23:40 +0000",
+      "source": "Defense News",
+      "categories": [
+        "exercise"
+      ]
     }
   ],
   "_threat_indicators": {
     "deployment_articles": 12,
     "conflict_articles": 2,
-    "exercise_articles": 7,
+    "exercise_articles": 6,
     "total_articles": 50,
-    "computed_at": "2026-08-20T18:18:04.708935+00:00",
+    "computed_at": "2026-08-20T19:21:14.653257+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
-      "[Defense News] Trump orders Pentagon to cut back military exercises with South Korea",
       "[Task & Purpose] Major exercise in South Korea continues after Trump orders US role curtailed",
       "[Defense News] US Air Force looks to acquire target drones that can mimic stealth jets",
       "[Naval News] Babcock advances Anglo-Danish naval cooperation with new agreements",
-      "[Task & Purpose] US destroyed a lost Predator drone after hard landing in Middle East"
+      "[Task & Purpose] US destroyed a lost Predator drone after hard landing in Middle East",
+      "[Naval News] Lockheed Martin and U.S. Navy Demonstrate AI-Powered Submarine Hunter at RIMPAC 2026"
     ]
   },
   "ground_intel": {
@@ -926,12 +926,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-08-20T18:18:04.708986+00:00",
+    "last_successful_update": "2026-08-20T19:21:14.653301+00:00",
     "article_count": 50,
-    "categorized_count": 20,
-    "freshest_source": "Defense News",
-    "freshest_title": "Trump orders Pentagon to cut back military exercises with South Korea",
-    "freshest_published": "Mon, 17 Aug 2026 15:14:07 +0000"
+    "categorized_count": 19,
+    "freshest_source": "Task & Purpose",
+    "freshest_title": "Major exercise in South Korea continues after Trump orders US role curtailed",
+    "freshest_published": "Mon, 17 Aug 2026 16:50:15 -0400"
   },
   "_firms_hotspots": []
 }
