@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-08-20T16:18:15Z",
-  "version": 2621,
-  "breaking_alert": "Task & Purpose: Tracking America’s latest conflict: The Iran war timeline",
+  "generated_utc": "2026-08-20T17:16:36Z",
+  "version": 2622,
+  "breaking_alert": "Defense News: Trump orders Pentagon to cut back military exercises with South Korea",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -594,15 +594,6 @@
   ],
   "_naval_news_refs": [
     {
-      "title": "Tracking America’s latest conflict: The Iran war timeline",
-      "link": "https://taskandpurpose.com/news/iran-war-timeline/",
-      "published": "Mon, 17 Aug 2026 10:43:07 -0400",
-      "source": "Task & Purpose",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "US Air Force looks to acquire target drones that can mimic stealth jets",
       "link": "https://www.defensenews.com/industry/techwatch/2026/08/17/us-air-force-looks-to-acquire-target-drones-that-can-mimic-stealth-jets/",
       "published": "Mon, 17 Aug 2026 18:19:24 +0000",
@@ -622,7 +613,7 @@
       ]
     },
     {
-      "title": "US destroyed a lost Predator drone after crash in Middle East",
+      "title": "US destroyed a lost Predator drone after hard landing in Middle East",
       "link": "https://taskandpurpose.com/news/drone-crash-destroyed-2025/",
       "published": "Thu, 20 Aug 2026 11:03:19 -0400",
       "source": "Task & Purpose",
@@ -680,6 +671,15 @@
       "link": "https://www.navalnews.com/naval-news/2026/08/snowbird-technologies-manufactures-stainless-steel-parts-aboard-uss-essex-during-rimpac-2026/",
       "published": "Wed, 19 Aug 2026 11:32:55 +0000",
       "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Sailor Charged with Murder in Death of Carrier John F. Kennedy Boatswain’s Mate",
+      "link": "https://news.usni.org/2026/08/19/sailor-charged-with-murder-in-death-of-carrier-john-f-kennedy-boatswains-mate",
+      "published": "Wed, 19 Aug 2026 14:38:49 +0000",
+      "source": "USNI News",
       "categories": [
         "deployment"
       ]
@@ -885,6 +885,15 @@
       ]
     },
     {
+      "title": "Gamblers have made $8 million betting on military operations",
+      "link": "https://taskandpurpose.com/news/polymarket-insider-bets-military/",
+      "published": "Thu, 20 Aug 2026 13:05:13 -0400",
+      "source": "Task & Purpose",
+      "categories": [
+        "exercise"
+      ]
+    },
+    {
       "title": "US to end major military exercise in South Korea after just 5 days",
       "link": "https://taskandpurpose.com/news/trump-korea-ulchi-freedom-shield-2026/",
       "published": "Wed, 19 Aug 2026 10:44:13 -0400",
@@ -892,30 +901,21 @@
       "categories": [
         "exercise"
       ]
-    },
-    {
-      "title": "US, South Korea to cut length, scope of military drills after Trump order",
-      "link": "https://www.defensenews.com/news/pentagon-congress/2026/08/19/us-south-korea-to-cut-length-scope-of-military-drills-after-trump-order/",
-      "published": "Wed, 19 Aug 2026 15:23:40 +0000",
-      "source": "Defense News",
-      "categories": [
-        "exercise"
-      ]
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 13,
+    "deployment_articles": 12,
     "conflict_articles": 2,
-    "exercise_articles": 6,
+    "exercise_articles": 7,
     "total_articles": 50,
-    "computed_at": "2026-08-20T16:18:07.916503+00:00",
+    "computed_at": "2026-08-20T17:16:33.951211+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
-      "[Task & Purpose] Tracking America’s latest conflict: The Iran war timeline",
       "[Defense News] Trump orders Pentagon to cut back military exercises with South Korea",
       "[Task & Purpose] Major exercise in South Korea continues after Trump orders US role curtailed",
       "[Defense News] US Air Force looks to acquire target drones that can mimic stealth jets",
-      "[Naval News] Babcock advances Anglo-Danish naval cooperation with new agreements"
+      "[Naval News] Babcock advances Anglo-Danish naval cooperation with new agreements",
+      "[Task & Purpose] US destroyed a lost Predator drone after hard landing in Middle East"
     ]
   },
   "ground_intel": {
@@ -926,12 +926,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-08-20T16:18:07.916572+00:00",
+    "last_successful_update": "2026-08-20T17:16:33.951256+00:00",
     "article_count": 50,
     "categorized_count": 20,
-    "freshest_source": "Task & Purpose",
-    "freshest_title": "Tracking America’s latest conflict: The Iran war timeline",
-    "freshest_published": "Mon, 17 Aug 2026 10:43:07 -0400"
+    "freshest_source": "Defense News",
+    "freshest_title": "Trump orders Pentagon to cut back military exercises with South Korea",
+    "freshest_published": "Mon, 17 Aug 2026 15:14:07 +0000"
   },
   "_firms_hotspots": []
 }
