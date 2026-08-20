@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-08-20T17:16:36Z",
-  "version": 2622,
+  "generated_utc": "2026-08-20T18:18:11Z",
+  "version": 2623,
   "breaking_alert": "Defense News: Trump orders Pentagon to cut back military exercises with South Korea",
   "naval_deployments": [
     {
@@ -908,7 +908,7 @@
     "conflict_articles": 2,
     "exercise_articles": 7,
     "total_articles": 50,
-    "computed_at": "2026-08-20T17:16:33.951211+00:00",
+    "computed_at": "2026-08-20T18:18:04.708935+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Defense News] Trump orders Pentagon to cut back military exercises with South Korea",
@@ -926,7 +926,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-08-20T17:16:33.951256+00:00",
+    "last_successful_update": "2026-08-20T18:18:04.708986+00:00",
     "article_count": 50,
     "categorized_count": 20,
     "freshest_source": "Defense News",
