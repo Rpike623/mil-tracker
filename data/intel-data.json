@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-08-20T22:12:45Z",
-  "version": 2627,
+  "generated_utc": "2026-08-20T23:13:25Z",
+  "version": 2628,
   "breaking_alert": "Task & Purpose: Major exercise in South Korea continues after Trump orders US role curtailed",
   "naval_deployments": [
     {
@@ -935,7 +935,7 @@
     "conflict_articles": 5,
     "exercise_articles": 7,
     "total_articles": 50,
-    "computed_at": "2026-08-20T22:12:43.060624+00:00",
+    "computed_at": "2026-08-20T23:13:20.943672+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Task & Purpose] Major exercise in South Korea continues after Trump orders US role curtailed",
@@ -953,7 +953,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-08-20T22:12:43.060671+00:00",
+    "last_successful_update": "2026-08-20T23:13:20.943709+00:00",
     "article_count": 50,
     "categorized_count": 23,
     "freshest_source": "Task & Purpose",
