@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-08-20T20:14:04Z",
-  "version": 2625,
+  "generated_utc": "2026-08-20T21:19:54Z",
+  "version": 2626,
   "breaking_alert": "Task & Purpose: Major exercise in South Korea continues after Trump orders US role curtailed",
   "naval_deployments": [
     {
@@ -594,15 +594,6 @@
   ],
   "_naval_news_refs": [
     {
-      "title": "US Air Force looks to acquire target drones that can mimic stealth jets",
-      "link": "https://www.defensenews.com/industry/techwatch/2026/08/17/us-air-force-looks-to-acquire-target-drones-that-can-mimic-stealth-jets/",
-      "published": "Mon, 17 Aug 2026 18:19:24 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Babcock advances Anglo-Danish naval cooperation with new agreements",
       "link": "https://www.navalnews.com/naval-news/2026/08/babcock-advances-anglo-danish-naval-cooperation-with-new-agreements/",
       "published": "Thu, 20 Aug 2026 10:12:28 +0000",
@@ -680,6 +671,15 @@
       "link": "https://www.navalnews.com/naval-news/2026/08/snowbird-technologies-manufactures-stainless-steel-parts-aboard-uss-essex-during-rimpac-2026/",
       "published": "Wed, 19 Aug 2026 11:32:55 +0000",
       "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Sailor Charged with Murder in Death of Carrier John F. Kennedy Boatswain’s Mate",
+      "link": "https://news.usni.org/2026/08/19/sailor-charged-with-murder-in-death-of-carrier-john-f-kennedy-boatswains-mate",
+      "published": "Wed, 19 Aug 2026 14:38:49 +0000",
+      "source": "USNI News",
       "categories": [
         "deployment"
       ]
@@ -837,6 +837,33 @@
   },
   "_conflict_news_refs": [
     {
+      "title": "Ukraine braces for combined salvos of up to 200 missiles as overnight attack kills 15 in Kyiv",
+      "link": "https://www.defensenews.com/global/europe/2026/08/20/ukraine-braces-for-combined-salvos-of-up-to-200-missiles-as-overnight-attack-kills-15-in-kyiv/",
+      "published": "Thu, 20 Aug 2026 20:09:46 +0000",
+      "source": "Defense News",
+      "categories": [
+        "conflict"
+      ]
+    },
+    {
+      "title": "US Navy leads multinational effort for next-gen SeaSparrow missile",
+      "link": "https://www.defensenews.com/air-warfare/2026/08/20/us-navy-leads-multinational-effort-for-next-gen-seasparrow-missile/",
+      "published": "Thu, 20 Aug 2026 20:23:22 +0000",
+      "source": "Defense News",
+      "categories": [
+        "conflict"
+      ]
+    },
+    {
+      "title": "US Navy leads multinational effort for next-gen SeaSparrow missile",
+      "link": "https://www.militarytimes.com/air-warfare/2026/08/20/us-navy-leads-multinational-effort-for-next-gen-seasparrow-missile/",
+      "published": "Thu, 20 Aug 2026 20:23:22 +0000",
+      "source": "Military Times",
+      "categories": [
+        "conflict"
+      ]
+    },
+    {
       "title": "Raytheon awarded 7-year contract for Tomahawk cruise missiles",
       "link": "https://www.navalnews.com/naval-news/2026/08/raytheon-awarded-7-year-contract-for-tomahawk-cruise-missiles/",
       "published": "Tue, 18 Aug 2026 14:56:44 +0000",
@@ -885,6 +912,15 @@
       ]
     },
     {
+      "title": "Arctic Exercise Northern Viking Kicks off with U.S., Iceland",
+      "link": "https://news.usni.org/2026/08/20/arctic-exercise-northern-viking-kicks-off-with-u-s-iceland",
+      "published": "Thu, 20 Aug 2026 20:41:07 +0000",
+      "source": "USNI News",
+      "categories": [
+        "exercise"
+      ]
+    },
+    {
       "title": "US to end major military exercise in South Korea after just 5 days",
       "link": "https://taskandpurpose.com/news/trump-korea-ulchi-freedom-shield-2026/",
       "published": "Wed, 19 Aug 2026 10:44:13 -0400",
@@ -892,30 +928,21 @@
       "categories": [
         "exercise"
       ]
-    },
-    {
-      "title": "US, South Korea to cut length, scope of military drills after Trump order",
-      "link": "https://www.defensenews.com/news/pentagon-congress/2026/08/19/us-south-korea-to-cut-length-scope-of-military-drills-after-trump-order/",
-      "published": "Wed, 19 Aug 2026 15:23:40 +0000",
-      "source": "Defense News",
-      "categories": [
-        "exercise"
-      ]
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 13,
-    "conflict_articles": 2,
-    "exercise_articles": 6,
+    "deployment_articles": 12,
+    "conflict_articles": 5,
+    "exercise_articles": 7,
     "total_articles": 50,
-    "computed_at": "2026-08-20T20:14:00.497755+00:00",
+    "computed_at": "2026-08-20T21:15:13.077758+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Task & Purpose] Major exercise in South Korea continues after Trump orders US role curtailed",
-      "[Defense News] US Air Force looks to acquire target drones that can mimic stealth jets",
       "[Naval News] Babcock advances Anglo-Danish naval cooperation with new agreements",
       "[Task & Purpose] US destroyed a lost Predator drone after hard landing in Middle East",
-      "[Naval News] Lockheed Martin and U.S. Navy Demonstrate AI-Powered Submarine Hunter at RIMPAC 2026"
+      "[Naval News] Lockheed Martin and U.S. Navy Demonstrate AI-Powered Submarine Hunter at RIMPAC 2026",
+      "[Task & Purpose] Gamblers have made $8 million in Polymarket betting on military operations"
     ]
   },
   "ground_intel": {
@@ -926,9 +953,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-08-20T20:14:00.497796+00:00",
+    "last_successful_update": "2026-08-20T21:15:13.077801+00:00",
     "article_count": 50,
-    "categorized_count": 20,
+    "categorized_count": 23,
     "freshest_source": "Task & Purpose",
     "freshest_title": "Major exercise in South Korea continues after Trump orders US role curtailed",
     "freshest_published": "Mon, 17 Aug 2026 16:50:15 -0400"
