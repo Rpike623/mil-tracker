@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-08-20T11:18:56Z",
-  "version": 2616,
+  "generated_utc": "2026-08-20T12:19:31Z",
+  "version": 2617,
   "breaking_alert": "Task & Purpose: Tracking America’s latest conflict: The Iran war timeline",
   "naval_deployments": [
     {
@@ -630,15 +630,6 @@
       ]
     },
     {
-      "title": "U.S. Navy Looks to Carrier-Basing, Submarine Replenishment Missions for UUVs",
-      "link": "https://www.navalnews.com/naval-news/2026/08/u-s-navy-looks-to-carrier-basing-submarine-replenishment-missions-for-uuvs/",
-      "published": "Mon, 17 Aug 2026 19:58:22 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Babcock advances Anglo-Danish naval cooperation with new agreements",
       "link": "https://www.navalnews.com/naval-news/2026/08/babcock-advances-anglo-danish-naval-cooperation-with-new-agreements/",
       "published": "Thu, 20 Aug 2026 10:12:28 +0000",
@@ -646,6 +637,15 @@
       "categories": [
         "deployment",
         "exercise"
+      ]
+    },
+    {
+      "title": "Lockheed Martin and U.S. Navy Demonstrate AI-Powered Submarine Hunter at RIMPAC 2026",
+      "link": "https://www.navalnews.com/naval-news/2026/08/lockheed-martin-and-u-s-navy-demonstrate-ai-powered-submarine-hunter-at-rimpac-2026/",
+      "published": "Thu, 20 Aug 2026 11:21:20 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment"
       ]
     },
     {
@@ -908,7 +908,7 @@
     "conflict_articles": 2,
     "exercise_articles": 6,
     "total_articles": 50,
-    "computed_at": "2026-08-20T11:14:15.327420+00:00",
+    "computed_at": "2026-08-20T12:19:20.608096+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Task & Purpose] Tracking America’s latest conflict: The Iran war timeline",
@@ -926,7 +926,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-08-20T11:14:15.327465+00:00",
+    "last_successful_update": "2026-08-20T12:19:20.608136+00:00",
     "article_count": 50,
     "categorized_count": 19,
     "freshest_source": "Task & Purpose",
