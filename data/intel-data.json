@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-08-20T21:19:54Z",
-  "version": 2626,
+  "generated_utc": "2026-08-20T22:12:45Z",
+  "version": 2627,
   "breaking_alert": "Task & Purpose: Major exercise in South Korea continues after Trump orders US role curtailed",
   "naval_deployments": [
     {
@@ -903,7 +903,7 @@
       ]
     },
     {
-      "title": "Gamblers have made $8 million in Polymarket betting on military operations",
+      "title": "Gamblers have made $8 million on Polymarket betting on military operations",
       "link": "https://taskandpurpose.com/news/polymarket-insider-bets-military/",
       "published": "Thu, 20 Aug 2026 13:05:13 -0400",
       "source": "Task & Purpose",
@@ -935,14 +935,14 @@
     "conflict_articles": 5,
     "exercise_articles": 7,
     "total_articles": 50,
-    "computed_at": "2026-08-20T21:15:13.077758+00:00",
+    "computed_at": "2026-08-20T22:12:43.060624+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Task & Purpose] Major exercise in South Korea continues after Trump orders US role curtailed",
       "[Naval News] Babcock advances Anglo-Danish naval cooperation with new agreements",
       "[Task & Purpose] US destroyed a lost Predator drone after hard landing in Middle East",
       "[Naval News] Lockheed Martin and U.S. Navy Demonstrate AI-Powered Submarine Hunter at RIMPAC 2026",
-      "[Task & Purpose] Gamblers have made $8 million in Polymarket betting on military operations"
+      "[Task & Purpose] Gamblers have made $8 million on Polymarket betting on military operations"
     ]
   },
   "ground_intel": {
@@ -953,7 +953,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-08-20T21:15:13.077801+00:00",
+    "last_successful_update": "2026-08-20T22:12:43.060671+00:00",
     "article_count": 50,
     "categorized_count": 23,
     "freshest_source": "Task & Purpose",
