@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-08-20T15:21:02Z",
-  "version": 2620,
+  "generated_utc": "2026-08-20T16:18:15Z",
+  "version": 2621,
   "breaking_alert": "Task & Purpose: Tracking America’s latest conflict: The Iran war timeline",
   "naval_deployments": [
     {
@@ -603,15 +603,6 @@
       ]
     },
     {
-      "title": "USNI News Fleet and Marine Tracker: Aug. 17, 2026",
-      "link": "https://news.usni.org/2026/08/17/usni-news-fleet-and-marine-tracker-aug-17-2026",
-      "published": "Mon, 17 Aug 2026 16:44:25 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "US Air Force looks to acquire target drones that can mimic stealth jets",
       "link": "https://www.defensenews.com/industry/techwatch/2026/08/17/us-air-force-looks-to-acquire-target-drones-that-can-mimic-stealth-jets/",
       "published": "Mon, 17 Aug 2026 18:19:24 +0000",
@@ -628,6 +619,15 @@
       "categories": [
         "deployment",
         "exercise"
+      ]
+    },
+    {
+      "title": "US destroyed a lost Predator drone after crash in Middle East",
+      "link": "https://taskandpurpose.com/news/drone-crash-destroyed-2025/",
+      "published": "Thu, 20 Aug 2026 11:03:19 -0400",
+      "source": "Task & Purpose",
+      "categories": [
+        "deployment"
       ]
     },
     {
@@ -908,14 +908,14 @@
     "conflict_articles": 2,
     "exercise_articles": 6,
     "total_articles": 50,
-    "computed_at": "2026-08-20T15:21:00.019101+00:00",
+    "computed_at": "2026-08-20T16:18:07.916503+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Task & Purpose] Tracking America’s latest conflict: The Iran war timeline",
       "[Defense News] Trump orders Pentagon to cut back military exercises with South Korea",
-      "[USNI News] USNI News Fleet and Marine Tracker: Aug. 17, 2026",
       "[Task & Purpose] Major exercise in South Korea continues after Trump orders US role curtailed",
-      "[Defense News] US Air Force looks to acquire target drones that can mimic stealth jets"
+      "[Defense News] US Air Force looks to acquire target drones that can mimic stealth jets",
+      "[Naval News] Babcock advances Anglo-Danish naval cooperation with new agreements"
     ]
   },
   "ground_intel": {
@@ -926,7 +926,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-08-20T15:21:00.019146+00:00",
+    "last_successful_update": "2026-08-20T16:18:07.916572+00:00",
     "article_count": 50,
     "categorized_count": 20,
     "freshest_source": "Task & Purpose",
