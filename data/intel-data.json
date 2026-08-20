@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-08-20T12:19:31Z",
-  "version": 2617,
+  "generated_utc": "2026-08-20T13:36:13Z",
+  "version": 2618,
   "breaking_alert": "Task & Purpose: Tracking America’s latest conflict: The Iran war timeline",
   "naval_deployments": [
     {
@@ -649,6 +649,15 @@
       ]
     },
     {
+      "title": "Sailor charged with murder in shooting death aboard USS John F. Kennedy",
+      "link": "https://www.militarytimes.com/news/your-military/2026/08/20/sailor-charged-with-murder-in-shooting-death-aboard-uss-john-f-kennedy/",
+      "published": "Thu, 20 Aug 2026 13:19:37 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "Navy investigating power failure aboard destroyer in South China Sea",
       "link": "https://taskandpurpose.com/news/navy-uss-benfold-power-loss/",
       "published": "Tue, 18 Aug 2026 10:00:28 -0400",
@@ -671,15 +680,6 @@
       "link": "https://www.navalnews.com/naval-news/2026/08/snowbird-technologies-manufactures-stainless-steel-parts-aboard-uss-essex-during-rimpac-2026/",
       "published": "Wed, 19 Aug 2026 11:32:55 +0000",
       "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Sailor Charged with Murder in Death of Carrier John F. Kennedy Boatswain’s Mate",
-      "link": "https://news.usni.org/2026/08/19/sailor-charged-with-murder-in-death-of-carrier-john-f-kennedy-boatswains-mate",
-      "published": "Wed, 19 Aug 2026 14:38:49 +0000",
-      "source": "USNI News",
       "categories": [
         "deployment"
       ]
@@ -904,11 +904,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 12,
+    "deployment_articles": 13,
     "conflict_articles": 2,
     "exercise_articles": 6,
     "total_articles": 50,
-    "computed_at": "2026-08-20T12:19:20.608096+00:00",
+    "computed_at": "2026-08-20T13:36:10.203211+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Task & Purpose] Tracking America’s latest conflict: The Iran war timeline",
@@ -926,9 +926,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-08-20T12:19:20.608136+00:00",
+    "last_successful_update": "2026-08-20T13:36:10.203246+00:00",
     "article_count": 50,
-    "categorized_count": 19,
+    "categorized_count": 20,
     "freshest_source": "Task & Purpose",
     "freshest_title": "Tracking America’s latest conflict: The Iran war timeline",
     "freshest_published": "Mon, 17 Aug 2026 10:43:07 -0400"
