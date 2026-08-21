@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-08-21T03:38:47Z",
-  "version": 2631,
-  "breaking_alert": "Task & Purpose: Major exercise in South Korea continues after Trump orders US role curtailed",
+  "generated_utc": "2026-08-21T04:25:03Z",
+  "version": 2632,
+  "breaking_alert": "Naval News: U.S. Navy Awards Contract For Zone 5’s Combat-Proven Rusty Dagger Cruise Missile",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -839,6 +839,15 @@
   },
   "_conflict_news_refs": [
     {
+      "title": "U.S. Navy Awards Contract For Zone 5’s Combat-Proven Rusty Dagger Cruise Missile",
+      "link": "https://www.navalnews.com/naval-news/2026/08/u-s-navy-awards-contract-for-zone-5s-combat-proven-rusty-dagger-cruise-missile/",
+      "published": "Fri, 21 Aug 2026 04:23:11 +0000",
+      "source": "Naval News",
+      "categories": [
+        "conflict"
+      ]
+    },
+    {
       "title": "Ukraine braces for combined salvos of up to 200 missiles as overnight attack kills 15 in Kyiv",
       "link": "https://www.defensenews.com/global/europe/2026/08/20/ukraine-braces-for-combined-salvos-of-up-to-200-missiles-as-overnight-attack-kills-15-in-kyiv/",
       "published": "Thu, 20 Aug 2026 20:09:46 +0000",
@@ -870,15 +879,6 @@
       "link": "https://www.navalnews.com/naval-news/2026/08/raytheon-awarded-7-year-contract-for-tomahawk-cruise-missiles/",
       "published": "Tue, 18 Aug 2026 14:56:44 +0000",
       "source": "Naval News",
-      "categories": [
-        "conflict"
-      ]
-    },
-    {
-      "title": "U.S., Allies Hold Major Ballistic Missile Defense Drill; New Zealand Starts Pacific Patrol",
-      "link": "https://news.usni.org/2026/08/18/u-s-allies-hold-major-ballistic-missile-defense-drill-new-zealand-starts-pacific-patrol",
-      "published": "Tue, 18 Aug 2026 15:38:18 +0000",
-      "source": "USNI News",
       "categories": [
         "conflict"
       ]
@@ -935,17 +935,17 @@
   ],
   "_threat_indicators": {
     "deployment_articles": 14,
-    "conflict_articles": 5,
+    "conflict_articles": 6,
     "exercise_articles": 8,
     "total_articles": 50,
-    "computed_at": "2026-08-21T03:38:42.647450+00:00",
+    "computed_at": "2026-08-21T04:24:58.823723+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
+      "[Naval News] U.S. Navy Awards Contract For Zone 5’s Combat-Proven Rusty Dagger Cruise Missile",
       "[Task & Purpose] Major exercise in South Korea continues after Trump orders US role curtailed",
       "[Naval News] Babcock advances Anglo-Danish naval cooperation with new agreements",
       "[Task & Purpose] US destroyed a lost Predator drone after hard landing in Middle East",
-      "[Naval News] Lockheed Martin and U.S. Navy Demonstrate AI-Powered Submarine Hunter at RIMPAC 2026",
-      "[Task & Purpose] Gamblers have made $8 million on Polymarket betting on military operations"
+      "[Naval News] Lockheed Martin and U.S. Navy Demonstrate AI-Powered Submarine Hunter at RIMPAC 2026"
     ]
   },
   "ground_intel": {
@@ -956,12 +956,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-08-21T03:38:42.647488+00:00",
+    "last_successful_update": "2026-08-21T04:24:58.823761+00:00",
     "article_count": 50,
-    "categorized_count": 24,
-    "freshest_source": "Task & Purpose",
-    "freshest_title": "Major exercise in South Korea continues after Trump orders US role curtailed",
-    "freshest_published": "Mon, 17 Aug 2026 16:50:15 -0400"
+    "categorized_count": 25,
+    "freshest_source": "Naval News",
+    "freshest_title": "U.S. Navy Awards Contract For Zone 5’s Combat-Proven Rusty Dagger Cruise Missile",
+    "freshest_published": "Fri, 21 Aug 2026 04:23:11 +0000"
   },
   "_firms_hotspots": []
 }
