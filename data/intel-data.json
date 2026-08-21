@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-08-21T14:21:21Z",
-  "version": 2642,
+  "generated_utc": "2026-08-21T15:19:49Z",
+  "version": 2643,
   "breaking_alert": "Naval News: U.S. Navy Awards Contract For Zone 5’s Combat-Proven Rusty Dagger Cruise Missile",
   "naval_deployments": [
     {
@@ -886,15 +886,6 @@
   ],
   "_exercise_news_refs": [
     {
-      "title": "Major exercise in South Korea continues after Trump orders US role curtailed",
-      "link": "https://taskandpurpose.com/news/military-trump-south-korea-2026/",
-      "published": "Mon, 17 Aug 2026 16:50:15 -0400",
-      "source": "Task & Purpose",
-      "categories": [
-        "exercise"
-      ]
-    },
-    {
       "title": "Babcock advances Anglo-Danish naval cooperation with new agreements",
       "link": "https://www.navalnews.com/naval-news/2026/08/babcock-advances-anglo-danish-naval-cooperation-with-new-agreements/",
       "published": "Thu, 20 Aug 2026 10:12:28 +0000",
@@ -931,21 +922,31 @@
         "deployment",
         "exercise"
       ]
+    },
+    {
+      "title": "The US Navy has battled operational tempo ordeals for years. The Iran war exposed the flaws.",
+      "link": "https://www.militarytimes.com/news/your-navy/2026/08/20/the-us-navy-has-battled-operational-tempo-ordeals-for-years-the-iran-war-exposed-the-flaws/",
+      "published": "Thu, 20 Aug 2026 23:20:57 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment",
+        "exercise"
+      ]
     }
   ],
   "_threat_indicators": {
     "deployment_articles": 14,
     "conflict_articles": 6,
-    "exercise_articles": 8,
+    "exercise_articles": 7,
     "total_articles": 50,
-    "computed_at": "2026-08-21T14:21:16.777034+00:00",
+    "computed_at": "2026-08-21T15:19:47.731253+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] U.S. Navy Awards Contract For Zone 5’s Combat-Proven Rusty Dagger Cruise Missile",
-      "[Task & Purpose] Major exercise in South Korea continues after Trump orders US role curtailed",
       "[Naval News] Babcock advances Anglo-Danish naval cooperation with new agreements",
       "[Task & Purpose] US destroyed a lost Reaper drone after hard landing in Middle East",
-      "[Naval News] Lockheed Martin and U.S. Navy Demonstrate AI-Powered Submarine Hunter at RIMPAC 2026"
+      "[Naval News] Lockheed Martin and U.S. Navy Demonstrate AI-Powered Submarine Hunter at RIMPAC 2026",
+      "[Task & Purpose] Gamblers have made $8 million on Polymarket betting on military operations"
     ]
   },
   "ground_intel": {
@@ -956,9 +957,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-08-21T14:21:16.777078+00:00",
+    "last_successful_update": "2026-08-21T15:19:47.731296+00:00",
     "article_count": 50,
-    "categorized_count": 25,
+    "categorized_count": 24,
     "freshest_source": "Naval News",
     "freshest_title": "U.S. Navy Awards Contract For Zone 5’s Combat-Proven Rusty Dagger Cruise Missile",
     "freshest_published": "Fri, 21 Aug 2026 04:23:11 +0000"
