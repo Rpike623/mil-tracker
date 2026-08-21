@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-08-21T13:35:02Z",
-  "version": 2641,
+  "generated_utc": "2026-08-21T14:21:21Z",
+  "version": 2642,
   "breaking_alert": "Naval News: U.S. Navy Awards Contract For Zone 5’s Combat-Proven Rusty Dagger Cruise Missile",
   "naval_deployments": [
     {
@@ -604,7 +604,7 @@
       ]
     },
     {
-      "title": "US destroyed a lost Predator drone after hard landing in Middle East",
+      "title": "US destroyed a lost Reaper drone after hard landing in Middle East",
       "link": "https://taskandpurpose.com/news/drone-crash-destroyed-2025/",
       "published": "Thu, 20 Aug 2026 11:03:19 -0400",
       "source": "Task & Purpose",
@@ -938,13 +938,13 @@
     "conflict_articles": 6,
     "exercise_articles": 8,
     "total_articles": 50,
-    "computed_at": "2026-08-21T13:34:58.731766+00:00",
+    "computed_at": "2026-08-21T14:21:16.777034+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] U.S. Navy Awards Contract For Zone 5’s Combat-Proven Rusty Dagger Cruise Missile",
       "[Task & Purpose] Major exercise in South Korea continues after Trump orders US role curtailed",
       "[Naval News] Babcock advances Anglo-Danish naval cooperation with new agreements",
-      "[Task & Purpose] US destroyed a lost Predator drone after hard landing in Middle East",
+      "[Task & Purpose] US destroyed a lost Reaper drone after hard landing in Middle East",
       "[Naval News] Lockheed Martin and U.S. Navy Demonstrate AI-Powered Submarine Hunter at RIMPAC 2026"
     ]
   },
@@ -956,7 +956,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-08-21T13:34:58.731805+00:00",
+    "last_successful_update": "2026-08-21T14:21:16.777078+00:00",
     "article_count": 50,
     "categorized_count": 25,
     "freshest_source": "Naval News",
