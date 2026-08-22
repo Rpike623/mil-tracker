@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-08-22T00:27:27Z",
-  "version": 2652,
+  "generated_utc": "2026-08-22T02:06:24Z",
+  "version": 2653,
   "breaking_alert": "Naval News: U.S. Navy Awards Contract For Zone 5’s Combat-Proven Rusty Dagger Cruise Missile",
   "naval_deployments": [
     {
@@ -603,6 +603,16 @@
       ]
     },
     {
+      "title": "2 Mariners Killed in Strait of Hormuz as Transits See Small Increase",
+      "link": "https://news.usni.org/2026/08/21/2-mariners-killed-in-strait-of-hormuz-as-transits-see-small-increase",
+      "published": "Sat, 22 Aug 2026 01:13:56 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
+    },
+    {
       "title": "Babcock advances Anglo-Danish naval cooperation with new agreements",
       "link": "https://www.navalnews.com/naval-news/2026/08/babcock-advances-anglo-danish-naval-cooperation-with-new-agreements/",
       "published": "Thu, 20 Aug 2026 10:12:28 +0000",
@@ -666,15 +676,6 @@
       "categories": [
         "deployment",
         "exercise"
-      ]
-    },
-    {
-      "title": "E-2D Advanced Hawkeye Block II Passes Critical Design Review as Navy Plans to Expand Fleet",
-      "link": "https://news.usni.org/2026/08/18/e-2d-advanced-hawkeye-block-ii-passes-critical-design-review-as-navy-plans-to-expand-fleet",
-      "published": "Tue, 18 Aug 2026 21:09:20 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment"
       ]
     },
     {
@@ -848,6 +849,16 @@
       ]
     },
     {
+      "title": "2 Mariners Killed in Strait of Hormuz as Transits See Small Increase",
+      "link": "https://news.usni.org/2026/08/21/2-mariners-killed-in-strait-of-hormuz-as-transits-see-small-increase",
+      "published": "Sat, 22 Aug 2026 01:13:56 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
+    },
+    {
       "title": "Ukraine braces for combined salvos of up to 200 missiles as overnight attack kills 15 in Kyiv",
       "link": "https://www.defensenews.com/global/europe/2026/08/20/ukraine-braces-for-combined-salvos-of-up-to-200-missiles-as-overnight-attack-kills-15-in-kyiv/",
       "published": "Thu, 20 Aug 2026 20:09:46 +0000",
@@ -870,15 +881,6 @@
       "link": "https://www.militarytimes.com/air-warfare/2026/08/20/us-navy-leads-multinational-effort-for-next-gen-seasparrow-missile/",
       "published": "Thu, 20 Aug 2026 20:23:22 +0000",
       "source": "Military Times",
-      "categories": [
-        "conflict"
-      ]
-    },
-    {
-      "title": "Raytheon awarded 7-year contract for Tomahawk cruise missiles",
-      "link": "https://www.navalnews.com/naval-news/2026/08/raytheon-awarded-7-year-contract-for-tomahawk-cruise-missiles/",
-      "published": "Tue, 18 Aug 2026 14:56:44 +0000",
-      "source": "Naval News",
       "categories": [
         "conflict"
       ]
@@ -936,17 +938,17 @@
   ],
   "_threat_indicators": {
     "deployment_articles": 12,
-    "conflict_articles": 5,
+    "conflict_articles": 6,
     "exercise_articles": 7,
     "total_articles": 50,
-    "computed_at": "2026-08-22T00:27:21.468720+00:00",
+    "computed_at": "2026-08-22T02:06:21.093804+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] U.S. Navy Awards Contract For Zone 5’s Combat-Proven Rusty Dagger Cruise Missile",
       "[Task & Purpose] How a Navy aircraft carrier ended up short on food in a war zone",
+      "[USNI News] 2 Mariners Killed in Strait of Hormuz as Transits See Small Increase",
       "[Naval News] Babcock advances Anglo-Danish naval cooperation with new agreements",
-      "[Task & Purpose] US destroyed a lost Reaper drone after hard landing in Middle East",
-      "[Naval News] Lockheed Martin and U.S. Navy Demonstrate AI-Powered Submarine Hunter at RIMPAC 2026"
+      "[Task & Purpose] US destroyed a lost Reaper drone after hard landing in Middle East"
     ]
   },
   "ground_intel": {
@@ -957,7 +959,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-08-22T00:27:21.468754+00:00",
+    "last_successful_update": "2026-08-22T02:06:21.093841+00:00",
     "article_count": 50,
     "categorized_count": 21,
     "freshest_source": "Naval News",
