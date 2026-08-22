@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-08-22T19:13:13Z",
-  "version": 2670,
+  "generated_utc": "2026-08-22T20:08:15Z",
+  "version": 2671,
   "breaking_alert": "Naval News: U.S. Navy Awards Contract For Zone 5’s Combat-Proven Rusty Dagger Cruise Missile",
   "naval_deployments": [
     {
@@ -622,6 +622,15 @@
       ]
     },
     {
+      "title": "More than 750 US troops wounded in Iran war, nearly half since July",
+      "link": "https://taskandpurpose.com/news/us-troops-more-than-750-wounded-iran/",
+      "published": "Sat, 22 Aug 2026 15:39:51 -0400",
+      "source": "Task & Purpose",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "Babcock advances Anglo-Danish naval cooperation with new agreements",
       "link": "https://www.navalnews.com/naval-news/2026/08/babcock-advances-anglo-danish-naval-cooperation-with-new-agreements/",
       "published": "Thu, 20 Aug 2026 10:12:28 +0000",
@@ -672,16 +681,6 @@
       "link": "https://www.defensenews.com/news/your-navy/2026/08/20/the-us-navy-has-battled-operational-tempo-ordeals-for-years-the-iran-war-exposed-the-flaws/",
       "published": "Thu, 20 Aug 2026 23:20:57 +0000",
       "source": "Defense News",
-      "categories": [
-        "deployment",
-        "exercise"
-      ]
-    },
-    {
-      "title": "The US Navy has battled operational tempo ordeals for years. The Iran war exposed the flaws.",
-      "link": "https://www.militarytimes.com/news/your-navy/2026/08/20/the-us-navy-has-battled-operational-tempo-ordeals-for-years-the-iran-war-exposed-the-flaws/",
-      "published": "Thu, 20 Aug 2026 23:20:57 +0000",
-      "source": "Military Times",
       "categories": [
         "deployment",
         "exercise"
@@ -937,18 +936,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 13,
+    "deployment_articles": 14,
     "conflict_articles": 6,
     "exercise_articles": 7,
     "total_articles": 50,
-    "computed_at": "2026-08-22T19:13:08.365445+00:00",
+    "computed_at": "2026-08-22T20:08:04.507973+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] U.S. Navy Awards Contract For Zone 5’s Combat-Proven Rusty Dagger Cruise Missile",
       "[Task & Purpose] How a Navy aircraft carrier ended up short on food in a war zone",
       "[USNI News] 2 Mariners Killed in Strait of Hormuz as Transits See Small Increase",
       "[USNI News] USS Abraham Lincoln Leaves the Middle East After Almost 7 Months",
-      "[Naval News] Babcock advances Anglo-Danish naval cooperation with new agreements"
+      "[Task & Purpose] More than 750 US troops wounded in Iran war, nearly half since July"
     ]
   },
   "ground_intel": {
@@ -959,9 +958,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-08-22T19:13:08.365486+00:00",
+    "last_successful_update": "2026-08-22T20:08:04.508021+00:00",
     "article_count": 50,
-    "categorized_count": 22,
+    "categorized_count": 23,
     "freshest_source": "Naval News",
     "freshest_title": "U.S. Navy Awards Contract For Zone 5’s Combat-Proven Rusty Dagger Cruise Missile",
     "freshest_published": "Fri, 21 Aug 2026 04:23:11 +0000"
