@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-08-22T12:12:51Z",
-  "version": 2663,
+  "generated_utc": "2026-08-22T13:21:59Z",
+  "version": 2664,
   "breaking_alert": "Naval News: U.S. Navy Awards Contract For Zone 5’s Combat-Proven Rusty Dagger Cruise Missile",
   "naval_deployments": [
     {
@@ -613,6 +613,15 @@
       ]
     },
     {
+      "title": "USS Abraham Lincoln Leaves the Middle East After Almost 7 Months",
+      "link": "https://news.usni.org/2026/08/22/uss-abraham-lincoln-leaves-the-middle-east-after-almost-7-months",
+      "published": "Sat, 22 Aug 2026 12:30:27 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "Babcock advances Anglo-Danish naval cooperation with new agreements",
       "link": "https://www.navalnews.com/naval-news/2026/08/babcock-advances-anglo-danish-naval-cooperation-with-new-agreements/",
       "published": "Thu, 20 Aug 2026 10:12:28 +0000",
@@ -676,15 +685,6 @@
       "categories": [
         "deployment",
         "exercise"
-      ]
-    },
-    {
-      "title": "Snowbird Technologies Manufactures Stainless Steel Parts Aboard USS Essex During RIMPAC 2026",
-      "link": "https://www.navalnews.com/naval-news/2026/08/snowbird-technologies-manufactures-stainless-steel-parts-aboard-uss-essex-during-rimpac-2026/",
-      "published": "Wed, 19 Aug 2026 11:32:55 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment"
       ]
     }
   ],
@@ -937,18 +937,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 12,
+    "deployment_articles": 13,
     "conflict_articles": 6,
     "exercise_articles": 7,
     "total_articles": 50,
-    "computed_at": "2026-08-22T12:12:39.911898+00:00",
+    "computed_at": "2026-08-22T13:21:52.894000+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] U.S. Navy Awards Contract For Zone 5’s Combat-Proven Rusty Dagger Cruise Missile",
       "[Task & Purpose] How a Navy aircraft carrier ended up short on food in a war zone",
       "[USNI News] 2 Mariners Killed in Strait of Hormuz as Transits See Small Increase",
-      "[Naval News] Babcock advances Anglo-Danish naval cooperation with new agreements",
-      "[Task & Purpose] US destroyed a lost Reaper drone after hard landing in Middle East"
+      "[USNI News] USS Abraham Lincoln Leaves the Middle East After Almost 7 Months",
+      "[Naval News] Babcock advances Anglo-Danish naval cooperation with new agreements"
     ]
   },
   "ground_intel": {
@@ -959,9 +959,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-08-22T12:12:39.911945+00:00",
+    "last_successful_update": "2026-08-22T13:21:52.894046+00:00",
     "article_count": 50,
-    "categorized_count": 21,
+    "categorized_count": 22,
     "freshest_source": "Naval News",
     "freshest_title": "U.S. Navy Awards Contract For Zone 5’s Combat-Proven Rusty Dagger Cruise Missile",
     "freshest_published": "Fri, 21 Aug 2026 04:23:11 +0000"
