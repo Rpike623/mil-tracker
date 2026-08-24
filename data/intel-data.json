@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-08-24T19:19:26Z",
-  "version": 2716,
+  "generated_utc": "2026-08-24T20:14:40Z",
+  "version": 2717,
   "breaking_alert": "Naval News: U.S. Navy Awards Contract For Zone 5’s Combat-Proven Rusty Dagger Cruise Missile",
   "naval_deployments": [
     {
@@ -657,6 +657,15 @@
       ]
     },
     {
+      "title": "Deployed troops reported twice as many assaults last year, led by Poland",
+      "link": "https://taskandpurpose.com/news/pentagon-assault-report-2025/",
+      "published": "Mon, 24 Aug 2026 15:53:28 -0400",
+      "source": "Task & Purpose",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "US cancels joint marine drills with South Korea over Iran war-related force constraints",
       "link": "https://www.defensenews.com/global/asia-pacific/2026/08/24/us-cancels-joint-marine-drills-with-south-korea-over-iran-war-related-force-constraints/",
       "published": "Mon, 24 Aug 2026 19:05:10 +0000",
@@ -674,16 +683,6 @@
       "categories": [
         "deployment",
         "exercise"
-      ]
-    },
-    {
-      "title": "2 Mariners Killed in Strait of Hormuz as Transits See Small Increase",
-      "link": "https://news.usni.org/2026/08/21/2-mariners-killed-in-strait-of-hormuz-as-transits-see-small-increase",
-      "published": "Sat, 22 Aug 2026 01:13:56 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment",
-        "conflict"
       ]
     }
   ],
@@ -916,15 +915,6 @@
       ]
     },
     {
-      "title": "Gamblers have made $8 million on Polymarket betting on military operations",
-      "link": "https://taskandpurpose.com/news/polymarket-insider-bets-military/",
-      "published": "Thu, 20 Aug 2026 13:05:13 -0400",
-      "source": "Task & Purpose",
-      "categories": [
-        "exercise"
-      ]
-    },
-    {
       "title": "Arctic Exercise Northern Viking Kicks off with U.S., Iceland",
       "link": "https://news.usni.org/2026/08/20/arctic-exercise-northern-viking-kicks-off-with-u-s-iceland",
       "published": "Thu, 20 Aug 2026 20:41:07 +0000",
@@ -932,14 +922,24 @@
       "categories": [
         "exercise"
       ]
+    },
+    {
+      "title": "The US Navy has battled operational tempo ordeals for years. The Iran war exposed the flaws.",
+      "link": "https://www.defensenews.com/news/your-navy/2026/08/20/the-us-navy-has-battled-operational-tempo-ordeals-for-years-the-iran-war-exposed-the-flaws/",
+      "published": "Thu, 20 Aug 2026 23:20:57 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment",
+        "exercise"
+      ]
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 18,
+    "deployment_articles": 19,
     "conflict_articles": 9,
-    "exercise_articles": 7,
+    "exercise_articles": 6,
     "total_articles": 50,
-    "computed_at": "2026-08-24T19:19:24.994071+00:00",
+    "computed_at": "2026-08-24T20:14:38.411651+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[Naval News] U.S. Navy Awards Contract For Zone 5’s Combat-Proven Rusty Dagger Cruise Missile",
@@ -957,7 +957,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-08-24T19:19:24.994120+00:00",
+    "last_successful_update": "2026-08-24T20:14:38.411700+00:00",
     "article_count": 50,
     "categorized_count": 28,
     "freshest_source": "Naval News",
