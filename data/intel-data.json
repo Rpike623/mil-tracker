@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-08-24T20:14:40Z",
-  "version": 2717,
+  "generated_utc": "2026-08-24T21:16:03Z",
+  "version": 2718,
   "breaking_alert": "Naval News: U.S. Navy Awards Contract For Zone 5’s Combat-Proven Rusty Dagger Cruise Missile",
   "naval_deployments": [
     {
@@ -666,20 +666,19 @@
       ]
     },
     {
-      "title": "US cancels joint marine drills with South Korea over Iran war-related force constraints",
-      "link": "https://www.defensenews.com/global/asia-pacific/2026/08/24/us-cancels-joint-marine-drills-with-south-korea-over-iran-war-related-force-constraints/",
-      "published": "Mon, 24 Aug 2026 19:05:10 +0000",
-      "source": "Defense News",
+      "title": "National Guard ends eight-month deployment in New Orleans",
+      "link": "https://taskandpurpose.com/news/national-guard-new-orleans-deployment-ends/",
+      "published": "Mon, 24 Aug 2026 16:19:19 -0400",
+      "source": "Task & Purpose",
       "categories": [
-        "deployment",
-        "exercise"
+        "deployment"
       ]
     },
     {
       "title": "US cancels joint marine drills with South Korea over Iran war-related force constraints",
-      "link": "https://www.militarytimes.com/global/asia-pacific/2026/08/24/us-cancels-joint-marine-drills-with-south-korea-over-iran-war-related-force-constraints/",
+      "link": "https://www.defensenews.com/global/asia-pacific/2026/08/24/us-cancels-joint-marine-drills-with-south-korea-over-iran-war-related-force-constraints/",
       "published": "Mon, 24 Aug 2026 19:05:10 +0000",
-      "source": "Military Times",
+      "source": "Defense News",
       "categories": [
         "deployment",
         "exercise"
@@ -937,9 +936,9 @@
   "_threat_indicators": {
     "deployment_articles": 19,
     "conflict_articles": 9,
-    "exercise_articles": 6,
+    "exercise_articles": 5,
     "total_articles": 50,
-    "computed_at": "2026-08-24T20:14:38.411651+00:00",
+    "computed_at": "2026-08-24T21:16:01.769871+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[Naval News] U.S. Navy Awards Contract For Zone 5’s Combat-Proven Rusty Dagger Cruise Missile",
@@ -957,7 +956,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-08-24T20:14:38.411700+00:00",
+    "last_successful_update": "2026-08-24T21:16:01.769919+00:00",
     "article_count": 50,
     "categorized_count": 28,
     "freshest_source": "Naval News",
