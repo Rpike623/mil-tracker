@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-08-24T17:19:51Z",
-  "version": 2714,
+  "generated_utc": "2026-08-24T18:19:42Z",
+  "version": 2715,
   "breaking_alert": "Naval News: U.S. Navy Awards Contract For Zone 5’s Combat-Proven Rusty Dagger Cruise Missile",
   "naval_deployments": [
     {
@@ -630,6 +630,15 @@
       ]
     },
     {
+      "title": "Tracking America’s latest conflict: The Iran war timeline",
+      "link": "https://taskandpurpose.com/news/iran-war-timeline/",
+      "published": "Mon, 24 Aug 2026 13:51:11 -0400",
+      "source": "Task & Purpose",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "Billboard campaign in military cities connects Iran war to high prices",
       "link": "https://www.militarytimes.com/news/pentagon-congress/2026/08/24/billboard-campaign-in-military-cities-connects-iran-war-to-high-prices/",
       "published": "Mon, 24 Aug 2026 14:32:40 +0000",
@@ -673,16 +682,6 @@
       "source": "Task & Purpose",
       "categories": [
         "deployment"
-      ]
-    },
-    {
-      "title": "Babcock advances Anglo-Danish naval cooperation with new agreements",
-      "link": "https://www.navalnews.com/naval-news/2026/08/babcock-advances-anglo-danish-naval-cooperation-with-new-agreements/",
-      "published": "Thu, 20 Aug 2026 10:12:28 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment",
-        "exercise"
       ]
     }
   ],
@@ -865,20 +864,19 @@
       ]
     },
     {
-      "title": "2 Mariners Killed in Strait of Hormuz as Transits See Small Increase",
-      "link": "https://news.usni.org/2026/08/21/2-mariners-killed-in-strait-of-hormuz-as-transits-see-small-increase",
-      "published": "Sat, 22 Aug 2026 01:13:56 +0000",
+      "title": "SOUTHCOM Strikes First Suspected Drug Boat in Two Months",
+      "link": "https://news.usni.org/2026/08/24/southcom-strikes-first-suspected-drug-boat-in-two-months",
+      "published": "Mon, 24 Aug 2026 17:37:35 +0000",
       "source": "USNI News",
       "categories": [
-        "deployment",
         "conflict"
       ]
     },
     {
-      "title": "U.S. Navy Unveils AIM-424 Malice Long-Range Air-to-Air Missile",
-      "link": "https://www.navalnews.com/naval-news/2026/08/us-navy-unveils-aim-424-malice-lraam/",
-      "published": "Sun, 23 Aug 2026 07:21:31 +0000",
-      "source": "Naval News",
+      "title": "Navy Unveils New Anti-Air Missile Malice with a Range of 250 Nautical Miles",
+      "link": "https://news.usni.org/2026/08/24/navy-unveils-new-anti-air-missile-malice-with-a-range-of-250-nautical-miles",
+      "published": "Mon, 24 Aug 2026 17:54:47 +0000",
+      "source": "USNI News",
       "categories": [
         "conflict"
       ]
@@ -935,11 +933,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 17,
-    "conflict_articles": 8,
+    "deployment_articles": 16,
+    "conflict_articles": 10,
     "exercise_articles": 5,
     "total_articles": 50,
-    "computed_at": "2026-08-24T17:19:46.788852+00:00",
+    "computed_at": "2026-08-24T18:19:40.220195+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[Naval News] U.S. Navy Awards Contract For Zone 5’s Combat-Proven Rusty Dagger Cruise Missile",
@@ -957,9 +955,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-08-24T17:19:46.788898+00:00",
+    "last_successful_update": "2026-08-24T18:19:40.220244+00:00",
     "article_count": 50,
-    "categorized_count": 26,
+    "categorized_count": 27,
     "freshest_source": "Naval News",
     "freshest_title": "U.S. Navy Awards Contract For Zone 5’s Combat-Proven Rusty Dagger Cruise Missile",
     "freshest_published": "Fri, 21 Aug 2026 04:23:11 +0000"
