@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-08-24T07:46:06Z",
-  "version": 2704,
+  "generated_utc": "2026-08-24T08:32:28Z",
+  "version": 2705,
   "breaking_alert": "Naval News: U.S. Navy Awards Contract For Zone 5’s Combat-Proven Rusty Dagger Cruise Missile",
   "naval_deployments": [
     {
@@ -603,6 +603,15 @@
       ]
     },
     {
+      "title": "Australia Lays Keel for First Hunter-class Anti-Submarine Frigate",
+      "link": "https://www.navalnews.com/naval-news/2026/08/australia-lays-keel-first-hunter-class-frigate/",
+      "published": "Mon, 24 Aug 2026 08:06:14 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "2 Mariners Killed in Strait of Hormuz as Transits See Small Increase",
       "link": "https://news.usni.org/2026/08/21/2-mariners-killed-in-strait-of-hormuz-as-transits-see-small-increase",
       "published": "Sat, 22 Aug 2026 01:13:56 +0000",
@@ -674,16 +683,6 @@
       "source": "Naval News",
       "categories": [
         "deployment"
-      ]
-    },
-    {
-      "title": "The US Navy has battled operational tempo ordeals for years. The Iran war exposed the flaws.",
-      "link": "https://www.defensenews.com/news/your-navy/2026/08/20/the-us-navy-has-battled-operational-tempo-ordeals-for-years-the-iran-war-exposed-the-flaws/",
-      "published": "Thu, 20 Aug 2026 23:20:57 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment",
-        "exercise"
       ]
     }
   ],
@@ -936,18 +935,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 14,
+    "deployment_articles": 15,
     "conflict_articles": 6,
     "exercise_articles": 6,
     "total_articles": 50,
-    "computed_at": "2026-08-24T07:46:04.298237+00:00",
+    "computed_at": "2026-08-24T08:32:26.611325+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] U.S. Navy Awards Contract For Zone 5’s Combat-Proven Rusty Dagger Cruise Missile",
       "[Task & Purpose] How a Navy aircraft carrier ended up short on food in a war zone",
+      "[Naval News] Australia Lays Keel for First Hunter-class Anti-Submarine Frigate",
       "[USNI News] 2 Mariners Killed in Strait of Hormuz as Transits See Small Increase",
-      "[USNI News] USS Abraham Lincoln Leaves the Middle East After Almost 7 Months",
-      "[Task & Purpose] More than 750 US troops wounded in Iran war, nearly half since July"
+      "[USNI News] USS Abraham Lincoln Leaves the Middle East After Almost 7 Months"
     ]
   },
   "ground_intel": {
@@ -958,9 +957,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-08-24T07:46:04.298282+00:00",
+    "last_successful_update": "2026-08-24T08:32:26.611371+00:00",
     "article_count": 50,
-    "categorized_count": 22,
+    "categorized_count": 23,
     "freshest_source": "Naval News",
     "freshest_title": "U.S. Navy Awards Contract For Zone 5’s Combat-Proven Rusty Dagger Cruise Missile",
     "freshest_published": "Fri, 21 Aug 2026 04:23:11 +0000"
