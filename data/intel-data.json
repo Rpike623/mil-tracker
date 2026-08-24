@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-08-24T21:16:03Z",
-  "version": 2718,
+  "generated_utc": "2026-08-24T22:12:05Z",
+  "version": 2719,
   "breaking_alert": "Naval News: U.S. Navy Awards Contract For Zone 5’s Combat-Proven Rusty Dagger Cruise Missile",
   "naval_deployments": [
     {
@@ -904,16 +904,6 @@
       ]
     },
     {
-      "title": "Babcock advances Anglo-Danish naval cooperation with new agreements",
-      "link": "https://www.navalnews.com/naval-news/2026/08/babcock-advances-anglo-danish-naval-cooperation-with-new-agreements/",
-      "published": "Thu, 20 Aug 2026 10:12:28 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment",
-        "exercise"
-      ]
-    },
-    {
       "title": "Arctic Exercise Northern Viking Kicks off with U.S., Iceland",
       "link": "https://news.usni.org/2026/08/20/arctic-exercise-northern-viking-kicks-off-with-u-s-iceland",
       "published": "Thu, 20 Aug 2026 20:41:07 +0000",
@@ -934,11 +924,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 19,
+    "deployment_articles": 18,
     "conflict_articles": 9,
-    "exercise_articles": 5,
+    "exercise_articles": 4,
     "total_articles": 50,
-    "computed_at": "2026-08-24T21:16:01.769871+00:00",
+    "computed_at": "2026-08-24T22:12:00.024910+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[Naval News] U.S. Navy Awards Contract For Zone 5’s Combat-Proven Rusty Dagger Cruise Missile",
@@ -956,9 +946,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-08-24T21:16:01.769919+00:00",
+    "last_successful_update": "2026-08-24T22:12:00.024955+00:00",
     "article_count": 50,
-    "categorized_count": 28,
+    "categorized_count": 27,
     "freshest_source": "Naval News",
     "freshest_title": "U.S. Navy Awards Contract For Zone 5’s Combat-Proven Rusty Dagger Cruise Missile",
     "freshest_published": "Fri, 21 Aug 2026 04:23:11 +0000"
