@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-08-24T13:39:39Z",
-  "version": 2710,
+  "generated_utc": "2026-08-24T14:28:52Z",
+  "version": 2711,
   "breaking_alert": "Naval News: U.S. Navy Awards Contract For Zone 5’s Combat-Proven Rusty Dagger Cruise Missile",
   "naval_deployments": [
     {
@@ -847,6 +847,15 @@
       ]
     },
     {
+      "title": "UK’s Burnham to visit Ukraine with plan to support long-range missile production",
+      "link": "https://www.defensenews.com/global/europe/2026/08/24/uks-burnham-to-visit-ukraine-with-plan-to-support-long-range-missile-production/",
+      "published": "Mon, 24 Aug 2026 13:46:49 +0000",
+      "source": "Defense News",
+      "categories": [
+        "conflict"
+      ]
+    },
+    {
       "title": "2 Mariners Killed in Strait of Hormuz as Transits See Small Increase",
       "link": "https://news.usni.org/2026/08/21/2-mariners-killed-in-strait-of-hormuz-as-transits-see-small-increase",
       "published": "Sat, 22 Aug 2026 01:13:56 +0000",
@@ -869,15 +878,6 @@
       "title": "Ukraine braces for combined salvos of up to 200 missiles as overnight attack kills 15 in Kyiv",
       "link": "https://www.defensenews.com/global/europe/2026/08/20/ukraine-braces-for-combined-salvos-of-up-to-200-missiles-as-overnight-attack-kills-15-in-kyiv/",
       "published": "Thu, 20 Aug 2026 20:09:46 +0000",
-      "source": "Defense News",
-      "categories": [
-        "conflict"
-      ]
-    },
-    {
-      "title": "US Navy leads multinational effort for next-gen SeaSparrow missile",
-      "link": "https://www.defensenews.com/air-warfare/2026/08/20/us-navy-leads-multinational-effort-for-next-gen-seasparrow-missile/",
-      "published": "Thu, 20 Aug 2026 20:23:22 +0000",
       "source": "Defense News",
       "categories": [
         "conflict"
@@ -935,11 +935,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 16,
-    "conflict_articles": 6,
+    "deployment_articles": 15,
+    "conflict_articles": 7,
     "exercise_articles": 5,
     "total_articles": 50,
-    "computed_at": "2026-08-24T13:39:35.745302+00:00",
+    "computed_at": "2026-08-24T14:28:50.123880+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] U.S. Navy Awards Contract For Zone 5’s Combat-Proven Rusty Dagger Cruise Missile",
@@ -957,7 +957,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-08-24T13:39:35.745351+00:00",
+    "last_successful_update": "2026-08-24T14:28:50.123930+00:00",
     "article_count": 50,
     "categorized_count": 23,
     "freshest_source": "Naval News",
