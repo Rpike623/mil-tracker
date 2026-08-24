@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-08-24T08:32:28Z",
-  "version": 2705,
+  "generated_utc": "2026-08-24T09:32:45Z",
+  "version": 2706,
   "breaking_alert": "Naval News: U.S. Navy Awards Contract For Zone 5’s Combat-Proven Rusty Dagger Cruise Missile",
   "naval_deployments": [
     {
@@ -612,6 +612,24 @@
       ]
     },
     {
+      "title": "Two US tanker aircraft leave Bulgaria a month after deployment upset Iran",
+      "link": "https://www.defensenews.com/global/europe/2026/08/24/two-us-tanker-aircraft-leave-bulgaria-a-month-after-deployment-upset-iran/",
+      "published": "Mon, 24 Aug 2026 08:44:35 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Vaisala launches cybersecure offshore weather station for navy, coast guard, offshore, icebreakers and research fleets",
+      "link": "https://www.navalnews.com/naval-news/2026/08/vaisala-launches-cybersecure-offshore-weather-station-for-navy-coast-guard-offshore-icebreakers-and-research-fleets/",
+      "published": "Mon, 24 Aug 2026 09:02:52 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "2 Mariners Killed in Strait of Hormuz as Transits See Small Increase",
       "link": "https://news.usni.org/2026/08/21/2-mariners-killed-in-strait-of-hormuz-as-transits-see-small-increase",
       "published": "Sat, 22 Aug 2026 01:13:56 +0000",
@@ -662,24 +680,6 @@
       "title": "Lockheed Martin and U.S. Navy Demonstrate AI-Powered Submarine Hunter at RIMPAC 2026",
       "link": "https://www.navalnews.com/naval-news/2026/08/lockheed-martin-and-u-s-navy-demonstrate-ai-powered-submarine-hunter-at-rimpac-2026/",
       "published": "Thu, 20 Aug 2026 11:21:20 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Carrier USS George Washington Now in the Middle East",
-      "link": "https://news.usni.org/2026/08/20/carrier-uss-george-washington-now-in-the-middle-east",
-      "published": "Thu, 20 Aug 2026 14:40:01 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Babcock and Danske Flådeskibe deepen Anglo-Danish naval partnership on future frigates",
-      "link": "https://www.navalnews.com/naval-news/2026/08/babcock-and-danske-fladeskibe-deepen-anglo-danish-naval-partnership-on-future-frigates/",
-      "published": "Thu, 20 Aug 2026 19:52:54 +0000",
       "source": "Naval News",
       "categories": [
         "deployment"
@@ -935,18 +935,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 15,
+    "deployment_articles": 16,
     "conflict_articles": 6,
-    "exercise_articles": 6,
+    "exercise_articles": 5,
     "total_articles": 50,
-    "computed_at": "2026-08-24T08:32:26.611325+00:00",
+    "computed_at": "2026-08-24T09:32:43.566815+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] U.S. Navy Awards Contract For Zone 5’s Combat-Proven Rusty Dagger Cruise Missile",
       "[Task & Purpose] How a Navy aircraft carrier ended up short on food in a war zone",
       "[Naval News] Australia Lays Keel for First Hunter-class Anti-Submarine Frigate",
-      "[USNI News] 2 Mariners Killed in Strait of Hormuz as Transits See Small Increase",
-      "[USNI News] USS Abraham Lincoln Leaves the Middle East After Almost 7 Months"
+      "[Defense News] Two US tanker aircraft leave Bulgaria a month after deployment upset Iran",
+      "[Naval News] Vaisala launches cybersecure offshore weather station for navy, coast guard, offshore, icebreakers and research fleets"
     ]
   },
   "ground_intel": {
@@ -957,7 +957,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-08-24T08:32:26.611371+00:00",
+    "last_successful_update": "2026-08-24T09:32:43.566861+00:00",
     "article_count": 50,
     "categorized_count": 23,
     "freshest_source": "Naval News",
