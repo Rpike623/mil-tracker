@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-08-24T14:28:52Z",
-  "version": 2711,
+  "generated_utc": "2026-08-24T15:30:26Z",
+  "version": 2712,
   "breaking_alert": "Naval News: U.S. Navy Awards Contract For Zone 5’s Combat-Proven Rusty Dagger Cruise Missile",
   "naval_deployments": [
     {
@@ -630,6 +630,24 @@
       ]
     },
     {
+      "title": "Billboard campaign in military cities connects Iran war to high prices",
+      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/08/24/billboard-campaign-in-military-cities-connects-iran-war-to-high-prices/",
+      "published": "Mon, 24 Aug 2026 14:32:40 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "USNI News Fleet and Marine Tracker: Aug. 24, 2026",
+      "link": "https://news.usni.org/2026/08/24/usni-news-fleet-and-marine-tracker-aug-24-2026",
+      "published": "Mon, 24 Aug 2026 15:20:52 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "2 Mariners Killed in Strait of Hormuz as Transits See Small Increase",
       "link": "https://news.usni.org/2026/08/21/2-mariners-killed-in-strait-of-hormuz-as-transits-see-small-increase",
       "published": "Sat, 22 Aug 2026 01:13:56 +0000",
@@ -665,24 +683,6 @@
       "categories": [
         "deployment",
         "exercise"
-      ]
-    },
-    {
-      "title": "US destroyed a lost Reaper drone after hard landing in Middle East",
-      "link": "https://taskandpurpose.com/news/drone-crash-destroyed-2025/",
-      "published": "Thu, 20 Aug 2026 11:03:19 -0400",
-      "source": "Task & Purpose",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Lockheed Martin and U.S. Navy Demonstrate AI-Powered Submarine Hunter at RIMPAC 2026",
-      "link": "https://www.navalnews.com/naval-news/2026/08/lockheed-martin-and-u-s-navy-demonstrate-ai-powered-submarine-hunter-at-rimpac-2026/",
-      "published": "Thu, 20 Aug 2026 11:21:20 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment"
       ]
     }
   ],
@@ -935,11 +935,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 15,
+    "deployment_articles": 17,
     "conflict_articles": 7,
     "exercise_articles": 5,
     "total_articles": 50,
-    "computed_at": "2026-08-24T14:28:50.123880+00:00",
+    "computed_at": "2026-08-24T15:25:45.860101+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] U.S. Navy Awards Contract For Zone 5’s Combat-Proven Rusty Dagger Cruise Missile",
@@ -957,9 +957,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-08-24T14:28:50.123930+00:00",
+    "last_successful_update": "2026-08-24T15:25:45.860150+00:00",
     "article_count": 50,
-    "categorized_count": 23,
+    "categorized_count": 25,
     "freshest_source": "Naval News",
     "freshest_title": "U.S. Navy Awards Contract For Zone 5’s Combat-Proven Rusty Dagger Cruise Missile",
     "freshest_published": "Fri, 21 Aug 2026 04:23:11 +0000"
