@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-08-24T15:30:26Z",
-  "version": 2712,
+  "generated_utc": "2026-08-24T16:20:18Z",
+  "version": 2713,
   "breaking_alert": "Naval News: U.S. Navy Awards Contract For Zone 5’s Combat-Proven Rusty Dagger Cruise Missile",
   "naval_deployments": [
     {
@@ -856,6 +856,15 @@
       ]
     },
     {
+      "title": "Italy eyes US tech for souping up dumb missiles into drone interceptors",
+      "link": "https://www.defensenews.com/global/europe/2026/08/24/italy-eyes-us-tech-for-souping-up-dumb-missiles-into-drone-interceptors/",
+      "published": "Mon, 24 Aug 2026 16:12:51 +0000",
+      "source": "Defense News",
+      "categories": [
+        "conflict"
+      ]
+    },
+    {
       "title": "2 Mariners Killed in Strait of Hormuz as Transits See Small Increase",
       "link": "https://news.usni.org/2026/08/21/2-mariners-killed-in-strait-of-hormuz-as-transits-see-small-increase",
       "published": "Sat, 22 Aug 2026 01:13:56 +0000",
@@ -870,15 +879,6 @@
       "link": "https://www.navalnews.com/naval-news/2026/08/us-navy-unveils-aim-424-malice-lraam/",
       "published": "Sun, 23 Aug 2026 07:21:31 +0000",
       "source": "Naval News",
-      "categories": [
-        "conflict"
-      ]
-    },
-    {
-      "title": "Ukraine braces for combined salvos of up to 200 missiles as overnight attack kills 15 in Kyiv",
-      "link": "https://www.defensenews.com/global/europe/2026/08/20/ukraine-braces-for-combined-salvos-of-up-to-200-missiles-as-overnight-attack-kills-15-in-kyiv/",
-      "published": "Thu, 20 Aug 2026 20:09:46 +0000",
-      "source": "Defense News",
       "categories": [
         "conflict"
       ]
@@ -936,11 +936,11 @@
   ],
   "_threat_indicators": {
     "deployment_articles": 17,
-    "conflict_articles": 7,
+    "conflict_articles": 8,
     "exercise_articles": 5,
     "total_articles": 50,
-    "computed_at": "2026-08-24T15:25:45.860101+00:00",
-    "manual_override": "DEFCON_3",
+    "computed_at": "2026-08-24T16:20:12.245861+00:00",
+    "manual_override": "DEFCON_2",
     "breaking_events": [
       "[Naval News] U.S. Navy Awards Contract For Zone 5’s Combat-Proven Rusty Dagger Cruise Missile",
       "[Task & Purpose] How a Navy aircraft carrier ended up short on food in a war zone",
@@ -957,9 +957,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-08-24T15:25:45.860150+00:00",
+    "last_successful_update": "2026-08-24T16:20:12.245911+00:00",
     "article_count": 50,
-    "categorized_count": 25,
+    "categorized_count": 26,
     "freshest_source": "Naval News",
     "freshest_title": "U.S. Navy Awards Contract For Zone 5’s Combat-Proven Rusty Dagger Cruise Missile",
     "freshest_published": "Fri, 21 Aug 2026 04:23:11 +0000"
