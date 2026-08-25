@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-08-25T16:21:16Z",
-  "version": 2736,
+  "generated_utc": "2026-08-25T17:20:21Z",
+  "version": 2737,
   "breaking_alert": "Naval News: Australia Lays Keel for First Hunter-class Anti-Submarine Frigate",
   "naval_deployments": [
     {
@@ -910,7 +910,7 @@
     "conflict_articles": 7,
     "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-08-25T16:21:10.957357+00:00",
+    "computed_at": "2026-08-25T17:20:17.486596+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] Australia Lays Keel for First Hunter-class Anti-Submarine Frigate",
@@ -928,7 +928,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-08-25T16:21:10.957405+00:00",
+    "last_successful_update": "2026-08-25T17:20:17.486638+00:00",
     "article_count": 50,
     "categorized_count": 25,
     "freshest_source": "Naval News",
