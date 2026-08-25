@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-08-25T07:37:39Z",
-  "version": 2727,
-  "breaking_alert": "Naval News: U.S. Navy Awards Contract For Zone 5’s Combat-Proven Rusty Dagger Cruise Missile",
+  "generated_utc": "2026-08-25T08:25:53Z",
+  "version": 2728,
+  "breaking_alert": "Task & Purpose: How a Navy aircraft carrier ended up short on food in a war zone",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -837,15 +837,6 @@
   },
   "_conflict_news_refs": [
     {
-      "title": "U.S. Navy Awards Contract For Zone 5’s Combat-Proven Rusty Dagger Cruise Missile",
-      "link": "https://www.navalnews.com/naval-news/2026/08/u-s-navy-awards-contract-for-zone-5s-combat-proven-rusty-dagger-cruise-missile/",
-      "published": "Fri, 21 Aug 2026 04:23:11 +0000",
-      "source": "Naval News",
-      "categories": [
-        "conflict"
-      ]
-    },
-    {
       "title": "UK’s Burnham to visit Ukraine with plan to support long-range missile production",
       "link": "https://www.defensenews.com/global/europe/2026/08/24/uks-burnham-to-visit-ukraine-with-plan-to-support-long-range-missile-production/",
       "published": "Mon, 24 Aug 2026 13:46:49 +0000",
@@ -878,6 +869,16 @@
       "published": "Mon, 24 Aug 2026 17:54:47 +0000",
       "source": "USNI News",
       "categories": [
+        "conflict"
+      ]
+    },
+    {
+      "title": "2 Mariners Killed in Strait of Hormuz as Transits See Small Increase",
+      "link": "https://news.usni.org/2026/08/21/2-mariners-killed-in-strait-of-hormuz-as-transits-see-small-increase",
+      "published": "Sat, 22 Aug 2026 01:13:56 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment",
         "conflict"
       ]
     }
@@ -924,18 +925,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 16,
-    "conflict_articles": 9,
+    "deployment_articles": 17,
+    "conflict_articles": 8,
     "exercise_articles": 4,
     "total_articles": 50,
-    "computed_at": "2026-08-25T07:32:58.113365+00:00",
+    "computed_at": "2026-08-25T08:25:49.814084+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
-      "[Naval News] U.S. Navy Awards Contract For Zone 5’s Combat-Proven Rusty Dagger Cruise Missile",
       "[Task & Purpose] How a Navy aircraft carrier ended up short on food in a war zone",
       "[Naval News] Australia Lays Keel for First Hunter-class Anti-Submarine Frigate",
       "[Defense News] Two US tanker aircraft leave Bulgaria a month after deployment upset Iran",
-      "[Naval News] Vaisala launches cybersecure offshore weather station for navy, coast guard, offshore, icebreakers and research fleets"
+      "[Naval News] Vaisala launches cybersecure offshore weather station for navy, coast guard, offshore, icebreakers and research fleets",
+      "[Defense News] UK’s Burnham to visit Ukraine with plan to support long-range missile production"
     ]
   },
   "ground_intel": {
@@ -946,12 +947,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-08-25T07:32:58.113414+00:00",
+    "last_successful_update": "2026-08-25T08:25:49.814132+00:00",
     "article_count": 50,
     "categorized_count": 25,
-    "freshest_source": "Naval News",
-    "freshest_title": "U.S. Navy Awards Contract For Zone 5’s Combat-Proven Rusty Dagger Cruise Missile",
-    "freshest_published": "Fri, 21 Aug 2026 04:23:11 +0000"
+    "freshest_source": "Task & Purpose",
+    "freshest_title": "How a Navy aircraft carrier ended up short on food in a war zone",
+    "freshest_published": "Fri, 21 Aug 2026 13:30:56 -0400"
   },
   "_firms_hotspots": []
 }
