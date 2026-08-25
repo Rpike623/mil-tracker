@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-08-24T23:16:22Z",
-  "version": 2720,
+  "generated_utc": "2026-08-25T00:28:57Z",
+  "version": 2721,
   "breaking_alert": "Naval News: U.S. Navy Awards Contract For Zone 5’s Combat-Proven Rusty Dagger Cruise Missile",
   "naval_deployments": [
     {
@@ -928,7 +928,7 @@
     "conflict_articles": 9,
     "exercise_articles": 4,
     "total_articles": 50,
-    "computed_at": "2026-08-24T23:11:41.127745+00:00",
+    "computed_at": "2026-08-25T00:28:47.291706+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[Naval News] U.S. Navy Awards Contract For Zone 5’s Combat-Proven Rusty Dagger Cruise Missile",
@@ -946,7 +946,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-08-24T23:11:41.127793+00:00",
+    "last_successful_update": "2026-08-25T00:28:47.291751+00:00",
     "article_count": 50,
     "categorized_count": 27,
     "freshest_source": "Naval News",
