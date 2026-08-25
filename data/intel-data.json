@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-08-25T13:38:09Z",
-  "version": 2733,
+  "generated_utc": "2026-08-25T14:31:36Z",
+  "version": 2734,
   "breaking_alert": "Task & Purpose: How a Navy aircraft carrier ended up short on food in a war zone",
   "naval_deployments": [
     {
@@ -928,7 +928,7 @@
     "conflict_articles": 7,
     "exercise_articles": 4,
     "total_articles": 50,
-    "computed_at": "2026-08-25T13:38:04.833853+00:00",
+    "computed_at": "2026-08-25T14:31:33.321288+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Task & Purpose] How a Navy aircraft carrier ended up short on food in a war zone",
@@ -946,7 +946,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-08-25T13:38:04.833900+00:00",
+    "last_successful_update": "2026-08-25T14:31:33.321327+00:00",
     "article_count": 50,
     "categorized_count": 26,
     "freshest_source": "Task & Purpose",
