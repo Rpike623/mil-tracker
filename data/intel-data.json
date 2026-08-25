@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-08-25T08:25:53Z",
-  "version": 2728,
+  "generated_utc": "2026-08-25T09:22:00Z",
+  "version": 2729,
   "breaking_alert": "Task & Purpose: How a Navy aircraft carrier ended up short on food in a war zone",
   "naval_deployments": [
     {
@@ -925,12 +925,12 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 17,
-    "conflict_articles": 8,
+    "deployment_articles": 18,
+    "conflict_articles": 7,
     "exercise_articles": 4,
     "total_articles": 50,
-    "computed_at": "2026-08-25T08:25:49.814084+00:00",
-    "manual_override": "DEFCON_2",
+    "computed_at": "2026-08-25T09:21:55.601470+00:00",
+    "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Task & Purpose] How a Navy aircraft carrier ended up short on food in a war zone",
       "[Naval News] Australia Lays Keel for First Hunter-class Anti-Submarine Frigate",
@@ -947,7 +947,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-08-25T08:25:49.814132+00:00",
+    "last_successful_update": "2026-08-25T09:21:55.601518+00:00",
     "article_count": 50,
     "categorized_count": 25,
     "freshest_source": "Task & Purpose",
