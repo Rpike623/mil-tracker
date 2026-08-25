@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-08-25T22:16:40Z",
-  "version": 2742,
+  "generated_utc": "2026-08-25T23:14:00Z",
+  "version": 2743,
   "breaking_alert": "Naval News: Vaisala launches cybersecure offshore weather station for navy, coast guard, offshore, icebreakers and research fleets",
   "naval_deployments": [
     {
@@ -838,15 +838,6 @@
   },
   "_conflict_news_refs": [
     {
-      "title": "UK’s Burnham to visit Ukraine with plan to support long-range missile production",
-      "link": "https://www.defensenews.com/global/europe/2026/08/24/uks-burnham-to-visit-ukraine-with-plan-to-support-long-range-missile-production/",
-      "published": "Mon, 24 Aug 2026 13:46:49 +0000",
-      "source": "Defense News",
-      "categories": [
-        "conflict"
-      ]
-    },
-    {
       "title": "Italy eyes US tech for souping up dumb missiles into drone interceptors",
       "link": "https://www.defensenews.com/global/europe/2026/08/24/italy-eyes-us-tech-for-souping-up-dumb-missiles-into-drone-interceptors/",
       "published": "Mon, 24 Aug 2026 16:12:51 +0000",
@@ -882,6 +873,15 @@
         "deployment",
         "conflict"
       ]
+    },
+    {
+      "title": "Ukraine’s newest ballistic missiles are weeks away from combat",
+      "link": "https://www.defensenews.com/global/europe/2026/08/25/ukraines-newest-ballistic-missiles-are-weeks-away-from-combat/",
+      "published": "Tue, 25 Aug 2026 13:40:27 +0000",
+      "source": "Defense News",
+      "categories": [
+        "conflict"
+      ]
     }
   ],
   "_exercise_news_refs": [
@@ -898,17 +898,17 @@
   ],
   "_threat_indicators": {
     "deployment_articles": 18,
-    "conflict_articles": 8,
+    "conflict_articles": 7,
     "exercise_articles": 1,
     "total_articles": 50,
-    "computed_at": "2026-08-25T22:11:56.589542+00:00",
-    "manual_override": "DEFCON_2",
+    "computed_at": "2026-08-25T23:13:58.103640+00:00",
+    "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] Vaisala launches cybersecure offshore weather station for navy, coast guard, offshore, icebreakers and research fleets",
-      "[Defense News] UK’s Burnham to visit Ukraine with plan to support long-range missile production",
       "[Task & Purpose] Tracking America’s latest conflict: The Iran war timeline",
       "[USNI News] USNI News Fleet and Marine Tracker: Aug. 24, 2026",
-      "[Task & Purpose] Deployed troops reported twice as many assaults last year, led by Poland"
+      "[Task & Purpose] Deployed troops reported twice as many assaults last year, led by Poland",
+      "[Defense News] Italy eyes US tech for souping up dumb missiles into drone interceptors"
     ]
   },
   "ground_intel": {
@@ -919,9 +919,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-08-25T22:11:56.589592+00:00",
+    "last_successful_update": "2026-08-25T23:13:58.103713+00:00",
     "article_count": 50,
-    "categorized_count": 25,
+    "categorized_count": 24,
     "freshest_source": "Naval News",
     "freshest_title": "Vaisala launches cybersecure offshore weather station for navy, coast guard, offshore, icebreakers and research fleets",
     "freshest_published": "Mon, 24 Aug 2026 09:02:52 +0000"
