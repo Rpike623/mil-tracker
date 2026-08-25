@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-08-25T19:24:55Z",
-  "version": 2739,
+  "generated_utc": "2026-08-25T20:13:22Z",
+  "version": 2740,
   "breaking_alert": "Naval News: Australia Lays Keel for First Hunter-class Anti-Submarine Frigate",
   "naval_deployments": [
     {
@@ -603,15 +603,6 @@
       ]
     },
     {
-      "title": "Two US tanker aircraft leave Bulgaria a month after deployment upset Iran",
-      "link": "https://www.defensenews.com/global/europe/2026/08/24/two-us-tanker-aircraft-leave-bulgaria-a-month-after-deployment-upset-iran/",
-      "published": "Mon, 24 Aug 2026 08:44:35 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Vaisala launches cybersecure offshore weather station for navy, coast guard, offshore, icebreakers and research fleets",
       "link": "https://www.navalnews.com/naval-news/2026/08/vaisala-launches-cybersecure-offshore-weather-station-for-navy-coast-guard-offshore-icebreakers-and-research-fleets/",
       "published": "Mon, 24 Aug 2026 09:02:52 +0000",
@@ -667,19 +658,28 @@
       ]
     },
     {
-      "title": "US cancels joint marine drills with South Korea over Iran war-related force constraints",
-      "link": "https://www.militarytimes.com/global/asia-pacific/2026/08/24/us-cancels-joint-marine-drills-with-south-korea-over-iran-war-related-force-constraints/",
-      "published": "Mon, 24 Aug 2026 19:05:10 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment",
-        "exercise"
-      ]
-    },
-    {
       "title": "USS Gerald R. Ford Sortie Test Exceeded Nimitz-class Performance, Says CNO Caudle",
       "link": "https://news.usni.org/2026/08/24/uss-gerald-r-ford-sortie-test-exceeded-nimitz-class-performance-says-cno-caudle",
       "published": "Mon, 24 Aug 2026 21:08:25 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "2 Mariners Killed in Strait of Hormuz as Transits See Small Increase",
+      "link": "https://news.usni.org/2026/08/21/2-mariners-killed-in-strait-of-hormuz-as-transits-see-small-increase",
+      "published": "Sat, 22 Aug 2026 01:13:56 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
+    },
+    {
+      "title": "USS Abraham Lincoln Leaves the Middle East After Almost 7 Months",
+      "link": "https://news.usni.org/2026/08/22/uss-abraham-lincoln-leaves-the-middle-east-after-almost-7-months",
+      "published": "Sat, 22 Aug 2026 12:30:27 +0000",
       "source": "USNI News",
       "categories": [
         "deployment"
@@ -894,31 +894,21 @@
         "deployment",
         "exercise"
       ]
-    },
-    {
-      "title": "US cancels joint marine drills with South Korea over Iran war-related force constraints",
-      "link": "https://www.militarytimes.com/global/asia-pacific/2026/08/24/us-cancels-joint-marine-drills-with-south-korea-over-iran-war-related-force-constraints/",
-      "published": "Mon, 24 Aug 2026 19:05:10 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment",
-        "exercise"
-      ]
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 17,
+    "deployment_articles": 16,
     "conflict_articles": 8,
-    "exercise_articles": 2,
+    "exercise_articles": 1,
     "total_articles": 50,
-    "computed_at": "2026-08-25T19:20:14.610707+00:00",
+    "computed_at": "2026-08-25T20:13:16.209144+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[Naval News] Australia Lays Keel for First Hunter-class Anti-Submarine Frigate",
-      "[Defense News] Two US tanker aircraft leave Bulgaria a month after deployment upset Iran",
       "[Naval News] Vaisala launches cybersecure offshore weather station for navy, coast guard, offshore, icebreakers and research fleets",
       "[Defense News] UK’s Burnham to visit Ukraine with plan to support long-range missile production",
-      "[Task & Purpose] Tracking America’s latest conflict: The Iran war timeline"
+      "[Task & Purpose] Tracking America’s latest conflict: The Iran war timeline",
+      "[USNI News] USNI News Fleet and Marine Tracker: Aug. 24, 2026"
     ]
   },
   "ground_intel": {
@@ -929,9 +919,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-08-25T19:20:14.610755+00:00",
+    "last_successful_update": "2026-08-25T20:13:16.209188+00:00",
     "article_count": 50,
-    "categorized_count": 24,
+    "categorized_count": 23,
     "freshest_source": "Naval News",
     "freshest_title": "Australia Lays Keel for First Hunter-class Anti-Submarine Frigate",
     "freshest_published": "Mon, 24 Aug 2026 08:06:14 +0000"
