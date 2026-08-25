@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-08-25T14:31:36Z",
-  "version": 2734,
-  "breaking_alert": "Task & Purpose: How a Navy aircraft carrier ended up short on food in a war zone",
+  "generated_utc": "2026-08-25T15:30:32Z",
+  "version": 2735,
+  "breaking_alert": "Naval News: Australia Lays Keel for First Hunter-class Anti-Submarine Frigate",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -594,15 +594,6 @@
   ],
   "_naval_news_refs": [
     {
-      "title": "How a Navy aircraft carrier ended up short on food in a war zone",
-      "link": "https://taskandpurpose.com/news/navy-carrier-lincoln-food/",
-      "published": "Fri, 21 Aug 2026 13:30:56 -0400",
-      "source": "Task & Purpose",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Australia Lays Keel for First Hunter-class Anti-Submarine Frigate",
       "link": "https://www.navalnews.com/naval-news/2026/08/australia-lays-keel-first-hunter-class-frigate/",
       "published": "Mon, 24 Aug 2026 08:06:14 +0000",
@@ -681,6 +672,16 @@
       "source": "Task & Purpose",
       "categories": [
         "deployment"
+      ]
+    },
+    {
+      "title": "US cancels joint marine drills with South Korea over Iran war-related force constraints",
+      "link": "https://www.defensenews.com/global/asia-pacific/2026/08/24/us-cancels-joint-marine-drills-with-south-korea-over-iran-war-related-force-constraints/",
+      "published": "Mon, 24 Aug 2026 19:05:10 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment",
+        "exercise"
       ]
     }
   ],
@@ -902,40 +903,21 @@
         "deployment",
         "exercise"
       ]
-    },
-    {
-      "title": "Arctic Exercise Northern Viking Kicks off with U.S., Iceland",
-      "link": "https://news.usni.org/2026/08/20/arctic-exercise-northern-viking-kicks-off-with-u-s-iceland",
-      "published": "Thu, 20 Aug 2026 20:41:07 +0000",
-      "source": "USNI News",
-      "categories": [
-        "exercise"
-      ]
-    },
-    {
-      "title": "The US Navy has battled operational tempo ordeals for years. The Iran war exposed the flaws.",
-      "link": "https://www.defensenews.com/news/your-navy/2026/08/20/the-us-navy-has-battled-operational-tempo-ordeals-for-years-the-iran-war-exposed-the-flaws/",
-      "published": "Thu, 20 Aug 2026 23:20:57 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment",
-        "exercise"
-      ]
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 19,
+    "deployment_articles": 17,
     "conflict_articles": 7,
-    "exercise_articles": 4,
+    "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-08-25T14:31:33.321288+00:00",
+    "computed_at": "2026-08-25T15:30:27.331791+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
-      "[Task & Purpose] How a Navy aircraft carrier ended up short on food in a war zone",
       "[Naval News] Australia Lays Keel for First Hunter-class Anti-Submarine Frigate",
       "[Defense News] Two US tanker aircraft leave Bulgaria a month after deployment upset Iran",
       "[Military Times] Two US tanker aircraft leave Bulgaria a month after deployment upset Iran",
-      "[Naval News] Vaisala launches cybersecure offshore weather station for navy, coast guard, offshore, icebreakers and research fleets"
+      "[Naval News] Vaisala launches cybersecure offshore weather station for navy, coast guard, offshore, icebreakers and research fleets",
+      "[Defense News] UK’s Burnham to visit Ukraine with plan to support long-range missile production"
     ]
   },
   "ground_intel": {
@@ -946,12 +928,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-08-25T14:31:33.321327+00:00",
+    "last_successful_update": "2026-08-25T15:30:27.331830+00:00",
     "article_count": 50,
-    "categorized_count": 26,
-    "freshest_source": "Task & Purpose",
-    "freshest_title": "How a Navy aircraft carrier ended up short on food in a war zone",
-    "freshest_published": "Fri, 21 Aug 2026 13:30:56 -0400"
+    "categorized_count": 23,
+    "freshest_source": "Naval News",
+    "freshest_title": "Australia Lays Keel for First Hunter-class Anti-Submarine Frigate",
+    "freshest_published": "Mon, 24 Aug 2026 08:06:14 +0000"
   },
   "_firms_hotspots": []
 }
