@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-08-25T17:20:21Z",
-  "version": 2737,
+  "generated_utc": "2026-08-25T18:19:24Z",
+  "version": 2738,
   "breaking_alert": "Naval News: Australia Lays Keel for First Hunter-class Anti-Submarine Frigate",
   "naval_deployments": [
     {
@@ -612,15 +612,6 @@
       ]
     },
     {
-      "title": "Two US tanker aircraft leave Bulgaria a month after deployment upset Iran",
-      "link": "https://www.militarytimes.com/global/europe/2026/08/24/two-us-tanker-aircraft-leave-bulgaria-a-month-after-deployment-upset-iran/",
-      "published": "Mon, 24 Aug 2026 08:44:35 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Vaisala launches cybersecure offshore weather station for navy, coast guard, offshore, icebreakers and research fleets",
       "link": "https://www.navalnews.com/naval-news/2026/08/vaisala-launches-cybersecure-offshore-weather-station-for-navy-coast-guard-offshore-icebreakers-and-research-fleets/",
       "published": "Mon, 24 Aug 2026 09:02:52 +0000",
@@ -634,15 +625,6 @@
       "link": "https://taskandpurpose.com/news/iran-war-timeline/",
       "published": "Mon, 24 Aug 2026 13:51:11 -0400",
       "source": "Task & Purpose",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Billboard campaign in military cities connects Iran war to high prices",
-      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/08/24/billboard-campaign-in-military-cities-connects-iran-war-to-high-prices/",
-      "published": "Mon, 24 Aug 2026 14:32:40 +0000",
-      "source": "Military Times",
       "categories": [
         "deployment"
       ]
@@ -682,6 +664,25 @@
       "categories": [
         "deployment",
         "exercise"
+      ]
+    },
+    {
+      "title": "US cancels joint marine drills with South Korea over Iran war-related force constraints",
+      "link": "https://www.militarytimes.com/global/asia-pacific/2026/08/24/us-cancels-joint-marine-drills-with-south-korea-over-iran-war-related-force-constraints/",
+      "published": "Mon, 24 Aug 2026 19:05:10 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment",
+        "exercise"
+      ]
+    },
+    {
+      "title": "USS Gerald R. Ford Sortie Test Exceeded Nimitz-class Performance, Says CNO Caudle",
+      "link": "https://news.usni.org/2026/08/24/uss-gerald-r-ford-sortie-test-exceeded-nimitz-class-performance-says-cno-caudle",
+      "published": "Mon, 24 Aug 2026 21:08:25 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment"
       ]
     }
   ],
@@ -906,18 +907,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 19,
-    "conflict_articles": 7,
+    "deployment_articles": 17,
+    "conflict_articles": 8,
     "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-08-25T17:20:17.486596+00:00",
-    "manual_override": "DEFCON_3",
+    "computed_at": "2026-08-25T18:19:20.970671+00:00",
+    "manual_override": "DEFCON_2",
     "breaking_events": [
       "[Naval News] Australia Lays Keel for First Hunter-class Anti-Submarine Frigate",
       "[Defense News] Two US tanker aircraft leave Bulgaria a month after deployment upset Iran",
-      "[Military Times] Two US tanker aircraft leave Bulgaria a month after deployment upset Iran",
       "[Naval News] Vaisala launches cybersecure offshore weather station for navy, coast guard, offshore, icebreakers and research fleets",
-      "[Defense News] UK’s Burnham to visit Ukraine with plan to support long-range missile production"
+      "[Defense News] UK’s Burnham to visit Ukraine with plan to support long-range missile production",
+      "[Task & Purpose] Tracking America’s latest conflict: The Iran war timeline"
     ]
   },
   "ground_intel": {
@@ -928,9 +929,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-08-25T17:20:17.486638+00:00",
+    "last_successful_update": "2026-08-25T18:19:20.970712+00:00",
     "article_count": 50,
-    "categorized_count": 25,
+    "categorized_count": 24,
     "freshest_source": "Naval News",
     "freshest_title": "Australia Lays Keel for First Hunter-class Anti-Submarine Frigate",
     "freshest_published": "Mon, 24 Aug 2026 08:06:14 +0000"
