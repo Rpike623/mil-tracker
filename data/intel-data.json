@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-08-25T20:13:22Z",
-  "version": 2740,
-  "breaking_alert": "Naval News: Australia Lays Keel for First Hunter-class Anti-Submarine Frigate",
+  "generated_utc": "2026-08-25T21:14:41Z",
+  "version": 2741,
+  "breaking_alert": "Naval News: Vaisala launches cybersecure offshore weather station for navy, coast guard, offshore, icebreakers and research fleets",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -594,15 +594,6 @@
   ],
   "_naval_news_refs": [
     {
-      "title": "Australia Lays Keel for First Hunter-class Anti-Submarine Frigate",
-      "link": "https://www.navalnews.com/naval-news/2026/08/australia-lays-keel-first-hunter-class-frigate/",
-      "published": "Mon, 24 Aug 2026 08:06:14 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Vaisala launches cybersecure offshore weather station for navy, coast guard, offshore, icebreakers and research fleets",
       "link": "https://www.navalnews.com/naval-news/2026/08/vaisala-launches-cybersecure-offshore-weather-station-for-navy-coast-guard-offshore-icebreakers-and-research-fleets/",
       "published": "Mon, 24 Aug 2026 09:02:52 +0000",
@@ -681,6 +672,15 @@
       "link": "https://news.usni.org/2026/08/22/uss-abraham-lincoln-leaves-the-middle-east-after-almost-7-months",
       "published": "Sat, 22 Aug 2026 12:30:27 +0000",
       "source": "USNI News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Destinus to Develop Hornet B2 Naval C-UAS for Royal Netherlands Navy",
+      "link": "https://www.navalnews.com/naval-news/2026/08/destinus-hornet-b2-naval-cuas-netherlands-navy/",
+      "published": "Tue, 25 Aug 2026 08:10:49 +0000",
+      "source": "Naval News",
       "categories": [
         "deployment"
       ]
@@ -897,18 +897,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 16,
+    "deployment_articles": 17,
     "conflict_articles": 8,
     "exercise_articles": 1,
     "total_articles": 50,
-    "computed_at": "2026-08-25T20:13:16.209144+00:00",
+    "computed_at": "2026-08-25T21:14:36.303013+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
-      "[Naval News] Australia Lays Keel for First Hunter-class Anti-Submarine Frigate",
       "[Naval News] Vaisala launches cybersecure offshore weather station for navy, coast guard, offshore, icebreakers and research fleets",
       "[Defense News] UK’s Burnham to visit Ukraine with plan to support long-range missile production",
       "[Task & Purpose] Tracking America’s latest conflict: The Iran war timeline",
-      "[USNI News] USNI News Fleet and Marine Tracker: Aug. 24, 2026"
+      "[USNI News] USNI News Fleet and Marine Tracker: Aug. 24, 2026",
+      "[Task & Purpose] Deployed troops reported twice as many assaults last year, led by Poland"
     ]
   },
   "ground_intel": {
@@ -919,12 +919,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-08-25T20:13:16.209188+00:00",
+    "last_successful_update": "2026-08-25T21:14:36.303054+00:00",
     "article_count": 50,
-    "categorized_count": 23,
+    "categorized_count": 24,
     "freshest_source": "Naval News",
-    "freshest_title": "Australia Lays Keel for First Hunter-class Anti-Submarine Frigate",
-    "freshest_published": "Mon, 24 Aug 2026 08:06:14 +0000"
+    "freshest_title": "Vaisala launches cybersecure offshore weather station for navy, coast guard, offshore, icebreakers and research fleets",
+    "freshest_published": "Mon, 24 Aug 2026 09:02:52 +0000"
   },
   "_firms_hotspots": []
 }
