@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-08-25T21:14:41Z",
-  "version": 2741,
+  "generated_utc": "2026-08-25T22:16:40Z",
+  "version": 2742,
   "breaking_alert": "Naval News: Vaisala launches cybersecure offshore weather station for navy, coast guard, offshore, icebreakers and research fleets",
   "naval_deployments": [
     {
@@ -897,11 +897,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 17,
+    "deployment_articles": 18,
     "conflict_articles": 8,
     "exercise_articles": 1,
     "total_articles": 50,
-    "computed_at": "2026-08-25T21:14:36.303013+00:00",
+    "computed_at": "2026-08-25T22:11:56.589542+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[Naval News] Vaisala launches cybersecure offshore weather station for navy, coast guard, offshore, icebreakers and research fleets",
@@ -919,9 +919,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-08-25T21:14:36.303054+00:00",
+    "last_successful_update": "2026-08-25T22:11:56.589592+00:00",
     "article_count": 50,
-    "categorized_count": 24,
+    "categorized_count": 25,
     "freshest_source": "Naval News",
     "freshest_title": "Vaisala launches cybersecure offshore weather station for navy, coast guard, offshore, icebreakers and research fleets",
     "freshest_published": "Mon, 24 Aug 2026 09:02:52 +0000"
