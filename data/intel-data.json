@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-08-26T18:31:06Z",
-  "version": 2759,
+  "generated_utc": "2026-08-26T21:22:03Z",
+  "version": 2760,
   "breaking_alert": "Task & Purpose: Tracking America’s latest conflict: The Iran war timeline",
   "naval_deployments": [
     {
@@ -603,15 +603,6 @@
       ]
     },
     {
-      "title": "USNI News Fleet and Marine Tracker: Aug. 24, 2026",
-      "link": "https://news.usni.org/2026/08/24/usni-news-fleet-and-marine-tracker-aug-24-2026",
-      "published": "Mon, 24 Aug 2026 15:20:52 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Deployed troops reported twice as many assaults last year, led by Poland",
       "link": "https://taskandpurpose.com/news/pentagon-assault-report-2025/",
       "published": "Mon, 24 Aug 2026 15:53:28 -0400",
@@ -666,19 +657,28 @@
       ]
     },
     {
-      "title": "US Navy’s new anti-submarine torpedo will be a glide weapon",
-      "link": "https://www.militarytimes.com/industry/techwatch/2026/08/25/us-navys-new-anti-submarine-torpedo-will-be-a-glide-weapon/",
-      "published": "Tue, 25 Aug 2026 19:30:37 +0000",
-      "source": "Military Times",
+      "title": "USS Abraham Lincoln Deployment on Track to be 2nd Longest Since Vietnam War",
+      "link": "https://news.usni.org/2026/08/25/uss-abraham-lincoln-deployment-on-track-to-be-2nd-longest-since-vietnam-war",
+      "published": "Tue, 25 Aug 2026 20:55:45 +0000",
+      "source": "USNI News",
       "categories": [
         "deployment"
       ]
     },
     {
-      "title": "USS Abraham Lincoln Deployment on Track to be 2nd Longest Since Vietnam War",
-      "link": "https://news.usni.org/2026/08/25/uss-abraham-lincoln-deployment-on-track-to-be-2nd-longest-since-vietnam-war",
-      "published": "Tue, 25 Aug 2026 20:55:45 +0000",
-      "source": "USNI News",
+      "title": "Ocius Selects ThayerMahan and Thales Australia Thin-line Arrays for Bluebottle Fleets",
+      "link": "https://www.navalnews.com/naval-news/2026/08/ocius-selects-thayermahan-and-thales-australia-thin-line-arrays-for-bluebottle-fleets/",
+      "published": "Tue, 25 Aug 2026 21:05:00 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Active-duty Air Force officer who called for Trump impeachment faces three charges",
+      "link": "https://www.militarytimes.com/news/your-military/2026/08/25/active-duty-air-force-officer-who-called-for-trump-impeachment-faces-three-charges/",
+      "published": "Tue, 25 Aug 2026 21:40:33 +0000",
+      "source": "Military Times",
       "categories": [
         "deployment"
       ]
@@ -854,15 +854,6 @@
       ]
     },
     {
-      "title": "Ukraine’s newest ballistic missiles are weeks away from combat",
-      "link": "https://www.defensenews.com/global/europe/2026/08/25/ukraines-newest-ballistic-missiles-are-weeks-away-from-combat/",
-      "published": "Tue, 25 Aug 2026 13:40:27 +0000",
-      "source": "Defense News",
-      "categories": [
-        "conflict"
-      ]
-    },
-    {
       "title": "Air Force officer killed in remote Alaska crash was a ‘positive leader’",
       "link": "https://taskandpurpose.com/news/air-force-officer-crash/",
       "published": "Tue, 25 Aug 2026 14:44:39 -0400",
@@ -872,10 +863,19 @@
       ]
     },
     {
-      "title": "Air Force officer among those killed in Alaska plane crash",
-      "link": "https://www.militarytimes.com/news/your-military/2026/08/25/air-force-officer-among-those-killed-in-alaska-plane-crash/",
-      "published": "Tue, 25 Aug 2026 17:49:05 +0000",
-      "source": "Military Times",
+      "title": "With UK military secrets, Ukraine could now build SCALP missiles at home - but it will take time",
+      "link": "https://www.defensenews.com/global/europe/2026/08/26/with-uk-military-secrets-ukraine-could-now-build-scalp-missiles-at-home-but-it-will-take-time/",
+      "published": "Wed, 26 Aug 2026 13:14:11 +0000",
+      "source": "Defense News",
+      "categories": [
+        "conflict"
+      ]
+    },
+    {
+      "title": "4 Dead in SOUTHCOM Strike on Go-fast Vessel",
+      "link": "https://news.usni.org/2026/08/26/4-dead-in-southcom-strike-on-go-fast-vessel",
+      "published": "Wed, 26 Aug 2026 16:35:46 +0000",
+      "source": "USNI News",
       "categories": [
         "conflict"
       ]
@@ -906,14 +906,14 @@
     "conflict_articles": 7,
     "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-08-26T18:31:02.793349+00:00",
+    "computed_at": "2026-08-26T21:21:57.922544+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Task & Purpose] Tracking America’s latest conflict: The Iran war timeline",
-      "[USNI News] USNI News Fleet and Marine Tracker: Aug. 24, 2026",
       "[Task & Purpose] Deployed troops reported twice as many assaults last year, led by Poland",
       "[Task & Purpose] National Guard ends eight-month deployment in New Orleans",
-      "[USNI News] SOUTHCOM Strikes First Suspected Drug Boat in Two Months"
+      "[USNI News] SOUTHCOM Strikes First Suspected Drug Boat in Two Months",
+      "[USNI News] Navy Unveils New Anti-Air Missile Malice with a Range of 250 Nautical Miles"
     ]
   },
   "ground_intel": {
@@ -924,7 +924,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-08-26T18:31:02.793383+00:00",
+    "last_successful_update": "2026-08-26T21:21:57.922588+00:00",
     "article_count": 50,
     "categorized_count": 22,
     "freshest_source": "Task & Purpose",
