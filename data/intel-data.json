@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-08-26T14:31:38Z",
-  "version": 2757,
+  "generated_utc": "2026-08-26T16:06:59Z",
+  "version": 2758,
   "breaking_alert": "Task & Purpose: Tracking America’s latest conflict: The Iran war timeline",
   "naval_deployments": [
     {
@@ -630,16 +630,6 @@
       ]
     },
     {
-      "title": "US cancels joint marine drills with South Korea over Iran war-related force constraints",
-      "link": "https://www.defensenews.com/global/asia-pacific/2026/08/24/us-cancels-joint-marine-drills-with-south-korea-over-iran-war-related-force-constraints/",
-      "published": "Mon, 24 Aug 2026 19:05:10 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment",
-        "exercise"
-      ]
-    },
-    {
       "title": "USS Gerald R. Ford Sortie Test Exceeded Nimitz-class Performance, Says CNO Caudle",
       "link": "https://news.usni.org/2026/08/24/uss-gerald-r-ford-sortie-test-exceeded-nimitz-class-performance-says-cno-caudle",
       "published": "Mon, 24 Aug 2026 21:08:25 +0000",
@@ -680,6 +670,15 @@
       "title": "Dutch Navy to equip fleet with Destinus C-UAS interceptor drones",
       "link": "https://www.defensenews.com/global/europe/2026/08/25/dutch-navy-to-equip-fleet-with-destinus-c-uas-interceptor-drones/",
       "published": "Tue, 25 Aug 2026 08:50:44 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "USS Abraham Lincoln to dock in Thailand next week, Thai official says",
+      "link": "https://www.defensenews.com/news/your-navy/2026/08/25/uss-abraham-lincoln-to-dock-in-thailand-next-week-thai-official-says/",
+      "published": "Tue, 25 Aug 2026 15:59:15 +0000",
       "source": "Defense News",
       "categories": [
         "deployment"
@@ -886,16 +885,6 @@
   ],
   "_exercise_news_refs": [
     {
-      "title": "US cancels joint marine drills with South Korea over Iran war-related force constraints",
-      "link": "https://www.defensenews.com/global/asia-pacific/2026/08/24/us-cancels-joint-marine-drills-with-south-korea-over-iran-war-related-force-constraints/",
-      "published": "Mon, 24 Aug 2026 19:05:10 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment",
-        "exercise"
-      ]
-    },
-    {
       "title": "First North Korea-Russia road bridge nearly complete, symbolizing new era of military cooperation",
       "link": "https://www.defensenews.com/global/asia-pacific/2026/08/26/first-north-korea-russia-road-bridge-nearly-complete-symbolizing-new-era-of-military-cooperation/",
       "published": "Wed, 26 Aug 2026 09:03:18 +0000",
@@ -906,11 +895,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 17,
+    "deployment_articles": 16,
     "conflict_articles": 7,
-    "exercise_articles": 2,
+    "exercise_articles": 1,
     "total_articles": 50,
-    "computed_at": "2026-08-26T14:31:28.247301+00:00",
+    "computed_at": "2026-08-26T16:06:58.112410+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Task & Purpose] Tracking America’s latest conflict: The Iran war timeline",
@@ -928,9 +917,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-08-26T14:31:28.247348+00:00",
+    "last_successful_update": "2026-08-26T16:06:58.112454+00:00",
     "article_count": 50,
-    "categorized_count": 24,
+    "categorized_count": 23,
     "freshest_source": "Task & Purpose",
     "freshest_title": "Tracking America’s latest conflict: The Iran war timeline",
     "freshest_published": "Mon, 24 Aug 2026 13:51:11 -0400"
