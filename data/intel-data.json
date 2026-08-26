@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-08-26T16:06:59Z",
-  "version": 2758,
+  "generated_utc": "2026-08-26T18:31:06Z",
+  "version": 2759,
   "breaking_alert": "Task & Purpose: Tracking America’s latest conflict: The Iran war timeline",
   "naval_deployments": [
     {
@@ -639,25 +639,6 @@
       ]
     },
     {
-      "title": "2 Mariners Killed in Strait of Hormuz as Transits See Small Increase",
-      "link": "https://news.usni.org/2026/08/21/2-mariners-killed-in-strait-of-hormuz-as-transits-see-small-increase",
-      "published": "Sat, 22 Aug 2026 01:13:56 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
-      "title": "USS Abraham Lincoln Leaves the Middle East After Almost 7 Months",
-      "link": "https://news.usni.org/2026/08/22/uss-abraham-lincoln-leaves-the-middle-east-after-almost-7-months",
-      "published": "Sat, 22 Aug 2026 12:30:27 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Destinus to Develop Hornet B2 Naval C-UAS for Royal Netherlands Navy",
       "link": "https://www.navalnews.com/naval-news/2026/08/destinus-hornet-b2-naval-cuas-netherlands-navy/",
       "published": "Tue, 25 Aug 2026 08:10:49 +0000",
@@ -667,19 +648,37 @@
       ]
     },
     {
-      "title": "Dutch Navy to equip fleet with Destinus C-UAS interceptor drones",
-      "link": "https://www.defensenews.com/global/europe/2026/08/25/dutch-navy-to-equip-fleet-with-destinus-c-uas-interceptor-drones/",
-      "published": "Tue, 25 Aug 2026 08:50:44 +0000",
+      "title": "USS Abraham Lincoln to dock in Thailand next week, Thai official says",
+      "link": "https://www.defensenews.com/news/your-navy/2026/08/25/uss-abraham-lincoln-to-dock-in-thailand-next-week-thai-official-says/",
+      "published": "Tue, 25 Aug 2026 15:59:15 +0000",
       "source": "Defense News",
       "categories": [
         "deployment"
       ]
     },
     {
-      "title": "USS Abraham Lincoln to dock in Thailand next week, Thai official says",
-      "link": "https://www.defensenews.com/news/your-navy/2026/08/25/uss-abraham-lincoln-to-dock-in-thailand-next-week-thai-official-says/",
-      "published": "Tue, 25 Aug 2026 15:59:15 +0000",
+      "title": "US Navy’s new anti-submarine torpedo will be a glide weapon",
+      "link": "https://www.defensenews.com/industry/techwatch/2026/08/25/us-navys-new-anti-submarine-torpedo-will-be-a-glide-weapon/",
+      "published": "Tue, 25 Aug 2026 19:30:37 +0000",
       "source": "Defense News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "US Navy’s new anti-submarine torpedo will be a glide weapon",
+      "link": "https://www.militarytimes.com/industry/techwatch/2026/08/25/us-navys-new-anti-submarine-torpedo-will-be-a-glide-weapon/",
+      "published": "Tue, 25 Aug 2026 19:30:37 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "USS Abraham Lincoln Deployment on Track to be 2nd Longest Since Vietnam War",
+      "link": "https://news.usni.org/2026/08/25/uss-abraham-lincoln-deployment-on-track-to-be-2nd-longest-since-vietnam-war",
+      "published": "Tue, 25 Aug 2026 20:55:45 +0000",
+      "source": "USNI News",
       "categories": [
         "deployment"
       ]
@@ -855,16 +854,6 @@
       ]
     },
     {
-      "title": "2 Mariners Killed in Strait of Hormuz as Transits See Small Increase",
-      "link": "https://news.usni.org/2026/08/21/2-mariners-killed-in-strait-of-hormuz-as-transits-see-small-increase",
-      "published": "Sat, 22 Aug 2026 01:13:56 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
       "title": "Ukraine’s newest ballistic missiles are weeks away from combat",
       "link": "https://www.defensenews.com/global/europe/2026/08/25/ukraines-newest-ballistic-missiles-are-weeks-away-from-combat/",
       "published": "Tue, 25 Aug 2026 13:40:27 +0000",
@@ -881,6 +870,15 @@
       "categories": [
         "conflict"
       ]
+    },
+    {
+      "title": "Air Force officer among those killed in Alaska plane crash",
+      "link": "https://www.militarytimes.com/news/your-military/2026/08/25/air-force-officer-among-those-killed-in-alaska-plane-crash/",
+      "published": "Tue, 25 Aug 2026 17:49:05 +0000",
+      "source": "Military Times",
+      "categories": [
+        "conflict"
+      ]
     }
   ],
   "_exercise_news_refs": [
@@ -892,14 +890,23 @@
       "categories": [
         "exercise"
       ]
+    },
+    {
+      "title": "U.S., Allies Kick Off Drills at Strategic Norwegian Island",
+      "link": "https://news.usni.org/2026/08/26/u-s-allies-kick-off-drills-at-strategic-norwegian-island",
+      "published": "Wed, 26 Aug 2026 17:38:57 +0000",
+      "source": "USNI News",
+      "categories": [
+        "exercise"
+      ]
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 16,
+    "deployment_articles": 13,
     "conflict_articles": 7,
-    "exercise_articles": 1,
+    "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-08-26T16:06:58.112410+00:00",
+    "computed_at": "2026-08-26T18:31:02.793349+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Task & Purpose] Tracking America’s latest conflict: The Iran war timeline",
@@ -917,9 +924,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-08-26T16:06:58.112454+00:00",
+    "last_successful_update": "2026-08-26T18:31:02.793383+00:00",
     "article_count": 50,
-    "categorized_count": 23,
+    "categorized_count": 22,
     "freshest_source": "Task & Purpose",
     "freshest_title": "Tracking America’s latest conflict: The Iran war timeline",
     "freshest_published": "Mon, 24 Aug 2026 13:51:11 -0400"
