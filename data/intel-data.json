@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-08-26T12:22:06Z",
-  "version": 2755,
+  "generated_utc": "2026-08-26T13:42:51Z",
+  "version": 2756,
   "breaking_alert": "Task & Purpose: Tracking America’s latest conflict: The Iran war timeline",
   "naval_deployments": [
     {
@@ -838,15 +838,6 @@
   },
   "_conflict_news_refs": [
     {
-      "title": "Italy eyes US tech for souping up dumb missiles into drone interceptors",
-      "link": "https://www.defensenews.com/global/europe/2026/08/24/italy-eyes-us-tech-for-souping-up-dumb-missiles-into-drone-interceptors/",
-      "published": "Mon, 24 Aug 2026 16:12:51 +0000",
-      "source": "Defense News",
-      "categories": [
-        "conflict"
-      ]
-    },
-    {
       "title": "SOUTHCOM Strikes First Suspected Drug Boat in Two Months",
       "link": "https://news.usni.org/2026/08/24/southcom-strikes-first-suspected-drug-boat-in-two-months",
       "published": "Mon, 24 Aug 2026 17:37:35 +0000",
@@ -882,6 +873,15 @@
       "categories": [
         "conflict"
       ]
+    },
+    {
+      "title": "Air Force officer killed in remote Alaska crash was a ‘positive leader’",
+      "link": "https://taskandpurpose.com/news/air-force-officer-crash/",
+      "published": "Tue, 25 Aug 2026 14:44:39 -0400",
+      "source": "Task & Purpose",
+      "categories": [
+        "conflict"
+      ]
     }
   ],
   "_exercise_news_refs": [
@@ -910,14 +910,14 @@
     "conflict_articles": 7,
     "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-08-26T12:21:59.690575+00:00",
+    "computed_at": "2026-08-26T13:42:41.369664+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Task & Purpose] Tracking America’s latest conflict: The Iran war timeline",
       "[USNI News] USNI News Fleet and Marine Tracker: Aug. 24, 2026",
       "[Task & Purpose] Deployed troops reported twice as many assaults last year, led by Poland",
-      "[Defense News] Italy eyes US tech for souping up dumb missiles into drone interceptors",
-      "[Task & Purpose] National Guard ends eight-month deployment in New Orleans"
+      "[Task & Purpose] National Guard ends eight-month deployment in New Orleans",
+      "[USNI News] SOUTHCOM Strikes First Suspected Drug Boat in Two Months"
     ]
   },
   "ground_intel": {
@@ -928,7 +928,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-08-26T12:21:59.690624+00:00",
+    "last_successful_update": "2026-08-26T13:42:41.369702+00:00",
     "article_count": 50,
     "categorized_count": 24,
     "freshest_source": "Task & Purpose",
