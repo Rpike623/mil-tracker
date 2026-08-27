@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-08-27T13:11:32Z",
-  "version": 2762,
-  "breaking_alert": "Task & Purpose: Tracking America’s latest conflict: The Iran war timeline",
+  "generated_utc": "2026-08-27T23:16:27Z",
+  "version": 2763,
+  "breaking_alert": "Task & Purpose: National Guard ends eight-month deployment in New Orleans",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -594,24 +594,6 @@
   ],
   "_naval_news_refs": [
     {
-      "title": "Tracking America’s latest conflict: The Iran war timeline",
-      "link": "https://taskandpurpose.com/news/iran-war-timeline/",
-      "published": "Mon, 24 Aug 2026 13:51:11 -0400",
-      "source": "Task & Purpose",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Deployed troops reported twice as many assaults last year, led by Poland",
-      "link": "https://taskandpurpose.com/news/pentagon-assault-report-2025/",
-      "published": "Mon, 24 Aug 2026 15:53:28 -0400",
-      "source": "Task & Purpose",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "National Guard ends eight-month deployment in New Orleans",
       "link": "https://taskandpurpose.com/news/national-guard-new-orleans-deployment-ends/",
       "published": "Mon, 24 Aug 2026 16:19:19 -0400",
@@ -621,12 +603,23 @@
       ]
     },
     {
-      "title": "USS Gerald R. Ford Sortie Test Exceeded Nimitz-class Performance, Says CNO Caudle",
-      "link": "https://news.usni.org/2026/08/24/uss-gerald-r-ford-sortie-test-exceeded-nimitz-class-performance-says-cno-caudle",
-      "published": "Mon, 24 Aug 2026 21:08:25 +0000",
-      "source": "USNI News",
+      "title": "15,000 operational days lost due to US submarine maintenance delays, GAO finds",
+      "link": "https://www.defensenews.com/industry/techwatch/2026/08/27/15000-operational-days-lost-in-10-years-due-to-us-submarine-maintenance-delays-gao/",
+      "published": "Thu, 27 Aug 2026 19:46:27 +0000",
+      "source": "Defense News",
       "categories": [
-        "deployment"
+        "deployment",
+        "exercise"
+      ]
+    },
+    {
+      "title": "15,000 operational days lost due to US submarine maintenance delays, GAO finds",
+      "link": "https://www.militarytimes.com/industry/techwatch/2026/08/27/15000-operational-days-lost-in-10-years-due-to-us-submarine-maintenance-delays-gao/",
+      "published": "Thu, 27 Aug 2026 19:46:27 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment",
+        "exercise"
       ]
     },
     {
@@ -657,15 +650,6 @@
       ]
     },
     {
-      "title": "Active-duty Air Force officer who called for Trump impeachment faces three charges",
-      "link": "https://www.militarytimes.com/news/your-military/2026/08/25/active-duty-air-force-officer-who-called-for-trump-impeachment-faces-three-charges/",
-      "published": "Tue, 25 Aug 2026 21:40:33 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Liberator: Understanding the U.S. Navy’s New Seabed Carrier Killer",
       "link": "https://www.navalnews.com/naval-news/2026/08/liberator-understanding-the-u-s-navys-covert-seabed-ship-killer/",
       "published": "Wed, 26 Aug 2026 09:58:00 +0000",
@@ -679,6 +663,15 @@
       "link": "https://www.defensenews.com/news/your-military/2026/08/26/us-navy-eyes-port-stops-in-africa-india-after-uss-abraham-lincolns-marathon-deployment/",
       "published": "Wed, 26 Aug 2026 21:08:19 +0000",
       "source": "Defense News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Navy Planning for Extended Carrier Deployments as Iran Conflict Continues, CNO, MCPON Say",
+      "link": "https://news.usni.org/2026/08/26/navy-planning-for-extended-carrier-deployments-as-iran-conflict-continues-cno-mcpon-say",
+      "published": "Wed, 26 Aug 2026 21:36:38 +0000",
+      "source": "USNI News",
       "categories": [
         "deployment"
       ]
@@ -836,10 +829,28 @@
   },
   "_conflict_news_refs": [
     {
-      "title": "Navy Unveils New Anti-Air Missile Malice with a Range of 250 Nautical Miles",
-      "link": "https://news.usni.org/2026/08/24/navy-unveils-new-anti-air-missile-malice-with-a-range-of-250-nautical-miles",
-      "published": "Mon, 24 Aug 2026 17:54:47 +0000",
-      "source": "USNI News",
+      "title": "Pentagon upgrades awards for 3 Marines at Abbey Gate attack",
+      "link": "https://www.militarytimes.com/news/your-military/2026/08/27/pentagon-upgrades-awards-for-3-marines-at-abbey-gate-attack/",
+      "published": "Thu, 27 Aug 2026 15:55:45 +0000",
+      "source": "Military Times",
+      "categories": [
+        "conflict"
+      ]
+    },
+    {
+      "title": "Pentagon awards contract in race to field cheaper interceptors, missiles",
+      "link": "https://www.defensenews.com/pentagon/2026/08/27/pentagon-awards-contract-in-race-to-field-cheaper-interceptors-missiles/",
+      "published": "Thu, 27 Aug 2026 20:58:09 +0000",
+      "source": "Defense News",
+      "categories": [
+        "conflict"
+      ]
+    },
+    {
+      "title": "Pentagon awards contract in race to field cheaper interceptors, missiles",
+      "link": "https://www.militarytimes.com/pentagon/2026/08/27/pentagon-awards-contract-in-race-to-field-cheaper-interceptors-missiles/",
+      "published": "Thu, 27 Aug 2026 20:58:09 +0000",
+      "source": "Military Times",
       "categories": [
         "conflict"
       ]
@@ -854,15 +865,6 @@
       ]
     },
     {
-      "title": "With UK military secrets, Ukraine could now build SCALP missiles at home - but it will take time",
-      "link": "https://www.defensenews.com/global/europe/2026/08/26/with-uk-military-secrets-ukraine-could-now-build-scalp-missiles-at-home-but-it-will-take-time/",
-      "published": "Wed, 26 Aug 2026 13:14:11 +0000",
-      "source": "Defense News",
-      "categories": [
-        "conflict"
-      ]
-    },
-    {
       "title": "4 Dead in SOUTHCOM Strike on Go-fast Vessel",
       "link": "https://news.usni.org/2026/08/26/4-dead-in-southcom-strike-on-go-fast-vessel",
       "published": "Wed, 26 Aug 2026 16:35:46 +0000",
@@ -870,24 +872,44 @@
       "categories": [
         "conflict"
       ]
-    },
-    {
-      "title": "US Army seeks 8,000 new short-range missiles per year",
-      "link": "https://www.defensenews.com/news/your-army/2026/08/26/us-army-seeks-8000-new-short-range-missiles-per-year/",
-      "published": "Wed, 26 Aug 2026 18:51:30 +0000",
-      "source": "Defense News",
-      "categories": [
-        "conflict"
-      ]
     }
   ],
   "_exercise_news_refs": [
     {
-      "title": "First North Korea-Russia road bridge nearly complete, symbolizing new era of military cooperation",
-      "link": "https://www.defensenews.com/global/asia-pacific/2026/08/26/first-north-korea-russia-road-bridge-nearly-complete-symbolizing-new-era-of-military-cooperation/",
-      "published": "Wed, 26 Aug 2026 09:03:18 +0000",
+      "title": "Pentagon’s NATO review preparing troop options for Hegseth by November 6",
+      "link": "https://www.defensenews.com/news/pentagon-congress/2026/08/27/pentagons-nato-review-preparing-troop-options-for-hegseth-by-november-6/",
+      "published": "Thu, 27 Aug 2026 15:14:31 +0000",
       "source": "Defense News",
       "categories": [
+        "exercise"
+      ]
+    },
+    {
+      "title": "Pentagon’s NATO review preparing troop options for Hegseth by November 6",
+      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/08/27/pentagons-nato-review-preparing-troop-options-for-hegseth-by-november-6/",
+      "published": "Thu, 27 Aug 2026 15:14:31 +0000",
+      "source": "Military Times",
+      "categories": [
+        "exercise"
+      ]
+    },
+    {
+      "title": "15,000 operational days lost due to US submarine maintenance delays, GAO finds",
+      "link": "https://www.defensenews.com/industry/techwatch/2026/08/27/15000-operational-days-lost-in-10-years-due-to-us-submarine-maintenance-delays-gao/",
+      "published": "Thu, 27 Aug 2026 19:46:27 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment",
+        "exercise"
+      ]
+    },
+    {
+      "title": "15,000 operational days lost due to US submarine maintenance delays, GAO finds",
+      "link": "https://www.militarytimes.com/industry/techwatch/2026/08/27/15000-operational-days-lost-in-10-years-due-to-us-submarine-maintenance-delays-gao/",
+      "published": "Thu, 27 Aug 2026 19:46:27 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment",
         "exercise"
       ]
     },
@@ -899,30 +921,21 @@
       "categories": [
         "exercise"
       ]
-    },
-    {
-      "title": "Lawmakers demand VA bring back LGBTQ+ care coordinators",
-      "link": "https://www.militarytimes.com/veterans/2026/08/26/lawmakers-demand-va-bring-back-lgbtq-care-coordinators/",
-      "published": "Wed, 26 Aug 2026 21:33:21 +0000",
-      "source": "Military Times",
-      "categories": [
-        "exercise"
-      ]
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 12,
+    "deployment_articles": 9,
     "conflict_articles": 6,
-    "exercise_articles": 3,
+    "exercise_articles": 5,
     "total_articles": 50,
-    "computed_at": "2026-08-27T13:11:30.185025+00:00",
+    "computed_at": "2026-08-27T23:16:25.695366+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
-      "[Task & Purpose] Tracking America’s latest conflict: The Iran war timeline",
-      "[Task & Purpose] Deployed troops reported twice as many assaults last year, led by Poland",
       "[Task & Purpose] National Guard ends eight-month deployment in New Orleans",
-      "[USNI News] Navy Unveils New Anti-Air Missile Malice with a Range of 250 Nautical Miles",
-      "[USNI News] USS Gerald R. Ford Sortie Test Exceeded Nimitz-class Performance, Says CNO Caudle"
+      "[Defense News] Pentagon’s NATO review preparing troop options for Hegseth by November 6",
+      "[Military Times] Pentagon’s NATO review preparing troop options for Hegseth by November 6",
+      "[Military Times] Pentagon upgrades awards for 3 Marines at Abbey Gate attack",
+      "[Defense News] 15,000 operational days lost due to US submarine maintenance delays, GAO finds"
     ]
   },
   "ground_intel": {
@@ -933,12 +946,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-08-27T13:11:30.185071+00:00",
+    "last_successful_update": "2026-08-27T23:16:25.695415+00:00",
     "article_count": 50,
-    "categorized_count": 21,
+    "categorized_count": 18,
     "freshest_source": "Task & Purpose",
-    "freshest_title": "Tracking America’s latest conflict: The Iran war timeline",
-    "freshest_published": "Mon, 24 Aug 2026 13:51:11 -0400"
+    "freshest_title": "National Guard ends eight-month deployment in New Orleans",
+    "freshest_published": "Mon, 24 Aug 2026 16:19:19 -0400"
   },
   "_firms_hotspots": []
 }
