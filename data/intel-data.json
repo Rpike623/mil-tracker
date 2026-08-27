@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-08-27T02:18:21Z",
-  "version": 2761,
+  "generated_utc": "2026-08-27T13:11:32Z",
+  "version": 2762,
   "breaking_alert": "Task & Purpose: Tracking America’s latest conflict: The Iran war timeline",
   "naval_deployments": [
     {
@@ -639,24 +639,6 @@
       ]
     },
     {
-      "title": "USS Abraham Lincoln to dock in Thailand next week, Thai official says",
-      "link": "https://www.defensenews.com/news/your-navy/2026/08/25/uss-abraham-lincoln-to-dock-in-thailand-next-week-thai-official-says/",
-      "published": "Tue, 25 Aug 2026 15:59:15 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "US Navy’s new anti-submarine torpedo will be a glide weapon",
-      "link": "https://www.defensenews.com/industry/techwatch/2026/08/25/us-navys-new-anti-submarine-torpedo-will-be-a-glide-weapon/",
-      "published": "Tue, 25 Aug 2026 19:30:37 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "USS Abraham Lincoln Deployment on Track to be 2nd Longest Since Vietnam War",
       "link": "https://news.usni.org/2026/08/25/uss-abraham-lincoln-deployment-on-track-to-be-2nd-longest-since-vietnam-war",
       "published": "Tue, 25 Aug 2026 20:55:45 +0000",
@@ -679,6 +661,24 @@
       "link": "https://www.militarytimes.com/news/your-military/2026/08/25/active-duty-air-force-officer-who-called-for-trump-impeachment-faces-three-charges/",
       "published": "Tue, 25 Aug 2026 21:40:33 +0000",
       "source": "Military Times",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Liberator: Understanding the U.S. Navy’s New Seabed Carrier Killer",
+      "link": "https://www.navalnews.com/naval-news/2026/08/liberator-understanding-the-u-s-navys-covert-seabed-ship-killer/",
+      "published": "Wed, 26 Aug 2026 09:58:00 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "US Navy eyes port stops in Africa, India after USS Abraham Lincoln’s marathon deployment",
+      "link": "https://www.defensenews.com/news/your-military/2026/08/26/us-navy-eyes-port-stops-in-africa-india-after-uss-abraham-lincolns-marathon-deployment/",
+      "published": "Wed, 26 Aug 2026 21:08:19 +0000",
+      "source": "Defense News",
       "categories": [
         "deployment"
       ]
@@ -911,11 +911,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 14,
+    "deployment_articles": 12,
     "conflict_articles": 6,
     "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-08-27T02:18:19.739639+00:00",
+    "computed_at": "2026-08-27T13:11:30.185025+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Task & Purpose] Tracking America’s latest conflict: The Iran war timeline",
@@ -933,9 +933,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-08-27T02:18:19.739683+00:00",
+    "last_successful_update": "2026-08-27T13:11:30.185071+00:00",
     "article_count": 50,
-    "categorized_count": 23,
+    "categorized_count": 21,
     "freshest_source": "Task & Purpose",
     "freshest_title": "Tracking America’s latest conflict: The Iran war timeline",
     "freshest_published": "Mon, 24 Aug 2026 13:51:11 -0400"
