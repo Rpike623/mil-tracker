@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-08-28T07:14:58Z",
-  "version": 2764,
-  "breaking_alert": "Task & Purpose: National Guard ends eight-month deployment in New Orleans",
+  "generated_utc": "2026-08-28T19:44:14Z",
+  "version": 2765,
+  "breaking_alert": "Task & Purpose: USS Abraham Lincoln sailor could be disciplined for jumping overboard",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -594,10 +594,28 @@
   ],
   "_naval_news_refs": [
     {
-      "title": "National Guard ends eight-month deployment in New Orleans",
-      "link": "https://taskandpurpose.com/news/national-guard-new-orleans-deployment-ends/",
-      "published": "Mon, 24 Aug 2026 16:19:19 -0400",
+      "title": "USS Abraham Lincoln sailor could be disciplined for jumping overboard",
+      "link": "https://taskandpurpose.com/news/navy-abraham-lincoln-overboard/",
+      "published": "Fri, 28 Aug 2026 10:48:12 -0400",
       "source": "Task & Purpose",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "U.S. Navy Wants New Standoff Aerial Torpedo for Carrier Aircraft",
+      "link": "https://news.usni.org/2026/08/28/u-s-navy-wants-new-standoff-aerial-torpedo-for-carrier-aircraft",
+      "published": "Fri, 28 Aug 2026 15:55:59 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Record-long deployments add new layer to sailors’ reenlistment decisions",
+      "link": "https://www.militarytimes.com/news/your-military/2026/08/28/record-long-deployments-add-new-layer-to-sailors-reenlistment-decisions/",
+      "published": "Fri, 28 Aug 2026 17:08:35 +0000",
+      "source": "Military Times",
       "categories": [
         "deployment"
       ]
@@ -610,34 +628,6 @@
       "categories": [
         "deployment",
         "exercise"
-      ]
-    },
-    {
-      "title": "15,000 operational days lost due to US submarine maintenance delays, GAO finds",
-      "link": "https://www.militarytimes.com/industry/techwatch/2026/08/27/15000-operational-days-lost-in-10-years-due-to-us-submarine-maintenance-delays-gao/",
-      "published": "Thu, 27 Aug 2026 19:46:27 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment",
-        "exercise"
-      ]
-    },
-    {
-      "title": "Destinus to Develop Hornet B2 Naval C-UAS for Royal Netherlands Navy",
-      "link": "https://www.navalnews.com/naval-news/2026/08/destinus-hornet-b2-naval-cuas-netherlands-navy/",
-      "published": "Tue, 25 Aug 2026 08:10:49 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "USS Abraham Lincoln Deployment on Track to be 2nd Longest Since Vietnam War",
-      "link": "https://news.usni.org/2026/08/25/uss-abraham-lincoln-deployment-on-track-to-be-2nd-longest-since-vietnam-war",
-      "published": "Tue, 25 Aug 2026 20:55:45 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment"
       ]
     },
     {
@@ -654,15 +644,6 @@
       "link": "https://www.navalnews.com/naval-news/2026/08/liberator-understanding-the-u-s-navys-covert-seabed-ship-killer/",
       "published": "Wed, 26 Aug 2026 09:58:00 +0000",
       "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "US Navy eyes port stops in Africa, India after USS Abraham Lincoln’s marathon deployment",
-      "link": "https://www.defensenews.com/news/your-military/2026/08/26/us-navy-eyes-port-stops-in-africa-india-after-uss-abraham-lincolns-marathon-deployment/",
-      "published": "Wed, 26 Aug 2026 21:08:19 +0000",
-      "source": "Defense News",
       "categories": [
         "deployment"
       ]
@@ -829,10 +810,10 @@
   },
   "_conflict_news_refs": [
     {
-      "title": "Pentagon upgrades awards for 3 Marines at Abbey Gate attack",
-      "link": "https://www.militarytimes.com/news/your-military/2026/08/27/pentagon-upgrades-awards-for-3-marines-at-abbey-gate-attack/",
-      "published": "Thu, 27 Aug 2026 15:55:45 +0000",
-      "source": "Military Times",
+      "title": "India turns to private sector to ramp up missile production",
+      "link": "https://www.defensenews.com/global/asia-pacific/2026/08/28/india-turns-to-private-sector-to-ramp-up-missile-production/",
+      "published": "Fri, 28 Aug 2026 14:14:15 +0000",
+      "source": "Defense News",
       "categories": [
         "conflict"
       ]
@@ -842,15 +823,6 @@
       "link": "https://www.defensenews.com/pentagon/2026/08/27/pentagon-awards-contract-in-race-to-field-cheaper-interceptors-missiles/",
       "published": "Thu, 27 Aug 2026 20:58:09 +0000",
       "source": "Defense News",
-      "categories": [
-        "conflict"
-      ]
-    },
-    {
-      "title": "Pentagon awards contract in race to field cheaper interceptors, missiles",
-      "link": "https://www.militarytimes.com/pentagon/2026/08/27/pentagon-awards-contract-in-race-to-field-cheaper-interceptors-missiles/",
-      "published": "Thu, 27 Aug 2026 20:58:09 +0000",
-      "source": "Military Times",
       "categories": [
         "conflict"
       ]
@@ -885,29 +857,10 @@
       ]
     },
     {
-      "title": "Pentagon’s NATO review preparing troop options for Hegseth by November 6",
-      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/08/27/pentagons-nato-review-preparing-troop-options-for-hegseth-by-november-6/",
-      "published": "Thu, 27 Aug 2026 15:14:31 +0000",
-      "source": "Military Times",
-      "categories": [
-        "exercise"
-      ]
-    },
-    {
       "title": "15,000 operational days lost due to US submarine maintenance delays, GAO finds",
       "link": "https://www.defensenews.com/industry/techwatch/2026/08/27/15000-operational-days-lost-in-10-years-due-to-us-submarine-maintenance-delays-gao/",
       "published": "Thu, 27 Aug 2026 19:46:27 +0000",
       "source": "Defense News",
-      "categories": [
-        "deployment",
-        "exercise"
-      ]
-    },
-    {
-      "title": "15,000 operational days lost due to US submarine maintenance delays, GAO finds",
-      "link": "https://www.militarytimes.com/industry/techwatch/2026/08/27/15000-operational-days-lost-in-10-years-due-to-us-submarine-maintenance-delays-gao/",
-      "published": "Thu, 27 Aug 2026 19:46:27 +0000",
-      "source": "Military Times",
       "categories": [
         "deployment",
         "exercise"
@@ -924,18 +877,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 9,
-    "conflict_articles": 6,
-    "exercise_articles": 5,
+    "deployment_articles": 7,
+    "conflict_articles": 4,
+    "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-08-28T07:14:55.189520+00:00",
+    "computed_at": "2026-08-28T19:39:33.811661+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
-      "[Task & Purpose] National Guard ends eight-month deployment in New Orleans",
-      "[Defense News] Pentagon’s NATO review preparing troop options for Hegseth by November 6",
-      "[Military Times] Pentagon’s NATO review preparing troop options for Hegseth by November 6",
-      "[Military Times] Pentagon upgrades awards for 3 Marines at Abbey Gate attack",
-      "[Defense News] 15,000 operational days lost due to US submarine maintenance delays, GAO finds"
+      "[Task & Purpose] USS Abraham Lincoln sailor could be disciplined for jumping overboard",
+      "[Defense News] India turns to private sector to ramp up missile production",
+      "[USNI News] U.S. Navy Wants New Standoff Aerial Torpedo for Carrier Aircraft",
+      "[Military Times] Record-long deployments add new layer to sailors’ reenlistment decisions",
+      "[Defense News] Pentagon’s NATO review preparing troop options for Hegseth by November 6"
     ]
   },
   "ground_intel": {
@@ -946,12 +899,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-08-28T07:14:55.189560+00:00",
+    "last_successful_update": "2026-08-28T19:39:33.811705+00:00",
     "article_count": 50,
-    "categorized_count": 18,
+    "categorized_count": 13,
     "freshest_source": "Task & Purpose",
-    "freshest_title": "National Guard ends eight-month deployment in New Orleans",
-    "freshest_published": "Mon, 24 Aug 2026 16:19:19 -0400"
+    "freshest_title": "USS Abraham Lincoln sailor could be disciplined for jumping overboard",
+    "freshest_published": "Fri, 28 Aug 2026 10:48:12 -0400"
   },
   "_firms_hotspots": []
 }
