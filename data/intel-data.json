@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-08-28T19:44:14Z",
-  "version": 2765,
+  "generated_utc": "2026-08-29T02:29:59Z",
+  "version": 2766,
   "breaking_alert": "Task & Purpose: USS Abraham Lincoln sailor could be disciplined for jumping overboard",
   "naval_deployments": [
     {
@@ -621,6 +621,15 @@
       ]
     },
     {
+      "title": "Strait of Hormuz Tanker Transits Up But Still Below Pre–War Levels",
+      "link": "https://news.usni.org/2026/08/28/strait-of-hormuz-tanker-transits-up-but-still-below-pre-war-levels",
+      "published": "Fri, 28 Aug 2026 21:20:26 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "15,000 operational days lost due to US submarine maintenance delays, GAO finds",
       "link": "https://www.defensenews.com/industry/techwatch/2026/08/27/15000-operational-days-lost-in-10-years-due-to-us-submarine-maintenance-delays-gao/",
       "published": "Thu, 27 Aug 2026 19:46:27 +0000",
@@ -826,24 +835,6 @@
       "categories": [
         "conflict"
       ]
-    },
-    {
-      "title": "Air Force officer killed in remote Alaska crash was a ‘positive leader’",
-      "link": "https://taskandpurpose.com/news/air-force-officer-crash/",
-      "published": "Tue, 25 Aug 2026 14:44:39 -0400",
-      "source": "Task & Purpose",
-      "categories": [
-        "conflict"
-      ]
-    },
-    {
-      "title": "4 Dead in SOUTHCOM Strike on Go-fast Vessel",
-      "link": "https://news.usni.org/2026/08/26/4-dead-in-southcom-strike-on-go-fast-vessel",
-      "published": "Wed, 26 Aug 2026 16:35:46 +0000",
-      "source": "USNI News",
-      "categories": [
-        "conflict"
-      ]
     }
   ],
   "_exercise_news_refs": [
@@ -877,18 +868,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 7,
-    "conflict_articles": 4,
+    "deployment_articles": 8,
+    "conflict_articles": 2,
     "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-08-28T19:39:33.811661+00:00",
+    "computed_at": "2026-08-29T02:29:56.884923+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Task & Purpose] USS Abraham Lincoln sailor could be disciplined for jumping overboard",
       "[Defense News] India turns to private sector to ramp up missile production",
       "[USNI News] U.S. Navy Wants New Standoff Aerial Torpedo for Carrier Aircraft",
       "[Military Times] Record-long deployments add new layer to sailors’ reenlistment decisions",
-      "[Defense News] Pentagon’s NATO review preparing troop options for Hegseth by November 6"
+      "[USNI News] Strait of Hormuz Tanker Transits Up But Still Below Pre–War Levels"
     ]
   },
   "ground_intel": {
@@ -899,9 +890,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-08-28T19:39:33.811705+00:00",
+    "last_successful_update": "2026-08-29T02:29:56.884970+00:00",
     "article_count": 50,
-    "categorized_count": 13,
+    "categorized_count": 12,
     "freshest_source": "Task & Purpose",
     "freshest_title": "USS Abraham Lincoln sailor could be disciplined for jumping overboard",
     "freshest_published": "Fri, 28 Aug 2026 10:48:12 -0400"
