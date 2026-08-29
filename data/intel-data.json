@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-08-29T17:56:53Z",
-  "version": 2769,
+  "generated_utc": "2026-08-29T20:12:23Z",
+  "version": 2770,
   "breaking_alert": "Task & Purpose: USS Abraham Lincoln sailor could be disciplined for jumping overboard",
   "naval_deployments": [
     {
@@ -640,6 +640,15 @@
       ]
     },
     {
+      "title": "Navy has cleared mines from the Strait of Hormuz, CENTCOM says",
+      "link": "https://taskandpurpose.com/news/navy-clears-mines-strait-of-hormuz-centcom/",
+      "published": "Sat, 29 Aug 2026 15:54:17 -0400",
+      "source": "Task & Purpose",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "15,000 operational days lost due to US submarine maintenance delays, GAO finds",
       "link": "https://www.defensenews.com/industry/techwatch/2026/08/27/15000-operational-days-lost-in-10-years-due-to-us-submarine-maintenance-delays-gao/",
       "published": "Thu, 27 Aug 2026 19:46:27 +0000",
@@ -888,11 +897,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 9,
+    "deployment_articles": 10,
     "conflict_articles": 3,
     "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-08-29T17:56:48.277604+00:00",
+    "computed_at": "2026-08-29T20:12:12.996598+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Task & Purpose] USS Abraham Lincoln sailor could be disciplined for jumping overboard",
@@ -910,9 +919,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-08-29T17:56:48.277642+00:00",
+    "last_successful_update": "2026-08-29T20:12:12.996638+00:00",
     "article_count": 50,
-    "categorized_count": 13,
+    "categorized_count": 14,
     "freshest_source": "Task & Purpose",
     "freshest_title": "USS Abraham Lincoln sailor could be disciplined for jumping overboard",
     "freshest_published": "Fri, 28 Aug 2026 10:48:12 -0400"
