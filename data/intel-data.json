@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-08-30T15:37:34Z",
-  "version": 2775,
+  "generated_utc": "2026-08-30T18:51:54Z",
+  "version": 2776,
   "breaking_alert": "Task & Purpose: USS Abraham Lincoln sailor could be disciplined for jumping overboard",
   "naval_deployments": [
     {
@@ -901,7 +901,7 @@
     "conflict_articles": 3,
     "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-08-30T15:32:54.007875+00:00",
+    "computed_at": "2026-08-30T18:51:53.171824+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Task & Purpose] USS Abraham Lincoln sailor could be disciplined for jumping overboard",
@@ -919,7 +919,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-08-30T15:32:54.007907+00:00",
+    "last_successful_update": "2026-08-30T18:51:53.171877+00:00",
     "article_count": 50,
     "categorized_count": 15,
     "freshest_source": "Task & Purpose",
