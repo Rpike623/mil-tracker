@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-08-30T21:41:05Z",
-  "version": 2777,
+  "generated_utc": "2026-08-30T23:58:17Z",
+  "version": 2778,
   "breaking_alert": "Task & Purpose: USS Abraham Lincoln sailor could be disciplined for jumping overboard",
   "naval_deployments": [
     {
@@ -667,6 +667,15 @@
       ]
     },
     {
+      "title": "USS Abraham Lincoln Passes Through Singapore Strait En route to Thailand",
+      "link": "https://news.usni.org/2026/08/30/uss-abraham-lincoln-passes-through-singapore-strait-en-route-to-thailand",
+      "published": "Sun, 30 Aug 2026 23:12:37 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "15,000 operational days lost due to US submarine maintenance delays, GAO finds",
       "link": "https://www.defensenews.com/industry/techwatch/2026/08/27/15000-operational-days-lost-in-10-years-due-to-us-submarine-maintenance-delays-gao/",
       "published": "Thu, 27 Aug 2026 19:46:27 +0000",
@@ -674,15 +683,6 @@
       "categories": [
         "deployment",
         "exercise"
-      ]
-    },
-    {
-      "title": "Ocius Selects ThayerMahan and Thales Australia Thin-line Arrays for Bluebottle Fleets",
-      "link": "https://www.navalnews.com/naval-news/2026/08/ocius-selects-thayermahan-and-thales-australia-thin-line-arrays-for-bluebottle-fleets/",
-      "published": "Tue, 25 Aug 2026 21:05:00 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment"
       ]
     }
   ],
@@ -885,23 +885,14 @@
         "deployment",
         "exercise"
       ]
-    },
-    {
-      "title": "U.S., Allies Kick Off Drills at Strategic Norwegian Island",
-      "link": "https://news.usni.org/2026/08/26/u-s-allies-kick-off-drills-at-strategic-norwegian-island",
-      "published": "Wed, 26 Aug 2026 17:38:57 +0000",
-      "source": "USNI News",
-      "categories": [
-        "exercise"
-      ]
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 12,
+    "deployment_articles": 13,
     "conflict_articles": 3,
-    "exercise_articles": 3,
+    "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-08-30T21:41:02.639731+00:00",
+    "computed_at": "2026-08-30T23:58:16.062355+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Task & Purpose] USS Abraham Lincoln sailor could be disciplined for jumping overboard",
@@ -919,7 +910,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-08-30T21:41:02.639778+00:00",
+    "last_successful_update": "2026-08-30T23:58:16.062402+00:00",
     "article_count": 50,
     "categorized_count": 16,
     "freshest_source": "Task & Purpose",
