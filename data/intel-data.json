@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-08-30T11:15:21Z",
-  "version": 2774,
+  "generated_utc": "2026-08-30T15:37:34Z",
+  "version": 2775,
   "breaking_alert": "Task & Purpose: USS Abraham Lincoln sailor could be disciplined for jumping overboard",
   "naval_deployments": [
     {
@@ -649,6 +649,15 @@
       ]
     },
     {
+      "title": "Türkiye’s Second I-class Frigate Begins Sea Trials With Enlarged VLS",
+      "link": "https://www.navalnews.com/naval-news/2026/08/turkiye-second-iclass-frigate-tcg-izmir-sea-trials-vls/",
+      "published": "Sun, 30 Aug 2026 11:33:45 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "15,000 operational days lost due to US submarine maintenance delays, GAO finds",
       "link": "https://www.defensenews.com/industry/techwatch/2026/08/27/15000-operational-days-lost-in-10-years-due-to-us-submarine-maintenance-delays-gao/",
       "published": "Thu, 27 Aug 2026 19:46:27 +0000",
@@ -672,15 +681,6 @@
       "link": "https://www.navalnews.com/naval-news/2026/08/liberator-understanding-the-u-s-navys-covert-seabed-ship-killer/",
       "published": "Wed, 26 Aug 2026 09:58:00 +0000",
       "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Navy Planning for Extended Carrier Deployments as Iran Conflict Continues, CNO, MCPON Say",
-      "link": "https://news.usni.org/2026/08/26/navy-planning-for-extended-carrier-deployments-as-iran-conflict-continues-cno-mcpon-say",
-      "published": "Wed, 26 Aug 2026 21:36:38 +0000",
-      "source": "USNI News",
       "categories": [
         "deployment"
       ]
@@ -897,11 +897,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 10,
+    "deployment_articles": 11,
     "conflict_articles": 3,
     "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-08-30T11:10:40.112947+00:00",
+    "computed_at": "2026-08-30T15:32:54.007875+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Task & Purpose] USS Abraham Lincoln sailor could be disciplined for jumping overboard",
@@ -919,9 +919,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-08-30T11:10:40.112989+00:00",
+    "last_successful_update": "2026-08-30T15:32:54.007907+00:00",
     "article_count": 50,
-    "categorized_count": 14,
+    "categorized_count": 15,
     "freshest_source": "Task & Purpose",
     "freshest_title": "USS Abraham Lincoln sailor could be disciplined for jumping overboard",
     "freshest_published": "Fri, 28 Aug 2026 10:48:12 -0400"
