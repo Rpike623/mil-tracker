@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-08-31T17:43:34Z",
-  "version": 2781,
-  "breaking_alert": "Defense News: India turns to private sector to ramp up missile production",
+  "generated_utc": "2026-08-31T22:05:01Z",
+  "version": 2782,
+  "breaking_alert": "USNI News: U.S. Navy Wants New Standoff Aerial Torpedo for Carrier Aircraft",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -837,15 +837,6 @@
   },
   "_conflict_news_refs": [
     {
-      "title": "India turns to private sector to ramp up missile production",
-      "link": "https://www.defensenews.com/global/asia-pacific/2026/08/28/india-turns-to-private-sector-to-ramp-up-missile-production/",
-      "published": "Fri, 28 Aug 2026 14:14:15 +0000",
-      "source": "Defense News",
-      "categories": [
-        "conflict"
-      ]
-    },
-    {
       "title": "Trial for accused mastermind of 9/11 attacks set for June 2028",
       "link": "https://www.defensenews.com/news/pentagon-congress/2026/08/31/trial-for-accused-mastermind-of-911-attacks-set-for-june-2028/",
       "published": "Mon, 31 Aug 2026 16:05:36 +0000",
@@ -882,22 +873,32 @@
         "deployment",
         "conflict"
       ]
+    },
+    {
+      "title": "Iran, US trade strikes in first fighting in a month",
+      "link": "https://taskandpurpose.com/news/us-iran-new-strikes-larak-island-jordan/",
+      "published": "Sun, 30 Aug 2026 22:36:04 -0400",
+      "source": "Task & Purpose",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
     }
   ],
   "_exercise_news_refs": [],
   "_threat_indicators": {
-    "deployment_articles": 18,
-    "conflict_articles": 6,
+    "deployment_articles": 23,
+    "conflict_articles": 5,
     "exercise_articles": 0,
     "total_articles": 50,
-    "computed_at": "2026-08-31T17:43:29.254803+00:00",
+    "computed_at": "2026-08-31T22:04:57.256677+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
-      "[Defense News] India turns to private sector to ramp up missile production",
       "[USNI News] U.S. Navy Wants New Standoff Aerial Torpedo for Carrier Aircraft",
       "[USNI News] Strait of Hormuz Tanker Transits Up But Still Below Pre–War Levels",
       "[Naval News] Japan’s Record FY2027 Budget Request: Focus on New FFM, ASEV and Submarines",
-      "[Task & Purpose] Tracking America’s latest conflict: The Iran war timeline"
+      "[Task & Purpose] Tracking America’s latest conflict: The Iran war timeline",
+      "[Defense News] New Zealand ground forces drill to dock onto larger armies"
     ]
   },
   "ground_intel": {
@@ -908,12 +909,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-08-31T17:43:29.254849+00:00",
+    "last_successful_update": "2026-08-31T22:04:57.256721+00:00",
     "article_count": 50,
-    "categorized_count": 21,
-    "freshest_source": "Defense News",
-    "freshest_title": "India turns to private sector to ramp up missile production",
-    "freshest_published": "Fri, 28 Aug 2026 14:14:15 +0000"
+    "categorized_count": 25,
+    "freshest_source": "USNI News",
+    "freshest_title": "U.S. Navy Wants New Standoff Aerial Torpedo for Carrier Aircraft",
+    "freshest_published": "Fri, 28 Aug 2026 15:55:59 +0000"
   },
   "_firms_hotspots": []
 }
