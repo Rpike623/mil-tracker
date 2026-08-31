@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-08-31T10:13:05Z",
-  "version": 2780,
-  "breaking_alert": "Task & Purpose: USS Abraham Lincoln sailor could be disciplined for jumping overboard",
+  "generated_utc": "2026-08-31T17:43:34Z",
+  "version": 2781,
+  "breaking_alert": "Defense News: India turns to private sector to ramp up missile production",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -594,28 +594,10 @@
   ],
   "_naval_news_refs": [
     {
-      "title": "USS Abraham Lincoln sailor could be disciplined for jumping overboard",
-      "link": "https://taskandpurpose.com/news/navy-abraham-lincoln-overboard/",
-      "published": "Fri, 28 Aug 2026 10:48:12 -0400",
-      "source": "Task & Purpose",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "U.S. Navy Wants New Standoff Aerial Torpedo for Carrier Aircraft",
       "link": "https://news.usni.org/2026/08/28/u-s-navy-wants-new-standoff-aerial-torpedo-for-carrier-aircraft",
       "published": "Fri, 28 Aug 2026 15:55:59 +0000",
       "source": "USNI News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Record-long deployments add new layer to sailors’ reenlistment decisions",
-      "link": "https://www.militarytimes.com/news/your-military/2026/08/28/record-long-deployments-add-new-layer-to-sailors-reenlistment-decisions/",
-      "published": "Fri, 28 Aug 2026 17:08:35 +0000",
-      "source": "Military Times",
       "categories": [
         "deployment"
       ]
@@ -639,47 +621,64 @@
       ]
     },
     {
-      "title": "Roketsan Tests Ground-Launched ÇAKIR Cruise Missile Against Land, Sea Targets",
-      "link": "https://www.navalnews.com/naval-news/2026/08/roketsan-tests-ground-launched-cakir-cruise-missile-against-land-sea-targets/",
-      "published": "Sat, 29 Aug 2026 08:54:20 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
-      "title": "Navy has cleared mines from the Strait of Hormuz, CENTCOM says",
-      "link": "https://taskandpurpose.com/news/navy-clears-mines-strait-of-hormuz-centcom/",
-      "published": "Sat, 29 Aug 2026 15:54:17 -0400",
+      "title": "Tracking America’s latest conflict: The Iran war timeline",
+      "link": "https://taskandpurpose.com/news/iran-war-timeline/",
+      "published": "Mon, 31 Aug 2026 08:56:04 -0400",
       "source": "Task & Purpose",
       "categories": [
         "deployment"
       ]
     },
     {
-      "title": "Türkiye’s Second I-class Frigate Begins Sea Trials With Enlarged VLS",
-      "link": "https://www.navalnews.com/naval-news/2026/08/turkiye-second-iclass-frigate-tcg-izmir-sea-trials-vls/",
-      "published": "Sun, 30 Aug 2026 11:33:45 +0000",
-      "source": "Naval News",
+      "title": "New Zealand ground forces drill to dock onto larger armies",
+      "link": "https://www.defensenews.com/global/asia-pacific/2026/08/31/new-zealand-ground-forces-drill-to-dock-onto-larger-armies/",
+      "published": "Mon, 31 Aug 2026 13:37:12 +0000",
+      "source": "Defense News",
       "categories": [
         "deployment"
       ]
     },
     {
-      "title": "Army extends 82nd Airborne Division’s Middle East deployment to a full year",
-      "link": "https://taskandpurpose.com/news/82nd-airborne-deployment-extended-iran/",
-      "published": "Sun, 30 Aug 2026 17:40:03 -0400",
-      "source": "Task & Purpose",
+      "title": "USS Abraham Lincoln’s visit to Thailand lifts hope and sex-tourism risk",
+      "link": "https://www.defensenews.com/news/your-military/2026/08/31/uss-abraham-lincolns-visit-to-thailands-pattaya-lifts-hope-and-sex-tourism-risk/",
+      "published": "Mon, 31 Aug 2026 14:15:49 +0000",
+      "source": "Defense News",
       "categories": [
         "deployment"
       ]
     },
     {
-      "title": "Iran, US, trade strikes in first fighting in a month",
-      "link": "https://taskandpurpose.com/news/us-iran-new-strikes-larak-island-jordan/",
-      "published": "Sun, 30 Aug 2026 22:36:04 -0400",
-      "source": "Task & Purpose",
+      "title": "USS Abraham Lincoln’s visit to Thailand lifts hope and sex-tourism risk",
+      "link": "https://www.militarytimes.com/news/your-military/2026/08/31/uss-abraham-lincolns-visit-to-thailands-pattaya-lifts-hope-and-sex-tourism-risk/",
+      "published": "Mon, 31 Aug 2026 14:15:49 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "USS New Orleans Fire Response Hindered by Initial Confusion, Investigation Shows",
+      "link": "https://news.usni.org/2026/08/31/uss-new-orleans-fire-response-hindered-by-initial-confusion-investigation-shows",
+      "published": "Mon, 31 Aug 2026 15:31:18 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Barracks Task Force completes first housing at Washington naval base",
+      "link": "https://www.militarytimes.com/news/your-military/2026/08/31/barracks-task-force-completes-first-housing-at-washington-naval-base/",
+      "published": "Mon, 31 Aug 2026 15:33:34 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Japan’s First Tomahawk Cruise Missile Destroyer Back from U.S.",
+      "link": "https://news.usni.org/2026/08/31/japans-first-tomahawk-cruise-missile-destroyer-back-from-u-s",
+      "published": "Mon, 31 Aug 2026 16:36:51 +0000",
+      "source": "USNI News",
       "categories": [
         "deployment",
         "conflict"
@@ -847,6 +846,34 @@
       ]
     },
     {
+      "title": "Trial for accused mastermind of 9/11 attacks set for June 2028",
+      "link": "https://www.defensenews.com/news/pentagon-congress/2026/08/31/trial-for-accused-mastermind-of-911-attacks-set-for-june-2028/",
+      "published": "Mon, 31 Aug 2026 16:05:36 +0000",
+      "source": "Defense News",
+      "categories": [
+        "conflict"
+      ]
+    },
+    {
+      "title": "Trial for accused mastermind of 9/11 attacks set for June 2028",
+      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/08/31/trial-for-accused-mastermind-of-911-attacks-set-for-june-2028/",
+      "published": "Mon, 31 Aug 2026 16:05:36 +0000",
+      "source": "Military Times",
+      "categories": [
+        "conflict"
+      ]
+    },
+    {
+      "title": "Japan’s First Tomahawk Cruise Missile Destroyer Back from U.S.",
+      "link": "https://news.usni.org/2026/08/31/japans-first-tomahawk-cruise-missile-destroyer-back-from-u-s",
+      "published": "Mon, 31 Aug 2026 16:36:51 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
+    },
+    {
       "title": "Roketsan Tests Ground-Launched ÇAKIR Cruise Missile Against Land, Sea Targets",
       "link": "https://www.navalnews.com/naval-news/2026/08/roketsan-tests-ground-launched-cakir-cruise-missile-against-land-sea-targets/",
       "published": "Sat, 29 Aug 2026 08:54:20 +0000",
@@ -855,61 +882,22 @@
         "deployment",
         "conflict"
       ]
-    },
-    {
-      "title": "Iran, US, trade strikes in first fighting in a month",
-      "link": "https://taskandpurpose.com/news/us-iran-new-strikes-larak-island-jordan/",
-      "published": "Sun, 30 Aug 2026 22:36:04 -0400",
-      "source": "Task & Purpose",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
-      "title": "Pentagon awards contract in race to field cheaper interceptors, missiles",
-      "link": "https://www.defensenews.com/pentagon/2026/08/27/pentagon-awards-contract-in-race-to-field-cheaper-interceptors-missiles/",
-      "published": "Thu, 27 Aug 2026 20:58:09 +0000",
-      "source": "Defense News",
-      "categories": [
-        "conflict"
-      ]
     }
   ],
-  "_exercise_news_refs": [
-    {
-      "title": "Pentagon’s NATO review preparing troop options for Hegseth by November 6",
-      "link": "https://www.defensenews.com/news/pentagon-congress/2026/08/27/pentagons-nato-review-preparing-troop-options-for-hegseth-by-november-6/",
-      "published": "Thu, 27 Aug 2026 15:14:31 +0000",
-      "source": "Defense News",
-      "categories": [
-        "exercise"
-      ]
-    },
-    {
-      "title": "15,000 operational days lost due to US submarine maintenance delays, GAO finds",
-      "link": "https://www.defensenews.com/industry/techwatch/2026/08/27/15000-operational-days-lost-in-10-years-due-to-us-submarine-maintenance-delays-gao/",
-      "published": "Thu, 27 Aug 2026 19:46:27 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment",
-        "exercise"
-      ]
-    }
-  ],
+  "_exercise_news_refs": [],
   "_threat_indicators": {
-    "deployment_articles": 14,
-    "conflict_articles": 4,
-    "exercise_articles": 2,
+    "deployment_articles": 18,
+    "conflict_articles": 6,
+    "exercise_articles": 0,
     "total_articles": 50,
-    "computed_at": "2026-08-31T10:08:24.982734+00:00",
+    "computed_at": "2026-08-31T17:43:29.254803+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
-      "[Task & Purpose] USS Abraham Lincoln sailor could be disciplined for jumping overboard",
       "[Defense News] India turns to private sector to ramp up missile production",
       "[USNI News] U.S. Navy Wants New Standoff Aerial Torpedo for Carrier Aircraft",
-      "[Military Times] Record-long deployments add new layer to sailors’ reenlistment decisions",
-      "[USNI News] Strait of Hormuz Tanker Transits Up But Still Below Pre–War Levels"
+      "[USNI News] Strait of Hormuz Tanker Transits Up But Still Below Pre–War Levels",
+      "[Naval News] Japan’s Record FY2027 Budget Request: Focus on New FFM, ASEV and Submarines",
+      "[Task & Purpose] Tracking America’s latest conflict: The Iran war timeline"
     ]
   },
   "ground_intel": {
@@ -920,12 +908,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-08-31T10:08:24.982778+00:00",
+    "last_successful_update": "2026-08-31T17:43:29.254849+00:00",
     "article_count": 50,
-    "categorized_count": 17,
-    "freshest_source": "Task & Purpose",
-    "freshest_title": "USS Abraham Lincoln sailor could be disciplined for jumping overboard",
-    "freshest_published": "Fri, 28 Aug 2026 10:48:12 -0400"
+    "categorized_count": 21,
+    "freshest_source": "Defense News",
+    "freshest_title": "India turns to private sector to ramp up missile production",
+    "freshest_published": "Fri, 28 Aug 2026 14:14:15 +0000"
   },
   "_firms_hotspots": []
 }
