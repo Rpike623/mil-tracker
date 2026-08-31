@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-08-30T23:58:17Z",
-  "version": 2778,
+  "generated_utc": "2026-08-31T03:11:46Z",
+  "version": 2779,
   "breaking_alert": "Task & Purpose: USS Abraham Lincoln sailor could be disciplined for jumping overboard",
   "naval_deployments": [
     {
@@ -667,22 +667,22 @@
       ]
     },
     {
+      "title": "Iran, US, trade strikes in first fighting in a month",
+      "link": "https://taskandpurpose.com/news/us-iran-new-strikes-larak-island-jordan/",
+      "published": "Sun, 30 Aug 2026 22:36:04 -0400",
+      "source": "Task & Purpose",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
+    },
+    {
       "title": "USS Abraham Lincoln Passes Through Singapore Strait En route to Thailand",
       "link": "https://news.usni.org/2026/08/30/uss-abraham-lincoln-passes-through-singapore-strait-en-route-to-thailand",
       "published": "Sun, 30 Aug 2026 23:12:37 +0000",
       "source": "USNI News",
       "categories": [
         "deployment"
-      ]
-    },
-    {
-      "title": "15,000 operational days lost due to US submarine maintenance delays, GAO finds",
-      "link": "https://www.defensenews.com/industry/techwatch/2026/08/27/15000-operational-days-lost-in-10-years-due-to-us-submarine-maintenance-delays-gao/",
-      "published": "Thu, 27 Aug 2026 19:46:27 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment",
-        "exercise"
       ]
     }
   ],
@@ -857,6 +857,16 @@
       ]
     },
     {
+      "title": "Iran, US, trade strikes in first fighting in a month",
+      "link": "https://taskandpurpose.com/news/us-iran-new-strikes-larak-island-jordan/",
+      "published": "Sun, 30 Aug 2026 22:36:04 -0400",
+      "source": "Task & Purpose",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
+    },
+    {
       "title": "Pentagon awards contract in race to field cheaper interceptors, missiles",
       "link": "https://www.defensenews.com/pentagon/2026/08/27/pentagon-awards-contract-in-race-to-field-cheaper-interceptors-missiles/",
       "published": "Thu, 27 Aug 2026 20:58:09 +0000",
@@ -888,11 +898,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 13,
-    "conflict_articles": 3,
+    "deployment_articles": 14,
+    "conflict_articles": 4,
     "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-08-30T23:58:16.062355+00:00",
+    "computed_at": "2026-08-31T03:11:40.566424+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Task & Purpose] USS Abraham Lincoln sailor could be disciplined for jumping overboard",
@@ -910,9 +920,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-08-30T23:58:16.062402+00:00",
+    "last_successful_update": "2026-08-31T03:11:40.566457+00:00",
     "article_count": 50,
-    "categorized_count": 16,
+    "categorized_count": 17,
     "freshest_source": "Task & Purpose",
     "freshest_title": "USS Abraham Lincoln sailor could be disciplined for jumping overboard",
     "freshest_published": "Fri, 28 Aug 2026 10:48:12 -0400"
