@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-08-31T22:05:01Z",
-  "version": 2782,
+  "generated_utc": "2026-09-01T01:28:06Z",
+  "version": 2783,
   "breaking_alert": "USNI News: U.S. Navy Wants New Standoff Aerial Torpedo for Carrier Aircraft",
   "naval_deployments": [
     {
@@ -891,7 +891,7 @@
     "conflict_articles": 5,
     "exercise_articles": 0,
     "total_articles": 50,
-    "computed_at": "2026-08-31T22:04:57.256677+00:00",
+    "computed_at": "2026-09-01T01:28:00.327380+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[USNI News] U.S. Navy Wants New Standoff Aerial Torpedo for Carrier Aircraft",
@@ -909,7 +909,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-08-31T22:04:57.256721+00:00",
+    "last_successful_update": "2026-09-01T01:28:00.327424+00:00",
     "article_count": 50,
     "categorized_count": 25,
     "freshest_source": "USNI News",
