@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-09-01T20:16:55Z",
-  "version": 2787,
+  "generated_utc": "2026-09-01T22:51:51Z",
+  "version": 2788,
   "breaking_alert": "USNI News: Strait of Hormuz Tanker Transits Up But Still Below Pre–War Levels",
   "naval_deployments": [
     {
@@ -668,19 +668,19 @@
       ]
     },
     {
-      "title": "Navy has cleared mines from the Strait of Hormuz, CENTCOM says",
-      "link": "https://taskandpurpose.com/news/navy-clears-mines-strait-of-hormuz-centcom/",
-      "published": "Sat, 29 Aug 2026 15:54:17 -0400",
-      "source": "Task & Purpose",
+      "title": "Türkiye’s Second I-class Frigate Begins Sea Trials With Enlarged VLS",
+      "link": "https://www.navalnews.com/naval-news/2026/08/turkiye-second-iclass-frigate-tcg-izmir-sea-trials-vls/",
+      "published": "Sun, 30 Aug 2026 11:33:45 +0000",
+      "source": "Naval News",
       "categories": [
         "deployment"
       ]
     },
     {
-      "title": "Türkiye’s Second I-class Frigate Begins Sea Trials With Enlarged VLS",
-      "link": "https://www.navalnews.com/naval-news/2026/08/turkiye-second-iclass-frigate-tcg-izmir-sea-trials-vls/",
-      "published": "Sun, 30 Aug 2026 11:33:45 +0000",
-      "source": "Naval News",
+      "title": "Army extends 82nd Airborne Division’s Middle East deployment to a full year",
+      "link": "https://taskandpurpose.com/news/82nd-airborne-deployment-extended-iran/",
+      "published": "Sun, 30 Aug 2026 17:40:03 -0400",
+      "source": "Task & Purpose",
       "categories": [
         "deployment"
       ]
@@ -903,7 +903,7 @@
     "conflict_articles": 9,
     "exercise_articles": 1,
     "total_articles": 50,
-    "computed_at": "2026-09-01T20:12:14.288465+00:00",
+    "computed_at": "2026-09-01T22:51:46.299299+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[USNI News] Strait of Hormuz Tanker Transits Up But Still Below Pre–War Levels",
@@ -921,7 +921,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-09-01T20:12:14.288513+00:00",
+    "last_successful_update": "2026-09-01T22:51:46.299345+00:00",
     "article_count": 50,
     "categorized_count": 25,
     "freshest_source": "USNI News",
