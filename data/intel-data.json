@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-09-01T17:00:34Z",
-  "version": 2786,
-  "breaking_alert": "USNI News: U.S. Navy Wants New Standoff Aerial Torpedo for Carrier Aircraft",
+  "generated_utc": "2026-09-01T20:16:55Z",
+  "version": 2787,
+  "breaking_alert": "USNI News: Strait of Hormuz Tanker Transits Up But Still Below Pre–War Levels",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -594,15 +594,6 @@
   ],
   "_naval_news_refs": [
     {
-      "title": "U.S. Navy Wants New Standoff Aerial Torpedo for Carrier Aircraft",
-      "link": "https://news.usni.org/2026/08/28/u-s-navy-wants-new-standoff-aerial-torpedo-for-carrier-aircraft",
-      "published": "Fri, 28 Aug 2026 15:55:59 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Strait of Hormuz Tanker Transits Up But Still Below Pre–War Levels",
       "link": "https://news.usni.org/2026/08/28/strait-of-hormuz-tanker-transits-up-but-still-below-pre-war-levels",
       "published": "Fri, 28 Aug 2026 21:20:26 +0000",
@@ -649,15 +640,6 @@
       ]
     },
     {
-      "title": "Israel signs $3.5 billion air defense deal with Greece",
-      "link": "https://www.defensenews.com/global/europe/2026/08/31/israel-signs-35-billion-air-defense-deal-with-greece/",
-      "published": "Mon, 31 Aug 2026 16:50:39 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "USNI News Fleet and Marine Tracker: Aug. 31, 2026",
       "link": "https://news.usni.org/2026/08/31/usni-news-fleet-and-marine-tracker-aug-31-2026",
       "published": "Mon, 31 Aug 2026 17:57:58 +0000",
@@ -676,10 +658,29 @@
       ]
     },
     {
-      "title": "Toilet paper and human error led to 11-hour USS New Orleans fire, investigation finds",
-      "link": "https://www.militarytimes.com/news/your-navy/2026/08/31/toilet-paper-and-human-error-led-to-11-hour-uss-new-orleans-fire-investigation-finds/",
-      "published": "Mon, 31 Aug 2026 21:49:26 +0000",
-      "source": "Military Times",
+      "title": "Roketsan Tests Ground-Launched ÇAKIR Cruise Missile Against Land, Sea Targets",
+      "link": "https://www.navalnews.com/naval-news/2026/08/roketsan-tests-ground-launched-cakir-cruise-missile-against-land-sea-targets/",
+      "published": "Sat, 29 Aug 2026 08:54:20 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
+    },
+    {
+      "title": "Navy has cleared mines from the Strait of Hormuz, CENTCOM says",
+      "link": "https://taskandpurpose.com/news/navy-clears-mines-strait-of-hormuz-centcom/",
+      "published": "Sat, 29 Aug 2026 15:54:17 -0400",
+      "source": "Task & Purpose",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Türkiye’s Second I-class Frigate Begins Sea Trials With Enlarged VLS",
+      "link": "https://www.navalnews.com/naval-news/2026/08/turkiye-second-iclass-frigate-tcg-izmir-sea-trials-vls/",
+      "published": "Sun, 30 Aug 2026 11:33:45 +0000",
+      "source": "Naval News",
       "categories": [
         "deployment"
       ]
@@ -837,15 +838,6 @@
   },
   "_conflict_news_refs": [
     {
-      "title": "Trial for accused mastermind of 9/11 attacks set for June 2028",
-      "link": "https://www.defensenews.com/news/pentagon-congress/2026/08/31/trial-for-accused-mastermind-of-911-attacks-set-for-june-2028/",
-      "published": "Mon, 31 Aug 2026 16:05:36 +0000",
-      "source": "Defense News",
-      "categories": [
-        "conflict"
-      ]
-    },
-    {
       "title": "Japan’s First Tomahawk Cruise Missile Destroyer Back from U.S.",
       "link": "https://news.usni.org/2026/08/31/japans-first-tomahawk-cruise-missile-destroyer-back-from-u-s",
       "published": "Mon, 31 Aug 2026 16:36:51 +0000",
@@ -884,22 +876,41 @@
         "deployment",
         "conflict"
       ]
+    },
+    {
+      "title": "US tech found in Russian ballistic missiles",
+      "link": "https://www.defensenews.com/global/europe/2026/09/01/us-tech-found-in-russian-ballistic-missiles/",
+      "published": "Tue, 01 Sep 2026 14:35:51 +0000",
+      "source": "Defense News",
+      "categories": [
+        "conflict"
+      ]
     }
   ],
-  "_exercise_news_refs": [],
+  "_exercise_news_refs": [
+    {
+      "title": "MH-139 Grey Wolf reaches initial operational capability",
+      "link": "https://www.militarytimes.com/news/your-military/2026/09/01/mh-139-grey-wolf-reaches-initial-operational-capability/",
+      "published": "Tue, 01 Sep 2026 17:24:02 +0000",
+      "source": "Military Times",
+      "categories": [
+        "exercise"
+      ]
+    }
+  ],
   "_threat_indicators": {
-    "deployment_articles": 20,
-    "conflict_articles": 6,
-    "exercise_articles": 0,
+    "deployment_articles": 21,
+    "conflict_articles": 9,
+    "exercise_articles": 1,
     "total_articles": 50,
-    "computed_at": "2026-09-01T17:00:32.217569+00:00",
-    "manual_override": "DEFCON_3",
+    "computed_at": "2026-09-01T20:12:14.288465+00:00",
+    "manual_override": "DEFCON_2",
     "breaking_events": [
-      "[USNI News] U.S. Navy Wants New Standoff Aerial Torpedo for Carrier Aircraft",
       "[USNI News] Strait of Hormuz Tanker Transits Up But Still Below Pre–War Levels",
       "[Naval News] Japan’s Record FY2027 Budget Request: Focus on New FFM, ASEV and Submarines",
       "[Task & Purpose] Tracking America’s latest conflict: The Iran war timeline",
-      "[USNI News] USS New Orleans Fire Response Hindered by Initial Confusion, Investigation Shows"
+      "[USNI News] USS New Orleans Fire Response Hindered by Initial Confusion, Investigation Shows",
+      "[USNI News] Japan’s First Tomahawk Cruise Missile Destroyer Back from U.S."
     ]
   },
   "ground_intel": {
@@ -910,12 +921,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-09-01T17:00:32.217618+00:00",
+    "last_successful_update": "2026-09-01T20:12:14.288513+00:00",
     "article_count": 50,
-    "categorized_count": 22,
+    "categorized_count": 25,
     "freshest_source": "USNI News",
-    "freshest_title": "U.S. Navy Wants New Standoff Aerial Torpedo for Carrier Aircraft",
-    "freshest_published": "Fri, 28 Aug 2026 15:55:59 +0000"
+    "freshest_title": "Strait of Hormuz Tanker Transits Up But Still Below Pre–War Levels",
+    "freshest_published": "Fri, 28 Aug 2026 21:20:26 +0000"
   },
   "_firms_hotspots": []
 }
