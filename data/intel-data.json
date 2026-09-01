@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-09-01T12:08:44Z",
-  "version": 2785,
+  "generated_utc": "2026-09-01T17:00:34Z",
+  "version": 2786,
   "breaking_alert": "USNI News: U.S. Navy Wants New Standoff Aerial Torpedo for Carrier Aircraft",
   "naval_deployments": [
     {
@@ -630,46 +630,10 @@
       ]
     },
     {
-      "title": "New Zealand ground forces drill to dock onto larger armies",
-      "link": "https://www.defensenews.com/global/asia-pacific/2026/08/31/new-zealand-ground-forces-drill-to-dock-onto-larger-armies/",
-      "published": "Mon, 31 Aug 2026 13:37:12 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "USS Abraham Lincoln’s visit to Thailand lifts hope and sex-tourism risk",
-      "link": "https://www.defensenews.com/news/your-military/2026/08/31/uss-abraham-lincolns-visit-to-thailands-pattaya-lifts-hope-and-sex-tourism-risk/",
-      "published": "Mon, 31 Aug 2026 14:15:49 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "USS Abraham Lincoln’s visit to Thailand lifts hope and sex-tourism risk",
-      "link": "https://www.militarytimes.com/news/your-military/2026/08/31/uss-abraham-lincolns-visit-to-thailands-pattaya-lifts-hope-and-sex-tourism-risk/",
-      "published": "Mon, 31 Aug 2026 14:15:49 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "USS New Orleans Fire Response Hindered by Initial Confusion, Investigation Shows",
       "link": "https://news.usni.org/2026/08/31/uss-new-orleans-fire-response-hindered-by-initial-confusion-investigation-shows",
       "published": "Mon, 31 Aug 2026 15:31:18 +0000",
       "source": "USNI News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Barracks Task Force completes first housing at Washington naval base",
-      "link": "https://www.militarytimes.com/news/your-military/2026/08/31/barracks-task-force-completes-first-housing-at-washington-naval-base/",
-      "published": "Mon, 31 Aug 2026 15:33:34 +0000",
-      "source": "Military Times",
       "categories": [
         "deployment"
       ]
@@ -682,6 +646,42 @@
       "categories": [
         "deployment",
         "conflict"
+      ]
+    },
+    {
+      "title": "Israel signs $3.5 billion air defense deal with Greece",
+      "link": "https://www.defensenews.com/global/europe/2026/08/31/israel-signs-35-billion-air-defense-deal-with-greece/",
+      "published": "Mon, 31 Aug 2026 16:50:39 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "USNI News Fleet and Marine Tracker: Aug. 31, 2026",
+      "link": "https://news.usni.org/2026/08/31/usni-news-fleet-and-marine-tracker-aug-31-2026",
+      "published": "Mon, 31 Aug 2026 17:57:58 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "US Air Force chief of staff discusses ‘regional situation’ with Israeli military officials",
+      "link": "https://www.defensenews.com/news/your-military/2026/08/31/us-air-force-chief-of-staff-discusses-regional-situation-with-israeli-military-officials/",
+      "published": "Mon, 31 Aug 2026 20:09:41 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Toilet paper and human error led to 11-hour USS New Orleans fire, investigation finds",
+      "link": "https://www.militarytimes.com/news/your-navy/2026/08/31/toilet-paper-and-human-error-led-to-11-hour-uss-new-orleans-fire-investigation-finds/",
+      "published": "Mon, 31 Aug 2026 21:49:26 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment"
       ]
     }
   ],
@@ -846,15 +846,6 @@
       ]
     },
     {
-      "title": "Trial for accused mastermind of 9/11 attacks set for June 2028",
-      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/08/31/trial-for-accused-mastermind-of-911-attacks-set-for-june-2028/",
-      "published": "Mon, 31 Aug 2026 16:05:36 +0000",
-      "source": "Military Times",
-      "categories": [
-        "conflict"
-      ]
-    },
-    {
       "title": "Japan’s First Tomahawk Cruise Missile Destroyer Back from U.S.",
       "link": "https://news.usni.org/2026/08/31/japans-first-tomahawk-cruise-missile-destroyer-back-from-u-s",
       "published": "Mon, 31 Aug 2026 16:36:51 +0000",
@@ -883,22 +874,32 @@
         "deployment",
         "conflict"
       ]
+    },
+    {
+      "title": "GAO Report on Attack Submarine Maintenance Challenges",
+      "link": "https://news.usni.org/2026/09/01/gao-report-on-attack-submarine-maintenance-challenges",
+      "published": "Tue, 01 Sep 2026 13:37:05 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
     }
   ],
   "_exercise_news_refs": [],
   "_threat_indicators": {
-    "deployment_articles": 22,
-    "conflict_articles": 5,
+    "deployment_articles": 20,
+    "conflict_articles": 6,
     "exercise_articles": 0,
     "total_articles": 50,
-    "computed_at": "2026-09-01T12:08:42.359690+00:00",
+    "computed_at": "2026-09-01T17:00:32.217569+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[USNI News] U.S. Navy Wants New Standoff Aerial Torpedo for Carrier Aircraft",
       "[USNI News] Strait of Hormuz Tanker Transits Up But Still Below Pre–War Levels",
       "[Naval News] Japan’s Record FY2027 Budget Request: Focus on New FFM, ASEV and Submarines",
       "[Task & Purpose] Tracking America’s latest conflict: The Iran war timeline",
-      "[Defense News] New Zealand ground forces drill to dock onto larger armies"
+      "[USNI News] USS New Orleans Fire Response Hindered by Initial Confusion, Investigation Shows"
     ]
   },
   "ground_intel": {
@@ -909,9 +910,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-09-01T12:08:42.359736+00:00",
+    "last_successful_update": "2026-09-01T17:00:32.217618+00:00",
     "article_count": 50,
-    "categorized_count": 24,
+    "categorized_count": 22,
     "freshest_source": "USNI News",
     "freshest_title": "U.S. Navy Wants New Standoff Aerial Torpedo for Carrier Aircraft",
     "freshest_published": "Fri, 28 Aug 2026 15:55:59 +0000"
