@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-09-02T14:45:24Z",
-  "version": 2792,
+  "generated_utc": "2026-09-02T18:10:02Z",
+  "version": 2793,
   "breaking_alert": "Naval News: Japan’s Record FY2027 Budget Request: Focus on New FFM, ASEV and Submarines",
   "naval_deployments": [
     {
@@ -612,25 +612,6 @@
       ]
     },
     {
-      "title": "USS New Orleans Fire Response Hindered by Initial Confusion, Investigation Shows",
-      "link": "https://news.usni.org/2026/08/31/uss-new-orleans-fire-response-hindered-by-initial-confusion-investigation-shows",
-      "published": "Mon, 31 Aug 2026 15:31:18 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Japan’s First Tomahawk Cruise Missile Destroyer Back from U.S.",
-      "link": "https://news.usni.org/2026/08/31/japans-first-tomahawk-cruise-missile-destroyer-back-from-u-s",
-      "published": "Mon, 31 Aug 2026 16:36:51 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
       "title": "USNI News Fleet and Marine Tracker: Aug. 31, 2026",
       "link": "https://news.usni.org/2026/08/31/usni-news-fleet-and-marine-tracker-aug-31-2026",
       "published": "Mon, 31 Aug 2026 17:57:58 +0000",
@@ -681,6 +662,25 @@
       "link": "https://news.usni.org/2026/09/01/gao-report-on-attack-submarine-maintenance-challenges",
       "published": "Tue, 01 Sep 2026 13:37:05 +0000",
       "source": "USNI News",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
+    },
+    {
+      "title": "Top Navy officer says sailors should expect ‘longer deployments’ despite 7-month goal",
+      "link": "https://taskandpurpose.com/news/navy-chief-longer-deployments/",
+      "published": "Tue, 01 Sep 2026 16:36:27 -0400",
+      "source": "Task & Purpose",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "US launches new barrage of strikes on Iran around Strait of Hormuz",
+      "link": "https://www.defensenews.com/news/your-military/2026/09/01/us-launches-new-barrage-of-strikes-on-iran-around-strait-of-hormuz/",
+      "published": "Tue, 01 Sep 2026 18:13:45 +0000",
+      "source": "Defense News",
       "categories": [
         "deployment",
         "conflict"
@@ -839,16 +839,6 @@
   },
   "_conflict_news_refs": [
     {
-      "title": "Japan’s First Tomahawk Cruise Missile Destroyer Back from U.S.",
-      "link": "https://news.usni.org/2026/08/31/japans-first-tomahawk-cruise-missile-destroyer-back-from-u-s",
-      "published": "Mon, 31 Aug 2026 16:36:51 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
       "title": "Iran, US trade strikes in first fighting in a month",
       "link": "https://taskandpurpose.com/news/us-iran-new-strikes-larak-island-jordan/",
       "published": "Sun, 30 Aug 2026 22:36:04 -0400",
@@ -885,32 +875,32 @@
       "categories": [
         "conflict"
       ]
-    }
-  ],
-  "_exercise_news_refs": [
+    },
     {
-      "title": "MH-139 Grey Wolf reaches initial operational capability",
-      "link": "https://www.militarytimes.com/news/your-military/2026/09/01/mh-139-grey-wolf-reaches-initial-operational-capability/",
-      "published": "Tue, 01 Sep 2026 17:24:02 +0000",
-      "source": "Military Times",
+      "title": "US launches new barrage of strikes on Iran around Strait of Hormuz",
+      "link": "https://www.defensenews.com/news/your-military/2026/09/01/us-launches-new-barrage-of-strikes-on-iran-around-strait-of-hormuz/",
+      "published": "Tue, 01 Sep 2026 18:13:45 +0000",
+      "source": "Defense News",
       "categories": [
-        "exercise"
+        "deployment",
+        "conflict"
       ]
     }
   ],
+  "_exercise_news_refs": [],
   "_threat_indicators": {
     "deployment_articles": 20,
-    "conflict_articles": 13,
-    "exercise_articles": 1,
+    "conflict_articles": 12,
+    "exercise_articles": 0,
     "total_articles": 50,
-    "computed_at": "2026-09-02T14:45:20.125265+00:00",
+    "computed_at": "2026-09-02T18:09:57.728782+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[Naval News] Japan’s Record FY2027 Budget Request: Focus on New FFM, ASEV and Submarines",
       "[Task & Purpose] Tracking America’s latest conflict: The Iran war timeline",
-      "[USNI News] USS New Orleans Fire Response Hindered by Initial Confusion, Investigation Shows",
-      "[USNI News] Japan’s First Tomahawk Cruise Missile Destroyer Back from U.S.",
-      "[USNI News] USNI News Fleet and Marine Tracker: Aug. 31, 2026"
+      "[USNI News] USNI News Fleet and Marine Tracker: Aug. 31, 2026",
+      "[Task & Purpose] Army extends 82nd Airborne Division’s Middle East deployment to a full year",
+      "[Task & Purpose] Iran, US trade strikes in first fighting in a month"
     ]
   },
   "ground_intel": {
@@ -921,9 +911,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-09-02T14:45:20.125309+00:00",
+    "last_successful_update": "2026-09-02T18:09:57.728826+00:00",
     "article_count": 50,
-    "categorized_count": 28,
+    "categorized_count": 27,
     "freshest_source": "Naval News",
     "freshest_title": "Japan’s Record FY2027 Budget Request: Focus on New FFM, ASEV and Submarines",
     "freshest_published": "Mon, 31 Aug 2026 08:34:59 +0000"
