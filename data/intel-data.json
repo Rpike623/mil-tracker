@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-09-02T05:09:56Z",
-  "version": 2790,
+  "generated_utc": "2026-09-02T10:01:05Z",
+  "version": 2791,
   "breaking_alert": "Naval News: Japan’s Record FY2027 Budget Request: Focus on New FFM, ASEV and Submarines",
   "naval_deployments": [
     {
@@ -640,16 +640,6 @@
       ]
     },
     {
-      "title": "Roketsan Tests Ground-Launched ÇAKIR Cruise Missile Against Land, Sea Targets",
-      "link": "https://www.navalnews.com/naval-news/2026/08/roketsan-tests-ground-launched-cakir-cruise-missile-against-land-sea-targets/",
-      "published": "Sat, 29 Aug 2026 08:54:20 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
       "title": "Türkiye’s Second I-class Frigate Begins Sea Trials With Enlarged VLS",
       "link": "https://www.navalnews.com/naval-news/2026/08/turkiye-second-iclass-frigate-tcg-izmir-sea-trials-vls/",
       "published": "Sun, 30 Aug 2026 11:33:45 +0000",
@@ -682,6 +672,15 @@
       "link": "https://news.usni.org/2026/08/30/uss-abraham-lincoln-passes-through-singapore-strait-en-route-to-thailand",
       "published": "Sun, 30 Aug 2026 23:12:37 +0000",
       "source": "USNI News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "US Navy Eyes 2028 Installation of SPY-6 Radar on Zumwalt-class Destroyers",
+      "link": "https://www.navalnews.com/naval-news/2026/09/us-navy-2028-spy6-radar-zumwalt-destroyers/",
+      "published": "Tue, 01 Sep 2026 12:08:53 +0000",
+      "source": "Naval News",
       "categories": [
         "deployment"
       ]
@@ -849,16 +848,6 @@
       ]
     },
     {
-      "title": "Roketsan Tests Ground-Launched ÇAKIR Cruise Missile Against Land, Sea Targets",
-      "link": "https://www.navalnews.com/naval-news/2026/08/roketsan-tests-ground-launched-cakir-cruise-missile-against-land-sea-targets/",
-      "published": "Sat, 29 Aug 2026 08:54:20 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
       "title": "Iran, US trade strikes in first fighting in a month",
       "link": "https://taskandpurpose.com/news/us-iran-new-strikes-larak-island-jordan/",
       "published": "Sun, 30 Aug 2026 22:36:04 -0400",
@@ -886,6 +875,15 @@
       "categories": [
         "conflict"
       ]
+    },
+    {
+      "title": "Marines Stage Hornet Maritime Strike Package off Japan",
+      "link": "https://news.usni.org/2026/09/01/marines-stage-hornet-maritime-strike-package-off-japan",
+      "published": "Tue, 01 Sep 2026 17:33:02 +0000",
+      "source": "USNI News",
+      "categories": [
+        "conflict"
+      ]
     }
   ],
   "_exercise_news_refs": [
@@ -901,10 +899,10 @@
   ],
   "_threat_indicators": {
     "deployment_articles": 21,
-    "conflict_articles": 9,
+    "conflict_articles": 13,
     "exercise_articles": 1,
     "total_articles": 50,
-    "computed_at": "2026-09-02T05:09:54.870829+00:00",
+    "computed_at": "2026-09-02T10:01:00.270266+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[Naval News] Japan’s Record FY2027 Budget Request: Focus on New FFM, ASEV and Submarines",
@@ -922,9 +920,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-09-02T05:09:54.870872+00:00",
+    "last_successful_update": "2026-09-02T10:01:00.270309+00:00",
     "article_count": 50,
-    "categorized_count": 25,
+    "categorized_count": 29,
     "freshest_source": "Naval News",
     "freshest_title": "Japan’s Record FY2027 Budget Request: Focus on New FFM, ASEV and Submarines",
     "freshest_published": "Mon, 31 Aug 2026 08:34:59 +0000"
