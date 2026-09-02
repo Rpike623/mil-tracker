@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-09-01T22:51:51Z",
-  "version": 2788,
-  "breaking_alert": "USNI News: Strait of Hormuz Tanker Transits Up But Still Below Pre–War Levels",
+  "generated_utc": "2026-09-02T00:36:12Z",
+  "version": 2789,
+  "breaking_alert": "Naval News: Japan’s Record FY2027 Budget Request: Focus on New FFM, ASEV and Submarines",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -594,15 +594,6 @@
   ],
   "_naval_news_refs": [
     {
-      "title": "Strait of Hormuz Tanker Transits Up But Still Below Pre–War Levels",
-      "link": "https://news.usni.org/2026/08/28/strait-of-hormuz-tanker-transits-up-but-still-below-pre-war-levels",
-      "published": "Fri, 28 Aug 2026 21:20:26 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Japan’s Record FY2027 Budget Request: Focus on New FFM, ASEV and Submarines",
       "link": "https://www.navalnews.com/naval-news/2026/08/japan-record-fy2027-defense-budget-new-ffm-submarines/",
       "published": "Mon, 31 Aug 2026 08:34:59 +0000",
@@ -683,6 +674,16 @@
       "source": "Task & Purpose",
       "categories": [
         "deployment"
+      ]
+    },
+    {
+      "title": "Iran, US trade strikes in first fighting in a month",
+      "link": "https://taskandpurpose.com/news/us-iran-new-strikes-larak-island-jordan/",
+      "published": "Sun, 30 Aug 2026 22:36:04 -0400",
+      "source": "Task & Purpose",
+      "categories": [
+        "deployment",
+        "conflict"
       ]
     }
   ],
@@ -899,18 +900,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 21,
+    "deployment_articles": 20,
     "conflict_articles": 9,
     "exercise_articles": 1,
     "total_articles": 50,
-    "computed_at": "2026-09-01T22:51:46.299299+00:00",
+    "computed_at": "2026-09-02T00:36:06.666861+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
-      "[USNI News] Strait of Hormuz Tanker Transits Up But Still Below Pre–War Levels",
       "[Naval News] Japan’s Record FY2027 Budget Request: Focus on New FFM, ASEV and Submarines",
       "[Task & Purpose] Tracking America’s latest conflict: The Iran war timeline",
       "[USNI News] USS New Orleans Fire Response Hindered by Initial Confusion, Investigation Shows",
-      "[USNI News] Japan’s First Tomahawk Cruise Missile Destroyer Back from U.S."
+      "[USNI News] Japan’s First Tomahawk Cruise Missile Destroyer Back from U.S.",
+      "[USNI News] USNI News Fleet and Marine Tracker: Aug. 31, 2026"
     ]
   },
   "ground_intel": {
@@ -921,12 +922,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-09-01T22:51:46.299345+00:00",
+    "last_successful_update": "2026-09-02T00:36:06.666892+00:00",
     "article_count": 50,
-    "categorized_count": 25,
-    "freshest_source": "USNI News",
-    "freshest_title": "Strait of Hormuz Tanker Transits Up But Still Below Pre–War Levels",
-    "freshest_published": "Fri, 28 Aug 2026 21:20:26 +0000"
+    "categorized_count": 24,
+    "freshest_source": "Naval News",
+    "freshest_title": "Japan’s Record FY2027 Budget Request: Focus on New FFM, ASEV and Submarines",
+    "freshest_published": "Mon, 31 Aug 2026 08:34:59 +0000"
   },
   "_firms_hotspots": []
 }
