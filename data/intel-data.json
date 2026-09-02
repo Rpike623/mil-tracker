@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-09-02T00:36:12Z",
-  "version": 2789,
+  "generated_utc": "2026-09-02T05:09:56Z",
+  "version": 2790,
   "breaking_alert": "Naval News: Japan’s Record FY2027 Budget Request: Focus on New FFM, ASEV and Submarines",
   "naval_deployments": [
     {
@@ -640,15 +640,6 @@
       ]
     },
     {
-      "title": "US Air Force chief of staff discusses ‘regional situation’ with Israeli military officials",
-      "link": "https://www.defensenews.com/news/your-military/2026/08/31/us-air-force-chief-of-staff-discusses-regional-situation-with-israeli-military-officials/",
-      "published": "Mon, 31 Aug 2026 20:09:41 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Roketsan Tests Ground-Launched ÇAKIR Cruise Missile Against Land, Sea Targets",
       "link": "https://www.navalnews.com/naval-news/2026/08/roketsan-tests-ground-launched-cakir-cruise-missile-against-land-sea-targets/",
       "published": "Sat, 29 Aug 2026 08:54:20 +0000",
@@ -684,6 +675,15 @@
       "categories": [
         "deployment",
         "conflict"
+      ]
+    },
+    {
+      "title": "USS Abraham Lincoln Passes Through Singapore Strait En route to Thailand",
+      "link": "https://news.usni.org/2026/08/30/uss-abraham-lincoln-passes-through-singapore-strait-en-route-to-thailand",
+      "published": "Sun, 30 Aug 2026 23:12:37 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment"
       ]
     }
   ],
@@ -900,11 +900,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 20,
+    "deployment_articles": 21,
     "conflict_articles": 9,
     "exercise_articles": 1,
     "total_articles": 50,
-    "computed_at": "2026-09-02T00:36:06.666861+00:00",
+    "computed_at": "2026-09-02T05:09:54.870829+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[Naval News] Japan’s Record FY2027 Budget Request: Focus on New FFM, ASEV and Submarines",
@@ -922,9 +922,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-09-02T00:36:06.666892+00:00",
+    "last_successful_update": "2026-09-02T05:09:54.870872+00:00",
     "article_count": 50,
-    "categorized_count": 24,
+    "categorized_count": 25,
     "freshest_source": "Naval News",
     "freshest_title": "Japan’s Record FY2027 Budget Request: Focus on New FFM, ASEV and Submarines",
     "freshest_published": "Mon, 31 Aug 2026 08:34:59 +0000"
