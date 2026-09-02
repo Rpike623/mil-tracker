@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-09-02T10:01:05Z",
-  "version": 2791,
+  "generated_utc": "2026-09-02T14:45:24Z",
+  "version": 2792,
   "breaking_alert": "Naval News: Japan’s Record FY2027 Budget Request: Focus on New FFM, ASEV and Submarines",
   "naval_deployments": [
     {
@@ -640,15 +640,6 @@
       ]
     },
     {
-      "title": "Türkiye’s Second I-class Frigate Begins Sea Trials With Enlarged VLS",
-      "link": "https://www.navalnews.com/naval-news/2026/08/turkiye-second-iclass-frigate-tcg-izmir-sea-trials-vls/",
-      "published": "Sun, 30 Aug 2026 11:33:45 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Army extends 82nd Airborne Division’s Middle East deployment to a full year",
       "link": "https://taskandpurpose.com/news/82nd-airborne-deployment-extended-iran/",
       "published": "Sun, 30 Aug 2026 17:40:03 -0400",
@@ -668,21 +659,31 @@
       ]
     },
     {
-      "title": "USS Abraham Lincoln Passes Through Singapore Strait En route to Thailand",
-      "link": "https://news.usni.org/2026/08/30/uss-abraham-lincoln-passes-through-singapore-strait-en-route-to-thailand",
-      "published": "Sun, 30 Aug 2026 23:12:37 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "US Navy Eyes 2028 Installation of SPY-6 Radar on Zumwalt-class Destroyers",
       "link": "https://www.navalnews.com/naval-news/2026/09/us-navy-2028-spy6-radar-zumwalt-destroyers/",
       "published": "Tue, 01 Sep 2026 12:08:53 +0000",
       "source": "Naval News",
       "categories": [
         "deployment"
+      ]
+    },
+    {
+      "title": "US Navy unveils new specs for carrier-based Collaborative Combat Aircraft",
+      "link": "https://www.defensenews.com/industry/techwatch/2026/09/01/us-navy-unveils-new-specs-for-carrier-based-collaborative-combat-aircraft/",
+      "published": "Tue, 01 Sep 2026 13:23:27 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "GAO Report on Attack Submarine Maintenance Challenges",
+      "link": "https://news.usni.org/2026/09/01/gao-report-on-attack-submarine-maintenance-challenges",
+      "published": "Tue, 01 Sep 2026 13:37:05 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment",
+        "conflict"
       ]
     }
   ],
@@ -898,11 +899,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 21,
+    "deployment_articles": 20,
     "conflict_articles": 13,
     "exercise_articles": 1,
     "total_articles": 50,
-    "computed_at": "2026-09-02T10:01:00.270266+00:00",
+    "computed_at": "2026-09-02T14:45:20.125265+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[Naval News] Japan’s Record FY2027 Budget Request: Focus on New FFM, ASEV and Submarines",
@@ -920,9 +921,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-09-02T10:01:00.270309+00:00",
+    "last_successful_update": "2026-09-02T14:45:20.125309+00:00",
     "article_count": 50,
-    "categorized_count": 29,
+    "categorized_count": 28,
     "freshest_source": "Naval News",
     "freshest_title": "Japan’s Record FY2027 Budget Request: Focus on New FFM, ASEV and Submarines",
     "freshest_published": "Mon, 31 Aug 2026 08:34:59 +0000"
