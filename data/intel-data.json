@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-09-02T18:10:02Z",
-  "version": 2793,
+  "generated_utc": "2026-09-02T21:22:59Z",
+  "version": 2794,
   "breaking_alert": "Naval News: Japan’s Record FY2027 Budget Request: Focus on New FFM, ASEV and Submarines",
   "naval_deployments": [
     {
@@ -612,15 +612,6 @@
       ]
     },
     {
-      "title": "USNI News Fleet and Marine Tracker: Aug. 31, 2026",
-      "link": "https://news.usni.org/2026/08/31/usni-news-fleet-and-marine-tracker-aug-31-2026",
-      "published": "Mon, 31 Aug 2026 17:57:58 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Army extends 82nd Airborne Division’s Middle East deployment to a full year",
       "link": "https://taskandpurpose.com/news/82nd-airborne-deployment-extended-iran/",
       "published": "Sun, 30 Aug 2026 17:40:03 -0400",
@@ -684,6 +675,15 @@
       "categories": [
         "deployment",
         "conflict"
+      ]
+    },
+    {
+      "title": "US approves possible $800 million military helicopter sale to Iraq",
+      "link": "https://www.defensenews.com/news/your-military/2026/09/01/us-approves-possible-800-million-military-helicopter-sale-to-iraq/",
+      "published": "Tue, 01 Sep 2026 18:14:33 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment"
       ]
     }
   ],
@@ -889,18 +889,18 @@
   ],
   "_exercise_news_refs": [],
   "_threat_indicators": {
-    "deployment_articles": 20,
-    "conflict_articles": 12,
+    "deployment_articles": 17,
+    "conflict_articles": 11,
     "exercise_articles": 0,
     "total_articles": 50,
-    "computed_at": "2026-09-02T18:09:57.728782+00:00",
+    "computed_at": "2026-09-02T21:22:57.518194+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[Naval News] Japan’s Record FY2027 Budget Request: Focus on New FFM, ASEV and Submarines",
       "[Task & Purpose] Tracking America’s latest conflict: The Iran war timeline",
-      "[USNI News] USNI News Fleet and Marine Tracker: Aug. 31, 2026",
       "[Task & Purpose] Army extends 82nd Airborne Division’s Middle East deployment to a full year",
-      "[Task & Purpose] Iran, US trade strikes in first fighting in a month"
+      "[Task & Purpose] Iran, US trade strikes in first fighting in a month",
+      "[Naval News] US Navy Eyes 2028 Installation of SPY-6 Radar on Zumwalt-class Destroyers"
     ]
   },
   "ground_intel": {
@@ -911,9 +911,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-09-02T18:09:57.728826+00:00",
+    "last_successful_update": "2026-09-02T21:22:57.518241+00:00",
     "article_count": 50,
-    "categorized_count": 27,
+    "categorized_count": 24,
     "freshest_source": "Naval News",
     "freshest_title": "Japan’s Record FY2027 Budget Request: Focus on New FFM, ASEV and Submarines",
     "freshest_published": "Mon, 31 Aug 2026 08:34:59 +0000"
