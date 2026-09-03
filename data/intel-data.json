@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-09-03T11:46:39Z",
-  "version": 2798,
+  "generated_utc": "2026-09-03T15:18:33Z",
+  "version": 2799,
   "breaking_alert": "Task & Purpose: Tracking America’s latest conflict: The Iran war timeline",
   "naval_deployments": [
     {
@@ -670,20 +670,19 @@
       ]
     },
     {
-      "title": "GAO Report on Attack Submarine Maintenance Challenges",
-      "link": "https://news.usni.org/2026/09/01/gao-report-on-attack-submarine-maintenance-challenges",
-      "published": "Tue, 01 Sep 2026 13:37:05 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
       "title": "Top Navy officer says sailors should expect ‘longer deployments’ despite 7-month goal",
       "link": "https://taskandpurpose.com/news/navy-chief-longer-deployments/",
       "published": "Tue, 01 Sep 2026 16:36:27 -0400",
       "source": "Task & Purpose",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "US approves possible $800 million military helicopter sale to Iraq",
+      "link": "https://www.defensenews.com/news/your-military/2026/09/01/us-approves-possible-800-million-military-helicopter-sale-to-iraq/",
+      "published": "Tue, 01 Sep 2026 18:14:33 +0000",
+      "source": "Defense News",
       "categories": [
         "deployment"
       ]
@@ -881,23 +880,32 @@
       ]
     },
     {
-      "title": "GAO Report on Attack Submarine Maintenance Challenges",
-      "link": "https://news.usni.org/2026/09/01/gao-report-on-attack-submarine-maintenance-challenges",
-      "published": "Tue, 01 Sep 2026 13:37:05 +0000",
+      "title": "Report to Congress on the U.S. Army’s Patriot Air and Missile Defense System",
+      "link": "https://news.usni.org/2026/09/03/report-to-congress-on-the-u-s-armys-patriot-air-and-missile-defense-system",
+      "published": "Thu, 03 Sep 2026 13:44:23 +0000",
       "source": "USNI News",
       "categories": [
-        "deployment",
         "conflict"
       ]
     }
   ],
-  "_exercise_news_refs": [],
+  "_exercise_news_refs": [
+    {
+      "title": "U.S., U.K. Forces Use Virtual Summer Exercises to Go the Distance",
+      "link": "https://news.usni.org/2026/09/03/u-s-u-k-forces-use-virtual-summer-exercises-to-go-the-distance",
+      "published": "Thu, 03 Sep 2026 15:06:33 +0000",
+      "source": "USNI News",
+      "categories": [
+        "exercise"
+      ]
+    }
+  ],
   "_threat_indicators": {
-    "deployment_articles": 18,
-    "conflict_articles": 14,
-    "exercise_articles": 0,
+    "deployment_articles": 16,
+    "conflict_articles": 11,
+    "exercise_articles": 1,
     "total_articles": 50,
-    "computed_at": "2026-09-03T11:46:38.113739+00:00",
+    "computed_at": "2026-09-03T15:18:31.819729+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[Task & Purpose] Tracking America’s latest conflict: The Iran war timeline",
@@ -915,9 +923,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-09-03T11:46:38.113784+00:00",
+    "last_successful_update": "2026-09-03T15:18:31.819771+00:00",
     "article_count": 50,
-    "categorized_count": 25,
+    "categorized_count": 23,
     "freshest_source": "Task & Purpose",
     "freshest_title": "Tracking America’s latest conflict: The Iran war timeline",
     "freshest_published": "Mon, 31 Aug 2026 08:56:04 -0400"
