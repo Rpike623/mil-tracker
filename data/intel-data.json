@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-09-03T06:33:44Z",
-  "version": 2797,
-  "breaking_alert": "Naval News: Japan’s Record FY2027 Budget Request: Focus on New FFM, ASEV and Submarines",
+  "generated_utc": "2026-09-03T11:46:39Z",
+  "version": 2798,
+  "breaking_alert": "Task & Purpose: Tracking America’s latest conflict: The Iran war timeline",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -594,15 +594,6 @@
   ],
   "_naval_news_refs": [
     {
-      "title": "Japan’s Record FY2027 Budget Request: Focus on New FFM, ASEV and Submarines",
-      "link": "https://www.navalnews.com/naval-news/2026/08/japan-record-fy2027-defense-budget-new-ffm-submarines/",
-      "published": "Mon, 31 Aug 2026 08:34:59 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Tracking America’s latest conflict: The Iran war timeline",
       "link": "https://taskandpurpose.com/news/iran-war-timeline/",
       "published": "Mon, 31 Aug 2026 08:56:04 -0400",
@@ -651,6 +642,25 @@
       ]
     },
     {
+      "title": "Japan Seeks AARGM-ER to Suppress Enemy Warship Air Defenses",
+      "link": "https://www.navalnews.com/naval-news/2026/09/japan-aargm-er-warship-air-defense-anti-ship/",
+      "published": "Thu, 03 Sep 2026 07:08:11 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "TKMS Delivers INS Drakon to Israel: Final Dolphin-class Submarine Features New Missile Capability",
+      "link": "https://www.navalnews.com/naval-news/2026/09/tkms-delivers-ins-drakon-to-israel-final-dolphin-class-submarine-features-new-missile-capability/",
+      "published": "Thu, 03 Sep 2026 08:41:53 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
+    },
+    {
       "title": "US Navy Eyes 2028 Installation of SPY-6 Radar on Zumwalt-class Destroyers",
       "link": "https://www.navalnews.com/naval-news/2026/09/us-navy-2028-spy6-radar-zumwalt-destroyers/",
       "published": "Tue, 01 Sep 2026 12:08:53 +0000",
@@ -676,16 +686,6 @@
       "source": "Task & Purpose",
       "categories": [
         "deployment"
-      ]
-    },
-    {
-      "title": "US launches new barrage of strikes on Iran around Strait of Hormuz",
-      "link": "https://www.defensenews.com/news/your-military/2026/09/01/us-launches-new-barrage-of-strikes-on-iran-around-strait-of-hormuz/",
-      "published": "Tue, 01 Sep 2026 18:13:45 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment",
-        "conflict"
       ]
     }
   ],
@@ -871,6 +871,16 @@
       ]
     },
     {
+      "title": "TKMS Delivers INS Drakon to Israel: Final Dolphin-class Submarine Features New Missile Capability",
+      "link": "https://www.navalnews.com/naval-news/2026/09/tkms-delivers-ins-drakon-to-israel-final-dolphin-class-submarine-features-new-missile-capability/",
+      "published": "Thu, 03 Sep 2026 08:41:53 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
+    },
+    {
       "title": "GAO Report on Attack Submarine Maintenance Challenges",
       "link": "https://news.usni.org/2026/09/01/gao-report-on-attack-submarine-maintenance-challenges",
       "published": "Tue, 01 Sep 2026 13:37:05 +0000",
@@ -879,31 +889,22 @@
         "deployment",
         "conflict"
       ]
-    },
-    {
-      "title": "US tech found in Russian ballistic missiles",
-      "link": "https://www.defensenews.com/global/europe/2026/09/01/us-tech-found-in-russian-ballistic-missiles/",
-      "published": "Tue, 01 Sep 2026 14:35:51 +0000",
-      "source": "Defense News",
-      "categories": [
-        "conflict"
-      ]
     }
   ],
   "_exercise_news_refs": [],
   "_threat_indicators": {
-    "deployment_articles": 17,
-    "conflict_articles": 13,
+    "deployment_articles": 18,
+    "conflict_articles": 14,
     "exercise_articles": 0,
     "total_articles": 50,
-    "computed_at": "2026-09-03T06:33:42.102084+00:00",
+    "computed_at": "2026-09-03T11:46:38.113739+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
-      "[Naval News] Japan’s Record FY2027 Budget Request: Focus on New FFM, ASEV and Submarines",
       "[Task & Purpose] Tracking America’s latest conflict: The Iran war timeline",
       "[Task & Purpose] Army extends 82nd Airborne Division’s Middle East deployment to a full year",
       "[Task & Purpose] Iran, US trade strikes in first fighting in a month",
-      "[Defense News] Iran war escalation raises concern over civilian death toll"
+      "[Defense News] Iran war escalation raises concern over civilian death toll",
+      "[Military Times] Iran war escalation raises concern over civilian death toll"
     ]
   },
   "ground_intel": {
@@ -914,12 +915,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-09-03T06:33:42.102130+00:00",
+    "last_successful_update": "2026-09-03T11:46:38.113784+00:00",
     "article_count": 50,
-    "categorized_count": 24,
-    "freshest_source": "Naval News",
-    "freshest_title": "Japan’s Record FY2027 Budget Request: Focus on New FFM, ASEV and Submarines",
-    "freshest_published": "Mon, 31 Aug 2026 08:34:59 +0000"
+    "categorized_count": 25,
+    "freshest_source": "Task & Purpose",
+    "freshest_title": "Tracking America’s latest conflict: The Iran war timeline",
+    "freshest_published": "Mon, 31 Aug 2026 08:56:04 -0400"
   },
   "_firms_hotspots": []
 }
