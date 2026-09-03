@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-09-02T23:42:33Z",
-  "version": 2795,
+  "generated_utc": "2026-09-03T01:44:06Z",
+  "version": 2796,
   "breaking_alert": "Naval News: Japan’s Record FY2027 Budget Request: Focus on New FFM, ASEV and Submarines",
   "naval_deployments": [
     {
@@ -893,7 +893,7 @@
     "conflict_articles": 11,
     "exercise_articles": 0,
     "total_articles": 50,
-    "computed_at": "2026-09-02T23:37:52.550498+00:00",
+    "computed_at": "2026-09-03T01:39:25.298447+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[Naval News] Japan’s Record FY2027 Budget Request: Focus on New FFM, ASEV and Submarines",
@@ -911,7 +911,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-09-02T23:37:52.550544+00:00",
+    "last_successful_update": "2026-09-03T01:39:25.298494+00:00",
     "article_count": 50,
     "categorized_count": 24,
     "freshest_source": "Naval News",
