@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-09-03T01:44:06Z",
-  "version": 2796,
+  "generated_utc": "2026-09-03T06:33:44Z",
+  "version": 2797,
   "breaking_alert": "Naval News: Japan’s Record FY2027 Budget Request: Focus on New FFM, ASEV and Submarines",
   "naval_deployments": [
     {
@@ -631,19 +631,30 @@
       ]
     },
     {
+      "title": "Iran war escalation raises concern over civilian death toll",
+      "link": "https://www.defensenews.com/news/your-military/2026/09/03/iran-war-escalation-raises-concern-over-civilian-death-toll/",
+      "published": "Thu, 03 Sep 2026 02:46:53 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
+    },
+    {
+      "title": "Iran war escalation raises concern over civilian death toll",
+      "link": "https://www.militarytimes.com/news/your-military/2026/09/03/iran-war-escalation-raises-concern-over-civilian-death-toll/",
+      "published": "Thu, 03 Sep 2026 02:46:53 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
+    },
+    {
       "title": "US Navy Eyes 2028 Installation of SPY-6 Radar on Zumwalt-class Destroyers",
       "link": "https://www.navalnews.com/naval-news/2026/09/us-navy-2028-spy6-radar-zumwalt-destroyers/",
       "published": "Tue, 01 Sep 2026 12:08:53 +0000",
       "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "US Navy unveils new specs for carrier-based Collaborative Combat Aircraft",
-      "link": "https://www.defensenews.com/industry/techwatch/2026/09/01/us-navy-unveils-new-specs-for-carrier-based-collaborative-combat-aircraft/",
-      "published": "Tue, 01 Sep 2026 13:23:27 +0000",
-      "source": "Defense News",
       "categories": [
         "deployment"
       ]
@@ -675,15 +686,6 @@
       "categories": [
         "deployment",
         "conflict"
-      ]
-    },
-    {
-      "title": "US approves possible $800 million military helicopter sale to Iraq",
-      "link": "https://www.defensenews.com/news/your-military/2026/09/01/us-approves-possible-800-million-military-helicopter-sale-to-iraq/",
-      "published": "Tue, 01 Sep 2026 18:14:33 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment"
       ]
     }
   ],
@@ -849,6 +851,26 @@
       ]
     },
     {
+      "title": "Iran war escalation raises concern over civilian death toll",
+      "link": "https://www.defensenews.com/news/your-military/2026/09/03/iran-war-escalation-raises-concern-over-civilian-death-toll/",
+      "published": "Thu, 03 Sep 2026 02:46:53 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
+    },
+    {
+      "title": "Iran war escalation raises concern over civilian death toll",
+      "link": "https://www.militarytimes.com/news/your-military/2026/09/03/iran-war-escalation-raises-concern-over-civilian-death-toll/",
+      "published": "Thu, 03 Sep 2026 02:46:53 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
+    },
+    {
       "title": "GAO Report on Attack Submarine Maintenance Challenges",
       "link": "https://news.usni.org/2026/09/01/gao-report-on-attack-submarine-maintenance-challenges",
       "published": "Tue, 01 Sep 2026 13:37:05 +0000",
@@ -866,41 +888,22 @@
       "categories": [
         "conflict"
       ]
-    },
-    {
-      "title": "Marines Stage Hornet Maritime Strike Package off Japan",
-      "link": "https://news.usni.org/2026/09/01/marines-stage-hornet-maritime-strike-package-off-japan",
-      "published": "Tue, 01 Sep 2026 17:33:02 +0000",
-      "source": "USNI News",
-      "categories": [
-        "conflict"
-      ]
-    },
-    {
-      "title": "US launches new barrage of strikes on Iran around Strait of Hormuz",
-      "link": "https://www.defensenews.com/news/your-military/2026/09/01/us-launches-new-barrage-of-strikes-on-iran-around-strait-of-hormuz/",
-      "published": "Tue, 01 Sep 2026 18:13:45 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
     }
   ],
   "_exercise_news_refs": [],
   "_threat_indicators": {
     "deployment_articles": 17,
-    "conflict_articles": 11,
+    "conflict_articles": 13,
     "exercise_articles": 0,
     "total_articles": 50,
-    "computed_at": "2026-09-03T01:39:25.298447+00:00",
+    "computed_at": "2026-09-03T06:33:42.102084+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[Naval News] Japan’s Record FY2027 Budget Request: Focus on New FFM, ASEV and Submarines",
       "[Task & Purpose] Tracking America’s latest conflict: The Iran war timeline",
       "[Task & Purpose] Army extends 82nd Airborne Division’s Middle East deployment to a full year",
       "[Task & Purpose] Iran, US trade strikes in first fighting in a month",
-      "[Naval News] US Navy Eyes 2028 Installation of SPY-6 Radar on Zumwalt-class Destroyers"
+      "[Defense News] Iran war escalation raises concern over civilian death toll"
     ]
   },
   "ground_intel": {
@@ -911,7 +914,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-09-03T01:39:25.298494+00:00",
+    "last_successful_update": "2026-09-03T06:33:42.102130+00:00",
     "article_count": 50,
     "categorized_count": 24,
     "freshest_source": "Naval News",
