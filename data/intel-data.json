@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-09-03T15:18:33Z",
-  "version": 2799,
+  "generated_utc": "2026-09-03T18:55:45Z",
+  "version": 2800,
   "breaking_alert": "Task & Purpose: Tracking America’s latest conflict: The Iran war timeline",
   "naval_deployments": [
     {
@@ -661,6 +661,15 @@
       ]
     },
     {
+      "title": "Keel laid for first Fleet Solid Support ship as assembly begins at Appledore",
+      "link": "https://www.navalnews.com/naval-news/2026/09/keel-laid-for-first-fleet-solid-support-ship-as-assembly-begins-at-appledore/",
+      "published": "Thu, 03 Sep 2026 15:36:47 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "US Navy Eyes 2028 Installation of SPY-6 Radar on Zumwalt-class Destroyers",
       "link": "https://www.navalnews.com/naval-news/2026/09/us-navy-2028-spy6-radar-zumwalt-destroyers/",
       "published": "Tue, 01 Sep 2026 12:08:53 +0000",
@@ -674,15 +683,6 @@
       "link": "https://taskandpurpose.com/news/navy-chief-longer-deployments/",
       "published": "Tue, 01 Sep 2026 16:36:27 -0400",
       "source": "Task & Purpose",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "US approves possible $800 million military helicopter sale to Iraq",
-      "link": "https://www.defensenews.com/news/your-military/2026/09/01/us-approves-possible-800-million-military-helicopter-sale-to-iraq/",
-      "published": "Tue, 01 Sep 2026 18:14:33 +0000",
-      "source": "Defense News",
       "categories": [
         "deployment"
       ]
@@ -905,7 +905,7 @@
     "conflict_articles": 11,
     "exercise_articles": 1,
     "total_articles": 50,
-    "computed_at": "2026-09-03T15:18:31.819729+00:00",
+    "computed_at": "2026-09-03T18:55:39.882581+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[Task & Purpose] Tracking America’s latest conflict: The Iran war timeline",
@@ -923,7 +923,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-09-03T15:18:31.819771+00:00",
+    "last_successful_update": "2026-09-03T18:55:39.882615+00:00",
     "article_count": 50,
     "categorized_count": 23,
     "freshest_source": "Task & Purpose",
