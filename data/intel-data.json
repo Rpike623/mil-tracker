@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-09-04T06:40:38Z",
-  "version": 2804,
+  "generated_utc": "2026-09-04T11:47:56Z",
+  "version": 2805,
   "breaking_alert": "Task & Purpose: Tracking America’s latest conflict: The Iran war timeline",
   "naval_deployments": [
     {
@@ -670,21 +670,22 @@
       ]
     },
     {
-      "title": "US Navy Eyes 2028 Installation of SPY-6 Radar on Zumwalt-class Destroyers",
-      "link": "https://www.navalnews.com/naval-news/2026/09/us-navy-2028-spy6-radar-zumwalt-destroyers/",
-      "published": "Tue, 01 Sep 2026 12:08:53 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Top Navy officer says sailors should expect ‘longer deployments’ despite 7-month goal",
       "link": "https://taskandpurpose.com/news/navy-chief-longer-deployments/",
       "published": "Tue, 01 Sep 2026 16:36:27 -0400",
       "source": "Task & Purpose",
       "categories": [
         "deployment"
+      ]
+    },
+    {
+      "title": "German Navy Conducts Firing with IAI’s Naval LORA Ballistic Missile",
+      "link": "https://www.navalnews.com/naval-news/2026/09/german-navy-iai-naval-lora-test-firing/",
+      "published": "Wed, 02 Sep 2026 06:50:04 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment",
+        "conflict"
       ]
     }
   ],
@@ -901,11 +902,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 16,
+    "deployment_articles": 13,
     "conflict_articles": 9,
     "exercise_articles": 1,
     "total_articles": 50,
-    "computed_at": "2026-09-04T06:35:57.385531+00:00",
+    "computed_at": "2026-09-04T11:47:54.286795+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[Task & Purpose] Tracking America’s latest conflict: The Iran war timeline",
@@ -923,9 +924,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-09-04T06:35:57.385577+00:00",
+    "last_successful_update": "2026-09-04T11:47:54.286839+00:00",
     "article_count": 50,
-    "categorized_count": 21,
+    "categorized_count": 18,
     "freshest_source": "Task & Purpose",
     "freshest_title": "Tracking America’s latest conflict: The Iran war timeline",
     "freshest_published": "Mon, 31 Aug 2026 08:56:04 -0400"
