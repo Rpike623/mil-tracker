@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-09-04T15:13:38Z",
-  "version": 2806,
-  "breaking_alert": "Task & Purpose: Tracking America’s latest conflict: The Iran war timeline",
+  "generated_utc": "2026-09-04T18:36:23Z",
+  "version": 2807,
+  "breaking_alert": "USNI News: U.S., Iran Trade Strikes in Strait of Hormuz as Both Battle on Social Media",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -594,6 +594,16 @@
   ],
   "_naval_news_refs": [
     {
+      "title": "U.S., Iran Trade Strikes in Strait of Hormuz as Both Battle on Social Media",
+      "link": "https://news.usni.org/2026/09/04/u-s-iran-trade-strikes-in-strait-of-hormuz-as-both-battle-on-social-media",
+      "published": "Fri, 04 Sep 2026 16:33:21 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
+    },
+    {
       "title": "Tracking America’s latest conflict: The Iran war timeline",
       "link": "https://taskandpurpose.com/news/iran-war-timeline/",
       "published": "Mon, 31 Aug 2026 08:56:04 -0400",
@@ -674,15 +684,6 @@
       "link": "https://taskandpurpose.com/news/navy-chief-longer-deployments/",
       "published": "Tue, 01 Sep 2026 16:36:27 -0400",
       "source": "Task & Purpose",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "US Navy RFI Details Plans for Carrier-Based Collaborative Combat Aircraft (CCA)",
-      "link": "https://www.navalnews.com/naval-news/2026/09/us-navy-rfi-carrier-based-collaborative-combat-aircraft-cca/",
-      "published": "Wed, 02 Sep 2026 13:06:20 +0000",
-      "source": "Naval News",
       "categories": [
         "deployment"
       ]
@@ -840,6 +841,16 @@
   },
   "_conflict_news_refs": [
     {
+      "title": "U.S., Iran Trade Strikes in Strait of Hormuz as Both Battle on Social Media",
+      "link": "https://news.usni.org/2026/09/04/u-s-iran-trade-strikes-in-strait-of-hormuz-as-both-battle-on-social-media",
+      "published": "Fri, 04 Sep 2026 16:33:21 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
+    },
+    {
       "title": "Iran, US trade strikes in first fighting in a month",
       "link": "https://taskandpurpose.com/news/us-iran-new-strikes-larak-island-jordan/",
       "published": "Sun, 30 Aug 2026 22:36:04 -0400",
@@ -877,16 +888,6 @@
       "categories": [
         "conflict"
       ]
-    },
-    {
-      "title": "Vance: US probing airstrike that Iran says hit a wedding party",
-      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/09/03/vance-us-probing-airstrike-that-iran-says-hit-a-wedding-party/",
-      "published": "Thu, 03 Sep 2026 21:15:05 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
     }
   ],
   "_exercise_news_refs": [
@@ -901,18 +902,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 12,
+    "deployment_articles": 13,
     "conflict_articles": 7,
     "exercise_articles": 1,
     "total_articles": 50,
-    "computed_at": "2026-09-04T15:13:28.144606+00:00",
+    "computed_at": "2026-09-04T18:36:21.158747+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
+      "[USNI News] U.S., Iran Trade Strikes in Strait of Hormuz as Both Battle on Social Media",
       "[Task & Purpose] Tracking America’s latest conflict: The Iran war timeline",
       "[Task & Purpose] Iran, US trade strikes in first fighting in a month",
       "[Defense News] Iran war escalation raises concern over civilian death toll",
-      "[Naval News] Japan Seeks AARGM-ER to Suppress Enemy Warship Air Defenses",
-      "[Naval News] TKMS Delivers INS Drakon to Israel: Final Dolphin-class Submarine Features New Missile Capability"
+      "[Naval News] Japan Seeks AARGM-ER to Suppress Enemy Warship Air Defenses"
     ]
   },
   "ground_intel": {
@@ -923,12 +924,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-09-04T15:13:28.144650+00:00",
+    "last_successful_update": "2026-09-04T18:36:21.158791+00:00",
     "article_count": 50,
     "categorized_count": 16,
-    "freshest_source": "Task & Purpose",
-    "freshest_title": "Tracking America’s latest conflict: The Iran war timeline",
-    "freshest_published": "Mon, 31 Aug 2026 08:56:04 -0400"
+    "freshest_source": "USNI News",
+    "freshest_title": "U.S., Iran Trade Strikes in Strait of Hormuz as Both Battle on Social Media",
+    "freshest_published": "Fri, 04 Sep 2026 16:33:21 +0000"
   },
   "_firms_hotspots": []
 }
