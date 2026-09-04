@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-09-04T11:47:56Z",
-  "version": 2805,
+  "generated_utc": "2026-09-04T15:13:38Z",
+  "version": 2806,
   "breaking_alert": "Task & Purpose: Tracking America’s latest conflict: The Iran war timeline",
   "naval_deployments": [
     {
@@ -679,13 +679,12 @@
       ]
     },
     {
-      "title": "German Navy Conducts Firing with IAI’s Naval LORA Ballistic Missile",
-      "link": "https://www.navalnews.com/naval-news/2026/09/german-navy-iai-naval-lora-test-firing/",
-      "published": "Wed, 02 Sep 2026 06:50:04 +0000",
+      "title": "US Navy RFI Details Plans for Carrier-Based Collaborative Combat Aircraft (CCA)",
+      "link": "https://www.navalnews.com/naval-news/2026/09/us-navy-rfi-carrier-based-collaborative-combat-aircraft-cca/",
+      "published": "Wed, 02 Sep 2026 13:06:20 +0000",
       "source": "Naval News",
       "categories": [
-        "deployment",
-        "conflict"
+        "deployment"
       ]
     }
   ],
@@ -902,12 +901,12 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 13,
-    "conflict_articles": 9,
+    "deployment_articles": 12,
+    "conflict_articles": 7,
     "exercise_articles": 1,
     "total_articles": 50,
-    "computed_at": "2026-09-04T11:47:54.286795+00:00",
-    "manual_override": "DEFCON_2",
+    "computed_at": "2026-09-04T15:13:28.144606+00:00",
+    "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Task & Purpose] Tracking America’s latest conflict: The Iran war timeline",
       "[Task & Purpose] Iran, US trade strikes in first fighting in a month",
@@ -924,9 +923,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-09-04T11:47:54.286839+00:00",
+    "last_successful_update": "2026-09-04T15:13:28.144650+00:00",
     "article_count": 50,
-    "categorized_count": 18,
+    "categorized_count": 16,
     "freshest_source": "Task & Purpose",
     "freshest_title": "Tracking America’s latest conflict: The Iran war timeline",
     "freshest_published": "Mon, 31 Aug 2026 08:56:04 -0400"
