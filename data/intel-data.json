@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-09-04T21:05:50Z",
-  "version": 2808,
+  "generated_utc": "2026-09-04T23:28:09Z",
+  "version": 2809,
   "breaking_alert": "USNI News: U.S., Iran Trade Strikes in Strait of Hormuz as Both Battle on Social Media",
   "naval_deployments": [
     {
@@ -604,6 +604,16 @@
       ]
     },
     {
+      "title": "Dozens more troops added to tally of wounded in Iran war amid new strikes",
+      "link": "https://taskandpurpose.com/news/iran-war-nearly-800-wounded/",
+      "published": "Fri, 04 Sep 2026 17:13:29 -0400",
+      "source": "Task & Purpose",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
+    },
+    {
       "title": "US Air Force speeds Reaper successor timeline after Iran losses",
       "link": "https://www.defensenews.com/news/your-military/2026/09/04/us-air-force-speeds-reaper-successor-timeline-after-iran-losses/",
       "published": "Fri, 04 Sep 2026 19:27:23 +0000",
@@ -672,15 +682,6 @@
       "link": "https://www.navalnews.com/naval-news/2026/09/us-navy-rfi-carrier-based-collaborative-combat-aircraft-cca/",
       "published": "Wed, 02 Sep 2026 13:06:20 +0000",
       "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "European Union Naval Force Intercepts Suspected Russian Shadow Fleet Tanker",
-      "link": "https://news.usni.org/2026/09/02/european-union-naval-force-intercepts-suspected-russian-shadow-fleet-tanker",
-      "published": "Wed, 02 Sep 2026 16:30:29 +0000",
-      "source": "USNI News",
       "categories": [
         "deployment"
       ]
@@ -848,6 +849,16 @@
       ]
     },
     {
+      "title": "Dozens more troops added to tally of wounded in Iran war amid new strikes",
+      "link": "https://taskandpurpose.com/news/iran-war-nearly-800-wounded/",
+      "published": "Fri, 04 Sep 2026 17:13:29 -0400",
+      "source": "Task & Purpose",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
+    },
+    {
       "title": "TKMS Delivers INS Drakon to Israel: Final Dolphin-class Submarine Features New Missile Capability",
       "link": "https://www.navalnews.com/naval-news/2026/09/tkms-delivers-ins-drakon-to-israel-final-dolphin-class-submarine-features-new-missile-capability/",
       "published": "Thu, 03 Sep 2026 08:41:53 +0000",
@@ -888,18 +899,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 11,
-    "conflict_articles": 4,
+    "deployment_articles": 12,
+    "conflict_articles": 5,
     "exercise_articles": 1,
     "total_articles": 50,
-    "computed_at": "2026-09-04T21:05:35.586251+00:00",
+    "computed_at": "2026-09-04T23:28:06.079158+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[USNI News] U.S., Iran Trade Strikes in Strait of Hormuz as Both Battle on Social Media",
+      "[Task & Purpose] Dozens more troops added to tally of wounded in Iran war amid new strikes",
       "[Defense News] US Air Force speeds Reaper successor timeline after Iran losses",
       "[Military Times] US Air Force speeds Reaper successor timeline after Iran losses",
-      "[Naval News] Japan Seeks AARGM-ER to Suppress Enemy Warship Air Defenses",
-      "[Naval News] TKMS Delivers INS Drakon to Israel: Final Dolphin-class Submarine Features New Missile Capability"
+      "[Naval News] Japan Seeks AARGM-ER to Suppress Enemy Warship Air Defenses"
     ]
   },
   "ground_intel": {
@@ -910,9 +921,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-09-04T21:05:35.586299+00:00",
+    "last_successful_update": "2026-09-04T23:28:06.079196+00:00",
     "article_count": 50,
-    "categorized_count": 14,
+    "categorized_count": 15,
     "freshest_source": "USNI News",
     "freshest_title": "U.S., Iran Trade Strikes in Strait of Hormuz as Both Battle on Social Media",
     "freshest_published": "Fri, 04 Sep 2026 16:33:21 +0000"
