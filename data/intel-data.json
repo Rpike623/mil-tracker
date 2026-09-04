@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-09-04T18:36:23Z",
-  "version": 2807,
+  "generated_utc": "2026-09-04T21:05:50Z",
+  "version": 2808,
   "breaking_alert": "USNI News: U.S., Iran Trade Strikes in Strait of Hormuz as Both Battle on Social Media",
   "naval_deployments": [
     {
@@ -604,32 +604,21 @@
       ]
     },
     {
-      "title": "Tracking America’s latest conflict: The Iran war timeline",
-      "link": "https://taskandpurpose.com/news/iran-war-timeline/",
-      "published": "Mon, 31 Aug 2026 08:56:04 -0400",
-      "source": "Task & Purpose",
+      "title": "US Air Force speeds Reaper successor timeline after Iran losses",
+      "link": "https://www.defensenews.com/news/your-military/2026/09/04/us-air-force-speeds-reaper-successor-timeline-after-iran-losses/",
+      "published": "Fri, 04 Sep 2026 19:27:23 +0000",
+      "source": "Defense News",
       "categories": [
         "deployment"
       ]
     },
     {
-      "title": "Iran, US trade strikes in first fighting in a month",
-      "link": "https://taskandpurpose.com/news/us-iran-new-strikes-larak-island-jordan/",
-      "published": "Sun, 30 Aug 2026 22:36:04 -0400",
-      "source": "Task & Purpose",
+      "title": "US Air Force speeds Reaper successor timeline after Iran losses",
+      "link": "https://www.militarytimes.com/news/your-military/2026/09/04/us-air-force-speeds-reaper-successor-timeline-after-iran-losses/",
+      "published": "Fri, 04 Sep 2026 19:27:23 +0000",
+      "source": "Military Times",
       "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
-      "title": "Iran war escalation raises concern over civilian death toll",
-      "link": "https://www.defensenews.com/news/your-military/2026/09/03/iran-war-escalation-raises-concern-over-civilian-death-toll/",
-      "published": "Thu, 03 Sep 2026 02:46:53 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment",
-        "conflict"
+        "deployment"
       ]
     },
     {
@@ -670,20 +659,28 @@
       ]
     },
     {
-      "title": "Vance: US probing airstrike that Iran says hit a wedding party",
-      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/09/03/vance-us-probing-airstrike-that-iran-says-hit-a-wedding-party/",
-      "published": "Thu, 03 Sep 2026 21:15:05 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
       "title": "Top Navy officer says sailors should expect ‘longer deployments’ despite 7-month goal",
       "link": "https://taskandpurpose.com/news/navy-chief-longer-deployments/",
       "published": "Tue, 01 Sep 2026 16:36:27 -0400",
       "source": "Task & Purpose",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "US Navy RFI Details Plans for Carrier-Based Collaborative Combat Aircraft (CCA)",
+      "link": "https://www.navalnews.com/naval-news/2026/09/us-navy-rfi-carrier-based-collaborative-combat-aircraft-cca/",
+      "published": "Wed, 02 Sep 2026 13:06:20 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "European Union Naval Force Intercepts Suspected Russian Shadow Fleet Tanker",
+      "link": "https://news.usni.org/2026/09/02/european-union-naval-force-intercepts-suspected-russian-shadow-fleet-tanker",
+      "published": "Wed, 02 Sep 2026 16:30:29 +0000",
+      "source": "USNI News",
       "categories": [
         "deployment"
       ]
@@ -851,26 +848,6 @@
       ]
     },
     {
-      "title": "Iran, US trade strikes in first fighting in a month",
-      "link": "https://taskandpurpose.com/news/us-iran-new-strikes-larak-island-jordan/",
-      "published": "Sun, 30 Aug 2026 22:36:04 -0400",
-      "source": "Task & Purpose",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
-      "title": "Iran war escalation raises concern over civilian death toll",
-      "link": "https://www.defensenews.com/news/your-military/2026/09/03/iran-war-escalation-raises-concern-over-civilian-death-toll/",
-      "published": "Thu, 03 Sep 2026 02:46:53 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
       "title": "TKMS Delivers INS Drakon to Israel: Final Dolphin-class Submarine Features New Missile Capability",
       "link": "https://www.navalnews.com/naval-news/2026/09/tkms-delivers-ins-drakon-to-israel-final-dolphin-class-submarine-features-new-missile-capability/",
       "published": "Thu, 03 Sep 2026 08:41:53 +0000",
@@ -888,6 +865,15 @@
       "categories": [
         "conflict"
       ]
+    },
+    {
+      "title": "Japan Plans to Adopt ASM-3ER Anti-Ship Missile for Air-to-Air Role",
+      "link": "https://www.navalnews.com/naval-news/2026/09/japan-plans-to-adopt-asm-3er-anti-ship-missile-for-air-to-air-role/",
+      "published": "Wed, 02 Sep 2026 08:44:40 +0000",
+      "source": "Naval News",
+      "categories": [
+        "conflict"
+      ]
     }
   ],
   "_exercise_news_refs": [
@@ -902,18 +888,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 13,
-    "conflict_articles": 7,
+    "deployment_articles": 11,
+    "conflict_articles": 4,
     "exercise_articles": 1,
     "total_articles": 50,
-    "computed_at": "2026-09-04T18:36:21.158747+00:00",
+    "computed_at": "2026-09-04T21:05:35.586251+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[USNI News] U.S., Iran Trade Strikes in Strait of Hormuz as Both Battle on Social Media",
-      "[Task & Purpose] Tracking America’s latest conflict: The Iran war timeline",
-      "[Task & Purpose] Iran, US trade strikes in first fighting in a month",
-      "[Defense News] Iran war escalation raises concern over civilian death toll",
-      "[Naval News] Japan Seeks AARGM-ER to Suppress Enemy Warship Air Defenses"
+      "[Defense News] US Air Force speeds Reaper successor timeline after Iran losses",
+      "[Military Times] US Air Force speeds Reaper successor timeline after Iran losses",
+      "[Naval News] Japan Seeks AARGM-ER to Suppress Enemy Warship Air Defenses",
+      "[Naval News] TKMS Delivers INS Drakon to Israel: Final Dolphin-class Submarine Features New Missile Capability"
     ]
   },
   "ground_intel": {
@@ -924,9 +910,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-09-04T18:36:21.158791+00:00",
+    "last_successful_update": "2026-09-04T21:05:35.586299+00:00",
     "article_count": 50,
-    "categorized_count": 16,
+    "categorized_count": 14,
     "freshest_source": "USNI News",
     "freshest_title": "U.S., Iran Trade Strikes in Strait of Hormuz as Both Battle on Social Media",
     "freshest_published": "Fri, 04 Sep 2026 16:33:21 +0000"
