@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-09-05T13:38:22Z",
-  "version": 2813,
+  "generated_utc": "2026-09-05T16:19:12Z",
+  "version": 2814,
   "breaking_alert": "USNI News: U.S., Iran Trade Strikes in Strait of Hormuz as Both Battle on Social Media",
   "naval_deployments": [
     {
@@ -632,6 +632,16 @@
       ]
     },
     {
+      "title": "US forces hit three Iranian tankers after carrier attacked",
+      "link": "https://taskandpurpose.com/news/us-hits-three-tankers-strait-hormuz-iran/",
+      "published": "Sat, 05 Sep 2026 11:33:58 -0400",
+      "source": "Task & Purpose",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
+    },
+    {
       "title": "Japan Seeks AARGM-ER to Suppress Enemy Warship Air Defenses",
       "link": "https://www.navalnews.com/naval-news/2026/09/japan-aargm-er-warship-air-defense-anti-ship/",
       "published": "Thu, 03 Sep 2026 07:08:11 +0000",
@@ -673,15 +683,6 @@
       "link": "https://taskandpurpose.com/news/navy-chief-longer-deployments/",
       "published": "Tue, 01 Sep 2026 16:36:27 -0400",
       "source": "Task & Purpose",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "US Navy RFI Details Plans for Carrier-Based Collaborative Combat Aircraft (CCA)",
-      "link": "https://www.navalnews.com/naval-news/2026/09/us-navy-rfi-carrier-based-collaborative-combat-aircraft-cca/",
-      "published": "Wed, 02 Sep 2026 13:06:20 +0000",
-      "source": "Naval News",
       "categories": [
         "deployment"
       ]
@@ -909,12 +910,12 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 12,
-    "conflict_articles": 7,
+    "deployment_articles": 13,
+    "conflict_articles": 8,
     "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-09-05T13:38:19.145362+00:00",
-    "manual_override": "DEFCON_3",
+    "computed_at": "2026-09-05T16:19:10.388362+00:00",
+    "manual_override": "DEFCON_2",
     "breaking_events": [
       "[USNI News] U.S., Iran Trade Strikes in Strait of Hormuz as Both Battle on Social Media",
       "[Task & Purpose] Dozens more troops added to tally of wounded in Iran war amid new strikes",
@@ -931,9 +932,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-09-05T13:38:19.145402+00:00",
+    "last_successful_update": "2026-09-05T16:19:10.388403+00:00",
     "article_count": 50,
-    "categorized_count": 17,
+    "categorized_count": 18,
     "freshest_source": "USNI News",
     "freshest_title": "U.S., Iran Trade Strikes in Strait of Hormuz as Both Battle on Social Media",
     "freshest_published": "Fri, 04 Sep 2026 16:33:21 +0000"
