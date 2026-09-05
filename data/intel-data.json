@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-09-05T06:22:33Z",
-  "version": 2811,
+  "generated_utc": "2026-09-05T11:02:32Z",
+  "version": 2812,
   "breaking_alert": "USNI News: U.S., Iran Trade Strikes in Strait of Hormuz as Both Battle on Social Media",
   "naval_deployments": [
     {
@@ -877,17 +877,27 @@
       ]
     },
     {
-      "title": "TKMS Delivers INS Drakon to Israel: Final Dolphin-class Submarine Features New Missile Capability",
-      "link": "https://www.navalnews.com/naval-news/2026/09/tkms-delivers-ins-drakon-to-israel-final-dolphin-class-submarine-features-new-missile-capability/",
-      "published": "Thu, 03 Sep 2026 08:41:53 +0000",
+      "title": "KONGSBERG StrikeMaster Deploys to Jan Mayen for NATO Arctic Exercise",
+      "link": "https://www.navalnews.com/naval-news/2026/09/kongsberg-strikemaster-jan-mayen-nato-exercise/",
+      "published": "Sat, 05 Sep 2026 07:48:04 +0000",
       "source": "Naval News",
       "categories": [
-        "deployment",
+        "exercise",
         "conflict"
       ]
     }
   ],
   "_exercise_news_refs": [
+    {
+      "title": "KONGSBERG StrikeMaster Deploys to Jan Mayen for NATO Arctic Exercise",
+      "link": "https://www.navalnews.com/naval-news/2026/09/kongsberg-strikemaster-jan-mayen-nato-exercise/",
+      "published": "Sat, 05 Sep 2026 07:48:04 +0000",
+      "source": "Naval News",
+      "categories": [
+        "exercise",
+        "conflict"
+      ]
+    },
     {
       "title": "U.S., U.K. Forces Use Virtual Summer Exercises to Go the Distance",
       "link": "https://news.usni.org/2026/09/03/u-s-u-k-forces-use-virtual-summer-exercises-to-go-the-distance",
@@ -901,9 +911,9 @@
   "_threat_indicators": {
     "deployment_articles": 12,
     "conflict_articles": 7,
-    "exercise_articles": 1,
+    "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-09-05T06:22:31.443557+00:00",
+    "computed_at": "2026-09-05T10:57:51.418300+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[USNI News] U.S., Iran Trade Strikes in Strait of Hormuz as Both Battle on Social Media",
@@ -921,7 +931,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-09-05T06:22:31.443595+00:00",
+    "last_successful_update": "2026-09-05T10:57:51.418343+00:00",
     "article_count": 50,
     "categorized_count": 17,
     "freshest_source": "USNI News",
