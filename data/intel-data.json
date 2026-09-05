@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-09-05T01:34:26Z",
-  "version": 2810,
+  "generated_utc": "2026-09-05T06:22:33Z",
+  "version": 2811,
   "breaking_alert": "USNI News: U.S., Iran Trade Strikes in Strait of Hormuz as Both Battle on Social Media",
   "naval_deployments": [
     {
@@ -859,30 +859,30 @@
       ]
     },
     {
+      "title": "Ukraine asks EU to fund first Patriot missiles buy",
+      "link": "https://www.defensenews.com/news/pentagon-congress/2026/09/05/ukraine-asks-eu-to-fund-first-pac-3-patriot-buy/",
+      "published": "Sat, 05 Sep 2026 04:34:28 +0000",
+      "source": "Defense News",
+      "categories": [
+        "conflict"
+      ]
+    },
+    {
+      "title": "Ukraine asks EU to fund first Patriot missiles buy",
+      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/09/05/ukraine-asks-eu-to-fund-first-pac-3-patriot-buy/",
+      "published": "Sat, 05 Sep 2026 04:34:28 +0000",
+      "source": "Military Times",
+      "categories": [
+        "conflict"
+      ]
+    },
+    {
       "title": "TKMS Delivers INS Drakon to Israel: Final Dolphin-class Submarine Features New Missile Capability",
       "link": "https://www.navalnews.com/naval-news/2026/09/tkms-delivers-ins-drakon-to-israel-final-dolphin-class-submarine-features-new-missile-capability/",
       "published": "Thu, 03 Sep 2026 08:41:53 +0000",
       "source": "Naval News",
       "categories": [
         "deployment",
-        "conflict"
-      ]
-    },
-    {
-      "title": "Report to Congress on the U.S. Army’s Patriot Air and Missile Defense System",
-      "link": "https://news.usni.org/2026/09/03/report-to-congress-on-the-u-s-armys-patriot-air-and-missile-defense-system",
-      "published": "Thu, 03 Sep 2026 13:44:23 +0000",
-      "source": "USNI News",
-      "categories": [
-        "conflict"
-      ]
-    },
-    {
-      "title": "Japan Plans to Adopt ASM-3ER Anti-Ship Missile for Air-to-Air Role",
-      "link": "https://www.navalnews.com/naval-news/2026/09/japan-plans-to-adopt-asm-3er-anti-ship-missile-for-air-to-air-role/",
-      "published": "Wed, 02 Sep 2026 08:44:40 +0000",
-      "source": "Naval News",
-      "categories": [
         "conflict"
       ]
     }
@@ -900,17 +900,17 @@
   ],
   "_threat_indicators": {
     "deployment_articles": 12,
-    "conflict_articles": 5,
+    "conflict_articles": 7,
     "exercise_articles": 1,
     "total_articles": 50,
-    "computed_at": "2026-09-05T01:34:24.045258+00:00",
+    "computed_at": "2026-09-05T06:22:31.443557+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[USNI News] U.S., Iran Trade Strikes in Strait of Hormuz as Both Battle on Social Media",
       "[Task & Purpose] Dozens more troops added to tally of wounded in Iran war amid new strikes",
       "[Defense News] US Air Force speeds Reaper successor timeline after Iran losses",
       "[Military Times] US Air Force speeds Reaper successor timeline after Iran losses",
-      "[Naval News] Japan Seeks AARGM-ER to Suppress Enemy Warship Air Defenses"
+      "[Defense News] Ukraine asks EU to fund first Patriot missiles buy"
     ]
   },
   "ground_intel": {
@@ -921,9 +921,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-09-05T01:34:24.045303+00:00",
+    "last_successful_update": "2026-09-05T06:22:31.443595+00:00",
     "article_count": 50,
-    "categorized_count": 15,
+    "categorized_count": 17,
     "freshest_source": "USNI News",
     "freshest_title": "U.S., Iran Trade Strikes in Strait of Hormuz as Both Battle on Social Media",
     "freshest_published": "Fri, 04 Sep 2026 16:33:21 +0000"
