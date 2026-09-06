@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-09-06T18:41:32Z",
-  "version": 2823,
+  "generated_utc": "2026-09-06T20:54:17Z",
+  "version": 2824,
   "breaking_alert": "USNI News: U.S., Iran Trade Strikes in Strait of Hormuz as Both Battle on Social Media",
   "naval_deployments": [
     {
@@ -679,10 +679,10 @@
       ]
     },
     {
-      "title": "Top Navy officer says sailors should expect ‘longer deployments’ despite 7-month goal",
-      "link": "https://taskandpurpose.com/news/navy-chief-longer-deployments/",
-      "published": "Tue, 01 Sep 2026 16:36:27 -0400",
-      "source": "Task & Purpose",
+      "title": "European Union Naval Force Intercepts Suspected Russian Shadow Fleet Tanker",
+      "link": "https://news.usni.org/2026/09/02/european-union-naval-force-intercepts-suspected-russian-shadow-fleet-tanker",
+      "published": "Wed, 02 Sep 2026 16:30:29 +0000",
+      "source": "USNI News",
       "categories": [
         "deployment"
       ]
@@ -910,11 +910,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 12,
+    "deployment_articles": 11,
     "conflict_articles": 8,
     "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-09-06T18:41:28.679496+00:00",
+    "computed_at": "2026-09-06T20:54:11.790889+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[USNI News] U.S., Iran Trade Strikes in Strait of Hormuz as Both Battle on Social Media",
@@ -932,9 +932,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-09-06T18:41:28.679535+00:00",
+    "last_successful_update": "2026-09-06T20:54:11.790932+00:00",
     "article_count": 50,
-    "categorized_count": 17,
+    "categorized_count": 16,
     "freshest_source": "USNI News",
     "freshest_title": "U.S., Iran Trade Strikes in Strait of Hormuz as Both Battle on Social Media",
     "freshest_published": "Fri, 04 Sep 2026 16:33:21 +0000"
