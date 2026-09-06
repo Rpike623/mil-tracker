@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-09-06T05:17:00Z",
-  "version": 2819,
+  "generated_utc": "2026-09-06T09:45:29Z",
+  "version": 2820,
   "breaking_alert": "USNI News: U.S., Iran Trade Strikes in Strait of Hormuz as Both Battle on Social Media",
   "naval_deployments": [
     {
@@ -914,7 +914,7 @@
     "conflict_articles": 8,
     "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-09-06T05:12:19.695121+00:00",
+    "computed_at": "2026-09-06T09:45:23.454735+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[USNI News] U.S., Iran Trade Strikes in Strait of Hormuz as Both Battle on Social Media",
@@ -932,7 +932,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-09-06T05:12:19.695154+00:00",
+    "last_successful_update": "2026-09-06T09:45:23.454781+00:00",
     "article_count": 50,
     "categorized_count": 18,
     "freshest_source": "USNI News",
