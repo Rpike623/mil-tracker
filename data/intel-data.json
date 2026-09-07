@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-09-07T05:20:25Z",
-  "version": 2827,
+  "generated_utc": "2026-09-07T10:49:48Z",
+  "version": 2828,
   "breaking_alert": "USNI News: U.S., Iran Trade Strikes in Strait of Hormuz as Both Battle on Social Media",
   "naval_deployments": [
     {
@@ -642,15 +642,6 @@
       ]
     },
     {
-      "title": "Japan Seeks AARGM-ER to Suppress Enemy Warship Air Defenses",
-      "link": "https://www.navalnews.com/naval-news/2026/09/japan-aargm-er-warship-air-defense-anti-ship/",
-      "published": "Thu, 03 Sep 2026 07:08:11 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "TKMS Delivers INS Drakon to Israel: Final Dolphin-class Submarine Features New Missile Capability",
       "link": "https://www.navalnews.com/naval-news/2026/09/tkms-delivers-ins-drakon-to-israel-final-dolphin-class-submarine-features-new-missile-capability/",
       "published": "Thu, 03 Sep 2026 08:41:53 +0000",
@@ -682,6 +673,15 @@
       "title": "European Union Naval Force Intercepts Suspected Russian Shadow Fleet Tanker",
       "link": "https://news.usni.org/2026/09/02/european-union-naval-force-intercepts-suspected-russian-shadow-fleet-tanker",
       "published": "Wed, 02 Sep 2026 16:30:29 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "USS Abraham Lincoln Arrives in Thailand For First Port Call in 265 Days",
+      "link": "https://news.usni.org/2026/09/02/uss-abraham-lincoln-arrives-in-thailand-for-first-port-call-in-265-days",
+      "published": "Wed, 02 Sep 2026 17:50:38 +0000",
       "source": "USNI News",
       "categories": [
         "deployment"
@@ -910,11 +910,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 11,
+    "deployment_articles": 10,
     "conflict_articles": 8,
     "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-09-07T05:20:22.078801+00:00",
+    "computed_at": "2026-09-07T10:49:44.654648+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[USNI News] U.S., Iran Trade Strikes in Strait of Hormuz as Both Battle on Social Media",
@@ -932,9 +932,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-09-07T05:20:22.078833+00:00",
+    "last_successful_update": "2026-09-07T10:49:44.654682+00:00",
     "article_count": 50,
-    "categorized_count": 16,
+    "categorized_count": 15,
     "freshest_source": "USNI News",
     "freshest_title": "U.S., Iran Trade Strikes in Strait of Hormuz as Both Battle on Social Media",
     "freshest_published": "Fri, 04 Sep 2026 16:33:21 +0000"
