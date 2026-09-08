@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-09-08T19:01:44Z",
-  "version": 2836,
+  "generated_utc": "2026-09-08T22:04:30Z",
+  "version": 2837,
   "breaking_alert": "USNI News: U.S., Iran Trade Strikes in Strait of Hormuz as Both Battle on Social Media",
   "naval_deployments": [
     {
@@ -623,15 +623,6 @@
       ]
     },
     {
-      "title": "US Air Force speeds Reaper successor timeline after Iran losses",
-      "link": "https://www.militarytimes.com/news/your-military/2026/09/04/us-air-force-speeds-reaper-successor-timeline-after-iran-losses/",
-      "published": "Fri, 04 Sep 2026 19:27:23 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "North Korea Commissions Second Choe Hyon-Class Guided-Missile Destroyer",
       "link": "https://www.navalnews.com/naval-news/2026/09/north-korea-commissions-second-choe-hyon-class-destroyer-kang-kon/",
       "published": "Mon, 07 Sep 2026 14:23:52 +0000",
@@ -649,15 +640,6 @@
       "categories": [
         "deployment",
         "conflict"
-      ]
-    },
-    {
-      "title": "Chinese Destroyer Involved in Fatal Collision Returns to South China Sea",
-      "link": "https://news.usni.org/2026/09/03/chinese-destroyer-involved-in-fatal-collision-returns-to-south-china-sea",
-      "published": "Thu, 03 Sep 2026 19:50:30 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment"
       ]
     },
     {
@@ -683,6 +665,24 @@
       "link": "https://taskandpurpose.com/news/iran-war-timeline/",
       "published": "Tue, 08 Sep 2026 11:15:16 -0400",
       "source": "Task & Purpose",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Guardsman faces felony charges for pulling gun after grooming standards argument",
+      "link": "https://taskandpurpose.com/news/dc-guard-arrest-felony-firearm-charge/",
+      "published": "Tue, 08 Sep 2026 12:51:26 -0400",
+      "source": "Task & Purpose",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Underwater Drone Captured By Iran Matches American Anduril Model",
+      "link": "https://www.navalnews.com/naval-news/2026/09/underwater-drone-captured-by-iran-matches-american-anduril-model/",
+      "published": "Tue, 08 Sep 2026 16:33:11 +0000",
+      "source": "Naval News",
       "categories": [
         "deployment"
       ]
@@ -898,30 +898,21 @@
         "exercise",
         "conflict"
       ]
-    },
-    {
-      "title": "U.S., U.K. Forces Use Virtual Summer Exercises to Go the Distance",
-      "link": "https://news.usni.org/2026/09/03/u-s-u-k-forces-use-virtual-summer-exercises-to-go-the-distance",
-      "published": "Thu, 03 Sep 2026 15:06:33 +0000",
-      "source": "USNI News",
-      "categories": [
-        "exercise"
-      ]
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 14,
-    "conflict_articles": 7,
-    "exercise_articles": 2,
+    "deployment_articles": 12,
+    "conflict_articles": 10,
+    "exercise_articles": 1,
     "total_articles": 50,
-    "computed_at": "2026-09-08T19:01:40.227825+00:00",
-    "manual_override": "DEFCON_3",
+    "computed_at": "2026-09-08T22:04:21.431887+00:00",
+    "manual_override": "DEFCON_2",
     "breaking_events": [
       "[USNI News] U.S., Iran Trade Strikes in Strait of Hormuz as Both Battle on Social Media",
       "[Task & Purpose] Dozens more troops added to tally of wounded in Iran war amid new strikes",
       "[Defense News] US Air Force speeds Reaper successor timeline after Iran losses",
-      "[Military Times] US Air Force speeds Reaper successor timeline after Iran losses",
-      "[Naval News] North Korea Commissions Second Choe Hyon-Class Guided-Missile Destroyer"
+      "[Naval News] North Korea Commissions Second Choe Hyon-Class Guided-Missile Destroyer",
+      "[Defense News] Ukraine asks EU to fund first Patriot missiles buy"
     ]
   },
   "ground_intel": {
@@ -932,7 +923,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-09-08T19:01:40.227870+00:00",
+    "last_successful_update": "2026-09-08T22:04:21.431932+00:00",
     "article_count": 50,
     "categorized_count": 18,
     "freshest_source": "USNI News",
