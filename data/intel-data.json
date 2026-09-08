@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-09-08T06:36:09Z",
-  "version": 2833,
+  "generated_utc": "2026-09-08T11:48:09Z",
+  "version": 2834,
   "breaking_alert": "USNI News: U.S., Iran Trade Strikes in Strait of Hormuz as Both Battle on Social Media",
   "naval_deployments": [
     {
@@ -652,15 +652,6 @@
       ]
     },
     {
-      "title": "Keel laid for first Fleet Solid Support ship as assembly begins at Appledore",
-      "link": "https://www.navalnews.com/naval-news/2026/09/keel-laid-for-first-fleet-solid-support-ship-as-assembly-begins-at-appledore/",
-      "published": "Thu, 03 Sep 2026 15:36:47 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Chinese Destroyer Involved in Fatal Collision Returns to South China Sea",
       "link": "https://news.usni.org/2026/09/03/chinese-destroyer-involved-in-fatal-collision-returns-to-south-china-sea",
       "published": "Thu, 03 Sep 2026 19:50:30 +0000",
@@ -892,11 +883,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 8,
+    "deployment_articles": 7,
     "conflict_articles": 8,
     "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-09-08T06:36:07.144827+00:00",
+    "computed_at": "2026-09-08T11:48:06.411756+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[USNI News] U.S., Iran Trade Strikes in Strait of Hormuz as Both Battle on Social Media",
@@ -914,9 +905,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-09-08T06:36:07.144886+00:00",
+    "last_successful_update": "2026-09-08T11:48:06.411802+00:00",
     "article_count": 50,
-    "categorized_count": 13,
+    "categorized_count": 12,
     "freshest_source": "USNI News",
     "freshest_title": "U.S., Iran Trade Strikes in Strait of Hormuz as Both Battle on Social Media",
     "freshest_published": "Fri, 04 Sep 2026 16:33:21 +0000"
