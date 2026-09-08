@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-09-08T11:48:09Z",
-  "version": 2834,
+  "generated_utc": "2026-09-08T15:26:42Z",
+  "version": 2835,
   "breaking_alert": "USNI News: U.S., Iran Trade Strikes in Strait of Hormuz as Both Battle on Social Media",
   "naval_deployments": [
     {
@@ -659,6 +659,33 @@
       "categories": [
         "deployment"
       ]
+    },
+    {
+      "title": "What the Iran war is teaching the US about air superiority",
+      "link": "https://taskandpurpose.com/tech-tactics/iran-war-air-superiority-air-force/",
+      "published": "Tue, 08 Sep 2026 09:26:42 -0400",
+      "source": "Task & Purpose",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "2 Air Force cargo planes report for boot camp duty",
+      "link": "https://taskandpurpose.com/news/cargo-planes-air-force-boot-camp/",
+      "published": "Tue, 08 Sep 2026 11:05:54 -0400",
+      "source": "Task & Purpose",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Tracking America’s latest conflict: The Iran war timeline",
+      "link": "https://taskandpurpose.com/news/iran-war-timeline/",
+      "published": "Tue, 08 Sep 2026 11:15:16 -0400",
+      "source": "Task & Purpose",
+      "categories": [
+        "deployment"
+      ]
     }
   ],
   "centcom_assets": {
@@ -883,11 +910,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 7,
+    "deployment_articles": 10,
     "conflict_articles": 8,
     "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-09-08T11:48:06.411756+00:00",
+    "computed_at": "2026-09-08T15:26:38.181405+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[USNI News] U.S., Iran Trade Strikes in Strait of Hormuz as Both Battle on Social Media",
@@ -905,9 +932,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-09-08T11:48:06.411802+00:00",
+    "last_successful_update": "2026-09-08T15:26:38.181452+00:00",
     "article_count": 50,
-    "categorized_count": 12,
+    "categorized_count": 15,
     "freshest_source": "USNI News",
     "freshest_title": "U.S., Iran Trade Strikes in Strait of Hormuz as Both Battle on Social Media",
     "freshest_published": "Fri, 04 Sep 2026 16:33:21 +0000"
