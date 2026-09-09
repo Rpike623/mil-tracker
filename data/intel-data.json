@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-09-09T18:03:47Z",
-  "version": 2842,
+  "generated_utc": "2026-09-09T21:18:12Z",
+  "version": 2843,
   "breaking_alert": "Naval News: North Korea Commissions Second Choe Hyon-Class Guided-Missile Destroyer",
   "naval_deployments": [
     {
@@ -676,10 +676,10 @@
       ]
     },
     {
-      "title": "Iran says it captured US submarine drone in Strait of Hormuz",
-      "link": "https://www.militarytimes.com/news/your-military/2026/09/09/iran-says-it-captured-us-submarine-drone-in-strait-of-hormuz/",
-      "published": "Wed, 09 Sep 2026 02:03:19 +0000",
-      "source": "Military Times",
+      "title": "South Korea supercharges defense budget to record levels",
+      "link": "https://www.defensenews.com/global/asia-pacific/2026/09/09/south-korea-supercharges-defense-budget-to-record-levels/",
+      "published": "Wed, 09 Sep 2026 09:23:05 +0000",
+      "source": "Defense News",
       "categories": [
         "deployment"
       ]
@@ -901,7 +901,7 @@
     "conflict_articles": 5,
     "exercise_articles": 1,
     "total_articles": 50,
-    "computed_at": "2026-09-09T18:03:42.323229+00:00",
+    "computed_at": "2026-09-09T21:18:08.268028+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] North Korea Commissions Second Choe Hyon-Class Guided-Missile Destroyer",
@@ -919,7 +919,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-09-09T18:03:42.323296+00:00",
+    "last_successful_update": "2026-09-09T21:18:08.268071+00:00",
     "article_count": 50,
     "categorized_count": 21,
     "freshest_source": "Naval News",
