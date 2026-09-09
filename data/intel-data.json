@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-09-09T10:11:54Z",
-  "version": 2840,
+  "generated_utc": "2026-09-09T14:50:37Z",
+  "version": 2841,
   "breaking_alert": "USNI News: U.S., Iran Trade Strikes in Strait of Hormuz as Both Battle on Social Media",
   "naval_deployments": [
     {
@@ -870,16 +870,6 @@
       ]
     },
     {
-      "title": "KONGSBERG StrikeMaster Deploys to Jan Mayen for NATO Arctic Exercise",
-      "link": "https://www.navalnews.com/naval-news/2026/09/kongsberg-strikemaster-jan-mayen-nato-exercise/",
-      "published": "Sat, 05 Sep 2026 07:48:04 +0000",
-      "source": "Naval News",
-      "categories": [
-        "exercise",
-        "conflict"
-      ]
-    },
-    {
       "title": "US forces hit three Iranian tankers after carrier attacked",
       "link": "https://taskandpurpose.com/news/us-hits-three-tankers-strait-hormuz-iran/",
       "published": "Sat, 05 Sep 2026 11:33:58 -0400",
@@ -888,19 +878,18 @@
         "deployment",
         "conflict"
       ]
+    },
+    {
+      "title": "Marines Help Philippine Armed Forces Develop Strike Plans for BrahMos Anti-Ship Missile",
+      "link": "https://news.usni.org/2026/09/08/marines-help-philippine-armed-forces-develop-strike-plans-for-brahmos-anti-ship-missile",
+      "published": "Tue, 08 Sep 2026 19:13:31 +0000",
+      "source": "USNI News",
+      "categories": [
+        "conflict"
+      ]
     }
   ],
   "_exercise_news_refs": [
-    {
-      "title": "KONGSBERG StrikeMaster Deploys to Jan Mayen for NATO Arctic Exercise",
-      "link": "https://www.navalnews.com/naval-news/2026/09/kongsberg-strikemaster-jan-mayen-nato-exercise/",
-      "published": "Sat, 05 Sep 2026 07:48:04 +0000",
-      "source": "Naval News",
-      "categories": [
-        "exercise",
-        "conflict"
-      ]
-    },
     {
       "title": "US and German Navies Conduct Minelaying Operations During REPMUS 26",
       "link": "https://www.navalnews.com/naval-news/2026/09/us-german-navies-minelaying-repmus-26/",
@@ -912,18 +901,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 15,
-    "conflict_articles": 8,
-    "exercise_articles": 2,
+    "deployment_articles": 16,
+    "conflict_articles": 7,
+    "exercise_articles": 1,
     "total_articles": 50,
-    "computed_at": "2026-09-09T10:11:50.151211+00:00",
-    "manual_override": "DEFCON_2",
+    "computed_at": "2026-09-09T14:50:34.331219+00:00",
+    "manual_override": "DEFCON_3",
     "breaking_events": [
       "[USNI News] U.S., Iran Trade Strikes in Strait of Hormuz as Both Battle on Social Media",
       "[Task & Purpose] Dozens more troops added to tally of wounded in Iran war amid new strikes",
       "[Naval News] North Korea Commissions Second Choe Hyon-Class Guided-Missile Destroyer",
-      "[Naval News] KONGSBERG StrikeMaster Deploys to Jan Mayen for NATO Arctic Exercise",
-      "[Task & Purpose] US forces hit three Iranian tankers after carrier attacked"
+      "[Task & Purpose] US forces hit three Iranian tankers after carrier attacked",
+      "[Task & Purpose] What the Iran war is teaching the US about air superiority"
     ]
   },
   "ground_intel": {
@@ -934,7 +923,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-09-09T10:11:50.151251+00:00",
+    "last_successful_update": "2026-09-09T14:50:34.331255+00:00",
     "article_count": 50,
     "categorized_count": 20,
     "freshest_source": "USNI News",
