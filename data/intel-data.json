@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-09-09T05:25:52Z",
-  "version": 2839,
+  "generated_utc": "2026-09-09T10:11:54Z",
+  "version": 2840,
   "breaking_alert": "USNI News: U.S., Iran Trade Strikes in Strait of Hormuz as Both Battle on Social Media",
   "naval_deployments": [
     {
@@ -614,15 +614,6 @@
       ]
     },
     {
-      "title": "US Air Force speeds Reaper successor timeline after Iran losses",
-      "link": "https://www.defensenews.com/news/your-military/2026/09/04/us-air-force-speeds-reaper-successor-timeline-after-iran-losses/",
-      "published": "Fri, 04 Sep 2026 19:27:23 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "North Korea Commissions Second Choe Hyon-Class Guided-Missile Destroyer",
       "link": "https://www.navalnews.com/naval-news/2026/09/north-korea-commissions-second-choe-hyon-class-destroyer-kang-kon/",
       "published": "Mon, 07 Sep 2026 14:23:52 +0000",
@@ -683,6 +674,15 @@
       "link": "https://www.navalnews.com/naval-news/2026/09/underwater-drone-captured-by-iran-matches-american-anduril-model/",
       "published": "Tue, 08 Sep 2026 16:33:11 +0000",
       "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "North Korea Commissions Second in Class Destroyer",
+      "link": "https://news.usni.org/2026/09/08/north-korea-commissions-second-in-class-destroyer",
+      "published": "Tue, 08 Sep 2026 17:35:18 +0000",
+      "source": "USNI News",
       "categories": [
         "deployment"
       ]
@@ -870,21 +870,22 @@
       ]
     },
     {
-      "title": "Ukraine asks EU to fund first Patriot missiles buy",
-      "link": "https://www.defensenews.com/news/pentagon-congress/2026/09/05/ukraine-asks-eu-to-fund-first-pac-3-patriot-buy/",
-      "published": "Sat, 05 Sep 2026 04:34:28 +0000",
-      "source": "Defense News",
-      "categories": [
-        "conflict"
-      ]
-    },
-    {
       "title": "KONGSBERG StrikeMaster Deploys to Jan Mayen for NATO Arctic Exercise",
       "link": "https://www.navalnews.com/naval-news/2026/09/kongsberg-strikemaster-jan-mayen-nato-exercise/",
       "published": "Sat, 05 Sep 2026 07:48:04 +0000",
       "source": "Naval News",
       "categories": [
         "exercise",
+        "conflict"
+      ]
+    },
+    {
+      "title": "US forces hit three Iranian tankers after carrier attacked",
+      "link": "https://taskandpurpose.com/news/us-hits-three-tankers-strait-hormuz-iran/",
+      "published": "Sat, 05 Sep 2026 11:33:58 -0400",
+      "source": "Task & Purpose",
+      "categories": [
+        "deployment",
         "conflict"
       ]
     }
@@ -899,21 +900,30 @@
         "exercise",
         "conflict"
       ]
+    },
+    {
+      "title": "US and German Navies Conduct Minelaying Operations During REPMUS 26",
+      "link": "https://www.navalnews.com/naval-news/2026/09/us-german-navies-minelaying-repmus-26/",
+      "published": "Wed, 09 Sep 2026 08:32:03 +0000",
+      "source": "Naval News",
+      "categories": [
+        "exercise"
+      ]
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 14,
-    "conflict_articles": 9,
-    "exercise_articles": 1,
+    "deployment_articles": 15,
+    "conflict_articles": 8,
+    "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-09-09T05:25:46.817569+00:00",
+    "computed_at": "2026-09-09T10:11:50.151211+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[USNI News] U.S., Iran Trade Strikes in Strait of Hormuz as Both Battle on Social Media",
       "[Task & Purpose] Dozens more troops added to tally of wounded in Iran war amid new strikes",
-      "[Defense News] US Air Force speeds Reaper successor timeline after Iran losses",
       "[Naval News] North Korea Commissions Second Choe Hyon-Class Guided-Missile Destroyer",
-      "[Defense News] Ukraine asks EU to fund first Patriot missiles buy"
+      "[Naval News] KONGSBERG StrikeMaster Deploys to Jan Mayen for NATO Arctic Exercise",
+      "[Task & Purpose] US forces hit three Iranian tankers after carrier attacked"
     ]
   },
   "ground_intel": {
@@ -924,9 +934,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-09-09T05:25:46.817608+00:00",
+    "last_successful_update": "2026-09-09T10:11:50.151251+00:00",
     "article_count": 50,
-    "categorized_count": 19,
+    "categorized_count": 20,
     "freshest_source": "USNI News",
     "freshest_title": "U.S., Iran Trade Strikes in Strait of Hormuz as Both Battle on Social Media",
     "freshest_published": "Fri, 04 Sep 2026 16:33:21 +0000"
