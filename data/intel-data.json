@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-09-08T22:04:30Z",
-  "version": 2837,
+  "generated_utc": "2026-09-09T00:45:46Z",
+  "version": 2838,
   "breaking_alert": "USNI News: U.S., Iran Trade Strikes in Strait of Hormuz as Both Battle on Social Media",
   "naval_deployments": [
     {
@@ -879,11 +879,12 @@
       ]
     },
     {
-      "title": "Ukraine asks EU to fund first Patriot missiles buy",
-      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/09/05/ukraine-asks-eu-to-fund-first-pac-3-patriot-buy/",
-      "published": "Sat, 05 Sep 2026 04:34:28 +0000",
-      "source": "Military Times",
+      "title": "KONGSBERG StrikeMaster Deploys to Jan Mayen for NATO Arctic Exercise",
+      "link": "https://www.navalnews.com/naval-news/2026/09/kongsberg-strikemaster-jan-mayen-nato-exercise/",
+      "published": "Sat, 05 Sep 2026 07:48:04 +0000",
+      "source": "Naval News",
       "categories": [
+        "exercise",
         "conflict"
       ]
     }
@@ -902,10 +903,10 @@
   ],
   "_threat_indicators": {
     "deployment_articles": 12,
-    "conflict_articles": 10,
+    "conflict_articles": 9,
     "exercise_articles": 1,
     "total_articles": 50,
-    "computed_at": "2026-09-08T22:04:21.431887+00:00",
+    "computed_at": "2026-09-09T00:45:44.585987+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[USNI News] U.S., Iran Trade Strikes in Strait of Hormuz as Both Battle on Social Media",
@@ -923,9 +924,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-09-08T22:04:21.431932+00:00",
+    "last_successful_update": "2026-09-09T00:45:44.586026+00:00",
     "article_count": 50,
-    "categorized_count": 18,
+    "categorized_count": 17,
     "freshest_source": "USNI News",
     "freshest_title": "U.S., Iran Trade Strikes in Strait of Hormuz as Both Battle on Social Media",
     "freshest_published": "Fri, 04 Sep 2026 16:33:21 +0000"
