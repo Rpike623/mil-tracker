@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-09-09T21:18:12Z",
-  "version": 2843,
+  "generated_utc": "2026-09-09T23:34:51Z",
+  "version": 2844,
   "breaking_alert": "Naval News: North Korea Commissions Second Choe Hyon-Class Guided-Missile Destroyer",
   "naval_deployments": [
     {
@@ -901,7 +901,7 @@
     "conflict_articles": 5,
     "exercise_articles": 1,
     "total_articles": 50,
-    "computed_at": "2026-09-09T21:18:08.268028+00:00",
+    "computed_at": "2026-09-09T23:34:47.944273+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] North Korea Commissions Second Choe Hyon-Class Guided-Missile Destroyer",
@@ -919,7 +919,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-09-09T21:18:08.268071+00:00",
+    "last_successful_update": "2026-09-09T23:34:47.944333+00:00",
     "article_count": 50,
     "categorized_count": 21,
     "freshest_source": "Naval News",
