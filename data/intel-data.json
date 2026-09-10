@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-09-10T18:48:39Z",
-  "version": 2849,
+  "generated_utc": "2026-09-10T21:14:51Z",
+  "version": 2850,
   "breaking_alert": "Defense News: NATO allies foil Russian subsea cable sabotage plot",
   "naval_deployments": [
     {
@@ -612,12 +612,23 @@
       ]
     },
     {
-      "title": "What the Iran war is teaching the US about air superiority",
-      "link": "https://taskandpurpose.com/tech-tactics/iran-war-air-superiority-air-force/",
-      "published": "Tue, 08 Sep 2026 09:26:42 -0400",
-      "source": "Task & Purpose",
+      "title": "Iran attack on base in Jordan damaged American military aircraft, US official says",
+      "link": "https://www.defensenews.com/flashpoints/middle-east/2026/09/10/iran-attack-on-base-in-jordan-damaged-american-military-aircraft-us-official-says/",
+      "published": "Thu, 10 Sep 2026 20:22:31 +0000",
+      "source": "Defense News",
       "categories": [
-        "deployment"
+        "deployment",
+        "conflict"
+      ]
+    },
+    {
+      "title": "Iran attack on base in Jordan damaged American military aircraft, US official says",
+      "link": "https://www.militarytimes.com/flashpoints/middle-east/2026/09/10/iran-attack-on-base-in-jordan-damaged-american-military-aircraft-us-official-says/",
+      "published": "Thu, 10 Sep 2026 20:22:31 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment",
+        "conflict"
       ]
     },
     {
@@ -670,15 +681,6 @@
       "link": "https://news.usni.org/2026/09/08/usni-news-fleet-and-marine-tracker-sept-8-2026",
       "published": "Tue, 08 Sep 2026 18:16:40 +0000",
       "source": "USNI News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "DNV and Fassmer to Cooperate on Autonomous Naval Vessels",
-      "link": "https://www.navalnews.com/naval-news/2026/09/dnv-and-fassmer-to-cooperate-on-autonomous-naval-vessels/",
-      "published": "Wed, 09 Sep 2026 09:48:49 +0000",
-      "source": "Naval News",
       "categories": [
         "deployment"
       ]
@@ -855,21 +857,31 @@
       ]
     },
     {
+      "title": "Iran attack on base in Jordan damaged American military aircraft, US official says",
+      "link": "https://www.defensenews.com/flashpoints/middle-east/2026/09/10/iran-attack-on-base-in-jordan-damaged-american-military-aircraft-us-official-says/",
+      "published": "Thu, 10 Sep 2026 20:22:31 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
+    },
+    {
+      "title": "Iran attack on base in Jordan damaged American military aircraft, US official says",
+      "link": "https://www.militarytimes.com/flashpoints/middle-east/2026/09/10/iran-attack-on-base-in-jordan-damaged-american-military-aircraft-us-official-says/",
+      "published": "Thu, 10 Sep 2026 20:22:31 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
+    },
+    {
       "title": "Marines Help Philippine Armed Forces Develop Strike Plans for BrahMos Anti-Ship Missile",
       "link": "https://news.usni.org/2026/09/08/marines-help-philippine-armed-forces-develop-strike-plans-for-brahmos-anti-ship-missile",
       "published": "Tue, 08 Sep 2026 19:13:31 +0000",
       "source": "USNI News",
       "categories": [
-        "conflict"
-      ]
-    },
-    {
-      "title": "Iran and US hit tankers in biggest wave of attacks on shipping since war began",
-      "link": "https://www.defensenews.com/news/your-military/2026/09/09/iran-and-us-hit-tankers-in-biggest-wave-of-attacks-on-shipping-since-war-began/",
-      "published": "Wed, 09 Sep 2026 15:30:08 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment",
         "conflict"
       ]
     }
@@ -905,11 +917,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 15,
-    "conflict_articles": 4,
+    "deployment_articles": 16,
+    "conflict_articles": 6,
     "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-09-10T18:43:58.471356+00:00",
+    "computed_at": "2026-09-10T21:14:49.905806+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Defense News] NATO allies foil Russian subsea cable sabotage plot",
@@ -927,9 +939,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-09-10T18:43:58.471392+00:00",
+    "last_successful_update": "2026-09-10T21:14:49.905850+00:00",
     "article_count": 50,
-    "categorized_count": 20,
+    "categorized_count": 21,
     "freshest_source": "Defense News",
     "freshest_title": "NATO allies foil Russian subsea cable sabotage plot",
     "freshest_published": "Thu, 10 Sep 2026 13:48:21 +0000"
