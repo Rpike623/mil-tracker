@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-09-09T23:34:51Z",
-  "version": 2844,
+  "generated_utc": "2026-09-10T01:39:32Z",
+  "version": 2845,
   "breaking_alert": "Naval News: North Korea Commissions Second Choe Hyon-Class Guided-Missile Destroyer",
   "naval_deployments": [
     {
@@ -856,15 +856,6 @@
       ]
     },
     {
-      "title": "Ukraine contracting around 1,000 Patriot missiles from allies, defense chief says",
-      "link": "https://www.defensenews.com/flashpoints/ukraine/2026/09/08/ukraine-contracting-around-1000-patriot-missiles-from-allies-defense-chief-says/",
-      "published": "Tue, 08 Sep 2026 21:29:19 +0000",
-      "source": "Defense News",
-      "categories": [
-        "conflict"
-      ]
-    },
-    {
       "title": "Iran and US hit tankers in biggest wave of attacks on shipping since war began",
       "link": "https://www.defensenews.com/news/your-military/2026/09/09/iran-and-us-hit-tankers-in-biggest-wave-of-attacks-on-shipping-since-war-began/",
       "published": "Wed, 09 Sep 2026 15:30:08 +0000",
@@ -897,11 +888,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 18,
-    "conflict_articles": 5,
+    "deployment_articles": 19,
+    "conflict_articles": 4,
     "exercise_articles": 1,
     "total_articles": 50,
-    "computed_at": "2026-09-09T23:34:47.944273+00:00",
+    "computed_at": "2026-09-10T01:39:27.528062+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] North Korea Commissions Second Choe Hyon-Class Guided-Missile Destroyer",
@@ -919,7 +910,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-09-09T23:34:47.944333+00:00",
+    "last_successful_update": "2026-09-10T01:39:27.528106+00:00",
     "article_count": 50,
     "categorized_count": 21,
     "freshest_source": "Naval News",
