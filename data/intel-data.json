@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-09-10T06:47:01Z",
-  "version": 2846,
+  "generated_utc": "2026-09-10T11:58:12Z",
+  "version": 2847,
   "breaking_alert": "Naval News: North Korea Commissions Second Choe Hyon-Class Guided-Missile Destroyer",
   "naval_deployments": [
     {
@@ -667,19 +667,19 @@
       ]
     },
     {
-      "title": "Iran says it captured US submarine drone in Strait of Hormuz",
-      "link": "https://www.defensenews.com/news/your-military/2026/09/09/iran-says-it-captured-us-submarine-drone-in-strait-of-hormuz/",
-      "published": "Wed, 09 Sep 2026 02:03:19 +0000",
+      "title": "South Korea supercharges defense budget to record levels",
+      "link": "https://www.defensenews.com/global/asia-pacific/2026/09/09/south-korea-supercharges-defense-budget-to-record-levels/",
+      "published": "Wed, 09 Sep 2026 09:23:05 +0000",
       "source": "Defense News",
       "categories": [
         "deployment"
       ]
     },
     {
-      "title": "South Korea supercharges defense budget to record levels",
-      "link": "https://www.defensenews.com/global/asia-pacific/2026/09/09/south-korea-supercharges-defense-budget-to-record-levels/",
-      "published": "Wed, 09 Sep 2026 09:23:05 +0000",
-      "source": "Defense News",
+      "title": "DNV and Fassmer to Cooperate on Autonomous Naval Vessels",
+      "link": "https://www.navalnews.com/naval-news/2026/09/dnv-and-fassmer-to-cooperate-on-autonomous-naval-vessels/",
+      "published": "Wed, 09 Sep 2026 09:48:49 +0000",
+      "source": "Naval News",
       "categories": [
         "deployment"
       ]
@@ -888,11 +888,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 19,
+    "deployment_articles": 18,
     "conflict_articles": 4,
     "exercise_articles": 1,
     "total_articles": 50,
-    "computed_at": "2026-09-10T06:42:20.398524+00:00",
+    "computed_at": "2026-09-10T11:53:31.213249+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] North Korea Commissions Second Choe Hyon-Class Guided-Missile Destroyer",
@@ -910,9 +910,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-09-10T06:42:20.398568+00:00",
+    "last_successful_update": "2026-09-10T11:53:31.213293+00:00",
     "article_count": 50,
-    "categorized_count": 21,
+    "categorized_count": 20,
     "freshest_source": "Naval News",
     "freshest_title": "North Korea Commissions Second Choe Hyon-Class Guided-Missile Destroyer",
     "freshest_published": "Mon, 07 Sep 2026 14:23:52 +0000"
