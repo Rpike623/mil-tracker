@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-09-10T11:58:12Z",
-  "version": 2847,
-  "breaking_alert": "Naval News: North Korea Commissions Second Choe Hyon-Class Guided-Missile Destroyer",
+  "generated_utc": "2026-09-10T15:17:49Z",
+  "version": 2848,
+  "breaking_alert": "Defense News: NATO allies foil Russian subsea cable sabotage plot",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -594,13 +594,21 @@
   ],
   "_naval_news_refs": [
     {
-      "title": "North Korea Commissions Second Choe Hyon-Class Guided-Missile Destroyer",
-      "link": "https://www.navalnews.com/naval-news/2026/09/north-korea-commissions-second-choe-hyon-class-destroyer-kang-kon/",
-      "published": "Mon, 07 Sep 2026 14:23:52 +0000",
-      "source": "Naval News",
+      "title": "Iran likely to reverse-engineer captured US underwater drone",
+      "link": "https://www.defensenews.com/industry/techwatch/2026/09/10/iran-likely-to-reverse-engineer-captured-us-underwater-drone/",
+      "published": "Thu, 10 Sep 2026 14:26:04 +0000",
+      "source": "Defense News",
       "categories": [
-        "deployment",
-        "conflict"
+        "deployment"
+      ]
+    },
+    {
+      "title": "Iran likely to reverse-engineer captured US underwater drone",
+      "link": "https://www.militarytimes.com/industry/techwatch/2026/09/10/iran-likely-to-reverse-engineer-captured-us-underwater-drone/",
+      "published": "Thu, 10 Sep 2026 14:26:04 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment"
       ]
     },
     {
@@ -662,15 +670,6 @@
       "link": "https://news.usni.org/2026/09/08/usni-news-fleet-and-marine-tracker-sept-8-2026",
       "published": "Tue, 08 Sep 2026 18:16:40 +0000",
       "source": "USNI News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "South Korea supercharges defense budget to record levels",
-      "link": "https://www.defensenews.com/global/asia-pacific/2026/09/09/south-korea-supercharges-defense-budget-to-record-levels/",
-      "published": "Wed, 09 Sep 2026 09:23:05 +0000",
-      "source": "Defense News",
       "categories": [
         "deployment"
       ]
@@ -837,16 +836,6 @@
   },
   "_conflict_news_refs": [
     {
-      "title": "North Korea Commissions Second Choe Hyon-Class Guided-Missile Destroyer",
-      "link": "https://www.navalnews.com/naval-news/2026/09/north-korea-commissions-second-choe-hyon-class-destroyer-kang-kon/",
-      "published": "Mon, 07 Sep 2026 14:23:52 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
       "title": "Marines Help Philippine Armed Forces Develop Strike Plans for BrahMos Anti-Ship Missile",
       "link": "https://news.usni.org/2026/09/08/marines-help-philippine-armed-forces-develop-strike-plans-for-brahmos-anti-ship-missile",
       "published": "Tue, 08 Sep 2026 19:13:31 +0000",
@@ -864,19 +853,18 @@
         "deployment",
         "conflict"
       ]
-    },
-    {
-      "title": "Iran and US hit tankers in biggest wave of attacks on shipping since war began",
-      "link": "https://www.militarytimes.com/news/your-military/2026/09/09/iran-and-us-hit-tankers-in-biggest-wave-of-attacks-on-shipping-since-war-began/",
-      "published": "Wed, 09 Sep 2026 15:30:08 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
     }
   ],
   "_exercise_news_refs": [
+    {
+      "title": "NATO allies foil Russian subsea cable sabotage plot",
+      "link": "https://www.defensenews.com/global/europe/2026/09/10/nato-allies-foil-russian-subsea-cable-sabotage-plot/",
+      "published": "Thu, 10 Sep 2026 13:48:21 +0000",
+      "source": "Defense News",
+      "categories": [
+        "exercise"
+      ]
+    },
     {
       "title": "US and German Navies Conduct Minelaying Operations During REPMUS 26",
       "link": "https://www.navalnews.com/naval-news/2026/09/us-german-navies-minelaying-repmus-26/",
@@ -888,18 +876,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 18,
-    "conflict_articles": 4,
-    "exercise_articles": 1,
+    "deployment_articles": 16,
+    "conflict_articles": 2,
+    "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-09-10T11:53:31.213249+00:00",
+    "computed_at": "2026-09-10T15:17:45.296042+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
-      "[Naval News] North Korea Commissions Second Choe Hyon-Class Guided-Missile Destroyer",
+      "[Defense News] NATO allies foil Russian subsea cable sabotage plot",
+      "[Defense News] Iran likely to reverse-engineer captured US underwater drone",
+      "[Military Times] Iran likely to reverse-engineer captured US underwater drone",
       "[Task & Purpose] What the Iran war is teaching the US about air superiority",
-      "[Task & Purpose] 2 Air Force cargo planes report for boot camp duty",
-      "[Task & Purpose] Tracking America’s latest conflict: The Iran war timeline",
-      "[Task & Purpose] Guardsman faces felony charges for pulling gun after grooming standards argument"
+      "[Task & Purpose] 2 Air Force cargo planes report for boot camp duty"
     ]
   },
   "ground_intel": {
@@ -910,12 +898,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-09-10T11:53:31.213293+00:00",
+    "last_successful_update": "2026-09-10T15:17:45.296082+00:00",
     "article_count": 50,
-    "categorized_count": 20,
-    "freshest_source": "Naval News",
-    "freshest_title": "North Korea Commissions Second Choe Hyon-Class Guided-Missile Destroyer",
-    "freshest_published": "Mon, 07 Sep 2026 14:23:52 +0000"
+    "categorized_count": 19,
+    "freshest_source": "Defense News",
+    "freshest_title": "NATO allies foil Russian subsea cable sabotage plot",
+    "freshest_published": "Thu, 10 Sep 2026 13:48:21 +0000"
   },
   "_firms_hotspots": []
 }
