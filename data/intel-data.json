@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-09-10T15:17:49Z",
-  "version": 2848,
+  "generated_utc": "2026-09-10T18:48:39Z",
+  "version": 2849,
   "breaking_alert": "Defense News: NATO allies foil Russian subsea cable sabotage plot",
   "naval_deployments": [
     {
@@ -836,6 +836,25 @@
   },
   "_conflict_news_refs": [
     {
+      "title": "Sailors, Marines Deploy Long-range Missile Systems to Norway for Drills",
+      "link": "https://news.usni.org/2026/09/10/sailors-marines-deploy-long-range-missile-systems-to-norway-for-drills",
+      "published": "Thu, 10 Sep 2026 16:07:37 +0000",
+      "source": "USNI News",
+      "categories": [
+        "exercise",
+        "conflict"
+      ]
+    },
+    {
+      "title": "3 Killed in Strike on Alleged Drug Boat",
+      "link": "https://news.usni.org/2026/09/10/3-killed-in-strike-on-alleged-drug-boat",
+      "published": "Thu, 10 Sep 2026 17:38:24 +0000",
+      "source": "USNI News",
+      "categories": [
+        "conflict"
+      ]
+    },
+    {
       "title": "Marines Help Philippine Armed Forces Develop Strike Plans for BrahMos Anti-Ship Missile",
       "link": "https://news.usni.org/2026/09/08/marines-help-philippine-armed-forces-develop-strike-plans-for-brahmos-anti-ship-missile",
       "published": "Tue, 08 Sep 2026 19:13:31 +0000",
@@ -866,6 +885,16 @@
       ]
     },
     {
+      "title": "Sailors, Marines Deploy Long-range Missile Systems to Norway for Drills",
+      "link": "https://news.usni.org/2026/09/10/sailors-marines-deploy-long-range-missile-systems-to-norway-for-drills",
+      "published": "Thu, 10 Sep 2026 16:07:37 +0000",
+      "source": "USNI News",
+      "categories": [
+        "exercise",
+        "conflict"
+      ]
+    },
+    {
       "title": "US and German Navies Conduct Minelaying Operations During REPMUS 26",
       "link": "https://www.navalnews.com/naval-news/2026/09/us-german-navies-minelaying-repmus-26/",
       "published": "Wed, 09 Sep 2026 08:32:03 +0000",
@@ -876,18 +905,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 16,
-    "conflict_articles": 2,
-    "exercise_articles": 2,
+    "deployment_articles": 15,
+    "conflict_articles": 4,
+    "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-09-10T15:17:45.296042+00:00",
+    "computed_at": "2026-09-10T18:43:58.471356+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Defense News] NATO allies foil Russian subsea cable sabotage plot",
       "[Defense News] Iran likely to reverse-engineer captured US underwater drone",
       "[Military Times] Iran likely to reverse-engineer captured US underwater drone",
-      "[Task & Purpose] What the Iran war is teaching the US about air superiority",
-      "[Task & Purpose] 2 Air Force cargo planes report for boot camp duty"
+      "[USNI News] Sailors, Marines Deploy Long-range Missile Systems to Norway for Drills",
+      "[USNI News] 3 Killed in Strike on Alleged Drug Boat"
     ]
   },
   "ground_intel": {
@@ -898,9 +927,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-09-10T15:17:45.296082+00:00",
+    "last_successful_update": "2026-09-10T18:43:58.471392+00:00",
     "article_count": 50,
-    "categorized_count": 19,
+    "categorized_count": 20,
     "freshest_source": "Defense News",
     "freshest_title": "NATO allies foil Russian subsea cable sabotage plot",
     "freshest_published": "Thu, 10 Sep 2026 13:48:21 +0000"
