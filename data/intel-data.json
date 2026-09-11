@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-09-11T15:19:37Z",
-  "version": 2855,
+  "generated_utc": "2026-09-11T18:47:29Z",
+  "version": 2856,
   "breaking_alert": "Naval News: EDGE Delivers HT-100 NAVAL VTOL UAV to Angola",
   "naval_deployments": [
     {
@@ -630,19 +630,37 @@
       ]
     },
     {
-      "title": "Iran likely to reverse-engineer captured US underwater drone",
-      "link": "https://www.defensenews.com/industry/techwatch/2026/09/10/iran-likely-to-reverse-engineer-captured-us-underwater-drone/",
-      "published": "Thu, 10 Sep 2026 14:26:04 +0000",
+      "title": "Saudi crown prince sought US military help with Houthis, sources say",
+      "link": "https://www.defensenews.com/news/pentagon-congress/2026/09/11/saudi-crown-prince-sought-us-military-help-with-houthis-sources-say/",
+      "published": "Fri, 11 Sep 2026 16:32:18 +0000",
       "source": "Defense News",
       "categories": [
         "deployment"
       ]
     },
     {
-      "title": "Iran likely to reverse-engineer captured US underwater drone",
-      "link": "https://www.militarytimes.com/industry/techwatch/2026/09/10/iran-likely-to-reverse-engineer-captured-us-underwater-drone/",
-      "published": "Thu, 10 Sep 2026 14:26:04 +0000",
+      "title": "Saudi crown prince sought US military help with Houthis, sources say",
+      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/09/11/saudi-crown-prince-sought-us-military-help-with-houthis-sources-say/",
+      "published": "Fri, 11 Sep 2026 16:32:18 +0000",
       "source": "Military Times",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Iran used Claude to target US Navy in Middle East, Anthropic says",
+      "link": "https://www.militarytimes.com/news/your-navy/2026/09/11/iran-used-claude-to-target-us-navy-in-middle-east-anthropic-says/",
+      "published": "Fri, 11 Sep 2026 17:15:25 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Iran likely to reverse-engineer captured US underwater drone",
+      "link": "https://www.defensenews.com/industry/techwatch/2026/09/10/iran-likely-to-reverse-engineer-captured-us-underwater-drone/",
+      "published": "Thu, 10 Sep 2026 14:26:04 +0000",
+      "source": "Defense News",
       "categories": [
         "deployment"
       ]
@@ -665,24 +683,6 @@
       "categories": [
         "deployment",
         "conflict"
-      ]
-    },
-    {
-      "title": "Guardsman faces felony charges for pulling gun after grooming standards argument",
-      "link": "https://taskandpurpose.com/news/dc-guard-arrest-felony-firearm-charge/",
-      "published": "Tue, 08 Sep 2026 12:51:26 -0400",
-      "source": "Task & Purpose",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "North Korea Commissions Second in Class Destroyer",
-      "link": "https://news.usni.org/2026/09/08/north-korea-commissions-second-in-class-destroyer",
-      "published": "Tue, 08 Sep 2026 17:35:18 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment"
       ]
     }
   ],
@@ -865,26 +865,34 @@
       ]
     },
     {
-      "title": "Sailors, Marines Deploy Long-range Missile Systems to Norway for Drills",
-      "link": "https://news.usni.org/2026/09/10/sailors-marines-deploy-long-range-missile-systems-to-norway-for-drills",
-      "published": "Thu, 10 Sep 2026 16:07:37 +0000",
-      "source": "USNI News",
+      "title": "Americans mark 25 years since September 11 attacks amid enduring grief, reflection",
+      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/09/11/americans-mark-25-years-since-september-11-attacks-amid-enduring-grief-reflection/",
+      "published": "Fri, 11 Sep 2026 17:09:23 +0000",
+      "source": "Military Times",
       "categories": [
-        "exercise",
         "conflict"
       ]
     },
     {
-      "title": "3 Killed in Strike on Alleged Drug Boat",
-      "link": "https://news.usni.org/2026/09/10/3-killed-in-strike-on-alleged-drug-boat",
-      "published": "Thu, 10 Sep 2026 17:38:24 +0000",
-      "source": "USNI News",
+      "title": "Pentagon looks to AI to identify space and missile threats",
+      "link": "https://www.defensenews.com/industry/techwatch/2026/09/11/pentagon-looks-to-ai-to-identify-space-and-missile-threats/",
+      "published": "Fri, 11 Sep 2026 17:38:56 +0000",
+      "source": "Defense News",
       "categories": [
         "conflict"
       ]
     }
   ],
   "_exercise_news_refs": [
+    {
+      "title": "U.S. Special Operations Forces Tap Sea Machines for Vessel Autonomy Kits",
+      "link": "https://www.navalnews.com/naval-news/2026/09/u-s-special-operations-forces-tap-sea-machines-for-vessel-autonomy-kits/",
+      "published": "Fri, 11 Sep 2026 16:55:28 +0000",
+      "source": "Naval News",
+      "categories": [
+        "exercise"
+      ]
+    },
     {
       "title": "NATO allies foil Russian subsea cable sabotage plot",
       "link": "https://www.defensenews.com/global/europe/2026/09/10/nato-allies-foil-russian-subsea-cable-sabotage-plot/",
@@ -906,11 +914,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 16,
-    "conflict_articles": 8,
-    "exercise_articles": 2,
+    "deployment_articles": 17,
+    "conflict_articles": 11,
+    "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-09-11T15:19:32.402140+00:00",
+    "computed_at": "2026-09-11T18:47:27.796696+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[Naval News] EDGE Delivers HT-100 NAVAL VTOL UAV to Angola",
@@ -928,9 +936,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-09-11T15:19:32.402179+00:00",
+    "last_successful_update": "2026-09-11T18:47:27.796745+00:00",
     "article_count": 50,
-    "categorized_count": 23,
+    "categorized_count": 28,
     "freshest_source": "Naval News",
     "freshest_title": "EDGE Delivers HT-100 NAVAL VTOL UAV to Angola",
     "freshest_published": "Fri, 11 Sep 2026 08:01:15 +0000"
