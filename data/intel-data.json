@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-09-11T11:57:07Z",
-  "version": 2854,
+  "generated_utc": "2026-09-11T15:19:37Z",
+  "version": 2855,
   "breaking_alert": "Naval News: EDGE Delivers HT-100 NAVAL VTOL UAV to Angola",
   "naval_deployments": [
     {
@@ -603,6 +603,33 @@
       ]
     },
     {
+      "title": "Why the Air Force tanker fleet is falling apart",
+      "link": "https://taskandpurpose.com/tech-tactics/air-force-tanker-fleet-problems/",
+      "published": "Fri, 11 Sep 2026 09:40:26 -0400",
+      "source": "Task & Purpose",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "US refutes claims that Iran captured Saildrone USV",
+      "link": "https://www.defensenews.com/industry/techwatch/2026/09/11/us-refutes-claims-that-iran-captured-saildrone-usv/",
+      "published": "Fri, 11 Sep 2026 14:18:50 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "US refutes claims that Iran captured Saildrone USV",
+      "link": "https://www.militarytimes.com/industry/techwatch/2026/09/11/us-refutes-claims-that-iran-captured-saildrone-usv/",
+      "published": "Fri, 11 Sep 2026 14:18:50 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "Iran likely to reverse-engineer captured US underwater drone",
       "link": "https://www.defensenews.com/industry/techwatch/2026/09/10/iran-likely-to-reverse-engineer-captured-us-underwater-drone/",
       "published": "Thu, 10 Sep 2026 14:26:04 +0000",
@@ -641,24 +668,6 @@
       ]
     },
     {
-      "title": "2 Air Force cargo planes report for boot camp duty",
-      "link": "https://taskandpurpose.com/news/cargo-planes-air-force-boot-camp/",
-      "published": "Tue, 08 Sep 2026 11:05:54 -0400",
-      "source": "Task & Purpose",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Tracking America’s latest conflict: The Iran war timeline",
-      "link": "https://taskandpurpose.com/news/iran-war-timeline/",
-      "published": "Tue, 08 Sep 2026 11:15:16 -0400",
-      "source": "Task & Purpose",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Guardsman faces felony charges for pulling gun after grooming standards argument",
       "link": "https://taskandpurpose.com/news/dc-guard-arrest-felony-firearm-charge/",
       "published": "Tue, 08 Sep 2026 12:51:26 -0400",
@@ -671,15 +680,6 @@
       "title": "North Korea Commissions Second in Class Destroyer",
       "link": "https://news.usni.org/2026/09/08/north-korea-commissions-second-in-class-destroyer",
       "published": "Tue, 08 Sep 2026 17:35:18 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "USNI News Fleet and Marine Tracker: Sept. 8, 2026",
-      "link": "https://news.usni.org/2026/09/08/usni-news-fleet-and-marine-tracker-sept-8-2026",
-      "published": "Tue, 08 Sep 2026 18:16:40 +0000",
       "source": "USNI News",
       "categories": [
         "deployment"
@@ -847,6 +847,24 @@
       ]
     },
     {
+      "title": "For young Americans, the 9/11 attacks and subsequent wars are history, not memory",
+      "link": "https://www.militarytimes.com/veterans/2026/09/11/for-young-americans-the-911-attacks-and-subsequent-wars-are-history-not-memory/",
+      "published": "Fri, 11 Sep 2026 12:00:00 +0000",
+      "source": "Military Times",
+      "categories": [
+        "conflict"
+      ]
+    },
+    {
+      "title": "German military eyes cruise missiles from Covenant, a surprise vendor setting up shop",
+      "link": "https://www.defensenews.com/global/europe/2026/09/11/german-military-eyes-cruise-missiles-from-covenant-a-surprise-vendor-setting-up-shop/",
+      "published": "Fri, 11 Sep 2026 13:50:55 +0000",
+      "source": "Defense News",
+      "categories": [
+        "conflict"
+      ]
+    },
+    {
       "title": "Sailors, Marines Deploy Long-range Missile Systems to Norway for Drills",
       "link": "https://news.usni.org/2026/09/10/sailors-marines-deploy-long-range-missile-systems-to-norway-for-drills",
       "published": "Thu, 10 Sep 2026 16:07:37 +0000",
@@ -862,26 +880,6 @@
       "published": "Thu, 10 Sep 2026 17:38:24 +0000",
       "source": "USNI News",
       "categories": [
-        "conflict"
-      ]
-    },
-    {
-      "title": "Iran attack on base in Jordan damaged American military aircraft, US official says",
-      "link": "https://www.defensenews.com/flashpoints/middle-east/2026/09/10/iran-attack-on-base-in-jordan-damaged-american-military-aircraft-us-official-says/",
-      "published": "Thu, 10 Sep 2026 20:22:31 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
-      "title": "Iran attack on base in Jordan damaged American military aircraft, US official says",
-      "link": "https://www.militarytimes.com/flashpoints/middle-east/2026/09/10/iran-attack-on-base-in-jordan-damaged-american-military-aircraft-us-official-says/",
-      "published": "Thu, 10 Sep 2026 20:22:31 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment",
         "conflict"
       ]
     }
@@ -905,30 +903,21 @@
         "exercise",
         "conflict"
       ]
-    },
-    {
-      "title": "US and German Navies Conduct Minelaying Operations During REPMUS 26",
-      "link": "https://www.navalnews.com/naval-news/2026/09/us-german-navies-minelaying-repmus-26/",
-      "published": "Wed, 09 Sep 2026 08:32:03 +0000",
-      "source": "Naval News",
-      "categories": [
-        "exercise"
-      ]
     }
   ],
   "_threat_indicators": {
     "deployment_articles": 16,
-    "conflict_articles": 7,
-    "exercise_articles": 3,
+    "conflict_articles": 8,
+    "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-09-11T11:52:26.163619+00:00",
-    "manual_override": "DEFCON_3",
+    "computed_at": "2026-09-11T15:19:32.402140+00:00",
+    "manual_override": "DEFCON_2",
     "breaking_events": [
       "[Naval News] EDGE Delivers HT-100 NAVAL VTOL UAV to Angola",
       "[Naval News] Long Neptune Strike: Ukraine’s New Cruise Missile Cripples Russian Warships in Novorossiysk",
-      "[Defense News] NATO allies foil Russian subsea cable sabotage plot",
-      "[Defense News] Iran likely to reverse-engineer captured US underwater drone",
-      "[Military Times] Iran likely to reverse-engineer captured US underwater drone"
+      "[Task & Purpose] Why the Air Force tanker fleet is falling apart",
+      "[Military Times] For young Americans, the 9/11 attacks and subsequent wars are history, not memory",
+      "[Defense News] German military eyes cruise missiles from Covenant, a surprise vendor setting up shop"
     ]
   },
   "ground_intel": {
@@ -939,9 +928,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-09-11T11:52:26.163664+00:00",
+    "last_successful_update": "2026-09-11T15:19:32.402179+00:00",
     "article_count": 50,
-    "categorized_count": 22,
+    "categorized_count": 23,
     "freshest_source": "Naval News",
     "freshest_title": "EDGE Delivers HT-100 NAVAL VTOL UAV to Angola",
     "freshest_published": "Fri, 11 Sep 2026 08:01:15 +0000"
