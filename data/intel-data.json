@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-09-11T06:41:59Z",
-  "version": 2853,
-  "breaking_alert": "Defense News: NATO allies foil Russian subsea cable sabotage plot",
+  "generated_utc": "2026-09-11T11:57:07Z",
+  "version": 2854,
+  "breaking_alert": "Naval News: EDGE Delivers HT-100 NAVAL VTOL UAV to Angola",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -594,6 +594,15 @@
   ],
   "_naval_news_refs": [
     {
+      "title": "EDGE Delivers HT-100 NAVAL VTOL UAV to Angola",
+      "link": "https://www.navalnews.com/naval-news/2026/09/edge-delivers-ht-100-naval-vtol-uav-to-angola/",
+      "published": "Fri, 11 Sep 2026 08:01:15 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "Iran likely to reverse-engineer captured US underwater drone",
       "link": "https://www.defensenews.com/industry/techwatch/2026/09/10/iran-likely-to-reverse-engineer-captured-us-underwater-drone/",
       "published": "Thu, 10 Sep 2026 14:26:04 +0000",
@@ -654,15 +663,6 @@
       "link": "https://taskandpurpose.com/news/dc-guard-arrest-felony-firearm-charge/",
       "published": "Tue, 08 Sep 2026 12:51:26 -0400",
       "source": "Task & Purpose",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Underwater Drone Captured By Iran Matches American Anduril Model",
-      "link": "https://www.navalnews.com/naval-news/2026/09/underwater-drone-captured-by-iran-matches-american-anduril-model/",
-      "published": "Tue, 08 Sep 2026 16:33:11 +0000",
-      "source": "Naval News",
       "categories": [
         "deployment"
       ]
@@ -838,6 +838,15 @@
   },
   "_conflict_news_refs": [
     {
+      "title": "Long Neptune Strike: Ukraine’s New Cruise Missile Cripples Russian Warships in Novorossiysk",
+      "link": "https://www.navalnews.com/naval-news/2026/09/ukraine-strikes-russian-black-sea-fleet-long-neptune-missiles/",
+      "published": "Fri, 11 Sep 2026 08:28:38 +0000",
+      "source": "Naval News",
+      "categories": [
+        "conflict"
+      ]
+    },
+    {
       "title": "Sailors, Marines Deploy Long-range Missile Systems to Norway for Drills",
       "link": "https://news.usni.org/2026/09/10/sailors-marines-deploy-long-range-missile-systems-to-norway-for-drills",
       "published": "Thu, 10 Sep 2026 16:07:37 +0000",
@@ -875,15 +884,6 @@
         "deployment",
         "conflict"
       ]
-    },
-    {
-      "title": "Marines Help Philippine Armed Forces Develop Strike Plans for BrahMos Anti-Ship Missile",
-      "link": "https://news.usni.org/2026/09/08/marines-help-philippine-armed-forces-develop-strike-plans-for-brahmos-anti-ship-missile",
-      "published": "Tue, 08 Sep 2026 19:13:31 +0000",
-      "source": "USNI News",
-      "categories": [
-        "conflict"
-      ]
     }
   ],
   "_exercise_news_refs": [
@@ -918,17 +918,17 @@
   ],
   "_threat_indicators": {
     "deployment_articles": 16,
-    "conflict_articles": 6,
+    "conflict_articles": 7,
     "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-09-11T06:41:53.346434+00:00",
+    "computed_at": "2026-09-11T11:52:26.163619+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
+      "[Naval News] EDGE Delivers HT-100 NAVAL VTOL UAV to Angola",
+      "[Naval News] Long Neptune Strike: Ukraine’s New Cruise Missile Cripples Russian Warships in Novorossiysk",
       "[Defense News] NATO allies foil Russian subsea cable sabotage plot",
       "[Defense News] Iran likely to reverse-engineer captured US underwater drone",
-      "[Military Times] Iran likely to reverse-engineer captured US underwater drone",
-      "[USNI News] Sailors, Marines Deploy Long-range Missile Systems to Norway for Drills",
-      "[USNI News] 3 Killed in Strike on Alleged Drug Boat"
+      "[Military Times] Iran likely to reverse-engineer captured US underwater drone"
     ]
   },
   "ground_intel": {
@@ -939,12 +939,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-09-11T06:41:53.346474+00:00",
+    "last_successful_update": "2026-09-11T11:52:26.163664+00:00",
     "article_count": 50,
-    "categorized_count": 21,
-    "freshest_source": "Defense News",
-    "freshest_title": "NATO allies foil Russian subsea cable sabotage plot",
-    "freshest_published": "Thu, 10 Sep 2026 13:48:21 +0000"
+    "categorized_count": 22,
+    "freshest_source": "Naval News",
+    "freshest_title": "EDGE Delivers HT-100 NAVAL VTOL UAV to Angola",
+    "freshest_published": "Fri, 11 Sep 2026 08:01:15 +0000"
   },
   "_firms_hotspots": []
 }
