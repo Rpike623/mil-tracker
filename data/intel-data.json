@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-09-11T21:22:54Z",
-  "version": 2857,
+  "generated_utc": "2026-09-11T23:35:45Z",
+  "version": 2858,
   "breaking_alert": "Naval News: EDGE Delivers HT-100 NAVAL VTOL UAV to Angola",
   "naval_deployments": [
     {
@@ -657,7 +657,7 @@
       ]
     },
     {
-      "title": "Soldier awarded Bronze Star with ‘V’ for actions after Iranian drone strike in Kuwait",
+      "title": "Soldier awarded Bronze Star for Valor after Iranian drone attack in Kuwait",
       "link": "https://taskandpurpose.com/news/soldier-bronze-star-kuwait-attack/",
       "published": "Fri, 11 Sep 2026 17:16:21 -0400",
       "source": "Task & Purpose",
@@ -667,22 +667,21 @@
       ]
     },
     {
+      "title": "Houthis Make Moves On Red Sea, U.S., Iran Go Tanker for Warship",
+      "link": "https://news.usni.org/2026/09/11/houthis-make-moves-on-red-sea-u-s-iran-go-tanker-for-warship",
+      "published": "Fri, 11 Sep 2026 21:41:53 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "Iran likely to reverse-engineer captured US underwater drone",
       "link": "https://www.defensenews.com/industry/techwatch/2026/09/10/iran-likely-to-reverse-engineer-captured-us-underwater-drone/",
       "published": "Thu, 10 Sep 2026 14:26:04 +0000",
       "source": "Defense News",
       "categories": [
         "deployment"
-      ]
-    },
-    {
-      "title": "Iran attack on base in Jordan damaged American military aircraft, US official says",
-      "link": "https://www.defensenews.com/flashpoints/middle-east/2026/09/10/iran-attack-on-base-in-jordan-damaged-american-military-aircraft-us-official-says/",
-      "published": "Thu, 10 Sep 2026 20:22:31 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment",
-        "conflict"
       ]
     }
   ],
@@ -874,7 +873,7 @@
       ]
     },
     {
-      "title": "Soldier awarded Bronze Star with ‘V’ for actions after Iranian drone strike in Kuwait",
+      "title": "Soldier awarded Bronze Star for Valor after Iranian drone attack in Kuwait",
       "link": "https://taskandpurpose.com/news/soldier-bronze-star-kuwait-attack/",
       "published": "Fri, 11 Sep 2026 17:16:21 -0400",
       "source": "Task & Purpose",
@@ -916,10 +915,10 @@
   ],
   "_threat_indicators": {
     "deployment_articles": 15,
-    "conflict_articles": 11,
+    "conflict_articles": 10,
     "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-09-11T21:22:52.635932+00:00",
+    "computed_at": "2026-09-11T23:35:39.917171+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[Naval News] EDGE Delivers HT-100 NAVAL VTOL UAV to Angola",
@@ -937,9 +936,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-09-11T21:22:52.635969+00:00",
+    "last_successful_update": "2026-09-11T23:35:39.917216+00:00",
     "article_count": 50,
-    "categorized_count": 26,
+    "categorized_count": 25,
     "freshest_source": "Naval News",
     "freshest_title": "EDGE Delivers HT-100 NAVAL VTOL UAV to Angola",
     "freshest_published": "Fri, 11 Sep 2026 08:01:15 +0000"
