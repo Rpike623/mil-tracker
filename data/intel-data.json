@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-09-12T17:28:24Z",
-  "version": 2863,
+  "generated_utc": "2026-09-12T19:43:58Z",
+  "version": 2864,
   "breaking_alert": "Naval News: EDGE Delivers HT-100 NAVAL VTOL UAV to Angola",
   "naval_deployments": [
     {
@@ -676,10 +676,10 @@
       ]
     },
     {
-      "title": "Iran likely to reverse-engineer captured US underwater drone",
-      "link": "https://www.defensenews.com/industry/techwatch/2026/09/10/iran-likely-to-reverse-engineer-captured-us-underwater-drone/",
-      "published": "Thu, 10 Sep 2026 14:26:04 +0000",
-      "source": "Defense News",
+      "title": "World’s First Naval Drone Duel Results In Ukrainian Success",
+      "link": "https://www.navalnews.com/naval-news/2026/09/worlds-first-naval-drone-duel-results-in-ukrainian-success/",
+      "published": "Sat, 12 Sep 2026 18:30:17 +0000",
+      "source": "Naval News",
       "categories": [
         "deployment"
       ]
@@ -914,11 +914,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 14,
+    "deployment_articles": 15,
     "conflict_articles": 9,
     "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-09-12T17:28:19.731745+00:00",
+    "computed_at": "2026-09-12T19:43:52.864754+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[Naval News] EDGE Delivers HT-100 NAVAL VTOL UAV to Angola",
@@ -936,9 +936,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-09-12T17:28:19.731780+00:00",
+    "last_successful_update": "2026-09-12T19:43:52.864799+00:00",
     "article_count": 50,
-    "categorized_count": 23,
+    "categorized_count": 24,
     "freshest_source": "Naval News",
     "freshest_title": "EDGE Delivers HT-100 NAVAL VTOL UAV to Angola",
     "freshest_published": "Fri, 11 Sep 2026 08:01:15 +0000"
