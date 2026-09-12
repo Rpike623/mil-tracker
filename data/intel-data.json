@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-09-12T11:19:09Z",
-  "version": 2861,
+  "generated_utc": "2026-09-12T14:27:54Z",
+  "version": 2862,
   "breaking_alert": "Naval News: EDGE Delivers HT-100 NAVAL VTOL UAV to Angola",
   "naval_deployments": [
     {
@@ -846,15 +846,6 @@
       ]
     },
     {
-      "title": "For young Americans, the 9/11 attacks and subsequent wars are history, not memory",
-      "link": "https://www.militarytimes.com/veterans/2026/09/11/for-young-americans-the-911-attacks-and-subsequent-wars-are-history-not-memory/",
-      "published": "Fri, 11 Sep 2026 12:00:00 +0000",
-      "source": "Military Times",
-      "categories": [
-        "conflict"
-      ]
-    },
-    {
       "title": "German military eyes cruise missiles from Covenant, a surprise vendor setting up shop",
       "link": "https://www.defensenews.com/global/europe/2026/09/11/german-military-eyes-cruise-missiles-from-covenant-a-surprise-vendor-setting-up-shop/",
       "published": "Fri, 11 Sep 2026 13:50:55 +0000",
@@ -879,6 +870,15 @@
       "source": "Task & Purpose",
       "categories": [
         "deployment",
+        "conflict"
+      ]
+    },
+    {
+      "title": "Pentagon looks to AI to identify space and missile threats",
+      "link": "https://www.defensenews.com/industry/techwatch/2026/09/11/pentagon-looks-to-ai-to-identify-space-and-missile-threats/",
+      "published": "Fri, 11 Sep 2026 17:38:56 +0000",
+      "source": "Defense News",
+      "categories": [
         "conflict"
       ]
     }
@@ -914,18 +914,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 15,
-    "conflict_articles": 10,
+    "deployment_articles": 14,
+    "conflict_articles": 9,
     "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-09-12T11:19:04.335450+00:00",
+    "computed_at": "2026-09-12T14:27:48.445064+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[Naval News] EDGE Delivers HT-100 NAVAL VTOL UAV to Angola",
       "[Naval News] Long Neptune Strike: Ukraine’s New Cruise Missile Cripples Russian Warships in Novorossiysk",
       "[Task & Purpose] Why the Air Force tanker fleet is falling apart",
-      "[Military Times] For young Americans, the 9/11 attacks and subsequent wars are history, not memory",
-      "[Defense News] German military eyes cruise missiles from Covenant, a surprise vendor setting up shop"
+      "[Defense News] German military eyes cruise missiles from Covenant, a surprise vendor setting up shop",
+      "[Defense News] US refutes claims that Iran captured Saildrone USV"
     ]
   },
   "ground_intel": {
@@ -936,9 +936,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-09-12T11:19:04.335494+00:00",
+    "last_successful_update": "2026-09-12T14:27:48.445112+00:00",
     "article_count": 50,
-    "categorized_count": 25,
+    "categorized_count": 23,
     "freshest_source": "Naval News",
     "freshest_title": "EDGE Delivers HT-100 NAVAL VTOL UAV to Angola",
     "freshest_published": "Fri, 11 Sep 2026 08:01:15 +0000"
