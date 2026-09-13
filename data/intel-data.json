@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-09-13T12:22:28Z",
-  "version": 2869,
+  "generated_utc": "2026-09-13T16:40:59Z",
+  "version": 2870,
   "breaking_alert": "Naval News: EDGE Delivers HT-100 NAVAL VTOL UAV to Angola",
   "naval_deployments": [
     {
@@ -914,11 +914,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 16,
+    "deployment_articles": 17,
     "conflict_articles": 9,
     "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-09-13T12:22:25.360339+00:00",
+    "computed_at": "2026-09-13T16:40:56.107710+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[Naval News] EDGE Delivers HT-100 NAVAL VTOL UAV to Angola",
@@ -936,9 +936,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-09-13T12:22:25.360376+00:00",
+    "last_successful_update": "2026-09-13T16:40:56.107750+00:00",
     "article_count": 50,
-    "categorized_count": 25,
+    "categorized_count": 26,
     "freshest_source": "Naval News",
     "freshest_title": "EDGE Delivers HT-100 NAVAL VTOL UAV to Angola",
     "freshest_published": "Fri, 11 Sep 2026 08:01:15 +0000"
