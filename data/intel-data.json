@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-09-14T07:19:43Z",
-  "version": 2875,
+  "generated_utc": "2026-09-14T14:28:21Z",
+  "version": 2876,
   "breaking_alert": "Naval News: EDGE Delivers HT-100 NAVAL VTOL UAV to Angola",
   "naval_deployments": [
     {
@@ -621,15 +621,6 @@
       ]
     },
     {
-      "title": "US refutes claims that Iran captured Saildrone USV",
-      "link": "https://www.militarytimes.com/industry/techwatch/2026/09/11/us-refutes-claims-that-iran-captured-saildrone-usv/",
-      "published": "Fri, 11 Sep 2026 14:18:50 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Saudi crown prince sought US military help with Houthis, sources say",
       "link": "https://www.defensenews.com/news/pentagon-congress/2026/09/11/saudi-crown-prince-sought-us-military-help-with-houthis-sources-say/",
       "published": "Fri, 11 Sep 2026 16:32:18 +0000",
@@ -671,6 +662,15 @@
       "link": "https://news.usni.org/2026/09/11/houthis-make-moves-on-red-sea-u-s-iran-go-tanker-for-warship",
       "published": "Fri, 11 Sep 2026 21:41:53 +0000",
       "source": "USNI News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Tracking America’s latest conflict: The Iran war timeline",
+      "link": "https://taskandpurpose.com/news/iran-war-timeline/",
+      "published": "Mon, 14 Sep 2026 06:38:22 -0400",
+      "source": "Task & Purpose",
       "categories": [
         "deployment"
       ]
@@ -894,15 +894,6 @@
       ]
     },
     {
-      "title": "NATO allies foil Russian subsea cable sabotage plot",
-      "link": "https://www.defensenews.com/global/europe/2026/09/10/nato-allies-foil-russian-subsea-cable-sabotage-plot/",
-      "published": "Thu, 10 Sep 2026 13:48:21 +0000",
-      "source": "Defense News",
-      "categories": [
-        "exercise"
-      ]
-    },
-    {
       "title": "Sailors, Marines Deploy Long-range Missile Systems to Norway for Drills",
       "link": "https://news.usni.org/2026/09/10/sailors-marines-deploy-long-range-missile-systems-to-norway-for-drills",
       "published": "Thu, 10 Sep 2026 16:07:37 +0000",
@@ -915,10 +906,10 @@
   ],
   "_threat_indicators": {
     "deployment_articles": 17,
-    "conflict_articles": 9,
-    "exercise_articles": 3,
+    "conflict_articles": 10,
+    "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-09-14T07:15:02.808962+00:00",
+    "computed_at": "2026-09-14T14:28:15.889068+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[Naval News] EDGE Delivers HT-100 NAVAL VTOL UAV to Angola",
@@ -936,7 +927,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-09-14T07:15:02.809008+00:00",
+    "last_successful_update": "2026-09-14T14:28:15.889106+00:00",
     "article_count": 50,
     "categorized_count": 26,
     "freshest_source": "Naval News",
