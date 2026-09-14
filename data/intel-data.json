@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-09-14T14:28:21Z",
-  "version": 2876,
-  "breaking_alert": "Naval News: EDGE Delivers HT-100 NAVAL VTOL UAV to Angola",
+  "generated_utc": "2026-09-14T19:38:48Z",
+  "version": 2877,
+  "breaking_alert": "Naval News: Long Neptune Strike: Ukraine’s New Cruise Missile Cripples Russian Warships in Novorossiysk",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -594,15 +594,6 @@
   ],
   "_naval_news_refs": [
     {
-      "title": "EDGE Delivers HT-100 NAVAL VTOL UAV to Angola",
-      "link": "https://www.navalnews.com/naval-news/2026/09/edge-delivers-ht-100-naval-vtol-uav-to-angola/",
-      "published": "Fri, 11 Sep 2026 08:01:15 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Why the Air Force tanker fleet is falling apart",
       "link": "https://taskandpurpose.com/tech-tactics/air-force-tanker-fleet-problems/",
       "published": "Fri, 11 Sep 2026 09:40:26 -0400",
@@ -612,37 +603,10 @@
       ]
     },
     {
-      "title": "US refutes claims that Iran captured Saildrone USV",
-      "link": "https://www.defensenews.com/industry/techwatch/2026/09/11/us-refutes-claims-that-iran-captured-saildrone-usv/",
-      "published": "Fri, 11 Sep 2026 14:18:50 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Saudi crown prince sought US military help with Houthis, sources say",
       "link": "https://www.defensenews.com/news/pentagon-congress/2026/09/11/saudi-crown-prince-sought-us-military-help-with-houthis-sources-say/",
       "published": "Fri, 11 Sep 2026 16:32:18 +0000",
       "source": "Defense News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Saudi crown prince sought US military help with Houthis, sources say",
-      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/09/11/saudi-crown-prince-sought-us-military-help-with-houthis-sources-say/",
-      "published": "Fri, 11 Sep 2026 16:32:18 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Iran used Claude to target US Navy in Middle East, Anthropic says",
-      "link": "https://www.militarytimes.com/news/your-navy/2026/09/11/iran-used-claude-to-target-us-navy-in-middle-east-anthropic-says/",
-      "published": "Fri, 11 Sep 2026 17:15:25 +0000",
-      "source": "Military Times",
       "categories": [
         "deployment"
       ]
@@ -676,9 +640,45 @@
       ]
     },
     {
+      "title": "Air Force colonel recounts ‘Dude 44’ rescue that put almost 100 troops inside Iran",
+      "link": "https://taskandpurpose.com/news/f-15e-iran-rescue-interview/",
+      "published": "Mon, 14 Sep 2026 10:44:08 -0400",
+      "source": "Task & Purpose",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "USNI News Fleet and Marine Tracker: Sept. 14, 2026",
+      "link": "https://news.usni.org/2026/09/14/usni-news-fleet-and-marine-tracker-sept-14-2026",
+      "published": "Mon, 14 Sep 2026 19:26:11 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "Last of Air Force’s longest-deployed planes finally gets to retire",
       "link": "https://taskandpurpose.com/news/air-force-ec-130h-retire/",
       "published": "Sat, 12 Sep 2026 16:39:33 -0400",
+      "source": "Task & Purpose",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "World’s First Naval Drone Duel Results In Ukrainian Success",
+      "link": "https://www.navalnews.com/naval-news/2026/09/worlds-first-naval-drone-duel-results-in-ukrainian-success/",
+      "published": "Sat, 12 Sep 2026 18:30:17 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Iran ‘blew the hell out of’ base in Bahrain, acting Navy Secretary admits",
+      "link": "https://taskandpurpose.com/news/navy-base-bahrain-iran-damage/",
+      "published": "Sun, 13 Sep 2026 12:36:15 -0400",
       "source": "Task & Purpose",
       "categories": [
         "deployment"
@@ -846,24 +846,6 @@
       ]
     },
     {
-      "title": "German military eyes cruise missiles from Covenant, a surprise vendor setting up shop",
-      "link": "https://www.defensenews.com/global/europe/2026/09/11/german-military-eyes-cruise-missiles-from-covenant-a-surprise-vendor-setting-up-shop/",
-      "published": "Fri, 11 Sep 2026 13:50:55 +0000",
-      "source": "Defense News",
-      "categories": [
-        "conflict"
-      ]
-    },
-    {
-      "title": "Americans mark 25 years since September 11 attacks amid enduring grief, reflection",
-      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/09/11/americans-mark-25-years-since-september-11-attacks-amid-enduring-grief-reflection/",
-      "published": "Fri, 11 Sep 2026 17:09:23 +0000",
-      "source": "Military Times",
-      "categories": [
-        "conflict"
-      ]
-    },
-    {
       "title": "Soldier awarded Bronze Star for Valor after Iranian drone attack in Kuwait",
       "link": "https://taskandpurpose.com/news/soldier-bronze-star-kuwait-attack/",
       "published": "Fri, 11 Sep 2026 17:16:21 -0400",
@@ -881,6 +863,24 @@
       "categories": [
         "conflict"
       ]
+    },
+    {
+      "title": "Pentagon looks to AI to identify space and missile threats",
+      "link": "https://www.militarytimes.com/industry/techwatch/2026/09/11/pentagon-looks-to-ai-to-identify-space-and-missile-threats/",
+      "published": "Fri, 11 Sep 2026 17:38:56 +0000",
+      "source": "Military Times",
+      "categories": [
+        "conflict"
+      ]
+    },
+    {
+      "title": "Australian Air Force Declares IOC For LRASM And JASSM-ER Air-Launched Strike Missiles",
+      "link": "https://www.navalnews.com/naval-news/2026/09/australian-air-force-declares-ioc-for-lrasm-jassm/",
+      "published": "Mon, 14 Sep 2026 07:23:56 +0000",
+      "source": "Naval News",
+      "categories": [
+        "conflict"
+      ]
     }
   ],
   "_exercise_news_refs": [
@@ -889,6 +889,15 @@
       "link": "https://www.navalnews.com/naval-news/2026/09/u-s-special-operations-forces-tap-sea-machines-for-vessel-autonomy-kits/",
       "published": "Fri, 11 Sep 2026 16:55:28 +0000",
       "source": "Naval News",
+      "categories": [
+        "exercise"
+      ]
+    },
+    {
+      "title": "Polish minister proposes drills near Kaliningrad to draw Russian troops from Ukraine",
+      "link": "https://www.defensenews.com/global/europe/2026/09/14/polish-minister-proposes-drills-near-kaliningrad-to-draw-russian-troops-from-ukraine/",
+      "published": "Mon, 14 Sep 2026 16:06:06 +0000",
+      "source": "Defense News",
       "categories": [
         "exercise"
       ]
@@ -905,18 +914,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 17,
-    "conflict_articles": 10,
-    "exercise_articles": 2,
+    "deployment_articles": 11,
+    "conflict_articles": 8,
+    "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-09-14T14:28:15.889068+00:00",
+    "computed_at": "2026-09-14T19:38:42.905894+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
-      "[Naval News] EDGE Delivers HT-100 NAVAL VTOL UAV to Angola",
       "[Naval News] Long Neptune Strike: Ukraine’s New Cruise Missile Cripples Russian Warships in Novorossiysk",
       "[Task & Purpose] Why the Air Force tanker fleet is falling apart",
-      "[Defense News] German military eyes cruise missiles from Covenant, a surprise vendor setting up shop",
-      "[Defense News] US refutes claims that Iran captured Saildrone USV"
+      "[Defense News] Saudi crown prince sought US military help with Houthis, sources say",
+      "[Naval News] U.S. Special Operations Forces Tap Sea Machines for Vessel Autonomy Kits",
+      "[Task & Purpose] Soldier awarded Bronze Star for Valor after Iranian drone attack in Kuwait"
     ]
   },
   "ground_intel": {
@@ -927,12 +936,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-09-14T14:28:15.889106+00:00",
+    "last_successful_update": "2026-09-14T19:38:42.905939+00:00",
     "article_count": 50,
-    "categorized_count": 26,
+    "categorized_count": 20,
     "freshest_source": "Naval News",
-    "freshest_title": "EDGE Delivers HT-100 NAVAL VTOL UAV to Angola",
-    "freshest_published": "Fri, 11 Sep 2026 08:01:15 +0000"
+    "freshest_title": "Long Neptune Strike: Ukraine’s New Cruise Missile Cripples Russian Warships in Novorossiysk",
+    "freshest_published": "Fri, 11 Sep 2026 08:28:38 +0000"
   },
   "_firms_hotspots": []
 }
