@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-09-15T06:54:39Z",
-  "version": 2880,
+  "generated_utc": "2026-09-15T12:16:23Z",
+  "version": 2881,
   "breaking_alert": "Naval News: U.S. Special Operations Forces Tap Sea Machines for Vessel Autonomy Kits",
   "naval_deployments": [
     {
@@ -895,15 +895,6 @@
       ]
     },
     {
-      "title": "Polish minister proposes drills near Kaliningrad to draw Russian troops from Ukraine",
-      "link": "https://www.defensenews.com/global/europe/2026/09/14/polish-minister-proposes-drills-near-kaliningrad-to-draw-russian-troops-from-ukraine/",
-      "published": "Mon, 14 Sep 2026 16:06:06 +0000",
-      "source": "Defense News",
-      "categories": [
-        "exercise"
-      ]
-    },
-    {
       "title": "Sailors, Marines Deploy Long-range Missile Systems to Norway for Drills",
       "link": "https://news.usni.org/2026/09/10/sailors-marines-deploy-long-range-missile-systems-to-norway-for-drills",
       "published": "Thu, 10 Sep 2026 16:07:37 +0000",
@@ -915,11 +906,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 14,
-    "conflict_articles": 5,
-    "exercise_articles": 3,
+    "deployment_articles": 16,
+    "conflict_articles": 6,
+    "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-09-15T06:49:58.503233+00:00",
+    "computed_at": "2026-09-15T12:16:18.534954+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] U.S. Special Operations Forces Tap Sea Machines for Vessel Autonomy Kits",
@@ -937,9 +928,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-09-15T06:49:58.503279+00:00",
+    "last_successful_update": "2026-09-15T12:16:18.534982+00:00",
     "article_count": 50,
-    "categorized_count": 20,
+    "categorized_count": 22,
     "freshest_source": "Naval News",
     "freshest_title": "U.S. Special Operations Forces Tap Sea Machines for Vessel Autonomy Kits",
     "freshest_published": "Fri, 11 Sep 2026 16:55:28 +0000"
