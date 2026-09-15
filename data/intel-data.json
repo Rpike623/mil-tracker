@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-09-15T20:30:24Z",
-  "version": 2883,
+  "generated_utc": "2026-09-15T23:13:56Z",
+  "version": 2884,
   "breaking_alert": "Naval News: U.S. Special Operations Forces Tap Sea Machines for Vessel Autonomy Kits",
   "naval_deployments": [
     {
@@ -913,11 +913,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 19,
+    "deployment_articles": 21,
     "conflict_articles": 8,
     "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-09-15T20:30:22.693850+00:00",
+    "computed_at": "2026-09-15T23:13:51.462669+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[Naval News] U.S. Special Operations Forces Tap Sea Machines for Vessel Autonomy Kits",
@@ -935,9 +935,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-09-15T20:30:22.693897+00:00",
+    "last_successful_update": "2026-09-15T23:13:51.462715+00:00",
     "article_count": 50,
-    "categorized_count": 25,
+    "categorized_count": 27,
     "freshest_source": "Naval News",
     "freshest_title": "U.S. Special Operations Forces Tap Sea Machines for Vessel Autonomy Kits",
     "freshest_published": "Fri, 11 Sep 2026 16:55:28 +0000"
