@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-09-15T01:01:02Z",
-  "version": 2879,
-  "breaking_alert": "Naval News: Long Neptune Strike: Ukraine’s New Cruise Missile Cripples Russian Warships in Novorossiysk",
+  "generated_utc": "2026-09-15T06:54:39Z",
+  "version": 2880,
+  "breaking_alert": "Naval News: U.S. Special Operations Forces Tap Sea Machines for Vessel Autonomy Kits",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -837,15 +837,6 @@
   },
   "_conflict_news_refs": [
     {
-      "title": "Long Neptune Strike: Ukraine’s New Cruise Missile Cripples Russian Warships in Novorossiysk",
-      "link": "https://www.navalnews.com/naval-news/2026/09/ukraine-strikes-russian-black-sea-fleet-long-neptune-missiles/",
-      "published": "Fri, 11 Sep 2026 08:28:38 +0000",
-      "source": "Naval News",
-      "categories": [
-        "conflict"
-      ]
-    },
-    {
       "title": "Soldier awarded Bronze Star for Valor after Iranian drone attack in Kuwait",
       "link": "https://taskandpurpose.com/news/soldier-bronze-star-kuwait-attack/",
       "published": "Fri, 11 Sep 2026 17:16:21 -0400",
@@ -882,6 +873,15 @@
         "exercise",
         "conflict"
       ]
+    },
+    {
+      "title": "3 Killed in Strike on Alleged Drug Boat",
+      "link": "https://news.usni.org/2026/09/10/3-killed-in-strike-on-alleged-drug-boat",
+      "published": "Thu, 10 Sep 2026 17:38:24 +0000",
+      "source": "USNI News",
+      "categories": [
+        "conflict"
+      ]
     }
   ],
   "_exercise_news_refs": [
@@ -915,18 +915,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 13,
-    "conflict_articles": 6,
+    "deployment_articles": 14,
+    "conflict_articles": 5,
     "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-09-15T01:01:00.396017+00:00",
+    "computed_at": "2026-09-15T06:49:58.503233+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
-      "[Naval News] Long Neptune Strike: Ukraine’s New Cruise Missile Cripples Russian Warships in Novorossiysk",
       "[Naval News] U.S. Special Operations Forces Tap Sea Machines for Vessel Autonomy Kits",
       "[Task & Purpose] Soldier awarded Bronze Star for Valor after Iranian drone attack in Kuwait",
       "[USNI News] Houthis Make Moves On Red Sea, U.S., Iran Go Tanker for Warship",
-      "[Task & Purpose] Tracking America’s latest conflict: The Iran war timeline"
+      "[Task & Purpose] Tracking America’s latest conflict: The Iran war timeline",
+      "[Naval News] Australian Air Force Declares IOC For LRASM And JASSM-ER Air-Launched Strike Missiles"
     ]
   },
   "ground_intel": {
@@ -937,12 +937,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-09-15T01:01:00.396065+00:00",
+    "last_successful_update": "2026-09-15T06:49:58.503279+00:00",
     "article_count": 50,
     "categorized_count": 20,
     "freshest_source": "Naval News",
-    "freshest_title": "Long Neptune Strike: Ukraine’s New Cruise Missile Cripples Russian Warships in Novorossiysk",
-    "freshest_published": "Fri, 11 Sep 2026 08:28:38 +0000"
+    "freshest_title": "U.S. Special Operations Forces Tap Sea Machines for Vessel Autonomy Kits",
+    "freshest_published": "Fri, 11 Sep 2026 16:55:28 +0000"
   },
   "_firms_hotspots": []
 }
