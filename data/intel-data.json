@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-09-15T12:16:23Z",
-  "version": 2881,
+  "generated_utc": "2026-09-15T17:20:42Z",
+  "version": 2882,
   "breaking_alert": "Naval News: U.S. Special Operations Forces Tap Sea Machines for Vessel Autonomy Kits",
   "naval_deployments": [
     {
@@ -594,16 +594,6 @@
   ],
   "_naval_news_refs": [
     {
-      "title": "Soldier awarded Bronze Star for Valor after Iranian drone attack in Kuwait",
-      "link": "https://taskandpurpose.com/news/soldier-bronze-star-kuwait-attack/",
-      "published": "Fri, 11 Sep 2026 17:16:21 -0400",
-      "source": "Task & Purpose",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
       "title": "Houthis Make Moves On Red Sea, U.S., Iran Go Tanker for Warship",
       "link": "https://news.usni.org/2026/09/11/houthis-make-moves-on-red-sea-u-s-iran-go-tanker-for-warship",
       "published": "Fri, 11 Sep 2026 21:41:53 +0000",
@@ -640,46 +630,55 @@
       ]
     },
     {
-      "title": "Lockheed to build 4 more Vectis drones, 2027 first flight remains on target",
-      "link": "https://www.defensenews.com/industry/techwatch/2026/09/14/lockheed-to-build-4-more-vectis-drones-2027-first-flight-remains-on-target/",
-      "published": "Mon, 14 Sep 2026 19:45:40 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Lockheed to build 4 more Vectis drones, 2027 first flight remains on target",
-      "link": "https://www.militarytimes.com/industry/techwatch/2026/09/14/lockheed-to-build-4-more-vectis-drones-2027-first-flight-remains-on-target/",
-      "published": "Mon, 14 Sep 2026 19:45:40 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "US Air Force secretary reveals deployment of on-orbit space control weapons",
-      "link": "https://www.defensenews.com/news/your-military/2026/09/14/us-air-force-secretary-reveals-deployment-of-on-orbit-space-control-weapons/",
-      "published": "Mon, 14 Sep 2026 22:25:28 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "US Air Force secretary reveals deployment of on-orbit space control weapons",
-      "link": "https://www.militarytimes.com/news/your-military/2026/09/14/us-air-force-secretary-reveals-deployment-of-on-orbit-space-control-weapons/",
-      "published": "Mon, 14 Sep 2026 22:25:28 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Houthis, Yemen Fighting Continues, Saudi Arabia Faces Pipeline Challenges",
       "link": "https://news.usni.org/2026/09/14/houthis-yemen-fighting-continues-saudi-arabia-faces-pipeline-challenges",
       "published": "Mon, 14 Sep 2026 22:32:31 +0000",
       "source": "USNI News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Last of Air Force’s longest-deployed planes finally gets to retire",
+      "link": "https://taskandpurpose.com/news/air-force-ec-130h-retire/",
+      "published": "Sat, 12 Sep 2026 16:39:33 -0400",
+      "source": "Task & Purpose",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "World’s First Naval Drone Duel Results In Ukrainian Success",
+      "link": "https://www.navalnews.com/naval-news/2026/09/worlds-first-naval-drone-duel-results-in-ukrainian-success/",
+      "published": "Sat, 12 Sep 2026 18:30:17 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Iran ‘blew the hell out of’ base in Bahrain, acting Navy Secretary admits",
+      "link": "https://taskandpurpose.com/news/navy-base-bahrain-iran-damage/",
+      "published": "Sun, 13 Sep 2026 12:36:15 -0400",
+      "source": "Task & Purpose",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Japan’s Defense Minister: Nuclear-Powered Submarines Will Not Be Ruled Out",
+      "link": "https://www.navalnews.com/naval-news/2026/09/japan-defense-minister-nuclear-powered-submarines/",
+      "published": "Tue, 15 Sep 2026 05:54:36 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Destroyer named for Navy Corpsman who earned Medal of Honor hits milestone",
+      "link": "https://taskandpurpose.com/news/corpsman-john-kilmer-medal-of-honor/",
+      "published": "Tue, 15 Sep 2026 08:00:00 -0400",
+      "source": "Task & Purpose",
       "categories": [
         "deployment"
       ]
@@ -837,16 +836,6 @@
   },
   "_conflict_news_refs": [
     {
-      "title": "Soldier awarded Bronze Star for Valor after Iranian drone attack in Kuwait",
-      "link": "https://taskandpurpose.com/news/soldier-bronze-star-kuwait-attack/",
-      "published": "Fri, 11 Sep 2026 17:16:21 -0400",
-      "source": "Task & Purpose",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
       "title": "Australian Air Force Declares IOC For LRASM And JASSM-ER Air-Launched Strike Missiles",
       "link": "https://www.navalnews.com/naval-news/2026/09/australian-air-force-declares-ioc-for-lrasm-jassm/",
       "published": "Mon, 14 Sep 2026 07:23:56 +0000",
@@ -865,21 +854,30 @@
       ]
     },
     {
-      "title": "Sailors, Marines Deploy Long-range Missile Systems to Norway for Drills",
-      "link": "https://news.usni.org/2026/09/10/sailors-marines-deploy-long-range-missile-systems-to-norway-for-drills",
-      "published": "Thu, 10 Sep 2026 16:07:37 +0000",
-      "source": "USNI News",
-      "categories": [
-        "exercise",
-        "conflict"
-      ]
-    },
-    {
       "title": "3 Killed in Strike on Alleged Drug Boat",
       "link": "https://news.usni.org/2026/09/10/3-killed-in-strike-on-alleged-drug-boat",
       "published": "Thu, 10 Sep 2026 17:38:24 +0000",
       "source": "USNI News",
       "categories": [
+        "conflict"
+      ]
+    },
+    {
+      "title": "France experiments with smaller tank units to evade drone attacks",
+      "link": "https://www.defensenews.com/global/europe/2026/09/15/france-experiments-with-smaller-tank-units-to-evade-drone-attacks/",
+      "published": "Tue, 15 Sep 2026 09:24:22 +0000",
+      "source": "Defense News",
+      "categories": [
+        "conflict"
+      ]
+    },
+    {
+      "title": "Former service members admit to dealing fentanyl that killed USS Abraham Lincoln sailor",
+      "link": "https://www.militarytimes.com/news/your-navy/2026/09/15/former-service-members-admit-to-dealing-fentanyl-that-killed-uss-abraham-lincoln-sailor/",
+      "published": "Tue, 15 Sep 2026 16:02:11 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment",
         "conflict"
       ]
     }
@@ -895,29 +893,37 @@
       ]
     },
     {
-      "title": "Sailors, Marines Deploy Long-range Missile Systems to Norway for Drills",
-      "link": "https://news.usni.org/2026/09/10/sailors-marines-deploy-long-range-missile-systems-to-norway-for-drills",
-      "published": "Thu, 10 Sep 2026 16:07:37 +0000",
-      "source": "USNI News",
+      "title": "The Pentagon classified the mission statement for Operation Epic Fury",
+      "link": "https://taskandpurpose.com/news/pentagon-iran-war-epic-fury-classified/",
+      "published": "Tue, 15 Sep 2026 12:55:45 -0400",
+      "source": "Task & Purpose",
       "categories": [
-        "exercise",
-        "conflict"
+        "exercise"
+      ]
+    },
+    {
+      "title": "Italian NATO jet downs drone in Lithuania, minister says it probably came from Russia",
+      "link": "https://www.defensenews.com/global/europe/2026/09/15/italian-nato-jet-downs-drone-in-lithuania-minister-says-it-probably-came-from-russia/",
+      "published": "Tue, 15 Sep 2026 15:35:13 +0000",
+      "source": "Defense News",
+      "categories": [
+        "exercise"
       ]
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 16,
+    "deployment_articles": 14,
     "conflict_articles": 6,
-    "exercise_articles": 2,
+    "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-09-15T12:16:18.534954+00:00",
+    "computed_at": "2026-09-15T17:20:38.690026+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] U.S. Special Operations Forces Tap Sea Machines for Vessel Autonomy Kits",
-      "[Task & Purpose] Soldier awarded Bronze Star for Valor after Iranian drone attack in Kuwait",
       "[USNI News] Houthis Make Moves On Red Sea, U.S., Iran Go Tanker for Warship",
       "[Task & Purpose] Tracking America’s latest conflict: The Iran war timeline",
-      "[Naval News] Australian Air Force Declares IOC For LRASM And JASSM-ER Air-Launched Strike Missiles"
+      "[Naval News] Australian Air Force Declares IOC For LRASM And JASSM-ER Air-Launched Strike Missiles",
+      "[Task & Purpose] Air Force colonel recounts ‘Dude 44’ rescue that put almost 100 troops inside Iran"
     ]
   },
   "ground_intel": {
@@ -928,7 +934,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-09-15T12:16:18.534982+00:00",
+    "last_successful_update": "2026-09-15T17:20:38.690059+00:00",
     "article_count": 50,
     "categorized_count": 22,
     "freshest_source": "Naval News",
