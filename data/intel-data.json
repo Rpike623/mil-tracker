@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-09-15T17:20:42Z",
-  "version": 2882,
+  "generated_utc": "2026-09-15T20:30:24Z",
+  "version": 2883,
   "breaking_alert": "Naval News: U.S. Special Operations Forces Tap Sea Machines for Vessel Autonomy Kits",
   "naval_deployments": [
     {
@@ -854,28 +854,29 @@
       ]
     },
     {
-      "title": "3 Killed in Strike on Alleged Drug Boat",
-      "link": "https://news.usni.org/2026/09/10/3-killed-in-strike-on-alleged-drug-boat",
-      "published": "Thu, 10 Sep 2026 17:38:24 +0000",
-      "source": "USNI News",
+      "title": "Former service members admit to dealing fentanyl that killed USS Abraham Lincoln sailor",
+      "link": "https://www.militarytimes.com/news/your-navy/2026/09/15/former-service-members-admit-to-dealing-fentanyl-that-killed-uss-abraham-lincoln-sailor/",
+      "published": "Tue, 15 Sep 2026 16:02:11 +0000",
+      "source": "Military Times",
       "categories": [
+        "deployment",
         "conflict"
       ]
     },
     {
-      "title": "France experiments with smaller tank units to evade drone attacks",
-      "link": "https://www.defensenews.com/global/europe/2026/09/15/france-experiments-with-smaller-tank-units-to-evade-drone-attacks/",
-      "published": "Tue, 15 Sep 2026 09:24:22 +0000",
+      "title": "Ukraine launches offensive push in north of Donetsk region, senior commander says",
+      "link": "https://www.defensenews.com/global/europe/2026/09/15/ukraine-launches-offensive-push-in-north-of-donetsk-region-senior-commander-says/",
+      "published": "Tue, 15 Sep 2026 16:17:46 +0000",
       "source": "Defense News",
       "categories": [
         "conflict"
       ]
     },
     {
-      "title": "Former service members admit to dealing fentanyl that killed USS Abraham Lincoln sailor",
-      "link": "https://www.militarytimes.com/news/your-navy/2026/09/15/former-service-members-admit-to-dealing-fentanyl-that-killed-uss-abraham-lincoln-sailor/",
-      "published": "Tue, 15 Sep 2026 16:02:11 +0000",
-      "source": "Military Times",
+      "title": "Iranian strikes damaged hundreds of US military buildings, dozens of aircraft",
+      "link": "https://www.defensenews.com/news/pentagon-congress/2026/09/15/iranian-strikes-damaged-hundreds-of-us-military-buildings-dozens-of-aircraft/",
+      "published": "Tue, 15 Sep 2026 19:06:38 +0000",
+      "source": "Defense News",
       "categories": [
         "deployment",
         "conflict"
@@ -912,12 +913,12 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 14,
-    "conflict_articles": 6,
+    "deployment_articles": 19,
+    "conflict_articles": 8,
     "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-09-15T17:20:38.690026+00:00",
-    "manual_override": "DEFCON_3",
+    "computed_at": "2026-09-15T20:30:22.693850+00:00",
+    "manual_override": "DEFCON_2",
     "breaking_events": [
       "[Naval News] U.S. Special Operations Forces Tap Sea Machines for Vessel Autonomy Kits",
       "[USNI News] Houthis Make Moves On Red Sea, U.S., Iran Go Tanker for Warship",
@@ -934,9 +935,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-09-15T17:20:38.690059+00:00",
+    "last_successful_update": "2026-09-15T20:30:22.693897+00:00",
     "article_count": 50,
-    "categorized_count": 22,
+    "categorized_count": 25,
     "freshest_source": "Naval News",
     "freshest_title": "U.S. Special Operations Forces Tap Sea Machines for Vessel Autonomy Kits",
     "freshest_published": "Fri, 11 Sep 2026 16:55:28 +0000"
