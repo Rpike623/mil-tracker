@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-09-16T12:15:22Z",
-  "version": 2887,
-  "breaking_alert": "USNI News: Houthis Make Moves On Red Sea, U.S., Iran Go Tanker for Warship",
+  "generated_utc": "2026-09-16T17:19:50Z",
+  "version": 2888,
+  "breaking_alert": "Task & Purpose: Tracking America’s latest conflict: The Iran war timeline",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -594,15 +594,6 @@
   ],
   "_naval_news_refs": [
     {
-      "title": "Houthis Make Moves On Red Sea, U.S., Iran Go Tanker for Warship",
-      "link": "https://news.usni.org/2026/09/11/houthis-make-moves-on-red-sea-u-s-iran-go-tanker-for-warship",
-      "published": "Fri, 11 Sep 2026 21:41:53 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Tracking America’s latest conflict: The Iran war timeline",
       "link": "https://taskandpurpose.com/news/iran-war-timeline/",
       "published": "Mon, 14 Sep 2026 06:38:22 -0400",
@@ -679,6 +670,15 @@
       "link": "https://www.navalnews.com/naval-news/2026/09/chinas-new-giant-submarine-drone-mothership/",
       "published": "Tue, 15 Sep 2026 08:29:00 +0000",
       "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Carrier USS Abraham Lincoln Operates with Australians in the South China Sea",
+      "link": "https://news.usni.org/2026/09/15/carrier-uss-abraham-lincoln-operates-with-australians-in-the-south-china-sea",
+      "published": "Tue, 15 Sep 2026 18:09:08 +0000",
+      "source": "USNI News",
       "categories": [
         "deployment"
       ]
@@ -845,25 +845,6 @@
       ]
     },
     {
-      "title": "Former service members admit to dealing fentanyl that killed USS Abraham Lincoln sailor",
-      "link": "https://www.militarytimes.com/news/your-navy/2026/09/15/former-service-members-admit-to-dealing-fentanyl-that-killed-uss-abraham-lincoln-sailor/",
-      "published": "Tue, 15 Sep 2026 16:02:11 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
-      "title": "Ukraine launches offensive push in north of Donetsk region, senior commander says",
-      "link": "https://www.defensenews.com/global/europe/2026/09/15/ukraine-launches-offensive-push-in-north-of-donetsk-region-senior-commander-says/",
-      "published": "Tue, 15 Sep 2026 16:17:46 +0000",
-      "source": "Defense News",
-      "categories": [
-        "conflict"
-      ]
-    },
-    {
       "title": "Iranian strikes damaged hundreds of US military buildings, dozens of aircraft",
       "link": "https://www.defensenews.com/news/pentagon-congress/2026/09/15/iranian-strikes-damaged-hundreds-of-us-military-buildings-dozens-of-aircraft/",
       "published": "Tue, 15 Sep 2026 19:06:38 +0000",
@@ -882,6 +863,26 @@
         "deployment",
         "conflict"
       ]
+    },
+    {
+      "title": "Iran war has cost $38 billion, depleted two-thirds of US missile interceptors, CBO says",
+      "link": "https://www.defensenews.com/news/your-military/2026/09/15/iran-war-has-cost-38-billion-depleted-two-thirds-of-us-missile-interceptors-cbo-says/",
+      "published": "Tue, 15 Sep 2026 19:52:56 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
+    },
+    {
+      "title": "Iran war has cost $38 billion, depleted two-thirds of US missile interceptors, CBO says",
+      "link": "https://www.militarytimes.com/news/your-military/2026/09/15/iran-war-has-cost-38-billion-depleted-two-thirds-of-us-missile-interceptors-cbo-says/",
+      "published": "Tue, 15 Sep 2026 19:52:56 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
     }
   ],
   "_exercise_news_refs": [
@@ -895,15 +896,6 @@
       ]
     },
     {
-      "title": "Italian NATO jet downs drone in Lithuania, minister says it probably came from Russia",
-      "link": "https://www.defensenews.com/global/europe/2026/09/15/italian-nato-jet-downs-drone-in-lithuania-minister-says-it-probably-came-from-russia/",
-      "published": "Tue, 15 Sep 2026 15:35:13 +0000",
-      "source": "Defense News",
-      "categories": [
-        "exercise"
-      ]
-    },
-    {
       "title": "Implications of the Hangor-class for Pakistan’s operational naval posture and strategic sovereignty",
       "link": "https://www.navalnews.com/features/2026/09/pakistans-hangor-class-and-naval-strategic-souvereignty/",
       "published": "Wed, 16 Sep 2026 08:28:16 +0000",
@@ -912,21 +904,30 @@
         "deployment",
         "exercise"
       ]
+    },
+    {
+      "title": "Pentagon Inspector General Report on Operation Epic Fury",
+      "link": "https://news.usni.org/2026/09/16/pentagon-inspector-general-report-on-operation-epic-fury",
+      "published": "Wed, 16 Sep 2026 13:32:38 +0000",
+      "source": "USNI News",
+      "categories": [
+        "exercise"
+      ]
     }
   ],
   "_threat_indicators": {
     "deployment_articles": 22,
-    "conflict_articles": 8,
+    "conflict_articles": 11,
     "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-09-16T12:15:17.160660+00:00",
+    "computed_at": "2026-09-16T17:19:48.022610+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
-      "[USNI News] Houthis Make Moves On Red Sea, U.S., Iran Go Tanker for Warship",
       "[Task & Purpose] Tracking America’s latest conflict: The Iran war timeline",
       "[Task & Purpose] Air Force colonel recounts ‘Dude 44’ rescue that put almost 100 troops inside Iran",
       "[USNI News] North Korea Tests Missiles, Attack Drones on Island in Sea of Japan",
-      "[USNI News] USNI News Fleet and Marine Tracker: Sept. 14, 2026"
+      "[USNI News] USNI News Fleet and Marine Tracker: Sept. 14, 2026",
+      "[USNI News] Houthis, Yemen Fighting Continues, Saudi Arabia Faces Pipeline Challenges"
     ]
   },
   "ground_intel": {
@@ -937,12 +938,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-09-16T12:15:17.160705+00:00",
+    "last_successful_update": "2026-09-16T17:19:48.022673+00:00",
     "article_count": 50,
-    "categorized_count": 27,
-    "freshest_source": "USNI News",
-    "freshest_title": "Houthis Make Moves On Red Sea, U.S., Iran Go Tanker for Warship",
-    "freshest_published": "Fri, 11 Sep 2026 21:41:53 +0000"
+    "categorized_count": 30,
+    "freshest_source": "Task & Purpose",
+    "freshest_title": "Tracking America’s latest conflict: The Iran war timeline",
+    "freshest_published": "Mon, 14 Sep 2026 06:38:22 -0400"
   },
   "_firms_hotspots": []
 }
