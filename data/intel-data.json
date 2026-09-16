@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-09-16T06:54:22Z",
-  "version": 2886,
-  "breaking_alert": "Naval News: U.S. Special Operations Forces Tap Sea Machines for Vessel Autonomy Kits",
+  "generated_utc": "2026-09-16T12:15:22Z",
+  "version": 2887,
+  "breaking_alert": "USNI News: Houthis Make Moves On Red Sea, U.S., Iran Go Tanker for Warship",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -648,15 +648,6 @@
       ]
     },
     {
-      "title": "World’s First Naval Drone Duel Results In Ukrainian Success",
-      "link": "https://www.navalnews.com/naval-news/2026/09/worlds-first-naval-drone-duel-results-in-ukrainian-success/",
-      "published": "Sat, 12 Sep 2026 18:30:17 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Iran ‘blew the hell out of’ base in Bahrain, acting Navy Secretary admits",
       "link": "https://taskandpurpose.com/news/navy-base-bahrain-iran-damage/",
       "published": "Sun, 13 Sep 2026 12:36:15 -0400",
@@ -679,6 +670,15 @@
       "link": "https://taskandpurpose.com/news/corpsman-john-kilmer-medal-of-honor/",
       "published": "Tue, 15 Sep 2026 08:00:00 -0400",
       "source": "Task & Purpose",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "China’s New Giant Submarine Drone Mothership",
+      "link": "https://www.navalnews.com/naval-news/2026/09/chinas-new-giant-submarine-drone-mothership/",
+      "published": "Tue, 15 Sep 2026 08:29:00 +0000",
+      "source": "Naval News",
       "categories": [
         "deployment"
       ]
@@ -836,15 +836,6 @@
   },
   "_conflict_news_refs": [
     {
-      "title": "Australian Air Force Declares IOC For LRASM And JASSM-ER Air-Launched Strike Missiles",
-      "link": "https://www.navalnews.com/naval-news/2026/09/australian-air-force-declares-ioc-for-lrasm-jassm/",
-      "published": "Mon, 14 Sep 2026 07:23:56 +0000",
-      "source": "Naval News",
-      "categories": [
-        "conflict"
-      ]
-    },
-    {
       "title": "North Korea Tests Missiles, Attack Drones on Island in Sea of Japan",
       "link": "https://news.usni.org/2026/09/14/north-korea-tests-missiles-attack-drones-on-island-in-sea-of-japan",
       "published": "Mon, 14 Sep 2026 16:55:03 +0000",
@@ -881,18 +872,19 @@
         "deployment",
         "conflict"
       ]
+    },
+    {
+      "title": "Iranian strikes damaged hundreds of US military buildings, dozens of aircraft",
+      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/09/15/iranian-strikes-damaged-hundreds-of-us-military-buildings-dozens-of-aircraft/",
+      "published": "Tue, 15 Sep 2026 19:06:38 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
     }
   ],
   "_exercise_news_refs": [
-    {
-      "title": "U.S. Special Operations Forces Tap Sea Machines for Vessel Autonomy Kits",
-      "link": "https://www.navalnews.com/naval-news/2026/09/u-s-special-operations-forces-tap-sea-machines-for-vessel-autonomy-kits/",
-      "published": "Fri, 11 Sep 2026 16:55:28 +0000",
-      "source": "Naval News",
-      "categories": [
-        "exercise"
-      ]
-    },
     {
       "title": "The Pentagon classified the mission statement for Operation Epic Fury",
       "link": "https://taskandpurpose.com/news/pentagon-iran-war-epic-fury-classified/",
@@ -910,21 +902,31 @@
       "categories": [
         "exercise"
       ]
+    },
+    {
+      "title": "Implications of the Hangor-class for Pakistan’s operational naval posture and strategic sovereignty",
+      "link": "https://www.navalnews.com/features/2026/09/pakistans-hangor-class-and-naval-strategic-souvereignty/",
+      "published": "Wed, 16 Sep 2026 08:28:16 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment",
+        "exercise"
+      ]
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 21,
+    "deployment_articles": 22,
     "conflict_articles": 8,
     "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-09-16T06:54:17.983131+00:00",
+    "computed_at": "2026-09-16T12:15:17.160660+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
-      "[Naval News] U.S. Special Operations Forces Tap Sea Machines for Vessel Autonomy Kits",
       "[USNI News] Houthis Make Moves On Red Sea, U.S., Iran Go Tanker for Warship",
       "[Task & Purpose] Tracking America’s latest conflict: The Iran war timeline",
-      "[Naval News] Australian Air Force Declares IOC For LRASM And JASSM-ER Air-Launched Strike Missiles",
-      "[Task & Purpose] Air Force colonel recounts ‘Dude 44’ rescue that put almost 100 troops inside Iran"
+      "[Task & Purpose] Air Force colonel recounts ‘Dude 44’ rescue that put almost 100 troops inside Iran",
+      "[USNI News] North Korea Tests Missiles, Attack Drones on Island in Sea of Japan",
+      "[USNI News] USNI News Fleet and Marine Tracker: Sept. 14, 2026"
     ]
   },
   "ground_intel": {
@@ -935,12 +937,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-09-16T06:54:17.983177+00:00",
+    "last_successful_update": "2026-09-16T12:15:17.160705+00:00",
     "article_count": 50,
     "categorized_count": 27,
-    "freshest_source": "Naval News",
-    "freshest_title": "U.S. Special Operations Forces Tap Sea Machines for Vessel Autonomy Kits",
-    "freshest_published": "Fri, 11 Sep 2026 16:55:28 +0000"
+    "freshest_source": "USNI News",
+    "freshest_title": "Houthis Make Moves On Red Sea, U.S., Iran Go Tanker for Warship",
+    "freshest_published": "Fri, 11 Sep 2026 21:41:53 +0000"
   },
   "_firms_hotspots": []
 }
