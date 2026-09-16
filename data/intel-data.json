@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-09-16T20:29:52Z",
-  "version": 2889,
+  "generated_utc": "2026-09-16T23:18:32Z",
+  "version": 2890,
   "breaking_alert": "Task & Purpose: Tracking America’s latest conflict: The Iran war timeline",
   "naval_deployments": [
     {
@@ -612,15 +612,6 @@
       ]
     },
     {
-      "title": "USNI News Fleet and Marine Tracker: Sept. 14, 2026",
-      "link": "https://news.usni.org/2026/09/14/usni-news-fleet-and-marine-tracker-sept-14-2026",
-      "published": "Mon, 14 Sep 2026 19:26:11 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Houthis, Yemen Fighting Continues, Saudi Arabia Faces Pipeline Challenges",
       "link": "https://news.usni.org/2026/09/14/houthis-yemen-fighting-continues-saudi-arabia-faces-pipeline-challenges",
       "published": "Mon, 14 Sep 2026 22:32:31 +0000",
@@ -678,6 +669,16 @@
       "title": "Iranian strikes damaged hundreds of US military buildings, dozens of aircraft",
       "link": "https://www.defensenews.com/news/pentagon-congress/2026/09/15/iranian-strikes-damaged-hundreds-of-us-military-buildings-dozens-of-aircraft/",
       "published": "Tue, 15 Sep 2026 19:06:38 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
+    },
+    {
+      "title": "Iran war has cost $38 billion, depleted two-thirds of US missile interceptors, CBO says",
+      "link": "https://www.defensenews.com/news/your-military/2026/09/15/iran-war-has-cost-38-billion-depleted-two-thirds-of-us-missile-interceptors-cbo-says/",
+      "published": "Tue, 15 Sep 2026 19:52:56 +0000",
       "source": "Defense News",
       "categories": [
         "deployment",
@@ -857,16 +858,6 @@
       ]
     },
     {
-      "title": "Iran war has cost $38 billion, depleted two-thirds of US missile interceptors, CBO says",
-      "link": "https://www.militarytimes.com/news/your-military/2026/09/15/iran-war-has-cost-38-billion-depleted-two-thirds-of-us-missile-interceptors-cbo-says/",
-      "published": "Tue, 15 Sep 2026 19:52:56 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
       "title": "MBDA Successfully Validates New Teseo Mk2/E Anti-Ship Missile for Italian Navy",
       "link": "https://www.navalnews.com/naval-news/2026/09/mbda-successfully-validates-new-teseo-mk2-e-anti-ship-missile-for-italian-navy/",
       "published": "Wed, 16 Sep 2026 09:18:28 +0000",
@@ -879,6 +870,15 @@
       "title": "Spain’s Indra proffers ‘Squall’ for Europe’s emerging strike missile mix",
       "link": "https://www.defensenews.com/global/europe/2026/09/16/spains-indra-proffers-squall-for-europes-emerging-strike-missile-mix/",
       "published": "Wed, 16 Sep 2026 14:37:22 +0000",
+      "source": "Defense News",
+      "categories": [
+        "conflict"
+      ]
+    },
+    {
+      "title": "Germany, US to expand shared production of Patriot interceptors, strike missiles",
+      "link": "https://www.defensenews.com/global/europe/2026/09/16/germany-us-to-expand-shared-production-of-patriot-interceptors-strike-missiles/",
+      "published": "Wed, 16 Sep 2026 14:47:45 +0000",
       "source": "Defense News",
       "categories": [
         "conflict"
@@ -916,18 +916,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 20,
-    "conflict_articles": 12,
+    "deployment_articles": 18,
+    "conflict_articles": 11,
     "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-09-16T20:29:50.285856+00:00",
+    "computed_at": "2026-09-16T23:18:29.404022+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[Task & Purpose] Tracking America’s latest conflict: The Iran war timeline",
       "[Task & Purpose] Air Force colonel recounts ‘Dude 44’ rescue that put almost 100 troops inside Iran",
-      "[USNI News] USNI News Fleet and Marine Tracker: Sept. 14, 2026",
       "[USNI News] Houthis, Yemen Fighting Continues, Saudi Arabia Faces Pipeline Challenges",
-      "[Task & Purpose] Iran ‘blew the hell out of’ base in Bahrain, acting Navy Secretary admits"
+      "[Task & Purpose] Iran ‘blew the hell out of’ base in Bahrain, acting Navy Secretary admits",
+      "[Naval News] Japan’s Defense Minister: Nuclear-Powered Submarines Will Not Be Ruled Out"
     ]
   },
   "ground_intel": {
@@ -938,9 +938,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-09-16T20:29:50.285904+00:00",
+    "last_successful_update": "2026-09-16T23:18:29.404068+00:00",
     "article_count": 50,
-    "categorized_count": 30,
+    "categorized_count": 28,
     "freshest_source": "Task & Purpose",
     "freshest_title": "Tracking America’s latest conflict: The Iran war timeline",
     "freshest_published": "Mon, 14 Sep 2026 06:38:22 -0400"
