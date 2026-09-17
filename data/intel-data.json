@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-09-16T23:18:32Z",
-  "version": 2890,
+  "generated_utc": "2026-09-17T01:57:30Z",
+  "version": 2891,
   "breaking_alert": "Task & Purpose: Tracking America’s latest conflict: The Iran war timeline",
   "naval_deployments": [
     {
@@ -666,16 +666,6 @@
       ]
     },
     {
-      "title": "Iranian strikes damaged hundreds of US military buildings, dozens of aircraft",
-      "link": "https://www.defensenews.com/news/pentagon-congress/2026/09/15/iranian-strikes-damaged-hundreds-of-us-military-buildings-dozens-of-aircraft/",
-      "published": "Tue, 15 Sep 2026 19:06:38 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
       "title": "Iran war has cost $38 billion, depleted two-thirds of US missile interceptors, CBO says",
       "link": "https://www.defensenews.com/news/your-military/2026/09/15/iran-war-has-cost-38-billion-depleted-two-thirds-of-us-missile-interceptors-cbo-says/",
       "published": "Tue, 15 Sep 2026 19:52:56 +0000",
@@ -683,6 +673,15 @@
       "categories": [
         "deployment",
         "conflict"
+      ]
+    },
+    {
+      "title": "Tanker fleet modernization will continue for decades, US Air Force officials say",
+      "link": "https://www.defensenews.com/news/your-military/2026/09/15/tanker-fleet-modernization-will-continue-for-decades-us-air-force-officials-say/",
+      "published": "Tue, 15 Sep 2026 20:55:49 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment"
       ]
     }
   ],
@@ -838,16 +837,6 @@
   },
   "_conflict_news_refs": [
     {
-      "title": "Iranian strikes damaged hundreds of US military buildings, dozens of aircraft",
-      "link": "https://www.defensenews.com/news/pentagon-congress/2026/09/15/iranian-strikes-damaged-hundreds-of-us-military-buildings-dozens-of-aircraft/",
-      "published": "Tue, 15 Sep 2026 19:06:38 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
       "title": "Iran war has cost $38 billion, depleted two-thirds of US missile interceptors, CBO says",
       "link": "https://www.defensenews.com/news/your-military/2026/09/15/iran-war-has-cost-38-billion-depleted-two-thirds-of-us-missile-interceptors-cbo-says/",
       "published": "Tue, 15 Sep 2026 19:52:56 +0000",
@@ -880,6 +869,15 @@
       "link": "https://www.defensenews.com/global/europe/2026/09/16/germany-us-to-expand-shared-production-of-patriot-interceptors-strike-missiles/",
       "published": "Wed, 16 Sep 2026 14:47:45 +0000",
       "source": "Defense News",
+      "categories": [
+        "conflict"
+      ]
+    },
+    {
+      "title": "Germany, US to expand shared production of Patriot interceptors, strike missiles",
+      "link": "https://www.militarytimes.com/global/europe/2026/09/16/germany-us-to-expand-shared-production-of-patriot-interceptors-strike-missiles/",
+      "published": "Wed, 16 Sep 2026 14:47:45 +0000",
+      "source": "Military Times",
       "categories": [
         "conflict"
       ]
@@ -917,10 +915,10 @@
   ],
   "_threat_indicators": {
     "deployment_articles": 18,
-    "conflict_articles": 11,
+    "conflict_articles": 10,
     "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-09-16T23:18:29.404022+00:00",
+    "computed_at": "2026-09-17T01:57:25.067023+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[Task & Purpose] Tracking America’s latest conflict: The Iran war timeline",
@@ -938,7 +936,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-09-16T23:18:29.404068+00:00",
+    "last_successful_update": "2026-09-17T01:57:25.067071+00:00",
     "article_count": 50,
     "categorized_count": 28,
     "freshest_source": "Task & Purpose",
