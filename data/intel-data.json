@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-09-17T06:58:44Z",
-  "version": 2892,
+  "generated_utc": "2026-09-17T12:27:53Z",
+  "version": 2893,
   "breaking_alert": "Task & Purpose: Tracking America’s latest conflict: The Iran war timeline",
   "naval_deployments": [
     {
@@ -630,9 +630,18 @@
       ]
     },
     {
-      "title": "Japan’s Defense Minister: Nuclear-Powered Submarines Will Not Be Ruled Out",
-      "link": "https://www.navalnews.com/naval-news/2026/09/japan-defense-minister-nuclear-powered-submarines/",
-      "published": "Tue, 15 Sep 2026 05:54:36 +0000",
+      "title": "OSK Design Unveils Coastal Corvette Concept to Fill Danish Fleet Gap",
+      "link": "https://www.navalnews.com/naval-news/2026/09/osk-design-coastal-corvette-denmark/",
+      "published": "Thu, 17 Sep 2026 08:30:20 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "U.S. Navy Expands Hammerhead Anti-Submarine Mine Production with General Dynamics",
+      "link": "https://www.navalnews.com/naval-news/2026/09/u-s-navy-expands-hammerhead-anti-submarine-mine-production-with-general-dynamics/",
+      "published": "Thu, 17 Sep 2026 11:53:07 +0000",
       "source": "Naval News",
       "categories": [
         "deployment"
@@ -648,15 +657,6 @@
       ]
     },
     {
-      "title": "China’s New Giant Submarine Drone Mothership",
-      "link": "https://www.navalnews.com/naval-news/2026/09/chinas-new-giant-submarine-drone-mothership/",
-      "published": "Tue, 15 Sep 2026 08:29:00 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Carrier USS Abraham Lincoln Operates with Australians in the South China Sea",
       "link": "https://news.usni.org/2026/09/15/carrier-uss-abraham-lincoln-operates-with-australians-in-the-south-china-sea",
       "published": "Tue, 15 Sep 2026 18:09:08 +0000",
@@ -666,22 +666,22 @@
       ]
     },
     {
-      "title": "Iran war has cost $38 billion, depleted two-thirds of US missile interceptors, CBO says",
-      "link": "https://www.defensenews.com/news/your-military/2026/09/15/iran-war-has-cost-38-billion-depleted-two-thirds-of-us-missile-interceptors-cbo-says/",
-      "published": "Tue, 15 Sep 2026 19:52:56 +0000",
-      "source": "Defense News",
+      "title": "Hanwha Ocean to Conduct ROK Navy’s First Outsourced Destroyer Overhaul",
+      "link": "https://www.navalnews.com/naval-news/2026/09/hanwha-ocean-roks-sejong-the-great-overhaul/",
+      "published": "Wed, 16 Sep 2026 07:58:03 +0000",
+      "source": "Naval News",
       "categories": [
-        "deployment",
-        "conflict"
+        "deployment"
       ]
     },
     {
-      "title": "Tanker fleet modernization will continue for decades, US Air Force officials say",
-      "link": "https://www.defensenews.com/news/your-military/2026/09/15/tanker-fleet-modernization-will-continue-for-decades-us-air-force-officials-say/",
-      "published": "Tue, 15 Sep 2026 20:55:49 +0000",
-      "source": "Defense News",
+      "title": "Implications of the Hangor-class for Pakistan’s operational naval posture and strategic sovereignty",
+      "link": "https://www.navalnews.com/features/2026/09/pakistans-hangor-class-and-naval-strategic-souvereignty/",
+      "published": "Wed, 16 Sep 2026 08:28:16 +0000",
+      "source": "Naval News",
       "categories": [
-        "deployment"
+        "deployment",
+        "exercise"
       ]
     }
   ],
@@ -837,12 +837,11 @@
   },
   "_conflict_news_refs": [
     {
-      "title": "Iran war has cost $38 billion, depleted two-thirds of US missile interceptors, CBO says",
-      "link": "https://www.defensenews.com/news/your-military/2026/09/15/iran-war-has-cost-38-billion-depleted-two-thirds-of-us-missile-interceptors-cbo-says/",
-      "published": "Tue, 15 Sep 2026 19:52:56 +0000",
-      "source": "Defense News",
+      "title": "Video: MBDA Pitches Combat-Proven Aster Missiles to Royal Danish Navy",
+      "link": "https://www.navalnews.com/naval-news/2026/09/mbda-combat-proven-aster-missiles-royal-danish-navy/",
+      "published": "Thu, 17 Sep 2026 07:05:10 +0000",
+      "source": "Naval News",
       "categories": [
-        "deployment",
         "conflict"
       ]
     },
@@ -914,18 +913,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 18,
+    "deployment_articles": 16,
     "conflict_articles": 10,
     "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-09-17T06:58:39.577252+00:00",
+    "computed_at": "2026-09-17T12:23:12.481849+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[Task & Purpose] Tracking America’s latest conflict: The Iran war timeline",
       "[Task & Purpose] Air Force colonel recounts ‘Dude 44’ rescue that put almost 100 troops inside Iran",
       "[USNI News] Houthis, Yemen Fighting Continues, Saudi Arabia Faces Pipeline Challenges",
       "[Task & Purpose] Iran ‘blew the hell out of’ base in Bahrain, acting Navy Secretary admits",
-      "[Naval News] Japan’s Defense Minister: Nuclear-Powered Submarines Will Not Be Ruled Out"
+      "[Naval News] Video: MBDA Pitches Combat-Proven Aster Missiles to Royal Danish Navy"
     ]
   },
   "ground_intel": {
@@ -936,9 +935,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-09-17T06:58:39.577292+00:00",
+    "last_successful_update": "2026-09-17T12:23:12.481892+00:00",
     "article_count": 50,
-    "categorized_count": 28,
+    "categorized_count": 27,
     "freshest_source": "Task & Purpose",
     "freshest_title": "Tracking America’s latest conflict: The Iran war timeline",
     "freshest_published": "Mon, 14 Sep 2026 06:38:22 -0400"
