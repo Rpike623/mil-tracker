@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-09-17T12:27:53Z",
-  "version": 2893,
+  "generated_utc": "2026-09-17T17:19:28Z",
+  "version": 2894,
   "breaking_alert": "Task & Purpose: Tracking America’s latest conflict: The Iran war timeline",
   "naval_deployments": [
     {
@@ -612,15 +612,6 @@
       ]
     },
     {
-      "title": "Houthis, Yemen Fighting Continues, Saudi Arabia Faces Pipeline Challenges",
-      "link": "https://news.usni.org/2026/09/14/houthis-yemen-fighting-continues-saudi-arabia-faces-pipeline-challenges",
-      "published": "Mon, 14 Sep 2026 22:32:31 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Iran ‘blew the hell out of’ base in Bahrain, acting Navy Secretary admits",
       "link": "https://taskandpurpose.com/news/navy-base-bahrain-iran-damage/",
       "published": "Sun, 13 Sep 2026 12:36:15 -0400",
@@ -648,6 +639,33 @@
       ]
     },
     {
+      "title": "Indonesia’s First Aircraft Carrier: Former Italian Ship ‘Garibaldi’ Reaches Domestic Waters",
+      "link": "https://www.navalnews.com/naval-news/2026/09/indonesias-first-aircraft-carrier-former-italian-ship-garibaldi-reaches-domestic-waters/",
+      "published": "Thu, 17 Sep 2026 12:53:01 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "US Navy should target Chinese aircraft carriers, report says",
+      "link": "https://www.defensenews.com/news/your-military/2026/09/17/us-navy-should-target-chinese-aircraft-carriers-report-says/",
+      "published": "Thu, 17 Sep 2026 17:14:35 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "US Navy should target Chinese aircraft carriers, report says",
+      "link": "https://www.militarytimes.com/news/your-military/2026/09/17/us-navy-should-target-chinese-aircraft-carriers-report-says/",
+      "published": "Thu, 17 Sep 2026 17:14:35 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "Destroyer named for Navy Corpsman who earned Medal of Honor hits milestone",
       "link": "https://taskandpurpose.com/news/corpsman-john-kilmer-medal-of-honor/",
       "published": "Tue, 15 Sep 2026 08:00:00 -0400",
@@ -663,25 +681,6 @@
       "source": "USNI News",
       "categories": [
         "deployment"
-      ]
-    },
-    {
-      "title": "Hanwha Ocean to Conduct ROK Navy’s First Outsourced Destroyer Overhaul",
-      "link": "https://www.navalnews.com/naval-news/2026/09/hanwha-ocean-roks-sejong-the-great-overhaul/",
-      "published": "Wed, 16 Sep 2026 07:58:03 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Implications of the Hangor-class for Pakistan’s operational naval posture and strategic sovereignty",
-      "link": "https://www.navalnews.com/features/2026/09/pakistans-hangor-class-and-naval-strategic-souvereignty/",
-      "published": "Wed, 16 Sep 2026 08:28:16 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment",
-        "exercise"
       ]
     }
   ],
@@ -846,6 +845,24 @@
       ]
     },
     {
+      "title": "US Navy awards defense startup $200 million for Blackbeard hypersonic missile",
+      "link": "https://www.defensenews.com/news/your-navy/2026/09/17/us-navy-awards-defense-startup-200-million-for-blackbeard-hypersonic-missile/",
+      "published": "Thu, 17 Sep 2026 15:35:43 +0000",
+      "source": "Defense News",
+      "categories": [
+        "conflict"
+      ]
+    },
+    {
+      "title": "US Navy awards defense startup $200 million for Blackbeard hypersonic missile",
+      "link": "https://www.militarytimes.com/news/your-navy/2026/09/17/us-navy-awards-defense-startup-200-million-for-blackbeard-hypersonic-missile/",
+      "published": "Thu, 17 Sep 2026 15:35:43 +0000",
+      "source": "Military Times",
+      "categories": [
+        "conflict"
+      ]
+    },
+    {
       "title": "MBDA Successfully Validates New Teseo Mk2/E Anti-Ship Missile for Italian Navy",
       "link": "https://www.navalnews.com/naval-news/2026/09/mbda-successfully-validates-new-teseo-mk2-e-anti-ship-missile-for-italian-navy/",
       "published": "Wed, 16 Sep 2026 09:18:28 +0000",
@@ -855,34 +872,25 @@
       ]
     },
     {
-      "title": "Spain’s Indra proffers ‘Squall’ for Europe’s emerging strike missile mix",
-      "link": "https://www.defensenews.com/global/europe/2026/09/16/spains-indra-proffers-squall-for-europes-emerging-strike-missile-mix/",
-      "published": "Wed, 16 Sep 2026 14:37:22 +0000",
-      "source": "Defense News",
-      "categories": [
-        "conflict"
-      ]
-    },
-    {
-      "title": "Germany, US to expand shared production of Patriot interceptors, strike missiles",
-      "link": "https://www.defensenews.com/global/europe/2026/09/16/germany-us-to-expand-shared-production-of-patriot-interceptors-strike-missiles/",
-      "published": "Wed, 16 Sep 2026 14:47:45 +0000",
-      "source": "Defense News",
-      "categories": [
-        "conflict"
-      ]
-    },
-    {
-      "title": "Germany, US to expand shared production of Patriot interceptors, strike missiles",
-      "link": "https://www.militarytimes.com/global/europe/2026/09/16/germany-us-to-expand-shared-production-of-patriot-interceptors-strike-missiles/",
-      "published": "Wed, 16 Sep 2026 14:47:45 +0000",
-      "source": "Military Times",
+      "title": "Air Force to create new career field to defend bases from drones and missiles",
+      "link": "https://taskandpurpose.com/news/air-force-counter-drone-warfare/",
+      "published": "Wed, 16 Sep 2026 14:56:47 -0400",
+      "source": "Task & Purpose",
       "categories": [
         "conflict"
       ]
     }
   ],
   "_exercise_news_refs": [
+    {
+      "title": "Marines Test USV for Littoral Explosive Ordnance Disposal Operations",
+      "link": "https://news.usni.org/2026/09/17/marines-test-usv-for-littoral-explosive-ordnance-disposal-operations",
+      "published": "Thu, 17 Sep 2026 15:48:04 +0000",
+      "source": "USNI News",
+      "categories": [
+        "exercise"
+      ]
+    },
     {
       "title": "The Pentagon classified the mission statement for Operation Epic Fury",
       "link": "https://taskandpurpose.com/news/pentagon-iran-war-epic-fury-classified/",
@@ -914,17 +922,17 @@
   ],
   "_threat_indicators": {
     "deployment_articles": 16,
-    "conflict_articles": 10,
-    "exercise_articles": 3,
+    "conflict_articles": 8,
+    "exercise_articles": 4,
     "total_articles": 50,
-    "computed_at": "2026-09-17T12:23:12.481849+00:00",
+    "computed_at": "2026-09-17T17:19:23.314325+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[Task & Purpose] Tracking America’s latest conflict: The Iran war timeline",
       "[Task & Purpose] Air Force colonel recounts ‘Dude 44’ rescue that put almost 100 troops inside Iran",
-      "[USNI News] Houthis, Yemen Fighting Continues, Saudi Arabia Faces Pipeline Challenges",
       "[Task & Purpose] Iran ‘blew the hell out of’ base in Bahrain, acting Navy Secretary admits",
-      "[Naval News] Video: MBDA Pitches Combat-Proven Aster Missiles to Royal Danish Navy"
+      "[Naval News] Video: MBDA Pitches Combat-Proven Aster Missiles to Royal Danish Navy",
+      "[Naval News] OSK Design Unveils Coastal Corvette Concept to Fill Danish Fleet Gap"
     ]
   },
   "ground_intel": {
@@ -935,9 +943,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-09-17T12:23:12.481892+00:00",
+    "last_successful_update": "2026-09-17T17:19:23.314365+00:00",
     "article_count": 50,
-    "categorized_count": 27,
+    "categorized_count": 26,
     "freshest_source": "Task & Purpose",
     "freshest_title": "Tracking America’s latest conflict: The Iran war timeline",
     "freshest_published": "Mon, 14 Sep 2026 06:38:22 -0400"
