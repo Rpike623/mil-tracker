@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-09-17T17:19:28Z",
-  "version": 2894,
-  "breaking_alert": "Task & Purpose: Tracking America’s latest conflict: The Iran war timeline",
+  "generated_utc": "2026-09-17T20:37:11Z",
+  "version": 2895,
+  "breaking_alert": "Task & Purpose: Air Force colonel recounts ‘Dude 44’ rescue that put almost 100 troops inside Iran",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -594,27 +594,9 @@
   ],
   "_naval_news_refs": [
     {
-      "title": "Tracking America’s latest conflict: The Iran war timeline",
-      "link": "https://taskandpurpose.com/news/iran-war-timeline/",
-      "published": "Mon, 14 Sep 2026 06:38:22 -0400",
-      "source": "Task & Purpose",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Air Force colonel recounts ‘Dude 44’ rescue that put almost 100 troops inside Iran",
       "link": "https://taskandpurpose.com/news/f-15e-iran-rescue-interview/",
       "published": "Mon, 14 Sep 2026 10:44:08 -0400",
-      "source": "Task & Purpose",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Iran ‘blew the hell out of’ base in Bahrain, acting Navy Secretary admits",
-      "link": "https://taskandpurpose.com/news/navy-base-bahrain-iran-damage/",
-      "published": "Sun, 13 Sep 2026 12:36:15 -0400",
       "source": "Task & Purpose",
       "categories": [
         "deployment"
@@ -648,7 +630,7 @@
       ]
     },
     {
-      "title": "US Navy should target Chinese aircraft carriers, report says",
+      "title": "US Navy should target carriers in fight with China, report says",
       "link": "https://www.defensenews.com/news/your-military/2026/09/17/us-navy-should-target-chinese-aircraft-carriers-report-says/",
       "published": "Thu, 17 Sep 2026 17:14:35 +0000",
       "source": "Defense News",
@@ -657,7 +639,7 @@
       ]
     },
     {
-      "title": "US Navy should target Chinese aircraft carriers, report says",
+      "title": "US Navy should target carriers in fight with China, report says",
       "link": "https://www.militarytimes.com/news/your-military/2026/09/17/us-navy-should-target-chinese-aircraft-carriers-report-says/",
       "published": "Thu, 17 Sep 2026 17:14:35 +0000",
       "source": "Military Times",
@@ -679,6 +661,25 @@
       "link": "https://news.usni.org/2026/09/15/carrier-uss-abraham-lincoln-operates-with-australians-in-the-south-china-sea",
       "published": "Tue, 15 Sep 2026 18:09:08 +0000",
       "source": "USNI News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Implications of the Hangor-class for Pakistan’s operational naval posture and strategic sovereignty",
+      "link": "https://www.navalnews.com/features/2026/09/pakistans-hangor-class-and-naval-strategic-souvereignty/",
+      "published": "Wed, 16 Sep 2026 08:28:16 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment",
+        "exercise"
+      ]
+    },
+    {
+      "title": "Army pays nearly $5 billion for massive defensive upgrade to helicopter fleet",
+      "link": "https://taskandpurpose.com/news/army-helicopter-laser-defense/",
+      "published": "Wed, 16 Sep 2026 12:16:13 -0400",
+      "source": "Task & Purpose",
       "categories": [
         "deployment"
       ]
@@ -863,19 +864,19 @@
       ]
     },
     {
-      "title": "MBDA Successfully Validates New Teseo Mk2/E Anti-Ship Missile for Italian Navy",
-      "link": "https://www.navalnews.com/naval-news/2026/09/mbda-successfully-validates-new-teseo-mk2-e-anti-ship-missile-for-italian-navy/",
-      "published": "Wed, 16 Sep 2026 09:18:28 +0000",
-      "source": "Naval News",
+      "title": "Navy Wants Containerized, Low-cost Interceptors to Defeat Cruise Missiles, Drones",
+      "link": "https://news.usni.org/2026/09/17/navy-wants-containerized-low-cost-interceptors-to-defeat-cruise-missiles-drones",
+      "published": "Thu, 17 Sep 2026 19:32:12 +0000",
+      "source": "USNI News",
       "categories": [
         "conflict"
       ]
     },
     {
-      "title": "Air Force to create new career field to defend bases from drones and missiles",
-      "link": "https://taskandpurpose.com/news/air-force-counter-drone-warfare/",
-      "published": "Wed, 16 Sep 2026 14:56:47 -0400",
-      "source": "Task & Purpose",
+      "title": "MBDA Successfully Validates New Teseo Mk2/E Anti-Ship Missile for Italian Navy",
+      "link": "https://www.navalnews.com/naval-news/2026/09/mbda-successfully-validates-new-teseo-mk2-e-anti-ship-missile-for-italian-navy/",
+      "published": "Wed, 16 Sep 2026 09:18:28 +0000",
+      "source": "Naval News",
       "categories": [
         "conflict"
       ]
@@ -921,18 +922,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 16,
-    "conflict_articles": 8,
+    "deployment_articles": 12,
+    "conflict_articles": 7,
     "exercise_articles": 4,
     "total_articles": 50,
-    "computed_at": "2026-09-17T17:19:23.314325+00:00",
-    "manual_override": "DEFCON_2",
+    "computed_at": "2026-09-17T20:37:10.169522+00:00",
+    "manual_override": "DEFCON_3",
     "breaking_events": [
-      "[Task & Purpose] Tracking America’s latest conflict: The Iran war timeline",
       "[Task & Purpose] Air Force colonel recounts ‘Dude 44’ rescue that put almost 100 troops inside Iran",
-      "[Task & Purpose] Iran ‘blew the hell out of’ base in Bahrain, acting Navy Secretary admits",
       "[Naval News] Video: MBDA Pitches Combat-Proven Aster Missiles to Royal Danish Navy",
-      "[Naval News] OSK Design Unveils Coastal Corvette Concept to Fill Danish Fleet Gap"
+      "[Naval News] OSK Design Unveils Coastal Corvette Concept to Fill Danish Fleet Gap",
+      "[Naval News] U.S. Navy Expands Hammerhead Anti-Submarine Mine Production with General Dynamics",
+      "[Naval News] Indonesia’s First Aircraft Carrier: Former Italian Ship ‘Garibaldi’ Reaches Domestic Waters"
     ]
   },
   "ground_intel": {
@@ -943,12 +944,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-09-17T17:19:23.314365+00:00",
+    "last_successful_update": "2026-09-17T20:37:10.169570+00:00",
     "article_count": 50,
-    "categorized_count": 26,
+    "categorized_count": 21,
     "freshest_source": "Task & Purpose",
-    "freshest_title": "Tracking America’s latest conflict: The Iran war timeline",
-    "freshest_published": "Mon, 14 Sep 2026 06:38:22 -0400"
+    "freshest_title": "Air Force colonel recounts ‘Dude 44’ rescue that put almost 100 troops inside Iran",
+    "freshest_published": "Mon, 14 Sep 2026 10:44:08 -0400"
   },
   "_firms_hotspots": []
 }
