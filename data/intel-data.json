@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-09-18T11:55:07Z",
-  "version": 2899,
-  "breaking_alert": "Naval News: Future USS Baltimore to Serve as U.S. Navy’s Elite Seabed Warfare Submarine",
+  "generated_utc": "2026-09-18T15:16:23Z",
+  "version": 2900,
+  "breaking_alert": "Defense News: US Navy awards defense startup $200 million for Blackbeard hypersonic missile",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -594,51 +594,6 @@
   ],
   "_naval_news_refs": [
     {
-      "title": "Future USS Baltimore to Serve as U.S. Navy’s Elite Seabed Warfare Submarine",
-      "link": "https://www.navalnews.com/naval-news/2026/09/uss-baltimore-seabed-warfare-submarine/",
-      "published": "Fri, 18 Sep 2026 08:45:47 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Air Force colonel recounts ‘Dude 44’ rescue that put almost 100 troops inside Iran",
-      "link": "https://taskandpurpose.com/news/f-15e-iran-rescue-interview/",
-      "published": "Mon, 14 Sep 2026 10:44:08 -0400",
-      "source": "Task & Purpose",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "OSK Design Unveils Coastal Corvette Concept to Fill Danish Fleet Gap",
-      "link": "https://www.navalnews.com/naval-news/2026/09/osk-design-coastal-corvette-denmark/",
-      "published": "Thu, 17 Sep 2026 08:30:20 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "U.S. Navy Expands Hammerhead Anti-Submarine Mine Production with General Dynamics",
-      "link": "https://www.navalnews.com/naval-news/2026/09/u-s-navy-expands-hammerhead-anti-submarine-mine-production-with-general-dynamics/",
-      "published": "Thu, 17 Sep 2026 11:53:07 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Indonesia’s First Aircraft Carrier: Former Italian Ship ‘Garibaldi’ Reaches Domestic Waters",
-      "link": "https://www.navalnews.com/naval-news/2026/09/indonesias-first-aircraft-carrier-former-italian-ship-garibaldi-reaches-domestic-waters/",
-      "published": "Thu, 17 Sep 2026 12:53:01 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "US Navy should target carriers in fight with China, report says",
       "link": "https://www.defensenews.com/news/your-military/2026/09/17/us-navy-should-target-chinese-aircraft-carriers-report-says/",
       "published": "Thu, 17 Sep 2026 17:14:35 +0000",
@@ -675,12 +630,13 @@
       ]
     },
     {
-      "title": "First Virginia Payload Module (VPM) Spotted for U.S. Navy’s Block V Submarines",
-      "link": "https://www.navalnews.com/naval-news/2026/09/slug-first-virginia-payload-module-vpm-spotted-block-v-submarines/",
-      "published": "Wed, 16 Sep 2026 16:02:28 +0000",
-      "source": "Naval News",
+      "title": "Navy Awards $200M for Blackbeard Hypersonic Missile for Carrier Fighters",
+      "link": "https://news.usni.org/2026/09/16/navy-awards-200m-for-blackbeard-hypersonic-missile-for-carrier-fighters",
+      "published": "Wed, 16 Sep 2026 16:35:44 +0000",
+      "source": "USNI News",
       "categories": [
-        "deployment"
+        "deployment",
+        "conflict"
       ]
     }
   ],
@@ -836,28 +792,10 @@
   },
   "_conflict_news_refs": [
     {
-      "title": "Video: MBDA Pitches Combat-Proven Aster Missiles to Royal Danish Navy",
-      "link": "https://www.navalnews.com/naval-news/2026/09/mbda-combat-proven-aster-missiles-royal-danish-navy/",
-      "published": "Thu, 17 Sep 2026 07:05:10 +0000",
-      "source": "Naval News",
-      "categories": [
-        "conflict"
-      ]
-    },
-    {
       "title": "US Navy awards defense startup $200 million for Blackbeard hypersonic missile",
       "link": "https://www.defensenews.com/news/your-navy/2026/09/17/us-navy-awards-defense-startup-200-million-for-blackbeard-hypersonic-missile/",
       "published": "Thu, 17 Sep 2026 15:35:43 +0000",
       "source": "Defense News",
-      "categories": [
-        "conflict"
-      ]
-    },
-    {
-      "title": "US Navy awards defense startup $200 million for Blackbeard hypersonic missile",
-      "link": "https://www.militarytimes.com/news/your-navy/2026/09/17/us-navy-awards-defense-startup-200-million-for-blackbeard-hypersonic-missile/",
-      "published": "Thu, 17 Sep 2026 15:35:43 +0000",
-      "source": "Military Times",
       "categories": [
         "conflict"
       ]
@@ -872,11 +810,21 @@
       ]
     },
     {
-      "title": "MBDA Successfully Validates New Teseo Mk2/E Anti-Ship Missile for Italian Navy",
-      "link": "https://www.navalnews.com/naval-news/2026/09/mbda-successfully-validates-new-teseo-mk2-e-anti-ship-missile-for-italian-navy/",
-      "published": "Wed, 16 Sep 2026 09:18:28 +0000",
-      "source": "Naval News",
+      "title": "Air Force to create new career field to defend bases from drones and missiles",
+      "link": "https://taskandpurpose.com/news/air-force-counter-drone-warfare/",
+      "published": "Wed, 16 Sep 2026 14:56:47 -0400",
+      "source": "Task & Purpose",
       "categories": [
+        "conflict"
+      ]
+    },
+    {
+      "title": "Navy Awards $200M for Blackbeard Hypersonic Missile for Carrier Fighters",
+      "link": "https://news.usni.org/2026/09/16/navy-awards-200m-for-blackbeard-hypersonic-missile-for-carrier-fighters",
+      "published": "Wed, 16 Sep 2026 16:35:44 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment",
         "conflict"
       ]
     }
@@ -911,18 +859,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 11,
-    "conflict_articles": 7,
+    "deployment_articles": 5,
+    "conflict_articles": 4,
     "exercise_articles": 3,
-    "total_articles": 50,
-    "computed_at": "2026-09-18T11:55:01.391480+00:00",
+    "total_articles": 40,
+    "computed_at": "2026-09-18T15:16:21.579471+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
-      "[Naval News] Future USS Baltimore to Serve as U.S. Navy’s Elite Seabed Warfare Submarine",
-      "[Task & Purpose] Air Force colonel recounts ‘Dude 44’ rescue that put almost 100 troops inside Iran",
-      "[Naval News] Video: MBDA Pitches Combat-Proven Aster Missiles to Royal Danish Navy",
-      "[Naval News] OSK Design Unveils Coastal Corvette Concept to Fill Danish Fleet Gap",
-      "[Naval News] U.S. Navy Expands Hammerhead Anti-Submarine Mine Production with General Dynamics"
+      "[Defense News] US Navy awards defense startup $200 million for Blackbeard hypersonic missile",
+      "[USNI News] Marines Test USV for Littoral Explosive Ordnance Disposal Operations",
+      "[Defense News] US Navy should target carriers in fight with China, report says",
+      "[Military Times] US Navy should target carriers in fight with China, report says",
+      "[USNI News] Navy Wants Containerized, Low-cost Interceptors to Defeat Cruise Missiles, Drones"
     ]
   },
   "ground_intel": {
@@ -933,12 +881,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-09-18T11:55:01.391524+00:00",
-    "article_count": 50,
-    "categorized_count": 20,
-    "freshest_source": "Naval News",
-    "freshest_title": "Future USS Baltimore to Serve as U.S. Navy’s Elite Seabed Warfare Submarine",
-    "freshest_published": "Fri, 18 Sep 2026 08:45:47 +0000"
+    "last_successful_update": "2026-09-18T15:16:21.579507+00:00",
+    "article_count": 40,
+    "categorized_count": 11,
+    "freshest_source": "Defense News",
+    "freshest_title": "US Navy awards defense startup $200 million for Blackbeard hypersonic missile",
+    "freshest_published": "Thu, 17 Sep 2026 15:35:43 +0000"
   },
   "_firms_hotspots": []
 }
