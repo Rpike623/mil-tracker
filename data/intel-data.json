@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-09-18T06:45:15Z",
-  "version": 2898,
-  "breaking_alert": "Task & Purpose: Air Force colonel recounts ‘Dude 44’ rescue that put almost 100 troops inside Iran",
+  "generated_utc": "2026-09-18T11:55:07Z",
+  "version": 2899,
+  "breaking_alert": "Naval News: Future USS Baltimore to Serve as U.S. Navy’s Elite Seabed Warfare Submarine",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -594,6 +594,15 @@
   ],
   "_naval_news_refs": [
     {
+      "title": "Future USS Baltimore to Serve as U.S. Navy’s Elite Seabed Warfare Submarine",
+      "link": "https://www.navalnews.com/naval-news/2026/09/uss-baltimore-seabed-warfare-submarine/",
+      "published": "Fri, 18 Sep 2026 08:45:47 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "Air Force colonel recounts ‘Dude 44’ rescue that put almost 100 troops inside Iran",
       "link": "https://taskandpurpose.com/news/f-15e-iran-rescue-interview/",
       "published": "Mon, 14 Sep 2026 10:44:08 -0400",
@@ -654,16 +663,6 @@
       "source": "Task & Purpose",
       "categories": [
         "deployment"
-      ]
-    },
-    {
-      "title": "Implications of the Hangor-class for Pakistan’s operational naval posture and strategic sovereignty",
-      "link": "https://www.navalnews.com/features/2026/09/pakistans-hangor-class-and-naval-strategic-souvereignty/",
-      "published": "Wed, 16 Sep 2026 08:28:16 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment",
-        "exercise"
       ]
     },
     {
@@ -902,16 +901,6 @@
       ]
     },
     {
-      "title": "Implications of the Hangor-class for Pakistan’s operational naval posture and strategic sovereignty",
-      "link": "https://www.navalnews.com/features/2026/09/pakistans-hangor-class-and-naval-strategic-souvereignty/",
-      "published": "Wed, 16 Sep 2026 08:28:16 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment",
-        "exercise"
-      ]
-    },
-    {
       "title": "Pentagon Inspector General Report on Operation Epic Fury",
       "link": "https://news.usni.org/2026/09/16/pentagon-inspector-general-report-on-operation-epic-fury",
       "published": "Wed, 16 Sep 2026 13:32:38 +0000",
@@ -924,16 +913,16 @@
   "_threat_indicators": {
     "deployment_articles": 11,
     "conflict_articles": 7,
-    "exercise_articles": 4,
+    "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-09-18T06:45:12.045248+00:00",
+    "computed_at": "2026-09-18T11:55:01.391480+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
+      "[Naval News] Future USS Baltimore to Serve as U.S. Navy’s Elite Seabed Warfare Submarine",
       "[Task & Purpose] Air Force colonel recounts ‘Dude 44’ rescue that put almost 100 troops inside Iran",
       "[Naval News] Video: MBDA Pitches Combat-Proven Aster Missiles to Royal Danish Navy",
       "[Naval News] OSK Design Unveils Coastal Corvette Concept to Fill Danish Fleet Gap",
-      "[Naval News] U.S. Navy Expands Hammerhead Anti-Submarine Mine Production with General Dynamics",
-      "[Naval News] Indonesia’s First Aircraft Carrier: Former Italian Ship ‘Garibaldi’ Reaches Domestic Waters"
+      "[Naval News] U.S. Navy Expands Hammerhead Anti-Submarine Mine Production with General Dynamics"
     ]
   },
   "ground_intel": {
@@ -944,12 +933,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-09-18T06:45:12.045296+00:00",
+    "last_successful_update": "2026-09-18T11:55:01.391524+00:00",
     "article_count": 50,
     "categorized_count": 20,
-    "freshest_source": "Task & Purpose",
-    "freshest_title": "Air Force colonel recounts ‘Dude 44’ rescue that put almost 100 troops inside Iran",
-    "freshest_published": "Mon, 14 Sep 2026 10:44:08 -0400"
+    "freshest_source": "Naval News",
+    "freshest_title": "Future USS Baltimore to Serve as U.S. Navy’s Elite Seabed Warfare Submarine",
+    "freshest_published": "Fri, 18 Sep 2026 08:45:47 +0000"
   },
   "_firms_hotspots": []
 }
