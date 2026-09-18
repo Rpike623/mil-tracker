@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-09-18T01:44:52Z",
-  "version": 2897,
+  "generated_utc": "2026-09-18T06:45:15Z",
+  "version": 2898,
   "breaking_alert": "Task & Purpose: Air Force colonel recounts ‘Dude 44’ rescue that put almost 100 troops inside Iran",
   "naval_deployments": [
     {
@@ -926,7 +926,7 @@
     "conflict_articles": 7,
     "exercise_articles": 4,
     "total_articles": 50,
-    "computed_at": "2026-09-18T01:44:46.479546+00:00",
+    "computed_at": "2026-09-18T06:45:12.045248+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Task & Purpose] Air Force colonel recounts ‘Dude 44’ rescue that put almost 100 troops inside Iran",
@@ -944,7 +944,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-09-18T01:44:46.479594+00:00",
+    "last_successful_update": "2026-09-18T06:45:12.045296+00:00",
     "article_count": 50,
     "categorized_count": 20,
     "freshest_source": "Task & Purpose",
