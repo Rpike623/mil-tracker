@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-09-18T21:18:26Z",
-  "version": 2902,
+  "generated_utc": "2026-09-18T23:40:58Z",
+  "version": 2903,
   "breaking_alert": "Naval News: Future USS Baltimore to Serve as U.S. Navy’s Elite Seabed Warfare Submarine",
   "naval_deployments": [
     {
@@ -621,6 +621,15 @@
       ]
     },
     {
+      "title": "Hormuz Transits Hit Three-week High, VLCC Rates Explode",
+      "link": "https://news.usni.org/2026/09/18/hormuz-transits-hit-three-week-high-vlcc-rates-explode",
+      "published": "Fri, 18 Sep 2026 22:14:39 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "OSK Design Unveils Coastal Corvette Concept to Fill Danish Fleet Gap",
       "link": "https://www.navalnews.com/naval-news/2026/09/osk-design-coastal-corvette-denmark/",
       "published": "Thu, 17 Sep 2026 08:30:20 +0000",
@@ -672,16 +681,6 @@
       "source": "Naval News",
       "categories": [
         "deployment"
-      ]
-    },
-    {
-      "title": "Navy Awards $200M for Blackbeard Hypersonic Missile for Carrier Fighters",
-      "link": "https://news.usni.org/2026/09/16/navy-awards-200m-for-blackbeard-hypersonic-missile-for-carrier-fighters",
-      "published": "Wed, 16 Sep 2026 16:35:44 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment",
-        "conflict"
       ]
     }
   ],
@@ -895,18 +894,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 10,
+    "deployment_articles": 11,
     "conflict_articles": 4,
     "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-09-18T21:18:22.629961+00:00",
+    "computed_at": "2026-09-18T23:40:53.622734+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] Future USS Baltimore to Serve as U.S. Navy’s Elite Seabed Warfare Submarine",
       "[Naval News] NAVANTIA Celebrates Naming of BAM-IS Submarine Rescue Vessel",
       "[Military Times] Long deployments overwhelm a strained Navy mental health system, personnel say",
-      "[Naval News] Video: MBDA Pitches Combat-Proven Aster Missiles to Royal Danish Navy",
-      "[Naval News] OSK Design Unveils Coastal Corvette Concept to Fill Danish Fleet Gap"
+      "[USNI News] Hormuz Transits Hit Three-week High, VLCC Rates Explode",
+      "[Naval News] Video: MBDA Pitches Combat-Proven Aster Missiles to Royal Danish Navy"
     ]
   },
   "ground_intel": {
@@ -917,9 +916,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-09-18T21:18:22.629994+00:00",
+    "last_successful_update": "2026-09-18T23:40:53.622771+00:00",
     "article_count": 50,
-    "categorized_count": 15,
+    "categorized_count": 16,
     "freshest_source": "Naval News",
     "freshest_title": "Future USS Baltimore to Serve as U.S. Navy’s Elite Seabed Warfare Submarine",
     "freshest_published": "Fri, 18 Sep 2026 08:45:47 +0000"
