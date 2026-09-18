@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-09-18T18:40:51Z",
-  "version": 2901,
-  "breaking_alert": "Military Times: Long deployments overwhelm a strained Navy mental health system, personnel say",
+  "generated_utc": "2026-09-18T21:18:26Z",
+  "version": 2902,
+  "breaking_alert": "Naval News: Future USS Baltimore to Serve as U.S. Navy’s Elite Seabed Warfare Submarine",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -594,10 +594,55 @@
   ],
   "_naval_news_refs": [
     {
+      "title": "Future USS Baltimore to Serve as U.S. Navy’s Elite Seabed Warfare Submarine",
+      "link": "https://www.navalnews.com/naval-news/2026/09/uss-baltimore-seabed-warfare-submarine/",
+      "published": "Fri, 18 Sep 2026 08:45:47 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "NAVANTIA Celebrates Naming of BAM-IS Submarine Rescue Vessel",
+      "link": "https://www.navalnews.com/naval-news/2026/09/navantia-celebrates-naming-of-bam-is-submarine-rescue-vessel/",
+      "published": "Fri, 18 Sep 2026 15:23:03 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "Long deployments overwhelm a strained Navy mental health system, personnel say",
       "link": "https://www.militarytimes.com/news/your-navy/2026/09/18/long-deployments-overwhelm-a-strained-navy-mental-health-system-personnel-say/",
       "published": "Fri, 18 Sep 2026 18:34:10 +0000",
       "source": "Military Times",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "OSK Design Unveils Coastal Corvette Concept to Fill Danish Fleet Gap",
+      "link": "https://www.navalnews.com/naval-news/2026/09/osk-design-coastal-corvette-denmark/",
+      "published": "Thu, 17 Sep 2026 08:30:20 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "U.S. Navy Expands Hammerhead Anti-Submarine Mine Production with General Dynamics",
+      "link": "https://www.navalnews.com/naval-news/2026/09/u-s-navy-expands-hammerhead-anti-submarine-mine-production-with-general-dynamics/",
+      "published": "Thu, 17 Sep 2026 11:53:07 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Indonesia’s First Aircraft Carrier: Former Italian Ship ‘Garibaldi’ Reaches Domestic Waters",
+      "link": "https://www.navalnews.com/naval-news/2026/09/indonesias-first-aircraft-carrier-former-italian-ship-garibaldi-reaches-domestic-waters/",
+      "published": "Thu, 17 Sep 2026 12:53:01 +0000",
+      "source": "Naval News",
       "categories": [
         "deployment"
       ]
@@ -616,6 +661,15 @@
       "link": "https://taskandpurpose.com/news/army-helicopter-laser-defense/",
       "published": "Wed, 16 Sep 2026 12:16:13 -0400",
       "source": "Task & Purpose",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "First Virginia Payload Module (VPM) Spotted for U.S. Navy’s Block V Submarines",
+      "link": "https://www.navalnews.com/naval-news/2026/09/slug-first-virginia-payload-module-vpm-spotted-block-v-submarines/",
+      "published": "Wed, 16 Sep 2026 16:02:28 +0000",
+      "source": "Naval News",
       "categories": [
         "deployment"
       ]
@@ -783,6 +837,15 @@
   },
   "_conflict_news_refs": [
     {
+      "title": "Video: MBDA Pitches Combat-Proven Aster Missiles to Royal Danish Navy",
+      "link": "https://www.navalnews.com/naval-news/2026/09/mbda-combat-proven-aster-missiles-royal-danish-navy/",
+      "published": "Thu, 17 Sep 2026 07:05:10 +0000",
+      "source": "Naval News",
+      "categories": [
+        "conflict"
+      ]
+    },
+    {
       "title": "Navy Wants Containerized, Low-cost Interceptors to Defeat Cruise Missiles, Drones",
       "link": "https://news.usni.org/2026/09/17/navy-wants-containerized-low-cost-interceptors-to-defeat-cruise-missiles-drones",
       "published": "Thu, 17 Sep 2026 19:32:12 +0000",
@@ -832,18 +895,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 4,
-    "conflict_articles": 3,
+    "deployment_articles": 10,
+    "conflict_articles": 4,
     "exercise_articles": 2,
-    "total_articles": 40,
-    "computed_at": "2026-09-18T18:40:25.410975+00:00",
+    "total_articles": 50,
+    "computed_at": "2026-09-18T21:18:22.629961+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
+      "[Naval News] Future USS Baltimore to Serve as U.S. Navy’s Elite Seabed Warfare Submarine",
+      "[Naval News] NAVANTIA Celebrates Naming of BAM-IS Submarine Rescue Vessel",
       "[Military Times] Long deployments overwhelm a strained Navy mental health system, personnel say",
-      "[USNI News] Marines Test USV for Littoral Explosive Ordnance Disposal Operations",
-      "[Defense News] US Navy should target carriers in fight with China, report says",
-      "[USNI News] Navy Wants Containerized, Low-cost Interceptors to Defeat Cruise Missiles, Drones",
-      "[Task & Purpose] The Pentagon classified the mission statement for Operation Epic Fury"
+      "[Naval News] Video: MBDA Pitches Combat-Proven Aster Missiles to Royal Danish Navy",
+      "[Naval News] OSK Design Unveils Coastal Corvette Concept to Fill Danish Fleet Gap"
     ]
   },
   "ground_intel": {
@@ -854,12 +917,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-09-18T18:40:25.411011+00:00",
-    "article_count": 40,
-    "categorized_count": 8,
-    "freshest_source": "Military Times",
-    "freshest_title": "Long deployments overwhelm a strained Navy mental health system, personnel say",
-    "freshest_published": "Fri, 18 Sep 2026 18:34:10 +0000"
+    "last_successful_update": "2026-09-18T21:18:22.629994+00:00",
+    "article_count": 50,
+    "categorized_count": 15,
+    "freshest_source": "Naval News",
+    "freshest_title": "Future USS Baltimore to Serve as U.S. Navy’s Elite Seabed Warfare Submarine",
+    "freshest_published": "Fri, 18 Sep 2026 08:45:47 +0000"
   },
   "_firms_hotspots": []
 }
