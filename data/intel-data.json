@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-09-18T15:16:23Z",
-  "version": 2900,
-  "breaking_alert": "Defense News: US Navy awards defense startup $200 million for Blackbeard hypersonic missile",
+  "generated_utc": "2026-09-18T18:40:51Z",
+  "version": 2901,
+  "breaking_alert": "Military Times: Long deployments overwhelm a strained Navy mental health system, personnel say",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -594,28 +594,19 @@
   ],
   "_naval_news_refs": [
     {
-      "title": "US Navy should target carriers in fight with China, report says",
-      "link": "https://www.defensenews.com/news/your-military/2026/09/17/us-navy-should-target-chinese-aircraft-carriers-report-says/",
-      "published": "Thu, 17 Sep 2026 17:14:35 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "US Navy should target carriers in fight with China, report says",
-      "link": "https://www.militarytimes.com/news/your-military/2026/09/17/us-navy-should-target-chinese-aircraft-carriers-report-says/",
-      "published": "Thu, 17 Sep 2026 17:14:35 +0000",
+      "title": "Long deployments overwhelm a strained Navy mental health system, personnel say",
+      "link": "https://www.militarytimes.com/news/your-navy/2026/09/18/long-deployments-overwhelm-a-strained-navy-mental-health-system-personnel-say/",
+      "published": "Fri, 18 Sep 2026 18:34:10 +0000",
       "source": "Military Times",
       "categories": [
         "deployment"
       ]
     },
     {
-      "title": "Destroyer named for Navy Corpsman who earned Medal of Honor hits milestone",
-      "link": "https://taskandpurpose.com/news/corpsman-john-kilmer-medal-of-honor/",
-      "published": "Tue, 15 Sep 2026 08:00:00 -0400",
-      "source": "Task & Purpose",
+      "title": "US Navy should target carriers in fight with China, report says",
+      "link": "https://www.defensenews.com/news/your-military/2026/09/17/us-navy-should-target-chinese-aircraft-carriers-report-says/",
+      "published": "Thu, 17 Sep 2026 17:14:35 +0000",
+      "source": "Defense News",
       "categories": [
         "deployment"
       ]
@@ -792,15 +783,6 @@
   },
   "_conflict_news_refs": [
     {
-      "title": "US Navy awards defense startup $200 million for Blackbeard hypersonic missile",
-      "link": "https://www.defensenews.com/news/your-navy/2026/09/17/us-navy-awards-defense-startup-200-million-for-blackbeard-hypersonic-missile/",
-      "published": "Thu, 17 Sep 2026 15:35:43 +0000",
-      "source": "Defense News",
-      "categories": [
-        "conflict"
-      ]
-    },
-    {
       "title": "Navy Wants Containerized, Low-cost Interceptors to Defeat Cruise Missiles, Drones",
       "link": "https://news.usni.org/2026/09/17/navy-wants-containerized-low-cost-interceptors-to-defeat-cruise-missiles-drones",
       "published": "Thu, 17 Sep 2026 19:32:12 +0000",
@@ -847,30 +829,21 @@
       "categories": [
         "exercise"
       ]
-    },
-    {
-      "title": "Pentagon Inspector General Report on Operation Epic Fury",
-      "link": "https://news.usni.org/2026/09/16/pentagon-inspector-general-report-on-operation-epic-fury",
-      "published": "Wed, 16 Sep 2026 13:32:38 +0000",
-      "source": "USNI News",
-      "categories": [
-        "exercise"
-      ]
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 5,
-    "conflict_articles": 4,
-    "exercise_articles": 3,
+    "deployment_articles": 4,
+    "conflict_articles": 3,
+    "exercise_articles": 2,
     "total_articles": 40,
-    "computed_at": "2026-09-18T15:16:21.579471+00:00",
+    "computed_at": "2026-09-18T18:40:25.410975+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
-      "[Defense News] US Navy awards defense startup $200 million for Blackbeard hypersonic missile",
+      "[Military Times] Long deployments overwhelm a strained Navy mental health system, personnel say",
       "[USNI News] Marines Test USV for Littoral Explosive Ordnance Disposal Operations",
       "[Defense News] US Navy should target carriers in fight with China, report says",
-      "[Military Times] US Navy should target carriers in fight with China, report says",
-      "[USNI News] Navy Wants Containerized, Low-cost Interceptors to Defeat Cruise Missiles, Drones"
+      "[USNI News] Navy Wants Containerized, Low-cost Interceptors to Defeat Cruise Missiles, Drones",
+      "[Task & Purpose] The Pentagon classified the mission statement for Operation Epic Fury"
     ]
   },
   "ground_intel": {
@@ -881,12 +854,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-09-18T15:16:21.579507+00:00",
+    "last_successful_update": "2026-09-18T18:40:25.411011+00:00",
     "article_count": 40,
-    "categorized_count": 11,
-    "freshest_source": "Defense News",
-    "freshest_title": "US Navy awards defense startup $200 million for Blackbeard hypersonic missile",
-    "freshest_published": "Thu, 17 Sep 2026 15:35:43 +0000"
+    "categorized_count": 8,
+    "freshest_source": "Military Times",
+    "freshest_title": "Long deployments overwhelm a strained Navy mental health system, personnel say",
+    "freshest_published": "Fri, 18 Sep 2026 18:34:10 +0000"
   },
   "_firms_hotspots": []
 }
