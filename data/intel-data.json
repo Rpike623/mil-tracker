@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-09-19T11:39:29Z",
-  "version": 2906,
+  "generated_utc": "2026-09-19T14:53:30Z",
+  "version": 2907,
   "breaking_alert": "Naval News: Future USS Baltimore to Serve as U.S. Navy’s Elite Seabed Warfare Submarine",
   "naval_deployments": [
     {
@@ -630,6 +630,15 @@
       ]
     },
     {
+      "title": "Carrier USS Abraham Lincoln Pulls into Guam for Logistics Stop, Deployment Now at 302 Days",
+      "link": "https://news.usni.org/2026/09/19/carrier-uss-abraham-lincoln-pulls-into-guam-for-logistics-stop-deployment-now-at-302-days",
+      "published": "Sat, 19 Sep 2026 11:42:15 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "OSK Design Unveils Coastal Corvette Concept to Fill Danish Fleet Gap",
       "link": "https://www.navalnews.com/naval-news/2026/09/osk-design-coastal-corvette-denmark/",
       "published": "Thu, 17 Sep 2026 08:30:20 +0000",
@@ -670,15 +679,6 @@
       "link": "https://taskandpurpose.com/news/army-helicopter-laser-defense/",
       "published": "Wed, 16 Sep 2026 12:16:13 -0400",
       "source": "Task & Purpose",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "First Virginia Payload Module (VPM) Spotted for U.S. Navy’s Block V Submarines",
-      "link": "https://www.navalnews.com/naval-news/2026/09/slug-first-virginia-payload-module-vpm-spotted-block-v-submarines/",
-      "published": "Wed, 16 Sep 2026 16:02:28 +0000",
-      "source": "Naval News",
       "categories": [
         "deployment"
       ]
@@ -861,16 +861,6 @@
       "categories": [
         "conflict"
       ]
-    },
-    {
-      "title": "Navy Awards $200M for Blackbeard Hypersonic Missile for Carrier Fighters",
-      "link": "https://news.usni.org/2026/09/16/navy-awards-200m-for-blackbeard-hypersonic-missile-for-carrier-fighters",
-      "published": "Wed, 16 Sep 2026 16:35:44 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
     }
   ],
   "_exercise_news_refs": [
@@ -895,17 +885,17 @@
   ],
   "_threat_indicators": {
     "deployment_articles": 11,
-    "conflict_articles": 4,
+    "conflict_articles": 3,
     "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-09-19T11:39:24.928043+00:00",
+    "computed_at": "2026-09-19T14:53:27.421206+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] Future USS Baltimore to Serve as U.S. Navy’s Elite Seabed Warfare Submarine",
       "[Naval News] NAVANTIA Celebrates Naming of BAM-IS Submarine Rescue Vessel",
       "[Military Times] Long deployments overwhelm a strained Navy mental health system, personnel say",
       "[USNI News] Hormuz Transits Hit Three-week High, VLCC Rates Explode",
-      "[Naval News] Video: MBDA Pitches Combat-Proven Aster Missiles to Royal Danish Navy"
+      "[USNI News] Carrier USS Abraham Lincoln Pulls into Guam for Logistics Stop, Deployment Now at 302 Days"
     ]
   },
   "ground_intel": {
@@ -916,7 +906,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-09-19T11:39:24.928087+00:00",
+    "last_successful_update": "2026-09-19T14:53:27.421258+00:00",
     "article_count": 50,
     "categorized_count": 16,
     "freshest_source": "Naval News",
