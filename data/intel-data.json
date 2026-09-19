@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-09-19T14:53:30Z",
-  "version": 2907,
+  "generated_utc": "2026-09-19T17:31:24Z",
+  "version": 2908,
   "breaking_alert": "Naval News: Future USS Baltimore to Serve as U.S. Navy’s Elite Seabed Warfare Submarine",
   "naval_deployments": [
     {
@@ -872,23 +872,14 @@
       "categories": [
         "exercise"
       ]
-    },
-    {
-      "title": "The Pentagon classified the mission statement for Operation Epic Fury",
-      "link": "https://taskandpurpose.com/news/pentagon-iran-war-epic-fury-classified/",
-      "published": "Tue, 15 Sep 2026 12:55:45 -0400",
-      "source": "Task & Purpose",
-      "categories": [
-        "exercise"
-      ]
     }
   ],
   "_threat_indicators": {
     "deployment_articles": 11,
     "conflict_articles": 3,
-    "exercise_articles": 2,
+    "exercise_articles": 1,
     "total_articles": 50,
-    "computed_at": "2026-09-19T14:53:27.421206+00:00",
+    "computed_at": "2026-09-19T17:31:22.134228+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] Future USS Baltimore to Serve as U.S. Navy’s Elite Seabed Warfare Submarine",
@@ -906,9 +897,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-09-19T14:53:27.421258+00:00",
+    "last_successful_update": "2026-09-19T17:31:22.134274+00:00",
     "article_count": 50,
-    "categorized_count": 16,
+    "categorized_count": 15,
     "freshest_source": "Naval News",
     "freshest_title": "Future USS Baltimore to Serve as U.S. Navy’s Elite Seabed Warfare Submarine",
     "freshest_published": "Fri, 18 Sep 2026 08:45:47 +0000"
