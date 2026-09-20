@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-09-20T19:06:57Z",
-  "version": 2916,
+  "generated_utc": "2026-09-20T21:57:23Z",
+  "version": 2917,
   "breaking_alert": "Naval News: Future USS Baltimore to Serve as U.S. Navy’s Elite Seabed Warfare Submarine",
   "naval_deployments": [
     {
@@ -843,15 +843,6 @@
       "categories": [
         "conflict"
       ]
-    },
-    {
-      "title": "Air Force to create new career field to defend bases from drones and missiles",
-      "link": "https://taskandpurpose.com/news/air-force-counter-drone-warfare/",
-      "published": "Wed, 16 Sep 2026 14:56:47 -0400",
-      "source": "Task & Purpose",
-      "categories": [
-        "conflict"
-      ]
     }
   ],
   "_exercise_news_refs": [
@@ -867,10 +858,10 @@
   ],
   "_threat_indicators": {
     "deployment_articles": 9,
-    "conflict_articles": 3,
+    "conflict_articles": 2,
     "exercise_articles": 1,
     "total_articles": 50,
-    "computed_at": "2026-09-20T19:06:41.780019+00:00",
+    "computed_at": "2026-09-20T21:57:18.701802+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] Future USS Baltimore to Serve as U.S. Navy’s Elite Seabed Warfare Submarine",
@@ -888,9 +879,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-09-20T19:06:41.780066+00:00",
+    "last_successful_update": "2026-09-20T21:57:18.701839+00:00",
     "article_count": 50,
-    "categorized_count": 13,
+    "categorized_count": 12,
     "freshest_source": "Naval News",
     "freshest_title": "Future USS Baltimore to Serve as U.S. Navy’s Elite Seabed Warfare Submarine",
     "freshest_published": "Fri, 18 Sep 2026 08:45:47 +0000"
