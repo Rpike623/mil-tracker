@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-09-21T19:46:42Z",
-  "version": 2922,
+  "generated_utc": "2026-09-21T22:52:55Z",
+  "version": 2923,
   "breaking_alert": "Naval News: Future USS Baltimore to Serve as U.S. Navy’s Elite Seabed Warfare Submarine",
   "naval_deployments": [
     {
@@ -657,19 +657,19 @@
       ]
     },
     {
-      "title": "Carrier USS Abraham Lincoln Pulls into Guam for Logistics Stop, Deployment Now at 302 Days",
-      "link": "https://news.usni.org/2026/09/19/carrier-uss-abraham-lincoln-pulls-into-guam-for-logistics-stop-deployment-now-at-302-days",
-      "published": "Sat, 19 Sep 2026 11:42:15 +0000",
-      "source": "USNI News",
+      "title": "Australia and New Zealand strengthen naval partnership",
+      "link": "https://www.navalnews.com/naval-news/2026/09/australia-and-new-zealand-strengthen-naval-partnership/",
+      "published": "Mon, 21 Sep 2026 20:54:54 +0000",
+      "source": "Naval News",
       "categories": [
         "deployment"
       ]
     },
     {
-      "title": "U.S. Navy Expands Hammerhead Anti-Submarine Mine Production with General Dynamics",
-      "link": "https://www.navalnews.com/naval-news/2026/09/u-s-navy-expands-hammerhead-anti-submarine-mine-production-with-general-dynamics/",
-      "published": "Thu, 17 Sep 2026 11:53:07 +0000",
-      "source": "Naval News",
+      "title": "Carrier USS Abraham Lincoln Pulls into Guam for Logistics Stop, Deployment Now at 302 Days",
+      "link": "https://news.usni.org/2026/09/19/carrier-uss-abraham-lincoln-pulls-into-guam-for-logistics-stop-deployment-now-at-302-days",
+      "published": "Sat, 19 Sep 2026 11:42:15 +0000",
+      "source": "USNI News",
       "categories": [
         "deployment"
       ]
@@ -854,6 +854,15 @@
       ]
     },
     {
+      "title": "U.S. Strikes 70th Alleged Drug Boat, U.N. Brief Condemns Attacks",
+      "link": "https://news.usni.org/2026/09/21/u-s-strikes-70th-alleged-drug-boat-u-n-brief-condemns-attacks",
+      "published": "Mon, 21 Sep 2026 20:48:36 +0000",
+      "source": "USNI News",
+      "categories": [
+        "conflict"
+      ]
+    },
+    {
       "title": "Navy Wants Containerized, Low-cost Interceptors to Defeat Cruise Missiles, Drones",
       "link": "https://news.usni.org/2026/09/17/navy-wants-containerized-low-cost-interceptors-to-defeat-cruise-missiles-drones",
       "published": "Thu, 17 Sep 2026 19:32:12 +0000",
@@ -872,23 +881,14 @@
       "categories": [
         "exercise"
       ]
-    },
-    {
-      "title": "Marines Test USV for Littoral Explosive Ordnance Disposal Operations",
-      "link": "https://news.usni.org/2026/09/17/marines-test-usv-for-littoral-explosive-ordnance-disposal-operations",
-      "published": "Thu, 17 Sep 2026 15:48:04 +0000",
-      "source": "USNI News",
-      "categories": [
-        "exercise"
-      ]
     }
   ],
   "_threat_indicators": {
     "deployment_articles": 10,
-    "conflict_articles": 3,
-    "exercise_articles": 2,
+    "conflict_articles": 4,
+    "exercise_articles": 1,
     "total_articles": 50,
-    "computed_at": "2026-09-21T19:46:40.092911+00:00",
+    "computed_at": "2026-09-21T22:52:51.783131+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] Future USS Baltimore to Serve as U.S. Navy’s Elite Seabed Warfare Submarine",
@@ -906,7 +906,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-09-21T19:46:40.092958+00:00",
+    "last_successful_update": "2026-09-21T22:52:51.783166+00:00",
     "article_count": 50,
     "categorized_count": 15,
     "freshest_source": "Naval News",
