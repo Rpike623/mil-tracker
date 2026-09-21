@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-09-21T07:18:51Z",
-  "version": 2920,
+  "generated_utc": "2026-09-21T14:35:38Z",
+  "version": 2921,
   "breaking_alert": "Naval News: Future USS Baltimore to Serve as U.S. Navy’s Elite Seabed Warfare Submarine",
   "naval_deployments": [
     {
@@ -612,15 +612,6 @@
       ]
     },
     {
-      "title": "Long deployments overwhelm a strained Navy mental health system, personnel say",
-      "link": "https://www.militarytimes.com/news/your-navy/2026/09/18/long-deployments-overwhelm-a-strained-navy-mental-health-system-personnel-say/",
-      "published": "Fri, 18 Sep 2026 18:34:10 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Hormuz Transits Hit Three-week High, VLCC Rates Explode",
       "link": "https://news.usni.org/2026/09/18/hormuz-transits-hit-three-week-high-vlcc-rates-explode",
       "published": "Fri, 18 Sep 2026 22:14:39 +0000",
@@ -630,19 +621,28 @@
       ]
     },
     {
-      "title": "Carrier USS Abraham Lincoln Pulls into Guam for Logistics Stop, Deployment Now at 302 Days",
-      "link": "https://news.usni.org/2026/09/19/carrier-uss-abraham-lincoln-pulls-into-guam-for-logistics-stop-deployment-now-at-302-days",
-      "published": "Sat, 19 Sep 2026 11:42:15 +0000",
-      "source": "USNI News",
+      "title": "Tracking America’s latest conflict: The Iran war timeline",
+      "link": "https://taskandpurpose.com/news/iran-war-timeline/",
+      "published": "Mon, 21 Sep 2026 06:41:14 -0400",
+      "source": "Task & Purpose",
       "categories": [
         "deployment"
       ]
     },
     {
-      "title": "OSK Design Unveils Coastal Corvette Concept to Fill Danish Fleet Gap",
-      "link": "https://www.navalnews.com/naval-news/2026/09/osk-design-coastal-corvette-denmark/",
-      "published": "Thu, 17 Sep 2026 08:30:20 +0000",
+      "title": "US Navy’s ‘Sub Tsar’ Unveils Four-Pillar Plan to Accelerate Submarine Deliveries",
+      "link": "https://www.navalnews.com/naval-news/2026/09/usn-sub-tsar-four-pillar-plan-accelerate-submarines/",
+      "published": "Mon, 21 Sep 2026 10:59:57 +0000",
       "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Carrier USS Abraham Lincoln Pulls into Guam for Logistics Stop, Deployment Now at 302 Days",
+      "link": "https://news.usni.org/2026/09/19/carrier-uss-abraham-lincoln-pulls-into-guam-for-logistics-stop-deployment-now-at-302-days",
+      "published": "Sat, 19 Sep 2026 11:42:15 +0000",
+      "source": "USNI News",
       "categories": [
         "deployment"
       ]
@@ -661,15 +661,6 @@
       "link": "https://www.navalnews.com/naval-news/2026/09/indonesias-first-aircraft-carrier-former-italian-ship-garibaldi-reaches-domestic-waters/",
       "published": "Thu, 17 Sep 2026 12:53:01 +0000",
       "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "US Navy should target carriers in fight with China, report says",
-      "link": "https://www.defensenews.com/news/your-military/2026/09/17/us-navy-should-target-chinese-aircraft-carriers-report-says/",
-      "published": "Thu, 17 Sep 2026 17:14:35 +0000",
-      "source": "Defense News",
       "categories": [
         "deployment"
       ]
@@ -827,10 +818,10 @@
   },
   "_conflict_news_refs": [
     {
-      "title": "Video: MBDA Pitches Combat-Proven Aster Missiles to Royal Danish Navy",
-      "link": "https://www.navalnews.com/naval-news/2026/09/mbda-combat-proven-aster-missiles-royal-danish-navy/",
-      "published": "Thu, 17 Sep 2026 07:05:10 +0000",
-      "source": "Naval News",
+      "title": "U.S. Army Contracts First Batch of Maritime Precision Strike Missiles",
+      "link": "https://news.usni.org/2026/09/21/u-s-army-contracts-first-batch-of-maritime-precision-strike-missiles",
+      "published": "Mon, 21 Sep 2026 14:19:47 +0000",
+      "source": "USNI News",
       "categories": [
         "conflict"
       ]
@@ -847,6 +838,15 @@
   ],
   "_exercise_news_refs": [
     {
+      "title": "Denmark says NATO shares responsibility for Arctic security under Greenland deal",
+      "link": "https://www.defensenews.com/global/europe/2026/09/21/denmark-says-nato-shares-responsibility-for-arctic-security-under-greenland-deal/",
+      "published": "Mon, 21 Sep 2026 09:52:22 +0000",
+      "source": "Defense News",
+      "categories": [
+        "exercise"
+      ]
+    },
+    {
       "title": "Marines Test USV for Littoral Explosive Ordnance Disposal Operations",
       "link": "https://news.usni.org/2026/09/17/marines-test-usv-for-littoral-explosive-ordnance-disposal-operations",
       "published": "Thu, 17 Sep 2026 15:48:04 +0000",
@@ -857,18 +857,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 9,
+    "deployment_articles": 8,
     "conflict_articles": 2,
-    "exercise_articles": 1,
+    "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-09-21T07:18:49.923561+00:00",
+    "computed_at": "2026-09-21T14:35:35.585797+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] Future USS Baltimore to Serve as U.S. Navy’s Elite Seabed Warfare Submarine",
       "[Naval News] NAVANTIA Celebrates Naming of BAM-IS Submarine Rescue Vessel",
-      "[Military Times] Long deployments overwhelm a strained Navy mental health system, personnel say",
       "[USNI News] Hormuz Transits Hit Three-week High, VLCC Rates Explode",
-      "[USNI News] Carrier USS Abraham Lincoln Pulls into Guam for Logistics Stop, Deployment Now at 302 Days"
+      "[Task & Purpose] Tracking America’s latest conflict: The Iran war timeline",
+      "[Defense News] Denmark says NATO shares responsibility for Arctic security under Greenland deal"
     ]
   },
   "ground_intel": {
@@ -879,7 +879,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-09-21T07:18:49.923609+00:00",
+    "last_successful_update": "2026-09-21T14:35:35.585837+00:00",
     "article_count": 50,
     "categorized_count": 12,
     "freshest_source": "Naval News",
