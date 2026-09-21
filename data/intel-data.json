@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-09-21T01:53:13Z",
-  "version": 2919,
+  "generated_utc": "2026-09-21T07:18:51Z",
+  "version": 2920,
   "breaking_alert": "Naval News: Future USS Baltimore to Serve as U.S. Navy’s Elite Seabed Warfare Submarine",
   "naval_deployments": [
     {
@@ -861,7 +861,7 @@
     "conflict_articles": 2,
     "exercise_articles": 1,
     "total_articles": 50,
-    "computed_at": "2026-09-21T01:53:03.474567+00:00",
+    "computed_at": "2026-09-21T07:18:49.923561+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] Future USS Baltimore to Serve as U.S. Navy’s Elite Seabed Warfare Submarine",
@@ -879,7 +879,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-09-21T01:53:03.474609+00:00",
+    "last_successful_update": "2026-09-21T07:18:49.923609+00:00",
     "article_count": 50,
     "categorized_count": 12,
     "freshest_source": "Naval News",
