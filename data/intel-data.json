@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-09-22T06:54:55Z",
-  "version": 2925,
+  "generated_utc": "2026-09-22T12:13:56Z",
+  "version": 2926,
   "breaking_alert": "Naval News: Future USS Baltimore to Serve as U.S. Navy’s Elite Seabed Warfare Submarine",
   "naval_deployments": [
     {
@@ -675,9 +675,9 @@
       ]
     },
     {
-      "title": "Indonesia’s First Aircraft Carrier: Former Italian Ship ‘Garibaldi’ Reaches Domestic Waters",
-      "link": "https://www.navalnews.com/naval-news/2026/09/indonesias-first-aircraft-carrier-former-italian-ship-garibaldi-reaches-domestic-waters/",
-      "published": "Thu, 17 Sep 2026 12:53:01 +0000",
+      "title": "Leonardo and Alkeon Partner to Bring 76mm Naval Gun Production to Denmark",
+      "link": "https://www.navalnews.com/naval-news/2026/09/leonardo-and-alkeon-partner-to-bring-76mm-naval-gun-production-to-denmark/",
+      "published": "Tue, 22 Sep 2026 08:28:22 +0000",
       "source": "Naval News",
       "categories": [
         "deployment"
@@ -870,6 +870,15 @@
       "categories": [
         "conflict"
       ]
+    },
+    {
+      "title": "The Golden Dome czar must get control of all US missile defense programs",
+      "link": "https://www.defensenews.com/opinion/2026/09/22/the-golden-dome-czar-must-get-control-of-all-us-missile-defense-programs/",
+      "published": "Tue, 22 Sep 2026 10:30:53 +0000",
+      "source": "Defense News",
+      "categories": [
+        "conflict"
+      ]
     }
   ],
   "_exercise_news_refs": [
@@ -885,10 +894,10 @@
   ],
   "_threat_indicators": {
     "deployment_articles": 10,
-    "conflict_articles": 4,
+    "conflict_articles": 6,
     "exercise_articles": 1,
     "total_articles": 50,
-    "computed_at": "2026-09-22T06:54:50.243038+00:00",
+    "computed_at": "2026-09-22T12:09:15.355567+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] Future USS Baltimore to Serve as U.S. Navy’s Elite Seabed Warfare Submarine",
@@ -906,9 +915,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-09-22T06:54:50.243082+00:00",
+    "last_successful_update": "2026-09-22T12:09:15.355611+00:00",
     "article_count": 50,
-    "categorized_count": 15,
+    "categorized_count": 17,
     "freshest_source": "Naval News",
     "freshest_title": "Future USS Baltimore to Serve as U.S. Navy’s Elite Seabed Warfare Submarine",
     "freshest_published": "Fri, 18 Sep 2026 08:45:47 +0000"
