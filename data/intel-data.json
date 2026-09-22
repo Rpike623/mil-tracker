@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-09-22T12:13:56Z",
-  "version": 2926,
-  "breaking_alert": "Naval News: Future USS Baltimore to Serve as U.S. Navy’s Elite Seabed Warfare Submarine",
+  "generated_utc": "2026-09-22T17:27:46Z",
+  "version": 2927,
+  "breaking_alert": "USNI News: Hormuz Transits Hit Three-week High, VLCC Rates Explode",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -594,24 +594,6 @@
   ],
   "_naval_news_refs": [
     {
-      "title": "Future USS Baltimore to Serve as U.S. Navy’s Elite Seabed Warfare Submarine",
-      "link": "https://www.navalnews.com/naval-news/2026/09/uss-baltimore-seabed-warfare-submarine/",
-      "published": "Fri, 18 Sep 2026 08:45:47 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "NAVANTIA Celebrates Naming of BAM-IS Submarine Rescue Vessel",
-      "link": "https://www.navalnews.com/naval-news/2026/09/navantia-celebrates-naming-of-bam-is-submarine-rescue-vessel/",
-      "published": "Fri, 18 Sep 2026 15:23:03 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Hormuz Transits Hit Three-week High, VLCC Rates Explode",
       "link": "https://news.usni.org/2026/09/18/hormuz-transits-hit-three-week-high-vlcc-rates-explode",
       "published": "Fri, 18 Sep 2026 22:14:39 +0000",
@@ -630,37 +612,10 @@
       ]
     },
     {
-      "title": "US Navy’s ‘Sub Tsar’ Unveils Four-Pillar Plan to Accelerate Submarine Deliveries",
-      "link": "https://www.navalnews.com/naval-news/2026/09/usn-sub-tsar-four-pillar-plan-accelerate-submarines/",
-      "published": "Mon, 21 Sep 2026 10:59:57 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "USNI News Fleet and Marine Tracker: Sept. 21, 2026",
       "link": "https://news.usni.org/2026/09/21/usni-news-fleet-and-marine-tracker-sept-21-2026",
       "published": "Mon, 21 Sep 2026 16:50:43 +0000",
       "source": "USNI News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "USS Abraham Lincoln arrives in Guam as deployment enters 10th month",
-      "link": "https://www.militarytimes.com/news/your-navy/2026/09/21/uss-abraham-lincoln-arrives-in-guam-as-deployment-enters-10th-month/",
-      "published": "Mon, 21 Sep 2026 19:30:40 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Australia and New Zealand strengthen naval partnership",
-      "link": "https://www.navalnews.com/naval-news/2026/09/australia-and-new-zealand-strengthen-naval-partnership/",
-      "published": "Mon, 21 Sep 2026 20:54:54 +0000",
-      "source": "Naval News",
       "categories": [
         "deployment"
       ]
@@ -675,10 +630,47 @@
       ]
     },
     {
-      "title": "Leonardo and Alkeon Partner to Bring 76mm Naval Gun Production to Denmark",
-      "link": "https://www.navalnews.com/naval-news/2026/09/leonardo-and-alkeon-partner-to-bring-76mm-naval-gun-production-to-denmark/",
-      "published": "Tue, 22 Sep 2026 08:28:22 +0000",
-      "source": "Naval News",
+      "title": "Pentagon confirms non-hostile death of Army officer in support of Iran war operations",
+      "link": "https://taskandpurpose.com/news/officer-army-killed-september-overseas-operations/",
+      "published": "Tue, 22 Sep 2026 10:22:23 -0400",
+      "source": "Task & Purpose",
+      "categories": [
+        "deployment",
+        "exercise"
+      ]
+    },
+    {
+      "title": "South Korea faces no good choices in sending forces for Trump’s unpopular Iran mission",
+      "link": "https://www.defensenews.com/global/asia-pacific/2026/09/22/south-korea-faces-no-good-choices-in-sending-forces-for-trumps-unpopular-iran-mission/",
+      "published": "Tue, 22 Sep 2026 15:18:32 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "CENTCOM has become a battle lab for unmanned systems",
+      "link": "https://www.defensenews.com/news/your-military/2026/09/22/centcom-has-become-a-battle-lab-for-unmanned-systems/",
+      "published": "Tue, 22 Sep 2026 16:43:00 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "CENTCOM has become a battle lab for unmanned systems",
+      "link": "https://www.militarytimes.com/news/your-military/2026/09/22/centcom-has-become-a-battle-lab-for-unmanned-systems/",
+      "published": "Tue, 22 Sep 2026 16:43:00 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "U.S. Destroyer Practices Underway Refueling with Seahawk USV",
+      "link": "https://news.usni.org/2026/09/22/u-s-destroyer-practices-refueling-seahawk-usv-while-underway",
+      "published": "Tue, 22 Sep 2026 16:48:06 +0000",
+      "source": "USNI News",
       "categories": [
         "deployment"
       ]
@@ -863,15 +855,6 @@
       ]
     },
     {
-      "title": "Navy Wants Containerized, Low-cost Interceptors to Defeat Cruise Missiles, Drones",
-      "link": "https://news.usni.org/2026/09/17/navy-wants-containerized-low-cost-interceptors-to-defeat-cruise-missiles-drones",
-      "published": "Thu, 17 Sep 2026 19:32:12 +0000",
-      "source": "USNI News",
-      "categories": [
-        "conflict"
-      ]
-    },
-    {
       "title": "The Golden Dome czar must get control of all US missile defense programs",
       "link": "https://www.defensenews.com/opinion/2026/09/22/the-golden-dome-czar-must-get-control-of-all-us-missile-defense-programs/",
       "published": "Tue, 22 Sep 2026 10:30:53 +0000",
@@ -879,32 +862,42 @@
       "categories": [
         "conflict"
       ]
+    },
+    {
+      "title": "The Golden Dome czar must get control of all US missile defense programs",
+      "link": "https://www.militarytimes.com/opinion/2026/09/22/the-golden-dome-czar-must-get-control-of-all-us-missile-defense-programs/",
+      "published": "Tue, 22 Sep 2026 10:30:53 +0000",
+      "source": "Military Times",
+      "categories": [
+        "conflict"
+      ]
     }
   ],
   "_exercise_news_refs": [
     {
-      "title": "Denmark says NATO shares responsibility for Arctic security under Greenland deal",
-      "link": "https://www.defensenews.com/global/europe/2026/09/21/denmark-says-nato-shares-responsibility-for-arctic-security-under-greenland-deal/",
-      "published": "Mon, 21 Sep 2026 09:52:22 +0000",
-      "source": "Defense News",
+      "title": "Pentagon confirms non-hostile death of Army officer in support of Iran war operations",
+      "link": "https://taskandpurpose.com/news/officer-army-killed-september-overseas-operations/",
+      "published": "Tue, 22 Sep 2026 10:22:23 -0400",
+      "source": "Task & Purpose",
       "categories": [
+        "deployment",
         "exercise"
       ]
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 10,
-    "conflict_articles": 6,
+    "deployment_articles": 9,
+    "conflict_articles": 5,
     "exercise_articles": 1,
-    "total_articles": 50,
-    "computed_at": "2026-09-22T12:09:15.355567+00:00",
+    "total_articles": 40,
+    "computed_at": "2026-09-22T17:23:05.782913+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
-      "[Naval News] Future USS Baltimore to Serve as U.S. Navy’s Elite Seabed Warfare Submarine",
-      "[Naval News] NAVANTIA Celebrates Naming of BAM-IS Submarine Rescue Vessel",
       "[USNI News] Hormuz Transits Hit Three-week High, VLCC Rates Explode",
       "[Task & Purpose] Tracking America’s latest conflict: The Iran war timeline",
-      "[Defense News] Denmark says NATO shares responsibility for Arctic security under Greenland deal"
+      "[USNI News] U.S. Army Contracts First Batch of Maritime Precision Strike Missiles",
+      "[Task & Purpose] Fishing charter catches Air Force attack drone off Florida coast",
+      "[USNI News] USNI News Fleet and Marine Tracker: Sept. 21, 2026"
     ]
   },
   "ground_intel": {
@@ -915,12 +908,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-09-22T12:09:15.355611+00:00",
-    "article_count": 50,
-    "categorized_count": 17,
-    "freshest_source": "Naval News",
-    "freshest_title": "Future USS Baltimore to Serve as U.S. Navy’s Elite Seabed Warfare Submarine",
-    "freshest_published": "Fri, 18 Sep 2026 08:45:47 +0000"
+    "last_successful_update": "2026-09-22T17:23:05.782954+00:00",
+    "article_count": 40,
+    "categorized_count": 14,
+    "freshest_source": "USNI News",
+    "freshest_title": "Hormuz Transits Hit Three-week High, VLCC Rates Explode",
+    "freshest_published": "Fri, 18 Sep 2026 22:14:39 +0000"
   },
   "_firms_hotspots": []
 }
