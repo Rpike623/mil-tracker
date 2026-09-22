@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-09-22T20:32:18Z",
-  "version": 2928,
+  "generated_utc": "2026-09-22T23:19:24Z",
+  "version": 2929,
   "breaking_alert": "USNI News: Hormuz Transits Hit Three-week High, VLCC Rates Explode",
   "naval_deployments": [
     {
@@ -612,6 +612,15 @@
       ]
     },
     {
+      "title": "US Navy’s ‘Sub Tsar’ Unveils Four-Pillar Plan to Accelerate Submarine Deliveries",
+      "link": "https://www.navalnews.com/naval-news/2026/09/usn-sub-tsar-four-pillar-plan-accelerate-submarines/",
+      "published": "Mon, 21 Sep 2026 10:59:57 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "USNI News Fleet and Marine Tracker: Sept. 21, 2026",
       "link": "https://news.usni.org/2026/09/21/usni-news-fleet-and-marine-tracker-sept-21-2026",
       "published": "Mon, 21 Sep 2026 16:50:43 +0000",
@@ -621,10 +630,28 @@
       ]
     },
     {
+      "title": "Australia and New Zealand strengthen naval partnership",
+      "link": "https://www.navalnews.com/naval-news/2026/09/australia-and-new-zealand-strengthen-naval-partnership/",
+      "published": "Mon, 21 Sep 2026 20:54:54 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "Carrier USS Abraham Lincoln Pulls into Guam for Logistics Stop, Deployment Now at 302 Days",
       "link": "https://news.usni.org/2026/09/19/carrier-uss-abraham-lincoln-pulls-into-guam-for-logistics-stop-deployment-now-at-302-days",
       "published": "Sat, 19 Sep 2026 11:42:15 +0000",
       "source": "USNI News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Leonardo and Alkeon Partner to Bring 76mm Naval Gun Production to Denmark",
+      "link": "https://www.navalnews.com/naval-news/2026/09/leonardo-and-alkeon-partner-to-bring-76mm-naval-gun-production-to-denmark/",
+      "published": "Tue, 22 Sep 2026 08:28:22 +0000",
+      "source": "Naval News",
       "categories": [
         "deployment"
       ]
@@ -640,46 +667,19 @@
       ]
     },
     {
-      "title": "South Korea faces no good choices in sending forces for Trump’s unpopular Iran mission",
-      "link": "https://www.defensenews.com/global/asia-pacific/2026/09/22/south-korea-faces-no-good-choices-in-sending-forces-for-trumps-unpopular-iran-mission/",
-      "published": "Tue, 22 Sep 2026 15:18:32 +0000",
-      "source": "Defense News",
+      "title": "Argentina Eyes New Submarines and Frigates in 2027 Budget Plan",
+      "link": "https://www.navalnews.com/naval-news/2026/09/argentina-navy-submarines-frigates-2027-budget/",
+      "published": "Tue, 22 Sep 2026 12:42:33 +0000",
+      "source": "Naval News",
       "categories": [
         "deployment"
       ]
     },
     {
-      "title": "CENTCOM has become a battle lab for unmanned systems",
-      "link": "https://www.defensenews.com/news/your-military/2026/09/22/centcom-has-become-a-battle-lab-for-unmanned-systems/",
-      "published": "Tue, 22 Sep 2026 16:43:00 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "CENTCOM has become a battle lab for unmanned systems",
-      "link": "https://www.militarytimes.com/news/your-military/2026/09/22/centcom-has-become-a-battle-lab-for-unmanned-systems/",
-      "published": "Tue, 22 Sep 2026 16:43:00 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "U.S. Destroyer Practices Underway Refueling with Seahawk USV",
-      "link": "https://news.usni.org/2026/09/22/u-s-destroyer-practices-refueling-seahawk-usv-while-underway",
-      "published": "Tue, 22 Sep 2026 16:48:06 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "US Navy destroyers tested in Middle East as demands mount",
-      "link": "https://www.defensenews.com/news/your-navy/2026/09/22/us-navy-destroyers-tested-in-middle-east-as-demands-mount/",
-      "published": "Tue, 22 Sep 2026 18:55:08 +0000",
-      "source": "Defense News",
+      "title": "Naval Group’s new Rampart launcher spotted aboard Mistral-class LHD",
+      "link": "https://www.navalnews.com/naval-news/2026/09/naval-group-rampart-launcher-mistral-lhd/",
+      "published": "Tue, 22 Sep 2026 14:49:21 +0000",
+      "source": "Naval News",
       "categories": [
         "deployment"
       ]
@@ -886,18 +886,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 12,
+    "deployment_articles": 18,
     "conflict_articles": 4,
     "exercise_articles": 1,
-    "total_articles": 40,
-    "computed_at": "2026-09-22T20:32:13.200368+00:00",
+    "total_articles": 50,
+    "computed_at": "2026-09-22T23:19:16.850036+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[USNI News] Hormuz Transits Hit Three-week High, VLCC Rates Explode",
       "[Task & Purpose] Tracking America’s latest conflict: The Iran war timeline",
+      "[Naval News] US Navy’s ‘Sub Tsar’ Unveils Four-Pillar Plan to Accelerate Submarine Deliveries",
       "[USNI News] U.S. Army Contracts First Batch of Maritime Precision Strike Missiles",
-      "[Task & Purpose] Fishing charter catches Air Force attack drone off Florida coast",
-      "[USNI News] USNI News Fleet and Marine Tracker: Sept. 21, 2026"
+      "[Task & Purpose] Fishing charter catches Air Force attack drone off Florida coast"
     ]
   },
   "ground_intel": {
@@ -908,9 +908,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-09-22T20:32:13.200413+00:00",
-    "article_count": 40,
-    "categorized_count": 16,
+    "last_successful_update": "2026-09-22T23:19:16.850080+00:00",
+    "article_count": 50,
+    "categorized_count": 22,
     "freshest_source": "USNI News",
     "freshest_title": "Hormuz Transits Hit Three-week High, VLCC Rates Explode",
     "freshest_published": "Fri, 18 Sep 2026 22:14:39 +0000"
