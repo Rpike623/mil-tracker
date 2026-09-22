@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-09-22T17:27:46Z",
-  "version": 2927,
+  "generated_utc": "2026-09-22T20:32:18Z",
+  "version": 2928,
   "breaking_alert": "USNI News: Hormuz Transits Hit Three-week High, VLCC Rates Explode",
   "naval_deployments": [
     {
@@ -674,6 +674,15 @@
       "categories": [
         "deployment"
       ]
+    },
+    {
+      "title": "US Navy destroyers tested in Middle East as demands mount",
+      "link": "https://www.defensenews.com/news/your-navy/2026/09/22/us-navy-destroyers-tested-in-middle-east-as-demands-mount/",
+      "published": "Tue, 22 Sep 2026 18:55:08 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment"
+      ]
     }
   ],
   "centcom_assets": {
@@ -862,15 +871,6 @@
       "categories": [
         "conflict"
       ]
-    },
-    {
-      "title": "The Golden Dome czar must get control of all US missile defense programs",
-      "link": "https://www.militarytimes.com/opinion/2026/09/22/the-golden-dome-czar-must-get-control-of-all-us-missile-defense-programs/",
-      "published": "Tue, 22 Sep 2026 10:30:53 +0000",
-      "source": "Military Times",
-      "categories": [
-        "conflict"
-      ]
     }
   ],
   "_exercise_news_refs": [
@@ -886,11 +886,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 9,
-    "conflict_articles": 5,
+    "deployment_articles": 12,
+    "conflict_articles": 4,
     "exercise_articles": 1,
     "total_articles": 40,
-    "computed_at": "2026-09-22T17:23:05.782913+00:00",
+    "computed_at": "2026-09-22T20:32:13.200368+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[USNI News] Hormuz Transits Hit Three-week High, VLCC Rates Explode",
@@ -908,9 +908,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-09-22T17:23:05.782954+00:00",
+    "last_successful_update": "2026-09-22T20:32:13.200413+00:00",
     "article_count": 40,
-    "categorized_count": 14,
+    "categorized_count": 16,
     "freshest_source": "USNI News",
     "freshest_title": "Hormuz Transits Hit Three-week High, VLCC Rates Explode",
     "freshest_published": "Fri, 18 Sep 2026 22:14:39 +0000"
