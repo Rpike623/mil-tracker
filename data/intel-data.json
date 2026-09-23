@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-09-23T13:03:28Z",
-  "version": 2932,
-  "breaking_alert": "USNI News: Hormuz Transits Hit Three-week High, VLCC Rates Explode",
+  "generated_utc": "2026-09-23T18:00:20Z",
+  "version": 2933,
+  "breaking_alert": "Task & Purpose: Tracking America’s latest conflict: The Iran war timeline",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -594,15 +594,6 @@
   ],
   "_naval_news_refs": [
     {
-      "title": "Hormuz Transits Hit Three-week High, VLCC Rates Explode",
-      "link": "https://news.usni.org/2026/09/18/hormuz-transits-hit-three-week-high-vlcc-rates-explode",
-      "published": "Fri, 18 Sep 2026 22:14:39 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Tracking America’s latest conflict: The Iran war timeline",
       "link": "https://taskandpurpose.com/news/iran-war-timeline/",
       "published": "Mon, 21 Sep 2026 06:41:14 -0400",
@@ -630,38 +621,10 @@
       ]
     },
     {
-      "title": "Pentagon confirms non-hostile death of Army officer in support of Iran war operations",
-      "link": "https://taskandpurpose.com/news/officer-army-killed-september-overseas-operations/",
-      "published": "Tue, 22 Sep 2026 10:22:23 -0400",
-      "source": "Task & Purpose",
-      "categories": [
-        "deployment",
-        "exercise"
-      ]
-    },
-    {
-      "title": "South Korea faces no good choices in sending forces for Trump’s unpopular Iran mission",
-      "link": "https://www.defensenews.com/global/asia-pacific/2026/09/22/south-korea-faces-no-good-choices-in-sending-forces-for-trumps-unpopular-iran-mission/",
-      "published": "Tue, 22 Sep 2026 15:18:32 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "CENTCOM has become a battle lab for unmanned systems",
       "link": "https://www.defensenews.com/news/your-military/2026/09/22/centcom-has-become-a-battle-lab-for-unmanned-systems/",
       "published": "Tue, 22 Sep 2026 16:43:00 +0000",
       "source": "Defense News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "CENTCOM has become a battle lab for unmanned systems",
-      "link": "https://www.militarytimes.com/news/your-military/2026/09/22/centcom-has-become-a-battle-lab-for-unmanned-systems/",
-      "published": "Tue, 22 Sep 2026 16:43:00 +0000",
-      "source": "Military Times",
       "categories": [
         "deployment"
       ]
@@ -680,6 +643,42 @@
       "link": "https://www.defensenews.com/news/your-navy/2026/09/22/us-navy-destroyers-tested-in-middle-east-as-demands-mount/",
       "published": "Tue, 22 Sep 2026 18:55:08 +0000",
       "source": "Defense News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "US Navy destroyers tested in Middle East as demands mount",
+      "link": "https://www.militarytimes.com/news/your-navy/2026/09/22/us-navy-destroyers-tested-in-middle-east-as-demands-mount/",
+      "published": "Tue, 22 Sep 2026 18:55:08 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "U.S, U.K. Launch Torpedo from Royal Navy Unmanned Submarine",
+      "link": "https://news.usni.org/2026/09/22/u-s-u-k-launch-torpedo-from-royal-navy-unmanned-submarine",
+      "published": "Tue, 22 Sep 2026 19:06:14 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Sailors reminisce, say final goodbye to USS Georgia before retirement",
+      "link": "https://www.militarytimes.com/news/your-navy/2026/09/22/sailors-reminisce-say-final-goodbye-to-uss-georgia-before-retirement/",
+      "published": "Tue, 22 Sep 2026 21:50:58 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Pentagon identifies Virginia soldier as 19th death in support of Iran war",
+      "link": "https://taskandpurpose.com/news/army-officer-death-Bianca-Wilkerson-iran-war/",
+      "published": "Wed, 23 Sep 2026 10:54:57 -0400",
+      "source": "Task & Purpose",
       "categories": [
         "deployment"
       ]
@@ -864,40 +863,38 @@
       ]
     },
     {
-      "title": "The Golden Dome czar must get control of all US missile defense programs",
-      "link": "https://www.defensenews.com/opinion/2026/09/22/the-golden-dome-czar-must-get-control-of-all-us-missile-defense-programs/",
-      "published": "Tue, 22 Sep 2026 10:30:53 +0000",
-      "source": "Defense News",
+      "title": "How the Pentagon counts — and leaves out — troops killed in war",
+      "link": "https://taskandpurpose.com/news/iran-war-casualty-count-problems/",
+      "published": "Wed, 23 Sep 2026 10:32:39 -0400",
+      "source": "Task & Purpose",
+      "categories": [
+        "conflict"
+      ]
+    },
+    {
+      "title": "North Korea Tests New Hypersonic Missile",
+      "link": "https://news.usni.org/2026/09/23/north-korea-tests-new-hypersonic-missile",
+      "published": "Wed, 23 Sep 2026 15:01:01 +0000",
+      "source": "USNI News",
       "categories": [
         "conflict"
       ]
     }
   ],
-  "_exercise_news_refs": [
-    {
-      "title": "Pentagon confirms non-hostile death of Army officer in support of Iran war operations",
-      "link": "https://taskandpurpose.com/news/officer-army-killed-september-overseas-operations/",
-      "published": "Tue, 22 Sep 2026 10:22:23 -0400",
-      "source": "Task & Purpose",
-      "categories": [
-        "deployment",
-        "exercise"
-      ]
-    }
-  ],
+  "_exercise_news_refs": [],
   "_threat_indicators": {
-    "deployment_articles": 13,
-    "conflict_articles": 4,
-    "exercise_articles": 1,
+    "deployment_articles": 10,
+    "conflict_articles": 5,
+    "exercise_articles": 0,
     "total_articles": 40,
-    "computed_at": "2026-09-23T13:03:26.859592+00:00",
+    "computed_at": "2026-09-23T18:00:13.537707+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
-      "[USNI News] Hormuz Transits Hit Three-week High, VLCC Rates Explode",
       "[Task & Purpose] Tracking America’s latest conflict: The Iran war timeline",
       "[USNI News] U.S. Army Contracts First Batch of Maritime Precision Strike Missiles",
       "[Task & Purpose] Fishing charter catches Air Force attack drone off Florida coast",
-      "[USNI News] USNI News Fleet and Marine Tracker: Sept. 21, 2026"
+      "[USNI News] USNI News Fleet and Marine Tracker: Sept. 21, 2026",
+      "[USNI News] U.S. Strikes 70th Alleged Drug Boat, U.N. Brief Condemns Attacks"
     ]
   },
   "ground_intel": {
@@ -908,12 +905,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-09-23T13:03:26.859635+00:00",
+    "last_successful_update": "2026-09-23T18:00:13.537748+00:00",
     "article_count": 40,
-    "categorized_count": 17,
-    "freshest_source": "USNI News",
-    "freshest_title": "Hormuz Transits Hit Three-week High, VLCC Rates Explode",
-    "freshest_published": "Fri, 18 Sep 2026 22:14:39 +0000"
+    "categorized_count": 15,
+    "freshest_source": "Task & Purpose",
+    "freshest_title": "Tracking America’s latest conflict: The Iran war timeline",
+    "freshest_published": "Mon, 21 Sep 2026 06:41:14 -0400"
   },
   "_firms_hotspots": []
 }
