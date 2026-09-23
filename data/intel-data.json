@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-09-22T23:19:24Z",
-  "version": 2929,
+  "generated_utc": "2026-09-23T01:59:09Z",
+  "version": 2930,
   "breaking_alert": "USNI News: Hormuz Transits Hit Three-week High, VLCC Rates Explode",
   "naval_deployments": [
     {
@@ -890,7 +890,7 @@
     "conflict_articles": 4,
     "exercise_articles": 1,
     "total_articles": 50,
-    "computed_at": "2026-09-22T23:19:16.850036+00:00",
+    "computed_at": "2026-09-23T01:59:05.760158+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[USNI News] Hormuz Transits Hit Three-week High, VLCC Rates Explode",
@@ -908,7 +908,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-09-22T23:19:16.850080+00:00",
+    "last_successful_update": "2026-09-23T01:59:05.760188+00:00",
     "article_count": 50,
     "categorized_count": 22,
     "freshest_source": "USNI News",
