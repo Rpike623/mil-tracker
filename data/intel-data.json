@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-09-23T18:00:20Z",
-  "version": 2933,
+  "generated_utc": "2026-09-23T21:50:46Z",
+  "version": 2934,
   "breaking_alert": "Task & Purpose: Tracking America’s latest conflict: The Iran war timeline",
   "naval_deployments": [
     {
@@ -612,15 +612,6 @@
       ]
     },
     {
-      "title": "Carrier USS Abraham Lincoln Pulls into Guam for Logistics Stop, Deployment Now at 302 Days",
-      "link": "https://news.usni.org/2026/09/19/carrier-uss-abraham-lincoln-pulls-into-guam-for-logistics-stop-deployment-now-at-302-days",
-      "published": "Sat, 19 Sep 2026 11:42:15 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "CENTCOM has become a battle lab for unmanned systems",
       "link": "https://www.defensenews.com/news/your-military/2026/09/22/centcom-has-become-a-battle-lab-for-unmanned-systems/",
       "published": "Tue, 22 Sep 2026 16:43:00 +0000",
@@ -648,15 +639,6 @@
       ]
     },
     {
-      "title": "US Navy destroyers tested in Middle East as demands mount",
-      "link": "https://www.militarytimes.com/news/your-navy/2026/09/22/us-navy-destroyers-tested-in-middle-east-as-demands-mount/",
-      "published": "Tue, 22 Sep 2026 18:55:08 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "U.S, U.K. Launch Torpedo from Royal Navy Unmanned Submarine",
       "link": "https://news.usni.org/2026/09/22/u-s-u-k-launch-torpedo-from-royal-navy-unmanned-submarine",
       "published": "Tue, 22 Sep 2026 19:06:14 +0000",
@@ -679,6 +661,24 @@
       "link": "https://taskandpurpose.com/news/army-officer-death-Bianca-Wilkerson-iran-war/",
       "published": "Wed, 23 Sep 2026 10:54:57 -0400",
       "source": "Task & Purpose",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Steam catapults? US Navy appears to be sticking with electromagnetics on carriers",
+      "link": "https://www.defensenews.com/industry/techwatch/2026/09/23/steam-catapults-us-navy-appears-to-be-sticking-with-electromagnetics-on-carriers/",
+      "published": "Wed, 23 Sep 2026 18:22:04 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Steam catapults? US Navy appears to be sticking with electromagnetics on carriers",
+      "link": "https://www.militarytimes.com/industry/techwatch/2026/09/23/steam-catapults-us-navy-appears-to-be-sticking-with-electromagnetics-on-carriers/",
+      "published": "Wed, 23 Sep 2026 18:22:04 +0000",
+      "source": "Military Times",
       "categories": [
         "deployment"
       ]
@@ -881,13 +881,23 @@
       ]
     }
   ],
-  "_exercise_news_refs": [],
+  "_exercise_news_refs": [
+    {
+      "title": "Last operational HH-60G Pave Hawk completes final flight",
+      "link": "https://www.militarytimes.com/news/your-military/2026/09/23/last-operational-hh-60g-pave-hawk-completes-final-flight/",
+      "published": "Wed, 23 Sep 2026 18:55:03 +0000",
+      "source": "Military Times",
+      "categories": [
+        "exercise"
+      ]
+    }
+  ],
   "_threat_indicators": {
     "deployment_articles": 10,
     "conflict_articles": 5,
-    "exercise_articles": 0,
+    "exercise_articles": 1,
     "total_articles": 40,
-    "computed_at": "2026-09-23T18:00:13.537707+00:00",
+    "computed_at": "2026-09-23T21:50:41.133425+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Task & Purpose] Tracking America’s latest conflict: The Iran war timeline",
@@ -905,9 +915,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-09-23T18:00:13.537748+00:00",
+    "last_successful_update": "2026-09-23T21:50:41.133467+00:00",
     "article_count": 40,
-    "categorized_count": 15,
+    "categorized_count": 16,
     "freshest_source": "Task & Purpose",
     "freshest_title": "Tracking America’s latest conflict: The Iran war timeline",
     "freshest_published": "Mon, 21 Sep 2026 06:41:14 -0400"
