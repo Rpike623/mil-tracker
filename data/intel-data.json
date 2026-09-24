@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-09-24T19:32:12Z",
-  "version": 2939,
+  "generated_utc": "2026-09-24T22:50:02Z",
+  "version": 2940,
   "breaking_alert": "Task & Purpose: Fishing charter catches Air Force attack drone off Florida coast",
   "naval_deployments": [
     {
@@ -631,15 +631,6 @@
       ]
     },
     {
-      "title": "With Denmark, Saildrone logs first flag registration for naval surveillance drone",
-      "link": "https://www.militarytimes.com/global/europe/2026/09/24/with-denmark-saildrone-logs-first-flag-registration-for-naval-surveillance-drone/",
-      "published": "Thu, 24 Sep 2026 14:25:19 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Italy taps state-owned firms to build two naval destroyers in $4.2 billion deal",
       "link": "https://www.defensenews.com/global/europe/2026/09/24/italy-taps-state-owned-firms-to-build-two-naval-destroyers-in-42-billion-deal/",
       "published": "Thu, 24 Sep 2026 16:33:41 +0000",
@@ -668,19 +659,28 @@
       ]
     },
     {
-      "title": "U.S. Destroyer Practices Underway Refueling with Seahawk USV",
-      "link": "https://news.usni.org/2026/09/22/u-s-destroyer-practices-refueling-seahawk-usv-while-underway",
-      "published": "Tue, 22 Sep 2026 16:48:06 +0000",
+      "title": "U.S, U.K. Launch Torpedo from Royal Navy Unmanned Submarine",
+      "link": "https://news.usni.org/2026/09/22/u-s-u-k-launch-torpedo-from-royal-navy-unmanned-submarine",
+      "published": "Tue, 22 Sep 2026 19:06:14 +0000",
       "source": "USNI News",
       "categories": [
         "deployment"
       ]
     },
     {
-      "title": "U.S, U.K. Launch Torpedo from Royal Navy Unmanned Submarine",
-      "link": "https://news.usni.org/2026/09/22/u-s-u-k-launch-torpedo-from-royal-navy-unmanned-submarine",
-      "published": "Tue, 22 Sep 2026 19:06:14 +0000",
-      "source": "USNI News",
+      "title": "Pentagon identifies Virginia soldier as 19th death in support of Iran war",
+      "link": "https://taskandpurpose.com/news/army-officer-death-Bianca-Wilkerson-iran-war/",
+      "published": "Wed, 23 Sep 2026 10:54:57 -0400",
+      "source": "Task & Purpose",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "U.S. Special Forces Operate Helicopter From Autonomous Barge for the First Time",
+      "link": "https://www.navalnews.com/naval-news/2026/09/u-s-special-forces-operate-helicopter-from-autonomous-barge-for-the-first-time/",
+      "published": "Wed, 23 Sep 2026 13:22:01 +0000",
+      "source": "Naval News",
       "categories": [
         "deployment"
       ]
@@ -915,11 +915,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 14,
+    "deployment_articles": 12,
     "conflict_articles": 6,
     "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-09-24T19:32:07.117794+00:00",
+    "computed_at": "2026-09-24T22:45:21.425788+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Task & Purpose] Fishing charter catches Air Force attack drone off Florida coast",
@@ -937,9 +937,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-09-24T19:32:07.117840+00:00",
+    "last_successful_update": "2026-09-24T22:45:21.425832+00:00",
     "article_count": 50,
-    "categorized_count": 21,
+    "categorized_count": 19,
     "freshest_source": "Task & Purpose",
     "freshest_title": "Fishing charter catches Air Force attack drone off Florida coast",
     "freshest_published": "Mon, 21 Sep 2026 14:27:16 -0400"
