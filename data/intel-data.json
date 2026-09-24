@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-09-24T00:03:07Z",
-  "version": 2935,
+  "generated_utc": "2026-09-24T05:33:42Z",
+  "version": 2936,
   "breaking_alert": "Task & Purpose: Tracking America’s latest conflict: The Iran war timeline",
   "naval_deployments": [
     {
@@ -630,15 +630,6 @@
       ]
     },
     {
-      "title": "CENTCOM has become a battle lab for unmanned systems",
-      "link": "https://www.defensenews.com/news/your-military/2026/09/22/centcom-has-become-a-battle-lab-for-unmanned-systems/",
-      "published": "Tue, 22 Sep 2026 16:43:00 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "U.S. Destroyer Practices Underway Refueling with Seahawk USV",
       "link": "https://news.usni.org/2026/09/22/u-s-destroyer-practices-refueling-seahawk-usv-while-underway",
       "published": "Tue, 22 Sep 2026 16:48:06 +0000",
@@ -679,6 +670,15 @@
       "link": "https://www.navalnews.com/naval-news/2026/09/u-s-special-forces-operate-helicopter-from-autonomous-barge-for-the-first-time/",
       "published": "Wed, 23 Sep 2026 13:22:01 +0000",
       "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Steam catapults? US Navy appears to be sticking with electromagnetics on carriers",
+      "link": "https://www.defensenews.com/industry/techwatch/2026/09/23/steam-catapults-us-navy-appears-to-be-sticking-with-electromagnetics-on-carriers/",
+      "published": "Wed, 23 Sep 2026 18:22:04 +0000",
+      "source": "Defense News",
       "categories": [
         "deployment"
       ]
@@ -902,11 +902,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 14,
+    "deployment_articles": 13,
     "conflict_articles": 5,
     "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-09-24T00:03:02.285462+00:00",
+    "computed_at": "2026-09-24T05:33:40.313211+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Task & Purpose] Tracking America’s latest conflict: The Iran war timeline",
@@ -924,9 +924,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-09-24T00:03:02.285502+00:00",
+    "last_successful_update": "2026-09-24T05:33:40.313254+00:00",
     "article_count": 50,
-    "categorized_count": 21,
+    "categorized_count": 20,
     "freshest_source": "Task & Purpose",
     "freshest_title": "Tracking America’s latest conflict: The Iran war timeline",
     "freshest_published": "Mon, 21 Sep 2026 06:41:14 -0400"
