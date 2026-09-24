@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-09-23T21:50:46Z",
-  "version": 2934,
+  "generated_utc": "2026-09-24T00:03:07Z",
+  "version": 2935,
   "breaking_alert": "Task & Purpose: Tracking America’s latest conflict: The Iran war timeline",
   "naval_deployments": [
     {
@@ -603,10 +603,28 @@
       ]
     },
     {
-      "title": "USNI News Fleet and Marine Tracker: Sept. 21, 2026",
-      "link": "https://news.usni.org/2026/09/21/usni-news-fleet-and-marine-tracker-sept-21-2026",
-      "published": "Mon, 21 Sep 2026 16:50:43 +0000",
-      "source": "USNI News",
+      "title": "Leonardo and Alkeon Partner to Bring 76mm Naval Gun Production to Denmark",
+      "link": "https://www.navalnews.com/naval-news/2026/09/leonardo-and-alkeon-partner-to-bring-76mm-naval-gun-production-to-denmark/",
+      "published": "Tue, 22 Sep 2026 08:28:22 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Argentina Eyes New Submarines and Frigates in 2027 Budget Plan",
+      "link": "https://www.navalnews.com/naval-news/2026/09/argentina-navy-submarines-frigates-2027-budget/",
+      "published": "Tue, 22 Sep 2026 12:42:33 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Naval Group’s new Rampart launcher spotted aboard Mistral-class LHD",
+      "link": "https://www.navalnews.com/naval-news/2026/09/naval-group-rampart-launcher-mistral-lhd/",
+      "published": "Tue, 22 Sep 2026 14:49:21 +0000",
+      "source": "Naval News",
       "categories": [
         "deployment"
       ]
@@ -648,15 +666,6 @@
       ]
     },
     {
-      "title": "Sailors reminisce, say final goodbye to USS Georgia before retirement",
-      "link": "https://www.militarytimes.com/news/your-navy/2026/09/22/sailors-reminisce-say-final-goodbye-to-uss-georgia-before-retirement/",
-      "published": "Tue, 22 Sep 2026 21:50:58 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Pentagon identifies Virginia soldier as 19th death in support of Iran war",
       "link": "https://taskandpurpose.com/news/army-officer-death-Bianca-Wilkerson-iran-war/",
       "published": "Wed, 23 Sep 2026 10:54:57 -0400",
@@ -666,19 +675,10 @@
       ]
     },
     {
-      "title": "Steam catapults? US Navy appears to be sticking with electromagnetics on carriers",
-      "link": "https://www.defensenews.com/industry/techwatch/2026/09/23/steam-catapults-us-navy-appears-to-be-sticking-with-electromagnetics-on-carriers/",
-      "published": "Wed, 23 Sep 2026 18:22:04 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Steam catapults? US Navy appears to be sticking with electromagnetics on carriers",
-      "link": "https://www.militarytimes.com/industry/techwatch/2026/09/23/steam-catapults-us-navy-appears-to-be-sticking-with-electromagnetics-on-carriers/",
-      "published": "Wed, 23 Sep 2026 18:22:04 +0000",
-      "source": "Military Times",
+      "title": "U.S. Special Forces Operate Helicopter From Autonomous Barge for the First Time",
+      "link": "https://www.navalnews.com/naval-news/2026/09/u-s-special-forces-operate-helicopter-from-autonomous-barge-for-the-first-time/",
+      "published": "Wed, 23 Sep 2026 13:22:01 +0000",
+      "source": "Naval News",
       "categories": [
         "deployment"
       ]
@@ -836,15 +836,6 @@
   },
   "_conflict_news_refs": [
     {
-      "title": "U.S. Army Contracts First Batch of Maritime Precision Strike Missiles",
-      "link": "https://news.usni.org/2026/09/21/u-s-army-contracts-first-batch-of-maritime-precision-strike-missiles",
-      "published": "Mon, 21 Sep 2026 14:19:47 +0000",
-      "source": "USNI News",
-      "categories": [
-        "conflict"
-      ]
-    },
-    {
       "title": "Fishing charter catches Air Force attack drone off Florida coast",
       "link": "https://taskandpurpose.com/news/air-force-lucas-drone-recovered-eglin/",
       "published": "Mon, 21 Sep 2026 14:27:16 -0400",
@@ -858,6 +849,15 @@
       "link": "https://news.usni.org/2026/09/21/u-s-strikes-70th-alleged-drug-boat-u-n-brief-condemns-attacks",
       "published": "Mon, 21 Sep 2026 20:48:36 +0000",
       "source": "USNI News",
+      "categories": [
+        "conflict"
+      ]
+    },
+    {
+      "title": "South Korea Begins Development of New Anti-ship Missile",
+      "link": "https://www.navalnews.com/naval-news/2026/09/south-korea-begins-development-of-new-anti-ship-missile/",
+      "published": "Wed, 23 Sep 2026 08:28:27 +0000",
+      "source": "Naval News",
       "categories": [
         "conflict"
       ]
@@ -883,6 +883,15 @@
   ],
   "_exercise_news_refs": [
     {
+      "title": "VOYANT Demonstrates Software-Defined Approach to Strengthen ASW Operations",
+      "link": "https://www.navalnews.com/naval-news/2026/09/voyant-demonstrates-software-defined-approach-to-strengthen-asw-operations/",
+      "published": "Wed, 23 Sep 2026 11:47:02 +0000",
+      "source": "Naval News",
+      "categories": [
+        "exercise"
+      ]
+    },
+    {
       "title": "Last operational HH-60G Pave Hawk completes final flight",
       "link": "https://www.militarytimes.com/news/your-military/2026/09/23/last-operational-hh-60g-pave-hawk-completes-final-flight/",
       "published": "Wed, 23 Sep 2026 18:55:03 +0000",
@@ -893,18 +902,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 10,
+    "deployment_articles": 14,
     "conflict_articles": 5,
-    "exercise_articles": 1,
-    "total_articles": 40,
-    "computed_at": "2026-09-23T21:50:41.133425+00:00",
+    "exercise_articles": 2,
+    "total_articles": 50,
+    "computed_at": "2026-09-24T00:03:02.285462+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Task & Purpose] Tracking America’s latest conflict: The Iran war timeline",
-      "[USNI News] U.S. Army Contracts First Batch of Maritime Precision Strike Missiles",
       "[Task & Purpose] Fishing charter catches Air Force attack drone off Florida coast",
-      "[USNI News] USNI News Fleet and Marine Tracker: Sept. 21, 2026",
-      "[USNI News] U.S. Strikes 70th Alleged Drug Boat, U.N. Brief Condemns Attacks"
+      "[USNI News] U.S. Strikes 70th Alleged Drug Boat, U.N. Brief Condemns Attacks",
+      "[Naval News] Leonardo and Alkeon Partner to Bring 76mm Naval Gun Production to Denmark",
+      "[Naval News] Argentina Eyes New Submarines and Frigates in 2027 Budget Plan"
     ]
   },
   "ground_intel": {
@@ -915,9 +924,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-09-23T21:50:41.133467+00:00",
-    "article_count": 40,
-    "categorized_count": 16,
+    "last_successful_update": "2026-09-24T00:03:02.285502+00:00",
+    "article_count": 50,
+    "categorized_count": 21,
     "freshest_source": "Task & Purpose",
     "freshest_title": "Tracking America’s latest conflict: The Iran war timeline",
     "freshest_published": "Mon, 21 Sep 2026 06:41:14 -0400"
