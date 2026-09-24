@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-09-24T10:35:19Z",
-  "version": 2937,
+  "generated_utc": "2026-09-24T15:36:34Z",
+  "version": 2938,
   "breaking_alert": "Task & Purpose: Tracking America’s latest conflict: The Iran war timeline",
   "naval_deployments": [
     {
@@ -603,19 +603,47 @@
       ]
     },
     {
-      "title": "Argentina Eyes New Submarines and Frigates in 2027 Budget Plan",
-      "link": "https://www.navalnews.com/naval-news/2026/09/argentina-navy-submarines-frigates-2027-budget/",
-      "published": "Tue, 22 Sep 2026 12:42:33 +0000",
+      "title": "Report: CIA warned Europe of Russian drone attack from vessels in the Mediterranean",
+      "link": "https://www.defensenews.com/global/europe/2026/09/24/report-cia-warned-europe-of-russian-drone-attack-from-vessels-in-the-mediterranean/",
+      "published": "Thu, 24 Sep 2026 11:19:36 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
+    },
+    {
+      "title": "Royal IHC and Naval Group sign first order for the new Orka-class submarines",
+      "link": "https://www.navalnews.com/naval-news/2026/09/royal-ihc-and-naval-group-sign-first-order-for-the-new-orka-class-submarines/",
+      "published": "Thu, 24 Sep 2026 11:29:56 +0000",
       "source": "Naval News",
       "categories": [
         "deployment"
       ]
     },
     {
-      "title": "Naval Group’s new Rampart launcher spotted aboard Mistral-class LHD",
-      "link": "https://www.navalnews.com/naval-news/2026/09/naval-group-rampart-launcher-mistral-lhd/",
-      "published": "Tue, 22 Sep 2026 14:49:21 +0000",
+      "title": "Italy Signs €3.7B Contract for New DDX Destroyers",
+      "link": "https://www.navalnews.com/naval-news/2026/09/italy-signs-e3-7b-contract-for-new-ddx-destroyers/",
+      "published": "Thu, 24 Sep 2026 12:33:45 +0000",
       "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "With Denmark, Saildrone logs first flag registration for naval surveillance drone",
+      "link": "https://www.defensenews.com/global/europe/2026/09/24/with-denmark-saildrone-logs-first-flag-registration-for-naval-surveillance-drone/",
+      "published": "Thu, 24 Sep 2026 14:25:19 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "With Denmark, Saildrone logs first flag registration for naval surveillance drone",
+      "link": "https://www.militarytimes.com/global/europe/2026/09/24/with-denmark-saildrone-logs-first-flag-registration-for-naval-surveillance-drone/",
+      "published": "Thu, 24 Sep 2026 14:25:19 +0000",
+      "source": "Military Times",
       "categories": [
         "deployment"
       ]
@@ -652,33 +680,6 @@
       "link": "https://taskandpurpose.com/news/army-officer-death-Bianca-Wilkerson-iran-war/",
       "published": "Wed, 23 Sep 2026 10:54:57 -0400",
       "source": "Task & Purpose",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "U.S. Special Forces Operate Helicopter From Autonomous Barge for the First Time",
-      "link": "https://www.navalnews.com/naval-news/2026/09/u-s-special-forces-operate-helicopter-from-autonomous-barge-for-the-first-time/",
-      "published": "Wed, 23 Sep 2026 13:22:01 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Steam catapults? US Navy appears to be sticking with electromagnetics on carriers",
-      "link": "https://www.defensenews.com/industry/techwatch/2026/09/23/steam-catapults-us-navy-appears-to-be-sticking-with-electromagnetics-on-carriers/",
-      "published": "Wed, 23 Sep 2026 18:22:04 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Steam catapults? US Navy appears to be sticking with electromagnetics on carriers",
-      "link": "https://www.militarytimes.com/industry/techwatch/2026/09/23/steam-catapults-us-navy-appears-to-be-sticking-with-electromagnetics-on-carriers/",
-      "published": "Wed, 23 Sep 2026 18:22:04 +0000",
-      "source": "Military Times",
       "categories": [
         "deployment"
       ]
@@ -854,6 +855,16 @@
       ]
     },
     {
+      "title": "Report: CIA warned Europe of Russian drone attack from vessels in the Mediterranean",
+      "link": "https://www.defensenews.com/global/europe/2026/09/24/report-cia-warned-europe-of-russian-drone-attack-from-vessels-in-the-mediterranean/",
+      "published": "Thu, 24 Sep 2026 11:19:36 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
+    },
+    {
       "title": "South Korea Begins Development of New Anti-ship Missile",
       "link": "https://www.navalnews.com/naval-news/2026/09/south-korea-begins-development-of-new-anti-ship-missile/",
       "published": "Wed, 23 Sep 2026 08:28:27 +0000",
@@ -867,15 +878,6 @@
       "link": "https://taskandpurpose.com/news/iran-war-casualty-count-problems/",
       "published": "Wed, 23 Sep 2026 10:32:39 -0400",
       "source": "Task & Purpose",
-      "categories": [
-        "conflict"
-      ]
-    },
-    {
-      "title": "North Korea Tests New Hypersonic Missile",
-      "link": "https://news.usni.org/2026/09/23/north-korea-tests-new-hypersonic-missile",
-      "published": "Wed, 23 Sep 2026 15:01:01 +0000",
-      "source": "USNI News",
       "categories": [
         "conflict"
       ]
@@ -902,18 +904,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 12,
-    "conflict_articles": 5,
+    "deployment_articles": 15,
+    "conflict_articles": 6,
     "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-09-24T10:35:14.457204+00:00",
+    "computed_at": "2026-09-24T15:31:53.929745+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Task & Purpose] Tracking America’s latest conflict: The Iran war timeline",
       "[Task & Purpose] Fishing charter catches Air Force attack drone off Florida coast",
       "[USNI News] U.S. Strikes 70th Alleged Drug Boat, U.N. Brief Condemns Attacks",
-      "[Naval News] Argentina Eyes New Submarines and Frigates in 2027 Budget Plan",
-      "[Naval News] Naval Group’s new Rampart launcher spotted aboard Mistral-class LHD"
+      "[Defense News] Report: CIA warned Europe of Russian drone attack from vessels in the Mediterranean",
+      "[Naval News] Royal IHC and Naval Group sign first order for the new Orka-class submarines"
     ]
   },
   "ground_intel": {
@@ -924,9 +926,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-09-24T10:35:14.457247+00:00",
+    "last_successful_update": "2026-09-24T15:31:53.929783+00:00",
     "article_count": 50,
-    "categorized_count": 19,
+    "categorized_count": 22,
     "freshest_source": "Task & Purpose",
     "freshest_title": "Tracking America’s latest conflict: The Iran war timeline",
     "freshest_published": "Mon, 21 Sep 2026 06:41:14 -0400"
