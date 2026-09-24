@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-09-24T05:33:42Z",
-  "version": 2936,
+  "generated_utc": "2026-09-24T10:35:19Z",
+  "version": 2937,
   "breaking_alert": "Task & Purpose: Tracking America’s latest conflict: The Iran war timeline",
   "naval_deployments": [
     {
@@ -603,15 +603,6 @@
       ]
     },
     {
-      "title": "Leonardo and Alkeon Partner to Bring 76mm Naval Gun Production to Denmark",
-      "link": "https://www.navalnews.com/naval-news/2026/09/leonardo-and-alkeon-partner-to-bring-76mm-naval-gun-production-to-denmark/",
-      "published": "Tue, 22 Sep 2026 08:28:22 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Argentina Eyes New Submarines and Frigates in 2027 Budget Plan",
       "link": "https://www.navalnews.com/naval-news/2026/09/argentina-navy-submarines-frigates-2027-budget/",
       "published": "Tue, 22 Sep 2026 12:42:33 +0000",
@@ -679,6 +670,15 @@
       "link": "https://www.defensenews.com/industry/techwatch/2026/09/23/steam-catapults-us-navy-appears-to-be-sticking-with-electromagnetics-on-carriers/",
       "published": "Wed, 23 Sep 2026 18:22:04 +0000",
       "source": "Defense News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Steam catapults? US Navy appears to be sticking with electromagnetics on carriers",
+      "link": "https://www.militarytimes.com/industry/techwatch/2026/09/23/steam-catapults-us-navy-appears-to-be-sticking-with-electromagnetics-on-carriers/",
+      "published": "Wed, 23 Sep 2026 18:22:04 +0000",
+      "source": "Military Times",
       "categories": [
         "deployment"
       ]
@@ -902,18 +902,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 13,
+    "deployment_articles": 12,
     "conflict_articles": 5,
     "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-09-24T05:33:40.313211+00:00",
+    "computed_at": "2026-09-24T10:35:14.457204+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Task & Purpose] Tracking America’s latest conflict: The Iran war timeline",
       "[Task & Purpose] Fishing charter catches Air Force attack drone off Florida coast",
       "[USNI News] U.S. Strikes 70th Alleged Drug Boat, U.N. Brief Condemns Attacks",
-      "[Naval News] Leonardo and Alkeon Partner to Bring 76mm Naval Gun Production to Denmark",
-      "[Naval News] Argentina Eyes New Submarines and Frigates in 2027 Budget Plan"
+      "[Naval News] Argentina Eyes New Submarines and Frigates in 2027 Budget Plan",
+      "[Naval News] Naval Group’s new Rampart launcher spotted aboard Mistral-class LHD"
     ]
   },
   "ground_intel": {
@@ -924,9 +924,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-09-24T05:33:40.313254+00:00",
+    "last_successful_update": "2026-09-24T10:35:14.457247+00:00",
     "article_count": 50,
-    "categorized_count": 20,
+    "categorized_count": 19,
     "freshest_source": "Task & Purpose",
     "freshest_title": "Tracking America’s latest conflict: The Iran war timeline",
     "freshest_published": "Mon, 21 Sep 2026 06:41:14 -0400"
