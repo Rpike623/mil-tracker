@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-09-24T15:36:34Z",
-  "version": 2938,
-  "breaking_alert": "Task & Purpose: Tracking America’s latest conflict: The Iran war timeline",
+  "generated_utc": "2026-09-24T19:32:12Z",
+  "version": 2939,
+  "breaking_alert": "Task & Purpose: Fishing charter catches Air Force attack drone off Florida coast",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -594,15 +594,6 @@
   ],
   "_naval_news_refs": [
     {
-      "title": "Tracking America’s latest conflict: The Iran war timeline",
-      "link": "https://taskandpurpose.com/news/iran-war-timeline/",
-      "published": "Mon, 21 Sep 2026 06:41:14 -0400",
-      "source": "Task & Purpose",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Report: CIA warned Europe of Russian drone attack from vessels in the Mediterranean",
       "link": "https://www.defensenews.com/global/europe/2026/09/24/report-cia-warned-europe-of-russian-drone-attack-from-vessels-in-the-mediterranean/",
       "published": "Thu, 24 Sep 2026 11:19:36 +0000",
@@ -649,6 +640,34 @@
       ]
     },
     {
+      "title": "Italy taps state-owned firms to build two naval destroyers in $4.2 billion deal",
+      "link": "https://www.defensenews.com/global/europe/2026/09/24/italy-taps-state-owned-firms-to-build-two-naval-destroyers-in-42-billion-deal/",
+      "published": "Thu, 24 Sep 2026 16:33:41 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "8 sailors attempted suicide aboard ships from Lincoln strike group, Cao says",
+      "link": "https://www.militarytimes.com/news/your-navy/2026/09/24/8-sailors-attempted-suicide-aboard-ships-from-lincoln-strike-group-cao-says/",
+      "published": "Thu, 24 Sep 2026 18:20:39 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
+    },
+    {
+      "title": "US destroyer practices at-sea drone refueling",
+      "link": "https://www.militarytimes.com/news/your-military/2026/09/24/us-destroyer-practices-at-sea-drone-refueling/",
+      "published": "Thu, 24 Sep 2026 18:55:02 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "U.S. Destroyer Practices Underway Refueling with Seahawk USV",
       "link": "https://news.usni.org/2026/09/22/u-s-destroyer-practices-refueling-seahawk-usv-while-underway",
       "published": "Tue, 22 Sep 2026 16:48:06 +0000",
@@ -658,28 +677,10 @@
       ]
     },
     {
-      "title": "US Navy destroyers tested in Middle East as demands mount",
-      "link": "https://www.defensenews.com/news/your-navy/2026/09/22/us-navy-destroyers-tested-in-middle-east-as-demands-mount/",
-      "published": "Tue, 22 Sep 2026 18:55:08 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "U.S, U.K. Launch Torpedo from Royal Navy Unmanned Submarine",
       "link": "https://news.usni.org/2026/09/22/u-s-u-k-launch-torpedo-from-royal-navy-unmanned-submarine",
       "published": "Tue, 22 Sep 2026 19:06:14 +0000",
       "source": "USNI News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Pentagon identifies Virginia soldier as 19th death in support of Iran war",
-      "link": "https://taskandpurpose.com/news/army-officer-death-Bianca-Wilkerson-iran-war/",
-      "published": "Wed, 23 Sep 2026 10:54:57 -0400",
-      "source": "Task & Purpose",
       "categories": [
         "deployment"
       ]
@@ -846,19 +847,20 @@
       ]
     },
     {
-      "title": "U.S. Strikes 70th Alleged Drug Boat, U.N. Brief Condemns Attacks",
-      "link": "https://news.usni.org/2026/09/21/u-s-strikes-70th-alleged-drug-boat-u-n-brief-condemns-attacks",
-      "published": "Mon, 21 Sep 2026 20:48:36 +0000",
-      "source": "USNI News",
-      "categories": [
-        "conflict"
-      ]
-    },
-    {
       "title": "Report: CIA warned Europe of Russian drone attack from vessels in the Mediterranean",
       "link": "https://www.defensenews.com/global/europe/2026/09/24/report-cia-warned-europe-of-russian-drone-attack-from-vessels-in-the-mediterranean/",
       "published": "Thu, 24 Sep 2026 11:19:36 +0000",
       "source": "Defense News",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
+    },
+    {
+      "title": "8 sailors attempted suicide aboard ships from Lincoln strike group, Cao says",
+      "link": "https://www.militarytimes.com/news/your-navy/2026/09/24/8-sailors-attempted-suicide-aboard-ships-from-lincoln-strike-group-cao-says/",
+      "published": "Thu, 24 Sep 2026 18:20:39 +0000",
+      "source": "Military Times",
       "categories": [
         "deployment",
         "conflict"
@@ -885,6 +887,24 @@
   ],
   "_exercise_news_refs": [
     {
+      "title": "US to provide critical but more limited capabilities to NATO, top commander says",
+      "link": "https://www.defensenews.com/global/2026/09/24/us-to-provide-critical-but-more-limited-capabilities-to-nato-top-commander-says/",
+      "published": "Thu, 24 Sep 2026 16:24:32 +0000",
+      "source": "Defense News",
+      "categories": [
+        "exercise"
+      ]
+    },
+    {
+      "title": "US to provide critical but more limited capabilities to NATO, top commander says",
+      "link": "https://www.militarytimes.com/global/2026/09/24/us-to-provide-critical-but-more-limited-capabilities-to-nato-top-commander-says/",
+      "published": "Thu, 24 Sep 2026 16:24:32 +0000",
+      "source": "Military Times",
+      "categories": [
+        "exercise"
+      ]
+    },
+    {
       "title": "VOYANT Demonstrates Software-Defined Approach to Strengthen ASW Operations",
       "link": "https://www.navalnews.com/naval-news/2026/09/voyant-demonstrates-software-defined-approach-to-strengthen-asw-operations/",
       "published": "Wed, 23 Sep 2026 11:47:02 +0000",
@@ -892,30 +912,21 @@
       "categories": [
         "exercise"
       ]
-    },
-    {
-      "title": "Last operational HH-60G Pave Hawk completes final flight",
-      "link": "https://www.militarytimes.com/news/your-military/2026/09/23/last-operational-hh-60g-pave-hawk-completes-final-flight/",
-      "published": "Wed, 23 Sep 2026 18:55:03 +0000",
-      "source": "Military Times",
-      "categories": [
-        "exercise"
-      ]
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 15,
+    "deployment_articles": 14,
     "conflict_articles": 6,
-    "exercise_articles": 2,
+    "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-09-24T15:31:53.929745+00:00",
+    "computed_at": "2026-09-24T19:32:07.117794+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
-      "[Task & Purpose] Tracking America’s latest conflict: The Iran war timeline",
       "[Task & Purpose] Fishing charter catches Air Force attack drone off Florida coast",
-      "[USNI News] U.S. Strikes 70th Alleged Drug Boat, U.N. Brief Condemns Attacks",
       "[Defense News] Report: CIA warned Europe of Russian drone attack from vessels in the Mediterranean",
-      "[Naval News] Royal IHC and Naval Group sign first order for the new Orka-class submarines"
+      "[Naval News] Royal IHC and Naval Group sign first order for the new Orka-class submarines",
+      "[Naval News] Italy Signs €3.7B Contract for New DDX Destroyers",
+      "[Defense News] With Denmark, Saildrone logs first flag registration for naval surveillance drone"
     ]
   },
   "ground_intel": {
@@ -926,12 +937,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-09-24T15:31:53.929783+00:00",
+    "last_successful_update": "2026-09-24T19:32:07.117840+00:00",
     "article_count": 50,
-    "categorized_count": 22,
+    "categorized_count": 21,
     "freshest_source": "Task & Purpose",
-    "freshest_title": "Tracking America’s latest conflict: The Iran war timeline",
-    "freshest_published": "Mon, 21 Sep 2026 06:41:14 -0400"
+    "freshest_title": "Fishing charter catches Air Force attack drone off Florida coast",
+    "freshest_published": "Mon, 21 Sep 2026 14:27:16 -0400"
   },
   "_firms_hotspots": []
 }
