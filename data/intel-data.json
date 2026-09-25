@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-09-25T19:36:56Z",
-  "version": 2945,
+  "generated_utc": "2026-09-25T22:51:49Z",
+  "version": 2946,
   "breaking_alert": "Defense News: US F-35 fighters to debut in Indian multinational air exercise",
   "naval_deployments": [
     {
@@ -612,6 +612,16 @@
       ]
     },
     {
+      "title": "Navy Establishes New Deputy Chief Of Naval Operations to Support Failing Shore Infrastructure",
+      "link": "https://news.usni.org/2026/09/25/navy-establishes-new-deputy-chief-of-naval-operations-to-support-failing-shore-infrastructure",
+      "published": "Fri, 25 Sep 2026 21:07:32 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment",
+        "exercise"
+      ]
+    },
+    {
       "title": "Royal IHC and Naval Group sign first order for the new Orka-class submarines",
       "link": "https://www.navalnews.com/naval-news/2026/09/royal-ihc-and-naval-group-sign-first-order-for-the-new-orka-class-submarines/",
       "published": "Thu, 24 Sep 2026 11:29:56 +0000",
@@ -625,15 +635,6 @@
       "link": "https://www.navalnews.com/naval-news/2026/09/italy-signs-e3-7b-contract-for-new-ddx-destroyers/",
       "published": "Thu, 24 Sep 2026 12:33:45 +0000",
       "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "With Denmark, Saildrone logs first flag registration for naval surveillance drone",
-      "link": "https://www.defensenews.com/global/europe/2026/09/24/with-denmark-saildrone-logs-first-flag-registration-for-naval-surveillance-drone/",
-      "published": "Thu, 24 Sep 2026 14:25:19 +0000",
-      "source": "Defense News",
       "categories": [
         "deployment"
       ]
@@ -874,20 +875,21 @@
       ]
     },
     {
-      "title": "US F-35 fighters to debut in Indian multinational air exercise",
-      "link": "https://www.militarytimes.com/global/asia-pacific/2026/09/25/us-f-35-fighters-to-debut-in-indian-multinational-air-exercise/",
-      "published": "Fri, 25 Sep 2026 10:18:48 +0000",
-      "source": "Military Times",
-      "categories": [
-        "exercise"
-      ]
-    },
-    {
       "title": "Thales in ‘quite advanced’ talks with NATO countries on AI-powered command software",
       "link": "https://www.defensenews.com/global/europe/2026/09/25/thales-in-quite-advanced-talks-with-nato-countries-on-ai-powered-command-software/",
       "published": "Fri, 25 Sep 2026 15:34:42 +0000",
       "source": "Defense News",
       "categories": [
+        "exercise"
+      ]
+    },
+    {
+      "title": "Navy Establishes New Deputy Chief Of Naval Operations to Support Failing Shore Infrastructure",
+      "link": "https://news.usni.org/2026/09/25/navy-establishes-new-deputy-chief-of-naval-operations-to-support-failing-shore-infrastructure",
+      "published": "Fri, 25 Sep 2026 21:07:32 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment",
         "exercise"
       ]
     },
@@ -915,14 +917,14 @@
     "conflict_articles": 4,
     "exercise_articles": 5,
     "total_articles": 50,
-    "computed_at": "2026-09-25T19:36:51.154395+00:00",
+    "computed_at": "2026-09-25T22:51:48.096713+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Defense News] US F-35 fighters to debut in Indian multinational air exercise",
-      "[Military Times] US F-35 fighters to debut in Indian multinational air exercise",
       "[Defense News] France to send military to protect Saudi Arabia on Red Sea oil route, Macron says",
       "[Task & Purpose] UN report says drug boat strikes are war crimes. What does that mean for US troops?",
-      "[Task & Purpose] Largest Army base in South Korea has no running water over holiday weekend"
+      "[Task & Purpose] Largest Army base in South Korea has no running water over holiday weekend",
+      "[Defense News] Thales in ‘quite advanced’ talks with NATO countries on AI-powered command software"
     ]
   },
   "ground_intel": {
@@ -933,9 +935,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-09-25T19:36:51.154441+00:00",
+    "last_successful_update": "2026-09-25T22:51:48.096762+00:00",
     "article_count": 50,
-    "categorized_count": 18,
+    "categorized_count": 17,
     "freshest_source": "Defense News",
     "freshest_title": "US F-35 fighters to debut in Indian multinational air exercise",
     "freshest_published": "Fri, 25 Sep 2026 10:18:48 +0000"
