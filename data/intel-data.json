@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-09-25T15:35:53Z",
-  "version": 2944,
+  "generated_utc": "2026-09-25T19:36:56Z",
+  "version": 2945,
   "breaking_alert": "Defense News: US F-35 fighters to debut in Indian multinational air exercise",
   "naval_deployments": [
     {
@@ -603,13 +603,12 @@
       ]
     },
     {
-      "title": "Report: CIA warned Europe of Russian drone attack from vessels in the Mediterranean",
-      "link": "https://www.defensenews.com/global/europe/2026/09/24/report-cia-warned-europe-of-russian-drone-attack-from-vessels-in-the-mediterranean/",
-      "published": "Thu, 24 Sep 2026 11:19:36 +0000",
-      "source": "Defense News",
+      "title": "Largest Army base in South Korea has no running water over holiday weekend",
+      "link": "https://taskandpurpose.com/news/largest-army-base-in-south-korea-has-no-running-water-over-holiday-weekend/",
+      "published": "Fri, 25 Sep 2026 13:32:31 -0400",
+      "source": "Task & Purpose",
       "categories": [
-        "deployment",
-        "conflict"
+        "deployment"
       ]
     },
     {
@@ -649,38 +648,28 @@
       ]
     },
     {
-      "title": "8 sailors attempted suicide aboard ships from Lincoln strike group, Cao says",
-      "link": "https://www.militarytimes.com/news/your-navy/2026/09/24/8-sailors-attempted-suicide-aboard-ships-from-lincoln-strike-group-cao-says/",
-      "published": "Thu, 24 Sep 2026 18:20:39 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
-      "title": "US destroyer practices at-sea drone refueling",
-      "link": "https://www.militarytimes.com/news/your-military/2026/09/24/us-destroyer-practices-at-sea-drone-refueling/",
-      "published": "Thu, 24 Sep 2026 18:55:02 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "U.S, U.K. Launch Torpedo from Royal Navy Unmanned Submarine",
-      "link": "https://news.usni.org/2026/09/22/u-s-u-k-launch-torpedo-from-royal-navy-unmanned-submarine",
-      "published": "Tue, 22 Sep 2026 19:06:14 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Pentagon identifies Virginia soldier as 19th death in support of Iran war",
       "link": "https://taskandpurpose.com/news/army-officer-death-Bianca-Wilkerson-iran-war/",
       "published": "Wed, 23 Sep 2026 10:54:57 -0400",
       "source": "Task & Purpose",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "U.S. Special Forces Operate Helicopter From Autonomous Barge for the First Time",
+      "link": "https://www.navalnews.com/naval-news/2026/09/u-s-special-forces-operate-helicopter-from-autonomous-barge-for-the-first-time/",
+      "published": "Wed, 23 Sep 2026 13:22:01 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "3 Years of Middle East Combat Altering How Navy Supplies, Maintains Fleet, Leaders Say",
+      "link": "https://news.usni.org/2026/09/23/3-years-of-middle-east-combat-altering-how-navy-supplies-maintains-fleet-leaders-say",
+      "published": "Wed, 23 Sep 2026 23:19:42 +0000",
+      "source": "USNI News",
       "categories": [
         "deployment"
       ]
@@ -838,31 +827,11 @@
   },
   "_conflict_news_refs": [
     {
-      "title": "Fishing charter catches Air Force attack drone off Florida coast",
-      "link": "https://taskandpurpose.com/news/air-force-lucas-drone-recovered-eglin/",
-      "published": "Mon, 21 Sep 2026 14:27:16 -0400",
+      "title": "UN report says drug boat strikes are war crimes. What does that mean for US troops?",
+      "link": "https://taskandpurpose.com/news/us-troops-drug-boat-strikes-legal-orders/",
+      "published": "Fri, 25 Sep 2026 12:23:25 -0400",
       "source": "Task & Purpose",
       "categories": [
-        "conflict"
-      ]
-    },
-    {
-      "title": "Report: CIA warned Europe of Russian drone attack from vessels in the Mediterranean",
-      "link": "https://www.defensenews.com/global/europe/2026/09/24/report-cia-warned-europe-of-russian-drone-attack-from-vessels-in-the-mediterranean/",
-      "published": "Thu, 24 Sep 2026 11:19:36 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
-      "title": "8 sailors attempted suicide aboard ships from Lincoln strike group, Cao says",
-      "link": "https://www.militarytimes.com/news/your-navy/2026/09/24/8-sailors-attempted-suicide-aboard-ships-from-lincoln-strike-group-cao-says/",
-      "published": "Thu, 24 Sep 2026 18:20:39 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment",
         "conflict"
       ]
     },
@@ -880,6 +849,15 @@
       "link": "https://taskandpurpose.com/news/iran-war-casualty-count-problems/",
       "published": "Wed, 23 Sep 2026 10:32:39 -0400",
       "source": "Task & Purpose",
+      "categories": [
+        "conflict"
+      ]
+    },
+    {
+      "title": "North Korea Tests New Hypersonic Missile",
+      "link": "https://news.usni.org/2026/09/23/north-korea-tests-new-hypersonic-missile",
+      "published": "Wed, 23 Sep 2026 15:01:01 +0000",
+      "source": "USNI News",
       "categories": [
         "conflict"
       ]
@@ -905,6 +883,15 @@
       ]
     },
     {
+      "title": "Thales in ‘quite advanced’ talks with NATO countries on AI-powered command software",
+      "link": "https://www.defensenews.com/global/europe/2026/09/25/thales-in-quite-advanced-talks-with-nato-countries-on-ai-powered-command-software/",
+      "published": "Fri, 25 Sep 2026 15:34:42 +0000",
+      "source": "Defense News",
+      "categories": [
+        "exercise"
+      ]
+    },
+    {
       "title": "US to provide critical but more limited capabilities to NATO, top commander says",
       "link": "https://www.defensenews.com/global/2026/09/24/us-to-provide-critical-but-more-limited-capabilities-to-nato-top-commander-says/",
       "published": "Thu, 24 Sep 2026 16:24:32 +0000",
@@ -924,18 +911,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 13,
-    "conflict_articles": 6,
-    "exercise_articles": 4,
+    "deployment_articles": 9,
+    "conflict_articles": 4,
+    "exercise_articles": 5,
     "total_articles": 50,
-    "computed_at": "2026-09-25T15:35:47.603511+00:00",
+    "computed_at": "2026-09-25T19:36:51.154395+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Defense News] US F-35 fighters to debut in Indian multinational air exercise",
       "[Military Times] US F-35 fighters to debut in Indian multinational air exercise",
       "[Defense News] France to send military to protect Saudi Arabia on Red Sea oil route, Macron says",
-      "[Task & Purpose] Fishing charter catches Air Force attack drone off Florida coast",
-      "[Defense News] Report: CIA warned Europe of Russian drone attack from vessels in the Mediterranean"
+      "[Task & Purpose] UN report says drug boat strikes are war crimes. What does that mean for US troops?",
+      "[Task & Purpose] Largest Army base in South Korea has no running water over holiday weekend"
     ]
   },
   "ground_intel": {
@@ -946,9 +933,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-09-25T15:35:47.603560+00:00",
+    "last_successful_update": "2026-09-25T19:36:51.154441+00:00",
     "article_count": 50,
-    "categorized_count": 21,
+    "categorized_count": 18,
     "freshest_source": "Defense News",
     "freshest_title": "US F-35 fighters to debut in Indian multinational air exercise",
     "freshest_published": "Fri, 25 Sep 2026 10:18:48 +0000"
