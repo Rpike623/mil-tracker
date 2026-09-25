@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-09-25T10:38:32Z",
-  "version": 2943,
+  "generated_utc": "2026-09-25T15:35:53Z",
+  "version": 2944,
   "breaking_alert": "Defense News: US F-35 fighters to debut in Indian multinational air exercise",
   "naval_deployments": [
     {
@@ -594,6 +594,15 @@
   ],
   "_naval_news_refs": [
     {
+      "title": "France to send military to protect Saudi Arabia on Red Sea oil route, Macron says",
+      "link": "https://www.defensenews.com/global/europe/2026/09/25/france-to-send-military-to-protect-saudi-arabia-on-red-sea-oil-route-macron-says/",
+      "published": "Fri, 25 Sep 2026 11:24:07 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "Report: CIA warned Europe of Russian drone attack from vessels in the Mediterranean",
       "link": "https://www.defensenews.com/global/europe/2026/09/24/report-cia-warned-europe-of-russian-drone-attack-from-vessels-in-the-mediterranean/",
       "published": "Thu, 24 Sep 2026 11:19:36 +0000",
@@ -601,6 +610,24 @@
       "categories": [
         "deployment",
         "conflict"
+      ]
+    },
+    {
+      "title": "Royal IHC and Naval Group sign first order for the new Orka-class submarines",
+      "link": "https://www.navalnews.com/naval-news/2026/09/royal-ihc-and-naval-group-sign-first-order-for-the-new-orka-class-submarines/",
+      "published": "Thu, 24 Sep 2026 11:29:56 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Italy Signs €3.7B Contract for New DDX Destroyers",
+      "link": "https://www.navalnews.com/naval-news/2026/09/italy-signs-e3-7b-contract-for-new-ddx-destroyers/",
+      "published": "Thu, 24 Sep 2026 12:33:45 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment"
       ]
     },
     {
@@ -654,24 +681,6 @@
       "link": "https://taskandpurpose.com/news/army-officer-death-Bianca-Wilkerson-iran-war/",
       "published": "Wed, 23 Sep 2026 10:54:57 -0400",
       "source": "Task & Purpose",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Steam catapults? US Navy appears to be sticking with electromagnetics on carriers",
-      "link": "https://www.defensenews.com/industry/techwatch/2026/09/23/steam-catapults-us-navy-appears-to-be-sticking-with-electromagnetics-on-carriers/",
-      "published": "Wed, 23 Sep 2026 18:22:04 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "3 Years of Middle East Combat Altering How Navy Supplies, Maintains Fleet, Leaders Say",
-      "link": "https://news.usni.org/2026/09/23/3-years-of-middle-east-combat-altering-how-navy-supplies-maintains-fleet-leaders-say",
-      "published": "Wed, 23 Sep 2026 23:19:42 +0000",
-      "source": "USNI News",
       "categories": [
         "deployment"
       ]
@@ -858,19 +867,19 @@
       ]
     },
     {
-      "title": "How the Pentagon counts — and leaves out — troops killed in war",
-      "link": "https://taskandpurpose.com/news/iran-war-casualty-count-problems/",
-      "published": "Wed, 23 Sep 2026 10:32:39 -0400",
-      "source": "Task & Purpose",
+      "title": "South Korea Begins Development of New Anti-ship Missile",
+      "link": "https://www.navalnews.com/naval-news/2026/09/south-korea-begins-development-of-new-anti-ship-missile/",
+      "published": "Wed, 23 Sep 2026 08:28:27 +0000",
+      "source": "Naval News",
       "categories": [
         "conflict"
       ]
     },
     {
-      "title": "North Korea Tests New Hypersonic Missile",
-      "link": "https://news.usni.org/2026/09/23/north-korea-tests-new-hypersonic-missile",
-      "published": "Wed, 23 Sep 2026 15:01:01 +0000",
-      "source": "USNI News",
+      "title": "How the Pentagon counts — and leaves out — troops killed in war",
+      "link": "https://taskandpurpose.com/news/iran-war-casualty-count-problems/",
+      "published": "Wed, 23 Sep 2026 10:32:39 -0400",
+      "source": "Task & Purpose",
       "categories": [
         "conflict"
       ]
@@ -905,28 +914,28 @@
       ]
     },
     {
-      "title": "US to provide critical but more limited capabilities to NATO, top commander says",
-      "link": "https://www.militarytimes.com/global/2026/09/24/us-to-provide-critical-but-more-limited-capabilities-to-nato-top-commander-says/",
-      "published": "Thu, 24 Sep 2026 16:24:32 +0000",
-      "source": "Military Times",
+      "title": "VOYANT Demonstrates Software-Defined Approach to Strengthen ASW Operations",
+      "link": "https://www.navalnews.com/naval-news/2026/09/voyant-demonstrates-software-defined-approach-to-strengthen-asw-operations/",
+      "published": "Wed, 23 Sep 2026 11:47:02 +0000",
+      "source": "Naval News",
       "categories": [
         "exercise"
       ]
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 9,
-    "conflict_articles": 5,
+    "deployment_articles": 13,
+    "conflict_articles": 6,
     "exercise_articles": 4,
-    "total_articles": 40,
-    "computed_at": "2026-09-25T10:38:30.996599+00:00",
+    "total_articles": 50,
+    "computed_at": "2026-09-25T15:35:47.603511+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Defense News] US F-35 fighters to debut in Indian multinational air exercise",
       "[Military Times] US F-35 fighters to debut in Indian multinational air exercise",
+      "[Defense News] France to send military to protect Saudi Arabia on Red Sea oil route, Macron says",
       "[Task & Purpose] Fishing charter catches Air Force attack drone off Florida coast",
-      "[Defense News] Report: CIA warned Europe of Russian drone attack from vessels in the Mediterranean",
-      "[Defense News] With Denmark, Saildrone logs first flag registration for naval surveillance drone"
+      "[Defense News] Report: CIA warned Europe of Russian drone attack from vessels in the Mediterranean"
     ]
   },
   "ground_intel": {
@@ -937,9 +946,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-09-25T10:38:30.996646+00:00",
-    "article_count": 40,
-    "categorized_count": 16,
+    "last_successful_update": "2026-09-25T15:35:47.603560+00:00",
+    "article_count": 50,
+    "categorized_count": 21,
     "freshest_source": "Defense News",
     "freshest_title": "US F-35 fighters to debut in Indian multinational air exercise",
     "freshest_published": "Fri, 25 Sep 2026 10:18:48 +0000"
