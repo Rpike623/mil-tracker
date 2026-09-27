@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-09-27T09:34:01Z",
-  "version": 2955,
+  "generated_utc": "2026-09-27T14:50:51Z",
+  "version": 2956,
   "breaking_alert": "Defense News: US F-35 fighters to debut in Indian multinational air exercise",
   "naval_deployments": [
     {
@@ -890,7 +890,7 @@
     "conflict_articles": 3,
     "exercise_articles": 4,
     "total_articles": 50,
-    "computed_at": "2026-09-27T09:33:59.366172+00:00",
+    "computed_at": "2026-09-27T14:50:47.068039+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Defense News] US F-35 fighters to debut in Indian multinational air exercise",
@@ -908,7 +908,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-09-27T09:33:59.366218+00:00",
+    "last_successful_update": "2026-09-27T14:50:47.068088+00:00",
     "article_count": 50,
     "categorized_count": 14,
     "freshest_source": "Defense News",
