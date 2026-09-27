@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-09-27T14:50:51Z",
-  "version": 2956,
+  "generated_utc": "2026-09-27T18:42:43Z",
+  "version": 2957,
   "breaking_alert": "Defense News: US F-35 fighters to debut in Indian multinational air exercise",
   "naval_deployments": [
     {
@@ -835,15 +835,6 @@
       "categories": [
         "conflict"
       ]
-    },
-    {
-      "title": "North Korea Tests New Hypersonic Missile",
-      "link": "https://news.usni.org/2026/09/23/north-korea-tests-new-hypersonic-missile",
-      "published": "Wed, 23 Sep 2026 15:01:01 +0000",
-      "source": "USNI News",
-      "categories": [
-        "conflict"
-      ]
     }
   ],
   "_exercise_news_refs": [
@@ -874,23 +865,14 @@
         "deployment",
         "exercise"
       ]
-    },
-    {
-      "title": "US to provide critical but more limited capabilities to NATO, top commander says",
-      "link": "https://www.defensenews.com/global/2026/09/24/us-to-provide-critical-but-more-limited-capabilities-to-nato-top-commander-says/",
-      "published": "Thu, 24 Sep 2026 16:24:32 +0000",
-      "source": "Defense News",
-      "categories": [
-        "exercise"
-      ]
     }
   ],
   "_threat_indicators": {
     "deployment_articles": 8,
-    "conflict_articles": 3,
-    "exercise_articles": 4,
+    "conflict_articles": 2,
+    "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-09-27T14:50:47.068039+00:00",
+    "computed_at": "2026-09-27T18:42:42.177594+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Defense News] US F-35 fighters to debut in Indian multinational air exercise",
@@ -908,9 +890,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-09-27T14:50:47.068088+00:00",
+    "last_successful_update": "2026-09-27T18:42:42.177642+00:00",
     "article_count": 50,
-    "categorized_count": 14,
+    "categorized_count": 12,
     "freshest_source": "Defense News",
     "freshest_title": "US F-35 fighters to debut in Indian multinational air exercise",
     "freshest_published": "Fri, 25 Sep 2026 10:18:48 +0000"
