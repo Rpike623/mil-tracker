@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-09-27T18:42:43Z",
-  "version": 2957,
+  "generated_utc": "2026-09-27T21:41:02Z",
+  "version": 2958,
   "breaking_alert": "Defense News: US F-35 fighters to debut in Indian multinational air exercise",
   "naval_deployments": [
     {
@@ -826,15 +826,6 @@
       "categories": [
         "conflict"
       ]
-    },
-    {
-      "title": "How the Pentagon counts — and leaves out — troops killed in war",
-      "link": "https://taskandpurpose.com/news/iran-war-casualty-count-problems/",
-      "published": "Wed, 23 Sep 2026 10:32:39 -0400",
-      "source": "Task & Purpose",
-      "categories": [
-        "conflict"
-      ]
     }
   ],
   "_exercise_news_refs": [
@@ -869,10 +860,10 @@
   ],
   "_threat_indicators": {
     "deployment_articles": 8,
-    "conflict_articles": 2,
+    "conflict_articles": 1,
     "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-09-27T18:42:42.177594+00:00",
+    "computed_at": "2026-09-27T21:41:01.207489+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Defense News] US F-35 fighters to debut in Indian multinational air exercise",
@@ -890,9 +881,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-09-27T18:42:42.177642+00:00",
+    "last_successful_update": "2026-09-27T21:41:01.207528+00:00",
     "article_count": 50,
-    "categorized_count": 12,
+    "categorized_count": 11,
     "freshest_source": "Defense News",
     "freshest_title": "US F-35 fighters to debut in Indian multinational air exercise",
     "freshest_published": "Fri, 25 Sep 2026 10:18:48 +0000"
