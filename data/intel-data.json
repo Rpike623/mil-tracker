@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-09-28T06:00:41Z",
-  "version": 2960,
+  "generated_utc": "2026-09-28T14:36:24Z",
+  "version": 2961,
   "breaking_alert": "Defense News: US F-35 fighters to debut in Indian multinational air exercise",
   "naval_deployments": [
     {
@@ -622,37 +622,19 @@
       ]
     },
     {
-      "title": "Royal IHC and Naval Group sign first order for the new Orka-class submarines",
-      "link": "https://www.navalnews.com/naval-news/2026/09/royal-ihc-and-naval-group-sign-first-order-for-the-new-orka-class-submarines/",
-      "published": "Thu, 24 Sep 2026 11:29:56 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Italy Signs €3.7B Contract for New DDX Destroyers",
-      "link": "https://www.navalnews.com/naval-news/2026/09/italy-signs-e3-7b-contract-for-new-ddx-destroyers/",
-      "published": "Thu, 24 Sep 2026 12:33:45 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Italy taps state-owned firms to build two naval destroyers in $4.2 billion deal",
-      "link": "https://www.defensenews.com/global/europe/2026/09/24/italy-taps-state-owned-firms-to-build-two-naval-destroyers-in-42-billion-deal/",
-      "published": "Thu, 24 Sep 2026 16:33:41 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Pentagon identifies Virginia soldier as 19th death in support of Iran war",
-      "link": "https://taskandpurpose.com/news/army-officer-death-Bianca-Wilkerson-iran-war/",
-      "published": "Wed, 23 Sep 2026 10:54:57 -0400",
+      "title": "More than three dozen sailors and Marines wounded this month in support of the Iran war",
+      "link": "https://taskandpurpose.com/news/iran-war-sailors-marines-wounded-september/",
+      "published": "Mon, 28 Sep 2026 08:00:00 -0400",
       "source": "Task & Purpose",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "USS Theodore Roosevelt Deploys From San Diego, USS Abraham Lincoln Near Hawaii",
+      "link": "https://news.usni.org/2026/09/28/uss-theodore-roosevelt-deploys-from-san-diego-uss-abraham-lincoln-near-hawaii",
+      "published": "Mon, 28 Sep 2026 14:13:56 +0000",
+      "source": "USNI News",
       "categories": [
         "deployment"
       ]
@@ -856,15 +838,24 @@
         "deployment",
         "exercise"
       ]
+    },
+    {
+      "title": "Special operations soldier dies after airborne training exercise",
+      "link": "https://www.militarytimes.com/news/your-military/2026/09/28/special-operations-soldier-dies-after-airborne-training-exercise/",
+      "published": "Mon, 28 Sep 2026 14:26:25 +0000",
+      "source": "Military Times",
+      "categories": [
+        "exercise"
+      ]
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 8,
+    "deployment_articles": 6,
     "conflict_articles": 1,
-    "exercise_articles": 3,
-    "total_articles": 50,
-    "computed_at": "2026-09-28T06:00:37.721907+00:00",
-    "manual_override": "DEFCON_3",
+    "exercise_articles": 4,
+    "total_articles": 40,
+    "computed_at": "2026-09-28T14:36:22.650435+00:00",
+    "manual_override": "DEFCON_4",
     "breaking_events": [
       "[Defense News] US F-35 fighters to debut in Indian multinational air exercise",
       "[Defense News] France to send military to protect Saudi Arabia on Red Sea oil route, Macron says",
@@ -881,9 +872,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-09-28T06:00:37.721941+00:00",
-    "article_count": 50,
-    "categorized_count": 11,
+    "last_successful_update": "2026-09-28T14:36:22.650484+00:00",
+    "article_count": 40,
+    "categorized_count": 10,
     "freshest_source": "Defense News",
     "freshest_title": "US F-35 fighters to debut in Indian multinational air exercise",
     "freshest_published": "Fri, 25 Sep 2026 10:18:48 +0000"
