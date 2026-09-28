@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-09-28T14:36:24Z",
-  "version": 2961,
-  "breaking_alert": "Defense News: US F-35 fighters to debut in Indian multinational air exercise",
+  "generated_utc": "2026-09-28T20:52:20Z",
+  "version": 2962,
+  "breaking_alert": "Task & Purpose: UN report says drug boat strikes are war crimes. What does that mean for US troops?",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -594,15 +594,6 @@
   ],
   "_naval_news_refs": [
     {
-      "title": "France to send military to protect Saudi Arabia on Red Sea oil route, Macron says",
-      "link": "https://www.defensenews.com/global/europe/2026/09/25/france-to-send-military-to-protect-saudi-arabia-on-red-sea-oil-route-macron-says/",
-      "published": "Fri, 25 Sep 2026 11:24:07 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Largest Army base in South Korea has no running water over holiday weekend",
       "link": "https://taskandpurpose.com/news/largest-army-base-in-south-korea-has-no-running-water-over-holiday-weekend/",
       "published": "Fri, 25 Sep 2026 13:32:31 -0400",
@@ -631,6 +622,25 @@
       ]
     },
     {
+      "title": "Pakistan Navy’s First Hangor-class Submarine Performs First Live Firing in North Arabian Sea",
+      "link": "https://www.navalnews.com/naval-news/2026/09/pakistan-navys-first-hangor-class-submarine-performs-first-live-firing-in-north-arabian-sea/",
+      "published": "Mon, 28 Sep 2026 08:30:00 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "USS Theodore Roosevelt becomes 5th aircraft carrier to support Iran war operations",
+      "link": "https://taskandpurpose.com/news/roosevelt-carrier-iran-war-deployment/",
+      "published": "Mon, 28 Sep 2026 13:51:29 -0400",
+      "source": "Task & Purpose",
+      "categories": [
+        "deployment",
+        "exercise"
+      ]
+    },
+    {
       "title": "USS Theodore Roosevelt Deploys From San Diego, USS Abraham Lincoln Near Hawaii",
       "link": "https://news.usni.org/2026/09/28/uss-theodore-roosevelt-deploys-from-san-diego-uss-abraham-lincoln-near-hawaii",
       "published": "Mon, 28 Sep 2026 14:13:56 +0000",
@@ -640,10 +650,19 @@
       ]
     },
     {
-      "title": "3 Years of Middle East Combat Altering How Navy Supplies, Maintains Fleet, Leaders Say",
-      "link": "https://news.usni.org/2026/09/23/3-years-of-middle-east-combat-altering-how-navy-supplies-maintains-fleet-leaders-say",
-      "published": "Wed, 23 Sep 2026 23:19:42 +0000",
+      "title": "USNI News Fleet and Marine Tracker: Sept. 28, 2026",
+      "link": "https://news.usni.org/2026/09/28/usni-news-fleet-and-marine-tracker-sept-28-2026",
+      "published": "Mon, 28 Sep 2026 18:01:35 +0000",
       "source": "USNI News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Soldier charged in shooting death of infant",
+      "link": "https://www.militarytimes.com/news/your-military/2026/09/28/soldier-charged-in-shooting-death-of-infant/",
+      "published": "Mon, 28 Sep 2026 19:01:51 +0000",
+      "source": "Military Times",
       "categories": [
         "deployment"
       ]
@@ -812,15 +831,6 @@
   ],
   "_exercise_news_refs": [
     {
-      "title": "US F-35 fighters to debut in Indian multinational air exercise",
-      "link": "https://www.defensenews.com/global/asia-pacific/2026/09/25/us-f-35-fighters-to-debut-in-indian-multinational-air-exercise/",
-      "published": "Fri, 25 Sep 2026 10:18:48 +0000",
-      "source": "Defense News",
-      "categories": [
-        "exercise"
-      ]
-    },
-    {
       "title": "Thales in ‘quite advanced’ talks with NATO countries on AI-powered command software",
       "link": "https://www.defensenews.com/global/europe/2026/09/25/thales-in-quite-advanced-talks-with-nato-countries-on-ai-powered-command-software/",
       "published": "Fri, 25 Sep 2026 15:34:42 +0000",
@@ -840,6 +850,16 @@
       ]
     },
     {
+      "title": "USS Theodore Roosevelt becomes 5th aircraft carrier to support Iran war operations",
+      "link": "https://taskandpurpose.com/news/roosevelt-carrier-iran-war-deployment/",
+      "published": "Mon, 28 Sep 2026 13:51:29 -0400",
+      "source": "Task & Purpose",
+      "categories": [
+        "deployment",
+        "exercise"
+      ]
+    },
+    {
       "title": "Special operations soldier dies after airborne training exercise",
       "link": "https://www.militarytimes.com/news/your-military/2026/09/28/special-operations-soldier-dies-after-airborne-training-exercise/",
       "published": "Mon, 28 Sep 2026 14:26:25 +0000",
@@ -850,18 +870,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 6,
+    "deployment_articles": 8,
     "conflict_articles": 1,
     "exercise_articles": 4,
-    "total_articles": 40,
-    "computed_at": "2026-09-28T14:36:22.650435+00:00",
-    "manual_override": "DEFCON_4",
+    "total_articles": 50,
+    "computed_at": "2026-09-28T20:52:17.114737+00:00",
+    "manual_override": "DEFCON_3",
     "breaking_events": [
-      "[Defense News] US F-35 fighters to debut in Indian multinational air exercise",
-      "[Defense News] France to send military to protect Saudi Arabia on Red Sea oil route, Macron says",
       "[Task & Purpose] UN report says drug boat strikes are war crimes. What does that mean for US troops?",
       "[Task & Purpose] Largest Army base in South Korea has no running water over holiday weekend",
-      "[Defense News] Thales in ‘quite advanced’ talks with NATO countries on AI-powered command software"
+      "[Defense News] Thales in ‘quite advanced’ talks with NATO countries on AI-powered command software",
+      "[USNI News] Navy Establishes New Deputy Chief Of Naval Operations to Support Failing Shore Infrastructure",
+      "[Task & Purpose] More than three dozen sailors and Marines wounded this month in support of the Iran war"
     ]
   },
   "ground_intel": {
@@ -872,12 +892,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-09-28T14:36:22.650484+00:00",
-    "article_count": 40,
-    "categorized_count": 10,
-    "freshest_source": "Defense News",
-    "freshest_title": "US F-35 fighters to debut in Indian multinational air exercise",
-    "freshest_published": "Fri, 25 Sep 2026 10:18:48 +0000"
+    "last_successful_update": "2026-09-28T20:52:17.114774+00:00",
+    "article_count": 50,
+    "categorized_count": 11,
+    "freshest_source": "Task & Purpose",
+    "freshest_title": "UN report says drug boat strikes are war crimes. What does that mean for US troops?",
+    "freshest_published": "Fri, 25 Sep 2026 12:23:25 -0400"
   },
   "_firms_hotspots": []
 }
