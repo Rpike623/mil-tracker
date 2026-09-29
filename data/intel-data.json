@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-09-29T18:55:47Z",
-  "version": 2966,
-  "breaking_alert": "USNI News: Navy Establishes New Deputy Chief Of Naval Operations to Support Failing Shore Infrastructure",
+  "generated_utc": "2026-09-29T22:44:12Z",
+  "version": 2967,
+  "breaking_alert": "Task & Purpose: More than three dozen sailors and Marines wounded this month in support of the Iran war",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -594,16 +594,6 @@
   ],
   "_naval_news_refs": [
     {
-      "title": "Navy Establishes New Deputy Chief Of Naval Operations to Support Failing Shore Infrastructure",
-      "link": "https://news.usni.org/2026/09/25/navy-establishes-new-deputy-chief-of-naval-operations-to-support-failing-shore-infrastructure",
-      "published": "Fri, 25 Sep 2026 21:07:32 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment",
-        "exercise"
-      ]
-    },
-    {
       "title": "More than three dozen sailors and Marines wounded this month in support of the Iran war",
       "link": "https://taskandpurpose.com/news/iran-war-sailors-marines-wounded-september/",
       "published": "Mon, 28 Sep 2026 08:00:00 -0400",
@@ -658,15 +648,6 @@
       ]
     },
     {
-      "title": "38 sailors, Marines wounded this month in Middle East",
-      "link": "https://www.militarytimes.com/news/your-navy/2026/09/29/38-sailors-marines-wounded-this-month-in-middle-east/",
-      "published": "Tue, 29 Sep 2026 00:07:39 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "UPDATED: Four Injured After Growler Landing Mishap Aboard USS Dwight D. Eisenhower, Crew Safely Recovered",
       "link": "https://news.usni.org/2026/09/28/four-injured-after-landing-mishap-aboard-uss-dwight-d-eisenhower-crew-safely-recovered",
       "published": "Tue, 29 Sep 2026 03:08:10 +0000",
@@ -683,6 +664,24 @@
       "categories": [
         "deployment",
         "exercise"
+      ]
+    },
+    {
+      "title": "USS Frank E. Petersen Jr. comes home after 10 months at sea",
+      "link": "https://taskandpurpose.com/news/uss-frank-petersen-10-month-deployment/",
+      "published": "Tue, 29 Sep 2026 11:23:39 -0400",
+      "source": "Task & Purpose",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Tracking America’s latest conflict: The Iran war timeline",
+      "link": "https://taskandpurpose.com/news/iran-war-timeline/",
+      "published": "Tue, 29 Sep 2026 14:00:03 -0400",
+      "source": "Task & Purpose",
+      "categories": [
+        "deployment"
       ]
     }
   ],
@@ -849,16 +848,6 @@
   ],
   "_exercise_news_refs": [
     {
-      "title": "Navy Establishes New Deputy Chief Of Naval Operations to Support Failing Shore Infrastructure",
-      "link": "https://news.usni.org/2026/09/25/navy-establishes-new-deputy-chief-of-naval-operations-to-support-failing-shore-infrastructure",
-      "published": "Fri, 25 Sep 2026 21:07:32 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment",
-        "exercise"
-      ]
-    },
-    {
       "title": "Stark and MBDA launch Vanta-12/Sea Venom combination to support NATO deterrence requirements",
       "link": "https://www.navalnews.com/naval-news/2026/09/stark-and-mbda-launch-vanta-12-sea-venom-combination-to-support-nato-deterrence-requirements/",
       "published": "Tue, 29 Sep 2026 09:40:23 +0000",
@@ -879,18 +868,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 17,
+    "deployment_articles": 16,
     "conflict_articles": 1,
-    "exercise_articles": 3,
+    "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-09-29T18:55:42.695924+00:00",
+    "computed_at": "2026-09-29T22:44:07.789562+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
-      "[USNI News] Navy Establishes New Deputy Chief Of Naval Operations to Support Failing Shore Infrastructure",
       "[Task & Purpose] More than three dozen sailors and Marines wounded this month in support of the Iran war",
       "[Naval News] Pakistan Navy’s First Hangor-class Submarine Performs First Live Firing in North Arabian Sea",
       "[Task & Purpose] USS Theodore Roosevelt arrives in Pacific ahead of anticipated Middle East deployment",
-      "[USNI News] USS Theodore Roosevelt Deploys From San Diego, USS Abraham Lincoln Near Hawaii"
+      "[USNI News] USS Theodore Roosevelt Deploys From San Diego, USS Abraham Lincoln Near Hawaii",
+      "[USNI News] USNI News Fleet and Marine Tracker: Sept. 28, 2026"
     ]
   },
   "ground_intel": {
@@ -901,12 +890,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-09-29T18:55:42.695954+00:00",
+    "last_successful_update": "2026-09-29T22:44:07.789598+00:00",
     "article_count": 50,
-    "categorized_count": 19,
-    "freshest_source": "USNI News",
-    "freshest_title": "Navy Establishes New Deputy Chief Of Naval Operations to Support Failing Shore Infrastructure",
-    "freshest_published": "Fri, 25 Sep 2026 21:07:32 +0000"
+    "categorized_count": 18,
+    "freshest_source": "Task & Purpose",
+    "freshest_title": "More than three dozen sailors and Marines wounded this month in support of the Iran war",
+    "freshest_published": "Mon, 28 Sep 2026 08:00:00 -0400"
   },
   "_firms_hotspots": []
 }
