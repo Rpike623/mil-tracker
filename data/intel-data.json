@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-09-29T06:19:00Z",
-  "version": 2964,
+  "generated_utc": "2026-09-29T13:27:30Z",
+  "version": 2965,
   "breaking_alert": "Task & Purpose: UN report says drug boat strikes are war crimes. What does that mean for US troops?",
   "naval_deployments": [
     {
@@ -622,15 +622,6 @@
       ]
     },
     {
-      "title": "Pakistan Navy’s First Hangor-class Submarine Performs First Live Firing in North Arabian Sea",
-      "link": "https://www.navalnews.com/naval-news/2026/09/pakistan-navys-first-hangor-class-submarine-performs-first-live-firing-in-north-arabian-sea/",
-      "published": "Mon, 28 Sep 2026 08:30:00 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "USS Theodore Roosevelt arrives in Pacific ahead of anticipated Middle East deployment",
       "link": "https://taskandpurpose.com/news/roosevelt-carrier-iran-war-deployment/",
       "published": "Mon, 28 Sep 2026 13:51:29 -0400",
@@ -680,6 +671,15 @@
       "link": "https://www.militarytimes.com/news/your-navy/2026/09/29/38-sailors-marines-wounded-this-month-in-middle-east/",
       "published": "Tue, 29 Sep 2026 00:07:39 +0000",
       "source": "Military Times",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Four Injured After Landing Mishap Aboard USS Dwight D. Eisenhower, Crew Safely Recovered",
+      "link": "https://news.usni.org/2026/09/28/four-injured-after-landing-mishap-aboard-uss-dwight-d-eisenhower-crew-safely-recovered",
+      "published": "Tue, 29 Sep 2026 03:08:10 +0000",
+      "source": "USNI News",
       "categories": [
         "deployment"
       ]
@@ -848,19 +848,20 @@
   ],
   "_exercise_news_refs": [
     {
-      "title": "Thales in ‘quite advanced’ talks with NATO countries on AI-powered command software",
-      "link": "https://www.defensenews.com/global/europe/2026/09/25/thales-in-quite-advanced-talks-with-nato-countries-on-ai-powered-command-software/",
-      "published": "Fri, 25 Sep 2026 15:34:42 +0000",
-      "source": "Defense News",
-      "categories": [
-        "exercise"
-      ]
-    },
-    {
       "title": "Navy Establishes New Deputy Chief Of Naval Operations to Support Failing Shore Infrastructure",
       "link": "https://news.usni.org/2026/09/25/navy-establishes-new-deputy-chief-of-naval-operations-to-support-failing-shore-infrastructure",
       "published": "Fri, 25 Sep 2026 21:07:32 +0000",
       "source": "USNI News",
+      "categories": [
+        "deployment",
+        "exercise"
+      ]
+    },
+    {
+      "title": "New Zealand, Australia sign pact to deepen naval cooperation",
+      "link": "https://www.defensenews.com/global/asia-pacific/2026/09/29/new-zealand-australia-sign-pact-to-deepen-naval-cooperation/",
+      "published": "Tue, 29 Sep 2026 10:25:20 +0000",
+      "source": "Defense News",
       "categories": [
         "deployment",
         "exercise"
@@ -871,15 +872,15 @@
     "deployment_articles": 11,
     "conflict_articles": 1,
     "exercise_articles": 2,
-    "total_articles": 50,
-    "computed_at": "2026-09-29T06:18:53.231656+00:00",
+    "total_articles": 40,
+    "computed_at": "2026-09-29T13:27:29.383763+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Task & Purpose] UN report says drug boat strikes are war crimes. What does that mean for US troops?",
       "[Task & Purpose] Largest Army base in South Korea has no running water over holiday weekend",
-      "[Defense News] Thales in ‘quite advanced’ talks with NATO countries on AI-powered command software",
       "[USNI News] Navy Establishes New Deputy Chief Of Naval Operations to Support Failing Shore Infrastructure",
-      "[Task & Purpose] More than three dozen sailors and Marines wounded this month in support of the Iran war"
+      "[Task & Purpose] More than three dozen sailors and Marines wounded this month in support of the Iran war",
+      "[Task & Purpose] USS Theodore Roosevelt arrives in Pacific ahead of anticipated Middle East deployment"
     ]
   },
   "ground_intel": {
@@ -890,9 +891,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-09-29T06:18:53.231703+00:00",
-    "article_count": 50,
-    "categorized_count": 13,
+    "last_successful_update": "2026-09-29T13:27:29.383810+00:00",
+    "article_count": 40,
+    "categorized_count": 12,
     "freshest_source": "Task & Purpose",
     "freshest_title": "UN report says drug boat strikes are war crimes. What does that mean for US troops?",
     "freshest_published": "Fri, 25 Sep 2026 12:23:25 -0400"
