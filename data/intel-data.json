@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-09-29T00:39:35Z",
-  "version": 2963,
+  "generated_utc": "2026-09-29T06:19:00Z",
+  "version": 2964,
   "breaking_alert": "Task & Purpose: UN report says drug boat strikes are war crimes. What does that mean for US troops?",
   "naval_deployments": [
     {
@@ -868,11 +868,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 10,
+    "deployment_articles": 11,
     "conflict_articles": 1,
     "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-09-29T00:39:29.916053+00:00",
+    "computed_at": "2026-09-29T06:18:53.231656+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Task & Purpose] UN report says drug boat strikes are war crimes. What does that mean for US troops?",
@@ -890,9 +890,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-09-29T00:39:29.916102+00:00",
+    "last_successful_update": "2026-09-29T06:18:53.231703+00:00",
     "article_count": 50,
-    "categorized_count": 12,
+    "categorized_count": 13,
     "freshest_source": "Task & Purpose",
     "freshest_title": "UN report says drug boat strikes are war crimes. What does that mean for US troops?",
     "freshest_published": "Fri, 25 Sep 2026 12:23:25 -0400"
