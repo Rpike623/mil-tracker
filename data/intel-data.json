@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-09-28T20:52:20Z",
-  "version": 2962,
+  "generated_utc": "2026-09-29T00:39:35Z",
+  "version": 2963,
   "breaking_alert": "Task & Purpose: UN report says drug boat strikes are war crimes. What does that mean for US troops?",
   "naval_deployments": [
     {
@@ -631,13 +631,12 @@
       ]
     },
     {
-      "title": "USS Theodore Roosevelt becomes 5th aircraft carrier to support Iran war operations",
+      "title": "USS Theodore Roosevelt arrives in Pacific ahead of anticipated Middle East deployment",
       "link": "https://taskandpurpose.com/news/roosevelt-carrier-iran-war-deployment/",
       "published": "Mon, 28 Sep 2026 13:51:29 -0400",
       "source": "Task & Purpose",
       "categories": [
-        "deployment",
-        "exercise"
+        "deployment"
       ]
     },
     {
@@ -662,6 +661,24 @@
       "title": "Soldier charged in shooting death of infant",
       "link": "https://www.militarytimes.com/news/your-military/2026/09/28/soldier-charged-in-shooting-death-of-infant/",
       "published": "Mon, 28 Sep 2026 19:01:51 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "EU Needs More Ships for Red Sea; European Navies Adjust Hormuz Deployments",
+      "link": "https://news.usni.org/2026/09/28/eu-needs-more-ships-for-red-sea-european-navies-adjust-hormuz-deployments",
+      "published": "Mon, 28 Sep 2026 20:55:06 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "38 sailors, Marines wounded this month in Middle East",
+      "link": "https://www.militarytimes.com/news/your-navy/2026/09/29/38-sailors-marines-wounded-this-month-in-middle-east/",
+      "published": "Tue, 29 Sep 2026 00:07:39 +0000",
       "source": "Military Times",
       "categories": [
         "deployment"
@@ -848,33 +865,14 @@
         "deployment",
         "exercise"
       ]
-    },
-    {
-      "title": "USS Theodore Roosevelt becomes 5th aircraft carrier to support Iran war operations",
-      "link": "https://taskandpurpose.com/news/roosevelt-carrier-iran-war-deployment/",
-      "published": "Mon, 28 Sep 2026 13:51:29 -0400",
-      "source": "Task & Purpose",
-      "categories": [
-        "deployment",
-        "exercise"
-      ]
-    },
-    {
-      "title": "Special operations soldier dies after airborne training exercise",
-      "link": "https://www.militarytimes.com/news/your-military/2026/09/28/special-operations-soldier-dies-after-airborne-training-exercise/",
-      "published": "Mon, 28 Sep 2026 14:26:25 +0000",
-      "source": "Military Times",
-      "categories": [
-        "exercise"
-      ]
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 8,
+    "deployment_articles": 10,
     "conflict_articles": 1,
-    "exercise_articles": 4,
+    "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-09-28T20:52:17.114737+00:00",
+    "computed_at": "2026-09-29T00:39:29.916053+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Task & Purpose] UN report says drug boat strikes are war crimes. What does that mean for US troops?",
@@ -892,9 +890,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-09-28T20:52:17.114774+00:00",
+    "last_successful_update": "2026-09-29T00:39:29.916102+00:00",
     "article_count": 50,
-    "categorized_count": 11,
+    "categorized_count": 12,
     "freshest_source": "Task & Purpose",
     "freshest_title": "UN report says drug boat strikes are war crimes. What does that mean for US troops?",
     "freshest_published": "Fri, 25 Sep 2026 12:23:25 -0400"
