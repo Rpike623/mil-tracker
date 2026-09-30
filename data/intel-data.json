@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-09-30T19:45:20Z",
-  "version": 2971,
+  "generated_utc": "2026-09-30T23:15:01Z",
+  "version": 2972,
   "breaking_alert": "Task & Purpose: More than three dozen sailors and Marines wounded this month in support of the Iran war",
   "naval_deployments": [
     {
@@ -885,11 +885,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 15,
+    "deployment_articles": 16,
     "conflict_articles": 1,
     "exercise_articles": 4,
     "total_articles": 50,
-    "computed_at": "2026-09-30T19:40:40.083953+00:00",
+    "computed_at": "2026-09-30T23:14:58.317900+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Task & Purpose] More than three dozen sailors and Marines wounded this month in support of the Iran war",
@@ -907,9 +907,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-09-30T19:40:40.084002+00:00",
+    "last_successful_update": "2026-09-30T23:14:58.317954+00:00",
     "article_count": 50,
-    "categorized_count": 19,
+    "categorized_count": 20,
     "freshest_source": "Task & Purpose",
     "freshest_title": "More than three dozen sailors and Marines wounded this month in support of the Iran war",
     "freshest_published": "Mon, 28 Sep 2026 08:00:00 -0400"
