@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-10-01T02:38:57Z",
-  "version": 2973,
+  "generated_utc": "2026-10-01T09:29:03Z",
+  "version": 2974,
   "breaking_alert": "Task & Purpose: More than three dozen sailors and Marines wounded this month in support of the Iran war",
   "naval_deployments": [
     {
@@ -603,15 +603,6 @@
       ]
     },
     {
-      "title": "Pakistan Navy’s First Hangor-class Submarine Performs First Live Firing in North Arabian Sea",
-      "link": "https://www.navalnews.com/naval-news/2026/09/pakistan-navys-first-hangor-class-submarine-performs-first-live-firing-in-north-arabian-sea/",
-      "published": "Mon, 28 Sep 2026 08:30:00 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "USS Theodore Roosevelt arrives in Pacific ahead of anticipated Middle East deployment",
       "link": "https://taskandpurpose.com/news/roosevelt-carrier-iran-war-deployment/",
       "published": "Mon, 28 Sep 2026 13:51:29 -0400",
@@ -625,6 +616,15 @@
       "link": "https://news.usni.org/2026/09/28/eu-needs-more-ships-for-red-sea-european-navies-adjust-hormuz-deployments",
       "published": "Mon, 28 Sep 2026 20:55:06 +0000",
       "source": "USNI News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "HD HHI Launches Third KDX-III Batch-II Destroyer for ROK Navy",
+      "link": "https://www.navalnews.com/naval-news/2026/10/hd-hhi-launches-third-kdx-iii-batch-ii-destroyer-for-rok-navy/",
+      "published": "Thu, 01 Oct 2026 08:21:39 +0000",
+      "source": "Naval News",
       "categories": [
         "deployment"
       ]
@@ -889,13 +889,13 @@
     "conflict_articles": 1,
     "exercise_articles": 4,
     "total_articles": 50,
-    "computed_at": "2026-10-01T02:38:52.205833+00:00",
+    "computed_at": "2026-10-01T09:28:51.475670+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Task & Purpose] More than three dozen sailors and Marines wounded this month in support of the Iran war",
-      "[Naval News] Pakistan Navy’s First Hangor-class Submarine Performs First Live Firing in North Arabian Sea",
       "[Task & Purpose] USS Theodore Roosevelt arrives in Pacific ahead of anticipated Middle East deployment",
       "[USNI News] EU Needs More Ships for Red Sea; European Navies Adjust Hormuz Deployments",
+      "[Naval News] HD HHI Launches Third KDX-III Batch-II Destroyer for ROK Navy",
       "[USNI News] UPDATED: Four Injured After Growler Landing Mishap Aboard USS Dwight D. Eisenhower, Crew Safely Recovered"
     ]
   },
@@ -907,7 +907,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-10-01T02:38:52.205883+00:00",
+    "last_successful_update": "2026-10-01T09:28:51.475717+00:00",
     "article_count": 50,
     "categorized_count": 20,
     "freshest_source": "Task & Purpose",
