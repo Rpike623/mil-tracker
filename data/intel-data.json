@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-10-02T14:12:13Z",
-  "version": 2979,
-  "breaking_alert": "Naval News: HD HHI Launches Third KDX-III Batch-II Destroyer for ROK Navy",
+  "generated_utc": "2026-10-02T19:35:44Z",
+  "version": 2980,
+  "breaking_alert": "Task & Purpose: Latest aircraft carrier headed to Middle East is carrying extra food and supplies, Navy says",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -594,6 +594,42 @@
   ],
   "_naval_news_refs": [
     {
+      "title": "Latest aircraft carrier headed to Middle East is carrying extra food and supplies, Navy says",
+      "link": "https://taskandpurpose.com/news/navy-roosevelt-long-deployment-supplies/",
+      "published": "Fri, 02 Oct 2026 13:19:04 -0400",
+      "source": "Task & Purpose",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Air, Space forces hit recruitment goals, set higher 2027 targets",
+      "link": "https://www.militarytimes.com/news/recruiting/2026/10/02/air-space-forces-hit-recruitment-goals-set-higher-2027-targets/",
+      "published": "Fri, 02 Oct 2026 16:13:23 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Saudis plan assault on Houthis to break Red Sea chokehold",
+      "link": "https://www.defensenews.com/global/mideast-africa/2026/10/02/saudis-plan-assault-on-houthis-to-break-red-sea-chokehold/",
+      "published": "Fri, 02 Oct 2026 19:00:24 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Saudis plan assault on Houthis to break Red Sea chokehold",
+      "link": "https://www.militarytimes.com/global/mideast-africa/2026/10/02/saudis-plan-assault-on-houthis-to-break-red-sea-chokehold/",
+      "published": "Fri, 02 Oct 2026 19:00:24 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "HD HHI Launches Third KDX-III Batch-II Destroyer for ROK Navy",
       "link": "https://www.navalnews.com/naval-news/2026/10/hd-hhi-launches-third-kdx-iii-batch-ii-destroyer-for-rok-navy/",
       "published": "Thu, 01 Oct 2026 08:21:39 +0000",
@@ -630,15 +666,6 @@
       ]
     },
     {
-      "title": "USS Frank E. Petersen Jr. comes home after 10 months at sea",
-      "link": "https://taskandpurpose.com/news/uss-frank-petersen-10-month-deployment/",
-      "published": "Tue, 29 Sep 2026 11:23:39 -0400",
-      "source": "Task & Purpose",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Tracking America’s latest conflict: The Iran war timeline",
       "link": "https://taskandpurpose.com/news/iran-war-timeline/",
       "published": "Tue, 29 Sep 2026 14:00:03 -0400",
@@ -648,37 +675,10 @@
       ]
     },
     {
-      "title": "UPDATED: Navy Partially Accepts Carrier John F. Kennedy, HII Newport News Awarded USS Harry S. Truman Overhaul Contract",
-      "link": "https://news.usni.org/2026/09/29/navy-partially-accepts-carrier-john-f-kennedy-from-hii-newport-news-shipbuilding",
-      "published": "Tue, 29 Sep 2026 19:00:14 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Boeing Picked to Build Navy’s F/A-XX Carrier Fighter in Estimated $20B Deal",
       "link": "https://news.usni.org/2026/09/29/boeing-picked-to-build-navys-f-a-xx-carrier-fighter-in-20b-contract",
       "published": "Tue, 29 Sep 2026 21:42:33 +0000",
       "source": "USNI News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Historic first as Royal Navy launches torpedo from uncrewed submarine, XV Excalibur",
-      "link": "https://www.navalnews.com/naval-news/2026/09/historic-first-as-royal-navy-launches-torpedo-from-uncrewed-submarine-xv-excalibur/",
-      "published": "Wed, 30 Sep 2026 11:53:34 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Counter-ISIS mission in Iraq comes to an end",
-      "link": "https://taskandpurpose.com/news/counter-isis-iraq-withdrawal/",
-      "published": "Wed, 30 Sep 2026 12:34:58 -0400",
-      "source": "Task & Purpose",
       "categories": [
         "deployment"
       ]
@@ -836,15 +836,6 @@
   },
   "_conflict_news_refs": [
     {
-      "title": "Ukraine has struck Russian factory vital for Moscow’s missiles, private intelligence firm says",
-      "link": "https://www.defensenews.com/global/europe/2026/10/01/ukraine-has-struck-russian-factory-vital-for-moscows-missiles-private-intelligence-firm-says/",
-      "published": "Thu, 01 Oct 2026 12:13:02 +0000",
-      "source": "Defense News",
-      "categories": [
-        "conflict"
-      ]
-    },
-    {
       "title": "Taiwan takes a page from Ukraine’s playbook in steeling society for an invasion",
       "link": "https://www.defensenews.com/global/asia-pacific/2026/10/01/taiwan-takes-a-page-from-ukraines-playbook-in-steeling-society-for-an-invasion/",
       "published": "Thu, 01 Oct 2026 14:13:06 +0000",
@@ -872,9 +863,18 @@
       ]
     },
     {
-      "title": "Ukraine deploys FP-7 tactical ballistic missile in combat for first time, Zelenskyy says",
-      "link": "https://www.militarytimes.com/industry/techwatch/2026/10/01/ukraine-deploys-fp-7-tactical-ballistic-missile-in-combat-for-first-time-zelenskyy-says/",
-      "published": "Thu, 01 Oct 2026 19:54:35 +0000",
+      "title": "US Navy awards RTX’s Raytheon $24.4B for SM-6 missiles amid stockpile concerns",
+      "link": "https://www.defensenews.com/industry/techwatch/2026/10/01/us-navy-awards-rtxs-raytheon-244b-for-sm-6-missiles-amid-stockpile-concerns/",
+      "published": "Thu, 01 Oct 2026 22:05:46 +0000",
+      "source": "Defense News",
+      "categories": [
+        "conflict"
+      ]
+    },
+    {
+      "title": "US Navy awards RTX’s Raytheon $24.4B for SM-6 missiles amid stockpile concerns",
+      "link": "https://www.militarytimes.com/industry/techwatch/2026/10/01/us-navy-awards-rtxs-raytheon-244b-for-sm-6-missiles-amid-stockpile-concerns/",
+      "published": "Thu, 01 Oct 2026 22:05:46 +0000",
       "source": "Military Times",
       "categories": [
         "conflict"
@@ -893,18 +893,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 11,
-    "conflict_articles": 7,
+    "deployment_articles": 13,
+    "conflict_articles": 5,
     "exercise_articles": 1,
     "total_articles": 50,
-    "computed_at": "2026-10-02T14:12:08.879844+00:00",
+    "computed_at": "2026-10-02T19:35:42.111245+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
-      "[Naval News] HD HHI Launches Third KDX-III Batch-II Destroyer for ROK Navy",
-      "[Defense News] Ukraine has struck Russian factory vital for Moscow’s missiles, private intelligence firm says",
-      "[Naval News] Fincantieri Lays Keel of Second U212NFS Submarine",
-      "[Defense News] Taiwan takes a page from Ukraine’s playbook in steeling society for an invasion",
-      "[USNI News] U.S. Army Picks 5 to Prototype Long-range Maritime Strike Missile"
+      "[Task & Purpose] Latest aircraft carrier headed to Middle East is carrying extra food and supplies, Navy says",
+      "[Military Times] Air, Space forces hit recruitment goals, set higher 2027 targets",
+      "[Defense News] Saudis plan assault on Houthis to break Red Sea chokehold",
+      "[Military Times] Saudis plan assault on Houthis to break Red Sea chokehold",
+      "[Naval News] HD HHI Launches Third KDX-III Batch-II Destroyer for ROK Navy"
     ]
   },
   "ground_intel": {
@@ -915,12 +915,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-10-02T14:12:08.879892+00:00",
+    "last_successful_update": "2026-10-02T19:35:42.111290+00:00",
     "article_count": 50,
     "categorized_count": 19,
-    "freshest_source": "Naval News",
-    "freshest_title": "HD HHI Launches Third KDX-III Batch-II Destroyer for ROK Navy",
-    "freshest_published": "Thu, 01 Oct 2026 08:21:39 +0000"
+    "freshest_source": "Task & Purpose",
+    "freshest_title": "Latest aircraft carrier headed to Middle East is carrying extra food and supplies, Navy says",
+    "freshest_published": "Fri, 02 Oct 2026 13:19:04 -0400"
   },
   "_firms_hotspots": []
 }
