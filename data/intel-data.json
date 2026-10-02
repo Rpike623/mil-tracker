@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-10-02T19:35:44Z",
-  "version": 2980,
-  "breaking_alert": "Task & Purpose: Latest aircraft carrier headed to Middle East is carrying extra food and supplies, Navy says",
+  "generated_utc": "2026-10-02T23:20:23Z",
+  "version": 2981,
+  "breaking_alert": "Task & Purpose: Navy sending aircraft carrier to Middle East with extra food and supplies",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -594,7 +594,7 @@
   ],
   "_naval_news_refs": [
     {
-      "title": "Latest aircraft carrier headed to Middle East is carrying extra food and supplies, Navy says",
+      "title": "Navy sending aircraft carrier to Middle East with extra food and supplies",
       "link": "https://taskandpurpose.com/news/navy-roosevelt-long-deployment-supplies/",
       "published": "Fri, 02 Oct 2026 13:19:04 -0400",
       "source": "Task & Purpose",
@@ -624,6 +624,15 @@
       "title": "Saudis plan assault on Houthis to break Red Sea chokehold",
       "link": "https://www.militarytimes.com/global/mideast-africa/2026/10/02/saudis-plan-assault-on-houthis-to-break-red-sea-chokehold/",
       "published": "Fri, 02 Oct 2026 19:00:24 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Naval Special Warfare Command failed to identify, treat TBI in service members: Watchdog",
+      "link": "https://www.militarytimes.com/news/your-navy/2026/10/02/naval-special-warfare-command-failed-to-identify-treat-tbi-in-service-members-watchdog/",
+      "published": "Fri, 02 Oct 2026 19:52:28 +0000",
       "source": "Military Times",
       "categories": [
         "deployment"
@@ -666,19 +675,10 @@
       ]
     },
     {
-      "title": "Tracking America’s latest conflict: The Iran war timeline",
-      "link": "https://taskandpurpose.com/news/iran-war-timeline/",
-      "published": "Tue, 29 Sep 2026 14:00:03 -0400",
-      "source": "Task & Purpose",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Boeing Picked to Build Navy’s F/A-XX Carrier Fighter in Estimated $20B Deal",
-      "link": "https://news.usni.org/2026/09/29/boeing-picked-to-build-navys-f-a-xx-carrier-fighter-in-20b-contract",
-      "published": "Tue, 29 Sep 2026 21:42:33 +0000",
-      "source": "USNI News",
+      "title": "Historic first as Royal Navy launches torpedo from uncrewed submarine, XV Excalibur",
+      "link": "https://www.navalnews.com/naval-news/2026/09/historic-first-as-royal-navy-launches-torpedo-from-uncrewed-submarine-xv-excalibur/",
+      "published": "Wed, 30 Sep 2026 11:53:34 +0000",
+      "source": "Naval News",
       "categories": [
         "deployment"
       ]
@@ -836,6 +836,15 @@
   },
   "_conflict_news_refs": [
     {
+      "title": "Navy Contracts RTX for $24.4B Standard Missile-6 Deal",
+      "link": "https://news.usni.org/2026/10/02/navy-contracts-rtx-for-24-4b-standard-missile-6-deal",
+      "published": "Fri, 02 Oct 2026 20:59:48 +0000",
+      "source": "USNI News",
+      "categories": [
+        "conflict"
+      ]
+    },
+    {
       "title": "Taiwan takes a page from Ukraine’s playbook in steeling society for an invasion",
       "link": "https://www.defensenews.com/global/asia-pacific/2026/10/01/taiwan-takes-a-page-from-ukraines-playbook-in-steeling-society-for-an-invasion/",
       "published": "Thu, 01 Oct 2026 14:13:06 +0000",
@@ -870,15 +879,6 @@
       "categories": [
         "conflict"
       ]
-    },
-    {
-      "title": "US Navy awards RTX’s Raytheon $24.4B for SM-6 missiles amid stockpile concerns",
-      "link": "https://www.militarytimes.com/industry/techwatch/2026/10/01/us-navy-awards-rtxs-raytheon-244b-for-sm-6-missiles-amid-stockpile-concerns/",
-      "published": "Thu, 01 Oct 2026 22:05:46 +0000",
-      "source": "Military Times",
-      "categories": [
-        "conflict"
-      ]
     }
   ],
   "_exercise_news_refs": [
@@ -893,18 +893,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 13,
+    "deployment_articles": 12,
     "conflict_articles": 5,
     "exercise_articles": 1,
     "total_articles": 50,
-    "computed_at": "2026-10-02T19:35:42.111245+00:00",
+    "computed_at": "2026-10-02T23:20:12.974932+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
-      "[Task & Purpose] Latest aircraft carrier headed to Middle East is carrying extra food and supplies, Navy says",
+      "[Task & Purpose] Navy sending aircraft carrier to Middle East with extra food and supplies",
       "[Military Times] Air, Space forces hit recruitment goals, set higher 2027 targets",
       "[Defense News] Saudis plan assault on Houthis to break Red Sea chokehold",
       "[Military Times] Saudis plan assault on Houthis to break Red Sea chokehold",
-      "[Naval News] HD HHI Launches Third KDX-III Batch-II Destroyer for ROK Navy"
+      "[Military Times] Naval Special Warfare Command failed to identify, treat TBI in service members: Watchdog"
     ]
   },
   "ground_intel": {
@@ -915,11 +915,11 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-10-02T19:35:42.111290+00:00",
+    "last_successful_update": "2026-10-02T23:20:12.974985+00:00",
     "article_count": 50,
-    "categorized_count": 19,
+    "categorized_count": 18,
     "freshest_source": "Task & Purpose",
-    "freshest_title": "Latest aircraft carrier headed to Middle East is carrying extra food and supplies, Navy says",
+    "freshest_title": "Navy sending aircraft carrier to Middle East with extra food and supplies",
     "freshest_published": "Fri, 02 Oct 2026 13:19:04 -0400"
   },
   "_firms_hotspots": []
