@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-10-01T21:26:34Z",
-  "version": 2976,
-  "breaking_alert": "Task & Purpose: USS Theodore Roosevelt arrives in Pacific ahead of anticipated Middle East deployment",
+  "generated_utc": "2026-10-02T01:08:03Z",
+  "version": 2977,
+  "breaking_alert": "Naval News: HD HHI Launches Third KDX-III Batch-II Destroyer for ROK Navy",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -594,15 +594,6 @@
   ],
   "_naval_news_refs": [
     {
-      "title": "USS Theodore Roosevelt arrives in Pacific ahead of anticipated Middle East deployment",
-      "link": "https://taskandpurpose.com/news/roosevelt-carrier-iran-war-deployment/",
-      "published": "Mon, 28 Sep 2026 13:51:29 -0400",
-      "source": "Task & Purpose",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "HD HHI Launches Third KDX-III Batch-II Destroyer for ROK Navy",
       "link": "https://www.navalnews.com/naval-news/2026/10/hd-hhi-launches-third-kdx-iii-batch-ii-destroyer-for-rok-navy/",
       "published": "Thu, 01 Oct 2026 08:21:39 +0000",
@@ -679,6 +670,15 @@
       "link": "https://www.navalnews.com/naval-news/2026/09/historic-first-as-royal-navy-launches-torpedo-from-uncrewed-submarine-xv-excalibur/",
       "published": "Wed, 30 Sep 2026 11:53:34 +0000",
       "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Counter-ISIS mission in Iraq comes to an end",
+      "link": "https://taskandpurpose.com/news/counter-isis-iraq-withdrawal/",
+      "published": "Wed, 30 Sep 2026 12:34:58 -0400",
+      "source": "Task & Purpose",
       "categories": [
         "deployment"
       ]
@@ -883,15 +883,6 @@
   ],
   "_exercise_news_refs": [
     {
-      "title": "Operation Atlantic City ushers Marines on rare trip to ... remote Arctic island",
-      "link": "https://www.defensenews.com/news/your-military/2026/09/30/operation-atlantic-city-ushers-marines-on-rare-trip-to-remote-arctic-island/",
-      "published": "Wed, 30 Sep 2026 16:52:06 +0000",
-      "source": "Defense News",
-      "categories": [
-        "exercise"
-      ]
-    },
-    {
       "title": "VIDEO: Former U.S. Frigate Sunk in Exercise with U.S., Royal Navies",
       "link": "https://news.usni.org/2026/09/30/video-former-u-s-frigate-sunk-in-exercise-with-u-s-royal-navies",
       "published": "Wed, 30 Sep 2026 17:27:13 +0000",
@@ -902,18 +893,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 12,
-    "conflict_articles": 5,
-    "exercise_articles": 2,
+    "deployment_articles": 11,
+    "conflict_articles": 7,
+    "exercise_articles": 1,
     "total_articles": 50,
-    "computed_at": "2026-10-01T21:26:31.478957+00:00",
+    "computed_at": "2026-10-02T01:07:48.196848+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
-      "[Task & Purpose] USS Theodore Roosevelt arrives in Pacific ahead of anticipated Middle East deployment",
       "[Naval News] HD HHI Launches Third KDX-III Batch-II Destroyer for ROK Navy",
       "[Defense News] Ukraine has struck Russian factory vital for Moscow’s missiles, private intelligence firm says",
       "[Naval News] Fincantieri Lays Keel of Second U212NFS Submarine",
-      "[Defense News] Taiwan takes a page from Ukraine’s playbook in steeling society for an invasion"
+      "[Defense News] Taiwan takes a page from Ukraine’s playbook in steeling society for an invasion",
+      "[USNI News] U.S. Army Picks 5 to Prototype Long-range Maritime Strike Missile"
     ]
   },
   "ground_intel": {
@@ -924,12 +915,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-10-01T21:26:31.479007+00:00",
+    "last_successful_update": "2026-10-02T01:07:48.196896+00:00",
     "article_count": 50,
     "categorized_count": 19,
-    "freshest_source": "Task & Purpose",
-    "freshest_title": "USS Theodore Roosevelt arrives in Pacific ahead of anticipated Middle East deployment",
-    "freshest_published": "Mon, 28 Sep 2026 13:51:29 -0400"
+    "freshest_source": "Naval News",
+    "freshest_title": "HD HHI Launches Third KDX-III Batch-II Destroyer for ROK Navy",
+    "freshest_published": "Thu, 01 Oct 2026 08:21:39 +0000"
   },
   "_firms_hotspots": []
 }
