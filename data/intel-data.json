@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-10-02T07:36:18Z",
-  "version": 2978,
+  "generated_utc": "2026-10-02T14:12:13Z",
+  "version": 2979,
   "breaking_alert": "Naval News: HD HHI Launches Third KDX-III Batch-II Destroyer for ROK Navy",
   "naval_deployments": [
     {
@@ -897,7 +897,7 @@
     "conflict_articles": 7,
     "exercise_articles": 1,
     "total_articles": 50,
-    "computed_at": "2026-10-02T07:36:16.827677+00:00",
+    "computed_at": "2026-10-02T14:12:08.879844+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] HD HHI Launches Third KDX-III Batch-II Destroyer for ROK Navy",
@@ -915,7 +915,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-10-02T07:36:16.827723+00:00",
+    "last_successful_update": "2026-10-02T14:12:08.879892+00:00",
     "article_count": 50,
     "categorized_count": 19,
     "freshest_source": "Naval News",
