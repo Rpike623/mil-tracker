@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-10-03T20:15:55Z",
-  "version": 2986,
+  "generated_utc": "2026-10-03T23:24:21Z",
+  "version": 2987,
   "breaking_alert": "Task & Purpose: Navy sending aircraft carrier to Middle East with extra food and supplies",
   "naval_deployments": [
     {
@@ -648,6 +648,15 @@
       ]
     },
     {
+      "title": "Pentagon increases combat pay as war with Iran continues",
+      "link": "https://taskandpurpose.com/news/pentagon-combat-pay-raise-iran-war/",
+      "published": "Sat, 03 Oct 2026 17:27:55 -0400",
+      "source": "Task & Purpose",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "HD HHI Launches Third KDX-III Batch-II Destroyer for ROK Navy",
       "link": "https://www.navalnews.com/naval-news/2026/10/hd-hhi-launches-third-kdx-iii-batch-ii-destroyer-for-rok-navy/",
       "published": "Thu, 01 Oct 2026 08:21:39 +0000",
@@ -670,15 +679,6 @@
       "link": "https://www.navalnews.com/naval-news/2026/10/naval-group-begins-production-of-swedens-first-fdi-frigate-just-one-month-after-contract-signing/",
       "published": "Thu, 01 Oct 2026 17:48:34 +0000",
       "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "3 Navy Ships Decommissioned, Cruiser USS Robert Smalls Makes Final Homeport Change",
-      "link": "https://news.usni.org/2026/10/01/3-navy-ships-decommissioned-cruiser-uss-robert-smalls-makes-final-homeport-change",
-      "published": "Thu, 01 Oct 2026 18:48:40 +0000",
-      "source": "USNI News",
       "categories": [
         "deployment"
       ]
@@ -893,11 +893,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 10,
+    "deployment_articles": 11,
     "conflict_articles": 5,
     "exercise_articles": 1,
     "total_articles": 50,
-    "computed_at": "2026-10-03T20:15:45.242831+00:00",
+    "computed_at": "2026-10-03T23:24:12.990756+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Task & Purpose] Navy sending aircraft carrier to Middle East with extra food and supplies",
@@ -915,9 +915,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-10-03T20:15:45.242865+00:00",
+    "last_successful_update": "2026-10-03T23:24:12.990795+00:00",
     "article_count": 50,
-    "categorized_count": 16,
+    "categorized_count": 17,
     "freshest_source": "Task & Purpose",
     "freshest_title": "Navy sending aircraft carrier to Middle East with extra food and supplies",
     "freshest_published": "Fri, 02 Oct 2026 13:19:04 -0400"
