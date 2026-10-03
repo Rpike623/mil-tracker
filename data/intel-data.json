@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-10-03T13:59:20Z",
-  "version": 2984,
+  "generated_utc": "2026-10-03T17:45:30Z",
+  "version": 2985,
   "breaking_alert": "Task & Purpose: Navy sending aircraft carrier to Middle East with extra food and supplies",
   "naval_deployments": [
     {
@@ -893,11 +893,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 11,
+    "deployment_articles": 10,
     "conflict_articles": 5,
     "exercise_articles": 1,
     "total_articles": 50,
-    "computed_at": "2026-10-03T13:59:16.303171+00:00",
+    "computed_at": "2026-10-03T17:45:22.460772+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Task & Purpose] Navy sending aircraft carrier to Middle East with extra food and supplies",
@@ -915,9 +915,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-10-03T13:59:16.303206+00:00",
+    "last_successful_update": "2026-10-03T17:45:22.460812+00:00",
     "article_count": 50,
-    "categorized_count": 17,
+    "categorized_count": 16,
     "freshest_source": "Task & Purpose",
     "freshest_title": "Navy sending aircraft carrier to Middle East with extra food and supplies",
     "freshest_published": "Fri, 02 Oct 2026 13:19:04 -0400"
