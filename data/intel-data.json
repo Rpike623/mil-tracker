@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-10-04T03:00:10Z",
-  "version": 2988,
+  "generated_utc": "2026-10-04T09:24:57Z",
+  "version": 2989,
   "breaking_alert": "Task & Purpose: Navy sending aircraft carrier to Middle East with extra food and supplies",
   "naval_deployments": [
     {
@@ -657,9 +657,9 @@
       ]
     },
     {
-      "title": "HD HHI Launches Third KDX-III Batch-II Destroyer for ROK Navy",
-      "link": "https://www.navalnews.com/naval-news/2026/10/hd-hhi-launches-third-kdx-iii-batch-ii-destroyer-for-rok-navy/",
-      "published": "Thu, 01 Oct 2026 08:21:39 +0000",
+      "title": "U.S. Navy Commissions Flight III Destroyer USS Ted Stevens (DDG 128) in Alaska",
+      "link": "https://www.navalnews.com/naval-news/2026/10/u-s-navy-commissions-flight-iii-destroyer-uss-ted-stevens-ddg-128-in-alaska/",
+      "published": "Sun, 04 Oct 2026 07:35:56 +0000",
       "source": "Naval News",
       "categories": [
         "deployment"
@@ -897,7 +897,7 @@
     "conflict_articles": 5,
     "exercise_articles": 1,
     "total_articles": 50,
-    "computed_at": "2026-10-04T03:00:07.387194+00:00",
+    "computed_at": "2026-10-04T09:24:35.389206+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Task & Purpose] Navy sending aircraft carrier to Middle East with extra food and supplies",
@@ -915,7 +915,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-10-04T03:00:07.387244+00:00",
+    "last_successful_update": "2026-10-04T09:24:35.389242+00:00",
     "article_count": 50,
     "categorized_count": 17,
     "freshest_source": "Task & Purpose",
