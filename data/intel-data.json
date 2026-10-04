@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-10-04T18:50:52Z",
-  "version": 2991,
+  "generated_utc": "2026-10-04T22:01:51Z",
+  "version": 2992,
   "breaking_alert": "Task & Purpose: Navy sending aircraft carrier to Middle East with extra food and supplies",
   "naval_deployments": [
     {
@@ -675,12 +675,13 @@
       ]
     },
     {
-      "title": "Fincantieri Lays Keel of Second U212NFS Submarine",
-      "link": "https://www.navalnews.com/naval-news/2026/10/fincantieri-lays-keel-of-second-u212nfs-submarine/",
-      "published": "Thu, 01 Oct 2026 13:48:57 +0000",
-      "source": "Naval News",
+      "title": "Yemeni government launches offensive to seize all areas from Iran-backed Houthis",
+      "link": "https://www.defensenews.com/global/mideast-africa/2026/10/04/yemeni-government-launches-offensive-to-seize-all-areas-from-iran-backed-houthis/",
+      "published": "Sun, 04 Oct 2026 19:50:12 +0000",
+      "source": "Defense News",
       "categories": [
-        "deployment"
+        "deployment",
+        "conflict"
       ]
     }
   ],
@@ -845,11 +846,12 @@
       ]
     },
     {
-      "title": "Taiwan takes a page from Ukraine’s playbook in steeling society for an invasion",
-      "link": "https://www.defensenews.com/global/asia-pacific/2026/10/01/taiwan-takes-a-page-from-ukraines-playbook-in-steeling-society-for-an-invasion/",
-      "published": "Thu, 01 Oct 2026 14:13:06 +0000",
+      "title": "Yemeni government launches offensive to seize all areas from Iran-backed Houthis",
+      "link": "https://www.defensenews.com/global/mideast-africa/2026/10/04/yemeni-government-launches-offensive-to-seize-all-areas-from-iran-backed-houthis/",
+      "published": "Sun, 04 Oct 2026 19:50:12 +0000",
       "source": "Defense News",
       "categories": [
+        "deployment",
         "conflict"
       ]
     },
@@ -893,11 +895,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 12,
+    "deployment_articles": 13,
     "conflict_articles": 5,
     "exercise_articles": 1,
     "total_articles": 50,
-    "computed_at": "2026-10-04T18:50:47.233555+00:00",
+    "computed_at": "2026-10-04T22:01:46.603744+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Task & Purpose] Navy sending aircraft carrier to Middle East with extra food and supplies",
@@ -915,7 +917,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-10-04T18:50:47.233588+00:00",
+    "last_successful_update": "2026-10-04T22:01:46.603781+00:00",
     "article_count": 50,
     "categorized_count": 18,
     "freshest_source": "Task & Purpose",
