@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-10-04T09:24:57Z",
-  "version": 2989,
+  "generated_utc": "2026-10-04T15:00:37Z",
+  "version": 2990,
   "breaking_alert": "Task & Purpose: Navy sending aircraft carrier to Middle East with extra food and supplies",
   "naval_deployments": [
     {
@@ -666,18 +666,18 @@
       ]
     },
     {
-      "title": "Fincantieri Lays Keel of Second U212NFS Submarine",
-      "link": "https://www.navalnews.com/naval-news/2026/10/fincantieri-lays-keel-of-second-u212nfs-submarine/",
-      "published": "Thu, 01 Oct 2026 13:48:57 +0000",
-      "source": "Naval News",
+      "title": "USS George HW Bush stops in Thailand after leaving the Middle East",
+      "link": "https://taskandpurpose.com/news/uss-george-hw-bush-thailand-iran/",
+      "published": "Sun, 04 Oct 2026 07:36:00 -0400",
+      "source": "Task & Purpose",
       "categories": [
         "deployment"
       ]
     },
     {
-      "title": "Naval Group Begins Production of Sweden’s First FDI Frigate Just One Month After Contract Signing",
-      "link": "https://www.navalnews.com/naval-news/2026/10/naval-group-begins-production-of-swedens-first-fdi-frigate-just-one-month-after-contract-signing/",
-      "published": "Thu, 01 Oct 2026 17:48:34 +0000",
+      "title": "Fincantieri Lays Keel of Second U212NFS Submarine",
+      "link": "https://www.navalnews.com/naval-news/2026/10/fincantieri-lays-keel-of-second-u212nfs-submarine/",
+      "published": "Thu, 01 Oct 2026 13:48:57 +0000",
       "source": "Naval News",
       "categories": [
         "deployment"
@@ -893,11 +893,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 11,
+    "deployment_articles": 12,
     "conflict_articles": 5,
     "exercise_articles": 1,
     "total_articles": 50,
-    "computed_at": "2026-10-04T09:24:35.389206+00:00",
+    "computed_at": "2026-10-04T15:00:33.970302+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Task & Purpose] Navy sending aircraft carrier to Middle East with extra food and supplies",
@@ -915,9 +915,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-10-04T09:24:35.389242+00:00",
+    "last_successful_update": "2026-10-04T15:00:33.970339+00:00",
     "article_count": 50,
-    "categorized_count": 17,
+    "categorized_count": 18,
     "freshest_source": "Task & Purpose",
     "freshest_title": "Navy sending aircraft carrier to Middle East with extra food and supplies",
     "freshest_published": "Fri, 02 Oct 2026 13:19:04 -0400"
