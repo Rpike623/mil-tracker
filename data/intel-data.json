@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-10-05T01:20:25Z",
-  "version": 2993,
+  "generated_utc": "2026-10-05T07:46:43Z",
+  "version": 2994,
   "breaking_alert": "Task & Purpose: Navy sending aircraft carrier to Middle East with extra food and supplies",
   "naval_deployments": [
     {
@@ -639,6 +639,16 @@
       ]
     },
     {
+      "title": "French Navy and Naval Group test Rampart CIWS at sea during WILDFIRE Exercise",
+      "link": "https://www.navalnews.com/naval-news/2026/10/french-navy-and-naval-group-test-rampart-ciws-at-sea-during-wildfire-exercise/",
+      "published": "Mon, 05 Oct 2026 05:29:00 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment",
+        "exercise"
+      ]
+    },
+    {
       "title": "Carrier USS Dwight D. Eisenhower to Return to Port After Growler Mishap",
       "link": "https://news.usni.org/2026/10/03/carrier-uss-dwight-d-eisenhower-to-return-to-port-after-growler-mishap",
       "published": "Sat, 03 Oct 2026 12:31:58 +0000",
@@ -672,16 +682,6 @@
       "source": "Task & Purpose",
       "categories": [
         "deployment"
-      ]
-    },
-    {
-      "title": "Yemeni government launches offensive to seize all areas from Iran-backed Houthis",
-      "link": "https://www.defensenews.com/global/mideast-africa/2026/10/04/yemeni-government-launches-offensive-to-seize-all-areas-from-iran-backed-houthis/",
-      "published": "Sun, 04 Oct 2026 19:50:12 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment",
-        "conflict"
       ]
     }
   ],
@@ -885,6 +885,16 @@
   ],
   "_exercise_news_refs": [
     {
+      "title": "French Navy and Naval Group test Rampart CIWS at sea during WILDFIRE Exercise",
+      "link": "https://www.navalnews.com/naval-news/2026/10/french-navy-and-naval-group-test-rampart-ciws-at-sea-during-wildfire-exercise/",
+      "published": "Mon, 05 Oct 2026 05:29:00 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment",
+        "exercise"
+      ]
+    },
+    {
       "title": "VIDEO: Former U.S. Frigate Sunk in Exercise with U.S., Royal Navies",
       "link": "https://news.usni.org/2026/09/30/video-former-u-s-frigate-sunk-in-exercise-with-u-s-royal-navies",
       "published": "Wed, 30 Sep 2026 17:27:13 +0000",
@@ -895,11 +905,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 13,
+    "deployment_articles": 14,
     "conflict_articles": 5,
-    "exercise_articles": 1,
+    "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-10-05T01:20:22.646880+00:00",
+    "computed_at": "2026-10-05T07:46:39.737509+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Task & Purpose] Navy sending aircraft carrier to Middle East with extra food and supplies",
@@ -917,9 +927,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-10-05T01:20:22.646923+00:00",
+    "last_successful_update": "2026-10-05T07:46:39.737551+00:00",
     "article_count": 50,
-    "categorized_count": 18,
+    "categorized_count": 19,
     "freshest_source": "Task & Purpose",
     "freshest_title": "Navy sending aircraft carrier to Middle East with extra food and supplies",
     "freshest_published": "Fri, 02 Oct 2026 13:19:04 -0400"
