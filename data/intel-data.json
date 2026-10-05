@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-10-05T16:28:34Z",
-  "version": 2995,
-  "breaking_alert": "Task & Purpose: Navy sending aircraft carrier to Middle East with extra food and supplies",
+  "generated_utc": "2026-10-05T22:57:19Z",
+  "version": 2996,
+  "breaking_alert": "Defense News: Saudis plan assault on Houthis to break Red Sea chokehold",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -594,28 +594,10 @@
   ],
   "_naval_news_refs": [
     {
-      "title": "Navy sending aircraft carrier to Middle East with extra food and supplies",
-      "link": "https://taskandpurpose.com/news/navy-roosevelt-long-deployment-supplies/",
-      "published": "Fri, 02 Oct 2026 13:19:04 -0400",
-      "source": "Task & Purpose",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Saudis plan assault on Houthis to break Red Sea chokehold",
       "link": "https://www.defensenews.com/global/mideast-africa/2026/10/02/saudis-plan-assault-on-houthis-to-break-red-sea-chokehold/",
       "published": "Fri, 02 Oct 2026 19:00:24 +0000",
       "source": "Defense News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Saudis plan assault on Houthis to break Red Sea chokehold",
-      "link": "https://www.militarytimes.com/global/mideast-africa/2026/10/02/saudis-plan-assault-on-houthis-to-break-red-sea-chokehold/",
-      "published": "Fri, 02 Oct 2026 19:00:24 +0000",
-      "source": "Military Times",
       "categories": [
         "deployment"
       ]
@@ -634,6 +616,24 @@
       "link": "https://www.militarytimes.com/news/your-military/2026/10/05/aboard-the-uss-george-washington-young-sailors-adjust-to-war-with-iran/",
       "published": "Mon, 05 Oct 2026 15:08:03 +0000",
       "source": "Military Times",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "USNI News Fleet and Marine Tracker: Oct. 5, 2026",
+      "link": "https://news.usni.org/2026/10/05/usni-news-fleet-and-marine-tracker-oct-5-2026",
+      "published": "Mon, 05 Oct 2026 18:13:05 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Carrier USS George H.W. Bush Makes Port Call in Thailand",
+      "link": "https://news.usni.org/2026/10/05/carrier-uss-george-h-w-bush-makes-port-call-in-thailand",
+      "published": "Mon, 05 Oct 2026 19:43:20 +0000",
+      "source": "USNI News",
       "categories": [
         "deployment"
       ]
@@ -855,21 +855,30 @@
       ]
     },
     {
+      "title": "Soldier awarded Purple Heart from drone attack in first days of war",
+      "link": "https://taskandpurpose.com/news/soldier-purple-heart-epic-fury/",
+      "published": "Mon, 05 Oct 2026 13:35:39 -0400",
+      "source": "Task & Purpose",
+      "categories": [
+        "conflict"
+      ]
+    },
+    {
+      "title": "4 Killed in U.S. Strike on Alleged Drug Boat in Caribbean",
+      "link": "https://news.usni.org/2026/10/05/4-killed-in-u-s-strike-on-alleged-drug-boat-in-caribbean",
+      "published": "Mon, 05 Oct 2026 20:07:55 +0000",
+      "source": "USNI News",
+      "categories": [
+        "conflict"
+      ]
+    },
+    {
       "title": "Yemeni government launches offensive to seize all areas from Iran-backed Houthis",
       "link": "https://www.defensenews.com/global/mideast-africa/2026/10/04/yemeni-government-launches-offensive-to-seize-all-areas-from-iran-backed-houthis/",
       "published": "Sun, 04 Oct 2026 19:50:12 +0000",
       "source": "Defense News",
       "categories": [
         "deployment",
-        "conflict"
-      ]
-    },
-    {
-      "title": "U.S. Army Picks 5 to Prototype Long-range Maritime Strike Missile",
-      "link": "https://news.usni.org/2026/10/01/u-s-army-picks-5-firms-to-prototype-long-range-maritime-strike-missile",
-      "published": "Thu, 01 Oct 2026 17:44:52 +0000",
-      "source": "USNI News",
-      "categories": [
         "conflict"
       ]
     }
@@ -892,30 +901,21 @@
       "categories": [
         "exercise"
       ]
-    },
-    {
-      "title": "VIDEO: Former U.S. Frigate Sunk in Exercise with U.S., Royal Navies",
-      "link": "https://news.usni.org/2026/09/30/video-former-u-s-frigate-sunk-in-exercise-with-u-s-royal-navies",
-      "published": "Wed, 30 Sep 2026 17:27:13 +0000",
-      "source": "USNI News",
-      "categories": [
-        "exercise"
-      ]
     }
   ],
   "_threat_indicators": {
     "deployment_articles": 10,
-    "conflict_articles": 4,
-    "exercise_articles": 3,
+    "conflict_articles": 5,
+    "exercise_articles": 2,
     "total_articles": 40,
-    "computed_at": "2026-10-05T16:28:28.805042+00:00",
+    "computed_at": "2026-10-05T22:57:12.372650+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
-      "[Task & Purpose] Navy sending aircraft carrier to Middle East with extra food and supplies",
       "[Defense News] Saudis plan assault on Houthis to break Red Sea chokehold",
-      "[Military Times] Saudis plan assault on Houthis to break Red Sea chokehold",
       "[Military Times] Naval Special Warfare Command failed to identify, treat TBI in service members: Watchdog",
-      "[USNI News] Navy Contracts RTX for $24.4B Standard Missile-6 Deal"
+      "[USNI News] Navy Contracts RTX for $24.4B Standard Missile-6 Deal",
+      "[Defense News] Missiles, satellites and warplanes — Ukraine, Europe advance key arms projects",
+      "[Defense News] US Marine Corps anti-ship weaponry to see exercise action on remote Japan island near Taiwan"
     ]
   },
   "ground_intel": {
@@ -926,12 +926,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-10-05T16:28:28.805082+00:00",
+    "last_successful_update": "2026-10-05T22:57:12.372687+00:00",
     "article_count": 40,
     "categorized_count": 16,
-    "freshest_source": "Task & Purpose",
-    "freshest_title": "Navy sending aircraft carrier to Middle East with extra food and supplies",
-    "freshest_published": "Fri, 02 Oct 2026 13:19:04 -0400"
+    "freshest_source": "Defense News",
+    "freshest_title": "Saudis plan assault on Houthis to break Red Sea chokehold",
+    "freshest_published": "Fri, 02 Oct 2026 19:00:24 +0000"
   },
   "_firms_hotspots": []
 }
