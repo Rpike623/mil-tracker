@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-10-06T02:37:00Z",
-  "version": 2997,
+  "generated_utc": "2026-10-06T09:30:09Z",
+  "version": 2998,
   "breaking_alert": "Defense News: Saudis plan assault on Houthis to break Red Sea chokehold",
   "naval_deployments": [
     {
@@ -913,11 +913,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 12,
+    "deployment_articles": 13,
     "conflict_articles": 6,
     "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-10-06T02:36:55.810057+00:00",
+    "computed_at": "2026-10-06T09:29:59.442705+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Defense News] Saudis plan assault on Houthis to break Red Sea chokehold",
@@ -935,9 +935,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-10-06T02:36:55.810108+00:00",
+    "last_successful_update": "2026-10-06T09:29:59.442754+00:00",
     "article_count": 50,
-    "categorized_count": 19,
+    "categorized_count": 20,
     "freshest_source": "Defense News",
     "freshest_title": "Saudis plan assault on Houthis to break Red Sea chokehold",
     "freshest_published": "Fri, 02 Oct 2026 19:00:24 +0000"
