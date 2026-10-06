@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-10-06T16:19:05Z",
-  "version": 2999,
+  "generated_utc": "2026-10-06T21:19:18Z",
+  "version": 3000,
   "breaking_alert": "USNI News: Navy Contracts RTX for $24.4B Standard Missile-6 Deal",
   "naval_deployments": [
     {
@@ -894,15 +894,6 @@
       ]
     },
     {
-      "title": "US Marine Corps anti-ship weaponry to see exercise action on remote Japan island near Taiwan",
-      "link": "https://www.defensenews.com/global/asia-pacific/2026/10/05/us-marine-corps-anti-ship-weaponry-to-see-exercise-action-on-remote-japan-island-near-taiwan/",
-      "published": "Mon, 05 Oct 2026 12:24:45 +0000",
-      "source": "Defense News",
-      "categories": [
-        "exercise"
-      ]
-    },
-    {
       "title": "Report to Congress on U.S. Aircraft Combat Losses in Operation Epic Fury",
       "link": "https://news.usni.org/2026/10/06/report-to-congress-on-u-s-aircraft-combat-losses-in-operation-epic-fury-2",
       "published": "Tue, 06 Oct 2026 13:45:41 +0000",
@@ -910,21 +901,30 @@
       "categories": [
         "exercise"
       ]
+    },
+    {
+      "title": "Okinawa Service Members Undergo 48-hour Operational Pause Following Marine Homicide Arrest",
+      "link": "https://news.usni.org/2026/10/06/okinawa-service-members-undergo-48-hour-operational-pause-following-marine-homicide-arrest",
+      "published": "Tue, 06 Oct 2026 19:42:15 +0000",
+      "source": "USNI News",
+      "categories": [
+        "exercise"
+      ]
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 13,
+    "deployment_articles": 16,
     "conflict_articles": 6,
     "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-10-06T16:19:02.521535+00:00",
+    "computed_at": "2026-10-06T21:19:12.937190+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[USNI News] Navy Contracts RTX for $24.4B Standard Missile-6 Deal",
       "[Naval News] French Navy and Naval Group test Rampart CIWS at sea during WILDFIRE Exercise",
-      "[Defense News] US Marine Corps anti-ship weaponry to see exercise action on remote Japan island near Taiwan",
       "[Task & Purpose] Soldier awarded Purple Heart from drone attack in first days of war",
-      "[Naval News] U.S. Navy Completes Successful Test Flight of Blackbeard Long-range Hypersonic Strike Missile"
+      "[Naval News] U.S. Navy Completes Successful Test Flight of Blackbeard Long-range Hypersonic Strike Missile",
+      "[USNI News] USNI News Fleet and Marine Tracker: Oct. 5, 2026"
     ]
   },
   "ground_intel": {
@@ -935,9 +935,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-10-06T16:19:02.521592+00:00",
+    "last_successful_update": "2026-10-06T21:19:12.937223+00:00",
     "article_count": 50,
-    "categorized_count": 20,
+    "categorized_count": 23,
     "freshest_source": "USNI News",
     "freshest_title": "Navy Contracts RTX for $24.4B Standard Missile-6 Deal",
     "freshest_published": "Fri, 02 Oct 2026 20:59:48 +0000"
