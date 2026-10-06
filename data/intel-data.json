@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-10-05T22:57:19Z",
-  "version": 2996,
+  "generated_utc": "2026-10-06T02:37:00Z",
+  "version": 2997,
   "breaking_alert": "Defense News: Saudis plan assault on Houthis to break Red Sea chokehold",
   "naval_deployments": [
     {
@@ -603,12 +603,13 @@
       ]
     },
     {
-      "title": "Naval Special Warfare Command failed to identify, treat TBI in service members: Watchdog",
-      "link": "https://www.militarytimes.com/news/your-navy/2026/10/02/naval-special-warfare-command-failed-to-identify-treat-tbi-in-service-members-watchdog/",
-      "published": "Fri, 02 Oct 2026 19:52:28 +0000",
-      "source": "Military Times",
+      "title": "French Navy and Naval Group test Rampart CIWS at sea during WILDFIRE Exercise",
+      "link": "https://www.navalnews.com/naval-news/2026/10/french-navy-and-naval-group-test-rampart-ciws-at-sea-during-wildfire-exercise/",
+      "published": "Mon, 05 Oct 2026 05:29:00 +0000",
+      "source": "Naval News",
       "categories": [
-        "deployment"
+        "deployment",
+        "exercise"
       ]
     },
     {
@@ -625,6 +626,15 @@
       "link": "https://news.usni.org/2026/10/05/usni-news-fleet-and-marine-tracker-oct-5-2026",
       "published": "Mon, 05 Oct 2026 18:13:05 +0000",
       "source": "USNI News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Army grounds fleet of AH-64Es for second time in three months",
+      "link": "https://taskandpurpose.com/news/army-grounds-ah-64e-helicopters/",
+      "published": "Mon, 05 Oct 2026 19:11:06 -0400",
+      "source": "Task & Purpose",
       "categories": [
         "deployment"
       ]
@@ -657,29 +667,19 @@
       ]
     },
     {
-      "title": "USS George HW Bush stops in Thailand after leaving the Middle East",
-      "link": "https://taskandpurpose.com/news/uss-george-hw-bush-thailand-iran/",
-      "published": "Sun, 04 Oct 2026 07:36:00 -0400",
-      "source": "Task & Purpose",
+      "title": "U.S. Navy Commissions Flight III Destroyer USS Ted Stevens (DDG 128) in Alaska",
+      "link": "https://www.navalnews.com/naval-news/2026/10/u-s-navy-commissions-flight-iii-destroyer-uss-ted-stevens-ddg-128-in-alaska/",
+      "published": "Sun, 04 Oct 2026 07:35:56 +0000",
+      "source": "Naval News",
       "categories": [
         "deployment"
       ]
     },
     {
-      "title": "Yemeni government launches offensive to seize all areas from Iran-backed Houthis",
-      "link": "https://www.defensenews.com/global/mideast-africa/2026/10/04/yemeni-government-launches-offensive-to-seize-all-areas-from-iran-backed-houthis/",
-      "published": "Sun, 04 Oct 2026 19:50:12 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
-      "title": "3 Navy Ships Decommissioned, Cruiser USS Robert Smalls Makes Final Homeport Change",
-      "link": "https://news.usni.org/2026/10/01/3-navy-ships-decommissioned-cruiser-uss-robert-smalls-makes-final-homeport-change",
-      "published": "Thu, 01 Oct 2026 18:48:40 +0000",
-      "source": "USNI News",
+      "title": "USS George HW Bush stops in Thailand after leaving the Middle East",
+      "link": "https://taskandpurpose.com/news/uss-george-hw-bush-thailand-iran/",
+      "published": "Sun, 04 Oct 2026 07:36:00 -0400",
+      "source": "Task & Purpose",
       "categories": [
         "deployment"
       ]
@@ -864,6 +864,15 @@
       ]
     },
     {
+      "title": "U.S. Navy Completes Successful Test Flight of Blackbeard Long-range Hypersonic Strike Missile",
+      "link": "https://www.navalnews.com/naval-news/2026/10/u-s-navy-completes-successful-test-flight-of-blackbeard-long-range-hypersonic-strike-missile/",
+      "published": "Mon, 05 Oct 2026 15:00:00 +0000",
+      "source": "Naval News",
+      "categories": [
+        "conflict"
+      ]
+    },
+    {
       "title": "4 Killed in U.S. Strike on Alleged Drug Boat in Caribbean",
       "link": "https://news.usni.org/2026/10/05/4-killed-in-u-s-strike-on-alleged-drug-boat-in-caribbean",
       "published": "Mon, 05 Oct 2026 20:07:55 +0000",
@@ -871,19 +880,19 @@
       "categories": [
         "conflict"
       ]
-    },
-    {
-      "title": "Yemeni government launches offensive to seize all areas from Iran-backed Houthis",
-      "link": "https://www.defensenews.com/global/mideast-africa/2026/10/04/yemeni-government-launches-offensive-to-seize-all-areas-from-iran-backed-houthis/",
-      "published": "Sun, 04 Oct 2026 19:50:12 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
     }
   ],
   "_exercise_news_refs": [
+    {
+      "title": "French Navy and Naval Group test Rampart CIWS at sea during WILDFIRE Exercise",
+      "link": "https://www.navalnews.com/naval-news/2026/10/french-navy-and-naval-group-test-rampart-ciws-at-sea-during-wildfire-exercise/",
+      "published": "Mon, 05 Oct 2026 05:29:00 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment",
+        "exercise"
+      ]
+    },
     {
       "title": "US Marine Corps anti-ship weaponry to see exercise action on remote Japan island near Taiwan",
       "link": "https://www.defensenews.com/global/asia-pacific/2026/10/05/us-marine-corps-anti-ship-weaponry-to-see-exercise-action-on-remote-japan-island-near-taiwan/",
@@ -904,16 +913,16 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 10,
-    "conflict_articles": 5,
-    "exercise_articles": 2,
-    "total_articles": 40,
-    "computed_at": "2026-10-05T22:57:12.372650+00:00",
+    "deployment_articles": 12,
+    "conflict_articles": 6,
+    "exercise_articles": 3,
+    "total_articles": 50,
+    "computed_at": "2026-10-06T02:36:55.810057+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Defense News] Saudis plan assault on Houthis to break Red Sea chokehold",
-      "[Military Times] Naval Special Warfare Command failed to identify, treat TBI in service members: Watchdog",
       "[USNI News] Navy Contracts RTX for $24.4B Standard Missile-6 Deal",
+      "[Naval News] French Navy and Naval Group test Rampart CIWS at sea during WILDFIRE Exercise",
       "[Defense News] Missiles, satellites and warplanes — Ukraine, Europe advance key arms projects",
       "[Defense News] US Marine Corps anti-ship weaponry to see exercise action on remote Japan island near Taiwan"
     ]
@@ -926,9 +935,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-10-05T22:57:12.372687+00:00",
-    "article_count": 40,
-    "categorized_count": 16,
+    "last_successful_update": "2026-10-06T02:36:55.810108+00:00",
+    "article_count": 50,
+    "categorized_count": 19,
     "freshest_source": "Defense News",
     "freshest_title": "Saudis plan assault on Houthis to break Red Sea chokehold",
     "freshest_published": "Fri, 02 Oct 2026 19:00:24 +0000"
