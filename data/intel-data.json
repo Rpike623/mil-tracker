@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-10-07T07:47:05Z",
-  "version": 3002,
-  "breaking_alert": "USNI News: Navy Contracts RTX for $24.4B Standard Missile-6 Deal",
+  "generated_utc": "2026-10-07T14:48:07Z",
+  "version": 3003,
+  "breaking_alert": "Naval News: French Navy and Naval Group test Rampart CIWS at sea during WILDFIRE Exercise",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -837,15 +837,6 @@
   },
   "_conflict_news_refs": [
     {
-      "title": "Navy Contracts RTX for $24.4B Standard Missile-6 Deal",
-      "link": "https://news.usni.org/2026/10/02/navy-contracts-rtx-for-24-4b-standard-missile-6-deal",
-      "published": "Fri, 02 Oct 2026 20:59:48 +0000",
-      "source": "USNI News",
-      "categories": [
-        "conflict"
-      ]
-    },
-    {
       "title": "Soldier awarded Purple Heart from drone attack in first days of war",
       "link": "https://taskandpurpose.com/news/soldier-purple-heart-epic-fury/",
       "published": "Mon, 05 Oct 2026 13:35:39 -0400",
@@ -880,6 +871,16 @@
       "categories": [
         "conflict"
       ]
+    },
+    {
+      "title": "France fires upgraded nuclear-capable missile from submarine for first time",
+      "link": "https://www.defensenews.com/global/europe/2026/10/06/france-fires-upgraded-nuclear-capable-missile-from-submarine-for-first-time/",
+      "published": "Tue, 06 Oct 2026 16:08:47 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
     }
   ],
   "_exercise_news_refs": [
@@ -910,21 +911,30 @@
       "categories": [
         "exercise"
       ]
+    },
+    {
+      "title": "HD Hyundai Signs Strategic Teaming Agreement With Croatia’s Iskra Shipyard for Multirole Corvettes and Expanded Maritime Cooperation",
+      "link": "https://www.navalnews.com/naval-news/2026/10/hd-hyundai-signs-strategic-teaming-agreement-with-croatias-iskra-shipyard-for-multirole-corvettes-and-expanded-maritime-cooperation/",
+      "published": "Wed, 07 Oct 2026 10:20:09 +0000",
+      "source": "Naval News",
+      "categories": [
+        "exercise"
+      ]
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 16,
-    "conflict_articles": 6,
-    "exercise_articles": 3,
+    "deployment_articles": 15,
+    "conflict_articles": 5,
+    "exercise_articles": 4,
     "total_articles": 50,
-    "computed_at": "2026-10-07T07:47:00.501295+00:00",
+    "computed_at": "2026-10-07T14:48:04.267174+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
-      "[USNI News] Navy Contracts RTX for $24.4B Standard Missile-6 Deal",
       "[Naval News] French Navy and Naval Group test Rampart CIWS at sea during WILDFIRE Exercise",
       "[Task & Purpose] Soldier awarded Purple Heart from drone attack in first days of war",
       "[Naval News] U.S. Navy Completes Successful Test Flight of Blackbeard Long-range Hypersonic Strike Missile",
-      "[USNI News] USNI News Fleet and Marine Tracker: Oct. 5, 2026"
+      "[USNI News] USNI News Fleet and Marine Tracker: Oct. 5, 2026",
+      "[Task & Purpose] Army grounds fleet of AH-64Es for second time in three months"
     ]
   },
   "ground_intel": {
@@ -935,12 +945,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-10-07T07:47:00.501340+00:00",
+    "last_successful_update": "2026-10-07T14:48:04.267218+00:00",
     "article_count": 50,
-    "categorized_count": 23,
-    "freshest_source": "USNI News",
-    "freshest_title": "Navy Contracts RTX for $24.4B Standard Missile-6 Deal",
-    "freshest_published": "Fri, 02 Oct 2026 20:59:48 +0000"
+    "categorized_count": 22,
+    "freshest_source": "Naval News",
+    "freshest_title": "French Navy and Naval Group test Rampart CIWS at sea during WILDFIRE Exercise",
+    "freshest_published": "Mon, 05 Oct 2026 05:29:00 +0000"
   },
   "_firms_hotspots": []
 }
