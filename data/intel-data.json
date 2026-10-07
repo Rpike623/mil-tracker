@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-10-07T14:48:07Z",
-  "version": 3003,
+  "generated_utc": "2026-10-07T20:14:34Z",
+  "version": 3004,
   "breaking_alert": "Naval News: French Navy and Naval Group test Rampart CIWS at sea during WILDFIRE Exercise",
   "naval_deployments": [
     {
@@ -604,15 +604,6 @@
       ]
     },
     {
-      "title": "USNI News Fleet and Marine Tracker: Oct. 5, 2026",
-      "link": "https://news.usni.org/2026/10/05/usni-news-fleet-and-marine-tracker-oct-5-2026",
-      "published": "Mon, 05 Oct 2026 18:13:05 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Army grounds fleet of AH-64Es for second time in three months",
       "link": "https://taskandpurpose.com/news/army-grounds-ah-64e-helicopters/",
       "published": "Mon, 05 Oct 2026 19:11:06 -0400",
@@ -631,28 +622,10 @@
       ]
     },
     {
-      "title": "Carrier USS Dwight D. Eisenhower to Return to Port After Growler Mishap",
-      "link": "https://news.usni.org/2026/10/03/carrier-uss-dwight-d-eisenhower-to-return-to-port-after-growler-mishap",
-      "published": "Sat, 03 Oct 2026 12:31:58 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "U.S. Navy Commissions Flight III Destroyer USS Ted Stevens (DDG 128) in Alaska",
       "link": "https://www.navalnews.com/naval-news/2026/10/u-s-navy-commissions-flight-iii-destroyer-uss-ted-stevens-ddg-128-in-alaska/",
       "published": "Sun, 04 Oct 2026 07:35:56 +0000",
       "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "USS George HW Bush stops in Thailand after leaving the Middle East",
-      "link": "https://taskandpurpose.com/news/uss-george-hw-bush-thailand-iran/",
-      "published": "Sun, 04 Oct 2026 07:36:00 -0400",
-      "source": "Task & Purpose",
       "categories": [
         "deployment"
       ]
@@ -680,6 +653,34 @@
       "link": "https://www.defensenews.com/industry/techwatch/2026/10/06/anduril-us-navy-invest-66-billion-to-boost-submarine-parts-production/",
       "published": "Tue, 06 Oct 2026 14:15:29 +0000",
       "source": "Defense News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "France fires upgraded nuclear-capable missile from submarine for first time",
+      "link": "https://www.defensenews.com/global/europe/2026/10/06/france-fires-upgraded-nuclear-capable-missile-from-submarine-for-first-time/",
+      "published": "Tue, 06 Oct 2026 16:08:47 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
+    },
+    {
+      "title": "USS Abraham Lincoln to return home after 321 days",
+      "link": "https://www.militarytimes.com/news/your-navy/2026/10/06/uss-abraham-lincoln-to-return-home-after-320-days/",
+      "published": "Tue, 06 Oct 2026 19:56:36 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Anduril to Build New Submarine Component Facility",
+      "link": "https://news.usni.org/2026/10/06/anduril-to-build-submarine-component-facility",
+      "published": "Tue, 06 Oct 2026 20:38:06 +0000",
+      "source": "USNI News",
       "categories": [
         "deployment"
       ]
@@ -837,15 +838,6 @@
   },
   "_conflict_news_refs": [
     {
-      "title": "Soldier awarded Purple Heart from drone attack in first days of war",
-      "link": "https://taskandpurpose.com/news/soldier-purple-heart-epic-fury/",
-      "published": "Mon, 05 Oct 2026 13:35:39 -0400",
-      "source": "Task & Purpose",
-      "categories": [
-        "conflict"
-      ]
-    },
-    {
       "title": "U.S. Navy Completes Successful Test Flight of Blackbeard Long-range Hypersonic Strike Missile",
       "link": "https://www.navalnews.com/naval-news/2026/10/u-s-navy-completes-successful-test-flight-of-blackbeard-long-range-hypersonic-strike-missile/",
       "published": "Mon, 05 Oct 2026 15:00:00 +0000",
@@ -879,6 +871,15 @@
       "source": "Defense News",
       "categories": [
         "deployment",
+        "conflict"
+      ]
+    },
+    {
+      "title": "Super Hornets Sortie with Blackbeard Missiles in Latest Test",
+      "link": "https://news.usni.org/2026/10/07/super-hornets-sortie-with-blackbeard-missiles-in-latest-test",
+      "published": "Wed, 07 Oct 2026 16:20:10 +0000",
+      "source": "USNI News",
+      "categories": [
         "conflict"
       ]
     }
@@ -923,18 +924,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 15,
+    "deployment_articles": 14,
     "conflict_articles": 5,
     "exercise_articles": 4,
     "total_articles": 50,
-    "computed_at": "2026-10-07T14:48:04.267174+00:00",
+    "computed_at": "2026-10-07T20:14:31.000071+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] French Navy and Naval Group test Rampart CIWS at sea during WILDFIRE Exercise",
-      "[Task & Purpose] Soldier awarded Purple Heart from drone attack in first days of war",
       "[Naval News] U.S. Navy Completes Successful Test Flight of Blackbeard Long-range Hypersonic Strike Missile",
-      "[USNI News] USNI News Fleet and Marine Tracker: Oct. 5, 2026",
-      "[Task & Purpose] Army grounds fleet of AH-64Es for second time in three months"
+      "[Task & Purpose] Army grounds fleet of AH-64Es for second time in three months",
+      "[USNI News] Carrier USS George H.W. Bush Makes Port Call in Thailand",
+      "[USNI News] 4 Killed in U.S. Strike on Alleged Drug Boat in Caribbean"
     ]
   },
   "ground_intel": {
@@ -945,9 +946,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-10-07T14:48:04.267218+00:00",
+    "last_successful_update": "2026-10-07T20:14:31.000104+00:00",
     "article_count": 50,
-    "categorized_count": 22,
+    "categorized_count": 21,
     "freshest_source": "Naval News",
     "freshest_title": "French Navy and Naval Group test Rampart CIWS at sea during WILDFIRE Exercise",
     "freshest_published": "Mon, 05 Oct 2026 05:29:00 +0000"
