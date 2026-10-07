@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-10-06T21:19:18Z",
-  "version": 3000,
+  "generated_utc": "2026-10-07T01:04:00Z",
+  "version": 3001,
   "breaking_alert": "USNI News: Navy Contracts RTX for $24.4B Standard Missile-6 Deal",
   "naval_deployments": [
     {
@@ -640,15 +640,6 @@
       ]
     },
     {
-      "title": "Pentagon increases combat pay as war with Iran continues",
-      "link": "https://taskandpurpose.com/news/pentagon-combat-pay-raise-iran-war/",
-      "published": "Sat, 03 Oct 2026 17:27:55 -0400",
-      "source": "Task & Purpose",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "U.S. Navy Commissions Flight III Destroyer USS Ted Stevens (DDG 128) in Alaska",
       "link": "https://www.navalnews.com/naval-news/2026/10/u-s-navy-commissions-flight-iii-destroyer-uss-ted-stevens-ddg-128-in-alaska/",
       "published": "Sun, 04 Oct 2026 07:35:56 +0000",
@@ -680,6 +671,15 @@
       "link": "https://taskandpurpose.com/news/navy-fa18-sub-buster/",
       "published": "Tue, 06 Oct 2026 08:00:00 -0400",
       "source": "Task & Purpose",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Anduril, US Navy invest $6.6 billion to boost submarine parts production",
+      "link": "https://www.defensenews.com/industry/techwatch/2026/10/06/anduril-us-navy-invest-66-billion-to-boost-submarine-parts-production/",
+      "published": "Tue, 06 Oct 2026 14:15:29 +0000",
+      "source": "Defense News",
       "categories": [
         "deployment"
       ]
@@ -917,7 +917,7 @@
     "conflict_articles": 6,
     "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-10-06T21:19:12.937190+00:00",
+    "computed_at": "2026-10-07T01:03:56.158183+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[USNI News] Navy Contracts RTX for $24.4B Standard Missile-6 Deal",
@@ -935,7 +935,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-10-06T21:19:12.937223+00:00",
+    "last_successful_update": "2026-10-07T01:03:56.158228+00:00",
     "article_count": 50,
     "categorized_count": 23,
     "freshest_source": "USNI News",
