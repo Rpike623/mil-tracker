@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-10-07T01:04:00Z",
-  "version": 3001,
+  "generated_utc": "2026-10-07T07:47:05Z",
+  "version": 3002,
   "breaking_alert": "USNI News: Navy Contracts RTX for $24.4B Standard Missile-6 Deal",
   "naval_deployments": [
     {
@@ -917,7 +917,7 @@
     "conflict_articles": 6,
     "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-10-07T01:03:56.158183+00:00",
+    "computed_at": "2026-10-07T07:47:00.501295+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[USNI News] Navy Contracts RTX for $24.4B Standard Missile-6 Deal",
@@ -935,7 +935,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-10-07T01:03:56.158228+00:00",
+    "last_successful_update": "2026-10-07T07:47:00.501340+00:00",
     "article_count": 50,
     "categorized_count": 23,
     "freshest_source": "USNI News",
