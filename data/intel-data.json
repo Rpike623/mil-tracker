@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-10-08T06:44:09Z",
-  "version": 3006,
-  "breaking_alert": "Naval News: French Navy and Naval Group test Rampart CIWS at sea during WILDFIRE Exercise",
+  "generated_utc": "2026-10-08T14:06:43Z",
+  "version": 3007,
+  "breaking_alert": "Task & Purpose: Army grounds fleet of AH-64Es for second time in three months",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -594,16 +594,6 @@
   ],
   "_naval_news_refs": [
     {
-      "title": "French Navy and Naval Group test Rampart CIWS at sea during WILDFIRE Exercise",
-      "link": "https://www.navalnews.com/naval-news/2026/10/french-navy-and-naval-group-test-rampart-ciws-at-sea-during-wildfire-exercise/",
-      "published": "Mon, 05 Oct 2026 05:29:00 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment",
-        "exercise"
-      ]
-    },
-    {
       "title": "Army grounds fleet of AH-64Es for second time in three months",
       "link": "https://taskandpurpose.com/news/army-grounds-ah-64e-helicopters/",
       "published": "Mon, 05 Oct 2026 19:11:06 -0400",
@@ -613,28 +603,28 @@
       ]
     },
     {
-      "title": "Carrier USS George H.W. Bush Makes Port Call in Thailand",
-      "link": "https://news.usni.org/2026/10/05/carrier-uss-george-h-w-bush-makes-port-call-in-thailand",
-      "published": "Mon, 05 Oct 2026 19:43:20 +0000",
-      "source": "USNI News",
+      "title": "German lawmakers approve funds for eight-ship fleet of sub-hunting frigates",
+      "link": "https://www.defensenews.com/global/europe/2026/10/08/german-lawmakers-approve-funds-for-eight-ship-fleet-of-sub-hunting-frigates/",
+      "published": "Thu, 08 Oct 2026 11:18:09 +0000",
+      "source": "Defense News",
       "categories": [
         "deployment"
       ]
     },
     {
-      "title": "Japan Launches Seventh Taigei-Class Submarine as Nuclear Propulsion Debate Grows",
-      "link": "https://www.navalnews.com/naval-news/2026/10/japan-launches-seventh-taigei-class-submarine-as-nuclear-propulsion-debate-grows/",
-      "published": "Thu, 08 Oct 2026 06:38:18 +0000",
-      "source": "Naval News",
+      "title": "German pilots prepare for CH‑47F fleet with US Army flight simulator",
+      "link": "https://www.defensenews.com/news/your-military/2026/10/08/german-pilots-prepare-for-ch47f-fleet-with-us-army-flight-simulator/",
+      "published": "Thu, 08 Oct 2026 13:25:20 +0000",
+      "source": "Defense News",
       "categories": [
         "deployment"
       ]
     },
     {
-      "title": "MBDA Offers SM39 Block 2 Mod 2 for Indonesia’s Scorpène Submarines",
-      "link": "https://www.navalnews.com/event-news/euronaval-2026/2026/10/mbda-offers-sm39-block-2-mod-2-for-indonesias-scorpene-submarines/",
-      "published": "Tue, 06 Oct 2026 05:29:00 +0000",
-      "source": "Naval News",
+      "title": "German pilots prepare for CH‑47F fleet with US Army flight simulator",
+      "link": "https://www.militarytimes.com/news/your-military/2026/10/08/german-pilots-prepare-for-ch47f-fleet-with-us-army-flight-simulator/",
+      "published": "Thu, 08 Oct 2026 13:25:20 +0000",
+      "source": "Military Times",
       "categories": [
         "deployment"
       ]
@@ -644,15 +634,6 @@
       "link": "https://taskandpurpose.com/news/navy-fa18-sub-buster/",
       "published": "Tue, 06 Oct 2026 08:00:00 -0400",
       "source": "Task & Purpose",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Anduril, US Navy invest $6.6 billion to boost submarine parts production",
-      "link": "https://www.defensenews.com/industry/techwatch/2026/10/06/anduril-us-navy-invest-66-billion-to-boost-submarine-parts-production/",
-      "published": "Tue, 06 Oct 2026 14:15:29 +0000",
-      "source": "Defense News",
       "categories": [
         "deployment"
       ]
@@ -683,6 +664,25 @@
       "source": "USNI News",
       "categories": [
         "deployment"
+      ]
+    },
+    {
+      "title": "81 US military fighters, helicopters, and drones have been lost or damaged in the Iran war",
+      "link": "https://taskandpurpose.com/news/us-aircraft-drones-loss-damage-iran-war/",
+      "published": "Wed, 07 Oct 2026 15:55:39 -0400",
+      "source": "Task & Purpose",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "USS Lincoln strike group awarded Presidential Unit Citation for Iran deployment",
+      "link": "https://taskandpurpose.com/news/uss-lincoln-strike-group-presidential-citation/",
+      "published": "Wed, 07 Oct 2026 16:24:56 -0400",
+      "source": "Task & Purpose",
+      "categories": [
+        "deployment",
+        "conflict"
       ]
     }
   ],
@@ -838,15 +838,6 @@
   },
   "_conflict_news_refs": [
     {
-      "title": "U.S. Navy Completes Successful Test Flight of Blackbeard Long-range Hypersonic Strike Missile",
-      "link": "https://www.navalnews.com/naval-news/2026/10/u-s-navy-completes-successful-test-flight-of-blackbeard-long-range-hypersonic-strike-missile/",
-      "published": "Mon, 05 Oct 2026 15:00:00 +0000",
-      "source": "Naval News",
-      "categories": [
-        "conflict"
-      ]
-    },
-    {
       "title": "4 Killed in U.S. Strike on Alleged Drug Boat in Caribbean",
       "link": "https://news.usni.org/2026/10/05/4-killed-in-u-s-strike-on-alleged-drug-boat-in-caribbean",
       "published": "Mon, 05 Oct 2026 20:07:55 +0000",
@@ -856,10 +847,10 @@
       ]
     },
     {
-      "title": "French Navy Conducts Acceptance Firing of M51.3 missile From Le Vigilant SSBN",
-      "link": "https://www.navalnews.com/naval-news/2026/10/french-navy-conducts-acceptance-firing-of-m51-3-missile-from-le-vigilant-ssbn/",
-      "published": "Tue, 06 Oct 2026 13:47:07 +0000",
-      "source": "Naval News",
+      "title": "Turkey’s foreign minister says Ankara weighing Saudi defense support, rules out offensive role",
+      "link": "https://www.defensenews.com/global/mideast-africa/2026/10/08/turkeys-foreign-minister-says-ankara-weighing-saudi-defense-support-rules-out-offensive-role/",
+      "published": "Thu, 08 Oct 2026 13:07:36 +0000",
+      "source": "Defense News",
       "categories": [
         "conflict"
       ]
@@ -882,19 +873,19 @@
       "categories": [
         "conflict"
       ]
+    },
+    {
+      "title": "USS Lincoln strike group awarded Presidential Unit Citation for Iran deployment",
+      "link": "https://taskandpurpose.com/news/uss-lincoln-strike-group-presidential-citation/",
+      "published": "Wed, 07 Oct 2026 16:24:56 -0400",
+      "source": "Task & Purpose",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
     }
   ],
   "_exercise_news_refs": [
-    {
-      "title": "French Navy and Naval Group test Rampart CIWS at sea during WILDFIRE Exercise",
-      "link": "https://www.navalnews.com/naval-news/2026/10/french-navy-and-naval-group-test-rampart-ciws-at-sea-during-wildfire-exercise/",
-      "published": "Mon, 05 Oct 2026 05:29:00 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment",
-        "exercise"
-      ]
-    },
     {
       "title": "Report to Congress on U.S. Aircraft Combat Losses in Operation Epic Fury",
       "link": "https://news.usni.org/2026/10/06/report-to-congress-on-u-s-aircraft-combat-losses-in-operation-epic-fury-2",
@@ -912,30 +903,21 @@
       "categories": [
         "exercise"
       ]
-    },
-    {
-      "title": "HD Hyundai Signs Strategic Teaming Agreement With Croatia’s Iskra Shipyard for Multirole Corvettes and Expanded Maritime Cooperation",
-      "link": "https://www.navalnews.com/naval-news/2026/10/hd-hyundai-signs-strategic-teaming-agreement-with-croatias-iskra-shipyard-for-multirole-corvettes-and-expanded-maritime-cooperation/",
-      "published": "Wed, 07 Oct 2026 10:20:09 +0000",
-      "source": "Naval News",
-      "categories": [
-        "exercise"
-      ]
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 15,
-    "conflict_articles": 6,
-    "exercise_articles": 4,
-    "total_articles": 50,
-    "computed_at": "2026-10-08T06:44:04.678774+00:00",
+    "deployment_articles": 12,
+    "conflict_articles": 5,
+    "exercise_articles": 2,
+    "total_articles": 40,
+    "computed_at": "2026-10-08T14:06:38.020491+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
-      "[Naval News] French Navy and Naval Group test Rampart CIWS at sea during WILDFIRE Exercise",
-      "[Naval News] U.S. Navy Completes Successful Test Flight of Blackbeard Long-range Hypersonic Strike Missile",
       "[Task & Purpose] Army grounds fleet of AH-64Es for second time in three months",
-      "[USNI News] Carrier USS George H.W. Bush Makes Port Call in Thailand",
-      "[USNI News] 4 Killed in U.S. Strike on Alleged Drug Boat in Caribbean"
+      "[USNI News] 4 Killed in U.S. Strike on Alleged Drug Boat in Caribbean",
+      "[Defense News] German lawmakers approve funds for eight-ship fleet of sub-hunting frigates",
+      "[Defense News] Turkey’s foreign minister says Ankara weighing Saudi defense support, rules out offensive role",
+      "[Defense News] German pilots prepare for CH‑47F fleet with US Army flight simulator"
     ]
   },
   "ground_intel": {
@@ -946,12 +928,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-10-08T06:44:04.678818+00:00",
-    "article_count": 50,
-    "categorized_count": 22,
-    "freshest_source": "Naval News",
-    "freshest_title": "French Navy and Naval Group test Rampart CIWS at sea during WILDFIRE Exercise",
-    "freshest_published": "Mon, 05 Oct 2026 05:29:00 +0000"
+    "last_successful_update": "2026-10-08T14:06:38.020555+00:00",
+    "article_count": 40,
+    "categorized_count": 17,
+    "freshest_source": "Task & Purpose",
+    "freshest_title": "Army grounds fleet of AH-64Es for second time in three months",
+    "freshest_published": "Mon, 05 Oct 2026 19:11:06 -0400"
   },
   "_firms_hotspots": []
 }
