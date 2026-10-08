@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-10-08T14:06:43Z",
-  "version": 3007,
-  "breaking_alert": "Task & Purpose: Army grounds fleet of AH-64Es for second time in three months",
+  "generated_utc": "2026-10-08T20:16:55Z",
+  "version": 3008,
+  "breaking_alert": "Naval News: U.S. Navy Completes Successful Test Flight of Blackbeard Long-range Hypersonic Strike Missile",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -594,9 +594,27 @@
   ],
   "_naval_news_refs": [
     {
-      "title": "Army grounds fleet of AH-64Es for second time in three months",
-      "link": "https://taskandpurpose.com/news/army-grounds-ah-64e-helicopters/",
-      "published": "Mon, 05 Oct 2026 19:11:06 -0400",
+      "title": "Japan Launches Seventh Taigei-Class Submarine as Nuclear Propulsion Debate Grows",
+      "link": "https://www.navalnews.com/naval-news/2026/10/japan-launches-seventh-taigei-class-submarine-as-nuclear-propulsion-debate-grows/",
+      "published": "Thu, 08 Oct 2026 06:38:18 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Hindustan Shipyard Launches First Fleet Support Ship ‘Surya’ for Indian Navy",
+      "link": "https://www.navalnews.com/naval-news/2026/10/hindustan-shipyard-launches-first-fleet-support-ship-surya-for-indian-navy/",
+      "published": "Thu, 08 Oct 2026 09:54:05 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Tracking America’s latest conflict: The Iran war timeline",
+      "link": "https://taskandpurpose.com/news/iran-war-timeline/",
+      "published": "Thu, 08 Oct 2026 10:18:45 -0400",
       "source": "Task & Purpose",
       "categories": [
         "deployment"
@@ -630,59 +648,42 @@
       ]
     },
     {
-      "title": "A Navy F/A-18F came home from Iran with ‘Sub Buster’ markings",
-      "link": "https://taskandpurpose.com/news/navy-fa18-sub-buster/",
-      "published": "Tue, 06 Oct 2026 08:00:00 -0400",
-      "source": "Task & Purpose",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "France fires upgraded nuclear-capable missile from submarine for first time",
-      "link": "https://www.defensenews.com/global/europe/2026/10/06/france-fires-upgraded-nuclear-capable-missile-from-submarine-for-first-time/",
-      "published": "Tue, 06 Oct 2026 16:08:47 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
-      "title": "USS Abraham Lincoln to return home after 321 days",
-      "link": "https://www.militarytimes.com/news/your-navy/2026/10/06/uss-abraham-lincoln-to-return-home-after-320-days/",
-      "published": "Tue, 06 Oct 2026 19:56:36 +0000",
+      "title": "USS Abraham Lincoln Strike Group receives Presidential Unit Citation",
+      "link": "https://www.militarytimes.com/news/your-navy/2026/10/08/uss-abraham-lincoln-strike-group-receives-presidential-unit-citation/",
+      "published": "Thu, 08 Oct 2026 14:39:03 +0000",
       "source": "Military Times",
       "categories": [
-        "deployment"
+        "deployment",
+        "conflict"
       ]
     },
     {
-      "title": "Anduril to Build New Submarine Component Facility",
-      "link": "https://news.usni.org/2026/10/06/anduril-to-build-submarine-component-facility",
-      "published": "Tue, 06 Oct 2026 20:38:06 +0000",
+      "title": "France Fires New Submarine-launched Ballistic Missile in First At-sea Test",
+      "link": "https://news.usni.org/2026/10/08/france-fires-new-submarine-launched-ballistic-missile-in-first-at-sea-test",
+      "published": "Thu, 08 Oct 2026 16:05:10 +0000",
       "source": "USNI News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "81 US military fighters, helicopters, and drones have been lost or damaged in the Iran war",
-      "link": "https://taskandpurpose.com/news/us-aircraft-drones-loss-damage-iran-war/",
-      "published": "Wed, 07 Oct 2026 15:55:39 -0400",
-      "source": "Task & Purpose",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "USS Lincoln strike group awarded Presidential Unit Citation for Iran deployment",
-      "link": "https://taskandpurpose.com/news/uss-lincoln-strike-group-presidential-citation/",
-      "published": "Wed, 07 Oct 2026 16:24:56 -0400",
-      "source": "Task & Purpose",
       "categories": [
         "deployment",
         "conflict"
+      ]
+    },
+    {
+      "title": "Abraham Lincoln Carrier Strike Group Returns to San Diego After Nearly 11 Months",
+      "link": "https://news.usni.org/2026/10/08/abraham-lincoln-carrier-strike-group-returns-to-san-diego-after-nearly-11-months",
+      "published": "Thu, 08 Oct 2026 19:21:49 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
+    },
+    {
+      "title": "MBDA Offers SM39 Block 2 Mod 2 for Indonesia’s Scorpène Submarines",
+      "link": "https://www.navalnews.com/event-news/euronaval-2026/2026/10/mbda-offers-sm39-block-2-mod-2-for-indonesias-scorpene-submarines/",
+      "published": "Tue, 06 Oct 2026 05:29:00 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment"
       ]
     }
   ],
@@ -838,10 +839,10 @@
   },
   "_conflict_news_refs": [
     {
-      "title": "4 Killed in U.S. Strike on Alleged Drug Boat in Caribbean",
-      "link": "https://news.usni.org/2026/10/05/4-killed-in-u-s-strike-on-alleged-drug-boat-in-caribbean",
-      "published": "Mon, 05 Oct 2026 20:07:55 +0000",
-      "source": "USNI News",
+      "title": "U.S. Navy Completes Successful Test Flight of Blackbeard Long-range Hypersonic Strike Missile",
+      "link": "https://www.navalnews.com/naval-news/2026/10/u-s-navy-completes-successful-test-flight-of-blackbeard-long-range-hypersonic-strike-missile/",
+      "published": "Mon, 05 Oct 2026 15:00:00 +0000",
+      "source": "Naval News",
       "categories": [
         "conflict"
       ]
@@ -856,29 +857,30 @@
       ]
     },
     {
-      "title": "France fires upgraded nuclear-capable missile from submarine for first time",
-      "link": "https://www.defensenews.com/global/europe/2026/10/06/france-fires-upgraded-nuclear-capable-missile-from-submarine-for-first-time/",
-      "published": "Tue, 06 Oct 2026 16:08:47 +0000",
-      "source": "Defense News",
+      "title": "USS Abraham Lincoln Strike Group receives Presidential Unit Citation",
+      "link": "https://www.militarytimes.com/news/your-navy/2026/10/08/uss-abraham-lincoln-strike-group-receives-presidential-unit-citation/",
+      "published": "Thu, 08 Oct 2026 14:39:03 +0000",
+      "source": "Military Times",
       "categories": [
         "deployment",
         "conflict"
       ]
     },
     {
-      "title": "Super Hornets Sortie with Blackbeard Missiles in Latest Test",
-      "link": "https://news.usni.org/2026/10/07/super-hornets-sortie-with-blackbeard-missiles-in-latest-test",
-      "published": "Wed, 07 Oct 2026 16:20:10 +0000",
+      "title": "France Fires New Submarine-launched Ballistic Missile in First At-sea Test",
+      "link": "https://news.usni.org/2026/10/08/france-fires-new-submarine-launched-ballistic-missile-in-first-at-sea-test",
+      "published": "Thu, 08 Oct 2026 16:05:10 +0000",
       "source": "USNI News",
       "categories": [
+        "deployment",
         "conflict"
       ]
     },
     {
-      "title": "USS Lincoln strike group awarded Presidential Unit Citation for Iran deployment",
-      "link": "https://taskandpurpose.com/news/uss-lincoln-strike-group-presidential-citation/",
-      "published": "Wed, 07 Oct 2026 16:24:56 -0400",
-      "source": "Task & Purpose",
+      "title": "Abraham Lincoln Carrier Strike Group Returns to San Diego After Nearly 11 Months",
+      "link": "https://news.usni.org/2026/10/08/abraham-lincoln-carrier-strike-group-returns-to-san-diego-after-nearly-11-months",
+      "published": "Thu, 08 Oct 2026 19:21:49 +0000",
+      "source": "USNI News",
       "categories": [
         "deployment",
         "conflict"
@@ -903,21 +905,30 @@
       "categories": [
         "exercise"
       ]
+    },
+    {
+      "title": "HD Hyundai Signs Strategic Teaming Agreement With Croatia’s Iskra Shipyard for Multirole Corvettes and Expanded Maritime Cooperation",
+      "link": "https://www.navalnews.com/naval-news/2026/10/hd-hyundai-signs-strategic-teaming-agreement-with-croatias-iskra-shipyard-for-multirole-corvettes-and-expanded-maritime-cooperation/",
+      "published": "Wed, 07 Oct 2026 10:20:09 +0000",
+      "source": "Naval News",
+      "categories": [
+        "exercise"
+      ]
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 12,
-    "conflict_articles": 5,
-    "exercise_articles": 2,
-    "total_articles": 40,
-    "computed_at": "2026-10-08T14:06:38.020491+00:00",
-    "manual_override": "DEFCON_3",
+    "deployment_articles": 15,
+    "conflict_articles": 9,
+    "exercise_articles": 3,
+    "total_articles": 50,
+    "computed_at": "2026-10-08T20:16:50.246621+00:00",
+    "manual_override": "DEFCON_2",
     "breaking_events": [
-      "[Task & Purpose] Army grounds fleet of AH-64Es for second time in three months",
-      "[USNI News] 4 Killed in U.S. Strike on Alleged Drug Boat in Caribbean",
-      "[Defense News] German lawmakers approve funds for eight-ship fleet of sub-hunting frigates",
-      "[Defense News] Turkey’s foreign minister says Ankara weighing Saudi defense support, rules out offensive role",
-      "[Defense News] German pilots prepare for CH‑47F fleet with US Army flight simulator"
+      "[Naval News] U.S. Navy Completes Successful Test Flight of Blackbeard Long-range Hypersonic Strike Missile",
+      "[Naval News] Japan Launches Seventh Taigei-Class Submarine as Nuclear Propulsion Debate Grows",
+      "[Naval News] Hindustan Shipyard Launches First Fleet Support Ship ‘Surya’ for Indian Navy",
+      "[Task & Purpose] Tracking America’s latest conflict: The Iran war timeline",
+      "[Defense News] German lawmakers approve funds for eight-ship fleet of sub-hunting frigates"
     ]
   },
   "ground_intel": {
@@ -928,12 +939,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-10-08T14:06:38.020555+00:00",
-    "article_count": 40,
-    "categorized_count": 17,
-    "freshest_source": "Task & Purpose",
-    "freshest_title": "Army grounds fleet of AH-64Es for second time in three months",
-    "freshest_published": "Mon, 05 Oct 2026 19:11:06 -0400"
+    "last_successful_update": "2026-10-08T20:16:50.246668+00:00",
+    "article_count": 50,
+    "categorized_count": 23,
+    "freshest_source": "Naval News",
+    "freshest_title": "U.S. Navy Completes Successful Test Flight of Blackbeard Long-range Hypersonic Strike Missile",
+    "freshest_published": "Mon, 05 Oct 2026 15:00:00 +0000"
   },
   "_firms_hotspots": []
 }
