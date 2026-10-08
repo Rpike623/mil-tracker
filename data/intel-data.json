@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-10-07T20:14:34Z",
-  "version": 3004,
+  "generated_utc": "2026-10-08T00:29:41Z",
+  "version": 3005,
   "breaking_alert": "Naval News: French Navy and Naval Group test Rampart CIWS at sea during WILDFIRE Exercise",
   "naval_deployments": [
     {
@@ -924,11 +924,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 14,
-    "conflict_articles": 5,
+    "deployment_articles": 15,
+    "conflict_articles": 6,
     "exercise_articles": 4,
     "total_articles": 50,
-    "computed_at": "2026-10-07T20:14:31.000071+00:00",
+    "computed_at": "2026-10-08T00:29:38.448926+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] French Navy and Naval Group test Rampart CIWS at sea during WILDFIRE Exercise",
@@ -946,9 +946,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-10-07T20:14:31.000104+00:00",
+    "last_successful_update": "2026-10-08T00:29:38.448978+00:00",
     "article_count": 50,
-    "categorized_count": 21,
+    "categorized_count": 22,
     "freshest_source": "Naval News",
     "freshest_title": "French Navy and Naval Group test Rampart CIWS at sea during WILDFIRE Exercise",
     "freshest_published": "Mon, 05 Oct 2026 05:29:00 +0000"
