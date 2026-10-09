@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-10-09T13:54:13Z",
-  "version": 3011,
+  "generated_utc": "2026-10-09T19:06:09Z",
+  "version": 3012,
   "breaking_alert": "Defense News: Estonia’s KrattWorks crafting Shahed-like dummy drone for target practice",
   "naval_deployments": [
     {
@@ -648,15 +648,6 @@
       ]
     },
     {
-      "title": "German pilots prepare for CH‑47F fleet with US Army flight simulator",
-      "link": "https://www.defensenews.com/news/your-military/2026/10/08/german-pilots-prepare-for-ch47f-fleet-with-us-army-flight-simulator/",
-      "published": "Thu, 08 Oct 2026 13:25:20 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "France Fires New Submarine-launched Ballistic Missile in First At-sea Test",
       "link": "https://news.usni.org/2026/10/08/france-fires-new-submarine-launched-ballistic-missile-in-first-at-sea-test",
       "published": "Thu, 08 Oct 2026 16:05:10 +0000",
@@ -683,6 +674,16 @@
       "source": "USNI News",
       "categories": [
         "deployment"
+      ]
+    },
+    {
+      "title": "Pentagon barred Qatar base access to hide Iran war damage, US senator claims",
+      "link": "https://www.defensenews.com/news/pentagon-congress/2026/10/08/pentagon-barred-qatar-base-access-to-hide-iran-war-damage-us-senator-claims/",
+      "published": "Thu, 08 Oct 2026 21:30:28 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment",
+        "exercise"
       ]
     }
   ],
@@ -838,6 +839,15 @@
   },
   "_conflict_news_refs": [
     {
+      "title": "Soldiers intervene on roadside to save children from alleged knife attack",
+      "link": "https://www.militarytimes.com/news/your-military/2026/10/09/soldiers-intervene-on-roadside-to-save-children-from-alleged-knife-attack/",
+      "published": "Fri, 09 Oct 2026 18:29:27 +0000",
+      "source": "Military Times",
+      "categories": [
+        "conflict"
+      ]
+    },
+    {
       "title": "France Fires New Submarine-launched Ballistic Missile in First At-sea Test",
       "link": "https://news.usni.org/2026/10/08/france-fires-new-submarine-launched-ballistic-missile-in-first-at-sea-test",
       "published": "Thu, 08 Oct 2026 16:05:10 +0000",
@@ -858,29 +868,21 @@
       ]
     },
     {
-      "title": "US Army report cites systematic failures in 2025 helicopter and jet collision that killed 67",
-      "link": "https://www.militarytimes.com/news/your-military/2026/10/08/us-army-report-cites-systematic-failures-in-2025-helicopter-and-jet-collision-that-killed-67/",
-      "published": "Thu, 08 Oct 2026 19:49:00 +0000",
-      "source": "Military Times",
-      "categories": [
-        "conflict"
-      ]
-    },
-    {
-      "title": "French Navy Conducts Acceptance Firing of M51.3 missile From Le Vigilant SSBN",
-      "link": "https://www.navalnews.com/naval-news/2026/10/french-navy-conducts-acceptance-firing-of-m51-3-missile-from-le-vigilant-ssbn/",
-      "published": "Tue, 06 Oct 2026 13:47:07 +0000",
-      "source": "Naval News",
-      "categories": [
-        "conflict"
-      ]
-    },
-    {
       "title": "Super Hornets Sortie with Blackbeard Missiles in Latest Test",
       "link": "https://news.usni.org/2026/10/07/super-hornets-sortie-with-blackbeard-missiles-in-latest-test",
       "published": "Wed, 07 Oct 2026 16:20:10 +0000",
       "source": "USNI News",
       "categories": [
+        "conflict"
+      ]
+    },
+    {
+      "title": "USS Lincoln strike group awarded Presidential Unit Citation for Iran deployment",
+      "link": "https://taskandpurpose.com/news/uss-lincoln-strike-group-presidential-citation/",
+      "published": "Wed, 07 Oct 2026 16:24:56 -0400",
+      "source": "Task & Purpose",
+      "categories": [
+        "deployment",
         "conflict"
       ]
     }
@@ -897,25 +899,6 @@
       ]
     },
     {
-      "title": "Pentagon barred Qatar base access to hide Iran war damage, US senator claims",
-      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/10/08/pentagon-barred-qatar-base-access-to-hide-iran-war-damage-us-senator-claims/",
-      "published": "Thu, 08 Oct 2026 21:30:28 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment",
-        "exercise"
-      ]
-    },
-    {
-      "title": "Okinawa Service Members Undergo 48-hour Operational Pause Following Marine Homicide Arrest",
-      "link": "https://news.usni.org/2026/10/06/okinawa-service-members-undergo-48-hour-operational-pause-following-marine-homicide-arrest",
-      "published": "Tue, 06 Oct 2026 19:42:15 +0000",
-      "source": "USNI News",
-      "categories": [
-        "exercise"
-      ]
-    },
-    {
       "title": "HD Hyundai Signs Strategic Teaming Agreement With Croatia’s Iskra Shipyard for Multirole Corvettes and Expanded Maritime Cooperation",
       "link": "https://www.navalnews.com/naval-news/2026/10/hd-hyundai-signs-strategic-teaming-agreement-with-croatias-iskra-shipyard-for-multirole-corvettes-and-expanded-maritime-cooperation/",
       "published": "Wed, 07 Oct 2026 10:20:09 +0000",
@@ -926,18 +909,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 18,
-    "conflict_articles": 6,
-    "exercise_articles": 4,
+    "deployment_articles": 15,
+    "conflict_articles": 5,
+    "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-10-09T13:54:10.206618+00:00",
+    "computed_at": "2026-10-09T19:06:04.346425+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Defense News] Estonia’s KrattWorks crafting Shahed-like dummy drone for target practice",
       "[Defense News] Official poster depicts the US Army’s newest threat: The Iranian soldier",
       "[Military Times] Official poster depicts the US Army’s newest threat: The Iranian soldier",
-      "[Naval News] Japan Launches Seventh Taigei-Class Submarine as Nuclear Propulsion Debate Grows",
-      "[Naval News] Hindustan Shipyard Launches First Fleet Support Ship ‘Surya’ for Indian Navy"
+      "[Military Times] Soldiers intervene on roadside to save children from alleged knife attack",
+      "[Naval News] Japan Launches Seventh Taigei-Class Submarine as Nuclear Propulsion Debate Grows"
     ]
   },
   "ground_intel": {
@@ -948,9 +931,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-10-09T13:54:10.206667+00:00",
+    "last_successful_update": "2026-10-09T19:06:04.346473+00:00",
     "article_count": 50,
-    "categorized_count": 23,
+    "categorized_count": 18,
     "freshest_source": "Defense News",
     "freshest_title": "Estonia’s KrattWorks crafting Shahed-like dummy drone for target practice",
     "freshest_published": "Fri, 09 Oct 2026 10:11:46 +0000"
