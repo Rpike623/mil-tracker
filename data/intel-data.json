@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-10-08T20:16:55Z",
-  "version": 3008,
-  "breaking_alert": "Naval News: U.S. Navy Completes Successful Test Flight of Blackbeard Long-range Hypersonic Strike Missile",
+  "generated_utc": "2026-10-09T00:43:40Z",
+  "version": 3009,
+  "breaking_alert": "Task & Purpose: Tracking America’s latest conflict: The Iran war timeline",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -594,37 +594,10 @@
   ],
   "_naval_news_refs": [
     {
-      "title": "Japan Launches Seventh Taigei-Class Submarine as Nuclear Propulsion Debate Grows",
-      "link": "https://www.navalnews.com/naval-news/2026/10/japan-launches-seventh-taigei-class-submarine-as-nuclear-propulsion-debate-grows/",
-      "published": "Thu, 08 Oct 2026 06:38:18 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Hindustan Shipyard Launches First Fleet Support Ship ‘Surya’ for Indian Navy",
-      "link": "https://www.navalnews.com/naval-news/2026/10/hindustan-shipyard-launches-first-fleet-support-ship-surya-for-indian-navy/",
-      "published": "Thu, 08 Oct 2026 09:54:05 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Tracking America’s latest conflict: The Iran war timeline",
       "link": "https://taskandpurpose.com/news/iran-war-timeline/",
       "published": "Thu, 08 Oct 2026 10:18:45 -0400",
       "source": "Task & Purpose",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "German lawmakers approve funds for eight-ship fleet of sub-hunting frigates",
-      "link": "https://www.defensenews.com/global/europe/2026/10/08/german-lawmakers-approve-funds-for-eight-ship-fleet-of-sub-hunting-frigates/",
-      "published": "Thu, 08 Oct 2026 11:18:09 +0000",
-      "source": "Defense News",
       "categories": [
         "deployment"
       ]
@@ -636,25 +609,6 @@
       "source": "Defense News",
       "categories": [
         "deployment"
-      ]
-    },
-    {
-      "title": "German pilots prepare for CH‑47F fleet with US Army flight simulator",
-      "link": "https://www.militarytimes.com/news/your-military/2026/10/08/german-pilots-prepare-for-ch47f-fleet-with-us-army-flight-simulator/",
-      "published": "Thu, 08 Oct 2026 13:25:20 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "USS Abraham Lincoln Strike Group receives Presidential Unit Citation",
-      "link": "https://www.militarytimes.com/news/your-navy/2026/10/08/uss-abraham-lincoln-strike-group-receives-presidential-unit-citation/",
-      "published": "Thu, 08 Oct 2026 14:39:03 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment",
-        "conflict"
       ]
     },
     {
@@ -678,10 +632,57 @@
       ]
     },
     {
-      "title": "MBDA Offers SM39 Block 2 Mod 2 for Indonesia’s Scorpène Submarines",
-      "link": "https://www.navalnews.com/event-news/euronaval-2026/2026/10/mbda-offers-sm39-block-2-mod-2-for-indonesias-scorpene-submarines/",
-      "published": "Tue, 06 Oct 2026 05:29:00 +0000",
-      "source": "Naval News",
+      "title": "U.S. Destroyer Goes into Spanish Dry Dock for Maintenance Overhaul",
+      "link": "https://news.usni.org/2026/10/08/u-s-destroyer-goes-into-spanish-dry-dock-for-maintenance-overhaul",
+      "published": "Thu, 08 Oct 2026 20:34:03 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Pentagon barred Qatar base access to hide Iran war damage, US senator claims",
+      "link": "https://www.defensenews.com/news/pentagon-congress/2026/10/08/pentagon-barred-qatar-base-access-to-hide-iran-war-damage-us-senator-claims/",
+      "published": "Thu, 08 Oct 2026 21:30:28 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment",
+        "exercise"
+      ]
+    },
+    {
+      "title": "Pentagon barred Qatar base access to hide Iran war damage, US senator claims",
+      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/10/08/pentagon-barred-qatar-base-access-to-hide-iran-war-damage-us-senator-claims/",
+      "published": "Thu, 08 Oct 2026 21:30:28 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment",
+        "exercise"
+      ]
+    },
+    {
+      "title": "Readiness bill coming due for Navy after marathon carrier deployment, No. 2 admiral says",
+      "link": "https://www.militarytimes.com/news/your-military/2026/10/08/readiness-bill-coming-due-for-navy-after-marathon-carrier-deployment-no-2-admiral-says/",
+      "published": "Thu, 08 Oct 2026 21:55:28 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Anduril to Build New Submarine Component Facility",
+      "link": "https://news.usni.org/2026/10/06/anduril-to-build-submarine-component-facility",
+      "published": "Tue, 06 Oct 2026 20:38:06 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "81 US military fighters, helicopters, and drones have been lost or damaged in the Iran war",
+      "link": "https://taskandpurpose.com/news/us-aircraft-drones-loss-damage-iran-war/",
+      "published": "Wed, 07 Oct 2026 15:55:39 -0400",
+      "source": "Task & Purpose",
       "categories": [
         "deployment"
       ]
@@ -839,30 +840,11 @@
   },
   "_conflict_news_refs": [
     {
-      "title": "U.S. Navy Completes Successful Test Flight of Blackbeard Long-range Hypersonic Strike Missile",
-      "link": "https://www.navalnews.com/naval-news/2026/10/u-s-navy-completes-successful-test-flight-of-blackbeard-long-range-hypersonic-strike-missile/",
-      "published": "Mon, 05 Oct 2026 15:00:00 +0000",
-      "source": "Naval News",
-      "categories": [
-        "conflict"
-      ]
-    },
-    {
       "title": "Turkey’s foreign minister says Ankara weighing Saudi defense support, rules out offensive role",
       "link": "https://www.defensenews.com/global/mideast-africa/2026/10/08/turkeys-foreign-minister-says-ankara-weighing-saudi-defense-support-rules-out-offensive-role/",
       "published": "Thu, 08 Oct 2026 13:07:36 +0000",
       "source": "Defense News",
       "categories": [
-        "conflict"
-      ]
-    },
-    {
-      "title": "USS Abraham Lincoln Strike Group receives Presidential Unit Citation",
-      "link": "https://www.militarytimes.com/news/your-navy/2026/10/08/uss-abraham-lincoln-strike-group-receives-presidential-unit-citation/",
-      "published": "Thu, 08 Oct 2026 14:39:03 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment",
         "conflict"
       ]
     },
@@ -885,15 +867,44 @@
         "deployment",
         "conflict"
       ]
+    },
+    {
+      "title": "US Army report cites systematic failures in 2025 helicopter and jet collision that killed 67",
+      "link": "https://www.militarytimes.com/news/your-military/2026/10/08/us-army-report-cites-systematic-failures-in-2025-helicopter-and-jet-collision-that-killed-67/",
+      "published": "Thu, 08 Oct 2026 19:49:00 +0000",
+      "source": "Military Times",
+      "categories": [
+        "conflict"
+      ]
+    },
+    {
+      "title": "Super Hornets Sortie with Blackbeard Missiles in Latest Test",
+      "link": "https://news.usni.org/2026/10/07/super-hornets-sortie-with-blackbeard-missiles-in-latest-test",
+      "published": "Wed, 07 Oct 2026 16:20:10 +0000",
+      "source": "USNI News",
+      "categories": [
+        "conflict"
+      ]
     }
   ],
   "_exercise_news_refs": [
     {
-      "title": "Report to Congress on U.S. Aircraft Combat Losses in Operation Epic Fury",
-      "link": "https://news.usni.org/2026/10/06/report-to-congress-on-u-s-aircraft-combat-losses-in-operation-epic-fury-2",
-      "published": "Tue, 06 Oct 2026 13:45:41 +0000",
-      "source": "USNI News",
+      "title": "Pentagon barred Qatar base access to hide Iran war damage, US senator claims",
+      "link": "https://www.defensenews.com/news/pentagon-congress/2026/10/08/pentagon-barred-qatar-base-access-to-hide-iran-war-damage-us-senator-claims/",
+      "published": "Thu, 08 Oct 2026 21:30:28 +0000",
+      "source": "Defense News",
       "categories": [
+        "deployment",
+        "exercise"
+      ]
+    },
+    {
+      "title": "Pentagon barred Qatar base access to hide Iran war damage, US senator claims",
+      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/10/08/pentagon-barred-qatar-base-access-to-hide-iran-war-damage-us-senator-claims/",
+      "published": "Thu, 08 Oct 2026 21:30:28 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment",
         "exercise"
       ]
     },
@@ -905,30 +916,21 @@
       "categories": [
         "exercise"
       ]
-    },
-    {
-      "title": "HD Hyundai Signs Strategic Teaming Agreement With Croatia’s Iskra Shipyard for Multirole Corvettes and Expanded Maritime Cooperation",
-      "link": "https://www.navalnews.com/naval-news/2026/10/hd-hyundai-signs-strategic-teaming-agreement-with-croatias-iskra-shipyard-for-multirole-corvettes-and-expanded-maritime-cooperation/",
-      "published": "Wed, 07 Oct 2026 10:20:09 +0000",
-      "source": "Naval News",
-      "categories": [
-        "exercise"
-      ]
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 15,
-    "conflict_articles": 9,
+    "deployment_articles": 12,
+    "conflict_articles": 6,
     "exercise_articles": 3,
-    "total_articles": 50,
-    "computed_at": "2026-10-08T20:16:50.246621+00:00",
-    "manual_override": "DEFCON_2",
+    "total_articles": 40,
+    "computed_at": "2026-10-09T00:43:34.550397+00:00",
+    "manual_override": "DEFCON_3",
     "breaking_events": [
-      "[Naval News] U.S. Navy Completes Successful Test Flight of Blackbeard Long-range Hypersonic Strike Missile",
-      "[Naval News] Japan Launches Seventh Taigei-Class Submarine as Nuclear Propulsion Debate Grows",
-      "[Naval News] Hindustan Shipyard Launches First Fleet Support Ship ‘Surya’ for Indian Navy",
       "[Task & Purpose] Tracking America’s latest conflict: The Iran war timeline",
-      "[Defense News] German lawmakers approve funds for eight-ship fleet of sub-hunting frigates"
+      "[Defense News] Turkey’s foreign minister says Ankara weighing Saudi defense support, rules out offensive role",
+      "[Defense News] German pilots prepare for CH‑47F fleet with US Army flight simulator",
+      "[USNI News] France Fires New Submarine-launched Ballistic Missile in First At-sea Test",
+      "[USNI News] Abraham Lincoln Carrier Strike Group Returns to San Diego After Nearly 11 Months"
     ]
   },
   "ground_intel": {
@@ -939,12 +941,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-10-08T20:16:50.246668+00:00",
-    "article_count": 50,
-    "categorized_count": 23,
-    "freshest_source": "Naval News",
-    "freshest_title": "U.S. Navy Completes Successful Test Flight of Blackbeard Long-range Hypersonic Strike Missile",
-    "freshest_published": "Mon, 05 Oct 2026 15:00:00 +0000"
+    "last_successful_update": "2026-10-09T00:43:34.550443+00:00",
+    "article_count": 40,
+    "categorized_count": 16,
+    "freshest_source": "Task & Purpose",
+    "freshest_title": "Tracking America’s latest conflict: The Iran war timeline",
+    "freshest_published": "Thu, 08 Oct 2026 10:18:45 -0400"
   },
   "_firms_hotspots": []
 }
