@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-10-09T06:51:27Z",
-  "version": 3010,
-  "breaking_alert": "Task & Purpose: Tracking America’s latest conflict: The Iran war timeline",
+  "generated_utc": "2026-10-09T13:54:13Z",
+  "version": 3011,
+  "breaking_alert": "Defense News: Estonia’s KrattWorks crafting Shahed-like dummy drone for target practice",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -594,6 +594,51 @@
   ],
   "_naval_news_refs": [
     {
+      "title": "Estonia’s KrattWorks crafting Shahed-like dummy drone for target practice",
+      "link": "https://www.defensenews.com/global/europe/2026/10/09/estonias-krattworks-crafting-shahed-like-dummy-drone-for-target-practice/",
+      "published": "Fri, 09 Oct 2026 10:11:46 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Official poster depicts the US Army’s newest threat: The Iranian soldier",
+      "link": "https://www.defensenews.com/news/your-military/2026/10/09/official-poster-depicts-the-us-armys-newest-threat-the-iranian-soldier/",
+      "published": "Fri, 09 Oct 2026 13:00:52 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Official poster depicts the US Army’s newest threat: The Iranian soldier",
+      "link": "https://www.militarytimes.com/news/your-military/2026/10/09/official-poster-depicts-the-us-armys-newest-threat-the-iranian-soldier/",
+      "published": "Fri, 09 Oct 2026 13:00:52 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Japan Launches Seventh Taigei-Class Submarine as Nuclear Propulsion Debate Grows",
+      "link": "https://www.navalnews.com/naval-news/2026/10/japan-launches-seventh-taigei-class-submarine-as-nuclear-propulsion-debate-grows/",
+      "published": "Thu, 08 Oct 2026 06:38:18 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Hindustan Shipyard Launches First Fleet Support Ship ‘Surya’ for Indian Navy",
+      "link": "https://www.navalnews.com/naval-news/2026/10/hindustan-shipyard-launches-first-fleet-support-ship-surya-for-indian-navy/",
+      "published": "Thu, 08 Oct 2026 09:54:05 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "Tracking America’s latest conflict: The Iran war timeline",
       "link": "https://taskandpurpose.com/news/iran-war-timeline/",
       "published": "Thu, 08 Oct 2026 10:18:45 -0400",
@@ -636,53 +681,6 @@
       "link": "https://news.usni.org/2026/10/08/u-s-destroyer-goes-into-spanish-dry-dock-for-maintenance-overhaul",
       "published": "Thu, 08 Oct 2026 20:34:03 +0000",
       "source": "USNI News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Pentagon barred Qatar base access to hide Iran war damage, US senator claims",
-      "link": "https://www.defensenews.com/news/pentagon-congress/2026/10/08/pentagon-barred-qatar-base-access-to-hide-iran-war-damage-us-senator-claims/",
-      "published": "Thu, 08 Oct 2026 21:30:28 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment",
-        "exercise"
-      ]
-    },
-    {
-      "title": "Pentagon barred Qatar base access to hide Iran war damage, US senator claims",
-      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/10/08/pentagon-barred-qatar-base-access-to-hide-iran-war-damage-us-senator-claims/",
-      "published": "Thu, 08 Oct 2026 21:30:28 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment",
-        "exercise"
-      ]
-    },
-    {
-      "title": "Readiness bill coming due for Navy after marathon carrier deployment, No. 2 admiral says",
-      "link": "https://www.militarytimes.com/news/your-military/2026/10/08/readiness-bill-coming-due-for-navy-after-marathon-carrier-deployment-no-2-admiral-says/",
-      "published": "Thu, 08 Oct 2026 21:55:28 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Anduril to Build New Submarine Component Facility",
-      "link": "https://news.usni.org/2026/10/06/anduril-to-build-submarine-component-facility",
-      "published": "Tue, 06 Oct 2026 20:38:06 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "81 US military fighters, helicopters, and drones have been lost or damaged in the Iran war",
-      "link": "https://taskandpurpose.com/news/us-aircraft-drones-loss-damage-iran-war/",
-      "published": "Wed, 07 Oct 2026 15:55:39 -0400",
-      "source": "Task & Purpose",
       "categories": [
         "deployment"
       ]
@@ -840,15 +838,6 @@
   },
   "_conflict_news_refs": [
     {
-      "title": "Turkey’s foreign minister says Ankara weighing Saudi defense support, rules out offensive role",
-      "link": "https://www.defensenews.com/global/mideast-africa/2026/10/08/turkeys-foreign-minister-says-ankara-weighing-saudi-defense-support-rules-out-offensive-role/",
-      "published": "Thu, 08 Oct 2026 13:07:36 +0000",
-      "source": "Defense News",
-      "categories": [
-        "conflict"
-      ]
-    },
-    {
       "title": "France Fires New Submarine-launched Ballistic Missile in First At-sea Test",
       "link": "https://news.usni.org/2026/10/08/france-fires-new-submarine-launched-ballistic-missile-in-first-at-sea-test",
       "published": "Thu, 08 Oct 2026 16:05:10 +0000",
@@ -873,6 +862,15 @@
       "link": "https://www.militarytimes.com/news/your-military/2026/10/08/us-army-report-cites-systematic-failures-in-2025-helicopter-and-jet-collision-that-killed-67/",
       "published": "Thu, 08 Oct 2026 19:49:00 +0000",
       "source": "Military Times",
+      "categories": [
+        "conflict"
+      ]
+    },
+    {
+      "title": "French Navy Conducts Acceptance Firing of M51.3 missile From Le Vigilant SSBN",
+      "link": "https://www.navalnews.com/naval-news/2026/10/french-navy-conducts-acceptance-firing-of-m51-3-missile-from-le-vigilant-ssbn/",
+      "published": "Tue, 06 Oct 2026 13:47:07 +0000",
+      "source": "Naval News",
       "categories": [
         "conflict"
       ]
@@ -916,21 +914,30 @@
       "categories": [
         "exercise"
       ]
+    },
+    {
+      "title": "HD Hyundai Signs Strategic Teaming Agreement With Croatia’s Iskra Shipyard for Multirole Corvettes and Expanded Maritime Cooperation",
+      "link": "https://www.navalnews.com/naval-news/2026/10/hd-hyundai-signs-strategic-teaming-agreement-with-croatias-iskra-shipyard-for-multirole-corvettes-and-expanded-maritime-cooperation/",
+      "published": "Wed, 07 Oct 2026 10:20:09 +0000",
+      "source": "Naval News",
+      "categories": [
+        "exercise"
+      ]
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 12,
+    "deployment_articles": 18,
     "conflict_articles": 6,
-    "exercise_articles": 3,
-    "total_articles": 40,
-    "computed_at": "2026-10-09T06:51:25.254186+00:00",
+    "exercise_articles": 4,
+    "total_articles": 50,
+    "computed_at": "2026-10-09T13:54:10.206618+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
-      "[Task & Purpose] Tracking America’s latest conflict: The Iran war timeline",
-      "[Defense News] Turkey’s foreign minister says Ankara weighing Saudi defense support, rules out offensive role",
-      "[Defense News] German pilots prepare for CH‑47F fleet with US Army flight simulator",
-      "[USNI News] France Fires New Submarine-launched Ballistic Missile in First At-sea Test",
-      "[USNI News] Abraham Lincoln Carrier Strike Group Returns to San Diego After Nearly 11 Months"
+      "[Defense News] Estonia’s KrattWorks crafting Shahed-like dummy drone for target practice",
+      "[Defense News] Official poster depicts the US Army’s newest threat: The Iranian soldier",
+      "[Military Times] Official poster depicts the US Army’s newest threat: The Iranian soldier",
+      "[Naval News] Japan Launches Seventh Taigei-Class Submarine as Nuclear Propulsion Debate Grows",
+      "[Naval News] Hindustan Shipyard Launches First Fleet Support Ship ‘Surya’ for Indian Navy"
     ]
   },
   "ground_intel": {
@@ -941,12 +948,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-10-09T06:51:25.254226+00:00",
-    "article_count": 40,
-    "categorized_count": 16,
-    "freshest_source": "Task & Purpose",
-    "freshest_title": "Tracking America’s latest conflict: The Iran war timeline",
-    "freshest_published": "Thu, 08 Oct 2026 10:18:45 -0400"
+    "last_successful_update": "2026-10-09T13:54:10.206667+00:00",
+    "article_count": 50,
+    "categorized_count": 23,
+    "freshest_source": "Defense News",
+    "freshest_title": "Estonia’s KrattWorks crafting Shahed-like dummy drone for target practice",
+    "freshest_published": "Fri, 09 Oct 2026 10:11:46 +0000"
   },
   "_firms_hotspots": []
 }
