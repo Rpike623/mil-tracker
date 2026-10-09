@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-10-09T00:43:40Z",
-  "version": 3009,
+  "generated_utc": "2026-10-09T06:51:27Z",
+  "version": 3010,
   "breaking_alert": "Task & Purpose: Tracking America’s latest conflict: The Iran war timeline",
   "naval_deployments": [
     {
@@ -923,7 +923,7 @@
     "conflict_articles": 6,
     "exercise_articles": 3,
     "total_articles": 40,
-    "computed_at": "2026-10-09T00:43:34.550397+00:00",
+    "computed_at": "2026-10-09T06:51:25.254186+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Task & Purpose] Tracking America’s latest conflict: The Iran war timeline",
@@ -941,7 +941,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-10-09T00:43:34.550443+00:00",
+    "last_successful_update": "2026-10-09T06:51:25.254226+00:00",
     "article_count": 40,
     "categorized_count": 16,
     "freshest_source": "Task & Purpose",
