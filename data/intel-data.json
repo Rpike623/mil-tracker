@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-10-10T09:10:01Z",
-  "version": 3015,
+  "generated_utc": "2026-10-10T15:36:07Z",
+  "version": 3016,
   "breaking_alert": "Defense News: Estonia’s KrattWorks crafting Shahed-like dummy drone for target practice",
   "naval_deployments": [
     {
@@ -612,15 +612,6 @@
       ]
     },
     {
-      "title": "Official poster depicts the US Army’s newest threat: The Iranian soldier",
-      "link": "https://www.militarytimes.com/news/your-military/2026/10/09/official-poster-depicts-the-us-armys-newest-threat-the-iranian-soldier/",
-      "published": "Fri, 09 Oct 2026 13:00:52 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Japan Launches Seventh Taigei-Class Submarine as Nuclear Propulsion Debate Grows",
       "link": "https://www.navalnews.com/naval-news/2026/10/japan-launches-seventh-taigei-class-submarine-as-nuclear-propulsion-debate-grows/",
       "published": "Thu, 08 Oct 2026 06:38:18 +0000",
@@ -684,6 +675,15 @@
       "categories": [
         "deployment",
         "exercise"
+      ]
+    },
+    {
+      "title": "Anduril, U.S. Navy Invest $6.6 Billion to Expand America’s Submarine Industrial Base",
+      "link": "https://www.navalnews.com/naval-news/2026/10/anduril-u-s-navy-invest-6-6-billion-to-expand-americas-submarine-industrial-base/",
+      "published": "Tue, 06 Oct 2026 21:24:26 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment"
       ]
     }
   ],
@@ -907,18 +907,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 14,
+    "deployment_articles": 13,
     "conflict_articles": 8,
     "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-10-10T09:09:57.775589+00:00",
+    "computed_at": "2026-10-10T15:36:01.677654+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[Defense News] Estonia’s KrattWorks crafting Shahed-like dummy drone for target practice",
       "[Defense News] Official poster depicts the US Army’s newest threat: The Iranian soldier",
-      "[Military Times] Official poster depicts the US Army’s newest threat: The Iranian soldier",
       "[Military Times] Soldiers intervene on roadside to save children from alleged knife attack",
-      "[USNI News] October Sees Near Daily Strikes on Ships in Hormuz"
+      "[USNI News] October Sees Near Daily Strikes on Ships in Hormuz",
+      "[Defense News] Pentagon, Raytheon sign $6.3B deal to replenish US missile interceptor supply"
     ]
   },
   "ground_intel": {
@@ -929,9 +929,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-10-10T09:09:57.775636+00:00",
+    "last_successful_update": "2026-10-10T15:36:01.677704+00:00",
     "article_count": 50,
-    "categorized_count": 20,
+    "categorized_count": 19,
     "freshest_source": "Defense News",
     "freshest_title": "Estonia’s KrattWorks crafting Shahed-like dummy drone for target practice",
     "freshest_published": "Fri, 09 Oct 2026 10:11:46 +0000"
