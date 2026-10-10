@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-10-10T19:39:56Z",
-  "version": 3017,
+  "generated_utc": "2026-10-10T22:59:53Z",
+  "version": 3018,
   "breaking_alert": "Defense News: Estonia’s KrattWorks crafting Shahed-like dummy drone for target practice",
   "naval_deployments": [
     {
@@ -612,6 +612,15 @@
       ]
     },
     {
+      "title": "Pentagon raises Iran war death toll to 21",
+      "link": "https://taskandpurpose.com/news/pentagon-iran-war-death-toll-21/",
+      "published": "Sat, 10 Oct 2026 15:56:28 -0400",
+      "source": "Task & Purpose",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "Japan Launches Seventh Taigei-Class Submarine as Nuclear Propulsion Debate Grows",
       "link": "https://www.navalnews.com/naval-news/2026/10/japan-launches-seventh-taigei-class-submarine-as-nuclear-propulsion-debate-grows/",
       "published": "Thu, 08 Oct 2026 06:38:18 +0000",
@@ -675,15 +684,6 @@
       "categories": [
         "deployment",
         "exercise"
-      ]
-    },
-    {
-      "title": "Anduril, U.S. Navy Invest $6.6 Billion to Expand America’s Submarine Industrial Base",
-      "link": "https://www.navalnews.com/naval-news/2026/10/anduril-u-s-navy-invest-6-6-billion-to-expand-americas-submarine-industrial-base/",
-      "published": "Tue, 06 Oct 2026 21:24:26 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment"
       ]
     }
   ],
@@ -908,11 +908,11 @@
   ],
   "_threat_indicators": {
     "deployment_articles": 12,
-    "conflict_articles": 8,
+    "conflict_articles": 7,
     "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-10-10T19:35:15.783681+00:00",
-    "manual_override": "DEFCON_2",
+    "computed_at": "2026-10-10T22:59:48.053172+00:00",
+    "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Defense News] Estonia’s KrattWorks crafting Shahed-like dummy drone for target practice",
       "[Defense News] Official poster depicts the US Army’s newest threat: The Iranian soldier",
@@ -929,7 +929,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-10-10T19:35:15.783728+00:00",
+    "last_successful_update": "2026-10-10T22:59:48.053211+00:00",
     "article_count": 50,
     "categorized_count": 18,
     "freshest_source": "Defense News",
