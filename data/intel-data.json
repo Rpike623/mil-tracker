@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-10-11T07:55:15Z",
-  "version": 3020,
+  "generated_utc": "2026-10-11T14:26:04Z",
+  "version": 3021,
   "breaking_alert": "Defense News: Estonia’s KrattWorks crafting Shahed-like dummy drone for target practice",
   "naval_deployments": [
     {
@@ -621,6 +621,15 @@
       ]
     },
     {
+      "title": "U.S. Navy Seeks Information on SSN(X) Next Gen Submarine",
+      "link": "https://www.navalnews.com/naval-news/2026/10/u-s-navy-seeks-information-on-ssnx-next-gen-submarine/",
+      "published": "Sun, 11 Oct 2026 08:26:17 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "Japan Launches Seventh Taigei-Class Submarine as Nuclear Propulsion Debate Grows",
       "link": "https://www.navalnews.com/naval-news/2026/10/japan-launches-seventh-taigei-class-submarine-as-nuclear-propulsion-debate-grows/",
       "published": "Thu, 08 Oct 2026 06:38:18 +0000",
@@ -674,16 +683,6 @@
       "source": "USNI News",
       "categories": [
         "deployment"
-      ]
-    },
-    {
-      "title": "Pentagon barred Qatar base access to hide Iran war damage, US senator claims",
-      "link": "https://www.defensenews.com/news/pentagon-congress/2026/10/08/pentagon-barred-qatar-base-access-to-hide-iran-war-damage-us-senator-claims/",
-      "published": "Thu, 08 Oct 2026 21:30:28 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment",
-        "exercise"
       ]
     }
   ],
@@ -907,11 +906,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 12,
+    "deployment_articles": 13,
     "conflict_articles": 7,
     "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-10-11T07:55:10.497340+00:00",
+    "computed_at": "2026-10-11T14:25:59.737407+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Defense News] Estonia’s KrattWorks crafting Shahed-like dummy drone for target practice",
@@ -929,9 +928,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-10-11T07:55:10.497381+00:00",
+    "last_successful_update": "2026-10-11T14:25:59.737444+00:00",
     "article_count": 50,
-    "categorized_count": 18,
+    "categorized_count": 19,
     "freshest_source": "Defense News",
     "freshest_title": "Estonia’s KrattWorks crafting Shahed-like dummy drone for target practice",
     "freshest_published": "Fri, 09 Oct 2026 10:11:46 +0000"
