@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-10-11T14:26:04Z",
-  "version": 3021,
+  "generated_utc": "2026-10-11T19:14:14Z",
+  "version": 3022,
   "breaking_alert": "Defense News: Estonia’s KrattWorks crafting Shahed-like dummy drone for target practice",
   "naval_deployments": [
     {
@@ -630,6 +630,15 @@
       ]
     },
     {
+      "title": "Army releases ‘Know the Threat’ guide on Iranian soldiers",
+      "link": "https://taskandpurpose.com/news/army-know-the-threat-iran-guide/",
+      "published": "Sun, 11 Oct 2026 12:44:07 -0400",
+      "source": "Task & Purpose",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "Japan Launches Seventh Taigei-Class Submarine as Nuclear Propulsion Debate Grows",
       "link": "https://www.navalnews.com/naval-news/2026/10/japan-launches-seventh-taigei-class-submarine-as-nuclear-propulsion-debate-grows/",
       "published": "Thu, 08 Oct 2026 06:38:18 +0000",
@@ -643,15 +652,6 @@
       "link": "https://www.navalnews.com/naval-news/2026/10/hindustan-shipyard-launches-first-fleet-support-ship-surya-for-indian-navy/",
       "published": "Thu, 08 Oct 2026 09:54:05 +0000",
       "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Tracking America’s latest conflict: The Iran war timeline",
-      "link": "https://taskandpurpose.com/news/iran-war-timeline/",
-      "published": "Thu, 08 Oct 2026 10:18:45 -0400",
-      "source": "Task & Purpose",
       "categories": [
         "deployment"
       ]
@@ -910,7 +910,7 @@
     "conflict_articles": 7,
     "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-10-11T14:25:59.737407+00:00",
+    "computed_at": "2026-10-11T19:14:12.083039+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Defense News] Estonia’s KrattWorks crafting Shahed-like dummy drone for target practice",
@@ -928,7 +928,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-10-11T14:25:59.737444+00:00",
+    "last_successful_update": "2026-10-11T19:14:12.083088+00:00",
     "article_count": 50,
     "categorized_count": 19,
     "freshest_source": "Defense News",
