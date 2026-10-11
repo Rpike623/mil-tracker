@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-10-10T22:59:53Z",
-  "version": 3018,
+  "generated_utc": "2026-10-11T01:34:25Z",
+  "version": 3019,
   "breaking_alert": "Defense News: Estonia’s KrattWorks crafting Shahed-like dummy drone for target practice",
   "naval_deployments": [
     {
@@ -911,7 +911,7 @@
     "conflict_articles": 7,
     "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-10-10T22:59:48.053172+00:00",
+    "computed_at": "2026-10-11T01:34:20.297371+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Defense News] Estonia’s KrattWorks crafting Shahed-like dummy drone for target practice",
@@ -929,7 +929,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-10-10T22:59:48.053211+00:00",
+    "last_successful_update": "2026-10-11T01:34:20.297418+00:00",
     "article_count": 50,
     "categorized_count": 18,
     "freshest_source": "Defense News",
