@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-10-12T02:53:52Z",
-  "version": 3024,
+  "generated_utc": "2026-10-12T09:51:47Z",
+  "version": 3025,
   "breaking_alert": "Defense News: Estonia’s KrattWorks crafting Shahed-like dummy drone for target practice",
   "naval_deployments": [
     {
@@ -894,23 +894,14 @@
         "deployment",
         "exercise"
       ]
-    },
-    {
-      "title": "HD Hyundai Signs Strategic Teaming Agreement With Croatia’s Iskra Shipyard for Multirole Corvettes and Expanded Maritime Cooperation",
-      "link": "https://www.navalnews.com/naval-news/2026/10/hd-hyundai-signs-strategic-teaming-agreement-with-croatias-iskra-shipyard-for-multirole-corvettes-and-expanded-maritime-cooperation/",
-      "published": "Wed, 07 Oct 2026 10:20:09 +0000",
-      "source": "Naval News",
-      "categories": [
-        "exercise"
-      ]
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 13,
+    "deployment_articles": 12,
     "conflict_articles": 7,
-    "exercise_articles": 2,
+    "exercise_articles": 1,
     "total_articles": 50,
-    "computed_at": "2026-10-12T02:49:12.015591+00:00",
+    "computed_at": "2026-10-12T09:51:45.427068+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Defense News] Estonia’s KrattWorks crafting Shahed-like dummy drone for target practice",
@@ -928,9 +919,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-10-12T02:49:12.015639+00:00",
+    "last_successful_update": "2026-10-12T09:51:45.427116+00:00",
     "article_count": 50,
-    "categorized_count": 19,
+    "categorized_count": 17,
     "freshest_source": "Defense News",
     "freshest_title": "Estonia’s KrattWorks crafting Shahed-like dummy drone for target practice",
     "freshest_published": "Fri, 09 Oct 2026 10:11:46 +0000"
