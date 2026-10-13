@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-10-12T19:26:36Z",
-  "version": 3026,
+  "generated_utc": "2026-10-13T01:40:19Z",
+  "version": 3027,
   "breaking_alert": "USNI News: October Sees Near Daily Strikes on Ships in Hormuz",
   "naval_deployments": [
     {
@@ -621,19 +621,19 @@
       ]
     },
     {
-      "title": "US Army, GM Defense agree to add 12,000 Infantry Squad Vehicles to fleet",
-      "link": "https://www.militarytimes.com/news/your-army/2026/10/12/us-army-gm-defense-agree-to-add-12000-infantry-squad-vehicles-to-fleet/",
-      "published": "Mon, 12 Oct 2026 15:30:46 +0000",
-      "source": "Military Times",
+      "title": "U.K. Royal Navy Destroyer Returns Home From Middle East, Strait of Hormuz Multinational Mission in Limbo",
+      "link": "https://news.usni.org/2026/10/12/u-k-royal-navy-destroyer-returns-home-from-middle-east-strait-of-hormuz-multinational-mission-in-limbo",
+      "published": "Mon, 12 Oct 2026 17:56:01 +0000",
+      "source": "USNI News",
       "categories": [
         "deployment"
       ]
     },
     {
-      "title": "U.K. Royal Navy Destroyer Returns Home From Middle East, Strait of Hormuz Multinational Mission in Limbo",
-      "link": "https://news.usni.org/2026/10/12/u-k-royal-navy-destroyer-returns-home-from-middle-east-strait-of-hormuz-multinational-mission-in-limbo",
-      "published": "Mon, 12 Oct 2026 17:56:01 +0000",
-      "source": "USNI News",
+      "title": "French Navy Intercepts and Boards Shadow Fleet Tanker ‘DF Peak’ South of Réunion",
+      "link": "https://www.navalnews.com/naval-news/2026/10/french-navy-intercepts-and-boards-shadow-fleet-tanker-df-peak-south-of-reunion/",
+      "published": "Mon, 12 Oct 2026 20:35:27 +0000",
+      "source": "Naval News",
       "categories": [
         "deployment"
       ]
@@ -890,14 +890,14 @@
     "conflict_articles": 6,
     "exercise_articles": 0,
     "total_articles": 50,
-    "computed_at": "2026-10-12T19:26:32.610473+00:00",
+    "computed_at": "2026-10-13T01:40:16.983101+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[USNI News] October Sees Near Daily Strikes on Ships in Hormuz",
       "[Task & Purpose] The future of mechanized infantry is charging your phone",
       "[Task & Purpose] Tracking America’s latest conflict: The Iran war timeline",
       "[Naval News] Video: Inside Naval Group’s Next-Gen SETIS Combat Management System",
-      "[Military Times] US Army, GM Defense agree to add 12,000 Infantry Squad Vehicles to fleet"
+      "[Defense News] India sells air defense missiles to Tajikistan, Turkmenistan in Central Asia push"
     ]
   },
   "ground_intel": {
@@ -908,7 +908,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-10-12T19:26:32.610516+00:00",
+    "last_successful_update": "2026-10-13T01:40:16.983151+00:00",
     "article_count": 50,
     "categorized_count": 15,
     "freshest_source": "USNI News",
