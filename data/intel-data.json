@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-10-13T08:34:40Z",
-  "version": 3028,
+  "generated_utc": "2026-10-13T16:30:56Z",
+  "version": 3029,
   "breaking_alert": "USNI News: October Sees Near Daily Strikes on Ships in Hormuz",
   "naval_deployments": [
     {
@@ -847,15 +847,6 @@
       ]
     },
     {
-      "title": "3 US soldiers awarded Purple Hearts after March missile attack on Saudi Arabia base",
-      "link": "https://www.militarytimes.com/news/your-military/2026/10/12/3-us-soldiers-awarded-purple-hearts-after-missile-attack-on-saudi-arabia-base/",
-      "published": "Mon, 12 Oct 2026 17:32:12 +0000",
-      "source": "Military Times",
-      "categories": [
-        "conflict"
-      ]
-    },
-    {
       "title": "France Fires New Submarine-launched Ballistic Missile in First At-sea Test",
       "link": "https://news.usni.org/2026/10/08/france-fires-new-submarine-launched-ballistic-missile-in-first-at-sea-test",
       "published": "Thu, 08 Oct 2026 16:05:10 +0000",
@@ -878,18 +869,18 @@
   ],
   "_exercise_news_refs": [],
   "_threat_indicators": {
-    "deployment_articles": 11,
-    "conflict_articles": 4,
+    "deployment_articles": 13,
+    "conflict_articles": 3,
     "exercise_articles": 0,
-    "total_articles": 40,
-    "computed_at": "2026-10-13T08:34:35.184613+00:00",
+    "total_articles": 50,
+    "computed_at": "2026-10-13T16:30:46.025602+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[USNI News] October Sees Near Daily Strikes on Ships in Hormuz",
       "[Task & Purpose] The future of mechanized infantry is charging your phone",
       "[Task & Purpose] Tracking America’s latest conflict: The Iran war timeline",
       "[Naval News] Video: Inside Naval Group’s Next-Gen SETIS Combat Management System",
-      "[Military Times] 3 US soldiers awarded Purple Hearts after March missile attack on Saudi Arabia base"
+      "[USNI News] U.K. Royal Navy Destroyer Returns Home From Middle East, Strait of Hormuz Multinational Mission in Limbo"
     ]
   },
   "ground_intel": {
@@ -900,9 +891,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-10-13T08:34:35.184660+00:00",
-    "article_count": 40,
-    "categorized_count": 13,
+    "last_successful_update": "2026-10-13T16:30:46.025644+00:00",
+    "article_count": 50,
+    "categorized_count": 14,
     "freshest_source": "USNI News",
     "freshest_title": "October Sees Near Daily Strikes on Ships in Hormuz",
     "freshest_published": "Fri, 09 Oct 2026 20:09:18 +0000"
