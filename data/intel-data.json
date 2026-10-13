@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-10-13T01:40:19Z",
-  "version": 3027,
+  "generated_utc": "2026-10-13T08:34:40Z",
+  "version": 3028,
   "breaking_alert": "USNI News: October Sees Near Daily Strikes on Ships in Hormuz",
   "naval_deployments": [
     {
@@ -847,24 +847,6 @@
       ]
     },
     {
-      "title": "India sells air defense missiles to Tajikistan, Turkmenistan in Central Asia push",
-      "link": "https://www.defensenews.com/global/asia-pacific/2026/10/12/india-sells-air-defense-missiles-to-tajikistan-turkmenistan-in-central-asia-push/",
-      "published": "Mon, 12 Oct 2026 16:49:35 +0000",
-      "source": "Defense News",
-      "categories": [
-        "conflict"
-      ]
-    },
-    {
-      "title": "3 US soldiers awarded Purple Hearts after March missile attack on Saudi Arabia base",
-      "link": "https://www.defensenews.com/news/your-military/2026/10/12/3-us-soldiers-awarded-purple-hearts-after-missile-attack-on-saudi-arabia-base/",
-      "published": "Mon, 12 Oct 2026 17:32:12 +0000",
-      "source": "Defense News",
-      "categories": [
-        "conflict"
-      ]
-    },
-    {
       "title": "3 US soldiers awarded Purple Hearts after March missile attack on Saudi Arabia base",
       "link": "https://www.militarytimes.com/news/your-military/2026/10/12/3-us-soldiers-awarded-purple-hearts-after-missile-attack-on-saudi-arabia-base/",
       "published": "Mon, 12 Oct 2026 17:32:12 +0000",
@@ -882,22 +864,32 @@
         "deployment",
         "conflict"
       ]
+    },
+    {
+      "title": "Abraham Lincoln Carrier Strike Group Returns to San Diego After Nearly 11 Months",
+      "link": "https://news.usni.org/2026/10/08/abraham-lincoln-carrier-strike-group-returns-to-san-diego-after-nearly-11-months",
+      "published": "Thu, 08 Oct 2026 19:21:49 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
     }
   ],
   "_exercise_news_refs": [],
   "_threat_indicators": {
     "deployment_articles": 11,
-    "conflict_articles": 6,
+    "conflict_articles": 4,
     "exercise_articles": 0,
-    "total_articles": 50,
-    "computed_at": "2026-10-13T01:40:16.983101+00:00",
+    "total_articles": 40,
+    "computed_at": "2026-10-13T08:34:35.184613+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[USNI News] October Sees Near Daily Strikes on Ships in Hormuz",
       "[Task & Purpose] The future of mechanized infantry is charging your phone",
       "[Task & Purpose] Tracking America’s latest conflict: The Iran war timeline",
       "[Naval News] Video: Inside Naval Group’s Next-Gen SETIS Combat Management System",
-      "[Defense News] India sells air defense missiles to Tajikistan, Turkmenistan in Central Asia push"
+      "[Military Times] 3 US soldiers awarded Purple Hearts after March missile attack on Saudi Arabia base"
     ]
   },
   "ground_intel": {
@@ -908,9 +900,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-10-13T01:40:16.983151+00:00",
-    "article_count": 50,
-    "categorized_count": 15,
+    "last_successful_update": "2026-10-13T08:34:35.184660+00:00",
+    "article_count": 40,
+    "categorized_count": 13,
     "freshest_source": "USNI News",
     "freshest_title": "October Sees Near Daily Strikes on Ships in Hormuz",
     "freshest_published": "Fri, 09 Oct 2026 20:09:18 +0000"
