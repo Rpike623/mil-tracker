@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-10-14T19:46:21Z",
-  "version": 3035,
+  "generated_utc": "2026-10-14T22:44:30Z",
+  "version": 3036,
   "breaking_alert": "USNI News: October Sees Near Daily Strikes on Ships in Hormuz",
   "naval_deployments": [
     {
@@ -594,15 +594,6 @@
   ],
   "_naval_news_refs": [
     {
-      "title": "The future of mechanized infantry is charging your phone",
-      "link": "https://taskandpurpose.com/news/mechanized-infantry-energy-use/",
-      "published": "Mon, 12 Oct 2026 08:00:00 -0400",
-      "source": "Task & Purpose",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Tracking America’s latest conflict: The Iran war timeline",
       "link": "https://taskandpurpose.com/news/iran-war-timeline/",
       "published": "Mon, 12 Oct 2026 09:09:37 -0400",
@@ -676,6 +667,24 @@
         "deployment",
         "exercise",
         "conflict"
+      ]
+    },
+    {
+      "title": "VIDEO: F-35C Lands on New Navy Aircraft Carrier Class for First Time",
+      "link": "https://news.usni.org/2026/10/14/video-f-35c-lands-on-new-navy-aircraft-carrier-class-for-first-time",
+      "published": "Wed, 14 Oct 2026 20:06:45 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "France mulls keeping Charles de Gaulle carrier sailing after 2038",
+      "link": "https://www.defensenews.com/global/europe/2026/10/14/france-mulls-keeping-charles-de-gaulle-carrier-sailing-after-2038/",
+      "published": "Wed, 14 Oct 2026 21:19:30 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment"
       ]
     }
   ],
@@ -858,18 +867,27 @@
         "exercise",
         "conflict"
       ]
+    },
+    {
+      "title": "Disrupt, Strike, Assault and Endure: The 4 pillars of the US Army’s new warfare guidance",
+      "link": "https://www.defensenews.com/news/your-military/2026/10/14/disrupt-strike-assault-and-endure-the-4-pillars-of-the-us-armys-new-warfare-guidance/",
+      "published": "Wed, 14 Oct 2026 20:00:00 +0000",
+      "source": "Defense News",
+      "categories": [
+        "conflict"
+      ]
+    },
+    {
+      "title": "Disrupt, Strike, Assault and Endure: The 4 pillars of the US Army’s new warfare guidance",
+      "link": "https://www.militarytimes.com/news/your-military/2026/10/14/disrupt-strike-assault-and-endure-the-4-pillars-of-the-us-armys-new-warfare-guidance/",
+      "published": "Wed, 14 Oct 2026 20:00:00 +0000",
+      "source": "Military Times",
+      "categories": [
+        "conflict"
+      ]
     }
   ],
   "_exercise_news_refs": [
-    {
-      "title": "US Army transfers 600 enlisted soldiers to Space Operations Branch",
-      "link": "https://www.militarytimes.com/news/your-military/2026/10/14/us-army-transfers-600-enlisted-soldiers-to-space-operations-branch/",
-      "published": "Wed, 14 Oct 2026 09:30:00 +0000",
-      "source": "Military Times",
-      "categories": [
-        "exercise"
-      ]
-    },
     {
       "title": "US Army generals propose larger-footprint, more frequent military exercises in Korea",
       "link": "https://www.defensenews.com/news/your-military/2026/10/14/us-army-generals-propose-larger-footprint-more-frequent-military-exercises-in-korea/",
@@ -903,18 +921,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 9,
-    "conflict_articles": 3,
-    "exercise_articles": 4,
+    "deployment_articles": 10,
+    "conflict_articles": 5,
+    "exercise_articles": 3,
     "total_articles": 40,
-    "computed_at": "2026-10-14T19:46:13.188059+00:00",
+    "computed_at": "2026-10-14T22:44:28.474525+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[USNI News] October Sees Near Daily Strikes on Ships in Hormuz",
-      "[Task & Purpose] The future of mechanized infantry is charging your phone",
       "[Task & Purpose] Tracking America’s latest conflict: The Iran war timeline",
       "[USNI News] U.K. Royal Navy Destroyer Returns Home From Middle East, Strait of Hormuz Multinational Mission in Limbo",
-      "[USNI News] French Navy Seizes Suspected Shadow Fleet Tanker in Indian Ocean"
+      "[USNI News] French Navy Seizes Suspected Shadow Fleet Tanker in Indian Ocean",
+      "[USNI News] USNI News Fleet and Marine Tracker: Oct. 13, 2026"
     ]
   },
   "ground_intel": {
@@ -925,9 +943,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-10-14T19:46:13.188100+00:00",
+    "last_successful_update": "2026-10-14T22:44:28.474563+00:00",
     "article_count": 40,
-    "categorized_count": 12,
+    "categorized_count": 14,
     "freshest_source": "USNI News",
     "freshest_title": "October Sees Near Daily Strikes on Ships in Hormuz",
     "freshest_published": "Fri, 09 Oct 2026 20:09:18 +0000"
