@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-10-14T10:41:58Z",
-  "version": 3033,
+  "generated_utc": "2026-10-14T15:34:23Z",
+  "version": 3034,
   "breaking_alert": "USNI News: October Sees Near Daily Strikes on Ships in Hormuz",
   "naval_deployments": [
     {
@@ -612,15 +612,6 @@
       ]
     },
     {
-      "title": "Video: Inside Naval Group’s Next-Gen SETIS Combat Management System",
-      "link": "https://www.navalnews.com/event-news/euronaval-2026/2026/10/video-inside-naval-groups-next-gen-setis-combat-management-system/",
-      "published": "Mon, 12 Oct 2026 14:50:55 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "U.K. Royal Navy Destroyer Returns Home From Middle East, Strait of Hormuz Multinational Mission in Limbo",
       "link": "https://news.usni.org/2026/10/12/u-k-royal-navy-destroyer-returns-home-from-middle-east-strait-of-hormuz-multinational-mission-in-limbo",
       "published": "Mon, 12 Oct 2026 17:56:01 +0000",
@@ -630,28 +621,10 @@
       ]
     },
     {
-      "title": "French Navy Intercepts and Boards Shadow Fleet Tanker ‘DF Peak’ South of Réunion",
-      "link": "https://www.navalnews.com/naval-news/2026/10/french-navy-intercepts-and-boards-shadow-fleet-tanker-df-peak-south-of-reunion/",
-      "published": "Mon, 12 Oct 2026 20:35:27 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Army releases ‘Know the Threat’ guide on Iranian soldiers",
       "link": "https://taskandpurpose.com/news/army-know-the-threat-iran-guide/",
       "published": "Sun, 11 Oct 2026 12:44:07 -0400",
       "source": "Task & Purpose",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Sweden Formalizes Interim Submarine Training and Södermanland Lease for Poland",
-      "link": "https://www.navalnews.com/naval-news/2026/10/sweden-formalizes-interim-submarine-training-and-sodermanland-lease-for-poland/",
-      "published": "Tue, 13 Oct 2026 11:39:15 +0000",
-      "source": "Naval News",
       "categories": [
         "deployment"
       ]
@@ -679,6 +652,15 @@
       "link": "https://news.usni.org/2026/10/13/ncis-investigating-submarine-sailor-death-on-naval-base-kitsap",
       "published": "Tue, 13 Oct 2026 22:15:49 +0000",
       "source": "USNI News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Pete Hegseth to discuss autonomous warfare at AUSA Annual 2026 on Oct 14 at 10am EST",
+      "link": "https://www.defensenews.com/breaking-news/2026/10/14/pete-hegseth-to-discuss-autonomous-warfare-at-ausa-annual-2026-on-oct-14-at-10am-est/",
+      "published": "Wed, 14 Oct 2026 14:00:03 +0000",
+      "source": "Defense News",
       "categories": [
         "deployment"
       ]
@@ -846,18 +828,18 @@
     },
     {
       "title": "Anduril’s Palmer Luckey envisions missiles made in car factories, underground battles",
-      "link": "https://www.defensenews.com/industry/techwatch/2026/10/13/andurils-palmer-luckey-envisions-missiles-made-in-car-factories-underground-battles/",
+      "link": "https://www.militarytimes.com/industry/techwatch/2026/10/13/andurils-palmer-luckey-envisions-missiles-made-in-car-factories-underground-battles/",
       "published": "Tue, 13 Oct 2026 22:30:00 +0000",
-      "source": "Defense News",
+      "source": "Military Times",
       "categories": [
         "conflict"
       ]
     },
     {
-      "title": "Anduril’s Palmer Luckey envisions missiles made in car factories, underground battles",
-      "link": "https://www.militarytimes.com/industry/techwatch/2026/10/13/andurils-palmer-luckey-envisions-missiles-made-in-car-factories-underground-battles/",
-      "published": "Tue, 13 Oct 2026 22:30:00 +0000",
-      "source": "Military Times",
+      "title": "Navy Contracts Ursa Major to Develop Rocket Motors for Next-gen Missile Programs",
+      "link": "https://news.usni.org/2026/10/14/navy-contracts-ursa-major-to-develop-rocket-motors-for-next-gen-missile-programs",
+      "published": "Wed, 14 Oct 2026 13:56:30 +0000",
+      "source": "USNI News",
       "categories": [
         "conflict"
       ]
@@ -884,18 +866,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 10,
+    "deployment_articles": 8,
     "conflict_articles": 3,
     "exercise_articles": 2,
-    "total_articles": 50,
-    "computed_at": "2026-10-14T10:41:49.868649+00:00",
+    "total_articles": 40,
+    "computed_at": "2026-10-14T15:34:15.326375+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[USNI News] October Sees Near Daily Strikes on Ships in Hormuz",
       "[Task & Purpose] The future of mechanized infantry is charging your phone",
       "[Task & Purpose] Tracking America’s latest conflict: The Iran war timeline",
-      "[Naval News] Video: Inside Naval Group’s Next-Gen SETIS Combat Management System",
-      "[USNI News] U.K. Royal Navy Destroyer Returns Home From Middle East, Strait of Hormuz Multinational Mission in Limbo"
+      "[USNI News] U.K. Royal Navy Destroyer Returns Home From Middle East, Strait of Hormuz Multinational Mission in Limbo",
+      "[Task & Purpose] Army releases ‘Know the Threat’ guide on Iranian soldiers"
     ]
   },
   "ground_intel": {
@@ -906,9 +888,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-10-14T10:41:49.868713+00:00",
-    "article_count": 50,
-    "categorized_count": 15,
+    "last_successful_update": "2026-10-14T15:34:15.326412+00:00",
+    "article_count": 40,
+    "categorized_count": 13,
     "freshest_source": "USNI News",
     "freshest_title": "October Sees Near Daily Strikes on Ships in Hormuz",
     "freshest_published": "Fri, 09 Oct 2026 20:09:18 +0000"
