@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-10-13T21:36:10Z",
-  "version": 3030,
+  "generated_utc": "2026-10-14T00:45:35Z",
+  "version": 3031,
   "breaking_alert": "USNI News: October Sees Near Daily Strikes on Ships in Hormuz",
   "naval_deployments": [
     {
@@ -657,15 +657,6 @@
       ]
     },
     {
-      "title": "U.S. Destroyer Goes into Spanish Dry Dock for Maintenance Overhaul",
-      "link": "https://news.usni.org/2026/10/08/u-s-destroyer-goes-into-spanish-dry-dock-for-maintenance-overhaul",
-      "published": "Thu, 08 Oct 2026 20:34:03 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Sweden Formalizes Interim Submarine Training and Södermanland Lease for Poland",
       "link": "https://www.navalnews.com/naval-news/2026/10/sweden-formalizes-interim-submarine-training-and-sodermanland-lease-for-poland/",
       "published": "Tue, 13 Oct 2026 11:39:15 +0000",
@@ -679,6 +670,15 @@
       "link": "https://news.usni.org/2026/10/13/french-navy-seizes-suspected-shadow-fleet-tanker-in-indian-ocean",
       "published": "Tue, 13 Oct 2026 16:01:52 +0000",
       "source": "USNI News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "US Army targets 2028 for first high-energy laser counter-drone weapons",
+      "link": "https://www.militarytimes.com/industry/techwatch/2026/10/13/us-army-targets-2028-for-first-high-energy-laser-counter-drone-weapons/",
+      "published": "Tue, 13 Oct 2026 17:45:00 +0000",
+      "source": "Military Times",
       "categories": [
         "deployment"
       ]
@@ -845,18 +845,18 @@
       ]
     },
     {
-      "title": "Anduril reveals family of surface-to-air interceptor missiles",
-      "link": "https://www.defensenews.com/industry/techwatch/2026/10/13/anduril-reveals-family-of-surface-to-air-interceptor-missiles/",
-      "published": "Tue, 13 Oct 2026 17:15:00 +0000",
+      "title": "Anduril’s Palmer Luckey envisions missiles made in car factories, underground battles",
+      "link": "https://www.defensenews.com/industry/techwatch/2026/10/13/andurils-palmer-luckey-envisions-missiles-made-in-car-factories-underground-battles/",
+      "published": "Tue, 13 Oct 2026 22:30:00 +0000",
       "source": "Defense News",
       "categories": [
         "conflict"
       ]
     },
     {
-      "title": "Anduril reveals family of surface-to-air interceptor missiles",
-      "link": "https://www.militarytimes.com/industry/techwatch/2026/10/13/anduril-reveals-family-of-surface-to-air-interceptor-missiles/",
-      "published": "Tue, 13 Oct 2026 17:15:00 +0000",
+      "title": "Anduril’s Palmer Luckey envisions missiles made in car factories, underground battles",
+      "link": "https://www.militarytimes.com/industry/techwatch/2026/10/13/andurils-palmer-luckey-envisions-missiles-made-in-car-factories-underground-battles/",
+      "published": "Tue, 13 Oct 2026 22:30:00 +0000",
       "source": "Military Times",
       "categories": [
         "conflict"
@@ -865,11 +865,11 @@
   ],
   "_exercise_news_refs": [],
   "_threat_indicators": {
-    "deployment_articles": 13,
+    "deployment_articles": 12,
     "conflict_articles": 3,
     "exercise_articles": 0,
     "total_articles": 50,
-    "computed_at": "2026-10-13T21:36:04.166933+00:00",
+    "computed_at": "2026-10-14T00:40:54.799648+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[USNI News] October Sees Near Daily Strikes on Ships in Hormuz",
@@ -887,9 +887,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-10-13T21:36:04.166969+00:00",
+    "last_successful_update": "2026-10-14T00:40:54.799697+00:00",
     "article_count": 50,
-    "categorized_count": 16,
+    "categorized_count": 15,
     "freshest_source": "USNI News",
     "freshest_title": "October Sees Near Daily Strikes on Ships in Hormuz",
     "freshest_published": "Fri, 09 Oct 2026 20:09:18 +0000"
