@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-10-14T15:34:23Z",
-  "version": 3034,
+  "generated_utc": "2026-10-14T19:46:21Z",
+  "version": 3035,
   "breaking_alert": "USNI News: October Sees Near Daily Strikes on Ships in Hormuz",
   "naval_deployments": [
     {
@@ -621,15 +621,6 @@
       ]
     },
     {
-      "title": "Army releases ‘Know the Threat’ guide on Iranian soldiers",
-      "link": "https://taskandpurpose.com/news/army-know-the-threat-iran-guide/",
-      "published": "Sun, 11 Oct 2026 12:44:07 -0400",
-      "source": "Task & Purpose",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "French Navy Seizes Suspected Shadow Fleet Tanker in Indian Ocean",
       "link": "https://news.usni.org/2026/10/13/french-navy-seizes-suspected-shadow-fleet-tanker-in-indian-ocean",
       "published": "Tue, 13 Oct 2026 16:01:52 +0000",
@@ -657,12 +648,34 @@
       ]
     },
     {
-      "title": "Pete Hegseth to discuss autonomous warfare at AUSA Annual 2026 on Oct 14 at 10am EST",
-      "link": "https://www.defensenews.com/breaking-news/2026/10/14/pete-hegseth-to-discuss-autonomous-warfare-at-ausa-annual-2026-on-oct-14-at-10am-est/",
-      "published": "Wed, 14 Oct 2026 14:00:03 +0000",
+      "title": "US Army generals propose larger-footprint, more frequent military exercises in Korea",
+      "link": "https://www.defensenews.com/news/your-military/2026/10/14/us-army-generals-propose-larger-footprint-more-frequent-military-exercises-in-korea/",
+      "published": "Wed, 14 Oct 2026 17:00:00 +0000",
       "source": "Defense News",
       "categories": [
-        "deployment"
+        "deployment",
+        "exercise"
+      ]
+    },
+    {
+      "title": "US Army generals propose larger-footprint, more frequent military exercises in Korea",
+      "link": "https://www.militarytimes.com/news/your-military/2026/10/14/us-army-generals-propose-larger-footprint-more-frequent-military-exercises-in-korea/",
+      "published": "Wed, 14 Oct 2026 17:00:00 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment",
+        "exercise"
+      ]
+    },
+    {
+      "title": "Chinese Carrier Strike Group Drills in the Philippine Sea",
+      "link": "https://news.usni.org/2026/10/14/chinese-carrier-strike-group-drills-in-the-philippine-sea",
+      "published": "Wed, 14 Oct 2026 17:41:35 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment",
+        "exercise",
+        "conflict"
       ]
     }
   ],
@@ -827,15 +840,6 @@
       ]
     },
     {
-      "title": "Anduril’s Palmer Luckey envisions missiles made in car factories, underground battles",
-      "link": "https://www.militarytimes.com/industry/techwatch/2026/10/13/andurils-palmer-luckey-envisions-missiles-made-in-car-factories-underground-battles/",
-      "published": "Tue, 13 Oct 2026 22:30:00 +0000",
-      "source": "Military Times",
-      "categories": [
-        "conflict"
-      ]
-    },
-    {
       "title": "Navy Contracts Ursa Major to Develop Rocket Motors for Next-gen Missile Programs",
       "link": "https://news.usni.org/2026/10/14/navy-contracts-ursa-major-to-develop-rocket-motors-for-next-gen-missile-programs",
       "published": "Wed, 14 Oct 2026 13:56:30 +0000",
@@ -843,18 +847,20 @@
       "categories": [
         "conflict"
       ]
+    },
+    {
+      "title": "Chinese Carrier Strike Group Drills in the Philippine Sea",
+      "link": "https://news.usni.org/2026/10/14/chinese-carrier-strike-group-drills-in-the-philippine-sea",
+      "published": "Wed, 14 Oct 2026 17:41:35 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment",
+        "exercise",
+        "conflict"
+      ]
     }
   ],
   "_exercise_news_refs": [
-    {
-      "title": "US Army transfers 600 enlisted soldiers to Space Operations Branch",
-      "link": "https://www.defensenews.com/news/your-military/2026/10/14/us-army-transfers-600-enlisted-soldiers-to-space-operations-branch/",
-      "published": "Wed, 14 Oct 2026 09:30:00 +0000",
-      "source": "Defense News",
-      "categories": [
-        "exercise"
-      ]
-    },
     {
       "title": "US Army transfers 600 enlisted soldiers to Space Operations Branch",
       "link": "https://www.militarytimes.com/news/your-military/2026/10/14/us-army-transfers-600-enlisted-soldiers-to-space-operations-branch/",
@@ -863,21 +869,52 @@
       "categories": [
         "exercise"
       ]
+    },
+    {
+      "title": "US Army generals propose larger-footprint, more frequent military exercises in Korea",
+      "link": "https://www.defensenews.com/news/your-military/2026/10/14/us-army-generals-propose-larger-footprint-more-frequent-military-exercises-in-korea/",
+      "published": "Wed, 14 Oct 2026 17:00:00 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment",
+        "exercise"
+      ]
+    },
+    {
+      "title": "US Army generals propose larger-footprint, more frequent military exercises in Korea",
+      "link": "https://www.militarytimes.com/news/your-military/2026/10/14/us-army-generals-propose-larger-footprint-more-frequent-military-exercises-in-korea/",
+      "published": "Wed, 14 Oct 2026 17:00:00 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment",
+        "exercise"
+      ]
+    },
+    {
+      "title": "Chinese Carrier Strike Group Drills in the Philippine Sea",
+      "link": "https://news.usni.org/2026/10/14/chinese-carrier-strike-group-drills-in-the-philippine-sea",
+      "published": "Wed, 14 Oct 2026 17:41:35 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment",
+        "exercise",
+        "conflict"
+      ]
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 8,
+    "deployment_articles": 9,
     "conflict_articles": 3,
-    "exercise_articles": 2,
+    "exercise_articles": 4,
     "total_articles": 40,
-    "computed_at": "2026-10-14T15:34:15.326375+00:00",
+    "computed_at": "2026-10-14T19:46:13.188059+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[USNI News] October Sees Near Daily Strikes on Ships in Hormuz",
       "[Task & Purpose] The future of mechanized infantry is charging your phone",
       "[Task & Purpose] Tracking America’s latest conflict: The Iran war timeline",
       "[USNI News] U.K. Royal Navy Destroyer Returns Home From Middle East, Strait of Hormuz Multinational Mission in Limbo",
-      "[Task & Purpose] Army releases ‘Know the Threat’ guide on Iranian soldiers"
+      "[USNI News] French Navy Seizes Suspected Shadow Fleet Tanker in Indian Ocean"
     ]
   },
   "ground_intel": {
@@ -888,9 +925,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-10-14T15:34:15.326412+00:00",
+    "last_successful_update": "2026-10-14T19:46:13.188100+00:00",
     "article_count": 40,
-    "categorized_count": 13,
+    "categorized_count": 12,
     "freshest_source": "USNI News",
     "freshest_title": "October Sees Near Daily Strikes on Ships in Hormuz",
     "freshest_published": "Fri, 09 Oct 2026 20:09:18 +0000"
