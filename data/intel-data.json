@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-10-15T01:00:20Z",
-  "version": 3037,
+  "generated_utc": "2026-10-15T05:36:33Z",
+  "version": 3038,
   "breaking_alert": "USNI News: October Sees Near Daily Strikes on Ships in Hormuz",
   "naval_deployments": [
     {
@@ -922,7 +922,7 @@
     "conflict_articles": 5,
     "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-10-15T01:00:09.867946+00:00",
+    "computed_at": "2026-10-15T05:36:30.846882+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[USNI News] October Sees Near Daily Strikes on Ships in Hormuz",
@@ -940,7 +940,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-10-15T01:00:09.867996+00:00",
+    "last_successful_update": "2026-10-15T05:36:30.846931+00:00",
     "article_count": 50,
     "categorized_count": 18,
     "freshest_source": "USNI News",
