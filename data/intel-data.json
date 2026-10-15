@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-10-14T22:44:30Z",
-  "version": 3036,
+  "generated_utc": "2026-10-15T01:00:20Z",
+  "version": 3037,
   "breaking_alert": "USNI News: October Sees Near Daily Strikes on Ships in Hormuz",
   "naval_deployments": [
     {
@@ -603,10 +603,37 @@
       ]
     },
     {
+      "title": "Video: Inside Naval Group’s Next-Gen SETIS Combat Management System",
+      "link": "https://www.navalnews.com/event-news/euronaval-2026/2026/10/video-inside-naval-groups-next-gen-setis-combat-management-system/",
+      "published": "Mon, 12 Oct 2026 14:50:55 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "U.K. Royal Navy Destroyer Returns Home From Middle East, Strait of Hormuz Multinational Mission in Limbo",
       "link": "https://news.usni.org/2026/10/12/u-k-royal-navy-destroyer-returns-home-from-middle-east-strait-of-hormuz-multinational-mission-in-limbo",
       "published": "Mon, 12 Oct 2026 17:56:01 +0000",
       "source": "USNI News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "French Navy Intercepts and Boards Shadow Fleet Tanker ‘DF Peak’ South of Réunion",
+      "link": "https://www.navalnews.com/naval-news/2026/10/french-navy-intercepts-and-boards-shadow-fleet-tanker-df-peak-south-of-reunion/",
+      "published": "Mon, 12 Oct 2026 20:35:27 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Sweden Formalizes Interim Submarine Training and Södermanland Lease for Poland",
+      "link": "https://www.navalnews.com/naval-news/2026/10/sweden-formalizes-interim-submarine-training-and-sodermanland-lease-for-poland/",
+      "published": "Tue, 13 Oct 2026 11:39:15 +0000",
+      "source": "Naval News",
       "categories": [
         "deployment"
       ]
@@ -639,6 +666,15 @@
       ]
     },
     {
+      "title": "New Launcher Spotted Aboard Royal Navy Type 45 Destroyer",
+      "link": "https://www.navalnews.com/naval-news/2026/10/type-45-destroyer-drone-interceptor-launchers/",
+      "published": "Wed, 14 Oct 2026 12:33:16 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "US Army generals propose larger-footprint, more frequent military exercises in Korea",
       "link": "https://www.defensenews.com/news/your-military/2026/10/14/us-army-generals-propose-larger-footprint-more-frequent-military-exercises-in-korea/",
       "published": "Wed, 14 Oct 2026 17:00:00 +0000",
@@ -646,45 +682,6 @@
       "categories": [
         "deployment",
         "exercise"
-      ]
-    },
-    {
-      "title": "US Army generals propose larger-footprint, more frequent military exercises in Korea",
-      "link": "https://www.militarytimes.com/news/your-military/2026/10/14/us-army-generals-propose-larger-footprint-more-frequent-military-exercises-in-korea/",
-      "published": "Wed, 14 Oct 2026 17:00:00 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment",
-        "exercise"
-      ]
-    },
-    {
-      "title": "Chinese Carrier Strike Group Drills in the Philippine Sea",
-      "link": "https://news.usni.org/2026/10/14/chinese-carrier-strike-group-drills-in-the-philippine-sea",
-      "published": "Wed, 14 Oct 2026 17:41:35 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment",
-        "exercise",
-        "conflict"
-      ]
-    },
-    {
-      "title": "VIDEO: F-35C Lands on New Navy Aircraft Carrier Class for First Time",
-      "link": "https://news.usni.org/2026/10/14/video-f-35c-lands-on-new-navy-aircraft-carrier-class-for-first-time",
-      "published": "Wed, 14 Oct 2026 20:06:45 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "France mulls keeping Charles de Gaulle carrier sailing after 2038",
-      "link": "https://www.defensenews.com/global/europe/2026/10/14/france-mulls-keeping-charles-de-gaulle-carrier-sailing-after-2038/",
-      "published": "Wed, 14 Oct 2026 21:19:30 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment"
       ]
     }
   ],
@@ -921,18 +918,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 10,
+    "deployment_articles": 14,
     "conflict_articles": 5,
     "exercise_articles": 3,
-    "total_articles": 40,
-    "computed_at": "2026-10-14T22:44:28.474525+00:00",
+    "total_articles": 50,
+    "computed_at": "2026-10-15T01:00:09.867946+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[USNI News] October Sees Near Daily Strikes on Ships in Hormuz",
       "[Task & Purpose] Tracking America’s latest conflict: The Iran war timeline",
+      "[Naval News] Video: Inside Naval Group’s Next-Gen SETIS Combat Management System",
       "[USNI News] U.K. Royal Navy Destroyer Returns Home From Middle East, Strait of Hormuz Multinational Mission in Limbo",
-      "[USNI News] French Navy Seizes Suspected Shadow Fleet Tanker in Indian Ocean",
-      "[USNI News] USNI News Fleet and Marine Tracker: Oct. 13, 2026"
+      "[Naval News] French Navy Intercepts and Boards Shadow Fleet Tanker ‘DF Peak’ South of Réunion"
     ]
   },
   "ground_intel": {
@@ -943,9 +940,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-10-14T22:44:28.474563+00:00",
-    "article_count": 40,
-    "categorized_count": 14,
+    "last_successful_update": "2026-10-15T01:00:09.867996+00:00",
+    "article_count": 50,
+    "categorized_count": 18,
     "freshest_source": "USNI News",
     "freshest_title": "October Sees Near Daily Strikes on Ships in Hormuz",
     "freshest_published": "Fri, 09 Oct 2026 20:09:18 +0000"
