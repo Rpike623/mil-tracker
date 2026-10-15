@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-10-15T15:22:02Z",
-  "version": 3040,
-  "breaking_alert": "Task & Purpose: Tracking America’s latest conflict: The Iran war timeline",
+  "generated_utc": "2026-10-15T19:30:16Z",
+  "version": 3041,
+  "breaking_alert": "Naval News: F-35C Begins Operational Testing Aboard Ford-Class Carrier John F. Kennedy",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -594,33 +594,6 @@
   ],
   "_naval_news_refs": [
     {
-      "title": "Tracking America’s latest conflict: The Iran war timeline",
-      "link": "https://taskandpurpose.com/news/iran-war-timeline/",
-      "published": "Mon, 12 Oct 2026 09:09:37 -0400",
-      "source": "Task & Purpose",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "U.K. Royal Navy Destroyer Returns Home From Middle East, Strait of Hormuz Multinational Mission in Limbo",
-      "link": "https://news.usni.org/2026/10/12/u-k-royal-navy-destroyer-returns-home-from-middle-east-strait-of-hormuz-multinational-mission-in-limbo",
-      "published": "Mon, 12 Oct 2026 17:56:01 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "French Navy Intercepts and Boards Shadow Fleet Tanker ‘DF Peak’ South of Réunion",
-      "link": "https://www.navalnews.com/naval-news/2026/10/french-navy-intercepts-and-boards-shadow-fleet-tanker-df-peak-south-of-reunion/",
-      "published": "Mon, 12 Oct 2026 20:35:27 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "F-35C Begins Operational Testing Aboard Ford-Class Carrier John F. Kennedy",
       "link": "https://www.navalnews.com/naval-news/2026/10/f-35c-commences-testing-on-ford-class-carrier-john-f-kennedy/",
       "published": "Thu, 15 Oct 2026 06:51:21 +0000",
@@ -628,6 +601,16 @@
       "categories": [
         "deployment",
         "exercise"
+      ]
+    },
+    {
+      "title": "North Korea Tests First Submarine-launched Cruise Missile in Nearly 3 Years",
+      "link": "https://news.usni.org/2026/10/15/north-korea-tests-first-submarine-launched-cruise-missile-in-nearly-3-years",
+      "published": "Thu, 15 Oct 2026 16:40:30 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment",
+        "conflict"
       ]
     },
     {
@@ -684,6 +667,15 @@
         "deployment",
         "exercise",
         "conflict"
+      ]
+    },
+    {
+      "title": "VIDEO: F-35C Lands on New Navy Aircraft Carrier Class for First Time",
+      "link": "https://news.usni.org/2026/10/14/video-f-35c-lands-on-new-navy-aircraft-carrier-class-for-first-time",
+      "published": "Wed, 14 Oct 2026 20:06:45 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment"
       ]
     }
   ],
@@ -848,6 +840,16 @@
       ]
     },
     {
+      "title": "North Korea Tests First Submarine-launched Cruise Missile in Nearly 3 Years",
+      "link": "https://news.usni.org/2026/10/15/north-korea-tests-first-submarine-launched-cruise-missile-in-nearly-3-years",
+      "published": "Thu, 15 Oct 2026 16:40:30 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
+    },
+    {
       "title": "Navy Contracts Ursa Major to Develop Rocket Motors for Next-gen Missile Programs",
       "link": "https://news.usni.org/2026/10/14/navy-contracts-ursa-major-to-develop-rocket-motors-for-next-gen-missile-programs",
       "published": "Wed, 14 Oct 2026 13:56:30 +0000",
@@ -901,18 +903,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 11,
-    "conflict_articles": 3,
+    "deployment_articles": 9,
+    "conflict_articles": 4,
     "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-10-15T15:21:58.663689+00:00",
+    "computed_at": "2026-10-15T19:30:09.308519+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
-      "[Task & Purpose] Tracking America’s latest conflict: The Iran war timeline",
-      "[USNI News] U.K. Royal Navy Destroyer Returns Home From Middle East, Strait of Hormuz Multinational Mission in Limbo",
-      "[Naval News] French Navy Intercepts and Boards Shadow Fleet Tanker ‘DF Peak’ South of Réunion",
       "[Naval News] F-35C Begins Operational Testing Aboard Ford-Class Carrier John F. Kennedy",
-      "[Naval News] Turkish Navy Deploys MALAMAN Smart Bottom Mine at Nusret 2026 Exercise"
+      "[Naval News] Turkish Navy Deploys MALAMAN Smart Bottom Mine at Nusret 2026 Exercise",
+      "[USNI News] Report to Congress on North Korea’s Nuclear Weapons and Missile Programs",
+      "[USNI News] North Korea Tests First Submarine-launched Cruise Missile in Nearly 3 Years",
+      "[Naval News] Sweden Formalizes Interim Submarine Training and Södermanland Lease for Poland"
     ]
   },
   "ground_intel": {
@@ -923,12 +925,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-10-15T15:21:58.663728+00:00",
+    "last_successful_update": "2026-10-15T19:30:09.308568+00:00",
     "article_count": 50,
-    "categorized_count": 14,
-    "freshest_source": "Task & Purpose",
-    "freshest_title": "Tracking America’s latest conflict: The Iran war timeline",
-    "freshest_published": "Mon, 12 Oct 2026 09:09:37 -0400"
+    "categorized_count": 12,
+    "freshest_source": "Naval News",
+    "freshest_title": "F-35C Begins Operational Testing Aboard Ford-Class Carrier John F. Kennedy",
+    "freshest_published": "Thu, 15 Oct 2026 06:51:21 +0000"
   },
   "_firms_hotspots": []
 }
