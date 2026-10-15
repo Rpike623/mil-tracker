@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-10-15T05:36:33Z",
-  "version": 3038,
+  "generated_utc": "2026-10-15T10:25:34Z",
+  "version": 3039,
   "breaking_alert": "USNI News: October Sees Near Daily Strikes on Ships in Hormuz",
   "naval_deployments": [
     {
@@ -630,6 +630,16 @@
       ]
     },
     {
+      "title": "F-35C Begins Operational Testing Aboard Ford-Class Carrier John F. Kennedy",
+      "link": "https://www.navalnews.com/naval-news/2026/10/f-35c-commences-testing-on-ford-class-carrier-john-f-kennedy/",
+      "published": "Thu, 15 Oct 2026 06:51:21 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment",
+        "exercise"
+      ]
+    },
+    {
       "title": "Sweden Formalizes Interim Submarine Training and Södermanland Lease for Poland",
       "link": "https://www.navalnews.com/naval-news/2026/10/sweden-formalizes-interim-submarine-training-and-sodermanland-lease-for-poland/",
       "published": "Tue, 13 Oct 2026 11:39:15 +0000",
@@ -672,16 +682,6 @@
       "source": "Naval News",
       "categories": [
         "deployment"
-      ]
-    },
-    {
-      "title": "US Army generals propose larger-footprint, more frequent military exercises in Korea",
-      "link": "https://www.defensenews.com/news/your-military/2026/10/14/us-army-generals-propose-larger-footprint-more-frequent-military-exercises-in-korea/",
-      "published": "Wed, 14 Oct 2026 17:00:00 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment",
-        "exercise"
       ]
     }
   ],
@@ -886,22 +886,21 @@
   ],
   "_exercise_news_refs": [
     {
-      "title": "US Army generals propose larger-footprint, more frequent military exercises in Korea",
-      "link": "https://www.defensenews.com/news/your-military/2026/10/14/us-army-generals-propose-larger-footprint-more-frequent-military-exercises-in-korea/",
-      "published": "Wed, 14 Oct 2026 17:00:00 +0000",
-      "source": "Defense News",
+      "title": "F-35C Begins Operational Testing Aboard Ford-Class Carrier John F. Kennedy",
+      "link": "https://www.navalnews.com/naval-news/2026/10/f-35c-commences-testing-on-ford-class-carrier-john-f-kennedy/",
+      "published": "Thu, 15 Oct 2026 06:51:21 +0000",
+      "source": "Naval News",
       "categories": [
         "deployment",
         "exercise"
       ]
     },
     {
-      "title": "US Army generals propose larger-footprint, more frequent military exercises in Korea",
-      "link": "https://www.militarytimes.com/news/your-military/2026/10/14/us-army-generals-propose-larger-footprint-more-frequent-military-exercises-in-korea/",
-      "published": "Wed, 14 Oct 2026 17:00:00 +0000",
-      "source": "Military Times",
+      "title": "Turkish Navy Deploys MALAMAN Smart Bottom Mine at Nusret 2026 Exercise",
+      "link": "https://www.navalnews.com/naval-news/2026/10/turkish-navy-deploys-malaman-smart-mine-nusret-2026/",
+      "published": "Thu, 15 Oct 2026 08:28:06 +0000",
+      "source": "Naval News",
       "categories": [
-        "deployment",
         "exercise"
       ]
     },
@@ -918,11 +917,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 14,
+    "deployment_articles": 13,
     "conflict_articles": 5,
     "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-10-15T05:36:30.846882+00:00",
+    "computed_at": "2026-10-15T10:25:25.903315+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[USNI News] October Sees Near Daily Strikes on Ships in Hormuz",
@@ -940,7 +939,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-10-15T05:36:30.846931+00:00",
+    "last_successful_update": "2026-10-15T10:25:25.903347+00:00",
     "article_count": 50,
     "categorized_count": 18,
     "freshest_source": "USNI News",
