@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-10-15T10:25:34Z",
-  "version": 3039,
-  "breaking_alert": "USNI News: October Sees Near Daily Strikes on Ships in Hormuz",
+  "generated_utc": "2026-10-15T15:22:02Z",
+  "version": 3040,
+  "breaking_alert": "Task & Purpose: Tracking America’s latest conflict: The Iran war timeline",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -603,15 +603,6 @@
       ]
     },
     {
-      "title": "Video: Inside Naval Group’s Next-Gen SETIS Combat Management System",
-      "link": "https://www.navalnews.com/event-news/euronaval-2026/2026/10/video-inside-naval-groups-next-gen-setis-combat-management-system/",
-      "published": "Mon, 12 Oct 2026 14:50:55 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "U.K. Royal Navy Destroyer Returns Home From Middle East, Strait of Hormuz Multinational Mission in Limbo",
       "link": "https://news.usni.org/2026/10/12/u-k-royal-navy-destroyer-returns-home-from-middle-east-strait-of-hormuz-multinational-mission-in-limbo",
       "published": "Mon, 12 Oct 2026 17:56:01 +0000",
@@ -682,6 +673,17 @@
       "source": "Naval News",
       "categories": [
         "deployment"
+      ]
+    },
+    {
+      "title": "UPDATED: Chinese Carrier Strike Group Heads to South China Sea After Philippine Sea Drills",
+      "link": "https://news.usni.org/2026/10/14/chinese-carrier-strike-group-drills-in-the-philippine-sea",
+      "published": "Wed, 14 Oct 2026 17:41:35 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment",
+        "exercise",
+        "conflict"
       ]
     }
   ],
@@ -837,9 +839,9 @@
   },
   "_conflict_news_refs": [
     {
-      "title": "October Sees Near Daily Strikes on Ships in Hormuz",
-      "link": "https://news.usni.org/2026/10/09/october-sees-near-daily-strikes-on-ships-in-hormuz",
-      "published": "Fri, 09 Oct 2026 20:09:18 +0000",
+      "title": "Report to Congress on North Korea’s Nuclear Weapons and Missile Programs",
+      "link": "https://news.usni.org/2026/10/15/report-to-congress-on-north-koreas-nuclear-weapons-and-missile-programs-5",
+      "published": "Thu, 15 Oct 2026 14:12:17 +0000",
       "source": "USNI News",
       "categories": [
         "conflict"
@@ -855,31 +857,13 @@
       ]
     },
     {
-      "title": "Chinese Carrier Strike Group Drills in the Philippine Sea",
+      "title": "UPDATED: Chinese Carrier Strike Group Heads to South China Sea After Philippine Sea Drills",
       "link": "https://news.usni.org/2026/10/14/chinese-carrier-strike-group-drills-in-the-philippine-sea",
       "published": "Wed, 14 Oct 2026 17:41:35 +0000",
       "source": "USNI News",
       "categories": [
         "deployment",
         "exercise",
-        "conflict"
-      ]
-    },
-    {
-      "title": "Disrupt, Strike, Assault and Endure: The 4 pillars of the US Army’s new warfare guidance",
-      "link": "https://www.defensenews.com/news/your-military/2026/10/14/disrupt-strike-assault-and-endure-the-4-pillars-of-the-us-armys-new-warfare-guidance/",
-      "published": "Wed, 14 Oct 2026 20:00:00 +0000",
-      "source": "Defense News",
-      "categories": [
-        "conflict"
-      ]
-    },
-    {
-      "title": "Disrupt, Strike, Assault and Endure: The 4 pillars of the US Army’s new warfare guidance",
-      "link": "https://www.militarytimes.com/news/your-military/2026/10/14/disrupt-strike-assault-and-endure-the-4-pillars-of-the-us-armys-new-warfare-guidance/",
-      "published": "Wed, 14 Oct 2026 20:00:00 +0000",
-      "source": "Military Times",
-      "categories": [
         "conflict"
       ]
     }
@@ -905,7 +889,7 @@
       ]
     },
     {
-      "title": "Chinese Carrier Strike Group Drills in the Philippine Sea",
+      "title": "UPDATED: Chinese Carrier Strike Group Heads to South China Sea After Philippine Sea Drills",
       "link": "https://news.usni.org/2026/10/14/chinese-carrier-strike-group-drills-in-the-philippine-sea",
       "published": "Wed, 14 Oct 2026 17:41:35 +0000",
       "source": "USNI News",
@@ -917,18 +901,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 13,
-    "conflict_articles": 5,
+    "deployment_articles": 11,
+    "conflict_articles": 3,
     "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-10-15T10:25:25.903315+00:00",
+    "computed_at": "2026-10-15T15:21:58.663689+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
-      "[USNI News] October Sees Near Daily Strikes on Ships in Hormuz",
       "[Task & Purpose] Tracking America’s latest conflict: The Iran war timeline",
-      "[Naval News] Video: Inside Naval Group’s Next-Gen SETIS Combat Management System",
       "[USNI News] U.K. Royal Navy Destroyer Returns Home From Middle East, Strait of Hormuz Multinational Mission in Limbo",
-      "[Naval News] French Navy Intercepts and Boards Shadow Fleet Tanker ‘DF Peak’ South of Réunion"
+      "[Naval News] French Navy Intercepts and Boards Shadow Fleet Tanker ‘DF Peak’ South of Réunion",
+      "[Naval News] F-35C Begins Operational Testing Aboard Ford-Class Carrier John F. Kennedy",
+      "[Naval News] Turkish Navy Deploys MALAMAN Smart Bottom Mine at Nusret 2026 Exercise"
     ]
   },
   "ground_intel": {
@@ -939,12 +923,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-10-15T10:25:25.903347+00:00",
+    "last_successful_update": "2026-10-15T15:21:58.663728+00:00",
     "article_count": 50,
-    "categorized_count": 18,
-    "freshest_source": "USNI News",
-    "freshest_title": "October Sees Near Daily Strikes on Ships in Hormuz",
-    "freshest_published": "Fri, 09 Oct 2026 20:09:18 +0000"
+    "categorized_count": 14,
+    "freshest_source": "Task & Purpose",
+    "freshest_title": "Tracking America’s latest conflict: The Iran war timeline",
+    "freshest_published": "Mon, 12 Oct 2026 09:09:37 -0400"
   },
   "_firms_hotspots": []
 }
