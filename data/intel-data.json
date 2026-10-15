@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-10-15T19:30:16Z",
-  "version": 3041,
+  "generated_utc": "2026-10-15T22:43:21Z",
+  "version": 3042,
   "breaking_alert": "Naval News: F-35C Begins Operational Testing Aboard Ford-Class Carrier John F. Kennedy",
   "naval_deployments": [
     {
@@ -604,6 +604,15 @@
       ]
     },
     {
+      "title": "Over 200 troops have been awarded Purple Hearts during the Iran war",
+      "link": "https://taskandpurpose.com/news/iran-war-purple-hearts/",
+      "published": "Thu, 15 Oct 2026 16:40:16 -0400",
+      "source": "Task & Purpose",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "North Korea Tests First Submarine-launched Cruise Missile in Nearly 3 Years",
       "link": "https://news.usni.org/2026/10/15/north-korea-tests-first-submarine-launched-cruise-missile-in-nearly-3-years",
       "published": "Thu, 15 Oct 2026 16:40:30 +0000",
@@ -618,15 +627,6 @@
       "link": "https://www.navalnews.com/naval-news/2026/10/sweden-formalizes-interim-submarine-training-and-sodermanland-lease-for-poland/",
       "published": "Tue, 13 Oct 2026 11:39:15 +0000",
       "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "French Navy Seizes Suspected Shadow Fleet Tanker in Indian Ocean",
-      "link": "https://news.usni.org/2026/10/13/french-navy-seizes-suspected-shadow-fleet-tanker-in-indian-ocean",
-      "published": "Tue, 13 Oct 2026 16:01:52 +0000",
-      "source": "USNI News",
       "categories": [
         "deployment"
       ]
@@ -907,14 +907,14 @@
     "conflict_articles": 4,
     "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-10-15T19:30:09.308519+00:00",
+    "computed_at": "2026-10-15T22:43:15.893634+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] F-35C Begins Operational Testing Aboard Ford-Class Carrier John F. Kennedy",
       "[Naval News] Turkish Navy Deploys MALAMAN Smart Bottom Mine at Nusret 2026 Exercise",
       "[USNI News] Report to Congress on North Korea’s Nuclear Weapons and Missile Programs",
-      "[USNI News] North Korea Tests First Submarine-launched Cruise Missile in Nearly 3 Years",
-      "[Naval News] Sweden Formalizes Interim Submarine Training and Södermanland Lease for Poland"
+      "[Task & Purpose] Over 200 troops have been awarded Purple Hearts during the Iran war",
+      "[USNI News] North Korea Tests First Submarine-launched Cruise Missile in Nearly 3 Years"
     ]
   },
   "ground_intel": {
@@ -925,7 +925,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-10-15T19:30:09.308568+00:00",
+    "last_successful_update": "2026-10-15T22:43:15.893674+00:00",
     "article_count": 50,
     "categorized_count": 12,
     "freshest_source": "Naval News",
