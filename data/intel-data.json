@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-10-16T15:02:31Z",
-  "version": 3046,
-  "breaking_alert": "Defense News: Lockheed invests $300M in Texas plant to feed missile surge",
+  "generated_utc": "2026-10-16T19:04:19Z",
+  "version": 3047,
+  "breaking_alert": "Military Times: Lockheed invests $300M in Texas plant to feed missile surge",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -614,6 +614,16 @@
       ]
     },
     {
+      "title": "Army releases rare account of soldiers surviving Iranian missile attack and how life has changed back home",
+      "link": "https://taskandpurpose.com/news/soldiers-account-iranian-missile-attack/",
+      "published": "Fri, 16 Oct 2026 12:39:06 -0400",
+      "source": "Task & Purpose",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
+    },
+    {
       "title": "Israel secures procurement of 12 Apache gunships in last-minute maneuver",
       "link": "https://www.defensenews.com/global/mideast-africa/2026/10/16/israel-secures-procurement-of-12-apache-gunships-in-last-minute-maneuver/",
       "published": "Fri, 16 Oct 2026 14:01:24 +0000",
@@ -650,24 +660,6 @@
       "categories": [
         "deployment",
         "conflict"
-      ]
-    },
-    {
-      "title": "USNI News Fleet and Marine Tracker: Oct. 13, 2026",
-      "link": "https://news.usni.org/2026/10/13/usni-news-fleet-and-marine-tracker-oct-13-2026",
-      "published": "Tue, 13 Oct 2026 19:11:00 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "NCIS Investigating Submarine Sailor Death on Naval Base Kitsap",
-      "link": "https://news.usni.org/2026/10/13/ncis-investigating-submarine-sailor-death-on-naval-base-kitsap",
-      "published": "Tue, 13 Oct 2026 22:15:49 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment"
       ]
     },
     {
@@ -844,19 +836,20 @@
   "_conflict_news_refs": [
     {
       "title": "Lockheed invests $300M in Texas plant to feed missile surge",
-      "link": "https://www.defensenews.com/industry/techwatch/2026/10/15/lockheed-invests-300m-in-texas-plant-to-feed-missile-surge/",
+      "link": "https://www.militarytimes.com/industry/techwatch/2026/10/15/lockheed-invests-300m-in-texas-plant-to-feed-missile-surge/",
       "published": "Fri, 16 Oct 2026 00:00:00 +0000",
-      "source": "Defense News",
+      "source": "Military Times",
       "categories": [
         "conflict"
       ]
     },
     {
-      "title": "Lockheed invests $300M in Texas plant to feed missile surge",
-      "link": "https://www.militarytimes.com/industry/techwatch/2026/10/15/lockheed-invests-300m-in-texas-plant-to-feed-missile-surge/",
-      "published": "Fri, 16 Oct 2026 00:00:00 +0000",
-      "source": "Military Times",
+      "title": "Army releases rare account of soldiers surviving Iranian missile attack and how life has changed back home",
+      "link": "https://taskandpurpose.com/news/soldiers-account-iranian-missile-attack/",
+      "published": "Fri, 16 Oct 2026 12:39:06 -0400",
+      "source": "Task & Purpose",
       "categories": [
+        "deployment",
         "conflict"
       ]
     },
@@ -930,28 +923,27 @@
       ]
     },
     {
-      "title": "F-35C Begins Operational Testing Aboard Ford-Class Carrier John F. Kennedy",
-      "link": "https://www.navalnews.com/naval-news/2026/10/f-35c-commences-testing-on-ford-class-carrier-john-f-kennedy/",
-      "published": "Thu, 15 Oct 2026 06:51:21 +0000",
-      "source": "Naval News",
+      "title": "US Army’s 8th Psychological Operations Group inactivated",
+      "link": "https://www.defensenews.com/news/your-military/2026/10/16/us-armys-8th-psychological-operations-group-inactivated/",
+      "published": "Fri, 16 Oct 2026 18:30:00 +0000",
+      "source": "Defense News",
       "categories": [
-        "deployment",
         "exercise"
       ]
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 10,
+    "deployment_articles": 9,
     "conflict_articles": 6,
-    "exercise_articles": 7,
+    "exercise_articles": 9,
     "total_articles": 50,
-    "computed_at": "2026-10-16T15:02:25.771835+00:00",
+    "computed_at": "2026-10-16T19:04:17.440286+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
-      "[Defense News] Lockheed invests $300M in Texas plant to feed missile surge",
       "[Military Times] Lockheed invests $300M in Texas plant to feed missile surge",
       "[Naval News] EU Renews Operation IRINI to 2029, Targets Russian Shadow Fleet and CUI Protection",
       "[USNI News] Carrier USS Theodore Roosevelt Arrives in Japan Ahead of Keen Sword Exercise",
+      "[Task & Purpose] Army releases rare account of soldiers surviving Iranian missile attack and how life has changed back home",
       "[Defense News] Israel secures procurement of 12 Apache gunships in last-minute maneuver"
     ]
   },
@@ -963,10 +955,10 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-10-16T15:02:25.771872+00:00",
+    "last_successful_update": "2026-10-16T19:04:17.440329+00:00",
     "article_count": 50,
     "categorized_count": 16,
-    "freshest_source": "Defense News",
+    "freshest_source": "Military Times",
     "freshest_title": "Lockheed invests $300M in Texas plant to feed missile surge",
     "freshest_published": "Fri, 16 Oct 2026 00:00:00 +0000"
   },
