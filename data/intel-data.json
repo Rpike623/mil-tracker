@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-10-16T05:12:21Z",
-  "version": 3044,
+  "generated_utc": "2026-10-16T10:12:46Z",
+  "version": 3045,
   "breaking_alert": "Defense News: Lockheed invests $300M in Texas plant to feed missile surge",
   "naval_deployments": [
     {
@@ -594,6 +594,16 @@
   ],
   "_naval_news_refs": [
     {
+      "title": "EU Renews Operation IRINI to 2029, Targets Russian Shadow Fleet and CUI Protection",
+      "link": "https://www.navalnews.com/naval-news/2026/10/eu-renews-operation-irini-to-2029-targets-russian-shadow-fleet-and-cui-protection/",
+      "published": "Fri, 16 Oct 2026 07:17:34 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment",
+        "exercise"
+      ]
+    },
+    {
       "title": "F-35C Begins Operational Testing Aboard Ford-Class Carrier John F. Kennedy",
       "link": "https://www.navalnews.com/naval-news/2026/10/f-35c-commences-testing-on-ford-class-carrier-john-f-kennedy/",
       "published": "Thu, 15 Oct 2026 06:51:21 +0000",
@@ -620,15 +630,6 @@
       "categories": [
         "deployment",
         "conflict"
-      ]
-    },
-    {
-      "title": "Sweden Formalizes Interim Submarine Training and Södermanland Lease for Poland",
-      "link": "https://www.navalnews.com/naval-news/2026/10/sweden-formalizes-interim-submarine-training-and-sodermanland-lease-for-poland/",
-      "published": "Tue, 13 Oct 2026 11:39:15 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment"
       ]
     },
     {
@@ -879,6 +880,16 @@
   ],
   "_exercise_news_refs": [
     {
+      "title": "EU Renews Operation IRINI to 2029, Targets Russian Shadow Fleet and CUI Protection",
+      "link": "https://www.navalnews.com/naval-news/2026/10/eu-renews-operation-irini-to-2029-targets-russian-shadow-fleet-and-cui-protection/",
+      "published": "Fri, 16 Oct 2026 07:17:34 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment",
+        "exercise"
+      ]
+    },
+    {
       "title": "F-35C Begins Operational Testing Aboard Ford-Class Carrier John F. Kennedy",
       "link": "https://www.navalnews.com/naval-news/2026/10/f-35c-commences-testing-on-ford-class-carrier-john-f-kennedy/",
       "published": "Thu, 15 Oct 2026 06:51:21 +0000",
@@ -912,16 +923,16 @@
   "_threat_indicators": {
     "deployment_articles": 9,
     "conflict_articles": 6,
-    "exercise_articles": 3,
+    "exercise_articles": 4,
     "total_articles": 50,
-    "computed_at": "2026-10-16T05:12:14.944671+00:00",
+    "computed_at": "2026-10-16T10:12:45.148078+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Defense News] Lockheed invests $300M in Texas plant to feed missile surge",
       "[Military Times] Lockheed invests $300M in Texas plant to feed missile surge",
+      "[Naval News] EU Renews Operation IRINI to 2029, Targets Russian Shadow Fleet and CUI Protection",
       "[Naval News] F-35C Begins Operational Testing Aboard Ford-Class Carrier John F. Kennedy",
-      "[Naval News] Turkish Navy Deploys MALAMAN Smart Bottom Mine at Nusret 2026 Exercise",
-      "[USNI News] Report to Congress on North Korea’s Nuclear Weapons and Missile Programs"
+      "[Naval News] Turkish Navy Deploys MALAMAN Smart Bottom Mine at Nusret 2026 Exercise"
     ]
   },
   "ground_intel": {
@@ -932,7 +943,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-10-16T05:12:14.944707+00:00",
+    "last_successful_update": "2026-10-16T10:12:45.148124+00:00",
     "article_count": 50,
     "categorized_count": 14,
     "freshest_source": "Defense News",
