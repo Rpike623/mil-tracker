@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-10-15T22:43:21Z",
-  "version": 3042,
-  "breaking_alert": "Naval News: F-35C Begins Operational Testing Aboard Ford-Class Carrier John F. Kennedy",
+  "generated_utc": "2026-10-16T00:50:54Z",
+  "version": 3043,
+  "breaking_alert": "Defense News: Lockheed invests $300M in Texas plant to feed missile surge",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -831,6 +831,24 @@
   },
   "_conflict_news_refs": [
     {
+      "title": "Lockheed invests $300M in Texas plant to feed missile surge",
+      "link": "https://www.defensenews.com/industry/techwatch/2026/10/15/lockheed-invests-300m-in-texas-plant-to-feed-missile-surge/",
+      "published": "Fri, 16 Oct 2026 00:00:00 +0000",
+      "source": "Defense News",
+      "categories": [
+        "conflict"
+      ]
+    },
+    {
+      "title": "Lockheed invests $300M in Texas plant to feed missile surge",
+      "link": "https://www.militarytimes.com/industry/techwatch/2026/10/15/lockheed-invests-300m-in-texas-plant-to-feed-missile-surge/",
+      "published": "Fri, 16 Oct 2026 00:00:00 +0000",
+      "source": "Military Times",
+      "categories": [
+        "conflict"
+      ]
+    },
+    {
       "title": "Report to Congress on North Korea’s Nuclear Weapons and Missile Programs",
       "link": "https://news.usni.org/2026/10/15/report-to-congress-on-north-koreas-nuclear-weapons-and-missile-programs-5",
       "published": "Thu, 15 Oct 2026 14:12:17 +0000",
@@ -855,17 +873,6 @@
       "published": "Wed, 14 Oct 2026 13:56:30 +0000",
       "source": "USNI News",
       "categories": [
-        "conflict"
-      ]
-    },
-    {
-      "title": "UPDATED: Chinese Carrier Strike Group Heads to South China Sea After Philippine Sea Drills",
-      "link": "https://news.usni.org/2026/10/14/chinese-carrier-strike-group-drills-in-the-philippine-sea",
-      "published": "Wed, 14 Oct 2026 17:41:35 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment",
-        "exercise",
         "conflict"
       ]
     }
@@ -904,17 +911,17 @@
   ],
   "_threat_indicators": {
     "deployment_articles": 9,
-    "conflict_articles": 4,
+    "conflict_articles": 6,
     "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-10-15T22:43:15.893634+00:00",
+    "computed_at": "2026-10-16T00:50:52.466598+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
+      "[Defense News] Lockheed invests $300M in Texas plant to feed missile surge",
+      "[Military Times] Lockheed invests $300M in Texas plant to feed missile surge",
       "[Naval News] F-35C Begins Operational Testing Aboard Ford-Class Carrier John F. Kennedy",
       "[Naval News] Turkish Navy Deploys MALAMAN Smart Bottom Mine at Nusret 2026 Exercise",
-      "[USNI News] Report to Congress on North Korea’s Nuclear Weapons and Missile Programs",
-      "[Task & Purpose] Over 200 troops have been awarded Purple Hearts during the Iran war",
-      "[USNI News] North Korea Tests First Submarine-launched Cruise Missile in Nearly 3 Years"
+      "[USNI News] Report to Congress on North Korea’s Nuclear Weapons and Missile Programs"
     ]
   },
   "ground_intel": {
@@ -925,12 +932,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-10-15T22:43:15.893674+00:00",
+    "last_successful_update": "2026-10-16T00:50:52.466642+00:00",
     "article_count": 50,
-    "categorized_count": 12,
-    "freshest_source": "Naval News",
-    "freshest_title": "F-35C Begins Operational Testing Aboard Ford-Class Carrier John F. Kennedy",
-    "freshest_published": "Thu, 15 Oct 2026 06:51:21 +0000"
+    "categorized_count": 14,
+    "freshest_source": "Defense News",
+    "freshest_title": "Lockheed invests $300M in Texas plant to feed missile surge",
+    "freshest_published": "Fri, 16 Oct 2026 00:00:00 +0000"
   },
   "_firms_hotspots": []
 }
