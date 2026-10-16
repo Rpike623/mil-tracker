@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-10-16T00:50:54Z",
-  "version": 3043,
+  "generated_utc": "2026-10-16T05:12:21Z",
+  "version": 3044,
   "breaking_alert": "Defense News: Lockheed invests $300M in Texas plant to feed missile surge",
   "naval_deployments": [
     {
@@ -914,7 +914,7 @@
     "conflict_articles": 6,
     "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-10-16T00:50:52.466598+00:00",
+    "computed_at": "2026-10-16T05:12:14.944671+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Defense News] Lockheed invests $300M in Texas plant to feed missile surge",
@@ -932,7 +932,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-10-16T00:50:52.466642+00:00",
+    "last_successful_update": "2026-10-16T05:12:14.944707+00:00",
     "article_count": 50,
     "categorized_count": 14,
     "freshest_source": "Defense News",
