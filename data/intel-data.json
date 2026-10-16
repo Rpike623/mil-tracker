@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-10-16T10:12:46Z",
-  "version": 3045,
+  "generated_utc": "2026-10-16T15:02:31Z",
+  "version": 3046,
   "breaking_alert": "Defense News: Lockheed invests $300M in Texas plant to feed missile surge",
   "naval_deployments": [
     {
@@ -604,6 +604,26 @@
       ]
     },
     {
+      "title": "Carrier USS Theodore Roosevelt Arrives in Japan Ahead of Keen Sword Exercise",
+      "link": "https://news.usni.org/2026/10/16/carrier-uss-theodore-roosevelt-arrives-in-japan-ahead-of-keen-sword-exercise",
+      "published": "Fri, 16 Oct 2026 12:32:29 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment",
+        "exercise"
+      ]
+    },
+    {
+      "title": "Israel secures procurement of 12 Apache gunships in last-minute maneuver",
+      "link": "https://www.defensenews.com/global/mideast-africa/2026/10/16/israel-secures-procurement-of-12-apache-gunships-in-last-minute-maneuver/",
+      "published": "Fri, 16 Oct 2026 14:01:24 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment",
+        "exercise"
+      ]
+    },
+    {
       "title": "F-35C Begins Operational Testing Aboard Ford-Class Carrier John F. Kennedy",
       "link": "https://www.navalnews.com/naval-news/2026/10/f-35c-commences-testing-on-ford-class-carrier-john-f-kennedy/",
       "published": "Thu, 15 Oct 2026 06:51:21 +0000",
@@ -646,15 +666,6 @@
       "link": "https://news.usni.org/2026/10/13/ncis-investigating-submarine-sailor-death-on-naval-base-kitsap",
       "published": "Tue, 13 Oct 2026 22:15:49 +0000",
       "source": "USNI News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "New Launcher Spotted Aboard Royal Navy Type 45 Destroyer",
-      "link": "https://www.navalnews.com/naval-news/2026/10/type-45-destroyer-drone-interceptor-launchers/",
-      "published": "Wed, 14 Oct 2026 12:33:16 +0000",
-      "source": "Naval News",
       "categories": [
         "deployment"
       ]
@@ -890,6 +901,35 @@
       ]
     },
     {
+      "title": "Carrier USS Theodore Roosevelt Arrives in Japan Ahead of Keen Sword Exercise",
+      "link": "https://news.usni.org/2026/10/16/carrier-uss-theodore-roosevelt-arrives-in-japan-ahead-of-keen-sword-exercise",
+      "published": "Fri, 16 Oct 2026 12:32:29 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment",
+        "exercise"
+      ]
+    },
+    {
+      "title": "Israel secures procurement of 12 Apache gunships in last-minute maneuver",
+      "link": "https://www.defensenews.com/global/mideast-africa/2026/10/16/israel-secures-procurement-of-12-apache-gunships-in-last-minute-maneuver/",
+      "published": "Fri, 16 Oct 2026 14:01:24 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment",
+        "exercise"
+      ]
+    },
+    {
+      "title": "Bulgaria seeks NATO anti-drone systems, defense minister says",
+      "link": "https://www.defensenews.com/global/europe/2026/10/16/bulgaria-seeks-nato-anti-drone-systems-defense-minister-says/",
+      "published": "Fri, 16 Oct 2026 14:44:49 +0000",
+      "source": "Defense News",
+      "categories": [
+        "exercise"
+      ]
+    },
+    {
       "title": "F-35C Begins Operational Testing Aboard Ford-Class Carrier John F. Kennedy",
       "link": "https://www.navalnews.com/naval-news/2026/10/f-35c-commences-testing-on-ford-class-carrier-john-f-kennedy/",
       "published": "Thu, 15 Oct 2026 06:51:21 +0000",
@@ -898,41 +938,21 @@
         "deployment",
         "exercise"
       ]
-    },
-    {
-      "title": "Turkish Navy Deploys MALAMAN Smart Bottom Mine at Nusret 2026 Exercise",
-      "link": "https://www.navalnews.com/naval-news/2026/10/turkish-navy-deploys-malaman-smart-mine-nusret-2026/",
-      "published": "Thu, 15 Oct 2026 08:28:06 +0000",
-      "source": "Naval News",
-      "categories": [
-        "exercise"
-      ]
-    },
-    {
-      "title": "UPDATED: Chinese Carrier Strike Group Heads to South China Sea After Philippine Sea Drills",
-      "link": "https://news.usni.org/2026/10/14/chinese-carrier-strike-group-drills-in-the-philippine-sea",
-      "published": "Wed, 14 Oct 2026 17:41:35 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment",
-        "exercise",
-        "conflict"
-      ]
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 9,
+    "deployment_articles": 10,
     "conflict_articles": 6,
-    "exercise_articles": 4,
+    "exercise_articles": 7,
     "total_articles": 50,
-    "computed_at": "2026-10-16T10:12:45.148078+00:00",
+    "computed_at": "2026-10-16T15:02:25.771835+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Defense News] Lockheed invests $300M in Texas plant to feed missile surge",
       "[Military Times] Lockheed invests $300M in Texas plant to feed missile surge",
       "[Naval News] EU Renews Operation IRINI to 2029, Targets Russian Shadow Fleet and CUI Protection",
-      "[Naval News] F-35C Begins Operational Testing Aboard Ford-Class Carrier John F. Kennedy",
-      "[Naval News] Turkish Navy Deploys MALAMAN Smart Bottom Mine at Nusret 2026 Exercise"
+      "[USNI News] Carrier USS Theodore Roosevelt Arrives in Japan Ahead of Keen Sword Exercise",
+      "[Defense News] Israel secures procurement of 12 Apache gunships in last-minute maneuver"
     ]
   },
   "ground_intel": {
@@ -943,9 +963,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-10-16T10:12:45.148124+00:00",
+    "last_successful_update": "2026-10-16T15:02:25.771872+00:00",
     "article_count": 50,
-    "categorized_count": 14,
+    "categorized_count": 16,
     "freshest_source": "Defense News",
     "freshest_title": "Lockheed invests $300M in Texas plant to feed missile surge",
     "freshest_published": "Fri, 16 Oct 2026 00:00:00 +0000"
