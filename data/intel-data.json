@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-10-17T05:07:11Z",
-  "version": 3050,
-  "breaking_alert": "USNI News: Carrier USS Theodore Roosevelt Arrives in Japan Ahead of Keen Sword Exercise",
+  "generated_utc": "2026-10-17T09:46:30Z",
+  "version": 3051,
+  "breaking_alert": "Naval News: EU Renews Operation IRINI to 2029, Targets Russian Shadow Fleet and CUI Protection",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -594,6 +594,16 @@
   ],
   "_naval_news_refs": [
     {
+      "title": "EU Renews Operation IRINI to 2029, Targets Russian Shadow Fleet and CUI Protection",
+      "link": "https://www.navalnews.com/naval-news/2026/10/eu-renews-operation-irini-to-2029-targets-russian-shadow-fleet-and-cui-protection/",
+      "published": "Fri, 16 Oct 2026 07:17:34 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment",
+        "exercise"
+      ]
+    },
+    {
       "title": "Carrier USS Theodore Roosevelt Arrives in Japan Ahead of Keen Sword Exercise",
       "link": "https://news.usni.org/2026/10/16/carrier-uss-theodore-roosevelt-arrives-in-japan-ahead-of-keen-sword-exercise",
       "published": "Fri, 16 Oct 2026 12:32:29 +0000",
@@ -621,6 +631,16 @@
       "categories": [
         "deployment",
         "exercise"
+      ]
+    },
+    {
+      "title": "Naval Group rolls out 5th Suffren-class attack submarine",
+      "link": "https://www.navalnews.com/naval-news/2026/10/naval-group-rolls-out-5th-suffren-class-attack-submarine/",
+      "published": "Fri, 16 Oct 2026 19:29:03 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment",
+        "conflict"
       ]
     },
     {
@@ -825,6 +845,16 @@
       ]
     },
     {
+      "title": "Naval Group rolls out 5th Suffren-class attack submarine",
+      "link": "https://www.navalnews.com/naval-news/2026/10/naval-group-rolls-out-5th-suffren-class-attack-submarine/",
+      "published": "Fri, 16 Oct 2026 19:29:03 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
+    },
+    {
       "title": "Report to Congress on North Korea’s Nuclear Weapons and Missile Programs",
       "link": "https://news.usni.org/2026/10/15/report-to-congress-on-north-koreas-nuclear-weapons-and-missile-programs-5",
       "published": "Thu, 15 Oct 2026 14:12:17 +0000",
@@ -851,20 +881,19 @@
       "categories": [
         "conflict"
       ]
-    },
-    {
-      "title": "UPDATED: Chinese Carrier Strike Group Heads to South China Sea After Philippine Sea Drills",
-      "link": "https://news.usni.org/2026/10/14/chinese-carrier-strike-group-drills-in-the-philippine-sea",
-      "published": "Wed, 14 Oct 2026 17:41:35 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment",
-        "exercise",
-        "conflict"
-      ]
     }
   ],
   "_exercise_news_refs": [
+    {
+      "title": "EU Renews Operation IRINI to 2029, Targets Russian Shadow Fleet and CUI Protection",
+      "link": "https://www.navalnews.com/naval-news/2026/10/eu-renews-operation-irini-to-2029-targets-russian-shadow-fleet-and-cui-protection/",
+      "published": "Fri, 16 Oct 2026 07:17:34 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment",
+        "exercise"
+      ]
+    },
     {
       "title": "Carrier USS Theodore Roosevelt Arrives in Japan Ahead of Keen Sword Exercise",
       "link": "https://news.usni.org/2026/10/16/carrier-uss-theodore-roosevelt-arrives-in-japan-ahead-of-keen-sword-exercise",
@@ -902,30 +931,21 @@
       "categories": [
         "exercise"
       ]
-    },
-    {
-      "title": "US Army’s 8th Psychological Operations Group inactivated",
-      "link": "https://www.militarytimes.com/news/your-military/2026/10/16/us-armys-8th-psychological-operations-group-inactivated/",
-      "published": "Fri, 16 Oct 2026 18:30:00 +0000",
-      "source": "Military Times",
-      "categories": [
-        "exercise"
-      ]
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 7,
-    "conflict_articles": 5,
-    "exercise_articles": 9,
-    "total_articles": 40,
-    "computed_at": "2026-10-17T05:07:05.945848+00:00",
+    "deployment_articles": 9,
+    "conflict_articles": 6,
+    "exercise_articles": 10,
+    "total_articles": 50,
+    "computed_at": "2026-10-17T09:46:28.177586+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
+      "[Naval News] EU Renews Operation IRINI to 2029, Targets Russian Shadow Fleet and CUI Protection",
       "[USNI News] Carrier USS Theodore Roosevelt Arrives in Japan Ahead of Keen Sword Exercise",
       "[Task & Purpose] Army releases rare account of soldiers surviving Iranian missile attack and how life has changed back home",
       "[Defense News] Israel secures procurement of 12 Apache gunships in last-minute maneuver",
-      "[Defense News] Bulgaria seeks NATO anti-drone systems, defense minister says",
-      "[Defense News] US Army’s 8th Psychological Operations Group inactivated"
+      "[Defense News] Bulgaria seeks NATO anti-drone systems, defense minister says"
     ]
   },
   "ground_intel": {
@@ -936,12 +956,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-10-17T05:07:05.945890+00:00",
-    "article_count": 40,
-    "categorized_count": 15,
-    "freshest_source": "USNI News",
-    "freshest_title": "Carrier USS Theodore Roosevelt Arrives in Japan Ahead of Keen Sword Exercise",
-    "freshest_published": "Fri, 16 Oct 2026 12:32:29 +0000"
+    "last_successful_update": "2026-10-17T09:46:28.177631+00:00",
+    "article_count": 50,
+    "categorized_count": 17,
+    "freshest_source": "Naval News",
+    "freshest_title": "EU Renews Operation IRINI to 2029, Targets Russian Shadow Fleet and CUI Protection",
+    "freshest_published": "Fri, 16 Oct 2026 07:17:34 +0000"
   },
   "_firms_hotspots": []
 }
