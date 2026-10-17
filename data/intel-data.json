@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-10-17T13:17:54Z",
-  "version": 3052,
+  "generated_utc": "2026-10-17T16:41:26Z",
+  "version": 3053,
   "breaking_alert": "Naval News: EU Renews Operation IRINI to 2029, Targets Russian Shadow Fleet and CUI Protection",
   "naval_deployments": [
     {
@@ -855,6 +855,15 @@
       ]
     },
     {
+      "title": "Marine Corps establishes its first medium-range missile battalion",
+      "link": "https://taskandpurpose.com/news/marine-corps-first-missile-battatlion/",
+      "published": "Sat, 17 Oct 2026 11:41:09 -0400",
+      "source": "Task & Purpose",
+      "categories": [
+        "conflict"
+      ]
+    },
+    {
       "title": "Report to Congress on North Korea’s Nuclear Weapons and Missile Programs",
       "link": "https://news.usni.org/2026/10/15/report-to-congress-on-north-koreas-nuclear-weapons-and-missile-programs-5",
       "published": "Thu, 15 Oct 2026 14:12:17 +0000",
@@ -870,15 +879,6 @@
       "source": "USNI News",
       "categories": [
         "deployment",
-        "conflict"
-      ]
-    },
-    {
-      "title": "Navy Contracts Ursa Major to Develop Rocket Motors for Next-gen Missile Programs",
-      "link": "https://news.usni.org/2026/10/14/navy-contracts-ursa-major-to-develop-rocket-motors-for-next-gen-missile-programs",
-      "published": "Wed, 14 Oct 2026 13:56:30 +0000",
-      "source": "USNI News",
-      "categories": [
         "conflict"
       ]
     }
@@ -935,10 +935,10 @@
   ],
   "_threat_indicators": {
     "deployment_articles": 9,
-    "conflict_articles": 6,
+    "conflict_articles": 7,
     "exercise_articles": 10,
     "total_articles": 50,
-    "computed_at": "2026-10-17T13:17:52.407075+00:00",
+    "computed_at": "2026-10-17T16:41:22.644020+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] EU Renews Operation IRINI to 2029, Targets Russian Shadow Fleet and CUI Protection",
@@ -956,9 +956,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-10-17T13:17:52.407148+00:00",
+    "last_successful_update": "2026-10-17T16:41:22.644065+00:00",
     "article_count": 50,
-    "categorized_count": 17,
+    "categorized_count": 18,
     "freshest_source": "Naval News",
     "freshest_title": "EU Renews Operation IRINI to 2029, Targets Russian Shadow Fleet and CUI Protection",
     "freshest_published": "Fri, 16 Oct 2026 07:17:34 +0000"
