@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-10-18T01:42:08Z",
-  "version": 3057,
+  "generated_utc": "2026-10-18T06:41:12Z",
+  "version": 3058,
   "breaking_alert": "Naval News: EU Renews Operation IRINI to 2029, Targets Russian Shadow Fleet and CUI Protection",
   "naval_deployments": [
     {
@@ -938,7 +938,7 @@
     "conflict_articles": 7,
     "exercise_articles": 10,
     "total_articles": 50,
-    "computed_at": "2026-10-18T01:42:03.602101+00:00",
+    "computed_at": "2026-10-18T06:41:07.009843+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] EU Renews Operation IRINI to 2029, Targets Russian Shadow Fleet and CUI Protection",
@@ -956,7 +956,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-10-18T01:42:03.602147+00:00",
+    "last_successful_update": "2026-10-18T06:41:07.009887+00:00",
     "article_count": 50,
     "categorized_count": 18,
     "freshest_source": "Naval News",
