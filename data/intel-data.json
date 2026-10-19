@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-10-19T15:02:52Z",
-  "version": 3067,
+  "generated_utc": "2026-10-19T20:45:19Z",
+  "version": 3068,
   "breaking_alert": "USNI News: Carrier USS Theodore Roosevelt Arrives in Japan Ahead of Keen Sword Exercise",
   "naval_deployments": [
     {
@@ -643,10 +643,19 @@
       ]
     },
     {
-      "title": "Over 200 troops have been awarded Purple Hearts during the Iran war",
-      "link": "https://taskandpurpose.com/news/iran-war-purple-hearts/",
-      "published": "Thu, 15 Oct 2026 16:40:16 -0400",
+      "title": "Tracking America’s latest conflict: The Iran war timeline",
+      "link": "https://taskandpurpose.com/news/iran-war-timeline/",
+      "published": "Mon, 19 Oct 2026 15:56:42 -0400",
       "source": "Task & Purpose",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "USNI News Fleet and Marine Tracker: Oct. 19, 2026",
+      "link": "https://news.usni.org/2026/10/19/usni-news-fleet-and-marine-tracker-oct-19-2026",
+      "published": "Mon, 19 Oct 2026 16:18:29 +0000",
+      "source": "USNI News",
       "categories": [
         "deployment"
       ]
@@ -659,26 +668,6 @@
       "categories": [
         "deployment",
         "conflict"
-      ]
-    },
-    {
-      "title": "UPDATED: Chinese Carrier Strike Group Heads to South China Sea After Philippine Sea Drills",
-      "link": "https://news.usni.org/2026/10/14/chinese-carrier-strike-group-drills-in-the-philippine-sea",
-      "published": "Wed, 14 Oct 2026 17:41:35 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment",
-        "exercise",
-        "conflict"
-      ]
-    },
-    {
-      "title": "VIDEO: F-35C Lands on New Navy Aircraft Carrier Class for First Time",
-      "link": "https://news.usni.org/2026/10/14/video-f-35c-lands-on-new-navy-aircraft-carrier-class-for-first-time",
-      "published": "Wed, 14 Oct 2026 20:06:45 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment"
       ]
     }
   ],
@@ -894,15 +883,6 @@
       ]
     },
     {
-      "title": "US Army’s 8th Psychological Operations Group inactivated",
-      "link": "https://www.militarytimes.com/news/your-military/2026/10/16/us-armys-8th-psychological-operations-group-inactivated/",
-      "published": "Fri, 16 Oct 2026 18:30:00 +0000",
-      "source": "Military Times",
-      "categories": [
-        "exercise"
-      ]
-    },
-    {
       "title": "What would special operations forces do in a really big war?",
       "link": "https://taskandpurpose.com/news/army-special-ops-big-war/",
       "published": "Fri, 16 Oct 2026 18:39:30 -0400",
@@ -910,39 +890,21 @@
       "categories": [
         "exercise"
       ]
-    },
-    {
-      "title": "US Special Operations adopts new half-mask and goggles",
-      "link": "https://www.defensenews.com/land/2026/10/15/us-special-operations-adopts-new-half-mask-and-goggles/",
-      "published": "Fri, 16 Oct 2026 22:00:00 +0000",
-      "source": "Defense News",
-      "categories": [
-        "exercise"
-      ]
-    },
-    {
-      "title": "US Special Operations adopts new half-mask and goggles",
-      "link": "https://www.militarytimes.com/land/2026/10/15/us-special-operations-adopts-new-half-mask-and-goggles/",
-      "published": "Fri, 16 Oct 2026 22:00:00 +0000",
-      "source": "Military Times",
-      "categories": [
-        "exercise"
-      ]
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 9,
-    "conflict_articles": 11,
-    "exercise_articles": 6,
+    "deployment_articles": 8,
+    "conflict_articles": 10,
+    "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-10-19T15:02:50.270379+00:00",
+    "computed_at": "2026-10-19T20:45:16.028863+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[USNI News] Carrier USS Theodore Roosevelt Arrives in Japan Ahead of Keen Sword Exercise",
       "[Task & Purpose] Army releases rare account of soldiers surviving Iranian missile attack and how life has changed back home",
-      "[Military Times] US Army’s 8th Psychological Operations Group inactivated",
       "[Task & Purpose] What would special operations forces do in a really big war?",
-      "[Naval News] Naval Group rolls out 5th Suffren-class attack submarine"
+      "[Naval News] Naval Group rolls out 5th Suffren-class attack submarine",
+      "[Naval News] Denmark Procures Additional Naval Strike Missiles from Kongsberg"
     ]
   },
   "ground_intel": {
@@ -953,9 +915,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-10-19T15:02:50.270429+00:00",
+    "last_successful_update": "2026-10-19T20:45:16.028899+00:00",
     "article_count": 50,
-    "categorized_count": 19,
+    "categorized_count": 15,
     "freshest_source": "USNI News",
     "freshest_title": "Carrier USS Theodore Roosevelt Arrives in Japan Ahead of Keen Sword Exercise",
     "freshest_published": "Fri, 16 Oct 2026 12:32:29 +0000"
