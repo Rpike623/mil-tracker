@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-10-19T07:21:05Z",
-  "version": 3066,
-  "breaking_alert": "Naval News: EU Renews Operation IRINI to 2029, Targets Russian Shadow Fleet and CUI Protection",
+  "generated_utc": "2026-10-19T15:02:52Z",
+  "version": 3067,
+  "breaking_alert": "USNI News: Carrier USS Theodore Roosevelt Arrives in Japan Ahead of Keen Sword Exercise",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -594,16 +594,6 @@
   ],
   "_naval_news_refs": [
     {
-      "title": "EU Renews Operation IRINI to 2029, Targets Russian Shadow Fleet and CUI Protection",
-      "link": "https://www.navalnews.com/naval-news/2026/10/eu-renews-operation-irini-to-2029-targets-russian-shadow-fleet-and-cui-protection/",
-      "published": "Fri, 16 Oct 2026 07:17:34 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment",
-        "exercise"
-      ]
-    },
-    {
       "title": "Carrier USS Theodore Roosevelt Arrives in Japan Ahead of Keen Sword Exercise",
       "link": "https://news.usni.org/2026/10/16/carrier-uss-theodore-roosevelt-arrives-in-japan-ahead-of-keen-sword-exercise",
       "published": "Fri, 16 Oct 2026 12:32:29 +0000",
@@ -624,16 +614,6 @@
       ]
     },
     {
-      "title": "Israel secures procurement of 12 Apache gunships in last-minute maneuver",
-      "link": "https://www.defensenews.com/global/mideast-africa/2026/10/16/israel-secures-procurement-of-12-apache-gunships-in-last-minute-maneuver/",
-      "published": "Fri, 16 Oct 2026 14:01:24 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment",
-        "exercise"
-      ]
-    },
-    {
       "title": "Naval Group rolls out 5th Suffren-class attack submarine",
       "link": "https://www.navalnews.com/naval-news/2026/10/naval-group-rolls-out-5th-suffren-class-attack-submarine/",
       "published": "Fri, 16 Oct 2026 19:29:03 +0000",
@@ -641,6 +621,25 @@
       "categories": [
         "deployment",
         "conflict"
+      ]
+    },
+    {
+      "title": "Denmark Procures Additional Naval Strike Missiles from Kongsberg",
+      "link": "https://www.navalnews.com/naval-news/2026/10/denmark-procures-additional-naval-strike-missiles-from-kongsberg/",
+      "published": "Mon, 19 Oct 2026 08:28:30 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
+    },
+    {
+      "title": "Jeumont Electric to Supply Propulsion Systems for Poland’s A26 Submarines",
+      "link": "https://www.navalnews.com/naval-news/2026/10/jeumont-electric-to-supply-propulsion-systems-for-polands-a26-submarines/",
+      "published": "Mon, 19 Oct 2026 12:34:20 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment"
       ]
     },
     {
@@ -855,45 +854,35 @@
       ]
     },
     {
-      "title": "Marine Corps establishes its first medium-range missile battalion",
-      "link": "https://taskandpurpose.com/news/marine-corps-first-missile-battatlion/",
-      "published": "Sat, 17 Oct 2026 11:41:09 -0400",
+      "title": "Denmark Procures Additional Naval Strike Missiles from Kongsberg",
+      "link": "https://www.navalnews.com/naval-news/2026/10/denmark-procures-additional-naval-strike-missiles-from-kongsberg/",
+      "published": "Mon, 19 Oct 2026 08:28:30 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
+    },
+    {
+      "title": "The Army’s main long-range missile battery in Europe fires new weapon for the first time",
+      "link": "https://taskandpurpose.com/news/army-europe-typhon-battery-test-first/",
+      "published": "Mon, 19 Oct 2026 08:30:00 -0400",
       "source": "Task & Purpose",
       "categories": [
         "conflict"
       ]
     },
     {
-      "title": "Report to Congress on North Korea’s Nuclear Weapons and Missile Programs",
-      "link": "https://news.usni.org/2026/10/15/report-to-congress-on-north-koreas-nuclear-weapons-and-missile-programs-5",
-      "published": "Thu, 15 Oct 2026 14:12:17 +0000",
-      "source": "USNI News",
+      "title": "US Army showing interest in G/ATOR missile-killing radar, Northrop says",
+      "link": "https://www.defensenews.com/industry/techwatch/2026/10/15/us-army-showing-interest-in-gator-missile-killing-radar-northrop-says/",
+      "published": "Mon, 19 Oct 2026 11:00:00 +0000",
+      "source": "Defense News",
       "categories": [
-        "conflict"
-      ]
-    },
-    {
-      "title": "North Korea Tests First Submarine-launched Cruise Missile in Nearly 3 Years",
-      "link": "https://news.usni.org/2026/10/15/north-korea-tests-first-submarine-launched-cruise-missile-in-nearly-3-years",
-      "published": "Thu, 15 Oct 2026 16:40:30 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment",
         "conflict"
       ]
     }
   ],
   "_exercise_news_refs": [
-    {
-      "title": "EU Renews Operation IRINI to 2029, Targets Russian Shadow Fleet and CUI Protection",
-      "link": "https://www.navalnews.com/naval-news/2026/10/eu-renews-operation-irini-to-2029-targets-russian-shadow-fleet-and-cui-protection/",
-      "published": "Fri, 16 Oct 2026 07:17:34 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment",
-        "exercise"
-      ]
-    },
     {
       "title": "Carrier USS Theodore Roosevelt Arrives in Japan Ahead of Keen Sword Exercise",
       "link": "https://news.usni.org/2026/10/16/carrier-uss-theodore-roosevelt-arrives-in-japan-ahead-of-keen-sword-exercise",
@@ -905,29 +894,37 @@
       ]
     },
     {
-      "title": "Israel secures procurement of 12 Apache gunships in last-minute maneuver",
-      "link": "https://www.defensenews.com/global/mideast-africa/2026/10/16/israel-secures-procurement-of-12-apache-gunships-in-last-minute-maneuver/",
-      "published": "Fri, 16 Oct 2026 14:01:24 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment",
-        "exercise"
-      ]
-    },
-    {
-      "title": "Bulgaria seeks NATO anti-drone systems, defense minister says",
-      "link": "https://www.defensenews.com/global/europe/2026/10/16/bulgaria-seeks-nato-anti-drone-systems-defense-minister-says/",
-      "published": "Fri, 16 Oct 2026 14:44:49 +0000",
-      "source": "Defense News",
-      "categories": [
-        "exercise"
-      ]
-    },
-    {
       "title": "US Army’s 8th Psychological Operations Group inactivated",
-      "link": "https://www.defensenews.com/news/your-military/2026/10/16/us-armys-8th-psychological-operations-group-inactivated/",
+      "link": "https://www.militarytimes.com/news/your-military/2026/10/16/us-armys-8th-psychological-operations-group-inactivated/",
       "published": "Fri, 16 Oct 2026 18:30:00 +0000",
+      "source": "Military Times",
+      "categories": [
+        "exercise"
+      ]
+    },
+    {
+      "title": "What would special operations forces do in a really big war?",
+      "link": "https://taskandpurpose.com/news/army-special-ops-big-war/",
+      "published": "Fri, 16 Oct 2026 18:39:30 -0400",
+      "source": "Task & Purpose",
+      "categories": [
+        "exercise"
+      ]
+    },
+    {
+      "title": "US Special Operations adopts new half-mask and goggles",
+      "link": "https://www.defensenews.com/land/2026/10/15/us-special-operations-adopts-new-half-mask-and-goggles/",
+      "published": "Fri, 16 Oct 2026 22:00:00 +0000",
       "source": "Defense News",
+      "categories": [
+        "exercise"
+      ]
+    },
+    {
+      "title": "US Special Operations adopts new half-mask and goggles",
+      "link": "https://www.militarytimes.com/land/2026/10/15/us-special-operations-adopts-new-half-mask-and-goggles/",
+      "published": "Fri, 16 Oct 2026 22:00:00 +0000",
+      "source": "Military Times",
       "categories": [
         "exercise"
       ]
@@ -935,17 +932,17 @@
   ],
   "_threat_indicators": {
     "deployment_articles": 9,
-    "conflict_articles": 7,
-    "exercise_articles": 10,
+    "conflict_articles": 11,
+    "exercise_articles": 6,
     "total_articles": 50,
-    "computed_at": "2026-10-19T07:20:56.437936+00:00",
-    "manual_override": "DEFCON_3",
+    "computed_at": "2026-10-19T15:02:50.270379+00:00",
+    "manual_override": "DEFCON_2",
     "breaking_events": [
-      "[Naval News] EU Renews Operation IRINI to 2029, Targets Russian Shadow Fleet and CUI Protection",
       "[USNI News] Carrier USS Theodore Roosevelt Arrives in Japan Ahead of Keen Sword Exercise",
       "[Task & Purpose] Army releases rare account of soldiers surviving Iranian missile attack and how life has changed back home",
-      "[Defense News] Israel secures procurement of 12 Apache gunships in last-minute maneuver",
-      "[Defense News] Bulgaria seeks NATO anti-drone systems, defense minister says"
+      "[Military Times] US Army’s 8th Psychological Operations Group inactivated",
+      "[Task & Purpose] What would special operations forces do in a really big war?",
+      "[Naval News] Naval Group rolls out 5th Suffren-class attack submarine"
     ]
   },
   "ground_intel": {
@@ -956,12 +953,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-10-19T07:20:56.437983+00:00",
+    "last_successful_update": "2026-10-19T15:02:50.270429+00:00",
     "article_count": 50,
-    "categorized_count": 18,
-    "freshest_source": "Naval News",
-    "freshest_title": "EU Renews Operation IRINI to 2029, Targets Russian Shadow Fleet and CUI Protection",
-    "freshest_published": "Fri, 16 Oct 2026 07:17:34 +0000"
+    "categorized_count": 19,
+    "freshest_source": "USNI News",
+    "freshest_title": "Carrier USS Theodore Roosevelt Arrives in Japan Ahead of Keen Sword Exercise",
+    "freshest_published": "Fri, 16 Oct 2026 12:32:29 +0000"
   },
   "_firms_hotspots": []
 }
