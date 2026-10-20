@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-10-20T08:55:31Z",
-  "version": 3071,
+  "generated_utc": "2026-10-20T13:55:01Z",
+  "version": 3072,
   "breaking_alert": "USNI News: Carrier USS Theodore Roosevelt Arrives in Japan Ahead of Keen Sword Exercise",
   "naval_deployments": [
     {
@@ -659,6 +659,15 @@
         "deployment",
         "conflict"
       ]
+    },
+    {
+      "title": "US Navy Carrier Remote-Controls MQ-25A Stingray Over 2,100 Miles Away",
+      "link": "https://www.navalnews.com/naval-news/2026/10/us-navy-carrier-remote-controls-mq-25a-stingray-over-2100-miles-away/",
+      "published": "Tue, 20 Oct 2026 12:28:10 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
     }
   ],
   "centcom_assets": {
@@ -882,11 +891,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 7,
+    "deployment_articles": 8,
     "conflict_articles": 10,
     "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-10-20T08:55:26.218859+00:00",
+    "computed_at": "2026-10-20T13:54:57.306356+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[USNI News] Carrier USS Theodore Roosevelt Arrives in Japan Ahead of Keen Sword Exercise",
@@ -904,9 +913,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-10-20T08:55:26.218901+00:00",
+    "last_successful_update": "2026-10-20T13:54:57.306404+00:00",
     "article_count": 50,
-    "categorized_count": 15,
+    "categorized_count": 16,
     "freshest_source": "USNI News",
     "freshest_title": "Carrier USS Theodore Roosevelt Arrives in Japan Ahead of Keen Sword Exercise",
     "freshest_published": "Fri, 16 Oct 2026 12:32:29 +0000"
