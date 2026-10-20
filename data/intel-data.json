@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-10-20T13:55:01Z",
-  "version": 3072,
+  "generated_utc": "2026-10-20T18:09:09Z",
+  "version": 3073,
   "breaking_alert": "USNI News: Carrier USS Theodore Roosevelt Arrives in Japan Ahead of Keen Sword Exercise",
   "naval_deployments": [
     {
@@ -604,16 +604,6 @@
       ]
     },
     {
-      "title": "Army releases rare account of soldiers surviving Iranian missile attack and how life has changed back home",
-      "link": "https://taskandpurpose.com/news/soldiers-account-iranian-missile-attack/",
-      "published": "Fri, 16 Oct 2026 12:39:06 -0400",
-      "source": "Task & Purpose",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
       "title": "Denmark Procures Additional Naval Strike Missiles from Kongsberg",
       "link": "https://www.navalnews.com/naval-news/2026/10/denmark-procures-additional-naval-strike-missiles-from-kongsberg/",
       "published": "Mon, 19 Oct 2026 08:28:30 +0000",
@@ -651,20 +641,46 @@
       ]
     },
     {
-      "title": "North Korea Tests First Submarine-launched Cruise Missile in Nearly 3 Years",
-      "link": "https://news.usni.org/2026/10/15/north-korea-tests-first-submarine-launched-cruise-missile-in-nearly-3-years",
-      "published": "Thu, 15 Oct 2026 16:40:30 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
       "title": "US Navy Carrier Remote-Controls MQ-25A Stingray Over 2,100 Miles Away",
       "link": "https://www.navalnews.com/naval-news/2026/10/us-navy-carrier-remote-controls-mq-25a-stingray-over-2100-miles-away/",
       "published": "Tue, 20 Oct 2026 12:28:10 +0000",
       "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "CNO Caudle’s ‘Fit to Fight’ C-Note to the Fleet",
+      "link": "https://news.usni.org/2026/10/20/cno-caudles-fit-to-fight-c-note-to-the-fleet",
+      "published": "Tue, 20 Oct 2026 14:42:20 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Chinese Navy Shadows USS Charleston Near Contested Sabina Shoal",
+      "link": "https://news.usni.org/2026/10/20/chinese-navy-shadows-uss-charleston-near-contested-sabina-shoal",
+      "published": "Tue, 20 Oct 2026 15:55:24 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Hegseth discusses Iran with Netanyahu in unannounced visit to Israel, officials say",
+      "link": "https://www.defensenews.com/news/pentagon-congress/2026/10/20/hegseth-discusses-iran-with-netanyahu-in-unannounced-visit-to-israel-officials-say/",
+      "published": "Tue, 20 Oct 2026 15:56:57 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Hegseth discusses Iran with Netanyahu in unannounced visit to Israel, officials say",
+      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/10/20/hegseth-discusses-iran-with-netanyahu-in-unannounced-visit-to-israel-officials-say/",
+      "published": "Tue, 20 Oct 2026 15:56:57 +0000",
+      "source": "Military Times",
       "categories": [
         "deployment"
       ]
@@ -822,16 +838,6 @@
   },
   "_conflict_news_refs": [
     {
-      "title": "Army releases rare account of soldiers surviving Iranian missile attack and how life has changed back home",
-      "link": "https://taskandpurpose.com/news/soldiers-account-iranian-missile-attack/",
-      "published": "Fri, 16 Oct 2026 12:39:06 -0400",
-      "source": "Task & Purpose",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
       "title": "Denmark Procures Additional Naval Strike Missiles from Kongsberg",
       "link": "https://www.navalnews.com/naval-news/2026/10/denmark-procures-additional-naval-strike-missiles-from-kongsberg/",
       "published": "Mon, 19 Oct 2026 08:28:30 +0000",
@@ -851,19 +857,28 @@
       ]
     },
     {
-      "title": "US Army showing interest in G/ATOR missile-killing radar, Northrop says",
-      "link": "https://www.defensenews.com/industry/techwatch/2026/10/15/us-army-showing-interest-in-gator-missile-killing-radar-northrop-says/",
-      "published": "Mon, 19 Oct 2026 11:00:00 +0000",
-      "source": "Defense News",
+      "title": "U.S. Marine Corps Stands Up First NMESIS Anti-ship Missile Battalion",
+      "link": "https://news.usni.org/2026/10/19/u-s-marine-corps-stands-up-first-nmesis-anti-ship-missile-battalion",
+      "published": "Mon, 19 Oct 2026 17:45:08 +0000",
+      "source": "USNI News",
       "categories": [
         "conflict"
       ]
     },
     {
-      "title": "US Army showing interest in G/ATOR missile-killing radar, Northrop says",
-      "link": "https://www.militarytimes.com/industry/techwatch/2026/10/15/us-army-showing-interest-in-gator-missile-killing-radar-northrop-says/",
-      "published": "Mon, 19 Oct 2026 11:00:00 +0000",
-      "source": "Military Times",
+      "title": "Marine Corps establishes its first medium-range missile battalion",
+      "link": "https://taskandpurpose.com/news/marine-corps-first-missile-battatlion/",
+      "published": "Sat, 17 Oct 2026 11:41:09 -0400",
+      "source": "Task & Purpose",
+      "categories": [
+        "conflict"
+      ]
+    },
+    {
+      "title": "U.S. Army Anti-A2/AD, Maritime Strike Unit Fires Tomahawk Missile",
+      "link": "https://www.navalnews.com/naval-news/2026/10/u-s-army-anti-a2-ad-maritime-strike-unit-fires-tomahawk-missile/",
+      "published": "Tue, 20 Oct 2026 08:42:29 +0000",
+      "source": "Naval News",
       "categories": [
         "conflict"
       ]
@@ -891,18 +906,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 8,
-    "conflict_articles": 10,
+    "deployment_articles": 12,
+    "conflict_articles": 8,
     "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-10-20T13:54:57.306356+00:00",
+    "computed_at": "2026-10-20T18:09:04.264633+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[USNI News] Carrier USS Theodore Roosevelt Arrives in Japan Ahead of Keen Sword Exercise",
-      "[Task & Purpose] Army releases rare account of soldiers surviving Iranian missile attack and how life has changed back home",
       "[Task & Purpose] What would special operations forces do in a really big war?",
       "[Naval News] Denmark Procures Additional Naval Strike Missiles from Kongsberg",
-      "[Task & Purpose] The Army’s main long-range missile battery in Europe fires new weapon for the first time"
+      "[Task & Purpose] The Army’s main long-range missile battery in Europe fires new weapon for the first time",
+      "[Naval News] Jeumont Electric to Supply Propulsion Systems for Poland’s A26 Submarines"
     ]
   },
   "ground_intel": {
@@ -913,9 +928,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-10-20T13:54:57.306404+00:00",
+    "last_successful_update": "2026-10-20T18:09:04.264673+00:00",
     "article_count": 50,
-    "categorized_count": 16,
+    "categorized_count": 20,
     "freshest_source": "USNI News",
     "freshest_title": "Carrier USS Theodore Roosevelt Arrives in Japan Ahead of Keen Sword Exercise",
     "freshest_published": "Fri, 16 Oct 2026 12:32:29 +0000"
