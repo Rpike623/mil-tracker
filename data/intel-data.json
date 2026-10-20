@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-10-20T18:09:09Z",
-  "version": 3073,
+  "generated_utc": "2026-10-20T22:02:22Z",
+  "version": 3074,
   "breaking_alert": "USNI News: Carrier USS Theodore Roosevelt Arrives in Japan Ahead of Keen Sword Exercise",
   "naval_deployments": [
     {
@@ -896,28 +896,28 @@
       ]
     },
     {
-      "title": "What would special operations forces do in a really big war?",
-      "link": "https://taskandpurpose.com/news/army-special-ops-big-war/",
-      "published": "Fri, 16 Oct 2026 18:39:30 -0400",
-      "source": "Task & Purpose",
+      "title": "HAVELSAN Demonstrates Coordinated Unmanned Air and Maritime Operations",
+      "link": "https://www.navalnews.com/naval-news/2026/10/havelsan-demonstrates-coordinated-unmanned-air-and-maritime-operations/",
+      "published": "Tue, 20 Oct 2026 18:40:15 +0000",
+      "source": "Naval News",
       "categories": [
         "exercise"
       ]
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 12,
+    "deployment_articles": 14,
     "conflict_articles": 8,
     "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-10-20T18:09:04.264633+00:00",
+    "computed_at": "2026-10-20T21:57:41.664024+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[USNI News] Carrier USS Theodore Roosevelt Arrives in Japan Ahead of Keen Sword Exercise",
-      "[Task & Purpose] What would special operations forces do in a really big war?",
       "[Naval News] Denmark Procures Additional Naval Strike Missiles from Kongsberg",
       "[Task & Purpose] The Army’s main long-range missile battery in Europe fires new weapon for the first time",
-      "[Naval News] Jeumont Electric to Supply Propulsion Systems for Poland’s A26 Submarines"
+      "[Naval News] Jeumont Electric to Supply Propulsion Systems for Poland’s A26 Submarines",
+      "[Task & Purpose] Tracking America’s latest conflict: The Iran war timeline"
     ]
   },
   "ground_intel": {
@@ -928,9 +928,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-10-20T18:09:04.264673+00:00",
+    "last_successful_update": "2026-10-20T21:57:41.664063+00:00",
     "article_count": 50,
-    "categorized_count": 20,
+    "categorized_count": 22,
     "freshest_source": "USNI News",
     "freshest_title": "Carrier USS Theodore Roosevelt Arrives in Japan Ahead of Keen Sword Exercise",
     "freshest_published": "Fri, 16 Oct 2026 12:32:29 +0000"
