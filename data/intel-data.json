@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-10-21T10:41:17Z",
-  "version": 3077,
-  "breaking_alert": "USNI News: Carrier USS Theodore Roosevelt Arrives in Japan Ahead of Keen Sword Exercise",
+  "generated_utc": "2026-10-21T15:40:52Z",
+  "version": 3078,
+  "breaking_alert": "Task & Purpose: The Army’s main long-range missile battery in Europe fires new weapon for the first time",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -594,16 +594,6 @@
   ],
   "_naval_news_refs": [
     {
-      "title": "Carrier USS Theodore Roosevelt Arrives in Japan Ahead of Keen Sword Exercise",
-      "link": "https://news.usni.org/2026/10/16/carrier-uss-theodore-roosevelt-arrives-in-japan-ahead-of-keen-sword-exercise",
-      "published": "Fri, 16 Oct 2026 12:32:29 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment",
-        "exercise"
-      ]
-    },
-    {
       "title": "Tracking America’s latest conflict: The Iran war timeline",
       "link": "https://taskandpurpose.com/news/iran-war-timeline/",
       "published": "Mon, 19 Oct 2026 15:56:42 -0400",
@@ -617,6 +607,15 @@
       "link": "https://news.usni.org/2026/10/19/usni-news-fleet-and-marine-tracker-oct-19-2026",
       "published": "Mon, 19 Oct 2026 16:18:29 +0000",
       "source": "USNI News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "US Navy Carrier Remote-Controls MQ-25A Stingray Over 2,100 Miles Away",
+      "link": "https://www.navalnews.com/naval-news/2026/10/us-navy-carrier-remote-controls-mq-25a-stingray-over-2100-miles-away/",
+      "published": "Tue, 20 Oct 2026 12:28:10 +0000",
+      "source": "Naval News",
       "categories": [
         "deployment"
       ]
@@ -855,19 +854,10 @@
       ]
     },
     {
-      "title": "Marine Corps establishes its first medium-range missile battalion",
-      "link": "https://taskandpurpose.com/news/marine-corps-first-missile-battatlion/",
-      "published": "Sat, 17 Oct 2026 11:41:09 -0400",
-      "source": "Task & Purpose",
-      "categories": [
-        "conflict"
-      ]
-    },
-    {
-      "title": "Marine Corps creates first medium missile battalion",
-      "link": "https://www.militarytimes.com/news/your-military/2026/10/20/marine-corps-creates-first-medium-missile-battalion/",
-      "published": "Tue, 20 Oct 2026 14:12:06 +0000",
-      "source": "Military Times",
+      "title": "U.S. Army Anti-A2/AD, Maritime Strike Unit Fires Tomahawk Missile",
+      "link": "https://www.navalnews.com/naval-news/2026/10/u-s-army-anti-a2-ad-maritime-strike-unit-fires-tomahawk-missile/",
+      "published": "Tue, 20 Oct 2026 08:42:29 +0000",
+      "source": "Naval News",
       "categories": [
         "conflict"
       ]
@@ -880,33 +870,41 @@
       "categories": [
         "conflict"
       ]
+    },
+    {
+      "title": "US Army support for Golden Dome missile shield takes shape",
+      "link": "https://www.militarytimes.com/air-warfare/2026/10/20/us-army-support-for-golden-dome-missile-shield-takes-shape/",
+      "published": "Tue, 20 Oct 2026 17:30:40 +0000",
+      "source": "Military Times",
+      "categories": [
+        "conflict"
+      ]
     }
   ],
   "_exercise_news_refs": [
     {
-      "title": "Carrier USS Theodore Roosevelt Arrives in Japan Ahead of Keen Sword Exercise",
-      "link": "https://news.usni.org/2026/10/16/carrier-uss-theodore-roosevelt-arrives-in-japan-ahead-of-keen-sword-exercise",
-      "published": "Fri, 16 Oct 2026 12:32:29 +0000",
-      "source": "USNI News",
+      "title": "HAVELSAN Demonstrates Coordinated Unmanned Air and Maritime Operations",
+      "link": "https://www.navalnews.com/naval-news/2026/10/havelsan-demonstrates-coordinated-unmanned-air-and-maritime-operations/",
+      "published": "Tue, 20 Oct 2026 18:40:15 +0000",
+      "source": "Naval News",
       "categories": [
-        "deployment",
         "exercise"
       ]
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 11,
+    "deployment_articles": 13,
     "conflict_articles": 6,
     "exercise_articles": 1,
-    "total_articles": 40,
-    "computed_at": "2026-10-21T10:41:12.087951+00:00",
+    "total_articles": 50,
+    "computed_at": "2026-10-21T15:40:50.318213+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
-      "[USNI News] Carrier USS Theodore Roosevelt Arrives in Japan Ahead of Keen Sword Exercise",
       "[Task & Purpose] The Army’s main long-range missile battery in Europe fires new weapon for the first time",
       "[Task & Purpose] Tracking America’s latest conflict: The Iran war timeline",
       "[USNI News] USNI News Fleet and Marine Tracker: Oct. 19, 2026",
-      "[USNI News] U.S. Marine Corps Stands Up First NMESIS Anti-ship Missile Battalion"
+      "[USNI News] U.S. Marine Corps Stands Up First NMESIS Anti-ship Missile Battalion",
+      "[Naval News] U.S. Army Anti-A2/AD, Maritime Strike Unit Fires Tomahawk Missile"
     ]
   },
   "ground_intel": {
@@ -917,12 +915,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-10-21T10:41:12.087990+00:00",
-    "article_count": 40,
-    "categorized_count": 17,
-    "freshest_source": "USNI News",
-    "freshest_title": "Carrier USS Theodore Roosevelt Arrives in Japan Ahead of Keen Sword Exercise",
-    "freshest_published": "Fri, 16 Oct 2026 12:32:29 +0000"
+    "last_successful_update": "2026-10-21T15:40:50.318259+00:00",
+    "article_count": 50,
+    "categorized_count": 20,
+    "freshest_source": "Task & Purpose",
+    "freshest_title": "The Army’s main long-range missile battery in Europe fires new weapon for the first time",
+    "freshest_published": "Mon, 19 Oct 2026 08:30:00 -0400"
   },
   "_firms_hotspots": []
 }
