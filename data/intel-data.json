@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-10-21T19:42:33Z",
-  "version": 3079,
+  "generated_utc": "2026-10-21T22:49:54Z",
+  "version": 3080,
   "breaking_alert": "Task & Purpose: The Army’s main long-range missile battery in Europe fires new weapon for the first time",
   "naval_deployments": [
     {
@@ -854,15 +854,6 @@
       ]
     },
     {
-      "title": "U.S. Army Anti-A2/AD, Maritime Strike Unit Fires Tomahawk Missile",
-      "link": "https://www.navalnews.com/naval-news/2026/10/u-s-army-anti-a2-ad-maritime-strike-unit-fires-tomahawk-missile/",
-      "published": "Tue, 20 Oct 2026 08:42:29 +0000",
-      "source": "Naval News",
-      "categories": [
-        "conflict"
-      ]
-    },
-    {
       "title": "US Army support for Golden Dome missile shield takes shape",
       "link": "https://www.defensenews.com/air-warfare/2026/10/20/us-army-support-for-golden-dome-missile-shield-takes-shape/",
       "published": "Tue, 20 Oct 2026 17:30:40 +0000",
@@ -877,6 +868,16 @@
       "published": "Wed, 21 Oct 2026 14:27:08 +0000",
       "source": "Defense News",
       "categories": [
+        "conflict"
+      ]
+    },
+    {
+      "title": "NATO Kicks Off Neptune Strike Across European Waters",
+      "link": "https://news.usni.org/2026/10/21/nato-kicks-off-neptune-strike-across-european-waters",
+      "published": "Wed, 21 Oct 2026 16:59:35 +0000",
+      "source": "USNI News",
+      "categories": [
+        "exercise",
         "conflict"
       ]
     }
@@ -904,17 +905,17 @@
   ],
   "_threat_indicators": {
     "deployment_articles": 12,
-    "conflict_articles": 6,
+    "conflict_articles": 5,
     "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-10-21T19:42:27.621971+00:00",
+    "computed_at": "2026-10-21T22:49:49.588892+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Task & Purpose] The Army’s main long-range missile battery in Europe fires new weapon for the first time",
       "[Task & Purpose] Tracking America’s latest conflict: The Iran war timeline",
       "[USNI News] USNI News Fleet and Marine Tracker: Oct. 19, 2026",
       "[USNI News] U.S. Marine Corps Stands Up First NMESIS Anti-ship Missile Battalion",
-      "[Naval News] U.S. Army Anti-A2/AD, Maritime Strike Unit Fires Tomahawk Missile"
+      "[Naval News] US Navy Carrier Remote-Controls MQ-25A Stingray Over 2,100 Miles Away"
     ]
   },
   "ground_intel": {
@@ -925,9 +926,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-10-21T19:42:27.622018+00:00",
+    "last_successful_update": "2026-10-21T22:49:49.588925+00:00",
     "article_count": 50,
-    "categorized_count": 19,
+    "categorized_count": 18,
     "freshest_source": "Task & Purpose",
     "freshest_title": "The Army’s main long-range missile battery in Europe fires new weapon for the first time",
     "freshest_published": "Mon, 19 Oct 2026 08:30:00 -0400"
