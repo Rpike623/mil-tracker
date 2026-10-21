@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-10-21T05:26:08Z",
-  "version": 3076,
+  "generated_utc": "2026-10-21T10:41:17Z",
+  "version": 3077,
   "breaking_alert": "USNI News: Carrier USS Theodore Roosevelt Arrives in Japan Ahead of Keen Sword Exercise",
   "naval_deployments": [
     {
@@ -604,25 +604,6 @@
       ]
     },
     {
-      "title": "Denmark Procures Additional Naval Strike Missiles from Kongsberg",
-      "link": "https://www.navalnews.com/naval-news/2026/10/denmark-procures-additional-naval-strike-missiles-from-kongsberg/",
-      "published": "Mon, 19 Oct 2026 08:28:30 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
-      "title": "Jeumont Electric to Supply Propulsion Systems for Poland’s A26 Submarines",
-      "link": "https://www.navalnews.com/naval-news/2026/10/jeumont-electric-to-supply-propulsion-systems-for-polands-a26-submarines/",
-      "published": "Mon, 19 Oct 2026 12:34:20 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Tracking America’s latest conflict: The Iran war timeline",
       "link": "https://taskandpurpose.com/news/iran-war-timeline/",
       "published": "Mon, 19 Oct 2026 15:56:42 -0400",
@@ -636,15 +617,6 @@
       "link": "https://news.usni.org/2026/10/19/usni-news-fleet-and-marine-tracker-oct-19-2026",
       "published": "Mon, 19 Oct 2026 16:18:29 +0000",
       "source": "USNI News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "US Navy Carrier Remote-Controls MQ-25A Stingray Over 2,100 Miles Away",
-      "link": "https://www.navalnews.com/naval-news/2026/10/us-navy-carrier-remote-controls-mq-25a-stingray-over-2100-miles-away/",
-      "published": "Tue, 20 Oct 2026 12:28:10 +0000",
-      "source": "Naval News",
       "categories": [
         "deployment"
       ]
@@ -681,6 +653,33 @@
       "link": "https://www.militarytimes.com/news/pentagon-congress/2026/10/20/hegseth-discusses-iran-with-netanyahu-in-unannounced-visit-to-israel-officials-say/",
       "published": "Tue, 20 Oct 2026 15:56:57 +0000",
       "source": "Military Times",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "China built more than twice naval tonnage of US in 2024-25: Euronaval",
+      "link": "https://www.defensenews.com/naval/2026/10/20/china-built-more-than-twice-naval-tonnage-of-us-in-2024-25-euronaval/",
+      "published": "Tue, 20 Oct 2026 16:57:56 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "China built more than twice naval tonnage of US in 2024-25: Euronaval",
+      "link": "https://www.militarytimes.com/naval/2026/10/20/china-built-more-than-twice-naval-tonnage-of-us-in-2024-25-euronaval/",
+      "published": "Tue, 20 Oct 2026 16:57:56 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "VIDEO: USS San Antonio Returns Home From Split Deployment",
+      "link": "https://news.usni.org/2026/10/20/video-uss-san-antonio-returns-home-from-split-deployment",
+      "published": "Tue, 20 Oct 2026 20:56:35 +0000",
+      "source": "USNI News",
       "categories": [
         "deployment"
       ]
@@ -838,16 +837,6 @@
   },
   "_conflict_news_refs": [
     {
-      "title": "Denmark Procures Additional Naval Strike Missiles from Kongsberg",
-      "link": "https://www.navalnews.com/naval-news/2026/10/denmark-procures-additional-naval-strike-missiles-from-kongsberg/",
-      "published": "Mon, 19 Oct 2026 08:28:30 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
       "title": "The Army’s main long-range missile battery in Europe fires new weapon for the first time",
       "link": "https://taskandpurpose.com/news/army-europe-typhon-battery-test-first/",
       "published": "Mon, 19 Oct 2026 08:30:00 -0400",
@@ -875,10 +864,19 @@
       ]
     },
     {
-      "title": "U.S. Army Anti-A2/AD, Maritime Strike Unit Fires Tomahawk Missile",
-      "link": "https://www.navalnews.com/naval-news/2026/10/u-s-army-anti-a2-ad-maritime-strike-unit-fires-tomahawk-missile/",
-      "published": "Tue, 20 Oct 2026 08:42:29 +0000",
-      "source": "Naval News",
+      "title": "Marine Corps creates first medium missile battalion",
+      "link": "https://www.militarytimes.com/news/your-military/2026/10/20/marine-corps-creates-first-medium-missile-battalion/",
+      "published": "Tue, 20 Oct 2026 14:12:06 +0000",
+      "source": "Military Times",
+      "categories": [
+        "conflict"
+      ]
+    },
+    {
+      "title": "US Army support for Golden Dome missile shield takes shape",
+      "link": "https://www.defensenews.com/air-warfare/2026/10/20/us-army-support-for-golden-dome-missile-shield-takes-shape/",
+      "published": "Tue, 20 Oct 2026 17:30:40 +0000",
+      "source": "Defense News",
       "categories": [
         "conflict"
       ]
@@ -894,30 +892,21 @@
         "deployment",
         "exercise"
       ]
-    },
-    {
-      "title": "HAVELSAN Demonstrates Coordinated Unmanned Air and Maritime Operations",
-      "link": "https://www.navalnews.com/naval-news/2026/10/havelsan-demonstrates-coordinated-unmanned-air-and-maritime-operations/",
-      "published": "Tue, 20 Oct 2026 18:40:15 +0000",
-      "source": "Naval News",
-      "categories": [
-        "exercise"
-      ]
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 14,
-    "conflict_articles": 8,
-    "exercise_articles": 2,
-    "total_articles": 50,
-    "computed_at": "2026-10-21T05:26:06.972999+00:00",
-    "manual_override": "DEFCON_2",
+    "deployment_articles": 11,
+    "conflict_articles": 6,
+    "exercise_articles": 1,
+    "total_articles": 40,
+    "computed_at": "2026-10-21T10:41:12.087951+00:00",
+    "manual_override": "DEFCON_3",
     "breaking_events": [
       "[USNI News] Carrier USS Theodore Roosevelt Arrives in Japan Ahead of Keen Sword Exercise",
-      "[Naval News] Denmark Procures Additional Naval Strike Missiles from Kongsberg",
       "[Task & Purpose] The Army’s main long-range missile battery in Europe fires new weapon for the first time",
-      "[Naval News] Jeumont Electric to Supply Propulsion Systems for Poland’s A26 Submarines",
-      "[Task & Purpose] Tracking America’s latest conflict: The Iran war timeline"
+      "[Task & Purpose] Tracking America’s latest conflict: The Iran war timeline",
+      "[USNI News] USNI News Fleet and Marine Tracker: Oct. 19, 2026",
+      "[USNI News] U.S. Marine Corps Stands Up First NMESIS Anti-ship Missile Battalion"
     ]
   },
   "ground_intel": {
@@ -928,9 +917,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-10-21T05:26:06.973044+00:00",
-    "article_count": 50,
-    "categorized_count": 22,
+    "last_successful_update": "2026-10-21T10:41:12.087990+00:00",
+    "article_count": 40,
+    "categorized_count": 17,
     "freshest_source": "USNI News",
     "freshest_title": "Carrier USS Theodore Roosevelt Arrives in Japan Ahead of Keen Sword Exercise",
     "freshest_published": "Fri, 16 Oct 2026 12:32:29 +0000"
