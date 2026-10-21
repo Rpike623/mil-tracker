@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-10-20T22:02:22Z",
-  "version": 3074,
+  "generated_utc": "2026-10-21T00:18:49Z",
+  "version": 3075,
   "breaking_alert": "USNI News: Carrier USS Theodore Roosevelt Arrives in Japan Ahead of Keen Sword Exercise",
   "naval_deployments": [
     {
@@ -910,7 +910,7 @@
     "conflict_articles": 8,
     "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-10-20T21:57:41.664024+00:00",
+    "computed_at": "2026-10-21T00:18:42.258680+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[USNI News] Carrier USS Theodore Roosevelt Arrives in Japan Ahead of Keen Sword Exercise",
@@ -928,7 +928,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-10-20T21:57:41.664063+00:00",
+    "last_successful_update": "2026-10-21T00:18:42.258731+00:00",
     "article_count": 50,
     "categorized_count": 22,
     "freshest_source": "USNI News",
