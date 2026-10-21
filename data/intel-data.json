@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-10-21T15:40:52Z",
-  "version": 3078,
+  "generated_utc": "2026-10-21T19:42:33Z",
+  "version": 3079,
   "breaking_alert": "Task & Purpose: The Army’s main long-range missile battery in Europe fires new weapon for the first time",
   "naval_deployments": [
     {
@@ -639,46 +639,46 @@
       ]
     },
     {
-      "title": "Hegseth discusses Iran with Netanyahu in unannounced visit to Israel, officials say",
-      "link": "https://www.defensenews.com/news/pentagon-congress/2026/10/20/hegseth-discusses-iran-with-netanyahu-in-unannounced-visit-to-israel-officials-say/",
-      "published": "Tue, 20 Oct 2026 15:56:57 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Hegseth discusses Iran with Netanyahu in unannounced visit to Israel, officials say",
-      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/10/20/hegseth-discusses-iran-with-netanyahu-in-unannounced-visit-to-israel-officials-say/",
-      "published": "Tue, 20 Oct 2026 15:56:57 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "China built more than twice naval tonnage of US in 2024-25: Euronaval",
-      "link": "https://www.defensenews.com/naval/2026/10/20/china-built-more-than-twice-naval-tonnage-of-us-in-2024-25-euronaval/",
-      "published": "Tue, 20 Oct 2026 16:57:56 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "China built more than twice naval tonnage of US in 2024-25: Euronaval",
-      "link": "https://www.militarytimes.com/naval/2026/10/20/china-built-more-than-twice-naval-tonnage-of-us-in-2024-25-euronaval/",
-      "published": "Tue, 20 Oct 2026 16:57:56 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "VIDEO: USS San Antonio Returns Home From Split Deployment",
       "link": "https://news.usni.org/2026/10/20/video-uss-san-antonio-returns-home-from-split-deployment",
       "published": "Tue, 20 Oct 2026 20:56:35 +0000",
       "source": "USNI News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Navy establishes dedicated rating for submarine Chiefs of the Boat",
+      "link": "https://www.militarytimes.com/news/your-military/2026/10/20/navy-establishes-dedicated-rating-for-submarine-chiefs-of-the-boat/",
+      "published": "Tue, 20 Oct 2026 21:01:50 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Italian Navy Integrates SAVER Submarine Rescue Suite Aboard OSV Tritone",
+      "link": "https://www.navalnews.com/naval-news/2026/10/italian-navy-integrates-saver-submarine-rescue-suite-aboard-osv-tritone/",
+      "published": "Wed, 21 Oct 2026 06:35:05 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Leading Navy Selects Exail Navigation Systems for USV Fleet",
+      "link": "https://www.navalnews.com/naval-news/2026/10/leading-navy-selects-exail-navigation-systems-for-usv-fleet/",
+      "published": "Wed, 21 Oct 2026 13:32:56 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "USS Abraham Lincoln to shift home port to Naval Base Kitsap-Bremerton",
+      "link": "https://www.militarytimes.com/news/your-navy/2026/10/21/uss-abraham-lincoln-to-shift-home-port-to-naval-base-kitsap-bremerton/",
+      "published": "Wed, 21 Oct 2026 18:29:48 +0000",
+      "source": "Military Times",
       "categories": [
         "deployment"
       ]
@@ -872,10 +872,10 @@
       ]
     },
     {
-      "title": "US Army support for Golden Dome missile shield takes shape",
-      "link": "https://www.militarytimes.com/air-warfare/2026/10/20/us-army-support-for-golden-dome-missile-shield-takes-shape/",
-      "published": "Tue, 20 Oct 2026 17:30:40 +0000",
-      "source": "Military Times",
+      "title": "German military raises sabotage threat level amid warning of Russian attacks: report",
+      "link": "https://www.defensenews.com/global/europe/2026/10/21/german-military-raises-sabotage-threat-level-amid-warning-of-russian-attacks-report/",
+      "published": "Wed, 21 Oct 2026 14:27:08 +0000",
+      "source": "Defense News",
       "categories": [
         "conflict"
       ]
@@ -890,14 +890,24 @@
       "categories": [
         "exercise"
       ]
+    },
+    {
+      "title": "NATO Kicks Off Neptune Strike Across European Waters",
+      "link": "https://news.usni.org/2026/10/21/nato-kicks-off-neptune-strike-across-european-waters",
+      "published": "Wed, 21 Oct 2026 16:59:35 +0000",
+      "source": "USNI News",
+      "categories": [
+        "exercise",
+        "conflict"
+      ]
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 13,
+    "deployment_articles": 12,
     "conflict_articles": 6,
-    "exercise_articles": 1,
+    "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-10-21T15:40:50.318213+00:00",
+    "computed_at": "2026-10-21T19:42:27.621971+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Task & Purpose] The Army’s main long-range missile battery in Europe fires new weapon for the first time",
@@ -915,9 +925,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-10-21T15:40:50.318259+00:00",
+    "last_successful_update": "2026-10-21T19:42:27.622018+00:00",
     "article_count": 50,
-    "categorized_count": 20,
+    "categorized_count": 19,
     "freshest_source": "Task & Purpose",
     "freshest_title": "The Army’s main long-range missile battery in Europe fires new weapon for the first time",
     "freshest_published": "Mon, 19 Oct 2026 08:30:00 -0400"
