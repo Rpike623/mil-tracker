@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-10-22T12:33:34Z",
-  "version": 3083,
-  "breaking_alert": "Task & Purpose: The Army’s main long-range missile battery in Europe fires new weapon for the first time",
+  "generated_utc": "2026-10-22T17:41:19Z",
+  "version": 3084,
+  "breaking_alert": "Task & Purpose: Tracking America’s latest conflict: The Iran war timeline",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -603,21 +603,41 @@
       ]
     },
     {
-      "title": "USNI News Fleet and Marine Tracker: Oct. 19, 2026",
-      "link": "https://news.usni.org/2026/10/19/usni-news-fleet-and-marine-tracker-oct-19-2026",
-      "published": "Mon, 19 Oct 2026 16:18:29 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "UK’s Royal Navy has ‘serious’ anti-submarine warfare gap, committee finds",
       "link": "https://www.defensenews.com/global/europe/2026/10/22/uks-royal-navy-has-serious-anti-submarine-warfare-gap-committee-finds/",
       "published": "Thu, 22 Oct 2026 11:07:12 +0000",
       "source": "Defense News",
       "categories": [
         "deployment"
+      ]
+    },
+    {
+      "title": "USS Abraham Lincoln crew prepares for base move weeks after extended deployment",
+      "link": "https://taskandpurpose.com/news/abraham-lincoln-port-change-december/",
+      "published": "Thu, 22 Oct 2026 13:24:57 -0400",
+      "source": "Task & Purpose",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Euronaval 2026: Global Naval Shipbuilding Surges 50%",
+      "link": "https://www.navalnews.com/event-news/euronaval-2026/2026/10/euronaval-2026-global-naval-shipbuilding-surges-50/",
+      "published": "Thu, 22 Oct 2026 13:51:41 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Theodore Roosevelt Carrier Strike Group Sails in the Philippine Sea for Keen Sword Drills",
+      "link": "https://news.usni.org/2026/10/22/theodore-roosevelt-carrier-strike-group-sails-in-the-philippine-sea-for-keen-sword-drills",
+      "published": "Thu, 22 Oct 2026 16:02:08 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment",
+        "exercise",
+        "conflict"
       ]
     },
     {
@@ -648,10 +668,10 @@
       ]
     },
     {
-      "title": "Navy establishes dedicated rating for submarine Chiefs of the Boat",
-      "link": "https://www.militarytimes.com/news/your-military/2026/10/20/navy-establishes-dedicated-rating-for-submarine-chiefs-of-the-boat/",
-      "published": "Tue, 20 Oct 2026 21:01:50 +0000",
-      "source": "Military Times",
+      "title": "Leading Navy Selects Exail Navigation Systems for USV Fleet",
+      "link": "https://www.navalnews.com/naval-news/2026/10/leading-navy-selects-exail-navigation-systems-for-usv-fleet/",
+      "published": "Wed, 21 Oct 2026 13:32:56 +0000",
+      "source": "Naval News",
       "categories": [
         "deployment"
       ]
@@ -660,24 +680,6 @@
       "title": "USS Abraham Lincoln to shift home port to Naval Base Kitsap-Bremerton",
       "link": "https://www.militarytimes.com/news/your-navy/2026/10/21/uss-abraham-lincoln-to-shift-home-port-to-naval-base-kitsap-bremerton/",
       "published": "Wed, 21 Oct 2026 18:29:48 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "US Air Force outlines the fighter fleet it needs by 2035",
-      "link": "https://www.defensenews.com/news/your-military/2026/10/21/us-air-force-outlines-the-fighter-fleet-it-needs-by-2035/",
-      "published": "Wed, 21 Oct 2026 19:01:44 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "US Air Force outlines the fighter fleet it needs by 2035",
-      "link": "https://www.militarytimes.com/news/your-military/2026/10/21/us-air-force-outlines-the-fighter-fleet-it-needs-by-2035/",
-      "published": "Wed, 21 Oct 2026 19:01:44 +0000",
       "source": "Military Times",
       "categories": [
         "deployment"
@@ -836,29 +838,13 @@
   },
   "_conflict_news_refs": [
     {
-      "title": "The Army’s main long-range missile battery in Europe fires new weapon for the first time",
-      "link": "https://taskandpurpose.com/news/army-europe-typhon-battery-test-first/",
-      "published": "Mon, 19 Oct 2026 08:30:00 -0400",
-      "source": "Task & Purpose",
-      "categories": [
-        "conflict"
-      ]
-    },
-    {
-      "title": "U.S. Marine Corps Stands Up First NMESIS Anti-ship Missile Battalion",
-      "link": "https://news.usni.org/2026/10/19/u-s-marine-corps-stands-up-first-nmesis-anti-ship-missile-battalion",
-      "published": "Mon, 19 Oct 2026 17:45:08 +0000",
+      "title": "Theodore Roosevelt Carrier Strike Group Sails in the Philippine Sea for Keen Sword Drills",
+      "link": "https://news.usni.org/2026/10/22/theodore-roosevelt-carrier-strike-group-sails-in-the-philippine-sea-for-keen-sword-drills",
+      "published": "Thu, 22 Oct 2026 16:02:08 +0000",
       "source": "USNI News",
       "categories": [
-        "conflict"
-      ]
-    },
-    {
-      "title": "German military raises sabotage threat level amid warning of Russian attacks: report",
-      "link": "https://www.defensenews.com/global/europe/2026/10/21/german-military-raises-sabotage-threat-level-amid-warning-of-russian-attacks-report/",
-      "published": "Wed, 21 Oct 2026 14:27:08 +0000",
-      "source": "Defense News",
-      "categories": [
+        "deployment",
+        "exercise",
         "conflict"
       ]
     },
@@ -884,6 +870,17 @@
       ]
     },
     {
+      "title": "Theodore Roosevelt Carrier Strike Group Sails in the Philippine Sea for Keen Sword Drills",
+      "link": "https://news.usni.org/2026/10/22/theodore-roosevelt-carrier-strike-group-sails-in-the-philippine-sea-for-keen-sword-drills",
+      "published": "Thu, 22 Oct 2026 16:02:08 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment",
+        "exercise",
+        "conflict"
+      ]
+    },
+    {
       "title": "NATO Kicks Off Neptune Strike Across European Waters",
       "link": "https://news.usni.org/2026/10/21/nato-kicks-off-neptune-strike-across-european-waters",
       "published": "Wed, 21 Oct 2026 16:59:35 +0000",
@@ -895,18 +892,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 10,
-    "conflict_articles": 4,
-    "exercise_articles": 2,
-    "total_articles": 40,
-    "computed_at": "2026-10-22T12:33:31.895871+00:00",
+    "deployment_articles": 12,
+    "conflict_articles": 2,
+    "exercise_articles": 3,
+    "total_articles": 50,
+    "computed_at": "2026-10-22T17:41:16.181257+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
-      "[Task & Purpose] The Army’s main long-range missile battery in Europe fires new weapon for the first time",
       "[Task & Purpose] Tracking America’s latest conflict: The Iran war timeline",
-      "[USNI News] USNI News Fleet and Marine Tracker: Oct. 19, 2026",
-      "[USNI News] U.S. Marine Corps Stands Up First NMESIS Anti-ship Missile Battalion",
-      "[Defense News] Ukraine to be able to buy military supplies via NATO agency: report"
+      "[Defense News] Ukraine to be able to buy military supplies via NATO agency: report",
+      "[Defense News] UK’s Royal Navy has ‘serious’ anti-submarine warfare gap, committee finds",
+      "[Task & Purpose] USS Abraham Lincoln crew prepares for base move weeks after extended deployment",
+      "[Naval News] Euronaval 2026: Global Naval Shipbuilding Surges 50%"
     ]
   },
   "ground_intel": {
@@ -917,12 +914,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-10-22T12:33:31.895919+00:00",
-    "article_count": 40,
-    "categorized_count": 15,
+    "last_successful_update": "2026-10-22T17:41:16.181289+00:00",
+    "article_count": 50,
+    "categorized_count": 14,
     "freshest_source": "Task & Purpose",
-    "freshest_title": "The Army’s main long-range missile battery in Europe fires new weapon for the first time",
-    "freshest_published": "Mon, 19 Oct 2026 08:30:00 -0400"
+    "freshest_title": "Tracking America’s latest conflict: The Iran war timeline",
+    "freshest_published": "Mon, 19 Oct 2026 15:56:42 -0400"
   },
   "_firms_hotspots": []
 }
