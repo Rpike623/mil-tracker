@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-10-22T20:53:28Z",
-  "version": 3085,
+  "generated_utc": "2026-10-22T23:42:30Z",
+  "version": 3086,
   "breaking_alert": "Task & Purpose: Tracking America’s latest conflict: The Iran war timeline",
   "naval_deployments": [
     {
@@ -858,6 +858,15 @@
       ]
     },
     {
+      "title": "October Marks Highest Number of Strait of Hormuz Attacks",
+      "link": "https://news.usni.org/2026/10/22/october-marks-highest-number-of-strait-of-hormuz-attacks",
+      "published": "Thu, 22 Oct 2026 21:23:38 +0000",
+      "source": "USNI News",
+      "categories": [
+        "conflict"
+      ]
+    },
+    {
       "title": "NATO Kicks Off Neptune Strike Across European Waters",
       "link": "https://news.usni.org/2026/10/21/nato-kicks-off-neptune-strike-across-european-waters",
       "published": "Wed, 21 Oct 2026 16:59:35 +0000",
@@ -902,10 +911,10 @@
   ],
   "_threat_indicators": {
     "deployment_articles": 10,
-    "conflict_articles": 3,
+    "conflict_articles": 4,
     "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-10-22T20:53:26.616938+00:00",
+    "computed_at": "2026-10-22T23:42:24.255075+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Task & Purpose] Tracking America’s latest conflict: The Iran war timeline",
@@ -923,9 +932,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-10-22T20:53:26.616986+00:00",
+    "last_successful_update": "2026-10-22T23:42:24.255120+00:00",
     "article_count": 50,
-    "categorized_count": 13,
+    "categorized_count": 14,
     "freshest_source": "Task & Purpose",
     "freshest_title": "Tracking America’s latest conflict: The Iran war timeline",
     "freshest_published": "Mon, 19 Oct 2026 15:56:42 -0400"
