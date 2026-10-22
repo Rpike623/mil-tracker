@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-10-21T22:49:54Z",
-  "version": 3080,
+  "generated_utc": "2026-10-22T01:01:29Z",
+  "version": 3081,
   "breaking_alert": "Task & Purpose: The Army’s main long-range missile battery in Europe fires new weapon for the first time",
   "naval_deployments": [
     {
@@ -908,7 +908,7 @@
     "conflict_articles": 5,
     "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-10-21T22:49:49.588892+00:00",
+    "computed_at": "2026-10-22T01:01:24.197918+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Task & Purpose] The Army’s main long-range missile battery in Europe fires new weapon for the first time",
@@ -926,7 +926,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-10-21T22:49:49.588925+00:00",
+    "last_successful_update": "2026-10-22T01:01:24.197956+00:00",
     "article_count": 50,
     "categorized_count": 18,
     "freshest_source": "Task & Purpose",
