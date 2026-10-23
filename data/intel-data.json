@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-10-23T13:04:57Z",
-  "version": 3089,
+  "generated_utc": "2026-10-23T17:59:01Z",
+  "version": 3090,
   "breaking_alert": "Naval News: Commanding the Depths: HAVELSAN’s Technological Approach to Underwater Operations",
   "naval_deployments": [
     {
@@ -603,24 +603,6 @@
       ]
     },
     {
-      "title": "Tracking America’s latest conflict: The Iran war timeline",
-      "link": "https://taskandpurpose.com/news/iran-war-timeline/",
-      "published": "Mon, 19 Oct 2026 15:56:42 -0400",
-      "source": "Task & Purpose",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "UK’s Royal Navy has ‘serious’ anti-submarine warfare gap, committee finds",
-      "link": "https://www.defensenews.com/global/europe/2026/10/22/uks-royal-navy-has-serious-anti-submarine-warfare-gap-committee-finds/",
-      "published": "Thu, 22 Oct 2026 11:07:12 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "USS Abraham Lincoln crew prepares for base move weeks after extended deployment",
       "link": "https://taskandpurpose.com/news/abraham-lincoln-port-change-december/",
       "published": "Thu, 22 Oct 2026 13:24:57 -0400",
@@ -647,15 +629,6 @@
         "deployment",
         "exercise",
         "conflict"
-      ]
-    },
-    {
-      "title": "CNO Caudle’s ‘Fit to Fight’ C-Note to the Fleet",
-      "link": "https://news.usni.org/2026/10/20/cno-caudles-fit-to-fight-c-note-to-the-fleet",
-      "published": "Tue, 20 Oct 2026 14:42:20 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment"
       ]
     },
     {
@@ -829,6 +802,25 @@
   },
   "_conflict_news_refs": [
     {
+      "title": "Saudi missile plant expansion may produce more powerful missiles, study says",
+      "link": "https://www.defensenews.com/global/mideast-africa/2026/10/23/saudi-missile-plant-expansion-may-produce-more-powerful-missiles-study-says/",
+      "published": "Fri, 23 Oct 2026 13:57:29 +0000",
+      "source": "Defense News",
+      "categories": [
+        "conflict"
+      ]
+    },
+    {
+      "title": "France, UK carry out joint airborne nuclear-strike exercise for first time",
+      "link": "https://www.defensenews.com/global/europe/2026/10/23/france-uk-carry-out-joint-airborne-nuclear-strike-exercise-for-first-time/",
+      "published": "Fri, 23 Oct 2026 14:56:29 +0000",
+      "source": "Defense News",
+      "categories": [
+        "exercise",
+        "conflict"
+      ]
+    },
+    {
       "title": "Theodore Roosevelt Carrier Strike Group Sails in the Philippine Sea for Keen Sword Drills",
       "link": "https://news.usni.org/2026/10/22/theodore-roosevelt-carrier-strike-group-sails-in-the-philippine-sea-for-keen-sword-drills",
       "published": "Thu, 22 Oct 2026 16:02:08 +0000",
@@ -856,16 +848,6 @@
       "categories": [
         "conflict"
       ]
-    },
-    {
-      "title": "NATO Kicks Off Neptune Strike Across European Waters",
-      "link": "https://news.usni.org/2026/10/21/nato-kicks-off-neptune-strike-across-european-waters",
-      "published": "Wed, 21 Oct 2026 16:59:35 +0000",
-      "source": "USNI News",
-      "categories": [
-        "exercise",
-        "conflict"
-      ]
     }
   ],
   "_exercise_news_refs": [
@@ -876,6 +858,16 @@
       "source": "Naval News",
       "categories": [
         "exercise"
+      ]
+    },
+    {
+      "title": "France, UK carry out joint airborne nuclear-strike exercise for first time",
+      "link": "https://www.defensenews.com/global/europe/2026/10/23/france-uk-carry-out-joint-airborne-nuclear-strike-exercise-for-first-time/",
+      "published": "Fri, 23 Oct 2026 14:56:29 +0000",
+      "source": "Defense News",
+      "categories": [
+        "exercise",
+        "conflict"
       ]
     },
     {
@@ -901,17 +893,17 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 9,
-    "conflict_articles": 4,
-    "exercise_articles": 3,
+    "deployment_articles": 6,
+    "conflict_articles": 6,
+    "exercise_articles": 4,
     "total_articles": 50,
-    "computed_at": "2026-10-23T13:04:49.142359+00:00",
+    "computed_at": "2026-10-23T17:58:56.480868+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] Commanding the Depths: HAVELSAN’s Technological Approach to Underwater Operations",
       "[Defense News] China’s first aircraft carrier forms ‘evolving pattern’ of voyages in disputed Asian seas",
-      "[Task & Purpose] Tracking America’s latest conflict: The Iran war timeline",
-      "[Defense News] UK’s Royal Navy has ‘serious’ anti-submarine warfare gap, committee finds",
+      "[Defense News] Saudi missile plant expansion may produce more powerful missiles, study says",
+      "[Defense News] France, UK carry out joint airborne nuclear-strike exercise for first time",
       "[Task & Purpose] USS Abraham Lincoln crew prepares for base move weeks after extended deployment"
     ]
   },
@@ -923,9 +915,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-10-23T13:04:49.142444+00:00",
+    "last_successful_update": "2026-10-23T17:58:56.480909+00:00",
     "article_count": 50,
-    "categorized_count": 13,
+    "categorized_count": 12,
     "freshest_source": "Naval News",
     "freshest_title": "Commanding the Depths: HAVELSAN’s Technological Approach to Underwater Operations",
     "freshest_published": "Fri, 23 Oct 2026 11:49:00 +0000"
