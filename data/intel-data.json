@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-10-23T07:59:37Z",
-  "version": 3088,
-  "breaking_alert": "Task & Purpose: Tracking America’s latest conflict: The Iran war timeline",
+  "generated_utc": "2026-10-23T13:04:57Z",
+  "version": 3089,
+  "breaking_alert": "Naval News: Commanding the Depths: HAVELSAN’s Technological Approach to Underwater Operations",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -594,6 +594,15 @@
   ],
   "_naval_news_refs": [
     {
+      "title": "China’s first aircraft carrier forms ‘evolving pattern’ of voyages in disputed Asian seas",
+      "link": "https://www.defensenews.com/global/asia-pacific/2026/10/23/chinas-first-aircraft-carrier-forms-evolving-pattern-of-voyages-in-disputed-asian-seas/",
+      "published": "Fri, 23 Oct 2026 12:35:20 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "Tracking America’s latest conflict: The Iran war timeline",
       "link": "https://taskandpurpose.com/news/iran-war-timeline/",
       "published": "Mon, 19 Oct 2026 15:56:42 -0400",
@@ -663,24 +672,6 @@
       "link": "https://news.usni.org/2026/10/20/video-uss-san-antonio-returns-home-from-split-deployment",
       "published": "Tue, 20 Oct 2026 20:56:35 +0000",
       "source": "USNI News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Leading Navy Selects Exail Navigation Systems for USV Fleet",
-      "link": "https://www.navalnews.com/naval-news/2026/10/leading-navy-selects-exail-navigation-systems-for-usv-fleet/",
-      "published": "Wed, 21 Oct 2026 13:32:56 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "US Air Force outlines the fighter fleet it needs by 2035",
-      "link": "https://www.defensenews.com/news/your-military/2026/10/21/us-air-force-outlines-the-fighter-fleet-it-needs-by-2035/",
-      "published": "Wed, 21 Oct 2026 19:01:44 +0000",
-      "source": "Defense News",
       "categories": [
         "deployment"
       ]
@@ -879,10 +870,10 @@
   ],
   "_exercise_news_refs": [
     {
-      "title": "Ukraine to be able to buy military supplies via NATO agency: report",
-      "link": "https://www.defensenews.com/global/europe/2026/10/22/ukraine-to-be-able-to-buy-military-supplies-via-nato-agency-report/",
-      "published": "Thu, 22 Oct 2026 08:58:25 +0000",
-      "source": "Defense News",
+      "title": "Commanding the Depths: HAVELSAN’s Technological Approach to Underwater Operations",
+      "link": "https://www.navalnews.com/naval-news/2026/10/from-data-to-decisions-how-havelsan-transforms-underwater-command-and-control/",
+      "published": "Fri, 23 Oct 2026 11:49:00 +0000",
+      "source": "Naval News",
       "categories": [
         "exercise"
       ]
@@ -910,18 +901,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 10,
+    "deployment_articles": 9,
     "conflict_articles": 4,
     "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-10-23T07:59:32.968903+00:00",
+    "computed_at": "2026-10-23T13:04:49.142359+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
+      "[Naval News] Commanding the Depths: HAVELSAN’s Technological Approach to Underwater Operations",
+      "[Defense News] China’s first aircraft carrier forms ‘evolving pattern’ of voyages in disputed Asian seas",
       "[Task & Purpose] Tracking America’s latest conflict: The Iran war timeline",
-      "[Defense News] Ukraine to be able to buy military supplies via NATO agency: report",
       "[Defense News] UK’s Royal Navy has ‘serious’ anti-submarine warfare gap, committee finds",
-      "[Task & Purpose] USS Abraham Lincoln crew prepares for base move weeks after extended deployment",
-      "[Naval News] Euronaval 2026: Global Naval Shipbuilding Surges 50%"
+      "[Task & Purpose] USS Abraham Lincoln crew prepares for base move weeks after extended deployment"
     ]
   },
   "ground_intel": {
@@ -932,12 +923,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-10-23T07:59:32.968951+00:00",
+    "last_successful_update": "2026-10-23T13:04:49.142444+00:00",
     "article_count": 50,
-    "categorized_count": 14,
-    "freshest_source": "Task & Purpose",
-    "freshest_title": "Tracking America’s latest conflict: The Iran war timeline",
-    "freshest_published": "Mon, 19 Oct 2026 15:56:42 -0400"
+    "categorized_count": 13,
+    "freshest_source": "Naval News",
+    "freshest_title": "Commanding the Depths: HAVELSAN’s Technological Approach to Underwater Operations",
+    "freshest_published": "Fri, 23 Oct 2026 11:49:00 +0000"
   },
   "_firms_hotspots": []
 }
