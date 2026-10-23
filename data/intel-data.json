@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-10-23T17:59:01Z",
-  "version": 3090,
+  "generated_utc": "2026-10-23T20:57:50Z",
+  "version": 3091,
   "breaking_alert": "Naval News: Commanding the Depths: HAVELSAN’s Technological Approach to Underwater Operations",
   "naval_deployments": [
     {
@@ -632,15 +632,6 @@
       ]
     },
     {
-      "title": "Chinese Navy Shadows USS Charleston Near Contested Sabina Shoal",
-      "link": "https://news.usni.org/2026/10/20/chinese-navy-shadows-uss-charleston-near-contested-sabina-shoal",
-      "published": "Tue, 20 Oct 2026 15:55:24 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "VIDEO: USS San Antonio Returns Home From Split Deployment",
       "link": "https://news.usni.org/2026/10/20/video-uss-san-antonio-returns-home-from-split-deployment",
       "published": "Tue, 20 Oct 2026 20:56:35 +0000",
@@ -893,11 +884,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 6,
+    "deployment_articles": 5,
     "conflict_articles": 6,
     "exercise_articles": 4,
     "total_articles": 50,
-    "computed_at": "2026-10-23T17:58:56.480868+00:00",
+    "computed_at": "2026-10-23T20:57:43.034466+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] Commanding the Depths: HAVELSAN’s Technological Approach to Underwater Operations",
@@ -915,9 +906,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-10-23T17:58:56.480909+00:00",
+    "last_successful_update": "2026-10-23T20:57:43.034508+00:00",
     "article_count": 50,
-    "categorized_count": 12,
+    "categorized_count": 11,
     "freshest_source": "Naval News",
     "freshest_title": "Commanding the Depths: HAVELSAN’s Technological Approach to Underwater Operations",
     "freshest_published": "Fri, 23 Oct 2026 11:49:00 +0000"
