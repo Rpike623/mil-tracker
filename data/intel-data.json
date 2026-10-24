@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-10-24T07:39:16Z",
-  "version": 3094,
+  "generated_utc": "2026-10-24T12:16:21Z",
+  "version": 3095,
   "breaking_alert": "Naval News: Commanding the Depths: HAVELSAN’s Technological Approach to Underwater Operations",
   "naval_deployments": [
     {
@@ -612,6 +612,26 @@
       ]
     },
     {
+      "title": "Hellenic Navy Conducts Inaugural SPIKE Missile Firings During Joint Drills with Israel",
+      "link": "https://www.navalnews.com/naval-news/2026/10/hellenic-navy-conducts-inaugural-spike-missile-firings-during-joint-drills-with-israel/",
+      "published": "Sat, 24 Oct 2026 07:42:50 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment",
+        "exercise",
+        "conflict"
+      ]
+    },
+    {
+      "title": "First U.S. Navy Destroyer Enters Phase Two of DDG MOD 2.0 Modernization",
+      "link": "https://www.navalnews.com/naval-news/2026/10/first-u-s-navy-destroyer-enters-phase-two-of-ddg-mod-2-0-modernization/",
+      "published": "Sat, 24 Oct 2026 11:59:17 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "USS Abraham Lincoln crew prepares for base move weeks after extended deployment",
       "link": "https://taskandpurpose.com/news/abraham-lincoln-port-change-december/",
       "published": "Thu, 22 Oct 2026 13:24:57 -0400",
@@ -812,6 +832,17 @@
       ]
     },
     {
+      "title": "Hellenic Navy Conducts Inaugural SPIKE Missile Firings During Joint Drills with Israel",
+      "link": "https://www.navalnews.com/naval-news/2026/10/hellenic-navy-conducts-inaugural-spike-missile-firings-during-joint-drills-with-israel/",
+      "published": "Sat, 24 Oct 2026 07:42:50 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment",
+        "exercise",
+        "conflict"
+      ]
+    },
+    {
       "title": "Theodore Roosevelt Carrier Strike Group Sails in the Philippine Sea for Keen Sword Drills",
       "link": "https://news.usni.org/2026/10/22/theodore-roosevelt-carrier-strike-group-sails-in-the-philippine-sea-for-keen-sword-drills",
       "published": "Thu, 22 Oct 2026 16:02:08 +0000",
@@ -827,15 +858,6 @@
       "link": "https://www.defensenews.com/global/europe/2026/10/22/denmark-to-buy-kongsberg-covenant-missiles-for-new-long-range-strike-option/",
       "published": "Thu, 22 Oct 2026 19:03:40 +0000",
       "source": "Defense News",
-      "categories": [
-        "conflict"
-      ]
-    },
-    {
-      "title": "October Marks Highest Number of Strait of Hormuz Attacks",
-      "link": "https://news.usni.org/2026/10/22/october-marks-highest-number-of-strait-of-hormuz-attacks",
-      "published": "Thu, 22 Oct 2026 21:23:38 +0000",
-      "source": "USNI News",
       "categories": [
         "conflict"
       ]
@@ -857,6 +879,17 @@
       "published": "Fri, 23 Oct 2026 14:56:29 +0000",
       "source": "Defense News",
       "categories": [
+        "exercise",
+        "conflict"
+      ]
+    },
+    {
+      "title": "Hellenic Navy Conducts Inaugural SPIKE Missile Firings During Joint Drills with Israel",
+      "link": "https://www.navalnews.com/naval-news/2026/10/hellenic-navy-conducts-inaugural-spike-missile-firings-during-joint-drills-with-israel/",
+      "published": "Sat, 24 Oct 2026 07:42:50 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment",
         "exercise",
         "conflict"
       ]
@@ -884,11 +917,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 5,
-    "conflict_articles": 6,
-    "exercise_articles": 4,
+    "deployment_articles": 7,
+    "conflict_articles": 7,
+    "exercise_articles": 5,
     "total_articles": 50,
-    "computed_at": "2026-10-24T07:39:10.864546+00:00",
+    "computed_at": "2026-10-24T12:16:17.846182+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] Commanding the Depths: HAVELSAN’s Technological Approach to Underwater Operations",
@@ -906,9 +939,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-10-24T07:39:10.864579+00:00",
+    "last_successful_update": "2026-10-24T12:16:17.846228+00:00",
     "article_count": 50,
-    "categorized_count": 11,
+    "categorized_count": 13,
     "freshest_source": "Naval News",
     "freshest_title": "Commanding the Depths: HAVELSAN’s Technological Approach to Underwater Operations",
     "freshest_published": "Fri, 23 Oct 2026 11:49:00 +0000"
