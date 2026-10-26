@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-10-26T05:29:51Z",
-  "version": 3107,
+  "generated_utc": "2026-10-26T11:38:33Z",
+  "version": 3108,
   "breaking_alert": "Naval News: Commanding the Depths: HAVELSAN’s Technological Approach to Underwater Operations",
   "naval_deployments": [
     {
@@ -651,15 +651,6 @@
       ]
     },
     {
-      "title": "Euronaval 2026: Global Naval Shipbuilding Surges 50%",
-      "link": "https://www.navalnews.com/event-news/euronaval-2026/2026/10/euronaval-2026-global-naval-shipbuilding-surges-50/",
-      "published": "Thu, 22 Oct 2026 13:51:41 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Theodore Roosevelt Carrier Strike Group Sails in the Philippine Sea for Keen Sword Drills",
       "link": "https://news.usni.org/2026/10/22/theodore-roosevelt-carrier-strike-group-sails-in-the-philippine-sea-for-keen-sword-drills",
       "published": "Thu, 22 Oct 2026 16:02:08 +0000",
@@ -927,11 +918,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 8,
+    "deployment_articles": 7,
     "conflict_articles": 7,
     "exercise_articles": 6,
     "total_articles": 50,
-    "computed_at": "2026-10-26T05:29:45.728951+00:00",
+    "computed_at": "2026-10-26T11:38:25.808673+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] Commanding the Depths: HAVELSAN’s Technological Approach to Underwater Operations",
@@ -949,9 +940,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-10-26T05:29:45.728997+00:00",
+    "last_successful_update": "2026-10-26T11:38:25.808718+00:00",
     "article_count": 50,
-    "categorized_count": 14,
+    "categorized_count": 13,
     "freshest_source": "Naval News",
     "freshest_title": "Commanding the Depths: HAVELSAN’s Technological Approach to Underwater Operations",
     "freshest_published": "Fri, 23 Oct 2026 11:49:00 +0000"
