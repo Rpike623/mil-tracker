@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-10-26T11:38:33Z",
-  "version": 3108,
-  "breaking_alert": "Naval News: Commanding the Depths: HAVELSAN’s Technological Approach to Underwater Operations",
+  "generated_utc": "2026-10-26T17:42:54Z",
+  "version": 3109,
+  "breaking_alert": "Defense News: France, UK carry out joint airborne nuclear-strike exercise for first time",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -594,18 +594,37 @@
   ],
   "_naval_news_refs": [
     {
-      "title": "China’s first aircraft carrier forms ‘evolving pattern’ of voyages in disputed Asian seas",
-      "link": "https://www.defensenews.com/global/asia-pacific/2026/10/23/chinas-first-aircraft-carrier-forms-evolving-pattern-of-voyages-in-disputed-asian-seas/",
-      "published": "Fri, 23 Oct 2026 12:35:20 +0000",
-      "source": "Defense News",
+      "title": "USS McFaul Returns to Norfolk After 332 Day Deployment",
+      "link": "https://news.usni.org/2026/10/23/uss-mcfaul-returns-to-norfolk-after-332-day-deployment",
+      "published": "Fri, 23 Oct 2026 21:34:16 +0000",
+      "source": "USNI News",
       "categories": [
         "deployment"
       ]
     },
     {
-      "title": "USS McFaul Returns to Norfolk After 332 Day Deployment",
-      "link": "https://news.usni.org/2026/10/23/uss-mcfaul-returns-to-norfolk-after-332-day-deployment",
-      "published": "Fri, 23 Oct 2026 21:34:16 +0000",
+      "title": "New Philippine Coast Guard Vessel Shadows Chinese Carrier Strike Group off Mindanao",
+      "link": "https://news.usni.org/2026/10/26/new-philippine-coast-guard-vessel-shadows-chinese-carrier-strike-group-off-mindanao",
+      "published": "Mon, 26 Oct 2026 14:45:41 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
+    },
+    {
+      "title": "Israel to Supply Cyprus with an Offshore Patrol Vessel Equipped with Advanced Naval Systems",
+      "link": "https://www.navalnews.com/naval-news/2026/10/israel-to-supply-cyprus-with-an-offshore-patrol-vessel-equipped-with-advanced-naval-systems/",
+      "published": "Mon, 26 Oct 2026 16:56:46 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "USNI News Fleet and Marine Tracker: Oct. 26, 2026",
+      "link": "https://news.usni.org/2026/10/26/usni-news-fleet-and-marine-tracker-oct-26-2026",
+      "published": "Mon, 26 Oct 2026 17:13:04 +0000",
       "source": "USNI News",
       "categories": [
         "deployment"
@@ -814,21 +833,40 @@
   },
   "_conflict_news_refs": [
     {
-      "title": "Saudi missile plant expansion may produce more powerful missiles, study says",
-      "link": "https://www.defensenews.com/global/mideast-africa/2026/10/23/saudi-missile-plant-expansion-may-produce-more-powerful-missiles-study-says/",
-      "published": "Fri, 23 Oct 2026 13:57:29 +0000",
-      "source": "Defense News",
-      "categories": [
-        "conflict"
-      ]
-    },
-    {
       "title": "France, UK carry out joint airborne nuclear-strike exercise for first time",
       "link": "https://www.defensenews.com/global/europe/2026/10/23/france-uk-carry-out-joint-airborne-nuclear-strike-exercise-for-first-time/",
       "published": "Fri, 23 Oct 2026 14:56:29 +0000",
       "source": "Defense News",
       "categories": [
         "exercise",
+        "conflict"
+      ]
+    },
+    {
+      "title": "New Philippine Coast Guard Vessel Shadows Chinese Carrier Strike Group off Mindanao",
+      "link": "https://news.usni.org/2026/10/26/new-philippine-coast-guard-vessel-shadows-chinese-carrier-strike-group-off-mindanao",
+      "published": "Mon, 26 Oct 2026 14:45:41 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
+    },
+    {
+      "title": "Helsing unveils interceptor missiles designed to chase Russia’s fast-flying Geran drones",
+      "link": "https://www.defensenews.com/global/europe/2026/10/26/helsing-unveils-interceptor-missiles-designed-to-chase-russias-fast-flying-geran-drones/",
+      "published": "Mon, 26 Oct 2026 14:53:32 +0000",
+      "source": "Defense News",
+      "categories": [
+        "conflict"
+      ]
+    },
+    {
+      "title": "Helsing unveils interceptor missiles designed to chase Russia’s fast-flying Geran drones",
+      "link": "https://www.militarytimes.com/industry/techwatch/2026/10/26/helsing-unveils-interceptor-missiles-designed-to-chase-russias-fast-flying-geran-drones/",
+      "published": "Mon, 26 Oct 2026 14:53:33 +0000",
+      "source": "Military Times",
+      "categories": [
         "conflict"
       ]
     },
@@ -842,38 +880,9 @@
         "exercise",
         "conflict"
       ]
-    },
-    {
-      "title": "Theodore Roosevelt Carrier Strike Group Sails in the Philippine Sea for Keen Sword Drills",
-      "link": "https://news.usni.org/2026/10/22/theodore-roosevelt-carrier-strike-group-sails-in-the-philippine-sea-for-keen-sword-drills",
-      "published": "Thu, 22 Oct 2026 16:02:08 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment",
-        "exercise",
-        "conflict"
-      ]
-    },
-    {
-      "title": "Denmark to buy Kongsberg, Covenant missiles for new long-range strike option",
-      "link": "https://www.defensenews.com/global/europe/2026/10/22/denmark-to-buy-kongsberg-covenant-missiles-for-new-long-range-strike-option/",
-      "published": "Thu, 22 Oct 2026 19:03:40 +0000",
-      "source": "Defense News",
-      "categories": [
-        "conflict"
-      ]
     }
   ],
   "_exercise_news_refs": [
-    {
-      "title": "Commanding the Depths: HAVELSAN’s Technological Approach to Underwater Operations",
-      "link": "https://www.navalnews.com/naval-news/2026/10/from-data-to-decisions-how-havelsan-transforms-underwater-command-and-control/",
-      "published": "Fri, 23 Oct 2026 11:49:00 +0000",
-      "source": "Naval News",
-      "categories": [
-        "exercise"
-      ]
-    },
     {
       "title": "France, UK carry out joint airborne nuclear-strike exercise for first time",
       "link": "https://www.defensenews.com/global/europe/2026/10/23/france-uk-carry-out-joint-airborne-nuclear-strike-exercise-for-first-time/",
@@ -918,18 +927,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 7,
+    "deployment_articles": 9,
     "conflict_articles": 7,
-    "exercise_articles": 6,
+    "exercise_articles": 4,
     "total_articles": 50,
-    "computed_at": "2026-10-26T11:38:25.808673+00:00",
+    "computed_at": "2026-10-26T17:42:51.427590+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
-      "[Naval News] Commanding the Depths: HAVELSAN’s Technological Approach to Underwater Operations",
-      "[Defense News] China’s first aircraft carrier forms ‘evolving pattern’ of voyages in disputed Asian seas",
-      "[Defense News] Saudi missile plant expansion may produce more powerful missiles, study says",
       "[Defense News] France, UK carry out joint airborne nuclear-strike exercise for first time",
-      "[USNI News] USS McFaul Returns to Norfolk After 332 Day Deployment"
+      "[USNI News] USS McFaul Returns to Norfolk After 332 Day Deployment",
+      "[USNI News] New Philippine Coast Guard Vessel Shadows Chinese Carrier Strike Group off Mindanao",
+      "[Defense News] Helsing unveils interceptor missiles designed to chase Russia’s fast-flying Geran drones",
+      "[Military Times] Helsing unveils interceptor missiles designed to chase Russia’s fast-flying Geran drones"
     ]
   },
   "ground_intel": {
@@ -940,12 +949,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-10-26T11:38:25.808718+00:00",
+    "last_successful_update": "2026-10-26T17:42:51.427636+00:00",
     "article_count": 50,
     "categorized_count": 13,
-    "freshest_source": "Naval News",
-    "freshest_title": "Commanding the Depths: HAVELSAN’s Technological Approach to Underwater Operations",
-    "freshest_published": "Fri, 23 Oct 2026 11:49:00 +0000"
+    "freshest_source": "Defense News",
+    "freshest_title": "France, UK carry out joint airborne nuclear-strike exercise for first time",
+    "freshest_published": "Fri, 23 Oct 2026 14:56:29 +0000"
   },
   "_firms_hotspots": []
 }
