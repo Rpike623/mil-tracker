@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-10-26T00:47:10Z",
-  "version": 3106,
+  "generated_utc": "2026-10-26T05:29:51Z",
+  "version": 3107,
   "breaking_alert": "Naval News: Commanding the Depths: HAVELSAN’s Technological Approach to Underwater Operations",
   "naval_deployments": [
     {
@@ -931,7 +931,7 @@
     "conflict_articles": 7,
     "exercise_articles": 6,
     "total_articles": 50,
-    "computed_at": "2026-10-26T00:47:08.312877+00:00",
+    "computed_at": "2026-10-26T05:29:45.728951+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] Commanding the Depths: HAVELSAN’s Technological Approach to Underwater Operations",
@@ -949,7 +949,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-10-26T00:47:08.312923+00:00",
+    "last_successful_update": "2026-10-26T05:29:45.728997+00:00",
     "article_count": 50,
     "categorized_count": 14,
     "freshest_source": "Naval News",
