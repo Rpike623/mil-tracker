@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-10-26T17:42:54Z",
-  "version": 3109,
-  "breaking_alert": "Defense News: France, UK carry out joint airborne nuclear-strike exercise for first time",
+  "generated_utc": "2026-10-26T21:57:53Z",
+  "version": 3110,
+  "breaking_alert": "USNI News: USS McFaul Returns to Norfolk After 332 Day Deployment",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -603,6 +603,15 @@
       ]
     },
     {
+      "title": "Tracking America’s latest conflict: The Iran war timeline",
+      "link": "https://taskandpurpose.com/news/iran-war-timeline/",
+      "published": "Mon, 26 Oct 2026 14:12:56 -0400",
+      "source": "Task & Purpose",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "New Philippine Coast Guard Vessel Shadows Chinese Carrier Strike Group off Mindanao",
       "link": "https://news.usni.org/2026/10/26/new-philippine-coast-guard-vessel-shadows-chinese-carrier-strike-group-off-mindanao",
       "published": "Mon, 26 Oct 2026 14:45:41 +0000",
@@ -631,53 +640,48 @@
       ]
     },
     {
-      "title": "Hellenic Navy Conducts Inaugural SPIKE Missile Firings During Joint Drills with Israel",
-      "link": "https://www.navalnews.com/naval-news/2026/10/hellenic-navy-conducts-inaugural-spike-missile-firings-during-joint-drills-with-israel/",
-      "published": "Sat, 24 Oct 2026 07:42:50 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment",
-        "exercise",
-        "conflict"
-      ]
-    },
-    {
-      "title": "First U.S. Navy Destroyer Enters Phase Two of DDG MOD 2.0 Modernization",
-      "link": "https://www.navalnews.com/naval-news/2026/10/first-u-s-navy-destroyer-enters-phase-two-of-ddg-mod-2-0-modernization/",
-      "published": "Sat, 24 Oct 2026 11:59:17 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "SH Defence strengthens cooperation with Naval Group",
-      "link": "https://www.navalnews.com/naval-news/2026/10/sh-defence-strengthens-cooperation-with-naval-group/",
-      "published": "Sun, 25 Oct 2026 07:31:25 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment",
-        "exercise"
-      ]
-    },
-    {
-      "title": "USS Abraham Lincoln crew prepares for base move weeks after extended deployment",
-      "link": "https://taskandpurpose.com/news/abraham-lincoln-port-change-december/",
-      "published": "Thu, 22 Oct 2026 13:24:57 -0400",
+      "title": "Air Force tests ‘rocket cargo’ to resupply troops anywhere",
+      "link": "https://taskandpurpose.com/news/air-force-rocket-cargo-space-launch-test/",
+      "published": "Mon, 26 Oct 2026 17:13:04 -0400",
       "source": "Task & Purpose",
       "categories": [
         "deployment"
       ]
     },
     {
-      "title": "Theodore Roosevelt Carrier Strike Group Sails in the Philippine Sea for Keen Sword Drills",
-      "link": "https://news.usni.org/2026/10/22/theodore-roosevelt-carrier-strike-group-sails-in-the-philippine-sea-for-keen-sword-drills",
-      "published": "Thu, 22 Oct 2026 16:02:08 +0000",
-      "source": "USNI News",
+      "title": "Pentagon announces first US submarine joining Submarine Rotational Force-West",
+      "link": "https://www.militarytimes.com/news/your-military/2026/10/26/pentagon-announces-first-us-submarine-joining-submarine-rotational-force-west/",
+      "published": "Mon, 26 Oct 2026 18:50:02 +0000",
+      "source": "Military Times",
       "categories": [
-        "deployment",
-        "exercise",
-        "conflict"
+        "deployment"
+      ]
+    },
+    {
+      "title": "Pentagon announces first US submarine joining Submarine Rotational Force-West",
+      "link": "https://www.defensenews.com/naval/2026/10/26/pentagon-announces-first-us-submarine-joining-submarine-rotational-force-west/",
+      "published": "Mon, 26 Oct 2026 18:50:06 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Exail Unveils Marins M1 Compact INS for Smaller Naval Platforms and UXVs",
+      "link": "https://www.navalnews.com/naval-news/2026/10/exail-unveils-marins-m1-compact-ins-for-smaller-naval-platforms-and-uxvs/",
+      "published": "Mon, 26 Oct 2026 20:08:04 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Op-Ed: The US Navy CAN Fix the Fleet with Distributed Manufacturing",
+      "link": "https://www.navalnews.com/naval-news/2026/10/op-ed-us-navy-distributed-manufacturing/",
+      "published": "Mon, 26 Oct 2026 20:50:59 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment"
       ]
     }
   ],
@@ -833,16 +837,6 @@
   },
   "_conflict_news_refs": [
     {
-      "title": "France, UK carry out joint airborne nuclear-strike exercise for first time",
-      "link": "https://www.defensenews.com/global/europe/2026/10/23/france-uk-carry-out-joint-airborne-nuclear-strike-exercise-for-first-time/",
-      "published": "Fri, 23 Oct 2026 14:56:29 +0000",
-      "source": "Defense News",
-      "categories": [
-        "exercise",
-        "conflict"
-      ]
-    },
-    {
       "title": "New Philippine Coast Guard Vessel Shadows Chinese Carrier Strike Group off Mindanao",
       "link": "https://news.usni.org/2026/10/26/new-philippine-coast-guard-vessel-shadows-chinese-carrier-strike-group-off-mindanao",
       "published": "Mon, 26 Oct 2026 14:45:41 +0000",
@@ -871,10 +865,19 @@
       ]
     },
     {
-      "title": "Hellenic Navy Conducts Inaugural SPIKE Missile Firings During Joint Drills with Israel",
-      "link": "https://www.navalnews.com/naval-news/2026/10/hellenic-navy-conducts-inaugural-spike-missile-firings-during-joint-drills-with-israel/",
-      "published": "Sat, 24 Oct 2026 07:42:50 +0000",
-      "source": "Naval News",
+      "title": "U.S. Navy Taps Attack Boat for 2027 Australian AUKUS Assignment",
+      "link": "https://news.usni.org/2026/10/26/u-s-navy-taps-attack-boat-for-2027-australian-aukus-assignment",
+      "published": "Mon, 26 Oct 2026 20:46:28 +0000",
+      "source": "USNI News",
+      "categories": [
+        "conflict"
+      ]
+    },
+    {
+      "title": "Theodore Roosevelt Carrier Strike Group Sails in the Philippine Sea for Keen Sword Drills",
+      "link": "https://news.usni.org/2026/10/22/theodore-roosevelt-carrier-strike-group-sails-in-the-philippine-sea-for-keen-sword-drills",
+      "published": "Thu, 22 Oct 2026 16:02:08 +0000",
+      "source": "USNI News",
       "categories": [
         "deployment",
         "exercise",
@@ -883,27 +886,6 @@
     }
   ],
   "_exercise_news_refs": [
-    {
-      "title": "France, UK carry out joint airborne nuclear-strike exercise for first time",
-      "link": "https://www.defensenews.com/global/europe/2026/10/23/france-uk-carry-out-joint-airborne-nuclear-strike-exercise-for-first-time/",
-      "published": "Fri, 23 Oct 2026 14:56:29 +0000",
-      "source": "Defense News",
-      "categories": [
-        "exercise",
-        "conflict"
-      ]
-    },
-    {
-      "title": "Hellenic Navy Conducts Inaugural SPIKE Missile Firings During Joint Drills with Israel",
-      "link": "https://www.navalnews.com/naval-news/2026/10/hellenic-navy-conducts-inaugural-spike-missile-firings-during-joint-drills-with-israel/",
-      "published": "Sat, 24 Oct 2026 07:42:50 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment",
-        "exercise",
-        "conflict"
-      ]
-    },
     {
       "title": "SH Defence strengthens cooperation with Naval Group",
       "link": "https://www.navalnews.com/naval-news/2026/10/sh-defence-strengthens-cooperation-with-naval-group/",
@@ -927,15 +909,15 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 9,
-    "conflict_articles": 7,
-    "exercise_articles": 4,
+    "deployment_articles": 12,
+    "conflict_articles": 6,
+    "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-10-26T17:42:51.427590+00:00",
+    "computed_at": "2026-10-26T21:57:49.751916+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
-      "[Defense News] France, UK carry out joint airborne nuclear-strike exercise for first time",
       "[USNI News] USS McFaul Returns to Norfolk After 332 Day Deployment",
+      "[Task & Purpose] Tracking America’s latest conflict: The Iran war timeline",
       "[USNI News] New Philippine Coast Guard Vessel Shadows Chinese Carrier Strike Group off Mindanao",
       "[Defense News] Helsing unveils interceptor missiles designed to chase Russia’s fast-flying Geran drones",
       "[Military Times] Helsing unveils interceptor missiles designed to chase Russia’s fast-flying Geran drones"
@@ -949,12 +931,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-10-26T17:42:51.427636+00:00",
+    "last_successful_update": "2026-10-26T21:57:49.751954+00:00",
     "article_count": 50,
-    "categorized_count": 13,
-    "freshest_source": "Defense News",
-    "freshest_title": "France, UK carry out joint airborne nuclear-strike exercise for first time",
-    "freshest_published": "Fri, 23 Oct 2026 14:56:29 +0000"
+    "categorized_count": 16,
+    "freshest_source": "USNI News",
+    "freshest_title": "USS McFaul Returns to Norfolk After 332 Day Deployment",
+    "freshest_published": "Fri, 23 Oct 2026 21:34:16 +0000"
   },
   "_firms_hotspots": []
 }
