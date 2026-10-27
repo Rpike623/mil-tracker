@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-10-26T21:57:53Z",
-  "version": 3110,
+  "generated_utc": "2026-10-27T01:02:14Z",
+  "version": 3111,
   "breaking_alert": "USNI News: USS McFaul Returns to Norfolk After 332 Day Deployment",
   "naval_deployments": [
     {
@@ -887,16 +887,6 @@
   ],
   "_exercise_news_refs": [
     {
-      "title": "SH Defence strengthens cooperation with Naval Group",
-      "link": "https://www.navalnews.com/naval-news/2026/10/sh-defence-strengthens-cooperation-with-naval-group/",
-      "published": "Sun, 25 Oct 2026 07:31:25 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment",
-        "exercise"
-      ]
-    },
-    {
       "title": "Theodore Roosevelt Carrier Strike Group Sails in the Philippine Sea for Keen Sword Drills",
       "link": "https://news.usni.org/2026/10/22/theodore-roosevelt-carrier-strike-group-sails-in-the-philippine-sea-for-keen-sword-drills",
       "published": "Thu, 22 Oct 2026 16:02:08 +0000",
@@ -911,9 +901,9 @@
   "_threat_indicators": {
     "deployment_articles": 12,
     "conflict_articles": 6,
-    "exercise_articles": 2,
+    "exercise_articles": 1,
     "total_articles": 50,
-    "computed_at": "2026-10-26T21:57:49.751916+00:00",
+    "computed_at": "2026-10-27T01:02:10.226937+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[USNI News] USS McFaul Returns to Norfolk After 332 Day Deployment",
@@ -931,7 +921,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-10-26T21:57:49.751954+00:00",
+    "last_successful_update": "2026-10-27T01:02:10.226968+00:00",
     "article_count": 50,
     "categorized_count": 16,
     "freshest_source": "USNI News",
