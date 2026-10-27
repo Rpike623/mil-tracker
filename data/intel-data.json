@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-10-27T06:53:57Z",
-  "version": 3112,
+  "generated_utc": "2026-10-27T12:47:44Z",
+  "version": 3113,
   "breaking_alert": "USNI News: USS McFaul Returns to Norfolk After 332 Day Deployment",
   "naval_deployments": [
     {
@@ -622,15 +622,6 @@
       ]
     },
     {
-      "title": "Israel to Supply Cyprus with an Offshore Patrol Vessel Equipped with Advanced Naval Systems",
-      "link": "https://www.navalnews.com/naval-news/2026/10/israel-to-supply-cyprus-with-an-offshore-patrol-vessel-equipped-with-advanced-naval-systems/",
-      "published": "Mon, 26 Oct 2026 16:56:46 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "USNI News Fleet and Marine Tracker: Oct. 26, 2026",
       "link": "https://news.usni.org/2026/10/26/usni-news-fleet-and-marine-tracker-oct-26-2026",
       "published": "Mon, 26 Oct 2026 17:13:04 +0000",
@@ -667,21 +658,14 @@
       ]
     },
     {
-      "title": "Exail Unveils Marins M1 Compact INS for Smaller Naval Platforms and UXVs",
-      "link": "https://www.navalnews.com/naval-news/2026/10/exail-unveils-marins-m1-compact-ins-for-smaller-naval-platforms-and-uxvs/",
-      "published": "Mon, 26 Oct 2026 20:08:04 +0000",
-      "source": "Naval News",
+      "title": "Theodore Roosevelt Carrier Strike Group Sails in the Philippine Sea for Keen Sword Drills",
+      "link": "https://news.usni.org/2026/10/22/theodore-roosevelt-carrier-strike-group-sails-in-the-philippine-sea-for-keen-sword-drills",
+      "published": "Thu, 22 Oct 2026 16:02:08 +0000",
+      "source": "USNI News",
       "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Op-Ed: The US Navy CAN Fix the Fleet with Distributed Manufacturing",
-      "link": "https://www.navalnews.com/naval-news/2026/10/op-ed-us-navy-distributed-manufacturing/",
-      "published": "Mon, 26 Oct 2026 20:50:59 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment"
+        "deployment",
+        "exercise",
+        "conflict"
       ]
     }
   ],
@@ -899,11 +883,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 12,
+    "deployment_articles": 8,
     "conflict_articles": 6,
     "exercise_articles": 1,
-    "total_articles": 50,
-    "computed_at": "2026-10-27T06:53:55.480443+00:00",
+    "total_articles": 40,
+    "computed_at": "2026-10-27T12:47:41.284702+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[USNI News] USS McFaul Returns to Norfolk After 332 Day Deployment",
@@ -921,9 +905,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-10-27T06:53:55.480487+00:00",
-    "article_count": 50,
-    "categorized_count": 16,
+    "last_successful_update": "2026-10-27T12:47:41.284749+00:00",
+    "article_count": 40,
+    "categorized_count": 12,
     "freshest_source": "USNI News",
     "freshest_title": "USS McFaul Returns to Norfolk After 332 Day Deployment",
     "freshest_published": "Fri, 23 Oct 2026 21:34:16 +0000"
