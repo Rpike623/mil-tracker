@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-10-27T12:47:44Z",
-  "version": 3113,
+  "generated_utc": "2026-10-27T18:24:51Z",
+  "version": 3114,
   "breaking_alert": "USNI News: USS McFaul Returns to Norfolk After 332 Day Deployment",
   "naval_deployments": [
     {
@@ -641,15 +641,6 @@
     },
     {
       "title": "Pentagon announces first US submarine joining Submarine Rotational Force-West",
-      "link": "https://www.militarytimes.com/news/your-military/2026/10/26/pentagon-announces-first-us-submarine-joining-submarine-rotational-force-west/",
-      "published": "Mon, 26 Oct 2026 18:50:02 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Pentagon announces first US submarine joining Submarine Rotational Force-West",
       "link": "https://www.defensenews.com/naval/2026/10/26/pentagon-announces-first-us-submarine-joining-submarine-rotational-force-west/",
       "published": "Mon, 26 Oct 2026 18:50:06 +0000",
       "source": "Defense News",
@@ -658,14 +649,21 @@
       ]
     },
     {
-      "title": "Theodore Roosevelt Carrier Strike Group Sails in the Philippine Sea for Keen Sword Drills",
-      "link": "https://news.usni.org/2026/10/22/theodore-roosevelt-carrier-strike-group-sails-in-the-philippine-sea-for-keen-sword-drills",
-      "published": "Thu, 22 Oct 2026 16:02:08 +0000",
+      "title": "Army tests autonomous robots that hunt enemy targets",
+      "link": "https://taskandpurpose.com/news/army-scifi-warfare-fort-knox/",
+      "published": "Tue, 27 Oct 2026 10:56:08 -0400",
+      "source": "Task & Purpose",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Marine Rotational Force Concludes Deployment to the Outback",
+      "link": "https://news.usni.org/2026/10/27/marine-rotational-force-concludes-deployment-to-the-outback",
+      "published": "Tue, 27 Oct 2026 15:42:17 +0000",
       "source": "USNI News",
       "categories": [
-        "deployment",
-        "exercise",
-        "conflict"
+        "deployment"
       ]
     }
   ],
@@ -849,7 +847,7 @@
       ]
     },
     {
-      "title": "U.S. Navy Taps Attack Boat for 2027 Australian AUKUS Assignment",
+      "title": "UPDATED: U.S. Navy Taps Attack Boat for 2027 Australian AUKUS Assignment",
       "link": "https://news.usni.org/2026/10/26/u-s-navy-taps-attack-boat-for-2027-australian-aukus-assignment",
       "published": "Mon, 26 Oct 2026 20:46:28 +0000",
       "source": "USNI News",
@@ -858,36 +856,22 @@
       ]
     },
     {
-      "title": "Theodore Roosevelt Carrier Strike Group Sails in the Philippine Sea for Keen Sword Drills",
-      "link": "https://news.usni.org/2026/10/22/theodore-roosevelt-carrier-strike-group-sails-in-the-philippine-sea-for-keen-sword-drills",
-      "published": "Thu, 22 Oct 2026 16:02:08 +0000",
-      "source": "USNI News",
+      "title": "US taps Poland to host European PAC-3 missile maintenance facility",
+      "link": "https://www.defensenews.com/global/europe/2026/10/27/us-taps-poland-to-host-european-pac-3-missile-maintenance-facility/",
+      "published": "Tue, 27 Oct 2026 16:42:28 +0000",
+      "source": "Defense News",
       "categories": [
-        "deployment",
-        "exercise",
         "conflict"
       ]
     }
   ],
-  "_exercise_news_refs": [
-    {
-      "title": "Theodore Roosevelt Carrier Strike Group Sails in the Philippine Sea for Keen Sword Drills",
-      "link": "https://news.usni.org/2026/10/22/theodore-roosevelt-carrier-strike-group-sails-in-the-philippine-sea-for-keen-sword-drills",
-      "published": "Thu, 22 Oct 2026 16:02:08 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment",
-        "exercise",
-        "conflict"
-      ]
-    }
-  ],
+  "_exercise_news_refs": [],
   "_threat_indicators": {
     "deployment_articles": 8,
-    "conflict_articles": 6,
-    "exercise_articles": 1,
+    "conflict_articles": 7,
+    "exercise_articles": 0,
     "total_articles": 40,
-    "computed_at": "2026-10-27T12:47:41.284702+00:00",
+    "computed_at": "2026-10-27T18:24:49.012299+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[USNI News] USS McFaul Returns to Norfolk After 332 Day Deployment",
@@ -905,9 +889,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-10-27T12:47:41.284749+00:00",
+    "last_successful_update": "2026-10-27T18:24:49.012349+00:00",
     "article_count": 40,
-    "categorized_count": 12,
+    "categorized_count": 14,
     "freshest_source": "USNI News",
     "freshest_title": "USS McFaul Returns to Norfolk After 332 Day Deployment",
     "freshest_published": "Fri, 23 Oct 2026 21:34:16 +0000"
