@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-10-27T01:02:14Z",
-  "version": 3111,
+  "generated_utc": "2026-10-27T06:53:57Z",
+  "version": 3112,
   "breaking_alert": "USNI News: USS McFaul Returns to Norfolk After 332 Day Deployment",
   "naval_deployments": [
     {
@@ -903,7 +903,7 @@
     "conflict_articles": 6,
     "exercise_articles": 1,
     "total_articles": 50,
-    "computed_at": "2026-10-27T01:02:10.226937+00:00",
+    "computed_at": "2026-10-27T06:53:55.480443+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[USNI News] USS McFaul Returns to Norfolk After 332 Day Deployment",
@@ -921,7 +921,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-10-27T01:02:10.226968+00:00",
+    "last_successful_update": "2026-10-27T06:53:55.480487+00:00",
     "article_count": 50,
     "categorized_count": 16,
     "freshest_source": "USNI News",
