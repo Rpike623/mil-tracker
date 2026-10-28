@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-10-28T19:55:46Z",
-  "version": 3119,
+  "generated_utc": "2026-10-28T23:41:13Z",
+  "version": 3120,
   "breaking_alert": "Task & Purpose: Tracking America’s latest conflict: The Iran war timeline",
   "naval_deployments": [
     {
@@ -603,16 +603,6 @@
       ]
     },
     {
-      "title": "New Philippine Coast Guard Vessel Shadows Chinese Carrier Strike Group off Mindanao",
-      "link": "https://news.usni.org/2026/10/26/new-philippine-coast-guard-vessel-shadows-chinese-carrier-strike-group-off-mindanao",
-      "published": "Mon, 26 Oct 2026 14:45:41 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
       "title": "USNI News Fleet and Marine Tracker: Oct. 26, 2026",
       "link": "https://news.usni.org/2026/10/26/usni-news-fleet-and-marine-tracker-oct-26-2026",
       "published": "Mon, 26 Oct 2026 17:13:04 +0000",
@@ -672,6 +662,24 @@
       "title": "US costs of Iran war rise to over $47 billion, according to Pentagon estimate",
       "link": "https://www.defensenews.com/pentagon/2026/10/28/us-costs-of-iran-war-rise-to-over-47-billion-according-to-pentagon-estimate/",
       "published": "Wed, 28 Oct 2026 18:10:50 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Cost estimate for Iran war rises to more than $47 billion",
+      "link": "https://www.militarytimes.com/video/2026/10/28/cost-estimate-for-iran-war-rises-to-more-than-47-billion/",
+      "published": "Wed, 28 Oct 2026 20:16:47 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Cost estimate for Iran war rises to more than $47 billion",
+      "link": "https://www.defensenews.com/video/2026/10/28/cost-estimate-for-iran-war-rises-to-more-than-47-billion/",
+      "published": "Wed, 28 Oct 2026 20:16:50 +0000",
       "source": "Defense News",
       "categories": [
         "deployment"
@@ -830,16 +838,6 @@
   },
   "_conflict_news_refs": [
     {
-      "title": "New Philippine Coast Guard Vessel Shadows Chinese Carrier Strike Group off Mindanao",
-      "link": "https://news.usni.org/2026/10/26/new-philippine-coast-guard-vessel-shadows-chinese-carrier-strike-group-off-mindanao",
-      "published": "Mon, 26 Oct 2026 14:45:41 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
       "title": "UPDATED: U.S. Navy Taps Attack Boat for 2027 Australian AUKUS Assignment",
       "link": "https://news.usni.org/2026/10/26/u-s-navy-taps-attack-boat-for-2027-australian-aukus-assignment",
       "published": "Mon, 26 Oct 2026 20:46:28 +0000",
@@ -858,18 +856,27 @@
       ]
     },
     {
-      "title": "US Army looks to high-flying balloons to help see, strike along front lines with China",
-      "link": "https://www.defensenews.com/industry/techwatch/2026/10/27/us-army-looks-to-high-flying-balloons-to-help-see-strike-along-front-lines-with-china/",
-      "published": "Tue, 27 Oct 2026 17:22:47 +0000",
+      "title": "U.S. Forces Kill 5 in Strike on Suspected Narco Boat",
+      "link": "https://news.usni.org/2026/10/27/u-s-forces-kill-5-in-strike-on-suspected-narco-boat",
+      "published": "Tue, 27 Oct 2026 19:42:55 +0000",
+      "source": "USNI News",
+      "categories": [
+        "conflict"
+      ]
+    },
+    {
+      "title": "US Air Force awards Lockheed Martin $694M hypersonic missile production contract",
+      "link": "https://www.defensenews.com/industry/techwatch/2026/10/27/us-air-force-awards-lockheed-martin-694m-hypersonic-missile-production-contract/",
+      "published": "Tue, 27 Oct 2026 19:53:42 +0000",
       "source": "Defense News",
       "categories": [
         "conflict"
       ]
     },
     {
-      "title": "Navy identifies NAS Pensacola sailors killed in car crash",
-      "link": "https://www.militarytimes.com/news/2026/10/27/navy-identifies-nas-pensacola-sailors-killed-in-car-crash/",
-      "published": "Tue, 27 Oct 2026 18:56:25 +0000",
+      "title": "US Air Force awards Lockheed Martin $694M hypersonic missile production contract",
+      "link": "https://www.militarytimes.com/industry/techwatch/2026/10/27/us-air-force-awards-lockheed-martin-694m-hypersonic-missile-production-contract/",
+      "published": "Tue, 27 Oct 2026 19:53:42 +0000",
       "source": "Military Times",
       "categories": [
         "conflict"
@@ -908,18 +915,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 9,
-    "conflict_articles": 9,
+    "deployment_articles": 10,
+    "conflict_articles": 6,
     "exercise_articles": 3,
     "total_articles": 40,
-    "computed_at": "2026-10-28T19:55:40.588792+00:00",
-    "manual_override": "DEFCON_2",
+    "computed_at": "2026-10-28T23:41:09.115160+00:00",
+    "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Task & Purpose] Tracking America’s latest conflict: The Iran war timeline",
-      "[USNI News] New Philippine Coast Guard Vessel Shadows Chinese Carrier Strike Group off Mindanao",
       "[USNI News] USNI News Fleet and Marine Tracker: Oct. 26, 2026",
       "[Task & Purpose] Air Force tests ‘rocket cargo’ to resupply troops anywhere",
-      "[USNI News] UPDATED: U.S. Navy Taps Attack Boat for 2027 Australian AUKUS Assignment"
+      "[USNI News] UPDATED: U.S. Navy Taps Attack Boat for 2027 Australian AUKUS Assignment",
+      "[Task & Purpose] Army tests autonomous robots that hunt enemy targets"
     ]
   },
   "ground_intel": {
@@ -930,9 +937,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-10-28T19:55:40.588830+00:00",
+    "last_successful_update": "2026-10-28T23:41:09.115205+00:00",
     "article_count": 40,
-    "categorized_count": 18,
+    "categorized_count": 17,
     "freshest_source": "Task & Purpose",
     "freshest_title": "Tracking America’s latest conflict: The Iran war timeline",
     "freshest_published": "Mon, 26 Oct 2026 14:12:56 -0400"
