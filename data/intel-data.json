@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-10-27T22:41:19Z",
-  "version": 3115,
+  "generated_utc": "2026-10-28T01:50:55Z",
+  "version": 3116,
   "breaking_alert": "USNI News: USS McFaul Returns to Norfolk After 332 Day Deployment",
   "naval_deployments": [
     {
@@ -622,6 +622,15 @@
       ]
     },
     {
+      "title": "Israel to Supply Cyprus with an Offshore Patrol Vessel Equipped with Advanced Naval Systems",
+      "link": "https://www.navalnews.com/naval-news/2026/10/israel-to-supply-cyprus-with-an-offshore-patrol-vessel-equipped-with-advanced-naval-systems/",
+      "published": "Mon, 26 Oct 2026 16:56:46 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "USNI News Fleet and Marine Tracker: Oct. 26, 2026",
       "link": "https://news.usni.org/2026/10/26/usni-news-fleet-and-marine-tracker-oct-26-2026",
       "published": "Mon, 26 Oct 2026 17:13:04 +0000",
@@ -640,19 +649,37 @@
       ]
     },
     {
-      "title": "Army tests autonomous robots that hunt enemy targets",
-      "link": "https://taskandpurpose.com/news/army-scifi-warfare-fort-knox/",
-      "published": "Tue, 27 Oct 2026 10:56:08 -0400",
-      "source": "Task & Purpose",
+      "title": "Exail Unveils Marins M1 Compact INS for Smaller Naval Platforms and UXVs",
+      "link": "https://www.navalnews.com/naval-news/2026/10/exail-unveils-marins-m1-compact-ins-for-smaller-naval-platforms-and-uxvs/",
+      "published": "Mon, 26 Oct 2026 20:08:04 +0000",
+      "source": "Naval News",
       "categories": [
         "deployment"
       ]
     },
     {
-      "title": "Marine Rotational Force Concludes Deployment to the Outback",
-      "link": "https://news.usni.org/2026/10/27/marine-rotational-force-concludes-deployment-to-the-outback",
-      "published": "Tue, 27 Oct 2026 15:42:17 +0000",
-      "source": "USNI News",
+      "title": "Op-Ed: The US Navy CAN Fix the Fleet with Distributed Manufacturing",
+      "link": "https://www.navalnews.com/naval-news/2026/10/op-ed-us-navy-distributed-manufacturing/",
+      "published": "Mon, 26 Oct 2026 20:50:59 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "AUKUS: USS Colorado Announced as First Submarine for SRF – West",
+      "link": "https://www.navalnews.com/naval-news/2026/10/aukus-uss-colorado-announced-as-first-submarine-for-srf-west/",
+      "published": "Mon, 26 Oct 2026 22:11:06 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Canada modifies River-class Destroyer combat system design to focus on Aegis and MOTS solutions",
+      "link": "https://www.navalnews.com/features/2026/10/canada-river-class-destroyer-aegis-mots/",
+      "published": "Tue, 27 Oct 2026 09:41:21 +0000",
+      "source": "Naval News",
       "categories": [
         "deployment"
       ]
@@ -829,6 +856,16 @@
       ]
     },
     {
+      "title": "Houthi Ballistic Missile Intercepted Near Belgian Minehunter in Bab el-Mandeb",
+      "link": "https://www.navalnews.com/naval-news/2026/10/houthi-ballistic-missile-intercepted-near-belgian-minehunter-in-bab-el-mandeb/",
+      "published": "Tue, 27 Oct 2026 14:22:15 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
+    },
+    {
       "title": "US military’s drug boat strikes have now killed at least 240 people",
       "link": "https://taskandpurpose.com/news/military-drug-boat-240-killed/",
       "published": "Tue, 27 Oct 2026 16:31:01 -0400",
@@ -845,31 +882,22 @@
       "categories": [
         "conflict"
       ]
-    },
-    {
-      "title": "US Army looks to high-flying balloons to help see, strike along front lines with China",
-      "link": "https://www.defensenews.com/industry/techwatch/2026/10/27/us-army-looks-to-high-flying-balloons-to-help-see-strike-along-front-lines-with-china/",
-      "published": "Tue, 27 Oct 2026 17:22:47 +0000",
-      "source": "Defense News",
-      "categories": [
-        "conflict"
-      ]
     }
   ],
   "_exercise_news_refs": [],
   "_threat_indicators": {
-    "deployment_articles": 7,
-    "conflict_articles": 10,
+    "deployment_articles": 13,
+    "conflict_articles": 11,
     "exercise_articles": 0,
-    "total_articles": 40,
-    "computed_at": "2026-10-27T22:41:15.911039+00:00",
+    "total_articles": 50,
+    "computed_at": "2026-10-28T01:50:50.128317+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[USNI News] USS McFaul Returns to Norfolk After 332 Day Deployment",
       "[Task & Purpose] Tracking America’s latest conflict: The Iran war timeline",
       "[USNI News] New Philippine Coast Guard Vessel Shadows Chinese Carrier Strike Group off Mindanao",
-      "[USNI News] USNI News Fleet and Marine Tracker: Oct. 26, 2026",
-      "[Task & Purpose] Air Force tests ‘rocket cargo’ to resupply troops anywhere"
+      "[Naval News] Israel to Supply Cyprus with an Offshore Patrol Vessel Equipped with Advanced Naval Systems",
+      "[USNI News] USNI News Fleet and Marine Tracker: Oct. 26, 2026"
     ]
   },
   "ground_intel": {
@@ -880,9 +908,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-10-27T22:41:15.911076+00:00",
-    "article_count": 40,
-    "categorized_count": 16,
+    "last_successful_update": "2026-10-28T01:50:50.128358+00:00",
+    "article_count": 50,
+    "categorized_count": 22,
     "freshest_source": "USNI News",
     "freshest_title": "USS McFaul Returns to Norfolk After 332 Day Deployment",
     "freshest_published": "Fri, 23 Oct 2026 21:34:16 +0000"
