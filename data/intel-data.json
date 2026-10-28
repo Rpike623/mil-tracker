@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-10-28T14:34:31Z",
-  "version": 3118,
-  "breaking_alert": "USNI News: USS McFaul Returns to Norfolk After 332 Day Deployment",
+  "generated_utc": "2026-10-28T19:55:46Z",
+  "version": 3119,
+  "breaking_alert": "Task & Purpose: Tracking America’s latest conflict: The Iran war timeline",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -594,15 +594,6 @@
   ],
   "_naval_news_refs": [
     {
-      "title": "USS McFaul Returns to Norfolk After 332 Day Deployment",
-      "link": "https://news.usni.org/2026/10/23/uss-mcfaul-returns-to-norfolk-after-332-day-deployment",
-      "published": "Fri, 23 Oct 2026 21:34:16 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Tracking America’s latest conflict: The Iran war timeline",
       "link": "https://taskandpurpose.com/news/iran-war-timeline/",
       "published": "Mon, 26 Oct 2026 14:12:56 -0400",
@@ -666,6 +657,24 @@
         "deployment",
         "exercise",
         "conflict"
+      ]
+    },
+    {
+      "title": "US costs of Iran war rise to over $47 billion, according to Pentagon estimate",
+      "link": "https://www.militarytimes.com/news/2026/10/28/us-costs-of-iran-war-rise-to-over-47-billion-according-to-pentagon-estimate/",
+      "published": "Wed, 28 Oct 2026 18:10:48 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "US costs of Iran war rise to over $47 billion, according to Pentagon estimate",
+      "link": "https://www.defensenews.com/pentagon/2026/10/28/us-costs-of-iran-war-rise-to-over-47-billion-according-to-pentagon-estimate/",
+      "published": "Wed, 28 Oct 2026 18:10:50 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment"
       ]
     }
   ],
@@ -849,15 +858,6 @@
       ]
     },
     {
-      "title": "US taps Poland to host European PAC-3 missile maintenance facility",
-      "link": "https://www.defensenews.com/global/europe/2026/10/27/us-taps-poland-to-host-european-pac-3-missile-maintenance-facility/",
-      "published": "Tue, 27 Oct 2026 16:42:28 +0000",
-      "source": "Defense News",
-      "categories": [
-        "conflict"
-      ]
-    },
-    {
       "title": "US Army looks to high-flying balloons to help see, strike along front lines with China",
       "link": "https://www.defensenews.com/industry/techwatch/2026/10/27/us-army-looks-to-high-flying-balloons-to-help-see-strike-along-front-lines-with-china/",
       "published": "Tue, 27 Oct 2026 17:22:47 +0000",
@@ -865,11 +865,20 @@
       "categories": [
         "conflict"
       ]
+    },
+    {
+      "title": "Navy identifies NAS Pensacola sailors killed in car crash",
+      "link": "https://www.militarytimes.com/news/2026/10/27/navy-identifies-nas-pensacola-sailors-killed-in-car-crash/",
+      "published": "Tue, 27 Oct 2026 18:56:25 +0000",
+      "source": "Military Times",
+      "categories": [
+        "conflict"
+      ]
     }
   ],
   "_exercise_news_refs": [
     {
-      "title": "Finlands defense minister talks NATO, Ukraine and fishing",
+      "title": "Finland’s defense minister talks NATO, Ukraine and fishing",
       "link": "https://www.defensenews.com/global/europe/2026/10/28/finlands-defense-minister-talks-nato-ukraine-and-fishing/",
       "published": "Wed, 28 Oct 2026 12:28:34 +0000",
       "source": "Defense News",
@@ -887,21 +896,30 @@
         "exercise",
         "conflict"
       ]
+    },
+    {
+      "title": "U.S. Marines Deploy Neros Archer Drone in Camp Fuji Exercise",
+      "link": "https://news.usni.org/2026/10/28/u-s-marines-deploy-neros-archer-drone-in-camp-fuji-exercise",
+      "published": "Wed, 28 Oct 2026 17:51:21 +0000",
+      "source": "USNI News",
+      "categories": [
+        "exercise"
+      ]
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 8,
-    "conflict_articles": 11,
-    "exercise_articles": 2,
+    "deployment_articles": 9,
+    "conflict_articles": 9,
+    "exercise_articles": 3,
     "total_articles": 40,
-    "computed_at": "2026-10-28T14:34:27.980153+00:00",
+    "computed_at": "2026-10-28T19:55:40.588792+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
-      "[USNI News] USS McFaul Returns to Norfolk After 332 Day Deployment",
       "[Task & Purpose] Tracking America’s latest conflict: The Iran war timeline",
       "[USNI News] New Philippine Coast Guard Vessel Shadows Chinese Carrier Strike Group off Mindanao",
       "[USNI News] USNI News Fleet and Marine Tracker: Oct. 26, 2026",
-      "[Task & Purpose] Air Force tests ‘rocket cargo’ to resupply troops anywhere"
+      "[Task & Purpose] Air Force tests ‘rocket cargo’ to resupply troops anywhere",
+      "[USNI News] UPDATED: U.S. Navy Taps Attack Boat for 2027 Australian AUKUS Assignment"
     ]
   },
   "ground_intel": {
@@ -912,12 +930,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-10-28T14:34:27.980184+00:00",
+    "last_successful_update": "2026-10-28T19:55:40.588830+00:00",
     "article_count": 40,
     "categorized_count": 18,
-    "freshest_source": "USNI News",
-    "freshest_title": "USS McFaul Returns to Norfolk After 332 Day Deployment",
-    "freshest_published": "Fri, 23 Oct 2026 21:34:16 +0000"
+    "freshest_source": "Task & Purpose",
+    "freshest_title": "Tracking America’s latest conflict: The Iran war timeline",
+    "freshest_published": "Mon, 26 Oct 2026 14:12:56 -0400"
   },
   "_firms_hotspots": []
 }
