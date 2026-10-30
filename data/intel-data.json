@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-10-29T22:04:31Z",
-  "version": 3124,
+  "generated_utc": "2026-10-30T02:11:43Z",
+  "version": 3125,
   "breaking_alert": "Task & Purpose: Tracking America’s latest conflict: The Iran war timeline",
   "naval_deployments": [
     {
@@ -612,45 +612,6 @@
       ]
     },
     {
-      "title": "PT PAL and Naval Group Explore Submarine MRO Cooperation",
-      "link": "https://www.navalnews.com/naval-news/2026/10/pt-pal-and-naval-group-explore-submarine-mro-cooperation/",
-      "published": "Thu, 29 Oct 2026 08:23:01 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment",
-        "exercise"
-      ]
-    },
-    {
-      "title": "Fairbanks Morse Defense Awarded $100M Contract to Accelerate Global Submarine Availability",
-      "link": "https://www.navalnews.com/naval-news/2026/10/fairbanks-morse-defense-awarded-100m-contract-to-accelerate-global-submarine-availability/",
-      "published": "Thu, 29 Oct 2026 13:18:19 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "DATUM LÜFER Reconnaissance & Attack UUV Showcased in Turkish Naval Exercise",
-      "link": "https://www.navalnews.com/naval-news/2026/10/datum-lufer-reconnaissance-attack-uuv-showcased-in-turkish-naval-exercise/",
-      "published": "Thu, 29 Oct 2026 13:26:18 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment",
-        "exercise",
-        "conflict"
-      ]
-    },
-    {
-      "title": "French Navy and DGA Evaluate Exail DriX O-16 USV in the Mediterranean",
-      "link": "https://www.navalnews.com/naval-news/2026/10/french-navy-evaluates-exail-drix-o-16-usv/",
-      "published": "Thu, 29 Oct 2026 15:26:30 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Record deployment for destroyer USS Spruance casts doubt over US Navy maintenance",
       "link": "https://www.defensenews.com/naval/2026/10/29/record-deployment-for-destroyer-uss-spruance-casts-doubt-over-us-navy-maintenance/",
       "published": "Thu, 29 Oct 2026 19:15:42 +0000",
@@ -685,6 +646,35 @@
       "source": "USNI News",
       "categories": [
         "deployment"
+      ]
+    },
+    {
+      "title": "Army tests autonomous robots that hunt enemy targets",
+      "link": "https://taskandpurpose.com/news/army-scifi-warfare-fort-knox/",
+      "published": "Tue, 27 Oct 2026 10:56:08 -0400",
+      "source": "Task & Purpose",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Marine Rotational Force Concludes Deployment to the Outback",
+      "link": "https://news.usni.org/2026/10/27/marine-rotational-force-concludes-deployment-to-the-outback",
+      "published": "Tue, 27 Oct 2026 15:42:17 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Report to Congress on U.S. Military Operations Against Iran’s Missile, Nuclear Programs",
+      "link": "https://news.usni.org/2026/10/28/report-to-congress-on-u-s-military-operations-against-irans-missile-nuclear-programs-2",
+      "published": "Wed, 28 Oct 2026 13:47:47 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment",
+        "exercise",
+        "conflict"
       ]
     }
   ],
@@ -840,17 +830,6 @@
   },
   "_conflict_news_refs": [
     {
-      "title": "DATUM LÜFER Reconnaissance & Attack UUV Showcased in Turkish Naval Exercise",
-      "link": "https://www.navalnews.com/naval-news/2026/10/datum-lufer-reconnaissance-attack-uuv-showcased-in-turkish-naval-exercise/",
-      "published": "Thu, 29 Oct 2026 13:26:18 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment",
-        "exercise",
-        "conflict"
-      ]
-    },
-    {
       "title": "Destinus’ monthly output tops Europe’s pre-war annual cruise missile production",
       "link": "https://www.defensenews.com/global/europe/2026/10/29/destinus-monthly-output-tops-europes-pre-war-annual-cruise-missile-production/",
       "published": "Thu, 29 Oct 2026 14:44:45 +0000",
@@ -885,30 +864,18 @@
       "categories": [
         "conflict"
       ]
+    },
+    {
+      "title": "US military’s drug boat strikes have now killed at least 240 people",
+      "link": "https://taskandpurpose.com/news/military-drug-boat-240-killed/",
+      "published": "Tue, 27 Oct 2026 16:31:01 -0400",
+      "source": "Task & Purpose",
+      "categories": [
+        "conflict"
+      ]
     }
   ],
   "_exercise_news_refs": [
-    {
-      "title": "PT PAL and Naval Group Explore Submarine MRO Cooperation",
-      "link": "https://www.navalnews.com/naval-news/2026/10/pt-pal-and-naval-group-explore-submarine-mro-cooperation/",
-      "published": "Thu, 29 Oct 2026 08:23:01 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment",
-        "exercise"
-      ]
-    },
-    {
-      "title": "DATUM LÜFER Reconnaissance & Attack UUV Showcased in Turkish Naval Exercise",
-      "link": "https://www.navalnews.com/naval-news/2026/10/datum-lufer-reconnaissance-attack-uuv-showcased-in-turkish-naval-exercise/",
-      "published": "Thu, 29 Oct 2026 13:26:18 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment",
-        "exercise",
-        "conflict"
-      ]
-    },
     {
       "title": "At pivotal summit, Canadian-European security cooperation is a central focus",
       "link": "https://www.defensenews.com/global/europe/2026/10/29/at-pivotal-summit-canadian-european-security-cooperation-is-a-central-focus/",
@@ -938,21 +905,30 @@
         "exercise",
         "conflict"
       ]
+    },
+    {
+      "title": "U.S. Marines Deploy Neros Archer Drone in Camp Fuji Exercise",
+      "link": "https://news.usni.org/2026/10/28/u-s-marines-deploy-neros-archer-drone-in-camp-fuji-exercise",
+      "published": "Wed, 28 Oct 2026 17:51:21 +0000",
+      "source": "USNI News",
+      "categories": [
+        "exercise"
+      ]
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 16,
-    "conflict_articles": 9,
-    "exercise_articles": 6,
-    "total_articles": 50,
-    "computed_at": "2026-10-29T22:04:29.456321+00:00",
-    "manual_override": "DEFCON_2",
+    "deployment_articles": 9,
+    "conflict_articles": 7,
+    "exercise_articles": 4,
+    "total_articles": 40,
+    "computed_at": "2026-10-30T02:11:38.026467+00:00",
+    "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Task & Purpose] Tracking America’s latest conflict: The Iran war timeline",
       "[Task & Purpose] Air Force tests ‘rocket cargo’ to resupply troops anywhere",
-      "[Naval News] PT PAL and Naval Group Explore Submarine MRO Cooperation",
-      "[Naval News] Fairbanks Morse Defense Awarded $100M Contract to Accelerate Global Submarine Availability",
-      "[Naval News] DATUM LÜFER Reconnaissance & Attack UUV Showcased in Turkish Naval Exercise"
+      "[Defense News] Destinus’ monthly output tops Europe’s pre-war annual cruise missile production",
+      "[Task & Purpose] Pentagon investigates series of commissary freezer failures as possible cyberattack",
+      "[Military Times] Pentagon treating military base freezer malfunctions as suspected cyberattack, officials say"
     ]
   },
   "ground_intel": {
@@ -963,9 +939,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-10-29T22:04:29.456370+00:00",
-    "article_count": 50,
-    "categorized_count": 24,
+    "last_successful_update": "2026-10-30T02:11:38.026515+00:00",
+    "article_count": 40,
+    "categorized_count": 17,
     "freshest_source": "Task & Purpose",
     "freshest_title": "Tracking America’s latest conflict: The Iran war timeline",
     "freshest_published": "Mon, 26 Oct 2026 14:12:56 -0400"
