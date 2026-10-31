@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-10-31T18:01:02Z",
-  "version": 3132,
+  "generated_utc": "2026-10-31T21:58:04Z",
+  "version": 3133,
   "breaking_alert": "Naval News: New Details on PT PAL’s Very Light Attack Craft (KSSR)",
   "naval_deployments": [
     {
@@ -941,7 +941,7 @@
     "conflict_articles": 8,
     "exercise_articles": 5,
     "total_articles": 50,
-    "computed_at": "2026-10-31T18:00:58.204211+00:00",
+    "computed_at": "2026-10-31T21:58:02.397999+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[Naval News] New Details on PT PAL’s Very Light Attack Craft (KSSR)",
@@ -959,7 +959,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-10-31T18:00:58.204249+00:00",
+    "last_successful_update": "2026-10-31T21:58:02.398045+00:00",
     "article_count": 50,
     "categorized_count": 19,
     "freshest_source": "Naval News",
