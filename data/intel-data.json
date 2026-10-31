@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-10-31T14:00:46Z",
-  "version": 3131,
+  "generated_utc": "2026-10-31T18:01:02Z",
+  "version": 3132,
   "breaking_alert": "Naval News: New Details on PT PAL’s Very Light Attack Craft (KSSR)",
   "naval_deployments": [
     {
@@ -632,6 +632,15 @@
       ]
     },
     {
+      "title": "Former Fort Bragg contractor charged with leaking military secrets",
+      "link": "https://taskandpurpose.com/news/fort-bragg-contractor-arrested-leaks/",
+      "published": "Sat, 31 Oct 2026 11:43:10 -0400",
+      "source": "Task & Purpose",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "French Navy and DGA Evaluate Exail DriX O-16 USV in the Mediterranean",
       "link": "https://www.navalnews.com/naval-news/2026/10/french-navy-evaluates-exail-drix-o-16-usv/",
       "published": "Thu, 29 Oct 2026 15:26:30 +0000",
@@ -673,15 +682,6 @@
       "link": "https://news.usni.org/2026/10/29/long-deployments-to-be-navy-standard-for-next-couple-years-mcpon-cno-say",
       "published": "Thu, 29 Oct 2026 20:41:01 +0000",
       "source": "USNI News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Army tests autonomous robots that hunt enemy targets",
-      "link": "https://taskandpurpose.com/news/army-scifi-warfare-fort-knox/",
-      "published": "Tue, 27 Oct 2026 10:56:08 -0400",
-      "source": "Task & Purpose",
       "categories": [
         "deployment"
       ]
@@ -941,7 +941,7 @@
     "conflict_articles": 8,
     "exercise_articles": 5,
     "total_articles": 50,
-    "computed_at": "2026-10-31T13:56:05.326472+00:00",
+    "computed_at": "2026-10-31T18:00:58.204211+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[Naval News] New Details on PT PAL’s Very Light Attack Craft (KSSR)",
@@ -959,7 +959,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-10-31T13:56:05.326520+00:00",
+    "last_successful_update": "2026-10-31T18:00:58.204249+00:00",
     "article_count": 50,
     "categorized_count": 19,
     "freshest_source": "Naval News",
