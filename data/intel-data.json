@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-11-01T18:38:19Z",
-  "version": 3137,
+  "generated_utc": "2026-11-01T22:33:52Z",
+  "version": 3138,
   "breaking_alert": "Naval News: Four Decades of Naval Expertise, A New Global Chapter for Hanwha Ocean",
   "naval_deployments": [
     {
@@ -941,7 +941,7 @@
     "conflict_articles": 6,
     "exercise_articles": 5,
     "total_articles": 50,
-    "computed_at": "2026-11-01T18:38:16.046674+00:00",
+    "computed_at": "2026-11-01T22:29:11.392125+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] Four Decades of Naval Expertise, A New Global Chapter for Hanwha Ocean",
@@ -959,7 +959,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-11-01T18:38:16.046717+00:00",
+    "last_successful_update": "2026-11-01T22:29:11.392168+00:00",
     "article_count": 50,
     "categorized_count": 17,
     "freshest_source": "Naval News",
