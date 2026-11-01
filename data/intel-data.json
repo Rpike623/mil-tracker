@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-11-01T06:56:08Z",
-  "version": 3135,
-  "breaking_alert": "Naval News: New Details on PT PAL’s Very Light Attack Craft (KSSR)",
+  "generated_utc": "2026-11-01T13:54:17Z",
+  "version": 3136,
+  "breaking_alert": "Naval News: Four Decades of Naval Expertise, A New Global Chapter for Hanwha Ocean",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -641,9 +641,9 @@
       ]
     },
     {
-      "title": "French Navy and DGA Evaluate Exail DriX O-16 USV in the Mediterranean",
-      "link": "https://www.navalnews.com/naval-news/2026/10/french-navy-evaluates-exail-drix-o-16-usv/",
-      "published": "Thu, 29 Oct 2026 15:26:30 +0000",
+      "title": "Sarawat and Tuwaiq Strategic Projects Strengthen Royal Saudi Naval Forces, Localize Maritime Defense",
+      "link": "https://www.navalnews.com/naval-news/2026/11/sarawat-and-tuwaiq-strategic-projects-strengthen-royal-saudi-naval-forces-localize-maritime-defense/",
+      "published": "Sun, 01 Nov 2026 13:11:27 +0000",
       "source": "Naval News",
       "categories": [
         "deployment"
@@ -839,15 +839,6 @@
   },
   "_conflict_news_refs": [
     {
-      "title": "New Details on PT PAL’s Very Light Attack Craft (KSSR)",
-      "link": "https://www.navalnews.com/naval-news/2026/10/new-details-on-pt-pals-very-light-attack-craft-kssr/",
-      "published": "Fri, 30 Oct 2026 07:41:09 +0000",
-      "source": "Naval News",
-      "categories": [
-        "conflict"
-      ]
-    },
-    {
       "title": "Navy corpsman with Marine Raiders ran into burning building to save French soldiers after Iranian attack",
       "link": "https://taskandpurpose.com/news/navy-corpsman-battlefield-award/",
       "published": "Fri, 30 Oct 2026 14:51:00 -0400",
@@ -880,6 +871,15 @@
       "link": "https://taskandpurpose.com/news/military-commissary-cyberattack-pentagon-investigation/",
       "published": "Thu, 29 Oct 2026 15:11:09 -0400",
       "source": "Task & Purpose",
+      "categories": [
+        "conflict"
+      ]
+    },
+    {
+      "title": "Pentagon treating military base freezer malfunctions as suspected cyberattack, officials say",
+      "link": "https://www.militarytimes.com/pentagon/2026/10/29/pentagon-treating-military-base-freezer-malfunctions-as-suspected-cyberattack-officials-say/",
+      "published": "Thu, 29 Oct 2026 16:26:53 +0000",
+      "source": "Military Times",
       "categories": [
         "conflict"
       ]
@@ -938,17 +938,17 @@
   ],
   "_threat_indicators": {
     "deployment_articles": 11,
-    "conflict_articles": 8,
+    "conflict_articles": 7,
     "exercise_articles": 5,
     "total_articles": 50,
-    "computed_at": "2026-11-01T06:56:05.894915+00:00",
-    "manual_override": "DEFCON_2",
+    "computed_at": "2026-11-01T13:54:14.274100+00:00",
+    "manual_override": "DEFCON_3",
     "breaking_events": [
-      "[Naval News] New Details on PT PAL’s Very Light Attack Craft (KSSR)",
       "[Naval News] Four Decades of Naval Expertise, A New Global Chapter for Hanwha Ocean",
       "[Task & Purpose] 2 airmen died in noncombat incidents while supporting Iran war operations",
       "[Task & Purpose] Navy corpsman with Marine Raiders ran into burning building to save French soldiers after Iranian attack",
-      "[Defense News] Ukraine completes work on new missile defense system, awaits European partner components"
+      "[Defense News] Ukraine completes work on new missile defense system, awaits European partner components",
+      "[Naval News] Hellenic Navy Receives Its Second FDI Frigate Built by Naval Group"
     ]
   },
   "ground_intel": {
@@ -959,12 +959,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-11-01T06:56:05.894964+00:00",
+    "last_successful_update": "2026-11-01T13:54:14.274133+00:00",
     "article_count": 50,
-    "categorized_count": 19,
+    "categorized_count": 18,
     "freshest_source": "Naval News",
-    "freshest_title": "New Details on PT PAL’s Very Light Attack Craft (KSSR)",
-    "freshest_published": "Fri, 30 Oct 2026 07:41:09 +0000"
+    "freshest_title": "Four Decades of Naval Expertise, A New Global Chapter for Hanwha Ocean",
+    "freshest_published": "Fri, 30 Oct 2026 09:33:04 +0000"
   },
   "_firms_hotspots": []
 }
