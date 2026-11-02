@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-11-02T08:31:56Z",
-  "version": 3140,
-  "breaking_alert": "Naval News: Four Decades of Naval Expertise, A New Global Chapter for Hanwha Ocean",
+  "generated_utc": "2026-11-02T18:53:39Z",
+  "version": 3141,
+  "breaking_alert": "Task & Purpose: 2 airmen died in noncombat incidents while supporting Iran war operations",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -594,15 +594,6 @@
   ],
   "_naval_news_refs": [
     {
-      "title": "Four Decades of Naval Expertise, A New Global Chapter for Hanwha Ocean",
-      "link": "https://www.navalnews.com/features/2026/10/four-decades-of-naval-expertise-a-new-global-chapter-for-hanwha-ocean/",
-      "published": "Fri, 30 Oct 2026 09:33:04 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "2 airmen died in noncombat incidents while supporting Iran war operations",
       "link": "https://taskandpurpose.com/news/iran-war-death-toll-23-air-force/",
       "published": "Fri, 30 Oct 2026 13:50:06 -0400",
@@ -650,6 +641,33 @@
       ]
     },
     {
+      "title": "Saab unveils optionally crewed CB90 CX ahead of Euronaval 2026",
+      "link": "https://www.navalnews.com/event-news/euronaval-2026/2026/11/saab-unveils-optionally-crewed-cb90-cx-ahead-of-euronaval-2026/",
+      "published": "Mon, 02 Nov 2026 08:57:08 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Tracking America’s latest conflict: The Iran war timeline",
+      "link": "https://taskandpurpose.com/news/iran-war-timeline/",
+      "published": "Mon, 02 Nov 2026 10:56:59 -0500",
+      "source": "Task & Purpose",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Naval Group Unveils Seaquest M MUSV as French Navy Weighs Armed Surface Drones",
+      "link": "https://www.navalnews.com/event-news/euronaval-2026/2026/11/naval-group-seaquest-m-musv/",
+      "published": "Mon, 02 Nov 2026 12:30:22 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "Former Fort Bragg contractor charged with leaking military secrets",
       "link": "https://taskandpurpose.com/news/fort-bragg-contractor-arrested-leaks/",
       "published": "Sat, 31 Oct 2026 11:43:10 -0400",
@@ -663,24 +681,6 @@
       "link": "https://www.navalnews.com/naval-news/2026/11/sarawat-and-tuwaiq-strategic-projects-strengthen-royal-saudi-naval-forces-localize-maritime-defense/",
       "published": "Sun, 01 Nov 2026 13:11:27 +0000",
       "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Record deployment for destroyer USS Spruance casts doubt over US Navy maintenance",
-      "link": "https://www.defensenews.com/naval/2026/10/29/record-deployment-for-destroyer-uss-spruance-casts-doubt-over-us-navy-maintenance/",
-      "published": "Thu, 29 Oct 2026 19:15:42 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Record deployment for destroyer USS Spruance casts doubt over US Navy maintenance",
-      "link": "https://www.militarytimes.com/news/your-military/2026/10/29/record-deployment-for-destroyer-uss-spruance-casts-doubt-over-us-navy-maintenance/",
-      "published": "Thu, 29 Oct 2026 19:15:42 +0000",
-      "source": "Military Times",
       "categories": [
         "deployment"
       ]
@@ -848,15 +848,6 @@
       ]
     },
     {
-      "title": "Ukraine completes work on new missile defense system, awaits European partner components",
-      "link": "https://www.defensenews.com/global/europe/2026/10/30/ukraine-completes-work-on-new-missile-defense-system-awaits-european-partner-components/",
-      "published": "Fri, 30 Oct 2026 14:56:47 +0000",
-      "source": "Defense News",
-      "categories": [
-        "conflict"
-      ]
-    },
-    {
       "title": "Russia, North Korea Test Missiles in the Western Pacific",
       "link": "https://news.usni.org/2026/10/30/russia-north-korea-test-missiles-in-the-western-pacific",
       "published": "Fri, 30 Oct 2026 20:50:34 +0000",
@@ -866,19 +857,28 @@
       ]
     },
     {
-      "title": "Pentagon investigates series of commissary freezer failures as possible cyberattack",
-      "link": "https://taskandpurpose.com/news/military-commissary-cyberattack-pentagon-investigation/",
-      "published": "Thu, 29 Oct 2026 15:11:09 -0400",
-      "source": "Task & Purpose",
+      "title": "US approves $2.1 billion Patriot missile sale to Ukraine",
+      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/11/02/us-approves-2-1-billion-patriot-missile-sale-to-ukraine/",
+      "published": "Mon, 02 Nov 2026 16:46:27 +0000",
+      "source": "Military Times",
       "categories": [
         "conflict"
       ]
     },
     {
-      "title": "Pentagon treating military base freezer malfunctions as suspected cyberattack, officials say",
-      "link": "https://www.militarytimes.com/pentagon/2026/10/29/pentagon-treating-military-base-freezer-malfunctions-as-suspected-cyberattack-officials-say/",
-      "published": "Thu, 29 Oct 2026 16:26:53 +0000",
-      "source": "Military Times",
+      "title": "US approves $2.1 billion Patriot missile sale to Ukraine",
+      "link": "https://www.defensenews.com/global/europe/2026/11/02/us-approves-2-1-billion-patriot-missile-sale-to-ukraine/",
+      "published": "Mon, 02 Nov 2026 16:46:28 +0000",
+      "source": "Defense News",
+      "categories": [
+        "conflict"
+      ]
+    },
+    {
+      "title": "Pentagon investigates series of commissary freezer failures as possible cyberattack",
+      "link": "https://taskandpurpose.com/news/military-commissary-cyberattack-pentagon-investigation/",
+      "published": "Thu, 29 Oct 2026 15:11:09 -0400",
+      "source": "Task & Purpose",
       "categories": [
         "conflict"
       ]
@@ -906,17 +906,6 @@
       ]
     },
     {
-      "title": "Report to Congress on U.S. Military Operations Against Iran’s Missile, Nuclear Programs",
-      "link": "https://news.usni.org/2026/10/28/report-to-congress-on-u-s-military-operations-against-irans-missile-nuclear-programs-2",
-      "published": "Wed, 28 Oct 2026 13:47:47 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment",
-        "exercise",
-        "conflict"
-      ]
-    },
-    {
       "title": "U.S. Marines Deploy Neros Archer Drone in Camp Fuji Exercise",
       "link": "https://news.usni.org/2026/10/28/u-s-marines-deploy-neros-archer-drone-in-camp-fuji-exercise",
       "published": "Wed, 28 Oct 2026 17:51:21 +0000",
@@ -927,18 +916,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 13,
-    "conflict_articles": 6,
-    "exercise_articles": 4,
+    "deployment_articles": 12,
+    "conflict_articles": 5,
+    "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-11-02T08:31:53.507404+00:00",
+    "computed_at": "2026-11-02T18:53:31.914086+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
-      "[Naval News] Four Decades of Naval Expertise, A New Global Chapter for Hanwha Ocean",
       "[Task & Purpose] 2 airmen died in noncombat incidents while supporting Iran war operations",
       "[Task & Purpose] Navy corpsman with Marine Raiders ran into burning building to save French soldiers after Iranian attack",
-      "[Defense News] Ukraine completes work on new missile defense system, awaits European partner components",
-      "[Naval News] Hellenic Navy Receives Its Second FDI Frigate Built by Naval Group"
+      "[Naval News] Hellenic Navy Receives Its Second FDI Frigate Built by Naval Group",
+      "[USNI News] Russia, North Korea Test Missiles in the Western Pacific",
+      "[Naval News] Rafale M Conducts Maiden Trials onboard Indian Aircraft Carrier INS Vikrant"
     ]
   },
   "ground_intel": {
@@ -949,12 +938,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-11-02T08:31:53.507452+00:00",
+    "last_successful_update": "2026-11-02T18:53:31.914130+00:00",
     "article_count": 50,
-    "categorized_count": 18,
-    "freshest_source": "Naval News",
-    "freshest_title": "Four Decades of Naval Expertise, A New Global Chapter for Hanwha Ocean",
-    "freshest_published": "Fri, 30 Oct 2026 09:33:04 +0000"
+    "categorized_count": 17,
+    "freshest_source": "Task & Purpose",
+    "freshest_title": "2 airmen died in noncombat incidents while supporting Iran war operations",
+    "freshest_published": "Fri, 30 Oct 2026 13:50:06 -0400"
   },
   "_firms_hotspots": []
 }
