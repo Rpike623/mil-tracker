@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-11-02T18:53:39Z",
-  "version": 3141,
+  "generated_utc": "2026-11-03T01:22:07Z",
+  "version": 3142,
   "breaking_alert": "Task & Purpose: 2 airmen died in noncombat incidents while supporting Iran war operations",
   "naval_deployments": [
     {
@@ -614,15 +614,6 @@
       ]
     },
     {
-      "title": "Hellenic Navy Receives Its Second FDI Frigate Built by Naval Group",
-      "link": "https://www.navalnews.com/naval-news/2026/10/hellenic-navy-receives-its-second-fdi-frigate-built-by-naval-group/",
-      "published": "Fri, 30 Oct 2026 17:40:22 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Rafale M Conducts Maiden Trials onboard Indian Aircraft Carrier INS Vikrant",
       "link": "https://www.navalnews.com/naval-news/2026/11/rafale-m-conducts-maiden-trials-onboard-indian-aircraft-carrier-ins-vikrant/",
       "published": "Mon, 02 Nov 2026 07:54:26 +0000",
@@ -668,19 +659,28 @@
       ]
     },
     {
-      "title": "Former Fort Bragg contractor charged with leaking military secrets",
-      "link": "https://taskandpurpose.com/news/fort-bragg-contractor-arrested-leaks/",
-      "published": "Sat, 31 Oct 2026 11:43:10 -0400",
-      "source": "Task & Purpose",
+      "title": "China’s New Drone Carrier Launches, Recovers First Autonomous Combat Aircraft",
+      "link": "https://news.usni.org/2026/11/02/chinas-new-drone-carrier-launches-recovers-first-autonomous-combat-aircraft",
+      "published": "Mon, 02 Nov 2026 19:22:17 +0000",
+      "source": "USNI News",
       "categories": [
         "deployment"
       ]
     },
     {
-      "title": "Sarawat and Tuwaiq Strategic Projects Strengthen Royal Saudi Naval Forces, Localize Maritime Defense",
-      "link": "https://www.navalnews.com/naval-news/2026/11/sarawat-and-tuwaiq-strategic-projects-strengthen-royal-saudi-naval-forces-localize-maritime-defense/",
-      "published": "Sun, 01 Nov 2026 13:11:27 +0000",
-      "source": "Naval News",
+      "title": "USNI News Fleet and Marine Tracker: Nov. 2, 2026",
+      "link": "https://news.usni.org/2026/11/02/usni-news-fleet-and-marine-tracker-nov-2-2026",
+      "published": "Mon, 02 Nov 2026 21:46:18 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Former Fort Bragg contractor charged with leaking military secrets",
+      "link": "https://taskandpurpose.com/news/fort-bragg-contractor-arrested-leaks/",
+      "published": "Sat, 31 Oct 2026 11:43:10 -0400",
+      "source": "Task & Purpose",
       "categories": [
         "deployment"
       ]
@@ -875,10 +875,10 @@
       ]
     },
     {
-      "title": "Pentagon investigates series of commissary freezer failures as possible cyberattack",
-      "link": "https://taskandpurpose.com/news/military-commissary-cyberattack-pentagon-investigation/",
-      "published": "Thu, 29 Oct 2026 15:11:09 -0400",
-      "source": "Task & Purpose",
+      "title": "CNO Caudle Gets Up-Close Look at U.S. Navy’s Newest Hypersonic Missile",
+      "link": "https://www.navalnews.com/naval-news/2026/11/cno-caudle-gets-up-close-look-at-u-s-navys-newest-hypersonic-missile/",
+      "published": "Mon, 02 Nov 2026 20:20:07 +0000",
+      "source": "Naval News",
       "categories": [
         "conflict"
       ]
@@ -896,6 +896,15 @@
       ]
     },
     {
+      "title": "Special operations guardians must ‘maneuver with their SOF counterparts,’ commander says",
+      "link": "https://taskandpurpose.com/news/space-force-special-operations-command-activated/",
+      "published": "Mon, 02 Nov 2026 14:00:00 -0500",
+      "source": "Task & Purpose",
+      "categories": [
+        "exercise"
+      ]
+    },
+    {
       "title": "U.S., Partner Nations to Hold Annual Malabar Naval Exercise Near Japan",
       "link": "https://news.usni.org/2026/10/29/u-s-partner-nations-to-hold-annual-malabar-naval-exercise-near-japan",
       "published": "Thu, 29 Oct 2026 20:03:43 +0000",
@@ -904,30 +913,21 @@
         "deployment",
         "exercise"
       ]
-    },
-    {
-      "title": "U.S. Marines Deploy Neros Archer Drone in Camp Fuji Exercise",
-      "link": "https://news.usni.org/2026/10/28/u-s-marines-deploy-neros-archer-drone-in-camp-fuji-exercise",
-      "published": "Wed, 28 Oct 2026 17:51:21 +0000",
-      "source": "USNI News",
-      "categories": [
-        "exercise"
-      ]
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 12,
+    "deployment_articles": 13,
     "conflict_articles": 5,
     "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-11-02T18:53:31.914086+00:00",
+    "computed_at": "2026-11-03T01:21:55.695239+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Task & Purpose] 2 airmen died in noncombat incidents while supporting Iran war operations",
       "[Task & Purpose] Navy corpsman with Marine Raiders ran into burning building to save French soldiers after Iranian attack",
-      "[Naval News] Hellenic Navy Receives Its Second FDI Frigate Built by Naval Group",
       "[USNI News] Russia, North Korea Test Missiles in the Western Pacific",
-      "[Naval News] Rafale M Conducts Maiden Trials onboard Indian Aircraft Carrier INS Vikrant"
+      "[Naval News] Rafale M Conducts Maiden Trials onboard Indian Aircraft Carrier INS Vikrant",
+      "[Naval News] Video: Naval Group Demonstrates Armed SEAQUEST-S USV"
     ]
   },
   "ground_intel": {
@@ -938,9 +938,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-11-02T18:53:31.914130+00:00",
+    "last_successful_update": "2026-11-03T01:21:55.695276+00:00",
     "article_count": 50,
-    "categorized_count": 17,
+    "categorized_count": 18,
     "freshest_source": "Task & Purpose",
     "freshest_title": "2 airmen died in noncombat incidents while supporting Iran war operations",
     "freshest_published": "Fri, 30 Oct 2026 13:50:06 -0400"
