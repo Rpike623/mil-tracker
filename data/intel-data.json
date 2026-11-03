@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-11-03T08:42:11Z",
-  "version": 3143,
+  "generated_utc": "2026-11-03T16:39:47Z",
+  "version": 3144,
   "breaking_alert": "Task & Purpose: 2 airmen died in noncombat incidents while supporting Iran war operations",
   "naval_deployments": [
     {
@@ -614,33 +614,6 @@
       ]
     },
     {
-      "title": "Rafale M Conducts Maiden Trials onboard Indian Aircraft Carrier INS Vikrant",
-      "link": "https://www.navalnews.com/naval-news/2026/11/rafale-m-conducts-maiden-trials-onboard-indian-aircraft-carrier-ins-vikrant/",
-      "published": "Mon, 02 Nov 2026 07:54:26 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Video: Naval Group Demonstrates Armed SEAQUEST-S USV",
-      "link": "https://www.navalnews.com/event-news/euronaval-2026/2026/11/video-naval-group-demonstrates-armed-seaquest-s-usv/",
-      "published": "Mon, 02 Nov 2026 08:27:32 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Saab unveils optionally crewed CB90 CX ahead of Euronaval 2026",
-      "link": "https://www.navalnews.com/event-news/euronaval-2026/2026/11/saab-unveils-optionally-crewed-cb90-cx-ahead-of-euronaval-2026/",
-      "published": "Mon, 02 Nov 2026 08:57:08 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Tracking America’s latest conflict: The Iran war timeline",
       "link": "https://taskandpurpose.com/news/iran-war-timeline/",
       "published": "Mon, 02 Nov 2026 10:56:59 -0500",
@@ -681,6 +654,34 @@
       "link": "https://taskandpurpose.com/news/fort-bragg-contractor-arrested-leaks/",
       "published": "Sat, 31 Oct 2026 11:43:10 -0400",
       "source": "Task & Purpose",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "U.S., Partner Nations to Hold Annual Malabar Naval Exercise Near Japan",
+      "link": "https://news.usni.org/2026/10/29/u-s-partner-nations-to-hold-annual-malabar-naval-exercise-near-japan",
+      "published": "Thu, 29 Oct 2026 20:03:43 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment",
+        "exercise"
+      ]
+    },
+    {
+      "title": "Long Deployments to Be Navy Standard For Next Couple Years, MCPON, CNO Say",
+      "link": "https://news.usni.org/2026/10/29/long-deployments-to-be-navy-standard-for-next-couple-years-mcpon-cno-say",
+      "published": "Thu, 29 Oct 2026 20:41:01 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Leonardo’s AWHero and Proteus rotorcraft show strong focus on RUAS and Autonomy capabilities for naval applications",
+      "link": "https://www.navalnews.com/event-news/euronaval-2026/2026/11/leonardos-awhero-and-proteus-rotorcraft-show-strong-focus-on-ruas-and-autonomy-capabilities-for-naval-applications/",
+      "published": "Tue, 03 Nov 2026 06:30:00 +0000",
+      "source": "Naval News",
       "categories": [
         "deployment"
       ]
@@ -913,21 +914,41 @@
         "deployment",
         "exercise"
       ]
+    },
+    {
+      "title": "On ‘NATO’s lake,’ Nordic allies worry about escalation with Russia",
+      "link": "https://www.defensenews.com/global/2026/11/03/on-natos-lake-nordic-allies-worry-about-escalation-with-russia/",
+      "published": "Tue, 03 Nov 2026 14:55:34 +0000",
+      "source": "Defense News",
+      "categories": [
+        "exercise",
+        "conflict"
+      ]
+    },
+    {
+      "title": "On ‘NATO’s lake,’ Nordic allies worry about escalation with Russia",
+      "link": "https://www.militarytimes.com/news/your-military/2026/11/03/on-natos-lake-nordic-allies-worry-about-escalation-with-russia/",
+      "published": "Tue, 03 Nov 2026 14:55:34 +0000",
+      "source": "Military Times",
+      "categories": [
+        "exercise",
+        "conflict"
+      ]
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 15,
-    "conflict_articles": 5,
-    "exercise_articles": 3,
+    "deployment_articles": 17,
+    "conflict_articles": 8,
+    "exercise_articles": 6,
     "total_articles": 50,
-    "computed_at": "2026-11-03T08:42:00.853522+00:00",
-    "manual_override": "DEFCON_3",
+    "computed_at": "2026-11-03T16:39:41.404191+00:00",
+    "manual_override": "DEFCON_2",
     "breaking_events": [
       "[Task & Purpose] 2 airmen died in noncombat incidents while supporting Iran war operations",
       "[Task & Purpose] Navy corpsman with Marine Raiders ran into burning building to save French soldiers after Iranian attack",
       "[USNI News] Russia, North Korea Test Missiles in the Western Pacific",
-      "[Naval News] Rafale M Conducts Maiden Trials onboard Indian Aircraft Carrier INS Vikrant",
-      "[Naval News] Video: Naval Group Demonstrates Armed SEAQUEST-S USV"
+      "[Task & Purpose] Tracking America’s latest conflict: The Iran war timeline",
+      "[Naval News] Naval Group Unveils Seaquest M MUSV as French Navy Weighs Armed Surface Drones"
     ]
   },
   "ground_intel": {
@@ -938,9 +959,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-11-03T08:42:00.853568+00:00",
+    "last_successful_update": "2026-11-03T16:39:41.404240+00:00",
     "article_count": 50,
-    "categorized_count": 20,
+    "categorized_count": 26,
     "freshest_source": "Task & Purpose",
     "freshest_title": "2 airmen died in noncombat incidents while supporting Iran war operations",
     "freshest_published": "Fri, 30 Oct 2026 13:50:06 -0400"
