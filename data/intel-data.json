@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-11-04T17:47:51Z",
-  "version": 3148,
-  "breaking_alert": "USNI News: Russia, North Korea Test Missiles in the Western Pacific",
+  "generated_utc": "2026-11-04T22:56:16Z",
+  "version": 3149,
+  "breaking_alert": "Task & Purpose: Tracking America’s latest conflict: The Iran war timeline",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -630,24 +630,6 @@
       ]
     },
     {
-      "title": "Türkiye’s MKE Debuts PIRANA Armed USV Variant with Drone Payload",
-      "link": "https://www.navalnews.com/event-news/euronaval-2026/2026/11/turkiyes-mke-debuts-pirana-armed-usv-variant-with-drone-payload/",
-      "published": "Tue, 03 Nov 2026 13:44:24 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "French defense minister kicks off ‘pact’ with industry in rush to field naval drones",
-      "link": "https://www.defensenews.com/global/europe/2026/11/03/french-defense-minister-kicks-off-pact-with-industry-in-rush-to-field-naval-drones/",
-      "published": "Tue, 03 Nov 2026 15:14:13 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "On American destroyers, avoid a self-inflicted wound in Spain",
       "link": "https://www.defensenews.com/opinion/2026/11/03/on-american-destroyers-avoid-a-self-inflicted-wound-in-spain/",
       "published": "Tue, 03 Nov 2026 16:24:08 +0000",
@@ -657,28 +639,46 @@
       ]
     },
     {
-      "title": "On American destroyers, avoid a self-inflicted wound in Spain",
-      "link": "https://www.militarytimes.com/opinion/2026/11/03/on-american-destroyers-avoid-a-self-inflicted-wound-in-spain/",
-      "published": "Tue, 03 Nov 2026 16:24:08 +0000",
+      "title": "Defense contractors to demo cargo drones for US Marine Corps",
+      "link": "https://www.militarytimes.com/industry/techwatch/2026/11/03/defense-contractors-to-demo-cargo-drones-for-us-marine-corps/",
+      "published": "Tue, 03 Nov 2026 17:56:11 +0000",
       "source": "Military Times",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Naval Air Defence Without Platform Boundaries: ASELSAN Takes GÖKDENİZ and GÖKSUR VLS to New Platforms",
-      "link": "https://www.navalnews.com/event-news/euronaval-2026/2026/11/naval-air-defence-without-platform-boundaries-aselsan-takes-gokdeniz-and-goksur-vls-to-new-platforms/",
-      "published": "Tue, 03 Nov 2026 17:48:39 +0000",
-      "source": "Naval News",
       "categories": [
         "deployment"
       ]
     },
     {
       "title": "Defense contractors to demo cargo drones for US Marine Corps",
-      "link": "https://www.militarytimes.com/industry/techwatch/2026/11/03/defense-contractors-to-demo-cargo-drones-for-us-marine-corps/",
-      "published": "Tue, 03 Nov 2026 17:56:11 +0000",
-      "source": "Military Times",
+      "link": "https://www.defensenews.com/industry/techwatch/2026/11/03/defense-contractors-to-demo-cargo-drones-for-us-marine-corps/",
+      "published": "Tue, 03 Nov 2026 17:56:13 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Euronaval 2026: French Navy Underpins Enduring Missions with New Capabilities to Counter Emerging Threats",
+      "link": "https://www.navalnews.com/event-news/euronaval-2026/2026/11/euronaval-2026-french-navy-underpins-enduring-missions-with-new-capabilities-to-counter-emerging-threats/",
+      "published": "Wed, 04 Nov 2026 06:55:01 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Lacroix Unveils ARTISSOUM IN Submarine Decoy and Signalling System at Euronaval 2026",
+      "link": "https://www.navalnews.com/event-news/euronaval-2026/2026/11/lacroix-unveils-artissoum-in-submarine-decoy-and-signalling-system-at-euronaval-2026/",
+      "published": "Wed, 04 Nov 2026 08:52:00 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "France tasks Naval Group to develop large oceangoing underwater drone",
+      "link": "https://www.defensenews.com/global/europe/2026/11/04/france-tasks-naval-group-to-develop-large-oceangoing-underwater-drone/",
+      "published": "Wed, 04 Nov 2026 09:51:15 +0000",
+      "source": "Defense News",
       "categories": [
         "deployment"
       ]
@@ -836,25 +836,6 @@
   },
   "_conflict_news_refs": [
     {
-      "title": "Russia, North Korea Test Missiles in the Western Pacific",
-      "link": "https://news.usni.org/2026/10/30/russia-north-korea-test-missiles-in-the-western-pacific",
-      "published": "Fri, 30 Oct 2026 20:50:34 +0000",
-      "source": "USNI News",
-      "categories": [
-        "conflict"
-      ]
-    },
-    {
-      "title": "On ‘NATO’s lake,’ Nordic allies worry about escalation with Russia",
-      "link": "https://www.militarytimes.com/news/your-military/2026/11/03/on-natos-lake-nordic-allies-worry-about-escalation-with-russia/",
-      "published": "Tue, 03 Nov 2026 14:55:34 +0000",
-      "source": "Military Times",
-      "categories": [
-        "exercise",
-        "conflict"
-      ]
-    },
-    {
       "title": "US Air Force asks industry for new cruise missile for Ukraine",
       "link": "https://www.militarytimes.com/news/pentagon-congress/2026/11/03/us-air-force-asks-industry-for-new-cruise-missile-for-ukraine/",
       "published": "Tue, 03 Nov 2026 20:14:24 +0000",
@@ -876,6 +857,24 @@
       "title": "MBDA’s high-speed strike missile to have range ‘far’ exceeding Exocet",
       "link": "https://www.defensenews.com/global/europe/2026/11/04/mbda-high-speed-strike-missile-to-have-range-far-exceeding-exocet/",
       "published": "Wed, 04 Nov 2026 06:30:53 +0000",
+      "source": "Defense News",
+      "categories": [
+        "conflict"
+      ]
+    },
+    {
+      "title": "Under threat of air strikes, US looks to bolster base infrastructure with 3D printing",
+      "link": "https://www.militarytimes.com/news/your-military/2026/11/04/under-threat-of-air-strikes-us-looks-to-bolster-base-infrastructure-with-3d-printing/",
+      "published": "Wed, 04 Nov 2026 20:16:46 +0000",
+      "source": "Military Times",
+      "categories": [
+        "conflict"
+      ]
+    },
+    {
+      "title": "Under threat of air strikes, US looks to bolster base infrastructure with 3D printing",
+      "link": "https://www.defensenews.com/global/mideast-africa/2026/11/04/under-threat-of-air-strikes-us-looks-to-bolster-base-infrastructure-with-3d-printing/",
+      "published": "Wed, 04 Nov 2026 20:16:52 +0000",
       "source": "Defense News",
       "categories": [
         "conflict"
@@ -902,25 +901,6 @@
       ]
     },
     {
-      "title": "On ‘NATO’s lake,’ Nordic allies worry about escalation with Russia",
-      "link": "https://www.militarytimes.com/news/your-military/2026/11/03/on-natos-lake-nordic-allies-worry-about-escalation-with-russia/",
-      "published": "Tue, 03 Nov 2026 14:55:34 +0000",
-      "source": "Military Times",
-      "categories": [
-        "exercise",
-        "conflict"
-      ]
-    },
-    {
-      "title": "Space Force officially activates Special Operations Command component",
-      "link": "https://www.militarytimes.com/news/your-military/2026/11/03/space-force-officially-activates-special-operations-command-component/",
-      "published": "Tue, 03 Nov 2026 16:21:18 +0000",
-      "source": "Military Times",
-      "categories": [
-        "exercise"
-      ]
-    },
-    {
       "title": "U.K. Forces Track Russian Warships in 3 Operations Spanning 2 Weeks",
       "link": "https://news.usni.org/2026/11/03/u-k-forces-track-russian-warships-in-3-operations-spanning-2-weeks",
       "published": "Tue, 03 Nov 2026 17:46:33 +0000",
@@ -928,21 +908,31 @@
       "categories": [
         "exercise"
       ]
+    },
+    {
+      "title": "Babcock launches transformative digital platform to connect shipbuilding, fleet operations and support",
+      "link": "https://www.navalnews.com/event-news/euronaval-2026/2026/11/babcock-launches-transformative-digital-platform-to-connect-shipbuilding-fleet-operations-and-support/",
+      "published": "Wed, 04 Nov 2026 15:58:05 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment",
+        "exercise"
+      ]
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 21,
+    "deployment_articles": 20,
     "conflict_articles": 5,
-    "exercise_articles": 6,
+    "exercise_articles": 4,
     "total_articles": 50,
-    "computed_at": "2026-11-04T17:47:39.723058+00:00",
+    "computed_at": "2026-11-04T22:56:13.685220+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
-      "[USNI News] Russia, North Korea Test Missiles in the Western Pacific",
       "[Task & Purpose] Tracking America’s latest conflict: The Iran war timeline",
       "[Task & Purpose] Special operations guardians must ‘maneuver with their SOF counterparts,’ commander says",
       "[USNI News] China’s New Drone Carrier Launches, Recovers First Autonomous Combat Aircraft",
-      "[USNI News] USNI News Fleet and Marine Tracker: Nov. 2, 2026"
+      "[USNI News] USNI News Fleet and Marine Tracker: Nov. 2, 2026",
+      "[Task & Purpose] Former Fort Bragg contractor charged with leaking military secrets"
     ]
   },
   "ground_intel": {
@@ -953,12 +943,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-11-04T17:47:39.723104+00:00",
+    "last_successful_update": "2026-11-04T22:56:13.685266+00:00",
     "article_count": 50,
-    "categorized_count": 30,
-    "freshest_source": "USNI News",
-    "freshest_title": "Russia, North Korea Test Missiles in the Western Pacific",
-    "freshest_published": "Fri, 30 Oct 2026 20:50:34 +0000"
+    "categorized_count": 28,
+    "freshest_source": "Task & Purpose",
+    "freshest_title": "Tracking America’s latest conflict: The Iran war timeline",
+    "freshest_published": "Mon, 02 Nov 2026 10:56:59 -0500"
   },
   "_firms_hotspots": []
 }
