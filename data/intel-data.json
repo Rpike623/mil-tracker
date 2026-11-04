@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-11-04T02:46:16Z",
-  "version": 3146,
+  "generated_utc": "2026-11-04T10:00:31Z",
+  "version": 3147,
   "breaking_alert": "Task & Purpose: Navy corpsman with Marine Raiders ran into burning building to save French soldiers after Iranian attack",
   "naval_deployments": [
     {
@@ -640,15 +640,6 @@
       ]
     },
     {
-      "title": "Leonardo’s AWHero and Proteus rotorcraft show strong focus on RUAS and Autonomy capabilities for naval applications",
-      "link": "https://www.navalnews.com/event-news/euronaval-2026/2026/11/leonardos-awhero-and-proteus-rotorcraft-show-strong-focus-on-ruas-and-autonomy-capabilities-for-naval-applications/",
-      "published": "Tue, 03 Nov 2026 06:30:00 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "From Naval to Underwater Capabilities",
       "link": "https://www.navalnews.com/naval-news/2026/11/from-naval-to-underwater-capabilities/",
       "published": "Tue, 03 Nov 2026 08:00:00 +0000",
@@ -680,6 +671,15 @@
       "link": "https://www.navalnews.com/event-news/euronaval-2026/2026/11/turkiyes-mke-debuts-pirana-armed-usv-variant-with-drone-payload/",
       "published": "Tue, 03 Nov 2026 13:44:24 +0000",
       "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "French defense minister kicks off ‘pact’ with industry in rush to field naval drones",
+      "link": "https://www.defensenews.com/global/europe/2026/11/03/french-defense-minister-kicks-off-pact-with-industry-in-rush-to-field-naval-drones/",
+      "published": "Tue, 03 Nov 2026 15:14:13 +0000",
+      "source": "Defense News",
       "categories": [
         "deployment"
       ]
@@ -856,15 +856,6 @@
       ]
     },
     {
-      "title": "US approves $2.1 billion Patriot missile sale to Ukraine",
-      "link": "https://www.defensenews.com/global/europe/2026/11/02/us-approves-2-1-billion-patriot-missile-sale-to-ukraine/",
-      "published": "Mon, 02 Nov 2026 16:46:28 +0000",
-      "source": "Defense News",
-      "categories": [
-        "conflict"
-      ]
-    },
-    {
       "title": "Raytheon continues ESSM Block 2 production ramp-up as programme marks 1,000th missile delivery",
       "link": "https://www.navalnews.com/event-news/euronaval-2026/2026/11/raytheon-continues-essm-block-2-production-ramp-up-as-programme-marks-1000th-missile-delivery/",
       "published": "Tue, 03 Nov 2026 12:57:57 +0000",
@@ -878,6 +869,16 @@
       "link": "https://www.defensenews.com/global/2026/11/03/on-natos-lake-nordic-allies-worry-about-escalation-with-russia/",
       "published": "Tue, 03 Nov 2026 14:55:34 +0000",
       "source": "Defense News",
+      "categories": [
+        "exercise",
+        "conflict"
+      ]
+    },
+    {
+      "title": "On ‘NATO’s lake,’ Nordic allies worry about escalation with Russia",
+      "link": "https://www.militarytimes.com/news/your-military/2026/11/03/on-natos-lake-nordic-allies-worry-about-escalation-with-russia/",
+      "published": "Tue, 03 Nov 2026 14:55:34 +0000",
+      "source": "Military Times",
       "categories": [
         "exercise",
         "conflict"
@@ -934,18 +935,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 17,
+    "deployment_articles": 19,
     "conflict_articles": 8,
     "exercise_articles": 6,
     "total_articles": 50,
-    "computed_at": "2026-11-04T02:46:11.791736+00:00",
+    "computed_at": "2026-11-04T10:00:27.492423+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[Task & Purpose] Navy corpsman with Marine Raiders ran into burning building to save French soldiers after Iranian attack",
       "[USNI News] Russia, North Korea Test Missiles in the Western Pacific",
       "[Task & Purpose] Tracking America’s latest conflict: The Iran war timeline",
       "[Task & Purpose] Special operations guardians must ‘maneuver with their SOF counterparts,’ commander says",
-      "[Defense News] US approves $2.1 billion Patriot missile sale to Ukraine"
+      "[USNI News] China’s New Drone Carrier Launches, Recovers First Autonomous Combat Aircraft"
     ]
   },
   "ground_intel": {
@@ -956,9 +957,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-11-04T02:46:11.791771+00:00",
+    "last_successful_update": "2026-11-04T10:00:27.492457+00:00",
     "article_count": 50,
-    "categorized_count": 28,
+    "categorized_count": 30,
     "freshest_source": "Task & Purpose",
     "freshest_title": "Navy corpsman with Marine Raiders ran into burning building to save French soldiers after Iranian attack",
     "freshest_published": "Fri, 30 Oct 2026 14:51:00 -0400"
