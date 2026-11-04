@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-11-04T10:00:31Z",
-  "version": 3147,
-  "breaking_alert": "Task & Purpose: Navy corpsman with Marine Raiders ran into burning building to save French soldiers after Iranian attack",
+  "generated_utc": "2026-11-04T17:47:51Z",
+  "version": 3148,
+  "breaking_alert": "USNI News: Russia, North Korea Test Missiles in the Western Pacific",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -594,16 +594,6 @@
   ],
   "_naval_news_refs": [
     {
-      "title": "Navy corpsman with Marine Raiders ran into burning building to save French soldiers after Iranian attack",
-      "link": "https://taskandpurpose.com/news/navy-corpsman-battlefield-award/",
-      "published": "Fri, 30 Oct 2026 14:51:00 -0400",
-      "source": "Task & Purpose",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
       "title": "Tracking America’s latest conflict: The Iran war timeline",
       "link": "https://taskandpurpose.com/news/iran-war-timeline/",
       "published": "Mon, 02 Nov 2026 10:56:59 -0500",
@@ -640,33 +630,6 @@
       ]
     },
     {
-      "title": "From Naval to Underwater Capabilities",
-      "link": "https://www.navalnews.com/naval-news/2026/11/from-naval-to-underwater-capabilities/",
-      "published": "Tue, 03 Nov 2026 08:00:00 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Australia preps Bluebottle USV for submarine-hunting role",
-      "link": "https://www.defensenews.com/global/asia-pacific/2026/11/03/australia-preps-bluebottle-usv-for-submarine-hunting-role/",
-      "published": "Tue, 03 Nov 2026 12:19:38 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "India orders next-gen corvettes for $5.7b under broad naval modernization push",
-      "link": "https://www.defensenews.com/global/asia-pacific/2026/11/03/india-orders-next-gen-corvettes-for-5-7b-under-broad-naval-modernization-push/",
-      "published": "Tue, 03 Nov 2026 12:56:27 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Türkiye’s MKE Debuts PIRANA Armed USV Variant with Drone Payload",
       "link": "https://www.navalnews.com/event-news/euronaval-2026/2026/11/turkiyes-mke-debuts-pirana-armed-usv-variant-with-drone-payload/",
       "published": "Tue, 03 Nov 2026 13:44:24 +0000",
@@ -680,6 +643,42 @@
       "link": "https://www.defensenews.com/global/europe/2026/11/03/french-defense-minister-kicks-off-pact-with-industry-in-rush-to-field-naval-drones/",
       "published": "Tue, 03 Nov 2026 15:14:13 +0000",
       "source": "Defense News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "On American destroyers, avoid a self-inflicted wound in Spain",
+      "link": "https://www.defensenews.com/opinion/2026/11/03/on-american-destroyers-avoid-a-self-inflicted-wound-in-spain/",
+      "published": "Tue, 03 Nov 2026 16:24:08 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "On American destroyers, avoid a self-inflicted wound in Spain",
+      "link": "https://www.militarytimes.com/opinion/2026/11/03/on-american-destroyers-avoid-a-self-inflicted-wound-in-spain/",
+      "published": "Tue, 03 Nov 2026 16:24:08 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Naval Air Defence Without Platform Boundaries: ASELSAN Takes GÖKDENİZ and GÖKSUR VLS to New Platforms",
+      "link": "https://www.navalnews.com/event-news/euronaval-2026/2026/11/naval-air-defence-without-platform-boundaries-aselsan-takes-gokdeniz-and-goksur-vls-to-new-platforms/",
+      "published": "Tue, 03 Nov 2026 17:48:39 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Defense contractors to demo cargo drones for US Marine Corps",
+      "link": "https://www.militarytimes.com/industry/techwatch/2026/11/03/defense-contractors-to-demo-cargo-drones-for-us-marine-corps/",
+      "published": "Tue, 03 Nov 2026 17:56:11 +0000",
+      "source": "Military Times",
       "categories": [
         "deployment"
       ]
@@ -837,40 +836,11 @@
   },
   "_conflict_news_refs": [
     {
-      "title": "Navy corpsman with Marine Raiders ran into burning building to save French soldiers after Iranian attack",
-      "link": "https://taskandpurpose.com/news/navy-corpsman-battlefield-award/",
-      "published": "Fri, 30 Oct 2026 14:51:00 -0400",
-      "source": "Task & Purpose",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
       "title": "Russia, North Korea Test Missiles in the Western Pacific",
       "link": "https://news.usni.org/2026/10/30/russia-north-korea-test-missiles-in-the-western-pacific",
       "published": "Fri, 30 Oct 2026 20:50:34 +0000",
       "source": "USNI News",
       "categories": [
-        "conflict"
-      ]
-    },
-    {
-      "title": "Raytheon continues ESSM Block 2 production ramp-up as programme marks 1,000th missile delivery",
-      "link": "https://www.navalnews.com/event-news/euronaval-2026/2026/11/raytheon-continues-essm-block-2-production-ramp-up-as-programme-marks-1000th-missile-delivery/",
-      "published": "Tue, 03 Nov 2026 12:57:57 +0000",
-      "source": "Naval News",
-      "categories": [
-        "conflict"
-      ]
-    },
-    {
-      "title": "On ‘NATO’s lake,’ Nordic allies worry about escalation with Russia",
-      "link": "https://www.defensenews.com/global/2026/11/03/on-natos-lake-nordic-allies-worry-about-escalation-with-russia/",
-      "published": "Tue, 03 Nov 2026 14:55:34 +0000",
-      "source": "Defense News",
-      "categories": [
-        "exercise",
         "conflict"
       ]
     },
@@ -881,6 +851,33 @@
       "source": "Military Times",
       "categories": [
         "exercise",
+        "conflict"
+      ]
+    },
+    {
+      "title": "US Air Force asks industry for new cruise missile for Ukraine",
+      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/11/03/us-air-force-asks-industry-for-new-cruise-missile-for-ukraine/",
+      "published": "Tue, 03 Nov 2026 20:14:24 +0000",
+      "source": "Military Times",
+      "categories": [
+        "conflict"
+      ]
+    },
+    {
+      "title": "US Air Force asks industry for new cruise missile for Ukraine",
+      "link": "https://www.defensenews.com/industry/2026/11/03/us-air-force-asks-industry-for-new-cruise-missile-for-ukraine/",
+      "published": "Tue, 03 Nov 2026 20:14:25 +0000",
+      "source": "Defense News",
+      "categories": [
+        "conflict"
+      ]
+    },
+    {
+      "title": "MBDA’s high-speed strike missile to have range ‘far’ exceeding Exocet",
+      "link": "https://www.defensenews.com/global/europe/2026/11/04/mbda-high-speed-strike-missile-to-have-range-far-exceeding-exocet/",
+      "published": "Wed, 04 Nov 2026 06:30:53 +0000",
+      "source": "Defense News",
+      "categories": [
         "conflict"
       ]
     }
@@ -906,16 +903,6 @@
     },
     {
       "title": "On ‘NATO’s lake,’ Nordic allies worry about escalation with Russia",
-      "link": "https://www.defensenews.com/global/2026/11/03/on-natos-lake-nordic-allies-worry-about-escalation-with-russia/",
-      "published": "Tue, 03 Nov 2026 14:55:34 +0000",
-      "source": "Defense News",
-      "categories": [
-        "exercise",
-        "conflict"
-      ]
-    },
-    {
-      "title": "On ‘NATO’s lake,’ Nordic allies worry about escalation with Russia",
       "link": "https://www.militarytimes.com/news/your-military/2026/11/03/on-natos-lake-nordic-allies-worry-about-escalation-with-russia/",
       "published": "Tue, 03 Nov 2026 14:55:34 +0000",
       "source": "Military Times",
@@ -932,21 +919,30 @@
       "categories": [
         "exercise"
       ]
+    },
+    {
+      "title": "U.K. Forces Track Russian Warships in 3 Operations Spanning 2 Weeks",
+      "link": "https://news.usni.org/2026/11/03/u-k-forces-track-russian-warships-in-3-operations-spanning-2-weeks",
+      "published": "Tue, 03 Nov 2026 17:46:33 +0000",
+      "source": "USNI News",
+      "categories": [
+        "exercise"
+      ]
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 19,
-    "conflict_articles": 8,
+    "deployment_articles": 21,
+    "conflict_articles": 5,
     "exercise_articles": 6,
     "total_articles": 50,
-    "computed_at": "2026-11-04T10:00:27.492423+00:00",
-    "manual_override": "DEFCON_2",
+    "computed_at": "2026-11-04T17:47:39.723058+00:00",
+    "manual_override": "DEFCON_3",
     "breaking_events": [
-      "[Task & Purpose] Navy corpsman with Marine Raiders ran into burning building to save French soldiers after Iranian attack",
       "[USNI News] Russia, North Korea Test Missiles in the Western Pacific",
       "[Task & Purpose] Tracking America’s latest conflict: The Iran war timeline",
       "[Task & Purpose] Special operations guardians must ‘maneuver with their SOF counterparts,’ commander says",
-      "[USNI News] China’s New Drone Carrier Launches, Recovers First Autonomous Combat Aircraft"
+      "[USNI News] China’s New Drone Carrier Launches, Recovers First Autonomous Combat Aircraft",
+      "[USNI News] USNI News Fleet and Marine Tracker: Nov. 2, 2026"
     ]
   },
   "ground_intel": {
@@ -957,12 +953,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-11-04T10:00:27.492457+00:00",
+    "last_successful_update": "2026-11-04T17:47:39.723104+00:00",
     "article_count": 50,
     "categorized_count": 30,
-    "freshest_source": "Task & Purpose",
-    "freshest_title": "Navy corpsman with Marine Raiders ran into burning building to save French soldiers after Iranian attack",
-    "freshest_published": "Fri, 30 Oct 2026 14:51:00 -0400"
+    "freshest_source": "USNI News",
+    "freshest_title": "Russia, North Korea Test Missiles in the Western Pacific",
+    "freshest_published": "Fri, 30 Oct 2026 20:50:34 +0000"
   },
   "_firms_hotspots": []
 }
