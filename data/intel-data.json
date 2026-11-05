@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-11-04T22:56:16Z",
-  "version": 3149,
+  "generated_utc": "2026-11-05T02:57:25Z",
+  "version": 3150,
   "breaking_alert": "Task & Purpose: Tracking America’s latest conflict: The Iran war timeline",
   "naval_deployments": [
     {
@@ -630,15 +630,6 @@
       ]
     },
     {
-      "title": "On American destroyers, avoid a self-inflicted wound in Spain",
-      "link": "https://www.defensenews.com/opinion/2026/11/03/on-american-destroyers-avoid-a-self-inflicted-wound-in-spain/",
-      "published": "Tue, 03 Nov 2026 16:24:08 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Defense contractors to demo cargo drones for US Marine Corps",
       "link": "https://www.militarytimes.com/industry/techwatch/2026/11/03/defense-contractors-to-demo-cargo-drones-for-us-marine-corps/",
       "published": "Tue, 03 Nov 2026 17:56:11 +0000",
@@ -678,6 +669,15 @@
       "title": "France tasks Naval Group to develop large oceangoing underwater drone",
       "link": "https://www.defensenews.com/global/europe/2026/11/04/france-tasks-naval-group-to-develop-large-oceangoing-underwater-drone/",
       "published": "Wed, 04 Nov 2026 09:51:15 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Babcock launches digital platform to link warship construction and fleet support",
+      "link": "https://www.defensenews.com/global/europe/2026/11/04/babcock-launches-digital-platform-to-link-warship-construction-and-fleet-support/",
+      "published": "Wed, 04 Nov 2026 10:26:16 +0000",
       "source": "Defense News",
       "categories": [
         "deployment"
@@ -921,11 +921,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 20,
+    "deployment_articles": 21,
     "conflict_articles": 5,
     "exercise_articles": 4,
     "total_articles": 50,
-    "computed_at": "2026-11-04T22:56:13.685220+00:00",
+    "computed_at": "2026-11-05T02:57:20.106960+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Task & Purpose] Tracking America’s latest conflict: The Iran war timeline",
@@ -943,9 +943,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-11-04T22:56:13.685266+00:00",
+    "last_successful_update": "2026-11-05T02:57:20.106996+00:00",
     "article_count": 50,
-    "categorized_count": 28,
+    "categorized_count": 29,
     "freshest_source": "Task & Purpose",
     "freshest_title": "Tracking America’s latest conflict: The Iran war timeline",
     "freshest_published": "Mon, 02 Nov 2026 10:56:59 -0500"
