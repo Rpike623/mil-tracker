@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-11-05T18:21:13Z",
-  "version": 3152,
+  "generated_utc": "2026-11-05T23:52:02Z",
+  "version": 3153,
   "breaking_alert": "Task & Purpose: Tracking America’s latest conflict: The Iran war timeline",
   "naval_deployments": [
     {
@@ -603,15 +603,6 @@
       ]
     },
     {
-      "title": "USNI News Fleet and Marine Tracker: Nov. 2, 2026",
-      "link": "https://news.usni.org/2026/11/02/usni-news-fleet-and-marine-tracker-nov-2-2026",
-      "published": "Mon, 02 Nov 2026 21:46:18 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Fincantieri and Leonardo sign an agreement to further strengthen the role of Orizzonte Sistemi Navali",
       "link": "https://www.navalnews.com/event-news/euronaval-2026/2026/11/fincantieri-and-leonardo-sign-an-agreement-to-further-strengthen-the-role-of-orizzonte-sistemi-navali/",
       "published": "Thu, 05 Nov 2026 11:06:41 +0000",
@@ -676,10 +667,19 @@
       ]
     },
     {
-      "title": "France tasks Naval Group to develop large oceangoing underwater drone",
-      "link": "https://www.defensenews.com/global/europe/2026/11/04/france-tasks-naval-group-to-develop-large-oceangoing-underwater-drone/",
-      "published": "Wed, 04 Nov 2026 09:51:15 +0000",
-      "source": "Defense News",
+      "title": "Naval Group Unveils a Larger, More Powerful FDI Frigate",
+      "link": "https://www.navalnews.com/event-news/euronaval-2026/2026/11/naval-group-unveils-a-larger-more-powerful-fdi-frigate/",
+      "published": "Thu, 05 Nov 2026 22:20:21 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Royal Navy Carriers Operate in the High North, Mediterranean",
+      "link": "https://news.usni.org/2026/11/04/royal-navy-carriers-operate-in-the-high-north-mediterranean",
+      "published": "Wed, 04 Nov 2026 16:45:40 +0000",
+      "source": "USNI News",
       "categories": [
         "deployment"
       ]
@@ -846,10 +846,19 @@
       ]
     },
     {
-      "title": "MBDA’s high-speed strike missile to have range ‘far’ exceeding Exocet",
-      "link": "https://www.defensenews.com/global/europe/2026/11/04/mbda-high-speed-strike-missile-to-have-range-far-exceeding-exocet/",
-      "published": "Wed, 04 Nov 2026 06:30:53 +0000",
+      "title": "Vector introduces ready-to-go one-way attack drone",
+      "link": "https://www.defensenews.com/industry/techwatch/2026/11/05/vector-introduces-ready-to-go-one-way-attack-drone/",
+      "published": "Thu, 05 Nov 2026 20:28:53 +0000",
       "source": "Defense News",
+      "categories": [
+        "conflict"
+      ]
+    },
+    {
+      "title": "Vector introduces ready-to-go one-way attack drone",
+      "link": "https://www.militarytimes.com/news/your-military/2026/11/05/vector-introduces-ready-to-go-one-way-attack-drone/",
+      "published": "Thu, 05 Nov 2026 20:28:53 +0000",
+      "source": "Military Times",
       "categories": [
         "conflict"
       ]
@@ -922,18 +931,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 20,
-    "conflict_articles": 4,
+    "deployment_articles": 14,
+    "conflict_articles": 5,
     "exercise_articles": 5,
     "total_articles": 50,
-    "computed_at": "2026-11-05T18:21:07.685227+00:00",
+    "computed_at": "2026-11-05T23:51:56.949917+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Task & Purpose] Tracking America’s latest conflict: The Iran war timeline",
       "[Task & Purpose] Special operations guardians must ‘maneuver with their SOF counterparts,’ commander says",
-      "[USNI News] USNI News Fleet and Marine Tracker: Nov. 2, 2026",
       "[Naval News] General Atomics Concept Eyes Vektrex in Air-Launched Missile",
-      "[Naval News] Fincantieri and Leonardo sign an agreement to further strengthen the role of Orizzonte Sistemi Navali"
+      "[Naval News] Fincantieri and Leonardo sign an agreement to further strengthen the role of Orizzonte Sistemi Navali",
+      "[Naval News] ELT Group and Thales announce the establishment of a Joint Venture in naval Electronic Warfare for the export market"
     ]
   },
   "ground_intel": {
@@ -944,9 +953,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-11-05T18:21:07.685303+00:00",
+    "last_successful_update": "2026-11-05T23:51:56.949952+00:00",
     "article_count": 50,
-    "categorized_count": 28,
+    "categorized_count": 23,
     "freshest_source": "Task & Purpose",
     "freshest_title": "Tracking America’s latest conflict: The Iran war timeline",
     "freshest_published": "Mon, 02 Nov 2026 10:56:59 -0500"
