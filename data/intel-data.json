@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-11-05T02:57:25Z",
-  "version": 3150,
+  "generated_utc": "2026-11-05T10:08:10Z",
+  "version": 3151,
   "breaking_alert": "Task & Purpose: Tracking America’s latest conflict: The Iran war timeline",
   "naval_deployments": [
     {
@@ -639,33 +639,6 @@
       ]
     },
     {
-      "title": "Defense contractors to demo cargo drones for US Marine Corps",
-      "link": "https://www.defensenews.com/industry/techwatch/2026/11/03/defense-contractors-to-demo-cargo-drones-for-us-marine-corps/",
-      "published": "Tue, 03 Nov 2026 17:56:13 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Euronaval 2026: French Navy Underpins Enduring Missions with New Capabilities to Counter Emerging Threats",
-      "link": "https://www.navalnews.com/event-news/euronaval-2026/2026/11/euronaval-2026-french-navy-underpins-enduring-missions-with-new-capabilities-to-counter-emerging-threats/",
-      "published": "Wed, 04 Nov 2026 06:55:01 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Lacroix Unveils ARTISSOUM IN Submarine Decoy and Signalling System at Euronaval 2026",
-      "link": "https://www.navalnews.com/event-news/euronaval-2026/2026/11/lacroix-unveils-artissoum-in-submarine-decoy-and-signalling-system-at-euronaval-2026/",
-      "published": "Wed, 04 Nov 2026 08:52:00 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "France tasks Naval Group to develop large oceangoing underwater drone",
       "link": "https://www.defensenews.com/global/europe/2026/11/04/france-tasks-naval-group-to-develop-large-oceangoing-underwater-drone/",
       "published": "Wed, 04 Nov 2026 09:51:15 +0000",
@@ -679,6 +652,34 @@
       "link": "https://www.defensenews.com/global/europe/2026/11/04/babcock-launches-digital-platform-to-link-warship-construction-and-fleet-support/",
       "published": "Wed, 04 Nov 2026 10:26:16 +0000",
       "source": "Defense News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Babcock launches transformative digital platform to connect shipbuilding, fleet operations and support",
+      "link": "https://www.navalnews.com/event-news/euronaval-2026/2026/11/babcock-launches-transformative-digital-platform-to-connect-shipbuilding-fleet-operations-and-support/",
+      "published": "Wed, 04 Nov 2026 15:58:05 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment",
+        "exercise"
+      ]
+    },
+    {
+      "title": "Royal Navy Carriers Operate in the High North, Mediterranean",
+      "link": "https://news.usni.org/2026/11/04/royal-navy-carriers-operate-in-the-high-north-mediterranean",
+      "published": "Wed, 04 Nov 2026 16:45:40 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Navy Taps Career Submariner to Lead PAE Maritime",
+      "link": "https://news.usni.org/2026/11/04/navy-taps-career-submariner-to-lead-pae-maritime",
+      "published": "Wed, 04 Nov 2026 17:10:53 +0000",
+      "source": "USNI News",
       "categories": [
         "deployment"
       ]
@@ -836,6 +837,15 @@
   },
   "_conflict_news_refs": [
     {
+      "title": "General Atomics Concept Eyes Vektrex in Air-Launched Missile",
+      "link": "https://www.navalnews.com/event-news/euronaval-2026/2026/11/general-atomics-concept-eyes-vektrex-in-air-launched-missile/",
+      "published": "Thu, 05 Nov 2026 08:14:07 +0000",
+      "source": "Naval News",
+      "categories": [
+        "conflict"
+      ]
+    },
+    {
       "title": "US Air Force asks industry for new cruise missile for Ukraine",
       "link": "https://www.militarytimes.com/news/pentagon-congress/2026/11/03/us-air-force-asks-industry-for-new-cruise-missile-for-ukraine/",
       "published": "Tue, 03 Nov 2026 20:14:24 +0000",
@@ -867,15 +877,6 @@
       "link": "https://www.militarytimes.com/news/your-military/2026/11/04/under-threat-of-air-strikes-us-looks-to-bolster-base-infrastructure-with-3d-printing/",
       "published": "Wed, 04 Nov 2026 20:16:46 +0000",
       "source": "Military Times",
-      "categories": [
-        "conflict"
-      ]
-    },
-    {
-      "title": "Under threat of air strikes, US looks to bolster base infrastructure with 3D printing",
-      "link": "https://www.defensenews.com/global/mideast-africa/2026/11/04/under-threat-of-air-strikes-us-looks-to-bolster-base-infrastructure-with-3d-printing/",
-      "published": "Wed, 04 Nov 2026 20:16:52 +0000",
-      "source": "Defense News",
       "categories": [
         "conflict"
       ]
@@ -921,11 +922,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 21,
-    "conflict_articles": 5,
+    "deployment_articles": 18,
+    "conflict_articles": 6,
     "exercise_articles": 4,
     "total_articles": 50,
-    "computed_at": "2026-11-05T02:57:20.106960+00:00",
+    "computed_at": "2026-11-05T10:08:09.054240+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Task & Purpose] Tracking America’s latest conflict: The Iran war timeline",
@@ -943,9 +944,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-11-05T02:57:20.106996+00:00",
+    "last_successful_update": "2026-11-05T10:08:09.054287+00:00",
     "article_count": 50,
-    "categorized_count": 29,
+    "categorized_count": 27,
     "freshest_source": "Task & Purpose",
     "freshest_title": "Tracking America’s latest conflict: The Iran war timeline",
     "freshest_published": "Mon, 02 Nov 2026 10:56:59 -0500"
