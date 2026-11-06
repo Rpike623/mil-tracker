@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-11-06T18:34:33Z",
-  "version": 3156,
-  "breaking_alert": "Military Times: ‘Inside CENTCOM’ podcast launches amid Iran conflict",
+  "generated_utc": "2026-11-06T23:33:49Z",
+  "version": 3157,
+  "breaking_alert": "Naval News: Fincantieri and J.A. Solutions Sign LoI to Advance Modularity for Next-Generation Naval Vessels",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -594,15 +594,6 @@
   ],
   "_naval_news_refs": [
     {
-      "title": "‘Inside CENTCOM’ podcast launches amid Iran conflict",
-      "link": "https://www.militarytimes.com/opinion/commentary/2026/11/05/inside-centcom-podcast-launches-amid-iran-conflict/",
-      "published": "Fri, 06 Nov 2026 00:47:21 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Fincantieri and J.A. Solutions Sign LoI to Advance Modularity for Next-Generation Naval Vessels",
       "link": "https://www.navalnews.com/event-news/euronaval-2026/2026/11/fincantieri-and-j-a-solutions-sign-loi-to-advance-modularity-for-next-generation-naval-vessels/",
       "published": "Fri, 06 Nov 2026 09:18:28 +0000",
@@ -641,10 +632,10 @@
       ]
     },
     {
-      "title": "Tracking America’s latest conflict: The Iran war timeline",
-      "link": "https://taskandpurpose.com/news/iran-war-timeline/",
-      "published": "Mon, 02 Nov 2026 10:56:59 -0500",
-      "source": "Task & Purpose",
+      "title": "The Future of French Fleet Close-in Defense",
+      "link": "https://news.usni.org/2026/11/06/the-future-of-french-fleet-close-in-defense",
+      "published": "Fri, 06 Nov 2026 21:54:51 +0000",
+      "source": "USNI News",
       "categories": [
         "deployment"
       ]
@@ -682,6 +673,15 @@
       "link": "https://www.navalnews.com/event-news/euronaval-2026/2026/11/naval-group-unveils-a-larger-more-powerful-fdi-frigate/",
       "published": "Thu, 05 Nov 2026 22:20:21 +0000",
       "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Report to Congress on the Federal Fleet of Oceanographic Research Vessels",
+      "link": "https://news.usni.org/2026/11/04/report-to-congress-on-the-federal-fleet-of-oceanographic-research-vessels",
+      "published": "Wed, 04 Nov 2026 21:15:13 +0000",
+      "source": "USNI News",
       "categories": [
         "deployment"
       ]
@@ -857,27 +857,27 @@
         "deployment",
         "conflict"
       ]
-    },
-    {
-      "title": "Vector introduces ready-to-go one-way attack drone",
-      "link": "https://www.defensenews.com/industry/techwatch/2026/11/05/vector-introduces-ready-to-go-one-way-attack-drone/",
-      "published": "Thu, 05 Nov 2026 20:28:53 +0000",
-      "source": "Defense News",
-      "categories": [
-        "conflict"
-      ]
-    },
-    {
-      "title": "Vector introduces ready-to-go one-way attack drone",
-      "link": "https://www.militarytimes.com/news/your-military/2026/11/05/vector-introduces-ready-to-go-one-way-attack-drone/",
-      "published": "Thu, 05 Nov 2026 20:28:53 +0000",
-      "source": "Military Times",
-      "categories": [
-        "conflict"
-      ]
     }
   ],
   "_exercise_news_refs": [
+    {
+      "title": "US, Colombian troops kick off exercise amid the Pentagon’s Western Hemisphere pivot",
+      "link": "https://www.defensenews.com/global/the-americas/2026/11/06/us-colombian-troops-kick-off-exercise-amid-the-pentagons-western-hemisphere-pivot/",
+      "published": "Fri, 06 Nov 2026 19:27:32 +0000",
+      "source": "Defense News",
+      "categories": [
+        "exercise"
+      ]
+    },
+    {
+      "title": "US, Colombian troops kick off exercise amid the Pentagon’s Western Hemisphere pivot",
+      "link": "https://www.militarytimes.com/news/your-military/2026/11/06/us-colombian-troops-kick-off-exercise-amid-the-pentagons-western-hemisphere-pivot/",
+      "published": "Fri, 06 Nov 2026 19:27:32 +0000",
+      "source": "Military Times",
+      "categories": [
+        "exercise"
+      ]
+    },
     {
       "title": "Special operations guardians must ‘maneuver with their SOF counterparts,’ commander says",
       "link": "https://taskandpurpose.com/news/space-force-special-operations-command-activated/",
@@ -905,30 +905,21 @@
         "deployment",
         "exercise"
       ]
-    },
-    {
-      "title": "Drones built to look like birds evaded detection at Air Force tech exercise",
-      "link": "https://taskandpurpose.com/news/drone-mimicking-bird-test/",
-      "published": "Tue, 03 Nov 2026 13:32:25 -0500",
-      "source": "Task & Purpose",
-      "categories": [
-        "exercise"
-      ]
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 13,
-    "conflict_articles": 4,
-    "exercise_articles": 4,
+    "deployment_articles": 10,
+    "conflict_articles": 2,
+    "exercise_articles": 6,
     "total_articles": 50,
-    "computed_at": "2026-11-06T18:34:31.684957+00:00",
+    "computed_at": "2026-11-06T23:33:46.315976+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
-      "[Military Times] ‘Inside CENTCOM’ podcast launches amid Iran conflict",
       "[Naval News] Fincantieri and J.A. Solutions Sign LoI to Advance Modularity for Next-Generation Naval Vessels",
       "[Naval News] Fincantieri unveils new Multi-Mission Modular Vessel at Euronaval 2026",
       "[USNI News] Theodore Roosevelt Carrier Strike Group Pulls Into Singapore",
-      "[Naval News] Strike drones launched from British aircraft carrier for the first time"
+      "[Naval News] Strike drones launched from British aircraft carrier for the first time",
+      "[Defense News] US, Colombian troops kick off exercise amid the Pentagon’s Western Hemisphere pivot"
     ]
   },
   "ground_intel": {
@@ -939,12 +930,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-11-06T18:34:31.685001+00:00",
+    "last_successful_update": "2026-11-06T23:33:46.316006+00:00",
     "article_count": 50,
-    "categorized_count": 18,
-    "freshest_source": "Military Times",
-    "freshest_title": "‘Inside CENTCOM’ podcast launches amid Iran conflict",
-    "freshest_published": "Fri, 06 Nov 2026 00:47:21 +0000"
+    "categorized_count": 15,
+    "freshest_source": "Naval News",
+    "freshest_title": "Fincantieri and J.A. Solutions Sign LoI to Advance Modularity for Next-Generation Naval Vessels",
+    "freshest_published": "Fri, 06 Nov 2026 09:18:28 +0000"
   },
   "_firms_hotspots": []
 }
