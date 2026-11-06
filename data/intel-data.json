@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-11-05T23:52:02Z",
-  "version": 3153,
-  "breaking_alert": "Task & Purpose: Tracking America’s latest conflict: The Iran war timeline",
+  "generated_utc": "2026-11-06T03:50:18Z",
+  "version": 3154,
+  "breaking_alert": "Military Times: ‘Inside CENTCOM’ podcast launches amid Iran conflict",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -594,37 +594,19 @@
   ],
   "_naval_news_refs": [
     {
+      "title": "‘Inside CENTCOM’ podcast launches amid Iran conflict",
+      "link": "https://www.militarytimes.com/opinion/commentary/2026/11/05/inside-centcom-podcast-launches-amid-iran-conflict/",
+      "published": "Fri, 06 Nov 2026 00:47:21 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "Tracking America’s latest conflict: The Iran war timeline",
       "link": "https://taskandpurpose.com/news/iran-war-timeline/",
       "published": "Mon, 02 Nov 2026 10:56:59 -0500",
       "source": "Task & Purpose",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Fincantieri and Leonardo sign an agreement to further strengthen the role of Orizzonte Sistemi Navali",
-      "link": "https://www.navalnews.com/event-news/euronaval-2026/2026/11/fincantieri-and-leonardo-sign-an-agreement-to-further-strengthen-the-role-of-orizzonte-sistemi-navali/",
-      "published": "Thu, 05 Nov 2026 11:06:41 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "ELT Group and Thales announce the establishment of a Joint Venture in naval Electronic Warfare for the export market",
-      "link": "https://www.navalnews.com/event-news/euronaval-2026/2026/11/elt-group-and-thales-announce-the-establishment-of-a-joint-venture-in-naval-electronic-warfare-for-the-export-market/",
-      "published": "Thu, 05 Nov 2026 12:07:48 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Fairbanks Morse Defense Unveils AutoHook for Fully Autonomous Vessel Recovery at EURONAVAL 2026",
-      "link": "https://www.navalnews.com/event-news/euronaval-2026/2026/11/fairbanks-morse-defense-unveils-autohook-for-fully-autonomous-vessel-recovery-at-euronaval-2026/",
-      "published": "Thu, 05 Nov 2026 12:35:59 +0000",
-      "source": "Naval News",
       "categories": [
         "deployment"
       ]
@@ -639,25 +621,6 @@
       ]
     },
     {
-      "title": "Submarine ‘Isaac Peral’ sinks the old patrol vessel ‘Infanta Elena’ during the live-fire exercise SINKEX-26",
-      "link": "https://www.navalnews.com/naval-news/2026/11/submarine-isaac-peral-sinks-the-old-patrol-vessel-infanta-elena-during-the-live-fire-exercise-sinkex-26/",
-      "published": "Thu, 05 Nov 2026 14:51:46 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment",
-        "exercise"
-      ]
-    },
-    {
-      "title": "RTsys Group Strengthens Its Presence in Canada with the Sale of Several SEMA Training Targets",
-      "link": "https://www.navalnews.com/event-news/euronaval-2026/2026/11/rtsys-group-strengthens-its-presence-in-canada-with-the-sale-of-several-sema-training-targets/",
-      "published": "Thu, 05 Nov 2026 15:49:45 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "USS Stout Loses Power During Port Visit Due to ‘Engineering Casualty’",
       "link": "https://news.usni.org/2026/11/05/uss-stout-loses-power-during-port-visit-due-to-engineering-casualty",
       "published": "Thu, 05 Nov 2026 16:06:54 +0000",
@@ -667,19 +630,46 @@
       ]
     },
     {
-      "title": "Naval Group Unveils a Larger, More Powerful FDI Frigate",
-      "link": "https://www.navalnews.com/event-news/euronaval-2026/2026/11/naval-group-unveils-a-larger-more-powerful-fdi-frigate/",
-      "published": "Thu, 05 Nov 2026 22:20:21 +0000",
-      "source": "Naval News",
+      "title": "Royal Navy Carriers Operate in the High North, Mediterranean",
+      "link": "https://news.usni.org/2026/11/04/royal-navy-carriers-operate-in-the-high-north-mediterranean",
+      "published": "Wed, 04 Nov 2026 16:45:40 +0000",
+      "source": "USNI News",
       "categories": [
         "deployment"
       ]
     },
     {
-      "title": "Royal Navy Carriers Operate in the High North, Mediterranean",
-      "link": "https://news.usni.org/2026/11/04/royal-navy-carriers-operate-in-the-high-north-mediterranean",
-      "published": "Wed, 04 Nov 2026 16:45:40 +0000",
+      "title": "Navy Taps Career Submariner to Lead PAE Maritime",
+      "link": "https://news.usni.org/2026/11/04/navy-taps-career-submariner-to-lead-pae-maritime",
+      "published": "Wed, 04 Nov 2026 17:10:53 +0000",
       "source": "USNI News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Report to Congress on the Federal Fleet of Oceanographic Research Vessels",
+      "link": "https://news.usni.org/2026/11/04/report-to-congress-on-the-federal-fleet-of-oceanographic-research-vessels",
+      "published": "Wed, 04 Nov 2026 21:15:13 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Amid Iran conflict, ‘non-hostile’ deaths of 2 US airmen raise overseas toll",
+      "link": "https://www.defensenews.com/news/pentagon-congress/2026/11/04/amid-iran-conflict-non-hostile-deaths-of-2-us-airmen-raise-overseas-toll-to-23/",
+      "published": "Wed, 04 Nov 2026 23:08:17 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Amid Iran conflict, ‘non-hostile’ deaths of 2 US airmen raise overseas toll",
+      "link": "https://www.militarytimes.com/news/2026/11/04/amid-iran-conflict-non-hostile-deaths-of-2-us-airmen-raise-overseas-toll-to-23/",
+      "published": "Wed, 04 Nov 2026 23:08:17 +0000",
+      "source": "Military Times",
       "categories": [
         "deployment"
       ]
@@ -837,15 +827,6 @@
   },
   "_conflict_news_refs": [
     {
-      "title": "General Atomics Concept Eyes Vektrex in Air-Launched Missile",
-      "link": "https://www.navalnews.com/event-news/euronaval-2026/2026/11/general-atomics-concept-eyes-vektrex-in-air-launched-missile/",
-      "published": "Thu, 05 Nov 2026 08:14:07 +0000",
-      "source": "Naval News",
-      "categories": [
-        "conflict"
-      ]
-    },
-    {
       "title": "Vector introduces ready-to-go one-way attack drone",
       "link": "https://www.defensenews.com/industry/techwatch/2026/11/05/vector-introduces-ready-to-go-one-way-attack-drone/",
       "published": "Thu, 05 Nov 2026 20:28:53 +0000",
@@ -871,15 +852,6 @@
       "categories": [
         "conflict"
       ]
-    },
-    {
-      "title": "Under threat of air strikes, US looks to bolster base infrastructure with 3D printing",
-      "link": "https://www.militarytimes.com/news/your-military/2026/11/04/under-threat-of-air-strikes-us-looks-to-bolster-base-infrastructure-with-3d-printing/",
-      "published": "Wed, 04 Nov 2026 20:16:46 +0000",
-      "source": "Military Times",
-      "categories": [
-        "conflict"
-      ]
     }
   ],
   "_exercise_news_refs": [
@@ -898,16 +870,6 @@
       "published": "Thu, 05 Nov 2026 14:01:08 +0000",
       "source": "USNI News",
       "categories": [
-        "exercise"
-      ]
-    },
-    {
-      "title": "Submarine ‘Isaac Peral’ sinks the old patrol vessel ‘Infanta Elena’ during the live-fire exercise SINKEX-26",
-      "link": "https://www.navalnews.com/naval-news/2026/11/submarine-isaac-peral-sinks-the-old-patrol-vessel-infanta-elena-during-the-live-fire-exercise-sinkex-26/",
-      "published": "Thu, 05 Nov 2026 14:51:46 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment",
         "exercise"
       ]
     },
@@ -931,18 +893,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 14,
-    "conflict_articles": 5,
-    "exercise_articles": 5,
-    "total_articles": 50,
-    "computed_at": "2026-11-05T23:51:56.949917+00:00",
+    "deployment_articles": 9,
+    "conflict_articles": 3,
+    "exercise_articles": 4,
+    "total_articles": 40,
+    "computed_at": "2026-11-06T03:50:13.177185+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
+      "[Military Times] ‘Inside CENTCOM’ podcast launches amid Iran conflict",
       "[Task & Purpose] Tracking America’s latest conflict: The Iran war timeline",
       "[Task & Purpose] Special operations guardians must ‘maneuver with their SOF counterparts,’ commander says",
-      "[Naval News] General Atomics Concept Eyes Vektrex in Air-Launched Missile",
-      "[Naval News] Fincantieri and Leonardo sign an agreement to further strengthen the role of Orizzonte Sistemi Navali",
-      "[Naval News] ELT Group and Thales announce the establishment of a Joint Venture in naval Electronic Warfare for the export market"
+      "[Defense News] Israeli defense company says this trigger is programmed to shoot drones",
+      "[USNI News] Defense Primer on U.S. Special Operations Forces"
     ]
   },
   "ground_intel": {
@@ -953,12 +915,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-11-05T23:51:56.949952+00:00",
-    "article_count": 50,
-    "categorized_count": 23,
-    "freshest_source": "Task & Purpose",
-    "freshest_title": "Tracking America’s latest conflict: The Iran war timeline",
-    "freshest_published": "Mon, 02 Nov 2026 10:56:59 -0500"
+    "last_successful_update": "2026-11-06T03:50:13.177224+00:00",
+    "article_count": 40,
+    "categorized_count": 16,
+    "freshest_source": "Military Times",
+    "freshest_title": "‘Inside CENTCOM’ podcast launches amid Iran conflict",
+    "freshest_published": "Fri, 06 Nov 2026 00:47:21 +0000"
   },
   "_firms_hotspots": []
 }
