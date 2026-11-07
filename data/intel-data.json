@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-11-07T16:40:01Z",
-  "version": 3160,
+  "generated_utc": "2026-11-07T20:34:35Z",
+  "version": 3161,
   "breaking_alert": "Naval News: Fincantieri and J.A. Solutions Sign LoI to Advance Modularity for Next-Generation Naval Vessels",
   "naval_deployments": [
     {
@@ -641,6 +641,15 @@
       ]
     },
     {
+      "title": "An A-10 named ‘Rainbow Warrior’ sports Marilyn Monroe door art in the Middle East",
+      "link": "https://taskandpurpose.com/news/a10-warthog-rainbow-warrior-marilyn-monroe/",
+      "published": "Sat, 07 Nov 2026 12:35:45 -0500",
+      "source": "Task & Purpose",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "European troops set to train in Poland for postwar Ukraine deployment",
       "link": "https://www.defensenews.com/news/2026/11/07/european-troops-set-to-train-in-poland-for-postwar-ukraine-deployment/",
       "published": "Sat, 07 Nov 2026 15:05:44 +0000",
@@ -676,15 +685,6 @@
       "categories": [
         "deployment",
         "exercise"
-      ]
-    },
-    {
-      "title": "RTsys Group Strengthens Its Presence in Canada with the Sale of Several SEMA Training Targets",
-      "link": "https://www.navalnews.com/event-news/euronaval-2026/2026/11/rtsys-group-strengthens-its-presence-in-canada-with-the-sale-of-several-sema-training-targets/",
-      "published": "Thu, 05 Nov 2026 15:49:45 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment"
       ]
     }
   ],
@@ -890,15 +890,6 @@
       ]
     },
     {
-      "title": "Special operations guardians must ‘maneuver with their SOF counterparts,’ commander says",
-      "link": "https://taskandpurpose.com/news/space-force-special-operations-command-activated/",
-      "published": "Mon, 02 Nov 2026 14:00:00 -0500",
-      "source": "Task & Purpose",
-      "categories": [
-        "exercise"
-      ]
-    },
-    {
       "title": "Defense Primer on U.S. Special Operations Forces",
       "link": "https://news.usni.org/2026/11/05/defense-primer-on-u-s-special-operations-forces",
       "published": "Thu, 05 Nov 2026 14:01:08 +0000",
@@ -916,14 +907,23 @@
         "deployment",
         "exercise"
       ]
+    },
+    {
+      "title": "Drones built to look like birds evaded detection at Air Force tech exercise",
+      "link": "https://taskandpurpose.com/news/drone-mimicking-bird-test/",
+      "published": "Tue, 03 Nov 2026 13:32:25 -0500",
+      "source": "Task & Purpose",
+      "categories": [
+        "exercise"
+      ]
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 13,
+    "deployment_articles": 14,
     "conflict_articles": 3,
-    "exercise_articles": 6,
+    "exercise_articles": 5,
     "total_articles": 50,
-    "computed_at": "2026-11-07T16:39:58.560612+00:00",
+    "computed_at": "2026-11-07T20:34:33.841039+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] Fincantieri and J.A. Solutions Sign LoI to Advance Modularity for Next-Generation Naval Vessels",
@@ -941,7 +941,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-11-07T16:39:58.560647+00:00",
+    "last_successful_update": "2026-11-07T20:34:33.841084+00:00",
     "article_count": 50,
     "categorized_count": 18,
     "freshest_source": "Naval News",
