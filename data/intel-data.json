@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-11-06T23:33:49Z",
-  "version": 3157,
+  "generated_utc": "2026-11-07T03:24:22Z",
+  "version": 3158,
   "breaking_alert": "Naval News: Fincantieri and J.A. Solutions Sign LoI to Advance Modularity for Next-Generation Naval Vessels",
   "naval_deployments": [
     {
@@ -912,7 +912,7 @@
     "conflict_articles": 2,
     "exercise_articles": 6,
     "total_articles": 50,
-    "computed_at": "2026-11-06T23:33:46.315976+00:00",
+    "computed_at": "2026-11-07T03:24:18.212686+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] Fincantieri and J.A. Solutions Sign LoI to Advance Modularity for Next-Generation Naval Vessels",
@@ -930,7 +930,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-11-06T23:33:46.316006+00:00",
+    "last_successful_update": "2026-11-07T03:24:18.212731+00:00",
     "article_count": 50,
     "categorized_count": 15,
     "freshest_source": "Naval News",
