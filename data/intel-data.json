@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-11-07T20:34:35Z",
-  "version": 3161,
+  "generated_utc": "2026-11-08T00:01:56Z",
+  "version": 3162,
   "breaking_alert": "Naval News: Fincantieri and J.A. Solutions Sign LoI to Advance Modularity for Next-Generation Naval Vessels",
   "naval_deployments": [
     {
@@ -678,13 +678,12 @@
       ]
     },
     {
-      "title": "Submarine ‘Isaac Peral’ sinks the old patrol vessel ‘Infanta Elena’ during the live-fire exercise SINKEX-26",
-      "link": "https://www.navalnews.com/naval-news/2026/11/submarine-isaac-peral-sinks-the-old-patrol-vessel-infanta-elena-during-the-live-fire-exercise-sinkex-26/",
-      "published": "Thu, 05 Nov 2026 14:51:46 +0000",
-      "source": "Naval News",
+      "title": "CENTCOM launches new podcast amid the ongoing Iran war",
+      "link": "https://taskandpurpose.com/news/centcom-iran-war-podcast/",
+      "published": "Sat, 07 Nov 2026 16:38:52 -0500",
+      "source": "Task & Purpose",
       "categories": [
-        "deployment",
-        "exercise"
+        "deployment"
       ]
     }
   ],
@@ -919,11 +918,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 14,
+    "deployment_articles": 15,
     "conflict_articles": 3,
     "exercise_articles": 5,
     "total_articles": 50,
-    "computed_at": "2026-11-07T20:34:33.841039+00:00",
+    "computed_at": "2026-11-08T00:01:54.467650+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] Fincantieri and J.A. Solutions Sign LoI to Advance Modularity for Next-Generation Naval Vessels",
@@ -941,9 +940,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-11-07T20:34:33.841084+00:00",
+    "last_successful_update": "2026-11-08T00:01:54.467692+00:00",
     "article_count": 50,
-    "categorized_count": 18,
+    "categorized_count": 19,
     "freshest_source": "Naval News",
     "freshest_title": "Fincantieri and J.A. Solutions Sign LoI to Advance Modularity for Next-Generation Naval Vessels",
     "freshest_published": "Fri, 06 Nov 2026 09:18:28 +0000"
