@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-11-09T10:28:49Z",
-  "version": 3168,
-  "breaking_alert": "Naval News: Fincantieri unveils new Multi-Mission Modular Vessel at Euronaval 2026",
+  "generated_utc": "2026-11-09T21:08:49Z",
+  "version": 3169,
+  "breaking_alert": "USNI News: Theodore Roosevelt Carrier Strike Group Pulls Into Singapore",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -594,29 +594,10 @@
   ],
   "_naval_news_refs": [
     {
-      "title": "Fincantieri unveils new Multi-Mission Modular Vessel at Euronaval 2026",
-      "link": "https://www.navalnews.com/event-news/euronaval-2026/2026/11/fincantieri-unveils-new-multi-mission-modular-vessel-at-euronaval-2026/",
-      "published": "Fri, 06 Nov 2026 10:00:06 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Theodore Roosevelt Carrier Strike Group Pulls Into Singapore",
       "link": "https://news.usni.org/2026/11/06/theodore-roosevelt-carrier-strike-group-pulls-into-singapore",
       "published": "Fri, 06 Nov 2026 14:04:35 +0000",
       "source": "USNI News",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
-      "title": "Strike drones launched from British aircraft carrier for the first time",
-      "link": "https://www.navalnews.com/naval-news/2026/11/strike-drones-launched-from-british-aircraft-carrier-for-the-first-time/",
-      "published": "Fri, 06 Nov 2026 16:37:43 +0000",
-      "source": "Naval News",
       "categories": [
         "deployment",
         "conflict"
@@ -632,6 +613,15 @@
       ]
     },
     {
+      "title": "Tracking America’s latest conflict: The Iran war timeline",
+      "link": "https://taskandpurpose.com/news/iran-war-timeline/",
+      "published": "Mon, 09 Nov 2026 06:51:36 -0500",
+      "source": "Task & Purpose",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "Safran and MSI-DS Partner on Next-Gen Counter-Drone Naval Turrets",
       "link": "https://www.navalnews.com/event-news/euronaval-2026/2026/11/safran-and-msi-ds-partner-on-next-gen-counter-drone-naval-turrets/",
       "published": "Mon, 09 Nov 2026 09:39:36 +0000",
@@ -641,47 +631,56 @@
       ]
     },
     {
-      "title": "An A-10 named ‘Rainbow Warrior’ sports Marilyn Monroe door art in the Middle East",
-      "link": "https://taskandpurpose.com/news/a10-warthog-rainbow-warrior-marilyn-monroe/",
-      "published": "Sat, 07 Nov 2026 12:35:45 -0500",
-      "source": "Task & Purpose",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "European troops set to train in Poland for postwar Ukraine deployment",
-      "link": "https://www.defensenews.com/news/2026/11/07/european-troops-set-to-train-in-poland-for-postwar-ukraine-deployment/",
-      "published": "Sat, 07 Nov 2026 15:05:44 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "European troops set to train in Poland for postwar Ukraine deployment",
-      "link": "https://www.militarytimes.com/news/2026/11/07/european-troops-set-to-train-in-poland-for-postwar-ukraine-deployment/",
-      "published": "Sat, 07 Nov 2026 15:05:44 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Euronaval 2026: France Orders 32-Cell Aster Missile Upgrade for FDI Frigates",
-      "link": "https://www.navalnews.com/event-news/euronaval-2026/2026/11/france-orders-32-aster-missiles-upgrade-fdi-frigates/",
-      "published": "Sat, 07 Nov 2026 15:32:12 +0000",
+      "title": "Navantia unveils its vision for next-generation naval capabilities at Euronaval 2026",
+      "link": "https://www.navalnews.com/event-news/euronaval-2026/2026/11/navantia-unveils-its-vision-for-next-generation-naval-capabilities-at-euronaval-2026/",
+      "published": "Mon, 09 Nov 2026 14:33:46 +0000",
       "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Hegseth faces possible impeachment over Iran war, boat strikes and Maduro Raid",
+      "link": "https://taskandpurpose.com/news/hegseth-faces-possible-impeachment-over-iran-war-boat-strikes-and-maduro-raid/",
+      "published": "Mon, 09 Nov 2026 15:35:47 -0500",
+      "source": "Task & Purpose",
       "categories": [
         "deployment",
         "conflict"
       ]
     },
     {
-      "title": "CENTCOM launches new podcast amid the ongoing Iran war",
-      "link": "https://taskandpurpose.com/news/centcom-iran-war-podcast/",
-      "published": "Sat, 07 Nov 2026 16:38:52 -0500",
-      "source": "Task & Purpose",
+      "title": "General Atomics Ranger UUV to Support Large Payloads, UAVs",
+      "link": "https://www.navalnews.com/event-news/euronaval-2026/2026/11/general-atomics-ranger-uuv-to-support-large-payloads-uavs/",
+      "published": "Mon, 09 Nov 2026 16:12:32 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Firm bets on converted fishing trawlers to tackle Russian submarines in the Arctic",
+      "link": "https://www.defensenews.com/global/europe/2026/11/09/firm-bets-on-converted-fishing-trawlers-to-tackle-russian-submarines-in-the-arctic/",
+      "published": "Mon, 09 Nov 2026 17:01:04 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Firm bets on converted fishing trawlers to tackle Russian submarines in the Arctic",
+      "link": "https://www.militarytimes.com/industry/techwatch/2026/11/09/firm-bets-on-converted-fishing-trawlers-to-tackle-russian-submarines-in-the-arctic/",
+      "published": "Mon, 09 Nov 2026 17:01:04 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Final 8 sailors identified from 1945 USS Indianapolis sinking",
+      "link": "https://www.militarytimes.com/veterans/military-history/2026/11/09/final-8-sailors-identified-from-1945-uss-indianapolis-sinking/",
+      "published": "Mon, 09 Nov 2026 19:14:44 +0000",
+      "source": "Military Times",
       "categories": [
         "deployment"
       ]
@@ -849,20 +848,19 @@
       ]
     },
     {
-      "title": "Strike drones launched from British aircraft carrier for the first time",
-      "link": "https://www.navalnews.com/naval-news/2026/11/strike-drones-launched-from-british-aircraft-carrier-for-the-first-time/",
-      "published": "Fri, 06 Nov 2026 16:37:43 +0000",
+      "title": "MBDA on contract to study Aster 30 missile integration in MK 41 VLS",
+      "link": "https://www.navalnews.com/naval-news/2026/11/mbda-on-contract-to-study-aster-30-missile-integration-in-mk-41-vls/",
+      "published": "Mon, 09 Nov 2026 15:02:41 +0000",
       "source": "Naval News",
       "categories": [
-        "deployment",
         "conflict"
       ]
     },
     {
-      "title": "Euronaval 2026: France Orders 32-Cell Aster Missile Upgrade for FDI Frigates",
-      "link": "https://www.navalnews.com/event-news/euronaval-2026/2026/11/france-orders-32-aster-missiles-upgrade-fdi-frigates/",
-      "published": "Sat, 07 Nov 2026 15:32:12 +0000",
-      "source": "Naval News",
+      "title": "Hegseth faces possible impeachment over Iran war, boat strikes and Maduro Raid",
+      "link": "https://taskandpurpose.com/news/hegseth-faces-possible-impeachment-over-iran-war-boat-strikes-and-maduro-raid/",
+      "published": "Mon, 09 Nov 2026 15:35:47 -0500",
+      "source": "Task & Purpose",
       "categories": [
         "deployment",
         "conflict"
@@ -871,36 +869,9 @@
   ],
   "_exercise_news_refs": [
     {
-      "title": "US, Colombian troops kick off exercise amid the Pentagon’s Western Hemisphere pivot",
-      "link": "https://www.defensenews.com/global/the-americas/2026/11/06/us-colombian-troops-kick-off-exercise-amid-the-pentagons-western-hemisphere-pivot/",
-      "published": "Fri, 06 Nov 2026 19:27:32 +0000",
-      "source": "Defense News",
-      "categories": [
-        "exercise"
-      ]
-    },
-    {
-      "title": "US, Colombian troops kick off exercise amid the Pentagon’s Western Hemisphere pivot",
-      "link": "https://www.militarytimes.com/news/your-military/2026/11/06/us-colombian-troops-kick-off-exercise-amid-the-pentagons-western-hemisphere-pivot/",
-      "published": "Fri, 06 Nov 2026 19:27:32 +0000",
-      "source": "Military Times",
-      "categories": [
-        "exercise"
-      ]
-    },
-    {
-      "title": "Defense Primer on U.S. Special Operations Forces",
-      "link": "https://news.usni.org/2026/11/05/defense-primer-on-u-s-special-operations-forces",
-      "published": "Thu, 05 Nov 2026 14:01:08 +0000",
-      "source": "USNI News",
-      "categories": [
-        "exercise"
-      ]
-    },
-    {
-      "title": "Drones built to look like birds evaded detection at Air Force tech exercise",
-      "link": "https://taskandpurpose.com/news/drone-mimicking-bird-test/",
-      "published": "Tue, 03 Nov 2026 13:32:25 -0500",
+      "title": "The Army wants more pilots to apply for its special operations helicopter regiment. Here’s why",
+      "link": "https://taskandpurpose.com/news/army-special-ops-helicopter-160th-soar/",
+      "published": "Mon, 09 Nov 2026 10:44:25 -0500",
       "source": "Task & Purpose",
       "categories": [
         "exercise"
@@ -908,18 +879,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 13,
+    "deployment_articles": 17,
     "conflict_articles": 3,
-    "exercise_articles": 4,
+    "exercise_articles": 1,
     "total_articles": 50,
-    "computed_at": "2026-11-09T10:28:42.988675+00:00",
+    "computed_at": "2026-11-09T21:08:42.984489+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
-      "[Naval News] Fincantieri unveils new Multi-Mission Modular Vessel at Euronaval 2026",
       "[USNI News] Theodore Roosevelt Carrier Strike Group Pulls Into Singapore",
-      "[Naval News] Strike drones launched from British aircraft carrier for the first time",
-      "[Defense News] US, Colombian troops kick off exercise amid the Pentagon’s Western Hemisphere pivot",
-      "[Military Times] US, Colombian troops kick off exercise amid the Pentagon’s Western Hemisphere pivot"
+      "[USNI News] The Future of French Fleet Close-in Defense",
+      "[Task & Purpose] Tracking America’s latest conflict: The Iran war timeline",
+      "[Naval News] Safran and MSI-DS Partner on Next-Gen Counter-Drone Naval Turrets",
+      "[Task & Purpose] The Army wants more pilots to apply for its special operations helicopter regiment. Here’s why"
     ]
   },
   "ground_intel": {
@@ -930,12 +901,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-11-09T10:28:42.988719+00:00",
+    "last_successful_update": "2026-11-09T21:08:42.984519+00:00",
     "article_count": 50,
-    "categorized_count": 17,
-    "freshest_source": "Naval News",
-    "freshest_title": "Fincantieri unveils new Multi-Mission Modular Vessel at Euronaval 2026",
-    "freshest_published": "Fri, 06 Nov 2026 10:00:06 +0000"
+    "categorized_count": 19,
+    "freshest_source": "USNI News",
+    "freshest_title": "Theodore Roosevelt Carrier Strike Group Pulls Into Singapore",
+    "freshest_published": "Fri, 06 Nov 2026 14:04:35 +0000"
   },
   "_firms_hotspots": []
 }
