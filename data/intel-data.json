@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-11-09T02:07:47Z",
-  "version": 3167,
-  "breaking_alert": "Naval News: Fincantieri and J.A. Solutions Sign LoI to Advance Modularity for Next-Generation Naval Vessels",
+  "generated_utc": "2026-11-09T10:28:49Z",
+  "version": 3168,
+  "breaking_alert": "Naval News: Fincantieri unveils new Multi-Mission Modular Vessel at Euronaval 2026",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -594,15 +594,6 @@
   ],
   "_naval_news_refs": [
     {
-      "title": "Fincantieri and J.A. Solutions Sign LoI to Advance Modularity for Next-Generation Naval Vessels",
-      "link": "https://www.navalnews.com/event-news/euronaval-2026/2026/11/fincantieri-and-j-a-solutions-sign-loi-to-advance-modularity-for-next-generation-naval-vessels/",
-      "published": "Fri, 06 Nov 2026 09:18:28 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Fincantieri unveils new Multi-Mission Modular Vessel at Euronaval 2026",
       "link": "https://www.navalnews.com/event-news/euronaval-2026/2026/11/fincantieri-unveils-new-multi-mission-modular-vessel-at-euronaval-2026/",
       "published": "Fri, 06 Nov 2026 10:00:06 +0000",
@@ -636,6 +627,15 @@
       "link": "https://news.usni.org/2026/11/06/the-future-of-french-fleet-close-in-defense",
       "published": "Fri, 06 Nov 2026 21:54:51 +0000",
       "source": "USNI News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Safran and MSI-DS Partner on Next-Gen Counter-Drone Naval Turrets",
+      "link": "https://www.navalnews.com/event-news/euronaval-2026/2026/11/safran-and-msi-ds-partner-on-next-gen-counter-drone-naval-turrets/",
+      "published": "Mon, 09 Nov 2026 09:39:36 +0000",
+      "source": "Naval News",
       "categories": [
         "deployment"
       ]
@@ -908,18 +908,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 15,
+    "deployment_articles": 13,
     "conflict_articles": 3,
     "exercise_articles": 4,
     "total_articles": 50,
-    "computed_at": "2026-11-09T02:07:42.270629+00:00",
+    "computed_at": "2026-11-09T10:28:42.988675+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
-      "[Naval News] Fincantieri and J.A. Solutions Sign LoI to Advance Modularity for Next-Generation Naval Vessels",
       "[Naval News] Fincantieri unveils new Multi-Mission Modular Vessel at Euronaval 2026",
       "[USNI News] Theodore Roosevelt Carrier Strike Group Pulls Into Singapore",
       "[Naval News] Strike drones launched from British aircraft carrier for the first time",
-      "[Defense News] US, Colombian troops kick off exercise amid the Pentagon’s Western Hemisphere pivot"
+      "[Defense News] US, Colombian troops kick off exercise amid the Pentagon’s Western Hemisphere pivot",
+      "[Military Times] US, Colombian troops kick off exercise amid the Pentagon’s Western Hemisphere pivot"
     ]
   },
   "ground_intel": {
@@ -930,12 +930,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-11-09T02:07:42.270665+00:00",
+    "last_successful_update": "2026-11-09T10:28:42.988719+00:00",
     "article_count": 50,
-    "categorized_count": 19,
+    "categorized_count": 17,
     "freshest_source": "Naval News",
-    "freshest_title": "Fincantieri and J.A. Solutions Sign LoI to Advance Modularity for Next-Generation Naval Vessels",
-    "freshest_published": "Fri, 06 Nov 2026 09:18:28 +0000"
+    "freshest_title": "Fincantieri unveils new Multi-Mission Modular Vessel at Euronaval 2026",
+    "freshest_published": "Fri, 06 Nov 2026 10:00:06 +0000"
   },
   "_firms_hotspots": []
 }
