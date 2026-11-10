@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-11-10T11:53:43Z",
-  "version": 3171,
+  "generated_utc": "2026-11-10T18:56:57Z",
+  "version": 3172,
   "breaking_alert": "USNI News: Theodore Roosevelt Carrier Strike Group Pulls Into Singapore",
   "naval_deployments": [
     {
@@ -622,15 +622,6 @@
       ]
     },
     {
-      "title": "Safran and MSI-DS Partner on Next-Gen Counter-Drone Naval Turrets",
-      "link": "https://www.navalnews.com/event-news/euronaval-2026/2026/11/safran-and-msi-ds-partner-on-next-gen-counter-drone-naval-turrets/",
-      "published": "Mon, 09 Nov 2026 09:39:36 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Navantia unveils its vision for next-generation naval capabilities at Euronaval 2026",
       "link": "https://www.navalnews.com/event-news/euronaval-2026/2026/11/navantia-unveils-its-vision-for-next-generation-naval-capabilities-at-euronaval-2026/",
       "published": "Mon, 09 Nov 2026 14:33:46 +0000",
@@ -668,19 +659,28 @@
       ]
     },
     {
-      "title": "Firm bets on converted fishing trawlers to tackle Russian submarines in the Arctic",
-      "link": "https://www.militarytimes.com/industry/techwatch/2026/11/09/firm-bets-on-converted-fishing-trawlers-to-tackle-russian-submarines-in-the-arctic/",
-      "published": "Mon, 09 Nov 2026 17:01:04 +0000",
-      "source": "Military Times",
+      "title": "USNI News Fleet and Marine Tracker: Nov. 9, 2026",
+      "link": "https://news.usni.org/2026/11/09/usni-news-fleet-and-marine-tracker-nov-9-2026",
+      "published": "Mon, 09 Nov 2026 19:18:38 +0000",
+      "source": "USNI News",
       "categories": [
         "deployment"
       ]
     },
     {
-      "title": "Final 8 sailors identified from 1945 USS Indianapolis sinking",
-      "link": "https://www.militarytimes.com/veterans/military-history/2026/11/09/final-8-sailors-identified-from-1945-uss-indianapolis-sinking/",
-      "published": "Mon, 09 Nov 2026 19:14:44 +0000",
-      "source": "Military Times",
+      "title": "Hegseth Calls for Sweeping Military Education Changes in Naval War College Address",
+      "link": "https://news.usni.org/2026/11/09/hegseth-calls-for-sweeping-military-education-changes-in-naval-war-college-address",
+      "published": "Mon, 09 Nov 2026 20:42:15 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "An A-10 named ‘Rainbow Warrior’ sports Marilyn Monroe door art in the Middle East",
+      "link": "https://taskandpurpose.com/news/a10-warthog-rainbow-warrior-marilyn-monroe/",
+      "published": "Sat, 07 Nov 2026 12:35:45 -0500",
+      "source": "Task & Purpose",
       "categories": [
         "deployment"
       ]
@@ -865,6 +865,15 @@
         "deployment",
         "conflict"
       ]
+    },
+    {
+      "title": "BAE Systems accelerates delivery of advanced LRASM missile sensors",
+      "link": "https://www.navalnews.com/naval-news/2026/11/bae-systems-accelerates-delivery-of-advanced-lrasm-missile-sensors/",
+      "published": "Tue, 10 Nov 2026 15:10:31 +0000",
+      "source": "Naval News",
+      "categories": [
+        "conflict"
+      ]
     }
   ],
   "_exercise_news_refs": [
@@ -887,9 +896,18 @@
       ]
     },
     {
-      "title": "House maneuver clears path for vote on Major Richard Star Act",
-      "link": "https://www.militarytimes.com/news/2026/11/09/house-maneuver-clears-path-for-vote-on-major-richard-star-act/",
-      "published": "Mon, 09 Nov 2026 22:51:08 +0000",
+      "title": "First-ever Collaborative Combat Aircraft fly in formation, demonstrate air combat maneuvers",
+      "link": "https://www.defensenews.com/industry/techwatch/2026/11/10/first-ever-collaborative-combat-aircraft-fly-in-formation-demonstrate-air-combat-maneuvers/",
+      "published": "Tue, 10 Nov 2026 18:17:13 +0000",
+      "source": "Defense News",
+      "categories": [
+        "exercise"
+      ]
+    },
+    {
+      "title": "First-ever Collaborative Combat Aircraft fly in formation, demonstrate air combat maneuvers",
+      "link": "https://www.militarytimes.com/industry/techwatch/2026/11/10/first-ever-collaborative-combat-aircraft-fly-in-formation-demonstrate-air-combat-maneuvers/",
+      "published": "Tue, 10 Nov 2026 18:17:13 +0000",
       "source": "Military Times",
       "categories": [
         "exercise"
@@ -897,18 +915,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 16,
-    "conflict_articles": 3,
-    "exercise_articles": 3,
+    "deployment_articles": 13,
+    "conflict_articles": 4,
+    "exercise_articles": 4,
     "total_articles": 50,
-    "computed_at": "2026-11-10T11:53:25.686221+00:00",
+    "computed_at": "2026-11-10T18:56:55.023419+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[USNI News] Theodore Roosevelt Carrier Strike Group Pulls Into Singapore",
       "[USNI News] The Future of French Fleet Close-in Defense",
       "[Task & Purpose] Tracking America’s latest conflict: The Iran war timeline",
-      "[Naval News] Safran and MSI-DS Partner on Next-Gen Counter-Drone Naval Turrets",
-      "[Task & Purpose] The Army wants more pilots to apply for its special operations helicopter regiment. Here’s why"
+      "[Task & Purpose] The Army wants more pilots to apply for its special operations helicopter regiment. Here’s why",
+      "[Naval News] Navantia unveils its vision for next-generation naval capabilities at Euronaval 2026"
     ]
   },
   "ground_intel": {
@@ -919,9 +937,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-11-10T11:53:25.686257+00:00",
+    "last_successful_update": "2026-11-10T18:56:55.023456+00:00",
     "article_count": 50,
-    "categorized_count": 20,
+    "categorized_count": 19,
     "freshest_source": "USNI News",
     "freshest_title": "Theodore Roosevelt Carrier Strike Group Pulls Into Singapore",
     "freshest_published": "Fri, 06 Nov 2026 14:04:35 +0000"
