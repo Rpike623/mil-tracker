@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-11-10T18:56:57Z",
-  "version": 3172,
-  "breaking_alert": "USNI News: Theodore Roosevelt Carrier Strike Group Pulls Into Singapore",
+  "generated_utc": "2026-11-10T23:50:12Z",
+  "version": 3173,
+  "breaking_alert": "USNI News: The Future of French Fleet Close-in Defense",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -594,16 +594,6 @@
   ],
   "_naval_news_refs": [
     {
-      "title": "Theodore Roosevelt Carrier Strike Group Pulls Into Singapore",
-      "link": "https://news.usni.org/2026/11/06/theodore-roosevelt-carrier-strike-group-pulls-into-singapore",
-      "published": "Fri, 06 Nov 2026 14:04:35 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
       "title": "The Future of French Fleet Close-in Defense",
       "link": "https://news.usni.org/2026/11/06/the-future-of-french-fleet-close-in-defense",
       "published": "Fri, 06 Nov 2026 21:54:51 +0000",
@@ -622,15 +612,6 @@
       ]
     },
     {
-      "title": "Navantia unveils its vision for next-generation naval capabilities at Euronaval 2026",
-      "link": "https://www.navalnews.com/event-news/euronaval-2026/2026/11/navantia-unveils-its-vision-for-next-generation-naval-capabilities-at-euronaval-2026/",
-      "published": "Mon, 09 Nov 2026 14:33:46 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Hegseth faces possible impeachment over Iran war, boat strikes and Maduro Raid",
       "link": "https://taskandpurpose.com/news/hegseth-faces-possible-impeachment-over-iran-war-boat-strikes-and-maduro-raid/",
       "published": "Mon, 09 Nov 2026 15:35:47 -0500",
@@ -638,24 +619,6 @@
       "categories": [
         "deployment",
         "conflict"
-      ]
-    },
-    {
-      "title": "General Atomics Ranger UUV to Support Large Payloads, UAVs",
-      "link": "https://www.navalnews.com/event-news/euronaval-2026/2026/11/general-atomics-ranger-uuv-to-support-large-payloads-uavs/",
-      "published": "Mon, 09 Nov 2026 16:12:32 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Firm bets on converted fishing trawlers to tackle Russian submarines in the Arctic",
-      "link": "https://www.defensenews.com/global/europe/2026/11/09/firm-bets-on-converted-fishing-trawlers-to-tackle-russian-submarines-in-the-arctic/",
-      "published": "Mon, 09 Nov 2026 17:01:04 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment"
       ]
     },
     {
@@ -681,6 +644,42 @@
       "link": "https://taskandpurpose.com/news/a10-warthog-rainbow-warrior-marilyn-monroe/",
       "published": "Sat, 07 Nov 2026 12:35:45 -0500",
       "source": "Task & Purpose",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "CENTCOM launches new podcast amid the ongoing Iran war",
+      "link": "https://taskandpurpose.com/news/centcom-iran-war-podcast/",
+      "published": "Sat, 07 Nov 2026 16:38:52 -0500",
+      "source": "Task & Purpose",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Ukraine urges US to speed up interceptor deliveries as Russia targets power grid",
+      "link": "https://www.defensenews.com/global/europe/2026/11/10/ukraine-urges-us-to-speed-up-interceptor-deliveries-as-russia-targets-power-grid/",
+      "published": "Tue, 10 Nov 2026 18:57:04 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Ukraine urges US to speed up interceptor deliveries as Russia targets power grid",
+      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/11/10/ukraine-urges-us-to-speed-up-interceptor-deliveries-as-russia-targets-power-grid/",
+      "published": "Tue, 10 Nov 2026 18:57:04 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Most Americans want new Democratic Congress to end Trump’s Iran war, poll finds",
+      "link": "https://www.defensenews.com/global/mideast-africa/2026/11/10/most-americans-want-new-democratic-congress-to-end-trumps-iran-war-poll-finds/",
+      "published": "Tue, 10 Nov 2026 19:29:39 +0000",
+      "source": "Defense News",
       "categories": [
         "deployment"
       ]
@@ -838,25 +837,6 @@
   },
   "_conflict_news_refs": [
     {
-      "title": "Theodore Roosevelt Carrier Strike Group Pulls Into Singapore",
-      "link": "https://news.usni.org/2026/11/06/theodore-roosevelt-carrier-strike-group-pulls-into-singapore",
-      "published": "Fri, 06 Nov 2026 14:04:35 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
-      "title": "MBDA on contract to study Aster 30 missile integration in MK 41 VLS",
-      "link": "https://www.navalnews.com/naval-news/2026/11/mbda-on-contract-to-study-aster-30-missile-integration-in-mk-41-vls/",
-      "published": "Mon, 09 Nov 2026 15:02:41 +0000",
-      "source": "Naval News",
-      "categories": [
-        "conflict"
-      ]
-    },
-    {
       "title": "Hegseth faces possible impeachment over Iran war, boat strikes and Maduro Raid",
       "link": "https://taskandpurpose.com/news/hegseth-faces-possible-impeachment-over-iran-war-boat-strikes-and-maduro-raid/",
       "published": "Mon, 09 Nov 2026 15:35:47 -0500",
@@ -867,10 +847,10 @@
       ]
     },
     {
-      "title": "BAE Systems accelerates delivery of advanced LRASM missile sensors",
-      "link": "https://www.navalnews.com/naval-news/2026/11/bae-systems-accelerates-delivery-of-advanced-lrasm-missile-sensors/",
-      "published": "Tue, 10 Nov 2026 15:10:31 +0000",
-      "source": "Naval News",
+      "title": "Hegseth calls boat strikes ‘lawful’ and ‘successful’ after calls for impeachment",
+      "link": "https://taskandpurpose.com/news/hegseth-impeachment-boat-strikes/",
+      "published": "Tue, 10 Nov 2026 15:21:33 -0500",
+      "source": "Task & Purpose",
       "categories": [
         "conflict"
       ]
@@ -882,15 +862,6 @@
       "link": "https://taskandpurpose.com/news/army-special-ops-helicopter-160th-soar/",
       "published": "Mon, 09 Nov 2026 10:44:25 -0500",
       "source": "Task & Purpose",
-      "categories": [
-        "exercise"
-      ]
-    },
-    {
-      "title": "First ever autonomous Royal Navy squadron launches as part of investment in hybrid operations",
-      "link": "https://www.navalnews.com/naval-news/2026/11/first-ever-autonomous-royal-navy-squadron-launches-as-part-of-investment-in-hybrid-operations/",
-      "published": "Mon, 09 Nov 2026 21:58:00 +0000",
-      "source": "Naval News",
       "categories": [
         "exercise"
       ]
@@ -915,18 +886,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 13,
-    "conflict_articles": 4,
-    "exercise_articles": 4,
-    "total_articles": 50,
-    "computed_at": "2026-11-10T18:56:55.023419+00:00",
+    "deployment_articles": 11,
+    "conflict_articles": 2,
+    "exercise_articles": 3,
+    "total_articles": 40,
+    "computed_at": "2026-11-10T23:50:11.008138+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
-      "[USNI News] Theodore Roosevelt Carrier Strike Group Pulls Into Singapore",
       "[USNI News] The Future of French Fleet Close-in Defense",
       "[Task & Purpose] Tracking America’s latest conflict: The Iran war timeline",
       "[Task & Purpose] The Army wants more pilots to apply for its special operations helicopter regiment. Here’s why",
-      "[Naval News] Navantia unveils its vision for next-generation naval capabilities at Euronaval 2026"
+      "[Task & Purpose] Hegseth faces possible impeachment over Iran war, boat strikes and Maduro Raid",
+      "[USNI News] USNI News Fleet and Marine Tracker: Nov. 9, 2026"
     ]
   },
   "ground_intel": {
@@ -937,12 +908,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-11-10T18:56:55.023456+00:00",
-    "article_count": 50,
-    "categorized_count": 19,
+    "last_successful_update": "2026-11-10T23:50:11.008181+00:00",
+    "article_count": 40,
+    "categorized_count": 15,
     "freshest_source": "USNI News",
-    "freshest_title": "Theodore Roosevelt Carrier Strike Group Pulls Into Singapore",
-    "freshest_published": "Fri, 06 Nov 2026 14:04:35 +0000"
+    "freshest_title": "The Future of French Fleet Close-in Defense",
+    "freshest_published": "Fri, 06 Nov 2026 21:54:51 +0000"
   },
   "_firms_hotspots": []
 }
