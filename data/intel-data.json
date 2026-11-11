@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-11-11T11:29:49Z",
-  "version": 3175,
+  "generated_utc": "2026-11-11T18:55:25Z",
+  "version": 3176,
   "breaking_alert": "USNI News: The Future of French Fleet Close-in Defense",
   "naval_deployments": [
     {
@@ -640,24 +640,6 @@
       ]
     },
     {
-      "title": "An A-10 named ‘Rainbow Warrior’ sports Marilyn Monroe door art in the Middle East",
-      "link": "https://taskandpurpose.com/news/a10-warthog-rainbow-warrior-marilyn-monroe/",
-      "published": "Sat, 07 Nov 2026 12:35:45 -0500",
-      "source": "Task & Purpose",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "CENTCOM launches new podcast amid the ongoing Iran war",
-      "link": "https://taskandpurpose.com/news/centcom-iran-war-podcast/",
-      "published": "Sat, 07 Nov 2026 16:38:52 -0500",
-      "source": "Task & Purpose",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Ukraine urges US to speed up interceptor deliveries as Russia targets power grid",
       "link": "https://www.defensenews.com/global/europe/2026/11/10/ukraine-urges-us-to-speed-up-interceptor-deliveries-as-russia-targets-power-grid/",
       "published": "Tue, 10 Nov 2026 18:57:04 +0000",
@@ -682,6 +664,25 @@
       "source": "Defense News",
       "categories": [
         "deployment"
+      ]
+    },
+    {
+      "title": "Most Americans want new Democratic Congress to end Trump’s Iran war, poll finds",
+      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/11/10/most-americans-want-new-democratic-congress-to-end-trumps-iran-war-poll-finds/",
+      "published": "Tue, 10 Nov 2026 19:29:39 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Romanian servers targeted by Russian hackers to scoop up emails about NATO, EU",
+      "link": "https://www.defensenews.com/global/europe/2026/11/11/romanian-servers-targeted-by-russian-hackers-to-scoop-up-emails-about-nato-eu/",
+      "published": "Wed, 11 Nov 2026 12:08:33 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment",
+        "exercise"
       ]
     }
   ],
@@ -876,21 +877,22 @@
       ]
     },
     {
-      "title": "First-ever Collaborative Combat Aircraft fly in formation, demonstrate air combat maneuvers",
-      "link": "https://www.militarytimes.com/industry/techwatch/2026/11/10/first-ever-collaborative-combat-aircraft-fly-in-formation-demonstrate-air-combat-maneuvers/",
-      "published": "Tue, 10 Nov 2026 18:17:13 +0000",
-      "source": "Military Times",
+      "title": "Romanian servers targeted by Russian hackers to scoop up emails about NATO, EU",
+      "link": "https://www.defensenews.com/global/europe/2026/11/11/romanian-servers-targeted-by-russian-hackers-to-scoop-up-emails-about-nato-eu/",
+      "published": "Wed, 11 Nov 2026 12:08:33 +0000",
+      "source": "Defense News",
       "categories": [
+        "deployment",
         "exercise"
       ]
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 11,
+    "deployment_articles": 10,
     "conflict_articles": 2,
     "exercise_articles": 3,
     "total_articles": 40,
-    "computed_at": "2026-11-11T11:29:46.577167+00:00",
+    "computed_at": "2026-11-11T18:54:58.051917+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[USNI News] The Future of French Fleet Close-in Defense",
@@ -908,9 +910,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-11-11T11:29:46.577211+00:00",
+    "last_successful_update": "2026-11-11T18:54:58.051964+00:00",
     "article_count": 40,
-    "categorized_count": 15,
+    "categorized_count": 13,
     "freshest_source": "USNI News",
     "freshest_title": "The Future of French Fleet Close-in Defense",
     "freshest_published": "Fri, 06 Nov 2026 21:54:51 +0000"
