@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-11-12T01:06:09Z",
-  "version": 3177,
+  "generated_utc": "2026-11-12T08:53:50Z",
+  "version": 3178,
   "breaking_alert": "USNI News: The Future of French Fleet Close-in Defense",
   "naval_deployments": [
     {
@@ -640,9 +640,9 @@
       ]
     },
     {
-      "title": "Saab launches next generation 9LV naval combat system",
-      "link": "https://www.navalnews.com/event-news/euronaval-2026/2026/11/saab-launches-next-generation-9lv-naval-combat-system/",
-      "published": "Tue, 10 Nov 2026 07:09:00 +0000",
+      "title": "Australian naval propulsion specialist VEEM wins work on US Navy submarines",
+      "link": "https://www.navalnews.com/naval-news/2026/11/australian-propulsion-specialist-veem-wins-work-on-us-submarines/",
+      "published": "Thu, 12 Nov 2026 07:26:26 +0000",
       "source": "Naval News",
       "categories": [
         "deployment"
@@ -910,7 +910,7 @@
     "conflict_articles": 4,
     "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-11-12T01:06:03.457117+00:00",
+    "computed_at": "2026-11-12T08:53:42.837128+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[USNI News] The Future of French Fleet Close-in Defense",
@@ -928,7 +928,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-11-12T01:06:03.457187+00:00",
+    "last_successful_update": "2026-11-12T08:53:42.837173+00:00",
     "article_count": 50,
     "categorized_count": 16,
     "freshest_source": "USNI News",
