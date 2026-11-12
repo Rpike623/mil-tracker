@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-11-12T08:53:50Z",
-  "version": 3178,
-  "breaking_alert": "USNI News: The Future of French Fleet Close-in Defense",
+  "generated_utc": "2026-11-12T17:09:54Z",
+  "version": 3179,
+  "breaking_alert": "Task & Purpose: The Army wants more pilots to apply for its special operations helicopter regiment. Here’s why",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -594,24 +594,6 @@
   ],
   "_naval_news_refs": [
     {
-      "title": "The Future of French Fleet Close-in Defense",
-      "link": "https://news.usni.org/2026/11/06/the-future-of-french-fleet-close-in-defense",
-      "published": "Fri, 06 Nov 2026 21:54:51 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Tracking America’s latest conflict: The Iran war timeline",
-      "link": "https://taskandpurpose.com/news/iran-war-timeline/",
-      "published": "Mon, 09 Nov 2026 06:51:36 -0500",
-      "source": "Task & Purpose",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Hegseth faces possible impeachment over Iran war, boat strikes and Maduro Raid",
       "link": "https://taskandpurpose.com/news/hegseth-faces-possible-impeachment-over-iran-war-boat-strikes-and-maduro-raid/",
       "published": "Mon, 09 Nov 2026 15:35:47 -0500",
@@ -649,40 +631,57 @@
       ]
     },
     {
-      "title": "UK Launches £90M ‘Atlantic Net’ Project to Protect Undersea Cables and Hunt Submarines",
-      "link": "https://www.navalnews.com/naval-news/2026/11/90-million-investment-for-new-drones-and-sensors-to-protect-undersea-cables-and-hunt-russian-submarines/",
-      "published": "Tue, 10 Nov 2026 14:02:21 +0000",
+      "title": "Euronaval 2026: SeaOwl and KNDS Unveil Tracus Kamikaze USV",
+      "link": "https://www.navalnews.com/event-news/euronaval-2026/2026/11/euronaval-2026-seaowl-and-knds-unveil-tracus-kamikaze-usv/",
+      "published": "Thu, 12 Nov 2026 09:29:49 +0000",
       "source": "Naval News",
       "categories": [
         "deployment"
       ]
     },
     {
-      "title": "Ukraine urges US to speed up interceptor deliveries as Russia targets power grid",
-      "link": "https://www.defensenews.com/global/europe/2026/11/10/ukraine-urges-us-to-speed-up-interceptor-deliveries-as-russia-targets-power-grid/",
-      "published": "Tue, 10 Nov 2026 18:57:04 +0000",
+      "title": "Video: Fincantieri Unveils MMMV, Details FREMM Evo and DDX Destroyer",
+      "link": "https://www.navalnews.com/event-news/euronaval-2026/2026/11/video-fincantieri-unveils-mmmv-details-fremm-evo-and-ddx-destroyer/",
+      "published": "Thu, 12 Nov 2026 11:22:50 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Euronaval 2026: CMN Unveils 107-Meter Multi-Mission Corvette",
+      "link": "https://www.navalnews.com/event-news/euronaval-2026/2026/11/euronaval-2026-cmn-unveils-107-meter-multi-mission-corvette/",
+      "published": "Thu, 12 Nov 2026 14:23:05 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "3 Iranian-backed men indicted in attempted plot on RAF Fairford",
+      "link": "https://www.defensenews.com/global/europe/2026/11/12/3-iranian-backed-men-indicted-in-attempted-plot-on-raf-fairford/",
+      "published": "Thu, 12 Nov 2026 16:46:06 +0000",
       "source": "Defense News",
       "categories": [
         "deployment"
       ]
     },
     {
-      "title": "Most Americans want new Democratic Congress to end Trump’s Iran war, poll finds",
-      "link": "https://www.defensenews.com/global/mideast-africa/2026/11/10/most-americans-want-new-democratic-congress-to-end-trumps-iran-war-poll-finds/",
-      "published": "Tue, 10 Nov 2026 19:29:39 +0000",
-      "source": "Defense News",
+      "title": "3 Iranian-backed men indicted in attempted plot on RAF Fairford",
+      "link": "https://www.militarytimes.com/news/your-military/2026/11/12/3-iranian-backed-men-indicted-in-attempted-plot-on-raf-fairford/",
+      "published": "Thu, 12 Nov 2026 16:46:06 +0000",
+      "source": "Military Times",
       "categories": [
         "deployment"
       ]
     },
     {
-      "title": "Romanian servers targeted by Russian hackers to scoop up emails about NATO, EU",
-      "link": "https://www.defensenews.com/global/europe/2026/11/11/romanian-servers-targeted-by-russian-hackers-to-scoop-up-emails-about-nato-eu/",
-      "published": "Wed, 11 Nov 2026 12:08:33 +0000",
-      "source": "Defense News",
+      "title": "BREAKING: USS South Dakota Command Triad Relieved After October Grounding, Congressman Says",
+      "link": "https://news.usni.org/2026/11/12/breaking-uss-south-dakota-command-triad-relieved-after-october-grounding-congressman-says",
+      "published": "Thu, 12 Nov 2026 17:00:31 +0000",
+      "source": "USNI News",
       "categories": [
-        "deployment",
-        "exercise"
+        "deployment"
       ]
     }
   ],
@@ -848,10 +847,10 @@
       ]
     },
     {
-      "title": "BAE Systems accelerates delivery of advanced LRASM missile sensors",
-      "link": "https://www.navalnews.com/naval-news/2026/11/bae-systems-accelerates-delivery-of-advanced-lrasm-missile-sensors/",
-      "published": "Tue, 10 Nov 2026 15:10:31 +0000",
-      "source": "Naval News",
+      "title": "Finland says it detects strike on Russian warship in Baltic Sea",
+      "link": "https://www.defensenews.com/global/europe/2026/11/12/finland-says-it-detects-strike-on-russian-warship-in-baltic-sea/",
+      "published": "Thu, 12 Nov 2026 15:06:31 +0000",
+      "source": "Defense News",
       "categories": [
         "conflict"
       ]
@@ -886,10 +885,10 @@
       ]
     },
     {
-      "title": "First-ever Collaborative Combat Aircraft fly in formation, demonstrate air combat maneuvers",
-      "link": "https://www.defensenews.com/industry/techwatch/2026/11/10/first-ever-collaborative-combat-aircraft-fly-in-formation-demonstrate-air-combat-maneuvers/",
-      "published": "Tue, 10 Nov 2026 18:17:13 +0000",
-      "source": "Defense News",
+      "title": "Air Force aims for year-round operations at three Pacific islands",
+      "link": "https://taskandpurpose.com/news/air-force-pacific-islands-expanded-flights/",
+      "published": "Thu, 12 Nov 2026 11:13:26 -0500",
+      "source": "Task & Purpose",
       "categories": [
         "exercise"
       ]
@@ -906,18 +905,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 11,
+    "deployment_articles": 14,
     "conflict_articles": 4,
     "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-11-12T08:53:42.837128+00:00",
+    "computed_at": "2026-11-12T17:09:46.681740+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
-      "[USNI News] The Future of French Fleet Close-in Defense",
-      "[Task & Purpose] Tracking America’s latest conflict: The Iran war timeline",
       "[Task & Purpose] The Army wants more pilots to apply for its special operations helicopter regiment. Here’s why",
       "[Task & Purpose] Hegseth faces possible impeachment over Iran war, boat strikes and Maduro Raid",
-      "[USNI News] USNI News Fleet and Marine Tracker: Nov. 9, 2026"
+      "[USNI News] USNI News Fleet and Marine Tracker: Nov. 9, 2026",
+      "[USNI News] Hegseth Calls for Sweeping Military Education Changes in Naval War College Address",
+      "[Naval News] Australian naval propulsion specialist VEEM wins work on US Navy submarines"
     ]
   },
   "ground_intel": {
@@ -928,12 +927,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-11-12T08:53:42.837173+00:00",
+    "last_successful_update": "2026-11-12T17:09:46.681773+00:00",
     "article_count": 50,
-    "categorized_count": 16,
-    "freshest_source": "USNI News",
-    "freshest_title": "The Future of French Fleet Close-in Defense",
-    "freshest_published": "Fri, 06 Nov 2026 21:54:51 +0000"
+    "categorized_count": 19,
+    "freshest_source": "Task & Purpose",
+    "freshest_title": "The Army wants more pilots to apply for its special operations helicopter regiment. Here’s why",
+    "freshest_published": "Mon, 09 Nov 2026 10:44:25 -0500"
   },
   "_firms_hotspots": []
 }
