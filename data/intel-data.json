@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-11-12T17:09:54Z",
-  "version": 3179,
-  "breaking_alert": "Task & Purpose: The Army wants more pilots to apply for its special operations helicopter regiment. Here’s why",
+  "generated_utc": "2026-11-12T22:55:17Z",
+  "version": 3180,
+  "breaking_alert": "Task & Purpose: Hegseth faces possible impeachment over Iran war, boat strikes and Maduro Raid",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -604,57 +604,13 @@
       ]
     },
     {
-      "title": "USNI News Fleet and Marine Tracker: Nov. 9, 2026",
-      "link": "https://news.usni.org/2026/11/09/usni-news-fleet-and-marine-tracker-nov-9-2026",
-      "published": "Mon, 09 Nov 2026 19:18:38 +0000",
-      "source": "USNI News",
+      "title": "Soldier receives Bronze Star for Valor for ‘fearless actions’ after drone strike at start of Iran war",
+      "link": "https://taskandpurpose.com/news/bronze-star-valor-mcgrew-kuwait-attack/",
+      "published": "Thu, 12 Nov 2026 12:16:45 -0500",
+      "source": "Task & Purpose",
       "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Hegseth Calls for Sweeping Military Education Changes in Naval War College Address",
-      "link": "https://news.usni.org/2026/11/09/hegseth-calls-for-sweeping-military-education-changes-in-naval-war-college-address",
-      "published": "Mon, 09 Nov 2026 20:42:15 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Australian naval propulsion specialist VEEM wins work on US Navy submarines",
-      "link": "https://www.navalnews.com/naval-news/2026/11/australian-propulsion-specialist-veem-wins-work-on-us-submarines/",
-      "published": "Thu, 12 Nov 2026 07:26:26 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Euronaval 2026: SeaOwl and KNDS Unveil Tracus Kamikaze USV",
-      "link": "https://www.navalnews.com/event-news/euronaval-2026/2026/11/euronaval-2026-seaowl-and-knds-unveil-tracus-kamikaze-usv/",
-      "published": "Thu, 12 Nov 2026 09:29:49 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Video: Fincantieri Unveils MMMV, Details FREMM Evo and DDX Destroyer",
-      "link": "https://www.navalnews.com/event-news/euronaval-2026/2026/11/video-fincantieri-unveils-mmmv-details-fremm-evo-and-ddx-destroyer/",
-      "published": "Thu, 12 Nov 2026 11:22:50 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Euronaval 2026: CMN Unveils 107-Meter Multi-Mission Corvette",
-      "link": "https://www.navalnews.com/event-news/euronaval-2026/2026/11/euronaval-2026-cmn-unveils-107-meter-multi-mission-corvette/",
-      "published": "Thu, 12 Nov 2026 14:23:05 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment"
+        "deployment",
+        "conflict"
       ]
     },
     {
@@ -667,21 +623,67 @@
       ]
     },
     {
-      "title": "3 Iranian-backed men indicted in attempted plot on RAF Fairford",
-      "link": "https://www.militarytimes.com/news/your-military/2026/11/12/3-iranian-backed-men-indicted-in-attempted-plot-on-raf-fairford/",
-      "published": "Thu, 12 Nov 2026 16:46:06 +0000",
+      "title": "UPDATED: USS South Dakota Command Triad Relieved After October Grounding, Congressman Says",
+      "link": "https://news.usni.org/2026/11/12/breaking-uss-south-dakota-command-triad-relieved-after-october-grounding-congressman-says",
+      "published": "Thu, 12 Nov 2026 17:00:31 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "USS George H.W. Bush families told to prepare for year-long deployment",
+      "link": "https://www.militarytimes.com/news/your-military/2026/11/12/uss-george-h-w-bush-families-told-to-prepare-for-year-long-deployment/",
+      "published": "Thu, 12 Nov 2026 18:51:19 +0000",
       "source": "Military Times",
       "categories": [
         "deployment"
       ]
     },
     {
-      "title": "BREAKING: USS South Dakota Command Triad Relieved After October Grounding, Congressman Says",
-      "link": "https://news.usni.org/2026/11/12/breaking-uss-south-dakota-command-triad-relieved-after-october-grounding-congressman-says",
-      "published": "Thu, 12 Nov 2026 17:00:31 +0000",
+      "title": "Navy Quietly Removed USS Michael Murphy Commander in September",
+      "link": "https://news.usni.org/2026/11/12/navy-quietly-removes-uss-michael-murphy-commander",
+      "published": "Thu, 12 Nov 2026 18:59:33 +0000",
       "source": "USNI News",
       "categories": [
         "deployment"
+      ]
+    },
+    {
+      "title": "Royal Navy to Trial Northrop Grumman Test Aircraft on Carrier in 2027",
+      "link": "https://news.usni.org/2026/11/12/royal-navy-to-trial-northrop-grumman-test-aircraft-on-carrier-in-2027",
+      "published": "Thu, 12 Nov 2026 20:27:56 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Democrats push to remove US-Israel tech measure from defense bill",
+      "link": "https://www.defensenews.com/congress/2026/11/12/democrats-push-to-remove-us-israel-tech-measure-from-defense-bill/",
+      "published": "Thu, 12 Nov 2026 22:21:53 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Democrats push to remove US-Israel tech measure from defense bill",
+      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/11/12/democrats-push-to-remove-us-israel-tech-measure-from-defense-bill/",
+      "published": "Thu, 12 Nov 2026 22:21:53 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Romanian servers targeted by Russian hackers to scoop up emails about NATO, EU",
+      "link": "https://www.defensenews.com/global/europe/2026/11/11/romanian-servers-targeted-by-russian-hackers-to-scoop-up-emails-about-nato-eu/",
+      "published": "Wed, 11 Nov 2026 12:08:33 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment",
+        "exercise"
       ]
     }
   ],
@@ -847,6 +849,16 @@
       ]
     },
     {
+      "title": "Soldier receives Bronze Star for Valor for ‘fearless actions’ after drone strike at start of Iran war",
+      "link": "https://taskandpurpose.com/news/bronze-star-valor-mcgrew-kuwait-attack/",
+      "published": "Thu, 12 Nov 2026 12:16:45 -0500",
+      "source": "Task & Purpose",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
+    },
+    {
       "title": "Finland says it detects strike on Russian warship in Baltic Sea",
       "link": "https://www.defensenews.com/global/europe/2026/11/12/finland-says-it-detects-strike-on-russian-warship-in-baltic-sea/",
       "published": "Thu, 12 Nov 2026 15:06:31 +0000",
@@ -863,27 +875,9 @@
       "categories": [
         "conflict"
       ]
-    },
-    {
-      "title": "Rafael Unveils Super Ice Cruise Missile with 1,000-lb Warhead",
-      "link": "https://www.navalnews.com/naval-news/2026/11/rafael-unveils-super-ice-cruise-missile-with-1000-lb-warhead/",
-      "published": "Wed, 11 Nov 2026 09:03:14 +0000",
-      "source": "Naval News",
-      "categories": [
-        "conflict"
-      ]
     }
   ],
   "_exercise_news_refs": [
-    {
-      "title": "The Army wants more pilots to apply for its special operations helicopter regiment. Here’s why",
-      "link": "https://taskandpurpose.com/news/army-special-ops-helicopter-160th-soar/",
-      "published": "Mon, 09 Nov 2026 10:44:25 -0500",
-      "source": "Task & Purpose",
-      "categories": [
-        "exercise"
-      ]
-    },
     {
       "title": "Air Force aims for year-round operations at three Pacific islands",
       "link": "https://taskandpurpose.com/news/air-force-pacific-islands-expanded-flights/",
@@ -905,18 +899,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 14,
+    "deployment_articles": 10,
     "conflict_articles": 4,
-    "exercise_articles": 3,
-    "total_articles": 50,
-    "computed_at": "2026-11-12T17:09:46.681740+00:00",
+    "exercise_articles": 2,
+    "total_articles": 40,
+    "computed_at": "2026-11-12T22:54:55.717918+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
-      "[Task & Purpose] The Army wants more pilots to apply for its special operations helicopter regiment. Here’s why",
       "[Task & Purpose] Hegseth faces possible impeachment over Iran war, boat strikes and Maduro Raid",
-      "[USNI News] USNI News Fleet and Marine Tracker: Nov. 9, 2026",
-      "[USNI News] Hegseth Calls for Sweeping Military Education Changes in Naval War College Address",
-      "[Naval News] Australian naval propulsion specialist VEEM wins work on US Navy submarines"
+      "[Task & Purpose] Air Force aims for year-round operations at three Pacific islands",
+      "[Task & Purpose] Soldier receives Bronze Star for Valor for ‘fearless actions’ after drone strike at start of Iran war",
+      "[Defense News] Finland says it detects strike on Russian warship in Baltic Sea",
+      "[Defense News] 3 Iranian-backed men indicted in attempted plot on RAF Fairford"
     ]
   },
   "ground_intel": {
@@ -927,12 +921,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-11-12T17:09:46.681773+00:00",
-    "article_count": 50,
-    "categorized_count": 19,
+    "last_successful_update": "2026-11-12T22:54:55.717981+00:00",
+    "article_count": 40,
+    "categorized_count": 13,
     "freshest_source": "Task & Purpose",
-    "freshest_title": "The Army wants more pilots to apply for its special operations helicopter regiment. Here’s why",
-    "freshest_published": "Mon, 09 Nov 2026 10:44:25 -0500"
+    "freshest_title": "Hegseth faces possible impeachment over Iran war, boat strikes and Maduro Raid",
+    "freshest_published": "Mon, 09 Nov 2026 15:35:47 -0500"
   },
   "_firms_hotspots": []
 }
