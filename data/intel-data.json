@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-11-11T18:55:25Z",
-  "version": 3176,
+  "generated_utc": "2026-11-12T01:06:09Z",
+  "version": 3177,
   "breaking_alert": "USNI News: The Future of French Fleet Close-in Defense",
   "naval_deployments": [
     {
@@ -640,6 +640,24 @@
       ]
     },
     {
+      "title": "Saab launches next generation 9LV naval combat system",
+      "link": "https://www.navalnews.com/event-news/euronaval-2026/2026/11/saab-launches-next-generation-9lv-naval-combat-system/",
+      "published": "Tue, 10 Nov 2026 07:09:00 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "UK Launches £90M ‘Atlantic Net’ Project to Protect Undersea Cables and Hunt Submarines",
+      "link": "https://www.navalnews.com/naval-news/2026/11/90-million-investment-for-new-drones-and-sensors-to-protect-undersea-cables-and-hunt-russian-submarines/",
+      "published": "Tue, 10 Nov 2026 14:02:21 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "Ukraine urges US to speed up interceptor deliveries as Russia targets power grid",
       "link": "https://www.defensenews.com/global/europe/2026/11/10/ukraine-urges-us-to-speed-up-interceptor-deliveries-as-russia-targets-power-grid/",
       "published": "Tue, 10 Nov 2026 18:57:04 +0000",
@@ -649,28 +667,10 @@
       ]
     },
     {
-      "title": "Ukraine urges US to speed up interceptor deliveries as Russia targets power grid",
-      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/11/10/ukraine-urges-us-to-speed-up-interceptor-deliveries-as-russia-targets-power-grid/",
-      "published": "Tue, 10 Nov 2026 18:57:04 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Most Americans want new Democratic Congress to end Trump’s Iran war, poll finds",
       "link": "https://www.defensenews.com/global/mideast-africa/2026/11/10/most-americans-want-new-democratic-congress-to-end-trumps-iran-war-poll-finds/",
       "published": "Tue, 10 Nov 2026 19:29:39 +0000",
       "source": "Defense News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Most Americans want new Democratic Congress to end Trump’s Iran war, poll finds",
-      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/11/10/most-americans-want-new-democratic-congress-to-end-trumps-iran-war-poll-finds/",
-      "published": "Tue, 10 Nov 2026 19:29:39 +0000",
-      "source": "Military Times",
       "categories": [
         "deployment"
       ]
@@ -848,10 +848,28 @@
       ]
     },
     {
+      "title": "BAE Systems accelerates delivery of advanced LRASM missile sensors",
+      "link": "https://www.navalnews.com/naval-news/2026/11/bae-systems-accelerates-delivery-of-advanced-lrasm-missile-sensors/",
+      "published": "Tue, 10 Nov 2026 15:10:31 +0000",
+      "source": "Naval News",
+      "categories": [
+        "conflict"
+      ]
+    },
+    {
       "title": "Hegseth calls boat strikes ‘lawful’ and ‘successful’ after calls for impeachment",
       "link": "https://taskandpurpose.com/news/hegseth-impeachment-boat-strikes/",
       "published": "Tue, 10 Nov 2026 15:21:33 -0500",
       "source": "Task & Purpose",
+      "categories": [
+        "conflict"
+      ]
+    },
+    {
+      "title": "Rafael Unveils Super Ice Cruise Missile with 1,000-lb Warhead",
+      "link": "https://www.navalnews.com/naval-news/2026/11/rafael-unveils-super-ice-cruise-missile-with-1000-lb-warhead/",
+      "published": "Wed, 11 Nov 2026 09:03:14 +0000",
+      "source": "Naval News",
       "categories": [
         "conflict"
       ]
@@ -888,11 +906,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 10,
-    "conflict_articles": 2,
+    "deployment_articles": 11,
+    "conflict_articles": 4,
     "exercise_articles": 3,
-    "total_articles": 40,
-    "computed_at": "2026-11-11T18:54:58.051917+00:00",
+    "total_articles": 50,
+    "computed_at": "2026-11-12T01:06:03.457117+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[USNI News] The Future of French Fleet Close-in Defense",
@@ -910,9 +928,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-11-11T18:54:58.051964+00:00",
-    "article_count": 40,
-    "categorized_count": 13,
+    "last_successful_update": "2026-11-12T01:06:03.457187+00:00",
+    "article_count": 50,
+    "categorized_count": 16,
     "freshest_source": "USNI News",
     "freshest_title": "The Future of French Fleet Close-in Defense",
     "freshest_published": "Fri, 06 Nov 2026 21:54:51 +0000"
