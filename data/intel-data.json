@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-11-12T22:55:17Z",
-  "version": 3180,
-  "breaking_alert": "Task & Purpose: Hegseth faces possible impeachment over Iran war, boat strikes and Maduro Raid",
+  "generated_utc": "2026-11-13T02:59:17Z",
+  "version": 3181,
+  "breaking_alert": "Military Times: USS South Dakota command triad fired, draws ire of congressmen",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -594,6 +594,15 @@
   ],
   "_naval_news_refs": [
     {
+      "title": "USS South Dakota command triad fired, draws ire of congressmen",
+      "link": "https://www.militarytimes.com/news/your-military/2026/11/12/uss-south-dakota-command-triad-fired-draws-ire-of-congressmen/",
+      "published": "Fri, 13 Nov 2026 00:56:40 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "Hegseth faces possible impeachment over Iran war, boat strikes and Maduro Raid",
       "link": "https://taskandpurpose.com/news/hegseth-faces-possible-impeachment-over-iran-war-boat-strikes-and-maduro-raid/",
       "published": "Mon, 09 Nov 2026 15:35:47 -0500",
@@ -674,16 +683,6 @@
       "source": "Military Times",
       "categories": [
         "deployment"
-      ]
-    },
-    {
-      "title": "Romanian servers targeted by Russian hackers to scoop up emails about NATO, EU",
-      "link": "https://www.defensenews.com/global/europe/2026/11/11/romanian-servers-targeted-by-russian-hackers-to-scoop-up-emails-about-nato-eu/",
-      "published": "Wed, 11 Nov 2026 12:08:33 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment",
-        "exercise"
       ]
     }
   ],
@@ -868,6 +867,15 @@
       ]
     },
     {
+      "title": "SSN(X) Attack Boat Will be a Swift, Lethal Mothership for Undersea Drones, Navy Says",
+      "link": "https://news.usni.org/2026/11/12/ssnx-attack-boat-will-be-a-swift-lethal-mothership-for-undersea-drones-navy-says",
+      "published": "Thu, 12 Nov 2026 23:00:43 +0000",
+      "source": "USNI News",
+      "categories": [
+        "conflict"
+      ]
+    },
+    {
       "title": "Hegseth calls boat strikes ‘lawful’ and ‘successful’ after calls for impeachment",
       "link": "https://taskandpurpose.com/news/hegseth-impeachment-boat-strikes/",
       "published": "Tue, 10 Nov 2026 15:21:33 -0500",
@@ -899,18 +907,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 10,
-    "conflict_articles": 4,
+    "deployment_articles": 11,
+    "conflict_articles": 5,
     "exercise_articles": 2,
     "total_articles": 40,
-    "computed_at": "2026-11-12T22:54:55.717918+00:00",
+    "computed_at": "2026-11-13T02:59:08.672850+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
+      "[Military Times] USS South Dakota command triad fired, draws ire of congressmen",
       "[Task & Purpose] Hegseth faces possible impeachment over Iran war, boat strikes and Maduro Raid",
       "[Task & Purpose] Air Force aims for year-round operations at three Pacific islands",
       "[Task & Purpose] Soldier receives Bronze Star for Valor for ‘fearless actions’ after drone strike at start of Iran war",
-      "[Defense News] Finland says it detects strike on Russian warship in Baltic Sea",
-      "[Defense News] 3 Iranian-backed men indicted in attempted plot on RAF Fairford"
+      "[Defense News] Finland says it detects strike on Russian warship in Baltic Sea"
     ]
   },
   "ground_intel": {
@@ -921,12 +929,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-11-12T22:54:55.717981+00:00",
+    "last_successful_update": "2026-11-13T02:59:08.672880+00:00",
     "article_count": 40,
-    "categorized_count": 13,
-    "freshest_source": "Task & Purpose",
-    "freshest_title": "Hegseth faces possible impeachment over Iran war, boat strikes and Maduro Raid",
-    "freshest_published": "Mon, 09 Nov 2026 15:35:47 -0500"
+    "categorized_count": 15,
+    "freshest_source": "Military Times",
+    "freshest_title": "USS South Dakota command triad fired, draws ire of congressmen",
+    "freshest_published": "Fri, 13 Nov 2026 00:56:40 +0000"
   },
   "_firms_hotspots": []
 }
