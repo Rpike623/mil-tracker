@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-11-13T18:11:09Z",
-  "version": 3183,
-  "breaking_alert": "Military Times: USS South Dakota command triad fired, draws ire of congressmen",
+  "generated_utc": "2026-11-13T23:57:57Z",
+  "version": 3184,
+  "breaking_alert": "Naval News: Naval Unmanned Systems Showcased at Taiwan’s Marine Tech Show",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -594,10 +594,10 @@
   ],
   "_naval_news_refs": [
     {
-      "title": "USS South Dakota command triad fired, draws ire of congressmen",
-      "link": "https://www.militarytimes.com/news/your-military/2026/11/12/uss-south-dakota-command-triad-fired-draws-ire-of-congressmen/",
-      "published": "Fri, 13 Nov 2026 00:56:40 +0000",
-      "source": "Military Times",
+      "title": "Naval Unmanned Systems Showcased at Taiwan’s Marine Tech Show",
+      "link": "https://www.navalnews.com/naval-news/2026/11/naval-unmanned-systems-showcased-at-taiwans-marine-tech-show/",
+      "published": "Fri, 13 Nov 2026 06:29:00 +0000",
+      "source": "Naval News",
       "categories": [
         "deployment"
       ]
@@ -612,10 +612,55 @@
       ]
     },
     {
+      "title": "Beyond the Hype: French Navy Chief Advocates for a ‘Reasoned’ Hybrid Fleet",
+      "link": "https://www.navalnews.com/interviews/2026/11/french-navy-chief-reasoned-hybrid-fleet/",
+      "published": "Fri, 13 Nov 2026 09:25:44 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "SUBPAC Commander Warns of Rapid Expansion in Chinese and Russian Submarine Fleets",
+      "link": "https://www.navalnews.com/naval-news/2026/11/subpac-commander-warns-of-rapid-expansion-in-chinese-and-russian-submarine-fleets/",
+      "published": "Fri, 13 Nov 2026 12:59:29 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "Turkey and Egypt weigh joint naval shipbuilding projects",
       "link": "https://www.defensenews.com/global/mideast-africa/2026/11/13/turkey-and-egypt-weigh-joint-naval-shipbuilding-projects/",
       "published": "Fri, 13 Nov 2026 14:22:17 +0000",
       "source": "Defense News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Navy relieves commander of destroyer USS Michael Murphy",
+      "link": "https://taskandpurpose.com/news/navy-uss-michael-murphy-caitlin-cunningham-fired/",
+      "published": "Fri, 13 Nov 2026 15:33:26 -0500",
+      "source": "Task & Purpose",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Euronaval 2026: SeaOwl and KNDS Unveil Tracus Kamikaze USV",
+      "link": "https://www.navalnews.com/event-news/euronaval-2026/2026/11/euronaval-2026-seaowl-and-knds-unveil-tracus-kamikaze-usv/",
+      "published": "Thu, 12 Nov 2026 09:29:49 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Video: Fincantieri Unveils MMMV, Details FREMM Evo and DDX Destroyer",
+      "link": "https://www.navalnews.com/event-news/euronaval-2026/2026/11/video-fincantieri-unveils-mmmv-details-fremm-evo-and-ddx-destroyer/",
+      "published": "Thu, 12 Nov 2026 11:22:50 +0000",
+      "source": "Naval News",
       "categories": [
         "deployment"
       ]
@@ -631,46 +676,10 @@
       ]
     },
     {
-      "title": "UPDATED: USS South Dakota Command Triad Relieved After October Grounding, Congressman Says",
-      "link": "https://news.usni.org/2026/11/12/breaking-uss-south-dakota-command-triad-relieved-after-october-grounding-congressman-says",
-      "published": "Thu, 12 Nov 2026 17:00:31 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Navy Quietly Removed USS Michael Murphy Commander in September",
-      "link": "https://news.usni.org/2026/11/12/navy-quietly-removes-uss-michael-murphy-commander",
-      "published": "Thu, 12 Nov 2026 18:59:33 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Royal Navy to Trial Northrop Grumman Test Aircraft on Carrier in 2027",
-      "link": "https://news.usni.org/2026/11/12/royal-navy-to-trial-northrop-grumman-test-aircraft-on-carrier-in-2027",
-      "published": "Thu, 12 Nov 2026 20:27:56 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Democrats push to remove US-Israel tech measure from defense bill",
-      "link": "https://www.defensenews.com/congress/2026/11/12/democrats-push-to-remove-us-israel-tech-measure-from-defense-bill/",
-      "published": "Thu, 12 Nov 2026 22:21:53 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Democrats push to remove US-Israel tech measure from defense bill",
-      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/11/12/democrats-push-to-remove-us-israel-tech-measure-from-defense-bill/",
-      "published": "Thu, 12 Nov 2026 22:21:53 +0000",
-      "source": "Military Times",
+      "title": "Euronaval 2026: CMN Unveils 107-Meter Multi-Mission Corvette",
+      "link": "https://www.navalnews.com/event-news/euronaval-2026/2026/11/euronaval-2026-cmn-unveils-107-meter-multi-mission-corvette/",
+      "published": "Thu, 12 Nov 2026 14:23:05 +0000",
+      "source": "Naval News",
       "categories": [
         "deployment"
       ]
@@ -858,6 +867,15 @@
   ],
   "_exercise_news_refs": [
     {
+      "title": "The Pentagon brings back World War II-era OSS for special operations missions, funding",
+      "link": "https://taskandpurpose.com/news/hegseth-oss-special-operations/",
+      "published": "Fri, 13 Nov 2026 13:51:27 -0500",
+      "source": "Task & Purpose",
+      "categories": [
+        "exercise"
+      ]
+    },
+    {
       "title": "Air Force aims for year-round operations at three Pacific islands",
       "link": "https://taskandpurpose.com/news/air-force-pacific-islands-expanded-flights/",
       "published": "Thu, 12 Nov 2026 11:13:26 -0500",
@@ -868,18 +886,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 9,
+    "deployment_articles": 14,
     "conflict_articles": 3,
-    "exercise_articles": 1,
-    "total_articles": 40,
-    "computed_at": "2026-11-13T18:11:03.905724+00:00",
+    "exercise_articles": 2,
+    "total_articles": 50,
+    "computed_at": "2026-11-13T23:57:50.763214+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
-      "[Military Times] USS South Dakota command triad fired, draws ire of congressmen",
+      "[Naval News] Naval Unmanned Systems Showcased at Taiwan’s Marine Tech Show",
       "[Task & Purpose] Entire command team of USS South Dakota relieved following grounding incident",
-      "[Defense News] Turkey and Egypt weigh joint naval shipbuilding projects",
-      "[Task & Purpose] Air Force aims for year-round operations at three Pacific islands",
-      "[Task & Purpose] Soldier receives Bronze Star for Valor for ‘fearless actions’ after drone strike at start of Iran war"
+      "[Naval News] Beyond the Hype: French Navy Chief Advocates for a ‘Reasoned’ Hybrid Fleet",
+      "[Naval News] SUBPAC Commander Warns of Rapid Expansion in Chinese and Russian Submarine Fleets",
+      "[Task & Purpose] The Pentagon brings back World War II-era OSS for special operations missions, funding"
     ]
   },
   "ground_intel": {
@@ -890,12 +908,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-11-13T18:11:03.905766+00:00",
-    "article_count": 40,
-    "categorized_count": 12,
-    "freshest_source": "Military Times",
-    "freshest_title": "USS South Dakota command triad fired, draws ire of congressmen",
-    "freshest_published": "Fri, 13 Nov 2026 00:56:40 +0000"
+    "last_successful_update": "2026-11-13T23:57:50.763258+00:00",
+    "article_count": 50,
+    "categorized_count": 18,
+    "freshest_source": "Naval News",
+    "freshest_title": "Naval Unmanned Systems Showcased at Taiwan’s Marine Tech Show",
+    "freshest_published": "Fri, 13 Nov 2026 06:29:00 +0000"
   },
   "_firms_hotspots": []
 }
