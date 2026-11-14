@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-11-14T04:33:44Z",
-  "version": 3185,
+  "generated_utc": "2026-11-14T11:49:13Z",
+  "version": 3186,
   "breaking_alert": "Naval News: Naval Unmanned Systems Showcased at Taiwan’s Marine Tech Show",
   "naval_deployments": [
     {
@@ -648,9 +648,9 @@
       ]
     },
     {
-      "title": "Euronaval 2026: SeaOwl and KNDS Unveil Tracus Kamikaze USV",
-      "link": "https://www.navalnews.com/event-news/euronaval-2026/2026/11/euronaval-2026-seaowl-and-knds-unveil-tracus-kamikaze-usv/",
-      "published": "Thu, 12 Nov 2026 09:29:49 +0000",
+      "title": "Naval Group Unveils SCX 26 ‘Hybrid Fleet’ Drone Mothership Concept",
+      "link": "https://www.navalnews.com/event-news/euronaval-2026/2026/11/naval-group-presents-scx-26-combatant-as-naval-drone-hub/",
+      "published": "Sat, 14 Nov 2026 08:57:28 +0000",
       "source": "Naval News",
       "categories": [
         "deployment"
@@ -890,7 +890,7 @@
     "conflict_articles": 3,
     "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-11-14T04:33:38.845194+00:00",
+    "computed_at": "2026-11-14T11:49:04.844043+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] Naval Unmanned Systems Showcased at Taiwan’s Marine Tech Show",
@@ -908,7 +908,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-11-14T04:33:38.845238+00:00",
+    "last_successful_update": "2026-11-14T11:49:04.844087+00:00",
     "article_count": 50,
     "categorized_count": 18,
     "freshest_source": "Naval News",
