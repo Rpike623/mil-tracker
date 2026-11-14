@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-11-14T11:49:13Z",
-  "version": 3186,
+  "generated_utc": "2026-11-14T17:22:50Z",
+  "version": 3187,
   "breaking_alert": "Naval News: Naval Unmanned Systems Showcased at Taiwan’s Marine Tech Show",
   "naval_deployments": [
     {
@@ -657,15 +657,6 @@
       ]
     },
     {
-      "title": "Video: Fincantieri Unveils MMMV, Details FREMM Evo and DDX Destroyer",
-      "link": "https://www.navalnews.com/event-news/euronaval-2026/2026/11/video-fincantieri-unveils-mmmv-details-fremm-evo-and-ddx-destroyer/",
-      "published": "Thu, 12 Nov 2026 11:22:50 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Soldier receives Bronze Star for Valor for ‘fearless actions’ after drone strike at start of Iran war",
       "link": "https://taskandpurpose.com/news/bronze-star-valor-mcgrew-kuwait-attack/",
       "published": "Thu, 12 Nov 2026 12:16:45 -0500",
@@ -680,6 +671,15 @@
       "link": "https://www.navalnews.com/event-news/euronaval-2026/2026/11/euronaval-2026-cmn-unveils-107-meter-multi-mission-corvette/",
       "published": "Thu, 12 Nov 2026 14:23:05 +0000",
       "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "UPDATED: USS South Dakota Command Triad Relieved After October Grounding, Congressman Says",
+      "link": "https://news.usni.org/2026/11/12/breaking-uss-south-dakota-command-triad-relieved-after-october-grounding-congressman-says",
+      "published": "Thu, 12 Nov 2026 17:00:31 +0000",
+      "source": "USNI News",
       "categories": [
         "deployment"
       ]
@@ -854,15 +854,6 @@
       "categories": [
         "conflict"
       ]
-    },
-    {
-      "title": "Hegseth calls boat strikes ‘lawful’ and ‘successful’ after calls for impeachment",
-      "link": "https://taskandpurpose.com/news/hegseth-impeachment-boat-strikes/",
-      "published": "Tue, 10 Nov 2026 15:21:33 -0500",
-      "source": "Task & Purpose",
-      "categories": [
-        "conflict"
-      ]
     }
   ],
   "_exercise_news_refs": [
@@ -886,11 +877,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 14,
-    "conflict_articles": 3,
+    "deployment_articles": 13,
+    "conflict_articles": 2,
     "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-11-14T11:49:04.844043+00:00",
+    "computed_at": "2026-11-14T17:22:33.240533+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] Naval Unmanned Systems Showcased at Taiwan’s Marine Tech Show",
@@ -908,9 +899,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-11-14T11:49:04.844087+00:00",
+    "last_successful_update": "2026-11-14T17:22:33.240569+00:00",
     "article_count": 50,
-    "categorized_count": 18,
+    "categorized_count": 16,
     "freshest_source": "Naval News",
     "freshest_title": "Naval Unmanned Systems Showcased at Taiwan’s Marine Tech Show",
     "freshest_published": "Fri, 13 Nov 2026 06:29:00 +0000"
