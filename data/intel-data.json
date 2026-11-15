@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-11-14T21:43:04Z",
-  "version": 3188,
+  "generated_utc": "2026-11-15T01:22:46Z",
+  "version": 3189,
   "breaking_alert": "Naval News: Naval Unmanned Systems Showcased at Taiwan’s Marine Tech Show",
   "naval_deployments": [
     {
@@ -881,7 +881,7 @@
     "conflict_articles": 2,
     "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-11-14T21:43:02.889758+00:00",
+    "computed_at": "2026-11-15T01:22:36.276811+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] Naval Unmanned Systems Showcased at Taiwan’s Marine Tech Show",
@@ -899,7 +899,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-11-14T21:43:02.889806+00:00",
+    "last_successful_update": "2026-11-15T01:22:36.276850+00:00",
     "article_count": 50,
     "categorized_count": 16,
     "freshest_source": "Naval News",
