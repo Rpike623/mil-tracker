@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-11-16T07:23:47Z",
-  "version": 3194,
-  "breaking_alert": "Naval News: Naval Unmanned Systems Showcased at Taiwan’s Marine Tech Show",
+  "generated_utc": "2026-11-16T17:32:53Z",
+  "version": 3195,
+  "breaking_alert": "Task & Purpose: Entire command team of USS South Dakota relieved following grounding incident",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -594,46 +594,10 @@
   ],
   "_naval_news_refs": [
     {
-      "title": "Naval Unmanned Systems Showcased at Taiwan’s Marine Tech Show",
-      "link": "https://www.navalnews.com/naval-news/2026/11/naval-unmanned-systems-showcased-at-taiwans-marine-tech-show/",
-      "published": "Fri, 13 Nov 2026 06:29:00 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Entire command team of USS South Dakota relieved following grounding incident",
       "link": "https://taskandpurpose.com/news/navy-relieves-uss-south-dakota-leaders/",
       "published": "Fri, 13 Nov 2026 07:27:51 -0500",
       "source": "Task & Purpose",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Beyond the Hype: French Navy Chief Advocates for a ‘Reasoned’ Hybrid Fleet",
-      "link": "https://www.navalnews.com/interviews/2026/11/french-navy-chief-reasoned-hybrid-fleet/",
-      "published": "Fri, 13 Nov 2026 09:25:44 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "SUBPAC Commander Warns of Rapid Expansion in Chinese and Russian Submarine Fleets",
-      "link": "https://www.navalnews.com/naval-news/2026/11/subpac-commander-warns-of-rapid-expansion-in-chinese-and-russian-submarine-fleets/",
-      "published": "Fri, 13 Nov 2026 12:59:29 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Turkey and Egypt weigh joint naval shipbuilding projects",
-      "link": "https://www.defensenews.com/global/mideast-africa/2026/11/13/turkey-and-egypt-weigh-joint-naval-shipbuilding-projects/",
-      "published": "Fri, 13 Nov 2026 14:22:17 +0000",
-      "source": "Defense News",
       "categories": [
         "deployment"
       ]
@@ -648,29 +612,19 @@
       ]
     },
     {
-      "title": "Naval Group Unveils SCX 26 ‘Hybrid Fleet’ Drone Mothership Concept",
-      "link": "https://www.navalnews.com/event-news/euronaval-2026/2026/11/naval-group-presents-scx-26-combatant-as-naval-drone-hub/",
-      "published": "Sat, 14 Nov 2026 08:57:28 +0000",
-      "source": "Naval News",
+      "title": "Tracking America’s latest conflict: The Iran war timeline",
+      "link": "https://taskandpurpose.com/news/iran-war-timeline/",
+      "published": "Mon, 16 Nov 2026 05:40:43 -0500",
+      "source": "Task & Purpose",
       "categories": [
         "deployment"
       ]
     },
     {
-      "title": "Soldier receives Bronze Star for Valor for ‘fearless actions’ after drone strike at start of Iran war",
-      "link": "https://taskandpurpose.com/news/bronze-star-valor-mcgrew-kuwait-attack/",
-      "published": "Thu, 12 Nov 2026 12:16:45 -0500",
-      "source": "Task & Purpose",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
-      "title": "Euronaval 2026: CMN Unveils 107-Meter Multi-Mission Corvette",
-      "link": "https://www.navalnews.com/event-news/euronaval-2026/2026/11/euronaval-2026-cmn-unveils-107-meter-multi-mission-corvette/",
-      "published": "Thu, 12 Nov 2026 14:23:05 +0000",
-      "source": "Naval News",
+      "title": "China has ‘normalized’ naval presence near Japan since political spat of 2025",
+      "link": "https://www.defensenews.com/global/asia-pacific/2026/11/16/china-has-normalized-naval-presence-near-japan-since-political-spat-of-2025/",
+      "published": "Mon, 16 Nov 2026 17:02:51 +0000",
+      "source": "Defense News",
       "categories": [
         "deployment"
       ]
@@ -679,6 +633,24 @@
       "title": "UPDATED: USS South Dakota Command Triad Relieved After October Grounding, Congressman Says",
       "link": "https://news.usni.org/2026/11/12/breaking-uss-south-dakota-command-triad-relieved-after-october-grounding-congressman-says",
       "published": "Thu, 12 Nov 2026 17:00:31 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Navy Quietly Removed USS Michael Murphy Commander in September",
+      "link": "https://news.usni.org/2026/11/12/navy-quietly-removes-uss-michael-murphy-commander",
+      "published": "Thu, 12 Nov 2026 18:59:33 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Royal Navy to Trial Northrop Grumman Test Aircraft on Carrier in 2027",
+      "link": "https://news.usni.org/2026/11/12/royal-navy-to-trial-northrop-grumman-test-aircraft-on-carrier-in-2027",
+      "published": "Thu, 12 Nov 2026 20:27:56 +0000",
       "source": "USNI News",
       "categories": [
         "deployment"
@@ -837,12 +809,11 @@
   },
   "_conflict_news_refs": [
     {
-      "title": "Soldier receives Bronze Star for Valor for ‘fearless actions’ after drone strike at start of Iran war",
-      "link": "https://taskandpurpose.com/news/bronze-star-valor-mcgrew-kuwait-attack/",
-      "published": "Thu, 12 Nov 2026 12:16:45 -0500",
-      "source": "Task & Purpose",
+      "title": "Estonia to close border with Russia after arson attack on local drone maker",
+      "link": "https://www.defensenews.com/global/europe/2026/11/16/estonia-to-close-border-with-russia-after-arson-attack-on-local-drone-maker/",
+      "published": "Mon, 16 Nov 2026 13:23:20 +0000",
+      "source": "Defense News",
       "categories": [
-        "deployment",
         "conflict"
       ]
     },
@@ -867,9 +838,9 @@
       ]
     },
     {
-      "title": "Air Force aims for year-round operations at three Pacific islands",
-      "link": "https://taskandpurpose.com/news/air-force-pacific-islands-expanded-flights/",
-      "published": "Thu, 12 Nov 2026 11:13:26 -0500",
+      "title": "Marine Corps relieves Tactical Training Exercise Control Group commander without explanation",
+      "link": "https://taskandpurpose.com/news/marine-colonel-meador-relieved-twentynine-palms/",
+      "published": "Mon, 16 Nov 2026 11:55:34 -0500",
       "source": "Task & Purpose",
       "categories": [
         "exercise"
@@ -877,18 +848,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 13,
+    "deployment_articles": 7,
     "conflict_articles": 2,
     "exercise_articles": 2,
-    "total_articles": 50,
-    "computed_at": "2026-11-16T07:23:39.340077+00:00",
-    "manual_override": "DEFCON_3",
+    "total_articles": 40,
+    "computed_at": "2026-11-16T17:32:46.766538+00:00",
+    "manual_override": "DEFCON_4",
     "breaking_events": [
-      "[Naval News] Naval Unmanned Systems Showcased at Taiwan’s Marine Tech Show",
       "[Task & Purpose] Entire command team of USS South Dakota relieved following grounding incident",
-      "[Naval News] Beyond the Hype: French Navy Chief Advocates for a ‘Reasoned’ Hybrid Fleet",
-      "[Naval News] SUBPAC Commander Warns of Rapid Expansion in Chinese and Russian Submarine Fleets",
-      "[Task & Purpose] The Pentagon brings back World War II-era OSS for special operations missions, funding"
+      "[Task & Purpose] The Pentagon brings back World War II-era OSS for special operations missions, funding",
+      "[Task & Purpose] Navy relieves commander of destroyer USS Michael Murphy",
+      "[Task & Purpose] Tracking America’s latest conflict: The Iran war timeline",
+      "[Task & Purpose] Marine Corps relieves Tactical Training Exercise Control Group commander without explanation"
     ]
   },
   "ground_intel": {
@@ -899,12 +870,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-11-16T07:23:39.340124+00:00",
-    "article_count": 50,
-    "categorized_count": 16,
-    "freshest_source": "Naval News",
-    "freshest_title": "Naval Unmanned Systems Showcased at Taiwan’s Marine Tech Show",
-    "freshest_published": "Fri, 13 Nov 2026 06:29:00 +0000"
+    "last_successful_update": "2026-11-16T17:32:46.766577+00:00",
+    "article_count": 40,
+    "categorized_count": 11,
+    "freshest_source": "Task & Purpose",
+    "freshest_title": "Entire command team of USS South Dakota relieved following grounding incident",
+    "freshest_published": "Fri, 13 Nov 2026 07:27:51 -0500"
   },
   "_firms_hotspots": []
 }
