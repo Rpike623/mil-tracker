@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-11-17T09:47:42Z",
-  "version": 3197,
-  "breaking_alert": "Task & Purpose: Entire command team of USS South Dakota relieved following grounding incident",
+  "generated_utc": "2026-11-17T18:48:28Z",
+  "version": 3198,
+  "breaking_alert": "Task & Purpose: Tracking America’s latest conflict: The Iran war timeline",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -594,24 +594,6 @@
   ],
   "_naval_news_refs": [
     {
-      "title": "Entire command team of USS South Dakota relieved following grounding incident",
-      "link": "https://taskandpurpose.com/news/navy-relieves-uss-south-dakota-leaders/",
-      "published": "Fri, 13 Nov 2026 07:27:51 -0500",
-      "source": "Task & Purpose",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Navy relieves commander of destroyer USS Michael Murphy",
-      "link": "https://taskandpurpose.com/news/navy-uss-michael-murphy-caitlin-cunningham-fired/",
-      "published": "Fri, 13 Nov 2026 15:33:26 -0500",
-      "source": "Task & Purpose",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Tracking America’s latest conflict: The Iran war timeline",
       "link": "https://taskandpurpose.com/news/iran-war-timeline/",
       "published": "Mon, 16 Nov 2026 05:40:43 -0500",
@@ -657,15 +639,6 @@
       ]
     },
     {
-      "title": "Destroyers USS Spruance, USS Michael Murphy return from extended combat deployments",
-      "link": "https://www.militarytimes.com/news/your-military/2026/11/16/destroyers-uss-spruance-uss-michael-murphy-return-from-extended-combat-deployments/",
-      "published": "Mon, 16 Nov 2026 17:36:30 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "USNI News Fleet and Marine Tracker: Nov. 16, 2026",
       "link": "https://news.usni.org/2026/11/16/usni-news-fleet-and-marine-tracker-nov-16-2026",
       "published": "Mon, 16 Nov 2026 19:55:16 +0000",
@@ -679,6 +652,33 @@
       "link": "https://www.defensenews.com/global/mideast-africa/2026/11/16/us-army-takes-urgent-action-to-build-concrete-bunkers-across-the-middle-east/",
       "published": "Mon, 16 Nov 2026 20:43:10 +0000",
       "source": "Defense News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "USS Theodore Roosevelt Now in the Middle East, Lincoln’s Last Escorts Finally Home",
+      "link": "https://news.usni.org/2026/11/16/uss-theodore-roosevelt-now-in-the-middle-east-lincolns-last-escorts-finally-home",
+      "published": "Mon, 16 Nov 2026 21:42:08 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Vice Adm. Oliver Lewis Takes Command of 2nd Fleet",
+      "link": "https://news.usni.org/2026/11/16/vice-adm-oliver-lewis-takes-command-of-2nd-fleet",
+      "published": "Mon, 16 Nov 2026 22:16:22 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Acting Navy Secretary says longer deployments are ‘because’ there aren’t enough ships",
+      "link": "https://taskandpurpose.com/news/navy-secretary-long-deployments/",
+      "published": "Tue, 17 Nov 2026 11:58:17 -0500",
+      "source": "Task & Purpose",
       "categories": [
         "deployment"
       ]
@@ -834,27 +834,8 @@
       }
     ]
   },
-  "_conflict_news_refs": [
-    {
-      "title": "SSN(X) Attack Boat Will be a Swift, Lethal Mothership for Undersea Drones, Navy Says",
-      "link": "https://news.usni.org/2026/11/12/ssnx-attack-boat-will-be-a-swift-lethal-mothership-for-undersea-drones-navy-says",
-      "published": "Thu, 12 Nov 2026 23:00:43 +0000",
-      "source": "USNI News",
-      "categories": [
-        "conflict"
-      ]
-    }
-  ],
+  "_conflict_news_refs": [],
   "_exercise_news_refs": [
-    {
-      "title": "The Pentagon brings back World War II-era OSS for special operations missions, funding",
-      "link": "https://taskandpurpose.com/news/hegseth-oss-special-operations/",
-      "published": "Fri, 13 Nov 2026 13:51:27 -0500",
-      "source": "Task & Purpose",
-      "categories": [
-        "exercise"
-      ]
-    },
     {
       "title": "Marine Corps relieves Tactical Training Exercise Control Group commander without explanation",
       "link": "https://taskandpurpose.com/news/marine-colonel-meador-relieved-twentynine-palms/",
@@ -863,21 +844,30 @@
       "categories": [
         "exercise"
       ]
+    },
+    {
+      "title": "MANGROVE completes first phase of NATO underwater battlespace network, eyes Arctic trial",
+      "link": "https://www.navalnews.com/naval-news/2026/11/mangrove-nato-underwater-battlespace-network-arctic-trial/",
+      "published": "Tue, 17 Nov 2026 09:59:51 +0000",
+      "source": "Naval News",
+      "categories": [
+        "exercise"
+      ]
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 13,
-    "conflict_articles": 1,
+    "deployment_articles": 16,
+    "conflict_articles": 0,
     "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-11-17T09:47:39.243665+00:00",
+    "computed_at": "2026-11-17T18:48:23.509162+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
-      "[Task & Purpose] Entire command team of USS South Dakota relieved following grounding incident",
-      "[Task & Purpose] The Pentagon brings back World War II-era OSS for special operations missions, funding",
-      "[Task & Purpose] Navy relieves commander of destroyer USS Michael Murphy",
       "[Task & Purpose] Tracking America’s latest conflict: The Iran war timeline",
-      "[Naval News] Safran Unveils NGDS HK Rocket Launcher and PASEO Master D at Euronaval 2026"
+      "[Naval News] Safran Unveils NGDS HK Rocket Launcher and PASEO Master D at Euronaval 2026",
+      "[Task & Purpose] Marine Corps relieves Tactical Training Exercise Control Group commander without explanation",
+      "[Naval News] U.S. Navy Cuts Submarine Maintenance Delays by 40% as Output Surges",
+      "[Task & Purpose] Army lieutenant colonel arrested in UK over allegedly spying for Russia may face US charges"
     ]
   },
   "ground_intel": {
@@ -888,12 +878,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-11-17T09:47:39.243709+00:00",
+    "last_successful_update": "2026-11-17T18:48:23.509209+00:00",
     "article_count": 50,
-    "categorized_count": 16,
+    "categorized_count": 18,
     "freshest_source": "Task & Purpose",
-    "freshest_title": "Entire command team of USS South Dakota relieved following grounding incident",
-    "freshest_published": "Fri, 13 Nov 2026 07:27:51 -0500"
+    "freshest_title": "Tracking America’s latest conflict: The Iran war timeline",
+    "freshest_published": "Mon, 16 Nov 2026 05:40:43 -0500"
   },
   "_firms_hotspots": []
 }
