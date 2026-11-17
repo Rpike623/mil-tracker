@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-11-16T17:32:53Z",
-  "version": 3195,
+  "generated_utc": "2026-11-17T01:09:40Z",
+  "version": 3196,
   "breaking_alert": "Task & Purpose: Entire command team of USS South Dakota relieved following grounding incident",
   "naval_deployments": [
     {
@@ -621,6 +621,33 @@
       ]
     },
     {
+      "title": "Safran Unveils NGDS HK Rocket Launcher and PASEO Master D at Euronaval 2026",
+      "link": "https://www.navalnews.com/event-news/euronaval-2026/2026/11/safran-ngds-hk-rocket-launcher-euronaval-2026/",
+      "published": "Mon, 16 Nov 2026 10:48:40 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "U.S. Navy Cuts Submarine Maintenance Delays by 40% as Output Surges",
+      "link": "https://www.navalnews.com/naval-news/2026/11/us-submarine-industrial-base-cuts-maintenance-delays/",
+      "published": "Mon, 16 Nov 2026 12:43:44 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Army lieutenant colonel arrested in UK over allegedly spying for Russia may face US charges",
+      "link": "https://taskandpurpose.com/news/soldier-arrest-spy-russia-uk/",
+      "published": "Mon, 16 Nov 2026 14:28:22 -0500",
+      "source": "Task & Purpose",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "China has ‘normalized’ naval presence near Japan since political spat of 2025",
       "link": "https://www.defensenews.com/global/asia-pacific/2026/11/16/china-has-normalized-naval-presence-near-japan-since-political-spat-of-2025/",
       "published": "Mon, 16 Nov 2026 17:02:51 +0000",
@@ -630,28 +657,28 @@
       ]
     },
     {
-      "title": "UPDATED: USS South Dakota Command Triad Relieved After October Grounding, Congressman Says",
-      "link": "https://news.usni.org/2026/11/12/breaking-uss-south-dakota-command-triad-relieved-after-october-grounding-congressman-says",
-      "published": "Thu, 12 Nov 2026 17:00:31 +0000",
+      "title": "Destroyers USS Spruance, USS Michael Murphy return from extended combat deployments",
+      "link": "https://www.militarytimes.com/news/your-military/2026/11/16/destroyers-uss-spruance-uss-michael-murphy-return-from-extended-combat-deployments/",
+      "published": "Mon, 16 Nov 2026 17:36:30 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "USNI News Fleet and Marine Tracker: Nov. 16, 2026",
+      "link": "https://news.usni.org/2026/11/16/usni-news-fleet-and-marine-tracker-nov-16-2026",
+      "published": "Mon, 16 Nov 2026 19:55:16 +0000",
       "source": "USNI News",
       "categories": [
         "deployment"
       ]
     },
     {
-      "title": "Navy Quietly Removed USS Michael Murphy Commander in September",
-      "link": "https://news.usni.org/2026/11/12/navy-quietly-removes-uss-michael-murphy-commander",
-      "published": "Thu, 12 Nov 2026 18:59:33 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Royal Navy to Trial Northrop Grumman Test Aircraft on Carrier in 2027",
-      "link": "https://news.usni.org/2026/11/12/royal-navy-to-trial-northrop-grumman-test-aircraft-on-carrier-in-2027",
-      "published": "Thu, 12 Nov 2026 20:27:56 +0000",
-      "source": "USNI News",
+      "title": "US Army takes ‘urgent’ action to build concrete bunkers across the Middle East",
+      "link": "https://www.defensenews.com/global/mideast-africa/2026/11/16/us-army-takes-urgent-action-to-build-concrete-bunkers-across-the-middle-east/",
+      "published": "Mon, 16 Nov 2026 20:43:10 +0000",
+      "source": "Defense News",
       "categories": [
         "deployment"
       ]
@@ -809,15 +836,6 @@
   },
   "_conflict_news_refs": [
     {
-      "title": "Estonia to close border with Russia after arson attack on local drone maker",
-      "link": "https://www.defensenews.com/global/europe/2026/11/16/estonia-to-close-border-with-russia-after-arson-attack-on-local-drone-maker/",
-      "published": "Mon, 16 Nov 2026 13:23:20 +0000",
-      "source": "Defense News",
-      "categories": [
-        "conflict"
-      ]
-    },
-    {
       "title": "SSN(X) Attack Boat Will be a Swift, Lethal Mothership for Undersea Drones, Navy Says",
       "link": "https://news.usni.org/2026/11/12/ssnx-attack-boat-will-be-a-swift-lethal-mothership-for-undersea-drones-navy-says",
       "published": "Thu, 12 Nov 2026 23:00:43 +0000",
@@ -848,18 +866,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 7,
-    "conflict_articles": 2,
+    "deployment_articles": 14,
+    "conflict_articles": 1,
     "exercise_articles": 2,
-    "total_articles": 40,
-    "computed_at": "2026-11-16T17:32:46.766538+00:00",
-    "manual_override": "DEFCON_4",
+    "total_articles": 50,
+    "computed_at": "2026-11-17T01:09:31.974296+00:00",
+    "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Task & Purpose] Entire command team of USS South Dakota relieved following grounding incident",
       "[Task & Purpose] The Pentagon brings back World War II-era OSS for special operations missions, funding",
       "[Task & Purpose] Navy relieves commander of destroyer USS Michael Murphy",
       "[Task & Purpose] Tracking America’s latest conflict: The Iran war timeline",
-      "[Task & Purpose] Marine Corps relieves Tactical Training Exercise Control Group commander without explanation"
+      "[Naval News] Safran Unveils NGDS HK Rocket Launcher and PASEO Master D at Euronaval 2026"
     ]
   },
   "ground_intel": {
@@ -870,9 +888,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-11-16T17:32:46.766577+00:00",
-    "article_count": 40,
-    "categorized_count": 11,
+    "last_successful_update": "2026-11-17T01:09:31.974338+00:00",
+    "article_count": 50,
+    "categorized_count": 17,
     "freshest_source": "Task & Purpose",
     "freshest_title": "Entire command team of USS South Dakota relieved following grounding incident",
     "freshest_published": "Fri, 13 Nov 2026 07:27:51 -0500"
