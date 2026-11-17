@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-11-17T01:09:40Z",
-  "version": 3196,
+  "generated_utc": "2026-11-17T09:47:42Z",
+  "version": 3197,
   "breaking_alert": "Task & Purpose: Entire command team of USS South Dakota relieved following grounding incident",
   "naval_deployments": [
     {
@@ -866,11 +866,11 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 14,
+    "deployment_articles": 13,
     "conflict_articles": 1,
     "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-11-17T01:09:31.974296+00:00",
+    "computed_at": "2026-11-17T09:47:39.243665+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Task & Purpose] Entire command team of USS South Dakota relieved following grounding incident",
@@ -888,9 +888,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-11-17T01:09:31.974338+00:00",
+    "last_successful_update": "2026-11-17T09:47:39.243709+00:00",
     "article_count": 50,
-    "categorized_count": 17,
+    "categorized_count": 16,
     "freshest_source": "Task & Purpose",
     "freshest_title": "Entire command team of USS South Dakota relieved following grounding incident",
     "freshest_published": "Fri, 13 Nov 2026 07:27:51 -0500"
