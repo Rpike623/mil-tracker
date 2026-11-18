@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-11-18T01:23:10Z",
-  "version": 3199,
+  "generated_utc": "2026-11-18T09:19:07Z",
+  "version": 3200,
   "breaking_alert": "Task & Purpose: Tracking America’s latest conflict: The Iran war timeline",
   "naval_deployments": [
     {
@@ -657,6 +657,15 @@
       ]
     },
     {
+      "title": "Eastern Shipbuilding to Build Grand Block Units for Future USS Telesforo Trinidad (DDG 139)",
+      "link": "https://www.navalnews.com/naval-news/2026/11/eastern-shipbuilding-to-build-grand-block-units-for-future-uss-telesforo-trinidad-ddg-139/",
+      "published": "Tue, 17 Nov 2026 16:31:35 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "Lithuanian president says US troop rotations will continue beyond latest deployment",
       "link": "https://www.defensenews.com/global/europe/2026/11/17/lithuanian-president-says-us-troop-rotations-will-continue-beyond-latest-deployment/",
       "published": "Tue, 17 Nov 2026 17:04:13 +0000",
@@ -669,15 +678,6 @@
       "title": "Lithuanian president says US troop rotations will continue beyond latest deployment",
       "link": "https://www.militarytimes.com/news/your-military/2026/11/17/lithuanian-president-says-us-troop-rotations-will-continue-beyond-latest-deployment/",
       "published": "Tue, 17 Nov 2026 17:04:13 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Deployed troops continue to face unnecessary hurdles while voting",
-      "link": "https://www.militarytimes.com/news/your-military/2026/11/17/deployed-troops-continue-to-face-unnecessary-hurdles-while-voting/",
-      "published": "Tue, 17 Nov 2026 18:00:00 +0000",
       "source": "Military Times",
       "categories": [
         "deployment"
@@ -834,7 +834,17 @@
       }
     ]
   },
-  "_conflict_news_refs": [],
+  "_conflict_news_refs": [
+    {
+      "title": "Hanwha Successfully Test-Fires Chunmoo Missile from Maritime Palletized Launcher",
+      "link": "https://www.navalnews.com/naval-news/2026/11/hanwha-successfully-test-fires-chunmoo-missile-from-maritime-palletized-launcher/",
+      "published": "Tue, 17 Nov 2026 20:16:58 +0000",
+      "source": "Naval News",
+      "categories": [
+        "conflict"
+      ]
+    }
+  ],
   "_exercise_news_refs": [
     {
       "title": "Marine Corps relieves Tactical Training Exercise Control Group commander without explanation",
@@ -844,14 +854,23 @@
       "categories": [
         "exercise"
       ]
+    },
+    {
+      "title": "MANGROVE completes first phase of NATO underwater battlespace network, eyes Arctic trial",
+      "link": "https://www.navalnews.com/naval-news/2026/11/mangrove-nato-underwater-battlespace-network-arctic-trial/",
+      "published": "Tue, 17 Nov 2026 09:59:51 +0000",
+      "source": "Naval News",
+      "categories": [
+        "exercise"
+      ]
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 14,
-    "conflict_articles": 0,
-    "exercise_articles": 1,
-    "total_articles": 40,
-    "computed_at": "2026-11-18T01:23:09.026136+00:00",
+    "deployment_articles": 15,
+    "conflict_articles": 1,
+    "exercise_articles": 2,
+    "total_articles": 50,
+    "computed_at": "2026-11-18T09:19:03.014242+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Task & Purpose] Tracking America’s latest conflict: The Iran war timeline",
@@ -869,9 +888,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-11-18T01:23:09.026177+00:00",
-    "article_count": 40,
-    "categorized_count": 15,
+    "last_successful_update": "2026-11-18T09:19:03.014286+00:00",
+    "article_count": 50,
+    "categorized_count": 18,
     "freshest_source": "Task & Purpose",
     "freshest_title": "Tracking America’s latest conflict: The Iran war timeline",
     "freshest_published": "Mon, 16 Nov 2026 05:40:43 -0500"
