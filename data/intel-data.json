@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-11-18T09:19:07Z",
-  "version": 3200,
+  "generated_utc": "2026-11-18T18:27:36Z",
+  "version": 3201,
   "breaking_alert": "Task & Purpose: Tracking America’s latest conflict: The Iran war timeline",
   "naval_deployments": [
     {
@@ -675,10 +675,10 @@
       ]
     },
     {
-      "title": "Lithuanian president says US troop rotations will continue beyond latest deployment",
-      "link": "https://www.militarytimes.com/news/your-military/2026/11/17/lithuanian-president-says-us-troop-rotations-will-continue-beyond-latest-deployment/",
-      "published": "Tue, 17 Nov 2026 17:04:13 +0000",
-      "source": "Military Times",
+      "title": "Watch a large aerial drone evacuate a wounded Ukrainian soldier from the front line",
+      "link": "https://www.defensenews.com/video/2026/11/17/watch-a-large-aerial-drone-evacuate-a-wounded-ukrainian-soldier-from-the-front-line/",
+      "published": "Tue, 17 Nov 2026 20:31:20 +0000",
+      "source": "Defense News",
       "categories": [
         "deployment"
       ]
@@ -843,6 +843,26 @@
       "categories": [
         "conflict"
       ]
+    },
+    {
+      "title": "Italy Confirms New National VLS for Deep-Strike and Hypersonic Defense",
+      "link": "https://www.navalnews.com/naval-news/2026/11/italy-confirms-new-national-vls-for-deep-strike-and-hypersonic-defense/",
+      "published": "Wed, 18 Nov 2026 09:20:58 +0000",
+      "source": "Naval News",
+      "categories": [
+        "conflict"
+      ]
+    },
+    {
+      "title": "U.K. Carrier Strike Group Concludes 6-month Operation Firecrest Deployment",
+      "link": "https://news.usni.org/2026/11/18/u-k-carrier-strike-group-concludes-6-month-operation-firecrest-deployment",
+      "published": "Wed, 18 Nov 2026 18:23:31 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment",
+        "exercise",
+        "conflict"
+      ]
     }
   ],
   "_exercise_news_refs": [
@@ -863,14 +883,25 @@
       "categories": [
         "exercise"
       ]
+    },
+    {
+      "title": "U.K. Carrier Strike Group Concludes 6-month Operation Firecrest Deployment",
+      "link": "https://news.usni.org/2026/11/18/u-k-carrier-strike-group-concludes-6-month-operation-firecrest-deployment",
+      "published": "Wed, 18 Nov 2026 18:23:31 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment",
+        "exercise",
+        "conflict"
+      ]
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 15,
-    "conflict_articles": 1,
-    "exercise_articles": 2,
+    "deployment_articles": 16,
+    "conflict_articles": 3,
+    "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-11-18T09:19:03.014242+00:00",
+    "computed_at": "2026-11-18T18:27:31.608631+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Task & Purpose] Tracking America’s latest conflict: The Iran war timeline",
@@ -888,9 +919,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-11-18T09:19:03.014286+00:00",
+    "last_successful_update": "2026-11-18T18:27:31.608676+00:00",
     "article_count": 50,
-    "categorized_count": 18,
+    "categorized_count": 20,
     "freshest_source": "Task & Purpose",
     "freshest_title": "Tracking America’s latest conflict: The Iran war timeline",
     "freshest_published": "Mon, 16 Nov 2026 05:40:43 -0500"
