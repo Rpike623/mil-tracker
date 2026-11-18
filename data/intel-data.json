@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-11-17T18:48:28Z",
-  "version": 3198,
+  "generated_utc": "2026-11-18T01:23:10Z",
+  "version": 3199,
   "breaking_alert": "Task & Purpose: Tracking America’s latest conflict: The Iran war timeline",
   "naval_deployments": [
     {
@@ -603,24 +603,6 @@
       ]
     },
     {
-      "title": "Safran Unveils NGDS HK Rocket Launcher and PASEO Master D at Euronaval 2026",
-      "link": "https://www.navalnews.com/event-news/euronaval-2026/2026/11/safran-ngds-hk-rocket-launcher-euronaval-2026/",
-      "published": "Mon, 16 Nov 2026 10:48:40 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "U.S. Navy Cuts Submarine Maintenance Delays by 40% as Output Surges",
-      "link": "https://www.navalnews.com/naval-news/2026/11/us-submarine-industrial-base-cuts-maintenance-delays/",
-      "published": "Mon, 16 Nov 2026 12:43:44 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Army lieutenant colonel arrested in UK over allegedly spying for Russia may face US charges",
       "link": "https://taskandpurpose.com/news/soldier-arrest-spy-russia-uk/",
       "published": "Mon, 16 Nov 2026 14:28:22 -0500",
@@ -630,28 +612,10 @@
       ]
     },
     {
-      "title": "China has ‘normalized’ naval presence near Japan since political spat of 2025",
-      "link": "https://www.defensenews.com/global/asia-pacific/2026/11/16/china-has-normalized-naval-presence-near-japan-since-political-spat-of-2025/",
-      "published": "Mon, 16 Nov 2026 17:02:51 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "USNI News Fleet and Marine Tracker: Nov. 16, 2026",
       "link": "https://news.usni.org/2026/11/16/usni-news-fleet-and-marine-tracker-nov-16-2026",
       "published": "Mon, 16 Nov 2026 19:55:16 +0000",
       "source": "USNI News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "US Army takes ‘urgent’ action to build concrete bunkers across the Middle East",
-      "link": "https://www.defensenews.com/global/mideast-africa/2026/11/16/us-army-takes-urgent-action-to-build-concrete-bunkers-across-the-middle-east/",
-      "published": "Mon, 16 Nov 2026 20:43:10 +0000",
-      "source": "Defense News",
       "categories": [
         "deployment"
       ]
@@ -679,6 +643,42 @@
       "link": "https://taskandpurpose.com/news/navy-secretary-long-deployments/",
       "published": "Tue, 17 Nov 2026 11:58:17 -0500",
       "source": "Task & Purpose",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Acting Navy Secretary calls suicide attempts on USS Abraham Lincoln ‘suicide mitigations’",
+      "link": "https://taskandpurpose.com/news/navy-secretary-hung-cao-mental-health/",
+      "published": "Tue, 17 Nov 2026 13:32:54 -0500",
+      "source": "Task & Purpose",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Lithuanian president says US troop rotations will continue beyond latest deployment",
+      "link": "https://www.defensenews.com/global/europe/2026/11/17/lithuanian-president-says-us-troop-rotations-will-continue-beyond-latest-deployment/",
+      "published": "Tue, 17 Nov 2026 17:04:13 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Lithuanian president says US troop rotations will continue beyond latest deployment",
+      "link": "https://www.militarytimes.com/news/your-military/2026/11/17/lithuanian-president-says-us-troop-rotations-will-continue-beyond-latest-deployment/",
+      "published": "Tue, 17 Nov 2026 17:04:13 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Deployed troops continue to face unnecessary hurdles while voting",
+      "link": "https://www.militarytimes.com/news/your-military/2026/11/17/deployed-troops-continue-to-face-unnecessary-hurdles-while-voting/",
+      "published": "Tue, 17 Nov 2026 18:00:00 +0000",
+      "source": "Military Times",
       "categories": [
         "deployment"
       ]
@@ -844,30 +844,21 @@
       "categories": [
         "exercise"
       ]
-    },
-    {
-      "title": "MANGROVE completes first phase of NATO underwater battlespace network, eyes Arctic trial",
-      "link": "https://www.navalnews.com/naval-news/2026/11/mangrove-nato-underwater-battlespace-network-arctic-trial/",
-      "published": "Tue, 17 Nov 2026 09:59:51 +0000",
-      "source": "Naval News",
-      "categories": [
-        "exercise"
-      ]
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 16,
+    "deployment_articles": 14,
     "conflict_articles": 0,
-    "exercise_articles": 2,
-    "total_articles": 50,
-    "computed_at": "2026-11-17T18:48:23.509162+00:00",
+    "exercise_articles": 1,
+    "total_articles": 40,
+    "computed_at": "2026-11-18T01:23:09.026136+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Task & Purpose] Tracking America’s latest conflict: The Iran war timeline",
-      "[Naval News] Safran Unveils NGDS HK Rocket Launcher and PASEO Master D at Euronaval 2026",
       "[Task & Purpose] Marine Corps relieves Tactical Training Exercise Control Group commander without explanation",
-      "[Naval News] U.S. Navy Cuts Submarine Maintenance Delays by 40% as Output Surges",
-      "[Task & Purpose] Army lieutenant colonel arrested in UK over allegedly spying for Russia may face US charges"
+      "[Task & Purpose] Army lieutenant colonel arrested in UK over allegedly spying for Russia may face US charges",
+      "[USNI News] USNI News Fleet and Marine Tracker: Nov. 16, 2026",
+      "[USNI News] USS Theodore Roosevelt Now in the Middle East, Lincoln’s Last Escorts Finally Home"
     ]
   },
   "ground_intel": {
@@ -878,9 +869,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-11-17T18:48:23.509209+00:00",
-    "article_count": 50,
-    "categorized_count": 18,
+    "last_successful_update": "2026-11-18T01:23:09.026177+00:00",
+    "article_count": 40,
+    "categorized_count": 15,
     "freshest_source": "Task & Purpose",
     "freshest_title": "Tracking America’s latest conflict: The Iran war timeline",
     "freshest_published": "Mon, 16 Nov 2026 05:40:43 -0500"
