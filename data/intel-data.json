@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-11-18T18:27:36Z",
-  "version": 3201,
+  "generated_utc": "2026-11-19T00:48:07Z",
+  "version": 3202,
   "breaking_alert": "Task & Purpose: Tracking America’s latest conflict: The Iran war timeline",
   "naval_deployments": [
     {
@@ -657,28 +657,28 @@
       ]
     },
     {
-      "title": "Eastern Shipbuilding to Build Grand Block Units for Future USS Telesforo Trinidad (DDG 139)",
-      "link": "https://www.navalnews.com/naval-news/2026/11/eastern-shipbuilding-to-build-grand-block-units-for-future-uss-telesforo-trinidad-ddg-139/",
-      "published": "Tue, 17 Nov 2026 16:31:35 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Lithuanian president says US troop rotations will continue beyond latest deployment",
-      "link": "https://www.defensenews.com/global/europe/2026/11/17/lithuanian-president-says-us-troop-rotations-will-continue-beyond-latest-deployment/",
-      "published": "Tue, 17 Nov 2026 17:04:13 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Watch a large aerial drone evacuate a wounded Ukrainian soldier from the front line",
       "link": "https://www.defensenews.com/video/2026/11/17/watch-a-large-aerial-drone-evacuate-a-wounded-ukrainian-soldier-from-the-front-line/",
       "published": "Tue, 17 Nov 2026 20:31:20 +0000",
       "source": "Defense News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Reverting Ford-class Carriers to Steam is ‘Non-Starter,’ Says SASC Chair Wicker",
+      "link": "https://news.usni.org/2026/11/17/reverting-ford-class-carriers-to-steam-is-non-starter-says-sasc-chair-wicker",
+      "published": "Tue, 17 Nov 2026 23:17:02 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Cao addresses Navy suicide prevention, extended deployments and USS South Dakota firings during hearing",
+      "link": "https://www.militarytimes.com/news/your-military/2026/11/17/cao-addresses-navy-suicide-prevention-extended-deployments-and-uss-south-dakota-firings-during-hearing/",
+      "published": "Wed, 18 Nov 2026 00:44:49 +0000",
+      "source": "Military Times",
       "categories": [
         "deployment"
       ]
@@ -836,24 +836,6 @@
   },
   "_conflict_news_refs": [
     {
-      "title": "Hanwha Successfully Test-Fires Chunmoo Missile from Maritime Palletized Launcher",
-      "link": "https://www.navalnews.com/naval-news/2026/11/hanwha-successfully-test-fires-chunmoo-missile-from-maritime-palletized-launcher/",
-      "published": "Tue, 17 Nov 2026 20:16:58 +0000",
-      "source": "Naval News",
-      "categories": [
-        "conflict"
-      ]
-    },
-    {
-      "title": "Italy Confirms New National VLS for Deep-Strike and Hypersonic Defense",
-      "link": "https://www.navalnews.com/naval-news/2026/11/italy-confirms-new-national-vls-for-deep-strike-and-hypersonic-defense/",
-      "published": "Wed, 18 Nov 2026 09:20:58 +0000",
-      "source": "Naval News",
-      "categories": [
-        "conflict"
-      ]
-    },
-    {
       "title": "U.K. Carrier Strike Group Concludes 6-month Operation Firecrest Deployment",
       "link": "https://news.usni.org/2026/11/18/u-k-carrier-strike-group-concludes-6-month-operation-firecrest-deployment",
       "published": "Wed, 18 Nov 2026 18:23:31 +0000",
@@ -876,15 +858,6 @@
       ]
     },
     {
-      "title": "MANGROVE completes first phase of NATO underwater battlespace network, eyes Arctic trial",
-      "link": "https://www.navalnews.com/naval-news/2026/11/mangrove-nato-underwater-battlespace-network-arctic-trial/",
-      "published": "Tue, 17 Nov 2026 09:59:51 +0000",
-      "source": "Naval News",
-      "categories": [
-        "exercise"
-      ]
-    },
-    {
       "title": "U.K. Carrier Strike Group Concludes 6-month Operation Firecrest Deployment",
       "link": "https://news.usni.org/2026/11/18/u-k-carrier-strike-group-concludes-6-month-operation-firecrest-deployment",
       "published": "Wed, 18 Nov 2026 18:23:31 +0000",
@@ -898,10 +871,10 @@
   ],
   "_threat_indicators": {
     "deployment_articles": 16,
-    "conflict_articles": 3,
-    "exercise_articles": 3,
-    "total_articles": 50,
-    "computed_at": "2026-11-18T18:27:31.608631+00:00",
+    "conflict_articles": 1,
+    "exercise_articles": 2,
+    "total_articles": 40,
+    "computed_at": "2026-11-19T00:48:00.245890+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Task & Purpose] Tracking America’s latest conflict: The Iran war timeline",
@@ -919,9 +892,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-11-18T18:27:31.608676+00:00",
-    "article_count": 50,
-    "categorized_count": 20,
+    "last_successful_update": "2026-11-19T00:48:00.245935+00:00",
+    "article_count": 40,
+    "categorized_count": 17,
     "freshest_source": "Task & Purpose",
     "freshest_title": "Tracking America’s latest conflict: The Iran war timeline",
     "freshest_published": "Mon, 16 Nov 2026 05:40:43 -0500"
