@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-11-19T17:45:59Z",
-  "version": 3204,
-  "breaking_alert": "Task & Purpose: Marine Corps relieves Tactical Training Exercise Control Group commander without explanation",
+  "generated_utc": "2026-11-19T23:56:44Z",
+  "version": 3205,
+  "breaking_alert": "Task & Purpose: USS George Washington leaves the Middle East as replacement carrier arrives",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -594,24 +594,6 @@
   ],
   "_naval_news_refs": [
     {
-      "title": "Army lieutenant colonel arrested in UK over allegedly spying for Russia may face US charges",
-      "link": "https://taskandpurpose.com/news/soldier-arrest-spy-russia-uk/",
-      "published": "Mon, 16 Nov 2026 14:28:22 -0500",
-      "source": "Task & Purpose",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Vice Adm. Oliver Lewis Takes Command of 2nd Fleet",
-      "link": "https://news.usni.org/2026/11/16/vice-adm-oliver-lewis-takes-command-of-2nd-fleet",
-      "published": "Mon, 16 Nov 2026 22:16:22 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "USS George Washington leaves the Middle East as replacement carrier arrives",
       "link": "https://taskandpurpose.com/news/uss-george-washington-leaves-middle-east-iran/",
       "published": "Thu, 19 Nov 2026 07:34:49 -0500",
@@ -625,15 +607,6 @@
       "link": "https://www.defensenews.com/opinion/2026/11/19/japanese-nuclear-submarines-are-a-bad-idea-for-east-china-sea-security-for-now/",
       "published": "Thu, 19 Nov 2026 09:36:51 +0000",
       "source": "Defense News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Japanese nuclear submarines are a bad idea for East China Sea security — for now",
-      "link": "https://www.militarytimes.com/opinion/2026/11/19/japanese-nuclear-submarines-are-a-bad-idea-for-east-china-sea-security-for-now/",
-      "published": "Thu, 19 Nov 2026 09:36:51 +0000",
-      "source": "Military Times",
       "categories": [
         "deployment"
       ]
@@ -667,6 +640,25 @@
       ]
     },
     {
+      "title": "Argentine Navy interested in acquiring up to three FCX20 corvettes",
+      "link": "https://www.navalnews.com/naval-news/2026/11/argentine-navy-interested-in-acquiring-up-to-three-fcx20-corvettes/",
+      "published": "Thu, 19 Nov 2026 20:35:59 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "U.S. Expands Iranian Blockade As Ship Attacks Continue",
+      "link": "https://news.usni.org/2026/11/19/u-s-expands-iranian-blockade-as-ship-attacks-continue",
+      "published": "Thu, 19 Nov 2026 20:54:23 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
+    },
+    {
       "title": "Acting Navy Secretary says longer deployments are ‘because’ there aren’t enough ships",
       "link": "https://taskandpurpose.com/news/navy-secretary-long-deployments/",
       "published": "Tue, 17 Nov 2026 11:58:17 -0500",
@@ -680,6 +672,15 @@
       "link": "https://taskandpurpose.com/news/navy-secretary-hung-cao-mental-health/",
       "published": "Tue, 17 Nov 2026 13:32:54 -0500",
       "source": "Task & Purpose",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Reverting Ford-class Carriers to Steam is ‘Non-Starter,’ Says SASC Chair Wicker",
+      "link": "https://news.usni.org/2026/11/17/reverting-ford-class-carriers-to-steam-is-non-starter-says-sasc-chair-wicker",
+      "published": "Tue, 17 Nov 2026 23:17:02 +0000",
+      "source": "USNI News",
       "categories": [
         "deployment"
       ]
@@ -855,36 +856,35 @@
       ]
     },
     {
-      "title": "Ukraine plans to double drone supplies, triple deep strikes",
-      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/11/19/ukraine-plans-to-double-drone-supplies-triple-deep-strikes/",
-      "published": "Thu, 19 Nov 2026 13:21:10 +0000",
-      "source": "Military Times",
+      "title": "U.S. Expands Iranian Blockade As Ship Attacks Continue",
+      "link": "https://news.usni.org/2026/11/19/u-s-expands-iranian-blockade-as-ship-attacks-continue",
+      "published": "Thu, 19 Nov 2026 20:54:23 +0000",
+      "source": "USNI News",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
+    },
+    {
+      "title": "US missile shortages create a range problem, report shows",
+      "link": "https://www.defensenews.com/air/2026/11/19/us-missile-shortages-create-a-range-problem-report-shows/",
+      "published": "Thu, 19 Nov 2026 21:23:13 +0000",
+      "source": "Defense News",
       "categories": [
         "conflict"
       ]
     },
     {
-      "title": "U.K. Carrier Strike Group Concludes 6-month Operation Firecrest Deployment",
-      "link": "https://news.usni.org/2026/11/18/u-k-carrier-strike-group-concludes-6-month-operation-firecrest-deployment",
-      "published": "Wed, 18 Nov 2026 18:23:31 +0000",
-      "source": "USNI News",
+      "title": "US missile shortages create a range problem, report shows",
+      "link": "https://www.militarytimes.com/news/your-military/2026/11/19/us-missile-shortages-create-a-range-problem-report-shows/",
+      "published": "Thu, 19 Nov 2026 21:23:13 +0000",
+      "source": "Military Times",
       "categories": [
-        "deployment",
-        "exercise",
         "conflict"
       ]
     }
   ],
   "_exercise_news_refs": [
-    {
-      "title": "Marine Corps relieves Tactical Training Exercise Control Group commander without explanation",
-      "link": "https://taskandpurpose.com/news/marine-colonel-meador-relieved-twentynine-palms/",
-      "published": "Mon, 16 Nov 2026 11:55:34 -0500",
-      "source": "Task & Purpose",
-      "categories": [
-        "exercise"
-      ]
-    },
     {
       "title": "New Army contract for bunkers in Middle East cites ‘extreme operational urgency’",
       "link": "https://taskandpurpose.com/news/army-bunkers-middle-east/",
@@ -892,6 +892,15 @@
       "source": "Task & Purpose",
       "categories": [
         "deployment",
+        "exercise"
+      ]
+    },
+    {
+      "title": "France and Sweden hold first joint nuclear-deterrence exercise",
+      "link": "https://www.defensenews.com/global/europe/2026/11/19/france-and-sweden-hold-first-joint-nuclear-deterrence-exercise/",
+      "published": "Thu, 19 Nov 2026 18:24:10 +0000",
+      "source": "Defense News",
+      "categories": [
         "exercise"
       ]
     },
@@ -908,18 +917,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 17,
-    "conflict_articles": 4,
+    "deployment_articles": 13,
+    "conflict_articles": 7,
     "exercise_articles": 3,
-    "total_articles": 40,
-    "computed_at": "2026-11-19T17:45:54.865473+00:00",
+    "total_articles": 50,
+    "computed_at": "2026-11-19T23:56:42.614525+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
-      "[Task & Purpose] Marine Corps relieves Tactical Training Exercise Control Group commander without explanation",
-      "[Task & Purpose] Army lieutenant colonel arrested in UK over allegedly spying for Russia may face US charges",
-      "[USNI News] Vice Adm. Oliver Lewis Takes Command of 2nd Fleet",
       "[Task & Purpose] USS George Washington leaves the Middle East as replacement carrier arrives",
-      "[Defense News] Japanese nuclear submarines are a bad idea for East China Sea security — for now"
+      "[Defense News] Japanese nuclear submarines are a bad idea for East China Sea security — for now",
+      "[Defense News] MBDA and German startup Atmos team up to study space-based strike weapons",
+      "[Task & Purpose] New Army contract for bunkers in Middle East cites ‘extreme operational urgency’",
+      "[Defense News] Ukraine plans to double drone supplies, triple deep strikes"
     ]
   },
   "ground_intel": {
@@ -930,12 +939,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-11-19T17:45:54.865520+00:00",
-    "article_count": 40,
-    "categorized_count": 21,
+    "last_successful_update": "2026-11-19T23:56:42.614565+00:00",
+    "article_count": 50,
+    "categorized_count": 19,
     "freshest_source": "Task & Purpose",
-    "freshest_title": "Marine Corps relieves Tactical Training Exercise Control Group commander without explanation",
-    "freshest_published": "Mon, 16 Nov 2026 11:55:34 -0500"
+    "freshest_title": "USS George Washington leaves the Middle East as replacement carrier arrives",
+    "freshest_published": "Thu, 19 Nov 2026 07:34:49 -0500"
   },
   "_firms_hotspots": []
 }
