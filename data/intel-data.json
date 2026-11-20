@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-11-20T04:57:48Z",
-  "version": 3206,
-  "breaking_alert": "Task & Purpose: USS George Washington leaves the Middle East as replacement carrier arrives",
+  "generated_utc": "2026-11-20T13:45:51Z",
+  "version": 3207,
+  "breaking_alert": "Defense News: Dutch defense-industry plan targets 40% growth, €15 billion revenue by 2030",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -594,19 +594,19 @@
   ],
   "_naval_news_refs": [
     {
-      "title": "USS George Washington leaves the Middle East as replacement carrier arrives",
-      "link": "https://taskandpurpose.com/news/uss-george-washington-leaves-middle-east-iran/",
-      "published": "Thu, 19 Nov 2026 07:34:49 -0500",
-      "source": "Task & Purpose",
+      "title": "Dutch defense-industry plan targets 40% growth, €15 billion revenue by 2030",
+      "link": "https://www.defensenews.com/global/europe/2026/11/20/dutch-defense-industry-plan-targets-40-growth-e15-billion-revenue-by-2030/",
+      "published": "Fri, 20 Nov 2026 11:56:51 +0000",
+      "source": "Defense News",
       "categories": [
         "deployment"
       ]
     },
     {
-      "title": "Japanese nuclear submarines are a bad idea for East China Sea security — for now",
-      "link": "https://www.defensenews.com/opinion/2026/11/19/japanese-nuclear-submarines-are-a-bad-idea-for-east-china-sea-security-for-now/",
-      "published": "Thu, 19 Nov 2026 09:36:51 +0000",
-      "source": "Defense News",
+      "title": "USS George Washington leaves the Middle East as replacement carrier arrives",
+      "link": "https://taskandpurpose.com/news/uss-george-washington-leaves-middle-east-iran/",
+      "published": "Thu, 19 Nov 2026 07:34:49 -0500",
+      "source": "Task & Purpose",
       "categories": [
         "deployment"
       ]
@@ -635,15 +635,6 @@
       "link": "https://www.militarytimes.com/news/your-military/2026/11/19/f-35c-completes-first-launch-and-recovery-trials-on-a-ford-class-carrier/",
       "published": "Thu, 19 Nov 2026 17:38:00 +0000",
       "source": "Military Times",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Argentine Navy interested in acquiring up to three FCX20 corvettes",
-      "link": "https://www.navalnews.com/naval-news/2026/11/argentine-navy-interested-in-acquiring-up-to-three-fcx20-corvettes/",
-      "published": "Thu, 19 Nov 2026 20:35:59 +0000",
-      "source": "Naval News",
       "categories": [
         "deployment"
       ]
@@ -681,6 +672,15 @@
       "link": "https://news.usni.org/2026/11/17/reverting-ford-class-carriers-to-steam-is-non-starter-says-sasc-chair-wicker",
       "published": "Tue, 17 Nov 2026 23:17:02 +0000",
       "source": "USNI News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "US charges Irishman with destroying a $60 million Air Force C-130 with an axe",
+      "link": "https://taskandpurpose.com/news/c-130-damage-ireland-daithi-ocorrain/",
+      "published": "Wed, 18 Nov 2026 11:09:35 -0500",
+      "source": "Task & Purpose",
       "categories": [
         "deployment"
       ]
@@ -917,15 +917,15 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 13,
-    "conflict_articles": 7,
+    "deployment_articles": 12,
+    "conflict_articles": 6,
     "exercise_articles": 3,
-    "total_articles": 50,
-    "computed_at": "2026-11-20T04:57:33.085269+00:00",
+    "total_articles": 40,
+    "computed_at": "2026-11-20T13:45:46.174198+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
+      "[Defense News] Dutch defense-industry plan targets 40% growth, €15 billion revenue by 2030",
       "[Task & Purpose] USS George Washington leaves the Middle East as replacement carrier arrives",
-      "[Defense News] Japanese nuclear submarines are a bad idea for East China Sea security — for now",
       "[Defense News] MBDA and German startup Atmos team up to study space-based strike weapons",
       "[Task & Purpose] New Army contract for bunkers in Middle East cites ‘extreme operational urgency’",
       "[Defense News] Ukraine plans to double drone supplies, triple deep strikes"
@@ -939,12 +939,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-11-20T04:57:33.085309+00:00",
-    "article_count": 50,
-    "categorized_count": 19,
-    "freshest_source": "Task & Purpose",
-    "freshest_title": "USS George Washington leaves the Middle East as replacement carrier arrives",
-    "freshest_published": "Thu, 19 Nov 2026 07:34:49 -0500"
+    "last_successful_update": "2026-11-20T13:45:46.174242+00:00",
+    "article_count": 40,
+    "categorized_count": 17,
+    "freshest_source": "Defense News",
+    "freshest_title": "Dutch defense-industry plan targets 40% growth, €15 billion revenue by 2030",
+    "freshest_published": "Fri, 20 Nov 2026 11:56:51 +0000"
   },
   "_firms_hotspots": []
 }
