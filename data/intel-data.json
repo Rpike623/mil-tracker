@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-11-20T13:45:51Z",
-  "version": 3207,
-  "breaking_alert": "Defense News: Dutch defense-industry plan targets 40% growth, €15 billion revenue by 2030",
+  "generated_utc": "2026-11-20T21:35:08Z",
+  "version": 3208,
+  "breaking_alert": "Naval News: Indian Navy Exploring Development of Rotating Detonation Engine Powered Supersonic Cruise Missile",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -603,6 +603,15 @@
       ]
     },
     {
+      "title": "TKMS Unveils Future German Navy F128 Frigate Model at Euronaval 2026",
+      "link": "https://www.navalnews.com/naval-news/2026/11/tkms-unveils-future-german-navy-f128-frigate-model-at-euronaval-2026/",
+      "published": "Fri, 20 Nov 2026 14:49:23 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "USS George Washington leaves the Middle East as replacement carrier arrives",
       "link": "https://taskandpurpose.com/news/uss-george-washington-leaves-middle-east-iran/",
       "published": "Thu, 19 Nov 2026 07:34:49 -0500",
@@ -631,10 +640,10 @@
       ]
     },
     {
-      "title": "F-35C completes first launch and recovery trials on a Ford-class carrier",
-      "link": "https://www.militarytimes.com/news/your-military/2026/11/19/f-35c-completes-first-launch-and-recovery-trials-on-a-ford-class-carrier/",
-      "published": "Thu, 19 Nov 2026 17:38:00 +0000",
-      "source": "Military Times",
+      "title": "Argentine Navy interested in acquiring up to three FCX20 corvettes",
+      "link": "https://www.navalnews.com/naval-news/2026/11/argentine-navy-interested-in-acquiring-up-to-three-fcx20-corvettes/",
+      "published": "Thu, 19 Nov 2026 20:35:59 +0000",
+      "source": "Naval News",
       "categories": [
         "deployment"
       ]
@@ -647,33 +656,6 @@
       "categories": [
         "deployment",
         "conflict"
-      ]
-    },
-    {
-      "title": "Acting Navy Secretary says longer deployments are ‘because’ there aren’t enough ships",
-      "link": "https://taskandpurpose.com/news/navy-secretary-long-deployments/",
-      "published": "Tue, 17 Nov 2026 11:58:17 -0500",
-      "source": "Task & Purpose",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Acting Navy Secretary calls suicide attempts on USS Abraham Lincoln ‘suicide mitigations’",
-      "link": "https://taskandpurpose.com/news/navy-secretary-hung-cao-mental-health/",
-      "published": "Tue, 17 Nov 2026 13:32:54 -0500",
-      "source": "Task & Purpose",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Reverting Ford-class Carriers to Steam is ‘Non-Starter,’ Says SASC Chair Wicker",
-      "link": "https://news.usni.org/2026/11/17/reverting-ford-class-carriers-to-steam-is-non-starter-says-sasc-chair-wicker",
-      "published": "Tue, 17 Nov 2026 23:17:02 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment"
       ]
     },
     {
@@ -838,18 +820,18 @@
   },
   "_conflict_news_refs": [
     {
-      "title": "MBDA and German startup Atmos team up to study space-based strike weapons",
-      "link": "https://www.defensenews.com/global/europe/2026/11/19/mbda-and-german-startup-atmos-team-up-to-study-space-based-strike-weapons/",
-      "published": "Thu, 19 Nov 2026 10:36:23 +0000",
-      "source": "Defense News",
+      "title": "Indian Navy Exploring Development of Rotating Detonation Engine Powered Supersonic Cruise Missile",
+      "link": "https://www.navalnews.com/naval-news/2026/11/indian-navy-exploring-development-of-rotating-detonation-engine-powered-supersonic-cruise-missile/",
+      "published": "Fri, 20 Nov 2026 07:41:40 +0000",
+      "source": "Naval News",
       "categories": [
         "conflict"
       ]
     },
     {
-      "title": "Ukraine plans to double drone supplies, triple deep strikes",
-      "link": "https://www.defensenews.com/global/europe/2026/11/19/ukraine-plans-to-double-drone-supplies-triple-deep-strikes/",
-      "published": "Thu, 19 Nov 2026 13:21:10 +0000",
+      "title": "German attack drones pass live-fire tests, with first deliveries planned this year",
+      "link": "https://www.defensenews.com/global/europe/2026/11/20/german-attack-drones-pass-live-fire-tests-with-first-deliveries-planned-this-year/",
+      "published": "Fri, 20 Nov 2026 16:55:38 +0000",
       "source": "Defense News",
       "categories": [
         "conflict"
@@ -873,18 +855,18 @@
       "categories": [
         "conflict"
       ]
-    },
-    {
-      "title": "US missile shortages create a range problem, report shows",
-      "link": "https://www.militarytimes.com/news/your-military/2026/11/19/us-missile-shortages-create-a-range-problem-report-shows/",
-      "published": "Thu, 19 Nov 2026 21:23:13 +0000",
-      "source": "Military Times",
-      "categories": [
-        "conflict"
-      ]
     }
   ],
   "_exercise_news_refs": [
+    {
+      "title": "Senator moves to strip controversial cuts from sweeping veterans benefits bill",
+      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/11/20/senator-moves-to-strip-controversial-cuts-from-sweeping-veterans-benefits-bill/",
+      "published": "Fri, 20 Nov 2026 21:21:30 +0000",
+      "source": "Military Times",
+      "categories": [
+        "exercise"
+      ]
+    },
     {
       "title": "New Army contract for bunkers in Middle East cites ‘extreme operational urgency’",
       "link": "https://taskandpurpose.com/news/army-bunkers-middle-east/",
@@ -903,32 +885,21 @@
       "categories": [
         "exercise"
       ]
-    },
-    {
-      "title": "U.K. Carrier Strike Group Concludes 6-month Operation Firecrest Deployment",
-      "link": "https://news.usni.org/2026/11/18/u-k-carrier-strike-group-concludes-6-month-operation-firecrest-deployment",
-      "published": "Wed, 18 Nov 2026 18:23:31 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment",
-        "exercise",
-        "conflict"
-      ]
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 12,
-    "conflict_articles": 6,
+    "deployment_articles": 8,
+    "conflict_articles": 4,
     "exercise_articles": 3,
-    "total_articles": 40,
-    "computed_at": "2026-11-20T13:45:46.174198+00:00",
+    "total_articles": 50,
+    "computed_at": "2026-11-20T21:35:06.329137+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
+      "[Naval News] Indian Navy Exploring Development of Rotating Detonation Engine Powered Supersonic Cruise Missile",
       "[Defense News] Dutch defense-industry plan targets 40% growth, €15 billion revenue by 2030",
-      "[Task & Purpose] USS George Washington leaves the Middle East as replacement carrier arrives",
-      "[Defense News] MBDA and German startup Atmos team up to study space-based strike weapons",
-      "[Task & Purpose] New Army contract for bunkers in Middle East cites ‘extreme operational urgency’",
-      "[Defense News] Ukraine plans to double drone supplies, triple deep strikes"
+      "[Naval News] TKMS Unveils Future German Navy F128 Frigate Model at Euronaval 2026",
+      "[Defense News] German attack drones pass live-fire tests, with first deliveries planned this year",
+      "[Military Times] Senator moves to strip controversial cuts from sweeping veterans benefits bill"
     ]
   },
   "ground_intel": {
@@ -939,12 +910,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-11-20T13:45:46.174242+00:00",
-    "article_count": 40,
-    "categorized_count": 17,
-    "freshest_source": "Defense News",
-    "freshest_title": "Dutch defense-industry plan targets 40% growth, €15 billion revenue by 2030",
-    "freshest_published": "Fri, 20 Nov 2026 11:56:51 +0000"
+    "last_successful_update": "2026-11-20T21:35:06.329182+00:00",
+    "article_count": 50,
+    "categorized_count": 13,
+    "freshest_source": "Naval News",
+    "freshest_title": "Indian Navy Exploring Development of Rotating Detonation Engine Powered Supersonic Cruise Missile",
+    "freshest_published": "Fri, 20 Nov 2026 07:41:40 +0000"
   },
   "_firms_hotspots": []
 }
