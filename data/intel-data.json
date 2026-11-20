@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-11-19T23:56:44Z",
-  "version": 3205,
+  "generated_utc": "2026-11-20T04:57:48Z",
+  "version": 3206,
   "breaking_alert": "Task & Purpose: USS George Washington leaves the Middle East as replacement carrier arrives",
   "naval_deployments": [
     {
@@ -921,7 +921,7 @@
     "conflict_articles": 7,
     "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-11-19T23:56:42.614525+00:00",
+    "computed_at": "2026-11-20T04:57:33.085269+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Task & Purpose] USS George Washington leaves the Middle East as replacement carrier arrives",
@@ -939,7 +939,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-11-19T23:56:42.614565+00:00",
+    "last_successful_update": "2026-11-20T04:57:33.085309+00:00",
     "article_count": 50,
     "categorized_count": 19,
     "freshest_source": "Task & Purpose",
