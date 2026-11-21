@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-11-21T02:53:16Z",
-  "version": 3209,
+  "generated_utc": "2026-11-21T10:20:22Z",
+  "version": 3210,
   "breaking_alert": "Naval News: Indian Navy Exploring Development of Rotating Detonation Engine Powered Supersonic Cruise Missile",
   "naval_deployments": [
     {
@@ -847,6 +847,15 @@
       ]
     },
     {
+      "title": "UK and Norway Commit Over £100M for Two New Fast Attack Craft for Ukraine",
+      "link": "https://www.navalnews.com/naval-news/2026/11/uk-and-norway-commit-over-100m-for-two-new-fast-attack-craft-for-ukraine/",
+      "published": "Sat, 21 Nov 2026 08:46:25 +0000",
+      "source": "Naval News",
+      "categories": [
+        "conflict"
+      ]
+    },
+    {
       "title": "U.S. Expands Iranian Blockade As Ship Attacks Continue",
       "link": "https://news.usni.org/2026/11/19/u-s-expands-iranian-blockade-as-ship-attacks-continue",
       "published": "Thu, 19 Nov 2026 20:54:23 +0000",
@@ -898,10 +907,10 @@
   ],
   "_threat_indicators": {
     "deployment_articles": 9,
-    "conflict_articles": 4,
+    "conflict_articles": 5,
     "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-11-21T02:53:13.028258+00:00",
+    "computed_at": "2026-11-21T10:20:18.931448+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] Indian Navy Exploring Development of Rotating Detonation Engine Powered Supersonic Cruise Missile",
@@ -919,9 +928,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-11-21T02:53:13.028300+00:00",
+    "last_successful_update": "2026-11-21T10:20:18.931479+00:00",
     "article_count": 50,
-    "categorized_count": 14,
+    "categorized_count": 15,
     "freshest_source": "Naval News",
     "freshest_title": "Indian Navy Exploring Development of Rotating Detonation Engine Powered Supersonic Cruise Missile",
     "freshest_published": "Fri, 20 Nov 2026 07:41:40 +0000"
