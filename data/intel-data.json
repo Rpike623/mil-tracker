@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-11-20T21:35:08Z",
-  "version": 3208,
+  "generated_utc": "2026-11-21T02:53:16Z",
+  "version": 3209,
   "breaking_alert": "Naval News: Indian Navy Exploring Development of Rotating Detonation Engine Powered Supersonic Cruise Missile",
   "naval_deployments": [
     {
@@ -612,6 +612,24 @@
       ]
     },
     {
+      "title": "Navy cargo ship crew honored for rescuing Philippine fishermen",
+      "link": "https://taskandpurpose.com/news/usns-cesar-chavez-philippine-rescue/",
+      "published": "Fri, 20 Nov 2026 16:47:39 -0500",
+      "source": "Task & Purpose",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Renowned Iraq War Marine under federal investigation",
+      "link": "https://www.militarytimes.com/news/2026/11/20/renowned-iraq-war-marine-under-federal-investigation/",
+      "published": "Fri, 20 Nov 2026 22:39:14 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "USS George Washington leaves the Middle East as replacement carrier arrives",
       "link": "https://taskandpurpose.com/news/uss-george-washington-leaves-middle-east-iran/",
       "published": "Thu, 19 Nov 2026 07:34:49 -0500",
@@ -656,15 +674,6 @@
       "categories": [
         "deployment",
         "conflict"
-      ]
-    },
-    {
-      "title": "US charges Irishman with destroying a $60 million Air Force C-130 with an axe",
-      "link": "https://taskandpurpose.com/news/c-130-damage-ireland-daithi-ocorrain/",
-      "published": "Wed, 18 Nov 2026 11:09:35 -0500",
-      "source": "Task & Purpose",
-      "categories": [
-        "deployment"
       ]
     }
   ],
@@ -888,18 +897,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 8,
+    "deployment_articles": 9,
     "conflict_articles": 4,
     "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-11-20T21:35:06.329137+00:00",
+    "computed_at": "2026-11-21T02:53:13.028258+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] Indian Navy Exploring Development of Rotating Detonation Engine Powered Supersonic Cruise Missile",
       "[Defense News] Dutch defense-industry plan targets 40% growth, €15 billion revenue by 2030",
       "[Naval News] TKMS Unveils Future German Navy F128 Frigate Model at Euronaval 2026",
-      "[Defense News] German attack drones pass live-fire tests, with first deliveries planned this year",
-      "[Military Times] Senator moves to strip controversial cuts from sweeping veterans benefits bill"
+      "[Task & Purpose] Navy cargo ship crew honored for rescuing Philippine fishermen",
+      "[Defense News] German attack drones pass live-fire tests, with first deliveries planned this year"
     ]
   },
   "ground_intel": {
@@ -910,9 +919,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-11-20T21:35:06.329182+00:00",
+    "last_successful_update": "2026-11-21T02:53:13.028300+00:00",
     "article_count": 50,
-    "categorized_count": 13,
+    "categorized_count": 14,
     "freshest_source": "Naval News",
     "freshest_title": "Indian Navy Exploring Development of Rotating Detonation Engine Powered Supersonic Cruise Missile",
     "freshest_published": "Fri, 20 Nov 2026 07:41:40 +0000"
