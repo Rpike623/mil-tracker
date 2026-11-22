@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-11-22T02:42:41Z",
-  "version": 3213,
+  "generated_utc": "2026-11-22T10:25:12Z",
+  "version": 3214,
   "breaking_alert": "Naval News: Indian Navy Exploring Development of Rotating Detonation Engine Powered Supersonic Cruise Missile",
   "naval_deployments": [
     {
@@ -910,7 +910,7 @@
     "conflict_articles": 5,
     "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-11-22T02:42:34.944778+00:00",
+    "computed_at": "2026-11-22T10:25:07.325136+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Naval News] Indian Navy Exploring Development of Rotating Detonation Engine Powered Supersonic Cruise Missile",
@@ -928,7 +928,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-11-22T02:42:34.944821+00:00",
+    "last_successful_update": "2026-11-22T10:25:07.325181+00:00",
     "article_count": 50,
     "categorized_count": 15,
     "freshest_source": "Naval News",
