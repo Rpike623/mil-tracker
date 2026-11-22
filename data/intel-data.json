@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-11-21T22:29:22Z",
-  "version": 3212,
-  "breaking_alert": "Defense News: Dutch defense-industry plan targets 40% growth, €15 billion revenue by 2030",
+  "generated_utc": "2026-11-22T02:42:41Z",
+  "version": 3213,
+  "breaking_alert": "Naval News: Indian Navy Exploring Development of Rotating Detonation Engine Powered Supersonic Cruise Missile",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -603,6 +603,15 @@
       ]
     },
     {
+      "title": "TKMS Unveils Future German Navy F128 Frigate Model at Euronaval 2026",
+      "link": "https://www.navalnews.com/naval-news/2026/11/tkms-unveils-future-german-navy-f128-frigate-model-at-euronaval-2026/",
+      "published": "Fri, 20 Nov 2026 14:49:23 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "Navy cargo ship crew honored for rescuing Philippine fishermen",
       "link": "https://taskandpurpose.com/news/usns-cesar-chavez-philippine-rescue/",
       "published": "Fri, 20 Nov 2026 16:47:39 -0500",
@@ -644,6 +653,15 @@
       "link": "https://www.defensenews.com/air/2026/11/19/f-35c-completes-first-launch-and-recovery-trials-on-a-ford-class-carrier/",
       "published": "Thu, 19 Nov 2026 17:38:00 +0000",
       "source": "Defense News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Argentine Navy interested in acquiring up to three FCX20 corvettes",
+      "link": "https://www.navalnews.com/naval-news/2026/11/argentine-navy-interested-in-acquiring-up-to-three-fcx20-corvettes/",
+      "published": "Thu, 19 Nov 2026 20:35:59 +0000",
+      "source": "Naval News",
       "categories": [
         "deployment"
       ]
@@ -811,10 +829,28 @@
   },
   "_conflict_news_refs": [
     {
+      "title": "Indian Navy Exploring Development of Rotating Detonation Engine Powered Supersonic Cruise Missile",
+      "link": "https://www.navalnews.com/naval-news/2026/11/indian-navy-exploring-development-of-rotating-detonation-engine-powered-supersonic-cruise-missile/",
+      "published": "Fri, 20 Nov 2026 07:41:40 +0000",
+      "source": "Naval News",
+      "categories": [
+        "conflict"
+      ]
+    },
+    {
       "title": "German attack drones pass live-fire tests, with first deliveries planned this year",
       "link": "https://www.defensenews.com/global/europe/2026/11/20/german-attack-drones-pass-live-fire-tests-with-first-deliveries-planned-this-year/",
       "published": "Fri, 20 Nov 2026 16:55:38 +0000",
       "source": "Defense News",
+      "categories": [
+        "conflict"
+      ]
+    },
+    {
+      "title": "UK and Norway Commit Over £100M for Two New Fast Attack Craft for Ukraine",
+      "link": "https://www.navalnews.com/naval-news/2026/11/uk-and-norway-commit-over-100m-for-two-new-fast-attack-craft-for-ukraine/",
+      "published": "Sat, 21 Nov 2026 08:46:25 +0000",
+      "source": "Naval News",
       "categories": [
         "conflict"
       ]
@@ -870,18 +906,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 7,
-    "conflict_articles": 3,
+    "deployment_articles": 9,
+    "conflict_articles": 5,
     "exercise_articles": 3,
-    "total_articles": 40,
-    "computed_at": "2026-11-21T22:29:17.991762+00:00",
+    "total_articles": 50,
+    "computed_at": "2026-11-22T02:42:34.944778+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
+      "[Naval News] Indian Navy Exploring Development of Rotating Detonation Engine Powered Supersonic Cruise Missile",
       "[Defense News] Dutch defense-industry plan targets 40% growth, €15 billion revenue by 2030",
+      "[Naval News] TKMS Unveils Future German Navy F128 Frigate Model at Euronaval 2026",
       "[Task & Purpose] Navy cargo ship crew honored for rescuing Philippine fishermen",
-      "[Defense News] German attack drones pass live-fire tests, with first deliveries planned this year",
-      "[Military Times] Senator moves to strip controversial cuts from sweeping veterans benefits bill",
-      "[Military Times] Renowned Iraq War Marine under federal investigation"
+      "[Defense News] German attack drones pass live-fire tests, with first deliveries planned this year"
     ]
   },
   "ground_intel": {
@@ -892,12 +928,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-11-21T22:29:17.991825+00:00",
-    "article_count": 40,
-    "categorized_count": 11,
-    "freshest_source": "Defense News",
-    "freshest_title": "Dutch defense-industry plan targets 40% growth, €15 billion revenue by 2030",
-    "freshest_published": "Fri, 20 Nov 2026 11:56:51 +0000"
+    "last_successful_update": "2026-11-22T02:42:34.944821+00:00",
+    "article_count": 50,
+    "categorized_count": 15,
+    "freshest_source": "Naval News",
+    "freshest_title": "Indian Navy Exploring Development of Rotating Detonation Engine Powered Supersonic Cruise Missile",
+    "freshest_published": "Fri, 20 Nov 2026 07:41:40 +0000"
   },
   "_firms_hotspots": []
 }
