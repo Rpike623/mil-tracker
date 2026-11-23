@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-11-23T04:15:31Z",
-  "version": 3217,
-  "breaking_alert": "Defense News: Dutch defense-industry plan targets 40% growth, €15 billion revenue by 2030",
+  "generated_utc": "2026-11-23T15:28:04Z",
+  "version": 3218,
+  "breaking_alert": "Task & Purpose: Navy cargo ship crew honored for rescuing Philippine fishermen",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -594,15 +594,6 @@
   ],
   "_naval_news_refs": [
     {
-      "title": "Dutch defense-industry plan targets 40% growth, €15 billion revenue by 2030",
-      "link": "https://www.defensenews.com/global/europe/2026/11/20/dutch-defense-industry-plan-targets-40-growth-e15-billion-revenue-by-2030/",
-      "published": "Fri, 20 Nov 2026 11:56:51 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Navy cargo ship crew honored for rescuing Philippine fishermen",
       "link": "https://taskandpurpose.com/news/usns-cesar-chavez-philippine-rescue/",
       "published": "Fri, 20 Nov 2026 16:47:39 -0500",
@@ -621,12 +612,41 @@
       ]
     },
     {
-      "title": "USS George Washington leaves the Middle East as replacement carrier arrives",
-      "link": "https://taskandpurpose.com/news/uss-george-washington-leaves-middle-east-iran/",
-      "published": "Thu, 19 Nov 2026 07:34:49 -0500",
-      "source": "Task & Purpose",
+      "title": "China’s fourth aircraft carrier, bigger than others and nuclear-powered, nears completion",
+      "link": "https://www.defensenews.com/global/asia-pacific/2026/11/23/chinas-fourth-aircraft-carrier-bigger-than-others-and-nuclear-powered-nears-completion/",
+      "published": "Mon, 23 Nov 2026 14:42:50 +0000",
+      "source": "Defense News",
       "categories": [
         "deployment"
+      ]
+    },
+    {
+      "title": "China’s fourth aircraft carrier, bigger than others and nuclear-powered, nears completion",
+      "link": "https://www.militarytimes.com/pentagon/2026/11/23/chinas-fourth-aircraft-carrier-bigger-than-others-and-nuclear-powered-nears-completion/",
+      "published": "Mon, 23 Nov 2026 14:42:50 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Ukraine strikes Russian warship and cargo vessel with naval drones in Libya",
+      "link": "https://www.defensenews.com/video/2026/11/23/ukraine-strikes-russian-warship-and-cargo-vessel-with-naval-drones-in-libya/",
+      "published": "Mon, 23 Nov 2026 15:07:10 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
+    },
+    {
+      "title": "Ukraine strikes Russian warship and cargo vessel with naval drones in Libya",
+      "link": "https://www.militarytimes.com/video/2026/11/23/ukraine-strikes-russian-warship-and-cargo-vessel-with-naval-drones-in-libya/",
+      "published": "Mon, 23 Nov 2026 15:07:10 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment",
+        "conflict"
       ]
     },
     {
@@ -637,15 +657,6 @@
       "categories": [
         "deployment",
         "exercise"
-      ]
-    },
-    {
-      "title": "F-35C completes first launch and recovery trials on a Ford-class carrier",
-      "link": "https://www.defensenews.com/air/2026/11/19/f-35c-completes-first-launch-and-recovery-trials-on-a-ford-class-carrier/",
-      "published": "Thu, 19 Nov 2026 17:38:00 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment"
       ]
     },
     {
@@ -820,6 +831,26 @@
       ]
     },
     {
+      "title": "Ukraine strikes Russian warship and cargo vessel with naval drones in Libya",
+      "link": "https://www.defensenews.com/video/2026/11/23/ukraine-strikes-russian-warship-and-cargo-vessel-with-naval-drones-in-libya/",
+      "published": "Mon, 23 Nov 2026 15:07:10 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
+    },
+    {
+      "title": "Ukraine strikes Russian warship and cargo vessel with naval drones in Libya",
+      "link": "https://www.militarytimes.com/video/2026/11/23/ukraine-strikes-russian-warship-and-cargo-vessel-with-naval-drones-in-libya/",
+      "published": "Mon, 23 Nov 2026 15:07:10 +0000",
+      "source": "Military Times",
+      "categories": [
+        "deployment",
+        "conflict"
+      ]
+    },
+    {
       "title": "U.S. Expands Iranian Blockade As Ship Attacks Continue",
       "link": "https://news.usni.org/2026/11/19/u-s-expands-iranian-blockade-as-ship-attacks-continue",
       "published": "Thu, 19 Nov 2026 20:54:23 +0000",
@@ -828,27 +859,9 @@
         "deployment",
         "conflict"
       ]
-    },
-    {
-      "title": "US missile shortages create a range problem, report shows",
-      "link": "https://www.defensenews.com/air/2026/11/19/us-missile-shortages-create-a-range-problem-report-shows/",
-      "published": "Thu, 19 Nov 2026 21:23:13 +0000",
-      "source": "Defense News",
-      "categories": [
-        "conflict"
-      ]
     }
   ],
   "_exercise_news_refs": [
-    {
-      "title": "Senator moves to strip controversial cuts from sweeping veterans benefits bill",
-      "link": "https://www.militarytimes.com/news/pentagon-congress/2026/11/20/senator-moves-to-strip-controversial-cuts-from-sweeping-veterans-benefits-bill/",
-      "published": "Fri, 20 Nov 2026 21:21:30 +0000",
-      "source": "Military Times",
-      "categories": [
-        "exercise"
-      ]
-    },
     {
       "title": "New Army contract for bunkers in Middle East cites ‘extreme operational urgency’",
       "link": "https://taskandpurpose.com/news/army-bunkers-middle-east/",
@@ -858,30 +871,21 @@
         "deployment",
         "exercise"
       ]
-    },
-    {
-      "title": "France and Sweden hold first joint nuclear-deterrence exercise",
-      "link": "https://www.defensenews.com/global/europe/2026/11/19/france-and-sweden-hold-first-joint-nuclear-deterrence-exercise/",
-      "published": "Thu, 19 Nov 2026 18:24:10 +0000",
-      "source": "Defense News",
-      "categories": [
-        "exercise"
-      ]
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 7,
-    "conflict_articles": 3,
-    "exercise_articles": 3,
+    "deployment_articles": 8,
+    "conflict_articles": 4,
+    "exercise_articles": 1,
     "total_articles": 40,
-    "computed_at": "2026-11-23T04:15:30.245458+00:00",
+    "computed_at": "2026-11-23T15:27:59.682545+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
-      "[Defense News] Dutch defense-industry plan targets 40% growth, €15 billion revenue by 2030",
       "[Task & Purpose] Navy cargo ship crew honored for rescuing Philippine fishermen",
       "[Defense News] German attack drones pass live-fire tests, with first deliveries planned this year",
-      "[Military Times] Senator moves to strip controversial cuts from sweeping veterans benefits bill",
-      "[Military Times] Renowned Iraq War Marine under federal investigation"
+      "[Military Times] Renowned Iraq War Marine under federal investigation",
+      "[Defense News] China’s fourth aircraft carrier, bigger than others and nuclear-powered, nears completion",
+      "[Military Times] China’s fourth aircraft carrier, bigger than others and nuclear-powered, nears completion"
     ]
   },
   "ground_intel": {
@@ -892,12 +896,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-11-23T04:15:30.245500+00:00",
+    "last_successful_update": "2026-11-23T15:27:59.682586+00:00",
     "article_count": 40,
-    "categorized_count": 11,
-    "freshest_source": "Defense News",
-    "freshest_title": "Dutch defense-industry plan targets 40% growth, €15 billion revenue by 2030",
-    "freshest_published": "Fri, 20 Nov 2026 11:56:51 +0000"
+    "categorized_count": 9,
+    "freshest_source": "Task & Purpose",
+    "freshest_title": "Navy cargo ship crew honored for rescuing Philippine fishermen",
+    "freshest_published": "Fri, 20 Nov 2026 16:47:39 -0500"
   },
   "_firms_hotspots": []
 }
