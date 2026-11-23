@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-11-22T23:55:14Z",
-  "version": 3216,
+  "generated_utc": "2026-11-23T04:15:31Z",
+  "version": 3217,
   "breaking_alert": "Defense News: Dutch defense-industry plan targets 40% growth, €15 billion revenue by 2030",
   "naval_deployments": [
     {
@@ -874,7 +874,7 @@
     "conflict_articles": 3,
     "exercise_articles": 3,
     "total_articles": 40,
-    "computed_at": "2026-11-22T23:55:08.955449+00:00",
+    "computed_at": "2026-11-23T04:15:30.245458+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Defense News] Dutch defense-industry plan targets 40% growth, €15 billion revenue by 2030",
@@ -892,7 +892,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-11-22T23:55:08.955491+00:00",
+    "last_successful_update": "2026-11-23T04:15:30.245500+00:00",
     "article_count": 40,
     "categorized_count": 11,
     "freshest_source": "Defense News",
