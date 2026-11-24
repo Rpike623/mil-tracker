@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-11-24T02:38:20Z",
-  "version": 3219,
-  "breaking_alert": "Task & Purpose: Navy cargo ship crew honored for rescuing Philippine fishermen",
+  "generated_utc": "2026-11-24T12:59:34Z",
+  "version": 3220,
+  "breaking_alert": "Naval News: TKMS Unveils Future German Navy F128 Frigate Model at Euronaval 2026",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -594,6 +594,15 @@
   ],
   "_naval_news_refs": [
     {
+      "title": "TKMS Unveils Future German Navy F128 Frigate Model at Euronaval 2026",
+      "link": "https://www.navalnews.com/naval-news/2026/11/tkms-unveils-future-german-navy-f128-frigate-model-at-euronaval-2026/",
+      "published": "Fri, 20 Nov 2026 14:49:23 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
       "title": "Navy cargo ship crew honored for rescuing Philippine fishermen",
       "link": "https://taskandpurpose.com/news/usns-cesar-chavez-philippine-rescue/",
       "published": "Fri, 20 Nov 2026 16:47:39 -0500",
@@ -675,16 +684,6 @@
       "source": "Military Times",
       "categories": [
         "deployment"
-      ]
-    },
-    {
-      "title": "U.S. Expands Iranian Blockade As Ship Attacks Continue",
-      "link": "https://news.usni.org/2026/11/19/u-s-expands-iranian-blockade-as-ship-attacks-continue",
-      "published": "Thu, 19 Nov 2026 20:54:23 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment",
-        "conflict"
       ]
     }
   ],
@@ -840,15 +839,6 @@
   },
   "_conflict_news_refs": [
     {
-      "title": "German attack drones pass live-fire tests, with first deliveries planned this year",
-      "link": "https://www.defensenews.com/global/europe/2026/11/20/german-attack-drones-pass-live-fire-tests-with-first-deliveries-planned-this-year/",
-      "published": "Fri, 20 Nov 2026 16:55:38 +0000",
-      "source": "Defense News",
-      "categories": [
-        "conflict"
-      ]
-    },
-    {
       "title": "Ukraine strikes Russian warship and cargo vessel with naval drones in Libya",
       "link": "https://www.defensenews.com/video/2026/11/23/ukraine-strikes-russian-warship-and-cargo-vessel-with-naval-drones-in-libya/",
       "published": "Mon, 23 Nov 2026 15:07:10 +0000",
@@ -869,12 +859,32 @@
       ]
     },
     {
+      "title": "UK and Norway Commit Over £100M for Two New Fast Attack Craft for Ukraine",
+      "link": "https://www.navalnews.com/naval-news/2026/11/uk-and-norway-commit-over-100m-for-two-new-fast-attack-craft-for-ukraine/",
+      "published": "Sat, 21 Nov 2026 08:46:25 +0000",
+      "source": "Naval News",
+      "categories": [
+        "conflict"
+      ]
+    },
+    {
       "title": "U.S. Expands Iranian Blockade As Ship Attacks Continue",
       "link": "https://news.usni.org/2026/11/19/u-s-expands-iranian-blockade-as-ship-attacks-continue",
       "published": "Thu, 19 Nov 2026 20:54:23 +0000",
       "source": "USNI News",
       "categories": [
         "deployment",
+        "conflict"
+      ]
+    },
+    {
+      "title": "Blacksword Barracuda: An Attack Submarine to Deliver Operational Superiority",
+      "link": "https://www.navalnews.com/features/2026/11/naval-group-blacksword-barracuda-submarine-greece/",
+      "published": "Tue, 24 Nov 2026 10:02:56 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment",
+        "exercise",
         "conflict"
       ]
     }
@@ -889,18 +899,29 @@
         "deployment",
         "exercise"
       ]
+    },
+    {
+      "title": "Blacksword Barracuda: An Attack Submarine to Deliver Operational Superiority",
+      "link": "https://www.navalnews.com/features/2026/11/naval-group-blacksword-barracuda-submarine-greece/",
+      "published": "Tue, 24 Nov 2026 10:02:56 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment",
+        "exercise",
+        "conflict"
+      ]
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 10,
-    "conflict_articles": 4,
-    "exercise_articles": 1,
-    "total_articles": 40,
-    "computed_at": "2026-11-24T02:38:14.171507+00:00",
+    "deployment_articles": 12,
+    "conflict_articles": 5,
+    "exercise_articles": 2,
+    "total_articles": 50,
+    "computed_at": "2026-11-24T12:59:28.856095+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
+      "[Naval News] TKMS Unveils Future German Navy F128 Frigate Model at Euronaval 2026",
       "[Task & Purpose] Navy cargo ship crew honored for rescuing Philippine fishermen",
-      "[Defense News] German attack drones pass live-fire tests, with first deliveries planned this year",
       "[Task & Purpose] Tracking America’s latest conflict: The Iran war timeline",
       "[Defense News] China’s fourth aircraft carrier, bigger than others and nuclear-powered, nears completion",
       "[Defense News] Ukraine strikes Russian warship and cargo vessel with naval drones in Libya"
@@ -914,12 +935,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-11-24T02:38:14.171542+00:00",
-    "article_count": 40,
-    "categorized_count": 11,
-    "freshest_source": "Task & Purpose",
-    "freshest_title": "Navy cargo ship crew honored for rescuing Philippine fishermen",
-    "freshest_published": "Fri, 20 Nov 2026 16:47:39 -0500"
+    "last_successful_update": "2026-11-24T12:59:28.856129+00:00",
+    "article_count": 50,
+    "categorized_count": 13,
+    "freshest_source": "Naval News",
+    "freshest_title": "TKMS Unveils Future German Navy F128 Frigate Model at Euronaval 2026",
+    "freshest_published": "Fri, 20 Nov 2026 14:49:23 +0000"
   },
   "_firms_hotspots": []
 }
