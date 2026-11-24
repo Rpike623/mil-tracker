@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-11-24T12:59:34Z",
-  "version": 3220,
-  "breaking_alert": "Naval News: TKMS Unveils Future German Navy F128 Frigate Model at Euronaval 2026",
+  "generated_utc": "2026-11-24T22:54:21Z",
+  "version": 3221,
+  "breaking_alert": "Task & Purpose: Navy cargo ship crew honored for rescuing Philippine fishermen",
   "naval_deployments": [
     {
       "name": "CSG-3 — USS Abraham Lincoln (CVN-72)",
@@ -594,15 +594,6 @@
   ],
   "_naval_news_refs": [
     {
-      "title": "TKMS Unveils Future German Navy F128 Frigate Model at Euronaval 2026",
-      "link": "https://www.navalnews.com/naval-news/2026/11/tkms-unveils-future-german-navy-f128-frigate-model-at-euronaval-2026/",
-      "published": "Fri, 20 Nov 2026 14:49:23 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Navy cargo ship crew honored for rescuing Philippine fishermen",
       "link": "https://taskandpurpose.com/news/usns-cesar-chavez-philippine-rescue/",
       "published": "Fri, 20 Nov 2026 16:47:39 -0500",
@@ -640,25 +631,6 @@
       ]
     },
     {
-      "title": "Ukraine strikes Russian warship and cargo vessel with naval drones in Libya",
-      "link": "https://www.militarytimes.com/video/2026/11/23/ukraine-strikes-russian-warship-and-cargo-vessel-with-naval-drones-in-libya/",
-      "published": "Mon, 23 Nov 2026 15:07:10 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
-      "title": "USS Doris Miller to keep its name, Navy says",
-      "link": "https://www.militarytimes.com/news/your-military/2026/11/23/uss-doris-miller-to-keep-its-name-navy-says/",
-      "published": "Mon, 23 Nov 2026 16:45:54 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Recon Marines Join Finnish Naval Exercise, Baltic NATO Naval Drills",
       "link": "https://news.usni.org/2026/11/23/recon-marines-join-finnish-naval-exercise-baltic-nato-naval-drills",
       "published": "Mon, 23 Nov 2026 18:22:12 +0000",
@@ -682,6 +654,26 @@
       "link": "https://www.militarytimes.com/news/your-military/2026/11/23/uss-theodore-roosevelt-replaces-uss-george-washington-in-the-middle-east/",
       "published": "Mon, 23 Nov 2026 21:39:57 +0000",
       "source": "Military Times",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Blacksword Barracuda: An Attack Submarine to Deliver Operational Superiority",
+      "link": "https://www.navalnews.com/features/2026/11/naval-group-blacksword-barracuda-submarine-greece/",
+      "published": "Tue, 24 Nov 2026 10:02:56 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment",
+        "exercise",
+        "conflict"
+      ]
+    },
+    {
+      "title": "Amphibs USS Makin Island, USS John P. Murtha Depart Singapore",
+      "link": "https://news.usni.org/2026/11/24/amphibs-uss-makin-island-uss-john-p-murtha-depart-singapore",
+      "published": "Tue, 24 Nov 2026 17:36:27 +0000",
+      "source": "USNI News",
       "categories": [
         "deployment"
       ]
@@ -849,31 +841,11 @@
       ]
     },
     {
-      "title": "Ukraine strikes Russian warship and cargo vessel with naval drones in Libya",
-      "link": "https://www.militarytimes.com/video/2026/11/23/ukraine-strikes-russian-warship-and-cargo-vessel-with-naval-drones-in-libya/",
-      "published": "Mon, 23 Nov 2026 15:07:10 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
       "title": "UK and Norway Commit Over £100M for Two New Fast Attack Craft for Ukraine",
       "link": "https://www.navalnews.com/naval-news/2026/11/uk-and-norway-commit-over-100m-for-two-new-fast-attack-craft-for-ukraine/",
       "published": "Sat, 21 Nov 2026 08:46:25 +0000",
       "source": "Naval News",
       "categories": [
-        "conflict"
-      ]
-    },
-    {
-      "title": "U.S. Expands Iranian Blockade As Ship Attacks Continue",
-      "link": "https://news.usni.org/2026/11/19/u-s-expands-iranian-blockade-as-ship-attacks-continue",
-      "published": "Thu, 19 Nov 2026 20:54:23 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment",
         "conflict"
       ]
     },
@@ -885,6 +857,24 @@
       "categories": [
         "deployment",
         "exercise",
+        "conflict"
+      ]
+    },
+    {
+      "title": "U.S. Navy Taps Raytheon to Advance SLCM-N Nuclear Cruise Missile",
+      "link": "https://www.navalnews.com/naval-news/2026/11/u-s-navy-taps-raytheon-to-advance-slcm-n-nuclear-cruise-missile/",
+      "published": "Tue, 24 Nov 2026 16:33:31 +0000",
+      "source": "Naval News",
+      "categories": [
+        "conflict"
+      ]
+    },
+    {
+      "title": "Philippine Forces Train to Secure Luzon Strait with Warships, BrahMos Missiles",
+      "link": "https://news.usni.org/2026/11/24/philippine-forces-train-to-secure-luzon-strait-with-warships-brahmos-missiles",
+      "published": "Tue, 24 Nov 2026 18:47:20 +0000",
+      "source": "USNI News",
+      "categories": [
         "conflict"
       ]
     }
@@ -913,18 +903,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 12,
+    "deployment_articles": 9,
     "conflict_articles": 5,
     "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-11-24T12:59:28.856095+00:00",
+    "computed_at": "2026-11-24T22:54:12.947520+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
-      "[Naval News] TKMS Unveils Future German Navy F128 Frigate Model at Euronaval 2026",
       "[Task & Purpose] Navy cargo ship crew honored for rescuing Philippine fishermen",
       "[Task & Purpose] Tracking America’s latest conflict: The Iran war timeline",
       "[Defense News] China’s fourth aircraft carrier, bigger than others and nuclear-powered, nears completion",
-      "[Defense News] Ukraine strikes Russian warship and cargo vessel with naval drones in Libya"
+      "[Defense News] Ukraine strikes Russian warship and cargo vessel with naval drones in Libya",
+      "[USNI News] Recon Marines Join Finnish Naval Exercise, Baltic NATO Naval Drills"
     ]
   },
   "ground_intel": {
@@ -935,12 +925,12 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-11-24T12:59:28.856129+00:00",
+    "last_successful_update": "2026-11-24T22:54:12.947558+00:00",
     "article_count": 50,
-    "categorized_count": 13,
-    "freshest_source": "Naval News",
-    "freshest_title": "TKMS Unveils Future German Navy F128 Frigate Model at Euronaval 2026",
-    "freshest_published": "Fri, 20 Nov 2026 14:49:23 +0000"
+    "categorized_count": 12,
+    "freshest_source": "Task & Purpose",
+    "freshest_title": "Navy cargo ship crew honored for rescuing Philippine fishermen",
+    "freshest_published": "Fri, 20 Nov 2026 16:47:39 -0500"
   },
   "_firms_hotspots": []
 }
