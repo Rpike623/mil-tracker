@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-11-25T05:06:11Z",
-  "version": 3222,
+  "generated_utc": "2026-11-25T16:15:59Z",
+  "version": 3223,
   "breaking_alert": "Task & Purpose: Navy cargo ship crew honored for rescuing Philippine fishermen",
   "naval_deployments": [
     {
@@ -612,25 +612,6 @@
       ]
     },
     {
-      "title": "China’s fourth aircraft carrier, bigger than others and nuclear-powered, nears completion",
-      "link": "https://www.defensenews.com/global/asia-pacific/2026/11/23/chinas-fourth-aircraft-carrier-bigger-than-others-and-nuclear-powered-nears-completion/",
-      "published": "Mon, 23 Nov 2026 14:42:50 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "Ukraine strikes Russian warship and cargo vessel with naval drones in Libya",
-      "link": "https://www.defensenews.com/video/2026/11/23/ukraine-strikes-russian-warship-and-cargo-vessel-with-naval-drones-in-libya/",
-      "published": "Mon, 23 Nov 2026 15:07:10 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
       "title": "Recon Marines Join Finnish Naval Exercise, Baltic NATO Naval Drills",
       "link": "https://news.usni.org/2026/11/23/recon-marines-join-finnish-naval-exercise-baltic-nato-naval-drills",
       "published": "Mon, 23 Nov 2026 18:22:12 +0000",
@@ -645,15 +626,6 @@
       "link": "https://news.usni.org/2026/11/23/usni-news-fleet-and-marine-tracker-nov-23-2026",
       "published": "Mon, 23 Nov 2026 19:39:32 +0000",
       "source": "USNI News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
-      "title": "USS Theodore Roosevelt replaces USS George Washington in the Middle East",
-      "link": "https://www.militarytimes.com/news/your-military/2026/11/23/uss-theodore-roosevelt-replaces-uss-george-washington-in-the-middle-east/",
-      "published": "Mon, 23 Nov 2026 21:39:57 +0000",
-      "source": "Military Times",
       "categories": [
         "deployment"
       ]
@@ -674,6 +646,25 @@
       "link": "https://news.usni.org/2026/11/24/amphibs-uss-makin-island-uss-john-p-murtha-depart-singapore",
       "published": "Tue, 24 Nov 2026 17:36:27 +0000",
       "source": "USNI News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "Buried in Italy’s budget, officials see Rome meeting NATO spending target",
+      "link": "https://www.defensenews.com/global/europe/2026/11/25/buried-in-italys-budget-officials-see-rome-meeting-nato-spending-target/",
+      "published": "Wed, 25 Nov 2026 10:22:51 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment",
+        "exercise"
+      ]
+    },
+    {
+      "title": "AI models easily coaxed into identifying military targets, study finds",
+      "link": "https://www.militarytimes.com/news/your-military/2026/11/25/ai-models-easily-coaxed-into-identifying-military-targets-study-finds/",
+      "published": "Wed, 25 Nov 2026 15:15:04 +0000",
+      "source": "Military Times",
       "categories": [
         "deployment"
       ]
@@ -831,25 +822,6 @@
   },
   "_conflict_news_refs": [
     {
-      "title": "Ukraine strikes Russian warship and cargo vessel with naval drones in Libya",
-      "link": "https://www.defensenews.com/video/2026/11/23/ukraine-strikes-russian-warship-and-cargo-vessel-with-naval-drones-in-libya/",
-      "published": "Mon, 23 Nov 2026 15:07:10 +0000",
-      "source": "Defense News",
-      "categories": [
-        "deployment",
-        "conflict"
-      ]
-    },
-    {
-      "title": "UK and Norway Commit Over £100M for Two New Fast Attack Craft for Ukraine",
-      "link": "https://www.navalnews.com/naval-news/2026/11/uk-and-norway-commit-over-100m-for-two-new-fast-attack-craft-for-ukraine/",
-      "published": "Sat, 21 Nov 2026 08:46:25 +0000",
-      "source": "Naval News",
-      "categories": [
-        "conflict"
-      ]
-    },
-    {
       "title": "Blacksword Barracuda: An Attack Submarine to Deliver Operational Superiority",
       "link": "https://www.navalnews.com/features/2026/11/naval-group-blacksword-barracuda-submarine-greece/",
       "published": "Tue, 24 Nov 2026 10:02:56 +0000",
@@ -877,6 +849,24 @@
       "categories": [
         "conflict"
       ]
+    },
+    {
+      "title": "Poland Lays Keel for Third Miecznik Frigate, Signs CAMM-MR Missile Deal with UK",
+      "link": "https://www.navalnews.com/naval-news/2026/11/poland-lays-keel-third-miecznik-frigate-huragan/",
+      "published": "Wed, 25 Nov 2026 09:06:43 +0000",
+      "source": "Naval News",
+      "categories": [
+        "conflict"
+      ]
+    },
+    {
+      "title": "Czech jet engine maker eyes growing role as US supplier in drones, missiles",
+      "link": "https://www.defensenews.com/global/europe/2026/11/25/czech-jet-engine-maker-eyes-growing-role-as-us-supplier-in-drones-missiles/",
+      "published": "Wed, 25 Nov 2026 09:33:18 +0000",
+      "source": "Defense News",
+      "categories": [
+        "conflict"
+      ]
     }
   ],
   "_exercise_news_refs": [
@@ -900,21 +890,31 @@
         "exercise",
         "conflict"
       ]
+    },
+    {
+      "title": "Buried in Italy’s budget, officials see Rome meeting NATO spending target",
+      "link": "https://www.defensenews.com/global/europe/2026/11/25/buried-in-italys-budget-officials-see-rome-meeting-nato-spending-target/",
+      "published": "Wed, 25 Nov 2026 10:22:51 +0000",
+      "source": "Defense News",
+      "categories": [
+        "deployment",
+        "exercise"
+      ]
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 9,
-    "conflict_articles": 5,
-    "exercise_articles": 2,
+    "deployment_articles": 8,
+    "conflict_articles": 6,
+    "exercise_articles": 3,
     "total_articles": 50,
-    "computed_at": "2026-11-25T05:06:03.865889+00:00",
+    "computed_at": "2026-11-25T16:15:50.797431+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Task & Purpose] Navy cargo ship crew honored for rescuing Philippine fishermen",
       "[Task & Purpose] Tracking America’s latest conflict: The Iran war timeline",
-      "[Defense News] China’s fourth aircraft carrier, bigger than others and nuclear-powered, nears completion",
-      "[Defense News] Ukraine strikes Russian warship and cargo vessel with naval drones in Libya",
-      "[USNI News] Recon Marines Join Finnish Naval Exercise, Baltic NATO Naval Drills"
+      "[USNI News] Recon Marines Join Finnish Naval Exercise, Baltic NATO Naval Drills",
+      "[USNI News] USNI News Fleet and Marine Tracker: Nov. 23, 2026",
+      "[Naval News] Blacksword Barracuda: An Attack Submarine to Deliver Operational Superiority"
     ]
   },
   "ground_intel": {
@@ -925,9 +925,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-11-25T05:06:03.865929+00:00",
+    "last_successful_update": "2026-11-25T16:15:50.797464+00:00",
     "article_count": 50,
-    "categorized_count": 12,
+    "categorized_count": 13,
     "freshest_source": "Task & Purpose",
     "freshest_title": "Navy cargo ship crew honored for rescuing Philippine fishermen",
     "freshest_published": "Fri, 20 Nov 2026 16:47:39 -0500"
