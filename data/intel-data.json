@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-11-24T22:54:21Z",
-  "version": 3221,
+  "generated_utc": "2026-11-25T05:06:11Z",
+  "version": 3222,
   "breaking_alert": "Task & Purpose: Navy cargo ship crew honored for rescuing Philippine fishermen",
   "naval_deployments": [
     {
@@ -907,7 +907,7 @@
     "conflict_articles": 5,
     "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-11-24T22:54:12.947520+00:00",
+    "computed_at": "2026-11-25T05:06:03.865889+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Task & Purpose] Navy cargo ship crew honored for rescuing Philippine fishermen",
@@ -925,7 +925,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-11-24T22:54:12.947558+00:00",
+    "last_successful_update": "2026-11-25T05:06:03.865929+00:00",
     "article_count": 50,
     "categorized_count": 12,
     "freshest_source": "Task & Purpose",
