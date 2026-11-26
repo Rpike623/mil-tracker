@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-11-26T00:44:32Z",
-  "version": 3224,
+  "generated_utc": "2026-11-26T08:58:15Z",
+  "version": 3225,
   "breaking_alert": "Task & Purpose: Tracking America’s latest conflict: The Iran war timeline",
   "naval_deployments": [
     {
@@ -622,14 +622,12 @@
       ]
     },
     {
-      "title": "Blacksword Barracuda: An Attack Submarine to Deliver Operational Superiority",
-      "link": "https://www.navalnews.com/features/2026/11/naval-group-blacksword-barracuda-submarine-greece/",
-      "published": "Tue, 24 Nov 2026 10:02:56 +0000",
+      "title": "Euronaval 2026: Euroatlas and EvoLogics Move Greyshark AUV into Series Production",
+      "link": "https://www.navalnews.com/event-news/euronaval-2026/2026/11/euronaval-2026-euroatlas-evologics-greyshark-uuv-series-production/",
+      "published": "Thu, 26 Nov 2026 08:53:59 +0000",
       "source": "Naval News",
       "categories": [
-        "deployment",
-        "exercise",
-        "conflict"
+        "deployment"
       ]
     },
     {
@@ -849,17 +847,6 @@
       ]
     },
     {
-      "title": "Blacksword Barracuda: An Attack Submarine to Deliver Operational Superiority",
-      "link": "https://www.navalnews.com/features/2026/11/naval-group-blacksword-barracuda-submarine-greece/",
-      "published": "Tue, 24 Nov 2026 10:02:56 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment",
-        "exercise",
-        "conflict"
-      ]
-    },
-    {
       "title": "U.S. Navy Taps Raytheon to Advance SLCM-N Nuclear Cruise Missile",
       "link": "https://www.navalnews.com/naval-news/2026/11/u-s-navy-taps-raytheon-to-advance-slcm-n-nuclear-cruise-missile/",
       "published": "Tue, 24 Nov 2026 16:33:31 +0000",
@@ -885,6 +872,15 @@
       "categories": [
         "conflict"
       ]
+    },
+    {
+      "title": "Czech jet engine maker eyes growing role as US supplier in drones, missiles",
+      "link": "https://www.defensenews.com/global/europe/2026/11/25/czech-jet-engine-maker-eyes-growing-role-as-us-supplier-in-drones-missiles/",
+      "published": "Wed, 25 Nov 2026 09:33:18 +0000",
+      "source": "Defense News",
+      "categories": [
+        "conflict"
+      ]
     }
   ],
   "_exercise_news_refs": [
@@ -896,17 +892,6 @@
       "categories": [
         "deployment",
         "exercise"
-      ]
-    },
-    {
-      "title": "Blacksword Barracuda: An Attack Submarine to Deliver Operational Superiority",
-      "link": "https://www.navalnews.com/features/2026/11/naval-group-blacksword-barracuda-submarine-greece/",
-      "published": "Tue, 24 Nov 2026 10:02:56 +0000",
-      "source": "Naval News",
-      "categories": [
-        "deployment",
-        "exercise",
-        "conflict"
       ]
     },
     {
@@ -922,17 +907,17 @@
   ],
   "_threat_indicators": {
     "deployment_articles": 10,
-    "conflict_articles": 9,
-    "exercise_articles": 3,
+    "conflict_articles": 8,
+    "exercise_articles": 2,
     "total_articles": 50,
-    "computed_at": "2026-11-26T00:44:21.712285+00:00",
+    "computed_at": "2026-11-26T08:57:57.350916+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[Task & Purpose] Tracking America’s latest conflict: The Iran war timeline",
       "[USNI News] Recon Marines Join Finnish Naval Exercise, Baltic NATO Naval Drills",
       "[USNI News] USNI News Fleet and Marine Tracker: Nov. 23, 2026",
       "[Naval News] Indonesian Navy Takes Delivery of 58-Knot Missile-Capable USV",
-      "[Naval News] Blacksword Barracuda: An Attack Submarine to Deliver Operational Superiority"
+      "[Naval News] Euronaval 2026: Euroatlas and EvoLogics Move Greyshark AUV into Series Production"
     ]
   },
   "ground_intel": {
@@ -943,7 +928,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-11-26T00:44:21.712318+00:00",
+    "last_successful_update": "2026-11-26T08:57:57.350954+00:00",
     "article_count": 50,
     "categorized_count": 18,
     "freshest_source": "Task & Purpose",
