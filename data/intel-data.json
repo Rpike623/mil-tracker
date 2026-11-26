@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-11-26T08:58:15Z",
-  "version": 3225,
+  "generated_utc": "2026-11-26T18:46:22Z",
+  "version": 3226,
   "breaking_alert": "Task & Purpose: Tracking America’s latest conflict: The Iran war timeline",
   "naval_deployments": [
     {
@@ -603,16 +603,6 @@
       ]
     },
     {
-      "title": "Recon Marines Join Finnish Naval Exercise, Baltic NATO Naval Drills",
-      "link": "https://news.usni.org/2026/11/23/recon-marines-join-finnish-naval-exercise-baltic-nato-naval-drills",
-      "published": "Mon, 23 Nov 2026 18:22:12 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment",
-        "exercise"
-      ]
-    },
-    {
       "title": "USNI News Fleet and Marine Tracker: Nov. 23, 2026",
       "link": "https://news.usni.org/2026/11/23/usni-news-fleet-and-marine-tracker-nov-23-2026",
       "published": "Mon, 23 Nov 2026 19:39:32 +0000",
@@ -625,6 +615,15 @@
       "title": "Euronaval 2026: Euroatlas and EvoLogics Move Greyshark AUV into Series Production",
       "link": "https://www.navalnews.com/event-news/euronaval-2026/2026/11/euronaval-2026-euroatlas-evologics-greyshark-uuv-series-production/",
       "published": "Thu, 26 Nov 2026 08:53:59 +0000",
+      "source": "Naval News",
+      "categories": [
+        "deployment"
+      ]
+    },
+    {
+      "title": "UK MOD Awards Babcock Record £8.7B ‘Gateway’ Submarine Support Deal",
+      "link": "https://www.navalnews.com/naval-news/2026/11/uk-mod-awards-babcock-record-8-7b-gateway-submarine-support-deal/",
+      "published": "Thu, 26 Nov 2026 14:09:34 +0000",
       "source": "Naval News",
       "categories": [
         "deployment"
@@ -847,10 +846,10 @@
       ]
     },
     {
-      "title": "U.S. Navy Taps Raytheon to Advance SLCM-N Nuclear Cruise Missile",
-      "link": "https://www.navalnews.com/naval-news/2026/11/u-s-navy-taps-raytheon-to-advance-slcm-n-nuclear-cruise-missile/",
-      "published": "Tue, 24 Nov 2026 16:33:31 +0000",
-      "source": "Naval News",
+      "title": "Taiwan Navy Receives Last Tuo Chiang-class Missile Corvettes",
+      "link": "https://news.usni.org/2026/11/26/taiwan-navy-receives-last-tuo-chiang-class-missile-corvettes",
+      "published": "Thu, 26 Nov 2026 18:19:28 +0000",
+      "source": "USNI News",
       "categories": [
         "conflict"
       ]
@@ -885,16 +884,6 @@
   ],
   "_exercise_news_refs": [
     {
-      "title": "Recon Marines Join Finnish Naval Exercise, Baltic NATO Naval Drills",
-      "link": "https://news.usni.org/2026/11/23/recon-marines-join-finnish-naval-exercise-baltic-nato-naval-drills",
-      "published": "Mon, 23 Nov 2026 18:22:12 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment",
-        "exercise"
-      ]
-    },
-    {
       "title": "Buried in Italy’s budget, officials see Rome meeting NATO spending target",
       "link": "https://www.defensenews.com/global/europe/2026/11/25/buried-in-italys-budget-officials-see-rome-meeting-nato-spending-target/",
       "published": "Wed, 25 Nov 2026 10:22:51 +0000",
@@ -908,16 +897,16 @@
   "_threat_indicators": {
     "deployment_articles": 10,
     "conflict_articles": 8,
-    "exercise_articles": 2,
+    "exercise_articles": 1,
     "total_articles": 50,
-    "computed_at": "2026-11-26T08:57:57.350916+00:00",
+    "computed_at": "2026-11-26T18:46:13.416989+00:00",
     "manual_override": "DEFCON_2",
     "breaking_events": [
       "[Task & Purpose] Tracking America’s latest conflict: The Iran war timeline",
-      "[USNI News] Recon Marines Join Finnish Naval Exercise, Baltic NATO Naval Drills",
       "[USNI News] USNI News Fleet and Marine Tracker: Nov. 23, 2026",
       "[Naval News] Indonesian Navy Takes Delivery of 58-Knot Missile-Capable USV",
-      "[Naval News] Euronaval 2026: Euroatlas and EvoLogics Move Greyshark AUV into Series Production"
+      "[Naval News] Euronaval 2026: Euroatlas and EvoLogics Move Greyshark AUV into Series Production",
+      "[Naval News] UK MOD Awards Babcock Record £8.7B ‘Gateway’ Submarine Support Deal"
     ]
   },
   "ground_intel": {
@@ -928,7 +917,7 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-11-26T08:57:57.350954+00:00",
+    "last_successful_update": "2026-11-26T18:46:13.417029+00:00",
     "article_count": 50,
     "categorized_count": 18,
     "freshest_source": "Task & Purpose",
