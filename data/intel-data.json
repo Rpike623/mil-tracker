@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-11-27T10:27:54Z",
-  "version": 3228,
+  "generated_utc": "2026-11-27T19:42:18Z",
+  "version": 3229,
   "breaking_alert": "Task & Purpose: Tracking America’s latest conflict: The Iran war timeline",
   "naval_deployments": [
     {
@@ -603,15 +603,6 @@
       ]
     },
     {
-      "title": "USNI News Fleet and Marine Tracker: Nov. 23, 2026",
-      "link": "https://news.usni.org/2026/11/23/usni-news-fleet-and-marine-tracker-nov-23-2026",
-      "published": "Mon, 23 Nov 2026 19:39:32 +0000",
-      "source": "USNI News",
-      "categories": [
-        "deployment"
-      ]
-    },
-    {
       "title": "Euronaval 2026: Euroatlas and EvoLogics Move Greyshark AUV into Series Production",
       "link": "https://www.navalnews.com/event-news/euronaval-2026/2026/11/euronaval-2026-euroatlas-evologics-greyshark-uuv-series-production/",
       "published": "Thu, 26 Nov 2026 08:53:59 +0000",
@@ -646,15 +637,6 @@
       "categories": [
         "deployment",
         "exercise"
-      ]
-    },
-    {
-      "title": "AI models easily coaxed into identifying military targets, study finds",
-      "link": "https://www.militarytimes.com/news/your-military/2026/11/25/ai-models-easily-coaxed-into-identifying-military-targets-study-finds/",
-      "published": "Wed, 25 Nov 2026 15:15:04 +0000",
-      "source": "Military Times",
-      "categories": [
-        "deployment"
       ]
     },
     {
@@ -864,18 +846,18 @@
       ]
     },
     {
-      "title": "Czech jet engine maker eyes growing role as US supplier in drones, missiles",
-      "link": "https://www.defensenews.com/global/europe/2026/11/25/czech-jet-engine-maker-eyes-growing-role-as-us-supplier-in-drones-missiles/",
-      "published": "Wed, 25 Nov 2026 09:33:18 +0000",
+      "title": "Japan to use Indian ranges for long-range missile training under new pact",
+      "link": "https://www.defensenews.com/global/asia-pacific/2026/11/25/japan-to-use-indian-ranges-for-long-range-missile-training-under-new-pact/",
+      "published": "Wed, 25 Nov 2026 14:54:29 +0000",
       "source": "Defense News",
       "categories": [
         "conflict"
       ]
     },
     {
-      "title": "Japan to use Indian ranges for long-range missile training under new pact",
-      "link": "https://www.defensenews.com/global/asia-pacific/2026/11/25/japan-to-use-indian-ranges-for-long-range-missile-training-under-new-pact/",
-      "published": "Wed, 25 Nov 2026 14:54:29 +0000",
+      "title": "Estimates of Russians killed in Ukraine surpass all combined US war deaths since WWI",
+      "link": "https://www.defensenews.com/global/europe/2026/11/25/estimates-of-russians-killed-in-ukraine-surpass-all-combined-us-war-deaths-since-wwi/",
+      "published": "Wed, 25 Nov 2026 18:27:12 +0000",
       "source": "Defense News",
       "categories": [
         "conflict"
@@ -895,18 +877,18 @@
     }
   ],
   "_threat_indicators": {
-    "deployment_articles": 10,
-    "conflict_articles": 7,
+    "deployment_articles": 8,
+    "conflict_articles": 6,
     "exercise_articles": 1,
     "total_articles": 50,
-    "computed_at": "2026-11-27T10:27:51.009791+00:00",
+    "computed_at": "2026-11-27T19:42:13.488719+00:00",
     "manual_override": "DEFCON_3",
     "breaking_events": [
       "[Task & Purpose] Tracking America’s latest conflict: The Iran war timeline",
-      "[USNI News] USNI News Fleet and Marine Tracker: Nov. 23, 2026",
       "[Naval News] Indonesian Navy Takes Delivery of 58-Knot Missile-Capable USV",
       "[Naval News] Euronaval 2026: Euroatlas and EvoLogics Move Greyshark AUV into Series Production",
-      "[Naval News] UK MOD Awards Babcock Record £8.7B ‘Gateway’ Submarine Support Deal"
+      "[Naval News] UK MOD Awards Babcock Record £8.7B ‘Gateway’ Submarine Support Deal",
+      "[USNI News] Taiwan Navy Receives Last Tuo Chiang-class Missile Corvettes"
     ]
   },
   "ground_intel": {
@@ -917,9 +899,9 @@
     "diplomatic_breakdown": 5
   },
   "_pipeline_status": {
-    "last_successful_update": "2026-11-27T10:27:51.009825+00:00",
+    "last_successful_update": "2026-11-27T19:42:13.488750+00:00",
     "article_count": 50,
-    "categorized_count": 17,
+    "categorized_count": 14,
     "freshest_source": "Task & Purpose",
     "freshest_title": "Tracking America’s latest conflict: The Iran war timeline",
     "freshest_published": "Mon, 23 Nov 2026 12:53:41 -0500"
